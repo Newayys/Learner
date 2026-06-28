@@ -1,0 +1,496 @@
+{
+  "concours": "Banque PT",
+  "filiere": "SIC",
+  "date": "2019",
+  "file": "BPT_SIC_2019.pdf",
+  "status": 200,
+  "time_s": 273.18,
+  "data": {
+    "parties": [
+      {
+        "titre_partie": "I. Validation des performances du moteur de traction (Id 1.1.1.1)",
+        "questions": [
+          {
+            "numero": "Q1",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Vitesses",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q2",
+            "mots_cles": [
+              {
+                "theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q3",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Accélérations",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q4",
+            "mots_cles": [
+              {
+                "theme": "Énergétique : Puissance",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q5",
+            "mots_cles": [
+              {
+                "theme": "Énergétique : Rendement",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q6",
+            "mots_cles": [
+              {
+                "theme": "Machines électriques : Synchrone",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q7",
+            "mots_cles": [
+              {
+                "theme": "Dimensionnement : Capteurs",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q8",
+            "mots_cles": [
+              {
+                "theme": "Informatique et Algorithmique : Fonctions",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q9",
+            "mots_cles": [
+              {
+                "theme": "Traitement de l'information : Échantillonnage",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q10",
+            "mots_cles": [
+              {
+                "theme": "Informatique et Algorithmique : Tests",
+                "semestre": "S1"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Cinématique",
+          "Ingénierie Système",
+          "Énergétique",
+          "Machines électriques",
+          "Dimensionnement",
+          "Informatique et Algorithmique",
+          "Traitement de l'information"
+        ]
+      },
+      {
+        "titre_partie": "II. Validation des performances cinématiques et statiques du frein EWB (Id 1.1.2)",
+        "questions": [
+          {
+            "numero": "Q11",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Torseurs cinématiques",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q12",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Lois entrée-sortie",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q13",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Torseurs cinématiques",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q14",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Fermeture géométrique",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q15",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Lois entrée-sortie",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q16",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Vitesses",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q17",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Précision",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q18",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Précision",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q19",
+            "mots_cles": [
+              {
+                "theme": "Statique : Actions réparties",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q20",
+            "mots_cles": [
+              {
+                "theme": "Statique : Frottements",
+                "semestre": "S2"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Cinématique",
+          "Asservissement",
+          "Statique"
+        ]
+      },
+      {
+        "titre_partie": "III. Analyse de la gestion de l'avancement et de la direction du véhicule (Id 1.1.3, 1.2.1)",
+        "questions": [
+          {
+            "numero": "Q21",
+            "mots_cles": [
+              {
+                "theme": "Traitement de l'information : Échantillonnage",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q22",
+            "mots_cles": [
+              {
+                "theme": "Traitement de l'information : Échantillonnage",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q23",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Lois entrée-sortie",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q24",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Fermeture géométrique",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q25",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Lois entrée-sortie",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q26",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Lois entrée-sortie",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q27",
+            "mots_cles": [
+              {
+                "theme": "Traitement de l'information : Échantillonnage",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q28",
+            "mots_cles": [
+              {
+                "theme": "Traitement de l'information : Échantillonnage",
+                "semestre": "S2"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Traitement de l'information",
+          "Cinématique"
+        ]
+      },
+      {
+        "titre_partie": "IV. Validation des performances de la suspension (Id 1.3.1)",
+        "questions": [
+          {
+            "numero": "Q29",
+            "mots_cles": [
+              {
+                "theme": "Modélisation des signaux : 2nd ordre",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q30",
+            "mots_cles": [
+              {
+                "theme": "Modélisation des signaux : 2nd ordre",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q31",
+            "mots_cles": [
+              {
+                "theme": "Modélisation des signaux : 2nd ordre",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q32",
+            "mots_cles": [
+              {
+                "theme": "Modélisation des signaux : 2nd ordre",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q33",
+            "mots_cles": [
+              {
+                "theme": "Modélisation des signaux : Bode",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q34",
+            "mots_cles": [
+              {
+                "theme": "Modélisation des signaux : Bode",
+                "semestre": "S2"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Modélisation des signaux"
+        ]
+      },
+      {
+        "titre_partie": "V. Étude de la fabrication du support d'axe mobile (id 1.1.1.2, id 1.2 et id 1.3)",
+        "questions": [
+          {
+            "numero": "Q35",
+            "mots_cles": [
+              {
+                "theme": "Matériaux : Choix",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q36",
+            "mots_cles": [
+              {
+                "theme": "Procédés de fabrication : Plastique",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q37",
+            "mots_cles": [
+              {
+                "theme": "Spécifications géométriques : Tolérancement",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q38",
+            "mots_cles": [
+              {
+                "theme": "Spécifications géométriques : Tolérancement",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q39",
+            "mots_cles": [
+              {
+                "theme": "Spécifications géométriques : Tolérancement",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q40",
+            "mots_cles": [
+              {
+                "theme": "Procédés de fabrication : Usinage",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q41",
+            "mots_cles": [
+              {
+                "theme": "Procédés de fabrication : Usinage",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q42",
+            "mots_cles": [
+              {
+                "theme": "Procédés de fabrication : Usinage",
+                "semestre": "S3"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Matériaux",
+          "Procédés de fabrication",
+          "Spécifications géométriques"
+        ]
+      },
+      {
+        "titre_partie": "VI. Avant-projet de conception (id 1.1.1.2)",
+        "questions": [
+          {
+            "numero": "Q43",
+            "mots_cles": [
+              {
+                "theme": "Ingénierie Système : SysML",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q44",
+            "mots_cles": [
+              {
+                "theme": "Dimensionnement : Paliers lisses",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q45",
+            "mots_cles": [
+              {
+                "theme": "Dimensionnement : Liaisons",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q46",
+            "mots_cles": [
+              {
+                "theme": "Dimensionnement : Liaisons",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q47",
+            "mots_cles": [
+              {
+                "theme": "Dimensionnement : Liaisons",
+                "semestre": "S4"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Ingénierie Système",
+          "Dimensionnement"
+        ]
+      }
+    ],
+    "ajouts": []
+  }
+}

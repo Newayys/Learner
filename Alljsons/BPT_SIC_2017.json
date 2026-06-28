@@ -1,0 +1,426 @@
+{
+  "concours": "Banque PT",
+  "filiere": "SIC",
+  "date": "2017",
+  "file": "BPT_SIC_2017.pdf",
+  "status": 200,
+  "time_s": 326.28,
+  "data": {
+    "parties": [
+      {
+        "titre_partie": "I. Etude générale du système",
+        "questions": [
+          {
+            "numero": "Q1",
+            "mots_cles": [
+              {
+                "theme": "Énergétique : Théorème de l'Énergie Cinétique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q2",
+            "mots_cles": [
+              {
+                "theme": "Énergétique : Théorème de l'Énergie Cinétique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q3",
+            "mots_cles": [
+              {
+                "theme": "Énergétique : Théorème de l'Énergie Cinétique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q4",
+            "mots_cles": [
+              {
+                "theme": "Énergétique : Théorème de l'Énergie Cinétique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q5",
+            "mots_cles": [
+              {
+                "theme": "Énergétique : Théorème de l'Énergie Cinétique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q6",
+            "mots_cles": [
+              {
+                "theme": "Énergétique : Théorème de l'Énergie Cinétique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q7",
+            "mots_cles": [
+              {
+                "theme": "Énergétique : Théorème de l'Énergie Cinétique",
+                "semestre": "S3"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Énergétique"
+        ]
+      },
+      {
+        "titre_partie": "II. Fonctionnement cinématique interne du système",
+        "questions": [
+          {
+            "numero": "Q8",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Torseurs cinématiques",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q9",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Torseurs cinématiques",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q10",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Torseurs cinématiques",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q11",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Torseurs cinématiques",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q12",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Torseurs cinématiques",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q13",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Torseurs cinématiques",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q14",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Torseurs cinématiques",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q15",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Torseurs cinématiques",
+                "semestre": "S1"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Cinématique"
+        ]
+      },
+      {
+        "titre_partie": "III. Réalisation du train épicycloïdal",
+        "questions": [
+          {
+            "numero": "Q16",
+            "mots_cles": [
+              {
+                "theme": "Statique : Hyperstatisme",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q17",
+            "mots_cles": [
+              {
+                "theme": "Statique : Hyperstatisme",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q18",
+            "mots_cles": [
+              {
+                "theme": "Statique : Hyperstatisme",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q19",
+            "mots_cles": [
+              {
+                "theme": "Statique : Hyperstatisme",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q20",
+            "mots_cles": [
+              {
+                "theme": "Procédés de fabrication : Usinage",
+                "semestre": "S3"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Statique",
+          "Procédés de fabrication"
+        ]
+      },
+      {
+        "titre_partie": "IV. Commande du système et sureté de fonctionnement",
+        "questions": [
+          {
+            "numero": "Q21",
+            "mots_cles": [
+              {
+                "theme": "Réseaux de communication : Multiplexage",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q22",
+            "mots_cles": [
+              {
+                "theme": "Réseaux de communication : Protocoles",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q23",
+            "mots_cles": [
+              {
+                "theme": "Réseaux de communication : Trame",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q24",
+            "mots_cles": [
+              {
+                "theme": "Dimensionnement : Capteurs",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q25",
+            "mots_cles": [
+              {
+                "theme": "Machines électriques : Synchrone",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q26",
+            "mots_cles": [
+              {
+                "theme": "Systèmes séquentiels et SED : Logigrammes",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q27",
+            "mots_cles": [
+              {
+                "theme": "Systèmes séquentiels et SED : Logigrammes",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q28",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Torseurs cinématiques",
+                "semestre": "S1"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Réseaux de communication",
+          "Dimensionnement",
+          "Machines électriques",
+          "Systèmes séquentiels et SED",
+          "Cinématique"
+        ]
+      },
+      {
+        "titre_partie": "V. Etude de conception et de fabrication de la transmission",
+        "questions": [
+          {
+            "numero": "Q29",
+            "mots_cles": [
+              {
+                "theme": "Spécifications géométriques : Tolérancement",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q30",
+            "mots_cles": [
+              {
+                "theme": "Spécifications géométriques : Tolérancement",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q31",
+            "mots_cles": [
+              {
+                "theme": "Procédés de fabrication : Traitements thermiques",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q32",
+            "mots_cles": [
+              {
+                "theme": "Procédés de fabrication : Traitements thermiques",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q33",
+            "mots_cles": [
+              {
+                "theme": "Procédés de fabrication : Traitements thermiques",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q34",
+            "mots_cles": [
+              {
+                "theme": "Matériaux : Propriétés",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q35",
+            "mots_cles": [
+              {
+                "theme": "Matériaux : Propriétés",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q36",
+            "mots_cles": [
+              {
+                "theme": "Métrologie : Contrôle 3D",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q37",
+            "mots_cles": [
+              {
+                "theme": "Procédés de fabrication : Usinage",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q38",
+            "mots_cles": [
+              {
+                "theme": "Procédés de fabrication : Usinage",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q39",
+            "mots_cles": [
+              {
+                "theme": "Procédés de fabrication : Usinage",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q40",
+            "mots_cles": [
+              {
+                "theme": "Écoconception : Analyse de Cycle de Vie",
+                "semestre": "S4"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Spécifications géométriques",
+          "Procédés de fabrication",
+          "Matériaux",
+          "Métrologie",
+          "Écoconception"
+        ]
+      }
+    ],
+    "ajouts": [
+      "Thermodynamique : Gaz parfait",
+      "Thermodynamique : Polytropique",
+      "Thermodynamique : Détente"
+    ]
+  }
+}

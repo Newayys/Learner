@@ -1,0 +1,360 @@
+{
+  "concours": "Banque PT",
+  "filiere": "SIC",
+  "date": "2013",
+  "file": "BPT_SIC_2013.pdf",
+  "status": 200,
+  "time_s": 246.32,
+  "data": {
+    "parties": [
+      {
+        "titre_partie": "I. Analyse du fonctionnement global du système",
+        "questions": [
+          {
+            "numero": "Q1",
+            "mots_cles": [
+              {
+                "theme": "Ingénierie Système : Chaînes d'information",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q2",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Lois entrée-sortie",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q3",
+            "mots_cles": [
+              {
+                "theme": "Informatique et Algorithmique : Fonctions",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q4",
+            "mots_cles": [
+              {
+                "theme": "Traitement de l'information : Échantillonnage",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q5",
+            "mots_cles": [
+              {
+                "theme": "Traitement de l'information : Échantillonnage",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q6",
+            "mots_cles": [
+              {
+                "theme": "Résistance des matériaux : Déformations",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q7",
+            "mots_cles": [
+              {
+                "theme": "Résistance des matériaux : Contraintes",
+                "semestre": "S3"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Ingénierie Système",
+          "Cinématique",
+          "Informatique et Algorithmique",
+          "Traitement de l'information",
+          "Résistance des matériaux"
+        ]
+      },
+      {
+        "titre_partie": "II. Validation des performances de la tête de cambrage-pliage (Fonction F4)",
+        "questions": [
+          {
+            "numero": "Q8",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Fermeture géométrique",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q9",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Vitesses",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q10",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Fermeture géométrique",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q11",
+            "mots_cles": [
+              {
+                "theme": "Résistance des matériaux : Contraintes",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q12",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : PFD",
+                "semestre": "S3"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Cinématique",
+          "Résistance des matériaux",
+          "Dynamique"
+        ]
+      },
+      {
+        "titre_partie": "III. Validation des performances du dispositif d'amenage (Fonction F2)",
+        "questions": [
+          {
+            "numero": "Q13",
+            "mots_cles": [
+              {
+                "theme": "Statique : Liaisons équivalentes",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q14",
+            "mots_cles": [
+              {
+                "theme": "Ingénierie Système : Chaînes d'information",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q15",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Lois entrée-sortie",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q16",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Torseurs cinématiques",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q17",
+            "mots_cles": [
+              {
+                "theme": "Statique : Hyperstatisme",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q18",
+            "mots_cles": [
+              {
+                "theme": "Statique : Hyperstatisme",
+                "semestre": "S2"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Ingénierie Système",
+          "Cinématique",
+          "Statique"
+        ]
+      },
+      {
+        "titre_partie": "IV. Validation des performances statiques du couteau (Fonction F5)",
+        "questions": [
+          {
+            "numero": "Q19",
+            "mots_cles": [
+              {
+                "theme": "Résistance des matériaux : Contraintes",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q20",
+            "mots_cles": [
+              {
+                "theme": "Énergétique : Puissance",
+                "semestre": "S3"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Résistance des matériaux",
+          "Énergétique"
+        ]
+      },
+      {
+        "titre_partie": "V. Étude de la fabrication du bloc inférieur (Fonction F2)",
+        "questions": [
+          {
+            "numero": "Q21",
+            "mots_cles": [
+              {
+                "theme": "Procédés de fabrication : Métallurgie",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q22",
+            "mots_cles": [
+              {
+                "theme": "Matériaux : Choix",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q23",
+            "mots_cles": [
+              {
+                "theme": "Spécifications géométriques : Tolérancement",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q24",
+            "mots_cles": [
+              {
+                "theme": "Spécifications géométriques : Tolérancement",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q25",
+            "mots_cles": [
+              {
+                "theme": "Procédés de fabrication : Usinage",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q26",
+            "mots_cles": [
+              {
+                "theme": "Procédés de fabrication : Usinage",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q27",
+            "mots_cles": [
+              {
+                "theme": "Procédés de fabrication : Usinage",
+                "semestre": "S3"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Procédés de fabrication",
+          "Matériaux",
+          "Spécifications géométriques"
+        ]
+      },
+      {
+        "titre_partie": "VI. Avant-projet de conception (Fonction F2)",
+        "questions": [
+          {
+            "numero": "Q28",
+            "mots_cles": [
+              {
+                "theme": "Dimensionnement : Liaisons",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q29",
+            "mots_cles": [
+              {
+                "theme": "Dimensionnement : Liaisons",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q30",
+            "mots_cles": [
+              {
+                "theme": "Dimensionnement : Paliers lisses",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q31",
+            "mots_cles": [
+              {
+                "theme": "Dimensionnement : Liaisons",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q32",
+            "mots_cles": [
+              {
+                "theme": "Dimensionnement : Liaisons",
+                "semestre": "S4"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Dimensionnement"
+        ]
+      }
+    ],
+    "ajouts": []
+  }
+}

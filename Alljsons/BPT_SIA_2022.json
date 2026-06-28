@@ -1,0 +1,460 @@
+{
+  "concours": "Banque PT",
+  "filiere": "SIA",
+  "date": "2022",
+  "file": "BPT_SIA_2022.pdf",
+  "status": 200,
+  "time_s": 318.13,
+  "data": {
+    "parties": [
+      {
+        "titre_partie": "Partie I - Étude des actions mécanques dans les aubes",
+        "questions": [
+          {
+            "numero": "Question 1",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Vitesses",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Question 2",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Vitesses",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Question 3",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Vitesses",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Question 4",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : PFD",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Question 5",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Vitesses",
+                "semestre": "S1"
+              },
+              {
+                "theme": "Cinématique : Accélérations",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Question 6",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : Torseur dynamique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Question 7",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Vitesses",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Question 8",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : Torseur dynamique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Question 9",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : Géométrie des masses",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Question 10",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : Torseur dynamique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Question 11",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : Torseur dynamique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Question 12",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : Torseur dynamique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Question 13",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : Torseur dynamique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Question 14",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : Torseur dynamique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Question 15",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : PFD",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Question 16",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : PFD",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Question 17",
+            "mots_cles": [
+              {
+                "theme": "Résistance des matériaux : Contraintes",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Question 18",
+            "mots_cles": [
+              {
+                "theme": "Résistance des matériaux : Contraintes",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Question 19",
+            "mots_cles": [
+              {
+                "theme": "Résistance des matériaux : Contraintes",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Question 20",
+            "mots_cles": [
+              {
+                "theme": "Résistance des matériaux : Déformations",
+                "semestre": "S3"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Cinématique",
+          "Dynamique",
+          "Résistance des matériaux"
+        ]
+      },
+      {
+        "titre_partie": "Partie II - Étude du système contrarotatif",
+        "questions": [
+          {
+            "numero": "Question 21",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Lois entrée-sortie",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Question 22",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Lois entrée-sortie",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Question 23",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : PFD",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Question 24",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : PFD",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Question 25",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : PFD",
+                "semestre": "S3"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Cinématique",
+          "Dynamique"
+        ]
+      },
+      {
+        "titre_partie": "Partie III - Modélisation du comportement de la chaîne de transmission de puissance du calage des aubes",
+        "questions": [
+          {
+            "numero": "Question 26",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Lois entrée-sortie",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Question 27",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Laplace",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Question 28",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : Torseur cinématique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Question 29",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : Torseur dynamique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Question 30",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : PFD",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Question 31",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : PFD",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Question 32",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : PFD",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Question 33",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Laplace",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Question 34",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Schéma-blocs",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Question 35",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Précision",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Question 36",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Laplace",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Question 37",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Bode",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Question 38",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Stabilité",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Question 39",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Rapidité",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Question 40",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Rapidité",
+                "semestre": "S2"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Cinématique",
+          "Dynamique",
+          "Asservissement"
+        ]
+      },
+      {
+        "titre_partie": "Partie IV - Choix et dimensionnement des correcteurs du système de calage des aubes",
+        "questions": [
+          {
+            "numero": "Question 41",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : Géométrie des masses",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Question 42",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Précision",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Question 43",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Précision",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Question 44",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Stabilité",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Question 45",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Correcteur avance de phase",
+                "semestre": "S2"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Dynamique",
+          "Asservissement"
+        ]
+      }
+    ],
+    "ajouts": []
+  }
+}
