@@ -8,11 +8,31 @@ let selectedThemes = new Set();
 
 const COLORS = ['#3b82f6','#8b5cf6','#ec4899','#f97316','#10b981','#14b8a6','#f59e0b','#6366f1'];
 
+// ── Mobile sidebar drawer ──────────────────────────────────────────────────────
+function openSidebar() {
+  document.getElementById('sidebar').classList.add('open');
+  document.getElementById('sidebar-overlay').classList.add('open');
+}
+function closeSidebar() {
+  document.getElementById('sidebar').classList.remove('open');
+  document.getElementById('sidebar-overlay').classList.remove('open');
+}
+// Fermer le drawer après sélection d'un thème sur mobile
+function closeSidebarOnMobile() {
+  if (window.innerWidth <= 768) closeSidebar();
+}
+
 // ─────────────────────────────────────────────────────────────────────────────
-// ✅ AJOUT UNIQUE : AUTO LOAD MANIFEST
+// AUTO LOAD MANIFEST
 // ─────────────────────────────────────────────────────────────────────────────
 
-window.addEventListener('DOMContentLoaded', loadManifest);
+window.addEventListener('DOMContentLoaded', () => {
+  loadManifest();
+
+  // Bouton menu mobile
+  document.getElementById('btn-menu-mobile').addEventListener('click', openSidebar);
+  document.getElementById('sidebar-overlay').addEventListener('click', closeSidebar);
+});
 
 async function loadManifest() {
   try {
@@ -21,7 +41,6 @@ async function loadManifest() {
 
     // ── PDF AUTO LOAD ──
     const pdfFiles = manifest.pdf || [];
-
     pdfFiles.forEach(path => {
       const name = path.split('/').pop().replace('.pdf','').toLowerCase();
       pdfMap[name] = path;
@@ -29,7 +48,6 @@ async function loadManifest() {
 
     // ── JSON AUTO LOAD ──
     const jsonFiles = manifest.json || [];
-
     const results = await Promise.all(
       jsonFiles.map(path =>
         fetch(path)
@@ -133,8 +151,12 @@ function findPdfUrl(doc) {
 
 function updateStats() {
   const nQ = allDocs.reduce((s,d)=>s+d.parties.reduce((s2,p)=>s2+p.questions.length,0),0);
+  // Sur desktop on affiche le texte, sur mobile on l'a masqué via CSS
   document.getElementById('stat-files').textContent = `${allDocs.length} sujets chargés`;
-  if (allDocs.length) { document.getElementById('stat-q').style.display=''; document.getElementById('n-q').textContent=nQ.toLocaleString('fr'); }
+  if (allDocs.length) {
+    document.getElementById('stat-q').style.display='';
+    document.getElementById('n-q').textContent=nQ.toLocaleString('fr');
+  }
   const nPdf = Object.keys(pdfMap).length;
   const pdfEl = document.getElementById('pdf-status');
   if (nPdf>0) { pdfEl.style.display=''; pdfEl.innerHTML=`<span class="pdf-badge">${nPdf} PDF</span>`; }
@@ -201,7 +223,7 @@ function buildThemeList() {
         <span class="count">${n}</span>
       </button>`;
     } else {
-      return `<button class="theme-btn ${isAct?'active':''}" onclick="showTheme('${name.replace(/'/g,"\\'")}')">
+      return `<button class="theme-btn ${isAct?'active':''}" onclick="showTheme('${name.replace(/'/g,"\\'")}');closeSidebarOnMobile()">
         <div class="dot ${dot}"></div>
         <span>${name}</span>
         <span class="count">${n}</span>
@@ -238,12 +260,13 @@ function updateMultiBar() {
 // ── Vue multi-thèmes ──────────────────────────────────────────────────────────
 function showMulti() {
   if (selectedThemes.size===0) return;
+  closeSidebarOnMobile();
   const themes=[...selectedThemes];
   const docs=getFilteredDocs();
   const docResults=[];
 
   docs.forEach(doc=>{
-    const themeMap={}; // theme → {sub → [qnum]}
+    const themeMap={};
     themes.forEach(t=>themeMap[t]={});
 
     doc.parties.forEach(p=>p.questions.forEach(q=>{
@@ -272,8 +295,6 @@ function showMulti() {
   const maxTotal=docResults[0]?.total||1;
   const maxPerTheme={};
   themes.forEach(t=>{ maxPerTheme[t]=Math.max(...docResults.map(r=>r.perTheme[t].count),1); });
-
-  const themesLabel=themes.length===1?themes[0]:themes.join(' + ');
 
   document.getElementById('main').innerHTML=`
     <div class="page-header">
@@ -320,7 +341,6 @@ function renderMultiCards(results,maxTotal,themes,maxPerTheme) {
       </div>`;
     }).join('');
 
-    // Corps : une section par thème
     const bodyContent=themes.map((t,ti)=>{
       const {subMap,count}=perTheme[t];
       if (count===0) return '';
