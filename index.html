@@ -4,10 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Annales CPGE — Révisions par thème</title>
+
+  <!-- CSS externe -->
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 <div class="layout">
+
   <header class="topbar">
     <div class="logo">annales<span>CPGE</span></div>
     <div class="stats-bar">
@@ -15,14 +18,9 @@
       <div class="stat" id="stat-q" style="display:none"><strong id="n-q">0</strong> questions indexées</div>
       <div id="pdf-status" style="display:none"></div>
     </div>
-    <!-- Bouton hamburger mobile -->
-    <button class="btn-menu-mobile" id="btn-menu-mobile" aria-label="Ouvrir le menu">☰</button>
   </header>
 
-  <!-- Overlay sombre derrière le drawer -->
-  <div class="sidebar-overlay" id="sidebar-overlay"></div>
-
-  <aside class="sidebar" id="sidebar">
+  <aside class="sidebar">
     <div class="sidebar-section">
       <div class="sidebar-label">Fichiers (JSON + PDF)</div>
       <label class="upload-zone" id="drop-zone">
@@ -32,6 +30,7 @@
         <div class="file-counts" id="file-counts"></div>
       </label>
     </div>
+
     <div class="sidebar-section">
       <div class="sidebar-label">Filtres</div>
       <select id="fil-concours" onchange="applyFilters()" style="margin-bottom:6px">
@@ -41,11 +40,13 @@
         <option value="">Toutes les filières</option>
       </select>
     </div>
+
     <!-- Mode switch -->
     <div class="mode-switch">
       <button class="mode-btn active" id="btn-mode-single" onclick="setMode('single')">1 thème</button>
       <button class="mode-btn" id="btn-mode-multi" onclick="setMode('multi')">Multi-thèmes</button>
     </div>
+
     <!-- Barre de sélection multi -->
     <div class="multi-bar" id="multi-bar">
       <div class="multi-bar-top">
@@ -55,6 +56,7 @@
       <div class="selected-chips" id="selected-chips"></div>
       <button class="btn-compare" id="btn-compare" onclick="showMulti()" disabled>Comparer →</button>
     </div>
+
     <div class="sidebar-section" style="padding-bottom:4px">
       <div class="sidebar-label" id="theme-list-label">Thème à réviser</div>
     </div>
@@ -85,4 +87,6 @@
 
 <script src="app.js"></script>
 </body>
+
 </html>
+
