@@ -1,0 +1,416 @@
+{
+  "concours": "CCMP",
+  "filiere": "PSI",
+  "date": "2026",
+  "file": "CCMP_PSI_2026.json",
+  "status": 200,
+  "time_s": 313.53,
+  "data": {
+    "parties": [
+      {
+        "titre_partie": "Présentation",
+        "questions": []
+      },
+      {
+        "titre_partie": "Analyse géométrique partielle de la machine et précision des guidages",
+        "questions": [
+          {
+            "numero": "Question 1",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Lois entrée-sortie",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Question 2",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Fermeture géométrique",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Question 3",
+            "mots_cles": [
+              {
+                "theme": "Spécifications géométriques : Tolérancement",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Question 4",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Fermeture géométrique",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Question 5",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Fermeture géométrique",
+                "semestre": "S1"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Cinématique",
+          "Spécifications géométriques"
+        ]
+      },
+      {
+        "titre_partie": "Restriction du cadre de l'étude",
+        "questions": [
+          {
+            "numero": "Question 6",
+            "mots_cles": [
+              {
+                "theme": "Spécifications géométriques : Tolérancement",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Question 7",
+            "mots_cles": [
+              {
+                "theme": "Spécifications géométriques : Tolérancement",
+                "semestre": "S2"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Spécifications géométriques"
+        ]
+      },
+      {
+        "titre_partie": "Étude de la durée d'un cycle de gravure pour l'axe X",
+        "questions": [
+          {
+            "numero": "Question 8",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Profils trapèze",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Question 9",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Profils trapèze",
+                "semestre": "S1"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Cinématique"
+        ]
+      },
+      {
+        "titre_partie": "Comparaison entre MLS et (moteur rotatif + système vis écrou)",
+        "questions": [
+          {
+            "numero": "Question 10",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : Inertie équivalente",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Question 11",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : Inertie équivalente",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Question 12",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : Inertie équivalente",
+                "semestre": "S3"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Dynamique"
+        ]
+      },
+      {
+        "titre_partie": "Modélisation et dimensionnement d'un MLS",
+        "questions": [
+          {
+            "numero": "Question 13",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : PFD",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Question 14",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : PFD",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Question 15",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : Torseur dynamique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Question 16",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : Torseur dynamique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Question 17",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : Torseur dynamique",
+                "semestre": "S3"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Dynamique"
+        ]
+      },
+      {
+        "titre_partie": "Amélioration de la modélisation mécanique du MLS",
+        "questions": [
+          {
+            "numero": "Question 18",
+            "mots_cles": [
+              {
+                "theme": "Intelligence Artificielle : Apprentissage",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Question 19",
+            "mots_cles": [
+              {
+                "theme": "Intelligence Artificielle : Apprentissage",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Question 20",
+            "mots_cles": [
+              {
+                "theme": "Intelligence Artificielle : Apprentissage",
+                "semestre": "S3"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Intelligence Artificielle"
+        ]
+      },
+      {
+        "titre_partie": "Modélisation du comportement électromécanique d'un MLS et étude du pilotage en couple",
+        "questions": [
+          {
+            "numero": "Question 21",
+            "mots_cles": [
+              {
+                "theme": "Intelligence Artificielle : Apprentissage",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Question 22",
+            "mots_cles": [
+              {
+                "theme": "Machines électriques : MCC",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Question 23",
+            "mots_cles": [
+              {
+                "theme": "Machines électriques : MCC",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Question 24",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Schéma-blocs",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Question 25",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Correcteur avance de phase",
+                "semestre": "S2"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Intelligence Artificielle",
+          "Machines électriques",
+          "Asservissement"
+        ]
+      },
+      {
+        "titre_partie": "Conception de l'asservissement d'un MLS",
+        "questions": [
+          {
+            "numero": "Question 26",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Schéma-blocs",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Question 27",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Précision",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Question 28",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Précision",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Question 29",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Schéma-blocs",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Question 30",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Rapidité",
+                "semestre": "S2"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Asservissement"
+        ]
+      },
+      {
+        "titre_partie": "Étude de la boucle position",
+        "questions": [
+          {
+            "numero": "Question 31",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Précision",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Question 32",
+            "mots_cles": [
+              {
+                "theme": "Modélisation des signaux : Fréquentiel",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Question 33",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Correcteur avance de phase",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Question 34",
+            "mots_cles": [
+              {
+                "theme": "Modélisation des signaux : Fréquentiel",
+                "semestre": "S2"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Asservissement",
+          "Modélisation des signaux"
+        ]
+      },
+      {
+        "titre_partie": "Synthèse",
+        "questions": [
+          {
+            "numero": "Question 35",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Rapidité",
+                "semestre": "S2"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Asservissement"
+        ]
+      }
+    ],
+    "ajouts": []
+  }
+}

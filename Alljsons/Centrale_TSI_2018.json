@@ -1,0 +1,391 @@
+{
+  "concours": "Centrale",
+  "filiere": "TSI",
+  "date": "2018",
+  "file": "Centrale_TSI_2018.pdf",
+  "status": 200,
+  "time_s": 325.44,
+  "data": {
+    "parties": [
+      {
+        "titre_partie": "I Présentation du sujet",
+        "questions": [],
+        "themes_partie": [
+          "Ingénierie Système"
+        ]
+      },
+      {
+        "titre_partie": "II Validation de l'exigence de compacité du DBA",
+        "questions": [
+          {
+            "numero": "Q 1",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Fermeture géométrique",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q 2",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Fermeture géométrique",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q 3",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Fermeture géométrique",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q 4",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Fermeture géométrique",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q 5",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Fermeture géométrique",
+                "semestre": "S1"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Cinématique"
+        ]
+      },
+      {
+        "titre_partie": "III Dimensionnement du moteur",
+        "questions": [
+          {
+            "numero": "Q 6",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Vitesses",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q 7",
+            "mots_cles": [
+              {
+                "theme": "Transmissions mécanques : Rapport de réduction",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q 8",
+            "mots_cles": [
+              {
+                "theme": "Statique : Liaisons équivalentes",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 9",
+            "mots_cles": [
+              {
+                "theme": "Statique : Liaisons équivalentes",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 10",
+            "mots_cles": [
+              {
+                "theme": "Statique : Liaisons équivalentes",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 11",
+            "mots_cles": [
+              {
+                "theme": "Statique : Liaisons équivalentes",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 12",
+            "mots_cles": [
+              {
+                "theme": "Statique : Liaisons équivalentes",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 13",
+            "mots_cles": [
+              {
+                "theme": "Statique : Liaisons équivalentes",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 14",
+            "mots_cles": [
+              {
+                "theme": "Statique : Liaisons équivalentes",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 15",
+            "mots_cles": [
+              {
+                "theme": "Énergétique : Puissance",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q 16",
+            "mots_cles": [
+              {
+                "theme": "Énergétique : Rendement",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q 17",
+            "mots_cles": [
+              {
+                "theme": "Électrotechnique : Convertisseurs statiques",
+                "semestre": "S2"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Cinématique",
+          "Transmissions mécanques",
+          "Statique",
+          "Énergétique",
+          "Électrotechnique"
+        ]
+      },
+      {
+        "titre_partie": "IV Paramétrage du variateur de vitesse associé à la machine asynchrone du basculeur",
+        "questions": [
+          {
+            "numero": "Q 18",
+            "mots_cles": [
+              {
+                "theme": "Machines électriques : Commande U/f",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q 19",
+            "mots_cles": [
+              {
+                "theme": "Machines électriques : Commande U/f",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q 20",
+            "mots_cles": [
+              {
+                "theme": "Machines électriques : Commande U/f",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q 21",
+            "mots_cles": [
+              {
+                "theme": "Machines électriques : Commande U/f",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q 22",
+            "mots_cles": [
+              {
+                "theme": "Machines électriques : Commande U/f",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q 23",
+            "mots_cles": [
+              {
+                "theme": "Machines électriques : Commande U/f",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q 24",
+            "mots_cles": [
+              {
+                "theme": "Machines électriques : Commande U/f",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q 25",
+            "mots_cles": [
+              {
+                "theme": "Machines électriques : Commande U/f",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q 26",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : PFD",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q 27",
+            "mots_cles": [
+              {
+                "theme": "Machines électriques : Commande U/f",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q 28",
+            "mots_cles": [
+              {
+                "theme": "Machines électriques : Commande U/f",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q 29",
+            "mots_cles": [
+              {
+                "theme": "Machines électriques : Commande U/f",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q 30",
+            "mots_cles": [
+              {
+                "theme": "Machines électriques : Commande U/f",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q 31",
+            "mots_cles": [
+              {
+                "theme": "Informatique et Algorithmique : Python",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q 32",
+            "mots_cles": [
+              {
+                "theme": "Informatique et Algorithmique : Python",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q 33",
+            "mots_cles": [
+              {
+                "theme": "Machines électriques : Commande U/f",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q 34",
+            "mots_cles": [
+              {
+                "theme": "Machines électriques : Commande U/f",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q 35",
+            "mots_cles": [
+              {
+                "theme": "Machines électriques : Commande U/f",
+                "semestre": "S4"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Machines électriques",
+          "Dynamique",
+          "Informatique et Algorithmique"
+        ]
+      },
+      {
+        "titre_partie": "V Conclusions",
+        "questions": [
+          {
+            "numero": "Q 36",
+            "mots_cles": [
+              {
+                "theme": "Machines électriques : Commande U/f",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q 37",
+            "mots_cles": [
+              {
+                "theme": "Machines électriques : Commande U/f",
+                "semestre": "S4"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Machines électriques"
+        ]
+      }
+    ],
+    "ajouts": []
+  }
+}

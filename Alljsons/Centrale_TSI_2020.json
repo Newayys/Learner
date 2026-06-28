@@ -1,0 +1,350 @@
+{
+  "concours": "Centrale",
+  "filiere": "TSI",
+  "date": "2020",
+  "file": "Centrale_TSI_2020.pdf",
+  "status": 200,
+  "time_s": 560.95,
+  "data": {
+    "parties": [
+      {
+        "titre_partie": "I Présentation du système",
+        "questions": []
+      },
+      {
+        "titre_partie": "II Exigence fonctionnelle « garantir le mouvement de translation »",
+        "questions": [
+          {
+            "numero": "Q 1",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Fermeture géométrique",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q 2",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Fermeture géométrique",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q 3",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Fermeture géométrique",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q 4",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Fermeture géométrique",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q 5",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Fermeture géométrique",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q 6",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Fermeture géométrique",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q 7",
+            "mots_cles": [
+              {
+                "theme": "Statique : Liaisons équivalentes",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 8",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : PFD",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q 9",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : Théorème de l'Énergie Cinétique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q 10",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Accélérations",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q 11",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : PFD",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q 12",
+            "mots_cles": [
+              {
+                "theme": "Machines électriques : MCC, Synchrone, Asynchrone, Commande U/f",
+                "semestre": "S4"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Cinématique",
+          "Statique",
+          "Dynamique"
+        ]
+      },
+      {
+        "titre_partie": "III Exigence fonctionnelle « fournir l'énergie électrique aux moteurs »",
+        "questions": [
+          {
+            "numero": "Q 13",
+            "mots_cles": [
+              {
+                "theme": "Machines électriques : MCC, Synchrone, Asynchrone, Commande U/f",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q 14",
+            "mots_cles": [
+              {
+                "theme": "Machines électriques : MCC, Synchrone, Asynchrone, Commande U/f",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q 15",
+            "mots_cles": [
+              {
+                "theme": "Machines électriques : MCC, Synchrone, Asynchrone, Commande U/f",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q 16",
+            "mots_cles": [
+              {
+                "theme": "Circuits alternatifs : Puissances active/réactive, Diagramme de Fresnel",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q 17",
+            "mots_cles": [
+              {
+                "theme": "Machines électriques : MCC, Synchrone, Asynchrone, Commande U/f",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q 18",
+            "mots_cles": [
+              {
+                "theme": "Circuits alternatifs : Puissances active/réactive, Diagramme de Fresnel",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q 19",
+            "mots_cles": [
+              {
+                "theme": "Modélisation des signaux : Bode, Temporel, Fréquentiel, 1er ordre, 2nd ordre",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 20",
+            "mots_cles": [
+              {
+                "theme": "Circuits alternatifs : Puissances active/réactive, Diagramme de Fresnel",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q 21",
+            "mots_cles": [
+              {
+                "theme": "Circuits alternatifs : Puissances active/réactive, Diagramme de Fresnel",
+                "semestre": "S3"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Machines électriques",
+          "Circuits alternatifs",
+          "Modélisation des signaux"
+        ]
+      },
+      {
+        "titre_partie": "IV Exigence fonctionnelle « assurer une pose précise »",
+        "questions": [
+          {
+            "numero": "Q 22",
+            "mots_cles": [
+              {
+                "theme": "Informatique et Algorithmique : Boucles, Tests, Fonctions, Python",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q 23",
+            "mots_cles": [
+              {
+                "theme": "Métrologie : Contrôle 3D, Conformité",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q 24",
+            "mots_cles": [
+              {
+                "theme": "Métrologie : Contrôle 3D, Conformité",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q 25",
+            "mots_cles": [
+              {
+                "theme": "Métrologie : Contrôle 3D, Conformité",
+                "semestre": "S3"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Informatique et Algorithmique",
+          "Métrologie"
+        ]
+      },
+      {
+        "titre_partie": "V Exigence fonctionnelle « gérer le mouvement »",
+        "questions": [
+          {
+            "numero": "Q 26",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Stabilité, Précision, Rapidité",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 27",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Stabilité, Précision, Rapidité",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 28",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Stabilité, Précision, Rapidité",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 29",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Stabilité, Précision, Rapidité",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 30",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Stabilité, Précision, Rapidité",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 31",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Stabilité, Précision, Rapidité",
+                "semestre": "S2"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Asservissement"
+        ]
+      },
+      {
+        "titre_partie": "VI Synthèse",
+        "questions": [
+          {
+            "numero": "Q 32",
+            "mots_cles": [
+              {
+                "theme": "Ingénierie Système : Cahier des charges, SysML, Chaînes d'énergie, Chaînes d'information",
+                "semestre": "S1"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Ingénierie Système"
+        ]
+      }
+    ],
+    "ajouts": []
+  }
+}
