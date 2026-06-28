@@ -1,0 +1,735 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Annales CPGE — Révisions par thème</title>
+<style>
+  :root {
+    --bg: #f7f6f3; --surface: #ffffff; --surface2: #f0efe9;
+    --border: #e0ddd6; --text: #1a1917; --text2: #6b6860; --text3: #9a9890;
+    --accent: #2563eb; --accent-bg: #eff6ff; --accent-border: #bfdbfe;
+    --red: #dc2626; --amber: #d97706; --green: #16a34a;
+    --radius: 8px; --mono: 'JetBrains Mono','Fira Mono','Consolas',monospace;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--bg); color: var(--text); font-family: 'Inter',system-ui,sans-serif; font-size: 14px; line-height: 1.6; min-height: 100vh; }
+
+  .layout { display: grid; grid-template-columns: 300px 1fr; grid-template-rows: 56px 1fr; height: 100vh; }
+  .topbar { grid-column: 1/-1; background: var(--surface); border-bottom: 1px solid var(--border); display: flex; align-items: center; gap: 16px; padding: 0 20px; }
+  .sidebar { background: var(--surface); border-right: 1px solid var(--border); overflow-y: auto; display: flex; flex-direction: column; }
+  .main { overflow-y: auto; padding: 24px; }
+
+  .logo { font-weight: 700; font-size: 15px; letter-spacing: -.3px; }
+  .logo span { color: var(--accent); }
+  .stats-bar { display: flex; gap: 16px; margin-left: auto; align-items: center; }
+  .stat { font-size: 12px; color: var(--text2); }
+  .stat strong { color: var(--text); font-weight: 600; }
+  .pdf-badge { font-size: 11px; padding: 2px 8px; border-radius: 99px; background: #f0fdf4; color: #16a34a; border: 1px solid #bbf7d0; }
+
+  .sidebar-section { padding: 12px 16px 8px; }
+  .sidebar-label { font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: .06em; color: var(--text3); margin-bottom: 8px; }
+
+  select, input[type=text] {
+    width: 100%; height: 34px; padding: 0 10px;
+    border: 1px solid var(--border); border-radius: var(--radius);
+    background: var(--bg); color: var(--text); font-size: 13px; outline: none; appearance: none;
+  }
+  select:focus, input:focus { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-bg); }
+
+  /* ── Mode switcher ── */
+  .mode-switch { display: flex; margin: 8px 16px; border: 1px solid var(--border); border-radius: var(--radius); overflow: hidden; }
+  .mode-btn { flex: 1; padding: 6px 8px; font-size: 12px; font-weight: 500; border: none; background: none; cursor: pointer; color: var(--text2); transition: background .1s, color .1s; text-align: center; }
+  .mode-btn.active { background: var(--accent); color: #fff; }
+
+  /* ── Sélection multi ── */
+  .multi-bar {
+    margin: 0 16px 10px; padding: 8px 10px; background: var(--accent-bg);
+    border: 1px solid var(--accent-border); border-radius: var(--radius);
+    display: none; flex-direction: column; gap: 6px;
+  }
+  .multi-bar.visible { display: flex; }
+  .multi-bar-top { display: flex; align-items: center; justify-content: space-between; }
+  .multi-bar-label { font-size: 12px; font-weight: 600; color: var(--accent); }
+  .btn-compare {
+    padding: 4px 10px; border-radius: 6px; font-size: 12px; font-weight: 600;
+    background: var(--accent); color: #fff; border: none; cursor: pointer;
+  }
+  .btn-compare:disabled { opacity: .4; cursor: default; }
+  .btn-clear-sel { font-size: 11px; color: var(--text3); background: none; border: none; cursor: pointer; text-decoration: underline; }
+  .selected-chips { display: flex; flex-wrap: wrap; gap: 4px; }
+  .sel-chip {
+    display: inline-flex; align-items: center; gap: 4px; padding: 2px 8px;
+    background: var(--accent); color: #fff; border-radius: 99px; font-size: 11px;
+  }
+  .sel-chip button { background: none; border: none; color: #fff; cursor: pointer; font-size: 13px; line-height: 1; padding: 0; opacity: .8; }
+
+  /* ── Liste de thèmes ── */
+  .theme-list { flex: 1; overflow-y: auto; padding: 8px 0; }
+  .theme-btn {
+    width: 100%; text-align: left; padding: 7px 16px; border: none;
+    background: none; cursor: pointer; font-size: 13px; color: var(--text2);
+    display: flex; align-items: center; gap: 8px; transition: background .1s;
+  }
+  .theme-btn:hover { background: var(--surface2); color: var(--text); }
+  .theme-btn.active { background: var(--accent-bg); color: var(--accent); font-weight: 500; }
+  .theme-btn.selected { background: #eef2ff; color: #4338ca; }
+  .theme-btn .dot { width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; }
+  .dot-high { background: var(--red); } .dot-mid { background: var(--amber); } .dot-low { background: var(--green); }
+  .theme-btn .count { margin-left: auto; font-size: 11px; font-family: var(--mono); opacity: .7; }
+  .theme-btn .chk { width: 15px; height: 15px; border: 1.5px solid var(--border); border-radius: 4px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; font-size: 10px; }
+  .theme-btn.selected .chk { background: #4338ca; border-color: #4338ca; color: #fff; }
+
+  /* ── Upload ── */
+  .upload-zone {
+    margin: 12px 16px; padding: 14px; border: 1.5px dashed var(--border);
+    border-radius: var(--radius); text-align: center; cursor: pointer;
+    transition: border-color .15s, background .15s; color: var(--text2); font-size: 12px;
+  }
+  .upload-zone:hover, .upload-zone.drag { border-color: var(--accent); background: var(--accent-bg); color: var(--accent); }
+  .upload-zone input { display: none; }
+  .upload-zone .icon { font-size: 20px; margin-bottom: 4px; }
+  .file-counts { display: flex; gap: 8px; justify-content: center; margin-top: 6px; flex-wrap: wrap; }
+
+  /* ── Main ── */
+  .empty-state { text-align: center; padding: 80px 24px; color: var(--text3); }
+  .empty-state .big { font-size: 40px; margin-bottom: 16px; }
+  .empty-state h2 { font-size: 18px; font-weight: 600; color: var(--text2); margin-bottom: 8px; }
+
+  .page-header { margin-bottom: 20px; }
+  .page-header h1 { font-size: 20px; font-weight: 700; letter-spacing: -.3px; margin-bottom: 4px; }
+  .page-header p { color: var(--text2); font-size: 13px; }
+
+  .subtheme-bar { display: flex; gap: 6px; flex-wrap: wrap; margin-bottom: 20px; }
+  .sub-chip {
+    padding: 4px 10px; border-radius: 99px; font-size: 12px; cursor: pointer;
+    border: 1px solid var(--border); background: var(--surface); color: var(--text2); transition: all .1s;
+  }
+  .sub-chip:hover { border-color: var(--accent); color: var(--accent); }
+  .sub-chip.active { background: var(--accent); color: #fff; border-color: var(--accent); }
+  .sub-chip .n { opacity: .7; margin-left: 3px; }
+
+  .results-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 12px; }
+  .results-count { font-size: 12px; color: var(--text3); }
+  .sort-select { height: 28px; font-size: 12px; width: auto; padding: 0 8px; }
+
+  .annale-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); margin-bottom: 10px; overflow: hidden; transition: border-color .1s; }
+  .annale-card:hover { border-color: var(--accent-border); }
+  .annale-header { display: flex; align-items: center; gap: 10px; padding: 11px 16px; cursor: pointer; }
+  .annale-rank { font-family: var(--mono); font-size: 11px; color: var(--text3); min-width: 20px; }
+  .annale-name { font-weight: 600; font-size: 13px; flex: 1; }
+  .annale-meta { display: flex; gap: 5px; align-items: center; }
+  .tag { padding: 2px 6px; border-radius: 4px; font-size: 11px; font-weight: 500; border: 1px solid transparent; }
+  .tag-bank { background: var(--surface2); color: var(--text2); border-color: var(--border); }
+  .tag-year { background: var(--accent-bg); color: var(--accent); border-color: var(--accent-border); }
+  .tag-fil  { background: #f3f4f6; color: #374151; }
+  .q-count  { font-family: var(--mono); font-size: 12px; font-weight: 700; color: var(--accent); min-width: 32px; text-align: right; }
+  .q-label  { font-size: 11px; color: var(--text3); }
+
+  /* Score multi-thèmes dans la carte */
+  .score-col { display: flex; flex-direction: column; gap: 3px; min-width: 140px; }
+  .score-row { display: flex; align-items: center; gap: 6px; font-size: 11px; }
+  .score-theme-name { flex: 1; color: var(--text2); white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 80px; }
+  .score-bar-bg { flex: 1; height: 4px; background: var(--border); border-radius: 2px; min-width: 40px; }
+  .score-bar-fill { height: 100%; border-radius: 2px; }
+  .score-total { font-family: var(--mono); font-size: 13px; font-weight: 700; color: var(--accent); text-align: right; white-space: nowrap; }
+
+  /* Couleurs par thème (cycle) */
+  .c0 { background: #3b82f6; } .c1 { background: #8b5cf6; } .c2 { background: #ec4899; }
+  .c3 { background: #f97316; } .c4 { background: #10b981; } .c5 { background: #14b8a6; }
+  .c6 { background: #f59e0b; } .c7 { background: #6366f1; }
+
+  .btn-pdf {
+    display: inline-flex; align-items: center; gap: 5px; padding: 4px 10px;
+    border-radius: 6px; font-size: 12px; font-weight: 500;
+    border: 1px solid #bbf7d0; background: #f0fdf4; color: #16a34a;
+    cursor: pointer; transition: all .1s; white-space: nowrap; flex-shrink: 0; text-decoration: none;
+  }
+  .btn-pdf:hover { background: #dcfce7; border-color: #86efac; }
+  .btn-pdf.missing { border-color: var(--border); background: var(--surface2); color: var(--text3); cursor: default; }
+
+  .annale-body { padding: 0 16px 14px; border-top: 1px solid var(--border); display: none; }
+  .annale-body.open { display: block; }
+  .sub-block { margin-top: 10px; }
+  .sub-block-title { font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: .05em; color: var(--text3); margin-bottom: 6px; }
+  .theme-section-title { font-size: 12px; font-weight: 700; color: var(--text); margin-top: 12px; margin-bottom: 4px; padding-bottom: 4px; border-bottom: 1px solid var(--border); }
+  .q-pills { display: flex; flex-wrap: wrap; gap: 5px; }
+  .q-pill { padding: 3px 9px; border-radius: 5px; font-size: 12px; font-family: var(--mono); background: var(--accent-bg); color: var(--accent); border: 1px solid var(--accent-border); font-weight: 500; }
+  .progress-bar { height: 3px; background: var(--border); border-radius: 2px; margin-top: 3px; }
+  .progress-fill { height: 100%; border-radius: 2px; background: var(--accent); }
+
+  /* Modale PDF */
+  .pdf-modal { display: none; position: fixed; inset: 0; z-index: 100; flex-direction: column; }
+  .pdf-modal.open { display: flex; }
+  .pdf-modal-bar { background: var(--surface); border-bottom: 1px solid var(--border); display: flex; align-items: center; gap: 12px; padding: 10px 16px; flex-shrink: 0; }
+  .pdf-modal-title { font-weight: 600; font-size: 14px; flex: 1; }
+  .btn-close { padding: 4px 12px; border-radius: 6px; border: 1px solid var(--border); background: var(--surface2); color: var(--text2); cursor: pointer; font-size: 13px; }
+  .btn-close:hover { background: var(--border); }
+  .pdf-frame { flex: 1; border: none; background: #525659; }
+
+  ::-webkit-scrollbar { width: 6px; } ::-webkit-scrollbar-track { background: transparent; }
+  ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+</style>
+</head>
+<body>
+<div class="layout">
+
+  <header class="topbar">
+    <div class="logo">annales<span>CPGE</span></div>
+    <div class="stats-bar">
+      <div class="stat" id="stat-files">Chargez vos fichiers pour commencer</div>
+      <div class="stat" id="stat-q" style="display:none"><strong id="n-q">0</strong> questions indexées</div>
+      <div id="pdf-status" style="display:none"></div>
+    </div>
+  </header>
+
+  <aside class="sidebar">
+    <div class="sidebar-section">
+      <div class="sidebar-label">Fichiers (JSON + PDF)</div>
+      <label class="upload-zone" id="drop-zone">
+        <input type="file" id="file-input" multiple accept=".json,.pdf">
+        <div class="icon">📂</div>
+        <div>Glissez JSONs <strong>et</strong> PDFs ici<br>ou cliquez pour choisir</div>
+        <div class="file-counts" id="file-counts"></div>
+      </label>
+    </div>
+
+    <div class="sidebar-section">
+      <div class="sidebar-label">Filtres</div>
+      <select id="fil-concours" onchange="applyFilters()" style="margin-bottom:6px">
+        <option value="">Tous les concours</option>
+      </select>
+      <select id="fil-filiere" onchange="applyFilters()">
+        <option value="">Toutes les filières</option>
+      </select>
+    </div>
+
+    <!-- Mode switch -->
+    <div class="mode-switch">
+      <button class="mode-btn active" id="btn-mode-single" onclick="setMode('single')">1 thème</button>
+      <button class="mode-btn" id="btn-mode-multi" onclick="setMode('multi')">Multi-thèmes</button>
+    </div>
+
+    <!-- Barre de sélection multi -->
+    <div class="multi-bar" id="multi-bar">
+      <div class="multi-bar-top">
+        <span class="multi-bar-label" id="multi-count">0 thème sélectionné</span>
+        <button class="btn-clear-sel" onclick="clearSelection()">Tout effacer</button>
+      </div>
+      <div class="selected-chips" id="selected-chips"></div>
+      <button class="btn-compare" id="btn-compare" onclick="showMulti()" disabled>Comparer →</button>
+    </div>
+
+    <div class="sidebar-section" style="padding-bottom:4px">
+      <div class="sidebar-label" id="theme-list-label">Thème à réviser</div>
+    </div>
+    <div class="theme-list" id="theme-list">
+      <div style="padding:16px;color:var(--text3);font-size:12px;text-align:center">
+        Chargez des fichiers pour voir les thèmes
+      </div>
+    </div>
+  </aside>
+
+  <main class="main" id="main">
+    <div class="empty-state">
+      <div class="big">📚</div>
+      <h2>Choisissez un thème à réviser</h2>
+      <p>Mode <strong>1 thème</strong> : cliquez un thème pour voir les annales.<br>
+         Mode <strong>Multi-thèmes</strong> : cochez plusieurs thèmes,<br>puis comparez pour trouver les sujets les plus couvrants.</p>
+    </div>
+  </main>
+</div>
+
+<div class="pdf-modal" id="pdf-modal">
+  <div class="pdf-modal-bar">
+    <span class="pdf-modal-title" id="pdf-modal-title"></span>
+    <button class="btn-close" onclick="closePdf()">✕ Fermer</button>
+  </div>
+  <iframe class="pdf-frame" id="pdf-frame"></iframe>
+</div>
+
+<script>
+// ── État ──────────────────────────────────────────────────────────────────────
+let allDocs     = [];
+let pdfMap      = {};
+let activeTheme = null;
+let activeSubs  = new Set();
+let appMode     = 'single';
+let selectedThemes = new Set();
+
+const COLORS = ['#3b82f6','#8b5cf6','#ec4899','#f97316','#10b981','#14b8a6','#f59e0b','#6366f1'];
+
+// ─────────────────────────────────────────────────────────────────────────────
+// ✅ AJOUT UNIQUE : AUTO LOAD MANIFEST
+// ─────────────────────────────────────────────────────────────────────────────
+
+window.addEventListener('DOMContentLoaded', loadManifest);
+
+async function loadManifest() {
+  try {
+    const res = await fetch('./manifest.json');
+    const manifest = await res.json();
+
+    // ── PDF AUTO LOAD ──
+    const pdfFiles = manifest.pdf || [];
+
+    pdfFiles.forEach(path => {
+      const name = path.split('/').pop().replace('.pdf','').toLowerCase();
+      pdfMap[name] = path;
+    });
+
+    // ── JSON AUTO LOAD ──
+    const jsonFiles = manifest.json || [];
+
+    const results = await Promise.all(
+      jsonFiles.map(path =>
+        fetch(path)
+          .then(r => r.json())
+          .catch(() => null)
+      )
+    );
+
+    allDocs = results.filter(Boolean).map(obj => ({
+      concours: obj.concours || '?',
+      filiere: obj.filiere || '?',
+      date: obj.date || '?',
+      pdfName: obj.file || null,
+      label: (obj.file || `${obj.concours}_${obj.filiere}_${obj.date}`).replace('.pdf',''),
+      parties: (obj.data || {}).parties || []
+    }));
+
+    buildFilters();
+    buildThemeList();
+    updateStats();
+
+  } catch (e) {
+    console.error("Erreur chargement manifest", e);
+  }
+}
+
+// ── Mode ──────────────────────────────────────────────────────────────────────
+function setMode(mode) {
+  appMode = mode;
+  document.getElementById('btn-mode-single').classList.toggle('active', mode === 'single');
+  document.getElementById('btn-mode-multi').classList.toggle('active',  mode === 'multi');
+  document.getElementById('multi-bar').classList.toggle('visible', mode === 'multi');
+  document.getElementById('theme-list-label').textContent = mode === 'multi' ? 'Cocher les thèmes' : 'Thème à réviser';
+  buildThemeList();
+  if (mode === 'single') { selectedThemes.clear(); updateMultiBar(); }
+  document.getElementById('main').innerHTML =
+    `<div class="empty-state">
+      <div class="big">${mode==='multi'?'🗂':'📚'}</div>
+      <h2>${mode==='multi'?'Sélectionnez les thèmes à comparer':'Choisissez un thème à réviser'}</h2>
+      <p>${mode==='multi'
+        ?'Cochez plusieurs thèmes puis cliquez <strong>Comparer</strong>.'
+        :'Cliquez sur un thème dans la barre de gauche.'}</p>
+    </div>`;
+}
+
+// ── Upload ────────────────────────────────────────────────────────────────────
+const fileInput = document.getElementById('file-input');
+const dropZone  = document.getElementById('drop-zone');
+fileInput.addEventListener('change', e => handleFiles([...e.target.files]));
+dropZone.addEventListener('dragover',  e => { e.preventDefault(); dropZone.classList.add('drag'); });
+dropZone.addEventListener('dragleave', () => dropZone.classList.remove('drag'));
+dropZone.addEventListener('drop', e => { e.preventDefault(); dropZone.classList.remove('drag'); handleFiles([...e.dataTransfer.files]); });
+
+async function handleFiles(files) {
+  const jsonFiles = files.filter(f => f.name.toLowerCase().endsWith('.json'));
+  const pdfFiles  = files.filter(f => f.name.toLowerCase().endsWith('.pdf'));
+
+  pdfFiles.forEach(f => {
+    const k = pdfKey(f.name);
+    if (pdfMap[k]) URL.revokeObjectURL(pdfMap[k]);
+    pdfMap[k] = URL.createObjectURL(f);
+  });
+
+  if (jsonFiles.length) {
+    const results = await Promise.all(jsonFiles.map(f =>
+      f.text().then(t => { try { return JSON.parse(t); } catch { return null; } })
+    ));
+
+    allDocs = results.filter(Boolean).map(obj => ({
+      concours: obj.concours||'?',
+      filiere: obj.filiere||'?',
+      date: obj.date||'?',
+      pdfName: obj.file||null,
+      label: (obj.file||`${obj.concours}_${obj.filiere}_${obj.date}`).replace('.pdf',''),
+      parties: (obj.data||{}).parties||[]
+    }));
+
+    buildFilters();
+    buildThemeList();
+  }
+
+  updateStats();
+  const el = document.getElementById('file-counts');
+  const parts = [];
+  if (allDocs.length) parts.push(`<span class="pdf-badge">${allDocs.length} JSON</span>`);
+  if (Object.keys(pdfMap).length) parts.push(`<span class="pdf-badge">${Object.keys(pdfMap).length} PDF</span>`);
+  el.innerHTML = parts.join('');
+}
+
+function pdfKey(name) { return name.replace(/\.pdf$/i,'').toLowerCase().trim(); }
+
+function findPdfUrl(doc) {
+  if (doc.pdfName) { const k = pdfKey(doc.pdfName); if (pdfMap[k]) return pdfMap[k]; }
+  const k2 = doc.label.toLowerCase().trim(); if (pdfMap[k2]) return pdfMap[k2];
+  const parts = [doc.concours,doc.filiere,doc.date].map(s=>(s||'').toLowerCase());
+  for (const sep of ['_','-',' ']) { const k3 = parts.join(sep); if (pdfMap[k3]) return pdfMap[k3]; }
+  const c=doc.concours.toLowerCase(), f=doc.filiere.toLowerCase(), y=String(doc.date);
+  for (const [key,url] of Object.entries(pdfMap)) { if (key.includes(c)&&key.includes(f)&&key.includes(y)) return url; }
+  return null;
+}
+
+function updateStats() {
+  const nQ = allDocs.reduce((s,d)=>s+d.parties.reduce((s2,p)=>s2+p.questions.length,0),0);
+  document.getElementById('stat-files').textContent = `${allDocs.length} sujets chargés`;
+  if (allDocs.length) { document.getElementById('stat-q').style.display=''; document.getElementById('n-q').textContent=nQ.toLocaleString('fr'); }
+  const nPdf = Object.keys(pdfMap).length;
+  const pdfEl = document.getElementById('pdf-status');
+  if (nPdf>0) { pdfEl.style.display=''; pdfEl.innerHTML=`<span class="pdf-badge">${nPdf} PDF</span>`; }
+}
+
+// ── Filtres ───────────────────────────────────────────────────────────────────
+function buildFilters() {
+  const concours=[...new Set(allDocs.map(d=>d.concours))].sort();
+  const filieres=[...new Set(allDocs.map(d=>d.filiere))].sort();
+  document.getElementById('fil-concours').innerHTML='<option value="">Tous les concours</option>'+concours.map(c=>`<option>${c}</option>`).join('');
+  document.getElementById('fil-filiere').innerHTML='<option value="">Toutes les filières</option>'+filieres.map(f=>`<option>${f}</option>`).join('');
+}
+function getFilteredDocs() {
+  const c=document.getElementById('fil-concours').value, f=document.getElementById('fil-filiere').value;
+  return allDocs.filter(d=>(!c||d.concours===c)&&(!f||d.filiere===f));
+}
+function applyFilters() { buildThemeList(); if (appMode==='single'&&activeTheme) showTheme(activeTheme); else if (appMode==='multi'&&selectedThemes.size>0) showMulti(); }
+
+// ── Normalisation ─────────────────────────────────────────────────────────────
+const CORRECTIONS = {
+  'Transmissions mécanques':'Transmissions mécaniques',
+  'Transmissionsmechmiques':'Transmissions mécaniques',
+  'Transmissionsmécaniques':'Transmissions mécaniques',
+  "Dynamique : Théorème de l'énergie cinétique":"Dynamique : Théorème de l'Énergie Cinétique",
+};
+function normalizeTheme(s) {
+  if (!s) return s;
+  s = CORRECTIONS[s]||s;
+  s = s.replace(/([a-zàâäéèêëîïôùûüç])([A-ZÀÂÄÉÈÊËÎÏÔÙÛÜÇ])/g,'$1 $2');
+  return s.trim();
+}
+function parseTheme(str) {
+  str = normalizeTheme(str||'');
+  const i = str.indexOf(':');
+  if (i<0) return {main:str,sub:''};
+  return {main:str.slice(0,i).trim(),sub:str.slice(i+1).trim()};
+}
+function normalizeQnum(q) {
+  const m=q.trim().match(/^[Qq]uestion\s*[nN]?[°o]?\s*(\d+)$/);
+  return m?`Q ${m[1]}`:q;
+}
+
+// ── Liste thèmes ──────────────────────────────────────────────────────────────
+function buildThemeList() {
+  const docs=getFilteredDocs(), counts={};
+  docs.forEach(d=>d.parties.forEach(p=>p.questions.forEach(q=>(q.mots_cles||[]).forEach(mk=>{
+    const {main}=parseTheme(mk.theme); if (main) counts[main]=(counts[main]||0)+1;
+  }))));
+  const total=Object.values(counts).reduce((a,b)=>a+b,0)||1;
+  const sorted=Object.entries(counts).sort((a,b)=>b[1]-a[1]);
+  const list=document.getElementById('theme-list');
+  if (!sorted.length) { list.innerHTML='<div style="padding:16px;color:var(--text3);font-size:12px;text-align:center">Aucun thème</div>'; return; }
+
+  list.innerHTML=sorted.map(([name,n])=>{
+    const pct=n/total*100;
+    const dot=pct>=10?'dot-high':pct>=3?'dot-mid':'dot-low';
+    const isSel=selectedThemes.has(name);
+    const isAct=activeTheme===name;
+    if (appMode==='multi') {
+      return `<button class="theme-btn ${isSel?'selected':''}" onclick="toggleThemeSelect('${name.replace(/'/g,"\\'")}')">
+        <div class="chk">${isSel?'✓':''}</div>
+        <div class="dot ${dot}"></div>
+        <span>${name}</span>
+        <span class="count">${n}</span>
+      </button>`;
+    } else {
+      return `<button class="theme-btn ${isAct?'active':''}" onclick="showTheme('${name.replace(/'/g,"\\'")}')">
+        <div class="dot ${dot}"></div>
+        <span>${name}</span>
+        <span class="count">${n}</span>
+      </button>`;
+    }
+  }).join('');
+}
+
+// ── Multi-sélection ───────────────────────────────────────────────────────────
+function toggleThemeSelect(name) {
+  if (selectedThemes.has(name)) selectedThemes.delete(name);
+  else selectedThemes.add(name);
+  updateMultiBar();
+  buildThemeList();
+}
+
+function clearSelection() {
+  selectedThemes.clear();
+  updateMultiBar();
+  buildThemeList();
+}
+
+function updateMultiBar() {
+  const n=selectedThemes.size;
+  document.getElementById('multi-count').textContent=`${n} thème${n>1?'s':''} sélectionné${n>1?'s':''}`;
+  document.getElementById('btn-compare').disabled=(n<1);
+  const chips=[...selectedThemes].map((t,i)=>`
+    <span class="sel-chip" style="background:${COLORS[i%COLORS.length]}">
+      ${t}<button onclick="toggleThemeSelect('${t.replace(/'/g,"\\'")}')">×</button>
+    </span>`).join('');
+  document.getElementById('selected-chips').innerHTML=chips;
+}
+
+// ── Vue multi-thèmes ──────────────────────────────────────────────────────────
+function showMulti() {
+  if (selectedThemes.size===0) return;
+  const themes=[...selectedThemes];
+  const docs=getFilteredDocs();
+  const docResults=[];
+
+  docs.forEach(doc=>{
+    const themeMap={}; // theme → {sub → [qnum]}
+    themes.forEach(t=>themeMap[t]={});
+
+    doc.parties.forEach(p=>p.questions.forEach(q=>{
+      const qnum=normalizeQnum(q.numero||'');
+      (q.mots_cles||[]).forEach(mk=>{
+        const {main,sub}=parseTheme(mk.theme);
+        if (!themeMap[main]) return;
+        const s=sub||'(général)';
+        if (!themeMap[main][s]) themeMap[main][s]=[];
+        if (!themeMap[main][s].includes(qnum)) themeMap[main][s].push(qnum);
+      });
+    }));
+
+    const perTheme={};
+    let total=0;
+    themes.forEach(t=>{
+      const n=Object.values(themeMap[t]).flat().length;
+      perTheme[t]={subMap:themeMap[t],count:n};
+      total+=n;
+    });
+
+    if (total>0) docResults.push({doc,perTheme,total});
+  });
+
+  docResults.sort((a,b)=>b.total-a.total);
+  const maxTotal=docResults[0]?.total||1;
+  const maxPerTheme={};
+  themes.forEach(t=>{ maxPerTheme[t]=Math.max(...docResults.map(r=>r.perTheme[t].count),1); });
+
+  const themesLabel=themes.length===1?themes[0]:themes.join(' + ');
+
+  document.getElementById('main').innerHTML=`
+    <div class="page-header">
+      <h1>Comparaison — ${themes.length} thème${themes.length>1?'s':''}</h1>
+      <p>${docResults.length} sujets couvrent au moins un thème sélectionné · triés par score total</p>
+    </div>
+    <div style="display:flex;gap:10px;flex-wrap:wrap;margin-bottom:16px">
+      ${themes.map((t,i)=>`<span style="display:inline-flex;align-items:center;gap:6px;padding:4px 10px;border-radius:99px;font-size:12px;font-weight:500;background:${COLORS[i%COLORS.length]}20;color:${COLORS[i%COLORS.length]};border:1px solid ${COLORS[i%COLORS.length]}40">
+        <span style="width:8px;height:8px;border-radius:50%;background:${COLORS[i%COLORS.length]};display:inline-block"></span>${t}
+      </span>`).join('')}
+    </div>
+    <div class="results-header">
+      <div class="results-count">${docResults.length} sujets</div>
+      <select class="sort-select" id="sort-sel" onchange="reSortMulti()">
+        <option value="total">Score total d'abord</option>
+        <option value="year-desc">Année décroissante</option>
+        <option value="year-asc">Année croissante</option>
+      </select>
+    </div>
+    <div id="cards-container">${renderMultiCards(docResults,maxTotal,themes,maxPerTheme)}</div>
+  `;
+  window._multiResults=docResults;
+  window._maxTotal=maxTotal;
+  window._multiThemes=themes;
+  window._maxPerTheme=maxPerTheme;
+}
+
+function renderMultiCards(results,maxTotal,themes,maxPerTheme) {
+  return results.map((r,i)=>{
+    const {doc,perTheme,total}=r;
+    const pdfUrl=findPdfUrl(doc);
+    const pdfBtn=pdfUrl
+      ?`<button class="btn-pdf" onclick="openPdf(event,'${pdfUrl}','${doc.label}')">📄 PDF</button>`
+      :`<span class="btn-pdf missing">📄 PDF</span>`;
+
+    const scoreRows=themes.map((t,ti)=>{
+      const n=perTheme[t].count;
+      const pct=n>0?Math.round(n/maxPerTheme[t]*100):0;
+      const color=COLORS[ti%COLORS.length];
+      return `<div class="score-row">
+        <span class="score-theme-name" title="${t}" style="color:${color}">${t.split(' ').slice(0,2).join(' ')}</span>
+        <div class="score-bar-bg"><div class="score-bar-fill" style="width:${pct}%;background:${color}"></div></div>
+        <span style="font-family:var(--mono);font-size:11px;color:${n>0?color:'var(--text3)'};min-width:22px;text-align:right">${n>0?n+'q':'-'}</span>
+      </div>`;
+    }).join('');
+
+    // Corps : une section par thème
+    const bodyContent=themes.map((t,ti)=>{
+      const {subMap,count}=perTheme[t];
+      if (count===0) return '';
+      const color=COLORS[ti%COLORS.length];
+      const subBlocks=Object.entries(subMap).filter(([,qs])=>qs.length>0).sort((a,b)=>b[1].length-a[1].length).map(([s,qs])=>`
+        <div class="sub-block">
+          <div class="sub-block-title">${s}</div>
+          <div class="q-pills">${qs.map(q=>`<span class="q-pill">${q}</span>`).join('')}</div>
+        </div>`).join('');
+      return `<div class="theme-section-title" style="color:${color}">● ${t}</div>${subBlocks}`;
+    }).join('');
+
+    return `<div class="annale-card" id="mcard-${i}">
+      <div class="annale-header" onclick="toggleCard('mcard-${i}')">
+        <span class="annale-rank">#${i+1}</span>
+        <span class="annale-name">${doc.label}</span>
+        <div class="annale-meta">
+          <span class="tag tag-bank">${doc.concours}</span>
+          <span class="tag tag-fil">${doc.filiere}</span>
+          <span class="tag tag-year">${doc.date}</span>
+        </div>
+        ${pdfBtn}
+        <div class="score-col">${scoreRows}</div>
+        <div style="text-align:right;min-width:36px">
+          <div class="score-total">${total}<span class="q-label">q</span></div>
+        </div>
+      </div>
+      <div class="annale-body" id="body-mcard-${i}">${bodyContent}</div>
+    </div>`;
+  }).join('');
+}
+
+function reSortMulti() {
+  const mode=document.getElementById('sort-sel').value;
+  let sorted=[...window._multiResults];
+  if (mode==='year-desc') sorted.sort((a,b)=>b.doc.date-a.doc.date);
+  else if (mode==='year-asc') sorted.sort((a,b)=>a.doc.date-b.doc.date);
+  else sorted.sort((a,b)=>b.total-a.total);
+  window._multiResults=sorted;
+  document.getElementById('cards-container').innerHTML=renderMultiCards(sorted,window._maxTotal,window._multiThemes,window._maxPerTheme);
+}
+
+// ── Vue thème unique ──────────────────────────────────────────────────────────
+function showTheme(theme) {
+  activeTheme=theme; activeSubs.clear();
+  document.querySelectorAll('.theme-btn').forEach(b=>b.classList.toggle('active',b.querySelector('span:not(.count)')?.textContent===theme));
+  const docs=getFilteredDocs(), subCounts={}, docResults=[];
+  docs.forEach(doc=>{
+    const subMap={};
+    doc.parties.forEach(p=>p.questions.forEach(q=>{
+      const qnum=normalizeQnum(q.numero||'');
+      (q.mots_cles||[]).forEach(mk=>{
+        const {main,sub}=parseTheme(mk.theme);
+        if (main!==theme) return;
+        const s=sub||'(général)';
+        if (!subMap[s]) subMap[s]=[];
+        if (!subMap[s].includes(qnum)) subMap[s].push(qnum);
+        subCounts[s]=(subCounts[s]||0)+1;
+      });
+    }));
+    const totalQ=Object.values(subMap).flat().length;
+    if (totalQ>0) docResults.push({doc,subMap,totalQ});
+  });
+  docResults.sort((a,b)=>b.totalQ-a.totalQ);
+  const maxQ=docResults[0]?.totalQ||1;
+  const subsSorted=Object.entries(subCounts).sort((a,b)=>b[1]-a[1]);
+  const totalQuestions=Object.values(subCounts).reduce((a,b)=>a+b,0);
+
+  document.getElementById('main').innerHTML=`
+    <div class="page-header">
+      <h1>${theme}</h1>
+      <p>${docResults.length} sujets · ${totalQuestions} questions au total</p>
+    </div>
+    ${subsSorted.length>1?`
+    <div style="margin-bottom:8px;font-size:12px;color:var(--text2);font-weight:500">Filtrer par sous-thème :</div>
+    <div class="subtheme-bar">
+      ${subsSorted.map(([s,n])=>`<button class="sub-chip" onclick="toggleSub(this,'${s.replace(/'/g,"\\'")}')">
+        ${s}<span class="n">${n}</span></button>`).join('')}
+    </div>`:''}
+    <div class="results-header">
+      <div class="results-count" id="res-count">${docResults.length} sujets</div>
+      <select class="sort-select" id="sort-sel" onchange="reSort()">
+        <option value="count">Plus de questions d'abord</option>
+        <option value="year-desc">Année décroissante</option>
+        <option value="year-asc">Année croissante</option>
+      </select>
+    </div>
+    <div id="cards-container">${renderCards(docResults,maxQ)}</div>`;
+  window._docResults=docResults; window._maxQ=maxQ;
+}
+
+function renderCards(results,maxQ,filterSubs) {
+  let filtered=results;
+  if (filterSubs&&filterSubs.size>0) filtered=results.filter(r=>[...filterSubs].some(s=>r.subMap[s]));
+  if (!filtered.length) return '<div style="padding:40px;text-align:center;color:var(--text3)">Aucun sujet.</div>';
+  const rc=document.getElementById('res-count');
+  if (rc) rc.textContent=`${filtered.length} sujet${filtered.length>1?'s':''}`;
+  return filtered.map((r,i)=>{
+    const {doc,subMap,totalQ}=r;
+    const pct=Math.round(totalQ/maxQ*100);
+    const pdfUrl=findPdfUrl(doc);
+    const pdfBtn=pdfUrl?`<button class="btn-pdf" onclick="openPdf(event,'${pdfUrl}','${doc.label}')">📄 PDF</button>`:`<span class="btn-pdf missing">📄 PDF</span>`;
+    const subsToShow=filterSubs&&filterSubs.size>0?Object.entries(subMap).filter(([s])=>filterSubs.has(s)):Object.entries(subMap);
+    const subBlocks=subsToShow.sort((a,b)=>b[1].length-a[1].length).map(([s,qs])=>`
+      <div class="sub-block">
+        <div class="sub-block-title">${s}</div>
+        <div class="q-pills">${qs.map(q=>`<span class="q-pill">${q}</span>`).join('')}</div>
+      </div>`).join('');
+    return `<div class="annale-card" id="card-${i}">
+      <div class="annale-header" onclick="toggleCard('card-${i}')">
+        <span class="annale-rank">#${i+1}</span>
+        <span class="annale-name">${doc.label}</span>
+        <div class="annale-meta">
+          <span class="tag tag-bank">${doc.concours}</span>
+          <span class="tag tag-fil">${doc.filiere}</span>
+          <span class="tag tag-year">${doc.date}</span>
+        </div>
+        ${pdfBtn}
+        <div style="text-align:right;min-width:60px">
+          <div class="q-count">${totalQ}<span class="q-label"> q.</span></div>
+          <div class="progress-bar"><div class="progress-fill" style="width:${pct}%"></div></div>
+        </div>
+      </div>
+      <div class="annale-body" id="body-card-${i}">${subBlocks}</div>
+    </div>`;
+  }).join('');
+}
+
+function toggleCard(id) { document.getElementById('body-'+id).classList.toggle('open'); }
+
+function toggleSub(btn,sub) {
+  btn.classList.toggle('active');
+  activeSubs.has(sub)?activeSubs.delete(sub):activeSubs.add(sub);
+  document.getElementById('cards-container').innerHTML=renderCards(window._docResults,window._maxQ,activeSubs);
+}
+
+function reSort() {
+  const mode=document.getElementById('sort-sel').value;
+  let sorted=[...window._docResults];
+  if (mode==='year-desc') sorted.sort((a,b)=>b.doc.date-a.doc.date);
+  else if (mode==='year-asc') sorted.sort((a,b)=>a.doc.date-b.doc.date);
+  else sorted.sort((a,b)=>b.totalQ-a.totalQ);
+  window._docResults=sorted;
+  document.getElementById('cards-container').innerHTML=renderCards(sorted,window._maxQ,activeSubs);
+}
+
+// ── PDF ───────────────────────────────────────────────────────────────────────
+function openPdf(e,url,label) {
+  e.stopPropagation();
+  document.getElementById('pdf-modal-title').textContent=label;
+  document.getElementById('pdf-frame').src=url;
+  document.getElementById('pdf-modal').classList.add('open');
+}
+function closePdf() {
+  document.getElementById('pdf-modal').classList.remove('open');
+  document.getElementById('pdf-frame').src='';
+}
+document.addEventListener('keydown',e=>{ if(e.key==='Escape') closePdf(); });
+</script>
+</body>
+</html>
