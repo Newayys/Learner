@@ -681,6 +681,11 @@ function reSort(){
 // ── PDF ───────────────────────────────────────────────────────────────────────
 function openPdf(e,url,label){
   e.stopPropagation();
+  if(window.innerWidth<=768){
+    // Sur mobile l'iframe ne scroll pas bien : on ouvre dans un nouvel onglet
+    window.open(url,'_blank');
+    return;
+  }
   document.getElementById('pdf-modal-title').textContent=label;
   document.getElementById('pdf-frame').src=url;
   document.getElementById('pdf-modal').classList.add('open');
