@@ -111,35 +111,46 @@
   .theme-btn .chk { width: 18px; height: 18px; border: 1.5px solid var(--border); border-radius: 4px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; font-size: 11px; }
   .theme-btn.selected .chk { background: #4338ca; border-color: #4338ca; color: #fff; }
 
-  /* ── DONE (thème révisé) ── */
-  .done-tick {
-    width: 22px; height: 22px; border-radius: 50%; flex-shrink: 0;
-    display: flex; align-items: center; justify-content: center;
-    font-size: 12px; border: 1.5px solid var(--border);
-    background: var(--surface); color: var(--text3); cursor: pointer;
+  /* ── DONE PROGRESS (sidebar) ── */
+  .theme-done-progress {
+    margin-left: auto; display: flex; align-items: center; gap: 4px; flex-shrink: 0;
+  }
+  .theme-done-frac {
+    font-size: 10px; font-family: var(--mono); color: var(--green); font-weight: 600;
+    background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 99px;
+    padding: 1px 6px; white-space: nowrap;
+  }
+  .theme-done-frac.done-all {
+    background: #dcfce7; border-color: #86efac;
+  }
+
+  /* ── DONE CARD STATE ── */
+  .annale-card.card-done {
+    opacity: 0.55;
+    background: var(--surface2);
+  }
+  .annale-card.card-done .annale-name {
+    text-decoration: line-through;
+    color: var(--text3);
+  }
+  .btn-done-card {
+    display: inline-flex; align-items: center; gap: 4px; padding: 5px 10px;
+    border-radius: 6px; font-size: 12px; font-weight: 500; min-height: 30px;
+    border: 1px solid var(--border); background: var(--surface2); color: var(--text3);
+    cursor: pointer; white-space: nowrap; flex-shrink: 0;
     transition: background .15s, border-color .15s, color .15s;
   }
-  .done-tick:hover { border-color: var(--green); color: var(--green); }
-  .theme-btn.done .done-tick { background: #f0fdf4; border-color: #86efac; color: var(--green); }
-  .theme-btn.done > span { opacity: .45; text-decoration: line-through; }
-  .theme-btn.done .count { opacity: .3; }
-  .theme-btn.done .dot { opacity: .3; }
+  .btn-done-card:hover { border-color: var(--green); color: var(--green); background: #f0fdf4; }
+  .btn-done-card.is-done { border-color: #86efac; background: #f0fdf4; color: var(--green); }
+  .btn-done-card.is-done:hover { background: var(--surface2); border-color: var(--border); color: var(--text3); }
 
-  /* Compteur done dans la sidebar */
-  .done-summary {
-    font-size: 11px; color: var(--text3); padding: 4px 16px 8px;
-    display: flex; align-items: center; gap: 6px;
+  /* Show-done filter */
+  .done-filter-bar {
+    display: flex; align-items: center; gap: 6px; font-size: 12px;
+    color: var(--text2); margin-bottom: 12px;
   }
-  .done-summary .done-pill {
-    background: #f0fdf4; color: var(--green); border: 1px solid #bbf7d0;
-    border-radius: 99px; padding: 1px 7px; font-size: 11px; font-weight: 600;
-  }
-  .btn-reset-done {
-    margin-left: auto; font-size: 11px; color: var(--text3);
-    background: none; border: none; cursor: pointer; text-decoration: underline;
-    padding: 0;
-  }
-  .btn-reset-done:hover { color: var(--red); }
+  .done-filter-bar label { display: flex; align-items: center; gap: 5px; cursor: pointer; }
+  .done-filter-bar input[type=checkbox] { accent-color: var(--accent); width: 14px; height: 14px; }
 
   /* ── EMPTY STATE ── */
   .empty-state { text-align: center; padding: 60px 24px; color: var(--text3); }
@@ -307,11 +318,6 @@
     <div class="sidebar-section" style="padding-bottom:4px">
       <div class="sidebar-label" id="theme-list-label">Thème à réviser</div>
     </div>
-    <div class="done-summary" id="done-summary" style="display:none">
-      <span class="done-pill" id="done-pill">0</span>
-      <span id="done-text">thème révisé</span>
-      <button class="btn-reset-done" onclick="resetDone()" title="Tout remettre à zéro">Réinitialiser</button>
-    </div>
     <div class="theme-list" id="theme-list">
       <div style="padding:16px;color:var(--text3);font-size:12px;text-align:center">Chargement…</div>
     </div>
@@ -342,26 +348,19 @@ let allDocs = [], pdfMap = {}, corrigeMap = {}, activeTheme = null, activeSubs =
 let appMode = 'single', selectedThemes = new Set();
 const COLORS = ['#3b82f6','#8b5cf6','#ec4899','#f97316','#10b981','#14b8a6','#f59e0b','#6366f1'];
 
-// ── Thèmes révisés (persistés) ────────────────────────────────────────────────
-let doneThemes = new Set(JSON.parse(localStorage.getItem('annales_done') || '[]'));
-function saveDone() { localStorage.setItem('annales_done', JSON.stringify([...doneThemes])); }
-function toggleDone(name, e) {
-  e.stopPropagation();
-  doneThemes.has(name) ? doneThemes.delete(name) : doneThemes.add(name);
-  saveDone(); buildThemeList();
-  if (activeTheme === name) showTheme(name);
+// ── Sujets faits : clé = "theme|||docLabel" ───────────────────────────────────
+let doneCards = new Set(JSON.parse(localStorage.getItem('annales_done_cards') || '[]'));
+function doneKey(theme, docLabel) { return theme + '|||' + docLabel; }
+function isDoneCard(theme, docLabel) { return doneCards.has(doneKey(theme, docLabel)); }
+function toggleDoneCard(theme, docLabel) {
+  const k = doneKey(theme, docLabel);
+  doneCards.has(k) ? doneCards.delete(k) : doneCards.add(k);
+  localStorage.setItem('annales_done_cards', JSON.stringify([...doneCards]));
 }
-function resetDone() {
-  if (!confirm('Remettre tous les thèmes en "non révisé" ?')) return;
-  doneThemes.clear(); saveDone(); buildThemeList();
-}
-function updateDoneSummary(total) {
-  const n = doneThemes.size;
-  const el = document.getElementById('done-summary');
-  if (!total) { el.style.display='none'; return; }
-  el.style.display = 'flex';
-  document.getElementById('done-pill').textContent = `${n}/${total}`;
-  document.getElementById('done-text').textContent = `thème${n>1?'s':''} révisé${n>1?'s':''}`;
+// Retourne {done, total} pour un thème donné parmi les sujets affichés
+function doneProgressForTheme(theme, docResults) {
+  const done = docResults.filter(r => isDoneCard(theme, r.doc.label)).length;
+  return { done, total: docResults.length };
 }
 
 // ── Mobile init ───────────────────────────────────────────────────────────────
@@ -494,33 +493,41 @@ function esc(s) { return s.replace(/\\/g,'\\\\').replace(/'/g,"\\'"); }
 
 // ── Liste thèmes ──────────────────────────────────────────────────────────────
 function buildThemeList() {
-  const docs=getFilteredDocs(), counts={};
+  const docs=getFilteredDocs(), counts={}, themeDocSets={};
   docs.forEach(d=>d.parties.forEach(p=>p.questions.forEach(q=>(q.mots_cles||[]).forEach(mk=>{
-    const {main}=parseTheme(mk.theme); if(main) counts[main]=(counts[main]||0)+1;
+    const {main}=parseTheme(mk.theme); if(!main) return;
+    counts[main]=(counts[main]||0)+1;
+    if(!themeDocSets[main]) themeDocSets[main]=new Set();
+    themeDocSets[main].add(d.label);
   }))));
   const total=Object.values(counts).reduce((a,b)=>a+b,0)||1;
   const sorted=Object.entries(counts).sort((a,b)=>b[1]-a[1]);
   const list=document.getElementById('theme-list');
   if(!sorted.length){list.innerHTML='<div style="padding:16px;color:var(--text3);font-size:12px;text-align:center">Aucun thème</div>';return;}
-  updateDoneSummary(sorted.length);
   list.innerHTML=sorted.map(([name,n])=>{
     const pct=n/total*100;
     const dot=pct>=10?'dot-high':pct>=3?'dot-mid':'dot-low';
-    const isSel=selectedThemes.has(name), isAct=activeTheme===name, isDone=doneThemes.has(name);
+    const isSel=selectedThemes.has(name), isAct=activeTheme===name;
+    const docLabels=[...( themeDocSets[name]||new Set())];
+    const doneN=docLabels.filter(l=>isDoneCard(name,l)).length;
+    const totalN=docLabels.length;
+    const doneBadge=doneN>0
+      ?`<span class="theme-done-frac ${doneN===totalN?'done-all':''}">${doneN}/${totalN}</span>`
+      :'';
     if(appMode==='multi'){
-      return `<button class="theme-btn ${isSel?'selected':''} ${isDone?'done':''}" onclick="toggleThemeSelect('${esc(name)}')">
+      return `<button class="theme-btn ${isSel?'selected':''}" onclick="toggleThemeSelect('${esc(name)}')">
         <div class="chk">${isSel?'✓':''}</div>
         <div class="dot ${dot}"></div>
         <span style="flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${name}</span>
         <span class="count">${n}</span>
-        <button class="done-tick" title="${isDone?'Marquer comme non révisé':'Marquer comme révisé'}" onclick="toggleDone('${esc(name)}',event)">${isDone?'✓':''}</button>
+        ${doneBadge}
       </button>`;
     } else {
-      return `<button class="theme-btn ${isAct?'active':''} ${isDone?'done':''}" onclick="selectTheme('${esc(name)}')">
+      return `<button class="theme-btn ${isAct?'active':''}" onclick="selectTheme('${esc(name)}')">
         <div class="dot ${dot}"></div>
         <span style="flex:1;min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap">${name}</span>
         <span class="count">${n}</span>
-        <button class="done-tick" title="${isDone?'Marquer comme non révisé':'Marquer comme révisé'}" onclick="toggleDone('${esc(name)}',event)">${isDone?'✓':''}</button>
+        ${doneBadge}
       </button>`;
     }
   }).join('');
@@ -707,17 +714,6 @@ function showTheme(theme){
       <h1>${theme}</h1>
       <p>${docResults.length} sujets · ${totalQuestions} questions</p>
     </div>
-    ${doneThemes.has(theme)?`
-    <div style="display:flex;align-items:center;gap:10px;padding:10px 14px;background:#f0fdf4;border:1px solid #86efac;border-radius:var(--radius);margin-bottom:14px;font-size:13px;color:var(--green)">
-      <span style="font-size:16px">✅</span>
-      <span>Ce thème est marqué comme <strong>révisé</strong>.</span>
-      <button onclick="toggleDone('${esc(theme)}',event)" style="margin-left:auto;font-size:12px;color:var(--green);background:none;border:1px solid #86efac;border-radius:5px;padding:3px 9px;cursor:pointer">Annuler</button>
-    </div>`:`
-    <div style="display:flex;align-items:center;gap:10px;padding:10px 14px;background:var(--surface2);border:1px solid var(--border);border-radius:var(--radius);margin-bottom:14px;font-size:13px;color:var(--text2)">
-      <span style="font-size:15px">○</span>
-      <span>Thème non encore révisé.</span>
-      <button onclick="toggleDone('${esc(theme)}',event)" style="margin-left:auto;font-size:12px;color:var(--green);background:#f0fdf4;border:1px solid #86efac;border-radius:5px;padding:3px 9px;cursor:pointer">✓ Marquer révisé</button>
-    </div>`}
     ${subsSorted.length>1?`
     <div style="margin-bottom:8px;font-size:12px;color:var(--text2);font-weight:500">Filtrer par sous-thème :</div>
     <div class="subtheme-bar">${subsSorted.map(([s,n])=>`<button class="sub-chip" onclick="toggleSub(this,'${esc(s)}')">${s}<span class="n">${n}</span></button>`).join('')}</div>`:''}
@@ -760,7 +756,8 @@ function renderCards(results,maxQ,filterSubs){
     const subsToShow=hasFilter?Object.entries(subMap).filter(([s])=>filterSubs.has(s)):Object.entries(subMap);
     const subBlocks=subsToShow.sort((a,b)=>b[1].length-a[1].length)
       .map(([s,qs])=>`<div class="sub-block"><div class="sub-block-title">${s}</div><div class="q-pills">${qs.map(q=>`<span class="q-pill">${q}</span>`).join('')}</div></div>`).join('');
-    return `<div class="annale-card" id="card-${i}">
+    const done=isDoneCard(activeTheme,doc.label);
+    return `<div class="annale-card ${done?'card-done':''}" id="card-${i}">
       <div class="annale-header" onclick="toggleCard('card-${i}')">
         <div class="annale-row1">
           <span class="annale-rank">#${i+1}</span>
@@ -774,6 +771,7 @@ function renderCards(results,maxQ,filterSubs){
           </div>
           ${pdfBtn(doc)}
           ${corrigeBtn(doc)}
+          <button class="btn-done-card ${done?'is-done':''}" onclick="handleDoneCard(event,'${esc(activeTheme)}','${esc(doc.label)}')" title="${done?'Retirer de faits':'Marquer comme fait'}">${done?'✓ Fait':'○ Fait'}</button>
           <div style="flex-shrink:0;text-align:right">
             <div class="q-count">${displayQ}<span class="q-label"> q.</span></div>
             <div class="progress-bar"><div class="progress-fill" style="width:${pct}%"></div></div>
@@ -785,6 +783,13 @@ function renderCards(results,maxQ,filterSubs){
   }).join('');
 }
 
+function handleDoneCard(e, theme, docLabel) {
+  e.stopPropagation();
+  toggleDoneCard(theme, docLabel);
+  // Refresh just the cards and the sidebar badge
+  document.getElementById('cards-container').innerHTML=renderCards(window._docResults,window._maxQ,activeSubs);
+  buildThemeList();
+}
 function toggleCard(id){document.getElementById('body-'+id).classList.toggle('open');}
 function toggleSub(btn,sub){
   btn.classList.toggle('active');
