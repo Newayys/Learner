@@ -344,10 +344,10 @@ async function loadManifest() {
     (manifest.pdf || []).forEach(path => {
       pdfMap[path.split('/').pop().replace('.pdf','').toLowerCase()] = path;
     });
-    // Corrigés : meme nom, dans Corrigé/
+    // Corrigés : meme nom, dans Corrigés/
     // Supporte manifest.corrige explicite OU dérive depuis manifest.pdf
     const corrigePaths = manifest.corrige ||
-      (manifest.pdf || []).map(p => 'Corrigé/' + p.split('/').pop());
+      (manifest.pdf || []).map(p => 'Corrigés/' + p.split('/').pop());
     await Promise.all(corrigePaths.map(async path => {
       try {
         const r = await fetch(path, {method:'HEAD'});
