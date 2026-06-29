@@ -8,13 +8,17 @@
   "data": {
     "parties": [
       {
-        "titre_partie": "PARTIE A",
+        "titre_partie": "Partie A : Étude mécanique de l'ensemble main, poignet et avant-bras lors d'un travail de découpe",
         "questions": [
           {
             "numero": "Q1",
             "mots_cles": [
               {
                 "theme": "Dynamique : Torseur dynamique",
+                "semestre": "S3"
+              },
+              {
+                "theme": "Dynamique : Matrice d'inertie",
                 "semestre": "S3"
               }
             ]
@@ -32,8 +36,8 @@
             "numero": "Q3",
             "mots_cles": [
               {
-                "theme": "Dynamique : Torseur dynamique",
-                "semestre": "S3"
+                "theme": "Statique : Actions réparties",
+                "semestre": "S2"
               }
             ]
           },
@@ -41,8 +45,8 @@
             "numero": "Q4",
             "mots_cles": [
               {
-                "theme": "Dynamique : PFD",
-                "semestre": "S3"
+                "theme": "Statique : PFS",
+                "semestre": "S2"
               }
             ]
           },
@@ -50,8 +54,8 @@
             "numero": "Q5",
             "mots_cles": [
               {
-                "theme": "Dynamique : PFD",
-                "semestre": "S3"
+                "theme": "Statique : PFS",
+                "semestre": "S2"
               }
             ]
           },
@@ -59,7 +63,7 @@
             "numero": "Q6",
             "mots_cles": [
               {
-                "theme": "Ergonomie : Ergonomie",
+                "theme": "Ingénierie Système : Cahier des charges",
                 "semestre": "S1"
               }
             ]
@@ -67,11 +71,12 @@
         ],
         "themes_partie": [
           "Dynamique",
-          "Cinématique"
+          "Statique",
+          "Ingénierie Système"
         ]
       },
       {
-        "titre_partie": "PARTIE B",
+        "titre_partie": "Partie B : Étude de la configuration mécanique de l'exosquelette",
         "questions": [
           {
             "numero": "Q7",
@@ -113,8 +118,8 @@
             "numero": "Q11",
             "mots_cles": [
               {
-                "theme": "Cinématique : Fermeture géométrique",
-                "semestre": "S1"
+                "theme": "Statique : Liaisons équivalentes",
+                "semestre": "S2"
               }
             ]
           },
@@ -122,26 +127,90 @@
             "numero": "Q12",
             "mots_cles": [
               {
-                "theme": "Statique : Isostatisme",
+                "theme": "Statique : Hyperstatisme",
                 "semestre": "S2"
+              },
+              {
+                "theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q13",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Fermeture géométrique",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q14",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Fermeture géométrique",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q15",
+            "mots_cles": [
+              {
+                "theme": "Informatique et Algorithmique : Fonctions",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q16",
+            "mots_cles": [
+              {
+                "theme": "Informatique et Algorithmique : Python",
+                "semestre": "S1"
+              },
+              {
+                "theme": "Informatique et Algorithmique : Boucles",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q17",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Lois entrée-sortie",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q18",
+            "mots_cles": [
+              {
+                "theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
               }
             ]
           }
         ],
         "themes_partie": [
           "Cinématique",
-          "Statique"
+          "Statique",
+          "Informatique et Algorithmique",
+          "Ingénierie Système"
         ]
       },
       {
-        "titre_partie": "PARTIE C",
+        "titre_partie": "Partie C : Étude de l'actionnement mécanique d'une articulation",
         "questions": [
           {
             "numero": "Q19",
             "mots_cles": [
               {
-                "theme": "Unités : Physique",
-                "semestre": "S1"
+                "theme": "Modélisation des signaux : Temporel",
+                "semestre": "S2"
               }
             ]
           },
@@ -149,8 +218,8 @@
             "numero": "Q20",
             "mots_cles": [
               {
-                "theme": "Caractéristique Force-Contraction : Caractéristique",
-                "semestre": "S1"
+                "theme": "Modélisation des signaux : Temporel",
+                "semestre": "S2"
               }
             ]
           },
@@ -167,7 +236,7 @@
             "numero": "Q22",
             "mots_cles": [
               {
-                "theme": "Cinématique : Fermeture géométrique",
+                "theme": "Cinématique : Lois entrée-sortie",
                 "semestre": "S1"
               }
             ]
@@ -176,8 +245,8 @@
             "numero": "Q23",
             "mots_cles": [
               {
-                "theme": "Dynamique : PFD",
-                "semestre": "S3"
+                "theme": "Statique : PFS",
+                "semestre": "S2"
               }
             ]
           },
@@ -203,7 +272,11 @@
             "numero": "Q26",
             "mots_cles": [
               {
-                "theme": "Asservissement : Schéma-blocs, Laplace, Fonction de transfert",
+                "theme": "Asservissement : Fonction de transfert",
+                "semestre": "S2"
+              },
+              {
+                "theme": "Asservissement : Laplace",
                 "semestre": "S2"
               }
             ]
@@ -212,7 +285,11 @@
             "numero": "Q27",
             "mots_cles": [
               {
-                "theme": "Asservissement : Schéma-blocs, Laplace, Fonction de transfert",
+                "theme": "Modélisation des signaux : 2nd ordre",
+                "semestre": "S2"
+              },
+              {
+                "theme": "Asservissement : Fonction de transfert",
                 "semestre": "S2"
               }
             ]
@@ -228,21 +305,31 @@
           }
         ],
         "themes_partie": [
-          "Dynamique",
-          "Asservissement",
           "Modélisation des signaux",
-          "Informatique et Algorithmique"
+          "Informatique et Algorithmique",
+          "Cinématique",
+          "Statique",
+          "Dynamique",
+          "Asservissement"
         ]
       },
       {
-        "titre_partie": "PARTIE D",
+        "titre_partie": "Partie D : Étude de l'asservissement des mouvements de déviation radio-ulnaire",
         "questions": [
           {
             "numero": "Q29",
             "mots_cles": [
               {
-                "theme": "Asservissement : Schéma-blocs",
-                "semestre": "S2"
+                "theme": "Ingénierie Système : SysML",
+                "semestre": "S1"
+              },
+              {
+                "theme": "Ingénierie Système : Chaînes d'énergie",
+                "semestre": "S1"
+              },
+              {
+                "theme": "Ingénierie Système : Chaînes d'information",
+                "semestre": "S1"
               }
             ]
           },
@@ -250,8 +337,12 @@
             "numero": "Q30",
             "mots_cles": [
               {
-                "theme": "Asservissement : Schéma-blocs",
-                "semestre": "S2"
+                "theme": "Dimensionnement : Capteurs",
+                "semestre": "S4"
+              },
+              {
+                "theme": "Dimensionnement : Actionneurs",
+                "semestre": "S4"
               }
             ]
           },
@@ -259,7 +350,7 @@
             "numero": "Q31",
             "mots_cles": [
               {
-                "theme": "Asservissement : Précision",
+                "theme": "Asservissement : Fonction de transfert",
                 "semestre": "S2"
               }
             ]
@@ -268,8 +359,8 @@
             "numero": "Q32",
             "mots_cles": [
               {
-                "theme": "Nom de composant : Composant",
-                "semestre": "S1"
+                "theme": "Dimensionnement : Actionneurs",
+                "semestre": "S4"
               }
             ]
           },
@@ -277,7 +368,7 @@
             "numero": "Q33",
             "mots_cles": [
               {
-                "theme": "Cinématique : Fermeture géométrique",
+                "theme": "Cinématique : Lois entrée-sortie",
                 "semestre": "S1"
               }
             ]
@@ -286,8 +377,8 @@
             "numero": "Q34",
             "mots_cles": [
               {
-                "theme": "Asservissement : Précision",
-                "semestre": "S2"
+                "theme": "Dynamique : PFD",
+                "semestre": "S3"
               }
             ]
           },
@@ -295,7 +386,7 @@
             "numero": "Q35",
             "mots_cles": [
               {
-                "theme": "Asservissement : Schéma-blocs, Laplace, Fonction de transfert",
+                "theme": "Asservissement : Fonction de transfert",
                 "semestre": "S2"
               }
             ]
@@ -306,6 +397,10 @@
               {
                 "theme": "Asservissement : Stabilité",
                 "semestre": "S2"
+              },
+              {
+                "theme": "Asservissement : Correcteur Proportionnel",
+                "semestre": "S2"
               }
             ]
           },
@@ -313,7 +408,7 @@
             "numero": "Q37",
             "mots_cles": [
               {
-                "theme": "Asservissement : Schéma-blocs, Laplace, Fonction de transfert",
+                "theme": "Asservissement : Schéma-blocs",
                 "semestre": "S2"
               }
             ]
@@ -324,12 +419,20 @@
               {
                 "theme": "Asservissement : Précision",
                 "semestre": "S2"
+              },
+              {
+                "theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
               }
             ]
           },
           {
             "numero": "Q39",
             "mots_cles": [
+              {
+                "theme": "Asservissement : Correcteur Proportionnel et intégral",
+                "semestre": "S2"
+              },
               {
                 "theme": "Asservissement : Précision",
                 "semestre": "S2"
@@ -360,6 +463,10 @@
               {
                 "theme": "Asservissement : Stabilité",
                 "semestre": "S2"
+              },
+              {
+                "theme": "Asservissement : Rapidité",
+                "semestre": "S2"
               }
             ]
           },
@@ -367,7 +474,7 @@
             "numero": "Q43",
             "mots_cles": [
               {
-                "theme": "Asservissement : Stabilité",
+                "theme": "Asservissement : Correcteur Proportionnel et intégral",
                 "semestre": "S2"
               }
             ]
@@ -376,26 +483,33 @@
             "numero": "Q44",
             "mots_cles": [
               {
-                "theme": "Asservissement : Stabilité, Précision, Rapidité",
+                "theme": "Asservissement : Rapidité",
+                "semestre": "S2"
+              },
+              {
+                "theme": "Asservissement : Précision",
                 "semestre": "S2"
               }
             ]
           }
         ],
         "themes_partie": [
+          "Ingénierie Système",
+          "Dimensionnement",
           "Asservissement",
           "Cinématique",
+          "Dynamique",
           "Modélisation des signaux"
         ]
       },
       {
-        "titre_partie": "PARTIE E",
+        "titre_partie": "Partie E : Étude du groupe pneumatique",
         "questions": [
           {
             "numero": "Q45",
             "mots_cles": [
               {
-                "theme": "Thermodynamique : Compression",
+                "theme": "Énergétique : Puissance",
                 "semestre": "S3"
               }
             ]
@@ -404,7 +518,7 @@
             "numero": "Q46",
             "mots_cles": [
               {
-                "theme": "Thermodynamique : Compression",
+                "theme": "Énergétique : Puissance",
                 "semestre": "S3"
               }
             ]
@@ -413,8 +527,8 @@
             "numero": "Q47",
             "mots_cles": [
               {
-                "theme": "Coefficients de remplissage : Remplissage",
-                "semestre": "S1"
+                "theme": "Modélisation des signaux : Temporel",
+                "semestre": "S2"
               }
             ]
           },
@@ -422,25 +536,18 @@
             "numero": "Q48",
             "mots_cles": [
               {
-                "theme": "Ingénierie Système : SysML",
+                "theme": "Systèmes séquentiels et SED : Diagramme d'états",
                 "semestre": "S1"
               }
             ]
           }
         ],
         "themes_partie": [
-          "Ingénierie Système",
-          "Thermodynamique"
+          "Énergétique",
+          "Modélisation des signaux",
+          "Systèmes séquentiels et SED"
         ]
       }
-    ],
-    "ajouts": [
-      "Ergonomie : Ergonomie",
-      "Unités : Physique",
-      "Caractéristique Force-Contraction : Caractéristique",
-      "Nom de composant : Composant",
-      "Thermodynamique : Compression",
-      "Coefficients de remplissage : Remplissage"
     ]
   }
 }
