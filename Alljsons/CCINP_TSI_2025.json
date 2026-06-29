@@ -372,7 +372,7 @@
           "Circuits alternatifs",
           "Asservissement",
           "Cinématique",
-          "Transmissions mécanques",
+          "Transmissions mécaniques",
           "Dynamique",
           "Énergétique",
           "Machines électriques",
@@ -386,7 +386,7 @@
             "numero": "Q40",
             "mots_cles": [
               {
-                "theme": "Transmissions mécanques : Trains épicycloïdaux",
+                "theme": "Transmissions mécaniques : Trains épicycloïdaux",
                 "semestre": "S1"
               }
             ]
@@ -395,7 +395,7 @@
             "numero": "Q41",
             "mots_cles": [
               {
-                "theme": "Transmissions mécanques : Trains épicycloïdaux",
+                "theme": "Transmissions mécaniques : Trains épicycloïdaux",
                 "semestre": "S1"
               }
             ]
@@ -404,7 +404,7 @@
             "numero": "Q42",
             "mots_cles": [
               {
-                "theme": "Transmissions mécanques : Rapport de réduction",
+                "theme": "Transmissions mécaniques : Rapport de réduction",
                 "semestre": "S1"
               }
             ]
@@ -483,7 +483,7 @@
           }
         ],
         "themes_partie": [
-          "Transmissions mécanques",
+          "Transmissions mécaniques",
           "Dynamique",
           "Énergétique",
           "Cinématique",

@@ -198,7 +198,7 @@
             "numero": "Q20",
             "mots_cles": [
               {
-                "theme": "Transmissions mécanques : Trains épicycloïdaux",
+                "theme": "Transmissions mécaniques : Trains épicycloïdaux",
                 "semestre": "S1"
               }
             ]
@@ -207,7 +207,7 @@
             "numero": "Q21",
             "mots_cles": [
               {
-                "theme": "Transmissions mécanques : Rapport de réduction",
+                "theme": "Transmissions mécaniques : Rapport de réduction",
                 "semestre": "S1"
               }
             ]
@@ -216,7 +216,7 @@
             "numero": "Q22",
             "mots_cles": [
               {
-                "theme": "Transmissions mécanques : Rapport de réduction",
+                "theme": "Transmissions mécaniques : Rapport de réduction",
                 "semestre": "S1"
               }
             ]
@@ -270,7 +270,7 @@
         "themes_partie": [
           "Dynamique",
           "Énergétique",
-          "Transmissions mécanques",
+          "Transmissions mécaniques",
           "Cinématique",
           "Machines électriques"
         ]

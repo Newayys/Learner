@@ -340,7 +340,7 @@
         "themes_partie": [
           "Asservissement",
           "Informatique et Algorithmique",
-          "Transmissions mécanques",
+          "Transmissions mécaniques",
           "Énergétique"
         ]
       },
@@ -351,7 +351,7 @@
             "numero": "Q 36",
             "mots_cles": [
               {
-                "theme": "Transmissions mécanques : Rapport de réduction",
+                "theme": "Transmissions mécaniques : Rapport de réduction",
                 "semestre": "S1"
               }
             ]
@@ -439,7 +439,7 @@
           }
         ],
         "themes_partie": [
-          "Transmissions mécanques",
+          "Transmissions mécaniques",
           "Cinématique",
           "Énergétique",
           "Machines électriques",

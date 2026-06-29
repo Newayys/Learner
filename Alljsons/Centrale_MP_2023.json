@@ -75,7 +75,7 @@
             "numero": "Q 6",
             "mots_cles": [
               {
-                "theme": "Transmissions mécanques : Rapport de réduction",
+                "theme": "Transmissions mécaniques : Rapport de réduction",
                 "semestre": "S1"
               }
             ]
@@ -285,7 +285,7 @@
           "Énergétique",
           "Cinématique",
           "Statique",
-          "Transmissions mécanques",
+          "Transmissions mécaniques",
           "Informatique et Algorithmique"
         ]
       },

@@ -425,7 +425,7 @@
             "numero": "Q42",
             "mots_cles": [
               {
-                "theme": "Transmissionsmechmiques : Rapport de réduction",
+                "theme": "Transmissions mécaniques : Rapport de réduction",
                 "semestre": "S1"
               }
             ]
@@ -435,7 +435,7 @@
           "Statique",
           "Cinématique",
           "Dynamique",
-          "Transmissionsmechmiques"
+          "Transmissions mécaniques"
         ]
       }
     ],

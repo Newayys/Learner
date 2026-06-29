@@ -13,7 +13,7 @@
         "themes_partie": [
           "Ingénierie Système",
           "Cinématique",
-          "Transmissions mécanques",
+          "Transmissions mécaniques",
           "Procédés de fabrication"
         ]
       },
@@ -251,7 +251,7 @@
             "numero": "Q33",
             "mots_cles": [
               {
-                "theme": "Transmissions mécanques : Trains épicycloïdaux",
+                "theme": "Transmissions mécaniques : Trains épicycloïdaux",
                 "semestre": "S1"
               }
             ]
@@ -260,7 +260,7 @@
             "numero": "Q34",
             "mots_cles": [
               {
-                "theme": "Transmissions mécanques : Trains épicycloïdaux",
+                "theme": "Transmissions mécaniques : Trains épicycloïdaux",
                 "semestre": "S1"
               }
             ]
@@ -269,7 +269,7 @@
             "numero": "Q35",
             "mots_cles": [
               {
-                "theme": "Transmissions mécanques : Trains épicycloïdaux",
+                "theme": "Transmissions mécaniques : Trains épicycloïdaux",
                 "semestre": "S1"
               }
             ]
@@ -520,7 +520,7 @@
         ],
         "themes_partie": [
           "Dynamique",
-          "Transmissions mécanques",
+          "Transmissions mécaniques",
           "Énergétique",
           "Cinématique",
           "Résistance des matériaux",

@@ -120,7 +120,7 @@
             "numero": "Q9",
             "mots_cles": [
               {
-                "theme": "Transmissions mécanques : Rapport de réduction",
+                "theme": "Transmissions mécaniques : Rapport de réduction",
                 "semestre": "S1"
               }
             ]
@@ -129,7 +129,7 @@
             "numero": "Q10",
             "mots_cles": [
               {
-                "theme": "Transmissions mécanques : Rapport de réduction",
+                "theme": "Transmissions mécaniques : Rapport de réduction",
                 "semestre": "S1"
               }
             ]
@@ -138,7 +138,7 @@
             "numero": "Q11",
             "mots_cles": [
               {
-                "theme": "Transmissionsmécaniques : Rapport de réduction",
+                "theme": "Transmissions mécaniques : Rapport de réduction",
                 "semestre": "S1"
               }
             ]
@@ -147,7 +147,7 @@
         "themes_partie": [
           "Dynamique",
           "Cinématique",
-          "Transmissionsmécaniques",
+          "Transmissions mécaniques",
           "Énergétique"
         ]
       },
@@ -220,7 +220,7 @@
             "numero": "Q18",
             "mots_cles": [
               {
-                "theme": "Transmissionsmécaniques : Rapport de réduction",
+                "theme": "Transmissions mécaniques : Rapport de réduction",
                 "semestre": "S1"
               }
             ]
@@ -280,7 +280,7 @@
           }
         ],
         "themes_partie": [
-          "Transmissionsmécaniques",
+          "Transmissions mécaniques",
           "Modélisation des signaux",
           "Asservissement",
           "Énergétique"
