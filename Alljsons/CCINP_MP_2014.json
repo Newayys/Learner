@@ -1,0 +1,258 @@
+{
+  "concours": "CCINP",
+  "filiere": "MP",
+  "date": "2014",
+  "file": "CCINP_MP_2014.pdf",
+  "status": 200,
+  "time_s": 389.45,
+  "data": {
+    "parties": [
+      {
+        "titre_partie": "Partie I : PRESENTATION",
+        "questions": [
+          {
+            "numero": "I.1",
+            "mots_cles": [
+              {
+                "theme": "Ingénierie Système : Chaînes d'énergie",
+                "semestre": "S1"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Ingénierie Système"
+        ]
+      },
+      {
+        "titre_partie": "Partie II : OPTIMISATION DE LA GESTION ENERGETIQUE",
+        "questions": [
+          {
+            "numero": "II.2",
+            "mots_cles": [
+              {
+                "theme": "Énergétique : Puissance",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "II.3",
+            "mots_cles": [
+              {
+                "theme": "Énergétique : Rendement",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "II.4",
+            "mots_cles": [
+              {
+                "theme": "Énergétique : Rendement",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "II.5",
+            "mots_cles": [
+              {
+                "theme": "Énergétique : Puissance",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "II.6",
+            "mots_cles": [
+              {
+                "theme": "Énergétique : Puissance",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "II.7",
+            "mots_cles": [
+              {
+                "theme": "Systèmes séquentiels et SED : Diagramme d'états",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "II.8",
+            "mots_cles": [
+              {
+                "theme": "Systèmes séquentiels et SED : Diagramme d'états",
+                "semestre": "S1"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Énergétique",
+          "Systèmes séquentiels et SED"
+        ]
+      },
+      {
+        "titre_partie": "Partie III : REGLAGE DES PARAMETRES D'ASSERVISSEMENT",
+        "questions": [
+          {
+            "numero": "III.9",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Fonction de transfert",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "III.10",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Fonction de transfert",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "III.11",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Fonction de transfert",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "III.12",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Fonction de transfert",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "III.13",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Correcteur Proportionnel et intégral",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "III.14",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Rapidité",
+                "semestre": "S2"
+              },
+              {
+                "theme": "Asservissement : Précision",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "III.15",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Fonction de transfert",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "III.16",
+            "mots_cles": [
+              {
+                "theme": "Modélisation des signaux : Bode",
+                "semestre": "S2"
+              },
+              {
+                "theme": "Asservissement : Stabilité",
+                "semestre": "S2"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Asservissement",
+          "Modélisation des signaux"
+        ]
+      },
+      {
+        "titre_partie": "Partie IV : AMELIORATION DE LA SECURITE",
+        "questions": [
+          {
+            "numero": "IV.17",
+            "mots_cles": [
+              {
+                "theme": "Énergétique : Théorème de l'Énergie Cinétique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "IV.18",
+            "mots_cles": [
+              {
+                "theme": "Statique : Isostatisme",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "IV.19",
+            "mots_cles": [
+              {
+                "theme": "Statique : PFS",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "IV.20",
+            "mots_cles": [
+              {
+                "theme": "Statique : PFS",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "IV.21",
+            "mots_cles": [
+              {
+                "theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "IV.22",
+            "mots_cles": [
+              {
+                "theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Énergétique",
+          "Statique",
+          "Ingénierie Système"
+        ]
+      }
+    ],
+    "ajouts": [
+      "Asservissement : Amortissement",
+      "Asservissement : Facteur de confort"
+    ]
+  }
+}

@@ -1,0 +1,459 @@
+{
+  "concours": "CCINP",
+  "filiere": "MP",
+  "date": "2018",
+  "file": "CCINP_MP_2018.pdf",
+  "status": 200,
+  "time_s": 523.24,
+  "data": {
+    "parties": [
+      {
+        "titre_partie": "Partie I - Modélisation du comportement du moteur de coupe",
+        "questions": [
+          {
+            "numero": "Q1",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Schéma-blocs",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q2",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Laplace",
+                "semestre": "S2"
+              },
+              {
+                "theme": "Asservissement : Fonction de transfert",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q3",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Fonction de transfert",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q4",
+            "mots_cles": [
+              {
+                "theme": "Modélisation des signaux : Temporel",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q5",
+            "mots_cles": [
+              {
+                "theme": "Modélisation des signaux : Temporel",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q6",
+            "mots_cles": [
+              {
+                "theme": "Systèmes séquentiels et SED : Diagramme d'états",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q7",
+            "mots_cles": [
+              {
+                "theme": "Modélisation des signaux : Temporel",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q8",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Correcteur Proportionnel et intégral",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q9",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Correcteur Proportionnel et intégral",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q10",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Stabilité",
+                "semestre": "S2"
+              },
+              {
+                "theme": "Asservissement : Précision",
+                "semestre": "S2"
+              },
+              {
+                "theme": "Asservissement : Rapidité",
+                "semestre": "S2"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Asservissement",
+          "Modélisation des signaux",
+          "Systèmes séquentiels et SED"
+        ]
+      },
+      {
+        "titre_partie": "Partie II - Optimisation de la réalisation d'un patron (partie informatique)",
+        "questions": [
+          {
+            "numero": "Q11",
+            "mots_cles": [
+              {
+                "theme": "Informatique et Algorithmique : Python",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q12",
+            "mots_cles": [
+              {
+                "theme": "Informatique et Algorithmique : Python",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q13",
+            "mots_cles": [
+              {
+                "theme": "Informatique et Algorithmique : Python",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q14",
+            "mots_cles": [
+              {
+                "theme": "Informatique et Algorithmique : Python",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q15",
+            "mots_cles": [
+              {
+                "theme": "Informatique et Algorithmique : Python",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q16",
+            "mots_cles": [
+              {
+                "theme": "Informatique et Algorithmique : Python",
+                "semestre": "S1"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Informatique et Algorithmique"
+        ]
+      },
+      {
+        "titre_partie": "Partie III - Modélisation du comportement mécanique de la tête de coupe",
+        "questions": [
+          {
+            "numero": "Q17",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Fermeture géométrique",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q18",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Fermeture géométrique",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q19",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Vitesses",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q20",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Fermeture géométrique",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q21",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Vitesses",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q22",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Vitesses",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q23",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Vitesses",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q24",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : PFD",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q25",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : PFD",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q26",
+            "mots_cles": [
+              {
+                "theme": "Énergétique : Théorème de l'Énergie Cinétique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q27",
+            "mots_cles": [
+              {
+                "theme": "Énergétique : Théorème de l'Énergie Cinétique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q28",
+            "mots_cles": [
+              {
+                "theme": "Énergétique : Puissance",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q29",
+            "mots_cles": [
+              {
+                "theme": "Énergétique : Théorème de l'Énergie Cinétique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q30",
+            "mots_cles": [
+              {
+                "theme": "Énergétique : Théorème de l'Énergie Cinétique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q31",
+            "mots_cles": [
+              {
+                "theme": "Énergétique : Théorème de l'Énergie Cinétique",
+                "semestre": "S3"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Cinématique",
+          "Dynamique",
+          "Énergétique"
+        ]
+      },
+      {
+        "titre_partie": "Partie IV - Optimisation du comportement dynamique de la tête de coupe",
+        "questions": [
+          {
+            "numero": "Q32",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Vitesses",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q33",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : Torseur dynamique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q34",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : Torseur dynamique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q35",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : Torseur dynamique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q36",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Lois entrée-sortie",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q37",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : Torseur dynamique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q38",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : Torseur dynamique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q39",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : Torseur dynamique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q40",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : Torseur dynamique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q41",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : Torseur dynamique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q42",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : Torseur dynamique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q43",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : Torseur dynamique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q44",
+            "mots_cles": [
+              {
+                "theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Cinématique",
+          "Dynamique",
+          "Ingénierie Système"
+        ]
+      }
+    ],
+    "ajouts": []
+  }
+}

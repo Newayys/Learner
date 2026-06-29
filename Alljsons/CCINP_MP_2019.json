@@ -1,0 +1,382 @@
+{
+  "concours": "CCINP",
+  "filiere": "MP",
+  "date": "2019",
+  "file": "CCINP_MP_2019.pdf",
+  "status": 200,
+  "time_s": 605.28,
+  "data": {
+    "parties": [
+      {
+        "titre_partie": "Partie I - Validation des capacités de positionnement du système de déploiement",
+        "questions": [
+          {
+            "numero": "Q1",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Lois entrée-sortie",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q2",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Lois entrée-sortie",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q3",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Lois entrée-sortie",
+                "semestre": "S1"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Cinématique"
+        ]
+      },
+      {
+        "titre_partie": "Partie II - Validation du non-dépassement de la vitesse de la sphère SEIS",
+        "questions": [
+          {
+            "numero": "Q4",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Vitesses",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q5",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Vitesses",
+                "semestre": "S1"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Cinématique"
+        ]
+      },
+      {
+        "titre_partie": "Partie III - Validation de la capacité statique du système de déploiement",
+        "questions": [
+          {
+            "numero": "Q6",
+            "mots_cles": [
+              {
+                "theme": "Statique : PFS",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q7",
+            "mots_cles": [
+              {
+                "theme": "Statique : PFS",
+                "semestre": "S2"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Statique"
+        ]
+      },
+      {
+        "titre_partie": "Partie IV - Validation des capacités dynamiques du système de déploiement",
+        "questions": [
+          {
+            "numero": "Q8",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : Matrice d'inertie",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q9",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : Torseur dynamique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q10",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : Torseur dynamique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q11",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : PFD",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q12",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : PFD",
+                "semestre": "S3"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Dynamique"
+        ]
+      },
+      {
+        "titre_partie": "Partie V - Validation du positionnement du module SEIS",
+        "questions": [
+          {
+            "numero": "Q13",
+            "mots_cles": [
+              {
+                "theme": "Statique : PFS",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q14",
+            "mots_cles": [
+              {
+                "theme": "Statique : PFS",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q15",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Schéma-blocs",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q16",
+            "mots_cles": [
+              {
+                "theme": "Machines électriques : MCC",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q17",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Fonction de transfert",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q18",
+            "mots_cles": [
+              {
+                "theme": "Modélisation des signaux : 1er ordre",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q19",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Fonction de transfert",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q20",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Fonction de transfert",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q21",
+            "mots_cles": [
+              {
+                "theme": "Modélisation des signaux : Bode",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q22",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Fonction de transfert",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q23",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Stabilité",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q24",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Rapidité",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q25",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Stabilité",
+                "semestre": "S2"
+              },
+              {
+                "theme": "Asservissement : Rapidité",
+                "semestre": "S2"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Statique",
+          "Asservissement",
+          "Machines électriques",
+          "Modélisation des signaux"
+        ]
+      },
+      {
+        "titre_partie": "Partie VI - Analyse de la loi de commande (Informatique pour tous)",
+        "questions": [
+          {
+            "numero": "Q26",
+            "mots_cles": [
+              {
+                "theme": "Informatique et Algorithmique : Fonctions",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q27",
+            "mots_cles": [
+              {
+                "theme": "Informatique et Algorithmique : Fonctions",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q28",
+            "mots_cles": [
+              {
+                "theme": "Informatique et Algorithmique : Fonctions",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q29",
+            "mots_cles": [
+              {
+                "theme": "Informatique et Algorithmique : Fonctions",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q30",
+            "mots_cles": [
+              {
+                "theme": "Informatique et Algorithmique : Fonctions",
+                "semestre": "S1"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Informatique et Algorithmique"
+        ]
+      },
+      {
+        "titre_partie": "Partie VII - Exploitation de la base de données du système de mesure (Informatique pour tous)",
+        "questions": [
+          {
+            "numero": "Q31",
+            "mots_cles": [
+              {
+                "theme": "Informatique et Algorithmique : Fonctions",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q32",
+            "mots_cles": [
+              {
+                "theme": "Informatique et Algorithmique : Fonctions",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q33",
+            "mots_cles": [
+              {
+                "theme": "Informatique et Algorithmique : Fonctions",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q34",
+            "mots_cles": [
+              {
+                "theme": "Informatique et Algorithmique : Fonctions",
+                "semestre": "S1"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Informatique et Algorithmique"
+        ]
+      }
+    ],
+    "ajouts": []
+  }
+}

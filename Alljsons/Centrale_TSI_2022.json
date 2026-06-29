@@ -1,0 +1,384 @@
+{
+  "concours": "Centrale",
+  "filiere": "TSI",
+  "date": "2022",
+  "file": "Centrale_TSI_2022.pdf",
+  "status": 200,
+  "time_s": 414.66,
+  "data": {
+    "parties": [
+      {
+        "titre_partie": "I Récupération du parcours virtuel sur Internet",
+        "questions": [
+          {
+            "numero": "Q 1",
+            "mots_cles": [
+              {
+                "theme": "Réseaux de communication : Protocoles",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q 2",
+            "mots_cles": [
+              {
+                "theme": "Réseaux de communication : Protocoles",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q 3",
+            "mots_cles": [
+              {
+                "theme": "Modélisation des signaux : Fréquentiel",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 4",
+            "mots_cles": [
+              {
+                "theme": "Modélisation des signaux : Fréquentiel",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 5",
+            "mots_cles": [
+              {
+                "theme": "Modélisation des signaux : Fréquentiel",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 6",
+            "mots_cles": [
+              {
+                "theme": "Informatique et Algorithmique : Fonctions",
+                "semestre": "S1"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Réseaux de communication",
+          "Modélisation des signaux",
+          "Informatique et Algorithmique"
+        ]
+      },
+      {
+        "titre_partie": "II Résistance au pédalage",
+        "questions": [
+          {
+            "numero": "Q 7",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : Torseur dynamique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q 8",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : Torseur dynamique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q 9",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : Torseur dynamique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q 10",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : Torseur dynamique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q 11",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : Torseur dynamique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q 12",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : Torseur dynamique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q 13",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : Torseur dynamique",
+                "semestre": "S3"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Dynamique"
+        ]
+      },
+      {
+        "titre_partie": "II.B - Dispositif de freinage",
+        "questions": [
+          {
+            "numero": "Q 14",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Fermeture géométrique",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q 15",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Schéma-blocs",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 16",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Schéma-blocs",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 17",
+            "mots_cles": [
+              {
+                "theme": "Électrotechnique : Hacheur",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 18",
+            "mots_cles": [
+              {
+                "theme": "Électrotechnique : Hacheur",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 19",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Schéma-blocs",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 20",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Schéma-blocs",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 21",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Schéma-blocs",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 22",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Schéma-blocs",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 23",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Stabilité",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 24",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Schéma-blocs",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 25",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Précision",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 26",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Rapidité",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 27",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Stabilité",
+                "semestre": "S2"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Cinématique",
+          "Asservissement",
+          "Électrotechnique"
+        ]
+      },
+      {
+        "titre_partie": "IV Étude du dispositif d'inclinaison",
+        "questions": [
+          {
+            "numero": "Q 28",
+            "mots_cles": [
+              {
+                "theme": "Statique : Liaisons équivalentes",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 29",
+            "mots_cles": [
+              {
+                "theme": "Statique : Isostatisme",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 30",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : Torseur dynamique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q 31",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Vitesses",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q 32",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Lois entrée-sortie",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q 33",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Vitesses",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q 34",
+            "mots_cles": [
+              {
+                "theme": "Énergétique : Puissance",
+                "semestre": "S3"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Statique",
+          "Dynamique",
+          "Cinématique",
+          "Énergétique"
+        ]
+      },
+      {
+        "titre_partie": "V Synthèse",
+        "questions": [
+          {
+            "numero": "Q 35",
+            "mots_cles": [
+              {
+                "theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q 36",
+            "mots_cles": [
+              {
+                "theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Ingénierie Système"
+        ]
+      }
+    ],
+    "ajouts": []
+  }
+}

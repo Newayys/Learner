@@ -1,0 +1,467 @@
+{
+  "concours": "CCINP",
+  "filiere": "PSI",
+  "date": "2022",
+  "file": "CCINP_PSI_2022.pdf",
+  "status": 200,
+  "time_s": 594.81,
+  "data": {
+    "parties": [
+      {
+        "titre_partie": "Partie I - Influence des mouvements des bras du drone sur son comportement",
+        "questions": [
+          {
+            "numero": "Q1",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Fermeture géométrique",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q2",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Fermeture géométrique",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q3",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Profils trapèze",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q4",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Vitesses",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q5",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Vitesses",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q6",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : Torseur dynamique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q7",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : Torseur dynamique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q8",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : Torseur dynamique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q9",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : Torseur dynamique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q10",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : Géométrie des masses",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q11",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : Matrice d'inertie",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q12",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : Matrice d'inertie",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q13",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : Torseur dynamique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q14",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : Torseur dynamique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q15",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : Torseur dynamique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q16",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : Torseur dynamique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q17",
+            "mots_cles": [
+              {
+                "theme": "Statique : Hyperstatisme",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q18",
+            "mots_cles": [
+              {
+                "theme": "Statique : Liaisons équivalentes",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q19",
+            "mots_cles": [
+              {
+                "theme": "Statique : Hyperstatisme",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q20",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Fermeture géométrique",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q21",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Fermeture géométrique",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q22",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Fermeture géométrique",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q23",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Fermeture géométrique",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q24",
+            "mots_cles": [
+              {
+                "theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q25",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : Géométrie des masses",
+                "semestre": "S3"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Cinématique",
+          "Dynamique",
+          "Statique",
+          "Ingénierie Système"
+        ]
+      },
+      {
+        "titre_partie": "Partie II - Choix d'un mécananisme de modification de l'envergure",
+        "questions": [
+          {
+            "numero": "Q17",
+            "mots_cles": [
+              {
+                "theme": "Statique : Hyperstatisme",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q18",
+            "mots_cles": [
+              {
+                "theme": "Statique : Liaisons équivalentes",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q19",
+            "mots_cles": [
+              {
+                "theme": "Statique : Hyperstatisme",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q20",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Fermeture géométrique",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q21",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Fermeture géométrique",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q22",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Fermeture géométrique",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q23",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Fermeture géométrique",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q24",
+            "mots_cles": [
+              {
+                "theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q25",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : Géométrie des masses",
+                "semestre": "S3"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Statique",
+          "Cinématique",
+          "Ingénierie Système",
+          "Dynamique"
+        ]
+      },
+      {
+        "titre_partie": "Partie III - Analyse simplifiée de l'asservissement du drone",
+        "questions": [
+          {
+            "numero": "Q26",
+            "mots_cles": [
+              {
+                "theme": "Modélisation des signaux : 1er ordre",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q27",
+            "mots_cles": [
+              {
+                "theme": "Modélisation des signaux : 1er ordre",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q28",
+            "mots_cles": [
+              {
+                "theme": "Modélisation des signaux : 1er ordre",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q29",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Schéma-blocs, Laplace, Fonction de transfert",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q30",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Schéma-blocs, Laplace, Fonction de transfert",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q31",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Stabilité, Précision, Rapidité",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q32",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Stabilité, Précision, Rapidité",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q33",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Schéma-blocs, Laplace, Fonction de transfert",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q34",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Schéma-blocs, Laplace, Fonction de transfert",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q35",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Stabilité, Précision, Rapidité",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q36",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Stabilité, Précision, Rapidité",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q37",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Stabilité, Précision, Rapidité",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q38",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Stabilité, Précision, Rapidité",
+                "semestre": "S2"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Modélisation des signaux",
+          "Asservissement"
+        ]
+      }
+    ],
+    "ajouts": []
+  }
+}

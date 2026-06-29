@@ -1,0 +1,356 @@
+{
+  "concours": "CCINP",
+  "filiere": "PSI",
+  "date": "2017",
+  "file": "CCINP_PSI_2017.pdf",
+  "status": 200,
+  "time_s": 576.12,
+  "data": {
+    "parties": [
+      {
+        "titre_partie": "I Architecture du lève-vitre",
+        "questions": [
+          {
+            "numero": "Q1",
+            "mots_cles": [
+              {
+                "theme": "Ingénierie Système : Chaînes d'énergie",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q2",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Lois entrée-sortie",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q3",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Lois entrée-sortie",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q4",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Lois entrée-sortie",
+                "semestre": "S1"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Ingénierie Système",
+          "Cinématique"
+        ]
+      },
+      {
+        "titre_partie": "II Modélisation multiphysique du système",
+        "questions": [
+          {
+            "numero": "Q5",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Fermeture géométrique",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q6",
+            "mots_cles": [
+              {
+                "theme": "Statique : Hyperstatisme",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q7",
+            "mots_cles": [
+              {
+                "theme": "Statique : Liaisons équivalentes",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q8",
+            "mots_cles": [
+              {
+                "theme": "Ingénierie Système : Chaînes d'information",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q9",
+            "mots_cles": [
+              {
+                "theme": "Ingénierie Système : Chaînes d'énergie",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q10",
+            "mots_cles": [
+              {
+                "theme": "Statique : Actions réparties",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q11",
+            "mots_cles": [
+              {
+                "theme": "Statique : Frottements",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q12",
+            "mots_cles": [
+              {
+                "theme": "Statique : Actions réparties",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q13",
+            "mots_cles": [
+              {
+                "theme": "Modélisation des signaux : Temporel",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q14",
+            "mots_cles": [
+              {
+                "theme": "Modélisation des signaux : Temporel",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q15",
+            "mots_cles": [
+              {
+                "theme": "Modélisation des signaux : Temporel",
+                "semestre": "S2"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Cinématique",
+          "Statique",
+          "Modélisation des signaux"
+        ]
+      },
+      {
+        "titre_partie": "III Commande tout ou rien",
+        "questions": [
+          {
+            "numero": "Q16",
+            "mots_cles": [
+              {
+                "theme": "Traitement de l'information : Échantillonnage",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q17",
+            "mots_cles": [
+              {
+                "theme": "Traitement de l'information : Échantillonnage",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q18",
+            "mots_cles": [
+              {
+                "theme": "Traitement de l'information : Échantillonnage",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q19",
+            "mots_cles": [
+              {
+                "theme": "Traitement de l'information : Échantillonnage",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q20",
+            "mots_cles": [
+              {
+                "theme": "Traitement de l'information : Échantillonnage",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q21",
+            "mots_cles": [
+              {
+                "theme": "Traitement de l'information : Filtres",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q22",
+            "mots_cles": [
+              {
+                "theme": "Systèmes séquentiels et SED : Diagramme d'états",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q23",
+            "mots_cles": [
+              {
+                "theme": "Systèmes séquentiels et SED : Diagramme d'états",
+                "semestre": "S1"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Traitement de l'information",
+          "Systèmes séquentiels et SED"
+        ]
+      },
+      {
+        "titre_partie": "IV Commande asservie",
+        "questions": [
+          {
+            "numero": "Q24",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : PFD",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q25",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Fonction de transfert",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q26",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Fonction de transfert",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q27",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Fonction de transfert",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q28",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Correcteur Proportionnel et intégral",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q29",
+            "mots_cles": [
+              {
+                "theme": "Modélisation des signaux : Fréquentiel",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q30",
+            "mots_cles": [
+              {
+                "theme": "Modélisation des signaux : Fréquentiel",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q31",
+            "mots_cles": [
+              {
+                "theme": "Modélisation des signaux : Filtres",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q32",
+            "mots_cles": [
+              {
+                "theme": "Modélisation des signaux : Temporel",
+                "semestre": "S2"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Dynamique",
+          "Asservissement",
+          "Modélisation des signaux"
+        ]
+      },
+      {
+        "titre_partie": "V Synthèse",
+        "questions": [
+          {
+            "numero": "Q33",
+            "mots_cles": [
+              {
+                "theme": "Ingénierie Système : Chaînes d'énergie",
+                "semestre": "S1"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Ingénierie Système"
+        ]
+      }
+    ],
+    "ajouts": []
+  }
+}

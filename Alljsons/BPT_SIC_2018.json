@@ -1,0 +1,440 @@
+{
+  "concours": "Banque PT",
+  "filiere": "SIC",
+  "date": "2018",
+  "file": "BPT_SIC_2018.pdf",
+  "status": 200,
+  "time_s": 692.46,
+  "data": {
+    "parties": [
+      {
+        "titre_partie": "I. Etude générale du fonctionnement et de l'architecture de l'hélicoptère",
+        "questions": [
+          {
+            "numero": "Question 1",
+            "mots_cles": [
+              {
+                "theme": "Ingénierie Système : SysML",
+                "semestre": "S1"
+              },
+              {
+                "theme": "Ingénierie Système : Chaînes d'énergie",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Question 2",
+            "mots_cles": [
+              {
+                "theme": "Énergétique : Théorème de l'Énergie Cinétique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Question 3",
+            "mots_cles": [
+              {
+                "theme": "Énergétique : Puissance",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Question 4",
+            "mots_cles": [
+              {
+                "theme": "Énergétique : Puissance",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Question 5",
+            "mots_cles": [
+              {
+                "theme": "Ingénierie Système : Chaînes d'énergie",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Question 6",
+            "mots_cles": [
+              {
+                "theme": "Ingénierie Système : Chaînes d'énergie",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Question 7",
+            "mots_cles": [
+              {
+                "theme": "Énergétique : Puissance",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Question 8",
+            "mots_cles": [
+              {
+                "theme": "Modélisation des signaux : 1er ordre",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Question 9",
+            "mots_cles": [
+              {
+                "theme": "Modélisation des signaux : Temporel",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Question 10",
+            "mots_cles": [
+              {
+                "theme": "Énergétique : Puissance",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Question 11",
+            "mots_cles": [
+              {
+                "theme": "Énergétique : Puissance",
+                "semestre": "S3"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Ingénierie Système",
+          "Énergétique",
+          "Modélisation des signaux"
+        ]
+      },
+      {
+        "titre_partie": "II. Analyse des mécanismes impliqués dans la commande de vol de l'hélicoptère",
+        "questions": [
+          {
+            "numero": "Question 12",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Fermeture géométrique",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Question 13",
+            "mots_cles": [
+              {
+                "theme": "Ingénierie Système : Chaînes d'information",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Question 14",
+            "mots_cles": [
+              {
+                "theme": "Statique : Hyperstatisme",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Question 15",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Fermeture géométrique",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Question 16",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Fermeture géométrique",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Question 17",
+            "mots_cles": [
+              {
+                "theme": "Ingénierie Système : Chaînes d'information",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Question 18",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Fermeture géométrique",
+                "semestre": "S1"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Cinématique",
+          "Ingénierie Système",
+          "Statique"
+        ]
+      },
+      {
+        "titre_partie": "III. Analyse de la transmission de puissance",
+        "questions": [
+          {
+            "numero": "Question 19",
+            "mots_cles": [
+              {
+                "theme": "Transmissions mécaniques : Rapport de réduction",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Question 20",
+            "mots_cles": [
+              {
+                "theme": "Transmissions mécaniques : Rapport de réduction",
+                "semestre": "S1"
+              },
+              {
+                "theme": "Cinématique : Vitesses",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Question 21",
+            "mots_cles": [
+              {
+                "theme": "Transmissions mécaniques : Engrenages",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Question 22",
+            "mots_cles": [
+              {
+                "theme": "Transmissions mécaniques : Engrenages",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Question 23",
+            "mots_cles": [
+              {
+                "theme": "Transmissions mécaniques : Engrenages",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Question 24",
+            "mots_cles": [
+              {
+                "theme": "Dimensionnement : Paliers lisses",
+                "semestre": "S2"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Transmissions mécaniques",
+          "Cinématique",
+          "Dimensionnement"
+        ]
+      },
+      {
+        "titre_partie": "IV. Etude d'une solution « électrique »",
+        "questions": [
+          {
+            "numero": "Question 25",
+            "mots_cles": [
+              {
+                "theme": "Machines électriques : Synchrone",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Question 26",
+            "mots_cles": [
+              {
+                "theme": "Électrotechnique : Convertisseurs statiques",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Question 27",
+            "mots_cles": [
+              {
+                "theme": "Énergétique : Rendement",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Question 28",
+            "mots_cles": [
+              {
+                "theme": "Modélisation des signaux : 1er ordre",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Question 29",
+            "mots_cles": [
+              {
+                "theme": "Modélisation des signaux : 1er ordre",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Question 30",
+            "mots_cles": [
+              {
+                "theme": "Électrotechnique : Hacheur",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Question 31",
+            "mots_cles": [
+              {
+                "theme": "Traitement de l'information : Échantillonnage",
+                "semestre": "S2"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Machines électriques",
+          "Électrotechnique",
+          "Énergétique",
+          "Modélisation des signaux",
+          "Traitement de l'information"
+        ]
+      },
+      {
+        "titre_partie": "V. Industrialisation du Barillet de commande du rotor arrière",
+        "questions": [
+          {
+            "numero": "Question 32",
+            "mots_cles": [
+              {
+                "theme": "Ingénierie Système : Chaînes d'énergie",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Question 33",
+            "mots_cles": [
+              {
+                "theme": "Spécifications géométriques : Tolérancement",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Question 34",
+            "mots_cles": [
+              {
+                "theme": "Spécifications géométriques : Tolérancement",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Question 35",
+            "mots_cles": [
+              {
+                "theme": "Spécifications géométriques : Tolérancement",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Question 36",
+            "mots_cles": [
+              {
+                "theme": "Matériaux : Choix",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Question 37",
+            "mots_cles": [
+              {
+                "theme": "Procédés de fabrication : Usinage",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Question 38",
+            "mots_cles": [
+              {
+                "theme": "Métrologie : Contrôle 3D",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Question 39",
+            "mots_cles": [
+              {
+                "theme": "Procédés de fabrication : Métallurgie",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Question 40",
+            "mots_cles": [
+              {
+                "theme": "Ingénierie Système : Chaînes d'énergie",
+                "semestre": "S1"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Ingénierie Système",
+          "Spécifications géométriques",
+          "Matériaux",
+          "Procédés de fabrication",
+          "Métrologie"
+        ]
+      }
+    ],
+    "ajouts": [
+      {
+        "theme": "Coûts de fabrication",
+        "semestre": "S1"
+      }
+    ]
+  }
+}

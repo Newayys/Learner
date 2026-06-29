@@ -1,0 +1,341 @@
+{
+  "concours": "Centrale",
+  "filiere": "PSI",
+  "date": "2018",
+  "file": "Centrale_PSI_2018.pdf",
+  "status": 200,
+  "time_s": 516.66,
+  "data": {
+    "parties": [
+      {
+        "titre_partie": "I Contexte et étude préliminaire",
+        "questions": [
+          {
+            "numero": "Q 1",
+            "mots_cles": [
+              {
+                "theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Ingénierie Système"
+        ]
+      },
+      {
+        "titre_partie": "II Analyse de l'entraînement en rotation d'une roue",
+        "questions": [
+          {
+            "numero": "Q 2",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Lois entrée-sortie",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q 3",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Lois entrée-sortie",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q 4",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : Torseur dynamique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q 5",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : Inertie équivalente",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q 6",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : Théorème de l'Énergie Cinétique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q 7",
+            "mots_cles": [
+              {
+                "theme": "Statique : PFS",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 8",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Accélérations",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q 9",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : Torseur dynamique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q 10",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : Accélérations",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q 11",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Vitesses",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q 12",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Vitesses",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q 13",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Vitesses",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q 14",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Vitesses",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q 15",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Accélérations",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q 16",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : Puissance",
+                "semestre": "S3"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Cinématique",
+          "Dynamique"
+        ]
+      },
+      {
+        "titre_partie": "III Analyse de la commande du dispositif de mise en translation de l'outil",
+        "questions": [
+          {
+            "numero": "Q 17",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Lois entrée-sortie",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q 18",
+            "mots_cles": [
+              {
+                "theme": "Modélisation des signaux : Bode",
+                "semestre": "S2"
+              },
+              {
+                "theme": "Modélisation des signaux : Laplace",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 19",
+            "mots_cles": [
+              {
+                "theme": "Modélisation des signaux : Laplace",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 20",
+            "mots_cles": [
+              {
+                "theme": "Modélisation des signaux : Laplace",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 21",
+            "mots_cles": [
+              {
+                "theme": "Modélisation des signaux : 2nd ordre",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 22",
+            "mots_cles": [
+              {
+                "theme": "Modélisation des signaux : Bode",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 23",
+            "mots_cles": [
+              {
+                "theme": "Modélisation des signaux : Bode",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 24",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Stabilité",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 25",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Laplace",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 26",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Laplace",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 27",
+            "mots_cles": [
+              {
+                "theme": "Informatique et Algorithmique : Boucles",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q 28",
+            "mots_cles": [
+              {
+                "theme": "Informatique et Algorithmique : Boucles",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q 29",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Laplace",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 30",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Laplace",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 31",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Stabilité",
+                "semestre": "S2"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Cinématique",
+          "Modélisation des signaux",
+          "Asservissement",
+          "Informatique et Algorithmique"
+        ]
+      },
+      {
+        "titre_partie": "IV Synthèse",
+        "questions": [
+          {
+            "numero": "Q 32",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Précision",
+                "semestre": "S2"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Asservissement"
+        ]
+      }
+    ],
+    "ajouts": []
+  }
+}

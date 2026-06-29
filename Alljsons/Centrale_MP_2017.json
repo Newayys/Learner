@@ -1,0 +1,296 @@
+{
+  "concours": "Centrale",
+  "filiere": "MP",
+  "date": "2017",
+  "file": "Centrale_MP_2017.pdf",
+  "status": 200,
+  "time_s": 401.77,
+  "data": {
+    "parties": [
+      {
+        "titre_partie": "I Réalisation d'un levé topographique",
+        "questions": [
+          {
+            "numero": "Q 1",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Fermeture géométrique",
+                "semestre": "S1"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Cinématique"
+        ]
+      },
+      {
+        "titre_partie": "II Levé topographique par pointage visuel sur une mire",
+        "questions": [
+          {
+            "numero": "Q 2",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Fermeture géométrique",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q 3",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Fermeture géométrique",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q 4",
+            "mots_cles": [
+              {
+                "theme": "Spécifications géométriques : Tolérancement",
+                "semestre": "S2"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Cinématique",
+          "Spécifications géométriques"
+        ]
+      },
+      {
+        "titre_partie": "III Levé topographique par pointage laser sur un prisme optique rétro-réfléchissant",
+        "questions": [
+          {
+            "numero": "Q 5",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Fermeture géométrique",
+                "semestre": "S1"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Cinématique"
+        ]
+      },
+      {
+        "titre_partie": "IV Étude de la station totale LEICA TCRA 1103",
+        "questions": [
+          {
+            "numero": "Q 6",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Précision",
+                "semestre": "S2"
+              },
+              {
+                "theme": "Asservissement : Rapidité",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 7",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Fonction de transfert",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 8",
+            "mots_cles": [
+              {
+                "theme": "Transmissions mécaniques : Rapport de réduction",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q 9",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : PFD",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q 10",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : PFD",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q 11",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : PFD",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q 12",
+            "mots_cles": [
+              {
+                "theme": "Énergétique : Inertie équivalente",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q 13",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Schéma-blocs",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 14",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : Torseur dynamique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q 15",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Précision",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 16",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Rapidité",
+                "semestre": "S2"
+              },
+              {
+                "theme": "Énergétique : Inertie équivalente",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q 17",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Précision",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 18",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Précision",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 19",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Fonction de transfert",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 20",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Stabilité",
+                "semestre": "S2"
+              },
+              {
+                "theme": "Asservissement : Précision",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 21",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Stabilité",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 22",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Stabilité",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 23",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Correcteur avance de phase",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 24",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Stabilité",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 25",
+            "mots_cles": [
+              {
+                "theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q 26",
+            "mots_cles": [
+              {
+                "theme": "Ingénierie Système : SysML",
+                "semestre": "S1"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Asservissement",
+          "Transmissions mécaniques",
+          "Dynamique",
+          "Énergétique",
+          "Ingénierie Système"
+        ]
+      }
+    ],
+    "ajouts": []
+  }
+}

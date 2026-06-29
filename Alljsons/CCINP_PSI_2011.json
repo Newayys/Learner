@@ -1,0 +1,269 @@
+{
+  "concours": "CCINP",
+  "filiere": "PSI",
+  "date": "2011",
+  "file": "CCINP_PSI_2011.pdf",
+  "status": 200,
+  "time_s": 365.17,
+  "data": {
+    "parties": [
+      {
+        "titre_partie": "A - Vérification de quelques critères de la F.P.1 : soulever un tramway",
+        "questions": [
+          {
+            "numero": "Q1",
+            "mots_cles": [
+              {
+                "theme": "Ingénierie Système : Chaînes d'énergie",
+                "semestre": "S1"
+              },
+              {
+                "theme": "Ingénierie Système : Chaînes d'information",
+                "semestre": "S1"
+              },
+              {
+                "theme": "Cinématique : Fermeture géométrique",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q2",
+            "mots_cles": [
+              {
+                "theme": "Statique : Actions réparties",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q3",
+            "mots_cles": [
+              {
+                "theme": "Statique : Liaisons équivalentes",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q4",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Vitesses",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q5",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : Torseur dynamique",
+                "semestre": "S3"
+              },
+              {
+                "theme": "Énergétique : Rendement",
+                "semestre": "S3"
+              },
+              {
+                "theme": "Énergétique : Puissance",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q6",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : PFD",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q7",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : PFD",
+                "semestre": "S3"
+              },
+              {
+                "theme": "Machines électriques : MCC",
+                "semestre": "S4"
+              },
+              {
+                "theme": "Cinématique : Vitesses",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q8",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : PFD",
+                "semestre": "S3"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Ingénierie Système",
+          "Cinématique",
+          "Statique",
+          "Dynamique",
+          "Énergétique",
+          "Machines électriques"
+        ]
+      },
+      {
+        "titre_partie": "B - Vérification du critère de la F.C.2 : être stable mécaniquement",
+        "questions": [
+          {
+            "numero": "Q9",
+            "mots_cles": [
+              {
+                "theme": "Statique : Hyperstatisme",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q10",
+            "mots_cles": [
+              {
+                "theme": "Statique : Actions réparties",
+                "semestre": "S2"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Statique"
+        ]
+      },
+      {
+        "titre_partie": "C - Étude du critère de coplanéité",
+        "questions": [
+          {
+            "numero": "Q11",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Vitesses",
+                "semestre": "S1"
+              },
+              {
+                "theme": "Systèmes séquentiels et SED : Diagramme d'états",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q12",
+            "mots_cles": [
+              {
+                "theme": "Systèmes séquentiels et SED : Diagramme d'états",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q13",
+            "mots_cles": [
+              {
+                "theme": "Systèmes séquentiels et SED : Logigrammes",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q14",
+            "mots_cles": [
+              {
+                "theme": "Systèmes séquentiels et SED : Logigrammes",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q15",
+            "mots_cles": [
+              {
+                "theme": "Systèmes séquentiels et SED : Logigrammes",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q16",
+            "mots_cles": [
+              {
+                "theme": "Systèmes séquentiels et SED : Logigrammes",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q17",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Schéma-blocs, Laplace, Fonction de transfert",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q18",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Schéma-blocs, Laplace, Fonction de transfert",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q19",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Précision",
+                "semestre": "S2"
+              },
+              {
+                "theme": "Asservissement : Correcteur Proportionnel et intégral",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q20",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Correcteur Proportionnel et intégral",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q21",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Schéma-blocs, Laplace, Fonction de transfert",
+                "semestre": "S2"
+              },
+              {
+                "theme": "Asservissement : Précision",
+                "semestre": "S2"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Cinématique",
+          "Systèmes séquentiels et SED",
+          "Asservissement"
+        ]
+      }
+    ],
+    "ajouts": []
+  }
+}

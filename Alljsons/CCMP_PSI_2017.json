@@ -1,0 +1,315 @@
+{
+  "concours": "CCMP",
+  "filiere": "PSI",
+  "date": "2017",
+  "file": "CCMP_PSI_2017.json",
+  "status": 200,
+  "time_s": 288.92,
+  "data": {
+    "parties": [
+      {
+        "titre_partie": "ETUDE DU CYCLE DE DEMARRAGE DU VEHICULE",
+        "questions": [
+          {
+            "numero": "Question 1",
+            "mots_cles": [
+              {
+                "theme": "Systèmes séquentiels et SED : Diagramme d'états",
+                "semestre": "S1"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Systèmes séquentiels et SED"
+        ]
+      },
+      {
+        "titre_partie": "VERIFICATION DES PERFORMANCES ANNONCEES DU VEHICULE",
+        "questions": [
+          {
+            "numero": "Question 2",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Vitesses",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Question 3",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Vitesses",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Question 4",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Vitesses",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Question 5",
+            "mots_cles": [
+              {
+                "theme": "Énergétique : Rendement",
+                "semestre": "S3"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Cinématique",
+          "Énergétique"
+        ]
+      },
+      {
+        "titre_partie": "CHOIX DU MOTO-REDUCTEUR",
+        "questions": [
+          {
+            "numero": "Question 6",
+            "mots_cles": [
+              {
+                "theme": "Énergétique : Théorème de l'Énergie Cinétique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Question 7",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : Torseur dynamique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Question 8",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Lois entrée-sortie",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Question 9",
+            "mots_cles": [
+              {
+                "theme": "Statique : Frottements",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Question 10",
+            "mots_cles": [
+              {
+                "theme": "Transmissions mécaniques : Rapport de réduction",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Question 11",
+            "mots_cles": [
+              {
+                "theme": "Transmissions mécaniques : Rapport de réduction",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Question 12",
+            "mots_cles": [
+              {
+                "theme": "Transmissions mécaniques : Rapport de réduction",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Question 13",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Lois entrée-sortie",
+                "semestre": "S1"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Énergétique",
+          "Dynamique",
+          "Cinématique",
+          "Transmissions mécaniques"
+        ]
+      },
+      {
+        "titre_partie": "MODELISATION DE LA MISE EN MOUVEMENT DU VEHICULE",
+        "questions": [
+          {
+            "numero": "Question 14",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Laplace",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Question 15",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Fonction de transfert",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Question 16",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Stabilité",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Question 17",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Fonction de transfert",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Question 18",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Schéma-blocs",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Question 19",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Rapidité",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Question 20",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Rapidité",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Question 21",
+            "mots_cles": [
+              {
+                "theme": "Transmissions mécaniques : Rapport de réduction",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Question 22",
+            "mots_cles": [
+              {
+                "theme": "Modélisation des signaux : 1er ordre",
+                "semestre": "S2"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Asservissement",
+          "Transmissions mécaniques",
+          "Modélisation des signaux"
+        ]
+      },
+      {
+        "titre_partie": "RECUPERATION D'ENERGIE",
+        "questions": [
+          {
+            "numero": "Question 23",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Fonction de transfert",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Question 24",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Fonction de transfert",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Question 25",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : Torseur dynamique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Question 26",
+            "mots_cles": [
+              {
+                "theme": "Énergétique : Rendement",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Question 27",
+            "mots_cles": [
+              {
+                "theme": "Modélisation des signaux : Temporel",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Question 28",
+            "mots_cles": [
+              {
+                "theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Asservissement",
+          "Dynamique",
+          "Énergétique",
+          "Modélisation des signaux",
+          "Ingénierie Système"
+        ]
+      }
+    ],
+    "ajouts": []
+  }
+}

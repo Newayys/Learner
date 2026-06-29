@@ -1,0 +1,630 @@
+{
+  "concours": "CCINP",
+  "filiere": "TSI",
+  "date": "2023",
+  "file": "CCINP_TSI_2023.pdf",
+  "status": 200,
+  "time_s": 1135.56,
+  "data": {
+    "parties": [
+      {
+        "titre_partie": "Partie I - Exigence fonctionnelle 'Limiter l'amplitude articulaire'",
+        "questions": [
+          {
+            "numero": "Q1",
+            "mots_cles": [
+              {
+                "theme": "Ingénierie Système : Chaînes d'énergie",
+                "semestre": "S1"
+              },
+              {
+                "theme": "Ingénierie Système : Chaînes d'information",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q2",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Fermeture géométrique",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q3",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Vitesses",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q4",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Vitesses",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q5",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Fermeture géométrique",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q6",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Fermeture géométrique",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q7",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Fermeture géométrique",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q8",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Fermeture géométrique",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q9",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Fermeture géométrique",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q10",
+            "mots_cles": [
+              {
+                "theme": "Ingénierie Système : Chaînes d'information",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q11",
+            "mots_cles": [
+              {
+                "theme": "Ingénierie Système : Chaînes d'information",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q12",
+            "mots_cles": [
+              {
+                "theme": "Ingénierie Système : Chaînes d'information",
+                "semestre": "S1"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Ingénierie Système",
+          "Cinématique"
+        ]
+      },
+      {
+        "titre_partie": "Partie II - Exigence fonctionnelle 'Assurer le positionnement de la hanche'",
+        "questions": [
+          {
+            "numero": "Q13",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : Géométrie des masses",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q14",
+            "mots_cles": [
+              {
+                "theme": "Énergétique : Théorème de l'Énergie Cinétique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q15",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : PFD",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q16",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : PFD",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q17",
+            "mots_cles": [
+              {
+                "theme": "Énergétique : Théorème de l'Énergie Cinétique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q18",
+            "mots_cles": [
+              {
+                "theme": "Énergétique : Inertie équivalente",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q19",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : PFD",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q20",
+            "mots_cles": [
+              {
+                "theme": "Transmissions mécaniques : Trains épicycloïdaux",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q21",
+            "mots_cles": [
+              {
+                "theme": "Transmissions mécaniques : Rapport de réduction",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q22",
+            "mots_cles": [
+              {
+                "theme": "Transmissions mécaniques : Rapport de réduction",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q23",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Fermeture géométrique",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q24",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Fermeture géométrique",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q25",
+            "mots_cles": [
+              {
+                "theme": "Énergétique : Rendement",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q26",
+            "mots_cles": [
+              {
+                "theme": "Énergétique : Inertie équivalente",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q27",
+            "mots_cles": [
+              {
+                "theme": "Machines électriques : MCC",
+                "semestre": "S4"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Dynamique",
+          "Énergétique",
+          "Transmissions mécaniques",
+          "Cinématique",
+          "Machines électriques"
+        ]
+      },
+      {
+        "titre_partie": "Partie III - Exigence fonctionnelle 'Assurer le déchargement corporel'",
+        "questions": [
+          {
+            "numero": "Q28",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Fermeture géométrique",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q29",
+            "mots_cles": [
+              {
+                "theme": "Statique : Liaisons équivalentes",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q30",
+            "mots_cles": [
+              {
+                "theme": "Statique : Hyperstatisme",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q31",
+            "mots_cles": [
+              {
+                "theme": "Statique : Hyperstatisme",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q32",
+            "mots_cles": [
+              {
+                "theme": "Énergétique : Théorème de l'Énergie Cinétique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q33",
+            "mots_cles": [
+              {
+                "theme": "Énergétique : Puissance",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q34",
+            "mots_cles": [
+              {
+                "theme": "Énergétique : Puissance",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q35",
+            "mots_cles": [
+              {
+                "theme": "Énergétique : Puissance",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q36",
+            "mots_cles": [
+              {
+                "theme": "Énergétique : Puissance",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q37",
+            "mots_cles": [
+              {
+                "theme": "Énergétique : Puissance",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q38",
+            "mots_cles": [
+              {
+                "theme": "Énergétique : Puissance",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q39",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Schéma-blocs",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q40",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Schéma-blocs",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q41",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Schéma-blocs",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q42",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Précision",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q43",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Précision",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q44",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Précision",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q45",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Correcteur Proportionnel et intégral",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q46",
+            "mots_cles": [
+              {
+                "theme": "Modélisation des signaux : Temporel",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q47",
+            "mots_cles": [
+              {
+                "theme": "Matériaux : Propriétés",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q48",
+            "mots_cles": [
+              {
+                "theme": "Métrologie : Contrôle 3D",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q49",
+            "mots_cles": [
+              {
+                "theme": "Métrologie : Contrôle 3D",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q50",
+            "mots_cles": [
+              {
+                "theme": "Métrologie : Contrôle 3D",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q51",
+            "mots_cles": [
+              {
+                "theme": "Traitement de l'information : Échantillonnage",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q52",
+            "mots_cles": [
+              {
+                "theme": "Traitement de l'information : Échantillonnage",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q53",
+            "mots_cles": [
+              {
+                "theme": "Traitement de l'information : Échantillonnage",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q54",
+            "mots_cles": [
+              {
+                "theme": "Traitement de l'information : Échantillonnage",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q55",
+            "mots_cles": [
+              {
+                "theme": "Modélisation des signaux : Bode",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q56",
+            "mots_cles": [
+              {
+                "theme": "Modélisation des signaux : Bode",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q57",
+            "mots_cles": [
+              {
+                "theme": "Modélisation des signaux : Bode",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q58",
+            "mots_cles": [
+              {
+                "theme": "Modélisation des signaux : Bode",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q59",
+            "mots_cles": [
+              {
+                "theme": "Machines électriques : MCC",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q60",
+            "mots_cles": [
+              {
+                "theme": "Machines électriques : MCC",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q61",
+            "mots_cles": [
+              {
+                "theme": "Machines électriques : MCC",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q62",
+            "mots_cles": [
+              {
+                "theme": "Machines électriques : MCC",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q63",
+            "mots_cles": [
+              {
+                "theme": "Modélisation des signaux : Bode",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q64",
+            "mots_cles": [
+              {
+                "theme": "Modélisation des signaux : Bode",
+                "semestre": "S2"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Cinématique",
+          "Statique",
+          "Énergétique",
+          "Asservissement",
+          "Modélisation des signaux",
+          "Matériaux",
+          "Métrologie",
+          "Traitement de l'information",
+          "Machines électriques"
+        ]
+      }
+    ],
+    "ajouts": []
+  }
+}

@@ -1,0 +1,215 @@
+{
+  "concours": "CCMP",
+  "filiere": "MP",
+  "date": "2022",
+  "file": "CCMP_MP_2022.json",
+  "status": 200,
+  "time_s": 667.4,
+  "data": {
+    "parties": [
+      {
+        "titre_partie": "1. Présentation",
+        "questions": []
+      },
+      {
+        "titre_partie": "2. Gestion du système",
+        "questions": [
+          {
+            "numero": "Question 1",
+            "mots_cles": [
+              {
+                "theme": "Systèmes séquentiels et SED : Diagramme d'états",
+                "semestre": "S1"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Systèmes séquentiels et SED"
+        ]
+      },
+      {
+        "titre_partie": "3. Modélisation du système de contrôle",
+        "questions": [
+          {
+            "numero": "Question 2",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Schéma-blocs",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Question 3",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Torseurs cinématiques",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Question 4",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : Matrice d'inertie",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Question 5",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Fermeture géométrique",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Question 6",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : PFD",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Question 7",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : PFD",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Question 8",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Fonction de transfert",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Question 9",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Lois entrée-sortie",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Question 10",
+            "mots_cles": [
+              {
+                "theme": "Statique : Liaisons équivalentes",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Question 11",
+            "mots_cles": [
+              {
+                "theme": "Statique : Liaisons équivalentes",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Question 12",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Lois entrée-sortie",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Question 13",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Fonction de transfert",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Question 14",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Schéma-blocs",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Question 15",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Précision",
+                "semestre": "S2"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Asservissement",
+          "Cinématique",
+          "Dynamique",
+          "Statique"
+        ]
+      },
+      {
+        "titre_partie": "4. Performances du système de contrôle",
+        "questions": [
+          {
+            "numero": "Question 16",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Précision",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Question 17",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Rapidité",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Question 18",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Précision",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Question 19",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Précision",
+                "semestre": "S2"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Asservissement"
+        ]
+      }
+    ],
+    "ajouts": []
+  }
+}

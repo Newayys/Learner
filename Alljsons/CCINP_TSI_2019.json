@@ -1,0 +1,436 @@
+{
+  "concours": "CCINP",
+  "filiere": "TSI",
+  "date": "2019",
+  "file": "CCINP_TSI_2019.pdf",
+  "status": 200,
+  "time_s": 1193.37,
+  "data": {
+    "parties": [
+      {
+        "titre_partie": "Partie I - Présentation générale",
+        "questions": [
+          {
+            "numero": "Q1",
+            "mots_cles": [
+              {
+                "theme": "Ingénierie Système : Chaînes d'information",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q2",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Lois entrée-sortie",
+                "semestre": "S1"
+              },
+              {
+                "theme": "Cinématique : Torseurs cinématiques",
+                "semestre": "S1"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Ingénierie Système",
+          "Cinématique"
+        ]
+      },
+      {
+        "titre_partie": "Partie II - Avant Projet",
+        "questions": [
+          {
+            "numero": "Q10",
+            "mots_cles": [
+              {
+                "theme": "Statique : Liaisons équivalentes",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q11",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Lois entrée-sortie",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q12",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Schéma-blocs",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q13",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Laplace",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q14",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Schéma-blocs",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q15",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Schéma-blocs",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q16",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Schéma-blocs",
+                "semestre": "S2"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Statique",
+          "Cinématique",
+          "Asservissement"
+        ]
+      },
+      {
+        "titre_partie": "Partie III - Régulation de l'effort de traction",
+        "questions": [
+          {
+            "numero": "Q17",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Fonction de transfert",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q18",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Stabilité",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q19",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Rapidité",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q20",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Précision",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q21",
+            "mots_cles": [
+              {
+                "theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q22",
+            "mots_cles": [
+              {
+                "theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Asservissement",
+          "Ingénierie Système"
+        ]
+      },
+      {
+        "titre_partie": "Partie IV - Caractérisation et conception de la chaîne d'information",
+        "questions": [
+          {
+            "numero": "Q23",
+            "mots_cles": [
+              {
+                "theme": "Dimensionnement : Capteurs",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q24",
+            "mots_cles": [
+              {
+                "theme": "Résistance des matériaux : Contraintes",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q25",
+            "mots_cles": [
+              {
+                "theme": "Matériaux : Propriétés",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q26",
+            "mots_cles": [
+              {
+                "theme": "Dimensionnement : Capteurs",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q27",
+            "mots_cles": [
+              {
+                "theme": "Résistance des matériaux : Contraintes",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q28",
+            "mots_cles": [
+              {
+                "theme": "Dimensionnement : Capteurs",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q29",
+            "mots_cles": [
+              {
+                "theme": "Dimensionnement : Capteurs",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q30",
+            "mots_cles": [
+              {
+                "theme": "Traitement de l'information : Filtres",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q31",
+            "mots_cles": [
+              {
+                "theme": "Traitement de l'information : Filtres",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q32",
+            "mots_cles": [
+              {
+                "theme": "Traitement de l'information : Échantillonnage",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q33",
+            "mots_cles": [
+              {
+                "theme": "Traitement de l'information : Filtres",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q34",
+            "mots_cles": [
+              {
+                "theme": "Traitement de l'information : Filtres",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q35",
+            "mots_cles": [
+              {
+                "theme": "Traitement de l'information : Filtres",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q36",
+            "mots_cles": [
+              {
+                "theme": "Traitement de l'information : Filtres",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q37",
+            "mots_cles": [
+              {
+                "theme": "Traitement de l'information : Quantification",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q38",
+            "mots_cles": [
+              {
+                "theme": "Traitement de l'information : Quantification",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q39",
+            "mots_cles": [
+              {
+                "theme": "Traitement de l'information : Quantification",
+                "semestre": "S3"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Dimensionnement",
+          "Résistance des matériaux",
+          "Matériaux",
+          "Traitement de l'information"
+        ]
+      },
+      {
+        "titre_partie": "Partie V - Étude de la chaîne d'énergie",
+        "questions": [
+          {
+            "numero": "Q40",
+            "mots_cles": [
+              {
+                "theme": "Énergétique : Puissance",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q41",
+            "mots_cles": [
+              {
+                "theme": "Matériaux : Choix",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q42",
+            "mots_cles": [
+              {
+                "theme": "Énergétique : Puissance",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q43",
+            "mots_cles": [
+              {
+                "theme": "Dimensionnement : Capteurs",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q44",
+            "mots_cles": [
+              {
+                "theme": "Modélisation des signaux : Temporel",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q45",
+            "mots_cles": [
+              {
+                "theme": "Modélisation des signaux : Temporel",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q46",
+            "mots_cles": [
+              {
+                "theme": "Énergétique : Puissance",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q47",
+            "mots_cles": [
+              {
+                "theme": "Modélisation des signaux : Fréquentiel",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q48",
+            "mots_cles": [
+              {
+                "theme": "Modélisation des signaux : Fréquentiel",
+                "semestre": "S2"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Énergétique",
+          "Matériaux",
+          "Dimensionnement",
+          "Modélisation des signaux"
+        ]
+      }
+    ],
+    "ajouts": []
+  }
+}

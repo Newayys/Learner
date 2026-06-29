@@ -1,0 +1,488 @@
+{
+  "concours": "Centrale",
+  "filiere": "MP",
+  "date": "2022",
+  "file": "Centrale_MP_2022.pdf",
+  "status": 200,
+  "time_s": 401.16,
+  "data": {
+    "parties": [
+      {
+        "titre_partie": "II Pré-dimensionnement du Sled 0,3g",
+        "questions": [
+          {
+            "numero": "Q 1",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Vitesses",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q 2",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Vitesses",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q 3",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Vitesses",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q 4",
+            "mots_cles": [
+              {
+                "theme": "Statique : Liaisons équivalentes",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 5",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : Torseur dynamique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q 6",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : PFD",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q 7",
+            "mots_cles": [
+              {
+                "theme": "Statique : Isostatisme",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 8",
+            "mots_cles": [
+              {
+                "theme": "Dynamique : PFD",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q 9",
+            "mots_cles": [
+              {
+                "theme": "Statique : Isostatisme",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 10",
+            "mots_cles": [
+              {
+                "theme": "Statique : Isostatisme",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 11",
+            "mots_cles": [
+              {
+                "theme": "Statique : Isostatisme",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 12",
+            "mots_cles": [
+              {
+                "theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Cinématique",
+          "Statique",
+          "Dynamique",
+          "Ingénierie Système"
+        ]
+      },
+      {
+        "titre_partie": "III Mise en place d'un modèle numérique pour le Sled 0,3g",
+        "questions": [
+          {
+            "numero": "Q 13",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Schéma-blocs",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 14",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Fonction de transfert",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 15",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Stabilité",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 16",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Fonction de transfert",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 17",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Fonction de transfert",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 18",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Précision",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 19",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Précision",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 20",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Précision",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 21",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Précision",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 22",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Précision",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 23",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Rapidité",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 24",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Précision",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 25",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Précision",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 26",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Schéma-blocs",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 27",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Fonction de transfert",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 28",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Fonction de transfert",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 29",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Fonction de transfert",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 30",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Correcteur Numérique",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 31",
+            "mots_cles": [
+              {
+                "theme": "Informatique et Algorithmique : Python",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q 32",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Schéma-blocs",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 33",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Stabilité",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 34",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Précision",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 35",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Précision",
+                "semestre": "S2"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Asservissement",
+          "Informatique et Algorithmique",
+          "Transmissions mécaniques",
+          "Énergétique"
+        ]
+      },
+      {
+        "titre_partie": "IV Réalisation d'un Sled 0,3g",
+        "questions": [
+          {
+            "numero": "Q 36",
+            "mots_cles": [
+              {
+                "theme": "Transmissions mécaniques : Rapport de réduction",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q 37",
+            "mots_cles": [
+              {
+                "theme": "Cinématique : Lois entrée-sortie",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q 38",
+            "mots_cles": [
+              {
+                "theme": "Énergétique : Théorème de l'Énergie Cinétique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q 39",
+            "mots_cles": [
+              {
+                "theme": "Énergétique : Inertie équivalente",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q 40",
+            "mots_cles": [
+              {
+                "theme": "Énergétique : Puissance",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q 41",
+            "mots_cles": [
+              {
+                "theme": "Énergétique : Puissance",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q 42",
+            "mots_cles": [
+              {
+                "theme": "Énergétique : Puissance",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q 43",
+            "mots_cles": [
+              {
+                "theme": "Machines électriques : MCC",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q 44",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Précision",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 45",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Robustesse",
+                "semestre": "S2"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Transmissions mécaniques",
+          "Cinématique",
+          "Énergétique",
+          "Machines électriques",
+          "Asservissement"
+        ]
+      },
+      {
+        "titre_partie": "V Synthèse des performances réalisées par le modèle multiphysique n°2 et évolution du prototype (ou dispositif expérimental) du Sled 0,3g",
+        "questions": [
+          {
+            "numero": "Q 46",
+            "mots_cles": [
+              {
+                "theme": "Asservissement : Robustesse",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 47",
+            "mots_cles": [
+              {
+                "theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q 48",
+            "mots_cles": [
+              {
+                "theme": "Ingénierie Système : SysML",
+                "semestre": "S1"
+              }
+            ]
+          }
+        ],
+        "themes_partie": [
+          "Asservissement",
+          "Ingénierie Système"
+        ]
+      }
+    ],
+    "ajouts": []
+  }
+}
