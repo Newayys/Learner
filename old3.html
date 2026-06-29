@@ -344,7 +344,7 @@ async function loadManifest() {
     (manifest.pdf || []).forEach(path => {
       pdfMap[path.split('/').pop().replace('.pdf','').toLowerCase()] = path;
     });
-    // Corrigés : meme nom, dans Corrigé/
+    // Corrigés : meme nom, dans Corrigés/
     // Supporte manifest.corrige explicite OU dérive depuis manifest.pdf
     const corrigePaths = manifest.corrige ||
       (manifest.pdf || []).map(p => 'Corrigés/' + p.split('/').pop());
@@ -663,30 +663,14 @@ function showTheme(theme){
 }
 
 function renderCards(results,maxQ,filterSubs){
-  const hasFilter=filterSubs&&filterSubs.size>0;
   let filtered=results;
-  if(hasFilter)filtered=results.filter(r=>[...filterSubs].some(s=>r.subMap[s]));
+  if(filterSubs&&filterSubs.size>0)filtered=results.filter(r=>[...filterSubs].some(s=>r.subMap[s]));
   if(!filtered.length)return'<div style="padding:40px;text-align:center;color:var(--text3)">Aucun sujet.</div>';
   const rc=document.getElementById('res-count');
   if(rc)rc.textContent=`${filtered.length} sujet${filtered.length>1?'s':''}`;
-  // Si filtre actif et tri "questions", re-trier selon les questions des sous-thèmes filtrés
-  const sortMode=document.getElementById('sort-sel')?.value||'count';
-  if(hasFilter&&sortMode==='count'){
-    filtered=[...filtered].sort((a,b)=>{
-      const nA=[...filterSubs].reduce((s,sub)=>s+(a.subMap[sub]?.length||0),0);
-      const nB=[...filterSubs].reduce((s,sub)=>s+(b.subMap[sub]?.length||0),0);
-      return nB-nA;
-    });
-  }
-  // maxQ pour la barre de progression adapté au filtre actif
-  const displayMax=hasFilter
-    ?Math.max(...filtered.map(r=>[...filterSubs].reduce((s,sub)=>s+(r.subMap[sub]?.length||0),0)),1)
-    :maxQ;
   return filtered.map((r,i)=>{
-    const{doc,subMap,totalQ}=r;
-    const displayQ=hasFilter?[...filterSubs].reduce((s,sub)=>s+(subMap[sub]?.length||0),0):totalQ;
-    const pct=Math.round(displayQ/displayMax*100);
-    const subsToShow=hasFilter?Object.entries(subMap).filter(([s])=>filterSubs.has(s)):Object.entries(subMap);
+    const{doc,subMap,totalQ}=r,pct=Math.round(totalQ/maxQ*100);
+    const subsToShow=filterSubs&&filterSubs.size>0?Object.entries(subMap).filter(([s])=>filterSubs.has(s)):Object.entries(subMap);
     const subBlocks=subsToShow.sort((a,b)=>b[1].length-a[1].length)
       .map(([s,qs])=>`<div class="sub-block"><div class="sub-block-title">${s}</div><div class="q-pills">${qs.map(q=>`<span class="q-pill">${q}</span>`).join('')}</div></div>`).join('');
     return `<div class="annale-card" id="card-${i}">
@@ -704,7 +688,7 @@ function renderCards(results,maxQ,filterSubs){
           ${pdfBtn(doc)}
           ${corrigeBtn(doc)}
           <div style="flex-shrink:0;text-align:right">
-            <div class="q-count">${displayQ}<span class="q-label"> q.</span></div>
+            <div class="q-count">${totalQ}<span class="q-label"> q.</span></div>
             <div class="progress-bar"><div class="progress-fill" style="width:${pct}%"></div></div>
           </div>
         </div>
