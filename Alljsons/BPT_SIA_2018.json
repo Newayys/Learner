@@ -32,7 +32,7 @@
             "numero": "Question 3",
             "mots_cles": [
               {
-                "theme": "Transmissions mécanques",
+                "theme": "Transmissions mécaniques",
                 "semestre": "S1"
               }
             ]
@@ -230,7 +230,7 @@
         "themes_partie": [
           "Systèmes séquentiels et SED",
           "Cinématique",
-          "Transmissions mécanques",
+          "Transmissions mécaniques",
           "Statique",
           "Dynamique",
           "Énergétique"

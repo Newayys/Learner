@@ -14,7 +14,7 @@
             "numero": "Q1",
             "mots_cles": [
               {
-                "theme": "Transmissions–mécaniques : Rapport de réduction",
+                "theme": "Transmissions mécaniques : Rapport de réduction",
                 "semestre": "S1"
               }
             ]
@@ -23,7 +23,7 @@
             "numero": "Q2",
             "mots_cles": [
               {
-                "theme": "Transmissions–mécaniques : Rapport de réduction",
+                "theme": "Transmissions mécaniques : Rapport de réduction",
                 "semestre": "S1"
               }
             ]
@@ -139,7 +139,7 @@
         ],
         "themes_partie": [
           "Ingénierie Système",
-          "Transmissions–mécaniques",
+          "Transmissions mécaniques",
           "Énergétique",
           "Asservissement"
         ]
@@ -361,7 +361,7 @@
             "numero": "Q36",
             "mots_cles": [
               {
-                "theme": "Transmissions–mécaniques : Rapport de réduction",
+                "theme": "Transmissions mécaniques : Rapport de réduction",
                 "semestre": "S1"
               }
             ]
@@ -370,7 +370,7 @@
             "numero": "Q37",
             "mots_cles": [
               {
-                "theme": "Transmissions–mécaniques : Engrenages",
+                "theme": "Transmissions mécaniques : Engrenages",
                 "semestre": "S1"
               }
             ]
@@ -388,7 +388,7 @@
             "numero": "Q39",
             "mots_cles": [
               {
-                "theme": "Transmissions–mécaniques : Rapport de réduction",
+                "theme": "Transmissions mécaniques : Rapport de réduction",
                 "semestre": "S1"
               }
             ]
@@ -539,7 +539,7 @@
           }
         ],
         "themes_partie": [
-          "Transmissions–mécaniques",
+          "Transmissions mécaniques",
           "Dynamique",
           "Cinématique",
           "Énergétique",

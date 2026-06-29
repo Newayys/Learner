@@ -32,7 +32,7 @@
             "numero": "Q3",
             "mots_cles": [
               {
-                "theme": "Transmissions mécanques : Trains épicycloïdaux",
+                "theme": "Transmissions mécaniques : Trains épicycloïdaux",
                 "semestre": "S1"
               }
             ]
@@ -131,7 +131,7 @@
         "themes_partie": [
           "Ingénierie Système",
           "Cinématique",
-          "Transmissions mécanques"
+          "Transmissions mécaniques"
         ]
       },
       {
@@ -376,7 +376,7 @@
             "numero": "Q39",
             "mots_cles": [
               {
-                "theme": "Transmissions mécanques : Rapport de réduction",
+                "theme": "Transmissions mécaniques : Rapport de réduction",
                 "semestre": "S1"
               }
             ]
@@ -404,7 +404,7 @@
           "Cinématique",
           "Résistance des matériaux",
           "Statique",
-          "Transmissions mécanques",
+          "Transmissions mécaniques",
           "Procédés de fabrication"
         ]
       },

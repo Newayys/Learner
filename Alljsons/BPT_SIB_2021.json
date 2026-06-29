@@ -165,7 +165,7 @@
             "numero": "Question 17",
             "mots_cles": [
               {
-                "theme": "Transmissions mécanques : Rapport de réduction",
+                "theme": "Transmissions mécaniques : Rapport de réduction",
                 "semestre": "S1"
               }
             ]
@@ -174,7 +174,7 @@
             "numero": "Question 18",
             "mots_cles": [
               {
-                "theme": "Transmissions mécanques : Rapport de réduction",
+                "theme": "Transmissions mécaniques : Rapport de réduction",
                 "semestre": "S1"
               }
             ]
@@ -356,7 +356,7 @@
           "Résistance des matériaux",
           "Spécifications géométriques",
           "Cinématique",
-          "Transmissions mécanques",
+          "Transmissions mécaniques",
           "Asservissement",
           "Dynamique",
           "Énergétique"

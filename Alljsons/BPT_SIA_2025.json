@@ -197,7 +197,7 @@
             "numero": "Question 20",
             "mots_cles": [
               {
-                "theme": "Transmissions mécanques : Trains épicycloïdaux",
+                "theme": "Transmissions mécaniques : Trains épicycloïdaux",
                 "semestre": "S1"
               }
             ]
@@ -232,7 +232,7 @@
         ],
         "themes_partie": [
           "Cinématique",
-          "Transmissions mécanques",
+          "Transmissions mécaniques",
           "Résistance des matériaux"
         ]
       },

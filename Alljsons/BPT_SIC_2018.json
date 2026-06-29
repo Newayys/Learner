@@ -200,7 +200,7 @@
             "numero": "Question 19",
             "mots_cles": [
               {
-                "theme": "Transmissions mécanques : Rapport de réduction",
+                "theme": "Transmissions mécaniques : Rapport de réduction",
                 "semestre": "S1"
               }
             ]
@@ -209,7 +209,7 @@
             "numero": "Question 20",
             "mots_cles": [
               {
-                "theme": "Transmissions mécanques : Rapport de réduction",
+                "theme": "Transmissions mécaniques : Rapport de réduction",
                 "semestre": "S1"
               },
               {
@@ -222,7 +222,7 @@
             "numero": "Question 21",
             "mots_cles": [
               {
-                "theme": "Transmissions mécanques : Engrenages",
+                "theme": "Transmissions mécaniques : Engrenages",
                 "semestre": "S1"
               }
             ]
@@ -231,7 +231,7 @@
             "numero": "Question 22",
             "mots_cles": [
               {
-                "theme": "Transmissions mécanques : Engrenages",
+                "theme": "Transmissions mécaniques : Engrenages",
                 "semestre": "S1"
               }
             ]
@@ -240,7 +240,7 @@
             "numero": "Question 23",
             "mots_cles": [
               {
-                "theme": "Transmissions mécanques : Engrenages",
+                "theme": "Transmissions mécaniques : Engrenages",
                 "semestre": "S1"
               }
             ]
@@ -256,7 +256,7 @@
           }
         ],
         "themes_partie": [
-          "Transmissions mécanques",
+          "Transmissions mécaniques",
           "Cinématique",
           "Dimensionnement"
         ]

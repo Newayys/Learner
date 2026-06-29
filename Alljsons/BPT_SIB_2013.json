@@ -356,7 +356,7 @@
             "numero": "Q39",
             "mots_cles": [
               {
-                "theme": "Transmissionsmeques : Engrenages",
+                "theme": "Transmissions mécaniques : Engrenages",
                 "semestre": "S1"
               }
             ]
@@ -365,7 +365,7 @@
             "numero": "Q40",
             "mots_cles": [
               {
-                "theme": "Transmissionsmeques : Engrenages",
+                "theme": "Transmissions mécaniques : Engrenages",
                 "semestre": "S1"
               }
             ]
@@ -383,7 +383,7 @@
             "numero": "Q42",
             "mots_cles": [
               {
-                "theme": "Transmissionsmeques : Rapport de réduction",
+                "theme": "Transmissions mécaniques : Rapport de réduction",
                 "semestre": "S1"
               }
             ]
@@ -392,7 +392,7 @@
             "numero": "Q43",
             "mots_cles": [
               {
-                "theme": "Transmissionsmeques : Rapport de réduction",
+                "theme": "Transmissions mécaniques : Rapport de réduction",
                 "semestre": "S1"
               }
             ]
@@ -487,7 +487,7 @@
           "Statique",
           "Résistance des matériaux",
           "Matériaux",
-          "Transmissionsmeques",
+          "Transmissions mécaniques",
           "Procédés de fabrication"
         ]
       }

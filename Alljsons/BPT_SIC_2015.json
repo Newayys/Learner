@@ -201,7 +201,7 @@
             "numero": "Question 20",
             "mots_cles": [
               {
-                "theme": "Transmissionsés : Rapport de réduction",
+                "theme": "Transmissions mécaniques : Rapport de réduction",
                 "semestre": "S1"
               }
             ]
@@ -282,7 +282,7 @@
         "themes_partie": [
           "Énergétique",
           "Dimensionnement",
-          "Transmissionsés",
+          "Transmissions mécaniques",
           "Machines électriques",
           "Électrotechnique"
         ]
@@ -294,7 +294,7 @@
             "numero": "Question 29",
             "mots_cles": [
               {
-                "theme": "Transmissionsés : Rapport de réduction",
+                "theme": "Transmissions mécaniques : Rapport de réduction",
                 "semestre": "S1"
               }
             ]
@@ -303,7 +303,7 @@
             "numero": "Question 30",
             "mots_cles": [
               {
-                "theme": "Transmissionsés : Rapport de réduction",
+                "theme": "Transmissions mécaniques : Rapport de réduction",
                 "semestre": "S1"
               }
             ]
@@ -391,7 +391,7 @@
           }
         ],
         "themes_partie": [
-          "Transmissionsés",
+          "Transmissions mécaniques",
           "Cinématique",
           "Ingénierie Système",
           "Statique",
