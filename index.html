@@ -111,47 +111,6 @@
   .theme-btn .chk { width: 18px; height: 18px; border: 1.5px solid var(--border); border-radius: 4px; flex-shrink: 0; display: flex; align-items: center; justify-content: center; font-size: 11px; }
   .theme-btn.selected .chk { background: #4338ca; border-color: #4338ca; color: #fff; }
 
-  /* ── DONE PROGRESS (sidebar) ── */
-  .theme-done-progress {
-    margin-left: auto; display: flex; align-items: center; gap: 4px; flex-shrink: 0;
-  }
-  .theme-done-frac {
-    font-size: 10px; font-family: var(--mono); color: var(--green); font-weight: 600;
-    background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 99px;
-    padding: 1px 6px; white-space: nowrap;
-  }
-  .theme-done-frac.done-all {
-    background: #dcfce7; border-color: #86efac;
-  }
-
-  /* ── DONE CARD STATE ── */
-  .annale-card.card-done {
-    opacity: 0.55;
-    background: var(--surface2);
-  }
-  .annale-card.card-done .annale-name {
-    text-decoration: line-through;
-    color: var(--text3);
-  }
-  .btn-done-card {
-    display: inline-flex; align-items: center; gap: 4px; padding: 5px 10px;
-    border-radius: 6px; font-size: 12px; font-weight: 500; min-height: 30px;
-    border: 1px solid var(--border); background: var(--surface2); color: var(--text3);
-    cursor: pointer; white-space: nowrap; flex-shrink: 0;
-    transition: background .15s, border-color .15s, color .15s;
-  }
-  .btn-done-card:hover { border-color: var(--green); color: var(--green); background: #f0fdf4; }
-  .btn-done-card.is-done { border-color: #86efac; background: #f0fdf4; color: var(--green); }
-  .btn-done-card.is-done:hover { background: var(--surface2); border-color: var(--border); color: var(--text3); }
-
-  /* Show-done filter */
-  .done-filter-bar {
-    display: flex; align-items: center; gap: 6px; font-size: 12px;
-    color: var(--text2); margin-bottom: 12px;
-  }
-  .done-filter-bar label { display: flex; align-items: center; gap: 5px; cursor: pointer; }
-  .done-filter-bar input[type=checkbox] { accent-color: var(--accent); width: 14px; height: 14px; }
-
   /* ── EMPTY STATE ── */
   .empty-state { text-align: center; padding: 60px 24px; color: var(--text3); }
   .empty-state .big { font-size: 40px; margin-bottom: 16px; }
@@ -228,14 +187,62 @@
   .q-pills { display: flex; flex-wrap: wrap; gap: 5px; }
   .q-pill { padding: 4px 9px; border-radius: 5px; font-size: 12px; font-family: var(--mono); background: var(--accent-bg); color: var(--accent); border: 1px solid var(--accent-border); font-weight: 500; }
 
-  /* ── PDF MODAL ── */
-  .pdf-modal { display: none; position: fixed; inset: 0; z-index: 100; flex-direction: column; }
-  .pdf-modal.open { display: flex; }
-  .pdf-modal-bar { background: var(--surface); border-bottom: 1px solid var(--border); display: flex; align-items: center; gap: 10px; padding: 10px 14px; flex-shrink: 0; }
-  .pdf-modal-title { font-weight: 600; font-size: 13px; flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
-  .btn-close { padding: 6px 14px; border-radius: 6px; border: 1px solid var(--border); background: var(--surface2); color: var(--text2); cursor: pointer; font-size: 13px; min-height: 36px; flex-shrink: 0; }
-  .btn-close:hover { background: var(--border); }
-  .pdf-frame { flex: 1; border: none; background: #525659; }
+  /* ── NOTEBOOK DRAWER ── */
+  .nb-drawer {
+    position: fixed; top: 0; right: -420px; bottom: 0; width: 420px; max-width: 100vw;
+    background: var(--surface); border-left: 1px solid var(--border);
+    z-index: 200; display: flex; flex-direction: column;
+    transition: right .25s ease; box-shadow: -4px 0 24px rgba(0,0,0,.08);
+  }
+  .nb-drawer.open { right: 0; }
+  .nb-overlay {
+    display: none; position: fixed; inset: 0; z-index: 199;
+    background: rgba(0,0,0,.3);
+  }
+  .nb-overlay.open { display: block; }
+  .nb-bar {
+    display: flex; align-items: center; gap: 10px;
+    padding: 12px 14px; border-bottom: 1px solid var(--border); flex-shrink: 0;
+  }
+  .nb-bar-title { font-weight: 700; font-size: 13px; flex: 1; min-width: 0; }
+  .nb-bar-sub { font-size: 11px; color: var(--text3); overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .nb-close {
+    width: 32px; height: 32px; border: 1px solid var(--border); border-radius: 6px;
+    background: var(--surface2); color: var(--text2); cursor: pointer; font-size: 16px;
+    display: flex; align-items: center; justify-content: center; flex-shrink: 0;
+  }
+  .nb-close:hover { background: var(--border); }
+  .nb-meta {
+    padding: 10px 14px 8px; border-bottom: 1px solid var(--border); flex-shrink: 0;
+    display: flex; align-items: center; gap: 6px; flex-wrap: wrap;
+  }
+  .nb-label { font-size: 11px; color: var(--text3); flex: 1; min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+  .nb-saved { font-size: 11px; color: var(--green); opacity: 0; transition: opacity .3s; }
+  .nb-saved.show { opacity: 1; }
+  .nb-body { flex: 1; display: flex; flex-direction: column; padding: 14px; gap: 10px; overflow: hidden; }
+  .nb-textarea {
+    flex: 1; resize: none; border: 1px solid var(--border); border-radius: var(--radius);
+    padding: 12px; font-size: 13px; font-family: 'Inter', system-ui, sans-serif;
+    line-height: 1.65; color: var(--text); background: var(--bg);
+    outline: none; transition: border-color .15s;
+  }
+  .nb-textarea:focus { border-color: var(--accent); box-shadow: 0 0 0 3px var(--accent-bg); }
+  .nb-textarea::placeholder { color: var(--text3); }
+  .nb-footer { display: flex; align-items: center; gap: 8px; flex-shrink: 0; }
+  .nb-hint { font-size: 11px; color: var(--text3); flex: 1; }
+  .btn-nb-clear { font-size: 12px; color: var(--text3); background: none; border: 1px solid var(--border); border-radius: 6px; padding: 5px 10px; cursor: pointer; }
+  .btn-nb-clear:hover { color: var(--red); border-color: var(--red); }
+
+  /* Bouton bloc-note sur les cartes */
+  .btn-note {
+    display: inline-flex; align-items: center; gap: 4px; padding: 5px 9px;
+    border-radius: 6px; font-size: 12px; font-weight: 500; min-height: 30px;
+    border: 1px solid var(--border); background: var(--surface2); color: var(--text3);
+    cursor: pointer; white-space: nowrap; flex-shrink: 0;
+    transition: background .15s, border-color .15s, color .15s;
+  }
+  .btn-note:hover { border-color: var(--accent); color: var(--accent); background: var(--accent-bg); }
+  .btn-note.has-note { border-color: #fde68a; background: #fffbeb; color: #b45309; }
 
   /* ── FAB mobile ── */
   .fab-filter {
@@ -335,12 +342,27 @@
 
 <button class="fab-filter" id="fab-filter" onclick="toggleSidebar()" aria-label="Thèmes">🗂</button>
 
-<div class="pdf-modal" id="pdf-modal">
-  <div class="pdf-modal-bar">
-    <button class="btn-close" onclick="closePdf()">✕ Fermer</button>
-    <span class="pdf-modal-title" id="pdf-modal-title"></span>
+<div class="nb-overlay" id="nb-overlay" onclick="closeNote()"></div>
+<div class="nb-drawer" id="nb-drawer">
+  <div class="nb-bar">
+    <div style="flex:1;min-width:0">
+      <div class="nb-bar-title">📝 Bloc-notes</div>
+      <div class="nb-bar-sub" id="nb-bar-sub">—</div>
+    </div>
+    <button class="nb-close" onclick="closeNote()">✕</button>
   </div>
-  <iframe class="pdf-frame" id="pdf-frame"></iframe>
+  <div class="nb-meta">
+    <span class="nb-label" id="nb-label"></span>
+    <span class="nb-saved" id="nb-saved">✓ Sauvegardé</span>
+  </div>
+  <div class="nb-body">
+    <textarea class="nb-textarea" id="nb-textarea"
+      placeholder="Note tes difficultés, les parties qui t'ont posé problème, les formules à retenir…&#10;&#10;Tout est sauvegardé automatiquement."></textarea>
+    <div class="nb-footer">
+      <span class="nb-hint">Sauvegarde automatique · par sujet</span>
+      <button class="btn-nb-clear" onclick="clearNote()">Effacer</button>
+    </div>
+  </div>
 </div>
 
 <script>
@@ -356,11 +378,6 @@ function toggleDoneCard(theme, docLabel) {
   const k = doneKey(theme, docLabel);
   doneCards.has(k) ? doneCards.delete(k) : doneCards.add(k);
   localStorage.setItem('annales_done_cards', JSON.stringify([...doneCards]));
-}
-// Retourne {done, total} pour un thème donné parmi les sujets affichés
-function doneProgressForTheme(theme, docResults) {
-  const done = docResults.filter(r => isDoneCard(theme, r.doc.label)).length;
-  return { done, total: docResults.length };
 }
 
 // ── Mobile init ───────────────────────────────────────────────────────────────
@@ -508,7 +525,7 @@ function buildThemeList() {
     const pct=n/total*100;
     const dot=pct>=10?'dot-high':pct>=3?'dot-mid':'dot-low';
     const isSel=selectedThemes.has(name), isAct=activeTheme===name;
-    const docLabels=[...( themeDocSets[name]||new Set())];
+    const docLabels=[...(themeDocSets[name]||new Set())];
     const doneN=docLabels.filter(l=>isDoneCard(name,l)).length;
     const totalN=docLabels.length;
     const doneBadge=doneN>0
@@ -663,6 +680,7 @@ function renderMultiCards(results,themes,maxPerTheme){
           </div>
           ${pdfBtn(doc)}
           ${corrigeBtn(doc)}
+          <button class="btn-note ${hasNote(doc.label)?'has-note':''}" data-doc="${doc.label}" onclick="openNote(event,'${esc(doc.label)}')" title="${hasNote(doc.label)?'Voir/modifier la note':'Ajouter une note'}">📝</button>
           <div class="score-col">${scoreRows}</div>
           <div class="score-total">${total}<span class="q-label">q</span></div>
         </div>
@@ -757,6 +775,7 @@ function renderCards(results,maxQ,filterSubs){
     const subBlocks=subsToShow.sort((a,b)=>b[1].length-a[1].length)
       .map(([s,qs])=>`<div class="sub-block"><div class="sub-block-title">${s}</div><div class="q-pills">${qs.map(q=>`<span class="q-pill">${q}</span>`).join('')}</div></div>`).join('');
     const done=isDoneCard(activeTheme,doc.label);
+    const noted=hasNote(doc.label);
     return `<div class="annale-card ${done?'card-done':''}" id="card-${i}">
       <div class="annale-header" onclick="toggleCard('card-${i}')">
         <div class="annale-row1">
@@ -771,7 +790,8 @@ function renderCards(results,maxQ,filterSubs){
           </div>
           ${pdfBtn(doc)}
           ${corrigeBtn(doc)}
-          <button class="btn-done-card ${done?'is-done':''}" onclick="handleDoneCard(event,'${esc(activeTheme)}','${esc(doc.label)}')" title="${done?'Retirer de faits':'Marquer comme fait'}">${done?'✓ Fait':'○ Fait'}</button>
+          <button class="btn-done-card ${done?'is-done':''}" onclick="handleDoneCard(event,'${esc(activeTheme)}','${esc(doc.label)}')">${done?'✓ Fait':'○ Fait'}</button>
+          <button class="btn-note ${noted?'has-note':''}" data-doc="${doc.label}" onclick="openNote(event,'${esc(doc.label)}')" title="${noted?'Voir/modifier la note':'Ajouter une note'}">📝</button>
           <div style="flex-shrink:0;text-align:right">
             <div class="q-count">${displayQ}<span class="q-label"> q.</span></div>
             <div class="progress-bar"><div class="progress-fill" style="width:${pct}%"></div></div>
@@ -786,10 +806,10 @@ function renderCards(results,maxQ,filterSubs){
 function handleDoneCard(e, theme, docLabel) {
   e.stopPropagation();
   toggleDoneCard(theme, docLabel);
-  // Refresh just the cards and the sidebar badge
   document.getElementById('cards-container').innerHTML=renderCards(window._docResults,window._maxQ,activeSubs);
   buildThemeList();
 }
+
 function toggleCard(id){document.getElementById('body-'+id).classList.toggle('open');}
 function toggleSub(btn,sub){
   btn.classList.toggle('active');
@@ -807,22 +827,74 @@ function reSort(){
 }
 
 // ── PDF ───────────────────────────────────────────────────────────────────────
-function openPdf(e,url,label){
+function openPdf(e, url, label) {
   e.stopPropagation();
-  if(window.innerWidth<=768){
-    // Sur mobile l'iframe ne scroll pas bien : on ouvre dans un nouvel onglet
-    window.open(url,'_blank');
-    return;
-  }
-  document.getElementById('pdf-modal-title').textContent=label;
-  document.getElementById('pdf-frame').src=url;
-  document.getElementById('pdf-modal').classList.add('open');
+  window.open(url, '_blank');
 }
-function closePdf(){
-  document.getElementById('pdf-modal').classList.remove('open');
-  document.getElementById('pdf-frame').src='';
+
+// ── BLOC-NOTES ────────────────────────────────────────────────────────────────
+let nbKey = null, nbSaveTimer = null;
+
+function noteStorageKey(docLabel) { return 'annales_note|||' + docLabel; }
+function hasNote(docLabel) {
+  const v = localStorage.getItem(noteStorageKey(docLabel));
+  return v && v.trim().length > 0;
 }
-document.addEventListener('keydown',e=>{if(e.key==='Escape')closePdf();});
+
+function openNote(e, docLabel) {
+  e.stopPropagation();
+  nbKey = noteStorageKey(docLabel);
+  const saved = localStorage.getItem(nbKey) || '';
+  document.getElementById('nb-textarea').value = saved;
+  document.getElementById('nb-bar-sub').textContent = docLabel;
+  document.getElementById('nb-label').textContent = docLabel;
+  document.getElementById('nb-saved').classList.remove('show');
+  document.getElementById('nb-drawer').classList.add('open');
+  document.getElementById('nb-overlay').classList.add('open');
+  document.body.style.overflow = 'hidden';
+  setTimeout(() => document.getElementById('nb-textarea').focus(), 280);
+}
+
+function closeNote() {
+  document.getElementById('nb-drawer').classList.remove('open');
+  document.getElementById('nb-overlay').classList.remove('open');
+  document.body.style.overflow = '';
+}
+
+function clearNote() {
+  if (!nbKey) return;
+  if (!confirm('Effacer cette note ?')) return;
+  document.getElementById('nb-textarea').value = '';
+  localStorage.removeItem(nbKey);
+  showNbSaved();
+  // Refresh boutons
+  if (activeTheme) document.getElementById('cards-container').innerHTML = renderCards(window._docResults, window._maxQ, activeSubs);
+}
+
+function showNbSaved() {
+  const el = document.getElementById('nb-saved');
+  el.classList.add('show');
+  clearTimeout(nbSaveTimer);
+  nbSaveTimer = setTimeout(() => el.classList.remove('show'), 2000);
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+  document.getElementById('nb-textarea').addEventListener('input', () => {
+    if (!nbKey) return;
+    localStorage.setItem(nbKey, document.getElementById('nb-textarea').value);
+    showNbSaved();
+    // Refresh bouton de la carte concernée pour mettre à jour has-note
+    const docLabel = document.getElementById('nb-label').textContent;
+    const btn = document.querySelector(`.btn-note[data-doc="${CSS.escape(docLabel)}"]`);
+    if (btn) {
+      const has = hasNote(docLabel);
+      btn.classList.toggle('has-note', has);
+      btn.title = has ? 'Voir la note' : 'Ajouter une note';
+    }
+  });
+});
+
+document.addEventListener('keydown', e => { if (e.key === 'Escape') closeNote(); });
 </script>
 </body>
 </html>
