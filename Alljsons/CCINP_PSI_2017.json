@@ -4,7 +4,7 @@
   "date": "2017",
   "file": "CCINP_PSI_2017.pdf",
   "status": 200,
-  "time_s": 576.12,
+  "time_s": 28.77,
   "data": {
     "parties": [
       {
@@ -14,7 +14,11 @@
             "numero": "Q1",
             "mots_cles": [
               {
-                "theme": "Ingénierie Système : Chaînes d'énergie",
+                "theme_sous_theme": "Ingénierie Système : Chaîne d'énergie",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Ingénierie Système : Chaîne d'information",
                 "semestre": "S1"
               }
             ]
@@ -23,7 +27,11 @@
             "numero": "Q2",
             "mots_cles": [
               {
-                "theme": "Cinématique : Lois entrée-sortie",
+                "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Cinématique : Vitesses",
                 "semestre": "S1"
               }
             ]
@@ -32,7 +40,7 @@
             "numero": "Q3",
             "mots_cles": [
               {
-                "theme": "Cinématique : Lois entrée-sortie",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
               }
             ]
@@ -41,15 +49,11 @@
             "numero": "Q4",
             "mots_cles": [
               {
-                "theme": "Cinématique : Lois entrée-sortie",
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
                 "semestre": "S1"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Ingénierie Système",
-          "Cinématique"
         ]
       },
       {
@@ -59,8 +63,8 @@
             "numero": "Q5",
             "mots_cles": [
               {
-                "theme": "Cinématique : Fermeture géométrique",
-                "semestre": "S1"
+                "theme_sous_theme": "Statique : Liaisons équivalentes",
+                "semestre": "S2"
               }
             ]
           },
@@ -68,7 +72,7 @@
             "numero": "Q6",
             "mots_cles": [
               {
-                "theme": "Statique : Hyperstatisme",
+                "theme_sous_theme": "Statique : Hyperstatisme",
                 "semestre": "S2"
               }
             ]
@@ -77,7 +81,7 @@
             "numero": "Q7",
             "mots_cles": [
               {
-                "theme": "Statique : Liaisons équivalentes",
+                "theme_sous_theme": "Statique : Hyperstatisme",
                 "semestre": "S2"
               }
             ]
@@ -86,7 +90,7 @@
             "numero": "Q8",
             "mots_cles": [
               {
-                "theme": "Ingénierie Système : Chaînes d'information",
+                "theme_sous_theme": "Ingénierie Système : Diagramme de définition de blocs",
                 "semestre": "S1"
               }
             ]
@@ -95,8 +99,8 @@
             "numero": "Q9",
             "mots_cles": [
               {
-                "theme": "Ingénierie Système : Chaînes d'énergie",
-                "semestre": "S1"
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+                "semestre": "S4"
               }
             ]
           },
@@ -104,7 +108,7 @@
             "numero": "Q10",
             "mots_cles": [
               {
-                "theme": "Statique : Actions réparties",
+                "theme_sous_theme": "Statique : Frottements",
                 "semestre": "S2"
               }
             ]
@@ -113,7 +117,7 @@
             "numero": "Q11",
             "mots_cles": [
               {
-                "theme": "Statique : Frottements",
+                "theme_sous_theme": "Statique : Frottements",
                 "semestre": "S2"
               }
             ]
@@ -122,8 +126,8 @@
             "numero": "Q12",
             "mots_cles": [
               {
-                "theme": "Statique : Actions réparties",
-                "semestre": "S2"
+                "theme_sous_theme": "Ingénierie Système : Chaîne d'énergie",
+                "semestre": "S1"
               }
             ]
           },
@@ -131,8 +135,8 @@
             "numero": "Q13",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : Temporel",
-                "semestre": "S2"
+                "theme_sous_theme": "Ingénierie Système : Chaîne d'énergie",
+                "semestre": "S1"
               }
             ]
           },
@@ -140,7 +144,7 @@
             "numero": "Q14",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : Temporel",
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
                 "semestre": "S2"
               }
             ]
@@ -149,16 +153,11 @@
             "numero": "Q15",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : Temporel",
-                "semestre": "S2"
+                "theme_sous_theme": "Dimensionnement : Capteurs",
+                "semestre": "S4"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Cinématique",
-          "Statique",
-          "Modélisation des signaux"
         ]
       },
       {
@@ -168,8 +167,8 @@
             "numero": "Q16",
             "mots_cles": [
               {
-                "theme": "Traitement de l'information : Échantillonnage",
-                "semestre": "S2"
+                "theme_sous_theme": "Dimensionnement : Capteurs",
+                "semestre": "S4"
               }
             ]
           },
@@ -177,8 +176,8 @@
             "numero": "Q17",
             "mots_cles": [
               {
-                "theme": "Traitement de l'information : Échantillonnage",
-                "semestre": "S2"
+                "theme_sous_theme": "Dimensionnement : Capteurs",
+                "semestre": "S4"
               }
             ]
           },
@@ -186,8 +185,8 @@
             "numero": "Q18",
             "mots_cles": [
               {
-                "theme": "Traitement de l'information : Échantillonnage",
-                "semestre": "S2"
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
               }
             ]
           },
@@ -195,7 +194,7 @@
             "numero": "Q19",
             "mots_cles": [
               {
-                "theme": "Traitement de l'information : Échantillonnage",
+                "theme_sous_theme": "Traitement de l'information : Échantillonnage et quantification",
                 "semestre": "S2"
               }
             ]
@@ -204,7 +203,7 @@
             "numero": "Q20",
             "mots_cles": [
               {
-                "theme": "Traitement de l'information : Échantillonnage",
+                "theme_sous_theme": "Traitement de l'information : Échantillonnage et quantification",
                 "semestre": "S2"
               }
             ]
@@ -213,7 +212,7 @@
             "numero": "Q21",
             "mots_cles": [
               {
-                "theme": "Traitement de l'information : Filtres",
+                "theme_sous_theme": "Traitement de l'information : Échantillonnage et quantification",
                 "semestre": "S2"
               }
             ]
@@ -222,24 +221,11 @@
             "numero": "Q22",
             "mots_cles": [
               {
-                "theme": "Systèmes séquentiels et SED : Diagramme d'états",
-                "semestre": "S1"
-              }
-            ]
-          },
-          {
-            "numero": "Q23",
-            "mots_cles": [
-              {
-                "theme": "Systèmes séquentiels et SED : Diagramme d'états",
+                "theme_sous_theme": "Systèmes séquentiels : Diagramme d'états",
                 "semestre": "S1"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Traitement de l'information",
-          "Systèmes séquentiels et SED"
         ]
       },
       {
@@ -249,7 +235,11 @@
             "numero": "Q24",
             "mots_cles": [
               {
-                "theme": "Dynamique : PFD",
+                "theme_sous_theme": "Énergétique : Théorème de l'énergie cinétique",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Énergétique : Inertie équivalente",
                 "semestre": "S3"
               }
             ]
@@ -258,8 +248,12 @@
             "numero": "Q25",
             "mots_cles": [
               {
-                "theme": "Asservissement : Fonction de transfert",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Machines électriques : Machine à courant continu",
+                "semestre": "S4"
               }
             ]
           },
@@ -267,7 +261,7 @@
             "numero": "Q26",
             "mots_cles": [
               {
-                "theme": "Asservissement : Fonction de transfert",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
@@ -276,7 +270,7 @@
             "numero": "Q27",
             "mots_cles": [
               {
-                "theme": "Asservissement : Fonction de transfert",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
@@ -285,8 +279,12 @@
             "numero": "Q28",
             "mots_cles": [
               {
-                "theme": "Asservissement : Correcteur Proportionnel et intégral",
+                "theme_sous_theme": "Asservissement : Précision",
                 "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Correcteurs : Proportionnel-intégral",
+                "semestre": "S4"
               }
             ]
           },
@@ -294,7 +292,7 @@
             "numero": "Q29",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : Fréquentiel",
+                "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
                 "semestre": "S2"
               }
             ]
@@ -303,7 +301,7 @@
             "numero": "Q30",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : Fréquentiel",
+                "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
                 "semestre": "S2"
               }
             ]
@@ -312,7 +310,7 @@
             "numero": "Q31",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : Filtres",
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
                 "semestre": "S2"
               }
             ]
@@ -321,33 +319,11 @@
             "numero": "Q32",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : Temporel",
-                "semestre": "S2"
+                "theme_sous_theme": "Dimensionnement : Capteurs",
+                "semestre": "S4"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Dynamique",
-          "Asservissement",
-          "Modélisation des signaux"
-        ]
-      },
-      {
-        "titre_partie": "V Synthèse",
-        "questions": [
-          {
-            "numero": "Q33",
-            "mots_cles": [
-              {
-                "theme": "Ingénierie Système : Chaînes d'énergie",
-                "semestre": "S1"
-              }
-            ]
-          }
-        ],
-        "themes_partie": [
-          "Ingénierie Système"
         ]
       }
     ],

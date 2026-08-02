@@ -4,372 +4,441 @@
   "date": "2021",
   "file": "Centrale_TSI_2021.pdf",
   "status": 200,
-  "time_s": 482.74,
+  "time_s": 35.48,
   "data": {
     "parties": [
       {
         "titre_partie": "I Structure de la base TC200",
         "questions": [
           {
-            "numero": "Q 1",
+            "numero": "Q1",
             "mots_cles": [
               {
-                "theme": "Ingénierie Système : Chaînes d'énergie",
+                "theme_sous_theme": "Ingénierie Système : Diagramme de définition de blocs",
                 "semestre": "S1"
               }
             ]
           },
           {
-            "numero": "Q 2",
+            "numero": "Q2",
             "mots_cles": [
               {
-                "theme": "Statique : Hyperstatisme",
+                "theme_sous_theme": "Statique : Hyperstatisme",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Statique : Isostatisme",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q3",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Cinématique : Vitesses",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q4",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Cinématique : Vitesses",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Ingénierie Système : Chaîne d'information",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q5",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Cinématique : Vitesses",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
                 "semestre": "S2"
               }
             ]
           },
           {
-            "numero": "Q 3",
+            "numero": "Q6",
             "mots_cles": [
               {
-                "theme": "Cinématique : Lois entrée-sortie",
-                "semestre": "S1"
-              }
-            ]
-          },
-          {
-            "numero": "Q 4",
-            "mots_cles": [
-              {
-                "theme": "Cinématique : Torseurs cinématiques",
-                "semestre": "S1"
-              }
-            ]
-          },
-          {
-            "numero": "Q 5",
-            "mots_cles": [
-              {
-                "theme": "Cinématique : Lois entrée-sortie",
-                "semestre": "S1"
-              }
-            ]
-          },
-          {
-            "numero": "Q 6",
-            "mots_cles": [
-              {
-                "theme": "Cinématique : Lois entrée-sortie",
+                "theme_sous_theme": "Systèmes séquentiels : Diagramme d'états",
                 "semestre": "S1"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Ingénierie Système",
-          "Statique",
-          "Cinématique"
         ]
       },
       {
-        "titre_partie": "I.C - Validation du dimensionnement de l'articulation de l'essieu avant",
+        "titre_partie": "I.C – Validation du dimensionnement de l’articulation de l’essieu avant",
         "questions": [
           {
-            "numero": "Q 7",
+            "numero": "Q7",
             "mots_cles": [
               {
-                "theme": "Résistance des matériaux : Torseur de cohésion",
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Résistance des matériaux : Torseur de cohésion",
                 "semestre": "S3"
               }
             ]
           },
           {
-            "numero": "Q 8",
+            "numero": "Q8",
             "mots_cles": [
               {
-                "theme": "Résistance des matériaux : Torseur de cohésion",
+                "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q9",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Matériaux : Propriétés physiques et mécaniques",
                 "semestre": "S3"
               }
             ]
           },
           {
-            "numero": "Q 9",
+            "numero": "Q10",
             "mots_cles": [
               {
-                "theme": "Résistance des matériaux : Contraintes",
-                "semestre": "S3"
-              }
-            ]
-          },
-          {
-            "numero": "Q 10",
-            "mots_cles": [
-              {
-                "theme": "Résistance des matériaux : Contraintes",
-                "semestre": "S3"
+                "theme_sous_theme": "Dimensionnement : Capteurs",
+                "semestre": "S4"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Résistance des matériaux"
         ]
       },
       {
-        "titre_partie": "II Motorisation de la base TC200",
+        "titre_partie": "II.A – Étude des motorisations",
         "questions": [
           {
-            "numero": "Q 11",
+            "numero": "Q11",
             "mots_cles": [
               {
-                "theme": "Machines électriques : MCC",
+                "theme_sous_theme": "Machines électriques : Machine synchrone",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
                 "semestre": "S4"
               }
             ]
           },
           {
-            "numero": "Q 12",
+            "numero": "Q12",
             "mots_cles": [
               {
-                "theme": "Circuits alternatifs : Diagramme de Fresnel",
+                "theme_sous_theme": "Circuits alternatifs : Puissances active et réactive",
                 "semestre": "S3"
-              }
-            ]
-          },
-          {
-            "numero": "Q 13",
-            "mots_cles": [
+              },
               {
-                "theme": "Machines électriques : MCC",
+                "theme_sous_theme": "Machines électriques : Machine synchrone",
                 "semestre": "S4"
               }
             ]
           },
           {
-            "numero": "Q 14",
+            "numero": "Q13",
             "mots_cles": [
               {
-                "theme": "Machines électriques : MCC",
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Machines électriques : Machine synchrone",
                 "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+                "semestre": "S1"
               }
             ]
           },
           {
-            "numero": "Q 15",
+            "numero": "Q14",
             "mots_cles": [
               {
-                "theme": "Traitement de l'information : Échantillonnage",
+                "theme_sous_theme": "Machines électriques : Machine synchrone",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Électrotechnique : Convertisseurs statiques",
                 "semestre": "S2"
               }
             ]
+          },
+          {
+            "numero": "Q15",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Traitement de l'information : Échantillonnage et quantification",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Capteurs",
+                "semestre": "S4"
+              }
+            ]
           }
-        ],
-        "themes_partie": [
-          "Machines électriques",
-          "Circuits alternatifs",
-          "Traitement de l'information"
         ]
       },
       {
-        "titre_partie": "II.B - Étude de la boucle de courant",
+        "titre_partie": "II.B – Étude de la boucle de courant",
         "questions": [
           {
-            "numero": "Q 16",
+            "numero": "Q16",
             "mots_cles": [
               {
-                "theme": "Asservissement : Fonction de transfert",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
           },
           {
-            "numero": "Q 17",
+            "numero": "Q17",
             "mots_cles": [
               {
-                "theme": "Asservissement : Fonction de transfert",
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
+          },
+          {
+            "numero": "Q18",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Correcteurs : Proportionnel-intégral",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Précision",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
+              }
+            ]
           }
-        ],
-        "themes_partie": [
-          "Asservissement"
         ]
       },
       {
         "titre_partie": "III Modélisation dynamique de la base TC200",
         "questions": [
           {
-            "numero": "Q 19",
+            "numero": "Q19",
             "mots_cles": [
               {
-                "theme": "Dynamique : Torseur dynamique",
+                "theme_sous_theme": "Statique : Frottements",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q20",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
                 "semestre": "S3"
               }
             ]
           },
           {
-            "numero": "Q 20",
+            "numero": "Q21",
             "mots_cles": [
               {
-                "theme": "Dynamique : PFD",
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
                 "semestre": "S3"
               }
             ]
           },
           {
-            "numero": "Q 21",
+            "numero": "Q22",
             "mots_cles": [
               {
-                "theme": "Dynamique : PFD",
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
                 "semestre": "S3"
               }
             ]
           },
           {
-            "numero": "Q 22",
+            "numero": "Q23",
             "mots_cles": [
               {
-                "theme": "Dynamique : PFD",
+                "theme_sous_theme": "Énergétique : Inertie équivalente",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
                 "semestre": "S3"
               }
             ]
           },
           {
-            "numero": "Q 23",
+            "numero": "Q24",
             "mots_cles": [
               {
-                "theme": "Dynamique : PFD",
-                "semestre": "S3"
-              }
-            ]
-          },
-          {
-            "numero": "Q 24",
-            "mots_cles": [
-              {
-                "theme": "Dynamique : Matrice d'inertie",
+                "theme_sous_theme": "Énergétique : Inertie équivalente",
                 "semestre": "S3"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Dynamique"
         ]
       },
       {
-        "titre_partie": "IV Validation du suivi de trajectoire de la base TC200",
+        "titre_partie": "IV.A – Étude l’asservissement de vitesse d’un moteur",
         "questions": [
           {
-            "numero": "Q 25",
+            "numero": "Q25",
             "mots_cles": [
               {
-                "theme": "Asservissement : Fonction de transfert",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
           },
           {
-            "numero": "Q 26",
+            "numero": "Q26",
             "mots_cles": [
               {
-                "theme": "Asservissement : Stabilité",
+                "theme_sous_theme": "Asservissement : Stabilité",
                 "semestre": "S2"
               }
             ]
           },
           {
-            "numero": "Q 27",
+            "numero": "Q27",
             "mots_cles": [
               {
-                "theme": "Asservissement : Rapidité",
+                "theme_sous_theme": "Asservissement : Rapidité",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q28",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Asservissement : Précision",
                 "semestre": "S2"
               }
             ]
           },
           {
-            "numero": "Q 28",
+            "numero": "Q29",
             "mots_cles": [
               {
-                "theme": "Asservissement : Précision",
+                "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
                 "semestre": "S2"
               }
             ]
           },
           {
-            "numero": "Q 29",
+            "numero": "Q30",
             "mots_cles": [
               {
-                "theme": "Asservissement : Précision",
+                "theme_sous_theme": "Asservissement : Précision",
                 "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Q 30",
-            "mots_cles": [
+              },
               {
-                "theme": "Asservissement : Précision",
-                "semestre": "S2"
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Asservissement"
         ]
       },
       {
         "titre_partie": "IV.B - Validation des performances du suivi de trajectoire",
         "questions": [
           {
-            "numero": "Q 31",
+            "numero": "Q31",
             "mots_cles": [
               {
-                "theme": "Cinématique : Lois entrée-sortie",
+                "theme_sous_theme": "Ingénierie Système : Chaîne d'information",
                 "semestre": "S1"
               }
             ]
           },
           {
-            "numero": "Q 32",
+            "numero": "Q32",
             "mots_cles": [
               {
-                "theme": "Cinématique : Lois entrée-sortie",
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
                 "semestre": "S1"
               }
             ]
           },
           {
-            "numero": "Q 33",
+            "numero": "Q33",
             "mots_cles": [
               {
-                "theme": "Cinématique : Lois entrée-sortie",
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
                 "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Statique : Frottements",
+                "semestre": "S2"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Cinématique"
         ]
       },
       {
         "titre_partie": "V Conclusion",
         "questions": [
           {
-            "numero": "Q 34",
+            "numero": "Q34",
             "mots_cles": [
               {
-                "theme": "Ingénierie Système : Chaînes d'énergie",
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
                 "semestre": "S1"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Ingénierie Système"
         ]
       }
     ],

@@ -4,24 +4,17 @@
   "date": "2021",
   "file": "BPT_SIB_2021.pdf",
   "status": 200,
-  "time_s": 1138.19,
+  "time_s": 39.72,
   "data": {
     "parties": [
       {
-        "titre_partie": "Étude d'un système de levage de plateaux de matériaux électriques pour palettisation",
-        "questions": [],
-        "themes_partie": [
-          "Ingénierie Système"
-        ]
-      },
-      {
-        "titre_partie": "Notice justificative",
+        "titre_partie": "II.1 - Validation des solutions techniques de guidage pour la vis à billes et les colonnes de guidage",
         "questions": [
           {
             "numero": "Question 1",
             "mots_cles": [
               {
-                "theme": "Statique : Liaisons équivalentes",
+                "theme_sous_theme": "Statique : Liaisons équivalentes",
                 "semestre": "S2"
               }
             ]
@@ -30,7 +23,7 @@
             "numero": "Question 2",
             "mots_cles": [
               {
-                "theme": "Statique : PFS",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
                 "semestre": "S2"
               }
             ]
@@ -39,7 +32,11 @@
             "numero": "Question 3",
             "mots_cles": [
               {
-                "theme": "Statique : Hyperstatisme",
+                "theme_sous_theme": "Statique : Isostatisme",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Statique : Hyperstatisme",
                 "semestre": "S2"
               }
             ]
@@ -48,7 +45,7 @@
             "numero": "Question 4",
             "mots_cles": [
               {
-                "theme": "Résistance des matériaux : Contraintes",
+                "theme_sous_theme": "Résistance des matériaux : Torseur de cohésion",
                 "semestre": "S3"
               }
             ]
@@ -57,7 +54,11 @@
             "numero": "Question 5",
             "mots_cles": [
               {
-                "theme": "Résistance des matériaux : Déformations",
+                "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Matériaux : Propriétés physiques et mécaniques",
                 "semestre": "S3"
               }
             ]
@@ -66,7 +67,15 @@
             "numero": "Question 6",
             "mots_cles": [
               {
-                "theme": "Résistance des matériaux : Contraintes",
+                "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Matériaux : Propriétés physiques et mécaniques",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Dynamique : Géométrie des masses",
                 "semestre": "S3"
               }
             ]
@@ -75,7 +84,7 @@
             "numero": "Question 7",
             "mots_cles": [
               {
-                "theme": "Résistance des matériaux : Déformations",
+                "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
                 "semestre": "S3"
               }
             ]
@@ -84,8 +93,8 @@
             "numero": "Question 8",
             "mots_cles": [
               {
-                "theme": "Résistance des matériaux : Déformations",
-                "semestre": "S3"
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+                "semestre": "S4"
               }
             ]
           },
@@ -93,8 +102,8 @@
             "numero": "Question 9",
             "mots_cles": [
               {
-                "theme": "Spécifications géométriques : Tolérancement",
-                "semestre": "S2"
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+                "semestre": "S4"
               }
             ]
           },
@@ -102,7 +111,11 @@
             "numero": "Question 10",
             "mots_cles": [
               {
-                "theme": "Spécifications géométriques : Tolérancement",
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Spécifications géométriques : Tolérancement",
                 "semestre": "S2"
               }
             ]
@@ -111,7 +124,7 @@
             "numero": "Question 11",
             "mots_cles": [
               {
-                "theme": "Spécifications géométriques : Tolérancement",
+                "theme_sous_theme": "Spécifications géométriques : Tolérancement",
                 "semestre": "S2"
               }
             ]
@@ -120,7 +133,7 @@
             "numero": "Question 12",
             "mots_cles": [
               {
-                "theme": "Spécifications géométriques : Tolérancement",
+                "theme_sous_theme": "Spécifications géométriques : Tolérancement",
                 "semestre": "S2"
               }
             ]
@@ -129,16 +142,25 @@
             "numero": "Question 13",
             "mots_cles": [
               {
-                "theme": "Spécifications géométriques : Tolérancement",
+                "theme_sous_theme": "Statique : Liaisons équivalentes",
                 "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+                "semestre": "S3"
               }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "titre_partie": "II.2 - Choix du servomoteur d'entraînement",
+        "questions": [
           {
             "numero": "Question 14",
             "mots_cles": [
               {
-                "theme": "Cinématique : Vitesses",
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
                 "semestre": "S1"
               }
             ]
@@ -147,7 +169,11 @@
             "numero": "Question 15",
             "mots_cles": [
               {
-                "theme": "Cinématique : Vitesses",
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Transmissions mécaniques : Engrenages",
                 "semestre": "S1"
               }
             ]
@@ -156,7 +182,11 @@
             "numero": "Question 16",
             "mots_cles": [
               {
-                "theme": "Cinématique : Lois entrée-sortie",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
                 "semestre": "S1"
               }
             ]
@@ -165,7 +195,7 @@
             "numero": "Question 17",
             "mots_cles": [
               {
-                "theme": "Transmissions mécaniques : Rapport de réduction",
+                "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
                 "semestre": "S1"
               }
             ]
@@ -174,7 +204,7 @@
             "numero": "Question 18",
             "mots_cles": [
               {
-                "theme": "Transmissions mécaniques : Rapport de réduction",
+                "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
                 "semestre": "S1"
               }
             ]
@@ -183,7 +213,11 @@
             "numero": "Question 19",
             "mots_cles": [
               {
-                "theme": "Cinématique : Vitesses",
+                "theme_sous_theme": "Cinématique : Vitesses",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
                 "semestre": "S1"
               }
             ]
@@ -192,7 +226,11 @@
             "numero": "Question 20",
             "mots_cles": [
               {
-                "theme": "Cinématique : Vitesses",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
                 "semestre": "S1"
               }
             ]
@@ -201,8 +239,8 @@
             "numero": "Question 21",
             "mots_cles": [
               {
-                "theme": "Cinématique : Vitesses",
-                "semestre": "S1"
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
               }
             ]
           },
@@ -210,7 +248,7 @@
             "numero": "Question 22",
             "mots_cles": [
               {
-                "theme": "Cinématique : Vitesses",
+                "theme_sous_theme": "Cinématique : Vitesses",
                 "semestre": "S1"
               }
             ]
@@ -219,8 +257,8 @@
             "numero": "Question 23",
             "mots_cles": [
               {
-                "theme": "Asservissement : Rapidité",
-                "semestre": "S2"
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
               }
             ]
           },
@@ -228,7 +266,7 @@
             "numero": "Question 24",
             "mots_cles": [
               {
-                "theme": "Dynamique : PFD",
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
                 "semestre": "S3"
               }
             ]
@@ -237,7 +275,11 @@
             "numero": "Question 25",
             "mots_cles": [
               {
-                "theme": "Dynamique : PFD",
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
                 "semestre": "S3"
               }
             ]
@@ -246,7 +288,11 @@
             "numero": "Question 26",
             "mots_cles": [
               {
-                "theme": "Dynamique : Torseur dynamique",
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Énergétique : Inertie équivalente",
                 "semestre": "S3"
               }
             ]
@@ -255,7 +301,11 @@
             "numero": "Question 27",
             "mots_cles": [
               {
-                "theme": "Dynamique : Torseur dynamique",
+                "theme_sous_theme": "Énergétique : Inertie équivalente",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Dynamique : Géométrie des masses",
                 "semestre": "S3"
               }
             ]
@@ -264,7 +314,11 @@
             "numero": "Question 28",
             "mots_cles": [
               {
-                "theme": "Dynamique : Torseur dynamique",
+                "theme_sous_theme": "Énergétique : Inertie équivalente",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Dynamique : Géométrie des masses",
                 "semestre": "S3"
               }
             ]
@@ -273,7 +327,7 @@
             "numero": "Question 29",
             "mots_cles": [
               {
-                "theme": "Dynamique : Torseur dynamique",
+                "theme_sous_theme": "Énergétique : Inertie équivalente",
                 "semestre": "S3"
               }
             ]
@@ -282,7 +336,7 @@
             "numero": "Question 30",
             "mots_cles": [
               {
-                "theme": "Dynamique : PFD",
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
                 "semestre": "S3"
               }
             ]
@@ -291,7 +345,11 @@
             "numero": "Question 31",
             "mots_cles": [
               {
-                "theme": "Énergétique : Théorème de l'Énergie Cinétique",
+                "theme_sous_theme": "Énergétique : Théorème de l'énergie cinétique",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
                 "semestre": "S3"
               }
             ]
@@ -300,7 +358,7 @@
             "numero": "Question 32",
             "mots_cles": [
               {
-                "theme": "Énergétique : Puissance",
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
                 "semestre": "S3"
               }
             ]
@@ -309,7 +367,7 @@
             "numero": "Question 33",
             "mots_cles": [
               {
-                "theme": "Dynamique : PFD",
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
                 "semestre": "S3"
               }
             ]
@@ -318,7 +376,7 @@
             "numero": "Question 34",
             "mots_cles": [
               {
-                "theme": "Dynamique : PFD",
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
                 "semestre": "S3"
               }
             ]
@@ -327,7 +385,7 @@
             "numero": "Question 35",
             "mots_cles": [
               {
-                "theme": "Dynamique : PFD",
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
                 "semestre": "S3"
               }
             ]
@@ -336,8 +394,8 @@
             "numero": "Question 36",
             "mots_cles": [
               {
-                "theme": "Dynamique : PFD",
-                "semestre": "S3"
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
               }
             ]
           },
@@ -345,32 +403,26 @@
             "numero": "Question 37",
             "mots_cles": [
               {
-                "theme": "Asservissement : Rapidité",
-                "semestre": "S2"
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Statique",
-          "Résistance des matériaux",
-          "Spécifications géométriques",
-          "Cinématique",
-          "Transmissions mécaniques",
-          "Asservissement",
-          "Dynamique",
-          "Énergétique"
         ]
       },
       {
-        "titre_partie": "Dessin d'étude en construction mécanique",
+        "titre_partie": "III.1 - Conception de la fixation du moteur",
         "questions": [
           {
             "numero": "Question 38",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Liaisons",
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
                 "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Procédés : Usinage",
+                "semestre": "S3"
               }
             ]
           },
@@ -378,16 +430,29 @@
             "numero": "Question 39",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Liaisons",
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
                 "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Procédés : Usinage",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+                "semestre": "S2"
               }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "titre_partie": "III.2 - Conception du guidage en rotation et de l'entraînement de la vis à billes",
+        "questions": [
           {
             "numero": "Question 40",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Liaisons",
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
                 "semestre": "S4"
               }
             ]
@@ -396,23 +461,29 @@
             "numero": "Question 41",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Liaisons",
-                "semestre": "S4"
-              }
-            ]
-          },
-          {
-            "numero": "Question 42",
-            "mots_cles": [
-              {
-                "theme": "Dimensionnement : Liaisons",
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
                 "semestre": "S4"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Dimensionnement"
+        ]
+      },
+      {
+        "titre_partie": "III.3 - Conception de la transmission de puissance entre l'écrou à billes et la fourche de levage",
+        "questions": [
+          {
+            "numero": "Question 42",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Statique : Isostatisme",
+                "semestre": "S2"
+              }
+            ]
+          }
         ]
       }
     ],

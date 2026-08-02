@@ -4,28 +4,93 @@
   "date": "2018",
   "file": "CCINP_TSI_2018.pdf",
   "status": 200,
-  "time_s": 614.73,
+  "time_s": 62.35,
   "data": {
     "parties": [
       {
         "titre_partie": "Partie I - Présentation",
-        "questions": [],
-        "themes_partie": [
-          "Ingénierie Système",
-          "Cinématique",
-          "Transmissions mécaniques",
-          "Procédés de fabrication"
+        "questions": [
+          {
+            "numero": "I.1 - Contexte général",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Procédés : Usinage",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "I.2 - Principe de l'électro-érosion",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Procédés : Usinage",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "I.3 - Unité d'électro-érosion à fil Arianne",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Procédés : Usinage",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "I.4 - Principe de fonctionnement de l'unité Arianne",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Ingénierie Système : Chaîne d'énergie",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Ingénierie Système : Chaîne d'information",
+                "semestre": "S1"
+              }
+            ]
+          }
         ]
       },
       {
         "titre_partie": "Partie II - Détermination des spécifications du système de débobinage/récupération pour le respect de l'exigence 1.1",
         "questions": [
           {
+            "numero": "II.1 - Détermination du matériau constitutif du fil",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Matériaux : Choix",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Matériaux : Propriétés physiques et mécaniques",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
             "numero": "Q1",
             "mots_cles": [
               {
-                "theme": "Matériaux : Choix",
+                "theme_sous_theme": "Matériaux : Choix",
                 "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "II.2.1 - Détermination de la vitesse du moteur",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
+                "semestre": "S1"
               }
             ]
           },
@@ -33,7 +98,11 @@
             "numero": "Q2",
             "mots_cles": [
               {
-                "theme": "Cinématique : Vitesses",
+                "theme_sous_theme": "Cinématique : Vitesses",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
                 "semestre": "S1"
               }
             ]
@@ -42,7 +111,20 @@
             "numero": "Q3",
             "mots_cles": [
               {
-                "theme": "Cinématique : Vitesses",
+                "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "II.2.2 - Détermination du couple moteur",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Transmissions mécaniques : Engrenages",
                 "semestre": "S1"
               }
             ]
@@ -51,8 +133,21 @@
             "numero": "Q4",
             "mots_cles": [
               {
-                "theme": "Dynamique : PFD",
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
                 "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "II.2.3 - Validation du moteur",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Machines électriques : Machine à courant continu",
+                "semestre": "S4"
               }
             ]
           },
@@ -60,7 +155,7 @@
             "numero": "Q5",
             "mots_cles": [
               {
-                "theme": "Dynamique : PFD",
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
                 "semestre": "S3"
               }
             ]
@@ -69,8 +164,12 @@
             "numero": "Q6",
             "mots_cles": [
               {
-                "theme": "Énergétique : Puissance",
-                "semestre": "S3"
+                "theme_sous_theme": "Machines électriques : Machine à courant continu",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
               }
             ]
           },
@@ -78,7 +177,7 @@
             "numero": "Q7",
             "mots_cles": [
               {
-                "theme": "Machines électriques : MCC",
+                "theme_sous_theme": "Machines électriques : Machine à courant continu",
                 "semestre": "S4"
               }
             ]
@@ -87,8 +186,8 @@
             "numero": "Q8",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : Temporel",
-                "semestre": "S2"
+                "theme_sous_theme": "Machines électriques : Machine à courant continu",
+                "semestre": "S4"
               }
             ]
           },
@@ -96,7 +195,7 @@
             "numero": "Q9",
             "mots_cles": [
               {
-                "theme": "Machines électriques : MCC",
+                "theme_sous_theme": "Machines électriques : Machine à courant continu",
                 "semestre": "S4"
               }
             ]
@@ -105,8 +204,8 @@
             "numero": "Q10",
             "mots_cles": [
               {
-                "theme": "Machines électriques : MCC",
-                "semestre": "S4"
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
+                "semestre": "S3"
               }
             ]
           },
@@ -114,8 +213,21 @@
             "numero": "Q11",
             "mots_cles": [
               {
-                "theme": "Ingénierie Système : Cahier des charges",
-                "semestre": "S1"
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "II.3 - Validation du variateur de vitesse",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Électrotechnique : Convertisseurs statiques",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Machines électriques : Commande scalaire",
+                "semestre": "S4"
               }
             ]
           },
@@ -123,32 +235,145 @@
             "numero": "Q12",
             "mots_cles": [
               {
-                "theme": "Asservissement : Précision",
+                "theme_sous_theme": "Électrotechnique : Convertisseurs statiques",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q13",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Électrotechnique : Convertisseurs statiques",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q14",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Électrotechnique : Convertisseurs statiques",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q15",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Machines électriques : Machine à courant continu",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q16",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Machines électriques : Machine à courant continu",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q17",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q18",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q19",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q20",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q21",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q22",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Matériaux",
-          "Cinématique",
-          "Dynamique",
-          "Énergétique",
-          "Machines électriques",
-          "Modélisation des signaux",
-          "Ingénierie Système",
-          "Asservissement"
         ]
       },
       {
         "titre_partie": "Partie III - Validation de l'exigence 1.1.1 - Contrôle de la vitesse et de la tension du fil",
         "questions": [
           {
+            "numero": "III.1 - Détermination des fonctions de transfert régissant le contrôle en vitesse et en tension",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
             "numero": "Q23",
             "mots_cles": [
               {
-                "theme": "Dynamique : PFD",
-                "semestre": "S3"
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
+                "semestre": "S1"
               }
             ]
           },
@@ -156,7 +381,20 @@
             "numero": "Q24",
             "mots_cles": [
               {
-                "theme": "Asservissement : Schéma-blocs",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "III.2 - Identification des paramètres et asservissement en tension",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
@@ -165,7 +403,7 @@
             "numero": "Q25",
             "mots_cles": [
               {
-                "theme": "Asservissement : Précision",
+                "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
                 "semestre": "S2"
               }
             ]
@@ -174,7 +412,7 @@
             "numero": "Q26",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : 2nd ordre",
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
                 "semestre": "S2"
               }
             ]
@@ -183,7 +421,28 @@
             "numero": "Q27",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : 2nd ordre",
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "III.3 - Régulation de la tension du fil",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Stabilité",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Précision",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Rapidité",
                 "semestre": "S2"
               }
             ]
@@ -192,7 +451,7 @@
             "numero": "Q28",
             "mots_cles": [
               {
-                "theme": "Asservissement : Schéma-blocs",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
@@ -201,11 +460,15 @@
             "numero": "Q29",
             "mots_cles": [
               {
-                "theme": "Asservissement : Précision",
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
                 "semestre": "S2"
               },
               {
-                "theme": "Asservissement : Rapidité",
+                "theme_sous_theme": "Asservissement : Rapidité",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Précision",
                 "semestre": "S2"
               }
             ]
@@ -214,7 +477,15 @@
             "numero": "Q30",
             "mots_cles": [
               {
-                "theme": "Asservissement : Stabilité",
+                "theme_sous_theme": "Correcteurs : Proportionnel-intégral",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Précision",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Rapidité",
                 "semestre": "S2"
               }
             ]
@@ -223,27 +494,48 @@
             "numero": "Q31",
             "mots_cles": [
               {
-                "theme": "Asservissement : Stabilité",
+                "theme_sous_theme": "Asservissement : Stabilité",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
                 "semestre": "S2"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Dynamique",
-          "Asservissement",
-          "Modélisation des signaux"
         ]
       },
       {
-        "titre_partie": "Partie IV - Détermination des caractéristiques de la motorisation afin de respecter l'exigence 1.1.2",
+        "titre_partie": "Partie IV - Validation des performances du système d'élévation",
         "questions": [
+          {
+            "numero": "IV.1 - Introduction",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "IV.2 - Détermination du couple moteur",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Transmissions mécaniques : Engrenages",
+                "semestre": "S1"
+              }
+            ]
+          },
           {
             "numero": "Q32",
             "mots_cles": [
               {
-                "theme": "Dynamique : PFD",
-                "semestre": "S3"
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
+                "semestre": "S2"
               }
             ]
           },
@@ -251,7 +543,7 @@
             "numero": "Q33",
             "mots_cles": [
               {
-                "theme": "Transmissions mécaniques : Trains épicycloïdaux",
+                "theme_sous_theme": "Transmissions mécaniques : Trains épicycloïdaux",
                 "semestre": "S1"
               }
             ]
@@ -260,7 +552,11 @@
             "numero": "Q34",
             "mots_cles": [
               {
-                "theme": "Transmissions mécaniques : Trains épicycloïdaux",
+                "theme_sous_theme": "Cinématique : Vitesses",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Transmissions mécaniques : Trains épicycloïdaux",
                 "semestre": "S1"
               }
             ]
@@ -269,7 +565,11 @@
             "numero": "Q35",
             "mots_cles": [
               {
-                "theme": "Transmissions mécaniques : Trains épicycloïdaux",
+                "theme_sous_theme": "Transmissions mécaniques : Trains épicycloïdaux",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Cinématique : Vitesses",
                 "semestre": "S1"
               }
             ]
@@ -278,7 +578,7 @@
             "numero": "Q36",
             "mots_cles": [
               {
-                "theme": "Énergétique : Théorème de l'Énergie Cinétique",
+                "theme_sous_theme": "Dynamique : Géométrie des masses",
                 "semestre": "S3"
               }
             ]
@@ -287,7 +587,7 @@
             "numero": "Q37",
             "mots_cles": [
               {
-                "theme": "Cinématique : Lois entrée-sortie",
+                "theme_sous_theme": "Cinématique : Vitesses",
                 "semestre": "S1"
               }
             ]
@@ -296,7 +596,11 @@
             "numero": "Q38",
             "mots_cles": [
               {
-                "theme": "Énergétique : Théorème de l'Énergie Cinétique",
+                "theme_sous_theme": "Énergétique : Inertie équivalente",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Dynamique : Géométrie des masses",
                 "semestre": "S3"
               }
             ]
@@ -305,7 +609,7 @@
             "numero": "Q39",
             "mots_cles": [
               {
-                "theme": "Énergétique : Inertie équivalente",
+                "theme_sous_theme": "Énergétique : Inertie équivalente",
                 "semestre": "S3"
               }
             ]
@@ -314,7 +618,7 @@
             "numero": "Q40",
             "mots_cles": [
               {
-                "theme": "Énergétique : Inertie équivalente",
+                "theme_sous_theme": "Dynamique : Géométrie des masses",
                 "semestre": "S3"
               }
             ]
@@ -323,8 +627,8 @@
             "numero": "Q41",
             "mots_cles": [
               {
-                "theme": "Dynamique : Torseur dynamique",
-                "semestre": "S3"
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
+                "semestre": "S2"
               }
             ]
           },
@@ -332,8 +636,12 @@
             "numero": "Q42",
             "mots_cles": [
               {
-                "theme": "Dynamique : PFD",
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
                 "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Transmissions mécaniques : Engrenages",
+                "semestre": "S1"
               }
             ]
           },
@@ -341,8 +649,8 @@
             "numero": "Q43",
             "mots_cles": [
               {
-                "theme": "Dynamique : PFD",
-                "semestre": "S3"
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
+                "semestre": "S2"
               }
             ]
           },
@@ -350,8 +658,8 @@
             "numero": "Q44",
             "mots_cles": [
               {
-                "theme": "Dynamique : PFD",
-                "semestre": "S3"
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
+                "semestre": "S2"
               }
             ]
           },
@@ -359,7 +667,24 @@
             "numero": "Q45",
             "mots_cles": [
               {
-                "theme": "Dynamique : PFD",
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "IV.3 - Validation du dimensionnement du pignon",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Résistance des matériaux : Torseur de cohésion",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
                 "semestre": "S3"
               }
             ]
@@ -368,7 +693,7 @@
             "numero": "Q46",
             "mots_cles": [
               {
-                "theme": "Résistance des matériaux : Contraintes",
+                "theme_sous_theme": "Résistance des matériaux : Torseur de cohésion",
                 "semestre": "S3"
               }
             ]
@@ -377,7 +702,7 @@
             "numero": "Q47",
             "mots_cles": [
               {
-                "theme": "Résistance des matériaux : Torseur de cohésion",
+                "theme_sous_theme": "Résistance des matériaux : Torseur de cohésion",
                 "semestre": "S3"
               }
             ]
@@ -386,7 +711,7 @@
             "numero": "Q48",
             "mots_cles": [
               {
-                "theme": "Résistance des matériaux : Torseur de cohésion",
+                "theme_sous_theme": "Résistance des matériaux : Torseur de cohésion",
                 "semestre": "S3"
               }
             ]
@@ -395,7 +720,7 @@
             "numero": "Q49",
             "mots_cles": [
               {
-                "theme": "Résistance des matériaux : Contraintes",
+                "theme_sous_theme": "Résistance des matériaux : Torseur de cohésion",
                 "semestre": "S3"
               }
             ]
@@ -404,7 +729,7 @@
             "numero": "Q50",
             "mots_cles": [
               {
-                "theme": "Résistance des matériaux : Contraintes",
+                "theme_sous_theme": "Résistance des matériaux : Torseur de cohésion",
                 "semestre": "S3"
               }
             ]
@@ -413,7 +738,11 @@
             "numero": "Q51",
             "mots_cles": [
               {
-                "theme": "Résistance des matériaux : Contraintes",
+                "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Résistance des matériaux : Torseur de cohésion",
                 "semestre": "S3"
               }
             ]
@@ -422,8 +751,12 @@
             "numero": "Q52",
             "mots_cles": [
               {
-                "theme": "Résistance des matériaux : Contraintes",
+                "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
                 "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+                "semestre": "S4"
               }
             ]
           },
@@ -431,8 +764,21 @@
             "numero": "Q53",
             "mots_cles": [
               {
-                "theme": "Résistance des matériaux : Contraintes",
-                "semestre": "S3"
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "IV.4 - Vérification de la rapidité du système d'élévation",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Rapidité",
+                "semestre": "S2"
               }
             ]
           },
@@ -440,7 +786,11 @@
             "numero": "Q54",
             "mots_cles": [
               {
-                "theme": "Cinématique : Lois entrée-sortie",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
                 "semestre": "S1"
               }
             ]
@@ -449,7 +799,11 @@
             "numero": "Q55",
             "mots_cles": [
               {
-                "theme": "Asservissement : Schéma-blocs",
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
@@ -458,7 +812,24 @@
             "numero": "Q56",
             "mots_cles": [
               {
-                "theme": "Asservissement : Rapidité",
+                "theme_sous_theme": "Asservissement : Rapidité",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "IV.5 - Choix du codeur de position",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Dimensionnement : Capteurs",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Traitement de l'information : Échantillonnage et quantification",
                 "semestre": "S2"
               }
             ]
@@ -467,7 +838,7 @@
             "numero": "Q57",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Capteurs",
+                "theme_sous_theme": "Dimensionnement : Capteurs",
                 "semestre": "S4"
               }
             ]
@@ -476,8 +847,26 @@
             "numero": "Q58",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Capteurs",
+                "theme_sous_theme": "Dimensionnement : Capteurs",
                 "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Traitement de l'information : Échantillonnage et quantification",
+                "semestre": "S2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titre_partie": "Partie V - Mise en oeuvre du bus de communication CAN et intégration d'un limiteur de couple",
+        "questions": [
+          {
+            "numero": "V.1 - Mise en œuvre du bus CAN",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Réseaux : Trames et protocoles",
+                "semestre": "S3"
               }
             ]
           },
@@ -485,7 +874,7 @@
             "numero": "Q59",
             "mots_cles": [
               {
-                "theme": "Réseaux de communication : Trame",
+                "theme_sous_theme": "Réseaux : Trames et protocoles",
                 "semestre": "S3"
               }
             ]
@@ -494,7 +883,7 @@
             "numero": "Q60",
             "mots_cles": [
               {
-                "theme": "Réseaux de communication : Trame",
+                "theme_sous_theme": "Réseaux : Trames et protocoles",
                 "semestre": "S3"
               }
             ]
@@ -503,7 +892,7 @@
             "numero": "Q61",
             "mots_cles": [
               {
-                "theme": "Réseaux de communication : Trame",
+                "theme_sous_theme": "Réseaux : Trames et protocoles",
                 "semestre": "S3"
               }
             ]
@@ -512,31 +901,29 @@
             "numero": "Q62",
             "mots_cles": [
               {
-                "theme": "Réseaux de communication : Protocoles",
+                "theme_sous_theme": "Réseaux : Trames et protocoles",
                 "semestre": "S3"
               }
             ]
-          }
-        ],
-        "themes_partie": [
-          "Dynamique",
-          "Transmissions mécaniques",
-          "Énergétique",
-          "Cinématique",
-          "Résistance des matériaux",
-          "Asservissement",
-          "Dimensionnement",
-          "Réseaux de communication"
-        ]
-      },
-      {
-        "titre_partie": "Partie V - Conception d'un système à limiteur de couple par adhérence",
-        "questions": [
+          },
+          {
+            "numero": "V.2 - Choix du limiteur de couple pour le bobinage",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
+              }
+            ]
+          },
           {
             "numero": "Q63",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Liaisons",
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
                 "semestre": "S4"
               }
             ]
@@ -545,17 +932,23 @@
             "numero": "Q64",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Liaisons",
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
                 "semestre": "S4"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Dimensionnement"
         ]
       }
     ],
-    "ajouts": []
+    "ajouts": [
+      {
+        "theme_sous_theme": "Procédés : Électro-érosion",
+        "semestre": "S3"
+      },
+      {
+        "theme_sous_theme": "Thermique : Résistance thermique",
+        "semestre": "S3"
+      }
+    ]
   }
 }

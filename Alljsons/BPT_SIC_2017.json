@@ -4,17 +4,17 @@
   "date": "2017",
   "file": "BPT_SIC_2017.pdf",
   "status": 200,
-  "time_s": 326.28,
+  "time_s": 36.41,
   "data": {
     "parties": [
       {
-        "titre_partie": "I. Etude générale du système",
+        "titre_partie": "1. Etude générale du système",
         "questions": [
           {
             "numero": "Q1",
             "mots_cles": [
               {
-                "theme": "Énergétique : Théorème de l'Énergie Cinétique",
+                "theme_sous_theme": "Énergétique : Théorème de l'énergie cinétique",
                 "semestre": "S3"
               }
             ]
@@ -23,8 +23,8 @@
             "numero": "Q2",
             "mots_cles": [
               {
-                "theme": "Énergétique : Théorème de l'Énergie Cinétique",
-                "semestre": "S3"
+                "theme_sous_theme": "Dimensionnement : Capteurs",
+                "semestre": "S4"
               }
             ]
           },
@@ -32,7 +32,7 @@
             "numero": "Q3",
             "mots_cles": [
               {
-                "theme": "Énergétique : Théorème de l'Énergie Cinétique",
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
                 "semestre": "S3"
               }
             ]
@@ -41,7 +41,7 @@
             "numero": "Q4",
             "mots_cles": [
               {
-                "theme": "Énergétique : Théorème de l'Énergie Cinétique",
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
                 "semestre": "S3"
               }
             ]
@@ -50,7 +50,7 @@
             "numero": "Q5",
             "mots_cles": [
               {
-                "theme": "Énergétique : Théorème de l'Énergie Cinétique",
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
                 "semestre": "S3"
               }
             ]
@@ -59,7 +59,7 @@
             "numero": "Q6",
             "mots_cles": [
               {
-                "theme": "Énergétique : Théorème de l'Énergie Cinétique",
+                "theme_sous_theme": "Matériaux : Propriétés physiques et mécaniques",
                 "semestre": "S3"
               }
             ]
@@ -68,24 +68,25 @@
             "numero": "Q7",
             "mots_cles": [
               {
-                "theme": "Énergétique : Théorème de l'Énergie Cinétique",
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
                 "semestre": "S3"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Énergétique"
         ]
       },
       {
-        "titre_partie": "II. Fonctionnement cinématique interne du système",
+        "titre_partie": "2. Fonctionnement cinématique interne du système",
         "questions": [
           {
             "numero": "Q8",
             "mots_cles": [
               {
-                "theme": "Cinématique : Torseurs cinématiques",
+                "theme_sous_theme": "Cinématique : Vitesses",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Transmissions mécaniques : Trains épicycloïdaux",
                 "semestre": "S1"
               }
             ]
@@ -94,8 +95,12 @@
             "numero": "Q9",
             "mots_cles": [
               {
-                "theme": "Cinématique : Torseurs cinématiques",
+                "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
                 "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
               }
             ]
           },
@@ -103,8 +108,12 @@
             "numero": "Q10",
             "mots_cles": [
               {
-                "theme": "Cinématique : Torseurs cinématiques",
+                "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
                 "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
               }
             ]
           },
@@ -112,8 +121,12 @@
             "numero": "Q11",
             "mots_cles": [
               {
-                "theme": "Cinématique : Torseurs cinématiques",
+                "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
                 "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
               }
             ]
           },
@@ -121,7 +134,7 @@
             "numero": "Q12",
             "mots_cles": [
               {
-                "theme": "Cinématique : Torseurs cinématiques",
+                "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
                 "semestre": "S1"
               }
             ]
@@ -130,7 +143,7 @@
             "numero": "Q13",
             "mots_cles": [
               {
-                "theme": "Cinématique : Torseurs cinématiques",
+                "theme_sous_theme": "Ingénierie Système : Chaîne d'énergie",
                 "semestre": "S1"
               }
             ]
@@ -139,8 +152,8 @@
             "numero": "Q14",
             "mots_cles": [
               {
-                "theme": "Cinématique : Torseurs cinématiques",
-                "semestre": "S1"
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
               }
             ]
           },
@@ -148,24 +161,21 @@
             "numero": "Q15",
             "mots_cles": [
               {
-                "theme": "Cinématique : Torseurs cinématiques",
+                "theme_sous_theme": "Transmissions mécaniques : Engrenages",
                 "semestre": "S1"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Cinématique"
         ]
       },
       {
-        "titre_partie": "III. Réalisation du train épicycloïdal",
+        "titre_partie": "3. Conception du train épicycloïdal",
         "questions": [
           {
             "numero": "Q16",
             "mots_cles": [
               {
-                "theme": "Statique : Hyperstatisme",
+                "theme_sous_theme": "Statique : Hyperstatisme",
                 "semestre": "S2"
               }
             ]
@@ -174,8 +184,12 @@
             "numero": "Q17",
             "mots_cles": [
               {
-                "theme": "Statique : Hyperstatisme",
+                "theme_sous_theme": "Statique : Liaisons équivalentes",
                 "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+                "semestre": "S4"
               }
             ]
           },
@@ -183,8 +197,12 @@
             "numero": "Q18",
             "mots_cles": [
               {
-                "theme": "Statique : Hyperstatisme",
+                "theme_sous_theme": "Statique : Isostatisme",
                 "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+                "semestre": "S4"
               }
             ]
           },
@@ -192,8 +210,8 @@
             "numero": "Q19",
             "mots_cles": [
               {
-                "theme": "Statique : Hyperstatisme",
-                "semestre": "S2"
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+                "semestre": "S4"
               }
             ]
           },
@@ -201,25 +219,21 @@
             "numero": "Q20",
             "mots_cles": [
               {
-                "theme": "Procédés de fabrication : Usinage",
-                "semestre": "S3"
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+                "semestre": "S4"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Statique",
-          "Procédés de fabrication"
         ]
       },
       {
-        "titre_partie": "IV. Commande du système et sureté de fonctionnement",
+        "titre_partie": "4. Commande du système et sureté de fonctionnement",
         "questions": [
           {
             "numero": "Q21",
             "mots_cles": [
               {
-                "theme": "Réseaux de communication : Multiplexage",
+                "theme_sous_theme": "Réseaux : Trames et protocoles",
                 "semestre": "S3"
               }
             ]
@@ -228,7 +242,7 @@
             "numero": "Q22",
             "mots_cles": [
               {
-                "theme": "Réseaux de communication : Protocoles",
+                "theme_sous_theme": "Réseaux : Trames et protocoles",
                 "semestre": "S3"
               }
             ]
@@ -237,7 +251,7 @@
             "numero": "Q23",
             "mots_cles": [
               {
-                "theme": "Réseaux de communication : Trame",
+                "theme_sous_theme": "Réseaux : Trames et protocoles",
                 "semestre": "S3"
               }
             ]
@@ -246,7 +260,7 @@
             "numero": "Q24",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Capteurs",
+                "theme_sous_theme": "Dimensionnement : Capteurs",
                 "semestre": "S4"
               }
             ]
@@ -255,7 +269,11 @@
             "numero": "Q25",
             "mots_cles": [
               {
-                "theme": "Machines électriques : Synchrone",
+                "theme_sous_theme": "Machines électriques : Machine synchrone",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
                 "semestre": "S4"
               }
             ]
@@ -264,7 +282,7 @@
             "numero": "Q26",
             "mots_cles": [
               {
-                "theme": "Systèmes séquentiels et SED : Logigrammes",
+                "theme_sous_theme": "Systèmes séquentiels : Diagramme d'états",
                 "semestre": "S1"
               }
             ]
@@ -273,8 +291,12 @@
             "numero": "Q27",
             "mots_cles": [
               {
-                "theme": "Systèmes séquentiels et SED : Logigrammes",
-                "semestre": "S1"
+                "theme_sous_theme": "Traitement de l'information : Échantillonnage et quantification",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Capteurs",
+                "semestre": "S4"
               }
             ]
           },
@@ -282,28 +304,21 @@
             "numero": "Q28",
             "mots_cles": [
               {
-                "theme": "Cinématique : Torseurs cinématiques",
+                "theme_sous_theme": "Cinématique : Vitesses",
                 "semestre": "S1"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Réseaux de communication",
-          "Dimensionnement",
-          "Machines électriques",
-          "Systèmes séquentiels et SED",
-          "Cinématique"
         ]
       },
       {
-        "titre_partie": "V. Etude de conception et de fabrication de la transmission",
+        "titre_partie": "5. Conception et fabrication d'un sous-système de la boîte de vitesse",
         "questions": [
           {
             "numero": "Q29",
             "mots_cles": [
               {
-                "theme": "Spécifications géométriques : Tolérancement",
+                "theme_sous_theme": "Spécifications géométriques : Tolérancement",
                 "semestre": "S2"
               }
             ]
@@ -312,7 +327,7 @@
             "numero": "Q30",
             "mots_cles": [
               {
-                "theme": "Spécifications géométriques : Tolérancement",
+                "theme_sous_theme": "Spécifications géométriques : Tolérancement",
                 "semestre": "S2"
               }
             ]
@@ -321,7 +336,11 @@
             "numero": "Q31",
             "mots_cles": [
               {
-                "theme": "Procédés de fabrication : Traitements thermiques",
+                "theme_sous_theme": "Matériaux : Propriétés physiques et mécaniques",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
                 "semestre": "S3"
               }
             ]
@@ -330,7 +349,7 @@
             "numero": "Q32",
             "mots_cles": [
               {
-                "theme": "Procédés de fabrication : Traitements thermiques",
+                "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
                 "semestre": "S3"
               }
             ]
@@ -339,7 +358,7 @@
             "numero": "Q33",
             "mots_cles": [
               {
-                "theme": "Procédés de fabrication : Traitements thermiques",
+                "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
                 "semestre": "S3"
               }
             ]
@@ -348,7 +367,11 @@
             "numero": "Q34",
             "mots_cles": [
               {
-                "theme": "Matériaux : Propriétés",
+                "theme_sous_theme": "Matériaux : Propriétés physiques et mécaniques",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
                 "semestre": "S3"
               }
             ]
@@ -357,7 +380,11 @@
             "numero": "Q35",
             "mots_cles": [
               {
-                "theme": "Matériaux : Propriétés",
+                "theme_sous_theme": "Matériaux : Propriétés physiques et mécaniques",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
                 "semestre": "S3"
               }
             ]
@@ -366,8 +393,12 @@
             "numero": "Q36",
             "mots_cles": [
               {
-                "theme": "Métrologie : Contrôle 3D",
+                "theme_sous_theme": "Procédés : Usinage",
                 "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+                "semestre": "S4"
               }
             ]
           },
@@ -375,7 +406,7 @@
             "numero": "Q37",
             "mots_cles": [
               {
-                "theme": "Procédés de fabrication : Usinage",
+                "theme_sous_theme": "Procédés : Usinage",
                 "semestre": "S3"
               }
             ]
@@ -384,7 +415,7 @@
             "numero": "Q38",
             "mots_cles": [
               {
-                "theme": "Procédés de fabrication : Usinage",
+                "theme_sous_theme": "Procédés : Usinage",
                 "semestre": "S3"
               }
             ]
@@ -393,7 +424,7 @@
             "numero": "Q39",
             "mots_cles": [
               {
-                "theme": "Procédés de fabrication : Usinage",
+                "theme_sous_theme": "Procédés : Usinage",
                 "semestre": "S3"
               }
             ]
@@ -402,25 +433,14 @@
             "numero": "Q40",
             "mots_cles": [
               {
-                "theme": "Écoconception : Analyse de Cycle de Vie",
-                "semestre": "S4"
+                "theme_sous_theme": "Procédés : Usinage",
+                "semestre": "S3"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Spécifications géométriques",
-          "Procédés de fabrication",
-          "Matériaux",
-          "Métrologie",
-          "Écoconception"
         ]
       }
     ],
-    "ajouts": [
-      "Thermodynamique : Gaz parfait",
-      "Thermodynamique : Polytropique",
-      "Thermodynamique : Détente"
-    ]
+    "ajouts": []
   }
 }

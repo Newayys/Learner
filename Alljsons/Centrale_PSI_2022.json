@@ -4,7 +4,7 @@
   "date": "2022",
   "file": "Centrale_PSI_2022.pdf",
   "status": 200,
-  "time_s": 243.5,
+  "time_s": 34.09,
   "data": {
     "parties": [
       {
@@ -14,12 +14,12 @@
             "numero": "Q1",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : Temporel",
-                "semestre": "S2"
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
               },
               {
-                "theme": "Cinématique : Fermeture géométrique",
-                "semestre": "S1"
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
+                "semestre": "S2"
               }
             ]
           },
@@ -27,7 +27,11 @@
             "numero": "Q2",
             "mots_cles": [
               {
-                "theme": "Cinématique : Fermeture géométrique",
+                "theme_sous_theme": "Cinématique : Vitesses",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
               }
             ]
@@ -36,8 +40,16 @@
             "numero": "Q3",
             "mots_cles": [
               {
-                "theme": "Cinématique : Fermeture géométrique",
+                "theme_sous_theme": "Cinématique : Fermeture géométrique",
                 "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Statique : Liaisons équivalentes",
+                "semestre": "S2"
               }
             ]
           },
@@ -45,16 +57,15 @@
             "numero": "Q4",
             "mots_cles": [
               {
-                "theme": "Dynamique : Torseur dynamique",
-                "semestre": "S3"
+                "theme_sous_theme": "Statique : Liaisons équivalentes",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+                "semestre": "S4"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Cinématique",
-          "Dynamique",
-          "Modélisation des signaux"
         ]
       },
       {
@@ -64,8 +75,12 @@
             "numero": "Q5",
             "mots_cles": [
               {
-                "theme": "Dynamique : Torseur dynamique",
+                "theme_sous_theme": "Dynamique : Géométrie des masses",
                 "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Cinématique : Torseur cinématique",
+                "semestre": "S1"
               }
             ]
           },
@@ -73,8 +88,12 @@
             "numero": "Q6",
             "mots_cles": [
               {
-                "theme": "Dynamique : Torseur dynamique",
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
                 "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Cinématique : Accélérations",
+                "semestre": "S1"
               }
             ]
           },
@@ -82,8 +101,12 @@
             "numero": "Q7",
             "mots_cles": [
               {
-                "theme": "Dynamique : Torseur dynamique",
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
                 "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
+                "semestre": "S2"
               }
             ]
           },
@@ -91,7 +114,7 @@
             "numero": "Q8",
             "mots_cles": [
               {
-                "theme": "Dynamique : Torseur dynamique",
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
                 "semestre": "S3"
               }
             ]
@@ -100,7 +123,7 @@
             "numero": "Q9",
             "mots_cles": [
               {
-                "theme": "Dynamique : Torseur dynamique",
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
                 "semestre": "S3"
               }
             ]
@@ -109,7 +132,19 @@
             "numero": "Q10",
             "mots_cles": [
               {
-                "theme": "Asservissement : Schéma-blocs, Laplace, Fonction de transfert",
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Rapidité",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Stabilité",
                 "semestre": "S2"
               }
             ]
@@ -118,7 +153,19 @@
             "numero": "Q11",
             "mots_cles": [
               {
-                "theme": "Asservissement : Schéma-blocs, Laplace, Fonction de transfert",
+                "theme_sous_theme": "Correcteurs : Proportionnel",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Correcteurs : Proportionnel-intégral",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Précision",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
@@ -127,8 +174,12 @@
             "numero": "Q12",
             "mots_cles": [
               {
-                "theme": "Asservissement : Schéma-blocs, Laplace, Fonction de transfert",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Correcteurs : Proportionnel-intégral",
+                "semestre": "S4"
               }
             ]
           },
@@ -136,8 +187,16 @@
             "numero": "Q13",
             "mots_cles": [
               {
-                "theme": "Asservissement : Correcteur Proportionnel et intégral",
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
                 "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Correcteurs : Proportionnel-intégral",
+                "semestre": "S4"
               }
             ]
           },
@@ -145,7 +204,7 @@
             "numero": "Q14",
             "mots_cles": [
               {
-                "theme": "Dynamique : PFD",
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
                 "semestre": "S3"
               }
             ]
@@ -154,7 +213,11 @@
             "numero": "Q15",
             "mots_cles": [
               {
-                "theme": "Dynamique : Torseur dynamique",
+                "theme_sous_theme": "Dynamique : Géométrie des masses",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
                 "semestre": "S3"
               }
             ]
@@ -163,7 +226,11 @@
             "numero": "Q16",
             "mots_cles": [
               {
-                "theme": "Cinématique : Vitesses, Accélérations",
+                "theme_sous_theme": "Cinématique : Vitesses",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Cinématique : Accélérations",
                 "semestre": "S1"
               }
             ]
@@ -172,7 +239,11 @@
             "numero": "Q17",
             "mots_cles": [
               {
-                "theme": "Dynamique : Torseur dynamique",
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Dynamique : Géométrie des masses",
                 "semestre": "S3"
               }
             ]
@@ -181,7 +252,7 @@
             "numero": "Q18",
             "mots_cles": [
               {
-                "theme": "Dynamique : Matrice d'inertie",
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
                 "semestre": "S3"
               }
             ]
@@ -190,7 +261,7 @@
             "numero": "Q19",
             "mots_cles": [
               {
-                "theme": "Asservissement : Schéma-blocs, Laplace, Fonction de transfert",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
@@ -199,16 +270,15 @@
             "numero": "Q20",
             "mots_cles": [
               {
-                "theme": "Asservissement : Schéma-blocs, Laplace, Fonction de transfert",
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Dynamique",
-          "Asservissement",
-          "Cinématique"
         ]
       },
       {
@@ -218,7 +288,7 @@
             "numero": "Q21",
             "mots_cles": [
               {
-                "theme": "Asservissement : Schéma-blocs, Laplace, Fonction de transfert",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
@@ -227,7 +297,11 @@
             "numero": "Q22",
             "mots_cles": [
               {
-                "theme": "Asservissement : Stabilité",
+                "theme_sous_theme": "Asservissement : Stabilité",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
                 "semestre": "S2"
               }
             ]
@@ -236,7 +310,11 @@
             "numero": "Q23",
             "mots_cles": [
               {
-                "theme": "Asservissement : Stabilité",
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
                 "semestre": "S2"
               }
             ]
@@ -245,7 +323,15 @@
             "numero": "Q24",
             "mots_cles": [
               {
-                "theme": "Asservissement : Correcteur Proportionnel et intégral",
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Stabilité",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
@@ -254,7 +340,7 @@
             "numero": "Q25",
             "mots_cles": [
               {
-                "theme": "Asservissement : Schéma-blocs, Laplace, Fonction de transfert",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
@@ -263,8 +349,12 @@
             "numero": "Q26",
             "mots_cles": [
               {
-                "theme": "Asservissement : Correcteur Proportionnel et intégral",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Correcteurs : Correcteur numérique",
+                "semestre": "S4"
               }
             ]
           },
@@ -272,8 +362,12 @@
             "numero": "Q27",
             "mots_cles": [
               {
-                "theme": "Asservissement : Correcteur Proportionnel et intégral",
-                "semestre": "S2"
+                "theme_sous_theme": "Correcteurs : Avance de phase",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Correcteurs : Correcteur numérique",
+                "semestre": "S4"
               }
             ]
           },
@@ -281,7 +375,11 @@
             "numero": "Q28",
             "mots_cles": [
               {
-                "theme": "Asservissement : Correcteur Proportionnel et intégral",
+                "theme_sous_theme": "Correcteurs : Proportionnel",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
                 "semestre": "S2"
               }
             ]
@@ -290,18 +388,27 @@
             "numero": "Q29",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : Temporel",
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
                 "semestre": "S2"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Asservissement",
-          "Modélisation des signaux"
         ]
       }
     ],
-    "ajouts": []
+    "ajouts": [
+      {
+        "theme_sous_theme": "Dynamique : Effet gyroscopique",
+        "semestre": "S3"
+      }
+    ]
   }
 }

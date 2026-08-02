@@ -4,26 +4,35 @@
   "date": "2013",
   "file": "BPT_SIC_2013.pdf",
   "status": 200,
-  "time_s": 246.32,
+  "time_s": 34.03,
   "data": {
     "parties": [
       {
-        "titre_partie": "I. Analyse du fonctionnement global du système",
+        "titre_partie": "I-A. Grafcet de fabrication",
         "questions": [
           {
             "numero": "Q1",
             "mots_cles": [
               {
-                "theme": "Ingénierie Système : Chaînes d'information",
+                "theme_sous_theme": "Systèmes séquentiels : Diagramme d'états",
                 "semestre": "S1"
               }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "titre_partie": "I-B. Analyse de la longueur à amener",
+        "questions": [
           {
             "numero": "Q2",
             "mots_cles": [
               {
-                "theme": "Cinématique : Lois entrée-sortie",
+                "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
               }
             ]
@@ -32,8 +41,12 @@
             "numero": "Q3",
             "mots_cles": [
               {
-                "theme": "Informatique et Algorithmique : Fonctions",
-                "semestre": "S1"
+                "theme_sous_theme": "Traitement de l'information : Échantillonnage et quantification",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Capteurs",
+                "semestre": "S4"
               }
             ]
           },
@@ -41,8 +54,12 @@
             "numero": "Q4",
             "mots_cles": [
               {
-                "theme": "Traitement de l'information : Échantillonnage",
+                "theme_sous_theme": "Traitement de l'information : Échantillonnage et quantification",
                 "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Capteurs",
+                "semestre": "S4"
               }
             ]
           },
@@ -50,8 +67,8 @@
             "numero": "Q5",
             "mots_cles": [
               {
-                "theme": "Traitement de l'information : Échantillonnage",
-                "semestre": "S2"
+                "theme_sous_theme": "Dimensionnement : Capteurs",
+                "semestre": "S4"
               }
             ]
           },
@@ -59,7 +76,7 @@
             "numero": "Q6",
             "mots_cles": [
               {
-                "theme": "Résistance des matériaux : Déformations",
+                "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
                 "semestre": "S3"
               }
             ]
@@ -68,28 +85,25 @@
             "numero": "Q7",
             "mots_cles": [
               {
-                "theme": "Résistance des matériaux : Contraintes",
-                "semestre": "S3"
+                "theme_sous_theme": "Statique : Frottements",
+                "semestre": "S2"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Ingénierie Système",
-          "Cinématique",
-          "Informatique et Algorithmique",
-          "Traitement de l'information",
-          "Résistance des matériaux"
         ]
       },
       {
-        "titre_partie": "II. Validation des performances de la tête de cambrage-pliage (Fonction F4)",
+        "titre_partie": "II-A. Analyse géométrique du procédé de cambrage",
         "questions": [
           {
             "numero": "Q8",
             "mots_cles": [
               {
-                "theme": "Cinématique : Fermeture géométrique",
+                "theme_sous_theme": "Cinématique : Fermeture géométrique",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
               }
             ]
@@ -98,16 +112,21 @@
             "numero": "Q9",
             "mots_cles": [
               {
-                "theme": "Cinématique : Vitesses",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
               }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "titre_partie": "II-B. Analyse statique du procédé de pliage",
+        "questions": [
           {
             "numero": "Q10",
             "mots_cles": [
               {
-                "theme": "Cinématique : Fermeture géométrique",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
               }
             ]
@@ -116,7 +135,11 @@
             "numero": "Q11",
             "mots_cles": [
               {
-                "theme": "Résistance des matériaux : Contraintes",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Résistance des matériaux : Torseur de cohésion",
                 "semestre": "S3"
               }
             ]
@@ -125,16 +148,19 @@
             "numero": "Q12",
             "mots_cles": [
               {
-                "theme": "Dynamique : PFD",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
                 "semestre": "S3"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Cinématique",
-          "Résistance des matériaux",
-          "Dynamique"
         ]
       },
       {
@@ -144,7 +170,11 @@
             "numero": "Q13",
             "mots_cles": [
               {
-                "theme": "Statique : Liaisons équivalentes",
+                "theme_sous_theme": "Statique : Frottements",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
                 "semestre": "S2"
               }
             ]
@@ -153,7 +183,7 @@
             "numero": "Q14",
             "mots_cles": [
               {
-                "theme": "Ingénierie Système : Chaînes d'information",
+                "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
                 "semestre": "S1"
               }
             ]
@@ -162,7 +192,11 @@
             "numero": "Q15",
             "mots_cles": [
               {
-                "theme": "Cinématique : Lois entrée-sortie",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
                 "semestre": "S1"
               }
             ]
@@ -171,8 +205,8 @@
             "numero": "Q16",
             "mots_cles": [
               {
-                "theme": "Cinématique : Torseurs cinématiques",
-                "semestre": "S1"
+                "theme_sous_theme": "Statique : Liaisons équivalentes",
+                "semestre": "S2"
               }
             ]
           },
@@ -180,7 +214,7 @@
             "numero": "Q17",
             "mots_cles": [
               {
-                "theme": "Statique : Hyperstatisme",
+                "theme_sous_theme": "Statique : Hyperstatisme",
                 "semestre": "S2"
               }
             ]
@@ -189,16 +223,15 @@
             "numero": "Q18",
             "mots_cles": [
               {
-                "theme": "Statique : Hyperstatisme",
+                "theme_sous_theme": "Statique : Hyperstatisme",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Statique : Isostatisme",
                 "semestre": "S2"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Ingénierie Système",
-          "Cinématique",
-          "Statique"
         ]
       },
       {
@@ -208,7 +241,11 @@
             "numero": "Q19",
             "mots_cles": [
               {
-                "theme": "Résistance des matériaux : Contraintes",
+                "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Matériaux : Propriétés physiques et mécaniques",
                 "semestre": "S3"
               }
             ]
@@ -217,15 +254,15 @@
             "numero": "Q20",
             "mots_cles": [
               {
-                "theme": "Énergétique : Puissance",
-                "semestre": "S3"
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Ingénierie Système : Chaîne d'énergie",
+                "semestre": "S1"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Résistance des matériaux",
-          "Énergétique"
         ]
       },
       {
@@ -235,7 +272,7 @@
             "numero": "Q21",
             "mots_cles": [
               {
-                "theme": "Procédés de fabrication : Métallurgie",
+                "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
                 "semestre": "S3"
               }
             ]
@@ -244,7 +281,7 @@
             "numero": "Q22",
             "mots_cles": [
               {
-                "theme": "Matériaux : Choix",
+                "theme_sous_theme": "Matériaux : Propriétés physiques et mécaniques",
                 "semestre": "S3"
               }
             ]
@@ -253,7 +290,7 @@
             "numero": "Q23",
             "mots_cles": [
               {
-                "theme": "Spécifications géométriques : Tolérancement",
+                "theme_sous_theme": "Spécifications géométriques : Tolérancement",
                 "semestre": "S2"
               }
             ]
@@ -262,7 +299,7 @@
             "numero": "Q24",
             "mots_cles": [
               {
-                "theme": "Spécifications géométriques : Tolérancement",
+                "theme_sous_theme": "Spécifications géométriques : Tolérancement",
                 "semestre": "S2"
               }
             ]
@@ -271,7 +308,11 @@
             "numero": "Q25",
             "mots_cles": [
               {
-                "theme": "Procédés de fabrication : Usinage",
+                "theme_sous_theme": "Procédés : Usinage",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
                 "semestre": "S3"
               }
             ]
@@ -280,7 +321,11 @@
             "numero": "Q26",
             "mots_cles": [
               {
-                "theme": "Procédés de fabrication : Usinage",
+                "theme_sous_theme": "Procédés : Usinage",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
                 "semestre": "S3"
               }
             ]
@@ -289,16 +334,15 @@
             "numero": "Q27",
             "mots_cles": [
               {
-                "theme": "Procédés de fabrication : Usinage",
+                "theme_sous_theme": "Procédés : Usinage",
                 "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Statique : Isostatisme",
+                "semestre": "S2"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Procédés de fabrication",
-          "Matériaux",
-          "Spécifications géométriques"
         ]
       },
       {
@@ -308,7 +352,7 @@
             "numero": "Q28",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Liaisons",
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
                 "semestre": "S4"
               }
             ]
@@ -317,7 +361,7 @@
             "numero": "Q29",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Liaisons",
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
                 "semestre": "S4"
               }
             ]
@@ -326,7 +370,7 @@
             "numero": "Q30",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Paliers lisses",
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
                 "semestre": "S4"
               }
             ]
@@ -335,7 +379,7 @@
             "numero": "Q31",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Liaisons",
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
                 "semestre": "S4"
               }
             ]
@@ -344,14 +388,11 @@
             "numero": "Q32",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Liaisons",
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
                 "semestre": "S4"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Dimensionnement"
         ]
       }
     ],

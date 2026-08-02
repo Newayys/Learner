@@ -4,17 +4,17 @@
   "date": "2026",
   "file": "CCINP_MP_2026.pdf",
   "status": 200,
-  "time_s": 303.53,
+  "time_s": 35.11,
   "data": {
     "parties": [
       {
-        "titre_partie": "Partie I - Étude du déplacement de Bering",
+        "titre_partie": "Partie I - Détermination des consignes de vitesse",
         "questions": [
           {
             "numero": "Q1",
             "mots_cles": [
               {
-                "theme": "Cinématique : Torseurs cinématiques",
+                "theme_sous_theme": "Cinématique : Torseur cinématique",
                 "semestre": "S1"
               }
             ]
@@ -23,7 +23,7 @@
             "numero": "Q2",
             "mots_cles": [
               {
-                "theme": "Cinématique : Vitesses",
+                "theme_sous_theme": "Cinématique : Vitesses",
                 "semestre": "S1"
               }
             ]
@@ -32,7 +32,7 @@
             "numero": "Q3",
             "mots_cles": [
               {
-                "theme": "Cinématique : Vitesses",
+                "theme_sous_theme": "Cinématique : Vitesses",
                 "semestre": "S1"
               }
             ]
@@ -41,7 +41,7 @@
             "numero": "Q4",
             "mots_cles": [
               {
-                "theme": "Cinématique : Vitesses",
+                "theme_sous_theme": "Cinématique : Vitesses",
                 "semestre": "S1"
               }
             ]
@@ -50,11 +50,7 @@
             "numero": "Q5",
             "mots_cles": [
               {
-                "theme": "Cinématique : Torseurs cinématiques",
-                "semestre": "S1"
-              },
-              {
-                "theme": "Cinématique : Vitesses",
+                "theme_sous_theme": "Cinématique : Torseur cinématique",
                 "semestre": "S1"
               }
             ]
@@ -63,7 +59,7 @@
             "numero": "Q6",
             "mots_cles": [
               {
-                "theme": "Cinématique : Vitesses",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
               }
             ]
@@ -72,7 +68,7 @@
             "numero": "Q7",
             "mots_cles": [
               {
-                "theme": "Cinématique : Vitesses",
+                "theme_sous_theme": "Cinématique : Vitesses",
                 "semestre": "S1"
               }
             ]
@@ -81,7 +77,7 @@
             "numero": "Q8",
             "mots_cles": [
               {
-                "theme": "Cinématique : Vitesses",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
               }
             ]
@@ -90,14 +86,11 @@
             "numero": "Q9",
             "mots_cles": [
               {
-                "theme": "Cinématique : Vitesses",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Cinématique"
         ]
       },
       {
@@ -107,7 +100,7 @@
             "numero": "Q10",
             "mots_cles": [
               {
-                "theme": "Dynamique : Géométrie des masses",
+                "theme_sous_theme": "Dynamique : Géométrie des masses",
                 "semestre": "S3"
               }
             ]
@@ -116,7 +109,7 @@
             "numero": "Q11",
             "mots_cles": [
               {
-                "theme": "Dynamique : Géométrie des masses",
+                "theme_sous_theme": "Dynamique : Géométrie des masses",
                 "semestre": "S3"
               }
             ]
@@ -125,7 +118,7 @@
             "numero": "Q12",
             "mots_cles": [
               {
-                "theme": "Dynamique : Matrice d'inertie",
+                "theme_sous_theme": "Dynamique : Géométrie des masses",
                 "semestre": "S3"
               }
             ]
@@ -134,7 +127,7 @@
             "numero": "Q13",
             "mots_cles": [
               {
-                "theme": "Dynamique : Géométrie des masses",
+                "theme_sous_theme": "Dynamique : Géométrie des masses",
                 "semestre": "S3"
               }
             ]
@@ -143,7 +136,7 @@
             "numero": "Q14",
             "mots_cles": [
               {
-                "theme": "Dynamique : Matrice d'inertie",
+                "theme_sous_theme": "Dynamique : Géométrie des masses",
                 "semestre": "S3"
               }
             ]
@@ -152,7 +145,7 @@
             "numero": "Q15",
             "mots_cles": [
               {
-                "theme": "Dynamique : Torseur dynamique",
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
                 "semestre": "S3"
               }
             ]
@@ -161,7 +154,7 @@
             "numero": "Q16",
             "mots_cles": [
               {
-                "theme": "Dynamique : Torseur dynamique",
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
                 "semestre": "S3"
               }
             ]
@@ -170,7 +163,7 @@
             "numero": "Q17",
             "mots_cles": [
               {
-                "theme": "Dynamique : PFD",
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
                 "semestre": "S3"
               }
             ]
@@ -179,7 +172,11 @@
             "numero": "Q18",
             "mots_cles": [
               {
-                "theme": "Dynamique : PFD",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
                 "semestre": "S3"
               }
             ]
@@ -188,7 +185,11 @@
             "numero": "Q19",
             "mots_cles": [
               {
-                "theme": "Dynamique : Inertie équivalente",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
                 "semestre": "S3"
               }
             ]
@@ -197,14 +198,11 @@
             "numero": "Q20",
             "mots_cles": [
               {
-                "theme": "Dynamique : Inertie équivalente",
-                "semestre": "S3"
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
+                "semestre": "S2"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Dynamique"
         ]
       },
       {
@@ -214,7 +212,11 @@
             "numero": "Q21",
             "mots_cles": [
               {
-                "theme": "Asservissement : Laplace",
+                "theme_sous_theme": "Machines électriques : Machine à courant continu",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
@@ -223,7 +225,11 @@
             "numero": "Q22",
             "mots_cles": [
               {
-                "theme": "Asservissement : Fonction de transfert",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
                 "semestre": "S2"
               }
             ]
@@ -232,7 +238,7 @@
             "numero": "Q23",
             "mots_cles": [
               {
-                "theme": "Dynamique : Inertie équivalente",
+                "theme_sous_theme": "Énergétique : Inertie équivalente",
                 "semestre": "S3"
               }
             ]
@@ -241,8 +247,8 @@
             "numero": "Q24",
             "mots_cles": [
               {
-                "theme": "Asservissement : Précision",
-                "semestre": "S2"
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
               }
             ]
           },
@@ -250,7 +256,7 @@
             "numero": "Q25",
             "mots_cles": [
               {
-                "theme": "Asservissement : Schéma-blocs",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
@@ -259,7 +265,7 @@
             "numero": "Q26",
             "mots_cles": [
               {
-                "theme": "Asservissement : Fonction de transfert",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
@@ -268,7 +274,7 @@
             "numero": "Q27",
             "mots_cles": [
               {
-                "theme": "Asservissement : Fonction de transfert",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
@@ -277,7 +283,11 @@
             "numero": "Q28",
             "mots_cles": [
               {
-                "theme": "Asservissement : Stabilité",
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Rapidité",
                 "semestre": "S2"
               }
             ]
@@ -286,8 +296,8 @@
             "numero": "Q29",
             "mots_cles": [
               {
-                "theme": "Asservissement : Correcteur avance de phase",
-                "semestre": "S2"
+                "theme_sous_theme": "Correcteurs : Avance de phase",
+                "semestre": "S4"
               }
             ]
           },
@@ -295,8 +305,8 @@
             "numero": "Q30",
             "mots_cles": [
               {
-                "theme": "Asservissement : Correcteur avance de phase",
-                "semestre": "S2"
+                "theme_sous_theme": "Correcteurs : Avance de phase",
+                "semestre": "S4"
               }
             ]
           },
@@ -304,8 +314,12 @@
             "numero": "Q31",
             "mots_cles": [
               {
-                "theme": "Asservissement : Bode",
+                "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
                 "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Correcteurs : Avance de phase",
+                "semestre": "S4"
               }
             ]
           },
@@ -313,7 +327,11 @@
             "numero": "Q32",
             "mots_cles": [
               {
-                "theme": "Asservissement : Stabilité",
+                "theme_sous_theme": "Asservissement : Stabilité",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Rapidité",
                 "semestre": "S2"
               }
             ]
@@ -322,24 +340,21 @@
             "numero": "Q33",
             "mots_cles": [
               {
-                "theme": "Asservissement : Stabilité",
+                "theme_sous_theme": "Asservissement : Stabilité",
                 "semestre": "S2"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Asservissement"
         ]
       },
       {
-        "titre_partie": "Partie IV - Étude de l'élaboration d'un coin",
+        "titre_partie": "Partie IV - Étude du tracé d'un coin",
         "questions": [
           {
             "numero": "Q34",
             "mots_cles": [
               {
-                "theme": "Systèmes séquentiels et SED : Diagramme d'états",
+                "theme_sous_theme": "Systèmes séquentiels : Diagramme d'états",
                 "semestre": "S1"
               }
             ]
@@ -348,7 +363,7 @@
             "numero": "Q35",
             "mots_cles": [
               {
-                "theme": "Systèmes séquentiels et SED : Diagramme d'états",
+                "theme_sous_theme": "Systèmes séquentiels : Diagramme d'états",
                 "semestre": "S1"
               }
             ]
@@ -357,14 +372,11 @@
             "numero": "Q36",
             "mots_cles": [
               {
-                "theme": "Systèmes séquentiels et SED : Diagramme d'états",
+                "theme_sous_theme": "Systèmes séquentiels : Diagramme d'états",
                 "semestre": "S1"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Systèmes séquentiels et SED"
         ]
       },
       {
@@ -374,7 +386,7 @@
             "numero": "Q37",
             "mots_cles": [
               {
-                "theme": "Informatique et Algorithmique : Fonctions",
+                "theme_sous_theme": "Informatique : Algorithmique",
                 "semestre": "S1"
               }
             ]
@@ -383,7 +395,7 @@
             "numero": "Q38",
             "mots_cles": [
               {
-                "theme": "Informatique et Algorithmique : Fonctions",
+                "theme_sous_theme": "Informatique : Algorithmique",
                 "semestre": "S1"
               }
             ]
@@ -392,7 +404,7 @@
             "numero": "Q39",
             "mots_cles": [
               {
-                "theme": "Informatique et Algorithmique : Fonctions",
+                "theme_sous_theme": "Informatique : Algorithmique",
                 "semestre": "S1"
               }
             ]
@@ -401,7 +413,7 @@
             "numero": "Q40",
             "mots_cles": [
               {
-                "theme": "Informatique et Algorithmique : Fonctions",
+                "theme_sous_theme": "Informatique : Algorithmique",
                 "semestre": "S1"
               }
             ]
@@ -410,7 +422,7 @@
             "numero": "Q41",
             "mots_cles": [
               {
-                "theme": "Informatique et Algorithmique : Fonctions",
+                "theme_sous_theme": "Informatique : Algorithmique",
                 "semestre": "S1"
               }
             ]
@@ -419,7 +431,7 @@
             "numero": "Q42",
             "mots_cles": [
               {
-                "theme": "Informatique et Algorithmique : Fonctions",
+                "theme_sous_theme": "Informatique : Algorithmique",
                 "semestre": "S1"
               }
             ]
@@ -428,7 +440,7 @@
             "numero": "Q43",
             "mots_cles": [
               {
-                "theme": "Informatique et Algorithmique : Fonctions",
+                "theme_sous_theme": "Informatique : Algorithmique",
                 "semestre": "S1"
               }
             ]
@@ -437,7 +449,7 @@
             "numero": "Q44",
             "mots_cles": [
               {
-                "theme": "Informatique et Algorithmique : Fonctions",
+                "theme_sous_theme": "Informatique : Algorithmique",
                 "semestre": "S1"
               }
             ]
@@ -446,7 +458,7 @@
             "numero": "Q45",
             "mots_cles": [
               {
-                "theme": "Informatique et Algorithmique : Fonctions",
+                "theme_sous_theme": "Informatique : Algorithmique",
                 "semestre": "S1"
               }
             ]
@@ -455,14 +467,11 @@
             "numero": "Q46",
             "mots_cles": [
               {
-                "theme": "Informatique et Algorithmique : Fonctions",
+                "theme_sous_theme": "Informatique : Algorithmique",
                 "semestre": "S1"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Informatique et Algorithmique"
         ]
       }
     ],

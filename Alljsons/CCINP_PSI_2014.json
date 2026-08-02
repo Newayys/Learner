@@ -4,17 +4,21 @@
   "date": "2014",
   "file": "CCINP_PSI_2014.pdf",
   "status": 200,
-  "time_s": 795.15,
+  "time_s": 26.95,
   "data": {
     "parties": [
       {
-        "titre_partie": "I Mise en évidence de la problématique",
+        "titre_partie": "1 Mise en évidence de la problématique",
         "questions": [
           {
             "numero": "Q1",
             "mots_cles": [
               {
-                "theme": "Cinématique : Accélérations",
+                "theme_sous_theme": "Ingénierie Système : Chaîne d'information",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Cinématique : Accélérations",
                 "semestre": "S1"
               }
             ]
@@ -23,7 +27,7 @@
             "numero": "Q2",
             "mots_cles": [
               {
-                "theme": "Cinématique : Accélérations",
+                "theme_sous_theme": "Cinématique : Accélérations",
                 "semestre": "S1"
               }
             ]
@@ -32,15 +36,11 @@
             "numero": "Q3",
             "mots_cles": [
               {
-                "theme": "Ingénierie Système : Cahier des charges",
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
                 "semestre": "S1"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Cinématique",
-          "Ingénierie Système"
         ]
       },
       {
@@ -50,7 +50,7 @@
             "numero": "Q4",
             "mots_cles": [
               {
-                "theme": "Ingénierie Système : SysML",
+                "theme_sous_theme": "Ingénierie Système : Diagramme de définition de blocs",
                 "semestre": "S1"
               }
             ]
@@ -59,18 +59,15 @@
             "numero": "Q5",
             "mots_cles": [
               {
-                "theme": "Ingénierie Système : Chaînes d'énergie",
+                "theme_sous_theme": "Ingénierie Système : Chaîne d'énergie",
                 "semestre": "S1"
               },
               {
-                "theme": "Ingénierie Système : Chaînes d'information",
+                "theme_sous_theme": "Ingénierie Système : Chaîne d'information",
                 "semestre": "S1"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Ingénierie Système"
         ]
       },
       {
@@ -80,7 +77,7 @@
             "numero": "Q6",
             "mots_cles": [
               {
-                "theme": "Cinématique : Accélérations",
+                "theme_sous_theme": "Cinématique : Accélérations",
                 "semestre": "S1"
               }
             ]
@@ -89,7 +86,7 @@
             "numero": "Q7",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : Fréquentiel",
+                "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
                 "semestre": "S2"
               }
             ]
@@ -98,8 +95,8 @@
             "numero": "Q8",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : Fréquentiel",
-                "semestre": "S2"
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
+                "semestre": "S1"
               }
             ]
           },
@@ -107,7 +104,7 @@
             "numero": "Q9",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : Fréquentiel",
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
                 "semestre": "S2"
               }
             ]
@@ -116,7 +113,7 @@
             "numero": "Q10",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : Fréquentiel",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
@@ -125,7 +122,7 @@
             "numero": "Q11",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : Fréquentiel",
+                "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
                 "semestre": "S2"
               }
             ]
@@ -134,7 +131,7 @@
             "numero": "Q12",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : Fréquentiel",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
@@ -143,7 +140,7 @@
             "numero": "Q13",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : Temporel",
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
                 "semestre": "S2"
               }
             ]
@@ -152,7 +149,7 @@
             "numero": "Q14",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : Fréquentiel",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
@@ -161,15 +158,11 @@
             "numero": "Q15",
             "mots_cles": [
               {
-                "theme": "Cinématique : Accélérations",
-                "semestre": "S1"
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
+                "semestre": "S2"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Cinématique",
-          "Modélisation des signaux"
         ]
       },
       {
@@ -179,7 +172,7 @@
             "numero": "Q16",
             "mots_cles": [
               {
-                "theme": "Cinématique : Fermeture géométrique",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
               }
             ]
@@ -188,7 +181,7 @@
             "numero": "Q17",
             "mots_cles": [
               {
-                "theme": "Cinématique : Fermeture géométrique",
+                "theme_sous_theme": "Ingénierie Système : Chaîne d'énergie",
                 "semestre": "S1"
               }
             ]
@@ -197,7 +190,7 @@
             "numero": "Q18",
             "mots_cles": [
               {
-                "theme": "Statique : Hyperstatisme",
+                "theme_sous_theme": "Statique : Hyperstatisme",
                 "semestre": "S2"
               }
             ]
@@ -206,7 +199,11 @@
             "numero": "Q19",
             "mots_cles": [
               {
-                "theme": "Cinématique : Fermeture géométrique",
+                "theme_sous_theme": "Cinématique : Fermeture géométrique",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
               }
             ]
@@ -215,8 +212,8 @@
             "numero": "Q20",
             "mots_cles": [
               {
-                "theme": "Cinématique : Fermeture géométrique",
-                "semestre": "S1"
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+                "semestre": "S4"
               }
             ]
           },
@@ -224,8 +221,8 @@
             "numero": "Q21",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : Temporel",
-                "semestre": "S2"
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
+                "semestre": "S1"
               }
             ]
           },
@@ -233,7 +230,7 @@
             "numero": "Q22",
             "mots_cles": [
               {
-                "theme": "Statique : PFS",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
                 "semestre": "S2"
               }
             ]
@@ -242,7 +239,7 @@
             "numero": "Q23",
             "mots_cles": [
               {
-                "theme": "Dynamique : PFD",
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
                 "semestre": "S3"
               }
             ]
@@ -251,8 +248,8 @@
             "numero": "Q24",
             "mots_cles": [
               {
-                "theme": "Dynamique : PFD",
-                "semestre": "S3"
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
               }
             ]
           },
@@ -260,7 +257,11 @@
             "numero": "Q25",
             "mots_cles": [
               {
-                "theme": "Cinématique : Lois entrée-sortie",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Transmissions mécaniques : Engrenages",
                 "semestre": "S1"
               }
             ]
@@ -269,11 +270,11 @@
             "numero": "Q26",
             "mots_cles": [
               {
-                "theme": "Énergétique : Théorème de l'Énergie Cinétique",
+                "theme_sous_theme": "Énergétique : Inertie équivalente",
                 "semestre": "S3"
               },
               {
-                "theme": "Énergétique : Inertie équivalente",
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
                 "semestre": "S3"
               }
             ]
@@ -282,7 +283,7 @@
             "numero": "Q27",
             "mots_cles": [
               {
-                "theme": "Énergétique : Puissance",
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
                 "semestre": "S3"
               }
             ]
@@ -291,7 +292,7 @@
             "numero": "Q28",
             "mots_cles": [
               {
-                "theme": "Énergétique : Théorème de l'Énergie Cinétique",
+                "theme_sous_theme": "Énergétique : Théorème de l'énergie cinétique",
                 "semestre": "S3"
               }
             ]
@@ -300,28 +301,25 @@
             "numero": "Q29",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : Fréquentiel",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Machines électriques : Machine à courant continu",
+                "semestre": "S4"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Cinématique",
-          "Statique",
-          "Dynamique",
-          "Énergétique",
-          "Modélisation des signaux"
         ]
       },
       {
-        "titre_partie": "V Mise en place de l'asservissement",
+        "titre_partie": "V Asservissement et performance",
         "questions": [
           {
             "numero": "Q30",
             "mots_cles": [
               {
-                "theme": "Asservissement : Schéma-blocs",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
@@ -330,7 +328,7 @@
             "numero": "Q31",
             "mots_cles": [
               {
-                "theme": "Asservissement : Schéma-blocs",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
@@ -339,7 +337,7 @@
             "numero": "Q32",
             "mots_cles": [
               {
-                "theme": "Asservissement : Précision",
+                "theme_sous_theme": "Asservissement : Précision",
                 "semestre": "S2"
               }
             ]
@@ -348,28 +346,24 @@
             "numero": "Q33",
             "mots_cles": [
               {
-                "theme": "Asservissement : Stabilité",
+                "theme_sous_theme": "Asservissement : Rapidité",
                 "semestre": "S2"
               },
               {
-                "theme": "Asservissement : Rapidité",
+                "theme_sous_theme": "Asservissement : Stabilité",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Précision",
                 "semestre": "S2"
               }
             ]
-          }
-        ],
-        "themes_partie": [
-          "Asservissement"
-        ]
-      },
-      {
-        "titre_partie": "VI Synthèse",
-        "questions": [
+          },
           {
             "numero": "Q34",
             "mots_cles": [
               {
-                "theme": "Asservissement : Schéma-blocs",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
@@ -378,8 +372,8 @@
             "numero": "Q35",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : Temporel",
-                "semestre": "S2"
+                "theme_sous_theme": "Ingénierie Système : Chaîne d'information",
+                "semestre": "S1"
               }
             ]
           },
@@ -387,19 +381,19 @@
             "numero": "Q36",
             "mots_cles": [
               {
-                "theme": "Ingénierie Système : Cahier des charges",
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
                 "semestre": "S1"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Asservissement",
-          "Modélisation des signaux",
-          "Ingénierie Système"
         ]
       }
     ],
-    "ajouts": []
+    "ajouts": [
+      {
+        "theme_sous_theme": "Perception Humaine : Seuils de détection",
+        "semestre": "S1"
+      }
+    ]
   }
 }

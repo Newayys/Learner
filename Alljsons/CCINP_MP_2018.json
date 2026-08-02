@@ -4,17 +4,25 @@
   "date": "2018",
   "file": "CCINP_MP_2018.pdf",
   "status": 200,
-  "time_s": 523.24,
+  "time_s": 36.56,
   "data": {
     "parties": [
       {
-        "titre_partie": "Partie I - Modélisation du comportement du moteur de coupe",
+        "titre_partie": "I.1 - Modélisation du comportement du moteur",
         "questions": [
           {
             "numero": "Q1",
             "mots_cles": [
               {
-                "theme": "Asservissement : Schéma-blocs",
+                "theme_sous_theme": "Ingénierie Système : Chaîne d'information",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Ingénierie Système : Chaîne d'énergie",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
@@ -23,11 +31,11 @@
             "numero": "Q2",
             "mots_cles": [
               {
-                "theme": "Asservissement : Laplace",
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
                 "semestre": "S2"
               },
               {
-                "theme": "Asservissement : Fonction de transfert",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
@@ -36,17 +44,34 @@
             "numero": "Q3",
             "mots_cles": [
               {
-                "theme": "Asservissement : Fonction de transfert",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
                 "semestre": "S2"
               }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "titre_partie": "I.2 - Acquisition et exploitation des informations issues de la partie opérative",
+        "questions": [
           {
             "numero": "Q4",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : Temporel",
+                "theme_sous_theme": "Dimensionnement : Capteurs",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Traitement de l'information : Échantillonnage et quantification",
                 "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Cinématique : Vitesses",
+                "semestre": "S1"
               }
             ]
           },
@@ -54,8 +79,16 @@
             "numero": "Q5",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : Temporel",
+                "theme_sous_theme": "Dimensionnement : Capteurs",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Traitement de l'information : Échantillonnage et quantification",
                 "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Cinématique : Vitesses",
+                "semestre": "S1"
               }
             ]
           },
@@ -63,8 +96,12 @@
             "numero": "Q6",
             "mots_cles": [
               {
-                "theme": "Systèmes séquentiels et SED : Diagramme d'états",
+                "theme_sous_theme": "Systèmes séquentiels : Diagramme d'états",
                 "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Traitement de l'information : Échantillonnage et quantification",
+                "semestre": "S2"
               }
             ]
           },
@@ -72,16 +109,37 @@
             "numero": "Q7",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : Temporel",
+                "theme_sous_theme": "Dimensionnement : Capteurs",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Traitement de l'information : Échantillonnage et quantification",
                 "semestre": "S2"
               }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "titre_partie": "I.3 - Optimisation des performances de l’asservissement en vitesse du moteur",
+        "questions": [
           {
             "numero": "Q8",
             "mots_cles": [
               {
-                "theme": "Asservissement : Correcteur Proportionnel et intégral",
+                "theme_sous_theme": "Correcteurs : Proportionnel-intégral",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Rapidité",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Précision",
                 "semestre": "S2"
               }
             ]
@@ -90,7 +148,15 @@
             "numero": "Q9",
             "mots_cles": [
               {
-                "theme": "Asservissement : Correcteur Proportionnel et intégral",
+                "theme_sous_theme": "Correcteurs : Proportionnel",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Rapidité",
                 "semestre": "S2"
               }
             ]
@@ -99,34 +165,29 @@
             "numero": "Q10",
             "mots_cles": [
               {
-                "theme": "Asservissement : Stabilité",
+                "theme_sous_theme": "Asservissement : Précision",
                 "semestre": "S2"
               },
               {
-                "theme": "Asservissement : Précision",
+                "theme_sous_theme": "Asservissement : Rapidité",
                 "semestre": "S2"
               },
               {
-                "theme": "Asservissement : Rapidité",
-                "semestre": "S2"
+                "theme_sous_theme": "Correcteurs : Proportionnel-intégral",
+                "semestre": "S4"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Asservissement",
-          "Modélisation des signaux",
-          "Systèmes séquentiels et SED"
         ]
       },
       {
-        "titre_partie": "Partie II - Optimisation de la réalisation d'un patron (partie informatique)",
+        "titre_partie": "II - Informatique (partie non numérotée dans le sujet)",
         "questions": [
           {
             "numero": "Q11",
             "mots_cles": [
               {
-                "theme": "Informatique et Algorithmique : Python",
+                "theme_sous_theme": "Informatique : Algorithmique",
                 "semestre": "S1"
               }
             ]
@@ -135,7 +196,7 @@
             "numero": "Q12",
             "mots_cles": [
               {
-                "theme": "Informatique et Algorithmique : Python",
+                "theme_sous_theme": "Informatique : Algorithmique",
                 "semestre": "S1"
               }
             ]
@@ -144,7 +205,7 @@
             "numero": "Q13",
             "mots_cles": [
               {
-                "theme": "Informatique et Algorithmique : Python",
+                "theme_sous_theme": "Informatique : Algorithmique",
                 "semestre": "S1"
               }
             ]
@@ -153,7 +214,7 @@
             "numero": "Q14",
             "mots_cles": [
               {
-                "theme": "Informatique et Algorithmique : Python",
+                "theme_sous_theme": "Informatique : Algorithmique",
                 "semestre": "S1"
               }
             ]
@@ -162,7 +223,7 @@
             "numero": "Q15",
             "mots_cles": [
               {
-                "theme": "Informatique et Algorithmique : Python",
+                "theme_sous_theme": "Informatique : Algorithmique",
                 "semestre": "S1"
               }
             ]
@@ -171,24 +232,25 @@
             "numero": "Q16",
             "mots_cles": [
               {
-                "theme": "Informatique et Algorithmique : Python",
+                "theme_sous_theme": "Informatique : Algorithmique",
                 "semestre": "S1"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Informatique et Algorithmique"
         ]
       },
       {
-        "titre_partie": "Partie III - Modélisation du comportement mécanique de la tête de coupe",
+        "titre_partie": "III.1 - Modélisation du comportement cinématique de la tête de coupe",
         "questions": [
           {
             "numero": "Q17",
             "mots_cles": [
               {
-                "theme": "Cinématique : Fermeture géométrique",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Cinématique : Fermeture géométrique",
                 "semestre": "S1"
               }
             ]
@@ -197,7 +259,11 @@
             "numero": "Q18",
             "mots_cles": [
               {
-                "theme": "Cinématique : Fermeture géométrique",
+                "theme_sous_theme": "Cinématique : Fermeture géométrique",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
               }
             ]
@@ -206,7 +272,7 @@
             "numero": "Q19",
             "mots_cles": [
               {
-                "theme": "Cinématique : Vitesses",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
               }
             ]
@@ -215,7 +281,7 @@
             "numero": "Q20",
             "mots_cles": [
               {
-                "theme": "Cinématique : Fermeture géométrique",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
               }
             ]
@@ -224,7 +290,7 @@
             "numero": "Q21",
             "mots_cles": [
               {
-                "theme": "Cinématique : Vitesses",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
               }
             ]
@@ -233,7 +299,11 @@
             "numero": "Q22",
             "mots_cles": [
               {
-                "theme": "Cinématique : Vitesses",
+                "theme_sous_theme": "Cinématique : Vitesses",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
               }
             ]
@@ -242,17 +312,22 @@
             "numero": "Q23",
             "mots_cles": [
               {
-                "theme": "Cinématique : Vitesses",
+                "theme_sous_theme": "Cinématique : Vitesses",
                 "semestre": "S1"
               }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "titre_partie": "III.2 - Modélisation du comportement dynamique de la tête de coupe",
+        "questions": [
           {
             "numero": "Q24",
             "mots_cles": [
               {
-                "theme": "Dynamique : PFD",
-                "semestre": "S3"
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
+                "semestre": "S2"
               }
             ]
           },
@@ -260,8 +335,8 @@
             "numero": "Q25",
             "mots_cles": [
               {
-                "theme": "Dynamique : PFD",
-                "semestre": "S3"
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
               }
             ]
           },
@@ -269,8 +344,16 @@
             "numero": "Q26",
             "mots_cles": [
               {
-                "theme": "Énergétique : Théorème de l'Énergie Cinétique",
+                "theme_sous_theme": "Dynamique : Géométrie des masses",
                 "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Énergétique : Théorème de l'énergie cinétique",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Cinématique : Vitesses",
+                "semestre": "S1"
               }
             ]
           },
@@ -278,7 +361,11 @@
             "numero": "Q27",
             "mots_cles": [
               {
-                "theme": "Énergétique : Théorème de l'Énergie Cinétique",
+                "theme_sous_theme": "Énergétique : Théorème de l'énergie cinétique",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Énergétique : Inertie équivalente",
                 "semestre": "S3"
               }
             ]
@@ -287,7 +374,11 @@
             "numero": "Q28",
             "mots_cles": [
               {
-                "theme": "Énergétique : Puissance",
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
                 "semestre": "S3"
               }
             ]
@@ -296,7 +387,11 @@
             "numero": "Q29",
             "mots_cles": [
               {
-                "theme": "Énergétique : Théorème de l'Énergie Cinétique",
+                "theme_sous_theme": "Énergétique : Théorème de l'énergie cinétique",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
                 "semestre": "S3"
               }
             ]
@@ -305,7 +400,7 @@
             "numero": "Q30",
             "mots_cles": [
               {
-                "theme": "Énergétique : Théorème de l'Énergie Cinétique",
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
                 "semestre": "S3"
               }
             ]
@@ -314,26 +409,21 @@
             "numero": "Q31",
             "mots_cles": [
               {
-                "theme": "Énergétique : Théorème de l'Énergie Cinétique",
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
                 "semestre": "S3"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Cinématique",
-          "Dynamique",
-          "Énergétique"
         ]
       },
       {
-        "titre_partie": "Partie IV - Optimisation du comportement dynamique de la tête de coupe",
+        "titre_partie": "IV.1 - Analyse théorique du phénomène vibratoire",
         "questions": [
           {
             "numero": "Q32",
             "mots_cles": [
               {
-                "theme": "Cinématique : Vitesses",
+                "theme_sous_theme": "Cinématique : Vitesses",
                 "semestre": "S1"
               }
             ]
@@ -342,7 +432,11 @@
             "numero": "Q33",
             "mots_cles": [
               {
-                "theme": "Dynamique : Torseur dynamique",
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Dynamique : Géométrie des masses",
                 "semestre": "S3"
               }
             ]
@@ -351,7 +445,11 @@
             "numero": "Q34",
             "mots_cles": [
               {
-                "theme": "Dynamique : Torseur dynamique",
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Dynamique : Géométrie des masses",
                 "semestre": "S3"
               }
             ]
@@ -360,16 +458,25 @@
             "numero": "Q35",
             "mots_cles": [
               {
-                "theme": "Dynamique : Torseur dynamique",
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
                 "semestre": "S3"
               }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "titre_partie": "IV.2 - Modélisation du comportement mécanique de la tête de coupe en version améliorée",
+        "questions": [
           {
             "numero": "Q36",
             "mots_cles": [
               {
-                "theme": "Cinématique : Lois entrée-sortie",
+                "theme_sous_theme": "Transmissions mécaniques : Engrenages",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
                 "semestre": "S1"
               }
             ]
@@ -378,7 +485,7 @@
             "numero": "Q37",
             "mots_cles": [
               {
-                "theme": "Dynamique : Torseur dynamique",
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
                 "semestre": "S3"
               }
             ]
@@ -387,7 +494,7 @@
             "numero": "Q38",
             "mots_cles": [
               {
-                "theme": "Dynamique : Torseur dynamique",
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
                 "semestre": "S3"
               }
             ]
@@ -396,7 +503,11 @@
             "numero": "Q39",
             "mots_cles": [
               {
-                "theme": "Dynamique : Torseur dynamique",
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Dynamique : Géométrie des masses",
                 "semestre": "S3"
               }
             ]
@@ -405,7 +516,7 @@
             "numero": "Q40",
             "mots_cles": [
               {
-                "theme": "Dynamique : Torseur dynamique",
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
                 "semestre": "S3"
               }
             ]
@@ -414,16 +525,25 @@
             "numero": "Q41",
             "mots_cles": [
               {
-                "theme": "Dynamique : Torseur dynamique",
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
                 "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
               }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "titre_partie": "IV.3 - Validation de l’amélioration de la tête de coupe",
+        "questions": [
           {
             "numero": "Q42",
             "mots_cles": [
               {
-                "theme": "Dynamique : Torseur dynamique",
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
                 "semestre": "S3"
               }
             ]
@@ -432,25 +552,33 @@
             "numero": "Q43",
             "mots_cles": [
               {
-                "theme": "Dynamique : Torseur dynamique",
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
                 "semestre": "S3"
               }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "titre_partie": "Synthèse",
+        "questions": [
           {
             "numero": "Q44",
             "mots_cles": [
               {
-                "theme": "Ingénierie Système : Cahier des charges",
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
                 "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+                "semestre": "S3"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Cinématique",
-          "Dynamique",
-          "Ingénierie Système"
         ]
       }
     ],

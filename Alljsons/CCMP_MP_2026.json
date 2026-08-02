@@ -2,9 +2,9 @@
   "concours": "CCMP",
   "filiere": "MP",
   "date": "2026",
-  "file": "CCMP_MP_2026.json",
+  "file": "CCMP_MP_2026.pdf",
   "status": 200,
-  "time_s": 551.66,
+  "time_s": 31.04,
   "data": {
     "parties": [
       {
@@ -12,278 +12,336 @@
         "questions": []
       },
       {
-        "titre_partie": "Restriction du cadre de l'étude",
-        "questions": [
-          {
-            "numero": "Question 1",
-            "mots_cles": [
-              {
-                "theme": "Cinématique : Fermeture géométrique",
-                "semestre": "S1"
-              }
-            ]
-          }
-        ],
-        "themes_partie": [
-          "Cinématique"
-        ]
+        "titre_partie": "Restriction du cadre de l’étude",
+        "questions": []
       },
       {
-        "titre_partie": "Étude de la durée d'un cycle de gravure pour l'axe X",
+        "titre_partie": "Étude de la durée d’un cycle de gravure pour l’axe X (exigence 1.1)",
         "questions": [
           {
-            "numero": "Question 2",
+            "numero": "2",
             "mots_cles": [
               {
-                "theme": "Cinématique : Profils trapèze",
+                "theme_sous_theme": "Cinématique : Accélérations",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Cinématique : Vitesses",
                 "semestre": "S1"
               }
             ]
           },
           {
-            "numero": "Question 3",
+            "numero": "3",
             "mots_cles": [
               {
-                "theme": "Cinématique : Vitesses",
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Cinématique : Accélérations",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Cinématique : Vitesses",
                 "semestre": "S1"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Cinématique"
         ]
       },
       {
-        "titre_partie": "Comparaison entre MLS et (moteur rotatif + système vis-écrou)",
+        "titre_partie": "Comparaison entre MLS et (moteur rotatif + système vis-écrou) (exigences 1.2.1 et 1.2.2)",
         "questions": [
           {
-            "numero": "Question 4",
+            "numero": "4",
             "mots_cles": [
               {
-                "theme": "Dynamique : Géométrie des masses",
+                "theme_sous_theme": "Énergétique : Inertie équivalente",
                 "semestre": "S3"
               }
             ]
           },
           {
-            "numero": "Question 5",
+            "numero": "5",
             "mots_cles": [
               {
-                "theme": "Dynamique : Géométrie des masses",
-                "semestre": "S3"
-              }
-            ]
-          }
-        ],
-        "themes_partie": [
-          "Dynamique"
-        ]
-      },
-      {
-        "titre_partie": "Dimensionnement d'un MLS",
-        "questions": [
-          {
-            "numero": "Question 6",
-            "mots_cles": [
-              {
-                "theme": "Dynamique : PFD",
-                "semestre": "S3"
-              }
-            ]
-          },
-          {
-            "numero": "Question 7",
-            "mots_cles": [
-              {
-                "theme": "Dynamique : PFD",
-                "semestre": "S3"
-              }
-            ]
-          },
-          {
-            "numero": "Question 8",
-            "mots_cles": [
-              {
-                "theme": "Dynamique : PFD",
-                "semestre": "S3"
-              }
-            ]
-          },
-          {
-            "numero": "Question 9",
-            "mots_cles": [
-              {
-                "theme": "Dynamique : Torseur dynamique",
-                "semestre": "S3"
-              }
-            ]
-          },
-          {
-            "numero": "Question 10",
-            "mots_cles": [
-              {
-                "theme": "Dynamique : Torseur dynamique",
-                "semestre": "S3"
-              }
-            ]
-          },
-          {
-            "numero": "Question 11",
-            "mots_cles": [
-              {
-                "theme": "Dynamique : Torseur dynamique",
-                "semestre": "S3"
-              }
-            ]
-          }
-        ],
-        "themes_partie": [
-          "Dynamique"
-        ]
-      },
-      {
-        "titre_partie": "Étude du synchronisme pour un MLS",
-        "questions": [
-          {
-            "numero": "Question 12",
-            "mots_cles": [
-              {
-                "theme": "Machines électriques : Synchrone",
-                "semestre": "S4"
-              }
-            ]
-          },
-          {
-            "numero": "Question 13",
-            "mots_cles": [
-              {
-                "theme": "Machines électriques : Synchrone",
-                "semestre": "S4"
-              }
-            ]
-          },
-          {
-            "numero": "Question 14",
-            "mots_cles": [
-              {
-                "theme": "Machines électriques : Synchrone",
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
                 "semestre": "S4"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Machines électriques"
         ]
       },
       {
-        "titre_partie": "Conception de l'asservissement d'un MLS",
+        "titre_partie": "Dimensionnement d’un MLS (exigence 1.2.2)",
         "questions": [
           {
-            "numero": "Question 15",
+            "numero": "6",
             "mots_cles": [
               {
-                "theme": "Asservissement : Schéma-blocs, Laplace, Fonction de transfert",
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "7",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Énergétique : Théorème de l'énergie cinétique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "8",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "9",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Statique : Liaisons équivalentes",
                 "semestre": "S2"
               }
             ]
           },
           {
-            "numero": "Question 16",
+            "numero": "10",
             "mots_cles": [
               {
-                "theme": "Asservissement : Précision",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Question 17",
-            "mots_cles": [
-              {
-                "theme": "Asservissement : Précision",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Question 18",
-            "mots_cles": [
-              {
-                "theme": "Asservissement : Schéma-blocs, Laplace, Fonction de transfert",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Question 19",
-            "mots_cles": [
-              {
-                "theme": "Asservissement : Stabilité",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Question 20",
-            "mots_cles": [
-              {
-                "theme": "Asservissement : Précision",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Question 21",
-            "mots_cles": [
-              {
-                "theme": "Asservissement : Schéma-blocs, Laplace, Fonction de transfert",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Question 22",
-            "mots_cles": [
-              {
-                "theme": "Asservissement : Correcteur avance de phase",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Question 23",
-            "mots_cles": [
-              {
-                "theme": "Asservissement : Correcteur avance de phase",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Question 24",
-            "mots_cles": [
-              {
-                "theme": "Asservissement : Rapidité",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
                 "semestre": "S2"
               },
               {
-                "theme": "Asservissement : Précision",
+                "theme_sous_theme": "Statique : Hyperstatisme",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "11",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+                "semestre": "S4"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titre_partie": "Étude du synchronisme pour un MLS (exigence 1.2.3)",
+        "questions": [
+          {
+            "numero": "12",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Machines électriques : Machine synchrone",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "13",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Machines électriques : Machine synchrone",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "14",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Machines électriques : Machine synchrone",
+                "semestre": "S4"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titre_partie": "Conception de l’asservissement d’un MLS (exigences 1.2.4 et 1.2.5)",
+        "questions": [
+          {
+            "numero": "15",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "16",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Asservissement : Précision",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Correcteurs : Proportionnel",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "17",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Asservissement : Précision",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Correcteurs : Proportionnel-intégral",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "18",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Rapidité",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "19",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Rapidité",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Précision",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "20",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Asservissement : Précision",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Correcteurs : Avance de phase",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "21",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Correcteurs : Avance de phase",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "22",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Correcteurs : Avance de phase",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Stabilité",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "23",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Correcteurs : Avance de phase",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Stabilité",
                 "semestre": "S2"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Asservissement"
         ]
       },
       {
         "titre_partie": "Synthèse",
-        "questions": []
+        "questions": [
+          {
+            "numero": "24",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Asservissement : Rapidité",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
+              }
+            ]
+          }
+        ]
       }
     ],
-    "ajouts": []
+    "ajouts": [
+      {
+        "theme_sous_theme": "Procédés : Gravure laser",
+        "semestre": "S3"
+      },
+      {
+        "theme_sous_theme": "Optique : Propagation et réflexion",
+        "semestre": "S1"
+      }
+    ]
   }
 }

@@ -4,24 +4,21 @@
   "date": "2014",
   "file": "CCINP_MP_2014.pdf",
   "status": 200,
-  "time_s": 389.45,
+  "time_s": 30.03,
   "data": {
     "parties": [
       {
         "titre_partie": "Partie I : PRESENTATION",
         "questions": [
           {
-            "numero": "I.1",
+            "numero": "1.1",
             "mots_cles": [
               {
-                "theme": "Ingénierie Système : Chaînes d'énergie",
+                "theme_sous_theme": "Ingénierie Système : Chaîne d'énergie",
                 "semestre": "S1"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Ingénierie Système"
         ]
       },
       {
@@ -31,7 +28,7 @@
             "numero": "II.2",
             "mots_cles": [
               {
-                "theme": "Énergétique : Puissance",
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
                 "semestre": "S3"
               }
             ]
@@ -40,7 +37,7 @@
             "numero": "II.3",
             "mots_cles": [
               {
-                "theme": "Énergétique : Rendement",
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
                 "semestre": "S3"
               }
             ]
@@ -49,7 +46,7 @@
             "numero": "II.4",
             "mots_cles": [
               {
-                "theme": "Énergétique : Rendement",
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
                 "semestre": "S3"
               }
             ]
@@ -58,8 +55,12 @@
             "numero": "II.5",
             "mots_cles": [
               {
-                "theme": "Énergétique : Puissance",
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
                 "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Machines électriques : Machine asynchrone",
+                "semestre": "S4"
               }
             ]
           },
@@ -67,7 +68,7 @@
             "numero": "II.6",
             "mots_cles": [
               {
-                "theme": "Énergétique : Puissance",
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
                 "semestre": "S3"
               }
             ]
@@ -76,7 +77,7 @@
             "numero": "II.7",
             "mots_cles": [
               {
-                "theme": "Systèmes séquentiels et SED : Diagramme d'états",
+                "theme_sous_theme": "Systèmes séquentiels : Diagramme d'états",
                 "semestre": "S1"
               }
             ]
@@ -85,15 +86,11 @@
             "numero": "II.8",
             "mots_cles": [
               {
-                "theme": "Systèmes séquentiels et SED : Diagramme d'états",
+                "theme_sous_theme": "Systèmes séquentiels : Diagramme d'états",
                 "semestre": "S1"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Énergétique",
-          "Systèmes séquentiels et SED"
         ]
       },
       {
@@ -103,7 +100,7 @@
             "numero": "III.9",
             "mots_cles": [
               {
-                "theme": "Asservissement : Fonction de transfert",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
@@ -112,7 +109,7 @@
             "numero": "III.10",
             "mots_cles": [
               {
-                "theme": "Asservissement : Fonction de transfert",
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
                 "semestre": "S2"
               }
             ]
@@ -121,7 +118,7 @@
             "numero": "III.11",
             "mots_cles": [
               {
-                "theme": "Asservissement : Fonction de transfert",
+                "theme_sous_theme": "Asservissement : Précision",
                 "semestre": "S2"
               }
             ]
@@ -130,7 +127,11 @@
             "numero": "III.12",
             "mots_cles": [
               {
-                "theme": "Asservissement : Fonction de transfert",
+                "theme_sous_theme": "Asservissement : Précision",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
                 "semestre": "S2"
               }
             ]
@@ -139,7 +140,11 @@
             "numero": "III.13",
             "mots_cles": [
               {
-                "theme": "Asservissement : Correcteur Proportionnel et intégral",
+                "theme_sous_theme": "Correcteurs : Proportionnel-intégral",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Précision",
                 "semestre": "S2"
               }
             ]
@@ -148,11 +153,19 @@
             "numero": "III.14",
             "mots_cles": [
               {
-                "theme": "Asservissement : Rapidité",
+                "theme_sous_theme": "Correcteurs : Proportionnel-intégral",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Rapidité",
                 "semestre": "S2"
               },
               {
-                "theme": "Asservissement : Précision",
+                "theme_sous_theme": "Asservissement : Stabilité",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Précision",
                 "semestre": "S2"
               }
             ]
@@ -161,7 +174,7 @@
             "numero": "III.15",
             "mots_cles": [
               {
-                "theme": "Asservissement : Fonction de transfert",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
@@ -170,19 +183,15 @@
             "numero": "III.16",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : Bode",
+                "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
                 "semestre": "S2"
               },
               {
-                "theme": "Asservissement : Stabilité",
+                "theme_sous_theme": "Asservissement : Stabilité",
                 "semestre": "S2"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Asservissement",
-          "Modélisation des signaux"
         ]
       },
       {
@@ -192,8 +201,12 @@
             "numero": "IV.17",
             "mots_cles": [
               {
-                "theme": "Énergétique : Théorème de l'Énergie Cinétique",
+                "theme_sous_theme": "Énergétique : Théorème de l'énergie cinétique",
                 "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
               }
             ]
           },
@@ -201,7 +214,11 @@
             "numero": "IV.18",
             "mots_cles": [
               {
-                "theme": "Statique : Isostatisme",
+                "theme_sous_theme": "Statique : Isostatisme",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Statique : Liaisons équivalentes",
                 "semestre": "S2"
               }
             ]
@@ -210,7 +227,11 @@
             "numero": "IV.19",
             "mots_cles": [
               {
-                "theme": "Statique : PFS",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Statique : Frottements",
                 "semestre": "S2"
               }
             ]
@@ -219,7 +240,11 @@
             "numero": "IV.20",
             "mots_cles": [
               {
-                "theme": "Statique : PFS",
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
                 "semestre": "S2"
               }
             ]
@@ -228,7 +253,7 @@
             "numero": "IV.21",
             "mots_cles": [
               {
-                "theme": "Ingénierie Système : Cahier des charges",
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
                 "semestre": "S1"
               }
             ]
@@ -237,22 +262,14 @@
             "numero": "IV.22",
             "mots_cles": [
               {
-                "theme": "Ingénierie Système : Cahier des charges",
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
                 "semestre": "S1"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Énergétique",
-          "Statique",
-          "Ingénierie Système"
         ]
       }
     ],
-    "ajouts": [
-      "Asservissement : Amortissement",
-      "Asservissement : Facteur de confort"
-    ]
+    "ajouts": []
   }
 }

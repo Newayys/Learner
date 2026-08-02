@@ -4,337 +4,445 @@
   "date": "2023",
   "file": "Centrale_MP_2023.pdf",
   "status": 200,
-  "time_s": 354.59,
+  "time_s": 33.51,
   "data": {
     "parties": [
       {
         "titre_partie": "I Introduction",
         "questions": [
           {
-            "numero": "Q 1",
+            "numero": "Q1",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : Temporel",
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
                 "semestre": "S2"
               }
             ]
           },
           {
-            "numero": "Q 2",
+            "numero": "Q2",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : Temporel",
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
                 "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Métrologie : Contrôle tridimensionnel",
+                "semestre": "S3"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Modélisation des signaux"
         ]
       },
       {
-        "titre_partie": "II Étude de l'amplitude du déplacement de l'actionneur pour conserver un mouvement naturel",
+        "titre_partie": "II Étude de l’amplitude du déplacement de l’actionneur pour conserver un mouvement naturel",
         "questions": [
           {
-            "numero": "Q 3",
+            "numero": "Q3",
             "mots_cles": [
               {
-                "theme": "Cinématique : Fermeture géométrique",
+                "theme_sous_theme": "Cinématique : Fermeture géométrique",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
               }
             ]
           },
           {
-            "numero": "Q 4",
+            "numero": "Q4",
             "mots_cles": [
               {
-                "theme": "Cinématique : Fermeture géométrique",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Cinématique"
         ]
       },
       {
-        "titre_partie": "III Élaboration du modèle de connaissance d'un actionneur linéaire placé sur un banc d'essai",
+        "titre_partie": "III.A – Étude de la dynamique de l’actionneur linéaire",
         "questions": [
           {
-            "numero": "Q 5",
+            "numero": "Q5",
             "mots_cles": [
               {
-                "theme": "Statique : PFS",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
                 "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Capteurs",
+                "semestre": "S4"
               }
             ]
           },
           {
-            "numero": "Q 6",
+            "numero": "Q6",
             "mots_cles": [
               {
-                "theme": "Transmissions mécaniques : Rapport de réduction",
+                "theme_sous_theme": "Transmissions mécaniques : Engrenages",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Cinématique : Vitesses",
                 "semestre": "S1"
               }
             ]
           },
           {
-            "numero": "Q 7",
+            "numero": "Q7",
             "mots_cles": [
               {
-                "theme": "Énergétique : Théorème de l'Énergie Cinétique",
+                "theme_sous_theme": "Dynamique : Géométrie des masses",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
                 "semestre": "S3"
               }
             ]
           },
           {
-            "numero": "Q 8",
+            "numero": "Q8",
             "mots_cles": [
               {
-                "theme": "Énergétique : Inertie équivalente",
+                "theme_sous_theme": "Énergétique : Inertie équivalente",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Dynamique : Géométrie des masses",
                 "semestre": "S3"
               }
             ]
           },
           {
-            "numero": "Q 9",
+            "numero": "Q9",
             "mots_cles": [
               {
-                "theme": "Énergétique : Puissance",
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
                 "semestre": "S3"
               }
             ]
           },
           {
-            "numero": "Q 10",
+            "numero": "Q10",
             "mots_cles": [
               {
-                "theme": "Énergétique : Puissance",
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
                 "semestre": "S3"
               }
             ]
           },
           {
-            "numero": "Q 11",
+            "numero": "Q11",
             "mots_cles": [
               {
-                "theme": "Cinématique : Vitesses",
+                "theme_sous_theme": "Cinématique : Vitesses",
                 "semestre": "S1"
               }
             ]
           },
           {
-            "numero": "Q 12",
+            "numero": "Q12",
             "mots_cles": [
               {
-                "theme": "Dynamique : PFD",
+                "theme_sous_theme": "Énergétique : Théorème de l'énergie cinétique",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
                 "semestre": "S3"
               }
             ]
           },
           {
-            "numero": "Q 13",
+            "numero": "Q13",
             "mots_cles": [
               {
-                "theme": "Dynamique : PFD",
-                "semestre": "S3"
-              }
-            ]
-          },
-          {
-            "numero": "Q 14",
-            "mots_cles": [
-              {
-                "theme": "Asservissement : Laplace",
+                "theme_sous_theme": "Asservissement : Stabilité",
                 "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Q 15",
-            "mots_cles": [
+              },
               {
-                "theme": "Asservissement : Laplace",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Q 16",
-            "mots_cles": [
-              {
-                "theme": "Asservissement : Stabilité",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Q 17",
-            "mots_cles": [
-              {
-                "theme": "Asservissement : Laplace",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Q 18",
-            "mots_cles": [
-              {
-                "theme": "Asservissement : Stabilité",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Q 19",
-            "mots_cles": [
-              {
-                "theme": "Asservissement : Laplace",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Q 20",
-            "mots_cles": [
-              {
-                "theme": "Asservissement : Laplace",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Q 21",
-            "mots_cles": [
-              {
-                "theme": "Asservissement : Laplace",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Q 22",
-            "mots_cles": [
-              {
-                "theme": "Asservissement : Stabilité",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Q 23",
-            "mots_cles": [
-              {
-                "theme": "Asservissement : Stabilité",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Q 24",
-            "mots_cles": [
-              {
-                "theme": "Informatique et Algorithmique : Fonctions",
-                "semestre": "S1"
-              }
-            ]
-          },
-          {
-            "numero": "Q 25",
-            "mots_cles": [
-              {
-                "theme": "Informatique et Algorithmique : Fonctions",
-                "semestre": "S1"
-              }
-            ]
-          },
-          {
-            "numero": "Q 26",
-            "mots_cles": [
-              {
-                "theme": "Informatique et Algorithmique : Fonctions",
-                "semestre": "S1"
-              }
-            ]
-          },
-          {
-            "numero": "Q 27",
-            "mots_cles": [
-              {
-                "theme": "Informatique et Algorithmique : Fonctions",
-                "semestre": "S1"
-              }
-            ]
-          },
-          {
-            "numero": "Q 28",
-            "mots_cles": [
-              {
-                "theme": "Asservissement : Stabilité",
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
                 "semestre": "S2"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Asservissement",
-          "Dynamique",
-          "Énergétique",
-          "Cinématique",
-          "Statique",
-          "Transmissions mécaniques",
-          "Informatique et Algorithmique"
         ]
       },
       {
-        "titre_partie": "IV Synthèse et ouverture de l'étude",
+        "titre_partie": "III.B – Étude de l’effort d’assistance nécessaire au soutien lombaire",
         "questions": [
           {
-            "numero": "Q 29",
+            "numero": "Q14",
             "mots_cles": [
               {
-                "theme": "Ingénierie Système : Cahier des charges",
-                "semestre": "S1"
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Machines électriques : Machine à courant continu",
+                "semestre": "S4"
               }
             ]
           },
           {
-            "numero": "Q 30",
+            "numero": "Q15",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : Temporel",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
           },
           {
-            "numero": "Q 31",
+            "numero": "Q16",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : Temporel",
+                "theme_sous_theme": "Asservissement : Précision",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
           },
           {
-            "numero": "Q 32",
+            "numero": "Q17",
             "mots_cles": [
               {
-                "theme": "Ingénierie Système : Cahier des charges",
+                "theme_sous_theme": "Correcteurs : Proportionnel-intégral",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Stabilité",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q18",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Correcteurs : Proportionnel-intégral",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q19",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q20",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q21",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q22",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Correcteurs : Proportionnel",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Stabilité",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q23",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Correcteurs : Proportionnel",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Rapidité",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q24",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Informatique : Algorithmique",
                 "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q25",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Informatique : Algorithmique",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q26",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Informatique : Algorithmique",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Correcteurs : Proportionnel",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q27",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Informatique : Algorithmique",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Correcteurs : Proportionnel",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q28",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Asservissement : Rapidité",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Stabilité",
+                "semestre": "S2"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Ingénierie Système",
-          "Modélisation des signaux"
+        ]
+      },
+      {
+        "titre_partie": "IV.A – Validation du modèle de connaissance et de la commande optimisée",
+        "questions": [
+          {
+            "numero": "Q29",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
+                "semestre": "S2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titre_partie": "IV.B – Étude du système perturbé",
+        "questions": [
+          {
+            "numero": "Q30",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q31",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Asservissement : Stabilité",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Précision",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q32",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Ingénierie Système : Chaîne d'information",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Métrologie : Contrôle tridimensionnel",
+                "semestre": "S3"
+              }
+            ]
+          }
         ]
       }
     ],
-    "ajouts": []
+    "ajouts": [
+      {
+        "theme_sous_theme": "Dimensionnement : Ressorts",
+        "semestre": "S4"
+      },
+      {
+        "theme_sous_theme": "Énergétique : Pertes par frottement",
+        "semestre": "S3"
+      },
+      {
+        "theme_sous_theme": "Dynamique : Équilibrage",
+        "semestre": "S3"
+      }
+    ]
   }
 }

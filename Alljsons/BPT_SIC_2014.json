@@ -4,18 +4,22 @@
   "date": "2014",
   "file": "BPT_SIC_2014.pdf",
   "status": 200,
-  "time_s": 311.98,
+  "time_s": 38.42,
   "data": {
     "parties": [
       {
-        "titre_partie": "I. Etude des phases de fonctionnement de l'éolienne",
+        "titre_partie": "1. Etude des phases de fonctionnement de l'éolienne (FT1.1.2 et FT1.1.3)",
         "questions": [
           {
             "numero": "I.1",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Capteurs",
+                "theme_sous_theme": "Dimensionnement : Capteurs",
                 "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Ingénierie Système : Chaîne d'information",
+                "semestre": "S1"
               }
             ]
           },
@@ -23,7 +27,7 @@
             "numero": "I.2",
             "mots_cles": [
               {
-                "theme": "Systèmes séquentiels et SED : Diagramme d'états",
+                "theme_sous_theme": "Ingénierie Système : Chaîne d'information",
                 "semestre": "S1"
               }
             ]
@@ -32,7 +36,11 @@
             "numero": "I.3",
             "mots_cles": [
               {
-                "theme": "Systèmes séquentiels et SED : Diagramme d'états",
+                "theme_sous_theme": "Systèmes séquentiels : Diagramme d'états",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Ingénierie Système : Chaîne d'information",
                 "semestre": "S1"
               }
             ]
@@ -41,26 +49,26 @@
             "numero": "I.4",
             "mots_cles": [
               {
-                "theme": "Systèmes séquentiels et SED : Diagramme d'états",
+                "theme_sous_theme": "Systèmes séquentiels : Diagramme d'états",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Ingénierie Système : Chaîne d'information",
                 "semestre": "S1"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Systèmes séquentiels et SED",
-          "Dimensionnement"
         ]
       },
       {
-        "titre_partie": "II. Conversion de l'énergie éolienne en énergie mécanique",
+        "titre_partie": "II. Conversion de l'énergie éolienne en énergie mécanique (FT1.1.1)",
         "questions": [
           {
             "numero": "II.1",
             "mots_cles": [
               {
-                "theme": "Cinématique : Lois entrée-sortie",
-                "semestre": "S1"
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
+                "semestre": "S3"
               }
             ]
           },
@@ -68,7 +76,7 @@
             "numero": "II.2",
             "mots_cles": [
               {
-                "theme": "Énergétique : Puissance",
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
                 "semestre": "S3"
               }
             ]
@@ -77,7 +85,7 @@
             "numero": "II.3",
             "mots_cles": [
               {
-                "theme": "Énergétique : Puissance",
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
                 "semestre": "S3"
               }
             ]
@@ -86,7 +94,7 @@
             "numero": "II.4",
             "mots_cles": [
               {
-                "theme": "Cinématique : Vitesses",
+                "theme_sous_theme": "Cinématique : Vitesses",
                 "semestre": "S1"
               }
             ]
@@ -95,7 +103,7 @@
             "numero": "II.5",
             "mots_cles": [
               {
-                "theme": "Cinématique : Vitesses",
+                "theme_sous_theme": "Cinématique : Vitesses",
                 "semestre": "S1"
               }
             ]
@@ -104,7 +112,7 @@
             "numero": "II.6",
             "mots_cles": [
               {
-                "theme": "Statique : Actions réparties",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
                 "semestre": "S2"
               }
             ]
@@ -113,7 +121,7 @@
             "numero": "II.7",
             "mots_cles": [
               {
-                "theme": "Statique : Actions réparties",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
                 "semestre": "S2"
               }
             ]
@@ -122,7 +130,7 @@
             "numero": "II.8",
             "mots_cles": [
               {
-                "theme": "Cinématique : Vitesses",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
               }
             ]
@@ -131,7 +139,11 @@
             "numero": "II.9",
             "mots_cles": [
               {
-                "theme": "Dynamique : Géométrie des masses",
+                "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Dynamique : Géométrie des masses",
                 "semestre": "S3"
               }
             ]
@@ -140,7 +152,11 @@
             "numero": "II.10",
             "mots_cles": [
               {
-                "theme": "Matériaux : Choix",
+                "theme_sous_theme": "Matériaux : Choix",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
                 "semestre": "S3"
               }
             ]
@@ -149,7 +165,7 @@
             "numero": "II.11",
             "mots_cles": [
               {
-                "theme": "Matériaux : Choix",
+                "theme_sous_theme": "Matériaux : Choix",
                 "semestre": "S3"
               }
             ]
@@ -158,29 +174,25 @@
             "numero": "II.12",
             "mots_cles": [
               {
-                "theme": "Procédés de fabrication : Composite",
-                "semestre": "S3"
+                "theme_sous_theme": "Procédés : Composites",
+                "semestre": "S2"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Cinématique",
-          "Énergétique",
-          "Statique",
-          "Dynamique",
-          "Matériaux",
-          "Procédés de fabrication"
         ]
       },
       {
-        "titre_partie": "III. Transmission du couple par le système Pure Torque",
+        "titre_partie": "III. Transmission du couple par le système Pure Torque (FT2, FT1.2)",
         "questions": [
           {
             "numero": "III.1",
             "mots_cles": [
               {
-                "theme": "Statique : Hyperstatisme",
+                "theme_sous_theme": "Statique : Hyperstatisme",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Statique : Liaisons équivalentes",
                 "semestre": "S2"
               }
             ]
@@ -189,7 +201,7 @@
             "numero": "III.2",
             "mots_cles": [
               {
-                "theme": "Statique : PFS",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
                 "semestre": "S2"
               }
             ]
@@ -198,7 +210,7 @@
             "numero": "III.3",
             "mots_cles": [
               {
-                "theme": "Statique : Hyperstatisme",
+                "theme_sous_theme": "Statique : Hyperstatisme",
                 "semestre": "S2"
               }
             ]
@@ -207,7 +219,11 @@
             "numero": "III.4",
             "mots_cles": [
               {
-                "theme": "Statique : Liaisons équivalentes",
+                "theme_sous_theme": "Statique : Liaisons équivalentes",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
                 "semestre": "S2"
               }
             ]
@@ -216,7 +232,7 @@
             "numero": "III.5",
             "mots_cles": [
               {
-                "theme": "Statique : Liaisons équivalentes",
+                "theme_sous_theme": "Statique : Hyperstatisme",
                 "semestre": "S2"
               }
             ]
@@ -225,8 +241,8 @@
             "numero": "III.6",
             "mots_cles": [
               {
-                "theme": "Conception",
-                "semestre": "Ajout"
+                "theme_sous_theme": "Transmissions mécaniques : Engrenages",
+                "semestre": "S1"
               }
             ]
           },
@@ -234,7 +250,7 @@
             "numero": "III.7",
             "mots_cles": [
               {
-                "theme": "Statique : Hyperstatisme",
+                "theme_sous_theme": "Statique : Hyperstatisme",
                 "semestre": "S2"
               }
             ]
@@ -243,7 +259,7 @@
             "numero": "III.8",
             "mots_cles": [
               {
-                "theme": "Statique : Liaisons équivalentes",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
                 "semestre": "S2"
               }
             ]
@@ -252,7 +268,7 @@
             "numero": "III.9",
             "mots_cles": [
               {
-                "theme": "Statique : Liaisons équivalentes",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
                 "semestre": "S2"
               }
             ]
@@ -261,7 +277,7 @@
             "numero": "III.10",
             "mots_cles": [
               {
-                "theme": "Cinématique : Lois entrée-sortie",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
               }
             ]
@@ -270,8 +286,8 @@
             "numero": "III.11",
             "mots_cles": [
               {
-                "theme": "Dynamique : Torseur dynamique",
-                "semestre": "S3"
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
               }
             ]
           },
@@ -279,8 +295,8 @@
             "numero": "III.12",
             "mots_cles": [
               {
-                "theme": "Statique : Actions réparties",
-                "semestre": "S2"
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+                "semestre": "S4"
               }
             ]
           },
@@ -288,8 +304,8 @@
             "numero": "III.13",
             "mots_cles": [
               {
-                "theme": "Statique : Actions réparties",
-                "semestre": "S2"
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+                "semestre": "S4"
               }
             ]
           },
@@ -297,8 +313,8 @@
             "numero": "III.14",
             "mots_cles": [
               {
-                "theme": "Dynamique : Torseur dynamique",
-                "semestre": "S3"
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+                "semestre": "S4"
               }
             ]
           },
@@ -306,8 +322,8 @@
             "numero": "III.15",
             "mots_cles": [
               {
-                "theme": "Énergétique : Puissance",
-                "semestre": "S3"
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
+                "semestre": "S2"
               }
             ]
           },
@@ -315,8 +331,8 @@
             "numero": "III.16",
             "mots_cles": [
               {
-                "theme": "Énergétique : Puissance",
-                "semestre": "S3"
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
               }
             ]
           },
@@ -324,28 +340,21 @@
             "numero": "III.17",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Liaisons",
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
                 "semestre": "S4"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Statique",
-          "Cinématique",
-          "Dynamique",
-          "Énergétique",
-          "Dimensionnement"
         ]
       },
       {
-        "titre_partie": "IV. Etude de la conception et de la fabrication du hub",
+        "titre_partie": "IV. Etude de la conception et de la fabrication du hub (FT1.2)",
         "questions": [
           {
             "numero": "IV.1",
             "mots_cles": [
               {
-                "theme": "Matériaux : Choix",
+                "theme_sous_theme": "Matériaux : Propriétés physiques et mécaniques",
                 "semestre": "S3"
               }
             ]
@@ -354,7 +363,7 @@
             "numero": "IV.2",
             "mots_cles": [
               {
-                "theme": "Matériaux : Propriétés",
+                "theme_sous_theme": "Matériaux : Propriétés physiques et mécaniques",
                 "semestre": "S3"
               }
             ]
@@ -363,7 +372,7 @@
             "numero": "IV.3",
             "mots_cles": [
               {
-                "theme": "Procédés de fabrication : Métallurgie",
+                "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
                 "semestre": "S3"
               }
             ]
@@ -372,7 +381,7 @@
             "numero": "IV.4",
             "mots_cles": [
               {
-                "theme": "Spécifications géométriques : Tolérancement",
+                "theme_sous_theme": "Spécifications géométriques : Tolérancement",
                 "semestre": "S2"
               }
             ]
@@ -381,8 +390,8 @@
             "numero": "IV.5",
             "mots_cles": [
               {
-                "theme": "Procédés de fabrication : Métallurgie",
-                "semestre": "S3"
+                "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+                "semestre": "S2"
               }
             ]
           },
@@ -390,7 +399,7 @@
             "numero": "IV.6",
             "mots_cles": [
               {
-                "theme": "Procédés de fabrication : Usinage",
+                "theme_sous_theme": "Procédés : Usinage",
                 "semestre": "S3"
               }
             ]
@@ -399,7 +408,7 @@
             "numero": "IV.7",
             "mots_cles": [
               {
-                "theme": "Procédés de fabrication : Usinage",
+                "theme_sous_theme": "Procédés : Usinage",
                 "semestre": "S3"
               }
             ]
@@ -408,7 +417,7 @@
             "numero": "IV.8",
             "mots_cles": [
               {
-                "theme": "Procédés de fabrication : Usinage",
+                "theme_sous_theme": "Procédés : Usinage",
                 "semestre": "S3"
               }
             ]
@@ -417,7 +426,11 @@
             "numero": "IV.9",
             "mots_cles": [
               {
-                "theme": "Énergétique : Puissance",
+                "theme_sous_theme": "Procédés : Usinage",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
                 "semestre": "S3"
               }
             ]
@@ -426,7 +439,7 @@
             "numero": "IV.10",
             "mots_cles": [
               {
-                "theme": "Procédés de fabrication : Usinage",
+                "theme_sous_theme": "Procédés : Usinage",
                 "semestre": "S3"
               }
             ]
@@ -435,27 +448,21 @@
             "numero": "IV.11",
             "mots_cles": [
               {
-                "theme": "Procédés de fabrication : Usinage",
+                "theme_sous_theme": "Procédés : Usinage",
                 "semestre": "S3"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Matériaux",
-          "Procédés de fabrication",
-          "Spécifications géométriques",
-          "Énergétique"
         ]
       },
       {
-        "titre_partie": "V. Conception des liaisons du hub avec l'arbre et le rotor",
+        "titre_partie": "V. Conception des liaisons du hub avec l'arbre et le rotor (FT2 et FT1.2)",
         "questions": [
           {
             "numero": "V.1",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Paliers lisses",
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
                 "semestre": "S4"
               }
             ]
@@ -464,7 +471,7 @@
             "numero": "V.2",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Liaisons",
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
                 "semestre": "S4"
               }
             ]
@@ -473,7 +480,7 @@
             "numero": "V.3",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Liaisons",
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
                 "semestre": "S4"
               }
             ]
@@ -482,19 +489,14 @@
             "numero": "V.4",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Liaisons",
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
                 "semestre": "S4"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Dimensionnement"
         ]
       }
     ],
-    "ajouts": [
-      "Conception"
-    ]
+    "ajouts": []
   }
 }

@@ -4,26 +4,35 @@
   "date": "2023",
   "file": "CCINP_PSI_2023.pdf",
   "status": 200,
-  "time_s": 797.44,
+  "time_s": 32.98,
   "data": {
     "parties": [
       {
-        "titre_partie": "Partie 1 - Autonomie du JacXson U70",
+        "titre_partie": "Présentation du produit",
         "questions": [
           {
             "numero": "Q1",
             "mots_cles": [
               {
-                "theme": "Ingénierie Système : Chaînes d'énergie",
+                "theme_sous_theme": "Ingénierie Système : Chaîne d'énergie",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Ingénierie Système : Chaîne d'information",
                 "semestre": "S1"
               }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "titre_partie": "Évaluation des besoins énergétiques",
+        "questions": [
           {
             "numero": "Q2",
             "mots_cles": [
               {
-                "theme": "Traitement de l'information : Échantillonnage",
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
                 "semestre": "S2"
               }
             ]
@@ -32,8 +41,12 @@
             "numero": "Q3",
             "mots_cles": [
               {
-                "theme": "Informatique et Algorithmique : Python",
+                "theme_sous_theme": "Informatique : Algorithmique",
                 "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
+                "semestre": "S3"
               }
             ]
           },
@@ -41,27 +54,25 @@
             "numero": "Q4",
             "mots_cles": [
               {
-                "theme": "Énergétique : Rendement",
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
                 "semestre": "S3"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Ingénierie Système",
-          "Traitement de l'information",
-          "Informatique et Algorithmique",
-          "Énergétique"
         ]
       },
       {
-        "titre_partie": "Partie 2 - Paramètres géométriques d'un ensemble bras élévateur",
+        "titre_partie": "Paramètres géométriques d'un ensemble bras élévateur",
         "questions": [
           {
             "numero": "Q5",
             "mots_cles": [
               {
-                "theme": "Cinématique : Fermeture géométrique",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
               }
             ]
@@ -70,7 +81,7 @@
             "numero": "Q6",
             "mots_cles": [
               {
-                "theme": "Cinématique : Fermeture géométrique",
+                "theme_sous_theme": "Cinématique : Fermeture géométrique",
                 "semestre": "S1"
               }
             ]
@@ -79,33 +90,30 @@
             "numero": "Q7",
             "mots_cles": [
               {
-                "theme": "Cinématique : Fermeture géométrique",
-                "semestre": "S1"
-              }
-            ]
-          }
-        ],
-        "themes_partie": [
-          "Cinématique"
-        ]
-      },
-      {
-        "titre_partie": "Partie 3 - Validation du moteur d'un vérin électrique",
-        "questions": [
-          {
-            "numero": "Q8",
-            "mots_cles": [
-              {
-                "theme": "Dimensionnement : Paliers lisses",
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
                 "semestre": "S4"
               }
             ]
           },
           {
+            "numero": "Q8",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titre_partie": "Validation du moteur d'un vérin électrique",
+        "questions": [
+          {
             "numero": "Q9",
             "mots_cles": [
               {
-                "theme": "Cinématique : Lois entrée-sortie",
+                "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
                 "semestre": "S1"
               }
             ]
@@ -114,7 +122,7 @@
             "numero": "Q10",
             "mots_cles": [
               {
-                "theme": "Cinématique : Torseurs cinématiques",
+                "theme_sous_theme": "Cinématique : Torseur cinématique",
                 "semestre": "S1"
               }
             ]
@@ -123,7 +131,7 @@
             "numero": "Q11",
             "mots_cles": [
               {
-                "theme": "Cinématique : Torseurs cinématiques",
+                "theme_sous_theme": "Cinématique : Vitesses",
                 "semestre": "S1"
               }
             ]
@@ -132,7 +140,11 @@
             "numero": "Q12",
             "mots_cles": [
               {
-                "theme": "Énergétique : Théorème de l'Énergie Cinétique",
+                "theme_sous_theme": "Dynamique : Géométrie des masses",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Énergétique : Théorème de l'énergie cinétique",
                 "semestre": "S3"
               }
             ]
@@ -141,7 +153,7 @@
             "numero": "Q13",
             "mots_cles": [
               {
-                "theme": "Cinématique : Torseurs cinématiques",
+                "theme_sous_theme": "Cinématique : Torseur cinématique",
                 "semestre": "S1"
               }
             ]
@@ -150,7 +162,7 @@
             "numero": "Q14",
             "mots_cles": [
               {
-                "theme": "Dynamique : Torseur dynamique",
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
                 "semestre": "S3"
               }
             ]
@@ -159,7 +171,7 @@
             "numero": "Q15",
             "mots_cles": [
               {
-                "theme": "Dynamique : Torseur dynamique",
+                "theme_sous_theme": "Énergétique : Théorème de l'énergie cinétique",
                 "semestre": "S3"
               }
             ]
@@ -168,11 +180,11 @@
             "numero": "Q16",
             "mots_cles": [
               {
-                "theme": "Cinématique : Torseurs cinématiques",
+                "theme_sous_theme": "Cinématique : Vitesses",
                 "semestre": "S1"
               },
               {
-                "theme": "Dynamique : Torseur dynamique",
+                "theme_sous_theme": "Énergétique : Théorème de l'énergie cinétique",
                 "semestre": "S3"
               }
             ]
@@ -181,7 +193,7 @@
             "numero": "Q17",
             "mots_cles": [
               {
-                "theme": "Dynamique : Torseur dynamique",
+                "theme_sous_theme": "Énergétique : Inertie équivalente",
                 "semestre": "S3"
               }
             ]
@@ -190,7 +202,11 @@
             "numero": "Q18",
             "mots_cles": [
               {
-                "theme": "Énergétique : Puissance",
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
                 "semestre": "S3"
               }
             ]
@@ -199,8 +215,8 @@
             "numero": "Q19",
             "mots_cles": [
               {
-                "theme": "Asservissement : Stabilité",
-                "semestre": "S2"
+                "theme_sous_theme": "Énergétique : Théorème de l'énergie cinétique",
+                "semestre": "S3"
               }
             ]
           },
@@ -208,7 +224,7 @@
             "numero": "Q20",
             "mots_cles": [
               {
-                "theme": "Informatique et Algorithmique : Python",
+                "theme_sous_theme": "Informatique : Algorithmique",
                 "semestre": "S1"
               }
             ]
@@ -217,46 +233,35 @@
             "numero": "Q21",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Paliers lisses",
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
                 "semestre": "S4"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Dimensionnement",
-          "Cinématique",
-          "Dynamique",
-          "Énergétique",
-          "Asservissement",
-          "Informatique et Algorithmique"
         ]
       },
       {
-        "titre_partie": "Partie 4 - Analyse de la structure du chariot JacXson",
+        "titre_partie": "Analyse de la structure du chariot JacXson",
         "questions": [
           {
             "numero": "Q22",
             "mots_cles": [
               {
-                "theme": "Statique : Isostatisme",
+                "theme_sous_theme": "Statique : Isostatisme",
                 "semestre": "S2"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Statique"
         ]
       },
       {
-        "titre_partie": "Partie 5 - Commandes des vérins électriques",
+        "titre_partie": "Commandes des vérins électriques",
         "questions": [
           {
             "numero": "Q23",
             "mots_cles": [
               {
-                "theme": "Systèmes séquentiels et SED : Diagramme d'états",
+                "theme_sous_theme": "Systèmes séquentiels : Diagramme d'états",
                 "semestre": "S1"
               }
             ]
@@ -265,25 +270,22 @@
             "numero": "Q24",
             "mots_cles": [
               {
-                "theme": "Systèmes séquentiels et SED : Diagramme d'états",
+                "theme_sous_theme": "Systèmes séquentiels : Diagramme d'états",
                 "semestre": "S1"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Systèmes séquentiels et SED"
         ]
       },
       {
-        "titre_partie": "Partie 6 - Asservissement en position d'un bras",
+        "titre_partie": "Asservissement en position d'un bras",
         "questions": [
           {
             "numero": "Q25",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : 1er ordre",
-                "semestre": "S2"
+                "theme_sous_theme": "Énergétique : Inertie équivalente",
+                "semestre": "S3"
               }
             ]
           },
@@ -291,7 +293,11 @@
             "numero": "Q26",
             "mots_cles": [
               {
-                "theme": "Asservissement : Fonction de transfert",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Précision",
                 "semestre": "S2"
               }
             ]
@@ -300,7 +306,11 @@
             "numero": "Q27",
             "mots_cles": [
               {
-                "theme": "Asservissement : Stabilité",
+                "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Stabilité",
                 "semestre": "S2"
               }
             ]
@@ -309,7 +319,11 @@
             "numero": "Q28",
             "mots_cles": [
               {
-                "theme": "Asservissement : Rapidité",
+                "theme_sous_theme": "Asservissement : Rapidité",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
                 "semestre": "S2"
               }
             ]
@@ -318,7 +332,11 @@
             "numero": "Q29",
             "mots_cles": [
               {
-                "theme": "Asservissement : Rapidité",
+                "theme_sous_theme": "Asservissement : Rapidité",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
@@ -327,7 +345,7 @@
             "numero": "Q30",
             "mots_cles": [
               {
-                "theme": "Asservissement : Fonction de transfert",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
@@ -336,7 +354,7 @@
             "numero": "Q31",
             "mots_cles": [
               {
-                "theme": "Asservissement : Précision",
+                "theme_sous_theme": "Asservissement : Précision",
                 "semestre": "S2"
               }
             ]
@@ -345,8 +363,8 @@
             "numero": "Q32",
             "mots_cles": [
               {
-                "theme": "Asservissement : Correcteur Proportionnel et intégral",
-                "semestre": "S2"
+                "theme_sous_theme": "Correcteurs : Proportionnel-intégral",
+                "semestre": "S4"
               }
             ]
           },
@@ -354,32 +372,29 @@
             "numero": "Q33",
             "mots_cles": [
               {
-                "theme": "Asservissement : Correcteur Proportionnel et intégral",
-                "semestre": "S2"
+                "theme_sous_theme": "Correcteurs : Proportionnel-intégral",
+                "semestre": "S4"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Modélisation des signaux",
-          "Asservissement"
         ]
       },
       {
-        "titre_partie": "Partie 7 - Synthèse",
+        "titre_partie": "Synthèse",
         "questions": [
           {
             "numero": "Q34",
             "mots_cles": [
               {
-                "theme": "Ingénierie Système : Chaînes d'énergie",
+                "theme_sous_theme": "Ingénierie Système : Chaîne d'énergie",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Systèmes séquentiels : Diagramme d'états",
                 "semestre": "S1"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Ingénierie Système"
         ]
       }
     ],

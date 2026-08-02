@@ -4,17 +4,21 @@
   "date": "2026",
   "file": "Centrale_PSI_2026.pdf",
   "status": 200,
-  "time_s": 449.45,
+  "time_s": 29.67,
   "data": {
     "parties": [
       {
-        "titre_partie": "Partie A – Temps de stabilisation maximal pour la mise en action de l'assistance",
+        "titre_partie": "Partie A – Temps de stabilisation maximal pour la mise en action de l’assistance",
         "questions": [
           {
             "numero": "Q1",
             "mots_cles": [
               {
-                "theme": "Statique : Liaisons équivalentes",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Statique : Frottements",
                 "semestre": "S2"
               }
             ]
@@ -23,7 +27,11 @@
             "numero": "Q2",
             "mots_cles": [
               {
-                "theme": "Dynamique : Torseur dynamique",
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Dynamique : Géométrie des masses",
                 "semestre": "S3"
               }
             ]
@@ -32,7 +40,11 @@
             "numero": "Q3",
             "mots_cles": [
               {
-                "theme": "Statique : Frottements",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Statique : Frottements",
                 "semestre": "S2"
               }
             ]
@@ -41,15 +53,23 @@
             "numero": "Q4",
             "mots_cles": [
               {
-                "theme": "Dynamique : PFD",
+                "theme_sous_theme": "Statique : Frottements",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
                 "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Rapidité",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Cinématique : Accélérations",
+                "semestre": "S1"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Statique",
-          "Dynamique"
         ]
       },
       {
@@ -59,7 +79,11 @@
             "numero": "Q5",
             "mots_cles": [
               {
-                "theme": "Statique : PFS",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Statique : Liaisons équivalentes",
                 "semestre": "S2"
               }
             ]
@@ -68,8 +92,8 @@
             "numero": "Q6",
             "mots_cles": [
               {
-                "theme": "Dynamique : Torseur dynamique",
-                "semestre": "S3"
+                "theme_sous_theme": "Cinématique : Accélérations",
+                "semestre": "S1"
               }
             ]
           },
@@ -77,7 +101,11 @@
             "numero": "Q7",
             "mots_cles": [
               {
-                "theme": "Dynamique : Torseur dynamique",
+                "theme_sous_theme": "Dynamique : Géométrie des masses",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
                 "semestre": "S3"
               }
             ]
@@ -86,8 +114,12 @@
             "numero": "Q8",
             "mots_cles": [
               {
-                "theme": "Dynamique : PFD",
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
                 "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
+                "semestre": "S2"
               }
             ]
           },
@@ -95,7 +127,11 @@
             "numero": "Q9",
             "mots_cles": [
               {
-                "theme": "Asservissement : Schéma-blocs, Laplace, Fonction de transfert",
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
@@ -104,26 +140,21 @@
             "numero": "Q10",
             "mots_cles": [
               {
-                "theme": "Asservissement : Stabilité, Précision, Rapidité",
+                "theme_sous_theme": "Asservissement : Stabilité",
                 "semestre": "S2"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Statique",
-          "Dynamique",
-          "Asservissement"
         ]
       },
       {
-        "titre_partie": "Partie C – Modélisation de l'ensemble {scooter+pilote+gyroscope}",
+        "titre_partie": "I – Modélisation du gyroscope",
         "questions": [
           {
             "numero": "Q11",
             "mots_cles": [
               {
-                "theme": "Cinématique : Lois entrée-sortie",
+                "theme_sous_theme": "Ingénierie Système : Chaîne d'énergie",
                 "semestre": "S1"
               }
             ]
@@ -132,7 +163,7 @@
             "numero": "Q12",
             "mots_cles": [
               {
-                "theme": "Dynamique : Torseur dynamique",
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
                 "semestre": "S3"
               }
             ]
@@ -141,8 +172,12 @@
             "numero": "Q13",
             "mots_cles": [
               {
-                "theme": "Dynamique : Torseur dynamique",
+                "theme_sous_theme": "Dynamique : Géométrie des masses",
                 "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Cinématique : Vitesses",
+                "semestre": "S1"
               }
             ]
           },
@@ -150,25 +185,29 @@
             "numero": "Q14",
             "mots_cles": [
               {
-                "theme": "Dynamique : Torseur dynamique",
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
                 "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Cinématique",
-          "Dynamique"
         ]
       },
       {
-        "titre_partie": "Partie D – Étude de la loi de commande",
+        "titre_partie": "II – Étude d’une loi de commande avec un retour sur l’angle de roulis",
         "questions": [
           {
             "numero": "Q15",
             "mots_cles": [
               {
-                "theme": "Asservissement : Schéma-blocs, Laplace, Fonction de transfert",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Stabilité",
                 "semestre": "S2"
               }
             ]
@@ -177,16 +216,25 @@
             "numero": "Q16",
             "mots_cles": [
               {
-                "theme": "Asservissement : Stabilité, Précision, Rapidité",
+                "theme_sous_theme": "Correcteurs : Proportionnel",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Stabilité",
                 "semestre": "S2"
               }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "titre_partie": "I – Mise en place d’une loi de commande stabilisante",
+        "questions": [
           {
             "numero": "Q17",
             "mots_cles": [
               {
-                "theme": "Asservissement : Schéma-blocs, Laplace, Fonction de transfert",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
@@ -195,7 +243,7 @@
             "numero": "Q18",
             "mots_cles": [
               {
-                "theme": "Asservissement : Schéma-blocs, Laplace, Fonction de transfert",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
@@ -204,7 +252,7 @@
             "numero": "Q19",
             "mots_cles": [
               {
-                "theme": "Informatique et Algorithmique : Python",
+                "theme_sous_theme": "Informatique : Algorithmique",
                 "semestre": "S1"
               }
             ]
@@ -213,8 +261,8 @@
             "numero": "Q20",
             "mots_cles": [
               {
-                "theme": "Asservissement : Stabilité, Précision, Rapidité",
-                "semestre": "S2"
+                "theme_sous_theme": "Correcteurs : Proportionnel",
+                "semestre": "S4"
               }
             ]
           },
@@ -222,7 +270,11 @@
             "numero": "Q21",
             "mots_cles": [
               {
-                "theme": "Asservissement : Stabilité, Précision, Rapidité",
+                "theme_sous_theme": "Asservissement : Rapidité",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Stabilité",
                 "semestre": "S2"
               }
             ]
@@ -231,25 +283,25 @@
             "numero": "Q22",
             "mots_cles": [
               {
-                "theme": "Asservissement : Stabilité, Précision, Rapidité",
+                "theme_sous_theme": "Asservissement : Précision",
                 "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Correcteurs : Proportionnel",
+                "semestre": "S4"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Asservissement",
-          "Informatique et Algorithmique"
         ]
       },
       {
-        "titre_partie": "Partie E – Synthèse",
+        "titre_partie": "II – Analyse de la robustesse paramétrique",
         "questions": [
           {
             "numero": "Q23",
             "mots_cles": [
               {
-                "theme": "Asservissement : Schéma-blocs, Laplace, Fonction de transfert",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
@@ -258,7 +310,11 @@
             "numero": "Q24",
             "mots_cles": [
               {
-                "theme": "Asservissement : Stabilité, Précision, Rapidité",
+                "theme_sous_theme": "Correcteurs : Proportionnel-intégral",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
                 "semestre": "S2"
               }
             ]
@@ -267,7 +323,11 @@
             "numero": "Q25",
             "mots_cles": [
               {
-                "theme": "Asservissement : Stabilité, Précision, Rapidité",
+                "theme_sous_theme": "Correcteurs : Proportionnel-intégral",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Stabilité",
                 "semestre": "S2"
               }
             ]
@@ -276,7 +336,11 @@
             "numero": "Q26",
             "mots_cles": [
               {
-                "theme": "Asservissement : Stabilité, Précision, Rapidité",
+                "theme_sous_theme": "Asservissement : Stabilité",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
                 "semestre": "S2"
               }
             ]
@@ -285,7 +349,11 @@
             "numero": "Q27",
             "mots_cles": [
               {
-                "theme": "Asservissement : Stabilité, Précision, Rapidité",
+                "theme_sous_theme": "Asservissement : Rapidité",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Stabilité",
                 "semestre": "S2"
               }
             ]
@@ -294,17 +362,26 @@
             "numero": "Q28",
             "mots_cles": [
               {
-                "theme": "Asservissement : Stabilité, Précision, Rapidité",
+                "theme_sous_theme": "Asservissement : Stabilité",
                 "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Correcteurs : Proportionnel-intégral",
+                "semestre": "S4"
               }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "titre_partie": "Partie E – Synthèse",
+        "questions": [
           {
             "numero": "Q29",
             "mots_cles": [
               {
-                "theme": "Asservissement : Stabilité, Précision, Rapidité",
-                "semestre": "S2"
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
               }
             ]
           },
@@ -312,14 +389,15 @@
             "numero": "Q30",
             "mots_cles": [
               {
-                "theme": "Asservissement : Stabilité, Précision, Rapidité",
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Stabilité",
                 "semestre": "S2"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Asservissement"
         ]
       }
     ],

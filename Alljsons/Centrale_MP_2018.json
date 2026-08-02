@@ -4,456 +4,453 @@
   "date": "2018",
   "file": "Centrale_MP_2018.pdf",
   "status": 200,
-  "time_s": 763.9,
+  "time_s": 35.18,
   "data": {
     "parties": [
       {
-        "titre_partie": "I Présentation du support",
-        "questions": []
-      },
-      {
-        "titre_partie": "II Étude préliminaire et respect de l'exigence 2 de maniabilité",
+        "titre_partie": "II Étude préliminaire et respect de l’exigence 2 de maniabilité",
         "questions": [
           {
-            "numero": "Q 1",
+            "numero": "Q1",
             "mots_cles": [
               {
-                "theme": "Ingénierie Système : Cahier des charges",
-                "semestre": "S1"
-              }
-            ]
-          },
-          {
-            "numero": "Q 2",
-            "mots_cles": [
-              {
-                "theme": "Ingénierie Système : Cahier des charges",
-                "semestre": "S1"
-              }
-            ]
-          }
-        ],
-        "themes_partie": [
-          "Ingénierie Système"
-        ]
-      },
-      {
-        "titre_partie": "III Interfaçage utilisateur / Sphero (exigence 1 de contrôle)",
-        "questions": [
-          {
-            "numero": "Q 3",
-            "mots_cles": [
-              {
-                "theme": "Ingénierie Système : Cahier des charges",
-                "semestre": "S1"
-              }
-            ]
-          },
-          {
-            "numero": "Q 4",
-            "mots_cles": [
-              {
-                "theme": "Ingénierie Système : Cahier des charges",
-                "semestre": "S1"
-              }
-            ]
-          },
-          {
-            "numero": "Q 5",
-            "mots_cles": [
-              {
-                "theme": "Ingénierie Système : Cahier des charges",
-                "semestre": "S1"
-              }
-            ]
-          },
-          {
-            "numero": "Q 6",
-            "mots_cles": [
-              {
-                "theme": "Ingénierie Système : Cahier des charges",
-                "semestre": "S1"
-              }
-            ]
-          },
-          {
-            "numero": "Q 7",
-            "mots_cles": [
-              {
-                "theme": "Informatique et Algorithmique : Fonctions",
-                "semestre": "S1"
-              }
-            ]
-          },
-          {
-            "numero": "Q 8",
-            "mots_cles": [
-              {
-                "theme": "Informatique et Algorithmique : Fonctions",
-                "semestre": "S1"
-              }
-            ]
-          },
-          {
-            "numero": "Q 9",
-            "mots_cles": [
-              {
-                "theme": "Informatique et Algorithmique : Boucles",
-                "semestre": "S1"
-              }
-            ]
-          }
-        ],
-        "themes_partie": [
-          "Ingénierie Système",
-          "Informatique et Algorithmique"
-        ]
-      },
-      {
-        "titre_partie": "IV Architecture détaillée du robot Sphero",
-        "questions": [
-          {
-            "numero": "Q 10",
-            "mots_cles": [
-              {
-                "theme": "Ingénierie Système : Chaînes d'énergie",
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
                 "semestre": "S1"
               },
               {
-                "theme": "Ingénierie Système : Chaînes d'information",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q2",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
                 "semestre": "S1"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Ingénierie Système"
+        ]
+      },
+      {
+        "titre_partie": "III.A - Présentation de la technologie des écrans tactiles capacitifs",
+        "questions": [
+          {
+            "numero": "Q3",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Dimensionnement : Capteurs",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q4",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Dimensionnement : Capteurs",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q5",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Dimensionnement : Capteurs",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q6",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Dimensionnement : Capteurs",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q7",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Dimensionnement : Capteurs",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Traitement de l'information : Échantillonnage et quantification",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q8",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Informatique : Algorithmique",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Capteurs",
+                "semestre": "S4"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titre_partie": "III.D - Algorithme de commande du Sphero",
+        "questions": [
+          {
+            "numero": "Q9",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Systèmes séquentiels : Diagramme d'états",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Informatique : Algorithmique",
+                "semestre": "S1"
+              }
+            ]
+          }
         ]
       },
       {
         "titre_partie": "V Déplacement et réglage de cap du robot Sphero",
         "questions": [
           {
-            "numero": "Q 11",
+            "numero": "Q10",
             "mots_cles": [
               {
-                "theme": "Cinématique : Torseurs cinématiques",
+                "theme_sous_theme": "Ingénierie Système : Chaîne d'énergie",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Ingénierie Système : Chaîne d'information",
                 "semestre": "S1"
               }
             ]
           },
           {
-            "numero": "Q 12",
+            "numero": "Q11",
             "mots_cles": [
               {
-                "theme": "Cinématique : Lois entrée-sortie",
+                "theme_sous_theme": "Cinématique : Torseur cinématique",
                 "semestre": "S1"
               }
             ]
           },
           {
-            "numero": "Q 13",
+            "numero": "Q12",
             "mots_cles": [
               {
-                "theme": "Cinématique : Torseurs cinématiques",
+                "theme_sous_theme": "Cinématique : Vitesses",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Cinématique : Torseur cinématique",
                 "semestre": "S1"
               }
             ]
           },
           {
-            "numero": "Q 14",
+            "numero": "Q13",
             "mots_cles": [
               {
-                "theme": "Cinématique : Torseurs cinématiques",
+                "theme_sous_theme": "Transmissions mécaniques : Engrenages",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
                 "semestre": "S1"
               }
             ]
           },
           {
-            "numero": "Q 15",
+            "numero": "Q14",
             "mots_cles": [
               {
-                "theme": "Cinématique : Torseurs cinématiques",
+                "theme_sous_theme": "Cinématique : Vitesses",
                 "semestre": "S1"
               }
             ]
           },
           {
-            "numero": "Q 16",
+            "numero": "Q15",
             "mots_cles": [
               {
-                "theme": "Cinématique : Lois entrée-sortie",
+                "theme_sous_theme": "Cinématique : Vitesses",
                 "semestre": "S1"
               }
             ]
           },
           {
-            "numero": "Q 17",
+            "numero": "Q16",
             "mots_cles": [
               {
-                "theme": "Cinématique : Torseurs cinématiques",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
               }
             ]
           },
           {
-            "numero": "Q 18",
+            "numero": "Q17",
             "mots_cles": [
               {
-                "theme": "Cinématique : Lois entrée-sortie",
+                "theme_sous_theme": "Cinématique : Vitesses",
                 "semestre": "S1"
               }
             ]
           },
           {
-            "numero": "Q 19",
+            "numero": "Q18",
             "mots_cles": [
               {
-                "theme": "Cinématique : Lois entrée-sortie",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
               }
             ]
           },
           {
-            "numero": "Q 20",
+            "numero": "Q19",
             "mots_cles": [
               {
-                "theme": "Cinématique : Torseurs cinématiques",
+                "theme_sous_theme": "Cinématique : Vitesses",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Cinématique : Torseur cinématique",
                 "semestre": "S1"
               }
             ]
           },
           {
-            "numero": "Q 21",
+            "numero": "Q20",
             "mots_cles": [
               {
-                "theme": "Cinématique : Lois entrée-sortie",
+                "theme_sous_theme": "Cinématique : Vitesses",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Cinématique : Torseur cinématique",
                 "semestre": "S1"
               }
             ]
           },
           {
-            "numero": "Q 22",
+            "numero": "Q21",
             "mots_cles": [
               {
-                "theme": "Cinématique : Lois entrée-sortie",
+                "theme_sous_theme": "Cinématique : Vitesses",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q22",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
                 "semestre": "S1"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Cinématique"
         ]
       },
       {
-        "titre_partie": "VI Comportement en tangage du Sphero (exigences 2.2.1 et 2.2.1.1)",
+        "titre_partie": "VI.A – Analyse de l’agencement mécanique du robot",
         "questions": [
           {
-            "numero": "Q 23",
+            "numero": "Q23",
             "mots_cles": [
               {
-                "theme": "Dynamique : Géométrie des masses",
+                "theme_sous_theme": "Dynamique : Géométrie des masses",
                 "semestre": "S3"
               }
             ]
           },
           {
-            "numero": "Q 24",
+            "numero": "Q24",
             "mots_cles": [
               {
-                "theme": "Dynamique : Géométrie des masses",
-                "semestre": "S3"
-              }
-            ]
-          },
-          {
-            "numero": "Q 25",
-            "mots_cles": [
-              {
-                "theme": "Dynamique : Torseur dynamique",
-                "semestre": "S3"
-              }
-            ]
-          },
-          {
-            "numero": "Q 26",
-            "mots_cles": [
-              {
-                "theme": "Dynamique : Torseur dynamique",
-                "semestre": "S3"
-              }
-            ]
-          },
-          {
-            "numero": "Q 27",
-            "mots_cles": [
-              {
-                "theme": "Énergétique : Théorème de l'Énergie Cinétique",
-                "semestre": "S3"
-              }
-            ]
-          },
-          {
-            "numero": "Q 28",
-            "mots_cles": [
-              {
-                "theme": "Énergétique : Théorème de l'Énergie Cinétique",
+                "theme_sous_theme": "Dynamique : Géométrie des masses",
                 "semestre": "S3"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Dynamique",
-          "Énergétique"
         ]
       },
       {
-        "titre_partie": "VII Performances en changement de cap du Sphero (exigence 2.1 de suivi de cap)",
+        "titre_partie": "VI.B - Comportement en tangage du module interne",
         "questions": [
           {
-            "numero": "Q 29",
+            "numero": "Q25",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : 1er ordre",
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q26",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q27",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q28",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+                "semestre": "S3"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titre_partie": "VII.A - Commande en lacet du module interne",
+        "questions": [
+          {
+            "numero": "Q29",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
                 "semestre": "S2"
               }
             ]
           },
           {
-            "numero": "Q 30",
+            "numero": "Q30",
             "mots_cles": [
               {
-                "theme": "Asservissement : Schéma-blocs",
-                "semestre": "S2"
-              },
-              {
-                "theme": "Asservissement : Laplace",
-                "semestre": "S2"
-              },
-              {
-                "theme": "Asservissement : Fonction de transfert",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
           },
           {
-            "numero": "Q 31",
+            "numero": "Q31",
             "mots_cles": [
               {
-                "theme": "Asservissement : Fonction de transfert",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
           },
           {
-            "numero": "Q 32",
+            "numero": "Q32",
             "mots_cles": [
               {
-                "theme": "Asservissement : Stabilité",
-                "semestre": "S2"
-              },
-              {
-                "theme": "Asservissement : Précision",
-                "semestre": "S2"
-              },
-              {
-                "theme": "Asservissement : Rapidité",
+                "theme_sous_theme": "Asservissement : Rapidité",
                 "semestre": "S2"
               }
             ]
           },
           {
-            "numero": "Q 33",
+            "numero": "Q33",
             "mots_cles": [
               {
-                "theme": "Asservissement : Stabilité",
+                "theme_sous_theme": "Asservissement : Stabilité",
                 "semestre": "S2"
               },
               {
-                "theme": "Asservissement : Précision",
+                "theme_sous_theme": "Asservissement : Précision",
                 "semestre": "S2"
               },
               {
-                "theme": "Asservissement : Rapidité",
+                "theme_sous_theme": "Asservissement : Rapidité",
                 "semestre": "S2"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Modélisation des signaux",
-          "Asservissement"
         ]
       },
       {
-        "titre_partie": "VIII Conclusion et synthèse",
+        "titre_partie": "VII.B - Optimisation de la commande en lacet",
         "questions": [
           {
-            "numero": "Q 34",
+            "numero": "Q34",
             "mots_cles": [
               {
-                "theme": "Asservissement : Schéma-blocs",
+                "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
                 "semestre": "S2"
               },
               {
-                "theme": "Asservissement : Laplace",
-                "semestre": "S2"
-              },
-              {
-                "theme": "Asservissement : Fonction de transfert",
-                "semestre": "S2"
+                "theme_sous_theme": "Correcteurs : Avance de phase",
+                "semestre": "S4"
               }
             ]
           },
           {
-            "numero": "Q 35",
+            "numero": "Q35",
             "mots_cles": [
               {
-                "theme": "Asservissement : Stabilité",
+                "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
                 "semestre": "S2"
               },
               {
-                "theme": "Asservissement : Précision",
+                "theme_sous_theme": "Asservissement : Stabilité",
                 "semestre": "S2"
               },
               {
-                "theme": "Asservissement : Rapidité",
-                "semestre": "S2"
+                "theme_sous_theme": "Correcteurs : Avance de phase",
+                "semestre": "S4"
               }
             ]
           },
           {
-            "numero": "Q 36",
+            "numero": "Q36",
             "mots_cles": [
               {
-                "theme": "Asservissement : Stabilité",
+                "theme_sous_theme": "Asservissement : Stabilité",
                 "semestre": "S2"
               },
               {
-                "theme": "Asservissement : Précision",
-                "semestre": "S2"
-              },
-              {
-                "theme": "Asservissement : Rapidité",
+                "theme_sous_theme": "Asservissement : Rapidité",
                 "semestre": "S2"
               }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "titre_partie": "Synthèse",
+        "questions": [
           {
-            "numero": "Q 37",
+            "numero": "Q37",
             "mots_cles": [
               {
-                "theme": "Ingénierie Système : Cahier des charges",
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
                 "semestre": "S1"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Asservissement",
-          "Ingénierie Système"
         ]
       }
     ],

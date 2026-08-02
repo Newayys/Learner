@@ -4,17 +4,51 @@
   "date": "2013",
   "file": "BPT_SIB_2013.pdf",
   "status": 200,
-  "time_s": 511.38,
+  "time_s": 44.6,
   "data": {
     "parties": [
       {
-        "titre_partie": "C - Etude de conception en construction mécanique",
+        "titre_partie": "A- Cahier des Charges Fonctionnel (extraits)",
+        "questions": []
+      },
+      {
+        "titre_partie": "A.1 - Le contexte",
+        "questions": []
+      },
+      {
+        "titre_partie": "A.2 - Le produit à concevoir",
+        "questions": []
+      },
+      {
+        "titre_partie": "A.4 - Diagramme des interacteurs",
+        "questions": [
+          {
+            "numero": "FP1, FC1 à FC7",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titre_partie": "B.1 - Architecture générale",
+        "questions": []
+      },
+      {
+        "titre_partie": "B.2 - Problématique",
+        "questions": []
+      },
+      {
+        "titre_partie": "C.2.1. Détermination de la course du vérin (fonctions FC2 et FC3)",
         "questions": [
           {
             "numero": "Q1",
             "mots_cles": [
               {
-                "theme": "Cinématique : Fermeture géométrique",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
               }
             ]
@@ -23,7 +57,7 @@
             "numero": "Q2",
             "mots_cles": [
               {
-                "theme": "Ingénierie Système : Cahier des charges",
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
                 "semestre": "S1"
               }
             ]
@@ -32,8 +66,8 @@
             "numero": "Q3",
             "mots_cles": [
               {
-                "theme": "Dynamique : Géométrie des masses",
-                "semestre": "S3"
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
+                "semestre": "S2"
               }
             ]
           },
@@ -41,8 +75,12 @@
             "numero": "Q4",
             "mots_cles": [
               {
-                "theme": "Cinématique : Fermeture géométrique",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
+                "semestre": "S2"
               }
             ]
           },
@@ -50,7 +88,7 @@
             "numero": "Q5",
             "mots_cles": [
               {
-                "theme": "Cinématique : Fermeture géométrique",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
               }
             ]
@@ -59,7 +97,7 @@
             "numero": "Q6",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Actionneurs",
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
                 "semestre": "S4"
               }
             ]
@@ -68,17 +106,22 @@
             "numero": "Q7",
             "mots_cles": [
               {
-                "theme": "Cinématique : Fermeture géométrique",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
               }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "titre_partie": "C.2.2. Choix du type de liaison du vérin et de ses pièces voisines (fonctions FP1, FC2 et FC3)",
+        "questions": [
           {
             "numero": "Q8",
             "mots_cles": [
               {
-                "theme": "Cinématique : Fermeture géométrique",
-                "semestre": "S1"
+                "theme_sous_theme": "Statique : Isostatisme",
+                "semestre": "S2"
               }
             ]
           },
@@ -86,7 +129,7 @@
             "numero": "Q9",
             "mots_cles": [
               {
-                "theme": "Statique : Isostatisme",
+                "theme_sous_theme": "Statique : Isostatisme",
                 "semestre": "S2"
               }
             ]
@@ -95,7 +138,7 @@
             "numero": "Q10",
             "mots_cles": [
               {
-                "theme": "Statique : Hyperstatisme",
+                "theme_sous_theme": "Statique : Hyperstatisme",
                 "semestre": "S2"
               }
             ]
@@ -104,8 +147,8 @@
             "numero": "Q11",
             "mots_cles": [
               {
-                "theme": "Cinématique : Lois entrée-sortie",
-                "semestre": "S1"
+                "theme_sous_theme": "Statique : Liaisons équivalentes",
+                "semestre": "S2"
               }
             ]
           },
@@ -113,16 +156,25 @@
             "numero": "Q12",
             "mots_cles": [
               {
-                "theme": "Cinématique : Lois entrée-sortie",
-                "semestre": "S1"
+                "theme_sous_theme": "Statique : Hyperstatisme",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Statique : Liaisons équivalentes",
+                "semestre": "S2"
               }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "titre_partie": "C.2.3. Détermination du diamètre du vérin (fonction FP1)",
+        "questions": [
           {
             "numero": "Q13",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Actionneurs",
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
                 "semestre": "S4"
               }
             ]
@@ -131,8 +183,12 @@
             "numero": "Q14",
             "mots_cles": [
               {
-                "theme": "Dynamique : Géométrie des masses",
+                "theme_sous_theme": "Dynamique : Géométrie des masses",
                 "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
+                "semestre": "S2"
               }
             ]
           },
@@ -140,7 +196,7 @@
             "numero": "Q15",
             "mots_cles": [
               {
-                "theme": "Statique : PFS",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
                 "semestre": "S2"
               }
             ]
@@ -149,7 +205,7 @@
             "numero": "Q16",
             "mots_cles": [
               {
-                "theme": "Statique : PFS",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
                 "semestre": "S2"
               }
             ]
@@ -158,7 +214,7 @@
             "numero": "Q17",
             "mots_cles": [
               {
-                "theme": "Statique : PFS",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
                 "semestre": "S2"
               }
             ]
@@ -167,7 +223,7 @@
             "numero": "Q18",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Actionneurs",
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
                 "semestre": "S4"
               }
             ]
@@ -176,17 +232,22 @@
             "numero": "Q19",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Actionneurs",
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
                 "semestre": "S4"
               }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "titre_partie": "C.2.4. Implantation du vérin (fonctions FP1, FC2 et FC3)",
+        "questions": [
           {
             "numero": "Q20",
             "mots_cles": [
               {
-                "theme": "Résistance des matériaux : Contraintes",
-                "semestre": "S3"
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+                "semestre": "S4"
               }
             ]
           },
@@ -194,7 +255,7 @@
             "numero": "Q21",
             "mots_cles": [
               {
-                "theme": "Résistance des matériaux : Contraintes",
+                "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
                 "semestre": "S3"
               }
             ]
@@ -203,7 +264,7 @@
             "numero": "Q22",
             "mots_cles": [
               {
-                "theme": "Matériaux : Choix",
+                "theme_sous_theme": "Matériaux : Choix",
                 "semestre": "S3"
               }
             ]
@@ -212,7 +273,7 @@
             "numero": "Q23",
             "mots_cles": [
               {
-                "theme": "Résistance des matériaux : Contraintes",
+                "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
                 "semestre": "S3"
               }
             ]
@@ -221,16 +282,25 @@
             "numero": "Q24",
             "mots_cles": [
               {
-                "theme": "Résistance des matériaux : Contraintes",
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
                 "semestre": "S3"
               }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "titre_partie": "C.2.5. Etude de la transmission de puissance permettant la translation des chariots porteurs (fonction FC1, FC4 et FC5)",
+        "questions": [
           {
             "numero": "Q25",
             "mots_cles": [
               {
-                "theme": "Dynamique : PFD",
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
                 "semestre": "S3"
               }
             ]
@@ -239,8 +309,8 @@
             "numero": "Q26",
             "mots_cles": [
               {
-                "theme": "Dynamique : PFD",
-                "semestre": "S3"
+                "theme_sous_theme": "Transmissions mécaniques : Engrenages",
+                "semestre": "S1"
               }
             ]
           },
@@ -248,7 +318,7 @@
             "numero": "Q27",
             "mots_cles": [
               {
-                "theme": "Dynamique : PFD",
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
                 "semestre": "S3"
               }
             ]
@@ -257,7 +327,7 @@
             "numero": "Q28",
             "mots_cles": [
               {
-                "theme": "Dynamique : PFD",
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
                 "semestre": "S3"
               }
             ]
@@ -266,7 +336,7 @@
             "numero": "Q29",
             "mots_cles": [
               {
-                "theme": "Cinématique : Vitesses",
+                "theme_sous_theme": "Cinématique : Vitesses",
                 "semestre": "S1"
               }
             ]
@@ -275,7 +345,7 @@
             "numero": "Q30",
             "mots_cles": [
               {
-                "theme": "Cinématique : Vitesses",
+                "theme_sous_theme": "Cinématique : Vitesses",
                 "semestre": "S1"
               }
             ]
@@ -284,7 +354,7 @@
             "numero": "Q31",
             "mots_cles": [
               {
-                "theme": "Cinématique : Vitesses",
+                "theme_sous_theme": "Cinématique : Vitesses",
                 "semestre": "S1"
               }
             ]
@@ -293,7 +363,7 @@
             "numero": "Q32",
             "mots_cles": [
               {
-                "theme": "Cinématique : Vitesses",
+                "theme_sous_theme": "Cinématique : Vitesses",
                 "semestre": "S1"
               }
             ]
@@ -302,7 +372,7 @@
             "numero": "Q33",
             "mots_cles": [
               {
-                "theme": "Cinématique : Vitesses",
+                "theme_sous_theme": "Cinématique : Vitesses",
                 "semestre": "S1"
               }
             ]
@@ -311,7 +381,7 @@
             "numero": "Q34",
             "mots_cles": [
               {
-                "theme": "Cinématique : Vitesses",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
               }
             ]
@@ -320,7 +390,7 @@
             "numero": "Q35",
             "mots_cles": [
               {
-                "theme": "Cinématique : Vitesses",
+                "theme_sous_theme": "Cinématique : Vitesses",
                 "semestre": "S1"
               }
             ]
@@ -329,7 +399,7 @@
             "numero": "Q36",
             "mots_cles": [
               {
-                "theme": "Cinématique : Vitesses",
+                "theme_sous_theme": "Cinématique : Vitesses",
                 "semestre": "S1"
               }
             ]
@@ -338,7 +408,7 @@
             "numero": "Q37",
             "mots_cles": [
               {
-                "theme": "Matériaux : Choix",
+                "theme_sous_theme": "Matériaux : Choix",
                 "semestre": "S3"
               }
             ]
@@ -347,7 +417,7 @@
             "numero": "Q38",
             "mots_cles": [
               {
-                "theme": "Transmissions mécaniques : Engrenages",
+                "theme_sous_theme": "Transmissions mécaniques : Engrenages",
                 "semestre": "S1"
               }
             ]
@@ -356,8 +426,8 @@
             "numero": "Q39",
             "mots_cles": [
               {
-                "theme": "Transmissions mécaniques : Engrenages",
-                "semestre": "S1"
+                "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+                "semestre": "S3"
               }
             ]
           },
@@ -365,8 +435,8 @@
             "numero": "Q40",
             "mots_cles": [
               {
-                "theme": "Transmissions mécaniques : Engrenages",
-                "semestre": "S1"
+                "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+                "semestre": "S3"
               }
             ]
           },
@@ -374,7 +444,7 @@
             "numero": "Q41",
             "mots_cles": [
               {
-                "theme": "Résistance des matériaux : Contraintes",
+                "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
                 "semestre": "S3"
               }
             ]
@@ -383,7 +453,7 @@
             "numero": "Q42",
             "mots_cles": [
               {
-                "theme": "Transmissions mécaniques : Rapport de réduction",
+                "theme_sous_theme": "Transmissions mécaniques : Engrenages",
                 "semestre": "S1"
               }
             ]
@@ -392,17 +462,22 @@
             "numero": "Q43",
             "mots_cles": [
               {
-                "theme": "Transmissions mécaniques : Rapport de réduction",
-                "semestre": "S1"
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
               }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "titre_partie": "C.2.6. Choix des différents paliers à roulement (fonctions FP1 et FC3)",
+        "questions": [
           {
             "numero": "Q44",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Paliers lisses",
-                "semestre": "S2"
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+                "semestre": "S4"
               }
             ]
           },
@@ -410,8 +485,8 @@
             "numero": "Q45",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Paliers lisses",
-                "semestre": "S2"
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+                "semestre": "S4"
               }
             ]
           },
@@ -419,16 +494,21 @@
             "numero": "Q46",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Paliers lisses",
-                "semestre": "S2"
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+                "semestre": "S4"
               }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "titre_partie": "C.2.7. Dessin de définition du support galet 15 (fonction FC5)",
+        "questions": [
           {
             "numero": "Q47",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Paliers lisses",
+                "theme_sous_theme": "Spécifications géométriques : Tolérancement",
                 "semestre": "S2"
               }
             ]
@@ -437,8 +517,12 @@
             "numero": "Q48",
             "mots_cles": [
               {
-                "theme": "Procédés de fabrication : Plastique",
-                "semestre": "S2"
+                "theme_sous_theme": "Procédés : Usinage",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Matériaux : Choix",
+                "semestre": "S3"
               }
             ]
           },
@@ -446,52 +530,63 @@
             "numero": "Q49",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Liaisons",
-                "semestre": "S4"
+                "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+                "semestre": "S2"
               }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "titre_partie": "C.3.2.1 Conception de la liaison complète entre le pignon 16 et l’arbre de transmission 25 (fonction FC5)",
+        "questions": [
           {
             "numero": "Q50",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Liaisons",
-                "semestre": "S4"
-              }
-            ]
-          },
-          {
-            "numero": "Q51",
-            "mots_cles": [
-              {
-                "theme": "Dimensionnement : Liaisons",
-                "semestre": "S4"
-              }
-            ]
-          },
-          {
-            "numero": "Q52",
-            "mots_cles": [
-              {
-                "theme": "Dimensionnement : Liaisons",
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
                 "semestre": "S4"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Cinématique",
-          "Ingénierie Système",
-          "Dynamique",
-          "Dimensionnement",
-          "Statique",
-          "Résistance des matériaux",
-          "Matériaux",
-          "Transmissions mécaniques",
-          "Procédés de fabrication"
         ]
+      },
+      {
+        "titre_partie": "C.3.2.2 Conception de la liaison pivot entre le corps du vérin 12 et le châssis 1. (fonctions FP1, FC2 et FC3)",
+        "questions": [
+          {
+            "numero": "Q51",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+                "semestre": "S4"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titre_partie": "C.3.2.3 Conception du rouleau réceptionneur 6 et des liaisons de celui-ci avec les bras 2 et 3 et le châssis 1. (fonctions FP1, FC2 et FC3)",
+        "questions": []
       }
     ],
-    "ajouts": []
+    "ajouts": [
+      {
+        "theme_sous_theme": "Conception mécanique : Dessin de définition",
+        "semestre": "S2"
+      },
+      {
+        "theme_sous_theme": "Conception mécanique : Vue en coupe",
+        "semestre": "S2"
+      },
+      {
+        "theme_sous_theme": "Dimensionnement : Roulements",
+        "semestre": "S4"
+      },
+      {
+        "theme_sous_theme": "Hydraulique : Vérin",
+        "semestre": "S4"
+      }
+    ]
   }
 }

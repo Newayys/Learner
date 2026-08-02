@@ -4,34 +4,39 @@
   "date": "2011",
   "file": "CCINP_PSI_2011.pdf",
   "status": 200,
-  "time_s": 365.17,
+  "time_s": 31.18,
   "data": {
     "parties": [
       {
-        "titre_partie": "A - Vérification de quelques critères de la F.P.1 : soulever un tramway",
+        "titre_partie": "ANALYSE DU SYSTEME DE LEVAGE",
         "questions": [
           {
             "numero": "Q1",
             "mots_cles": [
               {
-                "theme": "Ingénierie Système : Chaînes d'énergie",
+                "theme_sous_theme": "Ingénierie Système : Chaîne d'énergie",
                 "semestre": "S1"
               },
               {
-                "theme": "Ingénierie Système : Chaînes d'information",
+                "theme_sous_theme": "Ingénierie Système : Chaîne d'information",
                 "semestre": "S1"
               },
               {
-                "theme": "Cinématique : Fermeture géométrique",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
               }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "titre_partie": "A – Vérification de quelques critères de la F.P.1 : soulever un tramway",
+        "questions": [
           {
             "numero": "Q2",
             "mots_cles": [
               {
-                "theme": "Statique : Actions réparties",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
                 "semestre": "S2"
               }
             ]
@@ -40,7 +45,7 @@
             "numero": "Q3",
             "mots_cles": [
               {
-                "theme": "Statique : Liaisons équivalentes",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
                 "semestre": "S2"
               }
             ]
@@ -49,8 +54,20 @@
             "numero": "Q4",
             "mots_cles": [
               {
-                "theme": "Cinématique : Vitesses",
+                "theme_sous_theme": "Cinématique : Vitesses",
                 "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Transmissions mécaniques : Engrenages",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
               }
             ]
           },
@@ -58,15 +75,15 @@
             "numero": "Q5",
             "mots_cles": [
               {
-                "theme": "Dynamique : Torseur dynamique",
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
                 "semestre": "S3"
               },
               {
-                "theme": "Énergétique : Rendement",
+                "theme_sous_theme": "Dynamique : Géométrie des masses",
                 "semestre": "S3"
               },
               {
-                "theme": "Énergétique : Puissance",
+                "theme_sous_theme": "Énergétique : Théorème de l'énergie cinétique",
                 "semestre": "S3"
               }
             ]
@@ -75,7 +92,11 @@
             "numero": "Q6",
             "mots_cles": [
               {
-                "theme": "Dynamique : PFD",
+                "theme_sous_theme": "Énergétique : Inertie équivalente",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
                 "semestre": "S3"
               }
             ]
@@ -84,16 +105,12 @@
             "numero": "Q7",
             "mots_cles": [
               {
-                "theme": "Dynamique : PFD",
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
                 "semestre": "S3"
               },
               {
-                "theme": "Machines électriques : MCC",
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
                 "semestre": "S4"
-              },
-              {
-                "theme": "Cinématique : Vitesses",
-                "semestre": "S1"
               }
             ]
           },
@@ -101,29 +118,25 @@
             "numero": "Q8",
             "mots_cles": [
               {
-                "theme": "Dynamique : PFD",
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
                 "semestre": "S3"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Ingénierie Système",
-          "Cinématique",
-          "Statique",
-          "Dynamique",
-          "Énergétique",
-          "Machines électriques"
         ]
       },
       {
-        "titre_partie": "B - Vérification du critère de la F.C.2 : être stable mécaniquement",
+        "titre_partie": "B – Vérification du critère de la F.C.2 : être stable mécaniquement",
         "questions": [
           {
             "numero": "Q9",
             "mots_cles": [
               {
-                "theme": "Statique : Hyperstatisme",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
                 "semestre": "S2"
               }
             ]
@@ -132,29 +145,30 @@
             "numero": "Q10",
             "mots_cles": [
               {
-                "theme": "Statique : Actions réparties",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
                 "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+                "semestre": "S3"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Statique"
         ]
       },
       {
-        "titre_partie": "C - Étude du critère de coplanéité",
+        "titre_partie": "C – Étude du critère de coplanéité",
         "questions": [
           {
             "numero": "Q11",
             "mots_cles": [
               {
-                "theme": "Cinématique : Vitesses",
-                "semestre": "S1"
+                "theme_sous_theme": "Machines électriques : Machine asynchrone",
+                "semestre": "S4"
               },
               {
-                "theme": "Systèmes séquentiels et SED : Diagramme d'états",
-                "semestre": "S1"
+                "theme_sous_theme": "Dimensionnement : Capteurs",
+                "semestre": "S4"
               }
             ]
           },
@@ -162,8 +176,12 @@
             "numero": "Q12",
             "mots_cles": [
               {
-                "theme": "Systèmes séquentiels et SED : Diagramme d'états",
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
                 "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+                "semestre": "S2"
               }
             ]
           },
@@ -171,7 +189,7 @@
             "numero": "Q13",
             "mots_cles": [
               {
-                "theme": "Systèmes séquentiels et SED : Logigrammes",
+                "theme_sous_theme": "Systèmes séquentiels : Diagramme d'états",
                 "semestre": "S1"
               }
             ]
@@ -180,7 +198,7 @@
             "numero": "Q14",
             "mots_cles": [
               {
-                "theme": "Systèmes séquentiels et SED : Logigrammes",
+                "theme_sous_theme": "Systèmes séquentiels : Diagramme d'états",
                 "semestre": "S1"
               }
             ]
@@ -189,7 +207,7 @@
             "numero": "Q15",
             "mots_cles": [
               {
-                "theme": "Systèmes séquentiels et SED : Logigrammes",
+                "theme_sous_theme": "Systèmes séquentiels : Diagramme d'états",
                 "semestre": "S1"
               }
             ]
@@ -198,7 +216,7 @@
             "numero": "Q16",
             "mots_cles": [
               {
-                "theme": "Systèmes séquentiels et SED : Logigrammes",
+                "theme_sous_theme": "Systèmes séquentiels : Diagramme d'états",
                 "semestre": "S1"
               }
             ]
@@ -207,7 +225,15 @@
             "numero": "Q17",
             "mots_cles": [
               {
-                "theme": "Asservissement : Schéma-blocs, Laplace, Fonction de transfert",
+                "theme_sous_theme": "Machines électriques : Machine à courant continu",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
                 "semestre": "S2"
               }
             ]
@@ -216,7 +242,11 @@
             "numero": "Q18",
             "mots_cles": [
               {
-                "theme": "Asservissement : Schéma-blocs, Laplace, Fonction de transfert",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
                 "semestre": "S2"
               }
             ]
@@ -225,11 +255,15 @@
             "numero": "Q19",
             "mots_cles": [
               {
-                "theme": "Asservissement : Précision",
+                "theme_sous_theme": "Correcteurs : Proportionnel-intégral",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Précision",
                 "semestre": "S2"
               },
               {
-                "theme": "Asservissement : Correcteur Proportionnel et intégral",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
@@ -238,7 +272,15 @@
             "numero": "Q20",
             "mots_cles": [
               {
-                "theme": "Asservissement : Correcteur Proportionnel et intégral",
+                "theme_sous_theme": "Correcteurs : Proportionnel-intégral",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Rapidité",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Précision",
                 "semestre": "S2"
               }
             ]
@@ -247,20 +289,19 @@
             "numero": "Q21",
             "mots_cles": [
               {
-                "theme": "Asservissement : Schéma-blocs, Laplace, Fonction de transfert",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               },
               {
-                "theme": "Asservissement : Précision",
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Stabilité",
                 "semestre": "S2"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Cinématique",
-          "Systèmes séquentiels et SED",
-          "Asservissement"
         ]
       }
     ],

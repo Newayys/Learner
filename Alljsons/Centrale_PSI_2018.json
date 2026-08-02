@@ -4,338 +4,410 @@
   "date": "2018",
   "file": "Centrale_PSI_2018.pdf",
   "status": 200,
-  "time_s": 516.66,
+  "time_s": 35.41,
   "data": {
     "parties": [
       {
         "titre_partie": "I Contexte et étude préliminaire",
         "questions": [
           {
-            "numero": "Q 1",
+            "numero": "Q 1.",
             "mots_cles": [
               {
-                "theme": "Ingénierie Système : Cahier des charges",
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
                 "semestre": "S1"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Ingénierie Système"
         ]
       },
       {
-        "titre_partie": "II Analyse de l'entraînement en rotation d'une roue",
+        "titre_partie": "II Analyse de l’entrainement en rotation d’une roue",
         "questions": [
           {
-            "numero": "Q 2",
+            "numero": "Q 2.",
             "mots_cles": [
               {
-                "theme": "Cinématique : Lois entrée-sortie",
-                "semestre": "S1"
-              }
-            ]
-          },
-          {
-            "numero": "Q 3",
-            "mots_cles": [
-              {
-                "theme": "Cinématique : Lois entrée-sortie",
-                "semestre": "S1"
-              }
-            ]
-          },
-          {
-            "numero": "Q 4",
-            "mots_cles": [
-              {
-                "theme": "Dynamique : Torseur dynamique",
-                "semestre": "S3"
-              }
-            ]
-          },
-          {
-            "numero": "Q 5",
-            "mots_cles": [
-              {
-                "theme": "Dynamique : Inertie équivalente",
-                "semestre": "S3"
-              }
-            ]
-          },
-          {
-            "numero": "Q 6",
-            "mots_cles": [
-              {
-                "theme": "Dynamique : Théorème de l'Énergie Cinétique",
-                "semestre": "S3"
-              }
-            ]
-          },
-          {
-            "numero": "Q 7",
-            "mots_cles": [
-              {
-                "theme": "Statique : PFS",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Q 8",
-            "mots_cles": [
-              {
-                "theme": "Cinématique : Accélérations",
-                "semestre": "S1"
-              }
-            ]
-          },
-          {
-            "numero": "Q 9",
-            "mots_cles": [
-              {
-                "theme": "Dynamique : Torseur dynamique",
-                "semestre": "S3"
-              }
-            ]
-          },
-          {
-            "numero": "Q 10",
-            "mots_cles": [
-              {
-                "theme": "Dynamique : Accélérations",
-                "semestre": "S1"
-              }
-            ]
-          },
-          {
-            "numero": "Q 11",
-            "mots_cles": [
-              {
-                "theme": "Cinématique : Vitesses",
-                "semestre": "S1"
-              }
-            ]
-          },
-          {
-            "numero": "Q 12",
-            "mots_cles": [
-              {
-                "theme": "Cinématique : Vitesses",
-                "semestre": "S1"
-              }
-            ]
-          },
-          {
-            "numero": "Q 13",
-            "mots_cles": [
-              {
-                "theme": "Cinématique : Vitesses",
-                "semestre": "S1"
-              }
-            ]
-          },
-          {
-            "numero": "Q 14",
-            "mots_cles": [
-              {
-                "theme": "Cinématique : Vitesses",
-                "semestre": "S1"
-              }
-            ]
-          },
-          {
-            "numero": "Q 15",
-            "mots_cles": [
-              {
-                "theme": "Cinématique : Accélérations",
-                "semestre": "S1"
-              }
-            ]
-          },
-          {
-            "numero": "Q 16",
-            "mots_cles": [
-              {
-                "theme": "Dynamique : Puissance",
-                "semestre": "S3"
-              }
-            ]
-          }
-        ],
-        "themes_partie": [
-          "Cinématique",
-          "Dynamique"
-        ]
-      },
-      {
-        "titre_partie": "III Analyse de la commande du dispositif de mise en translation de l'outil",
-        "questions": [
-          {
-            "numero": "Q 17",
-            "mots_cles": [
-              {
-                "theme": "Cinématique : Lois entrée-sortie",
-                "semestre": "S1"
-              }
-            ]
-          },
-          {
-            "numero": "Q 18",
-            "mots_cles": [
-              {
-                "theme": "Modélisation des signaux : Bode",
+                "theme_sous_theme": "Statique : Hyperstatisme",
                 "semestre": "S2"
               },
               {
-                "theme": "Modélisation des signaux : Laplace",
+                "theme_sous_theme": "Statique : Isostatisme",
                 "semestre": "S2"
               }
             ]
           },
           {
-            "numero": "Q 19",
+            "numero": "Q 3.",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : Laplace",
+                "theme_sous_theme": "Cinématique : Vitesses",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Statique : Hyperstatisme",
                 "semestre": "S2"
               }
             ]
           },
           {
-            "numero": "Q 20",
+            "numero": "Q 4.",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : Laplace",
+                "theme_sous_theme": "Statique : Hyperstatisme",
                 "semestre": "S2"
               }
             ]
           },
           {
-            "numero": "Q 21",
+            "numero": "Q 5.",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : 2nd ordre",
-                "semestre": "S2"
+                "theme_sous_theme": "Énergétique : Inertie équivalente",
+                "semestre": "S3"
               }
             ]
           },
           {
-            "numero": "Q 22",
+            "numero": "Q 6.",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : Bode",
-                "semestre": "S2"
+                "theme_sous_theme": "Énergétique : Théorème de l'énergie cinétique",
+                "semestre": "S3"
               }
             ]
           },
           {
-            "numero": "Q 23",
+            "numero": "Q 7.",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : Bode",
-                "semestre": "S2"
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+                "semestre": "S3"
               }
             ]
           },
           {
-            "numero": "Q 24",
+            "numero": "Q 8.",
             "mots_cles": [
               {
-                "theme": "Asservissement : Stabilité",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Q 25",
-            "mots_cles": [
+                "theme_sous_theme": "Cinématique : Vitesses",
+                "semestre": "S1"
+              },
               {
-                "theme": "Asservissement : Laplace",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Q 26",
-            "mots_cles": [
-              {
-                "theme": "Asservissement : Laplace",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Q 27",
-            "mots_cles": [
-              {
-                "theme": "Informatique et Algorithmique : Boucles",
+                "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
                 "semestre": "S1"
               }
             ]
           },
           {
-            "numero": "Q 28",
+            "numero": "Q 9.",
             "mots_cles": [
               {
-                "theme": "Informatique et Algorithmique : Boucles",
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q 10.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q 11.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Cinématique : Vitesses",
                 "semestre": "S1"
               }
             ]
           },
           {
-            "numero": "Q 29",
+            "numero": "Q 12.",
             "mots_cles": [
               {
-                "theme": "Asservissement : Laplace",
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
                 "semestre": "S2"
               }
             ]
           },
           {
-            "numero": "Q 30",
+            "numero": "Q 13.",
             "mots_cles": [
               {
-                "theme": "Asservissement : Laplace",
-                "semestre": "S2"
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
+                "semestre": "S1"
               }
             ]
           },
           {
-            "numero": "Q 31",
+            "numero": "Q 14.",
             "mots_cles": [
               {
-                "theme": "Asservissement : Stabilité",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q 15.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q 16.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
+                "semestre": "S3"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titre_partie": "III.A – Effet de la déformation de l’outil sur la forme de la roue reprofilée",
+        "questions": [
+          {
+            "numero": "Q 17.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Procédés : Usinage",
+                "semestre": "S3"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titre_partie": "III.B – Analyse d’une solution avec un porte-outil fixé au bâti",
+        "questions": [
+          {
+            "numero": "Q 18.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Stabilité",
                 "semestre": "S2"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Cinématique",
-          "Modélisation des signaux",
-          "Asservissement",
-          "Informatique et Algorithmique"
+        ]
+      },
+      {
+        "titre_partie": "III.C – Analyse des asservissements du porte-outil",
+        "questions": [
+          {
+            "numero": "Q 19.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 20.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 21.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Stabilité",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 22.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 23.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 24.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Correcteurs : Proportionnel",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Précision",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 25.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Correcteurs : Proportionnel-intégral",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Stabilité",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 26.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Asservissement : Rapidité",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Correcteurs : Proportionnel-intégral",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q 27.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Informatique : Algorithmique",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q 28.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Informatique : Algorithmique",
+                "semestre": "S1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titre_partie": "III.D – Analyse de l’influence du paramètre b (défini en figure C du document réponse)",
+        "questions": [
+          {
+            "numero": "Q 29.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 30.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 31.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Asservissement : Stabilité",
+                "semestre": "S2"
+              }
+            ]
+          }
         ]
       },
       {
         "titre_partie": "IV Synthèse",
         "questions": [
           {
-            "numero": "Q 32",
+            "numero": "Q 32.",
             "mots_cles": [
               {
-                "theme": "Asservissement : Précision",
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
                 "semestre": "S2"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Asservissement"
         ]
       }
     ],
-    "ajouts": []
+    "ajouts": [
+      {
+        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+        "semestre": "S3"
+      },
+      {
+        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+        "semestre": "S3"
+      },
+      {
+        "theme_sous_theme": "Énergétique : Puissance et rendement",
+        "semestre": "S3"
+      },
+      {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+      },
+      {
+        "theme_sous_theme": "Asservissement : Stabilité",
+        "semestre": "S2"
+      },
+      {
+        "theme_sous_theme": "Correcteurs : Proportionnel",
+        "semestre": "S4"
+      }
+    ]
   }
 }

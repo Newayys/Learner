@@ -4,15 +4,12 @@
   "date": "2015",
   "file": "CCINP_PSI_2015.pdf",
   "status": 200,
-  "time_s": 643.89,
+  "time_s": 23.05,
   "data": {
     "parties": [
       {
         "titre_partie": "I Présentation",
-        "questions": [],
-        "themes_partie": [
-          "Ingénierie Système"
-        ]
+        "questions": []
       },
       {
         "titre_partie": "II Modélisation du manipulateur maître",
@@ -21,7 +18,7 @@
             "numero": "Q1",
             "mots_cles": [
               {
-                "theme": "Cinématique : Fermeture géométrique",
+                "theme_sous_theme": "Cinématique : Fermeture géométrique",
                 "semestre": "S1"
               }
             ]
@@ -30,7 +27,7 @@
             "numero": "Q2",
             "mots_cles": [
               {
-                "theme": "Cinématique : Fermeture géométrique",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
               }
             ]
@@ -39,7 +36,7 @@
             "numero": "Q3",
             "mots_cles": [
               {
-                "theme": "Cinématique : Vitesses",
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
                 "semestre": "S1"
               }
             ]
@@ -48,7 +45,7 @@
             "numero": "Q4",
             "mots_cles": [
               {
-                "theme": "Cinématique : Vitesses",
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
                 "semestre": "S1"
               }
             ]
@@ -57,7 +54,7 @@
             "numero": "Q5",
             "mots_cles": [
               {
-                "theme": "Statique : PFS",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
                 "semestre": "S2"
               }
             ]
@@ -66,35 +63,31 @@
             "numero": "Q6",
             "mots_cles": [
               {
-                "theme": "Statique : PFS",
-                "semestre": "S2"
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q7",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Dimensionnement : Capteurs",
+                "semestre": "S4"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Cinématique",
-          "Statique"
         ]
       },
       {
         "titre_partie": "III Modélisation du manipulateur esclave",
         "questions": [
           {
-            "numero": "Q7",
-            "mots_cles": [
-              {
-                "theme": "Traitement de l'information : Quantification",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
             "numero": "Q8",
             "mots_cles": [
               {
-                "theme": "Cinématique : Fermeture géométrique",
-                "semestre": "S1"
+                "theme_sous_theme": "Statique : Hyperstatisme",
+                "semestre": "S2"
               }
             ]
           },
@@ -102,7 +95,7 @@
             "numero": "Q9",
             "mots_cles": [
               {
-                "theme": "Statique : Hyperstatisme",
+                "theme_sous_theme": "Statique : Isostatisme",
                 "semestre": "S2"
               }
             ]
@@ -111,7 +104,7 @@
             "numero": "Q10",
             "mots_cles": [
               {
-                "theme": "Cinématique : Lois entrée-sortie",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
               }
             ]
@@ -120,7 +113,7 @@
             "numero": "Q11",
             "mots_cles": [
               {
-                "theme": "Énergétique : Théorème de l'Énergie Cinétique",
+                "theme_sous_theme": "Énergétique : Théorème de l'énergie cinétique",
                 "semestre": "S3"
               }
             ]
@@ -129,8 +122,8 @@
             "numero": "Q12",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : 1er ordre",
-                "semestre": "S2"
+                "theme_sous_theme": "Énergétique : Inertie équivalente",
+                "semestre": "S3"
               }
             ]
           },
@@ -138,26 +131,21 @@
             "numero": "Q13",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : 2nd ordre",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Cinématique",
-          "Énergétique",
-          "Modélisation des signaux"
         ]
       },
       {
-        "titre_partie": "IV Réalisation de la commande de l'esclave",
+        "titre_partie": "IV Réalisation de la commande de l’esclave",
         "questions": [
           {
             "numero": "Q14",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : 1er ordre",
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
                 "semestre": "S2"
               }
             ]
@@ -166,7 +154,7 @@
             "numero": "Q15",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : Temporel",
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
                 "semestre": "S2"
               }
             ]
@@ -175,7 +163,7 @@
             "numero": "Q16",
             "mots_cles": [
               {
-                "theme": "Traitement de l'information : Échantillonnage",
+                "theme_sous_theme": "Traitement de l'information : Échantillonnage et quantification",
                 "semestre": "S2"
               }
             ]
@@ -184,7 +172,7 @@
             "numero": "Q17",
             "mots_cles": [
               {
-                "theme": "Traitement de l'information : Quantification",
+                "theme_sous_theme": "Traitement de l'information : Échantillonnage et quantification",
                 "semestre": "S2"
               }
             ]
@@ -193,7 +181,7 @@
             "numero": "Q18",
             "mots_cles": [
               {
-                "theme": "Asservissement : Schéma-blocs",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
@@ -202,15 +190,7 @@
             "numero": "Q19",
             "mots_cles": [
               {
-                "theme": "Asservissement : Stabilité",
-                "semestre": "S2"
-              },
-              {
-                "theme": "Asservissement : Rapidité",
-                "semestre": "S2"
-              },
-              {
-                "theme": "Asservissement : Précision",
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
                 "semestre": "S2"
               }
             ]
@@ -219,15 +199,15 @@
             "numero": "Q20",
             "mots_cles": [
               {
-                "theme": "Asservissement : Stabilité",
+                "theme_sous_theme": "Asservissement : Rapidité",
                 "semestre": "S2"
               },
               {
-                "theme": "Asservissement : Rapidité",
+                "theme_sous_theme": "Asservissement : Stabilité",
                 "semestre": "S2"
               },
               {
-                "theme": "Asservissement : Précision",
+                "theme_sous_theme": "Asservissement : Précision",
                 "semestre": "S2"
               }
             ]
@@ -236,15 +216,19 @@
             "numero": "Q21",
             "mots_cles": [
               {
-                "theme": "Asservissement : Stabilité",
+                "theme_sous_theme": "Correcteurs : Proportionnel-intégral",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Rapidité",
                 "semestre": "S2"
               },
               {
-                "theme": "Asservissement : Rapidité",
+                "theme_sous_theme": "Asservissement : Stabilité",
                 "semestre": "S2"
               },
               {
-                "theme": "Asservissement : Précision",
+                "theme_sous_theme": "Asservissement : Précision",
                 "semestre": "S2"
               }
             ]
@@ -253,7 +237,7 @@
             "numero": "Q22",
             "mots_cles": [
               {
-                "theme": "Asservissement : Rapidité",
+                "theme_sous_theme": "Asservissement : Stabilité",
                 "semestre": "S2"
               }
             ]
@@ -262,11 +246,15 @@
             "numero": "Q23",
             "mots_cles": [
               {
-                "theme": "Asservissement : Stabilité",
+                "theme_sous_theme": "Correcteurs : Proportionnel-intégral",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Rapidité",
                 "semestre": "S2"
               },
               {
-                "theme": "Asservissement : Rapidité",
+                "theme_sous_theme": "Asservissement : Stabilité",
                 "semestre": "S2"
               }
             ]
@@ -275,7 +263,11 @@
             "numero": "Q24",
             "mots_cles": [
               {
-                "theme": "Asservissement : Précision",
+                "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Précision",
                 "semestre": "S2"
               }
             ]
@@ -284,7 +276,7 @@
             "numero": "Q25",
             "mots_cles": [
               {
-                "theme": "Asservissement : Rapidité",
+                "theme_sous_theme": "Asservissement : Rapidité",
                 "semestre": "S2"
               }
             ]
@@ -293,32 +285,25 @@
             "numero": "Q26",
             "mots_cles": [
               {
-                "theme": "Asservissement : Précision",
+                "theme_sous_theme": "Asservissement : Précision",
                 "semestre": "S2"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Asservissement",
-          "Traitement de l'information"
         ]
       },
       {
-        "titre_partie": "V Synthèse",
+        "titre_partie": "V Synthese",
         "questions": [
           {
             "numero": "Q27",
             "mots_cles": [
               {
-                "theme": "Ingénierie Système : Chaînes d'information",
+                "theme_sous_theme": "Ingénierie Système : Chaîne d'information",
                 "semestre": "S1"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Ingénierie Système"
         ]
       }
     ],

@@ -4,7 +4,7 @@
   "date": "2025",
   "file": "Centrale_TSI_2025.pdf",
   "status": 200,
-  "time_s": 398.19,
+  "time_s": 32.59,
   "data": {
     "parties": [
       {
@@ -14,7 +14,7 @@
             "numero": "Q1",
             "mots_cles": [
               {
-                "theme": "Écoconception : Analyse de Cycle de Vie",
+                "theme_sous_theme": "Écoconception : Analyse de cycle de vie",
                 "semestre": "S4"
               }
             ]
@@ -23,7 +23,7 @@
             "numero": "Q2",
             "mots_cles": [
               {
-                "theme": "Écoconception : Analyse de Cycle de Vie",
+                "theme_sous_theme": "Écoconception : Analyse de cycle de vie",
                 "semestre": "S4"
               }
             ]
@@ -32,25 +32,26 @@
             "numero": "Q3",
             "mots_cles": [
               {
-                "theme": "Écoconception : Analyse de Cycle de Vie",
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Écoconception : Analyse de cycle de vie",
                 "semestre": "S4"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Écoconception"
         ]
       },
       {
-        "titre_partie": "Partie B – Quantification de l'influence de l'isolation thermique sur la consommation d'électricité lors de l'exploitation",
+        "titre_partie": "Partie B – Influence de l’isolation thermique",
         "questions": [
           {
             "numero": "Q4",
             "mots_cles": [
               {
-                "theme": "Ingénierie Système : Chaînes d'énergie",
-                "semestre": "S1"
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
+                "semestre": "S3"
               }
             ]
           },
@@ -58,8 +59,8 @@
             "numero": "Q5",
             "mots_cles": [
               {
-                "theme": "Ingénierie Système : Chaînes d'énergie",
-                "semestre": "S1"
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
+                "semestre": "S3"
               }
             ]
           },
@@ -67,7 +68,7 @@
             "numero": "Q6",
             "mots_cles": [
               {
-                "theme": "Énergétique : Puissance",
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
                 "semestre": "S3"
               }
             ]
@@ -76,8 +77,8 @@
             "numero": "Q7",
             "mots_cles": [
               {
-                "theme": "Écoconception : Analyse de Cycle de Vie",
-                "semestre": "S4"
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
+                "semestre": "S3"
               }
             ]
           },
@@ -85,7 +86,7 @@
             "numero": "Q8",
             "mots_cles": [
               {
-                "theme": "Écoconception : Analyse de Cycle de Vie",
+                "theme_sous_theme": "Écoconception : Analyse de cycle de vie",
                 "semestre": "S4"
               }
             ]
@@ -94,16 +95,11 @@
             "numero": "Q9",
             "mots_cles": [
               {
-                "theme": "Écoconception : Analyse de Cycle de Vie",
+                "theme_sous_theme": "Écoconception : Analyse de cycle de vie",
                 "semestre": "S4"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Ingénierie Système",
-          "Énergétique",
-          "Écoconception"
         ]
       },
       {
@@ -113,17 +109,8 @@
             "numero": "Q10",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : Temporel",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Q11",
-            "mots_cles": [
-              {
-                "theme": "Électrotechnique : Hacheur",
-                "semestre": "S2"
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
+                "semestre": "S3"
               }
             ]
           },
@@ -131,7 +118,7 @@
             "numero": "Q12",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : 1er ordre",
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
                 "semestre": "S2"
               }
             ]
@@ -140,7 +127,11 @@
             "numero": "Q13",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : Laplace",
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
@@ -149,8 +140,8 @@
             "numero": "Q14",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Liaisons",
-                "semestre": "S4"
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
+                "semestre": "S2"
               }
             ]
           },
@@ -158,8 +149,8 @@
             "numero": "Q15",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : Temporel",
-                "semestre": "S2"
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
+                "semestre": "S3"
               }
             ]
           },
@@ -167,7 +158,7 @@
             "numero": "Q16",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : Filtres",
+                "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
                 "semestre": "S2"
               }
             ]
@@ -176,7 +167,11 @@
             "numero": "Q17",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : Filtres",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Traitement de l'information : Échantillonnage et quantification",
                 "semestre": "S2"
               }
             ]
@@ -185,7 +180,7 @@
             "numero": "Q18",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : 1er ordre",
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
                 "semestre": "S2"
               }
             ]
@@ -194,8 +189,12 @@
             "numero": "Q19",
             "mots_cles": [
               {
-                "theme": "Asservissement : Correcteur Proportionnel et intégral",
+                "theme_sous_theme": "Asservissement : Précision",
                 "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Correcteurs : Proportionnel-intégral",
+                "semestre": "S4"
               }
             ]
           },
@@ -203,7 +202,7 @@
             "numero": "Q20",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : Laplace",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
@@ -212,7 +211,11 @@
             "numero": "Q21",
             "mots_cles": [
               {
-                "theme": "Asservissement : Stabilité",
+                "theme_sous_theme": "Asservissement : Stabilité",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
                 "semestre": "S2"
               }
             ]
@@ -221,7 +224,7 @@
             "numero": "Q22",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : Filtres",
+                "theme_sous_theme": "Électrotechnique : Convertisseurs statiques",
                 "semestre": "S2"
               }
             ]
@@ -230,7 +233,7 @@
             "numero": "Q23",
             "mots_cles": [
               {
-                "theme": "Ingénierie Système : Cahier des charges",
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
                 "semestre": "S1"
               }
             ]
@@ -239,29 +242,21 @@
             "numero": "Q24",
             "mots_cles": [
               {
-                "theme": "Énergétique : Puissance",
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
                 "semestre": "S3"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Modélisation des signaux",
-          "Électrotechnique",
-          "Dimensionnement",
-          "Asservissement",
-          "Ingénierie Système",
-          "Énergétique"
         ]
       },
       {
-        "titre_partie": "Partie D – Validation de la structure mécanique permettant de maintenir l'inclinaison des panneaux photovoltaïques",
+        "titre_partie": "Partie D – Validation de la structure mécanique",
         "questions": [
           {
             "numero": "Q25",
             "mots_cles": [
               {
-                "theme": "Résistance des matériaux : Contraintes",
+                "theme_sous_theme": "Résistance des matériaux : Torseur de cohésion",
                 "semestre": "S3"
               }
             ]
@@ -270,8 +265,8 @@
             "numero": "Q26",
             "mots_cles": [
               {
-                "theme": "Dynamique : Torseur dynamique",
-                "semestre": "S3"
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
+                "semestre": "S2"
               }
             ]
           },
@@ -279,8 +274,8 @@
             "numero": "Q27",
             "mots_cles": [
               {
-                "theme": "Dynamique : Torseur dynamique",
-                "semestre": "S3"
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
+                "semestre": "S2"
               }
             ]
           },
@@ -288,8 +283,8 @@
             "numero": "Q28",
             "mots_cles": [
               {
-                "theme": "Métrologie : Contrôle 3D",
-                "semestre": "S3"
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
+                "semestre": "S2"
               }
             ]
           },
@@ -297,8 +292,8 @@
             "numero": "Q29",
             "mots_cles": [
               {
-                "theme": "Dynamique : Torseur dynamique",
-                "semestre": "S3"
+                "theme_sous_theme": "Statique : Liaisons équivalentes",
+                "semestre": "S2"
               }
             ]
           },
@@ -306,7 +301,7 @@
             "numero": "Q30",
             "mots_cles": [
               {
-                "theme": "Statique : Hyperstatisme",
+                "theme_sous_theme": "Statique : Hyperstatisme",
                 "semestre": "S2"
               }
             ]
@@ -315,7 +310,7 @@
             "numero": "Q31",
             "mots_cles": [
               {
-                "theme": "Statique : PFS",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
                 "semestre": "S2"
               }
             ]
@@ -324,7 +319,7 @@
             "numero": "Q32",
             "mots_cles": [
               {
-                "theme": "Informatique et Algorithmique : Python",
+                "theme_sous_theme": "Informatique : Algorithmique",
                 "semestre": "S1"
               }
             ]
@@ -333,7 +328,7 @@
             "numero": "Q33",
             "mots_cles": [
               {
-                "theme": "Informatique et Algorithmique : Python",
+                "theme_sous_theme": "Informatique : Algorithmique",
                 "semestre": "S1"
               }
             ]
@@ -342,7 +337,7 @@
             "numero": "Q34",
             "mots_cles": [
               {
-                "theme": "Résistance des matériaux : Contraintes",
+                "theme_sous_theme": "Résistance des matériaux : Torseur de cohésion",
                 "semestre": "S3"
               }
             ]
@@ -351,29 +346,30 @@
             "numero": "Q35",
             "mots_cles": [
               {
-                "theme": "Résistance des matériaux : Contraintes",
+                "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Matériaux : Propriétés physiques et mécaniques",
                 "semestre": "S3"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Résistance des matériaux",
-          "Dynamique",
-          "Métrologie",
-          "Statique",
-          "Informatique et Algorithmique"
         ]
       },
       {
-        "titre_partie": "Partie E – Synthèse : émissions équivalentes de gaz à effet de serre sur l'ensemble de la durée de vie",
+        "titre_partie": "Synthèse",
         "questions": [
           {
             "numero": "Q36",
             "mots_cles": [
               {
-                "theme": "Écoconception : Analyse de Cycle de Vie",
+                "theme_sous_theme": "Écoconception : Analyse de cycle de vie",
                 "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
               }
             ]
           },
@@ -381,14 +377,11 @@
             "numero": "Q37",
             "mots_cles": [
               {
-                "theme": "Écoconception : Analyse de Cycle de Vie",
+                "theme_sous_theme": "Écoconception : Analyse de cycle de vie",
                 "semestre": "S4"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Écoconception"
         ]
       }
     ],

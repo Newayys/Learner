@@ -4,17 +4,17 @@
   "date": "2023",
   "file": "Centrale_TSI_2023.pdf",
   "status": 200,
-  "time_s": 540.93,
+  "time_s": 33.66,
   "data": {
     "parties": [
       {
-        "titre_partie": "I Gestion de l'attitude de la plate-forme dans le plan médian",
+        "titre_partie": "I Gestion de l’attitude de la plate-forme dans le plan médian",
         "questions": [
           {
             "numero": "Q1",
             "mots_cles": [
               {
-                "theme": "Cinématique : Fermeture géométrique",
+                "theme_sous_theme": "Cinématique : Fermeture géométrique",
                 "semestre": "S1"
               }
             ]
@@ -23,7 +23,11 @@
             "numero": "Q2",
             "mots_cles": [
               {
-                "theme": "Cinématique : Fermeture géométrique",
+                "theme_sous_theme": "Cinématique : Fermeture géométrique",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
               }
             ]
@@ -32,24 +36,29 @@
             "numero": "Q3",
             "mots_cles": [
               {
-                "theme": "Cinématique : Fermeture géométrique",
+                "theme_sous_theme": "Statique : Hyperstatisme",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Statique : Isostatisme",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Ingénierie Système : Chaîne d'énergie",
                 "semestre": "S1"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Cinématique"
         ]
       },
       {
-        "titre_partie": "II Commande des moteurs pour une évolution rectiligne de la plate-forme dans le plan médian",
+        "titre_partie": "II Commande des moteurs pour une évolution rectiligne de la plate- forme dans le plan médian",
         "questions": [
           {
             "numero": "Q4",
             "mots_cles": [
               {
-                "theme": "Cinématique : Vitesses",
+                "theme_sous_theme": "Cinématique : Vitesses",
                 "semestre": "S1"
               }
             ]
@@ -58,7 +67,7 @@
             "numero": "Q5",
             "mots_cles": [
               {
-                "theme": "Cinématique : Vitesses",
+                "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
                 "semestre": "S1"
               }
             ]
@@ -67,7 +76,15 @@
             "numero": "Q6",
             "mots_cles": [
               {
-                "theme": "Énergétique : Théorème de l'Énergie Cinétique",
+                "theme_sous_theme": "Dynamique : Géométrie des masses",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Énergétique : Inertie équivalente",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Énergétique : Théorème de l'énergie cinétique",
                 "semestre": "S3"
               }
             ]
@@ -76,7 +93,11 @@
             "numero": "Q7",
             "mots_cles": [
               {
-                "theme": "Énergétique : Puissance",
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
                 "semestre": "S3"
               }
             ]
@@ -85,7 +106,7 @@
             "numero": "Q8",
             "mots_cles": [
               {
-                "theme": "Dynamique : PFD",
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
                 "semestre": "S3"
               }
             ]
@@ -94,12 +115,8 @@
             "numero": "Q9",
             "mots_cles": [
               {
-                "theme": "Cinématique : Vitesses",
-                "semestre": "S1"
-              },
-              {
-                "theme": "Cinématique : Accélérations",
-                "semestre": "S1"
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
+                "semestre": "S2"
               }
             ]
           },
@@ -107,7 +124,7 @@
             "numero": "Q10",
             "mots_cles": [
               {
-                "theme": "Statique : Liaisons équivalentes",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
                 "semestre": "S2"
               }
             ]
@@ -116,28 +133,30 @@
             "numero": "Q11",
             "mots_cles": [
               {
-                "theme": "Statique : Liaisons équivalentes",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
                 "semestre": "S2"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Cinématique",
-          "Énergétique",
-          "Dynamique",
-          "Statique"
         ]
       },
       {
-        "titre_partie": "III Analyse de l'influence des différences sources d'incertitude sur le positionnement de la plate-forme",
+        "titre_partie": "III Analyse de l’influence des différences sources d’incertitude sur le positionnement de la plate-forme",
         "questions": [
           {
             "numero": "Q12",
             "mots_cles": [
               {
-                "theme": "Métrologie : Contrôle 3D",
-                "semestre": "S3"
+                "theme_sous_theme": "Traitement de l'information : Échantillonnage et quantification",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Capteurs",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+                "semestre": "S2"
               }
             ]
           },
@@ -145,8 +164,12 @@
             "numero": "Q13",
             "mots_cles": [
               {
-                "theme": "Métrologie : Contrôle 3D",
-                "semestre": "S3"
+                "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Capteurs",
+                "semestre": "S4"
               }
             ]
           },
@@ -154,8 +177,12 @@
             "numero": "Q14",
             "mots_cles": [
               {
-                "theme": "Métrologie : Contrôle 3D",
-                "semestre": "S3"
+                "theme_sous_theme": "Dimensionnement : Capteurs",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+                "semestre": "S2"
               }
             ]
           },
@@ -163,7 +190,7 @@
             "numero": "Q15",
             "mots_cles": [
               {
-                "theme": "Matériaux : Propriétés",
+                "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
                 "semestre": "S3"
               }
             ]
@@ -172,8 +199,12 @@
             "numero": "Q16",
             "mots_cles": [
               {
-                "theme": "Matériaux : Propriétés",
+                "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
                 "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Capteurs",
+                "semestre": "S4"
               }
             ]
           },
@@ -181,7 +212,7 @@
             "numero": "Q17",
             "mots_cles": [
               {
-                "theme": "Asservissement : Schéma-blocs",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
@@ -190,7 +221,7 @@
             "numero": "Q18",
             "mots_cles": [
               {
-                "theme": "Asservissement : Laplace",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
@@ -199,7 +230,11 @@
             "numero": "Q19",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : Bode",
+                "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Stabilité",
                 "semestre": "S2"
               }
             ]
@@ -208,41 +243,42 @@
             "numero": "Q20",
             "mots_cles": [
               {
-                "theme": "Asservissement : Laplace",
+                "theme_sous_theme": "Traitement de l'information : Échantillonnage et quantification",
                 "semestre": "S2"
               },
               {
-                "theme": "Traitement de l'information : Échantillonnage",
-                "semestre": "S2"
-              }
-            ]
-          }
-        ],
-        "themes_partie": [
-          "Métrologie",
-          "Matériaux",
-          "Asservissement",
-          "Modélisation des signaux",
-          "Traitement de l'information"
-        ]
-      },
-      {
-        "titre_partie": "IV Étude de l'exigence « fournir l'énergie électrique aux moteurs »",
-        "questions": [
-          {
-            "numero": "Q21",
-            "mots_cles": [
+                "theme_sous_theme": "Correcteurs : Correcteur numérique",
+                "semestre": "S4"
+              },
               {
-                "theme": "Systèmes séquentiels et SED : Diagramme d'états",
+                "theme_sous_theme": "Informatique : Algorithmique",
                 "semestre": "S1"
               }
             ]
           },
           {
+            "numero": "Q21",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Systèmes séquentiels : Diagramme d'états",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Informatique : Algorithmique",
+                "semestre": "S1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titre_partie": "IV Étude de l’exigence « fournir l’énergie électrique aux moteurs »",
+        "questions": [
+          {
             "numero": "Q22",
             "mots_cles": [
               {
-                "theme": "Machines électriques : Synchrone",
+                "theme_sous_theme": "Machines électriques : Machine synchrone",
                 "semestre": "S4"
               }
             ]
@@ -251,8 +287,12 @@
             "numero": "Q23",
             "mots_cles": [
               {
-                "theme": "Machines électriques : Synchrone",
+                "theme_sous_theme": "Machines électriques : Machine synchrone",
                 "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Circuits alternatifs : Puissances active et réactive",
+                "semestre": "S3"
               }
             ]
           },
@@ -260,7 +300,11 @@
             "numero": "Q24",
             "mots_cles": [
               {
-                "theme": "Machines électriques : Synchrone",
+                "theme_sous_theme": "Machines électriques : Machine synchrone",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
                 "semestre": "S4"
               }
             ]
@@ -269,8 +313,12 @@
             "numero": "Q25",
             "mots_cles": [
               {
-                "theme": "Énergétique : Puissance",
-                "semestre": "S3"
+                "theme_sous_theme": "Électrotechnique : Convertisseurs statiques",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
               }
             ]
           },
@@ -278,8 +326,12 @@
             "numero": "Q26",
             "mots_cles": [
               {
-                "theme": "Énergétique : Rendement",
-                "semestre": "S3"
+                "theme_sous_theme": "Électrotechnique : Convertisseurs statiques",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Écoconception : Analyse de cycle de vie",
+                "semestre": "S4"
               }
             ]
           },
@@ -287,7 +339,7 @@
             "numero": "Q27",
             "mots_cles": [
               {
-                "theme": "Énergétique : Théorème de l'Énergie Cinétique",
+                "theme_sous_theme": "Énergétique : Théorème de l'énergie cinétique",
                 "semestre": "S3"
               }
             ]
@@ -296,27 +348,30 @@
             "numero": "Q28",
             "mots_cles": [
               {
-                "theme": "Énergétique : Puissance",
-                "semestre": "S3"
+                "theme_sous_theme": "Électrotechnique : Convertisseurs statiques",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Écoconception : Analyse de cycle de vie",
+                "semestre": "S4"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Systèmes séquentiels et SED",
-          "Machines électriques",
-          "Énergétique"
         ]
       },
       {
-        "titre_partie": "V Étude de l'asservissement de la longueur d'un câble pour gérer le mouvement",
+        "titre_partie": "V Étude de l’asservissement de la longueur d’un câble pour gérer le mouvement",
         "questions": [
           {
             "numero": "Q29",
             "mots_cles": [
               {
-                "theme": "Asservissement : Stabilité",
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
                 "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
               }
             ]
           },
@@ -324,8 +379,12 @@
             "numero": "Q30",
             "mots_cles": [
               {
-                "theme": "Asservissement : Précision",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Capteurs",
+                "semestre": "S4"
               }
             ]
           },
@@ -333,7 +392,15 @@
             "numero": "Q31",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : Bode",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Stabilité",
                 "semestre": "S2"
               }
             ]
@@ -342,8 +409,12 @@
             "numero": "Q32",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : Bode",
+                "theme_sous_theme": "Asservissement : Stabilité",
                 "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Correcteurs : Proportionnel",
+                "semestre": "S4"
               }
             ]
           },
@@ -351,7 +422,7 @@
             "numero": "Q33",
             "mots_cles": [
               {
-                "theme": "Asservissement : Laplace",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
@@ -360,15 +431,19 @@
             "numero": "Q34",
             "mots_cles": [
               {
-                "theme": "Asservissement : Précision",
+                "theme_sous_theme": "Asservissement : Précision",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Correcteurs : Proportionnel",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
                 "semestre": "S2"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Asservissement",
-          "Modélisation des signaux"
         ]
       },
       {
@@ -378,14 +453,19 @@
             "numero": "Q35",
             "mots_cles": [
               {
-                "theme": "Ingénierie Système : Chaînes d'énergie",
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
                 "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Écoconception : Analyse de cycle de vie",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Ingénierie Système"
         ]
       }
     ],

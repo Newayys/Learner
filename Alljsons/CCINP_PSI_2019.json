@@ -4,7 +4,7 @@
   "date": "2019",
   "file": "CCINP_PSI_2019.pdf",
   "status": 200,
-  "time_s": 341.89,
+  "time_s": 27.04,
   "data": {
     "parties": [
       {
@@ -14,7 +14,7 @@
             "numero": "Q1",
             "mots_cles": [
               {
-                "theme": "Cinématique : Vitesses",
+                "theme_sous_theme": "Cinématique : Vitesses",
                 "semestre": "S1"
               }
             ]
@@ -23,7 +23,7 @@
             "numero": "Q2",
             "mots_cles": [
               {
-                "theme": "Cinématique : Accélérations",
+                "theme_sous_theme": "Cinématique : Accélérations",
                 "semestre": "S1"
               }
             ]
@@ -32,7 +32,7 @@
             "numero": "Q3",
             "mots_cles": [
               {
-                "theme": "Statique : PFS",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
                 "semestre": "S2"
               }
             ]
@@ -41,7 +41,7 @@
             "numero": "Q4",
             "mots_cles": [
               {
-                "theme": "Dynamique : PFD",
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
                 "semestre": "S3"
               }
             ]
@@ -50,7 +50,7 @@
             "numero": "Q5",
             "mots_cles": [
               {
-                "theme": "Dynamique : PFD",
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
                 "semestre": "S3"
               }
             ]
@@ -59,16 +59,15 @@
             "numero": "Q6",
             "mots_cles": [
               {
-                "theme": "Dynamique : PFD",
-                "semestre": "S3"
+                "theme_sous_theme": "Statique : Frottements",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Cinématique",
-          "Statique",
-          "Dynamique"
         ]
       },
       {
@@ -78,8 +77,8 @@
             "numero": "Q7",
             "mots_cles": [
               {
-                "theme": "Traitement de l'information : Analyse de données",
-                "semestre": "S2"
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
               }
             ]
           },
@@ -87,8 +86,8 @@
             "numero": "Q8",
             "mots_cles": [
               {
-                "theme": "Traitement de l'information : Analyse de données",
-                "semestre": "S2"
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
               }
             ]
           },
@@ -96,7 +95,7 @@
             "numero": "Q9",
             "mots_cles": [
               {
-                "theme": "Cinématique : Lois entrée-sortie",
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
                 "semestre": "S1"
               }
             ]
@@ -105,25 +104,25 @@
             "numero": "Q10",
             "mots_cles": [
               {
-                "theme": "Cinématique : Lois entrée-sortie",
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
                 "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Cinématique",
-          "Traitement de l'information"
         ]
       },
       {
-        "titre_partie": "Partie III - Mise en oeuvre du roulis sur simulateur",
+        "titre_partie": "Partie III - Mise en œuvre du roulis sur simulateur",
         "questions": [
           {
             "numero": "Q11",
             "mots_cles": [
               {
-                "theme": "Cinématique : Lois entrée-sortie",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
               }
             ]
@@ -132,7 +131,7 @@
             "numero": "Q12",
             "mots_cles": [
               {
-                "theme": "Statique : Hyperstatisme",
+                "theme_sous_theme": "Statique : Hyperstatisme",
                 "semestre": "S2"
               }
             ]
@@ -141,7 +140,7 @@
             "numero": "Q13",
             "mots_cles": [
               {
-                "theme": "Statique : Isostatisme",
+                "theme_sous_theme": "Statique : Isostatisme",
                 "semestre": "S2"
               }
             ]
@@ -150,7 +149,7 @@
             "numero": "Q14",
             "mots_cles": [
               {
-                "theme": "Cinématique : Lois entrée-sortie",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
               }
             ]
@@ -159,7 +158,7 @@
             "numero": "Q15",
             "mots_cles": [
               {
-                "theme": "Cinématique : Lois entrée-sortie",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
               }
             ]
@@ -168,7 +167,11 @@
             "numero": "Q16",
             "mots_cles": [
               {
-                "theme": "Cinématique : Vitesses",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Cinématique : Vitesses",
                 "semestre": "S1"
               }
             ]
@@ -177,16 +180,11 @@
             "numero": "Q17",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Actionneurs",
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
                 "semestre": "S4"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Cinématique",
-          "Statique",
-          "Dimensionnement"
         ]
       },
       {
@@ -196,7 +194,11 @@
             "numero": "Q18",
             "mots_cles": [
               {
-                "theme": "Ingénierie Système : Chaînes d'énergie",
+                "theme_sous_theme": "Ingénierie Système : Chaîne d'énergie",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Ingénierie Système : Chaîne d'information",
                 "semestre": "S1"
               }
             ]
@@ -205,7 +207,11 @@
             "numero": "Q19",
             "mots_cles": [
               {
-                "theme": "Dynamique : Théorème de l'Énergie Cinétique",
+                "theme_sous_theme": "Énergétique : Théorème de l'énergie cinétique",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Énergétique : Inertie équivalente",
                 "semestre": "S3"
               }
             ]
@@ -214,7 +220,7 @@
             "numero": "Q20",
             "mots_cles": [
               {
-                "theme": "Asservissement : Schéma-blocs, Laplace, Fonction de transfert",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
@@ -223,8 +229,12 @@
             "numero": "Q21",
             "mots_cles": [
               {
-                "theme": "Dynamique : PFD",
-                "semestre": "S3"
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Statique : Frottements",
+                "semestre": "S2"
               }
             ]
           },
@@ -232,8 +242,8 @@
             "numero": "Q22",
             "mots_cles": [
               {
-                "theme": "Ingénierie Système : Chaînes d'information",
-                "semestre": "S1"
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
               }
             ]
           },
@@ -241,7 +251,7 @@
             "numero": "Q23",
             "mots_cles": [
               {
-                "theme": "Informatique et Algorithmique : Fonctions",
+                "theme_sous_theme": "Systèmes séquentiels : Diagramme d'états",
                 "semestre": "S1"
               }
             ]
@@ -250,8 +260,8 @@
             "numero": "Q24",
             "mots_cles": [
               {
-                "theme": "Ingénierie Système : Chaînes d'information",
-                "semestre": "S1"
+                "theme_sous_theme": "Dimensionnement : Capteurs",
+                "semestre": "S4"
               }
             ]
           },
@@ -259,8 +269,8 @@
             "numero": "Q25",
             "mots_cles": [
               {
-                "theme": "Ingénierie Système : Chaînes d'information",
-                "semestre": "S1"
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+                "semestre": "S2"
               }
             ]
           },
@@ -268,7 +278,11 @@
             "numero": "Q26",
             "mots_cles": [
               {
-                "theme": "Asservissement : Schéma-blocs, Laplace, Fonction de transfert",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
                 "semestre": "S2"
               }
             ]
@@ -277,7 +291,11 @@
             "numero": "Q27",
             "mots_cles": [
               {
-                "theme": "Asservissement : Stabilité",
+                "theme_sous_theme": "Correcteurs : Proportionnel",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Stabilité",
                 "semestre": "S2"
               }
             ]
@@ -286,8 +304,12 @@
             "numero": "Q28",
             "mots_cles": [
               {
-                "theme": "Asservissement : Rapidité",
+                "theme_sous_theme": "Asservissement : Rapidité",
                 "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Correcteurs : Proportionnel",
+                "semestre": "S4"
               }
             ]
           },
@@ -295,8 +317,12 @@
             "numero": "Q29",
             "mots_cles": [
               {
-                "theme": "Asservissement : Précision",
+                "theme_sous_theme": "Asservissement : Précision",
                 "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Correcteurs : Proportionnel",
+                "semestre": "S4"
               }
             ]
           },
@@ -304,7 +330,15 @@
             "numero": "Q30",
             "mots_cles": [
               {
-                "theme": "Asservissement : Correcteur avance de phase",
+                "theme_sous_theme": "Correcteurs : Avance de phase",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Rapidité",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Stabilité",
                 "semestre": "S2"
               }
             ]
@@ -313,8 +347,16 @@
             "numero": "Q31",
             "mots_cles": [
               {
-                "theme": "Asservissement : Stabilité",
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
                 "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
               }
             ]
           },
@@ -322,29 +364,14 @@
             "numero": "Q32",
             "mots_cles": [
               {
-                "theme": "Ingénierie Système : Chaînes d'information",
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
                 "semestre": "S1"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Ingénierie Système",
-          "Dynamique",
-          "Asservissement",
-          "Informatique et Algorithmique"
         ]
       }
     ],
-    "ajouts": [
-      {
-        "theme": "Traitement de l'information : Analyse de données",
-        "semestre": "S2"
-      },
-      {
-        "theme": "Traitement de l'information : Analyse de données",
-        "semestre": "S2"
-      }
-    ]
+    "ajouts": []
   }
 }

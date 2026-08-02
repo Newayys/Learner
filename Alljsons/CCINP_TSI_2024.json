@@ -4,17 +4,17 @@
   "date": "2024",
   "file": "CCINP_TSI_2024.pdf",
   "status": 200,
-  "time_s": 566.77,
+  "time_s": 49.27,
   "data": {
     "parties": [
       {
-        "titre_partie": "Partie I - Exigence 1 : diriger la voiture",
+        "titre_partie": "Partie I - Exigences 1 et 2 : orienter les roues avant et se positionner rapidement",
         "questions": [
           {
             "numero": "Q1",
             "mots_cles": [
               {
-                "theme": "Cinématique : Fermeture géométrique",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
               }
             ]
@@ -23,7 +23,7 @@
             "numero": "Q2",
             "mots_cles": [
               {
-                "theme": "Cinématique : Vitesses",
+                "theme_sous_theme": "Cinématique : Fermeture géométrique",
                 "semestre": "S1"
               }
             ]
@@ -32,7 +32,7 @@
             "numero": "Q3",
             "mots_cles": [
               {
-                "theme": "Cinématique : Vitesses",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
               }
             ]
@@ -41,7 +41,7 @@
             "numero": "Q4",
             "mots_cles": [
               {
-                "theme": "Cinématique : Fermeture géométrique",
+                "theme_sous_theme": "Cinématique : Fermeture géométrique",
                 "semestre": "S1"
               }
             ]
@@ -50,7 +50,7 @@
             "numero": "Q5",
             "mots_cles": [
               {
-                "theme": "Cinématique : Fermeture géométrique",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
               }
             ]
@@ -59,7 +59,7 @@
             "numero": "Q6",
             "mots_cles": [
               {
-                "theme": "Informatique et Algorithmique : Fonctions",
+                "theme_sous_theme": "Informatique : Algorithmique",
                 "semestre": "S1"
               }
             ]
@@ -68,7 +68,7 @@
             "numero": "Q7",
             "mots_cles": [
               {
-                "theme": "Informatique et Algorithmique : Python",
+                "theme_sous_theme": "Informatique : Algorithmique",
                 "semestre": "S1"
               }
             ]
@@ -77,7 +77,11 @@
             "numero": "Q8",
             "mots_cles": [
               {
-                "theme": "Cinématique : Fermeture géométrique",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
                 "semestre": "S1"
               }
             ]
@@ -86,7 +90,7 @@
             "numero": "Q9",
             "mots_cles": [
               {
-                "theme": "Asservissement : Schéma-blocs",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
@@ -95,7 +99,7 @@
             "numero": "Q10",
             "mots_cles": [
               {
-                "theme": "Asservissement : Modélisation des signaux",
+                "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
                 "semestre": "S2"
               }
             ]
@@ -104,7 +108,7 @@
             "numero": "Q11",
             "mots_cles": [
               {
-                "theme": "Asservissement : Modélisation des signaux",
+                "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
                 "semestre": "S2"
               }
             ]
@@ -113,8 +117,16 @@
             "numero": "Q12",
             "mots_cles": [
               {
-                "theme": "Asservissement : Stabilité, Précision, Rapidité",
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
                 "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Rapidité",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
               }
             ]
           },
@@ -122,7 +134,11 @@
             "numero": "Q13",
             "mots_cles": [
               {
-                "theme": "Asservissement : Fonction de transfert",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
                 "semestre": "S2"
               }
             ]
@@ -131,8 +147,12 @@
             "numero": "Q14",
             "mots_cles": [
               {
-                "theme": "Asservissement : Fonction de transfert",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Correcteurs : Proportionnel",
+                "semestre": "S4"
               }
             ]
           },
@@ -140,8 +160,12 @@
             "numero": "Q15",
             "mots_cles": [
               {
-                "theme": "Asservissement : Stabilité, Précision, Rapidité",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Correcteurs : Proportionnel",
+                "semestre": "S4"
               }
             ]
           },
@@ -149,7 +173,11 @@
             "numero": "Q16",
             "mots_cles": [
               {
-                "theme": "Asservissement : Correcteur Proportionnel",
+                "theme_sous_theme": "Correcteurs : Proportionnel",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Rapidité",
                 "semestre": "S2"
               }
             ]
@@ -158,16 +186,15 @@
             "numero": "Q17",
             "mots_cles": [
               {
-                "theme": "Asservissement : Stabilité, Précision, Rapidité",
+                "theme_sous_theme": "Asservissement : Rapidité",
                 "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Cinématique",
-          "Asservissement",
-          "Informatique et Algorithmique"
         ]
       },
       {
@@ -177,7 +204,7 @@
             "numero": "Q18",
             "mots_cles": [
               {
-                "theme": "Énergétique : Puissance",
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
                 "semestre": "S3"
               }
             ]
@@ -186,8 +213,12 @@
             "numero": "Q19",
             "mots_cles": [
               {
-                "theme": "Énergétique : Puissance",
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
                 "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
               }
             ]
           },
@@ -195,8 +226,8 @@
             "numero": "Q20",
             "mots_cles": [
               {
-                "theme": "Électrotechnique : Convertisseurs statiques",
-                "semestre": "S2"
+                "theme_sous_theme": "Dimensionnement : Capteurs",
+                "semestre": "S4"
               }
             ]
           },
@@ -204,8 +235,8 @@
             "numero": "Q21",
             "mots_cles": [
               {
-                "theme": "Électrotechnique : Convertisseurs statiques",
-                "semestre": "S2"
+                "theme_sous_theme": "Matériaux : Propriétés physiques et mécaniques",
+                "semestre": "S3"
               }
             ]
           },
@@ -213,7 +244,7 @@
             "numero": "Q22",
             "mots_cles": [
               {
-                "theme": "Énergétique : Puissance",
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
                 "semestre": "S3"
               }
             ]
@@ -222,7 +253,7 @@
             "numero": "Q23",
             "mots_cles": [
               {
-                "theme": "Énergétique : Puissance",
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
                 "semestre": "S3"
               }
             ]
@@ -231,7 +262,7 @@
             "numero": "Q24",
             "mots_cles": [
               {
-                "theme": "Électrotechnique : Convertisseurs statiques",
+                "theme_sous_theme": "Électrotechnique : Convertisseurs statiques",
                 "semestre": "S2"
               }
             ]
@@ -240,7 +271,7 @@
             "numero": "Q25",
             "mots_cles": [
               {
-                "theme": "Électrotechnique : Convertisseurs statiques",
+                "theme_sous_theme": "Électrotechnique : Convertisseurs statiques",
                 "semestre": "S2"
               }
             ]
@@ -249,8 +280,12 @@
             "numero": "Q26",
             "mots_cles": [
               {
-                "theme": "Électrotechnique : Convertisseurs statiques",
+                "theme_sous_theme": "Électrotechnique : Convertisseurs statiques",
                 "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
               }
             ]
           },
@@ -258,8 +293,8 @@
             "numero": "Q27",
             "mots_cles": [
               {
-                "theme": "Circuits alternatifs : Puissances active/réactive",
-                "semestre": "S3"
+                "theme_sous_theme": "Machines électriques : Machine synchrone",
+                "semestre": "S4"
               }
             ]
           },
@@ -267,7 +302,7 @@
             "numero": "Q28",
             "mots_cles": [
               {
-                "theme": "Machines électriques : MCC",
+                "theme_sous_theme": "Machines électriques : Machine synchrone",
                 "semestre": "S4"
               }
             ]
@@ -276,7 +311,7 @@
             "numero": "Q29",
             "mots_cles": [
               {
-                "theme": "Machines électriques : MCC",
+                "theme_sous_theme": "Machines électriques : Machine synchrone",
                 "semestre": "S4"
               }
             ]
@@ -285,7 +320,7 @@
             "numero": "Q30",
             "mots_cles": [
               {
-                "theme": "Machines électriques : MCC",
+                "theme_sous_theme": "Machines électriques : Machine synchrone",
                 "semestre": "S4"
               }
             ]
@@ -294,8 +329,12 @@
             "numero": "Q31",
             "mots_cles": [
               {
-                "theme": "Dynamique : Torseur dynamique",
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
                 "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Machines électriques : Machine synchrone",
+                "semestre": "S4"
               }
             ]
           },
@@ -303,7 +342,11 @@
             "numero": "Q32",
             "mots_cles": [
               {
-                "theme": "Machines électriques : MCC",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Machines électriques : Machine synchrone",
                 "semestre": "S4"
               }
             ]
@@ -312,7 +355,11 @@
             "numero": "Q33",
             "mots_cles": [
               {
-                "theme": "Transmissions mécaniques : Rapport de réduction",
+                "theme_sous_theme": "Transmissions mécaniques : Engrenages",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
                 "semestre": "S1"
               }
             ]
@@ -321,7 +368,7 @@
             "numero": "Q34",
             "mots_cles": [
               {
-                "theme": "Transmissions mécaniques : Rapport de réduction",
+                "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
                 "semestre": "S1"
               }
             ]
@@ -330,7 +377,7 @@
             "numero": "Q35",
             "mots_cles": [
               {
-                "theme": "Transmissions mécaniques : Rapport de réduction",
+                "theme_sous_theme": "Transmissions mécaniques : Engrenages",
                 "semestre": "S1"
               }
             ]
@@ -339,7 +386,11 @@
             "numero": "Q36",
             "mots_cles": [
               {
-                "theme": "Transmissions mécaniques : Rapport de réduction",
+                "theme_sous_theme": "Cinématique : Vitesses",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
                 "semestre": "S1"
               }
             ]
@@ -348,7 +399,7 @@
             "numero": "Q37",
             "mots_cles": [
               {
-                "theme": "Transmissions mécaniques : Rapport de réduction",
+                "theme_sous_theme": "Cinématique : Vitesses",
                 "semestre": "S1"
               }
             ]
@@ -357,7 +408,7 @@
             "numero": "Q38",
             "mots_cles": [
               {
-                "theme": "Transmissions mécaniques : Rapport de réduction",
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
                 "semestre": "S1"
               }
             ]
@@ -366,7 +417,7 @@
             "numero": "Q39",
             "mots_cles": [
               {
-                "theme": "Statique : Frottements",
+                "theme_sous_theme": "Statique : Frottements",
                 "semestre": "S2"
               }
             ]
@@ -375,7 +426,11 @@
             "numero": "Q40",
             "mots_cles": [
               {
-                "theme": "Statique : Frottements",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Statique : Frottements",
                 "semestre": "S2"
               }
             ]
@@ -384,7 +439,7 @@
             "numero": "Q41",
             "mots_cles": [
               {
-                "theme": "Statique : Frottements",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
                 "semestre": "S2"
               }
             ]
@@ -393,7 +448,11 @@
             "numero": "Q42",
             "mots_cles": [
               {
-                "theme": "Statique : Frottements",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Statique : Frottements",
                 "semestre": "S2"
               }
             ]
@@ -402,7 +461,7 @@
             "numero": "Q43",
             "mots_cles": [
               {
-                "theme": "Statique : Frottements",
+                "theme_sous_theme": "Statique : Frottements",
                 "semestre": "S2"
               }
             ]
@@ -411,8 +470,12 @@
             "numero": "Q44",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Clavettes",
+                "theme_sous_theme": "Statique : Frottements",
                 "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+                "semestre": "S4"
               }
             ]
           },
@@ -420,7 +483,7 @@
             "numero": "Q45",
             "mots_cles": [
               {
-                "theme": "Cinématique : Torseurs cinématiques",
+                "theme_sous_theme": "Ingénierie Système : Chaîne d'énergie",
                 "semestre": "S1"
               }
             ]
@@ -429,7 +492,7 @@
             "numero": "Q46",
             "mots_cles": [
               {
-                "theme": "Cinématique : Torseurs cinématiques",
+                "theme_sous_theme": "Cinématique : Vitesses",
                 "semestre": "S1"
               }
             ]
@@ -438,7 +501,7 @@
             "numero": "Q47",
             "mots_cles": [
               {
-                "theme": "Cinématique : Torseurs cinématiques",
+                "theme_sous_theme": "Cinématique : Vitesses",
                 "semestre": "S1"
               }
             ]
@@ -447,7 +510,7 @@
             "numero": "Q48",
             "mots_cles": [
               {
-                "theme": "Cinématique : Torseurs cinématiques",
+                "theme_sous_theme": "Cinématique : Vitesses",
                 "semestre": "S1"
               }
             ]
@@ -456,7 +519,11 @@
             "numero": "Q49",
             "mots_cles": [
               {
-                "theme": "Cinématique : Torseurs cinématiques",
+                "theme_sous_theme": "Transmissions mécaniques : Trains épicycloïdaux",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Cinématique : Vitesses",
                 "semestre": "S1"
               }
             ]
@@ -465,7 +532,11 @@
             "numero": "Q50",
             "mots_cles": [
               {
-                "theme": "Cinématique : Torseurs cinématiques",
+                "theme_sous_theme": "Transmissions mécaniques : Trains épicycloïdaux",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Cinématique : Vitesses",
                 "semestre": "S1"
               }
             ]
@@ -474,17 +545,26 @@
             "numero": "Q51",
             "mots_cles": [
               {
-                "theme": "Transmissions mécaniques : Rapport de réduction",
+                "theme_sous_theme": "Transmissions mécaniques : Trains épicycloïdaux",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
                 "semestre": "S1"
               }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "titre_partie": "Partie III - Pilotage du buggy en vol",
+        "questions": [
           {
             "numero": "Q52",
             "mots_cles": [
               {
-                "theme": "Dynamique : Géométrie des masses",
-                "semestre": "S3"
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
+                "semestre": "S2"
               }
             ]
           },
@@ -492,8 +572,8 @@
             "numero": "Q53",
             "mots_cles": [
               {
-                "theme": "Dynamique : Géométrie des masses",
-                "semestre": "S3"
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
+                "semestre": "S2"
               }
             ]
           },
@@ -501,8 +581,8 @@
             "numero": "Q54",
             "mots_cles": [
               {
-                "theme": "Dynamique : Géométrie des masses",
-                "semestre": "S3"
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
+                "semestre": "S2"
               }
             ]
           },
@@ -510,8 +590,8 @@
             "numero": "Q55",
             "mots_cles": [
               {
-                "theme": "Dynamique : Géométrie des masses",
-                "semestre": "S3"
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
+                "semestre": "S2"
               }
             ]
           },
@@ -519,8 +599,12 @@
             "numero": "Q56",
             "mots_cles": [
               {
-                "theme": "Dynamique : Géométrie des masses",
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
                 "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
+                "semestre": "S2"
               }
             ]
           },
@@ -528,7 +612,11 @@
             "numero": "Q57",
             "mots_cles": [
               {
-                "theme": "Dynamique : Torseur dynamique",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
                 "semestre": "S3"
               }
             ]
@@ -537,7 +625,7 @@
             "numero": "Q58",
             "mots_cles": [
               {
-                "theme": "Dynamique : Torseur dynamique",
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
                 "semestre": "S3"
               }
             ]
@@ -546,7 +634,7 @@
             "numero": "Q59",
             "mots_cles": [
               {
-                "theme": "Dynamique : Géométrie des masses",
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
                 "semestre": "S3"
               }
             ]
@@ -555,7 +643,11 @@
             "numero": "Q60",
             "mots_cles": [
               {
-                "theme": "Dynamique : Torseur dynamique",
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Dynamique : Géométrie des masses",
                 "semestre": "S3"
               }
             ]
@@ -564,7 +656,11 @@
             "numero": "Q61",
             "mots_cles": [
               {
-                "theme": "Énergétique : Théorème de l'Énergie Cinétique",
+                "theme_sous_theme": "Énergétique : Théorème de l'énergie cinétique",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Dynamique : Géométrie des masses",
                 "semestre": "S3"
               }
             ]
@@ -573,7 +669,7 @@
             "numero": "Q62",
             "mots_cles": [
               {
-                "theme": "Énergétique : Théorème de l'Énergie Cinétique",
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
                 "semestre": "S3"
               }
             ]
@@ -582,7 +678,7 @@
             "numero": "Q63",
             "mots_cles": [
               {
-                "theme": "Énergétique : Théorème de l'Énergie Cinétique",
+                "theme_sous_theme": "Énergétique : Théorème de l'énergie cinétique",
                 "semestre": "S3"
               }
             ]
@@ -591,65 +687,11 @@
             "numero": "Q64",
             "mots_cles": [
               {
-                "theme": "Dynamique : Torseur dynamique",
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
                 "semestre": "S3"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Énergétique",
-          "Électrotechnique",
-          "Machines électriques",
-          "Dynamique",
-          "Transmissions mécaniques",
-          "Statique",
-          "Dimensionnement"
-        ]
-      },
-      {
-        "titre_partie": "Partie III - Pilotage du buggy en vol",
-        "questions": [
-          {
-            "numero": "Q61",
-            "mots_cles": [
-              {
-                "theme": "Énergétique : Théorème de l'Énergie Cinétique",
-                "semestre": "S3"
-              }
-            ]
-          },
-          {
-            "numero": "Q62",
-            "mots_cles": [
-              {
-                "theme": "Énergétique : Théorème de l'Énergie Cinétique",
-                "semestre": "S3"
-              }
-            ]
-          },
-          {
-            "numero": "Q63",
-            "mots_cles": [
-              {
-                "theme": "Énergétique : Théorème de l'Énergie Cinétique",
-                "semestre": "S3"
-              }
-            ]
-          },
-          {
-            "numero": "Q64",
-            "mots_cles": [
-              {
-                "theme": "Dynamique : Torseur dynamique",
-                "semestre": "S3"
-              }
-            ]
-          }
-        ],
-        "themes_partie": [
-          "Dynamique",
-          "Énergétique"
         ]
       }
     ],

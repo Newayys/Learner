@@ -4,563 +4,585 @@
   "date": "2022",
   "file": "BPT_SIB_2022.pdf",
   "status": 200,
-  "time_s": 355.79,
+  "time_s": 40.6,
   "data": {
     "parties": [
       {
-        "titre_partie": "Partie I - Détermination du couple transmissible par l'arbre",
+        "titre_partie": "Partie I - Détermination du couple transmissible par l’arbre",
         "questions": [
           {
-            "numero": "Question 1",
+            "numero": "A.1 - Q4",
             "mots_cles": [
               {
-                "theme": "Statique : Actions réparties",
+                "theme_sous_theme": "Spécifications géométriques : Tolérancement",
                 "semestre": "S2"
               }
             ]
           },
           {
-            "numero": "Question 2",
+            "numero": "A.2 - Q5",
             "mots_cles": [
               {
-                "theme": "Statique : Actions réparties",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Question 3",
-            "mots_cles": [
-              {
-                "theme": "Statique : Actions réparties",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Question 4",
-            "mots_cles": [
-              {
-                "theme": "Statique : Actions réparties",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Question 5",
-            "mots_cles": [
-              {
-                "theme": "Statique : Actions réparties",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Question 6",
-            "mots_cles": [
-              {
-                "theme": "Statique : Actions réparties",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Question 7",
-            "mots_cles": [
-              {
-                "theme": "Statique : Actions réparties",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Question 8",
-            "mots_cles": [
-              {
-                "theme": "Statique : Actions réparties",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Question 9",
-            "mots_cles": [
-              {
-                "theme": "Dynamique : PFD",
+                "theme_sous_theme": "Résistance des matériaux : Torseur de cohésion",
                 "semestre": "S3"
-              }
-            ]
-          },
-          {
-            "numero": "Question 10",
-            "mots_cles": [
+              },
               {
-                "theme": "Dynamique : PFD",
+                "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
                 "semestre": "S3"
-              }
-            ]
-          },
-          {
-            "numero": "Question 11",
-            "mots_cles": [
+              },
               {
-                "theme": "Dimensionnement : Liaisons",
+                "theme_sous_theme": "Matériaux : Propriétés physiques et mécaniques",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
                 "semestre": "S4"
               }
             ]
           },
           {
-            "numero": "Question 12",
+            "numero": "A.2 - Q6",
             "mots_cles": [
               {
-                "theme": "Dynamique : PFD",
+                "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
                 "semestre": "S3"
               }
             ]
           },
           {
-            "numero": "Question 13",
+            "numero": "A.3 - Q7",
             "mots_cles": [
               {
-                "theme": "Statique : Actions réparties",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Question 14",
-            "mots_cles": [
-              {
-                "theme": "Statique : Actions réparties",
-                "semestre": "S2"
-              }
-            ]
-          }
-        ],
-        "themes_partie": [
-          "Statique",
-          "Dynamique",
-          "Dimensionnement"
-        ]
-      },
-      {
-        "titre_partie": "Partie II - Prédimensionnement de l'arbre",
-        "questions": [
-          {
-            "numero": "Question 15",
-            "mots_cles": [
-              {
-                "theme": "Statique : PFS",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Question 16",
-            "mots_cles": [
-              {
-                "theme": "Statique : PFS",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Question 17",
-            "mots_cles": [
-              {
-                "theme": "Statique : PFS",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Question 18",
-            "mots_cles": [
-              {
-                "theme": "Statique : PFS",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Question 19",
-            "mots_cles": [
-              {
-                "theme": "Statique : PFS",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Question 20",
-            "mots_cles": [
-              {
-                "theme": "Statique : PFS",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Question 21",
-            "mots_cles": [
-              {
-                "theme": "Résistance des matériaux : Contraintes",
-                "semestre": "S3"
-              }
-            ]
-          },
-          {
-            "numero": "Question 22",
-            "mots_cles": [
-              {
-                "theme": "Dimensionnement : Liaisons",
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
                 "semestre": "S4"
               }
             ]
           },
           {
-            "numero": "Question 23",
+            "numero": "A.3 - Q8",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Liaisons",
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
                 "semestre": "S4"
               }
             ]
           },
           {
-            "numero": "Question 24",
+            "numero": "B - Q9",
             "mots_cles": [
               {
-                "theme": "Dynamique : PFD",
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
                 "semestre": "S3"
               }
             ]
           },
           {
-            "numero": "Question 25",
+            "numero": "B - Q10",
             "mots_cles": [
               {
-                "theme": "Dynamique : PFD",
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Énergétique : Inertie équivalente",
                 "semestre": "S3"
               }
             ]
           },
           {
-            "numero": "Question 26",
+            "numero": "B - Q11",
             "mots_cles": [
               {
-                "theme": "Dynamique : PFD",
+                "theme_sous_theme": "Dynamique : Géométrie des masses",
                 "semestre": "S3"
               }
             ]
           },
           {
-            "numero": "Question 27",
+            "numero": "B - Q12",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Liaisons",
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "C - Q13",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
                 "semestre": "S4"
               }
             ]
           },
           {
-            "numero": "Question 28",
+            "numero": "C - Q14",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Liaisons",
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
                 "semestre": "S4"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Statique",
-          "Résistance des matériaux",
-          "Dynamique",
-          "Dimensionnement"
         ]
       },
       {
-        "titre_partie": "Partie III - Etude du ressort d'éjection du pieu",
+        "titre_partie": "Partie II - Prédimensionnement de l’arbre",
         "questions": [
           {
-            "numero": "Question 29",
+            "numero": "A - Q15",
             "mots_cles": [
               {
-                "theme": "Énergétique : Théorème de l'Énergie Cinétique",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "A - Q16",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "A - Q17",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Résistance des matériaux : Torseur de cohésion",
                 "semestre": "S3"
               }
             ]
           },
           {
-            "numero": "Question 30",
+            "numero": "A - Q18",
             "mots_cles": [
               {
-                "theme": "Matériaux : Propriétés",
+                "theme_sous_theme": "Résistance des matériaux : Torseur de cohésion",
                 "semestre": "S3"
               }
             ]
           },
           {
-            "numero": "Question 31",
+            "numero": "A - Q19",
             "mots_cles": [
               {
-                "theme": "Énergétique : Théorème de l'Énergie Cinétique",
+                "theme_sous_theme": "Résistance des matériaux : Torseur de cohésion",
                 "semestre": "S3"
               }
             ]
           },
           {
-            "numero": "Question 32",
+            "numero": "A - Q20",
             "mots_cles": [
               {
-                "theme": "Cinématique : Vitesses",
+                "theme_sous_theme": "Résistance des matériaux : Torseur de cohésion",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "A - Q21",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "A - Q22",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "A - Q23",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "B - Q24",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Énergétique : Inertie équivalente",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "B - Q25",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "B - Q26",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Énergétique : Inertie équivalente",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "C - Q27",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "C - Q28",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+                "semestre": "S4"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titre_partie": "Partie III - Etude du ressort d’éjection du pieu",
+        "questions": [
+          {
+            "numero": "A - Q29",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Dynamique : Géométrie des masses",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "A - Q30",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Matériaux : Propriétés physiques et mécaniques",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "A - Q31",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Dynamique : Géométrie des masses",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "A - Q32",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Dynamique : Cinématique",
                 "semestre": "S1"
               }
             ]
           },
           {
-            "numero": "Question 33",
+            "numero": "A - Q33",
             "mots_cles": [
               {
-                "theme": "Cinématique : Vitesses",
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Cinématique : Vitesses",
                 "semestre": "S1"
               }
             ]
           },
           {
-            "numero": "Question 34",
+            "numero": "A - Q34",
             "mots_cles": [
               {
-                "theme": "Cinématique : Vitesses",
+                "theme_sous_theme": "Cinématique : Vitesses",
                 "semestre": "S1"
               }
             ]
           },
           {
-            "numero": "Question 35",
+            "numero": "A - Q35",
             "mots_cles": [
               {
-                "theme": "Énergétique : Théorème de l'Énergie Cinétique",
+                "theme_sous_theme": "Énergétique : Théorème de l'énergie cinétique",
                 "semestre": "S3"
               }
             ]
           },
           {
-            "numero": "Question 36",
+            "numero": "B - Q36",
             "mots_cles": [
               {
-                "theme": "Énergétique : Théorème de l'Énergie Cinétique",
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
                 "semestre": "S3"
               }
             ]
           },
           {
-            "numero": "Question 37",
+            "numero": "B - Q37",
             "mots_cles": [
               {
-                "theme": "Énergétique : Théorème de l'Énergie Cinétique",
-                "semestre": "S3"
-              }
-            ]
-          },
-          {
-            "numero": "Question 38",
-            "mots_cles": [
-              {
-                "theme": "Énergétique : Théorème de l'Énergie Cinétique",
-                "semestre": "S3"
-              }
-            ]
-          },
-          {
-            "numero": "Question 39",
-            "mots_cles": [
-              {
-                "theme": "Dimensionnement : Liaisons",
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
                 "semestre": "S4"
               }
             ]
           },
           {
-            "numero": "Question 40",
+            "numero": "B - Q38",
             "mots_cles": [
               {
-                "theme": "Énergétique : Théorème de l'Énergie Cinétique",
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "B - Q39",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Matériaux : Choix",
                 "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "B - Q40",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Énergétique",
-          "Cinématique",
-          "Matériaux",
-          "Dimensionnement"
         ]
       },
       {
-        "titre_partie": "Partie IV - Etude de la gâchette électromagnétique",
+        "titre_partie": "Partie IV - Etude de la géochimie",
         "questions": [
           {
-            "numero": "Question 41",
+            "numero": "Q41",
             "mots_cles": [
               {
-                "theme": "Métrologie : Conformité",
-                "semestre": "S3"
-              }
-            ]
-          },
-          {
-            "numero": "Question 42",
-            "mots_cles": [
-              {
-                "theme": "Cinématique : Vitesses",
-                "semestre": "S1"
-              }
-            ]
-          },
-          {
-            "numero": "Question 43",
-            "mots_cles": [
-              {
-                "theme": "Statique : PFS",
+                "theme_sous_theme": "Spécifications géométriques : Tolérancement",
                 "semestre": "S2"
               }
             ]
           },
           {
-            "numero": "Question 44",
+            "numero": "Q42",
             "mots_cles": [
               {
-                "theme": "Statique : PFS",
+                "theme_sous_theme": "Statique : Frottements",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Statique : Liaisons équivalentes",
                 "semestre": "S2"
               }
             ]
           },
           {
-            "numero": "Question 45",
+            "numero": "Q43",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Actionneurs",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Statique : Frottements",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q44",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q45",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
                 "semestre": "S4"
               }
             ]
           },
           {
-            "numero": "Question 46",
+            "numero": "Q46",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Actionneurs",
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
                 "semestre": "S4"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Métrologie",
-          "Cinématique",
-          "Statique",
-          "Dimensionnement"
         ]
       },
       {
-        "titre_partie": "Partie V - Dessin d'étude de Construction Mécanique",
+        "titre_partie": "Partie V - Dessin d’étude de Construction Mécanique",
         "questions": [
           {
-            "numero": "Question 47",
+            "numero": "Q47",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Liaisons",
-                "semestre": "S4"
-              }
-            ]
-          },
-          {
-            "numero": "Question 48",
-            "mots_cles": [
-              {
-                "theme": "Dimensionnement : Liaisons",
-                "semestre": "S4"
-              }
-            ]
-          },
-          {
-            "numero": "Question 49",
-            "mots_cles": [
-              {
-                "theme": "Dimensionnement : Liaisons",
-                "semestre": "S4"
-              }
-            ]
-          },
-          {
-            "numero": "Question 50",
-            "mots_cles": [
-              {
-                "theme": "Dimensionnement : Liaisons",
-                "semestre": "S4"
-              }
-            ]
-          },
-          {
-            "numero": "Question 51",
-            "mots_cles": [
-              {
-                "theme": "Dimensionnement : Liaisons",
-                "semestre": "S4"
-              }
-            ]
-          },
-          {
-            "numero": "Question 52",
-            "mots_cles": [
-              {
-                "theme": "Procédés de fabrication : Usinage",
+                "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
                 "semestre": "S3"
-              }
-            ]
-          },
-          {
-            "numero": "Question 53",
-            "mots_cles": [
+              },
               {
-                "theme": "Dimensionnement : Liaisons",
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
                 "semestre": "S4"
               }
             ]
           },
           {
-            "numero": "Question 54",
+            "numero": "Q48",
             "mots_cles": [
               {
-                "theme": "Procédés de fabrication : Usinage",
-                "semestre": "S3"
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+                "semestre": "S2"
               }
             ]
           },
           {
-            "numero": "Question 55",
+            "numero": "Q49",
             "mots_cles": [
               {
-                "theme": "Procédés de fabrication : Usinage",
-                "semestre": "S3"
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+                "semestre": "S2"
               }
             ]
           },
           {
-            "numero": "Question 56",
+            "numero": "Q50",
             "mots_cles": [
               {
-                "theme": "Procédés de fabrication : Usinage",
-                "semestre": "S3"
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q51",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Statique : Liaisons équivalentes",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q52",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q53",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q54",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q55",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q56",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+                "semestre": "S4"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Dimensionnement",
-          "Procédés de fabrication"
         ]
       }
     ],

@@ -2,55 +2,36 @@
   "concours": "CCMP",
   "filiere": "PSI",
   "date": "2018",
-  "file": "CCMP_PSI_2018.json",
+  "file": "CCMP_PSI_2018.pdf",
   "status": 200,
-  "time_s": 593.7,
+  "time_s": 37.29,
   "data": {
     "parties": [
       {
         "titre_partie": "1ère PARTIE – Analyse mécanique des stabilisateurs passif et actif",
         "questions": [
           {
-            "numero": "Q1a",
+            "numero": "Q1",
             "mots_cles": [
               {
-                "theme": "Cinématique : Torseurs cinématiques",
+                "theme_sous_theme": "Cinématique : Torseur cinématique",
                 "semestre": "S1"
-              }
-            ]
-          },
-          {
-            "numero": "Q1b",
-            "mots_cles": [
+              },
               {
-                "theme": "Cinématique : Vitesses",
-                "semestre": "S1"
-              }
-            ]
-          },
-          {
-            "numero": "Q2a",
-            "mots_cles": [
-              {
-                "theme": "Statique : Isostatisme",
+                "theme_sous_theme": "Statique : Liaisons équivalentes",
                 "semestre": "S2"
               }
             ]
           },
           {
-            "numero": "Q2b",
+            "numero": "Q2",
             "mots_cles": [
               {
-                "theme": "Statique : Isostatisme",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
                 "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Q2c",
-            "mots_cles": [
+              },
               {
-                "theme": "Statique : Isostatisme",
+                "theme_sous_theme": "Statique : Liaisons équivalentes",
                 "semestre": "S2"
               }
             ]
@@ -59,7 +40,11 @@
             "numero": "Q3",
             "mots_cles": [
               {
-                "theme": "Statique : Isostatisme",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Statique : Liaisons équivalentes",
                 "semestre": "S2"
               }
             ]
@@ -68,7 +53,11 @@
             "numero": "Q4",
             "mots_cles": [
               {
-                "theme": "Dynamique : PFD",
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Dynamique : Géométrie des masses",
                 "semestre": "S3"
               }
             ]
@@ -77,43 +66,24 @@
             "numero": "Q5",
             "mots_cles": [
               {
-                "theme": "Dynamique : PFD",
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Dynamique : Géométrie des masses",
                 "semestre": "S3"
               }
             ]
           },
           {
-            "numero": "Q6a",
+            "numero": "Q6",
             "mots_cles": [
               {
-                "theme": "Asservissement : Schéma-blocs",
+                "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
                 "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Q6b",
-            "mots_cles": [
+              },
               {
-                "theme": "Modélisation des signaux : Bode",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Q6c",
-            "mots_cles": [
-              {
-                "theme": "Asservissement : Stabilité",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Q6d",
-            "mots_cles": [
-              {
-                "theme": "Asservissement : Rapidité",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
@@ -122,8 +92,8 @@
             "numero": "Q7",
             "mots_cles": [
               {
-                "theme": "Asservissement : Stabilité",
-                "semestre": "S2"
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
               }
             ]
           },
@@ -131,7 +101,11 @@
             "numero": "Q8",
             "mots_cles": [
               {
-                "theme": "Cinématique : Torseurs cinématiques",
+                "theme_sous_theme": "Statique : Liaisons équivalentes",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Cinématique : Torseur cinématique",
                 "semestre": "S1"
               }
             ]
@@ -140,62 +114,56 @@
             "numero": "Q9",
             "mots_cles": [
               {
-                "theme": "Cinématique : Torseurs cinématiques",
+                "theme_sous_theme": "Cinématique : Torseur cinématique",
                 "semestre": "S1"
-              }
-            ]
-          },
-          {
-            "numero": "Q10a",
-            "mots_cles": [
+              },
               {
-                "theme": "Cinématique : Fermeture géométrique",
-                "semestre": "S1"
-              }
-            ]
-          },
-          {
-            "numero": "Q10b",
-            "mots_cles": [
-              {
-                "theme": "Cinématique : Fermeture géométrique",
-                "semestre": "S1"
-              }
-            ]
-          },
-          {
-            "numero": "Q11a",
-            "mots_cles": [
-              {
-                "theme": "Statique : Hyperstatisme",
+                "theme_sous_theme": "Statique : Liaisons équivalentes",
                 "semestre": "S2"
               }
             ]
           },
           {
-            "numero": "Q11b",
+            "numero": "Q10",
             "mots_cles": [
               {
-                "theme": "Statique : Hyperstatisme",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Statique : Liaisons équivalentes",
                 "semestre": "S2"
               }
             ]
           },
           {
-            "numero": "Q11c",
+            "numero": "Q11",
             "mots_cles": [
               {
-                "theme": "Statique : Hyperstatisme",
+                "theme_sous_theme": "Statique : Hyperstatisme",
                 "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+                "semestre": "S4"
               }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "titre_partie": "2ième PARTIE – Analyse de la chaîne d’information de la caméra stabilisée",
+        "questions": [
           {
             "numero": "Q12",
             "mots_cles": [
               {
-                "theme": "Cinématique : Torseurs cinématiques",
+                "theme_sous_theme": "Ingénierie Système : Chaîne d'information",
                 "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Capteurs",
+                "semestre": "S4"
               }
             ]
           },
@@ -203,8 +171,12 @@
             "numero": "Q13",
             "mots_cles": [
               {
-                "theme": "Cinématique : Torseurs cinématiques",
+                "theme_sous_theme": "Ingénierie Système : Chaîne d'information",
                 "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Capteurs",
+                "semestre": "S4"
               }
             ]
           },
@@ -212,7 +184,11 @@
             "numero": "Q14",
             "mots_cles": [
               {
-                "theme": "Cinématique : Torseurs cinématiques",
+                "theme_sous_theme": "Dimensionnement : Capteurs",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Ingénierie Système : Chaîne d'information",
                 "semestre": "S1"
               }
             ]
@@ -221,7 +197,11 @@
             "numero": "Q15",
             "mots_cles": [
               {
-                "theme": "Cinématique : Torseurs cinématiques",
+                "theme_sous_theme": "Dimensionnement : Capteurs",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Ingénierie Système : Chaîne d'information",
                 "semestre": "S1"
               }
             ]
@@ -230,7 +210,11 @@
             "numero": "Q16",
             "mots_cles": [
               {
-                "theme": "Cinématique : Torseurs cinématiques",
+                "theme_sous_theme": "Dimensionnement : Capteurs",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Ingénierie Système : Chaîne d'information",
                 "semestre": "S1"
               }
             ]
@@ -239,7 +223,11 @@
             "numero": "Q17",
             "mots_cles": [
               {
-                "theme": "Cinématique : Torseurs cinématiques",
+                "theme_sous_theme": "Dimensionnement : Capteurs",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Ingénierie Système : Chaîne d'information",
                 "semestre": "S1"
               }
             ]
@@ -248,61 +236,60 @@
             "numero": "Q18",
             "mots_cles": [
               {
-                "theme": "Cinématique : Torseurs cinématiques",
+                "theme_sous_theme": "Dimensionnement : Capteurs",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Ingénierie Système : Chaîne d'information",
                 "semestre": "S1"
               }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "titre_partie": "3ème PARTIE : Analyse des caractéristiques mécaniques de la nacelle de caméra",
+        "questions": [
           {
             "numero": "Q19",
             "mots_cles": [
               {
-                "theme": "Statique : Isostatisme",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Statique : Liaisons équivalentes",
                 "semestre": "S2"
               }
             ]
           },
           {
-            "numero": "Q20a",
+            "numero": "Q20",
             "mots_cles": [
               {
-                "theme": "Statique : Isostatisme",
+                "theme_sous_theme": "Dynamique : Géométrie des masses",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
                 "semestre": "S2"
               }
             ]
-          },
-          {
-            "numero": "Q20b",
-            "mots_cles": [
-              {
-                "theme": "Statique : Isostatisme",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Q20c",
-            "mots_cles": [
-              {
-                "theme": "Statique : Isostatisme",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Q20d",
-            "mots_cles": [
-              {
-                "theme": "Statique : Isostatisme",
-                "semestre": "S2"
-              }
-            ]
-          },
+          }
+        ]
+      },
+      {
+        "titre_partie": "4ème PARTIE : Déterminer les performances globales de la caméra stabilisée",
+        "questions": [
           {
             "numero": "Q21",
             "mots_cles": [
               {
-                "theme": "Asservissement : Schéma-blocs",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
                 "semestre": "S2"
               }
             ]
@@ -311,8 +298,12 @@
             "numero": "Q22",
             "mots_cles": [
               {
-                "theme": "Asservissement : Schéma-blocs",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Ingénierie Système : Chaîne d'information",
+                "semestre": "S1"
               }
             ]
           },
@@ -320,7 +311,11 @@
             "numero": "Q23",
             "mots_cles": [
               {
-                "theme": "Asservissement : Schéma-blocs",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Stabilité",
                 "semestre": "S2"
               }
             ]
@@ -329,7 +324,11 @@
             "numero": "Q24",
             "mots_cles": [
               {
-                "theme": "Asservissement : Stabilité",
+                "theme_sous_theme": "Asservissement : Stabilité",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
@@ -338,7 +337,11 @@
             "numero": "Q25",
             "mots_cles": [
               {
-                "theme": "Asservissement : Stabilité",
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Rapidité",
                 "semestre": "S2"
               }
             ]
@@ -347,7 +350,11 @@
             "numero": "Q26",
             "mots_cles": [
               {
-                "theme": "Asservissement : Rapidité",
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Précision",
                 "semestre": "S2"
               }
             ]
@@ -356,7 +363,11 @@
             "numero": "Q27",
             "mots_cles": [
               {
-                "theme": "Asservissement : Schéma-blocs",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Précision",
                 "semestre": "S2"
               }
             ]
@@ -365,7 +376,11 @@
             "numero": "Q28",
             "mots_cles": [
               {
-                "theme": "Asservissement : Précision",
+                "theme_sous_theme": "Asservissement : Précision",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
                 "semestre": "S2"
               }
             ]
@@ -374,7 +389,11 @@
             "numero": "Q29",
             "mots_cles": [
               {
-                "theme": "Asservissement : Schéma-blocs",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Précision",
                 "semestre": "S2"
               }
             ]
@@ -383,7 +402,11 @@
             "numero": "Q30",
             "mots_cles": [
               {
-                "theme": "Asservissement : Précision",
+                "theme_sous_theme": "Asservissement : Précision",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
                 "semestre": "S2"
               }
             ]
@@ -392,7 +415,11 @@
             "numero": "Q31",
             "mots_cles": [
               {
-                "theme": "Asservissement : Stabilité",
+                "theme_sous_theme": "Asservissement : Stabilité",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
                 "semestre": "S2"
               }
             ]
@@ -401,7 +428,11 @@
             "numero": "Q32",
             "mots_cles": [
               {
-                "theme": "Asservissement : Rapidité",
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Précision",
                 "semestre": "S2"
               }
             ]
@@ -410,42 +441,23 @@
             "numero": "Q33",
             "mots_cles": [
               {
-                "theme": "Asservissement : Rapidité",
-                "semestre": "S2"
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Correcteurs : Proportionnel",
+                "semestre": "S4"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Cinématique",
-          "Statique",
-          "Dynamique",
-          "Asservissement"
-        ]
-      },
-      {
-        "titre_partie": "2ième PARTIE – Analyse de la chaîne d'information de la caméra stabilisée",
-        "questions": [],
-        "themes_partie": [
-          "Cinématique",
-          "Asservissement"
-        ]
-      },
-      {
-        "titre_partie": "3ième PARTIE : Analyse des caractéristiques mécanques de la nacelle de caméra",
-        "questions": [],
-        "themes_partie": [
-          "Statique"
-        ]
-      },
-      {
-        "titre_partie": "4ième PARTIE : Déterminer les performances globales de la caméra stabilisée",
-        "questions": [],
-        "themes_partie": [
-          "Asservissement"
         ]
       }
     ],
-    "ajouts": []
+    "ajouts": [
+      {
+        "theme_sous_theme": "Traitement du signal : Filtrage",
+        "semestre": "S2"
+      }
+    ]
   }
 }

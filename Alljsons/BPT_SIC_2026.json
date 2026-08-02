@@ -4,329 +4,358 @@
   "date": "2026",
   "file": "BPT_SIC_2026.pdf",
   "status": 200,
-  "time_s": 110.99,
+  "time_s": 33.34,
   "data": {
     "parties": [
       {
-        "titre_partie": "Partie 1 : Vérification des performances du robot",
+        "titre_partie": "Partie 1 : Fonctionnement général du robot PATHFINDER",
         "questions": [
           {
-            "numero": "Q1.1",
+            "numero": "1.1",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Codeurs",
+                "theme_sous_theme": "Dimensionnement : Capteurs",
                 "semestre": "S4"
               }
             ]
           },
           {
-            "numero": "Q1.2",
+            "numero": "1.2",
             "mots_cles": [
               {
-                "theme": "Cinématique : Lois entrée-sortie",
-                "semestre": "S1"
-              }
-            ]
-          },
-          {
-            "numero": "Q1.3",
-            "mots_cles": [
-              {
-                "theme": "Cinématique : Lois entrée-sortie",
-                "semestre": "S1"
-              }
-            ]
-          },
-          {
-            "numero": "Q1.4",
-            "mots_cles": [
-              {
-                "theme": "Dimensionnement : Codeurs",
+                "theme_sous_theme": "Dimensionnement : Capteurs",
                 "semestre": "S4"
               }
             ]
           },
           {
-            "numero": "Q1.5",
+            "numero": "1.3",
             "mots_cles": [
               {
-                "theme": "Cinématique : Vitesses",
-                "semestre": "S1"
+                "theme_sous_theme": "Dimensionnement : Capteurs",
+                "semestre": "S4"
               }
             ]
           },
           {
-            "numero": "Q1.6",
+            "numero": "1.4",
             "mots_cles": [
               {
-                "theme": "Cinématique : Vitesses",
-                "semestre": "S1"
-              }
-            ]
-          },
-          {
-            "numero": "Q1.7",
-            "mots_cles": [
+                "theme_sous_theme": "Dimensionnement : Capteurs",
+                "semestre": "S4"
+              },
               {
-                "theme": "Cinématique : Fermeture géométrique",
-                "semestre": "S1"
-              }
-            ]
-          },
-          {
-            "numero": "Q1.8",
-            "mots_cles": [
-              {
-                "theme": "Cinématique : Fermeture géométrique",
-                "semestre": "S1"
-              }
-            ]
-          },
-          {
-            "numero": "Q1.9",
-            "mots_cles": [
-              {
-                "theme": "Cinématique : Fermeture géométrique",
-                "semestre": "S1"
-              }
-            ]
-          },
-          {
-            "numero": "Q1.10",
-            "mots_cles": [
-              {
-                "theme": "Cinématique : Fermeture géométrique",
-                "semestre": "S1"
-              }
-            ]
-          },
-          {
-            "numero": "Q1.11",
-            "mots_cles": [
-              {
-                "theme": "Spécifications géométriques : Tolérancement",
+                "theme_sous_theme": "Traitement de l'information : Échantillonnage et quantification",
                 "semestre": "S2"
               }
             ]
           },
           {
-            "numero": "Q1.12",
+            "numero": "1.5",
             "mots_cles": [
               {
-                "theme": "Cinématique : Fermeture géométrique",
+                "theme_sous_theme": "Cinématique : Vitesses",
                 "semestre": "S1"
               }
             ]
           },
           {
-            "numero": "Q1.13",
+            "numero": "1.6",
             "mots_cles": [
               {
-                "theme": "Transmissions mécaniques : Rapport de réduction",
+                "theme_sous_theme": "Cinématique : Vitesses",
                 "semestre": "S1"
               }
             ]
           },
           {
-            "numero": "Q1.14",
+            "numero": "1.7",
             "mots_cles": [
               {
-                "theme": "Cinématique : Vitesses",
+                "theme_sous_theme": "Statique : Hyperstatisme",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "1.8",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Cinématique : Torseur cinématique",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "1.9",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Statique : Hyperstatisme",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "1.10",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Statique : Isostatisme",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "1.11",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "1.12",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "1.13",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Transmissions mécaniques : Trains épicycloïdaux",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "1.14",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Cinématique : Vitesses",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
                 "semestre": "S1"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Dimensionnement",
-          "Cinématique",
-          "Transmissions mécaniques",
-          "Spécifications géométriques"
         ]
       },
       {
         "titre_partie": "Partie 2 : Industrialisation de la couronne",
         "questions": [
           {
-            "numero": "Q2.1",
+            "numero": "2.1",
             "mots_cles": [
               {
-                "theme": "Spécifications géométriques : Tolérancement",
+                "theme_sous_theme": "Spécifications géométriques : Tolérancement",
                 "semestre": "S2"
               }
             ]
           },
           {
-            "numero": "Q2.2",
+            "numero": "2.2",
             "mots_cles": [
               {
-                "theme": "Spécifications géométriques : Tolérancement",
+                "theme_sous_theme": "Spécifications géométriques : Tolérancement",
                 "semestre": "S2"
               }
             ]
           },
           {
-            "numero": "Q2.3",
+            "numero": "2.3",
             "mots_cles": [
               {
-                "theme": "Spécifications géométriques : Tolérancement",
+                "theme_sous_theme": "Spécifications géométriques : Tolérancement",
                 "semestre": "S2"
               }
             ]
           },
           {
-            "numero": "Q2.4",
+            "numero": "2.4",
             "mots_cles": [
               {
-                "theme": "Matériaux : Choix",
+                "theme_sous_theme": "Matériaux : Choix",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "2.5",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Dynamique : Géométrie des masses",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
                 "semestre": "S3"
               }
             ]
           },
           {
-            "numero": "Q2.5",
+            "numero": "2.6",
             "mots_cles": [
               {
-                "theme": "Dynamique : Géométrie des masses",
+                "theme_sous_theme": "Matériaux : Choix",
                 "semestre": "S3"
               }
             ]
           },
           {
-            "numero": "Q2.6",
+            "numero": "2.7",
             "mots_cles": [
               {
-                "theme": "Dynamique : Géométrie des masses",
+                "theme_sous_theme": "Matériaux : Choix",
                 "semestre": "S3"
               }
             ]
           },
           {
-            "numero": "Q2.7",
+            "numero": "2.8",
             "mots_cles": [
               {
-                "theme": "Matériaux : Choix",
+                "theme_sous_theme": "Procédés : Usinage",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Procédés : Fabrication additive",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "2.9",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Procédés : Usinage",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Procédés : Fabrication additive",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Écoconception : Analyse de cycle de vie",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "2.10",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Procédés : Fabrication additive",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "2.11",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Procédés : Fabrication additive",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "2.12",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Procédés : Fabrication additive",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Écoconception : Analyse de cycle de vie",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "2.13",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Procédés : Fabrication additive",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "2.14",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Procédés : Fabrication additive",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "2.15",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Procédés : Usinage",
                 "semestre": "S3"
               }
             ]
           },
           {
-            "numero": "Q2.8",
+            "numero": "2.16",
             "mots_cles": [
               {
-                "theme": "Procédés de fabrication : Fabrication Additive",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Q2.9",
-            "mots_cles": [
-              {
-                "theme": "Procédés de fabrication : Fabrication Additive",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Q2.10",
-            "mots_cles": [
-              {
-                "theme": "Procédés de fabrication : Fabrication Additive",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Q2.11",
-            "mots_cles": [
-              {
-                "theme": "Procédés de fabrication : Fabrication Additive",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Q2.12",
-            "mots_cles": [
-              {
-                "theme": "Procédés de fabrication : Fabrication Additive",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Q2.13",
-            "mots_cles": [
-              {
-                "theme": "Procédés de fabrication : Fabrication Additive",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Q2.14",
-            "mots_cles": [
-              {
-                "theme": "Procédés de fabrication : Fabrication Additive",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Q2.15",
-            "mots_cles": [
-              {
-                "theme": "Procédés de fabrication : Usinage",
+                "theme_sous_theme": "Procédés : Usinage",
                 "semestre": "S3"
               }
             ]
           },
           {
-            "numero": "Q2.16",
+            "numero": "2.17",
             "mots_cles": [
               {
-                "theme": "Procédés de fabrication : Usinage",
-                "semestre": "S3"
-              }
-            ]
-          },
-          {
-            "numero": "Q2.17",
-            "mots_cles": [
-              {
-                "theme": "Procédés de fabrication : Usinage",
+                "theme_sous_theme": "Procédés : Usinage",
                 "semestre": "S3"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Spécifications géométriques",
-          "Matériaux",
-          "Dynamique",
-          "Procédés de fabrication"
         ]
       },
       {
-        "titre_partie": "Partie 3 : Conception de la « VERTEBRE »",
+        "titre_partie": "Partie 3 : Conception de la VERTEBRE",
         "questions": [
           {
-            "numero": "Q3.1",
+            "numero": "3.1",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Liaisons",
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
                 "semestre": "S4"
               },
               {
-                "theme": "Dimensionnement : Paliers lisses",
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
                 "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Procédés : Usinage",
+                "semestre": "S3"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Dimensionnement"
         ]
       }
     ],

@@ -4,6 +4,350 @@
   "date": "2021",
   "file": "Centrale_PSI_2021.pdf",
   "status": 200,
-  "time_s": 956.47,
-  "data": null
+  "time_s": 29.75,
+  "data": {
+    "parties": [
+      {
+        "titre_partie": "I Analyse du mouvement de l’utilisateur et justification du cahier des charges",
+        "questions": [
+          {
+            "numero": "1",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Traitement de l'information : Échantillonnage et quantification",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "2",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
+                "semestre": "S2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titre_partie": "II Vérification du respect de l’exigence relative à la position d’équilibre",
+        "questions": [
+          {
+            "numero": "3",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Cinématique : Fermeture géométrique",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "4",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Cinématique : Fermeture géométrique",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "5",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Cinématique : Fermeture géométrique",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "6",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "7",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Statique : Liaisons équivalentes",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "8",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "9",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "10",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Informatique : Algorithmique",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "11",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "12",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Stabilité",
+                "semestre": "S2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titre_partie": "III Détermination de la loi de mouvement du système perturbé",
+        "questions": [
+          {
+            "numero": "13",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "14",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Informatique : Algorithmique",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "15",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Informatique : Algorithmique",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "16",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "17",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
+                "semestre": "S2"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titre_partie": "IV Étude d’avant-projet d’une solution technique avec une commande active",
+        "questions": [
+          {
+            "numero": "18",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "19",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Asservissement : Stabilité",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Correcteurs : Proportionnel",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "20",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Asservissement : Stabilité",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Correcteurs : Avance de phase",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "21",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Correcteurs : Avance de phase",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "22",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Correcteurs : Avance de phase",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "23",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "24",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "25",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Asservissement : Stabilité",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "26",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "27",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "28",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Matériaux : Choix",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Écoconception : Analyse de cycle de vie",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "ajouts": []
+  }
 }

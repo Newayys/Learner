@@ -4,37 +4,83 @@
   "date": "2016",
   "file": "BPT_SIB_2016.pdf",
   "status": 200,
-  "time_s": 478.85,
+  "time_s": 39.68,
   "data": {
     "parties": [
       {
-        "titre_partie": "A - Mise en situation",
-        "questions": [],
-        "themes_partie": [
-          "Ingénierie Système : Chaînes d'énergie",
-          "Cinématique : Profils trapèze"
-        ]
-      },
-      {
-        "titre_partie": "B - Etudes et éléments de solutions proposés",
-        "questions": [],
-        "themes_partie": [
-          "Ingénierie Système : Chaînes d'énergie",
-          "Cinématique : Lois entrée-sortie"
-        ]
-      },
-      {
-        "titre_partie": "C - Etude de conception en construction mécanique",
+        "titre_partie": "A-Mise en situation",
         "questions": [
+          {
+            "numero": "A.1 - Le contexte",
+            "mots_cles": []
+          },
+          {
+            "numero": "A.3 - Le produit à concevoir",
+            "mots_cles": []
+          }
+        ]
+      },
+      {
+        "titre_partie": "B-Etudes et éléments de solutions proposés",
+        "questions": [
+          {
+            "numero": "B.1 - Architecture du dérouleur",
+            "mots_cles": []
+          },
+          {
+            "numero": "B.2 - Problématique",
+            "mots_cles": []
+          }
+        ]
+      },
+      {
+        "titre_partie": "C- Etude de conception en construction mécanique",
+        "questions": [
+          {
+            "numero": "C.1 - Présentation du travail à rendre",
+            "mots_cles": []
+          },
+          {
+            "numero": "C.2 - Notice justificative",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "C.2.1. Les différents types d’architecture de ligne de découpe.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Ingénierie Système : Chaîne d'énergie",
+                "semestre": "S1"
+              }
+            ]
+          },
           {
             "numero": "Q1",
             "mots_cles": [
               {
-                "theme": "Cinématique : Profils trapèze",
+                "theme_sous_theme": "Ingénierie Système : Chaîne d'énergie",
                 "semestre": "S1"
-              },
+              }
+            ]
+          },
+          {
+            "numero": "C.2.2. Architecture du bras porte-galet 3.",
+            "mots_cles": [
               {
-                "theme": "Ingénierie Système : Chaînes d'énergie",
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "C.2.2.1 Etude des différentes positions du bras.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
               }
             ]
@@ -43,7 +89,7 @@
             "numero": "Q2",
             "mots_cles": [
               {
-                "theme": "Cinématique : Fermeture géométrique",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
               }
             ]
@@ -52,7 +98,7 @@
             "numero": "Q3",
             "mots_cles": [
               {
-                "theme": "Cinématique : Fermeture géométrique",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
               }
             ]
@@ -61,7 +107,7 @@
             "numero": "Q4",
             "mots_cles": [
               {
-                "theme": "Cinématique : Fermeture géométrique",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
               }
             ]
@@ -70,8 +116,17 @@
             "numero": "Q5",
             "mots_cles": [
               {
-                "theme": "Cinématique : Fermeture géométrique",
-                "semestre": "S1"
+                "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "C.2.2.2 Etude de l’effort presseur du galet 4.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
+                "semestre": "S2"
               }
             ]
           },
@@ -79,7 +134,7 @@
             "numero": "Q6",
             "mots_cles": [
               {
-                "theme": "Statique : PFS",
+                "theme_sous_theme": "Statique : Liaisons équivalentes",
                 "semestre": "S2"
               }
             ]
@@ -88,7 +143,7 @@
             "numero": "Q7",
             "mots_cles": [
               {
-                "theme": "Statique : PFS",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
                 "semestre": "S2"
               }
             ]
@@ -97,7 +152,7 @@
             "numero": "Q8",
             "mots_cles": [
               {
-                "theme": "Statique : PFS",
+                "theme_sous_theme": "Statique : Liaisons équivalentes",
                 "semestre": "S2"
               }
             ]
@@ -106,7 +161,7 @@
             "numero": "Q9",
             "mots_cles": [
               {
-                "theme": "Statique : PFS",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
                 "semestre": "S2"
               }
             ]
@@ -115,7 +170,7 @@
             "numero": "Q10",
             "mots_cles": [
               {
-                "theme": "Statique : PFS",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
                 "semestre": "S2"
               }
             ]
@@ -124,7 +179,7 @@
             "numero": "Q11",
             "mots_cles": [
               {
-                "theme": "Statique : PFS",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
                 "semestre": "S2"
               }
             ]
@@ -133,7 +188,7 @@
             "numero": "Q12",
             "mots_cles": [
               {
-                "theme": "Statique : PFS",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
                 "semestre": "S2"
               }
             ]
@@ -142,7 +197,7 @@
             "numero": "Q13",
             "mots_cles": [
               {
-                "theme": "Statique : PFS",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
                 "semestre": "S2"
               }
             ]
@@ -151,8 +206,21 @@
             "numero": "Q14",
             "mots_cles": [
               {
-                "theme": "Statique : PFS",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
                 "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Statique : Frottements",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "C.2.2.3 Dimensionnement des liaisons du porte-galet 3.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+                "semestre": "S4"
               }
             ]
           },
@@ -160,8 +228,17 @@
             "numero": "Q15",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Paliers lisses",
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
                 "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "C.2.2.4 Etude de la forme du bras porte-galet 3.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Résistance des matériaux : Torseur de cohésion",
+                "semestre": "S3"
               }
             ]
           },
@@ -169,7 +246,7 @@
             "numero": "Q16",
             "mots_cles": [
               {
-                "theme": "Résistance des matériaux : Torseur de cohésion",
+                "theme_sous_theme": "Résistance des matériaux : Torseur de cohésion",
                 "semestre": "S3"
               }
             ]
@@ -178,7 +255,7 @@
             "numero": "Q17",
             "mots_cles": [
               {
-                "theme": "Résistance des matériaux : Contraintes",
+                "theme_sous_theme": "Résistance des matériaux : Torseur de cohésion",
                 "semestre": "S3"
               }
             ]
@@ -187,7 +264,7 @@
             "numero": "Q18",
             "mots_cles": [
               {
-                "theme": "Résistance des matériaux : Contraintes",
+                "theme_sous_theme": "Résistance des matériaux : Torseur de cohésion",
                 "semestre": "S3"
               }
             ]
@@ -196,8 +273,17 @@
             "numero": "Q19",
             "mots_cles": [
               {
-                "theme": "Résistance des matériaux : Contraintes",
+                "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
                 "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "C.2.3. Etude du mandrin",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
+                "semestre": "S2"
               }
             ]
           },
@@ -205,16 +291,16 @@
             "numero": "Q20",
             "mots_cles": [
               {
-                "theme": "Cinématique : Lois entrée-sortie",
+                "theme_sous_theme": "Cinématique : Torseur cinématique",
                 "semestre": "S1"
               }
             ]
           },
           {
-            "numero": "Q21",
+            "numero": "C.2.3.2 Etude statique du mandrin en phase « mise en position »",
             "mots_cles": [
               {
-                "theme": "Statique : PFS",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
                 "semestre": "S2"
               }
             ]
@@ -223,7 +309,7 @@
             "numero": "Q22",
             "mots_cles": [
               {
-                "theme": "Statique : PFS",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
                 "semestre": "S2"
               }
             ]
@@ -232,7 +318,7 @@
             "numero": "Q23",
             "mots_cles": [
               {
-                "theme": "Statique : PFS",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
                 "semestre": "S2"
               }
             ]
@@ -241,7 +327,7 @@
             "numero": "Q24",
             "mots_cles": [
               {
-                "theme": "Statique : PFS",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
                 "semestre": "S2"
               }
             ]
@@ -250,8 +336,8 @@
             "numero": "Q25",
             "mots_cles": [
               {
-                "theme": "Statique : PFS",
-                "semestre": "S2"
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
+                "semestre": "S3"
               }
             ]
           },
@@ -259,7 +345,11 @@
             "numero": "Q26",
             "mots_cles": [
               {
-                "theme": "Cinématique : Lois entrée-sortie",
+                "theme_sous_theme": "Transmissions mécaniques : Engrenages",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
                 "semestre": "S1"
               }
             ]
@@ -268,7 +358,11 @@
             "numero": "Q27",
             "mots_cles": [
               {
-                "theme": "Statique : PFS",
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
                 "semestre": "S2"
               }
             ]
@@ -277,8 +371,30 @@
             "numero": "Q28",
             "mots_cles": [
               {
-                "theme": "Statique : PFS",
-                "semestre": "S2"
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "C.2.4. Dimensionnement du frein du dérouleur.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "C.2.4.1 Cas de l’arrêt d’urgence.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Dynamique : Géométrie des masses",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
               }
             ]
           },
@@ -286,7 +402,7 @@
             "numero": "Q29",
             "mots_cles": [
               {
-                "theme": "Dynamique : Inertie équivalente",
+                "theme_sous_theme": "Dynamique : Géométrie des masses",
                 "semestre": "S3"
               }
             ]
@@ -295,7 +411,7 @@
             "numero": "Q30",
             "mots_cles": [
               {
-                "theme": "Dynamique : Inertie équivalente",
+                "theme_sous_theme": "Dynamique : Géométrie des masses",
                 "semestre": "S3"
               }
             ]
@@ -304,8 +420,8 @@
             "numero": "Q31",
             "mots_cles": [
               {
-                "theme": "Dynamique : Inertie équivalente",
-                "semestre": "S3"
+                "theme_sous_theme": "Cinématique : Accélérations",
+                "semestre": "S1"
               }
             ]
           },
@@ -313,8 +429,8 @@
             "numero": "Q32",
             "mots_cles": [
               {
-                "theme": "Dynamique : Inertie équivalente",
-                "semestre": "S3"
+                "theme_sous_theme": "Cinématique : Accélérations",
+                "semestre": "S1"
               }
             ]
           },
@@ -322,7 +438,7 @@
             "numero": "Q33",
             "mots_cles": [
               {
-                "theme": "Dynamique : Inertie équivalente",
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
                 "semestre": "S3"
               }
             ]
@@ -331,8 +447,26 @@
             "numero": "Q34",
             "mots_cles": [
               {
-                "theme": "Dynamique : Inertie équivalente",
-                "semestre": "S3"
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "C.3. Conception du bras porte-galet 3.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "C.3.2. Conception du bras porte-galet 3",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+                "semestre": "S4"
               }
             ]
           },
@@ -340,7 +474,7 @@
             "numero": "Q35",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Liaisons",
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
                 "semestre": "S4"
               }
             ]
@@ -349,7 +483,16 @@
             "numero": "Q36",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Liaisons",
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "C.3.3. Conception de la mise en place du frein à poudre.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
                 "semestre": "S4"
               }
             ]
@@ -358,7 +501,7 @@
             "numero": "Q37",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Liaisons",
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
                 "semestre": "S4"
               }
             ]
@@ -367,23 +510,16 @@
             "numero": "Q38",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Liaisons",
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
                 "semestre": "S4"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Cinématique : Profils trapèze",
-          "Cinématique : Fermeture géométrique",
-          "Statique : PFS",
-          "Dimensionnement : Paliers lisses",
-          "Résistance des matériaux : Torseur de cohésion",
-          "Résistance des matériaux : Contraintes",
-          "Cinématique : Lois entrée-sortie",
-          "Dynamique : Inertie équivalente",
-          "Dimensionnement : Liaisons"
         ]
+      },
+      {
+        "titre_partie": "D-Tableau récapitulatif des données et des notations principales du sujet",
+        "questions": []
       }
     ],
     "ajouts": []

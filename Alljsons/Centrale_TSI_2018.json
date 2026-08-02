@@ -4,385 +4,419 @@
   "date": "2018",
   "file": "Centrale_TSI_2018.pdf",
   "status": 200,
-  "time_s": 325.44,
+  "time_s": 29.79,
   "data": {
     "parties": [
       {
-        "titre_partie": "I Présentation du sujet",
-        "questions": [],
-        "themes_partie": [
-          "Ingénierie Système"
-        ]
-      },
-      {
-        "titre_partie": "II Validation de l'exigence de compacité du DBA",
+        "titre_partie": "II Validation de l’exigence de compacité du DBA",
         "questions": [
           {
-            "numero": "Q 1",
+            "numero": "Q1",
             "mots_cles": [
               {
-                "theme": "Cinématique : Fermeture géométrique",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Cinématique : Fermeture géométrique",
                 "semestre": "S1"
               }
             ]
           },
           {
-            "numero": "Q 2",
+            "numero": "Q2",
             "mots_cles": [
               {
-                "theme": "Cinématique : Fermeture géométrique",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
                 "semestre": "S1"
               }
             ]
           },
           {
-            "numero": "Q 3",
+            "numero": "Q3",
             "mots_cles": [
               {
-                "theme": "Cinématique : Fermeture géométrique",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
               }
             ]
           },
           {
-            "numero": "Q 4",
+            "numero": "Q4",
             "mots_cles": [
               {
-                "theme": "Cinématique : Fermeture géométrique",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
               }
             ]
           },
           {
-            "numero": "Q 5",
+            "numero": "Q5",
             "mots_cles": [
               {
-                "theme": "Cinématique : Fermeture géométrique",
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
                 "semestre": "S1"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Cinématique"
         ]
       },
       {
         "titre_partie": "III Dimensionnement du moteur",
         "questions": [
           {
-            "numero": "Q 6",
+            "numero": "III.A - Q6",
             "mots_cles": [
               {
-                "theme": "Cinématique : Vitesses",
+                "theme_sous_theme": "Cinématique : Vitesses",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
                 "semestre": "S1"
               }
             ]
           },
           {
-            "numero": "Q 7",
+            "numero": "III.A - Q7",
             "mots_cles": [
               {
-                "theme": "Transmissions mécaniques : Rapport de réduction",
+                "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
                 "semestre": "S1"
               }
             ]
           },
           {
-            "numero": "Q 8",
+            "numero": "III.B - Q8",
             "mots_cles": [
               {
-                "theme": "Statique : Liaisons équivalentes",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
                 "semestre": "S2"
               }
             ]
           },
           {
-            "numero": "Q 9",
+            "numero": "III.B - Q9",
             "mots_cles": [
               {
-                "theme": "Statique : Liaisons équivalentes",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Statique : Liaisons équivalentes",
                 "semestre": "S2"
               }
             ]
           },
           {
-            "numero": "Q 10",
+            "numero": "III.B - Q10",
             "mots_cles": [
               {
-                "theme": "Statique : Liaisons équivalentes",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
                 "semestre": "S2"
               }
             ]
           },
           {
-            "numero": "Q 11",
+            "numero": "III.B - Q11",
             "mots_cles": [
               {
-                "theme": "Statique : Liaisons équivalentes",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
                 "semestre": "S2"
               }
             ]
           },
           {
-            "numero": "Q 12",
+            "numero": "III.B - Q12",
             "mots_cles": [
               {
-                "theme": "Statique : Liaisons équivalentes",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
                 "semestre": "S2"
               }
             ]
           },
           {
-            "numero": "Q 13",
+            "numero": "III.B - Q13",
             "mots_cles": [
               {
-                "theme": "Statique : Liaisons équivalentes",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
                 "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
               }
             ]
           },
           {
-            "numero": "Q 14",
+            "numero": "III.B - Q14",
             "mots_cles": [
               {
-                "theme": "Statique : Liaisons équivalentes",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Q 15",
-            "mots_cles": [
+                "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+                "semestre": "S1"
+              },
               {
-                "theme": "Énergétique : Puissance",
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
                 "semestre": "S3"
               }
             ]
           },
           {
-            "numero": "Q 16",
+            "numero": "III.C - Q15",
             "mots_cles": [
               {
-                "theme": "Énergétique : Rendement",
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Machines électriques : Machine asynchrone",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "III.C - Q16",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
                 "semestre": "S3"
               }
             ]
           },
           {
-            "numero": "Q 17",
+            "numero": "III.C - Q17",
             "mots_cles": [
               {
-                "theme": "Électrotechnique : Convertisseurs statiques",
+                "theme_sous_theme": "Machines électriques : Machine asynchrone",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Électrotechnique : Convertisseurs statiques",
                 "semestre": "S2"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Cinématique",
-          "Transmissions mécaniques",
-          "Statique",
-          "Énergétique",
-          "Électrotechnique"
         ]
       },
       {
         "titre_partie": "IV Paramétrage du variateur de vitesse associé à la machine asynchrone du basculeur",
         "questions": [
           {
-            "numero": "Q 18",
+            "numero": "IV.B - Q18",
             "mots_cles": [
               {
-                "theme": "Machines électriques : Commande U/f",
+                "theme_sous_theme": "Machines électriques : Machine asynchrone",
                 "semestre": "S4"
               }
             ]
           },
           {
-            "numero": "Q 19",
+            "numero": "IV.B - Q19",
             "mots_cles": [
               {
-                "theme": "Machines électriques : Commande U/f",
+                "theme_sous_theme": "Machines électriques : Machine asynchrone",
                 "semestre": "S4"
               }
             ]
           },
           {
-            "numero": "Q 20",
+            "numero": "IV.B - Q20",
             "mots_cles": [
               {
-                "theme": "Machines électriques : Commande U/f",
+                "theme_sous_theme": "Machines électriques : Machine asynchrone",
                 "semestre": "S4"
-              }
-            ]
-          },
-          {
-            "numero": "Q 21",
-            "mots_cles": [
+              },
               {
-                "theme": "Machines électriques : Commande U/f",
-                "semestre": "S4"
-              }
-            ]
-          },
-          {
-            "numero": "Q 22",
-            "mots_cles": [
-              {
-                "theme": "Machines électriques : Commande U/f",
-                "semestre": "S4"
-              }
-            ]
-          },
-          {
-            "numero": "Q 23",
-            "mots_cles": [
-              {
-                "theme": "Machines électriques : Commande U/f",
-                "semestre": "S4"
-              }
-            ]
-          },
-          {
-            "numero": "Q 24",
-            "mots_cles": [
-              {
-                "theme": "Machines électriques : Commande U/f",
-                "semestre": "S4"
-              }
-            ]
-          },
-          {
-            "numero": "Q 25",
-            "mots_cles": [
-              {
-                "theme": "Machines électriques : Commande U/f",
-                "semestre": "S4"
-              }
-            ]
-          },
-          {
-            "numero": "Q 26",
-            "mots_cles": [
-              {
-                "theme": "Dynamique : PFD",
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
                 "semestre": "S3"
               }
             ]
           },
           {
-            "numero": "Q 27",
+            "numero": "IV.B - Q21",
             "mots_cles": [
               {
-                "theme": "Machines électriques : Commande U/f",
+                "theme_sous_theme": "Machines électriques : Machine asynchrone",
                 "semestre": "S4"
               }
             ]
           },
           {
-            "numero": "Q 28",
+            "numero": "IV.B - Q22",
             "mots_cles": [
               {
-                "theme": "Machines électriques : Commande U/f",
+                "theme_sous_theme": "Machines électriques : Machine asynchrone",
                 "semestre": "S4"
               }
             ]
           },
           {
-            "numero": "Q 29",
+            "numero": "IV.B - Q23",
             "mots_cles": [
               {
-                "theme": "Machines électriques : Commande U/f",
+                "theme_sous_theme": "Machines électriques : Machine asynchrone",
                 "semestre": "S4"
               }
             ]
           },
           {
-            "numero": "Q 30",
+            "numero": "IV.B - Q24",
             "mots_cles": [
               {
-                "theme": "Machines électriques : Commande U/f",
+                "theme_sous_theme": "Machines électriques : Machine asynchrone",
                 "semestre": "S4"
               }
             ]
           },
           {
-            "numero": "Q 31",
+            "numero": "IV.C - Q25",
             "mots_cles": [
               {
-                "theme": "Informatique et Algorithmique : Python",
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "IV.D - Q26",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Énergétique : Inertie équivalente",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "IV.D - Q27",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Machines électriques : Machine asynchrone",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Machines électriques : Commande scalaire",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "IV.E - Q28",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Machines électriques : Machine asynchrone",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Machines électriques : Commande scalaire",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "IV.E - Q29",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Machines électriques : Machine asynchrone",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Machines électriques : Commande scalaire",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "IV.E - Q30",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Informatique : Algorithmique",
                 "semestre": "S1"
               }
             ]
           },
           {
-            "numero": "Q 32",
+            "numero": "IV.E - Q31",
             "mots_cles": [
               {
-                "theme": "Informatique et Algorithmique : Python",
+                "theme_sous_theme": "Informatique : Algorithmique",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Machines électriques : Machine asynchrone",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "IV.E - Q32",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Machines électriques : Machine asynchrone",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Informatique : Algorithmique",
                 "semestre": "S1"
               }
             ]
           },
           {
-            "numero": "Q 33",
+            "numero": "IV.F - Q33",
             "mots_cles": [
               {
-                "theme": "Machines électriques : Commande U/f",
+                "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
                 "semestre": "S4"
               }
             ]
           },
           {
-            "numero": "Q 34",
+            "numero": "IV.F - Q34",
             "mots_cles": [
               {
-                "theme": "Machines électriques : Commande U/f",
+                "theme_sous_theme": "Machines électriques : Commande scalaire",
                 "semestre": "S4"
               }
             ]
           },
           {
-            "numero": "Q 35",
+            "numero": "IV.G - Q35",
             "mots_cles": [
               {
-                "theme": "Machines électriques : Commande U/f",
+                "theme_sous_theme": "Machines électriques : Commande scalaire",
                 "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "IV.G - Q36",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "IV.G - Q37",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Informatique : Algorithmique",
+                "semestre": "S1"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Machines électriques",
-          "Dynamique",
-          "Informatique et Algorithmique"
-        ]
-      },
-      {
-        "titre_partie": "V Conclusions",
-        "questions": [
-          {
-            "numero": "Q 36",
-            "mots_cles": [
-              {
-                "theme": "Machines électriques : Commande U/f",
-                "semestre": "S4"
-              }
-            ]
-          },
-          {
-            "numero": "Q 37",
-            "mots_cles": [
-              {
-                "theme": "Machines électriques : Commande U/f",
-                "semestre": "S4"
-              }
-            ]
-          }
-        ],
-        "themes_partie": [
-          "Machines électriques"
         ]
       }
     ],

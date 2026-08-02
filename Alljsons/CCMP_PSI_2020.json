@@ -2,378 +2,419 @@
   "concours": "CCMP",
   "filiere": "PSI",
   "date": "2020",
-  "file": "CCMP_PSI_2020.json",
+  "file": "CCMP_PSI_2020.pdf",
   "status": 200,
-  "time_s": 415.89,
+  "time_s": 35.48,
   "data": {
     "parties": [
       {
-        "titre_partie": "I. PRÉSENTATION",
+        "titre_partie": "PRÉSENTATION",
+        "questions": []
+      },
+      {
+        "titre_partie": "ÉTABLISSEMENT DE LA LOGIQUE DE COMMANDE",
         "questions": [
           {
-            "numero": "Question 1",
+            "numero": "1 et 2",
             "mots_cles": [
               {
-                "theme": "Systèmes séquentiels et SED : Diagramme d'états",
+                "theme_sous_theme": "Systèmes séquentiels : Diagramme d'états",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
                 "semestre": "S1"
               }
             ]
           },
           {
-            "numero": "Question 2",
+            "numero": "3",
             "mots_cles": [
               {
-                "theme": "Systèmes séquentiels et SED : Diagramme d'états",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
               }
             ]
           },
           {
-            "numero": "Question 3",
+            "numero": "4",
             "mots_cles": [
               {
-                "theme": "Cinématique : Lois entrée-sortie",
+                "theme_sous_theme": "Cinématique : Fermeture géométrique",
                 "semestre": "S1"
               }
             ]
           },
           {
-            "numero": "Question 4",
+            "numero": "5",
             "mots_cles": [
               {
-                "theme": "Cinématique : Lois entrée-sortie",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
               }
             ]
           },
           {
-            "numero": "Question 5",
+            "numero": "6",
             "mots_cles": [
               {
-                "theme": "Cinématique : Lois entrée-sortie",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
               }
             ]
           },
           {
-            "numero": "Question 6",
+            "numero": "7",
             "mots_cles": [
               {
-                "theme": "Cinématique : Lois entrée-sortie",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
               }
             ]
           },
           {
-            "numero": "Question 7",
+            "numero": "8",
             "mots_cles": [
               {
-                "theme": "Cinématique : Lois entrée-sortie",
-                "semestre": "S1"
-              }
-            ]
-          },
-          {
-            "numero": "Question 8",
-            "mots_cles": [
-              {
-                "theme": "Informatique et Algorithmique : Boucles",
+                "theme_sous_theme": "Informatique : Algorithmique",
                 "semestre": "S1"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Systèmes séquentiels et SED",
-          "Cinématique",
-          "Informatique et Algorithmique"
         ]
       },
       {
-        "titre_partie": "II. ÉTABLISSEMENT DE LA LOGIQUE DE COMMANDE",
+        "titre_partie": "COMMANDE DES AXES DU MANIPULATEUR",
         "questions": [
           {
-            "numero": "Question 9",
+            "numero": "9",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : Temporel",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
           },
           {
-            "numero": "Question 10",
+            "numero": "10",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : Temporel",
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
                 "semestre": "S2"
               }
             ]
           },
           {
-            "numero": "Question 11",
+            "numero": "11",
             "mots_cles": [
               {
-                "theme": "Asservissement : Schéma-blocs",
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
           },
           {
-            "numero": "Question 12",
+            "numero": "12",
             "mots_cles": [
               {
-                "theme": "Asservissement : Schéma-blocs",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
           },
           {
-            "numero": "Question 13",
+            "numero": "13",
             "mots_cles": [
               {
-                "theme": "Asservissement : Schéma-blocs",
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
           },
           {
-            "numero": "Question 14",
+            "numero": "14",
             "mots_cles": [
               {
-                "theme": "Asservissement : Schéma-blocs",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Question 15",
-            "mots_cles": [
+              },
               {
-                "theme": "Asservissement : Stabilité",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Question 16",
-            "mots_cles": [
-              {
-                "theme": "Asservissement : Stabilité",
-                "semestre": "S2"
-              }
-            ]
-          }
-        ],
-        "themes_partie": [
-          "Modélisation des signaux",
-          "Asservissement"
-        ]
-      },
-      {
-        "titre_partie": "III. COMMANDE DES AXES DU MANIPULATEUR",
-        "questions": [
-          {
-            "numero": "Question 17",
-            "mots_cles": [
-              {
-                "theme": "Asservissement : Précision",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Question 18",
-            "mots_cles": [
-              {
-                "theme": "Asservissement : Précision",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Question 19",
-            "mots_cles": [
-              {
-                "theme": "Asservissement : Précision",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Question 20",
-            "mots_cles": [
-              {
-                "theme": "Asservissement : Rapidité",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Question 21",
-            "mots_cles": [
-              {
-                "theme": "Asservissement : Correcteur Proportionnel et intégral",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Question 22",
-            "mots_cles": [
-              {
-                "theme": "Asservissement : Correcteur Proportionnel et intégral",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Question 23",
-            "mots_cles": [
-              {
-                "theme": "Asservissement : Stabilité",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Question 24",
-            "mots_cles": [
-              {
-                "theme": "Asservissement : Stabilité",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Question 25",
-            "mots_cles": [
-              {
-                "theme": "Asservissement : Stabilité",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Question 26",
-            "mots_cles": [
-              {
-                "theme": "Asservissement : Stabilité",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Question 27",
-            "mots_cles": [
-              {
-                "theme": "Asservissement : Stabilité",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Question 28",
-            "mots_cles": [
-              {
-                "theme": "Asservissement : Stabilité",
-                "semestre": "S2"
-              }
-            ]
-          }
-        ],
-        "themes_partie": [
-          "Asservissement"
-        ]
-      },
-      {
-        "titre_partie": "IV. RÉALISATION DES GUIDAGES EN TRANSLATION DU MANIPULATEUR",
-        "questions": [
-          {
-            "numero": "Question 29",
-            "mots_cles": [
-              {
-                "theme": "Cinématique : Fermeture géométrique",
-                "semestre": "S1"
-              }
-            ]
-          },
-          {
-            "numero": "Question 30",
-            "mots_cles": [
-              {
-                "theme": "Cinématique : Fermeture géométrique",
-                "semestre": "S1"
-              }
-            ]
-          },
-          {
-            "numero": "Question 31",
-            "mots_cles": [
-              {
-                "theme": "Statique : Hyperstatisme",
-                "semestre": "S2"
-              }
-            ]
-          }
-        ],
-        "themes_partie": [
-          "Cinématique",
-          "Statique"
-        ]
-      },
-      {
-        "titre_partie": "V. COMPATIBILITÉ DE L'AXE Z EMBARQUÉ AVEC LE MANIPULATEUR",
-        "questions": [
-          {
-            "numero": "Question 32",
-            "mots_cles": [
-              {
-                "theme": "Dynamique : Torseur dynamique",
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
                 "semestre": "S3"
               }
             ]
           },
           {
-            "numero": "Question 33",
+            "numero": "15",
             "mots_cles": [
               {
-                "theme": "Dynamique : Torseur dynamique",
-                "semestre": "S3"
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
+                "semestre": "S2"
               }
             ]
           },
           {
-            "numero": "Question 34",
+            "numero": "16",
             "mots_cles": [
               {
-                "theme": "Dynamique : PFD",
-                "semestre": "S3"
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
+                "semestre": "S2"
               }
             ]
           },
           {
-            "numero": "Question 35",
+            "numero": "17",
             "mots_cles": [
               {
-                "theme": "Dynamique : PFD",
-                "semestre": "S3"
+                "theme_sous_theme": "Dimensionnement : Capteurs",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Traitement de l'information : Échantillonnage et quantification",
+                "semestre": "S2"
               }
             ]
           },
           {
-            "numero": "Question 36",
+            "numero": "18",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Paliers lisses",
+                "theme_sous_theme": "Asservissement : Précision",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "19",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Précision",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "20",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Asservissement : Précision",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Rapidité",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "21",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Correcteurs : Proportionnel-intégral",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Précision",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "22",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Asservissement : Rapidité",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Stabilité",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "23",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "24",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "25",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Asservissement : Stabilité",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "26",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Correcteurs : Proportionnel",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Stabilité",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "27",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Stabilité",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "28",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Asservissement : Stabilité",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Correcteurs : Proportionnel",
                 "semestre": "S4"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Dynamique",
-          "Dimensionnement"
+        ]
+      },
+      {
+        "titre_partie": "RÉALISATION DES GUIDAGES EN TRANSLATION DU MANIPULATEUR",
+        "questions": [
+          {
+            "numero": "29",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Statique : Liaisons équivalentes",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Ingénierie Système : Diagramme de définition de blocs",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "30",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Cinématique : Torseur cinématique",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "31",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Statique : Hyperstatisme",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Statique : Isostatisme",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "32",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Dynamique : Géométrie des masses",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "33",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Cinématique : Accélérations",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "34",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "35",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "36",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
+                "semestre": "S2"
+              }
+            ]
+          }
         ]
       }
     ],

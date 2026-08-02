@@ -4,30 +4,18 @@
   "date": "2018",
   "file": "BPT_SIB_2018.pdf",
   "status": 200,
-  "time_s": 440.29,
+  "time_s": 36.64,
   "data": {
     "parties": [
       {
-        "titre_partie": "Présentation",
-        "questions": [],
-        "themes_partie": [
-          "Ingénierie Système : Cahier des charges",
-          "Procédés de fabrication : Fabrication Additive"
-        ]
-      },
-      {
-        "titre_partie": "Notice justificative",
+        "titre_partie": "II.1 - Etude de la phase de montée-descente des lames",
         "questions": [
           {
             "numero": "Question 1",
             "mots_cles": [
               {
-                "theme": "Matériaux : Propriétés",
+                "theme_sous_theme": "Matériaux : Propriétés physiques et mécaniques",
                 "semestre": "S3"
-              },
-              {
-                "theme": "Dimensionnement : Actionneurs",
-                "semestre": "S4"
               }
             ]
           },
@@ -35,7 +23,7 @@
             "numero": "Question 2",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Actionneurs",
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
                 "semestre": "S4"
               }
             ]
@@ -44,8 +32,8 @@
             "numero": "Question 3",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Actionneurs",
-                "semestre": "S4"
+                "theme_sous_theme": "Systèmes séquentiels : Diagramme d'états",
+                "semestre": "S1"
               }
             ]
           },
@@ -53,12 +41,8 @@
             "numero": "Question 4",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Actionneurs",
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
                 "semestre": "S4"
-              },
-              {
-                "theme": "Statique : Actions réparties",
-                "semestre": "S2"
               }
             ]
           },
@@ -66,7 +50,7 @@
             "numero": "Question 5",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Actionneurs",
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
                 "semestre": "S4"
               }
             ]
@@ -75,7 +59,7 @@
             "numero": "Question 6",
             "mots_cles": [
               {
-                "theme": "Statique : Actions réparties",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
                 "semestre": "S2"
               }
             ]
@@ -84,7 +68,7 @@
             "numero": "Question 7",
             "mots_cles": [
               {
-                "theme": "Statique : Actions réparties",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
                 "semestre": "S2"
               }
             ]
@@ -93,7 +77,7 @@
             "numero": "Question 8",
             "mots_cles": [
               {
-                "theme": "Statique : Actions réparties",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
                 "semestre": "S2"
               }
             ]
@@ -102,8 +86,12 @@
             "numero": "Question 9",
             "mots_cles": [
               {
-                "theme": "Résistance des matériaux : Déformations",
+                "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
                 "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Statique : Isostatisme",
+                "semestre": "S2"
               }
             ]
           },
@@ -111,7 +99,7 @@
             "numero": "Question 10",
             "mots_cles": [
               {
-                "theme": "Résistance des matériaux : Torseur de cohésion",
+                "theme_sous_theme": "Résistance des matériaux : Torseur de cohésion",
                 "semestre": "S3"
               }
             ]
@@ -120,7 +108,7 @@
             "numero": "Question 11",
             "mots_cles": [
               {
-                "theme": "Résistance des matériaux : Déformations",
+                "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
                 "semestre": "S3"
               }
             ]
@@ -129,7 +117,7 @@
             "numero": "Question 12",
             "mots_cles": [
               {
-                "theme": "Matériaux : Choix",
+                "theme_sous_theme": "Matériaux : Choix",
                 "semestre": "S3"
               }
             ]
@@ -138,7 +126,7 @@
             "numero": "Question 13",
             "mots_cles": [
               {
-                "theme": "Résistance des matériaux : Déformations",
+                "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
                 "semestre": "S3"
               }
             ]
@@ -147,8 +135,8 @@
             "numero": "Question 14",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Liaisons",
-                "semestre": "S4"
+                "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+                "semestre": "S3"
               }
             ]
           },
@@ -156,16 +144,21 @@
             "numero": "Question 15",
             "mots_cles": [
               {
-                "theme": "Résistance des matériaux : Déformations",
-                "semestre": "S3"
+                "theme_sous_theme": "Statique : Isostatisme",
+                "semestre": "S2"
               }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "titre_partie": "II.2 — Étude du guidage en translation horizontale du racleur",
+        "questions": [
           {
             "numero": "Question 16",
             "mots_cles": [
               {
-                "theme": "Spécifications géométriques : Tolérancement",
+                "theme_sous_theme": "Spécifications géométriques : Tolérancement",
                 "semestre": "S2"
               }
             ]
@@ -174,8 +167,8 @@
             "numero": "Question 17",
             "mots_cles": [
               {
-                "theme": "Spécifications géométriques : Tolérancement",
-                "semestre": "S2"
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+                "semestre": "S4"
               }
             ]
           },
@@ -183,8 +176,8 @@
             "numero": "Question 18",
             "mots_cles": [
               {
-                "theme": "Cinématique : Lois entrée-sortie",
-                "semestre": "S1"
+                "theme_sous_theme": "Statique : Hyperstatisme",
+                "semestre": "S2"
               }
             ]
           },
@@ -192,8 +185,8 @@
             "numero": "Question 19",
             "mots_cles": [
               {
-                "theme": "Cinématique : Torseurs cinématiques",
-                "semestre": "S1"
+                "theme_sous_theme": "Statique : Liaisons équivalentes",
+                "semestre": "S2"
               }
             ]
           },
@@ -201,16 +194,21 @@
             "numero": "Question 20",
             "mots_cles": [
               {
-                "theme": "Statique : Hyperstatisme",
+                "theme_sous_theme": "Statique : Hyperstatisme",
                 "semestre": "S2"
               }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "titre_partie": "II.3 — Étude de la motorisation du racleur",
+        "questions": [
           {
             "numero": "Question 21",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Actionneurs",
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
                 "semestre": "S4"
               }
             ]
@@ -219,8 +217,8 @@
             "numero": "Question 22",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Actionneurs",
-                "semestre": "S4"
+                "theme_sous_theme": "Cinématique : Vitesses",
+                "semestre": "S1"
               }
             ]
           },
@@ -228,8 +226,8 @@
             "numero": "Question 23",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Actionneurs",
-                "semestre": "S4"
+                "theme_sous_theme": "Cinématique : Vitesses",
+                "semestre": "S1"
               }
             ]
           },
@@ -237,8 +235,8 @@
             "numero": "Question 24",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Liaisons",
-                "semestre": "S4"
+                "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+                "semestre": "S3"
               }
             ]
           },
@@ -246,8 +244,8 @@
             "numero": "Question 25",
             "mots_cles": [
               {
-                "theme": "Dynamique : Torseur dynamique",
-                "semestre": "S3"
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
               }
             ]
           },
@@ -255,8 +253,8 @@
             "numero": "Question 26",
             "mots_cles": [
               {
-                "theme": "Dynamique : Torseur dynamique",
-                "semestre": "S3"
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
               }
             ]
           },
@@ -264,8 +262,8 @@
             "numero": "Question 27",
             "mots_cles": [
               {
-                "theme": "Dynamique : Torseur dynamique",
-                "semestre": "S3"
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
+                "semestre": "S2"
               }
             ]
           },
@@ -273,7 +271,7 @@
             "numero": "Question 28",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Liaisons",
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
                 "semestre": "S4"
               }
             ]
@@ -282,7 +280,7 @@
             "numero": "Question 29",
             "mots_cles": [
               {
-                "theme": "Énergétique : Théorème de l'Énergie Cinétique",
+                "theme_sous_theme": "Énergétique : Inertie équivalente",
                 "semestre": "S3"
               }
             ]
@@ -291,7 +289,7 @@
             "numero": "Question 30",
             "mots_cles": [
               {
-                "theme": "Dynamique : Torseur dynamique",
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
                 "semestre": "S3"
               }
             ]
@@ -300,7 +298,7 @@
             "numero": "Question 31",
             "mots_cles": [
               {
-                "theme": "Cinématique : Accélérations",
+                "theme_sous_theme": "Cinématique : Accélérations",
                 "semestre": "S1"
               }
             ]
@@ -309,11 +307,11 @@
             "numero": "Question 32",
             "mots_cles": [
               {
-                "theme": "Énergétique : Puissance",
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
                 "semestre": "S3"
               },
               {
-                "theme": "Dynamique : Torseur dynamique",
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
                 "semestre": "S3"
               }
             ]
@@ -322,7 +320,7 @@
             "numero": "Question 33",
             "mots_cles": [
               {
-                "theme": "Machines électriques : MCC",
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
                 "semestre": "S4"
               }
             ]
@@ -331,7 +329,7 @@
             "numero": "Question 34",
             "mots_cles": [
               {
-                "theme": "Énergétique : Puissance",
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
                 "semestre": "S3"
               }
             ]
@@ -340,7 +338,7 @@
             "numero": "Question 35",
             "mots_cles": [
               {
-                "theme": "Énergétique : Puissance",
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
                 "semestre": "S3"
               }
             ]
@@ -349,38 +347,21 @@
             "numero": "Question 36",
             "mots_cles": [
               {
-                "theme": "Machines électriques : MCC",
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
                 "semestre": "S4"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Dimensionnement : Actionneurs",
-          "Matériaux : Propriétés",
-          "Statique : Actions réparties",
-          "Résistance des matériaux : Déformations",
-          "Résistance des matériaux : Torseur de cohésion",
-          "Matériaux : Choix",
-          "Dimensionnement : Liaisons",
-          "Spécifications géométriques : Tolérancement",
-          "Cinématique : Lois entrée-sortie",
-          "Cinématique : Torseurs cinématiques",
-          "Statique : Hyperstatisme",
-          "Dynamique : Torseur dynamique",
-          "Énergétique : Théorème de l'Énergie Cinétique",
-          "Énergétique : Puissance",
-          "Machines électriques : MCC"
         ]
       },
       {
-        "titre_partie": "Dessin d'étude en construction mécanique",
+        "titre_partie": "III — Dessin d’étude en construction mécanique",
         "questions": [
           {
             "numero": "Question 37",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Liaisons",
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
                 "semestre": "S4"
               }
             ]
@@ -389,7 +370,7 @@
             "numero": "Question 38",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Liaisons",
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
                 "semestre": "S4"
               }
             ]
@@ -398,7 +379,7 @@
             "numero": "Question 39",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Liaisons",
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
                 "semestre": "S4"
               }
             ]
@@ -407,7 +388,7 @@
             "numero": "Question 40",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Liaisons",
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
                 "semestre": "S4"
               }
             ]
@@ -416,14 +397,11 @@
             "numero": "Question 41",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Liaisons",
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
                 "semestre": "S4"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Dimensionnement : Liaisons"
         ]
       }
     ],

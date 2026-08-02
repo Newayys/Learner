@@ -4,279 +4,321 @@
   "date": "2019",
   "file": "Centrale_MP_2019.pdf",
   "status": 200,
-  "time_s": 493.57,
+  "time_s": 28.03,
   "data": {
     "parties": [
       {
-        "titre_partie": "I.A - Étude de l'effet de la houle sur les mouvements du ROV au début de l'étape 1",
+        "titre_partie": "I.A – Étude de l’effet de la houle sur les mouvements du ROV au début de l’étape 1",
         "questions": [
           {
-            "numero": "Q 1",
+            "numero": "Q 1.",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : Fréquentiel",
+                "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
                 "semestre": "S2"
               }
             ]
           },
           {
-            "numero": "Q 2",
+            "numero": "Q 2.",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : Fréquentiel",
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
                 "semestre": "S2"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Modélisation des signaux"
         ]
       },
       {
-        "titre_partie": "II Transfert du ROV : étude de l'actionneur de mise à l'eau",
+        "titre_partie": "II Transfert du ROV : étude de l’actionneur de mise à l’eau",
         "questions": [
           {
-            "numero": "Q 3",
+            "numero": "Q 3.",
             "mots_cles": [
               {
-                "theme": "Cinématique : Fermeture géométrique",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Cinématique : Fermeture géométrique",
                 "semestre": "S1"
               }
             ]
           },
           {
-            "numero": "Q 4",
+            "numero": "Q 4.",
             "mots_cles": [
               {
-                "theme": "Cinématique : Fermeture géométrique",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
               }
             ]
           },
           {
-            "numero": "Q 5",
+            "numero": "Q 5.",
             "mots_cles": [
               {
-                "theme": "Cinématique : Fermeture géométrique",
+                "theme_sous_theme": "Ingénierie Système : Chaîne d'énergie",
                 "semestre": "S1"
-              }
-            ]
-          },
-          {
-            "numero": "Q 6",
-            "mots_cles": [
+              },
               {
-                "theme": "Cinématique : Fermeture géométrique",
-                "semestre": "S1"
-              }
-            ]
-          },
-          {
-            "numero": "Q 7",
-            "mots_cles": [
-              {
-                "theme": "Statique : PFS",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Q 8",
-            "mots_cles": [
-              {
-                "theme": "Statique : PFS",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Q 9",
-            "mots_cles": [
-              {
-                "theme": "Dimensionnement : Actionneurs",
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
                 "semestre": "S4"
               }
             ]
+          },
+          {
+            "numero": "Q 6.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q 7.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 8.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q 9.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
+              }
+            ]
           }
-        ],
-        "themes_partie": [
-          "Cinématique",
-          "Statique",
-          "Dimensionnement"
         ]
       },
       {
-        "titre_partie": "III Étude du système de compensation de houle PHC (Passive Heave Compensator)",
+        "titre_partie": "III Étude d’un système passif de compensation de houle PHC (Passive Heave Compensator)",
         "questions": [
           {
-            "numero": "Q 10",
+            "numero": "Q 10.",
             "mots_cles": [
               {
-                "theme": "Dynamique : PFD",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 11.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 12.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
                 "semestre": "S3"
               }
             ]
           },
           {
-            "numero": "Q 11",
+            "numero": "Q 13.",
             "mots_cles": [
               {
-                "theme": "Statique : PFS",
+                "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
           },
           {
-            "numero": "Q 12",
+            "numero": "Q 14.",
             "mots_cles": [
               {
-                "theme": "Dynamique : PFD",
-                "semestre": "S3"
-              }
-            ]
-          },
-          {
-            "numero": "Q 13",
-            "mots_cles": [
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
+                "semestre": "S2"
+              },
               {
-                "theme": "Modélisation des signaux : Fréquentiel",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
           },
           {
-            "numero": "Q 14",
+            "numero": "Q 15.",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : Fréquentiel",
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q 16.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
                 "semestre": "S2"
               }
             ]
           },
           {
-            "numero": "Q 15",
+            "numero": "Q 17.",
             "mots_cles": [
               {
-                "theme": "Asservissement : Stabilité",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
                 "semestre": "S2"
               }
             ]
           },
           {
-            "numero": "Q 16",
+            "numero": "Q 18.",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : Fréquentiel",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Q 17",
-            "mots_cles": [
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
+              },
               {
-                "theme": "Modélisation des signaux : Fréquentiel",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Q 18",
-            "mots_cles": [
-              {
-                "theme": "Asservissement : Stabilité",
+                "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
                 "semestre": "S2"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Dynamique",
-          "Statique",
-          "Modélisation des signaux",
-          "Asservissement"
         ]
       },
       {
         "titre_partie": "IV Étude du système actif de compensation de houle AHC (Active Heave Compensator)",
         "questions": [
           {
-            "numero": "Q 19",
+            "numero": "Q 19.",
             "mots_cles": [
               {
-                "theme": "Dynamique : Géométrie des masses",
+                "theme_sous_theme": "Énergétique : Inertie équivalente",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Dynamique : Géométrie des masses",
                 "semestre": "S3"
               }
             ]
           },
           {
-            "numero": "Q 20",
+            "numero": "Q 20.",
             "mots_cles": [
               {
-                "theme": "Énergétique : Théorème de l'Énergie Cinétique",
+                "theme_sous_theme": "Énergétique : Théorème de l'énergie cinétique",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
                 "semestre": "S3"
               }
             ]
           },
           {
-            "numero": "Q 21",
+            "numero": "Q 21.",
             "mots_cles": [
               {
-                "theme": "Asservissement : Fonction de transfert",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
           },
           {
-            "numero": "Q 22",
+            "numero": "Q 22.",
             "mots_cles": [
               {
-                "theme": "Asservissement : Correcteur Proportionnel",
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Correcteurs : Proportionnel",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
                 "semestre": "S2"
               }
             ]
           },
           {
-            "numero": "Q 23",
+            "numero": "Q 23.",
             "mots_cles": [
               {
-                "theme": "Dynamique : PFD",
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
                 "semestre": "S3"
               }
             ]
           },
           {
-            "numero": "Q 24",
+            "numero": "Q 24.",
             "mots_cles": [
               {
-                "theme": "Dynamique : PFD",
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
                 "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Dynamique",
-          "Énergétique",
-          "Asservissement"
         ]
       },
       {
         "titre_partie": "V Conclusion sur la problématique",
         "questions": [
           {
-            "numero": "Q 25",
+            "numero": "Q 25.",
             "mots_cles": [
               {
-                "theme": "Asservissement : Stabilité",
-                "semestre": "S2"
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Métrologie : Contrôle tridimensionnel",
+                "semestre": "S3"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Asservissement"
         ]
       }
     ],

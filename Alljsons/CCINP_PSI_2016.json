@@ -4,17 +4,9 @@
   "date": "2016",
   "file": "CCINP_PSI_2016.pdf",
   "status": 200,
-  "time_s": 695.79,
+  "time_s": 31.27,
   "data": {
     "parties": [
-      {
-        "titre_partie": "Présentation du contexte",
-        "questions": []
-      },
-      {
-        "titre_partie": "Description du système",
-        "questions": []
-      },
       {
         "titre_partie": "Etude du cas d'utilisation : \"Installer sur zone de production et entretenir\"",
         "questions": [
@@ -22,7 +14,7 @@
             "numero": "Q1",
             "mots_cles": [
               {
-                "theme": "Statique : PFS",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
                 "semestre": "S2"
               }
             ]
@@ -31,7 +23,7 @@
             "numero": "Q2",
             "mots_cles": [
               {
-                "theme": "Statique : Isostatisme",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
                 "semestre": "S2"
               }
             ]
@@ -40,7 +32,7 @@
             "numero": "Q3",
             "mots_cles": [
               {
-                "theme": "Statique : Actions réparties",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
                 "semestre": "S2"
               }
             ]
@@ -49,14 +41,11 @@
             "numero": "Q4",
             "mots_cles": [
               {
-                "theme": "Statique : PFS",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
                 "semestre": "S2"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Statique"
         ]
       },
       {
@@ -66,7 +55,7 @@
             "numero": "Q5",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : Fréquentiel",
+                "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
                 "semestre": "S2"
               }
             ]
@@ -75,7 +64,7 @@
             "numero": "Q6",
             "mots_cles": [
               {
-                "theme": "Dynamique : PFD",
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
                 "semestre": "S3"
               }
             ]
@@ -84,7 +73,7 @@
             "numero": "Q7",
             "mots_cles": [
               {
-                "theme": "Asservissement : Fonction de transfert",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
@@ -93,7 +82,7 @@
             "numero": "Q8",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : 2nd ordre",
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
                 "semestre": "S2"
               }
             ]
@@ -102,7 +91,7 @@
             "numero": "Q9",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : Bode",
+                "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
                 "semestre": "S2"
               }
             ]
@@ -111,7 +100,7 @@
             "numero": "Q10",
             "mots_cles": [
               {
-                "theme": "Asservissement : Rapidité",
+                "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
                 "semestre": "S2"
               }
             ]
@@ -120,8 +109,8 @@
             "numero": "Q11",
             "mots_cles": [
               {
-                "theme": "Asservissement : Schéma-blocs",
-                "semestre": "S2"
+                "theme_sous_theme": "Ingénierie Système : Chaîne d'énergie",
+                "semestre": "S1"
               }
             ]
           },
@@ -129,7 +118,7 @@
             "numero": "Q12",
             "mots_cles": [
               {
-                "theme": "Énergétique : Théorème de l'Énergie Cinétique",
+                "theme_sous_theme": "Énergétique : Théorème de l'énergie cinétique",
                 "semestre": "S3"
               }
             ]
@@ -138,8 +127,8 @@
             "numero": "Q13",
             "mots_cles": [
               {
-                "theme": "Dynamique : PFD",
-                "semestre": "S3"
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
               }
             ]
           },
@@ -147,7 +136,7 @@
             "numero": "Q14",
             "mots_cles": [
               {
-                "theme": "Cinématique : Lois entrée-sortie",
+                "theme_sous_theme": "Cinématique : Fermeture géométrique",
                 "semestre": "S1"
               }
             ]
@@ -156,8 +145,8 @@
             "numero": "Q15",
             "mots_cles": [
               {
-                "theme": "Cinématique : Lois entrée-sortie",
-                "semestre": "S1"
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
               }
             ]
           },
@@ -165,7 +154,7 @@
             "numero": "Q16",
             "mots_cles": [
               {
-                "theme": "Asservissement : Schéma-blocs",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
@@ -174,7 +163,7 @@
             "numero": "Q17",
             "mots_cles": [
               {
-                "theme": "Asservissement : Schéma-blocs",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
@@ -183,7 +172,7 @@
             "numero": "Q18",
             "mots_cles": [
               {
-                "theme": "Asservissement : Précision",
+                "theme_sous_theme": "Asservissement : Précision",
                 "semestre": "S2"
               }
             ]
@@ -192,7 +181,7 @@
             "numero": "Q19",
             "mots_cles": [
               {
-                "theme": "Asservissement : Stabilité",
+                "theme_sous_theme": "Asservissement : Stabilité",
                 "semestre": "S2"
               }
             ]
@@ -201,8 +190,8 @@
             "numero": "Q20",
             "mots_cles": [
               {
-                "theme": "Asservissement : Correcteur Proportionnel et intégral",
-                "semestre": "S2"
+                "theme_sous_theme": "Correcteurs : Proportionnel-intégral",
+                "semestre": "S4"
               }
             ]
           },
@@ -210,7 +199,7 @@
             "numero": "Q21",
             "mots_cles": [
               {
-                "theme": "Asservissement : Correcteur Proportionnel et intégral",
+                "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
                 "semestre": "S2"
               }
             ]
@@ -219,8 +208,12 @@
             "numero": "Q22",
             "mots_cles": [
               {
-                "theme": "Asservissement : Stabilité",
+                "theme_sous_theme": "Asservissement : Stabilité",
                 "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Correcteurs : Proportionnel-intégral",
+                "semestre": "S4"
               }
             ]
           },
@@ -228,7 +221,7 @@
             "numero": "Q23",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : Temporel",
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
                 "semestre": "S2"
               }
             ]
@@ -237,8 +230,8 @@
             "numero": "Q24",
             "mots_cles": [
               {
-                "theme": "Asservissement : Précision",
-                "semestre": "S2"
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
               }
             ]
           },
@@ -246,7 +239,7 @@
             "numero": "Q25",
             "mots_cles": [
               {
-                "theme": "Asservissement : Fonction de transfert",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
@@ -255,7 +248,7 @@
             "numero": "Q26",
             "mots_cles": [
               {
-                "theme": "Énergétique : Puissance",
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
                 "semestre": "S3"
               }
             ]
@@ -264,7 +257,7 @@
             "numero": "Q27",
             "mots_cles": [
               {
-                "theme": "Énergétique : Puissance",
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
                 "semestre": "S3"
               }
             ]
@@ -273,27 +266,11 @@
             "numero": "Q28",
             "mots_cles": [
               {
-                "theme": "Énergétique : Puissance",
-                "semestre": "S3"
-              }
-            ]
-          },
-          {
-            "numero": "Q29",
-            "mots_cles": [
-              {
-                "theme": "Énergétique : Puissance",
-                "semestre": "S3"
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Modélisation des signaux",
-          "Asservissement",
-          "Dynamique",
-          "Énergétique",
-          "Cinématique"
         ]
       },
       {
@@ -303,8 +280,12 @@
             "numero": "Q30",
             "mots_cles": [
               {
-                "theme": "Énergétique : Rendement",
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
                 "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
+                "semestre": "S2"
               }
             ]
           },
@@ -312,8 +293,8 @@
             "numero": "Q31",
             "mots_cles": [
               {
-                "theme": "Ingénierie Système : Chaînes d'énergie",
-                "semestre": "S1"
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
+                "semestre": "S3"
               }
             ]
           },
@@ -321,8 +302,8 @@
             "numero": "Q32",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : Temporel",
-                "semestre": "S2"
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
+                "semestre": "S3"
               }
             ]
           },
@@ -330,7 +311,7 @@
             "numero": "Q33",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : Fréquentiel",
+                "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
                 "semestre": "S2"
               }
             ]
@@ -339,19 +320,31 @@
             "numero": "Q34",
             "mots_cles": [
               {
-                "theme": "Ingénierie Système : Cahier des charges",
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
                 "semestre": "S1"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Énergétique",
-          "Ingénierie Système",
-          "Modélisation des signaux"
         ]
       }
     ],
-    "ajouts": []
+    "ajouts": [
+      {
+        "theme_sous_theme": "Hydraulique : Circuits et composants",
+        "semestre": "S3"
+      },
+      {
+        "theme_sous_theme": "Ingénierie Système : Diagramme des cas d'utilisation",
+        "semestre": "S1"
+      },
+      {
+        "theme_sous_theme": "Ingénierie Système : Diagramme des exigences",
+        "semestre": "S1"
+      },
+      {
+        "theme_sous_theme": "Statique : Poussée d'Archimède",
+        "semestre": "S2"
+      }
+    ]
   }
 }

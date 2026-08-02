@@ -4,18 +4,22 @@
   "date": "2021",
   "file": "CCINP_TSI_2021.pdf",
   "status": 200,
-  "time_s": 736.63,
+  "time_s": 40.24,
   "data": {
     "parties": [
       {
-        "titre_partie": "Partie I - Vérification des performances de l'AGV",
+        "titre_partie": "Partie I - Vérification des performances de l’AGV",
         "questions": [
           {
             "numero": "Q1",
             "mots_cles": [
               {
-                "theme": "Dynamique : PFD",
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
                 "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
               }
             ]
           },
@@ -23,8 +27,16 @@
             "numero": "Q2",
             "mots_cles": [
               {
-                "theme": "Énergétique : Puissance",
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
                 "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
               }
             ]
           },
@@ -32,8 +44,12 @@
             "numero": "Q3",
             "mots_cles": [
               {
-                "theme": "Énergétique : Puissance",
-                "semestre": "S3"
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Ingénierie Système : Chaîne d'énergie",
+                "semestre": "S1"
               }
             ]
           },
@@ -41,7 +57,7 @@
             "numero": "Q4",
             "mots_cles": [
               {
-                "theme": "Dynamique : PFD",
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
                 "semestre": "S3"
               }
             ]
@@ -50,8 +66,12 @@
             "numero": "Q5",
             "mots_cles": [
               {
-                "theme": "Dynamique : PFD",
-                "semestre": "S3"
+                "theme_sous_theme": "Statique : Frottements",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
               }
             ]
           },
@@ -59,7 +79,7 @@
             "numero": "Q6",
             "mots_cles": [
               {
-                "theme": "Énergétique : Puissance",
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
                 "semestre": "S3"
               }
             ]
@@ -68,16 +88,11 @@
             "numero": "Q7",
             "mots_cles": [
               {
-                "theme": "Énergétique : Puissance",
-                "semestre": "S3"
-              }
-            ]
-          },
-          {
-            "numero": "Q8",
-            "mots_cles": [
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
+              },
               {
-                "theme": "Machines électriques : Synchrone",
+                "theme_sous_theme": "Machines électriques : Machine synchrone",
                 "semestre": "S4"
               }
             ]
@@ -86,8 +101,12 @@
             "numero": "Q9",
             "mots_cles": [
               {
-                "theme": "Électrotechnique : Onduleur",
-                "semestre": "S2"
+                "theme_sous_theme": "Machines électriques : Machine synchrone",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
               }
             ]
           },
@@ -95,7 +114,11 @@
             "numero": "Q10",
             "mots_cles": [
               {
-                "theme": "Machines électriques : Synchrone",
+                "theme_sous_theme": "Machines électriques : Machine synchrone",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Correcteurs : Proportionnel",
                 "semestre": "S4"
               }
             ]
@@ -104,8 +127,12 @@
             "numero": "Q11",
             "mots_cles": [
               {
-                "theme": "Machines électriques : Synchrone",
+                "theme_sous_theme": "Machines électriques : Machine synchrone",
                 "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Circuits alternatifs : Puissances active et réactive",
+                "semestre": "S3"
               }
             ]
           },
@@ -113,8 +140,12 @@
             "numero": "Q12",
             "mots_cles": [
               {
-                "theme": "Machines électriques : Synchrone",
+                "theme_sous_theme": "Machines électriques : Machine synchrone",
                 "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Circuits alternatifs : Puissances active et réactive",
+                "semestre": "S3"
               }
             ]
           },
@@ -122,7 +153,7 @@
             "numero": "Q13",
             "mots_cles": [
               {
-                "theme": "Machines électriques : Synchrone",
+                "theme_sous_theme": "Machines électriques : Machine synchrone",
                 "semestre": "S4"
               }
             ]
@@ -131,8 +162,12 @@
             "numero": "Q14",
             "mots_cles": [
               {
-                "theme": "Machines électriques : Synchrone",
+                "theme_sous_theme": "Machines électriques : Machine synchrone",
                 "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Circuits alternatifs : Puissances active et réactive",
+                "semestre": "S3"
               }
             ]
           },
@@ -140,7 +175,11 @@
             "numero": "Q15",
             "mots_cles": [
               {
-                "theme": "Électrotechnique : Onduleur",
+                "theme_sous_theme": "Machines électriques : Machine synchrone",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Électrotechnique : Convertisseurs statiques",
                 "semestre": "S2"
               }
             ]
@@ -149,7 +188,7 @@
             "numero": "Q16",
             "mots_cles": [
               {
-                "theme": "Électrotechnique : Onduleur",
+                "theme_sous_theme": "Électrotechnique : Convertisseurs statiques",
                 "semestre": "S2"
               }
             ]
@@ -158,7 +197,7 @@
             "numero": "Q17",
             "mots_cles": [
               {
-                "theme": "Électrotechnique : Onduleur",
+                "theme_sous_theme": "Électrotechnique : Convertisseurs statiques",
                 "semestre": "S2"
               }
             ]
@@ -167,8 +206,8 @@
             "numero": "Q18",
             "mots_cles": [
               {
-                "theme": "Machines électriques : Synchrone",
-                "semestre": "S4"
+                "theme_sous_theme": "Électrotechnique : Convertisseurs statiques",
+                "semestre": "S2"
               }
             ]
           },
@@ -176,8 +215,12 @@
             "numero": "Q19",
             "mots_cles": [
               {
-                "theme": "Électrotechnique : Onduleur",
+                "theme_sous_theme": "Électrotechnique : Convertisseurs statiques",
                 "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
               }
             ]
           },
@@ -185,17 +228,15 @@
             "numero": "Q20",
             "mots_cles": [
               {
-                "theme": "Électrotechnique : Onduleur",
-                "semestre": "S2"
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Dynamique",
-          "Énergétique",
-          "Machines électriques",
-          "Électrotechnique"
         ]
       },
       {
@@ -205,8 +246,12 @@
             "numero": "Q21",
             "mots_cles": [
               {
-                "theme": "Cinématique : Torseurs cinématiques",
-                "semestre": "S1"
+                "theme_sous_theme": "Statique : Hyperstatisme",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Statique : Liaisons équivalentes",
+                "semestre": "S2"
               }
             ]
           },
@@ -214,7 +259,15 @@
             "numero": "Q22",
             "mots_cles": [
               {
-                "theme": "Cinématique : Lois entrée-sortie",
+                "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Transmissions mécaniques : Engrenages",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
               }
             ]
@@ -223,8 +276,8 @@
             "numero": "Q23",
             "mots_cles": [
               {
-                "theme": "Dynamique : PFD",
-                "semestre": "S3"
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
+                "semestre": "S2"
               }
             ]
           },
@@ -232,8 +285,12 @@
             "numero": "Q24",
             "mots_cles": [
               {
-                "theme": "Dynamique : PFD",
-                "semestre": "S3"
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Transmissions mécaniques : Engrenages",
+                "semestre": "S1"
               }
             ]
           },
@@ -241,7 +298,11 @@
             "numero": "Q25",
             "mots_cles": [
               {
-                "theme": "Résistance des matériaux : Torseur de cohésion",
+                "theme_sous_theme": "Résistance des matériaux : Torseur de cohésion",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
                 "semestre": "S3"
               }
             ]
@@ -250,8 +311,16 @@
             "numero": "Q26",
             "mots_cles": [
               {
-                "theme": "Résistance des matériaux : Contraintes",
+                "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
                 "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Matériaux : Propriétés physiques et mécaniques",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+                "semestre": "S4"
               }
             ]
           },
@@ -259,7 +328,11 @@
             "numero": "Q27",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Paliers lisses",
+                "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
                 "semestre": "S4"
               }
             ]
@@ -268,7 +341,7 @@
             "numero": "Q28",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Paliers lisses",
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
                 "semestre": "S4"
               }
             ]
@@ -277,17 +350,15 @@
             "numero": "Q29",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Paliers lisses",
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
                 "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Cinématique",
-          "Dynamique",
-          "Résistance des matériaux",
-          "Dimensionnement"
         ]
       },
       {
@@ -297,8 +368,8 @@
             "numero": "Q30",
             "mots_cles": [
               {
-                "theme": "Asservissement : Schéma-blocs",
-                "semestre": "S2"
+                "theme_sous_theme": "Machines électriques : Machine synchrone",
+                "semestre": "S4"
               }
             ]
           },
@@ -306,7 +377,11 @@
             "numero": "Q31",
             "mots_cles": [
               {
-                "theme": "Asservissement : Schéma-blocs",
+                "theme_sous_theme": "Machines électriques : Commande scalaire",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
@@ -315,7 +390,7 @@
             "numero": "Q32",
             "mots_cles": [
               {
-                "theme": "Asservissement : Schéma-blocs",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
@@ -324,8 +399,20 @@
             "numero": "Q33",
             "mots_cles": [
               {
-                "theme": "Asservissement : Schéma-blocs",
+                "theme_sous_theme": "Asservissement : Stabilité",
                 "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Correcteurs : Proportionnel-intégral",
+                "semestre": "S4"
               }
             ]
           },
@@ -333,7 +420,19 @@
             "numero": "Q34",
             "mots_cles": [
               {
-                "theme": "Asservissement : Stabilité",
+                "theme_sous_theme": "Asservissement : Rapidité",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Précision",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Stabilité",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
                 "semestre": "S2"
               }
             ]
@@ -342,8 +441,8 @@
             "numero": "Q35",
             "mots_cles": [
               {
-                "theme": "Traitement de l'information : Échantillonnage",
-                "semestre": "S2"
+                "theme_sous_theme": "Dimensionnement : Capteurs",
+                "semestre": "S4"
               }
             ]
           },
@@ -351,8 +450,8 @@
             "numero": "Q36",
             "mots_cles": [
               {
-                "theme": "Traitement de l'information : Échantillonnage",
-                "semestre": "S2"
+                "theme_sous_theme": "Dimensionnement : Capteurs",
+                "semestre": "S4"
               }
             ]
           },
@@ -360,7 +459,11 @@
             "numero": "Q37",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : Bode",
+                "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
                 "semestre": "S2"
               }
             ]
@@ -369,7 +472,7 @@
             "numero": "Q38",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : Temporel",
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
                 "semestre": "S2"
               }
             ]
@@ -378,7 +481,15 @@
             "numero": "Q39",
             "mots_cles": [
               {
-                "theme": "Asservissement : Précision",
+                "theme_sous_theme": "Asservissement : Précision",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Correcteurs : Proportionnel-intégral",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
@@ -387,17 +498,11 @@
             "numero": "Q40",
             "mots_cles": [
               {
-                "theme": "Métrologie : Contrôle 3D",
-                "semestre": "S3"
+                "theme_sous_theme": "Dimensionnement : Capteurs",
+                "semestre": "S4"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Asservissement",
-          "Traitement de l'information",
-          "Modélisation des signaux",
-          "Métrologie"
         ]
       }
     ],

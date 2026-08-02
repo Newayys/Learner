@@ -4,17 +4,21 @@
   "date": "2017",
   "file": "CCINP_MP_2017.pdf",
   "status": 200,
-  "time_s": 287.57,
+  "time_s": 31.63,
   "data": {
     "parties": [
       {
-        "titre_partie": "1 Présentation du système",
+        "titre_partie": "2.1 Modélisation géométrique et cinématique de l'AGV",
         "questions": [
           {
             "numero": "Q1",
             "mots_cles": [
               {
-                "theme": "Cinématique : Fermeture géométrique",
+                "theme_sous_theme": "Cinématique : Vitesses",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Cinématique : Torseur cinématique",
                 "semestre": "S1"
               }
             ]
@@ -23,8 +27,12 @@
             "numero": "Q2",
             "mots_cles": [
               {
-                "theme": "Cinématique : Fermeture géométrique",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Statique : Liaisons équivalentes",
+                "semestre": "S2"
               }
             ]
           },
@@ -32,25 +40,30 @@
             "numero": "Q3",
             "mots_cles": [
               {
-                "theme": "Cinématique : Fermeture géométrique",
+                "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
                 "semestre": "S1"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Cinématique"
         ]
       },
       {
-        "titre_partie": "2 Validation des exigences relatives au positionnement du sous-système d'imagerie",
+        "titre_partie": "2.2 Prévision des performances « l'asservissement en vitesse du mouvement de translation de l'AGV »",
         "questions": [
           {
             "numero": "Q4",
             "mots_cles": [
               {
-                "theme": "Asservissement : Schéma-blocs, Laplace, Fonction de transfert",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Machines électriques : Machine à courant continu",
+                "semestre": "S4"
               }
             ]
           },
@@ -58,7 +71,11 @@
             "numero": "Q5",
             "mots_cles": [
               {
-                "theme": "Asservissement : Schéma-blocs, Laplace, Fonction de transfert",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
                 "semestre": "S2"
               }
             ]
@@ -67,7 +84,11 @@
             "numero": "Q6",
             "mots_cles": [
               {
-                "theme": "Asservissement : Schéma-blocs, Laplace, Fonction de transfert",
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
@@ -76,8 +97,12 @@
             "numero": "Q7",
             "mots_cles": [
               {
-                "theme": "Asservissement : Stabilité, Précision, Rapidité",
-                "semestre": "S2"
+                "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
               }
             ]
           },
@@ -85,7 +110,7 @@
             "numero": "Q8",
             "mots_cles": [
               {
-                "theme": "Asservissement : Stabilité, Précision, Rapidité",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
@@ -94,7 +119,11 @@
             "numero": "Q9",
             "mots_cles": [
               {
-                "theme": "Asservissement : Stabilité, Précision, Rapidité",
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Rapidité",
                 "semestre": "S2"
               }
             ]
@@ -103,7 +132,7 @@
             "numero": "Q10",
             "mots_cles": [
               {
-                "theme": "Asservissement : Stabilité, Précision, Rapidité",
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
                 "semestre": "S2"
               }
             ]
@@ -112,8 +141,12 @@
             "numero": "Q11",
             "mots_cles": [
               {
-                "theme": "Asservissement : Stabilité, Précision, Rapidité",
+                "theme_sous_theme": "Asservissement : Rapidité",
                 "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
               }
             ]
           },
@@ -121,8 +154,12 @@
             "numero": "Q12",
             "mots_cles": [
               {
-                "theme": "Asservissement : Stabilité, Précision, Rapidité",
+                "theme_sous_theme": "Asservissement : Précision",
                 "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
               }
             ]
           },
@@ -130,7 +167,11 @@
             "numero": "Q13",
             "mots_cles": [
               {
-                "theme": "Asservissement : Correcteur Proportionnel et intégral",
+                "theme_sous_theme": "Correcteurs : Proportionnel-intégral",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
@@ -139,7 +180,11 @@
             "numero": "Q14",
             "mots_cles": [
               {
-                "theme": "Asservissement : Correcteur Proportionnel et intégral",
+                "theme_sous_theme": "Correcteurs : Proportionnel-intégral",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
                 "semestre": "S2"
               }
             ]
@@ -148,8 +193,20 @@
             "numero": "Q15",
             "mots_cles": [
               {
-                "theme": "Asservissement : Correcteur Proportionnel et intégral",
+                "theme_sous_theme": "Asservissement : Stabilité",
                 "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Précision",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Correcteurs : Proportionnel-intégral",
+                "semestre": "S4"
               }
             ]
           },
@@ -157,8 +214,16 @@
             "numero": "Q16",
             "mots_cles": [
               {
-                "theme": "Asservissement : Correcteur Proportionnel et intégral",
+                "theme_sous_theme": "Asservissement : Stabilité",
                 "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Rapidité",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Correcteurs : Proportionnel-intégral",
+                "semestre": "S4"
               }
             ]
           },
@@ -166,16 +231,29 @@
             "numero": "Q17",
             "mots_cles": [
               {
-                "theme": "Asservissement : Correcteur Proportionnel et intégral",
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
                 "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
               }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "titre_partie": "2.3 Localisation de l'AGV : estimation de la position",
+        "questions": [
           {
             "numero": "Q18",
             "mots_cles": [
               {
-                "theme": "Informatique et Algorithmique : Fonctions, Python",
+                "theme_sous_theme": "Informatique : Algorithmique",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
               }
             ]
@@ -184,7 +262,7 @@
             "numero": "Q19",
             "mots_cles": [
               {
-                "theme": "Informatique et Algorithmique : Fonctions, Python",
+                "theme_sous_theme": "Informatique : Algorithmique",
                 "semestre": "S1"
               }
             ]
@@ -193,7 +271,11 @@
             "numero": "Q20",
             "mots_cles": [
               {
-                "theme": "Informatique et Algorithmique : Fonctions, Python",
+                "theme_sous_theme": "Informatique : Algorithmique",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
               }
             ]
@@ -202,7 +284,7 @@
             "numero": "Q21",
             "mots_cles": [
               {
-                "theme": "Informatique et Algorithmique : Fonctions, Python",
+                "theme_sous_theme": "Informatique : Algorithmique",
                 "semestre": "S1"
               }
             ]
@@ -211,8 +293,12 @@
             "numero": "Q22",
             "mots_cles": [
               {
-                "theme": "Informatique et Algorithmique : Fonctions, Python",
+                "theme_sous_theme": "Informatique : Algorithmique",
                 "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Métrologie : Contrôle tridimensionnel",
+                "semestre": "S3"
               }
             ]
           },
@@ -220,7 +306,7 @@
             "numero": "Q23",
             "mots_cles": [
               {
-                "theme": "Informatique et Algorithmique : Fonctions, Python",
+                "theme_sous_theme": "Informatique : Algorithmique",
                 "semestre": "S1"
               }
             ]
@@ -229,15 +315,15 @@
             "numero": "Q24",
             "mots_cles": [
               {
-                "theme": "Informatique et Algorithmique : Fonctions, Python",
+                "theme_sous_theme": "Informatique : Algorithmique",
                 "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Capteurs",
+                "semestre": "S4"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Asservissement",
-          "Informatique et Algorithmique"
         ]
       },
       {
@@ -247,7 +333,7 @@
             "numero": "Q25",
             "mots_cles": [
               {
-                "theme": "Dynamique : Torseur dynamique, PFD",
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
                 "semestre": "S3"
               }
             ]
@@ -256,8 +342,12 @@
             "numero": "Q26",
             "mots_cles": [
               {
-                "theme": "Dynamique : Torseur dynamique, PFD",
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
                 "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
               }
             ]
           },
@@ -265,7 +355,11 @@
             "numero": "Q27",
             "mots_cles": [
               {
-                "theme": "Dynamique : Torseur dynamique, PFD",
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Énergétique : Inertie équivalente",
                 "semestre": "S3"
               }
             ]
@@ -274,7 +368,11 @@
             "numero": "Q28",
             "mots_cles": [
               {
-                "theme": "Dynamique : Torseur dynamique, PFD",
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Dynamique : Géométrie des masses",
                 "semestre": "S3"
               }
             ]
@@ -283,8 +381,12 @@
             "numero": "Q29",
             "mots_cles": [
               {
-                "theme": "Dynamique : Torseur dynamique, PFD",
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
                 "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Statique : Isostatisme",
+                "semestre": "S2"
               }
             ]
           },
@@ -292,7 +394,11 @@
             "numero": "Q30",
             "mots_cles": [
               {
-                "theme": "Dynamique : Torseur dynamique, PFD",
+                "theme_sous_theme": "Statique : Frottements",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
                 "semestre": "S3"
               }
             ]
@@ -301,17 +407,23 @@
             "numero": "Q31",
             "mots_cles": [
               {
-                "theme": "Dynamique : Torseur dynamique, PFD",
-                "semestre": "S3"
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Dynamique"
         ]
       }
     ],
-    "ajouts": []
+    "ajouts": [
+      {
+        "theme_sous_theme": "Localisation : Odométrie",
+        "semestre": "S4"
+      },
+      {
+        "theme_sous_theme": "Localisation : Fusion de données",
+        "semestre": "S4"
+      }
+    ]
   }
 }

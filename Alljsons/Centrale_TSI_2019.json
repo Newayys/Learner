@@ -4,309 +4,303 @@
   "date": "2019",
   "file": "Centrale_TSI_2019.pdf",
   "status": 200,
-  "time_s": 417.65,
+  "time_s": 29.59,
   "data": {
     "parties": [
       {
-        "titre_partie": "Communication entre le boîtier et l'objectif photographique",
+        "titre_partie": "I Communication entre le boitier et l'objectif photographique",
         "questions": [
           {
-            "numero": "Q 1",
+            "numero": "Q 1.",
             "mots_cles": [
               {
-                "theme": "Cinématique : Rapport de réduction",
+                "theme_sous_theme": "Traitement de l'information : Échantillonnage et quantification",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Capteurs",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q 2.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
-              }
-            ]
-          },
-          {
-            "numero": "Q 2",
-            "mots_cles": [
+              },
               {
-                "theme": "Cinématique : Rapport de réduction",
-                "semestre": "S1"
-              }
-            ]
-          },
-          {
-            "numero": "Q 3",
-            "mots_cles": [
+                "theme_sous_theme": "Dimensionnement : Capteurs",
+                "semestre": "S4"
+              },
               {
-                "theme": "Traitement de l'information : Échantillonnage",
+                "theme_sous_theme": "Traitement de l'information : Échantillonnage et quantification",
                 "semestre": "S2"
               }
             ]
           },
           {
-            "numero": "Q 4",
+            "numero": "Q 3.",
             "mots_cles": [
               {
-                "theme": "Traitement de l'information : Échantillonnage",
+                "theme_sous_theme": "Traitement de l'information : Échantillonnage et quantification",
                 "semestre": "S2"
               }
             ]
           },
           {
-            "numero": "Q 5",
+            "numero": "Q 4.",
             "mots_cles": [
               {
-                "theme": "Traitement de l'information : Échantillonnage",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Q 6",
-            "mots_cles": [
-              {
-                "theme": "Traitement de l'information : Échantillonnage",
-                "semestre": "S2"
-              }
-            ]
-          }
-        ],
-        "themes_partie": [
-          "Cinématique",
-          "Traitement de l'information"
-        ]
-      },
-      {
-        "titre_partie": "Validation de la structure permettant d'assurer le mouvement de l'optique",
-        "questions": [
-          {
-            "numero": "Q 7",
-            "mots_cles": [
-              {
-                "theme": "Cinématique : Rapport de réduction",
-                "semestre": "S1"
-              }
-            ]
-          },
-          {
-            "numero": "Q 8",
-            "mots_cles": [
-              {
-                "theme": "Dynamique : Inertie équivalente",
+                "theme_sous_theme": "Réseaux : Trames et protocoles",
                 "semestre": "S3"
               }
             ]
           },
           {
-            "numero": "Q 9",
+            "numero": "Q 5.",
             "mots_cles": [
               {
-                "theme": "Dynamique : PFD",
+                "theme_sous_theme": "Réseaux : Trames et protocoles",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Traitement de l'information : Échantillonnage et quantification",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 6.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Réseaux : Trames et protocoles",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titre_partie": "II Validation de la structure permettant d'assurer le mouvement de l'optique",
+        "questions": [
+          {
+            "numero": "Q 7.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q 8.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Énergétique : Inertie équivalente",
                 "semestre": "S3"
               }
             ]
           },
           {
-            "numero": "Q 10",
+            "numero": "Q 9.",
             "mots_cles": [
               {
-                "theme": "Cinématique : Fermeture géométrique",
-                "semestre": "S1"
+                "theme_sous_theme": "Énergétique : Théorème de l'énergie cinétique",
+                "semestre": "S3"
               }
             ]
           },
           {
-            "numero": "Q 11",
+            "numero": "Q 15.",
             "mots_cles": [
               {
-                "theme": "Cinématique : Fermeture géométrique",
-                "semestre": "S1"
-              }
-            ]
-          },
-          {
-            "numero": "Q 12",
-            "mots_cles": [
-              {
-                "theme": "Statique : Hyperstatisme",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Q 13",
-            "mots_cles": [
-              {
-                "theme": "Statique : Hyperstatisme",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Q 14",
-            "mots_cles": [
-              {
-                "theme": "Statique : Hyperstatisme",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Q 15",
-            "mots_cles": [
-              {
-                "theme": "Machines électriques : MCC",
+                "theme_sous_theme": "Machines électriques : Machine à courant continu",
                 "semestre": "S4"
               }
             ]
           },
           {
-            "numero": "Q 16",
+            "numero": "Q 16.",
             "mots_cles": [
               {
-                "theme": "Machines électriques : MCC",
+                "theme_sous_theme": "Machines électriques : Machine à courant continu",
                 "semestre": "S4"
               }
             ]
           },
           {
-            "numero": "Q 17",
+            "numero": "Q 17.",
             "mots_cles": [
               {
-                "theme": "Cinématique : Lois entrée-sortie",
-                "semestre": "S1"
+                "theme_sous_theme": "Dimensionnement : Capteurs",
+                "semestre": "S4"
               }
             ]
           },
           {
-            "numero": "Q 18",
+            "numero": "Q 18.",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : Fréquentiel",
+                "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
                 "semestre": "S2"
               }
             ]
           },
           {
-            "numero": "Q 19",
+            "numero": "Q 19.",
             "mots_cles": [
               {
-                "theme": "Informatique et Algorithmique : Python",
+                "theme_sous_theme": "Correcteurs : Correcteur numérique",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Informatique : Algorithmique",
                 "semestre": "S1"
               }
             ]
           },
           {
-            "numero": "Q 20",
+            "numero": "Q 20.",
             "mots_cles": [
               {
-                "theme": "Machines électriques : MCC",
+                "theme_sous_theme": "Machines électriques : Machine à courant continu",
                 "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q 21.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Machines électriques : Machine à courant continu",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Statique : Frottements",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 22.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Machines électriques : Machine à courant continu",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q 23.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Statique : Frottements",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 24.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Métrologie : Contrôle tridimensionnel",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q 25.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Métrologie : Contrôle tridimensionnel",
+                "semestre": "S3"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Cinématique",
-          "Dynamique",
-          "Statique",
-          "Machines électriques",
-          "Modélisation des signaux",
-          "Informatique et Algorithmique"
         ]
       },
       {
-        "titre_partie": "Choix et réglage du correcteur permettant de « gérer le mouvement de l'optique »",
+        "titre_partie": "III Choix et réglage du correcteur permettant de « gérer le mouvement de l'optique »",
         "questions": [
           {
-            "numero": "Q 21",
+            "numero": "Q 26.",
             "mots_cles": [
               {
-                "theme": "Machines électriques : MCC",
-                "semestre": "S4"
-              }
-            ]
-          },
-          {
-            "numero": "Q 22",
-            "mots_cles": [
-              {
-                "theme": "Machines électriques : MCC",
-                "semestre": "S4"
-              }
-            ]
-          },
-          {
-            "numero": "Q 23",
-            "mots_cles": [
-              {
-                "theme": "Machines électriques : MCC",
-                "semestre": "S4"
-              }
-            ]
-          },
-          {
-            "numero": "Q 24",
-            "mots_cles": [
-              {
-                "theme": "Machines électriques : MCC",
-                "semestre": "S4"
-              }
-            ]
-          },
-          {
-            "numero": "Q 25",
-            "mots_cles": [
-              {
-                "theme": "Machines électriques : MCC",
-                "semestre": "S4"
-              }
-            ]
-          },
-          {
-            "numero": "Q 26",
-            "mots_cles": [
-              {
-                "theme": "Informatique et Algorithmique : Python",
+                "theme_sous_theme": "Informatique : Algorithmique",
                 "semestre": "S1"
               }
             ]
           },
           {
-            "numero": "Q 27",
+            "numero": "Q 27.",
             "mots_cles": [
               {
-                "theme": "Asservissement : Schéma-blocs",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
           },
           {
-            "numero": "Q 28",
+            "numero": "Q 28.",
             "mots_cles": [
               {
-                "theme": "Asservissement : Stabilité",
+                "theme_sous_theme": "Asservissement : Stabilité",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Correcteurs : Proportionnel-intégral",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
                 "semestre": "S2"
               }
             ]
           },
           {
-            "numero": "Q 29",
+            "numero": "Q 29.",
             "mots_cles": [
               {
-                "theme": "Asservissement : Stabilité",
+                "theme_sous_theme": "Correcteurs : Proportionnel-intégral",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Rapidité",
                 "semestre": "S2"
               }
             ]
           },
           {
-            "numero": "Q 30",
+            "numero": "Q 30.",
             "mots_cles": [
               {
-                "theme": "Asservissement : Stabilité",
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Précision",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Rapidité",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Stabilité",
                 "semestre": "S2"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Machines électriques",
-          "Informatique et Algorithmique",
-          "Asservissement"
         ]
       }
     ],

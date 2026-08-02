@@ -4,17 +4,17 @@
   "date": "2023",
   "file": "BPT_SIC_2023.pdf",
   "status": 200,
-  "time_s": 234.43,
+  "time_s": 37.76,
   "data": {
     "parties": [
       {
-        "titre_partie": "I. Partie 1 : Vérification des performances du robot",
+        "titre_partie": "Partie 1 : Vérification des performances du robot",
         "questions": [
           {
             "numero": "I.1",
             "mots_cles": [
               {
-                "theme": "Machines électriques : MCC",
+                "theme_sous_theme": "Machines électriques : Machine synchrone",
                 "semestre": "S4"
               }
             ]
@@ -23,7 +23,7 @@
             "numero": "I.2",
             "mots_cles": [
               {
-                "theme": "Machines électriques : MCC",
+                "theme_sous_theme": "Machines électriques : Machine synchrone",
                 "semestre": "S4"
               }
             ]
@@ -32,7 +32,7 @@
             "numero": "I.3",
             "mots_cles": [
               {
-                "theme": "Machines électriques : Commande U/f",
+                "theme_sous_theme": "Dimensionnement : Capteurs",
                 "semestre": "S4"
               }
             ]
@@ -41,8 +41,8 @@
             "numero": "I.4",
             "mots_cles": [
               {
-                "theme": "Traitement de l'information : Échantillonnage",
-                "semestre": "S2"
+                "theme_sous_theme": "Dimensionnement : Capteurs",
+                "semestre": "S4"
               }
             ]
           },
@@ -50,8 +50,12 @@
             "numero": "I.5",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Actionneurs",
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
                 "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
+                "semestre": "S3"
               }
             ]
           },
@@ -59,8 +63,8 @@
             "numero": "I.6",
             "mots_cles": [
               {
-                "theme": "Énergétique : Puissance",
-                "semestre": "S3"
+                "theme_sous_theme": "Ingénierie Système : Chaîne d'énergie",
+                "semestre": "S1"
               }
             ]
           },
@@ -68,7 +72,11 @@
             "numero": "I.7",
             "mots_cles": [
               {
-                "theme": "Énergétique : Puissance",
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
                 "semestre": "S3"
               }
             ]
@@ -77,27 +85,21 @@
             "numero": "I.8",
             "mots_cles": [
               {
-                "theme": "Énergétique : Rendement",
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
                 "semestre": "S3"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Machines électriques",
-          "Traitement de l'information",
-          "Dimensionnement",
-          "Énergétique"
         ]
       },
       {
-        "titre_partie": "II. Partie 2 Transmission de puissance",
+        "titre_partie": "Partie 2 : Dimensionnement d'une boîte de transmission",
         "questions": [
           {
             "numero": "II.1",
             "mots_cles": [
               {
-                "theme": "Transmissions mécaniques : Engrenages",
+                "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
                 "semestre": "S1"
               }
             ]
@@ -106,7 +108,7 @@
             "numero": "II.2",
             "mots_cles": [
               {
-                "theme": "Transmissions mécaniques : Engrenages",
+                "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
                 "semestre": "S1"
               }
             ]
@@ -115,7 +117,7 @@
             "numero": "II.3",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Liaisons",
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
                 "semestre": "S4"
               }
             ]
@@ -124,8 +126,12 @@
             "numero": "II.4",
             "mots_cles": [
               {
-                "theme": "Transmissions mécaniques : Engrenages",
+                "theme_sous_theme": "Transmissions mécaniques : Engrenages",
                 "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
+                "semestre": "S2"
               }
             ]
           },
@@ -133,7 +139,7 @@
             "numero": "II.5",
             "mots_cles": [
               {
-                "theme": "Résistance des matériaux : Contraintes",
+                "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
                 "semestre": "S3"
               }
             ]
@@ -142,7 +148,7 @@
             "numero": "II.6",
             "mots_cles": [
               {
-                "theme": "Résistance des matériaux : Contraintes",
+                "theme_sous_theme": "Matériaux : Propriétés physiques et mécaniques",
                 "semestre": "S3"
               }
             ]
@@ -151,7 +157,7 @@
             "numero": "II.7",
             "mots_cles": [
               {
-                "theme": "Résistance des matériaux : Contraintes",
+                "theme_sous_theme": "Matériaux : Propriétés physiques et mécaniques",
                 "semestre": "S3"
               }
             ]
@@ -160,7 +166,11 @@
             "numero": "II.8",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Liaisons",
+                "theme_sous_theme": "Statique : Frottements",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
                 "semestre": "S4"
               }
             ]
@@ -169,7 +179,7 @@
             "numero": "II.9",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Liaisons",
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
                 "semestre": "S4"
               }
             ]
@@ -178,16 +188,11 @@
             "numero": "II.10",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Liaisons",
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
                 "semestre": "S4"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Transmissions mécaniques",
-          "Dimensionnement",
-          "Résistance des matériaux"
         ]
       },
       {
@@ -197,7 +202,7 @@
             "numero": "III.1",
             "mots_cles": [
               {
-                "theme": "Spécifications géométriques : Tolérancement",
+                "theme_sous_theme": "Spécifications géométriques : Tolérancement",
                 "semestre": "S2"
               }
             ]
@@ -206,7 +211,7 @@
             "numero": "III.2",
             "mots_cles": [
               {
-                "theme": "Spécifications géométriques : Tolérancement",
+                "theme_sous_theme": "Spécifications géométriques : Tolérancement",
                 "semestre": "S2"
               }
             ]
@@ -215,7 +220,7 @@
             "numero": "III.3",
             "mots_cles": [
               {
-                "theme": "Spécifications géométriques : Tolérancement",
+                "theme_sous_theme": "Spécifications géométriques : Tolérancement",
                 "semestre": "S2"
               }
             ]
@@ -224,7 +229,7 @@
             "numero": "III.4",
             "mots_cles": [
               {
-                "theme": "Spécifications géométriques : Tolérancement",
+                "theme_sous_theme": "Spécifications géométriques : Tolérancement",
                 "semestre": "S2"
               }
             ]
@@ -233,7 +238,11 @@
             "numero": "III.5",
             "mots_cles": [
               {
-                "theme": "Matériaux : Choix",
+                "theme_sous_theme": "Matériaux : Propriétés physiques et mécaniques",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Matériaux : Choix",
                 "semestre": "S3"
               }
             ]
@@ -242,8 +251,16 @@
             "numero": "III.6",
             "mots_cles": [
               {
-                "theme": "Procédés de fabrication : Plastique",
-                "semestre": "S2"
+                "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Procédés : Usinage",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Écoconception : Analyse de cycle de vie",
+                "semestre": "S4"
               }
             ]
           },
@@ -251,8 +268,8 @@
             "numero": "III.7",
             "mots_cles": [
               {
-                "theme": "Procédés de fabrication : Plastique",
-                "semestre": "S2"
+                "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
+                "semestre": "S3"
               }
             ]
           },
@@ -260,8 +277,8 @@
             "numero": "III.8",
             "mots_cles": [
               {
-                "theme": "Procédés de fabrication : Plastique",
-                "semestre": "S2"
+                "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
+                "semestre": "S3"
               }
             ]
           },
@@ -269,8 +286,8 @@
             "numero": "III.9",
             "mots_cles": [
               {
-                "theme": "Procédés de fabrication : Plastique",
-                "semestre": "S2"
+                "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
+                "semestre": "S3"
               }
             ]
           },
@@ -278,8 +295,8 @@
             "numero": "III.10",
             "mots_cles": [
               {
-                "theme": "Procédés de fabrication : Plastique",
-                "semestre": "S2"
+                "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
+                "semestre": "S3"
               }
             ]
           },
@@ -287,7 +304,7 @@
             "numero": "III.11",
             "mots_cles": [
               {
-                "theme": "Procédés de fabrication : Usinage",
+                "theme_sous_theme": "Procédés : Usinage",
                 "semestre": "S3"
               }
             ]
@@ -296,8 +313,12 @@
             "numero": "III.12",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Liaisons",
-                "semestre": "S4"
+                "theme_sous_theme": "Procédés : Usinage",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Statique : Isostatisme",
+                "semestre": "S2"
               }
             ]
           },
@@ -305,7 +326,7 @@
             "numero": "III.13",
             "mots_cles": [
               {
-                "theme": "Procédés de fabrication : Usinage",
+                "theme_sous_theme": "Procédés : Usinage",
                 "semestre": "S3"
               }
             ]
@@ -314,7 +335,7 @@
             "numero": "III.14",
             "mots_cles": [
               {
-                "theme": "Métrologie : Contrôle 3D",
+                "theme_sous_theme": "Métrologie : Contrôle tridimensionnel",
                 "semestre": "S3"
               }
             ]
@@ -323,7 +344,7 @@
             "numero": "III.15",
             "mots_cles": [
               {
-                "theme": "Métrologie : Contrôle 3D",
+                "theme_sous_theme": "Métrologie : Contrôle tridimensionnel",
                 "semestre": "S3"
               }
             ]
@@ -332,7 +353,7 @@
             "numero": "III.16",
             "mots_cles": [
               {
-                "theme": "Métrologie : Contrôle 3D",
+                "theme_sous_theme": "Métrologie : Contrôle tridimensionnel",
                 "semestre": "S3"
               }
             ]
@@ -341,18 +362,15 @@
             "numero": "III.17",
             "mots_cles": [
               {
-                "theme": "Métrologie : Contrôle 3D",
+                "theme_sous_theme": "Métrologie : Contrôle tridimensionnel",
                 "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+                "semestre": "S2"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Spécifications géométriques",
-          "Matériaux",
-          "Procédés de fabrication",
-          "Dimensionnement",
-          "Métrologie"
         ]
       },
       {
@@ -362,14 +380,23 @@
             "numero": "IV.1",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Liaisons",
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
                 "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Procédés : Usinage",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
+                "semestre": "S3"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Dimensionnement"
         ]
       }
     ],

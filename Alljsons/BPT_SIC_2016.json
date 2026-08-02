@@ -4,7 +4,7 @@
   "date": "2016",
   "file": "BPT_SIC_2016.pdf",
   "status": 200,
-  "time_s": 384.26,
+  "time_s": 36.94,
   "data": {
     "parties": [
       {
@@ -14,7 +14,7 @@
             "numero": "Q1",
             "mots_cles": [
               {
-                "theme": "Transmissions mécaniques : Rapport de réduction",
+                "theme_sous_theme": "Ingénierie Système : Chaîne d'énergie",
                 "semestre": "S1"
               }
             ]
@@ -23,7 +23,7 @@
             "numero": "Q2",
             "mots_cles": [
               {
-                "theme": "Transmissions mécaniques : Rapport de réduction",
+                "theme_sous_theme": "Ingénierie Système : Chaîne d'énergie",
                 "semestre": "S1"
               }
             ]
@@ -32,7 +32,7 @@
             "numero": "Q3",
             "mots_cles": [
               {
-                "theme": "Ingénierie Système : Cahier des charges",
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
                 "semestre": "S1"
               }
             ]
@@ -41,8 +41,12 @@
             "numero": "Q4",
             "mots_cles": [
               {
-                "theme": "Énergétique : Théorème de l'Énergie Cinétique",
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
                 "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+                "semestre": "S1"
               }
             ]
           },
@@ -50,7 +54,7 @@
             "numero": "Q5",
             "mots_cles": [
               {
-                "theme": "Énergétique : Puissance",
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
                 "semestre": "S3"
               }
             ]
@@ -59,7 +63,7 @@
             "numero": "Q6",
             "mots_cles": [
               {
-                "theme": "Énergétique : Rendement",
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
                 "semestre": "S3"
               }
             ]
@@ -68,8 +72,12 @@
             "numero": "Q7",
             "mots_cles": [
               {
-                "theme": "Ingénierie Système : Cahier des charges",
-                "semestre": "S1"
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
               }
             ]
           },
@@ -77,8 +85,8 @@
             "numero": "Q8",
             "mots_cles": [
               {
-                "theme": "Asservissement : Schéma-blocs",
-                "semestre": "S2"
+                "theme_sous_theme": "Ingénierie Système : Chaîne d'énergie",
+                "semestre": "S1"
               }
             ]
           },
@@ -86,8 +94,8 @@
             "numero": "Q9",
             "mots_cles": [
               {
-                "theme": "Asservissement : Schéma-blocs",
-                "semestre": "S2"
+                "theme_sous_theme": "Ingénierie Système : Chaîne d'énergie",
+                "semestre": "S1"
               }
             ]
           },
@@ -95,8 +103,8 @@
             "numero": "Q10",
             "mots_cles": [
               {
-                "theme": "Asservissement : Schéma-blocs",
-                "semestre": "S2"
+                "theme_sous_theme": "Ingénierie Système : Chaîne d'information",
+                "semestre": "S1"
               }
             ]
           },
@@ -104,8 +112,8 @@
             "numero": "Q11",
             "mots_cles": [
               {
-                "theme": "Asservissement : Schéma-blocs",
-                "semestre": "S2"
+                "theme_sous_theme": "Ingénierie Système : Chaîne d'énergie",
+                "semestre": "S1"
               }
             ]
           },
@@ -113,8 +121,8 @@
             "numero": "Q12",
             "mots_cles": [
               {
-                "theme": "Asservissement : Schéma-blocs",
-                "semestre": "S2"
+                "theme_sous_theme": "Ingénierie Système : Chaîne d'énergie",
+                "semestre": "S1"
               }
             ]
           },
@@ -122,8 +130,8 @@
             "numero": "Q13",
             "mots_cles": [
               {
-                "theme": "Asservissement : Schéma-blocs",
-                "semestre": "S2"
+                "theme_sous_theme": "Ingénierie Système : Chaîne d'énergie",
+                "semestre": "S1"
               }
             ]
           },
@@ -131,17 +139,11 @@
             "numero": "Q14",
             "mots_cles": [
               {
-                "theme": "Asservissement : Schéma-blocs",
-                "semestre": "S2"
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Ingénierie Système",
-          "Transmissions mécaniques",
-          "Énergétique",
-          "Asservissement"
         ]
       },
       {
@@ -151,7 +153,7 @@
             "numero": "Q15",
             "mots_cles": [
               {
-                "theme": "Cinématique : Fermeture géométrique",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
               }
             ]
@@ -160,8 +162,8 @@
             "numero": "Q16",
             "mots_cles": [
               {
-                "theme": "Cinématique : Fermeture géométrique",
-                "semestre": "S1"
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
               }
             ]
           },
@@ -169,7 +171,7 @@
             "numero": "Q17",
             "mots_cles": [
               {
-                "theme": "Cinématique : Fermeture géométrique",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
               }
             ]
@@ -178,7 +180,7 @@
             "numero": "Q18",
             "mots_cles": [
               {
-                "theme": "Cinématique : Fermeture géométrique",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
               }
             ]
@@ -187,7 +189,7 @@
             "numero": "Q19",
             "mots_cles": [
               {
-                "theme": "Cinématique : Fermeture géométrique",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
               }
             ]
@@ -196,7 +198,7 @@
             "numero": "Q20",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Paliers lisses",
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
                 "semestre": "S4"
               }
             ]
@@ -205,7 +207,11 @@
             "numero": "Q21",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Paliers lisses",
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
                 "semestre": "S4"
               }
             ]
@@ -214,15 +220,11 @@
             "numero": "Q22",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Paliers lisses",
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
                 "semestre": "S4"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Cinématique",
-          "Dimensionnement"
         ]
       },
       {
@@ -232,7 +234,7 @@
             "numero": "Q23",
             "mots_cles": [
               {
-                "theme": "Dynamique : Géométrie des masses",
+                "theme_sous_theme": "Dynamique : Géométrie des masses",
                 "semestre": "S3"
               }
             ]
@@ -241,7 +243,11 @@
             "numero": "Q24",
             "mots_cles": [
               {
-                "theme": "Résistance des matériaux : Contraintes",
+                "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Matériaux : Choix",
                 "semestre": "S3"
               }
             ]
@@ -250,7 +256,7 @@
             "numero": "Q25",
             "mots_cles": [
               {
-                "theme": "Résistance des matériaux : Contraintes",
+                "theme_sous_theme": "Résistance des matériaux : Torseur de cohésion",
                 "semestre": "S3"
               }
             ]
@@ -259,7 +265,7 @@
             "numero": "Q26",
             "mots_cles": [
               {
-                "theme": "Résistance des matériaux : Contraintes",
+                "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
                 "semestre": "S3"
               }
             ]
@@ -268,7 +274,7 @@
             "numero": "Q27",
             "mots_cles": [
               {
-                "theme": "Résistance des matériaux : Contraintes",
+                "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
                 "semestre": "S3"
               }
             ]
@@ -277,7 +283,11 @@
             "numero": "Q28",
             "mots_cles": [
               {
-                "theme": "Résistance des matériaux : Contraintes",
+                "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Matériaux : Propriétés physiques et mécaniques",
                 "semestre": "S3"
               }
             ]
@@ -286,7 +296,7 @@
             "numero": "Q29",
             "mots_cles": [
               {
-                "theme": "Statique : PFS",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
                 "semestre": "S2"
               }
             ]
@@ -295,7 +305,7 @@
             "numero": "Q30",
             "mots_cles": [
               {
-                "theme": "Statique : PFS",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
                 "semestre": "S2"
               }
             ]
@@ -304,7 +314,7 @@
             "numero": "Q31",
             "mots_cles": [
               {
-                "theme": "Statique : PFS",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
                 "semestre": "S2"
               }
             ]
@@ -313,7 +323,7 @@
             "numero": "Q32",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Paliers lisses",
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
                 "semestre": "S4"
               }
             ]
@@ -322,7 +332,7 @@
             "numero": "Q33",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Paliers lisses",
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
                 "semestre": "S4"
               }
             ]
@@ -331,7 +341,7 @@
             "numero": "Q34",
             "mots_cles": [
               {
-                "theme": "Cinématique : Vitesses",
+                "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
                 "semestre": "S1"
               }
             ]
@@ -340,18 +350,11 @@
             "numero": "Q35",
             "mots_cles": [
               {
-                "theme": "Cinématique : Vitesses",
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
                 "semestre": "S1"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Dynamique",
-          "Résistance des matériaux",
-          "Statique",
-          "Dimensionnement",
-          "Cinématique"
         ]
       },
       {
@@ -361,7 +364,7 @@
             "numero": "Q36",
             "mots_cles": [
               {
-                "theme": "Transmissions mécaniques : Rapport de réduction",
+                "theme_sous_theme": "Ingénierie Système : Chaîne d'énergie",
                 "semestre": "S1"
               }
             ]
@@ -370,7 +373,7 @@
             "numero": "Q37",
             "mots_cles": [
               {
-                "theme": "Transmissions mécaniques : Engrenages",
+                "theme_sous_theme": "Transmissions mécaniques : Engrenages",
                 "semestre": "S1"
               }
             ]
@@ -379,7 +382,7 @@
             "numero": "Q38",
             "mots_cles": [
               {
-                "theme": "Dynamique : Géométrie des masses",
+                "theme_sous_theme": "Dynamique : Géométrie des masses",
                 "semestre": "S3"
               }
             ]
@@ -388,8 +391,8 @@
             "numero": "Q39",
             "mots_cles": [
               {
-                "theme": "Transmissions mécaniques : Rapport de réduction",
-                "semestre": "S1"
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
               }
             ]
           },
@@ -397,8 +400,8 @@
             "numero": "Q40",
             "mots_cles": [
               {
-                "theme": "Cinématique : Torseurs cinématiques",
-                "semestre": "S1"
+                "theme_sous_theme": "Statique : Liaisons équivalentes",
+                "semestre": "S2"
               }
             ]
           },
@@ -406,7 +409,7 @@
             "numero": "Q41",
             "mots_cles": [
               {
-                "theme": "Cinématique : Fermeture géométrique",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
               }
             ]
@@ -415,7 +418,7 @@
             "numero": "Q42",
             "mots_cles": [
               {
-                "theme": "Cinématique : Torseurs cinématiques",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
               }
             ]
@@ -424,7 +427,7 @@
             "numero": "Q43",
             "mots_cles": [
               {
-                "theme": "Cinématique : Fermeture géométrique",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
               }
             ]
@@ -433,7 +436,7 @@
             "numero": "Q44",
             "mots_cles": [
               {
-                "theme": "Cinématique : Fermeture géométrique",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
               }
             ]
@@ -442,7 +445,7 @@
             "numero": "Q45",
             "mots_cles": [
               {
-                "theme": "Énergétique : Puissance",
+                "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
                 "semestre": "S3"
               }
             ]
@@ -451,8 +454,12 @@
             "numero": "Q46",
             "mots_cles": [
               {
-                "theme": "Cinématique : Vitesses",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
               }
             ]
           },
@@ -460,7 +467,7 @@
             "numero": "Q47",
             "mots_cles": [
               {
-                "theme": "Machines électriques : Commande U/f",
+                "theme_sous_theme": "Machines électriques : Machine à courant continu",
                 "semestre": "S4"
               }
             ]
@@ -469,8 +476,12 @@
             "numero": "Q48",
             "mots_cles": [
               {
-                "theme": "Machines électriques : Commande U/f",
+                "theme_sous_theme": "Machines électriques : Machine à courant continu",
                 "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Électrotechnique : Convertisseurs statiques",
+                "semestre": "S2"
               }
             ]
           },
@@ -478,7 +489,11 @@
             "numero": "Q49",
             "mots_cles": [
               {
-                "theme": "Machines électriques : Commande U/f",
+                "theme_sous_theme": "Machines électriques : Commande scalaire",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Correcteurs : Proportionnel",
                 "semestre": "S4"
               }
             ]
@@ -487,8 +502,8 @@
             "numero": "Q50",
             "mots_cles": [
               {
-                "theme": "Procédés de fabrication : Plastique",
-                "semestre": "S2"
+                "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
+                "semestre": "S3"
               }
             ]
           },
@@ -496,7 +511,7 @@
             "numero": "Q51",
             "mots_cles": [
               {
-                "theme": "Procédés de fabrication : Fabrication Additive",
+                "theme_sous_theme": "Procédés : Fabrication additive",
                 "semestre": "S2"
               }
             ]
@@ -505,7 +520,11 @@
             "numero": "Q52",
             "mots_cles": [
               {
-                "theme": "Procédés de fabrication : Plastique",
+                "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Procédés : Fabrication additive",
                 "semestre": "S2"
               }
             ]
@@ -514,7 +533,7 @@
             "numero": "Q53",
             "mots_cles": [
               {
-                "theme": "Spécifications géométriques : Tolérancement",
+                "theme_sous_theme": "Spécifications géométriques : Tolérancement",
                 "semestre": "S2"
               }
             ]
@@ -523,8 +542,8 @@
             "numero": "Q54",
             "mots_cles": [
               {
-                "theme": "Spécifications géométriques : Tolérancement",
-                "semestre": "S2"
+                "theme_sous_theme": "Procédés : Usinage",
+                "semestre": "S3"
               }
             ]
           },
@@ -532,23 +551,51 @@
             "numero": "Q55",
             "mots_cles": [
               {
-                "theme": "Procédés de fabrication : Usinage",
+                "theme_sous_theme": "Procédés : Usinage",
                 "semestre": "S3"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Transmissions mécaniques",
-          "Dynamique",
-          "Cinématique",
-          "Énergétique",
-          "Machines électriques",
-          "Procédés de fabrication",
-          "Spécifications géométriques"
         ]
       }
     ],
-    "ajouts": []
+    "ajouts": [
+      {
+        "theme_sous_theme": "Systèmes mécaniques : Circuits hydrauliques",
+        "semestre": "S2"
+      },
+      {
+        "theme_sous_theme": "Systèmes mécaniques : Vérins",
+        "semestre": "S2"
+      },
+      {
+        "theme_sous_theme": "Systèmes mécaniques : Distributeurs",
+        "semestre": "S2"
+      },
+      {
+        "theme_sous_theme": "Systèmes mécaniques : Moteurs hydrauliques",
+        "semestre": "S2"
+      },
+      {
+        "theme_sous_theme": "Systèmes mécaniques : Courroies",
+        "semestre": "S2"
+      },
+      {
+        "theme_sous_theme": "Ingénierie Système : Diagramme des exigences",
+        "semestre": "S1"
+      },
+      {
+        "theme_sous_theme": "Ingénierie Système : Diagramme de blocs internes",
+        "semestre": "S1"
+      },
+      {
+        "theme_sous_theme": "Dessin technique : Coupes et sections",
+        "semestre": "S1"
+      },
+      {
+        "theme_sous_theme": "Dessin technique : Cotation fonctionnelle",
+        "semestre": "S1"
+      }
+    ]
   }
 }

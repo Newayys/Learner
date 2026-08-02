@@ -4,17 +4,17 @@
   "date": "2017",
   "file": "CCINP_TSI_2017.pdf",
   "status": 200,
-  "time_s": 1306.77,
+  "time_s": 39.41,
   "data": {
     "parties": [
       {
-        "titre_partie": "Présentation et analyse du système",
+        "titre_partie": "Partie I - Presentation et analyse du système",
         "questions": [
           {
             "numero": "Q1",
             "mots_cles": [
               {
-                "theme": "Ingénierie Système : Cahier des charges",
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
                 "semestre": "S1"
               }
             ]
@@ -23,7 +23,7 @@
             "numero": "Q2",
             "mots_cles": [
               {
-                "theme": "Ingénierie Système : Chaînes d'énergie",
+                "theme_sous_theme": "Ingénierie Système : Diagramme de définition de blocs",
                 "semestre": "S1"
               }
             ]
@@ -32,7 +32,7 @@
             "numero": "Q3",
             "mots_cles": [
               {
-                "theme": "Ingénierie Système : Chaînes d'énergie",
+                "theme_sous_theme": "Ingénierie Système : Chaîne d'énergie",
                 "semestre": "S1"
               }
             ]
@@ -41,25 +41,22 @@
             "numero": "Q4",
             "mots_cles": [
               {
-                "theme": "Ingénierie Système : Chaînes d'information",
-                "semestre": "S1"
+                "theme_sous_theme": "Dimensionnement : Capteurs",
+                "semestre": "S4"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Ingénierie Système"
         ]
       },
       {
-        "titre_partie": "Validation des solutions constructives",
+        "titre_partie": "Partie II - Validation des solutions constructives",
         "questions": [
           {
             "numero": "Q5",
             "mots_cles": [
               {
-                "theme": "Cinématique : Fermeture géométrique",
-                "semestre": "S1"
+                "theme_sous_theme": "Statique : Liaisons équivalentes",
+                "semestre": "S2"
               }
             ]
           },
@@ -67,7 +64,7 @@
             "numero": "Q6",
             "mots_cles": [
               {
-                "theme": "Statique : Hyperstatisme",
+                "theme_sous_theme": "Statique : Hyperstatisme",
                 "semestre": "S2"
               }
             ]
@@ -76,7 +73,7 @@
             "numero": "Q7",
             "mots_cles": [
               {
-                "theme": "Statique : Hyperstatisme",
+                "theme_sous_theme": "Statique : Hyperstatisme",
                 "semestre": "S2"
               }
             ]
@@ -85,7 +82,7 @@
             "numero": "Q8",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : Temporel",
+                "theme_sous_theme": "Électrotechnique : Convertisseurs statiques",
                 "semestre": "S2"
               }
             ]
@@ -94,8 +91,8 @@
             "numero": "Q9",
             "mots_cles": [
               {
-                "theme": "Traitement de l'information : Échantillonnage",
-                "semestre": "S2"
+                "theme_sous_theme": "Réseaux : Trames et protocoles",
+                "semestre": "S3"
               }
             ]
           },
@@ -103,8 +100,8 @@
             "numero": "Q10",
             "mots_cles": [
               {
-                "theme": "Traitement de l'information : Échantillonnage",
-                "semestre": "S2"
+                "theme_sous_theme": "Réseaux : Trames et protocoles",
+                "semestre": "S3"
               }
             ]
           },
@@ -112,7 +109,7 @@
             "numero": "Q11",
             "mots_cles": [
               {
-                "theme": "Traitement de l'information : Échantillonnage",
+                "theme_sous_theme": "Traitement de l'information : Échantillonnage et quantification",
                 "semestre": "S2"
               }
             ]
@@ -121,7 +118,7 @@
             "numero": "Q12",
             "mots_cles": [
               {
-                "theme": "Traitement de l'information : Quantification",
+                "theme_sous_theme": "Traitement de l'information : Échantillonnage et quantification",
                 "semestre": "S2"
               }
             ]
@@ -130,8 +127,8 @@
             "numero": "Q13",
             "mots_cles": [
               {
-                "theme": "Traitement de l'information : Filtres",
-                "semestre": "S2"
+                "theme_sous_theme": "Dimensionnement : Capteurs",
+                "semestre": "S4"
               }
             ]
           },
@@ -139,7 +136,7 @@
             "numero": "Q14",
             "mots_cles": [
               {
-                "theme": "Cinématique : Fermeture géométrique",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
               }
             ]
@@ -148,8 +145,8 @@
             "numero": "Q15",
             "mots_cles": [
               {
-                "theme": "Cinématique : Accélérations",
-                "semestre": "S1"
+                "theme_sous_theme": "Dimensionnement : Capteurs",
+                "semestre": "S4"
               }
             ]
           },
@@ -157,7 +154,7 @@
             "numero": "Q16",
             "mots_cles": [
               {
-                "theme": "Traitement de l'information : Filtres",
+                "theme_sous_theme": "Asservissement : Précision",
                 "semestre": "S2"
               }
             ]
@@ -166,7 +163,7 @@
             "numero": "Q17",
             "mots_cles": [
               {
-                "theme": "Traitement de l'information : Filtres",
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
                 "semestre": "S2"
               }
             ]
@@ -175,7 +172,7 @@
             "numero": "Q18",
             "mots_cles": [
               {
-                "theme": "Traitement de l'information : Filtres",
+                "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
                 "semestre": "S2"
               }
             ]
@@ -184,7 +181,7 @@
             "numero": "Q19",
             "mots_cles": [
               {
-                "theme": "Cinématique : Fermeture géométrique",
+                "theme_sous_theme": "Cinématique : Fermeture géométrique",
                 "semestre": "S1"
               }
             ]
@@ -193,8 +190,8 @@
             "numero": "Q20",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Paliers lisses",
-                "semestre": "S2"
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+                "semestre": "S4"
               }
             ]
           },
@@ -202,8 +199,8 @@
             "numero": "Q21",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Paliers lisses",
-                "semestre": "S2"
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
+                "semestre": "S3"
               }
             ]
           },
@@ -211,7 +208,7 @@
             "numero": "Q22",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Liaisons",
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
                 "semestre": "S4"
               }
             ]
@@ -220,7 +217,7 @@
             "numero": "Q23",
             "mots_cles": [
               {
-                "theme": "Spécifications géométriques : Tolérancement",
+                "theme_sous_theme": "Spécifications géométriques : Tolérancement",
                 "semestre": "S2"
               }
             ]
@@ -229,7 +226,7 @@
             "numero": "Q24",
             "mots_cles": [
               {
-                "theme": "Cinématique : Fermeture géométrique",
+                "theme_sous_theme": "Ingénierie Système : Diagramme de définition de blocs",
                 "semestre": "S1"
               }
             ]
@@ -238,8 +235,12 @@
             "numero": "Q25",
             "mots_cles": [
               {
-                "theme": "Cinématique : Fermeture géométrique",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
               }
             ]
           },
@@ -247,7 +248,7 @@
             "numero": "Q26",
             "mots_cles": [
               {
-                "theme": "Cinématique : Lois entrée-sortie",
+                "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
                 "semestre": "S1"
               }
             ]
@@ -256,7 +257,7 @@
             "numero": "Q27",
             "mots_cles": [
               {
-                "theme": "Énergétique : Puissance",
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
                 "semestre": "S3"
               }
             ]
@@ -265,231 +266,25 @@
             "numero": "Q28",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Actionneurs",
+                "theme_sous_theme": "Machines électriques : Machine à courant continu",
                 "semestre": "S4"
-              }
-            ]
-          },
-          {
-            "numero": "Q29",
-            "mots_cles": [
+              },
               {
-                "theme": "Statique : PFS",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Q30",
-            "mots_cles": [
-              {
-                "theme": "Statique : PFS",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Q31",
-            "mots_cles": [
-              {
-                "theme": "Statique : PFS",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Q32",
-            "mots_cles": [
-              {
-                "theme": "Statique : PFS",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Q33",
-            "mots_cles": [
-              {
-                "theme": "Statique : PFS",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Q34",
-            "mots_cles": [
-              {
-                "theme": "Machines électriques : Synchrone",
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
                 "semestre": "S4"
-              }
-            ]
-          },
-          {
-            "numero": "Q35",
-            "mots_cles": [
-              {
-                "theme": "Machines électriques : Synchrone",
-                "semestre": "S4"
-              }
-            ]
-          },
-          {
-            "numero": "Q36",
-            "mots_cles": [
-              {
-                "theme": "Machines électriques : Synchrone",
-                "semestre": "S4"
-              }
-            ]
-          },
-          {
-            "numero": "Q37",
-            "mots_cles": [
-              {
-                "theme": "Machines électriques : Synchrone",
-                "semestre": "S4"
-              }
-            ]
-          },
-          {
-            "numero": "Q38",
-            "mots_cles": [
-              {
-                "theme": "Asservissement : Stabilité",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Q39",
-            "mots_cles": [
-              {
-                "theme": "Asservissement : Schéma-blocs",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Q40",
-            "mots_cles": [
-              {
-                "theme": "Électrotechnique : Convertisseurs statiques",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Q41",
-            "mots_cles": [
-              {
-                "theme": "Modélisation des signaux : Fréquentiel",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Q42",
-            "mots_cles": [
-              {
-                "theme": "Modélisation des signaux : Fréquentiel",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Q43",
-            "mots_cles": [
-              {
-                "theme": "Asservissement : Stabilité",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Q44",
-            "mots_cles": [
-              {
-                "theme": "Asservissement : Précision",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Q45",
-            "mots_cles": [
-              {
-                "theme": "Asservissement : Schéma-blocs",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Q46",
-            "mots_cles": [
-              {
-                "theme": "Machines électriques : Synchrone",
-                "semestre": "S4"
-              }
-            ]
-          },
-          {
-            "numero": "Q47",
-            "mots_cles": [
-              {
-                "theme": "Asservissement : Schéma-blocs",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Q48",
-            "mots_cles": [
-              {
-                "theme": "Énergétique : Puissance",
-                "semestre": "S3"
-              }
-            ]
-          },
-          {
-            "numero": "Q49",
-            "mots_cles": [
-              {
-                "theme": "Énergétique : Puissance",
-                "semestre": "S3"
-              }
-            ]
-          },
-          {
-            "numero": "Q50",
-            "mots_cles": [
-              {
-                "theme": "Énergétique : Rendement",
-                "semestre": "S3"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Cinématique",
-          "Statique",
-          "Modélisation des signaux",
-          "Traitement de l'information",
-          "Dimensionnement",
-          "Spécifications géométriques",
-          "Machines électriques",
-          "Asservissement",
-          "Électrotechnique",
-          "Énergétique"
         ]
       },
       {
-        "titre_partie": "Changement de motorisation",
+        "titre_partie": "Partie III - Changement de motorisation",
         "questions": [
           {
             "numero": "Q29",
             "mots_cles": [
               {
-                "theme": "Statique : PFS",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
                 "semestre": "S2"
               }
             ]
@@ -498,7 +293,7 @@
             "numero": "Q30",
             "mots_cles": [
               {
-                "theme": "Statique : PFS",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
                 "semestre": "S2"
               }
             ]
@@ -507,7 +302,7 @@
             "numero": "Q31",
             "mots_cles": [
               {
-                "theme": "Statique : PFS",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
                 "semestre": "S2"
               }
             ]
@@ -516,7 +311,7 @@
             "numero": "Q32",
             "mots_cles": [
               {
-                "theme": "Statique : PFS",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
                 "semestre": "S2"
               }
             ]
@@ -525,7 +320,7 @@
             "numero": "Q33",
             "mots_cles": [
               {
-                "theme": "Statique : PFS",
+                "theme_sous_theme": "Statique : Frottements",
                 "semestre": "S2"
               }
             ]
@@ -534,7 +329,7 @@
             "numero": "Q34",
             "mots_cles": [
               {
-                "theme": "Machines électriques : Synchrone",
+                "theme_sous_theme": "Machines électriques : Machine synchrone",
                 "semestre": "S4"
               }
             ]
@@ -543,8 +338,8 @@
             "numero": "Q35",
             "mots_cles": [
               {
-                "theme": "Machines électriques : Synchrone",
-                "semestre": "S4"
+                "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+                "semestre": "S1"
               }
             ]
           },
@@ -552,7 +347,7 @@
             "numero": "Q36",
             "mots_cles": [
               {
-                "theme": "Machines électriques : Synchrone",
+                "theme_sous_theme": "Machines électriques : Machine synchrone",
                 "semestre": "S4"
               }
             ]
@@ -561,7 +356,7 @@
             "numero": "Q37",
             "mots_cles": [
               {
-                "theme": "Machines électriques : Synchrone",
+                "theme_sous_theme": "Machines électriques : Machine synchrone",
                 "semestre": "S4"
               }
             ]
@@ -570,8 +365,8 @@
             "numero": "Q38",
             "mots_cles": [
               {
-                "theme": "Asservissement : Stabilité",
-                "semestre": "S2"
+                "theme_sous_theme": "Machines électriques : Machine synchrone",
+                "semestre": "S4"
               }
             ]
           },
@@ -579,8 +374,8 @@
             "numero": "Q39",
             "mots_cles": [
               {
-                "theme": "Asservissement : Schéma-blocs",
-                "semestre": "S2"
+                "theme_sous_theme": "Machines électriques : Commande scalaire",
+                "semestre": "S4"
               }
             ]
           },
@@ -588,7 +383,7 @@
             "numero": "Q40",
             "mots_cles": [
               {
-                "theme": "Électrotechnique : Convertisseurs statiques",
+                "theme_sous_theme": "Électrotechnique : Convertisseurs statiques",
                 "semestre": "S2"
               }
             ]
@@ -597,7 +392,7 @@
             "numero": "Q41",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : Fréquentiel",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
@@ -606,7 +401,7 @@
             "numero": "Q42",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : Fréquentiel",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
@@ -615,7 +410,11 @@
             "numero": "Q43",
             "mots_cles": [
               {
-                "theme": "Asservissement : Stabilité",
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Stabilité",
                 "semestre": "S2"
               }
             ]
@@ -624,7 +423,11 @@
             "numero": "Q44",
             "mots_cles": [
               {
-                "theme": "Asservissement : Précision",
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Précision",
                 "semestre": "S2"
               }
             ]
@@ -633,8 +436,8 @@
             "numero": "Q45",
             "mots_cles": [
               {
-                "theme": "Asservissement : Schéma-blocs",
-                "semestre": "S2"
+                "theme_sous_theme": "Dimensionnement : Capteurs",
+                "semestre": "S4"
               }
             ]
           },
@@ -642,7 +445,7 @@
             "numero": "Q46",
             "mots_cles": [
               {
-                "theme": "Machines électriques : Synchrone",
+                "theme_sous_theme": "Machines électriques : Machine synchrone",
                 "semestre": "S4"
               }
             ]
@@ -651,8 +454,8 @@
             "numero": "Q47",
             "mots_cles": [
               {
-                "theme": "Asservissement : Schéma-blocs",
-                "semestre": "S2"
+                "theme_sous_theme": "Machines électriques : Machine synchrone",
+                "semestre": "S4"
               }
             ]
           },
@@ -660,8 +463,8 @@
             "numero": "Q48",
             "mots_cles": [
               {
-                "theme": "Énergétique : Puissance",
-                "semestre": "S3"
+                "theme_sous_theme": "Machines électriques : Machine synchrone",
+                "semestre": "S4"
               }
             ]
           },
@@ -669,7 +472,7 @@
             "numero": "Q49",
             "mots_cles": [
               {
-                "theme": "Énergétique : Puissance",
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
                 "semestre": "S3"
               }
             ]
@@ -678,19 +481,11 @@
             "numero": "Q50",
             "mots_cles": [
               {
-                "theme": "Énergétique : Rendement",
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
                 "semestre": "S3"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Statique",
-          "Machines électriques",
-          "Asservissement",
-          "Électrotechnique",
-          "Modélisation des signaux",
-          "Énergétique"
         ]
       }
     ],

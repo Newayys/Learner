@@ -4,351 +4,594 @@
   "date": "2016",
   "file": "CCINP_TSI_2016.pdf",
   "status": 200,
-  "time_s": 874.73,
+  "time_s": 44.6,
   "data": {
     "parties": [
       {
         "titre_partie": "Partie I : validation des performances en vitesse du câble",
         "questions": [
           {
-            "numero": "Q 1",
+            "numero": "Q 1.",
             "mots_cles": [
               {
-                "theme": "Ingénierie Système : Cahier des charges",
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Cinématique : Vitesses",
                 "semestre": "S1"
               }
             ]
           },
           {
-            "numero": "Q 2",
+            "numero": "Q 2.",
             "mots_cles": [
               {
-                "theme": "Cinématique : Lois entrée-sortie",
+                "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
                 "semestre": "S1"
               }
             ]
           },
           {
-            "numero": "Q 3",
+            "numero": "Q 3. a.",
             "mots_cles": [
               {
-                "theme": "Traitement de l'information : Échantillonnage",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Q 4",
-            "mots_cles": [
-              {
-                "theme": "Modélisation des signaux : 1er ordre",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Q 5",
-            "mots_cles": [
-              {
-                "theme": "Machines électriques : MCC",
+                "theme_sous_theme": "Dimensionnement : Capteurs",
                 "semestre": "S4"
               }
             ]
           },
           {
-            "numero": "Q 6",
+            "numero": "Q 3. b.",
             "mots_cles": [
               {
-                "theme": "Machines électriques : MCC",
+                "theme_sous_theme": "Traitement de l'information : Échantillonnage et quantification",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 3. c.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Dimensionnement : Capteurs",
                 "semestre": "S4"
               }
             ]
           },
           {
-            "numero": "Q 7",
+            "numero": "Q 4. a.",
             "mots_cles": [
               {
-                "theme": "Électrotechnique : Redresseurs",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Q 8",
-            "mots_cles": [
-              {
-                "theme": "Machines électriques : MCC",
+                "theme_sous_theme": "Dimensionnement : Capteurs",
                 "semestre": "S4"
               }
             ]
           },
           {
-            "numero": "Q 9",
+            "numero": "Q 4. b.",
             "mots_cles": [
               {
-                "theme": "Asservissement : Laplace",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
           },
           {
-            "numero": "Q 10",
+            "numero": "Q 5.",
             "mots_cles": [
               {
-                "theme": "Dynamique : Géométrie des masses",
+                "theme_sous_theme": "Machines électriques : Machine à courant continu",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q 6. a.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Machines électriques : Machine à courant continu",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q 6. b.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Machines électriques : Machine à courant continu",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
                 "semestre": "S3"
               }
             ]
           },
           {
-            "numero": "Q 11",
+            "numero": "Q 7. a.",
             "mots_cles": [
               {
-                "theme": "Énergétique : Théorème de l'Énergie Cinétique",
-                "semestre": "S3"
-              }
-            ]
-          },
-          {
-            "numero": "Q 12",
-            "mots_cles": [
-              {
-                "theme": "Dynamique : Torseur dynamique",
-                "semestre": "S3"
-              }
-            ]
-          },
-          {
-            "numero": "Q 13",
-            "mots_cles": [
-              {
-                "theme": "Asservissement : Stabilité",
+                "theme_sous_theme": "Électrotechnique : Convertisseurs statiques",
                 "semestre": "S2"
               }
             ]
           },
           {
-            "numero": "Q 14",
+            "numero": "Q 7. b.",
             "mots_cles": [
               {
-                "theme": "Asservissement : Stabilité",
+                "theme_sous_theme": "Électrotechnique : Convertisseurs statiques",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 7. c.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Électrotechnique : Convertisseurs statiques",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 8. a.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Machines électriques : Machine à courant continu",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Électrotechnique : Convertisseurs statiques",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 8. b.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Machines électriques : Machine à courant continu",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q 9. a.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Machines électriques : Machine à courant continu",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 9. b.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 10.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Dynamique : Géométrie des masses",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q 11. a.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Énergétique : Théorème de l'énergie cinétique",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Énergétique : Inertie équivalente",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q 11. b.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q 12. a.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Énergétique : Théorème de l'énergie cinétique",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q 12. b.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 13. a.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Asservissement : Précision",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Rapidité",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 13. b.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Précision",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Rapidité",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 14. a.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Asservissement : Stabilité",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 14. b.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Asservissement : Stabilité",
                 "semestre": "S2"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Ingénierie Système",
-          "Cinématique",
-          "Traitement de l'information",
-          "Modélisation des signaux",
-          "Machines électriques",
-          "Électrotechnique",
-          "Asservissement",
-          "Dynamique",
-          "Énergétique",
-          "Statique"
         ]
       },
       {
         "titre_partie": "Partie II : validation du choix des moteurs de secours retenus",
         "questions": [
           {
-            "numero": "Q 15",
+            "numero": "Q 15.",
             "mots_cles": [
               {
-                "theme": "Statique : PFS",
+                "theme_sous_theme": "Machines électriques : Machine asynchrone",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
                 "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Q 16",
-            "mots_cles": [
+              },
               {
-                "theme": "Machines électriques : Asynchrone",
-                "semestre": "S4"
-              }
-            ]
-          },
-          {
-            "numero": "Q 17",
-            "mots_cles": [
-              {
-                "theme": "Machines électriques : Asynchrone",
-                "semestre": "S4"
-              }
-            ]
-          },
-          {
-            "numero": "Q 18",
-            "mots_cles": [
-              {
-                "theme": "Machines électriques : Asynchrone",
-                "semestre": "S4"
-              }
-            ]
-          },
-          {
-            "numero": "Q 19",
-            "mots_cles": [
-              {
-                "theme": "Machines électriques : Asynchrone",
-                "semestre": "S4"
-              }
-            ]
-          },
-          {
-            "numero": "Q 20",
-            "mots_cles": [
-              {
-                "theme": "Ingénierie Système : Cahier des charges",
+                "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
                 "semestre": "S1"
               }
             ]
+          },
+          {
+            "numero": "Q 16.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Machines électriques : Machine asynchrone",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q 17.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Machines électriques : Machine asynchrone",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q 18. a.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Machines électriques : Machine asynchrone",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q 18. b.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Machines électriques : Machine asynchrone",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q 18. c.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Machines électriques : Machine asynchrone",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q 19. a.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Machines électriques : Machine asynchrone",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q 19. b.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Cinématique : Vitesses",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q 20.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
+              }
+            ]
           }
-        ],
-        "themes_partie": [
-          "Statique",
-          "Machines électriques",
-          "Ingénierie Système"
         ]
       },
       {
         "titre_partie": "Partie III : respect et mesures des tensions du câble",
         "questions": [
           {
-            "numero": "Q 21",
+            "numero": "Q 21. a.",
             "mots_cles": [
               {
-                "theme": "Statique : Actions réparties",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
                 "semestre": "S2"
               }
             ]
           },
           {
-            "numero": "Q 22",
+            "numero": "Q 21. b.",
             "mots_cles": [
               {
-                "theme": "Statique : Actions réparties",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
                 "semestre": "S2"
               }
             ]
           },
           {
-            "numero": "Q 23",
+            "numero": "Q 22.",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : 1er ordre",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Matériaux : Propriétés physiques et mécaniques",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q 23.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Dimensionnement : Capteurs",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q 24. a.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Dimensionnement : Capteurs",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q 24. b.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Dimensionnement : Capteurs",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q 25. a.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
           },
           {
-            "numero": "Q 24",
+            "numero": "Q 25. b.",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : 1er ordre",
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
                 "semestre": "S2"
               }
             ]
           },
           {
-            "numero": "Q 25",
+            "numero": "Q 26. a.",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : Filtres",
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
                 "semestre": "S2"
               }
             ]
           },
           {
-            "numero": "Q 26",
+            "numero": "Q 26. b.",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : Filtres",
+                "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
                 "semestre": "S2"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Statique",
-          "Modélisation des signaux"
         ]
       },
       {
-        "titre_partie": "Partie IV : proposition d'une solution constructive et vérification de la tenue mécanique de la pince",
+        "titre_partie": "Partie IV : proposition d’une solution constructive et vérification de la tenue mécanique de la pince",
         "questions": [
           {
-            "numero": "Q 27",
+            "numero": "Q 27. a.",
             "mots_cles": [
               {
-                "theme": "Cinématique : Fermeture géométrique",
-                "semestre": "S1"
-              }
-            ]
-          },
-          {
-            "numero": "Q 28",
-            "mots_cles": [
-              {
-                "theme": "Statique : PFS",
+                "theme_sous_theme": "Statique : Liaisons équivalentes",
                 "semestre": "S2"
               }
             ]
           },
           {
-            "numero": "Q 29",
+            "numero": "Q 27. b.",
             "mots_cles": [
               {
-                "theme": "Statique : PFS",
+                "theme_sous_theme": "Statique : Hyperstatisme",
                 "semestre": "S2"
               }
             ]
           },
           {
-            "numero": "Q 30",
+            "numero": "Q 28. a.",
             "mots_cles": [
               {
-                "theme": "Résistance des matériaux : Contraintes",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 28. b.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q 29.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Résistance des matériaux : Torseur de cohésion",
                 "semestre": "S3"
               }
             ]
           },
           {
-            "numero": "Q 31",
+            "numero": "Q 30. a.",
             "mots_cles": [
               {
-                "theme": "Résistance des matériaux : Contraintes",
+                "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
                 "semestre": "S3"
               }
             ]
           },
           {
-            "numero": "Q 32",
+            "numero": "Q 30. b.",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Paliers lisses",
-                "semestre": "S2"
+                "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+                "semestre": "S3"
               }
             ]
           },
           {
-            "numero": "Q 33",
+            "numero": "Q 31.",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Liaisons",
+                "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Matériaux : Propriétés physiques et mécaniques",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q 32.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q 33.",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
                 "semestre": "S4"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Cinématique",
-          "Statique",
-          "Résistance des matériaux",
-          "Dimensionnement"
         ]
       }
     ],

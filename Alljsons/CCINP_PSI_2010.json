@@ -4,341 +4,386 @@
   "date": "2010",
   "file": "CCINP_PSI_2010.pdf",
   "status": 200,
-  "time_s": 686.0,
+  "time_s": 36.73,
   "data": {
     "parties": [
       {
-        "titre_partie": "1. PRESENTATION & 2. DESCRIPTION DU BANC D'EPREUVE",
-        "questions": [],
-        "themes_partie": [
-          "Ingénierie Système",
-          "Cinématique",
-          "Transmissions mécaniques",
-          "Systèmes séquentiels et SED",
-          "Informatique et Algorithmique"
-        ]
-      },
-      {
-        "titre_partie": "3. ANALYSE DE LA FONCTION TECHNIQUE « PREPARER LE TUBE »",
+        "titre_partie": "Analyse de la fonction technique « Préparer le tube » : Système « tube à tube »",
         "questions": [
           {
-            "numero": "Question 1",
+            "numero": "Q1",
             "mots_cles": [
               {
-                "theme": "Cinématique : Lois entrée-sortie",
-                "semestre": "S1"
-              },
-              {
-                "theme": "Cinématique : Torseurs cinématiques",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
               }
             ]
           },
           {
-            "numero": "Question 2",
+            "numero": "Q2",
             "mots_cles": [
               {
-                "theme": "Statique : Liaisons équivalentes",
-                "semestre": "S2"
-              },
-              {
-                "theme": "Statique : PFS",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
                 "semestre": "S2"
               }
             ]
           },
           {
-            "numero": "Question 3",
+            "numero": "Q3",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Actionneurs",
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
                 "semestre": "S4"
               }
             ]
           },
           {
-            "numero": "Question 4",
+            "numero": "Q4",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Actionneurs",
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
                 "semestre": "S4"
               }
             ]
           },
           {
-            "numero": "Question 5",
+            "numero": "Q5.a",
             "mots_cles": [
               {
-                "theme": "Cinématique : Vitesses",
-                "semestre": "S1"
-              }
-            ]
-          }
-        ],
-        "themes_partie": [
-          "Cinématique",
-          "Statique",
-          "Dimensionnement"
-        ]
-      },
-      {
-        "titre_partie": "4. ANALYSE DE LA FONCTION TECHNIQUE « ADAPTER LE BANC A LA LONGUEUR DU TUBE »",
-        "questions": [
-          {
-            "numero": "Question 6",
-            "mots_cles": [
-              {
-                "theme": "Traitement de l'information : Quantification",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Question 7",
-            "mots_cles": [
-              {
-                "theme": "Cinématique : Fermeture géométrique",
+                "theme_sous_theme": "Cinématique : Vitesses",
                 "semestre": "S1"
               }
             ]
           },
           {
-            "numero": "Question 8",
+            "numero": "Q5.b",
             "mots_cles": [
               {
-                "theme": "Systèmes séquentiels et SED : Logigrammes",
-                "semestre": "S1"
-              }
-            ]
-          },
-          {
-            "numero": "Question 9",
-            "mots_cles": [
-              {
-                "theme": "Systèmes séquentiels et SED : Diagramme d'états",
-                "semestre": "S1"
-              }
-            ]
-          },
-          {
-            "numero": "Question 10",
-            "mots_cles": [
-              {
-                "theme": "Cinématique : Accélérations",
-                "semestre": "S1"
-              }
-            ]
-          },
-          {
-            "numero": "Question 11",
-            "mots_cles": [
-              {
-                "theme": "Cinématique : Lois entrée-sortie",
-                "semestre": "S1"
-              }
-            ]
-          },
-          {
-            "numero": "Question 12",
-            "mots_cles": [
-              {
-                "theme": "Dynamique : Géométrie des masses",
-                "semestre": "S3"
-              },
-              {
-                "theme": "Énergétique : Inertie équivalente",
-                "semestre": "S3"
-              }
-            ]
-          },
-          {
-            "numero": "Question 13",
-            "mots_cles": [
-              {
-                "theme": "Dynamique : PFD",
-                "semestre": "S3"
-              }
-            ]
-          },
-          {
-            "numero": "Question 14",
-            "mots_cles": [
-              {
-                "theme": "Dimensionnement : Actionneurs",
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
                 "semestre": "S4"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Traitement de l'information",
-          "Cinématique",
-          "Systèmes séquentiels et SED",
-          "Dynamique",
-          "Énergétique",
-          "Dimensionnement"
         ]
       },
       {
-        "titre_partie": "5. ANALYSE DE LA FONCTION TECHNIQUE « GARANTIR L'ETANCHEITE »",
+        "titre_partie": "Analyse de la fonction technique « Adapter le banc à la longueur du tube »",
         "questions": [
           {
-            "numero": "Question 15",
+            "numero": "Q6",
             "mots_cles": [
               {
-                "theme": "Statique : Hyperstatisme",
-                "semestre": "S2"
+                "theme_sous_theme": "Ingénierie Système : Chaîne d'information",
+                "semestre": "S1"
               },
               {
-                "theme": "Statique : Liaisons équivalentes",
+                "theme_sous_theme": "Traitement de l'information : Échantillonnage et quantification",
                 "semestre": "S2"
               }
             ]
           },
           {
-            "numero": "Question 16",
+            "numero": "Q7",
             "mots_cles": [
               {
-                "theme": "Statique : Hyperstatisme",
+                "theme_sous_theme": "Ingénierie Système : Chaîne d'information",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q8",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Ingénierie Système : Chaîne d'énergie",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q9",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Systèmes séquentiels : Diagramme d'états",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q10.a",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Cinématique : Accélérations",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q10.b",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Cinématique : Accélérations",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q11.a",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q11.b",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Cinématique : Accélérations",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "Q12.a",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Énergétique : Théorème de l'énergie cinétique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q12.b",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Énergétique : Inertie équivalente",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q13",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+                "semestre": "S3"
+              }
+            ]
+          },
+          {
+            "numero": "Q14",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titre_partie": "Analyse de la fonction technique « Garantir l’étanchéité »",
+        "questions": [
+          {
+            "numero": "Q15.a",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Statique : Liaisons équivalentes",
                 "semestre": "S2"
               },
               {
-                "theme": "Statique : Liaisons équivalentes",
+                "theme_sous_theme": "Statique : Hyperstatisme",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q15.b",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Statique : Hyperstatisme",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q16",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Statique : Hyperstatisme",
                 "semestre": "S2"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Statique"
         ]
       },
       {
-        "titre_partie": "6. ANALYSE DE LA FONCTION TECHNIQUE « METTRE LE TUBE SOUS PRESSION »",
+        "titre_partie": "Analyse de la fonction technique « Mettre le tube sous pression »",
         "questions": [
           {
-            "numero": "Question 17",
+            "numero": "Q17",
             "mots_cles": [
               {
-                "theme": "Asservissement : Laplace",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
           },
           {
-            "numero": "Question 18",
+            "numero": "Q18",
             "mots_cles": [
               {
-                "theme": "Dynamique : Torseur dynamique",
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
                 "semestre": "S3"
-              },
-              {
-                "theme": "Asservissement : Laplace",
-                "semestre": "S2"
               }
             ]
           },
           {
-            "numero": "Question 19",
+            "numero": "Q19",
             "mots_cles": [
               {
-                "theme": "Dynamique : Torseur dynamique",
-                "semestre": "S3"
-              },
-              {
-                "theme": "Asservissement : Laplace",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Question 20",
-            "mots_cles": [
-              {
-                "theme": "Asservissement : Schéma-blocs",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Question 21",
-            "mots_cles": [
-              {
-                "theme": "Asservissement : Fonction de transfert",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Question 22",
-            "mots_cles": [
-              {
-                "theme": "Asservissement : Fonction de transfert",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Question 23",
-            "mots_cles": [
-              {
-                "theme": "Asservissement : Précision",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Question 24",
-            "mots_cles": [
-              {
-                "theme": "Asservissement : Stabilité",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Question 25",
-            "mots_cles": [
-              {
-                "theme": "Asservissement : Correcteur Proportionnel et intégral",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Question 26",
-            "mots_cles": [
-              {
-                "theme": "Asservissement : Stabilité",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               },
               {
-                "theme": "Asservissement : Rapidité",
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q20",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
           },
           {
-            "numero": "Question 27",
+            "numero": "Q21",
             "mots_cles": [
               {
-                "theme": "Asservissement : Stabilité",
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
                 "semestre": "S2"
               },
               {
-                "theme": "Asservissement : Précision",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q22",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
                 "semestre": "S2"
               },
               {
-                "theme": "Asservissement : Rapidité",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q23",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Asservissement : Précision",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Correcteurs : Proportionnel",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q25.a",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Correcteurs : Proportionnel-intégral",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q25.b",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q25.c",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Asservissement : Précision",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Stabilité",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q26.a",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Asservissement : Rapidité",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q26.b",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Asservissement : Stabilité",
+                "semestre": "S2"
+              }
+            ]
+          },
+          {
+            "numero": "Q26.c",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Correcteurs : Proportionnel-intégral",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "Q27",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Stabilité",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Rapidité",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Précision",
                 "semestre": "S2"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Asservissement",
-          "Dynamique"
         ]
       }
     ],

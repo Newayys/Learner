@@ -4,52 +4,63 @@
   "date": "2014",
   "file": "BPT_SIB_2014.pdf",
   "status": 200,
-  "time_s": 288.7,
+  "time_s": 36.79,
   "data": {
     "parties": [
       {
-        "titre_partie": "A - Cahier des Charges Fonctionnel",
+        "titre_partie": "A - Cahier des Charges Fonctionnel (Extraits)",
         "questions": [
           {
-            "numero": "A.1.1 - Le contexte",
+            "numero": "A.1.1",
             "mots_cles": [
               {
-                "theme": "Ingénierie Système : Cahier des charges",
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
                 "semestre": "S1"
               }
             ]
           },
           {
-            "numero": "A.1.2 - Le produit à concevoir",
+            "numero": "A.1.2",
             "mots_cles": [
               {
-                "theme": "Ingénierie Système : Chaînes d'énergie",
-                "semestre": "S1"
-              }
-            ]
-          },
-          {
-            "numero": "A.2 - Analyse fonctionnelle du besoin",
-            "mots_cles": [
-              {
-                "theme": "Ingénierie Système : Chaînes d'énergie",
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
                 "semestre": "S1"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Ingénierie Système"
         ]
       },
       {
         "titre_partie": "B - Etude et éléments de solutions proposés",
         "questions": [
           {
+            "numero": "B.1",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Ingénierie Système : Chaîne d'énergie",
+                "semestre": "S1"
+              }
+            ]
+          },
+          {
+            "numero": "B.2",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Ingénierie Système : Chaîne d'énergie",
+                "semestre": "S1"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "titre_partie": "C.2.1 - Etude de la fonction FT4 « Entraîner l’ensemble de bobinage en translation »",
+        "questions": [
+          {
             "numero": "Q1",
             "mots_cles": [
               {
-                "theme": "Cinématique : Vitesses",
+                "theme_sous_theme": "Cinématique : Vitesses",
                 "semestre": "S1"
               }
             ]
@@ -58,7 +69,7 @@
             "numero": "Q2",
             "mots_cles": [
               {
-                "theme": "Cinématique : Vitesses",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
               }
             ]
@@ -67,8 +78,12 @@
             "numero": "Q3",
             "mots_cles": [
               {
-                "theme": "Cinématique : Vitesses",
+                "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
                 "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
               }
             ]
           },
@@ -76,7 +91,7 @@
             "numero": "Q4",
             "mots_cles": [
               {
-                "theme": "Cinématique : Profils trapèze",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
               }
             ]
@@ -85,7 +100,7 @@
             "numero": "Q5",
             "mots_cles": [
               {
-                "theme": "Cinématique : Vitesses",
+                "theme_sous_theme": "Cinématique : Vitesses",
                 "semestre": "S1"
               }
             ]
@@ -94,7 +109,7 @@
             "numero": "Q6",
             "mots_cles": [
               {
-                "theme": "Cinématique : Vitesses",
+                "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
                 "semestre": "S1"
               }
             ]
@@ -103,7 +118,7 @@
             "numero": "Q7",
             "mots_cles": [
               {
-                "theme": "Dynamique : Inertie équivalente",
+                "theme_sous_theme": "Énergétique : Inertie équivalente",
                 "semestre": "S3"
               }
             ]
@@ -112,7 +127,11 @@
             "numero": "Q8",
             "mots_cles": [
               {
-                "theme": "Dynamique : PFD",
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Énergétique : Puissance et rendement",
                 "semestre": "S3"
               }
             ]
@@ -121,53 +140,34 @@
             "numero": "Q9",
             "mots_cles": [
               {
-                "theme": "Dynamique : PFD",
-                "semestre": "S3"
-              }
-            ]
-          },
-          {
-            "numero": "Q10",
-            "mots_cles": [
-              {
-                "theme": "Dynamique : PFD",
-                "semestre": "S3"
-              }
-            ]
-          },
-          {
-            "numero": "Q11",
-            "mots_cles": [
-              {
-                "theme": "Asservissement : Stabilité",
+                "theme_sous_theme": "Asservissement : Stabilité",
                 "semestre": "S2"
               }
             ]
           },
           {
-            "numero": "Q12",
+            "numero": "Q10 et Q11 et Q12",
             "mots_cles": [
               {
-                "theme": "Asservissement : Stabilité",
-                "semestre": "S2"
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Cinématique",
-          "Dynamique",
-          "Asservissement"
         ]
       },
       {
-        "titre_partie": "C - Etude de conception en construction mécanique",
+        "titre_partie": "C.2.2 - Etude de la fonction FT3 « Guider l’ensemble de bobinage en translation »",
         "questions": [
           {
             "numero": "Q13",
             "mots_cles": [
               {
-                "theme": "Statique : Hyperstatisme",
+                "theme_sous_theme": "Statique : Hyperstatisme",
                 "semestre": "S2"
               }
             ]
@@ -176,7 +176,7 @@
             "numero": "Q14",
             "mots_cles": [
               {
-                "theme": "Spécifications géométriques : Tolérancement",
+                "theme_sous_theme": "Spécifications géométriques : Tolérancement",
                 "semestre": "S2"
               }
             ]
@@ -185,7 +185,7 @@
             "numero": "Q15",
             "mots_cles": [
               {
-                "theme": "Statique : Liaisons équivalentes",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
                 "semestre": "S2"
               }
             ]
@@ -194,7 +194,7 @@
             "numero": "Q16",
             "mots_cles": [
               {
-                "theme": "Dynamique : PFD",
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
                 "semestre": "S3"
               }
             ]
@@ -203,8 +203,8 @@
             "numero": "Q17",
             "mots_cles": [
               {
-                "theme": "Résistance des matériaux : Déformations",
-                "semestre": "S3"
+                "theme_sous_theme": "Cinématique : Torseur cinématique",
+                "semestre": "S1"
               }
             ]
           },
@@ -212,8 +212,12 @@
             "numero": "Q18",
             "mots_cles": [
               {
-                "theme": "Résistance des matériaux : Déformations",
-                "semestre": "S3"
+                "theme_sous_theme": "Statique : Hyperstatisme",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+                "semestre": "S4"
               }
             ]
           },
@@ -221,8 +225,8 @@
             "numero": "Q19",
             "mots_cles": [
               {
-                "theme": "Résistance des matériaux : Déformations",
-                "semestre": "S3"
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
+                "semestre": "S2"
               }
             ]
           },
@@ -230,7 +234,7 @@
             "numero": "Q20",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Paliers lisses",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
                 "semestre": "S2"
               }
             ]
@@ -239,8 +243,8 @@
             "numero": "Q21",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Paliers lisses",
-                "semestre": "S2"
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+                "semestre": "S4"
               }
             ]
           },
@@ -248,7 +252,7 @@
             "numero": "Q22",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Paliers lisses",
+                "theme_sous_theme": "Statique : Principe fondamental de la statique",
                 "semestre": "S2"
               }
             ]
@@ -257,8 +261,8 @@
             "numero": "Q23",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Paliers lisses",
-                "semestre": "S2"
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+                "semestre": "S4"
               }
             ]
           },
@@ -266,8 +270,8 @@
             "numero": "Q24",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Paliers lisses",
-                "semestre": "S2"
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+                "semestre": "S4"
               }
             ]
           },
@@ -275,16 +279,25 @@
             "numero": "Q25",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Paliers lisses",
-                "semestre": "S2"
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+                "semestre": "S4"
               }
             ]
-          },
+          }
+        ]
+      },
+      {
+        "titre_partie": "C.2.3 - Etude de la fonction FT44 « Transformer le mouvement de rotation en mouvement de translation »",
+        "questions": [
           {
             "numero": "Q26",
             "mots_cles": [
               {
-                "theme": "Matériaux : Choix",
+                "theme_sous_theme": "Matériaux : Propriétés physiques et mécaniques",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Matériaux : Choix",
                 "semestre": "S3"
               }
             ]
@@ -293,7 +306,7 @@
             "numero": "Q27",
             "mots_cles": [
               {
-                "theme": "Matériaux : Choix",
+                "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
                 "semestre": "S3"
               }
             ]
@@ -302,8 +315,12 @@
             "numero": "Q28",
             "mots_cles": [
               {
-                "theme": "Résistance des matériaux : Torseur de cohésion",
+                "theme_sous_theme": "Résistance des matériaux : Torseur de cohésion",
                 "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Statique : Isostatisme",
+                "semestre": "S2"
               }
             ]
           },
@@ -311,7 +328,7 @@
             "numero": "Q29",
             "mots_cles": [
               {
-                "theme": "Résistance des matériaux : Torseur de cohésion",
+                "theme_sous_theme": "Résistance des matériaux : Torseur de cohésion",
                 "semestre": "S3"
               }
             ]
@@ -320,7 +337,7 @@
             "numero": "Q30",
             "mots_cles": [
               {
-                "theme": "Résistance des matériaux : Contraintes",
+                "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
                 "semestre": "S3"
               }
             ]
@@ -329,7 +346,7 @@
             "numero": "Q31",
             "mots_cles": [
               {
-                "theme": "Résistance des matériaux : Contraintes",
+                "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
                 "semestre": "S3"
               }
             ]
@@ -338,8 +355,12 @@
             "numero": "Q32",
             "mots_cles": [
               {
-                "theme": "Résistance des matériaux : Contraintes",
+                "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
                 "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Statique : Isostatisme",
+                "semestre": "S2"
               }
             ]
           },
@@ -347,7 +368,7 @@
             "numero": "Q33",
             "mots_cles": [
               {
-                "theme": "Résistance des matériaux : Contraintes",
+                "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
                 "semestre": "S3"
               }
             ]
@@ -356,7 +377,7 @@
             "numero": "Q34",
             "mots_cles": [
               {
-                "theme": "Résistance des matériaux : Contraintes",
+                "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
                 "semestre": "S3"
               }
             ]
@@ -365,7 +386,7 @@
             "numero": "Q35",
             "mots_cles": [
               {
-                "theme": "Résistance des matériaux : Contraintes",
+                "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
                 "semestre": "S3"
               }
             ]
@@ -374,8 +395,12 @@
             "numero": "Q36",
             "mots_cles": [
               {
-                "theme": "Résistance des matériaux : Contraintes",
+                "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
                 "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+                "semestre": "S4"
               }
             ]
           },
@@ -383,19 +408,51 @@
             "numero": "Q37",
             "mots_cles": [
               {
-                "theme": "Dimensionnement : Liaisons",
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
                 "semestre": "S4"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Statique",
-          "Spécifications géométriques",
-          "Dynamique",
-          "Résistance des matériaux",
-          "Dimensionnement",
-          "Matériaux"
+        ]
+      },
+      {
+        "titre_partie": "C.3 - Dessin d’étude de construction mécanique",
+        "questions": [
+          {
+            "numero": "C.3.3.1",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "C.3.3.2",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Capteurs",
+                "semestre": "S4"
+              }
+            ]
+          },
+          {
+            "numero": "C.3.3.3",
+            "mots_cles": [
+              {
+                "theme_sous_theme": "Transmissions mécaniques : Engrenages",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+                "semestre": "S4"
+              }
+            ]
+          }
         ]
       }
     ],

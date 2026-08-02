@@ -4,17 +4,17 @@
   "date": "2021",
   "file": "BPT_SIA_2021.pdf",
   "status": 200,
-  "time_s": 411.09,
+  "time_s": 46.86,
   "data": {
     "parties": [
       {
-        "titre_partie": "PARTIE 1",
+        "titre_partie": "Partie 1 : Étude cinématique d’un bras du robot",
         "questions": [
           {
             "numero": "Question 1",
             "mots_cles": [
               {
-                "theme": "Cinématique : Fermeture géométrique",
+                "theme_sous_theme": "Cinématique : Torseur cinématique",
                 "semestre": "S1"
               }
             ]
@@ -23,7 +23,7 @@
             "numero": "Question 2",
             "mots_cles": [
               {
-                "theme": "Cinématique : Lois entrée-sortie",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
               }
             ]
@@ -32,7 +32,7 @@
             "numero": "Question 3",
             "mots_cles": [
               {
-                "theme": "Cinématique : Lois entrée-sortie",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
               }
             ]
@@ -41,7 +41,7 @@
             "numero": "Question 4",
             "mots_cles": [
               {
-                "theme": "Cinématique : Lois entrée-sortie",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
               }
             ]
@@ -50,7 +50,7 @@
             "numero": "Question 5",
             "mots_cles": [
               {
-                "theme": "Cinématique : Lois entrée-sortie",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
               }
             ]
@@ -59,7 +59,7 @@
             "numero": "Question 6",
             "mots_cles": [
               {
-                "theme": "Cinématique : Fermeture géométrique",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
               }
             ]
@@ -68,7 +68,7 @@
             "numero": "Question 7",
             "mots_cles": [
               {
-                "theme": "Cinématique : Lois entrée-sortie",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
               }
             ]
@@ -77,7 +77,7 @@
             "numero": "Question 8",
             "mots_cles": [
               {
-                "theme": "Cinématique : Lois entrée-sortie",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
               }
             ]
@@ -86,7 +86,7 @@
             "numero": "Question 9",
             "mots_cles": [
               {
-                "theme": "Cinématique : Lois entrée-sortie",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
               }
             ]
@@ -95,7 +95,7 @@
             "numero": "Question 10",
             "mots_cles": [
               {
-                "theme": "Cinématique : Fermeture géométrique",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
               }
             ]
@@ -104,7 +104,7 @@
             "numero": "Question 11",
             "mots_cles": [
               {
-                "theme": "Cinématique : Fermeture géométrique",
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
                 "semestre": "S1"
               }
             ]
@@ -113,7 +113,7 @@
             "numero": "Question 12",
             "mots_cles": [
               {
-                "theme": "Cinématique : Fermeture géométrique",
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
                 "semestre": "S1"
               }
             ]
@@ -122,7 +122,7 @@
             "numero": "Question 13",
             "mots_cles": [
               {
-                "theme": "Cinématique : Fermeture géométrique",
+                "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
                 "semestre": "S1"
               }
             ]
@@ -131,7 +131,7 @@
             "numero": "Question 14",
             "mots_cles": [
               {
-                "theme": "Cinématique : Vitesses",
+                "theme_sous_theme": "Cinématique : Vitesses",
                 "semestre": "S1"
               }
             ]
@@ -140,7 +140,11 @@
             "numero": "Question 15",
             "mots_cles": [
               {
-                "theme": "Cinématique : Vitesses",
+                "theme_sous_theme": "Cinématique : Vitesses",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Cinématique : Torseur cinématique",
                 "semestre": "S1"
               }
             ]
@@ -149,7 +153,7 @@
             "numero": "Question 16",
             "mots_cles": [
               {
-                "theme": "Cinématique : Vitesses",
+                "theme_sous_theme": "Cinématique : Vitesses",
                 "semestre": "S1"
               }
             ]
@@ -158,25 +162,34 @@
             "numero": "Question 17",
             "mots_cles": [
               {
-                "theme": "Cinématique : Vitesses",
+                "theme_sous_theme": "Cinématique : Vitesses",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
                 "semestre": "S1"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Cinématique"
         ]
       },
       {
-        "titre_partie": "PARTIE 2",
+        "titre_partie": "Partie 2 : Étude des articulations élastiques du robot",
         "questions": [
           {
             "numero": "Question 18",
             "mots_cles": [
               {
-                "theme": "Résistance des matériaux : Contraintes",
+                "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
                 "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Matériaux : Propriétés physiques et mécaniques",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
               }
             ]
           },
@@ -184,8 +197,16 @@
             "numero": "Question 19",
             "mots_cles": [
               {
-                "theme": "Résistance des matériaux : Contraintes",
+                "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
                 "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Matériaux : Propriétés physiques et mécaniques",
+                "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
               }
             ]
           },
@@ -193,8 +214,12 @@
             "numero": "Question 20",
             "mots_cles": [
               {
-                "theme": "Dynamique : PFD",
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
                 "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+                "semestre": "S2"
               }
             ]
           },
@@ -202,8 +227,8 @@
             "numero": "Question 21",
             "mots_cles": [
               {
-                "theme": "Dynamique : PFD",
-                "semestre": "S3"
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+                "semestre": "S2"
               }
             ]
           },
@@ -211,7 +236,7 @@
             "numero": "Question 22",
             "mots_cles": [
               {
-                "theme": "Asservissement : Schéma-blocs, Laplace, Fonction de transfert",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
@@ -220,7 +245,11 @@
             "numero": "Question 23",
             "mots_cles": [
               {
-                "theme": "Asservissement : Stabilité",
+                "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
@@ -229,7 +258,11 @@
             "numero": "Question 24",
             "mots_cles": [
               {
-                "theme": "Asservissement : Stabilité",
+                "theme_sous_theme": "Asservissement : Stabilité",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Rapidité",
                 "semestre": "S2"
               }
             ]
@@ -238,8 +271,12 @@
             "numero": "Question 25",
             "mots_cles": [
               {
-                "theme": "Asservissement : Précision",
+                "theme_sous_theme": "Asservissement : Précision",
                 "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Correcteurs : Proportionnel",
+                "semestre": "S4"
               }
             ]
           },
@@ -247,26 +284,12 @@
             "numero": "Question 26",
             "mots_cles": [
               {
-                "theme": "Asservissement : Schéma-blocs, Laplace, Fonction de transfert",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Question 27",
-            "mots_cles": [
+              },
               {
-                "theme": "Asservissement : Stabilité",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Question 28",
-            "mots_cles": [
-              {
-                "theme": "Asservissement : Stabilité",
-                "semestre": "S2"
+                "theme_sous_theme": "Correcteurs : Proportionnel-intégral",
+                "semestre": "S4"
               }
             ]
           },
@@ -274,7 +297,11 @@
             "numero": "Question 29",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : Bode",
+                "theme_sous_theme": "Asservissement : Stabilité",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
                 "semestre": "S2"
               }
             ]
@@ -283,7 +310,11 @@
             "numero": "Question 30",
             "mots_cles": [
               {
-                "theme": "Asservissement : Précision",
+                "theme_sous_theme": "Asservissement : Précision",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
@@ -292,27 +323,29 @@
             "numero": "Question 31",
             "mots_cles": [
               {
-                "theme": "Asservissement : Rapidité",
+                "theme_sous_theme": "Asservissement : Rapidité",
                 "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Précision",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Résistance des matériaux",
-          "Dynamique",
-          "Asservissement",
-          "Modélisation des signaux"
         ]
       },
       {
-        "titre_partie": "PARTIE 3",
+        "titre_partie": "Partie 3 : Asservissement en position d’une articulation élastique",
         "questions": [
           {
             "numero": "Question 32",
             "mots_cles": [
               {
-                "theme": "Circuits alternatifs : Puissances active/réactive",
+                "theme_sous_theme": "Circuits alternatifs : Puissances active et réactive",
                 "semestre": "S3"
               }
             ]
@@ -321,8 +354,8 @@
             "numero": "Question 33",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : Bode, Temporel, Fréquentiel, 1er ordre, 2nd ordre",
-                "semestre": "S2"
+                "theme_sous_theme": "Machines électriques : Machine synchrone",
+                "semestre": "S4"
               }
             ]
           },
@@ -330,8 +363,12 @@
             "numero": "Question 34",
             "mots_cles": [
               {
-                "theme": "Circuits alternatifs : Puissances active/réactive",
+                "theme_sous_theme": "Circuits alternatifs : Puissances active et réactive",
                 "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Machines électriques : Machine synchrone",
+                "semestre": "S4"
               }
             ]
           },
@@ -339,8 +376,8 @@
             "numero": "Question 35",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : Bode, Temporel, Fréquentiel, 1er ordre, 2nd ordre",
-                "semestre": "S2"
+                "theme_sous_theme": "Machines électriques : Machine synchrone",
+                "semestre": "S4"
               }
             ]
           },
@@ -348,17 +385,8 @@
             "numero": "Question 36",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : Bode, Temporel, Fréquentiel, 1er ordre, 2nd ordre",
-                "semestre": "S2"
-              }
-            ]
-          },
-          {
-            "numero": "Question 37",
-            "mots_cles": [
-              {
-                "theme": "Modélisation des signaux : Bode, Temporel, Fréquentiel, 1er ordre, 2nd ordre",
-                "semestre": "S2"
+                "theme_sous_theme": "Machines électriques : Machine synchrone",
+                "semestre": "S4"
               }
             ]
           },
@@ -366,8 +394,8 @@
             "numero": "Question 38",
             "mots_cles": [
               {
-                "theme": "Circuits alternatifs : Puissances active/réactive",
-                "semestre": "S3"
+                "theme_sous_theme": "Machines électriques : Machine synchrone",
+                "semestre": "S4"
               }
             ]
           },
@@ -375,7 +403,11 @@
             "numero": "Question 39",
             "mots_cles": [
               {
-                "theme": "Asservissement : Schéma-blocs, Laplace, Fonction de transfert",
+                "theme_sous_theme": "Machines électriques : Machine synchrone",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
                 "semestre": "S2"
               }
             ]
@@ -384,8 +416,12 @@
             "numero": "Question 40",
             "mots_cles": [
               {
-                "theme": "Asservissement : Précision",
+                "theme_sous_theme": "Asservissement : Précision",
                 "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Correcteurs : Proportionnel",
+                "semestre": "S4"
               }
             ]
           },
@@ -393,7 +429,11 @@
             "numero": "Question 41",
             "mots_cles": [
               {
-                "theme": "Asservissement : Schéma-blocs, Laplace, Fonction de transfert",
+                "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Précision",
                 "semestre": "S2"
               }
             ]
@@ -402,8 +442,8 @@
             "numero": "Question 42",
             "mots_cles": [
               {
-                "theme": "Asservissement : Correcteur Proportionnel et intégral",
-                "semestre": "S2"
+                "theme_sous_theme": "Correcteurs : Proportionnel-intégral",
+                "semestre": "S4"
               }
             ]
           },
@@ -411,27 +451,42 @@
             "numero": "Question 43",
             "mots_cles": [
               {
-                "theme": "Asservissement : Rapidité",
+                "theme_sous_theme": "Asservissement : Rapidité",
                 "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Asservissement : Précision",
+                "semestre": "S2"
+              },
+              {
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Circuits alternatifs",
-          "Modélisation des signaux",
-          "Asservissement"
         ]
       },
       {
-        "titre_partie": "PARTIE 4",
+        "titre_partie": "Partie 4 : Vérification d’un point de fonctionnement de l’articulation du coude",
         "questions": [
           {
             "numero": "Question 44",
             "mots_cles": [
               {
-                "theme": "Dynamique : PFD",
+                "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
                 "semestre": "S3"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Ingénierie Système : Chaîne d'énergie",
+                "semestre": "S1"
+              },
+              {
+                "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+                "semestre": "S1"
               }
             ]
           },
@@ -439,8 +494,8 @@
             "numero": "Question 45",
             "mots_cles": [
               {
-                "theme": "Circuits alternatifs : Puissances active/réactive",
-                "semestre": "S3"
+                "theme_sous_theme": "Machines électriques : Machine synchrone",
+                "semestre": "S4"
               }
             ]
           },
@@ -448,8 +503,8 @@
             "numero": "Question 46",
             "mots_cles": [
               {
-                "theme": "Circuits alternatifs : Puissances active/réactive",
-                "semestre": "S3"
+                "theme_sous_theme": "Machines électriques : Machine synchrone",
+                "semestre": "S4"
               }
             ]
           },
@@ -457,8 +512,8 @@
             "numero": "Question 47",
             "mots_cles": [
               {
-                "theme": "Modélisation des signaux : Temporel",
-                "semestre": "S2"
+                "theme_sous_theme": "Machines électriques : Machine synchrone",
+                "semestre": "S4"
               }
             ]
           },
@@ -466,8 +521,12 @@
             "numero": "Question 48",
             "mots_cles": [
               {
-                "theme": "Circuits alternatifs : Puissances active/réactive",
-                "semestre": "S3"
+                "theme_sous_theme": "Machines électriques : Machine synchrone",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
               }
             ]
           },
@@ -475,8 +534,12 @@
             "numero": "Question 49",
             "mots_cles": [
               {
-                "theme": "Circuits alternatifs : Puissances active/réactive",
-                "semestre": "S3"
+                "theme_sous_theme": "Machines électriques : Machine synchrone",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
               }
             ]
           },
@@ -484,16 +547,19 @@
             "numero": "Question 50",
             "mots_cles": [
               {
-                "theme": "Circuits alternatifs : Puissances active/réactive",
-                "semestre": "S3"
+                "theme_sous_theme": "Machines électriques : Machine synchrone",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+                "semestre": "S4"
+              },
+              {
+                "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+                "semestre": "S1"
               }
             ]
           }
-        ],
-        "themes_partie": [
-          "Dynamique",
-          "Circuits alternatifs",
-          "Modélisation des signaux"
         ]
       }
     ],
