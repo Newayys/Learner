@@ -187,6 +187,21 @@
   .q-pills { display: flex; flex-wrap: wrap; gap: 5px; }
   .q-pill { padding: 4px 9px; border-radius: 5px; font-size: 12px; font-family: var(--mono); background: var(--accent-bg); color: var(--accent); border: 1px solid var(--accent-border); font-weight: 500; }
 
+  /* ── FRISE DE QUESTIONS (toutes thèmes, par sujet) ── */
+  .qline-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 6px; }
+  .qline-title { font-size: 11px; font-weight: 600; text-transform: uppercase; letter-spacing: .05em; color: var(--text3); }
+  .qline-strip { display: flex; flex-wrap: wrap; gap: 4px; margin-bottom: 8px; }
+  .qline-pill {
+    min-width: 26px; height: 24px; padding: 0 6px; border-radius: 5px;
+    color: #fff; font-size: 11px; font-family: var(--mono); font-weight: 700;
+    display: flex; align-items: center; justify-content: center; cursor: default;
+    text-shadow: 0 1px 1px rgba(0,0,0,.15);
+  }
+  .qline-pill.qline-empty { background: var(--surface2); color: var(--text3); border: 1px dashed var(--border); text-shadow: none; }
+  .qline-legend { display: flex; flex-wrap: wrap; gap: 8px 12px; margin-bottom: 4px; }
+  .qline-legend-item { display: inline-flex; align-items: center; gap: 4px; font-size: 11px; color: var(--text2); }
+  .qline-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+
   /* ── NOTEBOOK DRAWER ── */
   .nb-drawer {
     position: fixed; top: 0; right: -420px; bottom: 0; width: 420px; max-width: 100vw;
@@ -508,6 +523,47 @@ function normalizeQnum(q) {
 }
 function esc(s) { return s.replace(/\\/g,'\\\\').replace(/'/g,"\\'"); }
 
+// ── Frise de questions (toutes thèmes, pour UN sujet) ─────────────────────────
+function themeHash(name) {
+  let h = 0;
+  for (let i=0;i<name.length;i++) h = (h*31 + name.charCodeAt(i)) >>> 0;
+  return h;
+}
+function themeColor(name) {
+  if (!name) return '#9a9890';
+  return COLORS[themeHash(name) % COLORS.length];
+}
+function buildQuestionLine(doc) {
+  const items = [];
+  doc.parties.forEach(p => p.questions.forEach(q => {
+    const qnum = normalizeQnum(q.numero || '');
+    const themesSet = new Set();
+    (q.mots_cles||[]).forEach(mk => {
+      const {main} = parseTheme(mk.theme_sous_theme);
+      if (main) themesSet.add(main);
+    });
+    items.push({qnum, themes: [...themesSet]});
+  }));
+  return items;
+}
+function renderQuestionLine(doc) {
+  const items = buildQuestionLine(doc);
+  if (!items.length) return '<div style="padding:6px 0;color:var(--text3);font-size:12px">Aucune question indexée pour ce sujet.</div>';
+  const themesUsed = [...new Set(items.flatMap(it=>it.themes))];
+  const pills = items.map(it => {
+    const shortNum = it.qnum.replace(/^Q\s*/,'');
+    if (!it.themes.length) {
+      return `<div class="qline-pill qline-empty" title="${esc(it.qnum)} — non classé">${shortNum}</div>`;
+    }
+    const colors = it.themes.map(themeColor);
+    const bg = colors.length===1 ? colors[0] : `linear-gradient(90deg, ${colors.join(',')})`;
+    const title = `${it.qnum} — ${it.themes.join(' + ')}`;
+    return `<div class="qline-pill" style="background:${bg}" title="${title.replace(/"/g,'&quot;')}">${shortNum}</div>`;
+  }).join('');
+  const legend = themesUsed.map(t => `<span class="qline-legend-item"><span class="qline-dot" style="background:${themeColor(t)}"></span>${t}</span>`).join('');
+  return `<div class="qline-strip">${pills}</div><div class="qline-legend">${legend}</div>`;
+}
+
 // ── Liste thèmes ──────────────────────────────────────────────────────────────
 function buildThemeList() {
   const docs=getFilteredDocs(), counts={}, themeDocSets={};
@@ -659,13 +715,18 @@ function renderMultiCards(results,themes,maxPerTheme){
         <span style="font-family:var(--mono);font-size:11px;color:${n>0?color:'var(--text3)'};min-width:20px;text-align:right;flex-shrink:0">${n>0?n+'q':'-'}</span>
       </div>`;
     }).join('');
-    const bodyContent=themes.map((t,ti)=>{
+    const themeBlocks=themes.map((t,ti)=>{
       const{subMap,count}=perTheme[t];if(!count)return'';
       const color=COLORS[ti%COLORS.length];
       const sub=Object.entries(subMap).filter(([,qs])=>qs.length).sort((a,b)=>b[1].length-a[1].length)
         .map(([s,qs])=>`<div class="sub-block"><div class="sub-block-title">${s}</div><div class="q-pills">${qs.map(q=>`<span class="q-pill">${q}</span>`).join('')}</div></div>`).join('');
       return `<div class="theme-section-title" style="color:${color}">● ${t}</div>${sub}`;
     }).join('');
+    const bodyContent = `
+      <div class="qline-header"><span class="qline-title">Frise complète du sujet (tous thèmes)</span></div>
+      ${renderQuestionLine(doc)}
+      <div class="qline-header" style="margin-top:14px"><span class="qline-title">Détail — thèmes sélectionnés</span></div>
+      ${themeBlocks}`;
     return `<div class="annale-card" id="mcard-${i}">
       <div class="annale-header" onclick="toggleCard('mcard-${i}')">
         <div class="annale-row1">
@@ -776,6 +837,11 @@ function renderCards(results,maxQ,filterSubs){
       .map(([s,qs])=>`<div class="sub-block"><div class="sub-block-title">${s}</div><div class="q-pills">${qs.map(q=>`<span class="q-pill">${q}</span>`).join('')}</div></div>`).join('');
     const done=isDoneCard(activeTheme,doc.label);
     const noted=hasNote(doc.label);
+    const bodyContent = `
+      <div class="qline-header"><span class="qline-title">Frise complète du sujet (tous thèmes)</span></div>
+      ${renderQuestionLine(doc)}
+      <div class="qline-header" style="margin-top:14px"><span class="qline-title">Questions — ${activeTheme}</span></div>
+      ${subBlocks}`;
     return `<div class="annale-card ${done?'card-done':''}" id="card-${i}">
       <div class="annale-header" onclick="toggleCard('card-${i}')">
         <div class="annale-row1">
@@ -798,7 +864,7 @@ function renderCards(results,maxQ,filterSubs){
           </div>
         </div>
       </div>
-      <div class="annale-body" id="body-card-${i}">${subBlocks}</div>
+      <div class="annale-body" id="body-card-${i}">${bodyContent}</div>
     </div>`;
   }).join('');
 }
