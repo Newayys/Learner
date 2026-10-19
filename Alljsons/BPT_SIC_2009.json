@@ -6,7 +6,7 @@
  "status": 200,
  "source": "banquept.fr, rubrique « Annales d'annales » (rubrique23.html)",
  "epreuve_originale": "SI C",
- "classification": "automatique par mots-clés (Claude, oct. 2026) — moins fine que celle des sujets récents",
+ "classification": "relue question par question par Claude (oct. 2026), dans la taxonomie existante du site ; questions de conception rangées surtout en « Dimensionnement : Liaisons mécaniques »",
  "decoupage_questions": "roman",
  "texte_ocr": true,
  "pages_sujet": 16,
@@ -19,6 +19,10 @@
      {
       "numero": "I.1",
       "mots_cles": [
+       {
+        "theme_sous_theme": "Systèmes séquentiels : Diagramme d'états",
+        "semestre": "S1"
+       },
        {
         "theme_sous_theme": "Ingénierie Système : Chaîne d'information",
         "semestre": "S1"
@@ -65,12 +69,12 @@
       "numero": "II-A",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
+        "theme_sous_theme": "Cinématique : Torseur cinématique",
+        "semestre": "S1"
        },
        {
-        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
-        "semestre": "S1"
+        "theme_sous_theme": "Statique : Hyperstatisme",
+        "semestre": "S2"
        }
       ],
       "page": 6,
@@ -129,11 +133,7 @@
       "numero": "III-B.1",
       "mots_cles": [
        {
-        "theme_sous_theme": "Procédés : Usinage",
-        "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
+        "theme_sous_theme": "Matériaux : Choix",
         "semestre": "S3"
        }
       ],
@@ -146,10 +146,6 @@
      {
       "numero": "III-B.2",
       "mots_cles": [
-       {
-        "theme_sous_theme": "Procédés : Usinage",
-        "semestre": "S3"
-       },
        {
         "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
         "semestre": "S3"
@@ -165,16 +161,12 @@
       "numero": "III-B.3",
       "mots_cles": [
        {
-        "theme_sous_theme": "Procédés : Usinage",
+        "theme_sous_theme": "Matériaux : Choix",
         "semestre": "S3"
        },
        {
-        "theme_sous_theme": "Statique : Hyperstatisme",
-        "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Statique : Principe fondamental de la statique",
-        "semestre": "S2"
+        "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
+        "semestre": "S3"
        }
       ],
       "page": 8,
@@ -199,7 +191,7 @@
       "numero": "III-C.5",
       "mots_cles": [
        {
-        "theme_sous_theme": "Procédés : Usinage",
+        "theme_sous_theme": "Métrologie : Contrôle tridimensionnel",
         "semestre": "S3"
        }
       ],
@@ -211,7 +203,7 @@
       "numero": "III-C.6",
       "mots_cles": [
        {
-        "theme_sous_theme": "Procédés : Usinage",
+        "theme_sous_theme": "Métrologie : Contrôle tridimensionnel",
         "semestre": "S3"
        }
       ],
@@ -222,14 +214,6 @@
      {
       "numero": "III-C.7",
       "mots_cles": [
-       {
-        "theme_sous_theme": "Procédés : Usinage",
-        "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Capteurs",
-        "semestre": "S4"
-       },
        {
         "theme_sous_theme": "Métrologie : Contrôle tridimensionnel",
         "semestre": "S3"
@@ -247,14 +231,6 @@
        {
         "theme_sous_theme": "Procédés : Usinage",
         "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
-        "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Matériaux : Choix",
-        "semestre": "S3"
        }
       ],
       "page": 11,
@@ -268,7 +244,7 @@
       "numero": "III-C.9",
       "mots_cles": [
        {
-        "theme_sous_theme": "Procédés : Usinage",
+        "theme_sous_theme": "Métrologie : Contrôle tridimensionnel",
         "semestre": "S3"
        }
       ],
@@ -280,12 +256,12 @@
       "numero": "III-C.10",
       "mots_cles": [
        {
-        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
-        "semestre": "S2"
+        "theme_sous_theme": "Métrologie : Contrôle tridimensionnel",
+        "semestre": "S3"
        },
        {
-        "theme_sous_theme": "Procédés : Usinage",
-        "semestre": "S3"
+        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+        "semestre": "S2"
        }
       ],
       "page": 11,
@@ -298,16 +274,8 @@
       "numero": "III-C",
       "mots_cles": [
        {
-        "theme_sous_theme": "Statique : Principe fondamental de la statique",
-        "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
-        "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
        }
       ],
       "page": 11,

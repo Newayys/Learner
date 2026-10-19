@@ -6,7 +6,7 @@
  "status": 200,
  "source": "banquept.fr, rubrique « Annales d'annales » (rubrique23.html)",
  "epreuve_originale": "SI C",
- "classification": "automatique par mots-clés (Claude, oct. 2026) — moins fine que celle des sujets récents",
+ "classification": "relue question par question par Claude (oct. 2026), dans la taxonomie existante du site ; questions de conception rangées surtout en « Dimensionnement : Liaisons mécaniques »",
  "decoupage_questions": "Question",
  "texte_ocr": true,
  "pages_sujet": 20,
@@ -22,14 +22,6 @@
        {
         "theme_sous_theme": "Systèmes séquentiels : Diagramme d'états",
         "semestre": "S1"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Statique : Frottements",
-        "semestre": "S2"
        }
       ],
       "page": 5,
@@ -47,6 +39,10 @@
      {
       "numero": "Q2.1",
       "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       },
        {
         "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
         "semestre": "S4"
@@ -91,8 +87,8 @@
       "numero": "Q2.4",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
        }
       ],
       "page": 6,
@@ -105,12 +101,8 @@
       "numero": "Q2.5",
       "mots_cles": [
        {
-        "theme_sous_theme": "Cinématique : Vitesses",
-        "semestre": "S1"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
        }
       ],
       "page": 6,
@@ -135,8 +127,8 @@
       "numero": "Q3.3",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
        }
       ],
       "page": 7,
@@ -171,14 +163,6 @@
       "numero": "Q3.6",
       "mots_cles": [
        {
-        "theme_sous_theme": "Statique : Frottements",
-        "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
-       },
-       {
         "theme_sous_theme": "Cinématique : Vitesses",
         "semestre": "S1"
        }
@@ -196,8 +180,8 @@
       "numero": "Q4.1",
       "mots_cles": [
        {
-        "theme_sous_theme": "Procédés : Usinage",
-        "semestre": "S3"
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
        }
       ],
       "page": 8,
@@ -208,8 +192,12 @@
       "numero": "Q4.2",
       "mots_cles": [
        {
-        "theme_sous_theme": "Procédés : Usinage",
-        "semestre": "S3"
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
        }
       ],
       "page": 8,
@@ -220,8 +208,8 @@
       "numero": "Q4.3",
       "mots_cles": [
        {
-        "theme_sous_theme": "Procédés : Usinage",
-        "semestre": "S3"
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
        }
       ],
       "page": 8,
@@ -231,6 +219,10 @@
      {
       "numero": "Q4.4",
       "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       },
        {
         "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
         "semestre": "S3"
@@ -244,16 +236,8 @@
       "numero": "Q4.5",
       "mots_cles": [
        {
-        "theme_sous_theme": "Procédés : Usinage",
-        "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
-        "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Matériaux : Propriétés physiques et mécaniques",
-        "semestre": "S3"
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
        }
       ],
       "page": 8,
@@ -275,14 +259,6 @@
        {
         "theme_sous_theme": "Spécifications géométriques : Tolérancement",
         "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
-        "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Procédés : Usinage",
-        "semestre": "S3"
        }
       ],
       "page": 9,
@@ -295,7 +271,7 @@
       "numero": "Q5.2.1",
       "mots_cles": [
        {
-        "theme_sous_theme": "Procédés : Usinage",
+        "theme_sous_theme": "Matériaux : Choix",
         "semestre": "S3"
        }
       ],
@@ -321,11 +297,11 @@
       "numero": "Q5.2.3",
       "mots_cles": [
        {
-        "theme_sous_theme": "Procédés : Usinage",
+        "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
         "semestre": "S3"
        },
        {
-        "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
+        "theme_sous_theme": "Procédés : Usinage",
         "semestre": "S3"
        }
       ],
@@ -368,14 +344,6 @@
        {
         "theme_sous_theme": "Procédés : Usinage",
         "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
-        "semestre": "S3"
        }
       ],
       "page": 9,
@@ -403,10 +371,6 @@
        {
         "theme_sous_theme": "Procédés : Usinage",
         "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
        }
       ],
       "page": 10,
@@ -420,15 +384,11 @@
       "numero": "Q5.4.3",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
-        "semestre": "S2"
-       },
-       {
         "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
         "semestre": "S3"
        }
       ],

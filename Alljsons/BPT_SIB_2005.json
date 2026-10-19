@@ -6,7 +6,7 @@
  "status": 200,
  "source": "banquept.fr, rubrique « Annales d'annales » (rubrique23.html)",
  "epreuve_originale": "SI B",
- "classification": "automatique par mots-clés (Claude, oct. 2026) — moins fine que celle des sujets récents",
+ "classification": "relue question par question par Claude (oct. 2026), dans la taxonomie existante du site ; questions de conception rangées surtout en « Dimensionnement : Liaisons mécaniques »",
  "decoupage_questions": "cadreR",
  "texte_ocr": true,
  "pages_sujet": 36,
@@ -20,8 +20,8 @@
       "numero": "R1",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
+        "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
+        "semestre": "S1"
        }
       ],
       "page": 8,
@@ -34,8 +34,12 @@
       "numero": "R2",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
+        "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
        }
       ],
       "page": 8,
@@ -46,12 +50,12 @@
       "numero": "R3",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
+        "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
+        "semestre": "S1"
        },
        {
-        "theme_sous_theme": "Cinématique : Torseur cinématique",
-        "semestre": "S1"
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
        }
       ],
       "page": 8,
@@ -67,14 +71,6 @@
        {
         "theme_sous_theme": "Statique : Hyperstatisme",
         "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Résistance des matériaux : Torseur de cohésion",
-        "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Procédés : Usinage",
-        "semestre": "S3"
        }
       ],
       "page": 8,
@@ -84,6 +80,10 @@
      {
       "numero": "R6",
       "mots_cles": [
+       {
+        "theme_sous_theme": "Résistance des matériaux : Torseur de cohésion",
+        "semestre": "S3"
+       },
        {
         "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
         "semestre": "S3"
@@ -97,8 +97,8 @@
       "numero": "R7",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
        }
       ],
       "page": 9,
@@ -111,12 +111,12 @@
       "numero": "R8",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
-       },
-       {
         "theme_sous_theme": "Statique : Principe fondamental de la statique",
         "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
        }
       ],
       "page": 10,
@@ -143,14 +143,6 @@
        {
         "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
         "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
-        "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Statique : Principe fondamental de la statique",
-        "semestre": "S2"
        }
       ],
       "page": 10,
@@ -177,14 +169,6 @@
        {
         "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
         "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Résistance des matériaux : Torseur de cohésion",
-        "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
        }
       ],
       "page": 11,
@@ -195,15 +179,7 @@
       "numero": "R13",
       "mots_cles": [
        {
-        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
-        "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
         "semestre": "S3"
        }
       ],
@@ -230,10 +206,6 @@
      {
       "numero": "R15",
       "mots_cles": [
-       {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
-       },
        {
         "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
         "semestre": "S3"
@@ -265,15 +237,7 @@
       "numero": "R17",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
-       },
-       {
         "theme_sous_theme": "Spécifications géométriques : Tolérancement",
-        "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Asservissement : Précision",
         "semestre": "S2"
        }
       ],
@@ -290,14 +254,6 @@
        {
         "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
         "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
        }
       ],
       "page": 13,
@@ -312,6 +268,10 @@
        {
         "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
         "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+        "semestre": "S2"
        }
       ],
       "page": 14,
@@ -322,16 +282,8 @@
       "numero": "R20",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
-       },
-       {
         "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
         "semestre": "S1"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Capteurs",
-        "semestre": "S4"
        }
       ],
       "page": 14,
@@ -343,10 +295,6 @@
      {
       "numero": "R22",
       "mots_cles": [
-       {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
-       },
        {
         "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
         "semestre": "S3"

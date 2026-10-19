@@ -6,7 +6,7 @@
  "status": 200,
  "source": "banquept.fr, rubrique « Annales d'annales » (rubrique23.html)",
  "epreuve_originale": "Sciences Industrielles III",
- "classification": "automatique par mots-clés (Claude, oct. 2026) — moins fine que celle des sujets récents",
+ "classification": "relue question par question par Claude (oct. 2026), dans la taxonomie existante du site ; questions de conception rangées surtout en « Dimensionnement : Liaisons mécaniques »",
  "decoupage_questions": "Question",
  "texte_ocr": true,
  "pages_sujet": 23,
@@ -20,12 +20,8 @@
       "numero": "QI.1.a",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
        }
       ],
       "page": 4,
@@ -38,14 +34,6 @@
        {
         "theme_sous_theme": "Systèmes séquentiels : Diagramme d'états",
         "semestre": "S1"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Matériaux : Propriétés physiques et mécaniques",
-        "semestre": "S3"
        }
       ],
       "page": 5,
@@ -58,16 +46,12 @@
       "numero": "Q1.2",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
        },
        {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Capteurs",
-        "semestre": "S4"
+        "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
+        "semestre": "S1"
        }
       ],
       "page": 5,
@@ -78,7 +62,11 @@
       "numero": "Q1.2.1.b",
       "mots_cles": [
        {
-        "theme_sous_theme": "Cinématique : Vitesses",
+        "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Fermeture géométrique",
         "semestre": "S1"
        }
       ],
@@ -90,16 +78,8 @@
       "numero": "Q1.2.1.0",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Matériaux : Propriétés physiques et mécaniques",
-        "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
-        "semestre": "S3"
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
        }
       ],
       "page": 7,
@@ -111,6 +91,10 @@
      {
       "numero": "Q1.2.2.",
       "mots_cles": [
+       {
+        "theme_sous_theme": "Matériaux : Propriétés physiques et mécaniques",
+        "semestre": "S3"
+       },
        {
         "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
         "semestre": "S4"
@@ -141,10 +125,6 @@
        {
         "theme_sous_theme": "Spécifications géométriques : Tolérancement",
         "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
        }
       ],
       "page": 11,
@@ -169,6 +149,10 @@
        {
         "theme_sous_theme": "Spécifications géométriques : Tolérancement",
         "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Métrologie : Contrôle tridimensionnel",
+        "semestre": "S3"
        }
       ],
       "page": 11,
@@ -181,16 +165,8 @@
       "numero": "QIl.1.e",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
-       },
-       {
         "theme_sous_theme": "Spécifications géométriques : Tolérancement",
         "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
-        "semestre": "S3"
        }
       ],
       "page": 11,
@@ -203,10 +179,6 @@
        {
         "theme_sous_theme": "Procédés : Usinage",
         "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Statique : Hyperstatisme",
-        "semestre": "S2"
        },
        {
         "theme_sous_theme": "Spécifications géométriques : Tolérancement",
@@ -223,16 +195,8 @@
       "numero": "Q1.2.2",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
-       },
-       {
         "theme_sous_theme": "Procédés : Usinage",
         "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Statique : Hyperstatisme",
-        "semestre": "S2"
        }
       ],
       "page": 12,

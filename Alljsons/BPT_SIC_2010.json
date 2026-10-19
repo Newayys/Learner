@@ -6,7 +6,7 @@
  "status": 200,
  "source": "banquept.fr, rubrique « Annales d'annales » (rubrique23.html)",
  "epreuve_originale": "SI C",
- "classification": "automatique par mots-clés (Claude, oct. 2026) — moins fine que celle des sujets récents",
+ "classification": "relue question par question par Claude (oct. 2026), dans la taxonomie existante du site ; questions de conception rangées surtout en « Dimensionnement : Liaisons mécaniques »",
  "decoupage_questions": "num",
  "texte_ocr": true,
  "pages_sujet": 14,
@@ -20,8 +20,8 @@
       "numero": "1.1",
       "mots_cles": [
        {
-        "theme_sous_theme": "Énergétique : Puissance et rendement",
-        "semestre": "S3"
+        "theme_sous_theme": "Ingénierie Système : Chaîne d'énergie",
+        "semestre": "S1"
        }
       ],
       "page": 4,
@@ -32,8 +32,12 @@
       "numero": "1.2",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
+        "theme_sous_theme": "Ingénierie Système : Chaîne d'énergie",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
        }
       ],
       "page": 4,
@@ -44,15 +48,7 @@
       "numero": "1.3",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Capteurs",
-        "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "theme_sous_theme": "Ingénierie Système : Chaîne d'énergie",
         "semestre": "S1"
        }
       ],
@@ -67,10 +63,6 @@
       "mots_cles": [
        {
         "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Machines électriques : Machine à courant continu",
         "semestre": "S4"
        },
        {
@@ -91,10 +83,6 @@
        {
         "theme_sous_theme": "Systèmes séquentiels : Diagramme d'états",
         "semestre": "S1"
-       },
-       {
-        "theme_sous_theme": "Machines électriques : Machine à courant continu",
-        "semestre": "S4"
        }
       ],
       "page": 6,
@@ -106,14 +94,6 @@
      {
       "numero": "2.4",
       "mots_cles": [
-       {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Statique : Frottements",
-        "semestre": "S2"
-       },
        {
         "theme_sous_theme": "Systèmes séquentiels : Diagramme d'états",
         "semestre": "S1"
@@ -129,12 +109,8 @@
       "numero": "2.5",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
         "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
        }
       ],
       "page": 7,
@@ -180,10 +156,6 @@
       "numero": "2.8",
       "mots_cles": [
        {
-        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
-        "semestre": "S1"
-       },
-       {
         "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
         "semestre": "S4"
        },
@@ -207,14 +179,6 @@
        {
         "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
         "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
-        "semestre": "S1"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
        }
       ],
       "page": 7,
@@ -230,14 +194,6 @@
        {
         "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
         "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
-        "semestre": "S1"
        }
       ],
       "page": 8,
@@ -273,10 +229,6 @@
       "numero": "2.12",
       "mots_cles": [
        {
-        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
-        "semestre": "S1"
-       },
-       {
         "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
         "semestre": "S4"
        }
@@ -292,10 +244,6 @@
       "mots_cles": [
        {
         "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
         "semestre": "S4"
        }
       ],
@@ -314,8 +262,12 @@
       "numero": "3.1",
       "mots_cles": [
        {
-        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
-        "semestre": "S3"
+        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
        }
       ],
       "page": 9,
@@ -340,8 +292,8 @@
       "numero": "3.3",
       "mots_cles": [
        {
-        "theme_sous_theme": "Procédés : Usinage",
-        "semestre": "S3"
+        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+        "semestre": "S1"
        }
       ],
       "page": 9,
@@ -351,6 +303,10 @@
      {
       "numero": "3.4",
       "mots_cles": [
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+        "semestre": "S1"
+       },
        {
         "theme_sous_theme": "Énergétique : Puissance et rendement",
         "semestre": "S3"
@@ -364,7 +320,7 @@
       "numero": "3.5",
       "mots_cles": [
        {
-        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
+        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
         "semestre": "S1"
        }
       ],
@@ -377,14 +333,6 @@
      {
       "numero": "3.6",
       "mots_cles": [
-       {
-        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
-        "semestre": "S1"
-       },
-       {
-        "theme_sous_theme": "Cinématique : Vitesses",
-        "semestre": "S1"
-       },
        {
         "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
         "semestre": "S1"
@@ -441,15 +389,11 @@
       "numero": "3.10",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
+        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+        "semestre": "S1"
        },
        {
-        "theme_sous_theme": "Énergétique : Puissance et rendement",
-        "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Dynamique : Géométrie des masses",
+        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
         "semestre": "S3"
        }
       ],
@@ -461,8 +405,8 @@
       "numero": "3.11",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
+        "theme_sous_theme": "Matériaux : Choix",
+        "semestre": "S3"
        }
       ],
       "page": 10,
@@ -473,12 +417,12 @@
       "numero": "3.12",
       "mots_cles": [
        {
-        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "theme_sous_theme": "Matériaux : Choix",
         "semestre": "S3"
        },
        {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
+        "theme_sous_theme": "Procédés : Plasturgie",
+        "semestre": "S2"
        }
       ],
       "page": 10,
@@ -489,16 +433,8 @@
       "numero": "3.13",
       "mots_cles": [
        {
-        "theme_sous_theme": "Matériaux : Propriétés physiques et mécaniques",
+        "theme_sous_theme": "Matériaux : Choix",
         "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
        }
       ],
       "page": 10,
@@ -509,8 +445,12 @@
       "numero": "3.14",
       "mots_cles": [
        {
-        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
-        "semestre": "S1"
+        "theme_sous_theme": "Matériaux : Choix",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
+        "semestre": "S3"
        }
       ],
       "page": 10,
@@ -525,12 +465,8 @@
         "semestre": "S3"
        },
        {
-        "theme_sous_theme": "Procédés : Plasturgie",
-        "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Cinématique : Vitesses",
-        "semestre": "S1"
+        "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
+        "semestre": "S3"
        }
       ],
       "page": 10,
@@ -541,8 +477,8 @@
       "numero": "3.16",
       "mots_cles": [
        {
-        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
-        "semestre": "S1"
+        "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
+        "semestre": "S3"
        }
       ],
       "page": 11,
@@ -553,8 +489,12 @@
       "numero": "3.17",
       "mots_cles": [
        {
-        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
-        "semestre": "S1"
+        "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
        }
       ],
       "page": 11,
@@ -565,8 +505,8 @@
       "numero": "3.18",
       "mots_cles": [
        {
-        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
-        "semestre": "S1"
+        "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
+        "semestre": "S3"
        }
       ],
       "page": 11,
@@ -579,16 +519,12 @@
       "numero": "3.19",
       "mots_cles": [
        {
-        "theme_sous_theme": "Matériaux : Propriétés physiques et mécaniques",
-        "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Procédés : Usinage",
-        "semestre": "S3"
-       },
-       {
         "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
         "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
        }
       ],
       "page": 11,
@@ -607,10 +543,6 @@
        {
         "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
         "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
        }
       ],
       "page": 12,
@@ -622,10 +554,6 @@
      {
       "numero": "3.21",
       "mots_cles": [
-       {
-        "theme_sous_theme": "Procédés : Usinage",
-        "semestre": "S3"
-       },
        {
         "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
         "semestre": "S3"
@@ -641,10 +569,6 @@
      {
       "numero": "3.22",
       "mots_cles": [
-       {
-        "theme_sous_theme": "Procédés : Usinage",
-        "semestre": "S3"
-       },
        {
         "theme_sous_theme": "Matériaux : Choix",
         "semestre": "S3"
@@ -687,8 +611,8 @@
       "numero": "3.25",
       "mots_cles": [
        {
-        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
-        "semestre": "S1"
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
        }
       ],
       "page": 12,
@@ -713,14 +637,6 @@
        {
         "theme_sous_theme": "Spécifications géométriques : Tolérancement",
         "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Énergétique : Puissance et rendement",
-        "semestre": "S3"
        }
       ],
       "page": 13,

@@ -6,7 +6,7 @@
  "status": 200,
  "source": "banquept.fr, rubrique « Annales d'annales » (rubrique23.html)",
  "epreuve_originale": "SI A",
- "classification": "automatique par mots-clés (Claude, oct. 2026) — moins fine que celle des sujets récents",
+ "classification": "relue question par question par Claude (oct. 2026), dans la taxonomie existante du site ; questions de conception rangées surtout en « Dimensionnement : Liaisons mécaniques »",
  "decoupage_questions": "Question",
  "texte_ocr": true,
  "pages_sujet": 34,
@@ -20,15 +20,11 @@
       "numero": "Q2.",
       "mots_cles": [
        {
-        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
-        "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Matériaux : Choix",
-        "semestre": "S3"
-       },
-       {
         "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Chaîne d'énergie",
         "semestre": "S1"
        }
       ],
@@ -52,8 +48,8 @@
       "numero": "Q4.",
       "mots_cles": [
        {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
+        "theme_sous_theme": "Statique : Isostatisme",
+        "semestre": "S2"
        }
       ],
       "page": 8,
@@ -64,11 +60,11 @@
       "numero": "Q5.",
       "mots_cles": [
        {
-        "theme_sous_theme": "Cinématique : Torseur cinématique",
+        "theme_sous_theme": "Cinématique : Fermeture géométrique",
         "semestre": "S1"
        },
        {
-        "theme_sous_theme": "Cinématique : Vitesses",
+        "theme_sous_theme": "Cinématique : Torseur cinématique",
         "semestre": "S1"
        }
       ],
@@ -80,16 +76,12 @@
       "numero": "Q6.",
       "mots_cles": [
        {
-        "theme_sous_theme": "Statique : Hyperstatisme",
+        "theme_sous_theme": "Statique : Isostatisme",
         "semestre": "S2"
        },
        {
-        "theme_sous_theme": "Correcteurs : Correcteur numérique",
-        "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Cinématique : Torseur cinématique",
-        "semestre": "S1"
+        "theme_sous_theme": "Statique : Hyperstatisme",
+        "semestre": "S2"
        }
       ],
       "page": 9,
@@ -100,16 +92,8 @@
       "numero": "Q7.",
       "mots_cles": [
        {
-        "theme_sous_theme": "Cinématique : Torseur cinématique",
-        "semestre": "S1"
-       },
-       {
         "theme_sous_theme": "Statique : Hyperstatisme",
         "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Procédés : Usinage",
-        "semestre": "S3"
        }
       ],
       "page": 9,
@@ -120,7 +104,11 @@
       "numero": "Q9.",
       "mots_cles": [
        {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "theme_sous_theme": "Cinématique : Fermeture géométrique",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
         "semestre": "S1"
        }
       ],
@@ -132,15 +120,11 @@
       "numero": "Q12.",
       "mots_cles": [
        {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "theme_sous_theme": "Cinématique : Vitesses",
         "semestre": "S1"
        },
        {
-        "theme_sous_theme": "Asservissement : Stabilité",
-        "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Cinématique : Vitesses",
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
         "semestre": "S1"
        }
       ],
@@ -152,15 +136,15 @@
       "numero": "Q13.",
       "mots_cles": [
        {
-        "theme_sous_theme": "Statique : Frottements",
-        "semestre": "S2"
-       },
-       {
         "theme_sous_theme": "Cinématique : Vitesses",
         "semestre": "S1"
        },
        {
         "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
         "semestre": "S1"
        }
       ],
@@ -175,16 +159,12 @@
       "numero": "Q14.",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dynamique : Géométrie des masses",
+        "theme_sous_theme": "Énergétique : Inertie équivalente",
         "semestre": "S3"
        },
        {
-        "theme_sous_theme": "Énergétique : Puissance et rendement",
+        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
         "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
-        "semestre": "S1"
        }
       ],
       "page": 13,
@@ -199,8 +179,8 @@
       "numero": "Q18.",
       "mots_cles": [
        {
-        "theme_sous_theme": "Cinématique : Vitesses",
-        "semestre": "S1"
+        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+        "semestre": "S3"
        },
        {
         "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
@@ -219,16 +199,8 @@
       "numero": "Q19.",
       "mots_cles": [
        {
-        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
-        "semestre": "S1"
-       },
-       {
-        "theme_sous_theme": "Machines électriques : Machine à courant continu",
-        "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
+        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+        "semestre": "S3"
        }
       ],
       "page": 14,
@@ -243,11 +215,7 @@
         "semestre": "S2"
        },
        {
-        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
-        "semestre": "S1"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "theme_sous_theme": "Machines électriques : Machine à courant continu",
         "semestre": "S4"
        }
       ],
@@ -259,8 +227,12 @@
       "numero": "Q22.",
       "mots_cles": [
        {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
+        "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Machines électriques : Machine à courant continu",
+        "semestre": "S4"
        }
       ],
       "page": 15,
@@ -271,7 +243,11 @@
       "numero": "Q23.",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Machines électriques : Machine à courant continu",
         "semestre": "S4"
        }
       ],
@@ -287,8 +263,8 @@
         "semestre": "S2"
        },
        {
-        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
-        "semestre": "S1"
+        "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
+        "semestre": "S2"
        }
       ],
       "page": 15,
@@ -299,15 +275,7 @@
       "numero": "Q25.",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Capteurs",
-        "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
-        "semestre": "S1"
-       },
-       {
-        "theme_sous_theme": "Asservissement : Stabilité",
+        "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
         "semestre": "S2"
        }
       ],
@@ -321,6 +289,10 @@
        {
         "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
         "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Capteurs",
+        "semestre": "S4"
        }
       ],
       "page": 16,
@@ -331,15 +303,11 @@
       "numero": "Q27.",
       "mots_cles": [
        {
-        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
         "semestre": "S2"
        },
        {
         "theme_sous_theme": "Asservissement : Stabilité",
-        "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
         "semestre": "S2"
        }
       ],
@@ -353,14 +321,6 @@
        {
         "theme_sous_theme": "Asservissement : Stabilité",
         "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
-        "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
        }
       ],
       "page": 16,
@@ -373,14 +333,6 @@
        {
         "theme_sous_theme": "Asservissement : Précision",
         "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Statique : Principe fondamental de la statique",
-        "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Capteurs",
-        "semestre": "S4"
        }
       ],
       "page": 16,
@@ -391,16 +343,8 @@
       "numero": "Q30.",
       "mots_cles": [
        {
-        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "theme_sous_theme": "Asservissement : Précision",
         "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Statique : Frottements",
-        "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
-        "semestre": "S1"
        }
       ],
       "page": 16,
@@ -413,8 +357,12 @@
       "numero": "Q31.",
       "mots_cles": [
        {
-        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
         "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Capteurs",
+        "semestre": "S4"
        }
       ],
       "page": 17,
@@ -424,6 +372,10 @@
      {
       "numero": "Q32.",
       "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       },
        {
         "theme_sous_theme": "Asservissement : Précision",
         "semestre": "S2"
@@ -436,14 +388,6 @@
      {
       "numero": "Q33.",
       "mots_cles": [
-       {
-        "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
-        "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Asservissement : Rapidité",
-        "semestre": "S2"
-       },
        {
         "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
         "semestre": "S2"
@@ -459,15 +403,11 @@
       "numero": "Q34.",
       "mots_cles": [
        {
-        "theme_sous_theme": "Asservissement : Rapidité",
-        "semestre": "S2"
-       },
-       {
         "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
         "semestre": "S2"
        },
        {
-        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
         "semestre": "S2"
        }
       ],
@@ -493,11 +433,11 @@
       "numero": "Q37.",
       "mots_cles": [
        {
-        "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
-        "semestre": "S2"
+        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+        "semestre": "S3"
        },
        {
-        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
         "semestre": "S2"
        }
       ],
@@ -509,16 +449,12 @@
       "numero": "Q38.",
       "mots_cles": [
        {
+        "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
+        "semestre": "S2"
+       },
+       {
         "theme_sous_theme": "Asservissement : Rapidité",
         "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
-        "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
-        "semestre": "S3"
        }
       ],
       "page": 19,
@@ -529,16 +465,12 @@
       "numero": "Q39.",
       "mots_cles": [
        {
-        "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
+        "theme_sous_theme": "Asservissement : Précision",
         "semestre": "S2"
        },
        {
-        "theme_sous_theme": "Cinématique : Vitesses",
-        "semestre": "S1"
-       },
-       {
-        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
-        "semestre": "S3"
+        "theme_sous_theme": "Asservissement : Rapidité",
+        "semestre": "S2"
        }
       ],
       "page": 19,
@@ -549,16 +481,12 @@
       "numero": "Q40.",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Capteurs",
-        "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
+        "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
         "semestre": "S2"
        },
        {
-        "theme_sous_theme": "Statique : Principe fondamental de la statique",
-        "semestre": "S2"
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
        }
       ],
       "page": 19,
@@ -569,12 +497,8 @@
       "numero": "Q41.",
       "mots_cles": [
        {
-        "theme_sous_theme": "Asservissement : Rapidité",
+        "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
         "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
        }
       ],
       "page": 19,
@@ -585,8 +509,8 @@
       "numero": "Q43.",
       "mots_cles": [
        {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
        }
       ],
       "page": 21,
@@ -597,7 +521,7 @@
       "numero": "Q44.",
       "mots_cles": [
        {
-        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "theme_sous_theme": "Résistance des matériaux : Torseur de cohésion",
         "semestre": "S3"
        }
       ],
@@ -627,10 +551,6 @@
        {
         "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
         "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
        }
       ],
       "page": 21,
@@ -641,8 +561,12 @@
       "numero": "Q47.",
       "mots_cles": [
        {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
+        "theme_sous_theme": "Résistance des matériaux : Torseur de cohésion",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
        }
       ],
       "page": 22,
@@ -653,8 +577,8 @@
       "numero": "Q48.",
       "mots_cles": [
        {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
        }
       ],
       "page": 22,
@@ -665,16 +589,8 @@
       "numero": "Q49.",
       "mots_cles": [
        {
-        "theme_sous_theme": "Résistance des matériaux : Torseur de cohésion",
-        "semestre": "S3"
-       },
-       {
         "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
         "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
        }
       ],
       "page": 22,
@@ -697,7 +613,11 @@
       "numero": "Q53.",
       "mots_cles": [
        {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "theme_sous_theme": "Ingénierie Système : Chaîne d'information",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Chaîne d'énergie",
         "semestre": "S1"
        }
       ],
@@ -709,7 +629,7 @@
       "numero": "Q54.",
       "mots_cles": [
        {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "theme_sous_theme": "Ingénierie Système : Chaîne d'information",
         "semestre": "S1"
        }
       ],
@@ -721,8 +641,12 @@
       "numero": "Q55.",
       "mots_cles": [
        {
-        "theme_sous_theme": "Énergétique : Puissance et rendement",
-        "semestre": "S3"
+        "theme_sous_theme": "Ingénierie Système : Chaîne d'information",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Chaîne d'énergie",
+        "semestre": "S1"
        }
       ],
       "page": 26,
@@ -735,8 +659,8 @@
       "numero": "Q56.",
       "mots_cles": [
        {
-        "theme_sous_theme": "Énergétique : Puissance et rendement",
-        "semestre": "S3"
+        "theme_sous_theme": "Ingénierie Système : Chaîne d'énergie",
+        "semestre": "S1"
        }
       ],
       "page": 26,
@@ -747,16 +671,8 @@
       "numero": "Q57.",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Capteurs",
-        "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "theme_sous_theme": "Ingénierie Système : Chaîne d'énergie",
         "semestre": "S1"
-       },
-       {
-        "theme_sous_theme": "Énergétique : Puissance et rendement",
-        "semestre": "S3"
        }
       ],
       "page": 26,

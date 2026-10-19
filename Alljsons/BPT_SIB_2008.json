@@ -6,7 +6,7 @@
  "status": 200,
  "source": "banquept.fr, rubrique « Annales d'annales » (rubrique23.html)",
  "epreuve_originale": "SI B",
- "classification": "automatique par mots-clés (Claude, oct. 2026) — moins fine que celle des sujets récents",
+ "classification": "relue question par question par Claude (oct. 2026), dans la taxonomie existante du site ; questions de conception rangées surtout en « Dimensionnement : Liaisons mécaniques »",
  "decoupage_questions": "Qn",
  "texte_ocr": true,
  "pages_sujet": 20,
@@ -20,15 +20,11 @@
       "numero": "Q1",
       "mots_cles": [
        {
-        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
+        "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
         "semestre": "S1"
        },
        {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
+        "theme_sous_theme": "Cinématique : Fermeture géométrique",
         "semestre": "S1"
        }
       ],
@@ -44,10 +40,6 @@
        {
         "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
         "semestre": "S1"
-       },
-       {
-        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
-        "semestre": "S3"
        }
       ],
       "page": 7,
@@ -58,8 +50,8 @@
       "numero": "Q3",
       "mots_cles": [
        {
-        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
-        "semestre": "S3"
+        "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
+        "semestre": "S1"
        }
       ],
       "page": 7,
@@ -70,15 +62,7 @@
       "numero": "Q4",
       "mots_cles": [
        {
-        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
-        "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Statique : Principe fondamental de la statique",
-        "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
+        "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
         "semestre": "S1"
        }
       ],
@@ -116,8 +100,8 @@
       "numero": "Q7",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
-        "semestre": "S3"
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
        }
       ],
       "page": 9,
@@ -128,16 +112,8 @@
       "numero": "Q8",
       "mots_cles": [
        {
-        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
-        "semestre": "S1"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Cinématique : Vitesses",
-        "semestre": "S1"
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
        }
       ],
       "page": 9,
@@ -165,6 +141,10 @@
        {
         "theme_sous_theme": "Statique : Principe fondamental de la statique",
         "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
        }
       ],
       "page": 9,
@@ -189,10 +169,6 @@
        {
         "theme_sous_theme": "Statique : Principe fondamental de la statique",
         "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
        }
       ],
       "page": 10,
@@ -215,8 +191,8 @@
       "numero": "Q14",
       "mots_cles": [
        {
-        "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
-        "semestre": "S3"
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
        }
       ],
       "page": 10,
@@ -229,6 +205,10 @@
        {
         "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
         "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
+        "semestre": "S3"
        }
       ],
       "page": 10,
@@ -239,15 +219,11 @@
       "numero": "Q16",
       "mots_cles": [
        {
-        "theme_sous_theme": "Procédés : Usinage",
+        "theme_sous_theme": "Matériaux : Choix",
         "semestre": "S3"
        },
        {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Matériaux : Choix",
+        "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
         "semestre": "S3"
        }
       ],
@@ -261,8 +237,12 @@
       "numero": "Q17",
       "mots_cles": [
        {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
+        "theme_sous_theme": "Matériaux : Choix",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
+        "semestre": "S3"
        }
       ],
       "page": 11,
@@ -273,16 +253,8 @@
       "numero": "Q18",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Procédés : Usinage",
+        "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
         "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
        }
       ],
       "page": 11,
@@ -295,6 +267,10 @@
        {
         "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
         "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Statique : Hyperstatisme",
+        "semestre": "S2"
        }
       ],
       "page": 11,
@@ -305,16 +281,12 @@
       "numero": "Q20",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "theme_sous_theme": "Statique : Hyperstatisme",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
         "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
-        "semestre": "S1"
-       },
-       {
-        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
-        "semestre": "S3"
        }
       ],
       "page": 11,
@@ -327,12 +299,12 @@
       "numero": "Q21",
       "mots_cles": [
        {
-        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
-        "semestre": "S1"
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
        },
        {
-        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
-        "semestre": "S3"
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
        }
       ],
       "page": 12,
@@ -346,12 +318,12 @@
       "numero": "Q22",
       "mots_cles": [
        {
-        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
-        "semestre": "S1"
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
        },
        {
-        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
-        "semestre": "S3"
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
        }
       ],
       "page": 13,
@@ -365,15 +337,7 @@
       "numero": "Q23",
       "mots_cles": [
        {
-        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
-        "semestre": "S1"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Correcteurs : Proportionnel-intégral",
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
         "semestre": "S4"
        }
       ],
@@ -392,12 +356,8 @@
         "semestre": "S2"
        },
        {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
-        "semestre": "S1"
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
        }
       ],
       "page": 13,
@@ -410,16 +370,12 @@
       "numero": "Q25",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
+        "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
+        "semestre": "S1"
        },
        {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
-        "semestre": "S3"
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
        }
       ],
       "page": 14,

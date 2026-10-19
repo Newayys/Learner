@@ -6,7 +6,7 @@
  "status": 200,
  "source": "banquept.fr, rubrique « Annales d'annales » (rubrique23.html)",
  "epreuve_originale": "SI B",
- "classification": "automatique par mots-clés (Claude, oct. 2026) — moins fine que celle des sujets récents",
+ "classification": "relue question par question par Claude (oct. 2026), dans la taxonomie existante du site ; questions de conception rangées surtout en « Dimensionnement : Liaisons mécaniques »",
  "decoupage_questions": "Qn",
  "texte_ocr": true,
  "pages_sujet": 24,
@@ -20,8 +20,12 @@
       "numero": "Q1",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
+        "theme_sous_theme": "Cinématique : Torseur cinématique",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
+        "semestre": "S1"
        }
       ],
       "page": 9,
@@ -44,16 +48,8 @@
       "numero": "Q3",
       "mots_cles": [
        {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
-       },
-       {
         "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
         "semestre": "S1"
-       },
-       {
-        "theme_sous_theme": "Statique : Principe fondamental de la statique",
-        "semestre": "S2"
        }
       ],
       "page": 9,
@@ -64,8 +60,8 @@
       "numero": "Q4",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
+        "theme_sous_theme": "Statique : Hyperstatisme",
+        "semestre": "S2"
        }
       ],
       "page": 11,
@@ -87,14 +83,6 @@
      {
       "numero": "Q6",
       "mots_cles": [
-       {
-        "theme_sous_theme": "Dynamique : Géométrie des masses",
-        "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Cinématique : Vitesses",
-        "semestre": "S1"
-       },
        {
         "theme_sous_theme": "Cinématique : Torseur cinématique",
         "semestre": "S1"
@@ -144,8 +132,8 @@
       "numero": "Q10",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
+        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+        "semestre": "S3"
        }
       ],
       "page": 12,
@@ -192,8 +180,8 @@
       "numero": "Q14",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
+        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+        "semestre": "S3"
        }
       ],
       "page": 12,
@@ -203,10 +191,6 @@
      {
       "numero": "Q15",
       "mots_cles": [
-       {
-        "theme_sous_theme": "Statique : Principe fondamental de la statique",
-        "semestre": "S2"
-       },
        {
         "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
         "semestre": "S3"
@@ -220,12 +204,8 @@
       "numero": "Q16",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
         "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Statique : Principe fondamental de la statique",
-        "semestre": "S2"
        }
       ],
       "page": 13,
@@ -262,10 +242,6 @@
        {
         "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
         "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
        }
       ],
       "page": 14,
@@ -278,10 +254,6 @@
        {
         "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
         "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
        }
       ],
       "page": 14,
@@ -296,8 +268,8 @@
         "semestre": "S3"
        },
        {
-        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
-        "semestre": "S1"
+        "theme_sous_theme": "Matériaux : Choix",
+        "semestre": "S3"
        }
       ],
       "page": 14,
@@ -308,7 +280,7 @@
       "numero": "Q22",
       "mots_cles": [
        {
-        "theme_sous_theme": "Résistance des matériaux : Torseur de cohésion",
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
         "semestre": "S3"
        }
       ],
@@ -332,7 +304,7 @@
       "numero": "Q24",
       "mots_cles": [
        {
-        "theme_sous_theme": "Résistance des matériaux : Torseur de cohésion",
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
         "semestre": "S3"
        }
       ],
@@ -343,10 +315,6 @@
      {
       "numero": "Q25",
       "mots_cles": [
-       {
-        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
-        "semestre": "S1"
-       },
        {
         "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
         "semestre": "S3"
@@ -371,14 +339,6 @@
      {
       "numero": "Q27",
       "mots_cles": [
-       {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Statique : Principe fondamental de la statique",
-        "semestre": "S2"
-       },
        {
         "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
         "semestre": "S3"
@@ -413,6 +373,10 @@
       "numero": "Q29",
       "mots_cles": [
        {
+        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
+        "semestre": "S1"
+       },
+       {
         "theme_sous_theme": "Statique : Principe fondamental de la statique",
         "semestre": "S2"
        }
@@ -424,6 +388,10 @@
      {
       "numero": "Q30",
       "mots_cles": [
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
+        "semestre": "S1"
+       },
        {
         "theme_sous_theme": "Statique : Principe fondamental de la statique",
         "semestre": "S2"
@@ -437,16 +405,8 @@
       "numero": "Q31",
       "mots_cles": [
        {
-        "theme_sous_theme": "Statique : Principe fondamental de la statique",
-        "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Statique : Hyperstatisme",
-        "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
+        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
+        "semestre": "S1"
        }
       ],
       "page": 17,
@@ -487,14 +447,6 @@
        {
         "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
         "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
-        "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
-        "semestre": "S3"
        }
       ],
       "page": 18,
@@ -513,11 +465,7 @@
         "semestre": "S3"
        },
        {
-        "theme_sous_theme": "Procédés : Usinage",
-        "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Matériaux : Propriétés physiques et mécaniques",
+        "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
         "semestre": "S3"
        }
       ],
@@ -532,15 +480,7 @@
       "numero": "Q36",
       "mots_cles": [
        {
-        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
-        "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Procédés : Usinage",
+        "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
         "semestre": "S3"
        }
       ],
@@ -553,10 +493,6 @@
      {
       "numero": "Q37",
       "mots_cles": [
-       {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
-       },
        {
         "theme_sous_theme": "Spécifications géométriques : Tolérancement",
         "semestre": "S2"
@@ -574,14 +510,6 @@
        {
         "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
         "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Matériaux : Propriétés physiques et mécaniques",
-        "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
-        "semestre": "S2"
        }
       ],
       "page": 20,
@@ -602,14 +530,6 @@
        {
         "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
         "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Statique : Frottements",
-        "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Procédés : Composites",
-        "semestre": "S2"
        }
       ],
       "page": 21,
@@ -622,10 +542,6 @@
      {
       "numero": "Q40",
       "mots_cles": [
-       {
-        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
-        "semestre": "S2"
-       },
        {
         "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
         "semestre": "S4"

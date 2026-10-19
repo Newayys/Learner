@@ -6,7 +6,7 @@
  "status": 200,
  "source": "banquept.fr, rubrique « Annales d'annales » (rubrique23.html)",
  "epreuve_originale": "Sciences Industrielles III",
- "classification": "automatique par mots-clés (Claude, oct. 2026) — moins fine que celle des sujets récents",
+ "classification": "relue question par question par Claude (oct. 2026), dans la taxonomie existante du site ; questions de conception rangées surtout en « Dimensionnement : Liaisons mécaniques »",
  "decoupage_questions": "roman",
  "texte_ocr": true,
  "pages_sujet": 24,
@@ -20,11 +20,11 @@
       "numero": "I-A",
       "mots_cles": [
        {
-        "theme_sous_theme": "Résistance des matériaux : Torseur de cohésion",
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
         "semestre": "S3"
        },
        {
-        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "theme_sous_theme": "Résistance des matériaux : Torseur de cohésion",
         "semestre": "S3"
        }
       ],
@@ -41,16 +41,8 @@
       "numero": "I-B",
       "mots_cles": [
        {
-        "theme_sous_theme": "Statique : Frottements",
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
         "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Cinématique : Vitesses",
-        "semestre": "S1"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
        }
       ],
       "page": 6,
@@ -72,8 +64,8 @@
         "semestre": "S2"
        },
        {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
+        "theme_sous_theme": "Statique : Frottements",
+        "semestre": "S2"
        }
       ],
       "page": 7,
@@ -92,16 +84,12 @@
       "numero": "II-B",
       "mots_cles": [
        {
-        "theme_sous_theme": "Statique : Frottements",
-        "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
         "semestre": "S1"
        },
        {
-        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
-        "semestre": "S3"
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
        }
       ],
       "page": 8,
@@ -112,16 +100,8 @@
       "numero": "II-B6",
       "mots_cles": [
        {
-        "theme_sous_theme": "Matériaux : Propriétés physiques et mécaniques",
-        "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Statique : Frottements",
-        "semestre": "S2"
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
        }
       ],
       "page": 8,
@@ -139,16 +119,8 @@
       "numero": "III-B",
       "mots_cles": [
        {
-        "theme_sous_theme": "Matériaux : Propriétés physiques et mécaniques",
-        "semestre": "S3"
-       },
-       {
         "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
         "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
        }
       ],
       "page": 9,
@@ -182,14 +154,6 @@
        {
         "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
         "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
-        "semestre": "S1"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Capteurs",
-        "semestre": "S4"
        }
       ],
       "page": 10,
@@ -206,7 +170,7 @@
         "semestre": "S4"
        },
        {
-        "theme_sous_theme": "Statique : Frottements",
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
         "semestre": "S2"
        }
       ],
@@ -222,10 +186,6 @@
        {
         "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
         "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Systèmes séquentiels : Diagramme d'états",
-        "semestre": "S1"
        }
       ],
       "page": 11,
@@ -241,14 +201,6 @@
        {
         "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
         "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
-        "semestre": "S3"
        }
       ],
       "page": 11,
@@ -268,10 +220,6 @@
        {
         "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
         "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
        }
       ],
       "page": 11,
@@ -284,14 +232,6 @@
        {
         "theme_sous_theme": "Statique : Hyperstatisme",
         "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Correcteurs : Correcteur numérique",
-        "semestre": "S4"
        }
       ],
       "page": 11,
@@ -302,16 +242,8 @@
       "numero": "V-A2",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
-       },
-       {
         "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
         "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
-        "semestre": "S3"
        }
       ],
       "page": 11,

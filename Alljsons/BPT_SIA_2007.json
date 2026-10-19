@@ -6,7 +6,7 @@
  "status": 200,
  "source": "banquept.fr, rubrique « Annales d'annales » (rubrique23.html)",
  "epreuve_originale": "SI A",
- "classification": "automatique par mots-clés (Claude, oct. 2026) — moins fine que celle des sujets récents",
+ "classification": "relue question par question par Claude (oct. 2026), dans la taxonomie existante du site ; questions de conception rangées surtout en « Dimensionnement : Liaisons mécaniques »",
  "decoupage_questions": "Question",
  "texte_ocr": false,
  "pages_sujet": 30,
@@ -20,16 +20,8 @@
       "numero": "Q1",
       "mots_cles": [
        {
-        "theme_sous_theme": "Machines électriques : Machine synchrone",
-        "semestre": "S4"
-       },
-       {
         "theme_sous_theme": "Systèmes séquentiels : Diagramme d'états",
         "semestre": "S1"
-       },
-       {
-        "theme_sous_theme": "Correcteurs : Correcteur numérique",
-        "semestre": "S4"
        }
       ],
       "page": 7,
@@ -48,12 +40,16 @@
       "numero": "QB.1.1.1",
       "mots_cles": [
        {
-        "theme_sous_theme": "Énergétique : Théorème de l'énergie cinétique",
-        "semestre": "S3"
+        "theme_sous_theme": "Machines électriques : Machine à courant continu",
+        "semestre": "S4"
        },
        {
-        "theme_sous_theme": "Énergétique : Puissance et rendement",
-        "semestre": "S3"
+        "theme_sous_theme": "Machines électriques : Machine synchrone",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Chaîne d'énergie",
+        "semestre": "S1"
        }
       ],
       "page": 9,
@@ -64,8 +60,8 @@
       "numero": "QB.1.1.2",
       "mots_cles": [
        {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
+        "theme_sous_theme": "Machines électriques : Machine synchrone",
+        "semestre": "S4"
        }
       ],
       "page": 9,
@@ -76,11 +72,7 @@
       "numero": "QB.1.1.3",
       "mots_cles": [
        {
-        "theme_sous_theme": "Énergétique : Théorème de l'énergie cinétique",
-        "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Énergétique : Puissance et rendement",
+        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
         "semestre": "S3"
        }
       ],
@@ -92,8 +84,8 @@
       "numero": "QB.1.1.4",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
+        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+        "semestre": "S1"
        }
       ],
       "page": 9,
@@ -104,7 +96,7 @@
       "numero": "QB.1.1.5",
       "mots_cles": [
        {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "theme_sous_theme": "Cinématique : Vitesses",
         "semestre": "S1"
        }
       ],
@@ -118,10 +110,6 @@
        {
         "theme_sous_theme": "Énergétique : Inertie équivalente",
         "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
        }
       ],
       "page": 9,
@@ -144,12 +132,12 @@
       "numero": "QB.1.1.8",
       "mots_cles": [
        {
-        "theme_sous_theme": "Statique : Frottements",
-        "semestre": "S2"
-       },
-       {
         "theme_sous_theme": "Énergétique : Inertie équivalente",
         "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Statique : Frottements",
+        "semestre": "S2"
        }
       ],
       "page": 10,
@@ -160,16 +148,8 @@
       "numero": "QB.1.1.9",
       "mots_cles": [
        {
-        "theme_sous_theme": "Énergétique : Puissance et rendement",
+        "theme_sous_theme": "Énergétique : Inertie équivalente",
         "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Capteurs",
-        "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Ingénierie Système : Chaîne d'énergie",
-        "semestre": "S1"
        }
       ],
       "page": 10,
@@ -182,15 +162,11 @@
       "numero": "QB.1.2.1",
       "mots_cles": [
        {
-        "theme_sous_theme": "Cinématique : Vitesses",
-        "semestre": "S1"
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
        },
        {
-        "theme_sous_theme": "Énergétique : Puissance et rendement",
-        "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Ingénierie Système : Chaîne d'énergie",
+        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
         "semestre": "S1"
        }
       ],
@@ -202,16 +178,12 @@
       "numero": "QB.1.2.2",
       "mots_cles": [
        {
-        "theme_sous_theme": "Énergétique : Puissance et rendement",
-        "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Ingénierie Système : Chaîne d'énergie",
-        "semestre": "S1"
-       },
-       {
         "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
         "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Machines électriques : Machine synchrone",
+        "semestre": "S4"
        }
       ],
       "page": 10,
@@ -226,6 +198,10 @@
        {
         "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
         "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
+        "semestre": "S2"
        }
       ],
       "page": 11,
@@ -237,6 +213,10 @@
       "mots_cles": [
        {
         "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
         "semestre": "S2"
        }
       ],
@@ -276,11 +256,7 @@
         "semestre": "S2"
        },
        {
-        "theme_sous_theme": "Dimensionnement : Capteurs",
-        "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "theme_sous_theme": "Ingénierie Système : Chaîne d'énergie",
         "semestre": "S1"
        }
       ],
@@ -298,10 +274,6 @@
        {
         "theme_sous_theme": "Dimensionnement : Capteurs",
         "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
        }
       ],
       "page": 11,
@@ -316,8 +288,8 @@
         "semestre": "S2"
        },
        {
-        "theme_sous_theme": "Correcteurs : Correcteur numérique",
-        "semestre": "S4"
+        "theme_sous_theme": "Ingénierie Système : Chaîne d'information",
+        "semestre": "S1"
        }
       ],
       "page": 11,
@@ -327,6 +299,10 @@
      {
       "numero": "QB.2.1.1",
       "mots_cles": [
+       {
+        "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
+        "semestre": "S2"
+       },
        {
         "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
         "semestre": "S2"
@@ -340,16 +316,8 @@
       "numero": "QB.2.1.2",
       "mots_cles": [
        {
-        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
-        "semestre": "S2"
-       },
-       {
         "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
         "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Énergétique : Inertie équivalente",
-        "semestre": "S3"
        }
       ],
       "page": 12,
@@ -362,14 +330,6 @@
        {
         "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
         "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Correcteurs : Correcteur numérique",
-        "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Correcteurs : Proportionnel-intégral",
-        "semestre": "S4"
        }
       ],
       "page": 13,
@@ -382,6 +342,10 @@
        {
         "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
         "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Correcteurs : Correcteur numérique",
+        "semestre": "S4"
        }
       ],
       "page": 14,
@@ -392,16 +356,8 @@
       "numero": "QB.2.2.2",
       "mots_cles": [
        {
-        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
-        "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
-        "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
-        "semestre": "S2"
+        "theme_sous_theme": "Correcteurs : Correcteur numérique",
+        "semestre": "S4"
        }
       ],
       "page": 14,
@@ -414,8 +370,8 @@
       "numero": "QB.2.3.1",
       "mots_cles": [
        {
-        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
-        "semestre": "S2"
+        "theme_sous_theme": "Correcteurs : Correcteur numérique",
+        "semestre": "S4"
        }
       ],
       "page": 14,
@@ -426,8 +382,8 @@
       "numero": "QB.2.3.2",
       "mots_cles": [
        {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
+        "theme_sous_theme": "Correcteurs : Correcteur numérique",
+        "semestre": "S4"
        }
       ],
       "page": 14,
@@ -438,8 +394,8 @@
       "numero": "QB.2.3.3",
       "mots_cles": [
        {
-        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
-        "semestre": "S2"
+        "theme_sous_theme": "Correcteurs : Correcteur numérique",
+        "semestre": "S4"
        }
       ],
       "page": 14,
@@ -450,8 +406,8 @@
       "numero": "QB.2.3.4",
       "mots_cles": [
        {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
+        "theme_sous_theme": "Correcteurs : Correcteur numérique",
+        "semestre": "S4"
        }
       ],
       "page": 15,
@@ -462,8 +418,8 @@
       "numero": "QB.2.3.5",
       "mots_cles": [
        {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
+        "theme_sous_theme": "Correcteurs : Correcteur numérique",
+        "semestre": "S4"
        }
       ],
       "page": 15,
@@ -474,8 +430,8 @@
       "numero": "QB.2.3.6",
       "mots_cles": [
        {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
+        "theme_sous_theme": "Correcteurs : Correcteur numérique",
+        "semestre": "S4"
        }
       ],
       "page": 15,
@@ -486,8 +442,8 @@
       "numero": "QB.2.3.7",
       "mots_cles": [
        {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
+        "theme_sous_theme": "Correcteurs : Correcteur numérique",
+        "semestre": "S4"
        }
       ],
       "page": 15,
@@ -498,16 +454,8 @@
       "numero": "QB.2.3.8",
       "mots_cles": [
        {
-        "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
-        "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Cinématique : Vitesses",
-        "semestre": "S1"
-       },
-       {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
+        "theme_sous_theme": "Correcteurs : Correcteur numérique",
+        "semestre": "S4"
        }
       ],
       "page": 15,
@@ -518,8 +466,8 @@
       "numero": "QB.2.4.1",
       "mots_cles": [
        {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
+        "theme_sous_theme": "Correcteurs : Correcteur numérique",
+        "semestre": "S4"
        }
       ],
       "page": 15,
@@ -530,8 +478,8 @@
       "numero": "QB.2.4.2",
       "mots_cles": [
        {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
+        "theme_sous_theme": "Correcteurs : Correcteur numérique",
+        "semestre": "S4"
        }
       ],
       "page": 15,
@@ -542,16 +490,12 @@
       "numero": "QB.2.4.3",
       "mots_cles": [
        {
-        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
-        "semestre": "S2"
+        "theme_sous_theme": "Correcteurs : Correcteur numérique",
+        "semestre": "S4"
        },
        {
-        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
-        "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
-        "semestre": "S2"
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
        }
       ],
       "page": 16,
@@ -564,12 +508,8 @@
       "numero": "QB.2.4.4",
       "mots_cles": [
        {
-        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
-        "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Asservissement : Rapidité",
-        "semestre": "S2"
+        "theme_sous_theme": "Correcteurs : Correcteur numérique",
+        "semestre": "S4"
        }
       ],
       "page": 16,
@@ -580,8 +520,12 @@
       "numero": "QB.2.4.5",
       "mots_cles": [
        {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
+        "theme_sous_theme": "Correcteurs : Correcteur numérique",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Rapidité",
+        "semestre": "S2"
        }
       ],
       "page": 16,
@@ -592,16 +536,8 @@
       "numero": "QB.2.4.6",
       "mots_cles": [
        {
-        "theme_sous_theme": "Asservissement : Précision",
-        "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Cinématique : Vitesses",
-        "semestre": "S1"
-       },
-       {
-        "theme_sous_theme": "Statique : Principe fondamental de la statique",
-        "semestre": "S2"
+        "theme_sous_theme": "Correcteurs : Correcteur numérique",
+        "semestre": "S4"
        }
       ],
       "page": 16,
@@ -613,6 +549,10 @@
       "mots_cles": [
        {
         "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Précision",
         "semestre": "S2"
        }
       ],
@@ -626,10 +566,6 @@
        {
         "theme_sous_theme": "Asservissement : Précision",
         "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Statique : Principe fondamental de la statique",
-        "semestre": "S2"
        }
       ],
       "page": 16,
@@ -642,6 +578,10 @@
        {
         "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
         "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Précision",
+        "semestre": "S2"
        }
       ],
       "page": 17,
@@ -652,8 +592,8 @@
       "numero": "QB.2.5.2.2",
       "mots_cles": [
        {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
+        "theme_sous_theme": "Asservissement : Précision",
+        "semestre": "S2"
        }
       ],
       "page": 17,
@@ -664,16 +604,8 @@
       "numero": "QB.2.5.2.3",
       "mots_cles": [
        {
-        "theme_sous_theme": "Cinématique : Vitesses",
-        "semestre": "S1"
-       },
-       {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
-       },
-       {
-        "theme_sous_theme": "Asservissement : Rapidité",
-        "semestre": "S2"
+        "theme_sous_theme": "Correcteurs : Correcteur numérique",
+        "semestre": "S4"
        }
       ],
       "page": 17,
@@ -684,8 +616,8 @@
       "numero": "QB.2.5.3.1",
       "mots_cles": [
        {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
+        "theme_sous_theme": "Correcteurs : Correcteur numérique",
+        "semestre": "S4"
        }
       ],
       "page": 17,
@@ -696,8 +628,8 @@
       "numero": "QB.2.5.3.2",
       "mots_cles": [
        {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
+        "theme_sous_theme": "Correcteurs : Correcteur numérique",
+        "semestre": "S4"
        }
       ],
       "page": 17,
@@ -708,8 +640,8 @@
       "numero": "QB.2.5.3.3",
       "mots_cles": [
        {
-        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
-        "semestre": "S2"
+        "theme_sous_theme": "Correcteurs : Correcteur numérique",
+        "semestre": "S4"
        },
        {
         "theme_sous_theme": "Ingénierie Système : Cahier des charges",
@@ -726,12 +658,8 @@
       "numero": "QB.2.5.3.4",
       "mots_cles": [
        {
-        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
-        "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
-        "semestre": "S2"
+        "theme_sous_theme": "Correcteurs : Correcteur numérique",
+        "semestre": "S4"
        },
        {
         "theme_sous_theme": "Ingénierie Système : Cahier des charges",
@@ -748,8 +676,8 @@
       "numero": "QB.2.5.3.5",
       "mots_cles": [
        {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
+        "theme_sous_theme": "Correcteurs : Correcteur numérique",
+        "semestre": "S4"
        }
       ],
       "page": 18,
@@ -764,8 +692,8 @@
         "semestre": "S2"
        },
        {
-        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
-        "semestre": "S2"
+        "theme_sous_theme": "Correcteurs : Correcteur numérique",
+        "semestre": "S4"
        }
       ],
       "page": 18,
@@ -776,8 +704,8 @@
       "numero": "QB.2.5.3.7",
       "mots_cles": [
        {
-        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
-        "semestre": "S2"
+        "theme_sous_theme": "Correcteurs : Correcteur numérique",
+        "semestre": "S4"
        }
       ],
       "page": 18,
@@ -788,8 +716,8 @@
       "numero": "QB.2.5.3.8",
       "mots_cles": [
        {
-        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
-        "semestre": "S2"
+        "theme_sous_theme": "Correcteurs : Correcteur numérique",
+        "semestre": "S4"
        }
       ],
       "page": 18,
@@ -800,12 +728,8 @@
       "numero": "QB.2.5.3.9",
       "mots_cles": [
        {
-        "theme_sous_theme": "Cinématique : Vitesses",
-        "semestre": "S1"
-       },
-       {
-        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
-        "semestre": "S2"
+        "theme_sous_theme": "Correcteurs : Correcteur numérique",
+        "semestre": "S4"
        }
       ],
       "page": 18,
@@ -816,16 +740,12 @@
       "numero": "QB.2.6.1.1",
       "mots_cles": [
        {
-        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
-        "semestre": "S2"
-       },
-       {
         "theme_sous_theme": "Correcteurs : Correcteur numérique",
         "semestre": "S4"
        },
        {
-        "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
-        "semestre": "S2"
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
        }
       ],
       "page": 19,
@@ -840,12 +760,8 @@
         "semestre": "S2"
        },
        {
-        "theme_sous_theme": "Correcteurs : Correcteur numérique",
-        "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Énergétique : Puissance et rendement",
-        "semestre": "S3"
+        "theme_sous_theme": "Asservissement : Stabilité",
+        "semestre": "S2"
        }
       ],
       "page": 19,
@@ -858,6 +774,10 @@
        {
         "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
         "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Correcteurs : Correcteur numérique",
+        "semestre": "S4"
        }
       ],
       "page": 20,
@@ -868,16 +788,8 @@
       "numero": "QB.2.6.2.2",
       "mots_cles": [
        {
-        "theme_sous_theme": "Cinématique : Vitesses",
-        "semestre": "S1"
-       },
-       {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
-       },
-       {
-        "theme_sous_theme": "Asservissement : Rapidité",
-        "semestre": "S2"
+        "theme_sous_theme": "Correcteurs : Correcteur numérique",
+        "semestre": "S4"
        }
       ],
       "page": 21,
@@ -888,8 +800,8 @@
       "numero": "QB.2.6.3.1",
       "mots_cles": [
        {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
+        "theme_sous_theme": "Correcteurs : Correcteur numérique",
+        "semestre": "S4"
        }
       ],
       "page": 21,
@@ -900,8 +812,8 @@
       "numero": "QB.2.6.3.2",
       "mots_cles": [
        {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
+        "theme_sous_theme": "Correcteurs : Correcteur numérique",
+        "semestre": "S4"
        }
       ],
       "page": 21,
@@ -912,8 +824,8 @@
       "numero": "QB.2.6.3.3",
       "mots_cles": [
        {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
+        "theme_sous_theme": "Correcteurs : Correcteur numérique",
+        "semestre": "S4"
        }
       ],
       "page": 21,
@@ -924,12 +836,12 @@
       "numero": "QB.2.6.3.4",
       "mots_cles": [
        {
-        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
-        "semestre": "S2"
+        "theme_sous_theme": "Correcteurs : Correcteur numérique",
+        "semestre": "S4"
        },
        {
-        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
-        "semestre": "S2"
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
        }
       ],
       "page": 21,
@@ -942,8 +854,8 @@
       "numero": "QB.2.6.3.5",
       "mots_cles": [
        {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
+        "theme_sous_theme": "Correcteurs : Correcteur numérique",
+        "semestre": "S4"
        }
       ],
       "page": 21,
@@ -954,16 +866,16 @@
       "numero": "QB.2.6.3.6",
       "mots_cles": [
        {
-        "theme_sous_theme": "Cinématique : Vitesses",
-        "semestre": "S1"
-       },
-       {
         "theme_sous_theme": "Correcteurs : Correcteur numérique",
         "semestre": "S4"
        },
        {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
+        "theme_sous_theme": "Asservissement : Précision",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Rapidité",
+        "semestre": "S2"
        }
       ],
       "page": 22,
@@ -979,8 +891,8 @@
       "numero": "QC.2.1.1",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
+        "theme_sous_theme": "Cinématique : Torseur cinématique",
+        "semestre": "S1"
        }
       ],
       "page": 24,
@@ -991,8 +903,8 @@
       "numero": "QC.2.1.2",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
+        "theme_sous_theme": "Statique : Isostatisme",
+        "semestre": "S2"
        }
       ],
       "page": 24,
@@ -1003,8 +915,8 @@
       "numero": "QC.2.1.3",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
+        "theme_sous_theme": "Statique : Isostatisme",
+        "semestre": "S2"
        }
       ],
       "page": 24,
@@ -1015,8 +927,8 @@
       "numero": "QC.2.1.4",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
        }
       ],
       "page": 24,
@@ -1029,10 +941,6 @@
        {
         "theme_sous_theme": "Cinématique : Fermeture géométrique",
         "semestre": "S1"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
        }
       ],
       "page": 24,
@@ -1043,7 +951,11 @@
       "numero": "QC.2.1.6",
       "mots_cles": [
        {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "theme_sous_theme": "Cinématique : Fermeture géométrique",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
         "semestre": "S1"
        }
       ],
@@ -1055,8 +967,8 @@
       "numero": "QC.2.1.7",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
+        "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
+        "semestre": "S1"
        }
       ],
       "page": 24,
@@ -1067,16 +979,8 @@
       "numero": "QC.2.1.8",
       "mots_cles": [
        {
-        "theme_sous_theme": "Cinématique : Vitesses",
+        "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
         "semestre": "S1"
-       },
-       {
-        "theme_sous_theme": "Énergétique : Puissance et rendement",
-        "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
        }
       ],
       "page": 24,
@@ -1135,7 +1039,7 @@
       "numero": "QC.2.2.5",
       "mots_cles": [
        {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "theme_sous_theme": "Cinématique : Vitesses",
         "semestre": "S1"
        }
       ],
@@ -1159,7 +1063,7 @@
       "numero": "QC.2.2.7",
       "mots_cles": [
        {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "theme_sous_theme": "Cinématique : Vitesses",
         "semestre": "S1"
        }
       ],
@@ -1197,6 +1101,10 @@
        {
         "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
         "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
        }
       ],
       "page": 25,
@@ -1211,8 +1119,8 @@
         "semestre": "S1"
        },
        {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
+        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+        "semestre": "S1"
        }
       ],
       "page": 25,
@@ -1222,6 +1130,10 @@
      {
       "numero": "QC.2.2.12",
       "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
        {
         "theme_sous_theme": "Cinématique : Accélérations",
         "semestre": "S1"
@@ -1235,16 +1147,8 @@
       "numero": "QC.2.2.13",
       "mots_cles": [
        {
-        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
-        "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
-        "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Énergétique : Puissance et rendement",
-        "semestre": "S3"
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
        }
       ],
       "page": 25,
@@ -1260,8 +1164,8 @@
       "numero": "QD.1.1.1",
       "mots_cles": [
        {
-        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
-        "semestre": "S3"
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
        }
       ],
       "page": 27,
@@ -1298,10 +1202,6 @@
        {
         "theme_sous_theme": "Statique : Principe fondamental de la statique",
         "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
        }
       ],
       "page": 27,
@@ -1311,6 +1211,10 @@
      {
       "numero": "QD.1.2.1",
       "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       },
        {
         "theme_sous_theme": "Statique : Frottements",
         "semestre": "S2"
@@ -1324,12 +1228,8 @@
       "numero": "QD.1.2.2",
       "mots_cles": [
        {
-        "theme_sous_theme": "Statique : Frottements",
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
         "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
-        "semestre": "S3"
        },
        {
         "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
@@ -1358,14 +1258,6 @@
        {
         "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
         "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Statique : Principe fondamental de la statique",
-        "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
        }
       ],
       "page": 27,

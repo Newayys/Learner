@@ -6,7 +6,7 @@
  "status": 200,
  "source": "banquept.fr, rubrique « Annales d'annales » (rubrique23.html)",
  "epreuve_originale": "SI C",
- "classification": "automatique par mots-clés (Claude, oct. 2026) — moins fine que celle des sujets récents",
+ "classification": "relue question par question par Claude (oct. 2026), dans la taxonomie existante du site ; questions de conception rangées surtout en « Dimensionnement : Liaisons mécaniques »",
  "decoupage_questions": "Question",
  "texte_ocr": true,
  "pages_sujet": 12,
@@ -34,14 +34,6 @@
       "numero": "Q1.2",
       "mots_cles": [
        {
-        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
-        "semestre": "S1"
-       },
-       {
-        "theme_sous_theme": "Statique : Frottements",
-        "semestre": "S2"
-       },
-       {
         "theme_sous_theme": "Systèmes séquentiels : Diagramme d'états",
         "semestre": "S1"
        }
@@ -63,7 +55,7 @@
       "numero": "Q2.1",
       "mots_cles": [
        {
-        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+        "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
         "semestre": "S1"
        }
       ],
@@ -82,7 +74,7 @@
         "semestre": "S1"
        },
        {
-        "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
+        "theme_sous_theme": "Cinématique : Vitesses",
         "semestre": "S1"
        }
       ],
@@ -98,10 +90,6 @@
        {
         "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
         "semestre": "S1"
-       },
-       {
-        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
-        "semestre": "S1"
        }
       ],
       "page": 4,
@@ -114,6 +102,10 @@
      {
       "numero": "Q2.4",
       "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       },
        {
         "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
         "semestre": "S1"
@@ -129,14 +121,6 @@
       "numero": "Q2.5",
       "mots_cles": [
        {
-        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
-        "semestre": "S1"
-       },
-       {
-        "theme_sous_theme": "Statique : Frottements",
-        "semestre": "S2"
-       },
-       {
         "theme_sous_theme": "Énergétique : Puissance et rendement",
         "semestre": "S3"
        }
@@ -151,12 +135,12 @@
       "numero": "Q2.6",
       "mots_cles": [
        {
-        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
-        "semestre": "S1"
+        "theme_sous_theme": "Statique : Frottements",
+        "semestre": "S2"
        },
        {
-        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
-        "semestre": "S3"
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
        }
       ],
       "page": 5,
@@ -169,16 +153,8 @@
       "numero": "Q2.7",
       "mots_cles": [
        {
-        "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
+        "theme_sous_theme": "Statique : Frottements",
         "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Cinématique : Vitesses",
-        "semestre": "S1"
-       },
-       {
-        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
-        "semestre": "S1"
        }
       ],
       "page": 5,
@@ -191,16 +167,8 @@
       "numero": "Q2.8",
       "mots_cles": [
        {
-        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
-        "semestre": "S1"
-       },
-       {
         "theme_sous_theme": "Statique : Frottements",
         "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Cinématique : Vitesses",
-        "semestre": "S1"
        }
       ],
       "page": 5,
@@ -214,8 +182,8 @@
       "numero": "Q2.9",
       "mots_cles": [
        {
-        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
-        "semestre": "S1"
+        "theme_sous_theme": "Statique : Frottements",
+        "semestre": "S2"
        }
       ],
       "page": 5,
@@ -228,8 +196,8 @@
       "numero": "Q2.10",
       "mots_cles": [
        {
-        "theme_sous_theme": "Procédés : Usinage",
-        "semestre": "S3"
+        "theme_sous_theme": "Statique : Frottements",
+        "semestre": "S2"
        }
       ],
       "page": 6,
@@ -240,16 +208,8 @@
       "numero": "Q2.11",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Capteurs",
-        "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Cinématique : Accélérations",
-        "semestre": "S1"
-       },
-       {
-        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
-        "semestre": "S1"
+        "theme_sous_theme": "Statique : Frottements",
+        "semestre": "S2"
        }
       ],
       "page": 6,
@@ -263,8 +223,12 @@
       "numero": "Q2.12",
       "mots_cles": [
        {
-        "theme_sous_theme": "Cinématique : Accélérations",
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
         "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Statique : Frottements",
+        "semestre": "S2"
        }
       ],
       "page": 6,
@@ -275,16 +239,8 @@
       "numero": "Q2.13",
       "mots_cles": [
        {
-        "theme_sous_theme": "Résistance des matériaux : Torseur de cohésion",
-        "semestre": "S3"
-       },
-       {
         "theme_sous_theme": "Statique : Principe fondamental de la statique",
         "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
        }
       ],
       "page": 6,
@@ -295,7 +251,7 @@
       "numero": "Q2.14",
       "mots_cles": [
        {
-        "theme_sous_theme": "Procédés : Usinage",
+        "theme_sous_theme": "Résistance des matériaux : Torseur de cohésion",
         "semestre": "S3"
        }
       ],
@@ -319,16 +275,8 @@
       "numero": "Q2.16",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
-        "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
-        "semestre": "S1"
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
        }
       ],
       "page": 6,
@@ -364,14 +312,6 @@
        {
         "theme_sous_theme": "Spécifications géométriques : Tolérancement",
         "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
-        "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Procédés : Usinage",
-        "semestre": "S3"
        }
       ],
       "page": 7,
@@ -384,15 +324,7 @@
       "numero": "Q3.3",
       "mots_cles": [
        {
-        "theme_sous_theme": "Statique : Principe fondamental de la statique",
-        "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Procédés : Usinage",
-        "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
+        "theme_sous_theme": "Matériaux : Choix",
         "semestre": "S3"
        }
       ],
@@ -406,7 +338,7 @@
       "numero": "Q3.4",
       "mots_cles": [
        {
-        "theme_sous_theme": "Procédés : Usinage",
+        "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
         "semestre": "S3"
        }
       ],
@@ -418,7 +350,7 @@
       "numero": "Q3.5",
       "mots_cles": [
        {
-        "theme_sous_theme": "Procédés : Usinage",
+        "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
         "semestre": "S3"
        }
       ],
@@ -432,16 +364,8 @@
       "numero": "Q3.6",
       "mots_cles": [
        {
-        "theme_sous_theme": "Procédés : Usinage",
-        "semestre": "S3"
-       },
-       {
         "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
         "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
        }
       ],
       "page": 8,
@@ -484,14 +408,6 @@
        {
         "theme_sous_theme": "Procédés : Usinage",
         "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
-        "semestre": "S3"
        }
       ],
       "page": 8,
@@ -504,14 +420,6 @@
      {
       "numero": "Q3.10",
       "mots_cles": [
-       {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
-       },
        {
         "theme_sous_theme": "Procédés : Usinage",
         "semestre": "S3"
@@ -549,14 +457,6 @@
        {
         "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
         "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
-        "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
        }
       ],
       "page": 10,
@@ -572,10 +472,6 @@
        {
         "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
         "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
-        "semestre": "S3"
        }
       ],
       "page": 10,

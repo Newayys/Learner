@@ -6,7 +6,7 @@
  "status": 200,
  "source": "banquept.fr, rubrique « Annales d'annales » (rubrique23.html)",
  "epreuve_originale": "SI A",
- "classification": "automatique par mots-clés (Claude, oct. 2026) — moins fine que celle des sujets récents",
+ "classification": "relue question par question par Claude (oct. 2026), dans la taxonomie existante du site ; questions de conception rangées surtout en « Dimensionnement : Liaisons mécaniques »",
  "decoupage_questions": "Question",
  "texte_ocr": true,
  "pages_sujet": 29,
@@ -21,10 +21,6 @@
       "mots_cles": [
        {
         "theme_sous_theme": "Systèmes séquentiels : Diagramme d'états",
-        "semestre": "S1"
-       },
-       {
-        "theme_sous_theme": "Ingénierie Système : Chaîne d'information",
         "semestre": "S1"
        }
       ],
@@ -43,16 +39,8 @@
       "numero": "Q1.2",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dynamique : Géométrie des masses",
-        "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+        "theme_sous_theme": "Systèmes séquentiels : Diagramme d'états",
         "semestre": "S1"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
        }
       ],
       "page": 7,
@@ -72,15 +60,11 @@
       "numero": "Q1.6",
       "mots_cles": [
        {
-        "theme_sous_theme": "Cinématique : Vitesses",
-        "semestre": "S1"
-       },
-       {
         "theme_sous_theme": "Cinématique : Accélérations",
         "semestre": "S1"
        },
        {
-        "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
+        "theme_sous_theme": "Cinématique : Vitesses",
         "semestre": "S1"
        }
       ],
@@ -92,7 +76,11 @@
       "numero": "Q1.7",
       "mots_cles": [
        {
-        "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
+        "theme_sous_theme": "Cinématique : Accélérations",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
         "semestre": "S1"
        }
       ],
@@ -103,6 +91,10 @@
      {
       "numero": "Q1.8",
       "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       },
        {
         "theme_sous_theme": "Systèmes séquentiels : Diagramme d'états",
         "semestre": "S1"
@@ -116,16 +108,12 @@
       "numero": "Q1.9",
       "mots_cles": [
        {
-        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
-        "semestre": "S1"
+        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+        "semestre": "S3"
        },
        {
-        "theme_sous_theme": "Systèmes séquentiels : Diagramme d'états",
-        "semestre": "S1"
-       },
-       {
-        "theme_sous_theme": "Cinématique : Vitesses",
-        "semestre": "S1"
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
        }
       ],
       "page": 10,
@@ -167,8 +155,8 @@
       "numero": "Q2.9",
       "mots_cles": [
        {
-        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
-        "semestre": "S1"
+        "theme_sous_theme": "Statique : Liaisons équivalentes",
+        "semestre": "S2"
        }
       ],
       "page": 14,
@@ -179,16 +167,12 @@
       "numero": "Q2.10",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dynamique : Géométrie des masses",
-        "semestre": "S3"
+        "theme_sous_theme": "Statique : Liaisons équivalentes",
+        "semestre": "S2"
        },
        {
         "theme_sous_theme": "Statique : Hyperstatisme",
         "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
-        "semestre": "S1"
        }
       ],
       "page": 14,
@@ -218,8 +202,8 @@
       "numero": "Q2.12",
       "mots_cles": [
        {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
        }
       ],
       "page": 15,
@@ -230,16 +214,12 @@
       "numero": "Q2.13",
       "mots_cles": [
        {
-        "theme_sous_theme": "Cinématique : Accélérations",
-        "semestre": "S1"
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
        },
        {
-        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
-        "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
-        "semestre": "S1"
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
        }
       ],
       "page": 15,
@@ -267,10 +247,6 @@
       "numero": "Q2.15",
       "mots_cles": [
        {
-        "theme_sous_theme": "Cinématique : Accélérations",
-        "semestre": "S1"
-       },
-       {
         "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
         "semestre": "S3"
        }
@@ -297,10 +273,6 @@
       "numero": "Q2.17",
       "mots_cles": [
        {
-        "theme_sous_theme": "Cinématique : Accélérations",
-        "semestre": "S1"
-       },
-       {
         "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
         "semestre": "S3"
        }
@@ -320,8 +292,8 @@
       "numero": "Q2.18",
       "mots_cles": [
        {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
+        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+        "semestre": "S3"
        }
       ],
       "page": 17,
@@ -332,12 +304,12 @@
       "numero": "Q2.19",
       "mots_cles": [
        {
-        "theme_sous_theme": "Statique : Principe fondamental de la statique",
-        "semestre": "S2"
+        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+        "semestre": "S3"
        },
        {
-        "theme_sous_theme": "Cinématique : Accélérations",
-        "semestre": "S1"
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
        }
       ],
       "page": 17,
@@ -350,11 +322,11 @@
       "numero": "Q2.20",
       "mots_cles": [
        {
-        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
         "semestre": "S3"
        },
        {
-        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
         "semestre": "S3"
        }
       ],
@@ -374,12 +346,8 @@
       "numero": "Q3.1",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dynamique : Géométrie des masses",
+        "theme_sous_theme": "Énergétique : Inertie équivalente",
         "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
        }
       ],
       "page": 20,
@@ -390,16 +358,12 @@
       "numero": "Q3.2",
       "mots_cles": [
        {
-        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
-        "semestre": "S2"
+        "theme_sous_theme": "Ingénierie Système : Chaîne d'énergie",
+        "semestre": "S1"
        },
        {
-        "theme_sous_theme": "Énergétique : Puissance et rendement",
-        "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Énergétique : Théorème de l'énergie cinétique",
-        "semestre": "S3"
+        "theme_sous_theme": "Ingénierie Système : Chaîne d'information",
+        "semestre": "S1"
        }
       ],
       "page": 20,
@@ -415,8 +379,8 @@
       "numero": "Q3.4",
       "mots_cles": [
        {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
        }
       ],
       "page": 21,
@@ -443,10 +407,6 @@
         "semestre": "S2"
        },
        {
-        "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
-        "semestre": "S2"
-       },
-       {
         "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
         "semestre": "S2"
        }
@@ -465,6 +425,10 @@
       "mots_cles": [
        {
         "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
         "semestre": "S2"
        }
       ],
@@ -488,11 +452,11 @@
       "numero": "Q3.9",
       "mots_cles": [
        {
-        "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
         "semestre": "S2"
        },
        {
-        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
         "semestre": "S2"
        }
       ],
@@ -506,10 +470,6 @@
        {
         "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
         "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
-        "semestre": "S3"
        }
       ],
       "page": 22,
@@ -520,16 +480,8 @@
       "numero": "Q3.11",
       "mots_cles": [
        {
-        "theme_sous_theme": "Asservissement : Stabilité",
-        "semestre": "S2"
-       },
-       {
         "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
         "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
-        "semestre": "S1"
        }
       ],
       "page": 22,
@@ -547,12 +499,8 @@
       "numero": "Q3.13",
       "mots_cles": [
        {
-        "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
-        "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Cinématique : Vitesses",
-        "semestre": "S1"
+        "theme_sous_theme": "Correcteurs : Proportionnel-intégral",
+        "semestre": "S4"
        },
        {
         "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
@@ -572,8 +520,12 @@
       "numero": "Q3.14",
       "mots_cles": [
        {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
+        "theme_sous_theme": "Correcteurs : Proportionnel-intégral",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Correcteurs : Avance de phase",
+        "semestre": "S4"
        }
       ],
       "page": 25,
@@ -596,8 +548,12 @@
       "numero": "Q3.16",
       "mots_cles": [
        {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Stabilité",
+        "semestre": "S2"
        }
       ],
       "page": 25,
@@ -608,16 +564,8 @@
       "numero": "Q3.17",
       "mots_cles": [
        {
-        "theme_sous_theme": "Cinématique : Vitesses",
-        "semestre": "S1"
-       },
-       {
         "theme_sous_theme": "Asservissement : Stabilité",
         "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Correcteurs : Proportionnel-intégral",
-        "semestre": "S4"
        }
       ],
       "page": 25,
@@ -628,16 +576,12 @@
       "numero": "Q3.18",
       "mots_cles": [
        {
-        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
-        "semestre": "S2"
-       },
-       {
         "theme_sous_theme": "Asservissement : Stabilité",
         "semestre": "S2"
        },
        {
-        "theme_sous_theme": "Correcteurs : Proportionnel-intégral",
-        "semestre": "S4"
+        "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
+        "semestre": "S2"
        }
       ],
       "page": 25,
@@ -653,16 +597,12 @@
       "numero": "Q3.19",
       "mots_cles": [
        {
-        "theme_sous_theme": "Cinématique : Vitesses",
-        "semestre": "S1"
-       },
-       {
         "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
         "semestre": "S2"
        },
        {
-        "theme_sous_theme": "Correcteurs : Proportionnel-intégral",
-        "semestre": "S4"
+        "theme_sous_theme": "Asservissement : Stabilité",
+        "semestre": "S2"
        }
       ],
       "page": 26,
@@ -678,6 +618,10 @@
       "numero": "Q3.20",
       "mots_cles": [
        {
+        "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
+        "semestre": "S2"
+       },
+       {
         "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
         "semestre": "S2"
        }
@@ -690,15 +634,11 @@
       "numero": "Q3.21",
       "mots_cles": [
        {
-        "theme_sous_theme": "Cinématique : Vitesses",
-        "semestre": "S1"
+        "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
+        "semestre": "S2"
        },
        {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Asservissement : Rapidité",
+        "theme_sous_theme": "Asservissement : Stabilité",
         "semestre": "S2"
        }
       ],

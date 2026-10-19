@@ -6,7 +6,7 @@
  "status": 200,
  "source": "banquept.fr, rubrique « Annales d'annales » (rubrique23.html)",
  "epreuve_originale": "SI C",
- "classification": "automatique par mots-clés (Claude, oct. 2026) — moins fine que celle des sujets récents",
+ "classification": "relue question par question par Claude (oct. 2026), dans la taxonomie existante du site ; questions de conception rangées surtout en « Dimensionnement : Liaisons mécaniques »",
  "decoupage_questions": "Question",
  "texte_ocr": true,
  "pages_sujet": 16,
@@ -34,10 +34,6 @@
        {
         "theme_sous_theme": "Statique : Hyperstatisme",
         "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Correcteurs : Correcteur numérique",
-        "semestre": "S4"
        }
       ],
       "page": 6,
@@ -49,10 +45,6 @@
       "mots_cles": [
        {
         "theme_sous_theme": "Statique : Hyperstatisme",
-        "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Statique : Principe fondamental de la statique",
         "semestre": "S2"
        },
        {
@@ -70,10 +62,6 @@
        {
         "theme_sous_theme": "Statique : Hyperstatisme",
         "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Correcteurs : Correcteur numérique",
-        "semestre": "S4"
        }
       ],
       "page": 6,
@@ -84,15 +72,11 @@
       "numero": "Q1.5",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Cinématique : Vitesses",
-        "semestre": "S1"
-       },
-       {
         "theme_sous_theme": "Statique : Hyperstatisme",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Statique : Isostatisme",
         "semestre": "S2"
        }
       ],
@@ -117,14 +101,6 @@
      {
       "numero": "Q1.7",
       "mots_cles": [
-       {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
-        "semestre": "S3"
-       },
        {
         "theme_sous_theme": "Cinématique : Vitesses",
         "semestre": "S1"
@@ -176,14 +152,6 @@
        {
         "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
         "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Statique : Principe fondamental de la statique",
-        "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
        }
       ],
       "page": 7,
@@ -196,8 +164,8 @@
       "numero": "Q2.4",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
        }
       ],
       "page": 8,
@@ -212,6 +180,10 @@
        {
         "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
         "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
        }
       ],
       "page": 8,
@@ -224,8 +196,8 @@
       "numero": "Q2.6",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
        }
       ],
       "page": 8,
@@ -240,6 +212,10 @@
        {
         "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
         "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
        }
       ],
       "page": 8,
@@ -252,8 +228,12 @@
       "numero": "Q2.8",
       "mots_cles": [
        {
-        "theme_sous_theme": "Statique : Principe fondamental de la statique",
-        "semestre": "S2"
+        "theme_sous_theme": "Énergétique : Puissance et rendement",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Énergétique : Théorème de l'énergie cinétique",
+        "semestre": "S3"
        }
       ],
       "page": 8,
@@ -263,6 +243,10 @@
      {
       "numero": "Q2.9",
       "mots_cles": [
+       {
+        "theme_sous_theme": "Énergétique : Puissance et rendement",
+        "semestre": "S3"
+       },
        {
         "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
         "semestre": "S4"
@@ -280,10 +264,6 @@
        {
         "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
         "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
-        "semestre": "S1"
        }
       ],
       "page": 9,
@@ -296,12 +276,12 @@
       "numero": "Q2.11",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
+        "theme_sous_theme": "Énergétique : Puissance et rendement",
+        "semestre": "S3"
        },
        {
-        "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
-        "semestre": "S1"
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
        }
       ],
       "page": 9,
@@ -316,6 +296,10 @@
        {
         "theme_sous_theme": "Statique : Principe fondamental de la statique",
         "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
+        "semestre": "S1"
        }
       ],
       "page": 10,
@@ -326,12 +310,12 @@
       "numero": "Q2.13",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
+        "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
+        "semestre": "S1"
        },
        {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
        }
       ],
       "page": 10,
@@ -363,10 +347,6 @@
       "numero": "Q3.2",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
-       },
-       {
         "theme_sous_theme": "Matériaux : Choix",
         "semestre": "S3"
        }
@@ -380,14 +360,6 @@
      {
       "numero": "Q3.3",
       "mots_cles": [
-       {
-        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
-        "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
-        "semestre": "S3"
-       },
        {
         "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
         "semestre": "S4"
@@ -405,10 +377,6 @@
        {
         "theme_sous_theme": "Spécifications géométriques : Tolérancement",
         "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
-        "semestre": "S3"
        }
       ],
       "page": 11,
@@ -449,8 +417,12 @@
       "numero": "Q3.7",
       "mots_cles": [
        {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
+        "theme_sous_theme": "Matériaux : Choix",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
+        "semestre": "S3"
        }
       ],
       "page": 12,
@@ -461,12 +433,12 @@
       "numero": "Q3.8",
       "mots_cles": [
        {
-        "theme_sous_theme": "Procédés : Usinage",
+        "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
         "semestre": "S3"
        },
        {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
        }
       ],
       "page": 12,
@@ -477,8 +449,12 @@
       "numero": "Q3.9",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
         "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
+        "semestre": "S3"
        }
       ],
       "page": 12,
@@ -489,8 +465,12 @@
       "numero": "Q3.10",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
+        "theme_sous_theme": "Matériaux : Choix",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
+        "semestre": "S3"
        }
       ],
       "page": 12,
@@ -501,8 +481,8 @@
       "numero": "Q3.11",
       "mots_cles": [
        {
-        "theme_sous_theme": "Statique : Principe fondamental de la statique",
-        "semestre": "S2"
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
        }
       ],
       "page": 12,
@@ -518,8 +498,8 @@
       "numero": "Q4.1",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
+        "theme_sous_theme": "Résistance des matériaux : Torseur de cohésion",
+        "semestre": "S3"
        }
       ],
       "page": 13,
@@ -544,7 +524,7 @@
       "numero": "Q4.3",
       "mots_cles": [
        {
-        "theme_sous_theme": "Procédés : Usinage",
+        "theme_sous_theme": "Résistance des matériaux : Torseur de cohésion",
         "semestre": "S3"
        }
       ],
@@ -557,10 +537,6 @@
       "mots_cles": [
        {
         "theme_sous_theme": "Résistance des matériaux : Torseur de cohésion",
-        "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
         "semestre": "S3"
        }
       ],
@@ -595,10 +571,6 @@
      {
       "numero": "Q4.7",
       "mots_cles": [
-       {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
-       },
        {
         "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
         "semestre": "S3"

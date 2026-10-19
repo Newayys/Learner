@@ -6,7 +6,7 @@
  "status": 200,
  "source": "banquept.fr, rubrique « Annales d'annales » (rubrique23.html)",
  "epreuve_originale": "SI A",
- "classification": "automatique par mots-clés (Claude, oct. 2026) — moins fine que celle des sujets récents",
+ "classification": "relue question par question par Claude (oct. 2026), dans la taxonomie existante du site ; questions de conception rangées surtout en « Dimensionnement : Liaisons mécaniques »",
  "decoupage_questions": "sect",
  "texte_ocr": true,
  "pages_sujet": 24,
@@ -20,8 +20,8 @@
       "numero": "H0",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Capteurs",
-        "semestre": "S4"
+        "theme_sous_theme": "Systèmes séquentiels : Diagramme d'états",
+        "semestre": "S1"
        }
       ],
       "page": 9,
@@ -32,12 +32,8 @@
       "numero": "H1",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Capteurs",
-        "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
+        "theme_sous_theme": "Systèmes séquentiels : Diagramme d'états",
+        "semestre": "S1"
        }
       ],
       "page": 9,
@@ -48,8 +44,12 @@
       "numero": "B1",
       "mots_cles": [
        {
-        "theme_sous_theme": "Asservissement : Stabilité",
-        "semestre": "S2"
+        "theme_sous_theme": "Systèmes séquentiels : Diagramme d'états",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
        }
       ],
       "page": 10,
@@ -65,16 +65,12 @@
       "numero": "C1.1.1",
       "mots_cles": [
        {
-        "theme_sous_theme": "Cinématique : Fermeture géométrique",
-        "semestre": "S1"
-       },
-       {
         "theme_sous_theme": "Cinématique : Torseur cinématique",
         "semestre": "S1"
        },
        {
-        "theme_sous_theme": "Statique : Hyperstatisme",
-        "semestre": "S2"
+        "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
+        "semestre": "S1"
        }
       ],
       "page": 12,
@@ -84,10 +80,6 @@
      {
       "numero": "C1.1.2",
       "mots_cles": [
-       {
-        "theme_sous_theme": "Statique : Liaisons équivalentes",
-        "semestre": "S2"
-       },
        {
         "theme_sous_theme": "Cinématique : Torseur cinématique",
         "semestre": "S1"
@@ -105,11 +97,11 @@
       "numero": "C1.2",
       "mots_cles": [
        {
-        "theme_sous_theme": "Statique : Frottements",
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
         "semestre": "S2"
        },
        {
-        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "theme_sous_theme": "Statique : Frottements",
         "semestre": "S2"
        }
       ],
@@ -121,12 +113,8 @@
       "numero": "C2",
       "mots_cles": [
        {
-        "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
-        "semestre": "S1"
-       },
-       {
-        "theme_sous_theme": "Dynamique : Géométrie des masses",
-        "semestre": "S3"
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
        },
        {
         "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
@@ -148,16 +136,8 @@
       "numero": "D1",
       "mots_cles": [
        {
-        "theme_sous_theme": "Statique : Frottements",
-        "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Cinématique : Vitesses",
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
         "semestre": "S1"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
        }
       ],
       "page": 15,
@@ -170,16 +150,12 @@
       "numero": "D2.1.1",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
+        "theme_sous_theme": "Cinématique : Torseur cinématique",
+        "semestre": "S1"
        },
        {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
-        "semestre": "S3"
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
        }
       ],
       "page": 16,
@@ -194,10 +170,6 @@
        {
         "theme_sous_theme": "Dynamique : Géométrie des masses",
         "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
        }
       ],
       "page": 16,
@@ -210,10 +182,6 @@
        {
         "theme_sous_theme": "Statique : Principe fondamental de la statique",
         "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Résistance des matériaux : Torseur de cohésion",
-        "semestre": "S3"
        }
       ],
       "page": 17,
@@ -226,12 +194,12 @@
       "numero": "D2.2.2",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
         "semestre": "S3"
        },
        {
-        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
-        "semestre": "S3"
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
        }
       ],
       "page": 17,
@@ -244,16 +212,8 @@
       "numero": "D2.2.3",
       "mots_cles": [
        {
-        "theme_sous_theme": "Cinématique : Vitesses",
-        "semestre": "S1"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
        }
       ],
       "page": 17,
@@ -264,16 +224,8 @@
       "numero": "D2.2.4",
       "mots_cles": [
        {
-        "theme_sous_theme": "Résistance des matériaux : Torseur de cohésion",
-        "semestre": "S3"
-       },
-       {
         "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
         "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Machines électriques : Machine à courant continu",
-        "semestre": "S4"
        }
       ],
       "page": 18,
@@ -284,16 +236,8 @@
       "numero": "D3",
       "mots_cles": [
        {
-        "theme_sous_theme": "Cinématique : Vitesses",
-        "semestre": "S1"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Statique : Principe fondamental de la statique",
-        "semestre": "S2"
+        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+        "semestre": "S3"
        }
       ],
       "page": 18,
@@ -306,10 +250,6 @@
        {
         "theme_sous_theme": "Statique : Principe fondamental de la statique",
         "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
        }
       ],
       "page": 18,
@@ -320,16 +260,12 @@
       "numero": "D3.2",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dynamique : Géométrie des masses",
-        "semestre": "S3"
-       },
-       {
         "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
         "semestre": "S3"
        },
        {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
+        "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
+        "semestre": "S2"
        }
       ],
       "page": 18,
@@ -340,15 +276,11 @@
       "numero": "D3.3",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
+        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+        "semestre": "S3"
        },
        {
         "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
-       },
-       {
-        "theme_sous_theme": "Cinématique : Vitesses",
         "semestre": "S1"
        }
       ],
@@ -365,12 +297,8 @@
       "numero": "E1",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Énergétique : Puissance et rendement",
-        "semestre": "S3"
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
        },
        {
         "theme_sous_theme": "Machines électriques : Machine synchrone",
@@ -389,7 +317,7 @@
         "semestre": "S2"
        },
        {
-        "theme_sous_theme": "Cinématique : Vitesses",
+        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
         "semestre": "S1"
        },
        {
@@ -410,15 +338,15 @@
       "numero": "E2.2",
       "mots_cles": [
        {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
-       },
-       {
-        "theme_sous_theme": "Asservissement : Stabilité",
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
         "semestre": "S2"
        },
        {
         "theme_sous_theme": "Asservissement : Précision",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Rapidité",
         "semestre": "S2"
        }
       ],

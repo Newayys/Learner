@@ -6,7 +6,7 @@
  "status": 200,
  "source": "banquept.fr, rubrique « Annales d'annales » (rubrique23.html)",
  "epreuve_originale": "SI C",
- "classification": "automatique par mots-clés (Claude, oct. 2026) — moins fine que celle des sujets récents",
+ "classification": "relue question par question par Claude (oct. 2026), dans la taxonomie existante du site ; questions de conception rangées surtout en « Dimensionnement : Liaisons mécaniques »",
  "decoupage_questions": "Question",
  "texte_ocr": true,
  "pages_sujet": 20,
@@ -36,12 +36,8 @@
         "semestre": "S4"
        },
        {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "theme_sous_theme": "Systèmes séquentiels : Diagramme d'états",
         "semestre": "S1"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
        }
       ],
       "page": 6,
@@ -52,16 +48,8 @@
       "numero": "Q4.",
       "mots_cles": [
        {
-        "theme_sous_theme": "Statique : Principe fondamental de la statique",
-        "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Dynamique : Géométrie des masses",
-        "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
+        "theme_sous_theme": "Systèmes séquentiels : Diagramme d'états",
+        "semestre": "S1"
        }
       ],
       "page": 7,
@@ -96,14 +84,6 @@
        {
         "theme_sous_theme": "Dynamique : Géométrie des masses",
         "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
-        "semestre": "S1"
-       },
-       {
-        "theme_sous_theme": "Statique : Principe fondamental de la statique",
-        "semestre": "S2"
        }
       ],
       "page": 8,
@@ -134,10 +114,6 @@
        {
         "theme_sous_theme": "Dynamique : Géométrie des masses",
         "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Asservissement : Précision",
-        "semestre": "S2"
        }
       ],
       "page": 9,
@@ -150,16 +126,8 @@
       "numero": "Q10.",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dynamique : Géométrie des masses",
-        "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
-        "semestre": "S1"
-       },
-       {
-        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
-        "semestre": "S3"
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
        }
       ],
       "page": 9,
@@ -170,8 +138,8 @@
       "numero": "Q12.",
       "mots_cles": [
        {
-        "theme_sous_theme": "Procédés : Usinage",
-        "semestre": "S3"
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
        }
       ],
       "page": 10,
@@ -186,8 +154,8 @@
         "semestre": "S2"
        },
        {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
        }
       ],
       "page": 10,
@@ -198,8 +166,8 @@
       "numero": "Q14.",
       "mots_cles": [
        {
-        "theme_sous_theme": "Cinématique : Vitesses",
-        "semestre": "S1"
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
        }
       ],
       "page": 10,
@@ -210,8 +178,8 @@
       "numero": "Q15.",
       "mots_cles": [
        {
-        "theme_sous_theme": "Procédés : Usinage",
-        "semestre": "S3"
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
        }
       ],
       "page": 10,
@@ -246,16 +214,12 @@
       "numero": "Q18.",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
-       },
-       {
         "theme_sous_theme": "Énergétique : Puissance et rendement",
         "semestre": "S3"
        },
        {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
        }
       ],
       "page": 11,
@@ -272,10 +236,6 @@
        {
         "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
         "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
        }
       ],
       "page": 11,
@@ -289,16 +249,8 @@
       "numero": "Q20.",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
         "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
-        "semestre": "S1"
-       },
-       {
-        "theme_sous_theme": "Cinématique : Vitesses",
-        "semestre": "S1"
        }
       ],
       "page": 12,
@@ -319,7 +271,7 @@
       "numero": "Q21.",
       "mots_cles": [
        {
-        "theme_sous_theme": "Matériaux : Propriétés physiques et mécaniques",
+        "theme_sous_theme": "Matériaux : Choix",
         "semestre": "S3"
        }
       ],
@@ -330,10 +282,6 @@
      {
       "numero": "Q22.",
       "mots_cles": [
-       {
-        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
-        "semestre": "S3"
-       },
        {
         "theme_sous_theme": "Matériaux : Propriétés physiques et mécaniques",
         "semestre": "S3"
@@ -347,7 +295,7 @@
       "numero": "Q23.",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+        "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
         "semestre": "S3"
        }
       ],
@@ -375,10 +323,6 @@
        {
         "theme_sous_theme": "Spécifications géométriques : Tolérancement",
         "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Procédés : Usinage",
-        "semestre": "S3"
        }
       ],
       "page": 13,
@@ -391,8 +335,8 @@
       "numero": "Q26.",
       "mots_cles": [
        {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
        }
       ],
       "page": 13,
@@ -404,6 +348,10 @@
      {
       "numero": "Q28.",
       "mots_cles": [
+       {
+        "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
+        "semestre": "S3"
+       },
        {
         "theme_sous_theme": "Procédés : Usinage",
         "semestre": "S3"
@@ -417,7 +365,7 @@
       "numero": "Q29.",
       "mots_cles": [
        {
-        "theme_sous_theme": "Procédés : Usinage",
+        "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
         "semestre": "S3"
        }
       ],
@@ -431,10 +379,6 @@
        {
         "theme_sous_theme": "Procédés : Usinage",
         "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
-        "semestre": "S2"
        }
       ],
       "page": 14,
@@ -447,10 +391,6 @@
      {
       "numero": "Q31.",
       "mots_cles": [
-       {
-        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
-        "semestre": "S2"
-       },
        {
         "theme_sous_theme": "Procédés : Usinage",
         "semestre": "S3"
@@ -481,7 +421,7 @@
       "numero": "Q34.",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dynamique : Géométrie des masses",
+        "theme_sous_theme": "Procédés : Usinage",
         "semestre": "S3"
        }
       ],
@@ -498,8 +438,8 @@
       "numero": "Q35.",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dynamique : Géométrie des masses",
-        "semestre": "S3"
+        "theme_sous_theme": "Statique : Isostatisme",
+        "semestre": "S2"
        }
       ],
       "page": 15,
@@ -510,16 +450,8 @@
       "numero": "Q36.",
       "mots_cles": [
        {
-        "theme_sous_theme": "Cinématique : Torseur cinématique",
-        "semestre": "S1"
-       },
-       {
-        "theme_sous_theme": "Dynamique : Géométrie des masses",
-        "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
-        "semestre": "S1"
+        "theme_sous_theme": "Statique : Isostatisme",
+        "semestre": "S2"
        }
       ],
       "page": 15,
@@ -532,16 +464,8 @@
       "numero": "Q37.",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dynamique : Géométrie des masses",
-        "semestre": "S3"
-       },
-       {
         "theme_sous_theme": "Statique : Hyperstatisme",
         "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
-        "semestre": "S3"
        }
       ],
       "page": 15,
@@ -552,8 +476,8 @@
       "numero": "Q38.",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dynamique : Géométrie des masses",
-        "semestre": "S3"
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
        }
       ],
       "page": 16,
@@ -564,16 +488,8 @@
       "numero": "Q43.",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dynamique : Géométrie des masses",
-        "semestre": "S3"
-       },
-       {
         "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
         "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Machines électriques : Machine à courant continu",
-        "semestre": "S4"
        }
       ],
       "page": 17,

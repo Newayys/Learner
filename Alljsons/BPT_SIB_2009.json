@@ -6,7 +6,7 @@
  "status": 200,
  "source": "banquept.fr, rubrique « Annales d'annales » (rubrique23.html)",
  "epreuve_originale": "SI B",
- "classification": "automatique par mots-clés (Claude, oct. 2026) — moins fine que celle des sujets récents",
+ "classification": "relue question par question par Claude (oct. 2026), dans la taxonomie existante du site ; questions de conception rangées surtout en « Dimensionnement : Liaisons mécaniques »",
  "decoupage_questions": "sect",
  "texte_ocr": true,
  "pages_sujet": 24,
@@ -44,8 +44,8 @@
       "numero": "A.1.2.1",
       "mots_cles": [
        {
-        "theme_sous_theme": "Procédés : Plasturgie",
-        "semestre": "S2"
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
        }
       ],
       "page": 2,
@@ -58,10 +58,6 @@
        {
         "theme_sous_theme": "Ingénierie Système : Cahier des charges",
         "semestre": "S1"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
        }
       ],
       "page": 4,
@@ -74,14 +70,6 @@
        {
         "theme_sous_theme": "Ingénierie Système : Cahier des charges",
         "semestre": "S1"
-       },
-       {
-        "theme_sous_theme": "Énergétique : Puissance et rendement",
-        "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Asservissement : Précision",
-        "semestre": "S2"
        }
       ],
       "page": 5,
@@ -97,8 +85,8 @@
       "numero": "B.1",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
+        "theme_sous_theme": "Cinématique : Torseur cinématique",
+        "semestre": "S1"
        }
       ],
       "page": 7,
@@ -109,16 +97,12 @@
       "numero": "B.2",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
        },
        {
-        "theme_sous_theme": "Asservissement : Précision",
-        "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
-        "semestre": "S2"
+        "theme_sous_theme": "Ingénierie Système : Chaîne d'énergie",
+        "semestre": "S1"
        }
       ],
       "page": 7,
@@ -162,7 +146,11 @@
       "numero": "C.2.1",
       "mots_cles": [
        {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
         "semestre": "S1"
        }
       ],
@@ -174,16 +162,12 @@
       "numero": "C.2.1.1",
       "mots_cles": [
        {
-        "theme_sous_theme": "Statique : Liaisons équivalentes",
-        "semestre": "S2"
-       },
-       {
         "theme_sous_theme": "Cinématique : Vitesses",
         "semestre": "S1"
        },
        {
-        "theme_sous_theme": "Cinématique : Torseur cinématique",
-        "semestre": "S1"
+        "theme_sous_theme": "Statique : Isostatisme",
+        "semestre": "S2"
        }
       ],
       "page": 9,
@@ -194,8 +178,12 @@
       "numero": "C.2.1.2",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
+        "theme_sous_theme": "Statique : Hyperstatisme",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
        }
       ],
       "page": 11,
@@ -206,15 +194,11 @@
       "numero": "C.2.2.1",
       "mots_cles": [
        {
-        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
         "semestre": "S2"
        },
        {
-        "theme_sous_theme": "Statique : Hyperstatisme",
-        "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
         "semestre": "S4"
        }
       ],
@@ -228,15 +212,11 @@
       "numero": "C.2.2.3.1",
       "mots_cles": [
        {
-        "theme_sous_theme": "Statique : Frottements",
+        "theme_sous_theme": "Statique : Hyperstatisme",
         "semestre": "S2"
        },
        {
         "theme_sous_theme": "Statique : Principe fondamental de la statique",
-        "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Statique : Hyperstatisme",
         "semestre": "S2"
        }
       ],
@@ -248,16 +228,12 @@
       "numero": "C.2.2.3.2",
       "mots_cles": [
        {
-        "theme_sous_theme": "Statique : Principe fondamental de la statique",
-        "semestre": "S2"
-       },
-       {
         "theme_sous_theme": "Statique : Hyperstatisme",
         "semestre": "S2"
        },
        {
-        "theme_sous_theme": "Correcteurs : Correcteur numérique",
-        "semestre": "S4"
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
        }
       ],
       "page": 13,
@@ -270,14 +246,6 @@
        {
         "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
         "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Capteurs",
-        "semestre": "S4"
        }
       ],
       "page": 13,
@@ -288,16 +256,12 @@
       "numero": "C.2.3.1",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "theme_sous_theme": "Dimensionnement : Capteurs",
         "semestre": "S4"
        },
        {
         "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
         "semestre": "S1"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
        }
       ],
       "page": 13,
@@ -311,16 +275,16 @@
       "numero": "C.2.3.2",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Énergétique : Puissance et rendement",
-        "semestre": "S3"
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
        },
        {
         "theme_sous_theme": "Statique : Frottements",
         "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
        }
       ],
       "page": 14,
@@ -333,16 +297,8 @@
       "numero": "C.2.4.1",
       "mots_cles": [
        {
-        "theme_sous_theme": "Résistance des matériaux : Torseur de cohésion",
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
         "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Dynamique : Géométrie des masses",
-        "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
        }
       ],
       "page": 15,
@@ -355,10 +311,6 @@
        {
         "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
         "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
-        "semestre": "S1"
        }
       ],
       "page": 16,
@@ -381,16 +333,8 @@
       "numero": "C.2.6",
       "mots_cles": [
        {
-        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
-        "semestre": "S2"
-       },
-       {
         "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
         "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
-        "semestre": "S2"
        }
       ],
       "page": 17,
@@ -406,10 +350,6 @@
        {
         "theme_sous_theme": "Matériaux : Choix",
         "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
-        "semestre": "S1"
        }
       ],
       "page": 17,
@@ -452,7 +392,7 @@
         "semestre": "S4"
        },
        {
-        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
         "semestre": "S1"
        }
       ],
@@ -468,8 +408,8 @@
       "numero": "C.3.2",
       "mots_cles": [
        {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
        }
       ],
       "page": 19,
@@ -482,14 +422,6 @@
        {
         "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
         "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
-        "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
        }
       ],
       "page": 19,
@@ -508,8 +440,8 @@
         "semestre": "S4"
        },
        {
-        "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
-        "semestre": "S3"
+        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
+        "semestre": "S1"
        }
       ],
       "page": 19,

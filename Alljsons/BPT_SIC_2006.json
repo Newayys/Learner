@@ -6,7 +6,7 @@
  "status": 200,
  "source": "banquept.fr, rubrique « Annales d'annales » (rubrique23.html)",
  "epreuve_originale": "SI C",
- "classification": "automatique par mots-clés (Claude, oct. 2026) — moins fine que celle des sujets récents",
+ "classification": "relue question par question par Claude (oct. 2026), dans la taxonomie existante du site ; questions de conception rangées surtout en « Dimensionnement : Liaisons mécaniques »",
  "decoupage_questions": "roman",
  "texte_ocr": false,
  "pages_sujet": 12,
@@ -20,8 +20,8 @@
       "numero": "I-A1",
       "mots_cles": [
        {
-        "theme_sous_theme": "Statique : Principe fondamental de la statique",
-        "semestre": "S2"
+        "theme_sous_theme": "Résistance des matériaux : Torseur de cohésion",
+        "semestre": "S3"
        }
       ],
       "page": 4,
@@ -32,7 +32,7 @@
       "numero": "I-A2",
       "mots_cles": [
        {
-        "theme_sous_theme": "Procédés : Usinage",
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
         "semestre": "S3"
        }
       ],
@@ -44,15 +44,7 @@
       "numero": "I-A3",
       "mots_cles": [
        {
-        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
-        "semestre": "S1"
-       },
-       {
         "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
-        "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Matériaux : Propriétés physiques et mécaniques",
         "semestre": "S3"
        }
       ],
@@ -64,7 +56,7 @@
       "numero": "I-A4",
       "mots_cles": [
        {
-        "theme_sous_theme": "Procédés : Usinage",
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
         "semestre": "S3"
        }
       ],
@@ -76,8 +68,12 @@
       "numero": "I-A5",
       "mots_cles": [
        {
-        "theme_sous_theme": "Procédés : Usinage",
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
         "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
        }
       ],
       "page": 5,
@@ -87,14 +83,6 @@
      {
       "numero": "I-B",
       "mots_cles": [
-       {
-        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
-        "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Dynamique : Géométrie des masses",
-        "semestre": "S3"
-       },
        {
         "theme_sous_theme": "Matériaux : Choix",
         "semestre": "S3"
@@ -110,6 +98,10 @@
        {
         "theme_sous_theme": "Dynamique : Géométrie des masses",
         "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
        }
       ],
       "page": 5,
@@ -120,16 +112,8 @@
       "numero": "I-B2",
       "mots_cles": [
        {
-        "theme_sous_theme": "Matériaux : Propriétés physiques et mécaniques",
-        "semestre": "S3"
-       },
-       {
         "theme_sous_theme": "Matériaux : Choix",
         "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
-        "semestre": "S1"
        }
       ],
       "page": 5,
@@ -140,12 +124,8 @@
       "numero": "I-B3",
       "mots_cles": [
        {
-        "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
+        "theme_sous_theme": "Matériaux : Choix",
         "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
        }
       ],
       "page": 5,
@@ -161,6 +141,10 @@
        {
         "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
         "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Matériaux : Choix",
+        "semestre": "S3"
        }
       ],
       "page": 6,
@@ -173,10 +157,6 @@
      {
       "numero": "I-B5",
       "mots_cles": [
-       {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
-       },
        {
         "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
         "semestre": "S3"
@@ -206,16 +186,12 @@
       "numero": "I-B7",
       "mots_cles": [
        {
-        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "theme_sous_theme": "Matériaux : Choix",
         "semestre": "S3"
        },
        {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
+        "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
+        "semestre": "S3"
        }
       ],
       "page": 6,
@@ -233,10 +209,6 @@
       "numero": "II-1",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dynamique : Géométrie des masses",
-        "semestre": "S3"
-       },
-       {
         "theme_sous_theme": "Statique : Principe fondamental de la statique",
         "semestre": "S2"
        }
@@ -248,6 +220,10 @@
      {
       "numero": "II-2",
       "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       },
        {
         "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
         "semestre": "S3"
@@ -261,8 +237,8 @@
       "numero": "II-3",
       "mots_cles": [
        {
-        "theme_sous_theme": "Procédés : Usinage",
-        "semestre": "S3"
+        "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
+        "semestre": "S1"
        }
       ],
       "page": 7,
@@ -291,6 +267,10 @@
        {
         "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
         "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
        }
       ],
       "page": 7,
@@ -303,16 +283,8 @@
       "numero": "II-6",
       "mots_cles": [
        {
-        "theme_sous_theme": "Matériaux : Propriétés physiques et mécaniques",
-        "semestre": "S3"
-       },
-       {
         "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
         "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
        }
       ],
       "page": 7,
@@ -344,10 +316,6 @@
        {
         "theme_sous_theme": "Statique : Hyperstatisme",
         "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Correcteurs : Correcteur numérique",
-        "semestre": "S4"
        }
       ],
       "page": 8,
@@ -358,16 +326,8 @@
       "numero": "III-A2",
       "mots_cles": [
        {
-        "theme_sous_theme": "Statique : Liaisons équivalentes",
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
         "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Statique : Hyperstatisme",
-        "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Correcteurs : Correcteur numérique",
-        "semestre": "S4"
        }
       ],
       "page": 8,
@@ -380,10 +340,6 @@
        {
         "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
         "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
-        "semestre": "S3"
        }
       ],
       "page": 9,
@@ -412,14 +368,6 @@
        {
         "theme_sous_theme": "Procédés : Usinage",
         "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
-        "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
        }
       ],
       "page": 9,
@@ -435,10 +383,6 @@
        {
         "theme_sous_theme": "Procédés : Usinage",
         "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
-        "semestre": "S3"
        }
       ],
       "page": 9,
@@ -450,10 +394,6 @@
      {
       "numero": "III-C",
       "mots_cles": [
-       {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
-       },
        {
         "theme_sous_theme": "Procédés : Usinage",
         "semestre": "S3"
@@ -469,12 +409,12 @@
       "numero": "III-C1",
       "mots_cles": [
        {
-        "theme_sous_theme": "Statique : Principe fondamental de la statique",
-        "semestre": "S2"
-       },
-       {
         "theme_sous_theme": "Procédés : Usinage",
         "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
        }
       ],
       "page": 10,
@@ -487,7 +427,11 @@
       "numero": "III-C2",
       "mots_cles": [
        {
-        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
         "semestre": "S2"
        }
       ],
@@ -499,8 +443,8 @@
       "numero": "III-C3",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
+        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+        "semestre": "S2"
        }
       ],
       "page": 10,
@@ -511,8 +455,8 @@
       "numero": "III-C4",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
        }
       ],
       "page": 10,
@@ -523,12 +467,8 @@
       "numero": "III-C5",
       "mots_cles": [
        {
-        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
-        "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
        }
       ],
       "page": 10,
@@ -563,16 +503,8 @@
       "numero": "IV-2",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
-       },
-       {
         "theme_sous_theme": "Dimensionnement : Capteurs",
         "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
        }
       ],
       "page": 11,
@@ -585,10 +517,6 @@
        {
         "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
         "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
-        "semestre": "S2"
        }
       ],
       "page": 11,
@@ -599,8 +527,12 @@
       "numero": "IV-4",
       "mots_cles": [
        {
-        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
-        "semestre": "S2"
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
        }
       ],
       "page": 11,
@@ -625,12 +557,8 @@
       "numero": "IV-6",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
-        "semestre": "S2"
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
        }
       ],
       "page": 11,

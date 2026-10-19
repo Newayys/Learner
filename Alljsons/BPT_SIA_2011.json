@@ -6,7 +6,7 @@
  "status": 200,
  "source": "banquept.fr, rubrique « Annales d'annales » (rubrique23.html)",
  "epreuve_originale": "SI A",
- "classification": "automatique par mots-clés (Claude, oct. 2026) — moins fine que celle des sujets récents",
+ "classification": "relue question par question par Claude (oct. 2026), dans la taxonomie existante du site ; questions de conception rangées surtout en « Dimensionnement : Liaisons mécaniques »",
  "decoupage_questions": "Question",
  "texte_ocr": true,
  "pages_sujet": 22,
@@ -19,10 +19,6 @@
      {
       "numero": "Q1",
       "mots_cles": [
-       {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
-       },
        {
         "theme_sous_theme": "Ingénierie Système : Cahier des charges",
         "semestre": "S1"
@@ -42,8 +38,8 @@
         "semestre": "S4"
        },
        {
-        "theme_sous_theme": "Matériaux : Choix",
-        "semestre": "S3"
+        "theme_sous_theme": "Ingénierie Système : Chaîne d'énergie",
+        "semestre": "S1"
        }
       ],
       "page": 6,
@@ -58,10 +54,6 @@
        {
         "theme_sous_theme": "Ingénierie Système : Cahier des charges",
         "semestre": "S1"
-       },
-       {
-        "theme_sous_theme": "Asservissement : Rapidité",
-        "semestre": "S2"
        },
        {
         "theme_sous_theme": "Ingénierie Système : Chaîne d'énergie",
@@ -95,7 +87,11 @@
       "numero": "Q5",
       "mots_cles": [
        {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Fermeture géométrique",
         "semestre": "S1"
        }
       ],
@@ -107,7 +103,7 @@
       "numero": "Q6",
       "mots_cles": [
        {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
         "semestre": "S1"
        }
       ],
@@ -119,16 +115,12 @@
       "numero": "Q7",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
-       },
-       {
         "theme_sous_theme": "Ingénierie Système : Cahier des charges",
         "semestre": "S1"
        },
        {
-        "theme_sous_theme": "Asservissement : Précision",
-        "semestre": "S2"
+        "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
+        "semestre": "S1"
        }
       ],
       "page": 8,
@@ -155,16 +147,12 @@
       "numero": "Q9",
       "mots_cles": [
        {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Capteurs",
-        "semestre": "S4"
-       },
-       {
         "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
         "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
        }
       ],
       "page": 9,
@@ -179,10 +167,6 @@
        {
         "theme_sous_theme": "Dimensionnement : Capteurs",
         "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
        }
       ],
       "page": 9,
@@ -193,16 +177,12 @@
       "numero": "Q11",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
-       },
-       {
         "theme_sous_theme": "Dimensionnement : Capteurs",
         "semestre": "S4"
        },
        {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
+        "theme_sous_theme": "Traitement de l'information : Échantillonnage et quantification",
+        "semestre": "S2"
        }
       ],
       "page": 9,
@@ -215,16 +195,12 @@
       "numero": "Q12",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
-       },
-       {
         "theme_sous_theme": "Dimensionnement : Capteurs",
         "semestre": "S4"
        },
        {
-        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
-        "semestre": "S2"
+        "theme_sous_theme": "Ingénierie Système : Chaîne d'information",
+        "semestre": "S1"
        }
       ],
       "page": 9,
@@ -257,6 +233,10 @@
        {
         "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
         "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
+        "semestre": "S2"
        }
       ],
       "page": 10,
@@ -266,6 +246,10 @@
      {
       "numero": "Q15",
       "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Précision",
+        "semestre": "S2"
+       },
        {
         "theme_sous_theme": "Ingénierie Système : Cahier des charges",
         "semestre": "S1"
@@ -279,16 +263,12 @@
       "numero": "Q16",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
-        "semestre": "S3"
-       },
-       {
         "theme_sous_theme": "Asservissement : Rapidité",
         "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Correcteurs : Proportionnel",
+        "semestre": "S4"
        }
       ],
       "page": 10,
@@ -302,14 +282,6 @@
       "mots_cles": [
        {
         "theme_sous_theme": "Dynamique : Géométrie des masses",
-        "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Énergétique : Inertie équivalente",
-        "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Matériaux : Propriétés physiques et mécaniques",
         "semestre": "S3"
        }
       ],
@@ -325,10 +297,6 @@
        {
         "theme_sous_theme": "Énergétique : Théorème de l'énergie cinétique",
         "semestre": "S3"
-       },
-       {
-        "theme_sous_theme": "Énergétique : Puissance et rendement",
-        "semestre": "S3"
        }
       ],
       "page": 11,
@@ -339,7 +307,7 @@
       "numero": "Q19",
       "mots_cles": [
        {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
         "semestre": "S1"
        }
       ],
@@ -353,6 +321,10 @@
        {
         "theme_sous_theme": "Énergétique : Inertie équivalente",
         "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Énergétique : Théorème de l'énergie cinétique",
+        "semestre": "S3"
        }
       ],
       "page": 11,
@@ -363,16 +335,8 @@
       "numero": "Q21",
       "mots_cles": [
        {
-        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
-        "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Cinématique : Vitesses",
-        "semestre": "S1"
+        "theme_sous_theme": "Énergétique : Inertie équivalente",
+        "semestre": "S3"
        }
       ],
       "page": 11,
@@ -384,14 +348,6 @@
      {
       "numero": "Q22",
       "mots_cles": [
-       {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Statique : Principe fondamental de la statique",
-        "semestre": "S2"
-       },
        {
         "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
         "semestre": "S2"
@@ -407,16 +363,12 @@
       "numero": "Q23",
       "mots_cles": [
        {
-        "theme_sous_theme": "Statique : Principe fondamental de la statique",
-        "semestre": "S2"
-       },
-       {
         "theme_sous_theme": "Énergétique : Puissance et rendement",
         "semestre": "S3"
        },
        {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
+        "theme_sous_theme": "Énergétique : Théorème de l'énergie cinétique",
+        "semestre": "S3"
        }
       ],
       "page": 12,
@@ -431,6 +383,10 @@
        {
         "theme_sous_theme": "Statique : Principe fondamental de la statique",
         "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Énergétique : Théorème de l'énergie cinétique",
+        "semestre": "S3"
        }
       ],
       "page": 12,
@@ -441,8 +397,8 @@
       "numero": "Q25",
       "mots_cles": [
        {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
        }
       ],
       "page": 12,
@@ -477,15 +433,11 @@
       "numero": "Q28",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
-       },
-       {
         "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
         "semestre": "S2"
        },
        {
-        "theme_sous_theme": "Correcteurs : Proportionnel",
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
         "semestre": "S4"
        }
       ],
@@ -513,14 +465,6 @@
        {
         "theme_sous_theme": "Asservissement : Stabilité",
         "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
        }
       ],
       "page": 13,
@@ -551,16 +495,12 @@
       "numero": "Q32",
       "mots_cles": [
        {
-        "theme_sous_theme": "Asservissement : Stabilité",
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
         "semestre": "S2"
        },
        {
         "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
         "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
        }
       ],
       "page": 13,
@@ -582,10 +522,6 @@
         "semestre": "S2"
        },
        {
-        "theme_sous_theme": "Asservissement : Rapidité",
-        "semestre": "S2"
-       },
-       {
         "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
         "semestre": "S2"
        }
@@ -600,16 +536,12 @@
       "numero": "Q34",
       "mots_cles": [
        {
-        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
         "semestre": "S2"
        },
        {
         "theme_sous_theme": "Correcteurs : Proportionnel",
         "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
-        "semestre": "S2"
        }
       ],
       "page": 15,
@@ -620,8 +552,12 @@
       "numero": "Q35",
       "mots_cles": [
        {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Précision",
+        "semestre": "S2"
        }
       ],
       "page": 15,
@@ -634,14 +570,6 @@
        {
         "theme_sous_theme": "Asservissement : Précision",
         "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
-       },
-       {
-        "theme_sous_theme": "Cinématique : Vitesses",
-        "semestre": "S1"
        }
       ],
       "page": 15,
@@ -656,12 +584,8 @@
         "semestre": "S2"
        },
        {
-        "theme_sous_theme": "Correcteurs : Proportionnel",
-        "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Énergétique : Puissance et rendement",
-        "semestre": "S3"
+        "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
+        "semestre": "S2"
        }
       ],
       "page": 15,
@@ -674,6 +598,10 @@
        {
         "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
         "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Correcteurs : Proportionnel-intégral",
+        "semestre": "S4"
        }
       ],
       "page": 15,
@@ -684,7 +612,11 @@
       "numero": "Q39",
       "mots_cles": [
        {
-        "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
+        "theme_sous_theme": "Correcteurs : Proportionnel-intégral",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Précision",
         "semestre": "S2"
        }
       ],
@@ -696,8 +628,8 @@
       "numero": "Q40",
       "mots_cles": [
        {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
+        "theme_sous_theme": "Correcteurs : Proportionnel-intégral",
+        "semestre": "S4"
        }
       ],
       "page": 16,
@@ -708,12 +640,12 @@
       "numero": "Q41",
       "mots_cles": [
        {
-        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
         "semestre": "S2"
        },
        {
-        "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
-        "semestre": "S2"
+        "theme_sous_theme": "Correcteurs : Proportionnel-intégral",
+        "semestre": "S4"
        }
       ],
       "page": 16,
@@ -724,12 +656,12 @@
       "numero": "Q42",
       "mots_cles": [
        {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
-       },
-       {
         "theme_sous_theme": "Asservissement : Précision",
         "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Correcteurs : Proportionnel-intégral",
+        "semestre": "S4"
        }
       ],
       "page": 16,
@@ -740,16 +672,12 @@
       "numero": "Q43",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "theme_sous_theme": "Asservissement : Stabilité",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Correcteurs : Proportionnel-intégral",
         "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
-       },
-       {
-        "theme_sous_theme": "Énergétique : Puissance et rendement",
-        "semestre": "S3"
        }
       ],
       "page": 16,
@@ -767,15 +695,7 @@
       "numero": "Q44",
       "mots_cles": [
        {
-        "theme_sous_theme": "Cinématique : Vitesses",
-        "semestre": "S1"
-       },
-       {
-        "theme_sous_theme": "Cinématique : Torseur cinématique",
-        "semestre": "S1"
-       },
-       {
-        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "theme_sous_theme": "Statique : Isostatisme",
         "semestre": "S2"
        }
       ],
@@ -789,10 +709,6 @@
        {
         "theme_sous_theme": "Statique : Liaisons équivalentes",
         "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Statique : Principe fondamental de la statique",
-        "semestre": "S2"
        }
       ],
       "page": 18,
@@ -805,10 +721,6 @@
        {
         "theme_sous_theme": "Statique : Liaisons équivalentes",
         "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Statique : Principe fondamental de la statique",
-        "semestre": "S2"
        }
       ],
       "page": 18,
@@ -819,15 +731,7 @@
       "numero": "Q47",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
-       },
-       {
         "theme_sous_theme": "Statique : Liaisons équivalentes",
-        "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Statique : Principe fondamental de la statique",
         "semestre": "S2"
        }
       ],
@@ -845,7 +749,7 @@
         "semestre": "S2"
        },
        {
-        "theme_sous_theme": "Statique : Isostatisme",
+        "theme_sous_theme": "Statique : Hyperstatisme",
         "semestre": "S2"
        }
       ],
@@ -859,14 +763,6 @@
        {
         "theme_sous_theme": "Statique : Liaisons équivalentes",
         "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Cinématique : Vitesses",
-        "semestre": "S1"
        }
       ],
       "page": 19,
@@ -879,16 +775,12 @@
       "numero": "Q50",
       "mots_cles": [
        {
+        "theme_sous_theme": "Statique : Hyperstatisme",
+        "semestre": "S2"
+       },
+       {
         "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
         "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
-        "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
        }
       ],
       "page": 19,
@@ -910,8 +802,8 @@
         "semestre": "S2"
        },
        {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
+        "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
+        "semestre": "S2"
        }
       ],
       "page": 21,
@@ -924,7 +816,11 @@
       "numero": "Q52",
       "mots_cles": [
        {
-        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Précision",
         "semestre": "S2"
        }
       ],
@@ -936,8 +832,8 @@
       "numero": "Q53",
       "mots_cles": [
        {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
        }
       ],
       "page": 21,
@@ -960,16 +856,8 @@
       "numero": "Q55",
       "mots_cles": [
        {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
-       },
-       {
-        "theme_sous_theme": "Correcteurs : Proportionnel",
-        "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Métrologie : Contrôle tridimensionnel",
-        "semestre": "S3"
+        "theme_sous_theme": "Asservissement : Précision",
+        "semestre": "S2"
        }
       ],
       "page": 21,
@@ -980,8 +868,12 @@
       "numero": "Q56",
       "mots_cles": [
        {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Précision",
+        "semestre": "S2"
        }
       ],
       "page": 22,
@@ -992,8 +884,8 @@
       "numero": "Q57",
       "mots_cles": [
        {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
+        "theme_sous_theme": "Asservissement : Précision",
+        "semestre": "S2"
        }
       ],
       "page": 22,
@@ -1006,6 +898,10 @@
        {
         "theme_sous_theme": "Ingénierie Système : Cahier des charges",
         "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Correcteurs : Proportionnel",
+        "semestre": "S4"
        }
       ],
       "page": 22,

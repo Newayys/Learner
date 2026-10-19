@@ -6,7 +6,7 @@
  "status": 200,
  "source": "banquept.fr, rubrique « Annales d'annales » (rubrique23.html)",
  "epreuve_originale": "SI A",
- "classification": "automatique par mots-clés (Claude, oct. 2026) — moins fine que celle des sujets récents",
+ "classification": "relue question par question par Claude (oct. 2026), dans la taxonomie existante du site ; questions de conception rangées surtout en « Dimensionnement : Liaisons mécaniques »",
  "decoupage_questions": "Question",
  "texte_ocr": true,
  "pages_sujet": 30,
@@ -20,12 +20,12 @@
       "numero": "Q17",
       "mots_cles": [
        {
-        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "theme_sous_theme": "Statique : Frottements",
         "semestre": "S2"
        },
        {
-        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
-        "semestre": "S1"
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
        }
       ],
       "page": 16,
@@ -38,16 +38,12 @@
       "numero": "Q18",
       "mots_cles": [
        {
-        "theme_sous_theme": "Énergétique : Puissance et rendement",
-        "semestre": "S3"
+        "theme_sous_theme": "Statique : Frottements",
+        "semestre": "S2"
        },
        {
         "theme_sous_theme": "Statique : Principe fondamental de la statique",
         "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
-        "semestre": "S1"
        }
       ],
       "page": 16,
@@ -61,16 +57,12 @@
       "numero": "Q21",
       "mots_cles": [
        {
+        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+        "semestre": "S3"
+       },
+       {
         "theme_sous_theme": "Statique : Frottements",
         "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
-        "semestre": "S1"
-       },
-       {
-        "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
-        "semestre": "S1"
        }
       ],
       "page": 16,
@@ -85,12 +77,8 @@
       "numero": "Q24",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Capteurs",
-        "semestre": "S4"
+        "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
+        "semestre": "S1"
        },
        {
         "theme_sous_theme": "Ingénierie Système : Cahier des charges",
@@ -112,16 +100,12 @@
       "numero": "Q26",
       "mots_cles": [
        {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       },
+       {
         "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
         "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Capteurs",
-        "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
        }
       ],
       "page": 19,
@@ -148,16 +132,16 @@
       "numero": "Q28",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
-        "semestre": "S3"
-       },
-       {
         "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
         "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Rapidité",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
        }
       ],
       "page": 19,
@@ -171,16 +155,12 @@
       "numero": "Q29",
       "mots_cles": [
        {
-        "theme_sous_theme": "Asservissement : Stabilité",
-        "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
-       },
-       {
         "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
         "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+        "semestre": "S3"
        }
       ],
       "page": 20,
@@ -215,16 +195,8 @@
       "numero": "Q36",
       "mots_cles": [
        {
-        "theme_sous_theme": "Asservissement : Stabilité",
-        "semestre": "S2"
-       },
-       {
         "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
         "semestre": "S2"
-       },
-       {
-        "theme_sous_theme": "Correcteurs : Proportionnel-intégral",
-        "semestre": "S4"
        }
       ],
       "page": 23,
@@ -240,8 +212,8 @@
       "numero": "Q39",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Capteurs",
-        "semestre": "S4"
+        "theme_sous_theme": "Ingénierie Système : Chaîne d'information",
+        "semestre": "S1"
        }
       ],
       "page": 25,
@@ -266,14 +238,6 @@
        {
         "theme_sous_theme": "Ingénierie Système : Chaîne d'information",
         "semestre": "S1"
-       },
-       {
-        "theme_sous_theme": "Dimensionnement : Capteurs",
-        "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
        }
       ],
       "page": 26,
@@ -284,11 +248,7 @@
       "numero": "Q42",
       "mots_cles": [
        {
-        "theme_sous_theme": "Dimensionnement : Capteurs",
-        "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "theme_sous_theme": "Ingénierie Système : Chaîne d'information",
         "semestre": "S1"
        }
       ],
@@ -304,10 +264,6 @@
         "semestre": "S4"
        },
        {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
-       },
-       {
         "theme_sous_theme": "Ingénierie Système : Chaîne d'information",
         "semestre": "S1"
        }
@@ -320,7 +276,7 @@
       "numero": "Q45",
       "mots_cles": [
        {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "theme_sous_theme": "Ingénierie Système : Chaîne d'information",
         "semestre": "S1"
        }
       ],
@@ -332,7 +288,7 @@
       "numero": "Q46",
       "mots_cles": [
        {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "theme_sous_theme": "Ingénierie Système : Chaîne d'information",
         "semestre": "S1"
        }
       ],
@@ -364,11 +320,7 @@
         "semestre": "S4"
        },
        {
-        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
-        "semestre": "S1"
-       },
-       {
-        "theme_sous_theme": "Asservissement : Précision",
+        "theme_sous_theme": "Traitement de l'information : Échantillonnage et quantification",
         "semestre": "S2"
        }
       ],
@@ -379,14 +331,6 @@
      {
       "numero": "Q51",
       "mots_cles": [
-       {
-        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
-        "semestre": "S4"
-       },
-       {
-        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
-        "semestre": "S1"
-       },
        {
         "theme_sous_theme": "Ingénierie Système : Chaîne d'information",
         "semestre": "S1"
