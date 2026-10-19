@@ -1,0 +1,1379 @@
+{
+ "concours": "Banque PT",
+ "filiere": "SIA",
+ "date": "2007",
+ "file": "BPT_SIA_2007.pdf",
+ "status": 200,
+ "source": "banquept.fr, rubrique « Annales d'annales » (rubrique23.html)",
+ "epreuve_originale": "SI A",
+ "classification": "automatique par mots-clés (Claude, oct. 2026) — moins fine que celle des sujets récents",
+ "decoupage_questions": "Question",
+ "texte_ocr": false,
+ "pages_sujet": 30,
+ "pages_total": 34,
+ "data": {
+  "parties": [
+   {
+    "titre_partie": "A - ANALYSE DE LA GESTION DES TÂCHES DU SYSTEME",
+    "questions": [
+     {
+      "numero": "Q1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Machines électriques : Machine synchrone",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Systèmes séquentiels : Diagramme d'états",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Correcteurs : Correcteur numérique",
+        "semestre": "S4"
+       }
+      ],
+      "page": 7,
+      "tags": [
+       "liaison hélicoïdale / vis-écrou",
+       "grafcet"
+      ],
+      "texte": "Question 1 : A l’aide des indications fournies précédemment remplir les éléments vides (actions, réceptivités) dans les quatre grafcets du document réponse annexe A 7/30 partie A : Analyse fonctionnelle du process B - SYNTHESE DE LA COMMANDE D’UN OUTIL DE FORMAGE Cette machine à coulisseaux multiples peut gérer jusqu’à 26 axes indépendant asservis en position. On se propose de développer une nouvelle stratégie de commande des axes : commande RST. Afin de mettre en place cette commande on développera tout d’abord le modèle d’un axe avec l’outillage « écrasement de tube » (cf partie A – Analyse de la gestion des tâches du système : axe VED). B.1 Modélisation de l’axe Un schéma simplifié du système asservi de l’axe est le suivant (cf figure B.1) : Vis-écrou (pas h = 6mm.) d=100mm. C.N. CYBELEC C.N. CIBEX kcna.iref(t) Variateur MSAP xref(t) ia ib d=100mm. c(t) ω (t) Me = 5,6kg Jv = 9,78kg.cm² Moe = 11,4kg F(t) a Tube v(t) x(t) figure B.1: outil d'écrasement + motorisation + pilotage Notation : MSAP : Machine Synchrone Autopilotée. xref(t) : référence de position fournie par l’interpolateur de la C.N. (Commande Numérique) CYBELEC. kcna.iref(t) : référence de courant fournie par la C.N. "
+     }
+    ]
+   },
+   {
+    "titre_partie": "B - SYNTHESE DE LA COMMANDE D’UN OUTIL DE FORMAGE",
+    "questions": [
+     {
+      "numero": "QB.1.1.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Énergétique : Théorème de l'énergie cinétique",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Énergétique : Puissance et rendement",
+        "semestre": "S3"
+       }
+      ],
+      "page": 9,
+      "tags": [],
+      "texte": "Question B.1.1.1 Etablir, sans la résoudre, l’équation différentielle reliant le courant i(t) à la référence kcna.iref(t). S’agit-il d’accumulation d’énergie cinétique ou potentielle ?"
+     },
+     {
+      "numero": "QB.1.1.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 9,
+      "tags": [],
+      "texte": "Question B.1.1.2 Donner l’équation littérale reliant le couple c(t) au courant i(t). Comment nomme t-on cette transformation."
+     },
+     {
+      "numero": "QB.1.1.3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Énergétique : Théorème de l'énergie cinétique",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Énergétique : Puissance et rendement",
+        "semestre": "S3"
+       }
+      ],
+      "page": 9,
+      "tags": [],
+      "texte": "Question B.1.1.3 Etablir, sans la résoudre, l’équation différentielle reliant la pulsation de rotation ω(t) aux variables de couple c(t) et cr(t). On précisera les solides isolés, les théorèmes utilisés et les hypothèses éventuelles. S’agit-il d’accumulation d’énergie cinétique ou potentielle ?"
+     },
+     {
+      "numero": "QB.1.1.4",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 9,
+      "tags": [],
+      "texte": "Question B.1.1.4 Déterminer la valeur numérique de kve = v(t)/ω(t) associée au système vis- écrou."
+     },
+     {
+      "numero": "QB.1.1.5",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 9,
+      "tags": [],
+      "texte": "Question B.1.1.5 Donner l’équation, sans la résoudre, donnant x(t) en fonction de v(t)."
+     },
+     {
+      "numero": "QB.1.1.6",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Énergétique : Inertie équivalente",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 9,
+      "tags": [],
+      "texte": "Question B.1.1.6 Déterminer, sous forme littérale, l’inertie équivalente ramenée sur l’arbre de la MSAP Jmr des masses de l’outil d’écrasement + biellette de renvoi d’angle inférieure (masse Moe = 11,4kg.) et de l’écrou + biellette de renvoi d’angle supérieure (masse Me = 5,6kg.) en fonction de Moe, Me et kve."
+     },
+     {
+      "numero": "QB.1.1.7",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Énergétique : Inertie équivalente",
+        "semestre": "S3"
+       }
+      ],
+      "page": 9,
+      "tags": [],
+      "texte": "Question B.1.1.7 Déterminer sous forme numérique l’inertie équivalente totale Jtr comprenant l’inertie équivalente ramenée des masses Jmr et l’inertie de la vis et du rotor de la MSAP Jv. 9/30 partie B : automatique"
+     },
+     {
+      "numero": "QB.1.1.8",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Frottements",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Énergétique : Inertie équivalente",
+        "semestre": "S3"
+       }
+      ],
+      "page": 10,
+      "tags": [],
+      "texte": "Question B.1.1.8 Déterminer, sous forme littérale, le coefficient de frottement visqueux équivalent ramené sur l’arbre de la MSAP fr, du coefficient de frottement visqueux a sur l’outil d’écrasement, en fonction de a et kve."
+     },
+     {
+      "numero": "QB.1.1.9",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Énergétique : Puissance et rendement",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Capteurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Chaîne d'énergie",
+        "semestre": "S1"
+       }
+      ],
+      "page": 10,
+      "tags": [
+       "liaison hélicoïdale / vis-écrou"
+      ],
+      "texte": "Question B.1.1.9 Déterminer l’application numérique du coefficient de frottement visqueux équivalent fr. B.1.2 Graphe de commande, schéma bloc de l’asservissement On désire piloter en position et en vitesse l’outil. On cherche à mettre en place une stratégie de commande par inversion de la chaîne d’énergie. Soit la structure schéma-bloc de la chaîne d’énergie, interface et commande : Chaîne d'énergie Cr(p) Variateur MSAP Charge ramenée Vis-écrou kcna.Iref(p) I(p) C(p) Ω (p) V(p) X(p) Jtr, fr kve Interface capteur de sortie de commande capteur de position pulsation de rotation Ω (p) X(p) Commande Iref(p) Cref(p) Ω ref (p) Vref(p) Xref(p) figure B.1.2: schéma-bloc de la chaîne d'énergie régulé en position et vitesse ^ Nota : On note x( t ) la grandeur estimée fournie par un capteur de mesure de la variable x(t)."
+     },
+     {
+      "numero": "QB.1.2.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Énergétique : Puissance et rendement",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Chaîne d'énergie",
+        "semestre": "S1"
+       }
+      ],
+      "page": 10,
+      "tags": [],
+      "texte": "Question B.1.2.1 Donner le contenu littéral puis numérique de la relation de commande donnant la consigne de pulsation de rotation de la MSAP ωref(t) en fonction de la consigne de vitesse linéaire de déplacement de l’outil d’écrasement vref(t) en respectant la stratégie énoncée ci-dessus (commande par inversion de la chaîne d’énergie)."
+     },
+     {
+      "numero": "QB.1.2.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Énergétique : Puissance et rendement",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Chaîne d'énergie",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       }
+      ],
+      "page": 10,
+      "tags": [
+       "liaison hélicoïdale / vis-écrou"
+      ],
+      "texte": "Question B.1.2.2 Donner le contenu littéral puis numérique de la relation de commande donnant la consigne de courant de la MSAP iref(t) en fonction de la consigne de couple de la MSAP cref(t) en respectant la stratégie énoncée ci-dessus (commande par inversion de la chaîne d’énergie). B.1.2.3 Construction du schéma bloc complet B1.2.3.1 Chaîne d’énergie Soit le schéma-bloc de la chaîne d’énergie : Cr(p) Variateur MSAP Charge ramenée Vis-écrou kcna.Iref(p) I(p) C(p) Ω (p) V(p) X(p) Jtr, fr kve figure B.1.2.3.1: Schéma bloc de la partie de la chaîne d'énergie comprenant variateur + MSAP + outil d'écrasement 10/30 partie B : automatique I( p )"
+     },
+     {
+      "numero": "QB.1.2.3.1.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       }
+      ],
+      "page": 11,
+      "tags": [],
+      "texte": "Question B.1.2.3.1.1 Donner sous forme littérale et canonique la transmittance en kcna.Iref ( p ) fonction de ki et τe. Ω( p)"
+     },
+     {
+      "numero": "QB.1.2.3.1.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       }
+      ],
+      "page": 11,
+      "tags": [],
+      "texte": "Question B.1.2.3.1.2 Donner sous forme littérale et canonique la transmittance en C( p ) Jtr fonction de fr et τm. On posera τm = . fr Ω( p)"
+     },
+     {
+      "numero": "QB.1.2.3.1.3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       }
+      ],
+      "page": 11,
+      "tags": [],
+      "texte": "Question B.1.2.3.1.3 Donner sous forme numérique la transmittance . C( p ) X( p )"
+     },
+     {
+      "numero": "QB.1.2.3.1.4",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       }
+      ],
+      "page": 11,
+      "tags": [],
+      "texte": "Question B.1.2.3.1.4 Donner sous forme littérale et canonique la transmittance . V( p)"
+     },
+     {
+      "numero": "QB.1.2.3.1.5",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Capteurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 11,
+      "tags": [],
+      "texte": "Question B.1.2.3.1.5 Sur le document réponse B1 remplir le contenu des blocs associés à la chaîne d’énergie sous forme littérale et canonique. B.1.2.3.2 Interface Soit le schéma bloc : Interface Ω (p) X(p) kcna.Iref(p) capteur de sortie de commande capteur de position pulsation de rotation Iref(p) Ω (p) X(p) figure B.1.2.3.2: schéma bloc de l'interface"
+     },
+     {
+      "numero": "QB.1.2.3.2.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Capteurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 11,
+      "tags": [],
+      "texte": "Question B.1.2.3.2.1 Sur le document réponse B1 donner le contenu numérique des gains des blocs associés à l’interface (toute les grandeurs seront à ramener en unité mksa). On note : kcna = gain de la sortie analogique de la C.N. (±10V/216). kcapΩ = gain du capteur pulsation de rotation (4096 tops/tour). kcapx = gain du capteur position (4096 tops/mm). B.1.2.3.3 – Commande Soit le schéma bloc de la commande Commande Ω (p) X(p) Iref(p) Cref(p) Ω ref (p) Vref(p) Xref(p) Bloc2 Bloc1 figure B.1.2.3.3: schéma bloc du processus régulé en position"
+     },
+     {
+      "numero": "QB.1.2.3.3.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Correcteurs : Correcteur numérique",
+        "semestre": "S4"
+       }
+      ],
+      "page": 11,
+      "tags": [],
+      "texte": "Question B.1.2.3.3.1 Par analyse de ce schéma bloc quelles fonctions auront les Bloc1 et Bloc2 ? 11/30 partie B : automatique Cette structure de commande est une structure simple de correction car elle n’agit que sur l’erreur. La nouvelle structure de pilotage de la C.N. permet d’intégrer des structures de correction de type RST. Ces structures permettent d’agir, à la fois sur l’erreur mais aussi sur la variable à réguler et la consigne de réglage. La synthèse des correcteurs RST consiste donc à rechercher trois polynômes (R(p) = traitement de la grandeur à réguler, S(p) = traitement de l’erreur et T(p) = traitement de la consigne) pour obtenir la transmittance en boucle fermée désirée en asservissement. Dans cette partie on se propose de mettre en place une méthode de synthèse de ce type d’architecture de correcteur. B.2 Correction avec structure RST B.2.1 Modélisation de la boucle de courant Le variateur assure une régulation en courant de la MSAP d’entrée kcna.iref(t) et de sortie i(t). Un essai rotor calé (le rotor de la MSAP bridée) en réponse à l’échelon unitaire a donné le résultat suivant : i(t) Réponse à l’échelon unitaire en kcna.Iref(t) t (s.) On décide d’approximer la b"
+     },
+     {
+      "numero": "QB.2.1.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       }
+      ],
+      "page": 12,
+      "tags": [],
+      "texte": "Question B.2.1.1 Identifier sur le document réponse B2 la fonction de transfert du variateur avec la MSAP. On fera apparaître la construction sur la courbe."
+     },
+     {
+      "numero": "QB.2.1.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Énergétique : Inertie équivalente",
+        "semestre": "S3"
+       }
+      ],
+      "page": 12,
+      "tags": [],
+      "texte": "Question B.2.1.2 Comparer la valeur numérique de la constante de temps de la boucle de courant τe avec la valeur numérique de la constante de temps de la partie mécanique ramenée sur l’arbre de la MSAP τm obtenue à la question B.1.2.3.1.3. Conclure. 12/30 partie B : automatique Dans la suite du sujet le schéma bloc ci-dessous sera adopté : Iref(p) kΩ Ω (p) kve V(p) 1 X(p) 1 + τ m.p p Ω (p) kcapΩ X(p) kcapx Schéma bloc de la partie de la chaîne d'énergie comprenant variateur + MSAP + outil d'écrasement + capteur de pulsation de rotation et de position et sortie analogique C.N."
+     },
+     {
+      "numero": "QB.2.1.3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Correcteurs : Correcteur numérique",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Correcteurs : Proportionnel-intégral",
+        "semestre": "S4"
+       }
+      ],
+      "page": 13,
+      "tags": [],
+      "texte": "Question B.2.1.3 A partir des résultats de la question B.1.2.3.1.5, déterminer kΩ en fonction de kcna, ki, kt et fr. Donner l’application numérique. B.2.2 Principe de la correction RST On considère un processus d'entrée U(p) et de sortie Y(p), soumis à une perturbation P(p). La sortie est définie par : Y(p) = G(p).U(p) + H(p).P(p) avec la transmittance en boucle ouverte : m ∑ bi .p i B( p ) G( p ) = i = 0 = n A( p ) ∑ai .pi i =0 La forme générale du correcteur RST intégrée dans la commande numérique (C.N.) est donnée par la figure suivante : P(p) H(p) Yref(p) Yref(s) 1 U(p) U(s) B(p) Y(p) T(p) G(p) = G(s)= S(p) A(p) R(p) processus + capteurs C.N. figure B.2.2 : structure RST où R(p), S(p), T(p) sont des polynômes que l'on calcule pour obtenir la transmittance en boucle Y( p) Bd ( p ) fermée désirée en asservissement (perturbation constante) FTBFd ( p ) = = Yref ( p ) Ad ( p ) Bd(p) et Ad(p) sont les polynômes désirés pour le comportement en boucle fermée. 13/30 partie B : automatique Les polynômes seront de la forme : Processus A(p)=a0+a1.p+a2.p²+…+an.pn B(p)=b0+b1.p+b2.p²+…+bm.pm Correcteur R(p)=r0+r1.p+r2.p ²+…+rj.pj S(p)=s0+s1.p+s2.p²+…+sk.pk T(p)=t0+t1.p+t2.p²+…+tl.pl Processus"
+     },
+     {
+      "numero": "QB.2.2.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       }
+      ],
+      "page": 14,
+      "tags": [],
+      "texte": "Question B.2.2.1 Déterminer la fonction de transfert en boucle fermée FTBFd ( p ) = en Yref ( p ) fonction de R(p), S(p), T(p), A(p), B(p)."
+     },
+     {
+      "numero": "QB.2.2.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+        "semestre": "S2"
+       }
+      ],
+      "page": 14,
+      "tags": [
+       "tolérances géométriques"
+      ],
+      "texte": "Question B.2.2.2 En déduire Bd(p) et Ad(p) en fonction de R(p), S(p), T(p), A(p), B(p). On cherchera donc à déterminer les degrés et les coefficients des polynômes R(p), S(p) et T(p) pour obtenir les performances désirées du système en boucle fermée, en distinguant 3 types de spécification : • le placement des pôles de la transmittance du système en boucle fermée (choix de la dynamique, gestion de l’effet des pôles sur le dépassement...). • l'élimination de l'écart statique. • la compensation des zéros de la transmittance en boucle ouverte (suppression du dépassement généré par les zéros). B.2.3 Placement des pôles : Principe, choix du degré des polynômes Les performances désirées du système en boucle fermée, exprimées en termes de constantes de temps et d'amortissement, sont principalement définies par les pôles de la transmittance du système en boucle fermée (FTBFd(p)). Ces pôles, solutions du dénominateur de cette transmittance, permettent de déterminer les coefficients du polynôme caractéristique de la FTBFd(p) (le dénominateur Ad(p)). Convention de notation : On notera le degré du polynôme A(p) par deg[A(p)]."
+     },
+     {
+      "numero": "QB.2.3.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       }
+      ],
+      "page": 14,
+      "tags": [],
+      "texte": "Question B.2.3.1 Déterminer l’équation de U(p) en fonction de R(p), S(p), T(p), Yref(p) et Y(p) Les transmittances ne peuvent pas être anticipatives (principe de causalité). B( p ) Rappel : G( p ) = A( p )"
+     },
+     {
+      "numero": "QB.2.3.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 14,
+      "tags": [],
+      "texte": "Question B.2.3.2 Donner les inéquations reliant les degrés des polynômes : A(p) avec B(p). S(p) avec R(p). T(p) avec S(p)."
+     },
+     {
+      "numero": "QB.2.3.3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       }
+      ],
+      "page": 14,
+      "tags": [],
+      "texte": "Question B.2.3.3 Donner l’équation donnant le degré du polynôme Ad(p) en fonction des degrés des polynômes A(p) et S(p) en faisant intervenir les degrés des polynômes contenus dans l’équation Ad(p) = S(p).A(p) + R(p).B(p) Le nombre d'équations, défini par le nombre de coefficients imposés par le dénominateur en boucle fermée choisie Ad(p), doit être égal au nombre d'inconnues correspondant aux coefficients des polynômes R(p) et S(p) pour obtenir l'unicité de la solution. 14/30 partie B : automatique"
+     },
+     {
+      "numero": "QB.2.3.4",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 15,
+      "tags": [],
+      "texte": "Question B.2.3.4 Afin d’assurer l’unicité de la solution, donner l’équation donnant le degré du polynôme Ad(p) en fonction des degrés des polynômes R(p) et S(p) en faisant intervenir le nombre de paramètres à obtenir pour déterminer les polynômes Ad(p), R(p) et S(p)."
+     },
+     {
+      "numero": "QB.2.3.5",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 15,
+      "tags": [],
+      "texte": "Question B.2.3.5 Des deux équations précédentes en déduire le degré du polynôme R(p) en fonction du degré du polynôme de A(p) On pose n l’ordre du polynôme A(p)."
+     },
+     {
+      "numero": "QB.2.3.6",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 15,
+      "tags": [],
+      "texte": "Question B.2.3.6 Déduire, de la relation précédente et de la relation de causalité reliant le degré S(p) au degré de R(p), l’inéquation reliant le degré du polynôme S(p) en fonction du degré du polynôme de A(p) On pose n l’ordre du polynôme A(p)."
+     },
+     {
+      "numero": "QB.2.3.7",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 15,
+      "tags": [],
+      "texte": "Question B.2.3.7 En déduire l’inéquation reliant le degré du polynôme Ad(p) en fonction du degré du polynôme de A(p) On pose n l’ordre du polynôme A(p)."
+     },
+     {
+      "numero": "QB.2.3.8",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 15,
+      "tags": [],
+      "texte": "Question B.2.3.8 Montrer que, pour l'ordre minimal du système corrigé, les degrés des polynômes sont (avec n ordre du polynôme A(p)): n-1 pour R(p). n-1 pour S(p). 2.n-1 pour Ad(p). B.2.4 Application au réglage de la boucle de vitesse P(p) H(p) Ω ref(p) T(p) 1 U(p) B(p) kΩ Ω (p) G(s)= G(p) = = S(p) A(p) 1+τ m.p R(p) kcapΩ C.N. chaîne d'énergie + capteurs figure B.2.4 : boucle de vitesse où kΩ = 0,0049 V.rad/s : gain statique de la chaîne directe de la boucle de pulsation de rotation. τm = 0,1s. : constante de temps de la partie mécanique ramenée sur l’axe de la MSAP. kcapΩ = 652 V.s/rad : gain du capteur de vitesse Cahier des charges : On souhaite que le système corrigé se comporte comme un premier ordre avec une constante de temps désirée τd (tel que le temps de réponse à 5% en boucle fermée soit quatre fois plus faible que celui de la boucle ouverte) et un gain statique unitaire."
+     },
+     {
+      "numero": "QB.2.4.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 15,
+      "tags": [],
+      "texte": "Question B.2.4.1 Déterminer les degrés des polynômes R(p), S(p) et T(p). En déduire les degrés de Ad(p) et Bd(p) (on se placera dans le cas de la recherche d’un ordre minimal pour le système corrigé)."
+     },
+     {
+      "numero": "QB.2.4.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 15,
+      "tags": [],
+      "texte": "Question B.2.4.2 En déduire la forme des polynômes R(p), S(p), T(p), Bd(p) et Ad(p) (cf B.2.2). 15/30 partie B : automatique"
+     },
+     {
+      "numero": "QB.2.4.3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
+        "semestre": "S2"
+       }
+      ],
+      "page": 16,
+      "tags": [
+       "tolérances géométriques"
+      ],
+      "texte": "Question B.2.4.3 Déterminer la fonction de transfert en boucle fermée désirée FTBFd(p) satisfaisant les spécifications du cahier des charges (On souhaite que le système corrigé admette une constante de temps τd et un gain statique unitaire). La FTBFd(p) sera présentée sous forme canonique. On précisera la valeur du pôle de la FTBFd(p). En déduire, par identification paramétrique, les coefficients de Bd(p) et Ad(p) de la FTBFd(p)."
+     },
+     {
+      "numero": "QB.2.4.4",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Rapidité",
+        "semestre": "S2"
+       }
+      ],
+      "page": 16,
+      "tags": [],
+      "texte": "Question B.2.4.4 Par identification paramétrique des deux équations obtenues à la question B.2.2.2, déterminer les formes littérales des polynômes R(p), S(p) et T(p) en fonction de kΩ, kcapΩ, τm, τd. On désire un temps de réponse à 5% quatre fois plus faible en boucle fermée que celui du processus en boucle ouverte."
+     },
+     {
+      "numero": "QB.2.4.5",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 16,
+      "tags": [],
+      "texte": "Question B.2.4.5 Déterminer l’expression littérale en fonction de τm, puis l’application numérique, de τd."
+     },
+     {
+      "numero": "QB.2.4.6",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Précision",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       }
+      ],
+      "page": 16,
+      "tags": [],
+      "texte": "Question B.2.4.6 Déterminer l’application numérique des polynômes R(p), S(p) et T(p). B.2.5 Elimination de l’erreur statique Hypothèse : On suppose que 0 n'est pas pôle de H(p). Soit p(t) l’échelon unitaire et ωref(t)=0 B.2.5.1 Mise en évidence P(p) H(p) Ω ref(p) T(p) 1 U(p) B(p) kΩ Ω (p) G(p) = G(s)= = S(p) A(p) 1+τ m.p R(p) kcapΩ C.N. chaîne d'énergie + capteurs figure B.2.5.1 : boucle de vitesse avec perturbation Ω( p)"
+     },
+     {
+      "numero": "QB.2.5.1.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       }
+      ],
+      "page": 16,
+      "tags": [],
+      "texte": "Question B.2.5.1.1 Déterminer la fonction de transfert en fonction de A(p), B(p), H(p), P( p ) R(p), S(p) et kcapΩ."
+     },
+     {
+      "numero": "QB.2.5.1.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Précision",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       }
+      ],
+      "page": 16,
+      "tags": [],
+      "texte": "Question B.2.5.1.2 Par application du théorème de la valeur finale, en réponse à un échelon de perturbation p(t) unitaire donner ω(t→∞). Conclure On désire rendre insensible la sortie ω(t) à une perturbation p(t) en échelon pour le régime permanent. B.2.5.2 Principe Pour annuler l'erreur statique due à la perturbation, il faut introduire un nombre suffisant d'intégration(s) dans la chaîne directe. Dans le cas d'une perturbation constante, une seule intégration suffit. On pose S(p)=p.S’(p). Et S’(p) sera de la forme S’(p)=s0+s1.p+s2.p²+…+sk.pk 16/30 partie B : automatique Ω( p)"
+     },
+     {
+      "numero": "QB.2.5.2.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       }
+      ],
+      "page": 17,
+      "tags": [],
+      "texte": "Question B.2.5.2.1 Déterminer la fonction de transfert en fonction de R(p), S’(p), kcapΩ, P( p ) H(p), A(p) et B(p)."
+     },
+     {
+      "numero": "QB.2.5.2.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 17,
+      "tags": [],
+      "texte": "Question B.2.5.2.2 Par application du théorème de la valeur finale, en réponse à un échelon de perturbation unitaire donner ω(t→∞). Conclure"
+     },
+     {
+      "numero": "QB.2.5.2.3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Rapidité",
+        "semestre": "S2"
+       }
+      ],
+      "page": 17,
+      "tags": [],
+      "texte": "Question B.2.5.2.3 En s’inspirant de la démarche développée dans la partie B.2.3 donner, pour l'ordre minimal du système corrigé, les degrés des polynômes R(p), S’(p) et Ad(p) en fonction du degré de A(p). On pose n l’ordre du polynôme A(p). B.2.5.3 Application à la boucle de vitesse Le processus est le suivant : P(p) H(p) Ω ref(p) T(p) 1 U(p) B(p) kΩ Ω (p) G(p)= = p.S'(p) A(p) 1+τ m.p R(p) kcapΩ C.N. chaîne d'énergie + capteurs figure B.2.5.3 : boucle de vitesse où kΩ = 0,0049 V.rad/s : gain statique de la chaîne directe de la boucle de pulsation de rotation. τm = 0,1s. : constante de temps de la partie mécanique ramenée sur l’axe de la MSAP. kcapΩ = 652 V.s/rad : gain du capteur de vitesse Cahier des charges : On souhaite :  que le système bouclé admette toujours un temps de réponse à 5% en boucle fermée 4 fois plus faible que celui du processus en boucle ouverte.  un amortissement critique (pas de dépassement de la réponse soumise à un échelon sur l’entrée de consigne ωref(t) tout en optimisant le temps de réponse à 5%). Le système bouclé sera donc composé de pôles réels de constante de temps τd.  un écart statique nul en présence d'une consigne et d'une perturbation évoluant"
+     },
+     {
+      "numero": "QB.2.5.3.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 17,
+      "tags": [],
+      "texte": "Question B.2.5.3.1 A partir des résultats de la question B.2.5.2.3, déterminer numériquement les degrés des polynômes R(p), S(p) et T(p) pour l’ordre minimal du système bouclé et du polynôme T(p). En déduire les degrés de Ad(p) et Bd(p)."
+     },
+     {
+      "numero": "QB.2.5.3.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 17,
+      "tags": [],
+      "texte": "Question B.2.5.3.2 En déduire la forme des polynômes R(p), S(p), T(p), Bd(p) et Ad(p) (cf. §B.2.2 et §B.2.5.2). 17/30 partie B : automatique"
+     },
+     {
+      "numero": "QB.2.5.3.3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 18,
+      "tags": [
+       "tolérances géométriques"
+      ],
+      "texte": "Question B.2.5.3.3 A partir des spécifications du cahier des charges fourni au §B.2.5.3, déterminer le polynôme Ad(p) en fonction de τd. Parmi les choix de Ad(p) on prendra Ad(p) tel que ad2 = 1"
+     },
+     {
+      "numero": "QB.2.5.3.4",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 18,
+      "tags": [
+       "tolérances géométriques"
+      ],
+      "texte": "Question B.2.5.3.4 A partir des spécifications du cahier des charges fourni au §B.2.5.3, déterminer la fonction de transfert en boucle fermée désirée FTBFd(p)."
+     },
+     {
+      "numero": "QB.2.5.3.5",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 18,
+      "tags": [],
+      "texte": "Question B.2.5.3.5 En s’inspirant du résultat de la question B.2.2.2, déterminer sous forme littérale les polynômes R(p) en fonction de kΩ, kcapΩ, τd, τm ; S(p) en fonction de τm et T(p) en fonction de kΩ, τd ."
+     },
+     {
+      "numero": "QB.2.5.3.6",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Rapidité",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       }
+      ],
+      "page": 18,
+      "tags": [],
+      "texte": "Question B.2.5.3.6 Déterminer (en utilisant l’abaque des temps de réponse à 5% réduit ci- dessous) la valeur numérique de τd permettant d’avoir un temps de réponse à 5% 4 fois plus faible que celui du processus en boucle ouverte."
+     },
+     {
+      "numero": "QB.2.5.3.7",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       }
+      ],
+      "page": 18,
+      "tags": [],
+      "texte": "Question B.2.5.3.7 Déterminer l’application numérique des polynômes R(p), S(p) et T(p). La problématique de cette synthèse est qu’elle peut faire apparaître des transmittances R(p), S(p) et T(p) non causales, donc non réalisables physiquement."
+     },
+     {
+      "numero": "QB.2.5.3.8",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       }
+      ],
+      "page": 18,
+      "tags": [],
+      "texte": "Question B.2.5.3.8 Parmi les transmittances obtenues R(p), S(p) et T(p), certaines sont-elles non causales ? Si oui lesquels ? On choisit de modifier la stratégie de commande en insérant un polynôme auxiliaire Filtre(p) stable de degré égal à celui de S(p) transformant la loi de commande de la façon suivante : Filtre( p )  T ( p ) R( p )  U( p ) = . .Ωref ( p ) − .kcapΩ .Ω ( p )  S( p )  Filtre( p ) Filtre( p )  On choisi : Filtre(p)=1+τf.p."
+     },
+     {
+      "numero": "QB.2.5.3.9",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       }
+      ],
+      "page": 18,
+      "tags": [],
+      "texte": "Question B.2.5.3.9 Cet artifice sur la stratégie a t-il permis de créer des bloc causaux ? Expliquer. 18/30 partie B : automatique B.2.6 Élimination de l’effet du zéro B.2.6.1 Influence du zéro On réalise un essai sur la machine à coulisseaux multiples avec ce réglage de la boucle de vitesse de la partie B.2.5 (cf figure B.2.6). ω(t) Réponse à l’échelon unitaire en ωref(t) et p(t)=0 t(s.) Figure B.2.6 : Essai en boucle fermée de la boucle de vitesse"
+     },
+     {
+      "numero": "QB.2.6.1.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Correcteurs : Correcteur numérique",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
+        "semestre": "S2"
+       }
+      ],
+      "page": 19,
+      "tags": [],
+      "texte": "Question B.2.6.1.1 La réponse obtenue est-elle celle espérée en comparaison du modèle de connaissance de la charge développé à la partie B.2.1 et du cahier des charges du correcteur RST mis en place à la partie B.2.5 ? Argumenter. Une identification de la chaîne d’énergie a donné le résultat suivant : Ω( p) 0 ,005.(1 + τz.p ) 0 ,005.(1 + 0 ,1.p ) = = kcna.Iref ( p ) (1 + 0 ,2.p )2 (1 + 0 ,2.p )2 L’élément perturbateur générateur de dépassement est le zéro de cette transmittance. Ω( p) 0 ,005.(1 + τz.p ) 0 ,005.(1 + 0 ,1.p )"
+     },
+     {
+      "numero": "QB.2.6.1.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Correcteurs : Correcteur numérique",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Énergétique : Puissance et rendement",
+        "semestre": "S3"
+       }
+      ],
+      "page": 19,
+      "tags": [],
+      "texte": "Question B.2.6.1.2 La transmittance = = possède kcna.Iref ( p ) (1 + 0 ,2.p )2 (1 + 0 ,2.p )2 un zéro. Est-il compensable par un pôle stable ? Argumenter. 19/30 partie B : automatique Hypothèse : On suppose toujours que 0 n'est pas pôle de H(p). On cherche toujours à compenser l’erreur statique liée à une perturbation. P(p) H(p) Ω ref(p) T(p) 1 U(p) B(p) kΩ .(1+.τ z.p) Ω (p) G(p)= = S(p) A(p) (1+0,2.p)² R(p) kcapΩ C.N. chaîne d'énergie + capteurs figure B.2.6.1 : boucle de vitesse avec perturbation B.2.6.2 Principe La forme générale du correcteur RST est rappelée par la figure suivante : P(p) H(p) Yref(p) 1 U(p) U(s) B(p) Y(p) T(p) G(p)= S(p) A(p) R(p) chaîne d'énergie + capteurs C.N. figure B.2.6.2 : structure RST où R(p), S(p), T(p) sont des polynômes que l'on calcule pour obtenir la transmittance en boucle Y( p) Bd ( p ) fermée désirée en asservissement (perturbation en échelon). FTBFd ( p ) = = Yref ( p ) Ad ( p ) Bd(p) et Ad(p) sont les polynômes désirés pour le comportement en boucle fermée. Dans le cas de zéros compensable on pose S(p) = B(p).p.S’(p) La perturbation p(t) est considérée comme nulle Y( p)"
+     },
+     {
+      "numero": "QB.2.6.2.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       }
+      ],
+      "page": 20,
+      "tags": [],
+      "texte": "Question B.2.6.2.1 Déterminer la transmittance FTBF ( p ) = en fonction de A(p), R(p), Yref ( p ) S’(p), T(p) et p. Pour compenser les zéros compensables de G(p), les polynômes R(p), S(p), T(p) doivent satisfaire les relations suivantes : S( p ) = B( p ).p.S ′( p ) (a) T ( p ) = Bd ( p ) ( b' ) p.S ′( p ).A( p ) + R( p ) = Ad ( p ) 20/30 partie B : automatique"
+     },
+     {
+      "numero": "QB.2.6.2.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Rapidité",
+        "semestre": "S2"
+       }
+      ],
+      "page": 21,
+      "tags": [],
+      "texte": "Question B.2.6.2.2 En s’inspirant de la démarche développée dans la partie B.2.3 donner, pour l'ordre minimal du système corrigé, les degrés des polynômes R(p), S’(p) et Ad(p) en fonction du degré de A(p). On pose n l’ordre du polynôme A(p) et m l’ordre du polynôme B(p). B.2.6.3 Application à la boucle de vitesse Le processus est le suivant : P(p) H(p) τ z=0,1 s. Ω ref(p) T(p) 1 U(p) B(p) kΩ .(1+ τ z.p) Ω (p) G(p)= = B(p).p.S'(p) A(p) (1+0,2.p)² R(p) kcapΩ C.N. chaîne d'énergie + capteurs figure B.2.6.3 : boucle de vitesse avec perturbation où kΩ = 0,005 V.rad/s : gain statique de la chaîne directe de la boucle de pulsation de rotation. τz=0,1s. : constante de temps du zéro de la partie mécanique ramenée sur l’axe de la MSAP. kcapΩ = 652 V.s/rad : gain du capteur de vitesse Cahier des charges : On souhaite :  que le système bouclé admette toujours un temps de réponse à 5% en boucle fermée 4 fois plus faible que celui du processus en boucle ouverte obtenu à la partie §B.2.1.  un amortissement critique (pas de dépassement de la réponse soumise à un échelon sur l’entrée de consigne ωref(t) tout en optimisant le temps de réponse à 5%). Le système bouclé sera donc composé de pôles rée"
+     },
+     {
+      "numero": "QB.2.6.3.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 21,
+      "tags": [],
+      "texte": "Question B.2.6.3.1 Déterminer les degrés des polynômes R(p), S’(p) et T(p). En déduire les degrés de Ad(p) et Bd(p)."
+     },
+     {
+      "numero": "QB.2.6.3.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 21,
+      "tags": [],
+      "texte": "Question B.2.6.3.2 En déduire la forme des polynômes R(p), S(p), T(p), Bd(p) et Ad(p) (cf §B.2.2 et §B.2.6.2)."
+     },
+     {
+      "numero": "QB.2.6.3.3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 21,
+      "tags": [],
+      "texte": "Question B.2.6.3.3 Déterminer le polynôme Ad(p) en fonction de τd. Parmi les choix de Ad(p) on prendra Ad(p) tel que ad3 = 1"
+     },
+     {
+      "numero": "QB.2.6.3.4",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+        "semestre": "S2"
+       }
+      ],
+      "page": 21,
+      "tags": [
+       "tolérances géométriques"
+      ],
+      "texte": "Question B.2.6.3.4 Déterminer la fonction de transfert en boucle fermée désirée FTBFd(p) en fonction de τd vérifiant les spécifications."
+     },
+     {
+      "numero": "QB.2.6.3.5",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 21,
+      "tags": [],
+      "texte": "Question B.2.6.3.5 En s’inspirant du résultat de la question B.2.2.2, déterminer sous forme littérale les polynômes R(p) en fonction de kcapΩ, τd ; S(p) et T(p) en fonction de τd . 21/30 partie B : automatique"
+     },
+     {
+      "numero": "QB.2.6.3.6",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Correcteurs : Correcteur numérique",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 22,
+      "tags": [],
+      "texte": "Question B.2.6.3.6 L’implantation des résultats numériques du correcteur RST de la partie B.2.6 donne la réponse à l’échelon unitaire en ωref(t) (asservissement) puis la réponse à l’échelon unitaire en p(t) = cr(t) (régulation) : ω(t) Réponse à l’échelon unitaire en ωref(t) et p(t)=0 t(s.) ω(t) Réponse à l’échelon unitaire en p(t)=cr(t) et ωref(t)=0 t(s.) Figure B.2.6.3.6 : réponse en vitesse aux échelons unitaires de vitesse de référence ωref(t) et de perturbation p(t)=cr(t). Par analyse des courbes montrer que le correcteur répond au cahier des charges 22/30 partie B : automatique C - ETUDE DU COMPORTEMENT CINÉMATIQUE Nous allons nous intéresser de plus près à 2 axes de la machine à coulisseaux multiples. Nous allons vérifier certaines hypothèses énoncées dans les parties précédentes. C.1 Paramétrage (schémas cinématiques pages 28 & 30) Les mécanismes étudiés dans cette partie sont constitués de 6 ou de 8 solides et d'un bâti : r r r r r Osta O10 = L01.xg − d 01. y g ; Bâti 0 Repère ℜg (Osta , xg , y g , z g ) r r r O10O30 = d 02 .xg − L02 . y g + d 03 .z g r r r r Stator Repère (Osta , xM , yM , zM ) Osta Oecr = LM .xM r r r Rotor-écrou Repère (Oecr , xM , ym , zm ) r r r r Vis "
+     }
+    ]
+   },
+   {
+    "titre_partie": "C - ETUDE DU COMPORTEMENT CINÉMATIQUE",
+    "questions": [
+     {
+      "numero": "QC.2.1.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 24,
+      "tags": [],
+      "texte": "Question C.2.1.1 Compléter le schéma cinématique en proposant une modélisation cinématique du moteur électrique."
+     },
+     {
+      "numero": "QC.2.1.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 24,
+      "tags": [],
+      "texte": "Question C.2.1.2 Au point Osta, une liaison pivot est proposée. Justifier la présence de cette liaison dans le fonctionnement du système."
+     },
+     {
+      "numero": "QC.2.1.3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 24,
+      "tags": [],
+      "texte": "Question C.2.1.3 Au point Ovis, une liaison pivot est proposée. Justifier la présence de cette liaison dans le fonctionnement du système."
+     },
+     {
+      "numero": "QC.2.1.4",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 24,
+      "tags": [],
+      "texte": "Question C.2.1.4 Conclure sur le mouvement de l'axe du moteur de commande. Pour connaître l'influence de la rotation de l'axe (Osta, Ovis), nous allons chercher à calculer la valeur maximale de l’angle de cette rotation. Nous ferons l'hypothèse que les liaisons sont parfaites."
+     },
+     {
+      "numero": "QC.2.1.5",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Fermeture géométrique",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 24,
+      "tags": [],
+      "texte": "Question C.2.1.5 Calculer les 2 relations de fermeture géométrique reliant les angles r r r r θ M = ( xg ; xM ) , θ1 = ( xg ; x1 ) et la longueur de sortie de la vis par rapport au rotor-écrou xM, ainsi que les autres dimensions."
+     },
+     {
+      "numero": "QC.2.1.6",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 24,
+      "tags": [],
+      "texte": "Question C.2.1.6 Si on note X = ( LM + xM ) et en éliminant θ1 , en déduire une relation entre X et θ M . L01 d 01"
+     },
+     {
+      "numero": "QC.2.1.7",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 24,
+      "tags": [],
+      "texte": "Question C.2.1.7 Si on note φ tel que 2 2 = cosϕ ainsi que = sin ϕ , (L 01 + d01 ) 2 2 ( L01 + d 01 ) résoudre l'équation précédente afin de donner cos(θ M + ϕ ) en fonction X. La loi de X est directement déterminable à partir de la connaissance de la loi de xM et donc de la commande du moteur."
+     },
+     {
+      "numero": "QC.2.1.8",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Énergétique : Puissance et rendement",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 24,
+      "tags": [],
+      "texte": "Question C.2.1.8 Sur l'annexe C, tracer la courbe de cos(θ M + ϕ ) en fonction de X , sur l'intervalle [690mm ; 720mm] (fonctionnement normal). Conclure alors sur l'influence de la rotation θ M de l'axe du moteur. C.2.2 Modélisation cinématique de l'axe VED : partie biellette de renvoi Pour pouvoir écraser le tube efficacement, il faut disposer d'une certaine vitesse au niveau du poinçon afin d'obtenir suffisamment d'énergie à l'impact. La norme de cette vitesse étant connue (Vimp), nous allons chercher la vitesse de commande de déplacement de la r r r r r biellette de renvoi. On suppose qu'au démarrage xM = x1 = x2 = x3 = x g et que ypoi = 0 (poinçon relevé). r"
+     },
+     {
+      "numero": "QC.2.2.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       }
+      ],
+      "page": 24,
+      "tags": [],
+      "texte": "Question C.2.2.1 Déterminer la direction du vecteur vitesse VO12∈1 / ℜ g à tout instant t. r"
+     },
+     {
+      "numero": "QC.2.2.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       }
+      ],
+      "page": 24,
+      "tags": [],
+      "texte": "Question C.2.2.2 En déduire la direction du vecteur vitesse VO12∈2 / ℜ g à tout instant t. 24/30 partie C : Comportement cinématique r"
+     },
+     {
+      "numero": "QC.2.2.3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       }
+      ],
+      "page": 25,
+      "tags": [],
+      "texte": "Question C.2.2.3 Déterminer la direction du vecteur vitesse VO23 ∈ 3 / ℜg à tout instant t. r"
+     },
+     {
+      "numero": "QC.2.2.4",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       }
+      ],
+      "page": 25,
+      "tags": [],
+      "texte": "Question C.2.2.4 En déduire la direction du vecteur vitesse VO23 ∈ 2 / ℜg à tout instant t."
+     },
+     {
+      "numero": "QC.2.2.5",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 25,
+      "tags": [],
+      "texte": "Question C.2.2.5 A l'aide du schéma cinématique de la page 28, justifier que la rotation ϕ 2 de la biellette 2 est nulle, à tout instant t."
+     },
+     {
+      "numero": "QC.2.2.6",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Fermeture géométrique",
+        "semestre": "S1"
+       }
+      ],
+      "page": 25,
+      "tags": [],
+      "texte": "Question C.2.2.6 A l'aide d'une fermeture géométrique, établir les relations entre les angles θ1 et θ 2 et ypoi à tout instant t. (ypoi égal à 0 en position relevée). r o r"
+     },
+     {
+      "numero": "QC.2.2.7",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 25,
+      "tags": [],
+      "texte": "Question C.2.2.7 Montrer que VO12 ∈1/ ℜg = d1 .θ1 .y1 à tout instant t. o"
+     },
+     {
+      "numero": "QC.2.2.8",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       }
+      ],
+      "page": 25,
+      "tags": [],
+      "texte": "Question C.2.2.8 Déduire des questions précédentes la norme de la pulsation de rotation θ 2 r r de la biellette 2 dans le plan ( x g ; y g ) en fonction des angles θ1 et θ 2 , des dimensions et de la o vitesse de rotation θ 1 , à tout instant t. o"
+     },
+     {
+      "numero": "QC.2.2.9",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       }
+      ],
+      "page": 25,
+      "tags": [],
+      "texte": "Question C.2.2.9 Déduire des questions précédentes la norme de la vitesse de translation y poi de la biellette 2 au point O23, en fonction des angles θ1 et θ 2 , des dimensions et de la vitesse o de rotation θ 1 , à tout instant t."
+     },
+     {
+      "numero": "QC.2.2.10",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
+        "semestre": "S1"
+       }
+      ],
+      "page": 25,
+      "tags": [],
+      "texte": "Question C.2.2.10 En éliminant θ 2 dans l'expression précédente, déterminer la valeur à donner o o à θ 1 en fin de course, c'est-à-dire θ1 = −10° , y poi (max i ) = Vimp et ypoi(max) = bpoi. On prendra Vimp = -1m.s-1, d1 = 260mm, d2 = 841mm et bpoi = -57,9mm. o On suppose désormais que la valeur de θ 1 , calculée en fin de course, est maximale o ( θ 1MAX ) et égale à -4 rad.s-1."
+     },
+     {
+      "numero": "QC.2.2.11",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 25,
+      "tags": [],
+      "texte": "Question C.2.2.11 En déduire la norme de la vitesse maximale de translation de la vis par rapport au rotor-écrou."
+     },
+     {
+      "numero": "QC.2.2.12",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Accélérations",
+        "semestre": "S1"
+       }
+      ],
+      "page": 25,
+      "tags": [],
+      "texte": "Question C.2.2.12 En éliminant θ 2 dans l'expression de la question C.2.2.8, calculer la valeur o maximale de θ 2 . On montre en poursuivant les calculs que la norme la valeur maximale de l'accélération oo θ 2 est voisine de 0,5 rad.s-2."
+     },
+     {
+      "numero": "QC.2.2.13",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Énergétique : Puissance et rendement",
+        "semestre": "S3"
+       }
+      ],
+      "page": 25,
+      "tags": [],
+      "texte": "Question C.2.2.13 Calculer la valeur maximale de θ 2 et conclure sur l'hypothèse faite dans la partie B sur l'effet négligeable de la rotation de la biellette 2 sur la dynamique du système. 25/30 partie C : Comportement cinématique D - DIMENSIONNEMENT (ANNEXE D) Nous allons désormais nous intéresser à l’effort à appliquer pour déformer le tube en tonneau, afin de dimensionner correctement le moteur de commande mais aussi de dimensionner correctement certaines pièces de l'axe VP. La puissance fournie doit essentiellement servir à la déformation du tube. L'axe VP a pour fonction de réaliser une forme d'amarrage sur l'extrémité du tube comme représentée sur la figure D.1. Le procédé retenu consiste à écraser le tube suivant son axe pour provoquer son gonflement en forme de tonneau. uform Figure D.1 : Mise en forme par déformation axiale Le tube étant maintenu par ailleurs, la matrice de l'axe VP vient écraser lentement l’extrémité de ce tube avec un système de genouillère (figure D.2). Ce système (schéma cinématique page 28) transforme le déplacement d'entrée en une translation d’axe horizontal. Connaissant la profondeur d’écrasement du tube (uform), on cherche à déterminer le déplace"
+     }
+    ]
+   },
+   {
+    "titre_partie": "D - DIMENSIONNEMENT (ANNEXE D)",
+    "questions": [
+     {
+      "numero": "QD.1.1.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       }
+      ],
+      "page": 27,
+      "tags": [],
+      "texte": "Question D.1.1.1 Justifier le fait que la biellette 2 n'est soumise qu'à un effort de compression."
+     },
+     {
+      "numero": "QD.1.1.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       }
+      ],
+      "page": 27,
+      "tags": [],
+      "texte": "Question D.1.1.2 Tracer l'équilibre des forces sur la jambe 4."
+     },
+     {
+      "numero": "QD.1.1.3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       }
+      ],
+      "page": 27,
+      "tags": [],
+      "texte": "Question D.1.1.3 Tracer l'équilibre des forces sur le poussoir 3."
+     },
+     {
+      "numero": "QD.1.1.4",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 27,
+      "tags": [],
+      "texte": "Question D.1.1.4 En déduire la valeur de la force sur la biellette 2. r On supposera dans la suite que F3 →2 = 20kN . D.1.2 Effort transmis par le moteur au basculeur 1 (dans la position, système ouvert)"
+     },
+     {
+      "numero": "QD.1.2.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Frottements",
+        "semestre": "S2"
+       }
+      ],
+      "page": 27,
+      "tags": [],
+      "texte": "Question D.1.2.1 En négligeant le frottement dans les liaisons, donner la relation entre la r r norme de la force Fvis→1 et la norme de la force F2→1 . On justifiera la réponse."
+     },
+     {
+      "numero": "QD.1.2.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Frottements",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 27,
+      "tags": [],
+      "texte": "Question D.1.2.2 En déduire le couple que doit fournir le moteur (on supposera ici que les liaisons sont parfaites ; il faudrait ajouter à ce couple les couples dus aux frottements). D.2 Résistance de la biellette 2 (sur l'annexe D) Nous allons vérifier que la biellette 2 est correctement dimensionnée pour résister à l'effort appliqué au niveau de la genouillère. Pour être sûr que l'effort ne servira qu'à déformer le tube, on s'intéresse au flambement de la biellette 2, supposée cylindrique pleine."
+     },
+     {
+      "numero": "QD.2.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       }
+      ],
+      "page": 27,
+      "tags": [],
+      "texte": "Question D.2.1 En appliquant la formule de la force critique de flambement d'Euler donnée dans le document-réponse D, déterminer la section minimale de la biellette 2."
+     },
+     {
+      "numero": "QD.2.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 27,
+      "tags": [],
+      "texte": "Question D.2.2 Sachant que la section retenue pour la biellette 2 a un diamètre égal à 28mm, conclure sur le dimensionnement statique (en flambement et en compression). 27/30 partie D : Dimensionnement Stator r Schémas cinématiques de l'axe VED yg Rotor-écrou de la machine à coulisseaux multiples (Photo reproduite avec l'aimable permission de CGR France) r y1"
+     }
+    ]
+   }
+  ]
+ }
+}

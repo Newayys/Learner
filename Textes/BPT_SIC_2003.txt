@@ -1,0 +1,968 @@
+
+===== page 1 =====
+[OCR] U23F
+
+% Banque filigre PT #
+
+Epreuve de Sciences Industrielles III
+
+Durée 6h
+
+Volets de protection thermique d'une sonde spatiale
+d'observation de planétes du systéme solaire
+
+Volet de protection lumineuse, @ Uavant du télescope spatial HUBBLE, en position ouverte
+
+
+
+===== page 2 =====
+[OCR] INSTRUCTIONS GENERALES ET STRUCTURE DU DOSSIER
+
+Matériel autorisé :
+
+Tous instruments de dessin industriel.
+Calculatrice de poche non imprimante, sans document d'accompagnement.
+
+Cette épreuve comporte :
+
+INTRODUCTION : Volets de protection thermique de Ia fenétre d'observation d'une sonde
+spatiale.
+
+PARTIE | : Etude d'architecture de larticulation et de la commande des volets.
+
+PARTIE II : Conception de l'actionneur thermomécanique et de l'amplificateur mécanique.
+
+Le dossier est constitué de :
+Cette page d'Instructions générales et structure du dossier.
+
+Un fascicule de 12 pages comportant les figures suivantes :
+
+Figure 1 : Les trois positions des volets de la fenétre d'observation en fonction de la
+température T de la structure métallique du satellite.
+
+Figure 2 : Inventaire des entrées et sorties de la partie commande des volets.
+
+Figure 3 : Schéma de principe d'un volet en position normale et de sa commande par
+came, amplificateur et actionneur thermomécanique.
+
+Figure 4 : Modéle d'étude de la section équivalente d'un soufflet formé de p=6 ondes.
+
+Figure 5 : Vue générale de l'actionneur et de l'amplificateur.
+
+Figure 6 : Vue du carter de I'actionneur.
+
+Documents numérotés :
+
+Document! : (document réponse a rendre non plié). Solution avec volets en
+liaison pivot et commande électrique.
+
+Document Il: (document réponse, recto et verso, a rendre non plié). Articulation
+des volets a la structure métallique de la sonde.
+
+Document III: Sous-ensemble SE1 : actionneur thermomécanique.
+
+Document IV: Carter de l'actionneur.
+
+Document V: (calque réponse a rendre non plié). Phase 10.
+
+Document VI: (calque réponse a rendre non plié). Phases 20 et 30.
+
+Document VII : Silhouette du brut initial et du carter usiné de |'actionneur.
+
+Document VIII : Epures a l'échelle 2,5 des pignons et schéma d'agencement.
+
+Un calque préimprimeé de format A3 (a rendre non plié).
+
+Documents a rendre en fin d'épreuve :
+
+Feuilles de copie.
+Document I.
+
+Document II, recto et verso.
+Document V.
+
+Document VI.
+
+Calque préimprimé.
+
+
+
+===== page 3 =====
+[OCR] INTRODUCTION : Volets de protection thermique de la fenétre d'observation
+d'une sonde spatiale
+
+Une sonde spatiale est généralement constituée d'une structure métallique, souvent en
+alliage d'aluminium, sur laquelle sont fixés les instruments d'observation et de
+communication. L'ensemble est protégé par un matelassage multicouche isolant dans lequel
+se trouve ménagée une fenétre d'observation, voire plusieurs. Si la sonde est destinée 4
+l'étude d'une planeéte du systéme solaire proche du soleil, cette fenétre risque, lorsqu'elle est
+orientée vers le soleil, de recevoir un flux thermique important. Par exemple 2600 Wim? au
+voisinage de Vénus ou 14 600 Wim’ au voisinage de Mercure. Ce flux thermique externe,
+s'ajoutant au flux thermique interne produit par la dissipation thermique des équipements
+électriques, conduit 4 une augmentation de la température T de la structure métallique. Au
+contraire, lorsque la fenétre du satellite est orientée vers le fond cosmique, considéré comme
+un corps noir qui rayonne a 2,7K, la structure métallique dissipe son énergie et se refroidit.
+Ceci se produit en particulier durant les phases de vol interplanétaire, lorsque la sonde est
+en sommeil et que son activité électrique se trouve réduite.
+
+Or, le fonctionnement correct des composants optoélectroniques des instruments fixés sur la
+structure métallique de la sonde exige impérativement que la température de cette structure
+soit comprise entre une valeur maximale (Tmax = 60°C) et une valeur minimale (Tmin =
+20°C). Au dela de ces valeurs les effets thermomécaniques peuvent produire un
+dysfonctionnement de ces composants et conduire a la panne des instruments. Une
+méthode de protection thermique des instruments de la sonde consiste a équiper !a fenétre
+d'observation avec des volets mobiles.
+
+Pour satisfaire les besoins a venir, les organisations intéressées par la recherche spatiale
+engagent des programmes de recherche de solutions, par anticipation, avec des industriels
+spécialisés.
+
+Dans le cas étudié ici, voir la Figure 1, on suppose que les volets de protection de la fenétre
+sont en liaison pivot avec la structure métallique. Au nombre de quatre, ils ont méme
+longueur et, pour simplifier, méme largeur. Ils peuvent prendre trois positions :
+
+- Lorsque la température T de la structure métallique du satellite est comprise entre les deux
+valeurs extremes, Tmin<T<Tmax, les volets se trouvent en position "normale" (n). La fenétre
+d'observation est ouverte (Fig. 1a). Chaque volet dégage une surface au travers de laquelle
+un ou plusieurs instruments peuvent réaliser leurs mesures.
+
+- Lorsque la fenétre d'observation est face au soleil et que la température de la structure
+métallique de la sonde devient supérieure a sa valeur maximale, T2Tmax, les volets viennent
+en position (c) dite "fermée chaude" (Fig. 1b). Les volets présentent vers le soleil l'une de
+leurs deux faces. Cette face est recouverte d'une protection thermique multicouche capable
+de résister a de fortes températures, de l'ordre de 400°C, mais dotée de performances
+disolation limitées.
+
+- Lorsque la fenétre d'observation est face au fond cosmique, et que la température de la
+structure métallique du satellite devient inférieure a sa valeur minimale, T<Tmin, les volets
+viennent en position (f) dite "fermée froide". Les volets présentent alors leur autre face a la
+source froide. Cette autre face est couverte d'une protection thermique multicouche qui
+posséde d'excellentes caractéristiques d'isolation thermique mais qui se dégraderait sous
+"effet prolongé d'un flux thermique élevé.
+
+Une société de haute technologie, AER, étudie et réalise un démonstrateur d'un systéme
+d'articulation et de commande original des volets.
+
+
+===== page 4 =====
+[OCR] Dans le cas d'un fonctionnement satisfaisant et d'un cout compétitif, ce systeme pourra étre
+choisi pour équiper un satellite d'observation d'une planéte proche du soleil dont le
+lancement pourrait intervenir dans le courant de la prochaine décennie.
+
+Fig. 1a: Volets en position (n) Fig. 1b : Volets en position (c) Fig. 1c : Volets en position (f)
+"normale". La fenétre ouverte "fermée chaude". Ils empéchent _ "fermée froide". lls empéchent le
+permet l'observation. le réchauffement de la structure. _refroidissement de la structure.
+Tmin<T< Tmax T2 Tmax TsTmin
+
+Figure 1 : Les trois positions des volets de la fenétre d’observation en fonction de
+Ja température T de la structure métallique du satellite
+
+L'articulation et la commande des volets constitue l'objet de cette étude. De nombreuses
+solutions permettent de réaliser ces fonctions. Le choix d'une solution particuliére dépend de
+nombreux paramétres dont ceux liés a la fiabilité. Une étude d'architecture se justifie et
+nécessite d'explorer différentes solutions.
+
+PARTIE | : Etude d'architecture de I'articulation et de la commande des volets
+
+1.1 : Solution avec volets en liaison pivot et commande électrique
+
+Question I.1.a : Parmi les mécanismes classiques de transfert de chaleur énoncer ceux
+qui sont responsables, dans l'espace, de |'élévation de température des composants
+optoélectroniques des instruments de la sonde, sous l'effet du soleil, a travers la
+fenétre supposée ouverte, volets en position normale (n).
+
+Chaque volet est en liaison pivot d'axe (A.,y) avec la structure métallique, voir Document |.
+
+Sa position est commandée par un moteur électrique. L'arbre du moteur est en liaison pivot
+d'axe X avec la structure métallique. Chaque volet porte un bras A\B; dont l'extrémité B; est
+reliée a l'arbre du moteur par une chaine de solides.
+
+Question |.1.b : Représenter sur le Document | (a rendre non plié) le schéma
+cinématique d'un mécanisme qui agit sur l'extrémité B, des volets et transforme la
+
+
+
+===== page 5 =====
+[OCR] rotation de I'arbre du moteur électrique en rotation des volets. En vue d'un gain de
+poids, chercher a minimiser le nombre des solides du mécanisme.
+
+Question |.1.¢ : Si la distance AjB; = 16 mm donner la valeur numérique du
+déplacement d'un point Bi, en projection sur x, en supposant, pour simplifier, une
+rotation théorique des volets de 180°.
+
+La commande de la position des volets est fonction de l'information donnée par un capteur
+de température fixé sur la structure métallique de la sonde. La température T mesurée
+permet, par comparaison avec les deux températures limites Tmin et Tmax la création de
+deux informations logiques c et f définis pas le tableau ci-dessous.
+
+Température T | TsTmin | Tmin<T<Tmax | T2Tmax
+
+Information f 1 10) ie)
+
+Information ¢ te) 0 4
+
+Tableau de définition des informations f et c en fonction de la température T
+
+position fermée chaude atteinte (pc) >|
+
+position fermée froide atteinte (pf) Inventaire des __| rotation positive des volets (RV+)
+~ >| E/Sdugrafcet |” ee
+
+Position normale atteinte (pn) _»| Commande
+
+électrique
+
+information chaud (c) ro des volets rotation négative des volets (RV
+
+information froid (f) >
+
+Figure 2 : Inventaire des entrées et sorties de la partie commande des volets
+
+La rotation positive des volets, (RV+), améne ceux ci de leurs positions (f) a (n) ou (n) a (c)
+La rotation négative des volets, (RV-), les améne de leurs positions (c) a (n) ou (n) a (f)
+
+Question 1.1.d : A partir de l'inventaire des entrées et sorties de la Figure 2, représenter
+sur le Document | (a rendre non plié) le grafcet de commande des volets. La situation
+initiale est définie par la position normale (n) des volets.
+
+1.2 : Solution avec volets a articulations multiples et commande thermomécanique
+
+La Société AER développe un actionneur thermomécanique, voir le schéma de principe sur
+la figure 3. Toute variation de la température du fluide contenu dans le réservoir entraine, par
+dilatation, une variation de son volume et la translation de la tige d'un piston suivant I'axe x.
+Ces translations sont d'amplitudes faibles comme ce sera vu au paragraphe 1.2.2. Il convient
+donc d'interposer un amplificateur mécanique schématisé par un levier mais dont l'étude
+réaliste est demandée dans la Partie II.
+
+La tige de sortie de l'amplificateur déplace une came a deux rampes qui commande la
+translation de la tige HG. Cette came est étudiée au paragraphe 1.2.3.
+
+Enfin, une autre maniére d'amplifier la rotation du volet consiste a utiliser des biellettes
+articulées comme celles qui sont étudiés au paragraphe 1.2.1.
+
+Question 1.2 : Sachant que toute exposition, sans protection, de la fenétre de mesure
+au flux thermique, conduirait a la destruction irremédiable de la sonde, donner en
+
+-4-
+
+
+===== page 6 =====
+[OCR] quelques mots les avantages de la commande des volets par actionneur
+thermomécanique par rapport a une commande électrique.
+
+1.2.1 : Articulation des volets a la structure métallique de la sonde
+
+Afin d'autoriser les faibles déplacements produits par l'actionneur thermomécanique, la
+société AER propose !'architecture dont la figure 3 donne un schéma de principe.
+
+Un seul volet, en position normale (n), est représenté. La translation suivant X de la came a
+deux rampes commande la translation suivant Z de la tige HG considérée en liaison glissiére
+avec la structure métallique de la sonde. La biellette GF est en liaison pivot d'axe (G,y) avec
+la tige HG. Elle est aussi en liaison pivot d'axe (F,y) avec la biellette FD et la barre EF liée
+au volet. Les biellettes FD et EC sont en liaisons pivots d'axes (F,y) et (E,y) avec le volet.
+Elles sont en liaisons pivots d'axes (D,¥) et (C,y) avec la structure métallique.
+Cet ensemble de solides articulés transforme la translation de la tige HG en une rotation du
+volet.
+On donne :
+
+CD=FE=d=8mm
+
+CE =DF=2=16mm
+
+FG =16mm
+
+N¥
+
+Volet en position normale (n)
+
+xv
+
+<¥
+
+Soufflet
+
+Réservoir
+
+Ressort de rappel
+
+Came a deux rampes | Amplificateur
+
+Figure 3 : Schéma de principe d'un volet en position normale
+et de sa commande par came, amplificateur et actionneur thermomécanique
+
+Actionneur thermomécanique
+
+On se propose d’analyser le fonctionnement mécanique de I'articulation des volets.
+On cherche d'abord a déterminer graphiquement I'amplitude des déplacements du point H,
+par rapport a la structure métallique, afin d'amener le volet de la position normale (n) a la
+position fermée chaude (c) d'une part, et a la position fermée froide (f) d'autre part.
+
+
+
+===== page 7 =====
+[OCR] Question |.2.1.a : Tracer sur I'ébauche supérieure du Document Il, recto (4 rendre non
+plié), a '@chelle 5, a la régle et au compas, les points EF et G dans leur position initiale
+(volet ouvert en position normale (n)).
+
+On suppose que le mouvement de la came déplace le point G au point G' de telle
+
+facgon que l'angle (oF OFA = -30° autour de I'axe y. Tracer sur le méme schéma les
+nouvelles positions E'F'G' des points EFG
+
+Positionner le point J' tel que ET- co. Préciser.la courbe sur laquelle se trouve le
+point J’.
+
+Montrer que la droite DE' est bissectrice de I'angle FE’.
+
+En déduire l'orientation du segment DE" pour que I'angle FE” soit un angle droit.
+
+Question 1.2.1.b : Sur I'ebauche inférieure du Document Il, recto, tracer a la régle et au
+compas, la position E, du point E' pour laquelle la position E.F,. de la barre EF est
+orthogonale a sa position normale (n). Cette position correspond a une rotation de -90°
+du volet autour de I'axe y, volet en position fermée chaude (c). En déduire la position
+G, du point G.
+
+Sur le méme schéma, construire les positions E; F; et G; des points E' F’ G' pour
+lesquelles le volet a tourné de + 90° autour de I'axe y et se trouve en position fermée
+froide (f).
+
+Estimer graphiquement les valeurs numériques des déplacements G,G et GG, du point
+G, suivant I'axe Z. Ecrire leur valeur numérique vraie, en mm, sur le dessin. Comparer
+le déplacement G,G, a la valeur du déplacement du point B trouvée a la question I.1.c.
+
+En vue de comprendre I'influence des paramétres géométriques sur la cinématique de la
+liaison, on considére le volet dans sa position normale (n), au début de son mouvement de
+fermeture vers la position fermée chaude (f). La came impose aux points H et G de la tige
+HG une vitesse V(Ge tige/ structure) = uZ par rapport a la structure. Tous les corps
+constituant le mécanisme sont des solides indéformables.
+
+Question |.2.1.¢ : Sur I'ébauche supérieure du Document II, verso, est représenté le
+vecteur uz. Tracer le vecteur vitesse Vie volet/structure) du point F du volet par
+rapport a la structure.
+
+Ecrire en fonction de u et des angles o. et 8 définis sur I'ébauche le module du vecteur
+VE € volet/ structure).
+
+Positionner le centre instantané de rotation | du mouvement du volet par rapport a la
+structure.
+
+Ecrire en fonction de u, «, B et 2 le module du vecteur vitesse de rotation du volet par
+rapport a la structure.
+
+Le volet est soumis a !'action des biellettes GF, CE, DF et a un couple de résultante nulle et
+de moment di au frottement C;, 7, supposé connu.
+
+En vue d'aborder des calculs de résistance, on considére, pour simplifier : que la sonde est
+en apesanteur, que le volet est dans sa position normale (n), au début de son mouvement de
+fermeture vers la position fermée chaude (f), que toutes les liaisons sont parfaites et que
+tous les points des solides constituant la liaison sont soumis a des accélérations nulles.
+
+Le point K est le centre d'une section droite de la tige HG voisine de G. La portion KG de la
+tige HG est uniquement soumise a l'action de fa biellette GF et au torseur des actions de
+cohésion exercées par la partie HK sur la partie KG. On désigne par N la projection sur z de
+Ja résultante de ce torseur de cohésion.
+
+Question 1.2.1.0 : Sur I'ébauche inférieure du Document Il, verso, est représenté le
+vecteur Nz. En définissant a chaque fois le systéme isolé, en faisant le bilan des
+actions mécaniques et en précisant le théoréme utilisé on demande d'abord de tracer
+
+-6-
+
+
+===== page 8 =====
+[OCR] et de calculer en fonction de N la force exercée par la biellette GF sur le volet, puis de
+calculer la composante N en fonction de C;,, «, B et 2 et enfin de justifier le type de
+sollicitation, a savoir traction ou compression, de chacune des biellettes CE et DF.
+Calculer, en fonction de Cy, a, B, & et u la puissance développée par le torseur de
+cohésion exercé par HK sur KG, dans le champ des vitesses de la question 1.2.1.c.
+
+1.2.2 : Etude de I'actionneur thermomécanique
+
+La figure 3 donne le schéma de principe de l'actionneur thermomécanique. Le document II!
+en donne un dessin d'ensemble.
+
+On souhaite calculer la translation de l'extrémité du soufflet, portant le piston et sa tige, en
+fonction de l'augmentation de température de l'actionneur. Un réservoir est constitué par le
+carter de l'actionneur thermomécanique, en alliage d'aluminium et béryllium, et par le soufflet
+dont les coefficients de dilatation thermique linéique a, sont supposés identiques.
+Ce réservoir est rempli d'une huile de silicone dont le coefficient de dilatation thermique
+volumique est a. A 20°C on considére que le volume de I'huile est identique au volume du
+réservoir et est noté Vo.
+Le soufflet est schématisé par un tube cylindrique, de méme coefficient de dilatation que le
+réservoir, dans lequel se translate suivant I'axe x, un piston de surface équivalente Se.
+L'application numérique utilisera les valeurs suivantes :
+
+oan = 13,9 10° K"
+
+ts = 1000 10° K"
+Vo = 19 000 mm®
+Se = 107 mm?
+
+Question |.2.2.a : Donner l'expression littérale puis calculer la valeur numérique, en
+mm*.K", de l'augmentation de volume AV,» du réservoir, pour une augmentation de
+température de celui-ci de 1°C.
+
+Donner I'expression littérale puis calculer la valeur numérique, en mm*.K", de
+l'augmentation de volume AV, de I'huile de silicone pour une augmentation de
+température de celle-ci de 1°C.
+
+Donner l'expression littérale puis calculer la valeur numérique, en mm.K™, du
+déplacement Aa de l'extrémité mobile du soufflet de l'actionneur pour une
+augmentation de température de l'actionneur de 1°C.
+
+La figure 6 et le document III décrivent le carter de I'actionneur. Il est composé d'une semelle
+d'appui permettant sa fixation sur la structure métallique et de deux cavités de révolution.
+L'une contient le soufflet, le piston et le ressort de rappel. L'autre contient la majeure partie
+de I'huile de silicone.
+
+Question |.2.2.b : La température de I'huile de l'actionneur thermomécanique doit
+suivre, sans retard excessif, la température de la structure métallique. Pour cela,
+l'actionneur est en contact avec la structure par une semelle de surface importante, a
+travers une fine couche de colle thermoconductrice et fixé par quatre vis. Ecrire en
+quelques phrases ou/et schémas pourquoi la surface interne de la cavité de révolution
+qui contient la majeure partie de I'huile n'est pas un cylindre unique (document III) mais
+présente des saillies annulaires.
+
+On souhaite calculer la surface équivalente S, du vérin associé au soufflet. Un détail du
+soufflet est montré sur le Document III. Le soufflet est composé d'une succession alternée de
+deux formes de coupelles soudées entre-elles. Le modéle de calcul choisi est décrit dans la
+figure 4 qui représente un soufflet formé de p=6 ondes, soit de 2p coupelles. Chaque
+coupelle est modélisée par un tronc de céne de hauteur h.
+
+ays
+
+
+===== page 9 =====
+[OCR] Le modéle de calcul de la section réduite du
+vérin équivalent est construit sur les
+hypothéses suivantes :
+
+- chacune des 2p coupelles du soufflet est
+tronc conique,
+
+- elle le reste au cours de sa déformation,
+
+- le déplacement de tout point de la coupelle
+est uniquement axial.
+
+Ainsi, seule la hauteur h du tronc de c6ne subit
+une variation dh. La dilatation du fluide produit
+un déplacement 2p dh de la tige du piston.
+Pour simplifier, les dilatations du réservoir et
+du soufflet sont supposées nulles.
+
+Figure 4 : Modéle d'étude de Ja section
+équivalente d'un soufflet formé de p=6 ondes
+
+Question 1.2.2.¢ : Calculer le volume initial du fluide contenu entre le réservoir et le
+soufflet, en fonction des paramétres R, R, r,h, Het p.
+En différenciant I'expression du volume par rapport au paramétre h, en déduire
+l'expression littérale de la section équivalente S, du vérin associé au soufflet
+Calculer la section réduite, en mm’, pour les valeurs suivantes des parametres :
+R=7.4mm
+r=3,7mm
+
+1.2.3 : Etude de la came
+
+On suppose que le multiplicateur permet une translation de la came de 0,4 mm/°C. On
+admet, pour simplifier, que les déplacements GfG et GGc sont égaux et valent 4 mm.
+
+Question |.2.3 : Dessiner, sur la copie, a |'échelle 5, I'allure de la rainure de la came qui
+
+entraine un galet de centre H, de diamétre 4 mm. La géométrie de la rainure permet la
+
+commande suivante des volets :
+
+- pour -20°C <T< 10°C les volets sont en position fermée froide (f), H; est en position
+basse,
+
+- pour 10°C <T< 20°C les volets sont entre les positions fermée froide (f) et normale
+(n),
+
+- pour 20°C <T< 50°C les volets sont en position ouverte normale (n), H est en
+position médiane,
+
+- pour 50°C <T< 60°C les volets sont entre les positions normale (n) et fermée
+chaude (c),
+
+- pour 60°C <T< 70°C les volets sont en position fermée chaude (c), H. est en
+position haute.
+
+Aucune température inférieure a -20°C et supérieure a 70°C ne peut étre atteinte.
+
+1.2.4 : Etude du ressort de rappel
+
+L'actionneur contient un ressort de rappel qui travaille en traction et comprime le fluide en
+permanence.
+
+Question |.2.4.a : Expliquer en une phrase la nécessité de ce ressort de rappel.
+
+-8-
+
+
+===== page 10 =====
+[OCR] Avant montage, au repos, ce ressort est a spires jointives.
+Une fois monté dans I'actionneur et soumis a la température de fonctionnement la plus
+basse de -20°C, le ressort a ses spires legérement décollées et subit une force de traction
+Fo.
+L'extrémité mobile du soufflet subit un déplacement Aa pour une élévation de température de
+aeG:
+La raideur du ressort peut étre calculée a partir de la formule ci dessous donnant
+expression théorique de sa fléche :
+f =8FD*r/Gd*
+ou:
+f est la fleche du ressort,
+F est la force de traction,
+D est le diamétre moyen d'enroulement du ressort,
+d est le diametre du fil constituant le ressort
+G est le module de cisaillement du matériau constituant le ressort avec G = E/2(1+v),
+E est le module d'élasticité du matériau,
+v est le coefficient de Poisson du matériau,
+n est le nombre de spires du ressort.
+
+Question |.2.4.b : La température supportée par I'actionneur pouvant étre comprise
+entre -20°C et 70°C, calculer algébriquement et numériquement, en mm, |'allongement
+du ressort quand sa température croit de -20°C a +70°C.
+
+Calculer algébriquement et numériquement en N.mm" la raideur k du ressort.
+
+En déduire la force maximale Fmax de traction appliquée au ressort.
+
+On donne les valeurs numériques suivantes :
+
+Fo=10N
+
+D=14,8mm
+
+d=1,7mm
+
+n=15
+
+Aa = 0,173 mm.K"
+
+E = 200 000 Mpa
+
+v=0,28
+
+Question |.2.4.¢ : Le ressort est tendu par deux forces opposées F. Isoler une partie du
+ressort attaché au piston. Dessiner la ligne moyenne du fil constituant cette partie de
+ressort. Calculer le torseur de cohésion en un point de la ligne moyenne du fil
+constituant le ressort en reportant sur le dessin les angles et les axes utilisés.
+Représenter sur le dessin les actions mécaniques extérieures appliquées a la partie du
+ressort isolée. En supposant que la ligne moyenne est une hélice de faible pas,
+montrer que le fil constituant le ressort est principalement sollicité en torsion dont le
+moment a pour expression C = F D/2.
+
+Calculer {ittéralement et numériquement la contrainte maximale que subit le ressort en
+ne prenant en compte que cette torsion.
+
+
+
+===== page 11 =====
+[OCR] PARTIE Il : Conception de l'actionneur thermomécanique et de l'amplificateur
+
+mécanique.
+
+L'actionneur thermomécanique SE1 et l'amplificateur SE2 (Figure 5) sont assemblés entre
+
+eux par une liaison plane et quatre goujons spéciaux calibrés, assurant a la fois le
+
+positionnement transversal et la fixation.
+
+SE1 est constitué (document II!) :
+
+- d'un réservoir a huile de silicone
+
+- d'un ensemble : piston - soufflet - ressort
+
+- de la liaison par vis entre la semelle de
+l'actionneur et la structure du satellite. La
+conductibilité thermique étant assurée par
+une colle spéciale thermoconductrice.
+
+SE2 est l'amplificateur de la figure 3.
+
+L'amplification est réalisée par engrenages \e Tige du
+entre la translation de la tige du piston de - ert
+
+SE1 et celle de la crémaillére de sortie.
+La crémaillére de sortie est ensuite reliée a la
+came a deux rampes.
+
+1.1 Etude de la cotation fonctionnetle de
+SEl :
+Sur le dessin technique du carter de
+l'actionneur (document IV) ont été portées R
+plusieurs tolérances dimensionnelles et Figure 5: Vue générale de I'actionneur et de
+géométriques, permettant de respecter des lamplificateur
+conditions fonctionnelles techniques
+Question II.1.a : Choisir une tolérance dimensionnelle et en donner sa signification
+normalisée.
+
+Crémaillére
+
+SE2 de sortie
+
+Question II.1.b : Quelles surfaces et tolérances dimensionnelles et géométriques du
+carter de l'actionneur permettent d'assurer, sans collision avec le carter, le
+déplacement du piston et du soufflet ?
+
+Donner la signification de la (ou des) tolérance(s) géométrique(s) utilisée(s).
+
+Question Il.1.¢ : Donner la signification normalisée des deux tolérances et
+| Enoncer pour chacune d'elle la fonction technique correspondante.
+
+Question Il.1.d : Sur la copie, dessiner la forme, et indiquer les surfaces et les
+limensions du calibre fonctionnel (gabarit de contréle), correspondant a la tolérance
+
+et les indications qui lui sont associées.
+
+Axe de la tige de la
+crémaillére_de_ sortie de
+
+lamplificateur et de la forme
+
+Question Il.1.e : Sur la copie, a l'aide d'un
+dessin a main levée, proposer, sur une vue en
+projection du carter de l'actionneur, une
+tolérance de 0,2 mm de défaut de forme
+quelconque avec références, permettant de
+satisfaire la condition technique :
+
+"la crémaillére de sortie (de diamétre maxi @
+4mm), de l'amplificateur, n'entre pas en collision
+avec le carter de l'actionneur, et se trouve 4 une
+distance minimum de 0,4 mm de ce carter".
+
+On fera I'hypothése que la variation du Figure 6 : Vue du carter de
+positionnement relatif entre les deux parties SE1 Vactionneur
+
+et SE2, due au jeu, est négligeable.
+
+=10-
+
+
+===== page 12 =====
+[OCR] On rappelle que les deux sous ensembles SE1 et SE2 (Figure 5) sont assemblés entre
+eux par une liaison plane et quatre goujons spéciaux calibrés.
+
+Justifier en quelques lignes le choix de la (ou des) références spécifiées retenues.
+
+Afin de calculer les dimensions théoriques exactes, la position nominale de l'axe de la
+crémaillére de sortie est définie par !'intersection d'un plan situé 4 3,5 mm du plan B-C,
+et du plan de symétrie situé a égales distances des axes du veérin et du réservoir
+
+11.2. Réalisation du carter de l'actionneur :
+
+Le matériau utilisé est obtenu par frittage, le brut est une forme parallélépipédique de
+dimensions 22x91x62mm. Compte tenu du faible nombre de prototypes a réaliser, chaque
+carter est réalisé en piéce unitaire par enlevement de copeaux en cing phases. Les deux
+premiéres phases sont réalisées sur MOCN 3 axes, a broche verticale, la troisieme et la
+quatriéme phases sont réalisées sur MOCN 3 axes, a broche horizontale. Les sept trous de
+passage du fluide, d'axes perpendiculaires a l'axe du piston, sont, dans une cinquiéme
+phase, réalisés par électroérosion et ne font pas l'objet des questions posées.
+Dans chaque phase d'usinage, toutes les surfaces accessibles par les outils de coupe sont
+réalisées sans démontage de la piéce.
+Les deux questions suivantes sont a rédiger sur les documents réponses V et VI, le
+document VII donne des épures du carter usiné et du brut initial.
+Question 11.2.1 : Au cours de la premiére phase (Phase 10), la surface de référence
+spécifiée B-C fait partie de l'ensemble des surfaces usinées. Sur le document réponse
+V, a l'aide de schémas, représenter la forme de la piéce avant usinage, les surfaces
+usinées, l'isostatique de la mise en position de la piéce, puis indiquer te nom et la
+forme des outils utilisés.
+
+Question 1.2.2 : Sur le document réponse VI, proposer a l'aide de schémas, pour
+chacune des deux phases deux et trois (Phases 20 et 30) : la forme générale de la
+piéce avant usinage, les surfaces usinées, I'isostatique de la mise en position de la
+piéce, le bridage, et indiquer par une fléche le sens d'accessibilité des outils.
+
+1.3 Etude constructive de t'amplificateur (sous-ensemble SE2)
+
+Les limites extérieures de l'espace alloué a J'amplificateur, dans le satellite, doivent étre
+impérativement respectées (Calque préimprimé).
+
+Le carter de l'amplificateur est entigrement usiné dans la masse a partir d'un parallélépipéde
+d'alliage d'aluminium bérytlium.
+
+Afin d'obtenir une meilleure rigidité, le carter est constitué de cing faces possédant les
+ouvertures nécessaires aux passages des crémailléres et a la fixation des guidages des
+différents pignons. La sixiéme face, définie sur la vue de droite du calque préimprimé, sert
+d'interface avec l'actionneur.
+
+Dans l'espace, les matériaux métalliques en contact ont tendance a se souder entre eux.
+
+Les vitesses relatives entre pignons et carter ainsi qu'entre crémaillére et carter sont tres
+faibles. Les efforts dans les liaisons sont négligeables.
+
+Par conséquent entre la crémaillére de sortie et le carter est interposée et fixée une bague
+de friction en polyimide d'épaisseur 0,5 mm fabriquée spécialement. De méme, les guidages
+des arbres des différents pignons par rapport au carter, sont en polyimide. Ils sont usinés
+dans la masse, peuvent prendre toute forme de révolution (dont celle d'une bague), et
+peuvent étre montés serrés.
+
+Les formes a définir doivent satisfaire aussi bien les contraintes de fonctionnement que les
+contraintes d'assemblage et de fabrication.
+
+Le document VIII donne les épures et les caractéristiques des différentes roues dentées et
+un schéma d’agencement des pignons
+
+-11-
+
+
+===== page 13 =====
+[OCR] Question II.3 : Définir sur le calque préimprimé a |'échelle 2,5 (a rendre non plié), avec
+toutes les vues, coupes et sections supplémentaires, jugées nécessaires, le dessin du
+sous-ensemble amplificateur. En particulier :
+
+- Représenter en position les différents pignons.
+
+- Concevoir la forme et les guidages des différents pignons : arbre primaire, secondaire
+et de renvoi. Le diamétre minimum des guidages est de 3,5 mm.
+
+- Concevoir le guidage de la crémaillére de sortie.
+
+- Concevoir la forme du carter de l'amplificateur obéissant aux deux critéres suivants
+
+- — usinabilité,
+- assemblage.
+
+- Concevoir la forme des goujons spéciaux assurant la fixation et le positionnement de
+SE2 par rapport a SE1 ainsi que leur liaison avec le carter de |'amplicateur. On
+admettra que les quatre goujons sont identiques et jouent le méme réle (liaison
+hyperstatique).
+
+En plus de la représentation de tous les détails utiles, il est conseillé d'utiliser les vues
+suivantes, pour :
+
+- sur la vue de face, coupe A-A, positionner les axes des arbres, les cercles primitifs et de
+téte de tous les pignons, et définir la liaison de la crémaillére de sortie,
+
+- sur la vue de droite, définir la forme du carter,
+
+- sur la coupe B-B, définir la forme du carter, des arbres primaire et secondaire, des
+crémailléres d'entrée et de sortie, ainsi que leurs guidages,
+
+- sur la coupe C-C, définir la forme du carter, de l'arbre intermédiaire, des crémailléres
+d'entrée et de sortie, ainsi que leurs guidages. Cette coupe contient l'axe de l'arbre
+intermédiaire,
+
+- sur la coupe D-D, définir la forme intérieure du carter,
+- sur la vue suivant F, définir les formes extérieures de l'amplificateur,
+
+- sur la vue de dessus définir une section partielle montrant la fixation entre SE1 et SE2 par
+un goujon.
+
+25
+
+
+===== page 14 =====
+[OCR] Document | : (document réponse a rendre non plié)
+Solution avec volets en liaison pivot et commande électrique
+
+(NE RIEN ECRIRE
+
+Réponse a la Question |.1.b
+
+>
+x
+
+y
+4a
+
+arbre moteur
+z
+
+Réponse a fa Question I.1.d
+
+
+
+===== page 15 =====
+[OCR] Document Il, recto : (document réponse a rendre non plié)
+firticulation des volets a la structure métallique de la sonde
+
+NE RIEN ECRIRE
+
+>
+Zz
+
+Réponse a la Question |.2.1.a
+
+ee
+
+Réponses a la Questions 1.2.1.
+
+
+
+===== page 16 =====
+[OCR] TH eoumns0q
+
+SNOINVOSINOWHAHL HNANNOLLOV : LAS FTEINASN3-SNOS
+
+ainauigiul sase| eunpnog
+
+EEZOL : a1fe4o3 ~ i\
+
+yeynos np 11eIe8G
+
+
+
+===== page 17 =====
+[OCR] YNANNOLLOV.1 30 YALYVD O1x sz W
+
+LZ‘ h : alfeyoR S SS oe AJ vuotaMNI0Gg
+H [ot] LHE ©
+AK Vv [20 9) o> $-S  afjensed uonses
+@ 4|@q| v\W 00 |& das
+: v | vo'o|
+al alsoog|O} vy] zoo] //1 )>-+¥
+@ ,41
+g0'o + [s4 <—|A| v0'o rs
+
+9] o-a| so'00/ |
+LH 81
+
+a[eo'o oO]
+
+: SESS z0'0 ¥ 610
+
+© mh a
+
+7 3]
+7
+les] v]o-a[ oa] @ |
+
+4-H ednog LOFSPOXY
+
+
+===== page 18 =====
+[OCR] NE RIEN ECRIRE
+
+Phase
+
+10
+
+Ensemble : Actionneur a dilatation thermique
+
+Element : Corps
+
+Matiére : ALBEMET
+
+Machine-Outil : MOCN 3 axes, a broche verticale
+
+Document réponse V
+
+
+
+===== page 19 =====
+[OCR] NE RIEN ECRIRE
+
+Phase
+20
+
+Ensemble : Actionneur a dilatation
+
+thermique
+
+Element : Corps
+
+Matiére : ALBEMET
+
+Machine-Outil : MOCN 3 axes, a broche verticale
+
+Phase 30
+
+Ensemble : Actionneur a dilatation
+
+thermique
+
+Element : Corps [
+
+Matiére ;| ALBEMET
+
+Machine-Outil : MOCN 3 axes, a broche horizontale
+
+Document réponse VI
+
+
+
+===== page 20 =====
+[OCR] Document VII
+
+Silhouettes du brut initial et du carter usiné de l’actionneur
+
+
+
+===== page 21 =====
+[OCR] Pignons de I’arbre primaire
+
+Z = 13 dents
+— module = 0,6
+Fo- © primitif : 7,8 mm
+cs © extérieur : 9 mm
+= largeur : 4 mm
+doieips
+gl itt
+Shéma d’agencement des pignons
+Z = 23 dents
+Uae ae secondaire
+
+© primitif : 13,8 mm
+
+@ extérieur : 15 mm
+
+largeur : 4 mm (63
+intermédiaire
+
+Pignons de l’arbre secondaire
+
+b>
+
+Z = 13 dents
+— module = 0,6 al
+4 © primitif : 7,8 mm Ua
+@ extérieur : 9 mm
+
+= ae largeur : 4mm
+
+cli primaire
+Z = 17 dents
+module = 0,6
+@ prim 10,2 mm
+© extérieur : 11,4 mm
+largeur : 3 mm
+Pignon de l’arbre intermédiaire
+5 Sey
+Z = 13 dents
+a module = 0,6
+aa @ primi 7,8 mm
+—- © extérieur : 9 mm
+largeur : 4 mm
+Document VIII
+
+Epures a I’échelle 2,5 des pignons et schéma d’agencement
+
+
+===== page 22 =====
+[OCR] Document Il, verso : (document réponse a rendre non plié)
+Articulation des volets a la structure métallique de la sonde
+
+ne rien
+écrire
+Réponse a la Question |.2.1.c
+
+dans
+
+NY
+
+la
+partie
+barrée
+
+xy
+
+Réponse a la Question 1.2.1.d
+
+
+
+===== page 23 =====
+[OCR] 

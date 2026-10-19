@@ -1,0 +1,587 @@
+{
+ "concours": "Banque PT",
+ "filiere": "SIC",
+ "date": "2012",
+ "file": "BPT_SIC_2012.pdf",
+ "status": 200,
+ "source": "banquept.fr, rubrique « Annales d'annales » (rubrique23.html)",
+ "epreuve_originale": "SI C",
+ "classification": "automatique par mots-clés (Claude, oct. 2026) — moins fine que celle des sujets récents",
+ "decoupage_questions": "Question",
+ "texte_ocr": true,
+ "pages_sujet": 20,
+ "pages_total": 55,
+ "data": {
+  "parties": [
+   {
+    "titre_partie": "Partie 1 : Initialisation du planeur",
+    "questions": [
+     {
+      "numero": "Q1.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Capteurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 6,
+      "tags": [],
+      "texte": "Question 1. Décrire le fonctionnement d’un codeur rotatif incrémental."
+     },
+     {
+      "numero": "Q2.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Capteurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 6,
+      "tags": [],
+      "texte": "Question 2. —_Justifier la phase d’initialisation. Nous allons maintenant étudier un seul axe motorisé noté i (Pour la phase d’ initialisation, les trois axes ont des comportements similaires). Lors d’une mise a l’eau, un contacteur général (noté dcy) est activé. Les fins de course électrique sont notés fd (capteur fin de course droit) et fg (capteur fin de course gauche). La rotation du moteur Mi dans le sens trigonométrique est notée Mi+ ; Mi- pour le sens anti trigonométrique. Un capteur de prise d’origine (noté po) est placé sur l’axe entre les capteurs fd et fg. Lors de la phase d’initialisation, il est demandé de faire la « prise d’origine » en accostant le capteur po toujours du méme coté (c.a.d. avec le moteur tournant en sens trigonométrique) puis de repérer le « top 2éro » du codeur (noté tz). Vue schématique des capteurs sur I’axe i: Wit sens \"moteur anti trigonométrique\" Motoréducteur l avec codeur intégré fg po fd Question 3. Expliquer la procédure proposée pour la phase d’initialisation en justifiant les deux points suivants : « accoster le capteur po toujours du méme coté » et «puis repérer le top zéro du codeur »."
+     },
+     {
+      "numero": "Q4.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Dynamique : Géométrie des masses",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 7,
+      "tags": [
+       "liaison hélicoïdale / vis-écrou",
+       "hydraulique",
+       "dessin / conception sur calque",
+       "grafcet"
+      ],
+      "texte": "Question 4. Décrire, par un GRAFCET, linitialisation de cet axe motorisé i. Partie 2 : Déplacement dans le plan vertical Maitrise de l’angle de plongée du planeur Dans cette partie nous allons déterminer le comportement statique du planeur, comportement vérifié lors d'une procédure en eau de calibrage de la position du centre de gravité, puis son comportement en déplacement. Nous pourrons alors estimer la précision en déplacement du vérin de ballastage nécessaire au contréle du tangage, la performance en vitesse du planeur et le besoin en énergie embarquée. Dans ces différentes phases, le planeur est totalement immergé avec les zones avant et arriére remplies d'eau. Ces zones étant ouvertes sur l'océan, le volume d'eau compris dans ces zones ne fait pas partie du planeur. II n'intervient ni dans sa masse ni dans son volume. Analyse du comportement statique et calibrage Le piston du vérin de ballastage est un tube fermé (voir document 1 et calque réponse). II permet d'augmenter ou de diminuer le volume sec du planeur et donc l'intensité de la poussée d'Archiméde, sans que la masse du planeur ne soit modifiée. Il est mis en mouvement par un systéme vis-écrou. Les caractéristiques du "
+     }
+    ]
+   },
+   {
+    "titre_partie": "Partie 2 : Déplacement dans le plan vertical",
+    "questions": [
+     {
+      "numero": "Q5.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       }
+      ],
+      "page": 8,
+      "tags": [],
+      "texte": "Question 5. — Ecrire I'égalité qui relie le volume sec total (volume hors eau plus volume des parois avant et arriére), noté V, a M et p pour assurer |’équilibre de flottaison ?"
+     },
+     {
+      "numero": "Q6.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dynamique : Géométrie des masses",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       }
+      ],
+      "page": 8,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "Question 6. Exprimer en littéral, dans le repére (C,i,i) la position longitudinale «,, du centre de gravité du planeur hors piston. A partir de cette position d'équilibre nominale, le piston du vérin de ballastage est sorti de la course de plongée d. Question 7. Soit C’ le nouveau centre de caréne. Donner I'expression algébrique du déplacement € = CC’ en fonction du déplacement d, de V et des données géométriques du piston."
+     },
+     {
+      "numero": "Q8.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dynamique : Géométrie des masses",
+        "semestre": "S3"
+       }
+      ],
+      "page": 9,
+      "tags": [],
+      "texte": "Question 8. Soit G’ le nouveau centre de gravité. Donner I'expression algébrique du déplacement 6=GG’ en fonction du déplacement d, de x, L et des ait caractéristiques de masse m et M. Si besoin est, vous supposerez que 6 = d / 30, avec d le déplacement du piston par rapport a sa position nominale."
+     },
+     {
+      "numero": "Q9.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Dynamique : Géométrie des masses",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Précision",
+        "semestre": "S2"
+       }
+      ],
+      "page": 9,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "Question 9. Placer sur la figure du cahier réponses, la position du centre de gravité G’ en situation d’équilibre statique. Puis, déterminer I’expression de l’angle d’inclinaison @ en fonction de €, det e. Analyse de |’équilibre en déplacement En mouvement, l’aile génére une portance dont I’inclinaison par rapport a I’horizontale permet la propulsion du planeur. Nous allons réaliser le bilan des actions extérieures au planeur en phase de montée et déterminer I’action de propulsion en fonction de la poussée d’Archiméde ainsi que le besoin en précision du vérin. Nous supposons que |’équilibre statique est vérifié (termes dynamiques négligés). A l’échelle de l’esquisse, la différence entre la poussée d'Archiméde, d'intensité notée A, et le poids d'intensité P est de 1 cm, avec A>P en montée (force de portance orientée suivant —j, )."
+     },
+     {
+      "numero": "Q10.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dynamique : Géométrie des masses",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+        "semestre": "S3"
+       }
+      ],
+      "page": 9,
+      "tags": [],
+      "texte": "Question 10. Réaliser le tracé de la force hydrodynamique F, puis des composantes de portance Fy , support (A,ij,) et de trainée F, support (C',z,). En déduire les expressions analytiques de F, et F, en fonction de A, P et des caractéristiques de fonctionnement. 8 Tournez la page S.V.P. Question 11. Le centre de gravité G' du planeur est situé sur l'axe A=(G,,%,). Déterminer sa position et tracer le poids sur l’esquisse. Vous préciserez le théoréme utilisé pour déterminer sa position. L'étude réalisée permet de déterminer la relation entre l'angle de tangage a du planeur en mouvement et le déplacement 6 de son centre de gravité. Le tracé de ce résultat est donné sur le cahier réponses a la question 12."
+     },
+     {
+      "numero": "Q12.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       }
+      ],
+      "page": 10,
+      "tags": [],
+      "texte": "Question 12. Déterminer le déplacement du piston nécessaire pour obtenir un angle de tangage de 30°."
+     },
+     {
+      "numero": "Q13.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Précision",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 10,
+      "tags": [],
+      "texte": "Question 13. Estimer la précision nécessaire sur le déplacement du piston pour obtenir, autour de 30°, un contréle de l'angle de tangage répondant au cahier des charges. Conclure. La section du piston est de 5000 mm’."
+     },
+     {
+      "numero": "Q14.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       }
+      ],
+      "page": 10,
+      "tags": [],
+      "texte": "Question 14. En déduire, pour cet angle de 30°, I'intensité de E, , et la composante de trainée F;. Tracer le point de fonctionnement sur le graphique du cahier réponses. En déduire Ia vitesse longitudinale du planeur. Bilan énergétique de la propulsion La vitesse moyenne d’avance du planeur est supposée de 30 cm/s, en translation rectiligne ascendante ou descendante selon une direction inclinée de 30°."
+     },
+     {
+      "numero": "Q15.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       }
+      ],
+      "page": 10,
+      "tags": [],
+      "texte": "Question 15. Estimer la durée d’un cycle de montée-descente entre les profondeurs de 0 et 300 m."
+     },
+     {
+      "numero": "Q16.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Énergétique : Puissance et rendement",
+        "semestre": "S3"
+       }
+      ],
+      "page": 10,
+      "tags": [],
+      "texte": "Question 16. Estimer I’énergie nécessaire pour sortir le piston de ballastage de 8 cm a 300 m de profondeur (soit a une pression de 3.10° Pa). La section du piston est de 5000 mm’. Le planeur est alimenté par des accumulateurs électriques de 12V de tension nominale et de 10 Ah chacun. Une semaine de fonctionnement correspond approximativement a 200 cycles de montée- descente."
+     },
+     {
+      "numero": "Q17.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Énergétique : Puissance et rendement",
+        "semestre": "S3"
+       }
+      ],
+      "page": 11,
+      "tags": [],
+      "texte": "Question 17. Exprimer, en Joule, I’énergie disponible dans un accumulateur."
+     },
+     {
+      "numero": "Q18.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Énergétique : Puissance et rendement",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 11,
+      "tags": [
+       "liaison hélicoïdale / vis-écrou",
+       "hydraulique",
+       "dessin / conception sur calque"
+      ],
+      "texte": "Question 18. En déduire le nombre minimum d'accumulateurs a embarquer dans le planeur pour assurer une autonomie d'une semaine si 80% de I'énergie doit étre disponible pour I'électronique de contréle et de mesure. Précision du dispositif d'entrainement du vérin de ballastage Les efforts importants sur le piston du vérin de ballastage et la recherche d'une solution d'entrainement a rendement maximum ont conduit les concepteurs a : - choisir un systéme de transformation de mouvement de type vis-écrou 4 billes quasi- irréversible, - interposer une butée a billes pour reprendre les efforts de pression. Elle sera choisie en tenant compte de sa capacité de charge statique, - utiliser une deuxiéme butée, choisie sur critére d'encombrement, pour assurer la rentrée du vérin en surface. La chaine de puissance comprend donc les composants suivants : [Moteur Maxon 118778|- Réducteur 3 étages PLG52, rapport 1:225]-[vis a billes ]—[écrou a Voir le calque réponse et les documents 3, 4 et 5. L'effort axial dd a la pression sur le piston du vérin de ballastage est estimé a 20 000 N en plongée maximale."
+     },
+     {
+      "numero": "Q19.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 11,
+      "tags": [
+       "hydraulique",
+       "dessin / conception sur calque"
+      ],
+      "texte": "Question 19. Définir sur le calque réponse, en zone d'étude 1 et a I'échelle, Ia liaison vis- écrou en choisissant un composant document 4 dont vous préciserez la référence. L'ensemble est démontable et vous définirez, en particulier : - laliaison encastrement de I'écrou avec le piston, 10 Tournez la page S.V.P. - le blocage en rotation du piston par I'intermédiaire d'un doigt dans Ia rainure prévue acet effet dans le corps du vérin."
+     },
+     {
+      "numero": "Q20.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       }
+      ],
+      "page": 12,
+      "tags": [
+       "accouplement",
+       "usinage",
+       "hydraulique",
+       "dessin / conception sur calque"
+      ],
+      "texte": "Question 20. Définir sur le calque réponse, en zone d'étude 2 et a I'échelle, une solution démontable, permettant : - laliaison de l'ensemble motoréducteur avec le carter du vérin de ballastage, - I'accouplement entre I'arbre du réducteur et Ia vis, - la reprise des efforts de pression par une butée a billes dont vous préciserez la référence, - la reprise des efforts nécessaires a la rentrée du vérin en surface par une butée a billes dont vous préciserez la référence. Partie 3 : Performance hydrodynamique Les performances de mobilité du planeur (rayon d'action, vitesse, autonomie) sont liées a sa finesse qui doit étre maximale. La finesse est la capacité 4 parcourir une grande distance avec un minimum de variation d’altitude. Entre autres points, l’avant du planeur est un élément participant de fagon importante a cette finesse. Le nez du planeur a ainsi été calculé par les hydrodynamiciens qui ont proposé une forme en « ogive » dont la courbe guide est décrite sur la figure 4 : y= (x° — 102 x* + 4150 x° — 84000 x’ + 850000 x) / 350000 Figure 4 : courbe guide 11 La partie avant est réalisée par usinage sur Machine outil a commande numérique dans un alliage résistant au milieu marin "
+     }
+    ]
+   },
+   {
+    "titre_partie": "Partie 3 : Performance hydrodynamique",
+    "questions": [
+     {
+      "numero": "Q21.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Matériaux : Propriétés physiques et mécaniques",
+        "semestre": "S3"
+       }
+      ],
+      "page": 13,
+      "tags": [],
+      "texte": "Question 21. Quelle est la composition de I’alliage proposé ?"
+     },
+     {
+      "numero": "Q22.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Matériaux : Propriétés physiques et mécaniques",
+        "semestre": "S3"
+       }
+      ],
+      "page": 13,
+      "tags": [],
+      "texte": "Question 22. Tracer, en positionnant les valeurs caractéristiques, I’allure de la courbe de traction pour cet alliage."
+     },
+     {
+      "numero": "Q23.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+        "semestre": "S3"
+       }
+      ],
+      "page": 13,
+      "tags": [],
+      "texte": "Question 23. Rappeler, en faisant un schéma, le principe de dépédt métallique par anodisation."
+     },
+     {
+      "numero": "Q24.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+        "semestre": "S2"
+       }
+      ],
+      "page": 13,
+      "tags": [
+       "tolérances géométriques"
+      ],
+      "texte": "Question 24. Expliquer les spécifications portées sur le dessin de définition document 6."
+     },
+     {
+      "numero": "Q25.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       }
+      ],
+      "page": 13,
+      "tags": [
+       "cotation / chaîne de cotes"
+      ],
+      "texte": "Question 25. Proposer une cotation normalisée entre les deux plans B et C qui permette de positionner les deux surfaces (voir document 6, valeur nominale 10 mm, IT = 0,2 mm). Une pré-série de 5 piéces doit étre réalisée. L’entreprise dispose d’un tour 2 axes a commande numérique. La piéce (document 6) est entiérement usinée a partir d’un brut."
+     },
+     {
+      "numero": "Q26.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 13,
+      "tags": [
+       "liaison hélicoïdale / vis-écrou"
+      ],
+      "texte": "Question 26. Citer les opérations nécessaires a la réalisation d’un taraudage en proposant un outil par opération. 12 Tournez la page S.V.P. Question 27. Est-il possible de réaliser les 4 taraudages avec le tour 2 axes de I’entreprise ? Proposer une typologie de tour apte. Nous faisons maintenant I’hypothése que I’entreprise dispose de cette typologie de tour. La piéce est réalisée en deux phases par retournement."
+     },
+     {
+      "numero": "Q28.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       }
+      ],
+      "page": 14,
+      "tags": [],
+      "texte": "Question 28. Proposer un brut en adéquation avec Ia série de 5 piéces."
+     },
+     {
+      "numero": "Q29.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       }
+      ],
+      "page": 14,
+      "tags": [],
+      "texte": "Question 29. Préciser le mode d’obtention du brut puis décrire ce procédé par un schéma."
+     },
+     {
+      "numero": "Q30.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+        "semestre": "S2"
+       }
+      ],
+      "page": 14,
+      "tags": [
+       "usinage",
+       "tolérances géométriques"
+      ],
+      "texte": "Question 30. Proposer pour chacune des deux phases : - une symbolisation de la mise en position, - les surfaces usinées, - le repére machine. On s’intéresse maintenant a la réalisation par tournage de la surface avant du nez décrite par le polynéme de degré 5 de la figure 4. L’objet des questions suivantes est de préparer Vécriture du programme CN. Le programme CN commande les déplacements relatifs en X et Z entre les outils et le brut dans le but de réaliser l'usinage de la piéce finale. Sur la commande numérique de Ventreprise, ces déplacements se limitent a des droites et des cercles dans le plan (X,Z). Ilya donc lieu d’approximer le polynéme par une suite de droites et/ou de cercles en respectant les spécifications requises. Afin de réaliser le programme commande numérique, il est décidé d’approximer la courbe en une succession de droites qui représente la trajectoire de |’outil (et donc, en premiére approximation, la surface obtenue)."
+     },
+     {
+      "numero": "Q31.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       }
+      ],
+      "page": 14,
+      "tags": [
+       "usinage",
+       "dessin / conception sur calque"
+      ],
+      "texte": "Question 31. A partir de la courbe théorique finale tracée, et en vous aidant de la figure 5, - dessiner la position de la surface usinée avant anodisation (en bleu), - tracer ensuite les courbes limites délimitant la zone de tolérance de la surface usinée (en rouge). Pour la suite, on se propose d’approximer la courbe en partant de la pointe avant du nez (coté gauche de la figure 4). 13 Question 32. Dessiner les successions de droites (en vert) qui représentent la trajectoire de Youtil et qui respectent les tolérances spécifiées en positionnant les points d’‘intersections de ces droites (NB : Ces points servent de base a |’écriture du programme commande numérique). La suite prend en compte les défauts dus a l’opération d’usinage."
+     },
+     {
+      "numero": "Q33.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       }
+      ],
+      "page": 15,
+      "tags": [
+       "usinage"
+      ],
+      "texte": "Question 33. Exprimer deux origines des défauts d’usinage."
+     },
+     {
+      "numero": "Q34.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dynamique : Géométrie des masses",
+        "semestre": "S3"
+       }
+      ],
+      "page": 15,
+      "tags": [],
+      "texte": "Question 34. Votre trajectoire précédente est elle toujours valable ? Si besoin, proposer une modification de la trajectoire. Partie 4 : Analyse du dispositif d’orientation et d’équilibrage La partie centrale du planeur comporte un dispositif qui permet le réglage fin de la position axiale du centre de gravité ainsi qu’un déplacement radial de ce centre afin d’assurer la rotation du planeur. Ce mécanisme est positionné dans le corps du planeur et fixé par des tampons radiaux. Structure du dispositif Un plan d'ensemble est proposé document 7. Le schéma cinématique du systeéme de transformation de mouvement est représenté dans le cahier réponses."
+     }
+    ]
+   },
+   {
+    "titre_partie": "Partie 4 : Analyse du dispositif d’orientation et d’équilibrage",
+    "questions": [
+     {
+      "numero": "Q35.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dynamique : Géométrie des masses",
+        "semestre": "S3"
+       }
+      ],
+      "page": 15,
+      "tags": [],
+      "texte": "Question 35. Identifier sur le schéma cinématique proposé une piéce principale (cf. documents 7 et 8) de chaque classe d'équivalence."
+     },
+     {
+      "numero": "Q36.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Torseur cinématique",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Dynamique : Géométrie des masses",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
+        "semestre": "S1"
+       }
+      ],
+      "page": 15,
+      "tags": [
+       "engrenages"
+      ],
+      "texte": "Question 36. Réaliser le graphe de liaison associé au schéma cinématique proposé et identifier dessus les mobilités contrélées par un actionneur. Vous supposerez que la liaison réalisée entre deux composants par un engrenage est une liaison ponctuelle."
+     },
+     {
+      "numero": "Q37.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dynamique : Géométrie des masses",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Statique : Hyperstatisme",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       }
+      ],
+      "page": 15,
+      "tags": [],
+      "texte": "Question 37. Déterminer le degré d’hyperstatisme de ce modéle et, si celui-ci est non nul, indiquer la ou les contraintes géométriques associées. 14 Tournez la page S.V.P. Influence des efforts sur la position du CDG en giration Lors d'un changement de direction du planeur, la masse du dispositif d'orientation du planeur est inclinée dans le plan ortho-radial par |'intermédiaire du moteur M1. Pour un bon contréle de la trajectoire, la position du centre de masse doit étre stable et donc ne pas dépendre de la raideur des piéces. Nous allons utiliser un modéle RDM pour estimer, dans un cas défavorable, la modification de position de ce centre de gravité aprés avoir déterminé les efforts aux appuis. La vis (4) et l’axe (3) sont modélisés par des poutres de section constante, de diamétre D, de longueur L, en appui a leurs deux extrémités, cf. Document 9 figure b. L'ensemble relié 4 la masse déplacée par M1 et en liaison avec (4) et (3) est noté (M) et a pour centre de gravité G. G est situé dans le plan axial médian. (M) est supposé indéformable, en liaison rotule en A avec (4) et en liaison ponctuelle en B avec (3), cf. document 9 figure a. Le cas de chargement pris en compte dans le "
+     },
+     {
+      "numero": "Q38.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dynamique : Géométrie des masses",
+        "semestre": "S3"
+       }
+      ],
+      "page": 16,
+      "tags": [],
+      "texte": "Question 38. Déterminer les expressions de Y,, Z, et Z, en fonction de M, a, bet g. Le probleme de résistance des matériaux présente une symétrie des efforts et de la géométrie exploitable pour simplifier les calculs. 15 Question 39."
+     },
+     {
+      "numero": "Q43.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dynamique : Géométrie des masses",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Machines électriques : Machine à courant continu",
+        "semestre": "S4"
+       }
+      ],
+      "page": 17,
+      "tags": [],
+      "texte": "Question 43. Exprimer le déplacement ve, du centre de section B, dans Ia direction 7 induit par la déformation de la poutre (3) sous I'effet de la force 2,2. Exprimer, en fonction de vg et de la géométrie de (M), le déplacement vertical du centre de gravité G (on supposera (4) non déformée). Exprimer les déplacements de A, notés u, et va respectivement dans les directions ij et Z, sous l'action de Y, et Z,. En déduire I’expression du déplacement vertical du centre de gravité en fonction de M, g et des caractéristiques géométriques et de matériau. Calcul fait, le déplacement vertical de I’axe est estimé a 5 mm. Est-ce que la contrainte de positionnement du centre de gravité du cahier des charges est vérifiée ? 16 IN CHOISY – 12 1036 – D’après documents fournis"
+     }
+    ]
+   }
+  ]
+ }
+}

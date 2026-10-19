@@ -1,0 +1,1422 @@
+
+===== page 1 =====
+[OCR] BS4S
+
+# BANQUE FILIERE PT *
+
+Epreuve de Sciences Industrielles II
+
+Durée : 6hOO
+
+Composition du sujet :
+
+1 cahier de 16 pages de texte, numérotées de 14 16 ;
+
+1 cahier de 12 pages de figures, numérotées de 17 a 28 ;
+
+1 feuillet de 4 pages d’annexes : 1 p. d’annexe 1, 2 p. d’'annexe 2, 1 page blanche ;
+
+1 document format Ad intitulé « Moteur électrique » et un document format A3 intitulé
+« Flasque de pompe », imprimés au recto seulement ;
+
+3 feuilles format A3 pliées, imprimées recto verso, respectivement intitulées « Notice
+justificative 1/3 », « idem 2/3 » et « idem 3/3 », a rendre en fin d’épreuve ;
+
+2 feuilles de papier calque format A3, pré imprimées, 4 rendre én fin d’épreuve.
+
+TOUTE ..AUTRE DOCUMENTATION ‘EST INTERDITE
+
+Matériel autorisé : tous instruments usuels du dessinateur.
+
+Gestion du temps : En admettant une durée d’une heure pour Ia lecture et l'assimilation du sujet, i
+
+est vivement conseillé de consacrer entre 1h 30 min. ef 2h au maximum a la
+réponse aux questions de la notice et 3 h a 3h 30 min. au tracé des dessins.
+
+Figura 1 - Pompe de relevage
+submersible pour eau claire.
+
+1 Tournez la page S.V.P.
+
+
+===== page 2 =====
+[OCR] ETUDE D’UNE POMPE DE RELEVAGE SUBMERSIBLE
+A - Cahier des Charges Fonctionnel (CdCF)
+
+A.1- Présentation du probleme.
+A1.1 —Le produit et son marché.
+
+Remarque liminaire : dans tout ce paragraphe, le terme de pompe décrit en réalité un
+groupe motopompe associant la machine hydraulique pompe et le mofeur qui lui fournit
+fénergie nécessaire.
+
+Diverses raisons peuvent amener a prendre la décision d’équiper de pompes a eau un
+
+lieu de résidence ou une entreprise :
+
+— lisolement de son site, sans possibilité de raccordement a la distribution collective,
+imposant d’exploiter l'eau d'un puits ou d’un forage [situation 1] ;
+
+— a volonté d’exploiter l'eau d’un puits ou d'une citerne de collecte d'eaux pluviales par
+motivation civique et/ou économique en évitant la consommation d’eau potable
+collective pour des utilisations secondaires telles que le lavage de véhicules ou
+!'arrosage de jardins [situation 2], ou en alimentant une pompe a chaleur ;
+
+— te besoin de vider un espace rempli volontairement (piscine, bassin), ou plus ou moins
+fempli involontairement, par infiltration, ruissellement, debordement ou inondation
+(vide sanitaire, sous-sol, cave, fosse sous machine, drain), ou encore par
+accumulation sur un chantier [situation 3).
+
+Sill s’agit dans les trois situations de pomper de l'eau, le type de pompe nécessaire va
+
+dépendre des paramétres d’installation :
+
+— pour les situations 1 et 2, le procédé le plus simple est celui d'une pompe dite « de
+surface », capable d'aspirer l'eau dans un puits jusqu’a 7,5 m sous la pompe, et de la
+refouler sous pression suffisante pour la distribution aux divers niveaux de ta maison
+ou pour Parrosage, avec méme éventuellement plusieurs arroseurs ;
+
+— toutefois, pour ces deux mémes situations, si l'eau est plus profonde, le procédé
+consiste 4 immerger une pompe dans le puits ou le forage ; elle sera capable de
+refouler eau sur une dénivellation de plusieurs dizaines de métres ;
+
+— pour évacuation d’eau (ou exhaure) souhaitée dans la situation 3, le procédé consiste
+a immerger une pompe dite « de vidage » ou « de relevage » dans l'espace a vider ;
+elle aura pour réle de relever 'eau de quelques métres seulement, ce qui est suffisant
+pour permettre son évacuation, par exemple dans le réseau approprié. La figure 1,
+Page 1 représente une pompe de ce type.
+
+L’étude va porter sur des pompes de relevage, adaptées 4 la situation 3.
+
+Les eaux que les pompes de ce type ont a déplacer peuvent étre :
+
+- de l'eau claire ou faiblement chargée, par des particules de petites dimensions : c'est
+en général le cas pour les eaux d’infiltration ou de débordement ;
+
+— de l'eau abondamment chargée, de particules éventuellement de grosses dimensions
+(sable, voire gravier, débris divers): c’est le cas pour les eaux d’inondation, ou
+d’accumulation sur chantier.
+
+Une société produisant des pompes de relevage pour usage domestique souhaite élargir
+et diversifier !a gamme qu'elle commercialise en proposant une pompe trés robuste capable
+d'étre efficace dans les conditions d’un chantier, pour vider toutes sortes d'eaux, y compris
+chargées,
+
+Actuellement, la société produit 5 000 pompes de relevage 4 usage domestique par an
+
+Elle estime que le nouveau segment de marché qu'elle vise se situe entre 500 et 1 000 unités
+par an, avec une prévision de 5 ans pour la durée de production de la premiére version.
+
+2
+
+
+===== page 3 =====
+[OCR] A1.2 — Le contexte du projet.
+Limites de l'étude : étude demandée ne porte que sur la partie mécanique de la pompe.
+
+.2 — Enoncé foncti | du besoin. (Présentation simplifiée)
+
+A qui le produit rend-i! service ?__ Au particulier ou au chef d'entreprise acquérant la pompe.
+
+Sur quoi agit-il 7 Sur eau ayant envahi ou susceptible d'envahir un local ou
+un chantier.
+Pour faire quoi ? Assécher les lieux envahis en évacuant l'eau ou empécher
+
+qu'elle n’envahisse ces lieux en évacuant l'eau piégée au fur
+et 4 mesure de son arrivée.
+
+Dans quel but ? Sauvegarder fa valeur des locaux et des biens qu’ils
+contiennent, ou maintenir ta productivité de l'équipe du
+chantier.
+
+Pourquoi ? L’eau salit et endommage les locaux et leur contenu ; elle
+
+perturbe l'activité d'une entreprise ou d'un chantier.
+
+A.3 - Analyse du procédé de relevage.
+
+Pour relever l'eau, il faut lui fournir de I'énergie potentielle. Cela est en fait réalisé par la
+foumiture d’énergie cinétique par le rotor d’une pompe centrifuge, dit encore rouet ou turbine.
+
+Comme cela est suggéré ci-dessus dans lénoncé du besoin, il est souhaitable d'agir de
+maniére préventive plutét que curative. A cette fin, la pompe sera installée de fagon
+permanente (ou tout au moins pendant les périodes de risque) dans un puisard, c’est-a-dire
+dans une excavation creusée dans le sol et permettant de regrouper l'eau indésirable. Les lieux
+A protéger seront aménagés de telle sorte que leur sol permette un écoulement vers ce puisard,
+ou vers des dispositifs de drainage aboutissant eux-mémes au puisard.
+
+Lutilisation du puisard comme moyen de stockage temporaire de eau peut étre
+envisagée si sa capacité prévue est suffisante ; cela autorise un vidage progressif, partiellement
+différé. Le dimensionnement du puisard est donc lié au débit prévisible d’arrivée d'eau et aux
+performances de la pompe en débit et réactivité. Le choix du modéle de pompe se fera en
+fonction du débit d’évacuation souhaité, qui peut de fait étre inférieur au débit instantané
+dartivée de l'eau, pour autant que cette arrivée ne soit pas permanente.
+
+Par ailleurs, il ne serait pas raisonnable de vouloir laisser tourner en permanence la
+pompe sans débit ou avec un faible débit : il en résulterait une consommation inutile d’énergie,
+un échauffement de la pompe par insuffisance de débit de l'eau qui participe a son
+refroidissement, un endommagement stérile par un fonctionnement inutilement prolongé.
+
+Done, outre le regroupement de l'eau, le puisard a une fonction d’accumulation de l'eau
+de facgon a ne faire fonctionner que temporairement la pompe.
+
+Les principales étapes du cycle de fonctionnement peuvent donc étre énumérées et
+décrites sommairement comme suit :
+1. la pompe est installée en permanence dans le puisard, alimentée en énergie, mais a
+Yarrét, en absence d'eau a évacuer, ou en présence d'une quantité trop faible ;
+2. Teau qui arrive s’écoule dans le puisard ou elle s'accumule ; la pompe reste a larrét
+tant qu'un niveau suffisant n'est pas atteint ; elle est alors progressivement immergée ;
+
+3 Tournez la page $.V.P.
+
+
+===== page 4 =====
+[OCR] 3. quand la pompe détecte un niveau suffisant, elle démarre automatiquement et evacue
+leau du puisard (ce qui n’empéche pas l'eau de continuer éventuellement a arriver) ;
+
+4. la pompe fonctionne jusqu’a ce que le niveau soit tellement bas qu'elle ne débite plus
+suffisamment : elle s'arréte alors automatiquement et revient en position d’attente ; il
+est possible qu'un débit continu d’arrivée d’eau supérieur ou égal a celui de ja pompe
+conduise a son fonctionnement et 4 son immersion prolongés avant l'arrét.
+
+A.4— Analyse fonction) in.
+
+A.4.1 - Situations de vie du prod!
+
+uit.
+
+Parmi toutes les situations du cycle de vie du produit, ine sera considéré que la situation
+de fonctionnement opérationne!. Toutefois, certains aspects de la maintenance seront
+
+incorporés 4 cette situation.
+
+4.4.2 - Etude de la situation de fonctionnement opérationnel.
+
+A.4.2.1 - Graphe des interacteurs.
+
+ou chef d’entreprise)
+
+Propriétaire utilisateur de la pompe (particulier
+
+C1 1 chantier
+FS¢ FS7 F
+FQS
+S Fi 4
+
+(Présentation simplifiée)
+
+Eau a relever dans
+un local ou sur un
+
+Particules solides en
+FS2 suspension ou
+
+impe de relevage ~~
+
+Humains entrainées par l'eau
+he: Kk
+ee sito ° > Puisard
+d’accumulation
+\ tee d'eau
+Réseau — -
+électrique Milieu ambiant
+
+A.4.2.2 - Enoncés des fonctions de service et des contraintes
+
+Fonctions principales :
+
+FS1 Vider l'eau piégée dans un puisard.
+Fs2 Pomper de Peau chargée de particules solides.
+
+Fonctions secondaires :
+
+FS3 Entrer faciiement dans le puisard.
+
+FSd = Ne pas engendrer de danger pour les humains proches sur le site (pieces en
+mouvement, courant électrique, formes dangeureuses, instabilité, etc.).
+
+FS5 = Emettre un bruit supportable par les humains proches.
+
+FS6 Limiter la consommation é1
+
+nergétique.
+
+FS7 _Résister aux conditions de service sans perturbation du fonctionnement.
+(démarrage, durée de fonctionnement, température ambiante, chocs, etc.)
+
+FS8 ——Résister a l'eau relevée.
+
+FS9 Permettre un nettoyage facile des salissures externes et internes.
+
+4
+
+
+===== page 5 =====
+[OCR] Contraintes :
+
+FC1 Etre facile a déplacer.
+
+FC2 Utiliser une énergie disponible.
+
+FC3 Etre préte a fonctionner.
+
+FC4 —_ Fonctionner immergée dans eau a relever.
+
+A423 - Caractérisation des fonctions.
+
+Fonction | Criteres . aed S : 5 ‘ Niveaux
+Fs1 + Hauteur maximale de relevage. *7m.
+* Hauteur d'eau résiduelle non pompée. +60 mm.
++ Débit minimal de la pompe pour un tuyau d’évacuation de 12m".
+diametre intérieur 25 mm et de longueur maximale 10 m.
++ Profondeur maximale d'immersion. °Sin.
+FS2 * Dimension maximale des particules solides pouvant étre aspirées. |» 3 mm.
++ Hauteur d’accumulation de débris solides décantés non aspirés. [* 20mm.
+FS3 + Diamétre intérieur minimal du puisard. + 400 mm.
+Fs4 * Classe de protection. *IP 68.
+* Nombre d’arétes vives accessibles aux mains. * aucune.
+* Accés en service d'un doigt ou d’un pied aux parties en + impossible.
+mouvement.
++ Longueur minimale du cAble d'alimentation. *10m.
+FSé + Pression acoustique maximale due a la pompe a 1m du puisard. |+* 70 dB.
+FS6 + Consommation énergétique maximale. * 600 Wh.
+FS7 + Durée minimale de fonctionnement avant premiére panne. *2000h,
++ Durée minimale de fonctionnement entre pannes. + 500 h.
+* Durée maximale d’indisponibilité pour panne. * 1 semaine.
++ Température d'utilisation, #424 +50°C,
+* Energie maximale de choc subi par la pompe ne 'empéchant pas | 5 J.
+de bien fonctionner
+Fss + Température maximale de l'eau pompée. © 35°C.
+» Corrosion d'un matériau au contact de l'eau. *non,
+* Corrosion d'un matériau au contact d'un autre, en immersion ou * non.
+en atmosphére humide.
+Fs9 * Rétention d’eau ou de boue par les formes extérieures. * non.
+* Rétention d’eau ou de boue par les formes intérieures du circuit, | « non.
++ Durée maximale d’accés au rouet dans la volute, par démontage. | * 10 min.
+—=——_ ————
+FC * Masse maximale. + 15kg.
++ Encombrement maximal (longueur x largeur x hauteur, en mm). * 250x200x400.
+FC2 * Tension de courant électrique. * monophasé
+220V+T.
++ Fréquence du secteur. + 50Hz.
++ Puissance disponible. °s2,5KW.
+Fc3 + Taux maximal de non démarrage quand l'eau monte dans le = 10%.
+puisard.
+Fce4 + Entrée d'eau dans le moteur. * aucune.
+
+5 Tournez la page S.V.P.
+
+
+
+===== page 6 =====
+[OCR] B - Principe et éléments de solutions proposés
+
+B.1 — Prinei .
+
+Comme annoncé au paragraphe A.3, la pompe est de type centrifuge. Son rouet est
+solidaire de l'arbre d’un moteur électrique qui l'anime d'un mouvement de rotation rapide. Il est
+constitué d’un disque circulaire plan portant sur lune de ses faces un certain nombre d’aubages
+en forme de cloisons courbes qui conduisent les écoulements allant du centre vers la
+périphérie. La figure 2, page 17 du cahier de figures, présente le modéle numérique d’un
+rouet a 6 aubages entourant un moyeu central, dont on voit fa face active. L’eau contenue entre
+jes aubages du rovet, entrainée en rotation rapide, est soumise 4 une action centrifuge et
+propulsée vers l'extérieur par les aubages. Le rouet aspire donc !’eau en son centre et I'sjecte 4
+8a périphérie. La forme du moyeu central du rouet favorise écoulement vers les aubages de
+leau aspirée au centre.
+
+Un espace annulaire fermé, appelé collecteur ou volute, entoure le rouet pour collecter
+eau éjectée par le rouet et la canaliser vers orifice de sortie. La figure 3, page 18 du cahier
+de figures, est une photographie de la volute de la pompe présentée sur la figure 1; elle
+précise le sens de circulation de eau. La figure 4, page 18 du cahier de figures, précise
+également le sens de rotation du rouet par rapport a la volute.
+
+L’architecture générale du groupe motopompe est présentée schématiquement par la
+figure 5, page 19 du cahler de figures. Elle est organisée en trois niveaux.
+
+Le niveau inférieur est celui de la pompe elle-méme, incorporée au socle (1) de
+lensemble, dont la jupe périphérique est ajourée d’un certain nombre dorifices permettant
+entrée de l'eau. C’est le socle lui-méme qui forme la volute de la pompe ot toume le rouet (3).
+La volute est fermée a sa face supérieure par un couvercle de volute (2), essentiellement plan,
+mais comportant une canalisation guidant l'eau vers le niveau intermédiaire et la sortie.
+
+Le niveau intermédiaire est celui du moteur électrique d’entrainement de la pompe, dont
+la carcasse (6) est entiérement entourée par un espace ou circule eau pompée avant de
+s'engager dans f'orifice de sortie et la canalisation d’évacuation qui lui est raccordée. Cette
+ceinture d'eau du moteur a pour fonction d’assurer son refroidissement.
+
+Le niveau supérieur est celui du dispositif d’alimentation électrique (non considéré dans
+cette étude) et du dispositif de commande, intégré dans un carter (10), qui va 6tre décrit
+séparément dans le paragraphe suivant.
+
+On remarque que sur ce schéma :
+
+— le guidage du rotor (4) du moteur est incomplétement schématisé ;
+
+— les passages de cAbles électriques 4 travers fe carter (10) et le flasque supérieur (8),
+ainsi que les connexions ne sont pas du tout schématisés ;
+
+— le choix de décomposition du corps en éléments assemblés est proposé, mais
+également incomplétement schématisé.
+
+B.3 - Le mécanisme de commande.
+
+Divers systemes sont envisageables pour la commande de mise en marche et d’arrét de
+fa pompe. Ils se différencient par leur simplicité ou complexité, tant du mécanisme de détection
+du niveau d’eau que du circuit de commande. Le systéme retenu pour fe modéle de pompe a
+concevoir privilégie utilisation d’un mécanisme actionnant directement un contacteur pour
+‘utiliser qu'un circuit de commande trés simple et peu vulnérable 4 I'humidité ambiante,
+omniprésente en attente au-dessus de l'eau comme en fonctionnement en immersion : un seul
+contacteur simple, provoquant directement lalimentation ou la coupure d’alimentation du
+moteur de pompe, sans logique de commande, sans alimentation spécifique du circuit de
+commands, sans interface logique — puissance. La figure 6, page 20 du cahier de figures, et
+
+6
+
+
+===== page 7 =====
+[OCR] la figure 7, page 21 du cahier de figures présentent le schéma cinématique minimal du
+mécanisme de commande, successivement én perspective, puis en projection.
+
+Les différentes situations de la commande sont déterminées par l'intermédiaire de la
+came (26) qui est la piéce clé du mécanisme de commande. Elle comporte diverses zones
+fonctionnelles :
+
+— guidage en rotation par rapport au corps (10) ;
+
+— profil, composé de deux rampes planes orthogonales entre elles (26-3) et (26-4) ;
+— deux surfaces susceptibles de venir en contact avec les butées fixes (33) et (34) ;
+— deux contacts possibles (26-1) et (26-2) avec le levier (28).
+
+Lorsque l'eau monte dans le puisard, le flotteur (29), solidaire du levier (28), entraine ce
+dernier en rotation vers le haut autour de l'axe fixe (27), solidaire du carter du mécanisme de
+commande (10). Dans ce mouvement, le levier va venir en contact en (26-1) avec la came (26).
+$i eau continue de monter, le levier va entrainer la came (26) en rotation. En appuyant sur le
+galet (25), celie-ci va provoquer I'enfoncement de la tige (23) du contacteur, et la fermeture du
+circuit d’alimentation du moteur au sein de la partie électrique (22) du contacteur.
+
+La figure 8, page 22 du cahier de figures présente la courbe caractéristique mécanique ©
+du contacteur : effort axial sur la tige (23) en fonction de sa course d’enfoncement ; cette tige
+est rappelée vers fe haut par le ressort (24) préchargé initialement au montage, avec mise en
+butée de la tige (23) dans le corps (21). Le circuit est 4 coup sar fermé quand lenfoncement de
+la tige est au moins égal 4 3,4 mm. La course maximale de cette tige est de 4,5 mm ; pour la
+tenue mécanique du contacteur, i! est indispensable de ne pas pousser cette tige en butée avec
+un effort supérieur 4 6 N. Le contacteur sera positionné par rapport a I'axe de rotation de la
+came de telle sorte que l’enfoncement maximal de la tige soit en service de 4 mm seulement.
+
+Dans {e souci d’éviter une détérioration des parties fragiles de ce mécanisme (contacteur
+et came), les butées (34) et (32) de limitation de la course en rotation du levier (28) et les
+butées (33) et (34) de limitation de la course en rotation de la came (26) sont positionnées de
+telle sorte que jamais le levier ne pousse la came contre ses butées propres.
+
+Quelques positions remarquables du mécanisme :
+
+— La figure 9, page 23 du cahier de figures représente la situation d’attente de la
+Motopompe, en absence d’eau dans le puisard ou pour un niveau trés bas. On y remarque
+que le levier (28) est au contact de sa butée basse (31). On remarque également que dans
+cette situation, la came n'est pas en contact avec le galet de contacteur (25). De plus, la
+came (26) n'est pas a priori en butée.
+
+— La figure 10, page 24 du cahier de figures représente la situation de {a premiére mise en
+contact de la came (26) avec le galet (25) sous I'effet de la montée du flotteur.
+
+- La figure 11, page 25 du cahier de figures représente la situation correspondant a
+enfoncement maximal de la tige du contacteur.
+
+B.3 — Spécifications générales des liaisons et éléments d’architec!
+
+B.3.1 —- Ensemble de la motopompe.
+
+Repéte de, |. Modélisation ° "|. = Fontions techniques © |: :|:,. Indications partielles
+> Wlaison Shag Or ae SENS DALES, % pour la réalisation: ©
+1-0 Appui plan Poser la motopompe sur le fond du puisard.
+1-2 Encastrement Fixer l'une a !'autre les deux parties de la volute. Liaison démontable.
+
+7 Tournez fa page S.V.P.
+
+
+===== page 8 =====
+[OCR] Reperede Modélisation “| indications partielies - |
+liaison fo Foes Q a | pour ta réalisation «: :-
+9-7- (1-2) | Encastrement Lier entre eux différents éléments des niveaux Liaison démontable.
+inférieur et intermédiaire du corps.
+8- 9-10 | Encastrement Lier entre eux différents éléments des niveaux Liaison démontable.
+intermédiaire et supérieur du corps.
+(5-6)- 7 | Encastrement Fixer le stator du moteur et sa carcasse aux Liaison démontable.
+et (5-6)-8 flasques.
+Empécher l'eau d’entrer dans le moteur électrique,
+4-7 A étudier Guider en rotation le rotor du moteur et le rovet de
+et 4-8 | uitériourement pompe.
+11-10 | Encastrement Supporter le poids de la motopompe. Liaison démontable,
+B.3.2 - Mécanisme de commande.
+Repére.de |}. Modélisation Fonetions techniques 7 “Indications partielles
+cliaison . Sarvs : ean es pour la réalisation --
+10-21 | Encastrement Positionner et fixer le contacteur sur te bati. Voir annexe 1.
+21-22 == ‘| Encastrement Positioner et fixer la partie électrique dans le corps | Hors étude,
+du contacteur
+21-23 — | Gissiére et butée Positioner et guider la tige par rapport au corps du. | Hors étude.
+temparaire contacteur.
+24-21 | Appuiplanetcentrage | Prendre appui sur le corps de contacteur. Hors étude,
+court
+24-23 | Appuiplan Transmettre effort de rappel a [a tige du contacteur. | Hors étude,
+23-25 = | Pivot Positioner, guider et supparier le galet par rapport | Hors étude.
+ala tige du contacteur,
+10-27 | Encasirement Positionner et fixer l'axe de rotation du levier et de la | La démontabilité n'est pas
+came pat rapport au carter. indispensable.
+27-26 = | Pivot Positioner, guider et supporter la came par rapport | Guidage a étucier.
+au carer. Cette liaison doit étre
+démontable pour pouvoir
+changer la came en cas
+dusure.
+26-25 — | Contact temporaire, Transformer le mouvement et transmettre ‘effort
+linéique rectiligne court | entre la came ef le galet.
+27-28 = | Pivot Positioner, guider et supporter le levier et le flotteur | Guidage a étudier.
+par rapport au carter et la came. lest jugé souhaitable que
+cette liaison soit
+démontabie pour faciliter la
+maintenance de la pompe.
+28-29 | Encasirement Posifionner et fixer le flotteur par rapport au levier. | Hors étude.
+28-26 | Contact temporaire, Transmettre le mouvement de rotation et effortde | Un dispositif de réglage
+tepéres 26-1 | ponctuel ou tinéique commande du levier a lacame. n'est pas souhaité.
+et 26-2 | rectiligne court
+
+
+
+===== page 9 =====
+[OCR] Reperede | Modélisation.» ~ _.Fonetions techniques,” > Indications partielles
+
+liaison. : : ce: |) pourla réalisation :
+10-28 — | Contact temporaire, Limiter ta course en rotation du levier par rapport au_| Un dispositif de réglage
+repéres 31 | ponctuel ou lingique bati dans les deux sens et supporter les efforts nest pas souhaité.
+et 32 rectiligne court corfespondants,
+
+10-26 — | Contact temporaire, Limiter la course en rotation de la came par rapport | Un dispositif de réglage
+
+Tepéres 33} ponctuel ou linéique au bati dans les deux sens. n'est pas souhaité,
+
+et34 tectiligne court
+
+¢c
+
+C - Etude de conception en construction mécanique
+
+— Présentation du trav.
+
+9 documents
+
+Comme indiqué plus haut en page 1, en admettant une durée d'une heure pour la tecture
+et (assimilation du sujet, il est vivement conseillé de consacrer entre 1h 30 min. et 2h au
+maximum a la réponse aux questions de la notice et 3 h 4 3h 30 min. au tracé des dessins.
+
+C.1.1— Notice justificative (40 % de la note globale).
+
+Fournir les réponses sur les trois documents respectivement intitulés « Notice
+justificative 1/3 », « Notice justificative 2/3 » et « Notice justificative 3/3 », de format A3
+horizontal, pré imprimé recto verso, qui sont joints au sujet. Les réponses seront fournies
+dans les limites des cadres prévus pour chaque question. Les réponses sur feuilles de
+copies additionnelles ou sur papier de brouilion ne seront pas acceptées.
+
+ll sera tenu compte, dans la notation, de la clarté et de la concision des réponses. Les
+schémas doivent étre lisibles, précis, et respecter la normatisation en vigueur.
+
+Les écritures au crayon ne seront pas acceptées. La qualité de Iécriture, de l'orthographe
+et de la syntaxe sera prise en compte dans l’évaluation.
+
+C.1.2 — Dessin d’étude de construction mécanique (60 % de la note globale).
+
+Ce travail est a réaliser sur les deux calques pré imprimés de format A3H,
+respectivement nommeés « Caique 1 » et « Calque 2 », qui sont joints au sujet.
+
+Les dessins sont 4 exécuter 4 échelle 1:1, aux instruments, avec pour l’essentiel mise au
+het au crayon respectant les épaisseurs de traits normalisées et les exigences d’une bonne
+lisibilité ; seuls les axes et les écritures seront tracés a lencre noire. Les tracés de couleur ne
+sont pas admis. Les normes AFNOR seront respectées.
+
+Les croquis & main levée seront exécutés au crayon, sans laide d'instruments (régle,
+équerre ou compas). La grosseur et la noirceur des traits assureront une lisibilité satisfaisante.
+Aucune échelle n'est imposée mais, toujours pour la lisibilité, il est demandé de la cholsir au
+maximum compatible avec l'espace offert. De plus, il sera veillé a ce que les proportions des
+piéces soient convenablement respectées, afin de ne pas introduire de distorsion de
+compréhension a la lecture. Le choix des points de vue assurera Yexpression la plus claire
+possible des solutions retenues.
+
+9 Tournez fa page S.V.P,
+
+
+
+===== page 10 =====
+[OCR] C.2 — Notice justificative.
+C.2.1 — Modélisation mécanique.
+
+C.2.1.1- Etude partielle des efforts entre les piéces principales.
+
+Données : (se reporter aux figures 6 et 7, pages 2¢ et 21)
+
+= (e levier (28) peut étre décomposé en un moyeu entourant l'axe (7) et une tige
+rectiligne A section constante, solidaire du moyeu a l'une de ses extrémités et du
+flotteur a autre ;
+
+= la tige est supposée réalisée en polymere dont la masse volumique sera considérée
+comme valant approximativement 10° kg/m? ;
+
+= masse de la tige seule (sans moyeu ni flotteur) : Mr:
+
+« Ie flotteur (29) sera supposé de forme cylindrique de révolution, d’axe horizontal, de
+diamétre Dr = 40 mm et de longueur He = 80 mm, constitué d’un mince enveloppe en
+polymére complétement remplie de mousse polymére a alvéoles non communiquants ;
+la densité équivalente moyenne pour les deux matériaux est de 0,2 ;
+
+= masse du flotteur seul: Mr;
+
+® les centres d'inertie de Ia tige seule et du flotteur seul seront respectivement désignés
+par G; et G; qui seront supposés portés tous les deux par la ligne moyenne de la tige ;
+
+= lacourbe caractéristique mécanique du contacteur choisi, effort axial sur la tige (23) en
+fonction de son enfoncement 5 (précisé sur la figure 11, page 25), est fournie sur la
+figure 8, page 22.
+
+Hypothéses pour les questions Q1 et Q2:
+= {a situation d'étude sera considérée en limite de début d’enfoncement de la tige du
+contacteur ; le levier (28) est en contact en (26-1) avec la came (26) ;
+le flotteur n'est que partiellement immergé, mais le bras est complétement immergé ;
+la masse du moyeu du levier et ses effets seront négligés ;
+le centre d’inertie de la came (26) est situé sur son axe de rotation ;
+les liaisons seront supposées parfaites ;
+Veffort exercé par la partie électrique (22) du contacteur sur sa tige (23) sera considéré
+comme trés petit et négligé.
+
+Q1 — Inscrire votre réponse dans fe cadre R1 de ia notice 13.
+
+Sur la figure fournie dans le cadre R1, déterminer graphiquement les efforts exercés
+sur le galet (25). Préciser fe ou les systéme(s) isolé(s) ; renforcer leur tracé sur la figure
+foumie ; 'usage de couleurs est possible ; mettre en place les actions en les identifiant
+clairement et en respectant l'échelle 1 N représenté par 10 mm ; déterminer les valeurs
+obtenues.
+
+Q2 — inscrire votre réponse dans le cadre R2 de fa notice 1/3,
+
+Déduire de la réponse a la question précédente leffort que l'eau doit exercer sur le
+flotteur (29). Le candidat pourra porter des indications sur la figure fournie dans le
+cadre R2, et exprimera sa réponse et ses justifications sous la figure.
+
+Q3 — Inscrire votre réponse dans le cadre R3 de Ia notice 1/3.
+
+La figure tracée dans ce cadre représente la situation de levée maximale du levier et du
+flotteur. Justifier mécaniquement le décollement du contact (26-1) et la mise en butée de
+la came (26) sur (34). Le candidat pourra porter des indications sur la figure fournie
+dans le cadre R3, et exprimera sa réponse et ses justifications sous la figure.
+
+€.2.1.2— Compréhension du fonctionnement du mécanisme.
+
+Q4 = Inscrire votre réponse dans le cadre R4 de fa notice 1/3.
+
+10
+
+
+===== page 11 =====
+[OCR] Expliquer le fonctionnement du systéme lors de la descente du niveau de l'eau. Le
+candidat rédigera sa réponse dans le cadre réservé a cet usage ; il tracera 4 main levée
+une ou des figures explicatives dans l'espace réservé a cet usage ; mais l'espace réservé
+aux tracés ne pourra en aucun cas étre utilisé pour une rédaction (elle ne serait pas prise
+en compte pour l’évaluation).
+
+Quelle analogie avec un phénoméne physique ce systéme mécanique vous suggére-t-il ?
+
+C.2.1.3- Etude de résistance des matériaux.
+
+Données :
+
+= fa tige du levier est toujours supposée réalisée en polymere, rectiligne a section
+constante ciculaire creuse, de diamétre externe D, et d’épaisseur e ;
+
+= on admettra que le polymére technique utilisé a un comportement d’allure analogue a
+celui d'un acier (existence d'un domaine d’élasticité quasi linéaire), méme si le module
+d’élasticité linéaire et la limite d’élasticité sont de valeurs plus faibles ;
+
+= dans une variante de réalisation par rapport aux hypothéses du paragraphe C.2.1.1, le
+flatteur est supposé avoir son centre dinertie Ge excentré de ar par rapport a la ligne
+moyenne de la tige selon la figure 12, page 26 du cahier de figures.
+
+Hypotheses pour les questions Q5 et Q6 :
+
+= Ia situation d'étude considérée correspondra a la butée haute du levier (28) sur (32) ; la
+came (26) n’est plus en contact en (26-1) avec le levier (28), comme cela a été étudié
+engQ3;
+
+= la tige du levier est complétement immergée ;
+
+= le flotteur est completement immerge ;
+
+* Ie site d'installation et les circonstances conduisent la pompe a étre immergée en
+immersion maximale : !a surface libre de ’eau sera supposée 4 5m au-dessus de
+taxe (27).
+
+Q5 -— Inscrire votre réponse dans le cadre R5 de la notice 2/3.
+
+a- Exprimer litteralement l'effort exercé par l'eau sur le flotteur.
+
+b+ Analyser littéralement 'évolution des solicitations le long de la tige du levier. Préciser
+littéralement les points remarquables. Le candidat complétera ia figure fournie et
+utilisera les espaces offerts respectivement pour tracer les graphes représentant
+Tévolution de ces sollicitations le long de ta tige et pour rédiger ses éléments de
+réponses.
+
+Q6 — Inserire votre réponse dans le cadre R6 de Ia notice 2/3.
+
+Pour chacune des sollicitations exprimées précédemment, représenter la répartition dans
+une section droite et donner l'expression des contraintes associées. Le candidat utilisera
+les espaces offerts respectivement pour tracer les figures demandées et pour rédiger ses
+éléments de réponses.
+
+€.2.2— Recherche de solutions techniques.
+
+C.2.2.1- Matériau du corps de pompe.
+
+QT - inscrire vos réponses dans fe cadre R7 de ia notice justificative 2/3.
+
+Pour diverses raisons, il est envisagé de réaliser le corps de pompe, encore dit « volute »,
+dans un matériau désigné par GX 6 Cr NiMo 13-4.
+
+11 Tournez ia page S.V.P.
+
+
+
+===== page 12 =====
+[OCR] a- Aquelle famille ce matériau appartient-il ?
+b- Quels sont ses principaux constituants et leur teneur 7
+
+C.2.2.2-— Guidage du rotor du moteur.
+
+Hypotheses pour les questions 08 4 Q11:
+il a 6té choisi de guider le rotor du moteur électrique par deux roulements a une rangée
+de billes 4 contact radial, étanches et lubrifiés 4 la graisse a vie ; leur distance entre
+centres respectits sera estimée a L = 120 mm ;
+= les caractéristiques de ces roulements sont :
+
+d=15mm; D=32mm; B=9mm;
+Co= 3000 N; C=6000N; — Nmax= 14 000 tr.min™;
+Fa/Go's| 0,025 9,04 0,07 0,13 0,25 0,5
+H 0,22 0,24 0,27 0,34 0,37 0,44
+0,6
+20 l 15 I 4.0
+
+= [ensemble tournant sera immobilisé en translation par un seul des deux roulements ;
+
+= le rotor du moteur, son arbre et le rouet qu'il porte ont une masse évaluée globalement
+aM~4kg, dont Mp = 3 kg pour le seul rotor ;
+
+= matgré le soin apporté 4 la réalisation de son usinage le rotor du moteur présente un
+balourd qui, pour simplifier, sera supposé appliqué a mi-distance entre les roulements,
+et décrit sous la forme d’une excentration du centre d’inertie du seul rotor d'une
+distance e ~ 0,2 mm par rapport a I'axe de rotation de l'arbre portant le rotor ;
+
+™ pendant le pompage, l'eau pompée exerce sur la face active du rouet un effort axial
+réparti dont la résultante sera évaluée a Fe » 140 N ;
+
+= le moteur électrique a en service une fréquence de rotation approximative
+N= 3000 min™
+
+N.B. Compte tenu de Vinterdiction d’utiliser les caiculatrices et pour alléger
+les caiculs mentaux ou manuels, les valeurs de Co, C, X, Y, M, Mp et Fx
+ont été raisonnablement arrondies. Dans le méme esprit, le candidat
+conduira ses caiculs en pratiquant des approximations raisonnables.
+
+Q8 - inscrire vos réponses dans fe cadre R8 de fa notice justificative 2/3.
+Evaluer approximativement la durée de vie probable du roulement soumis a la charge
+axiale.
+
+Q9 - inscrire vos réponses dans le cadre R9 de fa notice justificative 2/3.
+Choisir les tolérances des portées des deux roulements, sur l'arbre et dans leur logement.
+
+Q10 - iscrire vos réponses dans le cadre R10 de la notice justificative 2/3.
+
+Tracer un schéma technologique de ce guidage, sur lequel seront schématisés l'arbre
+guidé, les deux roulements et leurs immobilisations axiales.
+
+Q11 - Inscrire vos réponses dans le cadre R11 de la notice justificative 2/3.
+dustifier briévement le choix des arréts axiaux.
+
+12
+
+
+===== page 13 =====
+[OCR] C.2.2.3-— Dispositifs d’étanchéite.
+
+Q12 - inscrire vos réponses dans le cadre R12 de ia notice justificative 2/3.
+
+a- Rédiger briévement les principaux éléments du cahier des charges du dispositif
+d'étanchéité a prévoir a la sortie d'arbre entre moteur et pompe :
+
+o é6noncé des principaux critéres de choix (paramétres déterminants) ;
+o &noncé des niveaux (valeurs a considérer).
+
+b- La documentation fournie en annexe 1 présente un composant utilisable pour
+résoudre ce probléme. Préciser :
+
+|e type de joint propose ;
+o son principe de fonctionnement ;
+o son domaine d’application.
+
+¢- Proposer deux autres solutions envisageable pour résoudre ce méme probléme en
+précisant leur nom, en en tragant un croquis descriptif clair briévement commenté.
+
+Q13 - inscrire vos réponses dans je cadre R13 de la notice justificative 3/3. Les réponses
+seront éventuellement illustrées de croquis simples, mais clairs.
+
+a- Enoncer les principaux principes mis en ceuvre pour la réalisation d'une étanchéité
+statique.
+
+b- Proposer au moins une solution d'application de chacun des principes proposés en
+Q13 a.
+
+C.2.4- Etude de fabrication d’une piéce.
+
+En amont de la présente étude, l'adoption d’une disposition architecturale différente de celle
+proposée plus haut avait été envisagée. Elle avait conduit, en particulier, a la conception d'un
+flasque défini par le document fourni intitulé « Flasque de pompe » et évidemment inadapté
+4 la présente étude. C’est sur cette piéce, cependant relative au méme théme, que va porter
+l'étude de fabrication. Dans le cadre d'une étude de faisabilité, il a été décidé de réaliser en
+alliage léger d’aluminium une dizaine de prototypes de ce flasque dont le brut est obtenu par
+moulage en moute non permanent a modéle permanent.
+
+Q14 - Inscrire votre réponse dans le cadre R14 de la notice justificative 3/3.
+
+Justifier bridvement le choix de ce procédé de réalisation.
+
+Q15 - Inscrire votre réponse dans fe cadre R15 de fa notice justificative 3/3.
+
+Proposer une nuance dialliage léger d’aluminium appropriée. Elle sera désignée en
+tespectant la désignation symbolique définie dans l'euronorme en vigueur.
+
+Q16 - inscrire vos réponses dans le cadre R16 de ja notice justificative 3/3.
+
+dustifier le choix d'une direction de moulage correspondant a la direction de I'axe général
+de la piece.
+
+Q17 - inscrire votre réponse dans le cadre R17 de la notice justificative 3/3.
+Choisir le sens de moulage le plus favorable pour un recours minimal au noyautage.
+
+13 Tournez la page S.V.P.
+
+
+
+===== page 14 =====
+[OCR] Q18 - inscrire vos réponses dans le cadre R18 de la notice justificative 3/3.
+
+Etude de moulage. Definir directement sur le dessin préimprimé dans fe cadre de
+réponse R18 :
+
+— le tracé en traits forts des formes de la piéce brute ;
+
+— le plan de joint ;
+
+— les éventuels noyaux et leurs portées.
+Il sera adopté une surépaisseur d’usinage de 1,5 mm.
+
+Lutilisation de couleurs différentes est permise si fe code en est explicité.
+
+Q19 - Inscrire votre réponse dans fe cadre R18 de Ia notice justificative 3/3.
+
+Sur le tracé précédent, représenter de fagon simplifiée les formes, position et dimensions
+approximatives du systéme de remplissage.
+
+N.B. Il n'est demandé aucune étude quantitative du remplissage.
+L’étude du systeme de masselottage n'est pas demandée.
+
+C.3 - Dessin d’étude de construction mécanique.
+
+C.3.1 - Présentation des supports du travail.
+
+Pour cette partie de /étude, it vous est demandé de definir plusieurs sous-ensembles du
+mécanisme sur les deux calques foumis avec le sujet. Les éléments pré imprimés sur ces
+calques sont destinés a faciliter la mise en place de ces sous-ensembles.
+
+Le calque 4 (format A3 vertical) est destine a étude de la région de la pompe
+proprement dite et de son moteur d’entrainement, également définie comme sous-ensemble
+des « niveau inférieur » et « niveau intermédiaire » (voir paragraphe B.2, page 6 du cahier de
+texte et figure 5, page 19 du cahier de figures). Les éléments fournis pré imprimés sont
+définis essentiellement en vue de face coupe, et accessoirement en vue de dessus partielle
+{comme Tindique le croquis de mise en page ci-aprés). Plus précisément, le candidat
+trouvera sur ce calque 1, en vue de face coupe, l'axe vertical de rotation du moteur et du rouet
+de la pompe, le niveau du fond de puisard (0), une Teprésentation partielle du socle formant
+volute de la pompe (1) et du couvercle de volute (2), ainsi qu'une représentation partielle du
+rouet ; il trouvera en vue de dessus trés partielle, la représentation du contour de ouverture
+permettant I'écoulement de l'eau pompée a travers le couvercle de volute (2).
+
+Le calque 2 (format A3 horizontal) est destiné a l'étude de la région haute du groupe
+motopompe, définie comme « niveau supérieur » au paragraphe B.2, page 6 du cahier de
+texte et sur la figure 5, page 19 du cahier de figures. Les éléments fournis pré imprimés sont
+définis respectivement en vue de face et en vue de gauche (voir cl-aprés le croquis de mise
+en page). Plus précisément, le candidat trouvera sur ce calque 2, en vue de face, l'axe vertical
+de rotation du groupe motopompe, les deux faces planes (26-3) et (26-4) de fa came (286), ainsi
+que le contacteur : corps (21), tige de poussoir (23) et galet (25) (voir figures 6 et 7, pages 20
+et 21 du cahier de figures). En vue de gauche, le candidat retrouvera l'axe vertical de rotation
+du groupe motopompe, le contacteur et I'axe horizontal (A) doscitlation du levier de
+commande (28) (voir figure 5, page 19 du cahier de figures).
+
+C.3.2 - Choix constructifs retenus.
+
+= Le moteur électrique a été choisi. Une représentation simplifiée a échelle 1:1, en coupe
+par un plan diamétral, est fournie sur le document intitulé « Moteur 6lectrique ». Ce
+document, imprimé sur feuille simple, est destiné & étre glissé sous le calque1, 4
+emplacement approprié en fonction des choix constructifs qui seront réalisés, afin de
+
+14
+
+
+===== page 15 =====
+[OCR] Vue de face
+
+i
+i
+' Vue de face Vue de gauche
+! i !
+Pattee bn ®
+T i
+i i
+——$——— i [|
+dy
+Vue de dessus i i
+| ! !
+Calque 1 Calque 2
+
+Croquis de mise en page des calques pré imprimés fournis.
+
+permettre un report rapide de ses éléments les plus importants pour la conception des
+piéces proches : la carcasse (6) et le rotor (4). La carcasse (6) du moteur est réalisée en
+téle d’acier laminée a froid et formée. Son état de surface extérieur correspond
+approximativement 4 R, = 3,2 um. L’arbre du rotor (4), réalisé en acier mi-dur, n'est pas
+complétement défini. La mise en place de formes remplissant les diverses fonctions
+techniques attendues incombe au candidat.
+
+Les roulements de guidage de |'arbre du rotor (4) par rapport aux flasques (7) et (8),
+conformément au schéma cinématique architectural de la figure 5, page 19 du cahier de
+figures, ont leurs principales dimensions définies au paragraphe C.2.2.2., page 12.
+
+Les formes de Ia liaison du rouet (3) sur l'arbre du rotor ne sont pas précisées et leur
+définition incombe au candidat.
+
+Le composant d’étanchéité a utiliser 4 la sortie de l'arbre du rotor (4) sous le flasque (7) est
+défini par le document « Annexe 1». Plusieurs dimensions sont proposées ; le candidats
+retiendra celle iui convenant au mieux compte tenu de ses autres choix de conception.
+
+Le schéma cinématique finalement retenu pour le mécanisme de commande est
+légérement différent de celui représenté sur les figures 6, page 20 et 7, page 21. Le
+schéma adopté est défini par la figure 14, page 28. La seule différence affecte la structure
+du levier et son guidage : au lieu de presenter un moyeu oscillant autour d’un axe fixe (27),
+le levier est directement solidarisé d'un arbre (35) qui aura un mouvement de rotation
+oscillant par rapport au carter (10), mais toujours autour de l'axe (A).
+
+Le schéma de la came (26) est globalement inchangé, si ce n’est qu’au lieu de toumer
+autour d’un axe fixe (27), elle tourme maintenant autour de I'arbre (35).
+
+Les dimensions principales, en particulier celles concernant la came (26) et les butées.
+diverses, sont définies sur la figure 13, page 27.
+
+Pour assurer de bonnes conditions de fonctionnement en toutes situations (au sec ou en
+immersion), le guidage de cet arbre (35) sera réalisé par coussinets lisses, du type de ceux
+définis par le document « Annexe 2 ».
+
+15 Tournez ja page S.V.P.
+
+
+
+===== page 16 =====
+[OCR] «= Le contacteur est fixe « au bati » par l'intermédiaire de la forme cylindrique filetée 4 pas fin
+de diamétre 12 mm (dont lintérieur réalise le guidage en translation de la tige (23)), et a
+l'aide de deux écrous hexagonaux bas.
+
+3.3 - Travail demandé.
+@ Surlecalque 1:
+
+En utilisant au mieux les éléments fournis sur ce calque, il est demandé de dessiner, sur la vue
+de face dont le tracé est amorcé en coupe, ainsi que sur les vues locales complémentaires
+jugées utiles, extérieures ou en coupe, vos propositions de solutions pour la définition :
+
+> des formes manquantes du socle (1) ;
+des formes manquantes du couvercle de volute (2);
+de l'ensemble des formes du flasque inférieur (7) ;
+
+¥
+>
+> de l'ensemble des formes du corps de motopompe (9) ;
+» de l'ensemble des formes du flasque supérieur (8) ;
+
+>
+
+des formes partielles du carter (10) du mécanisme de commande, dont la représentation
+sera interrompue juste au-dessus de sa laison avec les piéces inférieures ;
+
+> des liaisons des piéces précédentes entre elles et avec la carcasse (6) du moteur ;
+» du guidage du rotor (4) du moteur ;
+
+> de Fétanchéité a la sortie de l'arbre du moteur ;
+
+> de la laison du rovet (3) sur arbre du moteur.
+
+@ Sur le calque 2:
+
+La configuration représentée sera celle définie par la figure 10, page 24: premiére mise en
+contact de la came (26) avec le galet (25).
+
+En utilisant au mieux les éléments foumis sur ce calque, il est demandé de dessiner, sur les
+deux vues dont le tracé est amorcé, ainsi que sur les vues locales complémentaires jugées
+utiles, extérieures ou en coupe, vos propositions de solutions pour la définition
+
+> des formes du levier (28), dont la représentation sera interrompue, limitée @ environ 80 mm
+(ce qui fait que la représentation du flotteur et de sa liaison au levier nest pas demandée) ;
+
+> du guidage en rotation de ce levier (28) ;
+
+> de la came (26), de son guidage en rotation et de ses butées diverses par rapport au
+carter (10) ou par rapport au levier (28) ;
+
+> des formes du carter (10) de mécanisme de commande (le dessin du calque 2 reprendra les
+formes définies sur le calque 1 pour la partie inférieure de ce carter) ;
+
+> de la liaison du corps de contacteur (21) avec le carter (10).
+
+@ Sur les deux calques :
+
+Les coupes, les positions de plans de coupes et les directions particuliéres d’observation seront
+clairement repérées en respectant les normes AFNOR en vigueur.
+
+Les principales conditions fonctionnelles relatives aux liaisons représentées seront clairement
+indiquées en respectant les régles normalisées AFNOR.
+
+16
+
+
+===== page 17 =====
+[OCR] B64S
+
+disque du rouet
+
+moyeu central
+
+un des 6 aubages
+
+Figure 2 - Forme de !a face active d'un rouet a 6 aubages.
+
+Figure 3 - intérieur de Ia volute de la pompe de fa figure 1.
+Fléches blanches : parcours de l'eau,
+
+17
+
+Tournez ia page S.V.P.
+
+
+
+===== page 18 =====
+[OCR] Figure 4 - Rofation du rouet par rapport a la volute de la pompe de /a figure 1.
+Fléche grise : sens ‘introduction du rouet dans fa volute (retournement).
+Fléches blanches : sens de rotation relative du rouet par rapport a la volute.
+
+18
+
+
+===== page 19 =====
+[OCR] p Niveau
+supérieur
+
+Niveau
+inter-
+médiaire
+
+={
+
+=e
+aa
+
+Onn] Niveau
+E , 7 | A © inférieur
+CS ———— T 7 100
+O L a _I Vv
+CA, Ve,
+Figure 5 - Architecture générale du groupe motopompe.
+Légende:
+Repére | Désignation .:--": 2] Repére | Désignation =< ~ :
+Q Fond du puisard 9 Corps de motopompe
+1 Socle, volute de la pompe 10 Carter du mécanisme de commande
+2 Couvercle de volute ail Dispositif de manutention
+3 Rouet de la pompe is Orifice d’entrée d’eau dans le socle
+4 Rotor du moteur s Orifice de sortie d’eau
+5 Stator du moteur A |Axe oscillation du ievier de
+6 __|Carcasse du moteur commande
+7 ___|Flasque inférieur B_- |Volute ou collecteur
+8 Flasque supérieur c Ceinture d'eau
+19 Tournez Ja page S.V.P.
+
+
+
+===== page 20 =====
+[OCR] Niveau oe BO
+
+8)
+88
+|
+|_@
+
+—
+
+Figure 6 - Schéma cinématique minimal du mécanisme de commande.
+
+Légende:
+Repére | Désignation <3... | Désignation
+10 Carter du mécanisme de 26-3 | Rampes de la came 26
+commande 26-4
+21 Corps de contacteur 27 Axe de guidage
+22 | Partie électrique du contacteur 28 Levier
+23 | Tige de contacteur 29 Fiotteur
+24 __| Ressort de contacteur 31 Butée basse de rotation du levier
+25 | Galet de contacteur 32 Butée haute de rotation du levier
+26 {Came : 33 Butée de rotation de came
+26-1 | Contacts possibies du levier 34 Butée de rotation de came
+26-2 | 28 sur la came 26
+
+20
+
+
+
+===== page 21 =====
+[OCR] Direction verticale
+
+Niveau d’eau
+
+Direction horizontale
+
+Figure 7 - Schéma cinématique minimal du mécanisme de commande, en vue projetée.
+(pour fa légende, se reporter a la figure 6, page 20)
+
+241
+
+Tournez la page S.V.P.
+
+
+
+===== page 22 =====
+[OCR] F(N) *
+
+60 t
+40 H
+‘
+‘ 8 (mm)
+0 i >
+0 3,4 45
+
+Figure 8 - Courbe caractéristique mécanique du contacteur : effort axial F sur fa tige (23) en
+fonction de l'enfoncement 6 de celle-ci (5 est visible sur la figure 11, page 25).
+
+22
+
+
+===== page 23 =====
+[OCR] Niveau de l'eau éventuelle
+
+A
+
+Figure 9 - Situation d’attente de la motopompe.
+
+23 Tournez fa page S.V.P.
+
+
+
+===== page 24 =====
+[OCR] Niveau de Peau
+
+Y
+ay SF
+26 er ee _
+S
+\
+25 ~
+
+Figure 10 - Situation de premiére mise en contact de la came (26) avec le galet (25).
+
+24
+
+
+
+===== page 25 =====
+[OCR] Figure 11 - Situation d’enfoncement maximal de fa tige du contacteur.
+
+25 Tournez Ia page S.V.P.
+
+
+
+===== page 26 =====
+[OCR] Flotteur
+
+Figure 12 - Variante de conception du levier (28) : centre d’inertie du flotteur excentré par
+rapport a fa ligne moyenne de la tige.
+
+26
+
+
+===== page 27 =====
+[OCR] Figure 13 - Dimensions remarquables du mécanisme de commande
+(came (26) et butées diverses).
+
+27 Tournez ja page S.V.P.
+
+
+
+===== page 28 =====
+[OCR] Figure 14 - Schéma cinématique modifié du mécanisme de commande.
+
+28
+
+
+
+===== page 29 =====
+[OCR] BS4S
+
+ANNEXE 1
+
+Composants d’étanchéité
+
+Partie tournante, Partie fixe
+C été sous pression
+le L3 Ry 14
+Acier inoxydable Acier inoxydable
+t—-Alumine 96%
+Nitrile
+INifrite
+-hespospe - -—-o+- -
+Bl 3B =
+Se 6 5
+Rondelle Graphite ©
+élastique imprégné
+de résine
+——__¥
+
+Extrait du tableau de dimensions disponibles (en millimétres) =
+
+ca few ee Poe Pe
+10 20 12 21 6
+42 22 14 23 6
+14 24 15 25 6
+16 26 15,5 27 6
+18 32 16 33 6
+
+(1) La tolérance sur ies valeurs de ceite dimension est [0 ; +1 mm].
+
+-0-0-0-0-0-0-0-
+
+1/1
+
+
+
+===== page 30 =====
+[OCR] ANNEXE 2
+
+Coussinets lisses
+
+iglidur® H - paliers cylindriques, mm
+
+Gotes selon DIN 1494 et cotes spéciates
+
+=
+
+3
+
+{
+5
+|< rs
+Ch
+
+be— by
+
+$205 —wo, S10
+1=08 —w 10d, 320
+fo 12—ma,>32
+
+HSM-0304-03 5.0 +0008+0.949 4.5 9.0
+HSM-0405-06" 4.0 001040058 5.54.0
+HSM-0507-05 5.0 -ooios0.088 7.0 5.0
+HSM-0608-06 6.0 —ooinso0% 80 6.0
+HSM-0610-08 8.0 ~v02540.0#3 10.0 6.0
+HSM-0810-10 8.0 -ociasc071 10.0 10.0
+HSM-1012-10 10.0 -octs.0071 120 100
+HSM-1214-10 12.0 0.016 40.056 14.0 10.0
+HSM-1214-15 12.0 +0016+0055 14,0 15.6
+HSM-1214-20 12.0 +0.01610035 14.0 20¢
+Hi6m-1416-20 0916 0.088 16.0 200
+HSM-1517-15 qonie088 17.0 16.0
+HEM-1616-16 yone-cos 18.0 16.0
+HSM-1618-20 16.0 +0.018+c058 18.0 20.0
+HSM-1618-25 16.0 +0.018+¢088 18.0 26.0
+HSM-1820-15 18.0 00%+0088 20.0 150
+HSM-1820-25 “8.0 so.0181c085 20.0 25.9
+HSM-2023-20 20.0 0.200104 230 200
+HSM-2226-20 22.0 com ra108 25.0 20.9
+HSM-2528-20 25.0 1002040104 28.0 20.0
+Hisi4-3034-20 30.0 100ms0100 34.0200
+HSM-3024-30 30.0 +0.0%0+0104 34.0 30.0
+HSM-3034-40 30.0 -pow+2.104 34.0 40.0
+HSM-2539-40 35.0 vooes +0125 30.0 40.9
+HSM-4044-20 40.0 Jonesvo12s 440 20.0
+HSM=4044-50 40.0 +002540125 44.0 50.0
+HSM-1550-30 45.0 002540125 50.0 __ 30.0
+HSM-5055-40 50.0 -oussi 650 400
+HSM-5560-26 55.0 000.0180 60.0 26.0
+HSM-6065-60 60.0 0020-0150 65.0 60.
+
+HSM-7075-50 70.0 0090-0150 7C.0 50.0
+
+Constitution de la rétérence:
+
+‘andigztions en rem)
+
+HSM- | “4 : i
+di d2 bt
+dimension métrique
+
+forme
+matérlau
+
+112
+
+
+
+===== page 31 =====
+[OCR] iglidur* H - paliers a collerette, mm
+
+v5 — TS Constitution de ta référence:
+& fodicatone on x)
+3 : 4 1 eye
+rb} | dtd? bt
+08—e a, 510 mension métrique
+Fa Ga» 10<d, <90 forme
+te12—e a> 22 matériau
+
+Gotes selon DIN 1494 et cotes spéciales
+
+HFM~0405-04 46-0010 10.058 6.5 95 £0
+HFM-0507-05 5.00010 s00s8 70 i110 50
+HEM-0507-08 _ 5.0 10.010 40.058 70 10 80
+HHFM-0608-06 6.0 +0010 40.088 a0 120 60
+HFM-0810-10 80 40.013 40.071 10.0 16.0 10.0
+HFM-0810-15 80 -001g.c071 "10.0 15.0 15.0
+HEM-1072-09 16.0 soto +cort 0. 180 9.0
+HEM-1012-20 10.0 sostsecort 12.0 18.9 20.8
+AFM-1214-07 120 -omexsoes 140 200 7.C
+HFM-1214-10 12.0 40.016 +2.088 140 © 20.0 © 10.0
+HFM-1214-15 120 some ences 14.020. 18.0
+HFM-1416-12 14.9 20.316 49.085. 16.0 22.0 12.0
+HEM-1517-17 15.0 oneenoas 170 23.0 47.0.
+HFW-1618-17 76.0 +0916 +086 180 240 17-0
+HFM-1820-17 78.0 somessose 20.0 260 17.0
+HFM-2023-16 200 soi 230 S00 165
+HEM-2023-30 20.0 sonzoso1e = 23.0 80.0 80.0
+HFM-2528-30 25.0 280 35.0 80.0
+HFM-2730-20 27.0 2002010101 30,0 38.0 20.0
+HFM-9034-40 30.0 spe2+b108 34.0 42.0 AC.
+HFM-3436-13 $4.0 eoous01% 98.0 46.0 —*18.0
+HFM-3599-26 35.0 soos -o128 09.0
+
+HFM-4044-40 40.0 78.025 40.125 44.0 52.0 5
+
+HFM-5055-50 50.0 soos 0125 55.0 63.0 80.0
+HFM-6065-50 65.0 snoscwwis 65.0. 73.0 50.9
+HFM-7075-50 70.0 sooosci 750 830 50.0
+
+212
+
+
+
+===== page 32 =====
+[OCR] | B54s
+
+ff
+
+MOTEUR ELECTRIQUE
+
+Vue en coupe diaméhale simplifiée
+Echelle 1:1
+
+
+
+===== page 33 =====
+[OCR] po
+
+3.5
+
+12
+
+call
+
+14
+
+18 mini
+
+</
+
+G25 H9
+
+@124Hu1
+
+Esc
+iw)
+
+
+
+===== page 34 =====
+[OCR] R1 Efforts sur le galet (25).
+
+
+
+===== page 35 =====
+[OCR] R3
+
+Décollement du contact (26-1) et mise en butée de la came sur (34).
+
+Cadre pour fa partie
+rédactionnelle de fa réponse
+
+t
+
+
+
+===== page 36 =====
+[OCR] Solicitations dans ta tige (28) du levier,
+
+LE = 260
+
+
+
+===== page 37 =====
+[OCR] Famitie :
+
+Constituants et teneurs :
+
+R7 Matériau proposé.
+
+Principaux constituants
+
+Teneurs
+
+R8
+
+Durée de vie probable du roulement soumis a la charge axiale.
+
+
+
+===== page 38 =====
+[OCR] R13 Etanchéité statique.
+
+a) Principaux principes d'action
+
+b) Solutions appliquant les principes énonoés ci-dessus :
+
+
+
+===== page 39 =====
+[OCR] RI
+
+
+
+===== page 40 =====
+[OCR] 
+
+===== page 41 =====
+[OCR] 

@@ -1,0 +1,295 @@
+{
+ "concours": "Banque PT",
+ "filiere": "SIB",
+ "date": "2003",
+ "file": "BPT_SIB_2003.pdf",
+ "status": 200,
+ "source": "banquept.fr, rubrique « Annales d'annales » (rubrique23.html)",
+ "epreuve_originale": "Sciences Industrielles II",
+ "classification": "automatique par mots-clés (Claude, oct. 2026) — moins fine que celle des sujets récents",
+ "decoupage_questions": "Qn",
+ "texte_ocr": true,
+ "pages_sujet": 41,
+ "pages_total": 41,
+ "data": {
+  "parties": [
+   {
+    "titre_partie": "C - Etude de conception en construction mécanique",
+    "questions": [
+     {
+      "numero": "Q1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 10,
+      "tags": [],
+      "texte": "Q1 — Inscrire votre réponse dans fe cadre R1 de ia notice 13. Sur la figure fournie dans le cadre R1, déterminer graphiquement les efforts exercés sur le galet (25). Préciser fe ou les systéme(s) isolé(s) ; renforcer leur tracé sur la figure foumie ; 'usage de couleurs est possible ; mettre en place les actions en les identifiant clairement et en respectant l'échelle 1 N représenté par 10 mm ; déterminer les valeurs obtenues."
+     },
+     {
+      "numero": "Q2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 10,
+      "tags": [],
+      "texte": "Q2 — inscrire votre réponse dans le cadre R2 de fa notice 1/3, Déduire de la réponse a la question précédente leffort que l'eau doit exercer sur le flotteur (29). Le candidat pourra porter des indications sur la figure fournie dans le cadre R2, et exprimera sa réponse et ses justifications sous la figure."
+     },
+     {
+      "numero": "Q3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 10,
+      "tags": [],
+      "texte": "Q3 — Inscrire votre réponse dans le cadre R3 de Ia notice 1/3. La figure tracée dans ce cadre représente la situation de levée maximale du levier et du flotteur. Justifier mécaniquement le décollement du contact (26-1) et la mise en butée de la came (26) sur (34). Le candidat pourra porter des indications sur la figure fournie dans le cadre R3, et exprimera sa réponse et ses justifications sous la figure. €.2.1.2— Compréhension du fonctionnement du mécanisme."
+     },
+     {
+      "numero": "Q4",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Matériaux : Propriétés physiques et mécaniques",
+        "semestre": "S3"
+       }
+      ],
+      "page": 10,
+      "tags": [],
+      "texte": "Q4 = Inscrire votre réponse dans le cadre R4 de fa notice 1/3. 10 Expliquer le fonctionnement du systéme lors de la descente du niveau de l'eau. Le candidat rédigera sa réponse dans le cadre réservé a cet usage ; il tracera 4 main levée une ou des figures explicatives dans l'espace réservé a cet usage ; mais l'espace réservé aux tracés ne pourra en aucun cas étre utilisé pour une rédaction (elle ne serait pas prise en compte pour l’évaluation). Quelle analogie avec un phénoméne physique ce systéme mécanique vous suggére-t-il ? C.2.1.3- Etude de résistance des matériaux. Données : = fa tige du levier est toujours supposée réalisée en polymere, rectiligne a section constante ciculaire creuse, de diamétre externe D, et d’épaisseur e ; = on admettra que le polymére technique utilisé a un comportement d’allure analogue a celui d'un acier (existence d'un domaine d’élasticité quasi linéaire), méme si le module d’élasticité linéaire et la limite d’élasticité sont de valeurs plus faibles ; = dans une variante de réalisation par rapport aux hypothéses du paragraphe C.2.1.1, le flatteur est supposé avoir son centre dinertie Ge excentré de ar par rapport a la ligne moyenne de la tige selon la "
+     },
+     {
+      "numero": "Q5",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       }
+      ],
+      "page": 11,
+      "tags": [],
+      "texte": "Q5 -— Inscrire votre réponse dans le cadre R5 de la notice 2/3. a- Exprimer litteralement l'effort exercé par l'eau sur le flotteur. b+ Analyser littéralement 'évolution des solicitations le long de la tige du levier. Préciser littéralement les points remarquables. Le candidat complétera ia figure fournie et utilisera les espaces offerts respectivement pour tracer les graphes représentant Tévolution de ces sollicitations le long de ta tige et pour rédiger ses éléments de réponses."
+     },
+     {
+      "numero": "Q6",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       }
+      ],
+      "page": 11,
+      "tags": [
+       "roulements",
+       "étanchéité",
+       "lubrification",
+       "hydraulique"
+      ],
+      "texte": "Q6 — Inserire votre réponse dans le cadre R6 de Ia notice 2/3. Pour chacune des sollicitations exprimées précédemment, représenter la répartition dans une section droite et donner l'expression des contraintes associées. Le candidat utilisera les espaces offerts respectivement pour tracer les figures demandées et pour rédiger ses éléments de réponses. €.2.2— Recherche de solutions techniques. C.2.2.1- Matériau du corps de pompe. QT - inscrire vos réponses dans fe cadre R7 de ia notice justificative 2/3. Pour diverses raisons, il est envisagé de réaliser le corps de pompe, encore dit « volute », dans un matériau désigné par GX 6 Cr NiMo 13-4. 11 Tournez ia page S.V.P. a- Aquelle famille ce matériau appartient-il ? b- Quels sont ses principaux constituants et leur teneur 7 C.2.2.2-— Guidage du rotor du moteur. Hypotheses pour les questions 08 4 Q11: il a 6té choisi de guider le rotor du moteur électrique par deux roulements a une rangée de billes 4 contact radial, étanches et lubrifiés 4 la graisse a vie ; leur distance entre centres respectits sera estimée a L = 120 mm ; = les caractéristiques de ces roulements sont : d=15mm; D=32mm; B=9mm; Co= 3000 N; C=6000N; — Nmax= 14 000 tr.min™"
+     },
+     {
+      "numero": "Q8",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 12,
+      "tags": [
+       "roulements"
+      ],
+      "texte": "Q8 - inscrire vos réponses dans fe cadre R8 de fa notice justificative 2/3. Evaluer approximativement la durée de vie probable du roulement soumis a la charge axiale."
+     },
+     {
+      "numero": "Q9",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 12,
+      "tags": [
+       "roulements"
+      ],
+      "texte": "Q9 - inscrire vos réponses dans le cadre R9 de fa notice justificative 2/3. Choisir les tolérances des portées des deux roulements, sur l'arbre et dans leur logement."
+     },
+     {
+      "numero": "Q10",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 12,
+      "tags": [
+       "roulements"
+      ],
+      "texte": "Q10 - iscrire vos réponses dans le cadre R10 de la notice justificative 2/3. Tracer un schéma technologique de ce guidage, sur lequel seront schématisés l'arbre guidé, les deux roulements et leurs immobilisations axiales."
+     },
+     {
+      "numero": "Q11",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 12,
+      "tags": [
+       "étanchéité"
+      ],
+      "texte": "Q11 - Inscrire vos réponses dans le cadre R11 de la notice justificative 2/3. dustifier briévement le choix des arréts axiaux. 12 C.2.2.3-— Dispositifs d’étanchéite."
+     },
+     {
+      "numero": "Q12",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 13,
+      "tags": [
+       "étanchéité",
+       "hydraulique",
+       "dessin / conception sur calque"
+      ],
+      "texte": "Q12 - inscrire vos réponses dans le cadre R12 de ia notice justificative 2/3. a- Rédiger briévement les principaux éléments du cahier des charges du dispositif d'étanchéité a prévoir a la sortie d'arbre entre moteur et pompe : o é6noncé des principaux critéres de choix (paramétres déterminants) ; o &noncé des niveaux (valeurs a considérer). b- La documentation fournie en annexe 1 présente un composant utilisable pour résoudre ce probléme. Préciser : |e type de joint propose ; o son principe de fonctionnement ; o son domaine d’application. ¢- Proposer deux autres solutions envisageable pour résoudre ce méme probléme en précisant leur nom, en en tragant un croquis descriptif clair briévement commenté."
+     },
+     {
+      "numero": "Q13",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       }
+      ],
+      "page": 13,
+      "tags": [
+       "étanchéité",
+       "dessin / conception sur calque"
+      ],
+      "texte": "Q13 - inscrire vos réponses dans je cadre R13 de la notice justificative 3/3. Les réponses seront éventuellement illustrées de croquis simples, mais clairs. a- Enoncer les principaux principes mis en ceuvre pour la réalisation d'une étanchéité statique. b- Proposer au moins une solution d'application de chacun des principes proposés en"
+     },
+     {
+      "numero": "Q14",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 13,
+      "tags": [],
+      "texte": "Q14 - Inscrire votre réponse dans le cadre R14 de la notice justificative 3/3. Justifier bridvement le choix de ce procédé de réalisation."
+     },
+     {
+      "numero": "Q15",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Matériaux : Propriétés physiques et mécaniques",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Matériaux : Choix",
+        "semestre": "S3"
+       }
+      ],
+      "page": 13,
+      "tags": [],
+      "texte": "Q15 - Inscrire votre réponse dans fe cadre R15 de fa notice justificative 3/3. Proposer une nuance dialliage léger d’aluminium appropriée. Elle sera désignée en tespectant la désignation symbolique définie dans l'euronorme en vigueur."
+     },
+     {
+      "numero": "Q16",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
+        "semestre": "S3"
+       }
+      ],
+      "page": 13,
+      "tags": [
+       "fonderie / moulage"
+      ],
+      "texte": "Q16 - inscrire vos réponses dans le cadre R16 de ja notice justificative 3/3. dustifier le choix d'une direction de moulage correspondant a la direction de I'axe général de la piece."
+     },
+     {
+      "numero": "Q17",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
+        "semestre": "S3"
+       }
+      ],
+      "page": 13,
+      "tags": [
+       "fonderie / moulage",
+       "usinage"
+      ],
+      "texte": "Q17 - inscrire votre réponse dans le cadre R17 de la notice justificative 3/3. Choisir le sens de moulage le plus favorable pour un recours minimal au noyautage. 13 Tournez la page S.V.P. Q18 - inscrire vos réponses dans le cadre R18 de la notice justificative 3/3. Etude de moulage. Definir directement sur le dessin préimprimé dans fe cadre de réponse R18 : — le tracé en traits forts des formes de la piéce brute ; — le plan de joint ; — les éventuels noyaux et leurs portées. Il sera adopté une surépaisseur d’usinage de 1,5 mm. Lutilisation de couleurs différentes est permise si fe code en est explicité."
+     },
+     {
+      "numero": "Q19",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 14,
+      "tags": [
+       "hydraulique",
+       "dessin / conception sur calque"
+      ],
+      "texte": "Q19 - Inscrire votre réponse dans fe cadre R18 de Ia notice justificative 3/3. Sur le tracé précédent, représenter de fagon simplifiée les formes, position et dimensions approximatives du systéme de remplissage. N.B. Il n'est demandé aucune étude quantitative du remplissage. L’étude du systeme de masselottage n'est pas demandée. C.3 - Dessin d’étude de construction mécanique. C.3.1 - Présentation des supports du travail. Pour cette partie de /étude, it vous est demandé de definir plusieurs sous-ensembles du mécanisme sur les deux calques foumis avec le sujet. Les éléments pré imprimés sur ces calques sont destinés a faciliter la mise en place de ces sous-ensembles. Le calque 4 (format A3 vertical) est destine a étude de la région de la pompe proprement dite et de son moteur d’entrainement, également définie comme sous-ensemble des « niveau inférieur » et « niveau intermédiaire » (voir paragraphe B.2, page 6 du cahier de texte et figure 5, page 19 du cahier de figures). Les éléments fournis pré imprimés sont définis essentiellement en vue de face coupe, et accessoirement en vue de dessus partielle {comme Tindique le croquis de mise en page ci-aprés). Plus précisément, le candidat tr"
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,1640 @@
+
+===== page 1 =====
+[OCR] NFS4
+
+# Banque filiere PT *
+
+Epreuve de Sciences Industrielles |
+
+Durée 5h
+
+Aucun document n'est autorisé
+
+Moyen de calcul autorisé :
+
+Calculatrice de poche - y compris calculatrice programmable et alphanumérique - a
+fonctionnement autonome, non imprimante, autorisée conformément a Ia circulaire n°
+99-018 du 1% février 1999.
+
+En aucune fagon la calculatrice ne pourra posséder de données scientifiques et
+techniques propres au génie mécanique et a I'automatique.
+
+Ce document comporte trois parties :
+«une présentation du sujet : 7 pages,
+« le travail demandé (parties A, B et C) : 19 pages,
+un dossier comprenant les 2 documents réponses et les 6 annexes : 10 pages.
+
+Le candidat traitera chacune des parties (partie A, partie B et partie C) sur des copies
+séparées en indiquant sur chacune d’entre elles le numéro de Ia partie traitée.
+
+Les candidats sont invités a formuler toutes les hypothéses qu'ils jugeront nécessaires
+pour répondre aux questions posées.
+
+Tous les calculs seront systématiquement rédigés en littéral puis, sil y a lieu, en
+numérique. Les résultats seront encadrés sur la copie.
+
+Si, au cours de l’épreuve, un candidat repére ce qui lui semble étre une erreur
+d’énoncé, il le signale dans sa copie et poursuit sa composition en indiquant les raisons
+de son initiative.
+
+Tournez la page S.V.P.
+
+
+
+===== page 2 =====
+[OCR] EMPILAGE ET BROSSAGE DE PLAQUES
+NEGATIVES DE BATTERIE
+
+PRESENTATION GENERALE DE L'ETUDE
+
+1. Le produit
+
+Une batterie électrique au plomb est composée de deux électrodes, une anode et une cathode
+téalisées par des plaques de plomb. Les plaques négatives se présentent sous la forme de
+grilles alvéolées (figure 1) recouvertes d'une pate permettant d’améliorer les capacités
+électriques des batteries.
+
+<—Longueur : 260 4 660 mm —————_>
+
+‘des oreilles
+
+<— lageur __y
+105 a 180
+
+A €p.1,584 mm
+
+FIG. 1 : Schéma d'une plaque négative de batterie
+
+Caractéristiques principales des plaques
+- 8 formats de plaques différents (voir annexe 1)
+~ la masse d’une plaque varie, selon son format, de 0,5 a 3kg
+- la position des oreilles varie selon le format de plaque (voir annexe 1).
+
+2. Processus de fabrication (figure 2)
+
+pate
+Empatage 4 Cuisson - 4 Evacuation
+
+grille
+alvéolée y Z
+Empéteuse, Four tunnel, Tapis de,
+transfert
+Fonction réalisée par la machine  empiler et brosser les plaques
+ae Sans
+i Mise en
+Empilage palette
+Opérateurs 5
+
+FIG. 2 : Ligne de fabrication du produit
+
+
+===== page 3 =====
+[OCR] 3. Analyse fonctionnelle
+Diagramme des interactions fonctionnelles
+
+La machine d’empilage et de brossage permet de constituer des piles de 2 a 5 plaques puis de
+brosser les tranches de celles-ci pour éliminer I'excédent de pate. La société qui réalise ces
+produits est spécialisé¢e dans la production de batteries sur mesure (véhicules électriques,
+hybrides, onduleurs, ...). Le nombre de plaques par pile dépend de la forme géométrique et de
+la puissance désirées pour la batterie en cours de production.
+
+Une étude fonctionnelle (figure 3) a permis de dégager les fonctions principales (tableau 1) de
+la Machine A Grouper Et Brosser.
+
+FP4
+
+Pile brossée
+et constituée
+
+Empiler et brosser
+(M.A.G.E.B.)
+
+Milieu ambiant
+
+Ligne de
+fabrication
+
+d'énergies
+
+FIG. 3 : Diagramme partiel des interactions fonctionnelles de la MAGEB
+Point de vue concepteur
+
+FP1 Empiler et brosser les plaques
+
+FC1__| Ne présenter aucun risque pour l'opérateur
+FCo2 Etre conduite par l'opérateur
+
+Fc3 S'insérer dans la ligne de fabrication
+
+FC4 | S'adapter a I'énergie disponible
+
+FCS Résister a l'environnement
+
+TAB 1 : Fonctions principales et de contrainte
+
+
+===== page 4 =====
+[OCR] Cahier des charges fonctionnel (tableau 2)
+
+WES Fonctions” Se Critéres of eo Niveaux -|-Flexibilité
+FP1 0- Conditions de fonctionnement 24h/24h - 5 ans 1 (mini)
+empiler et brosser les| 1- Respecter le nombre de plaques a} de 2 45 plaques 7
+plaques empiler
+
+2- Aligner les oreilles +/-0,5 mm ce)
+3- Différents formats de plaques voir présentation du 0
+produit
+4- Vitesse tapis four 0,3 m.s* 0
+5- Ecart entre les plaques 30mm i)
+FC1
+Ne présenter aucun risque|1- En exploitation, interdire les | EN 292 1/2, 0
+pour l'opérateur contacts avec les éléments | EN 95:
+mécaniques en mouvement
+2- Dispositif d'arrét d'urgence EN 414, EN 418..... 0
+3-  Protéger contre les risques
+électrique en exploitation EN 60 204-1 i*}
+FC2 Interventions :
+Etre conduit par |'opérateur | - la mise en route ~réduite au minimum 4
+-temps de changement al
+- au changement de production mini
+-pupitre avec console a |
+- en cas de défaillance -signalisation sonore et =
+lumineuse
+FC3
+S'insérer dans la ligne de|1- Ne pas modifier l'implantation des | - Voir schéma 0
+fabrication machines existantes d'implantation existant
+2- Réaliser un bati indépendant - Stabilité et autonomie i
+3- Assurer la liaison compléte du bati| -par éléments filetés 1
+par rapport aux machines existantes
+FC4
+Etre alimenté en énergie 1- Adapter aux énergies disponibles | Réseau: Tri+N 0
+sur le site Régime de neutre: IT tt)
+Air comprimé: 0,8MPa 2
+FCS
+Résister a l'environnement |1-Protéger contre les pénétrations | -IP 55 ie)
+d'eau
+2-Résister aux vibrations extérieures _| -fonctionnement normal ce}
+3-Ambiance non perturbé
+-atelier standard T° de 0
++10 4 +35°C.
+1-Bruit -voir norme 0
+Ne pas polluer 2-Lubrification -selon norme 0
+
+TAB 2 : Cahier des charges fonctionnel
+
+
+
+===== page 5 =====
+[OCR] 4, Fonctionnement de la MAGEB actuelle
+
+Les grilles sont remplies de pate 4 base d'oxydes de plomb par une empateuse ; elles passent
+alors au travers d'un four tunnel qui séche la pate (figures 4-1 et 4-2). Les plaques sortent du
+four tunnel en continu quasiment séches (a une température d'environ 40°) avec un écart Ec
+entre chaque plaque. Un dispositif, placé entre le tapis du four et la table de réception de la
+MAGEB, permet d’accélérer les plaques et de leur donner une vitesse suffisante pour s'empiler
+lune sur l'autre. Il est constitué de deux rouleaux entrainés en sens inverse a une vitesse de
+rotation supérieure a celle du tapis de sortie four.
+
+Grilles :
+i | ban de pose
+Pate Kes plaques
+4 4 i
+Empateuse : <+—. A
+[ i Arrivée des |
+: plaques .
+
+i
+courtunne! peewee eh Ue!
+
+[rooms m.s*
+
+|
+I
+
+Ecart entre
+2 plaques :,
+Ec=30 mm:
+
+Longueur : 12m
+
+Convoyeur Four
+
+Rouleaux accélérateurs
+
+Chariot de tranfert
+
+yl Zone d’empilage
+Brosses
+
+rotatives
+
+avi
+f |[&
+
+Ves escamotable « Tapis roulant d'évacuation
+
+des piles vers les brosses
+FIG. 4-1 : Implantation de la ligne : pile constituée et chariot prét a
+transférer {a pile vers le rateau.
+Pile précédente en cours de brossage.
+
+Module de guidage
+
+
+
+===== page 6 =====
+[OCR] Un ou deux opérateurs (selon le format des plaques) récupérent chaque pile de plaques pour la
+placer sur une palette (non représentée).
+
+Grilles
+Pate | |
+td s
+Empateuse
+x I
+€
+g
+ere Four tunnel 4a
+yy 3 a
+2
+4
+Ecart entre
+2 plaques :
+Ec=30 mi
+
+Chariot de tranfert
+
+Zone d'empilage
+Brosses
+
+rotatives
+
+es
+
+Table en U 7
+descendue Rateau
+
+lescamoté Tapis roulant d'évacuation
+
+des piles vers les brosses
+
+FIG. 4-2 : Implantation de la ligne : rateau escamoté, table en U
+descendue et pile en cours d’évacuation vers les brosses.
+Retour du chariot de transfert vers la zone d’empilage.
+
+
+===== page 7 =====
+[OCR] Cycle de fonctionnement de la MAGEB actuelle (voir annexes 2 et 3)
+
+Les plaques s'empilent directement l'une sur I'autre sur la « table » de réception (table en acier).
+Lorsque le nombre de plaques empilées est atteint, il faut évacuer suffisamment vite le paquet
+constitué pour éviter que la prochaine plaque délivrée par le tapis du four n'entre en collision
+avec cette pile. La pile de plaques est entrainée par obstacles (doigts contre les «oreilles») via
+le chariot de transfert et glisse sur la table de réception jusque sur le rateau et la table en U.
+Une butée (non représentée) réglée sur la position d’arrivée des piles permet de maintenir la
+pile au-dessus de la table en U lors du retrait du rateau.
+
+Le cycle de la machine peut-étre décrit par le Grafcet de coordination des taches figure 5.
+
++_tipiaques empilées
+i)
+
+===
+
+Descendre les
+doigts
+doigts en position basse
+
+(0,05T)| 1
+
+1-3
+
+Tirerla pile
+047 | 3 71 cote rateau
+
+pile de plaques au dessus
+de la table en U et du rateau
+
+Escamoter
+
+(0.057) | 2 Fy ies doigts ba
+doigts escamotés
+—S ——_
+[Ramener chariot
+04 Herts four sn s  ieeu”
+Chariot dans la zone rateau reculé
+dempilage et prét 2
+
+prendre une nouvelle pile (0,057) | 7 [4 Descendrela | rabieenu
+le sur le tapis|
+
+pile sur le tapis d'évacuation
+
+Sortir le Evacuer la pile
+037| 6 tateau 9 Fivers les brosses|
+rateau sorti pile évacuée
+Remonter la
+(0,057)| 8 table en U
+
+table en U en position haute}
+
+FIG. 5 : Grafcet de coordination des taches de la MAGEB
+
+
+
+===== page 8 =====
+[OCR] PROJET DE MODIFICATION DE LA MAGEB
+
+Uentreprise envisage d'automatiser l'empilage et le brossage d'une deuxiéme ligne de
+fabrication. Le changement de cadence (vitesse de sortie des plaques du four triplée) ainsi que
+la prise en compte de nouveaux formats de plaques nécessite de revoir les solutions
+technologiques existantes.
+
+L’étude porte principalement sur le chariot de transfert des piles de plaques. La solution
+existante (vérin pneumatique pour le chariot de transfert et vérins sans tige pneumatiques pour
+les doigts) est remise en cause pour deux raisons :
+-les cadences d'arrivée des plaques sont plus grandes (vitesse triplée et nombre de
+formats de plaques différentes plus grand)
+- le nombre de types de plaques est trop important pour envisager un changement des
+jeux de doigts 4 chaque nouvelle fabrication.
+
+Le principe et l'agencement des autres fonctions ne sont pas étudiés ici.
+
+Une pré-étude a permis de concevoir la fonction : Saisir la pile. La solution retenue évolue de la
+maniére suivante:
+
+Un jeu de doigts articulés (liaison pivot) actionnés par deux vérins @ 32 de course
+40mm _ permet d'assurer les fonctions ENTRAINEMENT PAR OBSTACLE et
+DEGAGEMENT (figure 6).
+
+Réglage possible de la position des supports de doigt par un systéme
+"lardons + rainures” - Blocage par serrage rapide
+
+— 7
+BH 1
+
+f vérin D=32, C=40
+
+ie} ie) Doigt en
+
+ce! L_ position basse
+
+@)
+
+ot _
+
+ee Systéme de guidage
+Table de réception Pile de plaques + transmission de puissance
+
+FIG. 6 : Principe de !a solution retenue
+
+La solution retenue permet d'obtenir un temps de déplacement des doigts beaucoup plus court
+que pour la solution vérins linéaires (course vérin plus petite) : la course de dégagement des
+doigts est indépendante du type de plaque.
+
+La fonction Réglage de I'écartement des doigts est assurée par déplacement de chaque
+sous-ensemble (doigt + actionneur) sur le chariot de translation (figure 6).
+
+
+===== page 9 =====
+[OCR] Partie A : CALCULS DE PREDETERMINATION
+
+Dans la configuration actuelle de la machine, le chariot de transfert des piles de plaques et le
+rateau escamotable sont mis en mouvement par des vérins pneumatiques. L’augmentation des
+cadences nécessite la remise en cause de ces actionneurs. || faut vérifier si les performances
+nouvelles exigées peuvent encore étre réalisées par une solution pneumatique.
+
+Dans un premier temps, nous allons étudier la coordination des taches et déterminer les
+séquences pouvant étre réalisées en paralléle (temps masque).
+
+A1 - ETUDE DU GRAFCET DE COORDINATION DES TACHES
+
+Question A1.1:
+a- Tracer sur le document réponse A1-R, pour une durée correspondant a4 3 cycles, le
+chronogramme (diagramme de Gantt) qui caractérise la coordination des taches exécutées
+par le Grafcet (figure 5) en faisant les hypothéses suivantes :
+. les plaques arrivent en continu,
+. la situation de départ est la suivante: une pile vient d’étre constituée, la pile
+précédente est en cours de brossage, le rateau est en position sortie et le chariot est
+cété four,
+. le temps des différentes taches (sur le Grafcet) est donné en fonction de la durée T
+entre deux constitutions de piles.
+
+b- Mettre en évidence sur le diagramme la durée T entre deux piles constituées. Montrer
+que la cadence n'est pas respectée pour les durées de taches proposées.
+
+Question A1.2:
+
+Afin de minimiser le coat de la machine, il est envisagé de conserver un actionneur
+pneumatique pour |'entrainement du rateau. Par contre, un actionneur électrique sera utilisé
+pour le chariot de transfert.
+
+a-Le choix d’une motorisation va permettre un gain de temps sur les taches T3 et T4.
+Donner la durée maximale admissible pour ces taches (en faisant I’hypothése qu’elles ont
+méme durée) afin d’obtenir un fonctionnement respectant la cadence.
+
+b- Mettre en évidence sur le diagramme l'information « pile précédente évacuée de la zone
+table en U ». Etablir la relation exprimant la vitesse minimale du tapis d’évacuation des
+piles vers les brosses en fonction de la longueur d’une plaque et de la durée des téches
+concermées.
+
+
+
+===== page 10 =====
+[OCR] A2 - ETUDE CINEMATIQUE
+
+Nous allons déterminer les cadences nécessaires pour répondre au cahier des charges donné
+et établir les lois de mouvements du chariot de transfert. D’autre part, il faut vérifier les
+conditions d'utilisation du vérin pneumatique pour le rateau.
+
+Paramétrage :
+- la machine constitue des piles de n plaques : 2 <n < 5(maxi) ;
+- la pile en cours est désignée par l'indice k, la pile suivante par lindice k+1 ;
+- le point X; représente l’'abscisse suivant x de l'arriére de la pile k ;
+- le point Xo représente I'abscisse suivant x de l'avant de la plaque 1,47.
+
+Dés que la pile est constituée (plaque n, déposée), les doigts passent en position basse et le
+chariot de transfert entraine la pile en dehors de la zone d’empilage. Elle doit étre emmenée
+avant que la prochaine plaque 14+; ne se dépose pour éviter toute collision. La vitesse du
+chariot de transfert évolue selon une loi en triangle (Venariot transtet= Vcr et yer = este ; fig. A1).
+
+Hypothéses :
+- les plaques passent instantanément 4 la vitesse linéaire des rouleaux (temps d’accélération
+négligeable) en sortie du convoyeur four (Vsorie_rouleaux =Vsr = 0,5 m.s") ;
+- chaque plaque se dépose juste derriére les rouleaux et s'arréte aussitét (pas de glissement
+compte tenu de la matiére déposée sur les grilles) ;
+- le diamétre des rouleaux accélérateurs n'est pas pris en compte ;
+- linstant initial to est défini au moment ow les doigts viennent de se refermer, la pile k est a
+la position Xp=x0=0 ;
+~ la distance parcourue par le chariot de transfert pendant la phase d’accélération (t,) est
+suffisante pour libérer la zone d’empilement ;
+- le tapis du four se déplace a vitesse constante (Viapis four = Vir = 0,3 m.s").
+
+Le déplacement des plaques en sortie du four vers la zone d’empilage est modélisé par le
+schéma ci-dessous.
+
+Vye= 0,3 |
+
+Ecart entre
+
+[Xa
+Xp
+
+x
+FIG. A1 : Modéle retenu pour I'empilement des plaques
+Question A2.1:
+
+a- Tracer sur le document réponse A2-R les courbes de déplacement de la pile k et de la
+plaque 1,4 : respectivement les points d’abscisses Xp(t) et Xa(t).
+
+10
+
+
+===== page 11 =====
+[OCR] b- Etablir fexpression du mouvement de Ia plaque 1+1 ; Xa(t). Montrer que la plaque 1x4
+arrive dans la zone d’empilage (début du risque de collision) avec un temps de retard Tr.
+
+c- Etablir 'expression du mouvement de Ia pile k : Xp(t).
+
+d- Aprés avoir formulé la condition de non-collision entre Ia pile k et la plaque suivante 1:1,
+montrer que l'on aboutit 4 une inéquation de la forme : yor -t? -c,-t +c. >0. Calculer les
+valeurs de c; et c2.
+
+e- Conclure sur l'accélération ycr du chariot de transfert des piles de plaques pour éviter
+une collision avec la plaque suivante.
+
+Le chariot de transfert doit effectuer un aller/retour avec une cadence minimale correspondant a
+celle de constitution des piles de plaques (voir chronogramme ou Grafcet).
+
+Données (figure A2) :
+- on se place dans le cas de figure le plus défavorable pour les tailles de plaques : la largeur
+de la plus petite plaque est de 105 mm et la course maximale du chariot (Aller) est de 290
+mm;
+- la loi de mouvement du chariot de transfert évolue selon une loi en triangle (7 = este) ;
+- les temps de sortie et de rentrée des doigts sont identiques et indépendants de la cadence
+(voir principe figure 6). La durée tacigts pour escamoter ou sortir les doigts est égale 4 30 10°
+s.
+
+Ver (ms)
+
+Durée pour effectuer la Durée pour effectuer la
+course Aller de 0,29m_; ; course Retour de 0,29 m.
+
+Largeur d'une 0,03 m
+
+Veer mex}
+
+Course chariot
+de transfert
+>
+Hl SAMICIE 7 Temps
+a
+
+Vox ma.
+FIG. A2 : Course du chariot de transfert — Loi de mouvement retenue
+Question A2.2:
+a- Déterminer la cadence maximale de constitution d’une pile de plaques (dans le cas le
+plus défavorable : nombre de plaques par pile = 2). Il est conseillé d'utiliser la figure A1.
+
+b- Calculer l'accélération minimale du chariot de transfert pour respecter cette cadence.
+Donner Ia vitesse maximale Vcr max atteinte.
+
+c- Conclure par rapport aux calculs de la question A2.1.
+
+1
+
+
+
+===== page 12 =====
+[OCR] Partie B : ETUDE DYNAMIQUE
+
+Une pré-étude de conception pour la fonction Tirer /a pile a défini la chaine de transmission de
+puissance suivante : moteur tournant associé a un réducteur a train épicycloidal et un systeme
+de transformation de mouvement de type poulies-courroie crantées. Compte tenu des
+différentes tailles de plaques et de I'encombrement du systéme de doigts, deux chariots montés
+en paralléle et distants de 1m20 sont nécessaires. Un schéma d’implantation des différents
+constituants de la machine est proposé en annexe 4.
+
+Les deux arbres d’entrainement des guidages sont liés mécaniquement par un arbre de
+synchronisation qui assure la transmission de puissance simultanément aux deux chariots
+intégrés MKU... de la société INA (annexe 5). Le moteur-réducteur transmet la puissance
+mécanique a l’arbre de synchronisation par un jeu de poulies de renvoi reliées par une courroie
+crantée.
+
+B1 - Processus rigide
+Hypothése:
+- synchronisation « parfaite » des axes (rigidité quasi infinie de la barre de synchronisation et
+du chariot de transfert) ;
+- la masse de la courroie est négligeable devant les masses en mouvement ;
+- les liaisons sont considérées sans jeu et sans frottement ;
+- la chaine de transmission du mouvement est rigide ;
+- les poulies de renvoi ont le méme diamétre.
+
+Les hypothéses proposées conduisent a l'étude d’un systeme monoaxe présenté sur la figure
+B1 (attention : la représentation est schématique et les deux chariots INA sont regroupés en un
+seul).
+
+RP Cm: couple moteur
+
+om : vitesse angulaire de l'arbre moteur
+
+Vet : vitesse linéaire du chariot de transfert
+
+Jm : moment d'inertie de l'arbre moteur
+
+Jr: moment d’inertie du réducteur
+
+Jpr : moment d’inertie d’une poulie renvoi
+(arbre réducteur - barre de
+synchronisation)
+
+Jas : moment d’inertie de l'arbre de
+synchronisation
+
+Jp : moment d'inertie d’une poulie
+
+Mpile : masse d'une pile de plaques
+Mchariot : masse du chariot de transfert
+Mp : masse d’un chariot INA
+
+n: rapport de réduction n= oni
+
+Osr
+
+Rp : rayon utile des poulies INA
+
+FIG. B41 : Schéma de principe de !a chaine de positionnement — constitution de l'axe.
+
+Question B1.1:
+- Donner I’expression littérale du moment d'inertie total équivalent JTeq ramené 4 I'arbre
+moteur dans le cas du mouvement d’avance du chariot.
+
+12
+
+
+===== page 13 =====
+[OCR] Le fonctionnement du chariot a déja été validé dans la partie précédente. A partir de cette
+question, la loi de mouvement deésirée est définie par la figure B2. II s'agit d'une loi de vitesse
+en trapéze, préférable a la loi en triangle pour le comportement thermique du moteur. Chacune
+des phases pendant le déplacement a une durée égale (t:=ts=t=te=t7=te=1/3 de la durée pour
+effectuer un aller ou un retour). Pour parcourir l'aller/retour dans le temps imparti, il est donc
+nécessaire d’augmenter I'accélération afin d’obtenir une phase de vitesse constante.
+
+Hypothéses :
+- l'ensemble mécanique est idéalisé : les efforts dus aux frottements secs et visqueux sont
+négligés, les liaisons sont considérées parfaites ;
+- taccélération maximale est fixée a y,; =10m-s (cette valeur est bien sir différente de
+celle calculée a la question A2.2) ;
+- on se place dans le cas de figure le plus défavorable pour l’entrainement des plaques
+(course aller) : pile de 5 plaques de la plus grande largeur ;
+- la durée tyoigs pour escamoter ou sortir les doigts est égale a 30 10° s.
+
+Vcr (m.s")
+
+Durée pour effectuerla Durée pour effectuer la
+je course Aller de 0,29 m_,, jcourse Retour de 0,29 m
+
+ee
+
+Voy mast...
+
+FIG. B2 : Allure de la loi de consigne de vitesse linéaire du chariot de transfert
+
+Question B1.2:
+-A_ partir des hypothéses formulées, donner Iexpression littérale du couple
+électromécanique Cm a fournir par le moteur en fonction de JTeq et Ycr -
+
+Application numérique :
+- dm : moment tie de l'arbre moteur = 1,2 10% kg.m?
+- Jr: moment d'inertie du réducteur (ramené a l'arbre moteur) = 3,5 10° kg.m?
+- Jpr: moment d’inertie d'une poulie de renvoi= 1,7 10% kg.m
+- Jas : moment d’inertie de l’'arbre de synchronisation = 4 calculer
+- Jp : moment d’inertie d’une poulie = 7 10% kg.m?
+- Mchariot : masse du chariot = 40 kg
+- Mp: masse d’un patin INA = 3,8 kg
+- Mpile : masse d'une pile de 5 plaques = 15 kg
+
+-1n: rapport de réduction du réducteur moteur on =n=10
+©,
+
+‘sr
+- Rp: rayon utile de la poulie module MKU - INA= 40 10% m
+
+13
+
+
+
+===== page 14 =====
+[OCR] Question B1.3 :
+a- Déterminer la masse entrainée au niveau du chariot de transfert a aller puis au retour.
+b- Calculer le moment d’inertie de l'arbre de synchronisation Jas autour de son axe (arbre
+creux en acier de Zext 30mm et de Zint 20, longueur 1m, masse volumique de Iacier =
+7800 kg.m*). (La formule de calcul littérale issue du cours de RDM est suffisante mais
+chaque terme doit 6tre correctement explicité).
+
+Question B1.4:
+- Calculer les caractéristiques de la loi de mouvement désirée pour chacune des 8 phases.
+Préciser pour chacune des phases : sa durée, I’accélération et la vitesse de l’arbre moteur
+et le couple électromécanique a fournir. Présenter les résultats sous la forme d’un tableau
+(voir ci-dessous).
+
+Phase Durée Accélération Accélération Vitesse Vitesse Couple a fournir
+chariot arbre moteur chariot arbre moteur cm
+(seconde) (ms?) (rad.s*) (ms) (rad.s") (N.m)
+1
+2
+
+B2 — Prise en compte du comportement dynamique
+
+Le couple d’accélération transmis en sortie de réducteur est relativement important. La chaine
+de transmission de mouvement ne peut plus étre considérée comme infiniment rigide.
+
+Les processus mécaniques appartiennent a une classe de systémes dans laquelle les modéles
+de connaissance s'établissent directement a partir des lois physiques. La difficulté réside dans
+la recherche de I'adéquation modéle - systéme réel. Pour cela, il est important de déterminer les
+caractéristiques des différents constituants (masse, inertie, rigidité, amortissement). La partie
+mécanique du systéme de positionnement du chariot de transfert a été modélisée en tenant
+compte des caractéristiques du moteur d’axe, de la cinématique d’entrainement et du
+comportement dynamique de la structure. La modélisation discréte repose sur I'hypothése que
+chaque élément peut étre modélisé par au moins une masse, un ressort de rigidité equivalente
+a rélément réel et un amortissement interne (figure B3).
+
+New Fh
+
+ft
+
+FIG. B3 : Principe de la modélisation discréte.
+
+On remarque la lourdeur d'une telle modélisation, le nombre de degrés de liberté est trop
+important pour pouvoir obtenir un modéle facilement utilisable par la commande. La
+simplification du modéle passe par des hypothéses de comportement d’un axe par rapport a
+lautre. La difficulté principale réside dans la connaissance de la synchronisation des deux axes.
+Dans cette partie, le modéle retenu sera celui d'un « double monoaxe ». On prend ici comme
+hypothése que la masse du chariot est supportée de facon égale par les deux axes. On
+considére ensuite que le bati est rigide, et que la masse de la courroie est négligeable devant
+les masses en mouvement.
+
+Enfin, des essais ont montré que la souplesse prépondérante est celle de l'arbre de
+synchronisation. Nous pouvons donc établir un modéle simplifié ne prenant en compte que la
+raideur de celui-ci et représentant au mieux le comportement global de la chaine de
+positionnement (figure B4).
+
+14
+
+
+===== page 15 =====
+[OCR] ‘Déplacernt du chat do bareten
+
+— I 1 Un modéle générique peut alors étre défini
+(i Seen ear cenceee par le schéma ci-dessous :
+Sy Poule rayon Rp z f
+a s
+Kt
+VI eq
+oma
+/ Cy, Dg ¢, if ®,
+FIG. BS : Modéle générique équivalent
+i : Le processus est constitué de deux parties
+os (inerties J1eq et J2eq, ramenées sur l’'arbre
+Dito meee] €@ synchronisation) considérées_ comme
+ES Pole rayon Rp i a infiniment rigides et reliées entre elles par
+{ SSE | une barre de torsion de raideur équivalente
+
+Kt. Celle-ci représente la raideur en torsion
+
+FIG. B4 : Modéle simplifié avec raideur
+: — de l'arbre de synchronisation.
+
+prépondérante.
+
+Hypothéses :
+- amortissements limités aux frottements visqueux (pas d’amortissements internes) ;
+
+- l'ensemble des frottements visqueux est regroupé en un frottement visqueux équivalent f7
+au niveau de l'arbre de sortie du réducteur ;
+
+- la masse du chariot est supportée de fagon égale par les deux axes ;
+
+- les liaisons sont considérées parfaites et les frottements secs sont négligés.
+
+Question B2.1 :
+a- Donner les expressions littérales des inerties équivalentes J1eq et J2eq en utilisant les
+variables définies pour la question B1.1.
+b- Etablir Pexpression littérale de la raideur équivalente en torsion Kt de I'arbre de
+synchronisation. A.N.: arbre creux en acier de Zext 30mm et de int 20, longueur 1m,
+module d’élasticité transversale = 81000 MPa. (La formule de calcul littérale issue du cours
+de RDM est suffisante).
+
+Le modéle équivalent comprend trois éléments accumulateurs d’énergie: une  inertie
+équivalente J1eq, une raideur équivalente Kt et une inertie équivalente J2eg. Le processus est
+donc d’ordre 3. Nous voulons établir la fonction de transfert mécanique du processus modélisé
+et étudier son comportement fréquentiel.
+
+Llopérateur de Laplace est noté « s » de sorte que F(s) désigne la transformée ou fonction
+image de la fonction originale f(t).
+
+U(t) désigne l’'échelon unité tel que U(t)}=1 pour t20, U(t)=0 pour t<0
+
+Question B2.2:
+a- en appliquant le théoréme de I’énergie cinétique au premier élément accumulateur Jleq,
+écrire l'6quation différentielle du mouvement de rotation de l'arbre en sortie du réducteur.
+Montrer que la fonction de transfert de cet élément peut 6tre mise sous la forme suivante.
+Donner I’expression de H,(s).
+
+C,(s) Hys) o,(8)
+
+C(s)
+
+15
+
+
+===== page 16 =====
+[OCR] b- Ecrire la loi de comportement du deuxiéme élément accumulateur, le ressort Kt. Montrer
+que la fonction de transfert de cet élément peut étre mise sous la forme suivante. Donner
+Texpression de H,(s).
+
+o,(S) Cs)
+
+HAs)
+
+©, (Ss)
+
+c- En appliquant le théoréme de I’énergie cinétique au troisiéme élément accumulateur
+J2eq, écrire Equation différentielle du mouvement de rotation de I’arbre d’entrainement du
+chariot INA. Montrer que la fonction de transfert de cet élément peut étre mise sous la
+forme suivante. Donner l’expression de H;(s).
+
+Cis) (8)
+
+H,(s)
+
+La figure B.6 présente le schéma-bloc fonctionnel correspondant au modéle discret retenu pour
+cette étude. Nous pouvons établir la fonction de transfert mécanique représentant la relation
+Entrée (C,,) / Sortie (wp) de la chaine de transmission de mouvement.
+
+C,(s) Cis) @,(s)
+
+bw HSE] Hys)
+
+H,(s)
+
+Cs)
+
+FIG. B6 : Schéma-bloc fonctionnel du processus mécanique.
+
+Question B2.3 :
+a- Donner I’expression de Ia fonction de transfert @,(s) / Cs{s) en fonction de H.(s), H2(s) et
+H3(s).
+
+b- Remplacer H;(s), H2(s) et H3(s) par les expressions trouvées a la question B2.2. Mettre
+la fonction de transfert H(s) sous la forme canonique suivante :
+
+Ns) Kn
+1
+aw Dis) 1+a,8 +a,8* +a,s°
+
+c- Exprimer de maniére littérale les coefficients k,,, a1, a2 et a3.
+
+Question B2.4 :
+a- Montrer que, si la raideur équivalente Kt est considérée de valeur infiniment grande
+(processus rigide), la fonction de transfert H(s) est de la forme :
+
+k,
+H(s)=——2
+(s) 144s
+
+b- Exprimer kp, et 7; en fonction des paramétres de fa chaine cinématique J1eq, J2eq et f1.
+
+16
+
+
+===== page 17 =====
+[OCR] Dans le cas de notre application, la dynamique souhaitée est telle que la souplesse de I'arbre
+de synchronisation ne peut pas étre ignorée. Le systéme peut alors étre modélisé par un mode
+dominant du premier ordre et un mode oscillant. H(s) peut étre factorisée sous la forme
+suivante :
+
+k,
+
+H(s) = ———__“»______
+(1+ 1) -s)-(1+a-s+b-s?)
+Question B2.5 :
+a- Montrer que si a<<rz , la constante de temps 72 vaut :
+
+J1eq + J2eq
+aa as
+b- En procédant par identification avec le polynéme du dénominateur D(s) trouvé a la
+question B 2.3-b et en gardant I'hypothése a<<tp :
+. exprimer le coefficient b puis le coefficient a ;
+. en déduire les expressions du facteur d’amortissement ¢ et de la pulsation naturelle
+@pn correspondants.
+
+c- Montrer que la pulsation naturelle @, est indépendante du frottement visqueux f; alors
+que l'amortissement ¢ est proportionnel a f;.
+
+d- Donner I'expression de H(s) lorsque ¢=0.
+
+e- Application numérique : on prendra pour ces calculs une valeur de Kt=6000 Nm/rad et
+f1=0,1 Nms.rad'
+
+. donner la valeur du gain statique H(0), exprimer sa valeur en dB ;
+. calculer les coefficients a et b ;
+. calculer le facteur d’amortissement ¢ et la pulsation naturelle w,.
+
+F- Vérifier I'hypothése de départ : a<<z2.
+
+Question B2.6 :
+a- Montrer que si ¢<<1, la fonction de transfert H(s) met en évidence un « mode dominant »
+du premier ordre et un mode oscillant du deuxiéme ordre.
+
+b- Avec le plus grand soin, construire le diagramme de BODE de Ia fonction de transfert
+complexe H(ja). Sur le méme graphe :
+. tracer le diagramme asymptotique en précisant les pentes et les valeurs
+caractéristiques ;
+. tracer lallure des diagrammes réels d’amplitude et de phase ;
+. faire apparaitre les marges de stabilité AGug et Ag ;
+
+c- Déterminer la fréquence de résonance fyo et définir la bande passante BP_a +3dB du
+processus mécanique modélisé ;
+
+d- Conclure sur la stabilité en boucle fermée de ensemble (lorsque la commande asservie
+sera appliquée au processus mécanique).
+
+17
+
+
+
+===== page 18 =====
+[OCR] Partie C : COMMANDE ASSERVIE DU PROCESSUS
+
+Les calculs et la modélisation effectués dans la partie precédente remettent en cause les choix
+de conception pour la chaine de transformation de mouvement. Afin de limiter les risques
+encourus par une motorisation unique alliée a une dissymétrie de la transmission de
+mouvement, il est préférable de mettre en place deux moteurs pilotant chacun un des chariots.
+D’autre part, les accélérations nécessaires étant élevées, le systéme de transformation de
+mouvement ne pourra de toute fagon pas étre considéré comme infiniment rigide (souplesse de
+la courroie crantée). Enfin, un autre type de transformation de mouvement resterait synonyme
+_ d'une grande inertie équivalente préjudiciable a la dynamique souhaitée.
+Ces réflexions conduisent les concepteurs 4 choisir de mettre en ceuvre deux chariots
+indépendants équipés de moteurs linéaires synchrones 4 aimants permanents (figure C1). La
+configuration de la nouvelle solution est décrite par le schéma figure C2. La synchronisation des
+
+deux chariots sera réalisée par la commande (asservissement de type maitre/esclave par
+exemple).
+
+Chariot support
+de dats:
+{eprésente transparent)
+
+Mounting Surface with
+Integral T-slots
+and Dowvel Holes
+
+Tapis four =. |
+
+Integral
+Heatsink Fins
+Field Replaceable
+High Fiex Robotic | || —
+Cables Z s{-—
+tli Fully Enclosed Coils = 2
+jowels, 3 ¢
+Digital or Analog é 6
+Enclosed
+Encoder tend
+FIG. C1: Moteur linéaire associé a un FIG. C2 : Schéma d’implantation des deux
+guidage sur patin a billes chariots équipés de moteurs linéaires
+
+Analogie moteur tournant — moteur linéaire
+
+De facon simplifiée, le moteur linéaire fonctionne suivant le principe d’attraction répulsion. Par
+analogie au moteur tournant, le primaire (partie mobile) est constitué d'un enroulement triphasé
+
+et le secondaire (partie fixe source de champ magnétostatique) est constitué d’aimants
+permanents (figure C3).
+
+FIG. C3 : Analogie moteur tournant - moteur linéaire
+
+18
+
+
+
+===== page 19 =====
+[OCR] Le systéme est numérique et non linéaire. Cependant, la fréquence relativement élevée de
+découpage et de rafraichissement des différentes grandeurs ainsi que lhypothése de linéarité
+sur le modéle aux variations permet de modéliser le systeme sous forme de S.L.I. (Systéme
+Linéaire Invariant) continu du temps. On utilisera donc, dans le cadre de cette étude, la
+transformée de Laplace et la représentation par schéma blocs.
+
+C1 — CHOIX DES MOTEURS LINEAIRES (MOTEURS TUBES)
+
+On conserve la loi de vitesse en trapéze définie dans la partie B (Figure B2). Chacune des
+phases pendant le déplacement a une durée égale (t=t:=t=t=t=te=1/3 de la durée pour
+effectuer un aller ou un retour). L'étude sera effectuée pour la commande d'un seul moteur (voir
+les hypothéses de symétrie ci-dessous).
+
+Hypothéses :
+- l'ensemble mécanique est idéalisé : les efforts dus aux frottements secs et visqueux sont
+
+négligés, les liaisons sont considérées parfaites ;
+
+- synchronisation « parfaite » des axes (rigidité quasi infinie du chariot de transfert et
+répartition égale des efforts sur chacun des moteurs linéaires) ;
+
+- les efforts de résistance a l'avancement dans les moteurs tubes ne sont pas négligés ;
+
+- laccélération maximale est fixée a yop =10m-s® ;
+
+-on se place dans le cas de figure le plus défavorable pour I'entrainement des plaques
+(course aller) : pile de 5 plaques de la plus grande largeur.
+
+Application numérique :
+- Mc : masse du chariot = 40 kg
+- Mu. : masse d’un bloc moteur tube avec patins a billes = 5 kg
+- Mpile : masse d’une pile de 5 plaques = 15 kg
+- Feog : force de résistance a I'avancement d’un moteur tube (constante) = 8,3 N
+
+Question C1.1:
+a- Compte tenu des hypothéses simplificatrices, donner les expressions littérales de la
+force de poussée F que doit fournir chaque moteur pendant les différentes phases lors d’un
+aller/retour du chariot. Présenter les résultats sous la forme d’un tableau (voir ci-dessous).
+
+Phase
+
+Accélération
+chariot
+(ms?)
+
+b- Préciser la phase pendant laquelle les moteurs doivent fournir la force de poussée
+maximale Finax. Justifier votre réponse.
+
+Question C1.2 :
+a-A partir des données ci-dessus, tracer sur le document réponse A2-R I’évolution
+temporelle de Ia force de poussée F(t) que doit fournir chaque moteur sur un cycle de
+fonctionnement.
+
+b- Calculer la valeur de la force de poussée maximale Finax que doit fournir chaque moteur.
+
+19
+
+
+
+===== page 20 =====
+[OCR] La force maximale instantanée que peut fournir un moteur est largement supérieure a la valeur
+moyenne disponible de fagon continue. Il convient donc de calculer la valeur moyenne de la
+force nécessaire pour le cycle envisage ; il s’agit de la « force équivalent thermique » Fean qui
+se définie comme la valeur efficace de la force de poussée développée par un moteur sur un
+cycle. Soit :
+
+2
+Featn T (nr (that
+Question C1.3 :
+
+a- Calculer la force de poussée moyenne Fean, que doit fournir chaque moteur.
+
+b- Pourquoi le choix de lactionneur fait-il appel a la notion de « force équivalent
+thermique » ?
+
+c- A partir des caractéristiques du constructeur de moteurs fournies en annexe 6, choisir un
+moteur de la série TBX 38 répondant au cahier des charges. Nous considérons que le
+moteur fonctionne sans surface d’échange thermique (les choix de conception conduisent &
+avoir le moteur « encapsulé » dans les éléments mécaniques du chariot).
+
+d- Justifier votre choix.
+
+C2 — IDENTIFICATION DU PROCESSUS A COMMANDER
+
+Hypothéses de modélisation :
+
+Par un changement de repére, appelé transformation de Park, on montre que le modéle
+électromécanique d’un moteur linéaire synchrone a aimants permanents est équivalent a une
+association électromagnétique et électromécanique de deux machines a courant continu :
+
+. a i 22 dX 5
+Vg = Rig +t —e, avec 9 =L,i,+¢, et eg = + oe (Machine d) (1)
+d
+Va = Ri, +t +e, avec 9, =L,.i, et e,= aaley Oct (Machine q) (2)
+Tt
+
+Elles fournissent chacune une partie de la force de poussée globale F (Figure C4).
+
+2x
+F =F, Fe — Feng = "ui, ~ 9,1 —Feog (3)
+Notations: Fy, Fa Forces développées par les machines d et q ;
+Foog Force de résistance a l'avancement d'un moteur (constante) ;
+Megt Masse équivalente totale déplacée par un moteur tube ;
+Va, Vq Tensions appliquées aux machines d et q ;
+ja, ig Courants relatifs aux machines d et q ;
+Qa: Pq Flux développés par les machines d et q ;
+eq, Cq Force électromotrices induites relatives aux machines d et q :
+La, La Inductances synchrones longitudinale et transversale ;
+oF Flux propre des aimants secondaires (constant) ;
+R Résistance de l'enroulement primaire ;
+T Pas polaire des aimants ;
+Xer Position du chariot de transfert ;
+Ver Vitesse du chariot de transfert (Ver = dXcr/dt) ;
+a Gain des capteurs de courant.
+Tas Ig Mesures des courants relatifs aux machines d et q.
+
+20
+
+
+===== page 21 =====
+[OCR] Le modéle de la figure C4 met en évidence deux entrées de réglage indépendantes que sont
+
+les tensions d’axe direct V, et d’axe en quadrature V,. Les fléches en pointillés traduisent les
+couplages entre les axes d et q.
+
+Question C2.1:
+a-A partir des équations temporelles précédentes, et en utilisant la transformée de
+Laplace, montrer que le schéma fonctionnel du systéme peut se mettre sous la forme
+décrite a la figure C4 (rappel : ¢¢: Flux propre des aimants = constante).
+
+b- Exprimer les gains k, et k, en fonction des courants.
+
+Machine d
+
+Machine q a >
+
+FIG. C4 : Schéma fonctionnel du processus a commander
+Question C2.2:
+a-A partir des relations (1) et (2) et des expressions de ky et kq trouvées en C2.1.b,
+exprimer la force de poussée F en fonction des courants ig et i, ainsi que du flux oy.
+
+b- Montrer que si on néglige la force de résistance a I’'avancement des moteurs, cette force
+de poussée est proportionnelle a la composante d’axe q du courant.
+
+c- Décomposer cette force de poussée F en une force principale notée F, proportionnelle
+au flux propre des aimants secondaires, et en une force de saillance notée F, liée aux
+Inductances Lg et Lg.
+
+d- Proposer une solution simple permettant d’annuler la force de saillance F, par une
+boucle d’asservissement. Dans ces conditions, comment régle-t-on la poussée ?
+
+Question C2.3:
+a- En considérant que la machine est a péles lisses (Ly= L, = L), montrer que expression
+de fa force de poussée F est indépendante de la composante d’axe d du courant.
+b- Dans ce cas, déterminer /a constante de force k’, du moteur.
+
+c- En déduire un schéma fonctionnel simplifié en vue de la commande en poussée.
+
+21
+
+
+===== page 22 =====
+[OCR] C3 - ETUDE DE LA COMMANDE EN POUSSEE
+
+Contexte :
+
+Le mouvement de chaque axe est assuré par un « moto-variateur auto-synchrone ». Cette
+technologie présente l'avantage d'étre robuste et fiable dans le temps. Les moteurs sont
+capables de développer une force constante sur une large plage de vitesse de translation grace
+a un contréle des courants et du flux dans la machine, appelé couramment « commande
+vectorielle de flux ». Ce réglage est possible par l'emploi d'un convertisseur statique travaillant
+en modulation de largeur d'impulsion a une fréquence de commutation élevée (onduleur MLI).
+
+Pour chaque ensemble, un régulateur de vitesse (non abordé dans le cadre de cette étude)
+élabore un signal de référence Frer (ou consigne de force).
+
+Hypothéses :
+- toutes les valeurs estimées ou mesurées sont identifiées par le signe « * » qui coiffe celles-
+ci;
+-la grande linéarité ainsi que la bande passante suffisamment large des capteurs de
+courants et de vitesse permettent d’écrire : =i, et Vor =Vor ;
+
+- la fréquence de commutation du convertisseur statique (onduleur) est importante de telle
+maniére que l'on considére V, = Vgreg -
+
+- le courant d’axe direct i, est parfaitement asservi et réglé a zéro (ig=0) : la force de poussée
+F n'est fournie que par la machine d’axe q (Fa= 0).
+
+Pour la suite du sujet, nous retenons des moteurs tubes TBX 3810 (ce choix ne correspond pas
+@ celui de la question C1.3-b). Les données numériques ci-dessous sont utilisables directement
+pour le modéle de commande. Elles sont issues des caractéristiques constructeurs (annexe 6).
+
+Application numérique :
+
+ain des capteurs de courants = 1 V/A
+
+ain d’amplification du convertisseur statique = 10
+
+fréquence de commutation de l’onduleur = 20 kHz (T.= 5Ous)
+
+- Meqr : masse équivalente totale déplacée par un moteur tube = 35 kg
+
+- l'accélération maximale du chariot de translation est fixée a yor =10m-s
+
+- la vitesse maximale de translation du chariot est fixée & Ver = 1,35m.s"
+
+- Feog : force de résistance a l'avancement d'un moteur tube (constante) = 5,6 N
+- kg | constante de force du moteur = 65,8 N.A“
+
+- Ros : résistance de I'enroulement primaire a 25 °C = 8,6 © (valeur utilisée par défaut)
+- Rigo : résistance de l’enroulement primaire a 100 °C = 10,75 Q
+
+- L: Inductance propre de l’enroulement primaire = 10,7 mH
+
+-7: Pas polaire des aimants = 71,2 mm
+
+- igper : Courant de consigne d’axe direct : lio = OA
+
+~ igner : Courant de consigne d’axe en quadrature : Ig = 5A
+
+On se propose de mettre au point le régulateur qui doit rendre la force de poussée quasiment
+insensible aux variations de vitesse intervenant pendant les phases de démarrage et de
+freinage ou encore liées aux variations de la charge mécanique. On désire annuler l'erreur
+permanente sans avoir recours au correcteur P! classique. Dans ce but, nous allons étudier les
+effets des actions de compensation, d'anticipation et de filtrage associées 4 une commande
+proportionnelle Cq.
+
+
+===== page 23 =====
+[OCR] C3.1 - Commande en poussée par compensation de perturbation
+
+Le schéma de principe du modéle simplifié du processus et de la commande en poussée par
+compensation de perturbation est présentée a la figure C5. Pour la boucle de courant i,, on
+considére la force électromotrice eg, comme une perturbation induite par la vitesse de
+translation du chariot Vcr qu'il est souhaitable de compenser en temps réel.
+
+A
+
+Fig. CS : Matérialisation de la commande en poussée par compensation.
+
+Dans cette partie, le correcteur choisi est de type proportionnel (C,(s)= C, : gain constant). Afin
+de compenser les effets de la force électromotrice e, induite par la vitesse, nous effectuons une
+estimation 6, de celle-ci a partir d'une mesure V.7 de la vitesse de translation du chariot.
+
+Question C3.1 :
+a- Donner les expressions de G1(s) et G2(s) telles que :
+
+ig(8)=G1(5) inex (8) +@2(8)-Ver (8)
+
+b- En déduire les expressions des fonctions de transfert en poursuite Hpr(S) = iq(S) / igrer(S)
+et en régulation Zpr(s) = ig(S) / Ver(s)-
+
+Question C3.2 :
+
+a- Montrer que si d'une part, la compensation est parfaitement réalisée, et d’autre part, le
+gain C, est grand, alors en régime permanent iq ~igrer
+
+23
+
+
+
+===== page 24 =====
+[OCR] b- Exprimer la constante de temps Ter du systéme en boucle fermée en fonction du gain Cy
+et des paramétres électriques du moteur.
+
+c-A partir du théoréme de la valeur finale, déterminer erreur permanente & sur i, en
+fonction de Iqo, R et Cy lors d'une sollicitation en échelon d'amplitude Iqo.
+
+Question C3.3 :
+a- En utilisant la valeur R =R.5 = 8,60, calculer le gain C, minimal qui permet de limiter
+
+lerreur permanente & a 2 %.
+b- En déduire le temps de réponse trgr a 5 % de la boucle de courant.
+c- Comparer la constante de temps Tsr du systéme en boucle fermée a la période de
+commutation Tc de l’onduleur. Interpréter les résultats obtenus.
+On régle le gain C, du correcteur pour que la dynamique de la boucle de courant i, soit fixée a 5
+kHz (trae = 600s).
+
+Question C34:
+a- Calculer la valeur du gain C, qui permet d’obtenir ce comportement dynamique.
+
+b- En déduire erreur permanente & correspondante.
+
+c-Analyser les résultats obtenus.
+
+C3.2 - Commande en poussée par anticipation
+
+Le schéma de principe du modéle simplifié du processus et de la commande en poussée par
+anticipation est présentée a la figure C6. L'objectif de cette commande est d’éviter l'utilisation
+d'un correcteur a action intégrale tout en cherchant a annuler erreur permanente e,, Comme
+dans |'étude précédente, le correcteur choisi est de type proportionnel (C,(s) = C,: gain
+constant) mais une anticipation est ajoutée sur la grandeur de réglage Vaeg en utilisant la
+grandeur estimée de la résistance R.
+
+Dans un premier temps, l’estimation de la grandeur de la résistance et la compensation sont
+considérées parfaites : R = R = Ros = 8,60 et 6, =e,.
+
+Question C3.5 :
+a- Montrer que si Vq = Voreg, alors l'erreur permanente « est toujours nulle quelle que soit la
+valeur de la consigne (iq = igrer en régime permanent).
+
+b- Comparer Ia nouvelle expression de la constante de temps Tar du systéme en boucle
+fermée a celle obtenue précédemment.
+
+On ragle le gain C, du correcteur pour que le comportement dynamique de la boucle de courant
+ig soit fixée a 5 KHz (trae = 600us).
+
+Question C3.6 :
+a- Calculer la valeur du gain C, qui permet d’obtenir ce comportement dynamique.
+
+b- Interpréter les résultats obtenus.
+
+24
+
+
+===== page 25 =====
+[OCR] Vv
+
+A
+
+Fig. C6 : Mat ion de la commande en poussée par compensation et anticipation.
+
+Le cycle de fonctionnement des moteurs est tel que la température d’équilibre vaut 100°C
+(échauffement de 75°C par rapport a la température ambiante de 25°C). Dans ces conditions,
+estimation de la valeur de la résistance de l'enroulement primaire est sous-estimée :
+
+R = Ryg = 8,60 alors que la valeur réelle vaut R = Rygg = 10,750.
+Question C3.7 :
+a- Donner les expressions de G1(s) et G2(s) telles que :
+iq (S) = G1(S)-igrer (S) + G2().Ver (8)
+
+b- En déduire la fonction de transfert en poursuite Hpr(S) = ig(S) / igner(S) en considérant que
+la compensation est parfaitement réalisée : 6, =e, .
+
+c- Montrer que la boucle de courant i, aura un comportement dynamique de type premier
+ordre quelle que soit la valeur de la résistance R.
+
+On régle le gain C, du correcteur pour que le comportement dynamique de la boucle de courant
+i, soit fixée 4 5 KHz (trar = 600us).
+
+Question C3.8 :
+
+a- Calculer la valeur du gain C, qui permet dobtenir ce comportement dynamique.
+Comparer cette valeur au résultat obtenu a la question C3.6.
+
+25
+
+
+===== page 26 =====
+[OCR] b- En déduire erreur permanente & correspondante.
+Pour les deux cas suivants : R=R=8,60 et R=1,25R=10,750 :
+
+Question C3.9 :
+
+a- Tracer sur un méme graphe allure de la réponse indicielle du courant i, suite a un
+échelon de consigne igrer = Igo= 5A.
+
+b- En déduire l'allure du chronogramme tempore! du signal de commande V,(t). Que vaut la
+valeur maximale de la tension Vawax. ? Ne risque t-on pas de saturer la commande ?
+
+c- Conclure sur la robustesse de cette commande, et montrer qu'il est souhaitable de
+surestimer la valeur de la résistance R.
+
+C3.3 - Commande en poussée par correcteur PI filtré
+
+On supprime la compensation de la perturbation et la fonction d’anticipation. On obtient le
+schéma fonctionnel de la figure C7. Afin d’améliorer le comportement dynamique et la précision
+statique de la boucle de courant i, on utilise un correcteur de type PI filtré dont la fonction de
+transfert est :
+
+C,(s)=¢, 1+Tys
+
+ares T, i é I
+*GsTs)3 avec Cy, Ty et T| les paramétres de réglage
+
+A
+
+Fig. C7 : Matérialisation de la commande en poussée par correcteur PI filtré.
+
+Question C3.10:
+a- Tracer Iallure du diagramme asymptotique d'amplitude de la fonction de transfert
+complexe C,(j@) en considérant que Ty > T; et C,>1.
+
+b- Justifier l'appellation PI filtré.
+
+26
+
+
+===== page 27 =====
+[OCR] Question C3.11:
+a- Donner les expressions de G1(s) et G2(s) telles que :
+
+ig (8) =61(8)dgncr (5) +82(8).Vor (8)
+
+b-La constante de temps Ty du correcteur est régiée de telle sorte que Ty = UR
+(compensation d’un péle par un zéro): en déduire les expressions des fonctions de
+transferts en poursuite Har(S) = ig(S) / igrer(S) et en régulation Zar(S) = ig(S) / Ver(s).
+
+Question C3.12 :
+a- Identifier le facteur d’amortissement ¢ et la pulsation naturelle @n Caractéristiques du
+dénominateur du second ordre de Hpr(s).
+
+b- Montrer que ces paramétres de réglage ne sont pas indépendants.
+
+On régle le gain C, du correcteur pour que le comportement dynamique de la boucle de courant
+ig Soit fixée 4 5 KHz (trer = 600us).
+
+Question C3.13 :
+a- Calculer la valeur du gain C, qui permet d’obtenir ce comportement dynamique avec un
+facteur d’amortissement optimal (¢= 0,707) en considérant la valeur de la résistance
+suivante : R=Rps = 8,60.
+
+b- Comparer cette valeur aux résultats obtenus aux questions C3.6 et C3.8.
+
+On s’intéresse au comportement du systéme en régulation. On veut rendre le courant ig(t)
+insensible aux variations de e,(t). Le temps de réponse a 5% doit étre minimum sachant que
+on admet un dépassement dans la réponse indicielle.
+
+Question C3.14 :
+a-A partir de I'expression de la fonction de transfert en régulation Zpr(s) obtenue a la
+question C3.11-b, comment évolue Ja perturbation eq(t) lorsque l'on applique un échelon de
+consigne igrer(t) = Igo = 5A.
+
+b- Dans quelles conditions de fonctionnement du moteur la perturbation peut-elle prendre la
+forme approchée ci-dessus ?
+
+c- En considérant la perturbation Z(t) = e,(t) (par excés), et en utilisant le théoréme de la
+valeur finale, calculer l’erreur permanente totale & en fonction de C,.
+
+d- En déduire la valeur numérique du gain C, pour obtenir une précision de 2% .
+e- Calculer la constante de temps T; de intégrateur et le temps de réponse trap 4 5% du
+
+processus corrigé.
+
+Question C3.15 :
+- Analyser de maniére succincte les performances obtenues dans les trois cas. Conclure.
+
+27
+
+
+===== page 28 =====
+[OCR] Annexe 1 : FORMATS DES PLAQUES
+
+(p/L © 499)
+senbeld ap syeuuo} sjueseyiq
+
+
+
+===== page 29 =====
+[OCR] Annexe 2 : DESCRIPTION DE LA MACHINE EXISTANTE
+
+Les différentes fonctions sont déja réalisées sur une machine existante dans Ientreprise
+mais travaillant 4 une cadence trois fois moins élevée et pour des formats de plaques moins
+contraignants.
+
+Le principe des solutions retenues est défini par les plans de I'annexe 3 :
+
+N° plan.
+
+Titre
+
+Description «3.5.
+
+21345
+
+Partie supérieure
+
+Plaque de réception (rep. 1) (arrivée des plaques en provenance
+du four)
+
+Chariot de transfert de la pile (rep. 2+6, vérin pneumatique +
+guidage par 4 paliers a billes). II permet d'amener la pile de
+plaques sur le rateau escamotable au-dessus du convoyeur des
+brosses tout en dégageant la zone d'arrivée des plaques. Une
+butée (non représentée) réglée sur la position d'arrivée de la pile
+permet d’aligner les plaques de la pile 'une par rapport a l'autre et
+de maintenir celle-ci au-dessus de la table en U lors du retrait du
+rateau.
+
+La course du chariot étant fixe (vérin pneumatique), c'est la
+forme des doigts qui donne leurs positions de départ et d'arrivée
+(ceci implique un jeu de doigts pour chaque format de plaque).
+
+Doigts (x2, non représentés) montés sur vérins linéaires sans tige
+(x2, rep. 7). Ils permettent d'entrainer par obstacle la pile lors du
+déplacement du chariot. Ils sont escamotés pour le retour du
+chariot en position d'attente de constitution d'une pile. L'entraxe
+des doigts est réglable sur les plaques de fixation repérées 1.
+
+Rateau escamotable (rep 3) guidé par douilles a billes et entrainé
+par un vérin pneumatique double effet (rep 13+8).
+
+21337
+
+Partie inférieure
+
+Table de descente en U (rep. 2). Elle est en position haute
+initialement pour avoir les doigts repérés 3 dans le plan du rateau
+et de la table de réception. Elle descend, lorsque le rateau est
+escamoté, pour amener la pile de plaques sur le convoyeur sans @
+coups. Elle remonte une fois que la pile est évacuée de la zone.
+Elle permet le changement de direction (axe tapis brosses 90°
+par rapport a axe de sortie du four).
+
+Convoyeur (rep. 20). Il est constitué d'une chaine a palettes
+entrainée par un motoréducteur asynchrone. Le convoyeur tourne
+en permanence.
+
+Brosseuses (rep. 22+7). Elles sont constituées d'un moteur
+asynchrone entrainant directement une brosse métallique. Le
+moteur est sur un chariot réglable pour I'écartement relatif des
+brosses (largeur des plaques).
+
+Plaque de réception (rep. 5). La pile s'arréte dessus, les
+opérateurs peuvent alors la récupérer.
+
+21519
+
+Plan d'ensemble
+de la machine
+
+Dessin d'ensemble de la machine en trois vues
+
+Dessin en perspective du bati principal
+
+TAB A2 : Description de la MAGEB existante
+
+
+
+===== page 30 =====
+[OCR] a
+Puan | 085.
+
+@aOVW ANNAIONV.1 30 SNV1d : € oxeuuy
+
+
+
+===== page 31 =====
+[OCR] 
+
+===== page 32 =====
+[OCR] ae
+essoiq |
+yoddng bi
+(Oa |
+|
+= {
+iP i
+Ml |
+i
+—|- a i |||
+T T ;
+essoug side poddng :
+neeyed WUE, hi
+IE
+ia) yoysuen JouRYS UGA
+
+
+
+===== page 33 =====
+[OCR] : IMPLANTATION MOTEUR TOURNANT
+
+Plan de pose du moteur - réducteur
+
+Annexe 4
+
+Plan de pose des guidages
+
+{a
+
+rrivée des plaques
+
+Chariot support
+de doigts (représenté transparent)
+
+_Guidage intégré
+MKU... INA
+
+table
+enU
+
+guidage
+rateau
+
+accouplement
+
+Palier,
+
+Poulies courroie
+crantées : r=1
+
+réeducteur: n}
+
+vérin rateau
+
+Guidage 2
+
+Evacuation
+vers les brosses
+
+(tapis roulant)
+€
+
+=< sem
+
+i) GoE2
+6= Beano
+in 20s
+com 2Eco
+€- e252
+85 SES«
+ao San
+Ee OoLG
+=n O86
+52 ££
+
+is n +o
+od OT yn
+EE -o0e
+OO €9n5
+50 Ze28
+AL Ftaw
+
+6 GEL
+
+o> £88
+
+
+
+===== page 34 =====
+[OCR] INA
+
+Annexe 5 : GUIDAGES INTEGRES MKUSE...
+
+2] naz on- ase
+ar
+ced
+
+mara fom 0 aFe » POND
+
+woos e aBepin6
+ap autaysAs Oene auleaull
+e@B6epinb ap ainpow
+
+
+===== page 35 =====
+[OCR] Annexe 6 : MOTEURS TUBES — THRUSTTUBE SERIE TBX |
+
+way yor | vor vol vol Zt ZsT [ail anayour 90]q 3] Sue SPRPOM Mp SAT
+ua szor_| seot_ [seo | scot | szer sist_| Si91 ar BUT aemoo ¥ mor-eI09 enUTy|
+Un ZIst 19vl Olrt 6SE1 SILT 9EEL $Szi GIN? WW 82d4) sompout) pew 9]1f1n eNO)
+way s€ se sé sé €3 €8 €8 ‘sabppateur neaiieg np sory]
+on 1zt_| vit $27 OLE z9t oor | ove ‘Snjouy suoTuna majouT 20}@ np a9eTwOT|
+W ST [x4 E¥4 ee € s 9 SaIIi4 € sured S9A8 JamOUT 50 Ap See
+wy ia 1 Zz St a4 fa SS Tia InanOg SOR Np See
+va zig | zig zis vis am arm iL ‘aurmpod eq
+EQN OzE aze ‘OzE OzE OE Ooze OCE Tiupaoo wo “preur woweuS
+sur s'0 EX 30 30 I 901 al anbuanep edun op awrestio3)
+Hur Zev 8r'9 ¥9'8 sol ws vO'Ll Iz (avid y send) AAT @ PouEISMpUT|
+ce) 969 | spor | cover | iect £18 svt | 2s'z 3.2 001 sed y asuyd aoumisier
+9) v's I's 18°01 Is‘€) LL'9 vS'El 6°91 Deo St says youd sone sispy
+No/+ zz TE ee € eb 8 oS Aresitionp Sugeo5 aa)
+| _AAIN ist | zo | poor | coli | ocpi | wei | asor & “najOW SfERUSUTEPHO] aR HNOD|
+suadA | eet | soz | Lee | Ler 7 pro | ess | yor (Goad @ semad) Wao 9p ATMAUOD
+Spur a 6 L ss ¥9 ¥ € SZ 3Q5 SSA
+xFVIN TL EYx4 pve ey Ze EYS4 [a7 6 ‘Genus wonaminu) sa1oy =p TaEIREOD|
+ay pot | ee 297, 4 wwe | s0€ | ez | pez | aeeaue dum 07 @ ninuoo odsip mum)
+N sos | vo. | 66s | Sor | sour | ei | s'piz | i'soe [aunque dum occ @ nunuco ue odip m3
+imu 37x wm og gsz aye]
+anbetd 9 ‘ajnbs auvyqoy,p supine suey)
+xv ee [ire [967 8% zy Oye | Zee | SIE | swmque dum 56c @ nuteos “odajp wwemod|
+N ses | sia | o101 | Pou | cost | esoe | vie | ceoz [ammmun dam 557 © nonwc 0 ‘od ny)
+wa gtx wl OSTXMM OST npR|
+anbeld y -ajabs oBaeqsy,p azepine 22a
+ady 9 9 Te viz w y9E Le Siz __ | st mod nuviqwe dus 3.67 @ smo iwuney
+N 619 6%, SLIT SLIT st [4 TE0z. Lt0z ‘ef mod sumiqure “duty 5.57 @ aig s010.4
+sun | vosz | sosz | sosz | otsz | vose | so8e | sose | olse adAL
+
+

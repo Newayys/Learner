@@ -1,0 +1,645 @@
+{
+ "concours": "Banque PT",
+ "filiere": "SIB",
+ "date": "2012",
+ "file": "BPT_SIB_2012.pdf",
+ "status": 200,
+ "source": "banquept.fr, rubrique « Annales d'annales » (rubrique23.html)",
+ "epreuve_originale": "SI B",
+ "classification": "automatique par mots-clés (Claude, oct. 2026) — moins fine que celle des sujets récents",
+ "decoupage_questions": "Qn",
+ "texte_ocr": true,
+ "pages_sujet": 24,
+ "pages_total": 45,
+ "data": {
+  "parties": [
+   {
+    "titre_partie": "C- Etude de conception en construction",
+    "questions": [
+     {
+      "numero": "Q1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 9,
+      "tags": [],
+      "texte": "Q 1 Inscrire votre réponse dans le cadre R1 de la notice R 1/7. Sur le schéma cinématique partiel en deux dimensions du cadre R1 ne représentant que le rotor (5+21) , le plateau de commande (6+27), et la pale 20, faire apparaître les points D et O, l’angle de pas α et l’angle de pas au repos α 0 , la dimension e et le paramètre de translation y ."
+     },
+     {
+      "numero": "Q2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
+        "semestre": "S1"
+       }
+      ],
+      "page": 9,
+      "tags": [],
+      "texte": "Q 2 Inscrire votre réponse dans le cadre R2 de la notice R 1/7. En déduire la relation entre la translation de la commande y , l’angle de pas α et l’angle de pas au repos α 0 ."
+     },
+     {
+      "numero": "Q3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       }
+      ],
+      "page": 9,
+      "tags": [],
+      "texte": "Q 3 Inscrire votre réponse dans le cadre R3 de la notice R 1/7. Exprimer la course c du levier de commande en fonction de e , α min et α max . En vous aidant du Document 3 page D 3/11, déterminer par l’application numérique la valeur de la course c du levier de commande nécessaire pour contrôler l’angle de pas sur la plage souhaitée par le cahier des charges. Conclure sur la valeur de la course du levier de commande donnée dans le cahier des charges. T9/22 Tournez la page S.V.P.\u0001 C.2.2 - Etude de la fonction « S’adapter au rotor arrière » Objectif de l’étude L’objectif de cette partie est de déterminer les actions mécaniques subies par les pales (C.2.2.1). Ces actions mécaniques vont permettre d’en déduire des critères de dimensionnement pour le faisceau (C.2.2.2 et C.2.2.3). Ces sous-parties sont indépendantes. C.2.2.1 - Etude des efforts subis par les pales L’étude est menée avec le schéma d’architecture présenté sur le Document 4 page D 4/11. Un bilan des actions mécaniques montre que la pale 20 est soumise à : • des efforts aérodynamiques qui sont modélisés par un glisseur s’exerçant au point P. La résultante se décompose en une composante de portance Fportance \u0001 \u0001 selon y 5 et"
+     },
+     {
+      "numero": "Q4",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 11,
+      "tags": [],
+      "texte": "Q 4 Inscrire votre réponse dans le cadre R4 de la notice R 1/7. Commentez l’hypothèse sur les liaisons en A et B (premier alinéa des hypothèses) au regard de la solution technique apparaissant sur le Plan 1 page D 11/11."
+     },
+     {
+      "numero": "Q5",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       }
+      ],
+      "page": 11,
+      "tags": [],
+      "texte": "Q5 Inscrire votre réponse dans le cadre R5 de la notice R 1/7. Donner la forme de chacun des torseurs des actions mécaniques exercés \u0001 \u0001 \u0001 sur la pale 20 dans la base ( x 5 , y 5 , z 5 ) : {Τaéro } , {ΤA } , {ΤB } , {Τ29→ 20 } et {Τ27→ 20} ."
+     },
+     {
+      "numero": "Q6",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dynamique : Géométrie des masses",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Torseur cinématique",
+        "semestre": "S1"
+       }
+      ],
+      "page": 11,
+      "tags": [],
+      "texte": "Q 6 Inscrire votre réponse dans le cadre R6 de la notice R 2/7. \u0001 \u0001 \u0001 { } Exprimer le torseur cinématique V pale / bâti en G et dans la base ( x 5 , y 5 , z 5 ) de la pale dans son mouvement par rapport au bâti. Notations : On note m p la masse de la pale. On suppose que la matrice d’inertie de la pale écrite ⎡I1 0 0 ⎤ \u0001 \u0001 \u0001 ⎢ ⎥ au point G dans la base ( x 20 , y 20 , z20 ) est donné par : Ι pale (G) = ⎢ 0 I2 0 ⎥ ⎢⎣ 0 0 I3 ⎥⎦ \u0001 \u0001 \u0001 ( x , y ,z ) 20 20 20"
+     },
+     {
+      "numero": "Q7",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dynamique : Géométrie des masses",
+        "semestre": "S3"
+       }
+      ],
+      "page": 11,
+      "tags": [],
+      "texte": "Q 7 Inscrire votre réponse dans le cadre R7 de la notice R 2/7. Justifier la forme de l’opérateur d’inertie donnée ci-dessus. Notations : \u0001 ⎧ p20 /1 ⎫ On note {C20 /1} = ⎨ \u0001 ⎬ le torseur cinétique de la pale dans son mouvement par ⎩σ20 /1 ⎭G \u0001 \u0001 \u0001 \u0001 rapport au bâti, exprimé en G . Lorsque σ20 /1 (G) est exprimé dans la base ( x 5 , y 5 , z5 ) , les composantes de ce moment sont notées (σx ,σy ,σz ) . On a ainsi \u0001 \u0001 \u0001 \u0001 σ20 /1 (G) = σx x 5 + σy y 5 + σz z5 ."
+     },
+     {
+      "numero": "Q8",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+        "semestre": "S3"
+       }
+      ],
+      "page": 11,
+      "tags": [],
+      "texte": "Q 8 Inscrire votre réponse dans le cadre R8 de la notice R 2/7. \u0001 Donner l’expression de la résultante p20 /1 du torseur cinétique de la pale \u0001 \u0001 \u0001 dans son mouvement par rapport au bâti dans la base ( x 5 , y 5 , z 5 ) . \u0001 Donner l’expression du moment en G du torseur cinétique σ20 /1 (G) de la pale \u0001 \u0001 \u0001 dans son mouvement par rapport au bâti dans la base ( x 20 , y 20 , z 20 ) . Exprimer le torseur\u0001 cinétique \u0001 \u0001 de la pale dans son mouvement par rapport au bâti dans la base ( x 5 , y 5 , z 5 ) au point G . T11/22 Tournez la page S.V.P.\u0001 Notations : \u0001 ⎧d ⎫ On note {D20 /1} = ⎨ \u000120 /1 ⎬ le torseur dynamique de la pale dans son mouvement par ⎩δ 20 /1 ⎭G rapport au bâti, exprimé en G ."
+     },
+     {
+      "numero": "Q9",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+        "semestre": "S3"
+       }
+      ],
+      "page": 12,
+      "tags": [],
+      "texte": "Q 9 Inscrire votre réponse dans le cadre R9 de la notice R 2/7. \u0001 Exprimer la résultante d20 /1 du torseur dynamique de la pale dans son \u0001 \u0001 \u0001 mouvement par rapport au bâti dans la base ( x 5 , y 5 , z 5 ) . \u0001 \u0001 On note FC = −d20 /1 la force « équivalente » due à la résultante dynamique et exercée \u0001 sur la pale et FC = FC sa norme. (Cette force est parfois appelée force centrifuge)."
+     },
+     {
+      "numero": "Q10",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 12,
+      "tags": [],
+      "texte": "Q 10 Inscrire votre réponse dans le cadre R10 de la notice R 2/7. Application numérique : donner la valeur approchée de la force FC ."
+     },
+     {
+      "numero": "Q11",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+        "semestre": "S3"
+       }
+      ],
+      "page": 12,
+      "tags": [],
+      "texte": "Q 11 Inscrire votre réponse dans le cadre R11 de la notice R 2/7. \u0001 Exprimer le moment δ 20 /1 (G) du torseur dynamique en G et dans la base \u0001 \u0001 \u0001 ( x 5 , y 5 , z5 ) de la pale dans son mouvement par rapport au bâti. Donner les conditions possibles pour que ce moment soit nul au point G ."
+     },
+     {
+      "numero": "Q12",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+        "semestre": "S3"
+       }
+      ],
+      "page": 12,
+      "tags": [],
+      "texte": "Q 12 Inscrire votre réponse dans le cadre R12 de la notice R 3/7. Donner les trois équations obtenues en appliquant \u0001 \u0001 le\u0001 théorème de la résultante dynamique à la pale projeté dans la base ( x 5 , y 5 , z 5 ) . On se place désormais dans les conditions exprimées à la question Q11 : le moment dynamique de la pale est supposé nul en G ."
+     },
+     {
+      "numero": "Q13",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+        "semestre": "S3"
+       }
+      ],
+      "page": 12,
+      "tags": [],
+      "texte": "Q 13 Inscrire votre réponse dans le cadre R13 de la notice R 3/7. Donner les trois équations obtenues en appliquant le\u0001 théorème \u0001 \u0001 du moment dynamique au point G à la pale projeté dans la base ( x 5 , y 5 , z 5 ) ."
+     },
+     {
+      "numero": "Q14",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 12,
+      "tags": [],
+      "texte": "Q 14 Inscrire votre réponse dans le cadre R14 de la notice R 3/7. Compte tenu des équations obtenues aux questions Q12 et Q13, préciser parmi les composantes du torseur {Τ29→ 20 } celles qui sont essentielles au fonctionnement du rotor. T12/22 \u0001 \u0001"
+     },
+     {
+      "numero": "Q15",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+        "semestre": "S3"
+       }
+      ],
+      "page": 13,
+      "tags": [],
+      "texte": "Q 15 Inscrire votre réponse dans le cadre R15 de la notice R 3/7. On applique les conditions trouvées à la question précédente : toutes les composantes non essentielles du torseur {Τ29→ 20 } sont supposées nulles. Dans ce cas, résoudre et exprimer les torseurs d’actions mécaniques dans la liaison A {ΤA } et la liaison B {ΤB } ainsi que dans la liaison avec le faisceau \u0001 \u0001 \u0001 déformable {Τ29→ 20 } dans la base ( x 5 , y 5 , z 5 ) en fonction des efforts aérodynamiques et de l’effort de commande en D."
+     },
+     {
+      "numero": "Q16",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       }
+      ],
+      "page": 13,
+      "tags": [],
+      "texte": "Q 16 Inscrire votre réponse dans le cadre R16 de la notice R 3/7. \u0001 En supposant que le faisceau est une poutre cylindrique d’axe x1, encastrée au rotor en C’ et à la pale en C, déduire de la question Q14 le type de sollicitations prépondérantes subies par la poutre. \u0001 Dans la suite, on étudiera séparément deux types de sollicitations subies par le faisceau dans les parties C.2.2.2 et C.2.2.3. C.2.2.2 - Résistance du faisceau aux efforts exercés par la pale Dans cette partie, on s’intéresse au dimensionnement du faisceau vis à vis des efforts dus à la résultante dynamique de la pale uniquement. On adopte la modélisation présentée sur le Document 5 page D 4/11. Hypothèses : • L’action mécanique exercée par la pale sur le faisceau est essentiellement due à la résultante dynamique vue par la pale. Son torseur s’écrit donc : \u0001 ⎧ Fc x 5 ⎫ \u0001 {Τ20→ 29} = ⎨ 0 ⎬ avec FC > 0 . ⎩ ⎭C • La masse du faisceau est négligée. • Le faisceau 29 est étudié dans sa position « de repos », pour laquelle l’angle de pas α 0 est égal à 9°. • Le faisceau 29 est modélisé par une poutre cylindrique de révolution de longueur L f et de section circulaire S f , de diamètre D f . Une section de la \u0001 poutre est repé"
+     },
+     {
+      "numero": "Q17",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Résistance des matériaux : Torseur de cohésion",
+        "semestre": "S3"
+       }
+      ],
+      "page": 13,
+      "tags": [],
+      "texte": "Q 17 Inscrire votre réponse dans le cadre R17 de la notice R 4/7. En supposant que tous les efforts extérieurs exercés sur la pale sont connus, préciser quel(s) théorème(s) peut(peuvent) être utilisé(s) pour déterminer les sollicitations exercées sur la poutre-faisceau. T13/22 Tournez la page S.V.P.\u0001 { } On note Τcoh 1 (x) le torseur de cohésion dans la poutre à l’abscisse x ."
+     },
+     {
+      "numero": "Q18",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Résistance des matériaux : Torseur de cohésion",
+        "semestre": "S3"
+       }
+      ],
+      "page": 14,
+      "tags": [],
+      "texte": "Q 18 Inscrire votre réponse dans le cadre R18 de la notice R 4/7. Donner la forme (composantes non nulles) du torseur de cohésion Τcoh 1 (x) \u0001 \u0001 \u0001 { } dans la poutre au point H(x) dans la base ( x 5 , y 5 , z 5 ) . Quel(s) type(s) de sollicitation(s) subit la poutre ?"
+     },
+     {
+      "numero": "Q19",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 14,
+      "tags": [],
+      "texte": "Q 19 Inscrire votre réponse dans le cadre R19 de la notice R 4/7. Déduire des questions précédentes l’expression théorique de la contrainte normale dans la poutre, notée σ , en fonction de FC . On adopte pour le critère suivant un coefficient de sécurité noté s ."
+     },
+     {
+      "numero": "Q20",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 14,
+      "tags": [],
+      "texte": "Q 20 Inscrire votre réponse dans le cadre R20 de la notice R 4/7. Ecrire le critère de résistance élastique de la poutre en fonction de FC en faisant intervenir la résistance élastique Re et le coefficient de sécurité s . Pour l’application numérique, on prendra les valeurs suivantes : FC = 13 000 N et s = 1,2 ."
+     },
+     {
+      "numero": "Q21",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
+        "semestre": "S1"
+       }
+      ],
+      "page": 14,
+      "tags": [],
+      "texte": "Q 21 Inscrire votre réponse dans le cadre R21 de la notice R 4/7. Application numérique. Calculez la résistance élastique nécessaire à la tenue du faisceau à l’effort FC . C.2.2.3 - Etude des sollicitations liées à la commande de pas des pales Dans cette sous-étude, on ne s’intéresse qu’aux sollicitations créées du fait de la commande d’orientation des pales. La commande crée une rotation de la pale d’un angle α compris entre α min = −30° et α max = +48° . On adopte la modélisation présentée sur le Document 6 page D 5/11. Hypothèses : • Le faisceau 29 est modélisé par une poutre de section circulaire S f , de diamètre D f et de longueur L f . La première extrémité S f (x = 0) est fixée au rotor, et la seconde extrémité S f (x = L f ) est parfaitement solidaire de la pale. On note γ (x) l’angle de torsion de la section S f (x) repéré par rapport à la position au repos α 0 = 9° . On a donc : γ (x = 0) = 0 et γ (x = L f ) = α − α 0 • Le matériau constituant le faisceau 29 est assimilé à un matériau homogène isotrope dont le module de cisaillement équivalent est noté Geq = 70000MPa . T14/22 \u0001 \u0001 • La configuration de repos du faisceau 29 (faisceau non contraint) correspond à l’angle α 0"
+     },
+     {
+      "numero": "Q22",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Résistance des matériaux : Torseur de cohésion",
+        "semestre": "S3"
+       }
+      ],
+      "page": 15,
+      "tags": [],
+      "texte": "Q 22 Inscrire votre réponse dans le cadre R22 de la notice R 4/7. Donner l’expression du moment quadratique polaire I f en fonction des dimensions du faisceau 29. { } On note Τcoh 2 (x) le torseur de cohésion dans la poutre à la distance x ."
+     },
+     {
+      "numero": "Q23",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Résistance des matériaux : Torseur de cohésion",
+        "semestre": "S3"
+       }
+      ],
+      "page": 15,
+      "tags": [],
+      "texte": "Q 23 Inscrire votre réponse dans le cadre R23 de la notice R 4/7. Donner la forme (composantes non nulles) du torseur de cohésion Τcoh 2 (x) \u0001 \u0001 \u0001 { } dans la poutre 29 au point H(x) dans la base ( x 5 , y 5 , z 5 ) ."
+     },
+     {
+      "numero": "Q24",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Résistance des matériaux : Torseur de cohésion",
+        "semestre": "S3"
+       }
+      ],
+      "page": 15,
+      "tags": [],
+      "texte": "Q 24 Inscrire votre réponse dans le cadre R24 de la notice R 5/7. \u0001 Donner la relation entre le moment M (x) du torseur de cohésion dans le faisceau 29 et l’angle de rotation de la section γ (x) ."
+     },
+     {
+      "numero": "Q25",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       }
+      ],
+      "page": 15,
+      "tags": [],
+      "texte": "Q 25 Inscrire votre réponse dans le cadre R25 de la notice R 5/7. Donner l’expression du moment maximal M max en fonction du module de cisaillement Geq de la poutre 29, du moment quadratique polaire I f , des dimensions du faisceau 29, des valeurs de l’angle de pas α 0 , α min et α max ."
+     },
+     {
+      "numero": "Q26",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       }
+      ],
+      "page": 15,
+      "tags": [],
+      "texte": "Q 26 Inscrire votre réponse dans le cadre R26 de la notice R 5/7. En déduire l’expression de la contrainte de cisaillement maximale τ max dans la poutre-faisceau 29."
+     },
+     {
+      "numero": "Q27",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       }
+      ],
+      "page": 15,
+      "tags": [
+       "roulements",
+       "cotation / chaîne de cotes"
+      ],
+      "texte": "Q 27 Inscrire votre réponse dans le cadre R27 de la notice R 5/7. Application numérique : calculer la contrainte de cisaillement maximale τ max dans la poutre 29. C.2.3 - Etude de la fonction « Transmettre la puissance du moteur au rotor arrière » et de la sous-fonction FP1.2 « Permettre la rotation des arbres ». Objectif de l’étude L’objectif de cette partie est de déterminer les actions mécaniques supportées par la liaison pivot entre le carter 1 et l’arbre d’entrée 7 de la BTA (C.2.3.1) (les références des pièces sont celles du Document 1 page D 2/11). Ces actions mécaniques vont permettre de vérifier que la durée de vie des roulements qui T15/22 Tournez la page S.V.P.\u0001 réalisent cette liaison est conforme au cahier des charges (C.2.3.2). Enfin, on s’intéressera plus particulièrement au couvercle 3 du carter, à sa cotation et à sa fabrication (C.2.3.3). Ces trois sous-parties sont indépendantes. C.2.3.1 - Etude des efforts dans la liaison pivot L’étude est menée à partir du schéma d’architecture présenté sur le Document 7 page D 6/11. Le guidage en rotation de l’arbre 7 dans le boîtier 2, réalisé par deux roulements à rouleaux coniques montés en « O », est modélisé par deux liai"
+     },
+     {
+      "numero": "Q28",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
+        "semestre": "S1"
+       }
+      ],
+      "page": 16,
+      "tags": [
+       "engrenages"
+      ],
+      "texte": "Q 28 Inscrire votre réponse dans le cadre R28 de la notice R 5/7. En isolant l’arbre d’entrée\u0001 7 de la BTA et en projetant le théorème du moment statique sur l’axe z 0 , déduire la relation entre le couple d’entrée Ce , \u0001 la composante FT du glisseur FS et le rayon primitif R p du pignon conique définis au Document 8 page D 6/11. \u0001"
+     },
+     {
+      "numero": "Q29",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       }
+      ],
+      "page": 16,
+      "tags": [],
+      "texte": "Q 29 Inscrire votre réponse dans le cadre R29 de la notice R 5/7. A partir des données géométriques\u0001 du Document 8 page D 6/11, écrire \u0001 l’effort radial FR , composante de FS suivant y 0 , en fonction de l’effort tangentiel FT et des angles φ et δ . \u0001 \u0001 \u0001 \u0001 T16/22 \u0001 \u0001"
+     },
+     {
+      "numero": "Q30",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       }
+      ],
+      "page": 17,
+      "tags": [],
+      "texte": "Q 30 Inscrire votre réponse dans le cadre R30 de la notice R 6/7. A partir des données géométriques\u0001 du Document 8 page D 6/11, écrire \u0001 l’effort axial FA , composante de FS suivant z 0 , en fonction de l’effort tangentiel FT et des angles φ et δ . \u0001"
+     },
+     {
+      "numero": "Q31",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Statique : Hyperstatisme",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 17,
+      "tags": [],
+      "texte": "Q 31 Inscrire votre réponse dans le cadre R31 de la notice R 6/7. Application numérique : calculer les valeurs algébriques maximales de FT , FR , FA . On pourra s’aider du document 3 page D 3/11. \u0001 Pour traiter la suite, on suppose qu’une étude statique de l’arbre 7 a été menée dont on admettra les résultats. En particulier l’écriture de l’équilibre de l’arbre 7, soumis aux actions \u0001 mécaniques dans les liaisons sphériques de centres respectifs E et \u0001 F, au glisseur F S de 5 sur 7 appliqué au point S et au couple d’entrée de la BTA \u0001 Ce → 7 = Ce . z0 , a permis de déterminer une partie des inconnues de liaison en E et F. On a alors les résultats suivants : • Torseur d’efforts dans la liaison sphérique en E (valeurs en Newton) : ⎧ −80 0 ⎫ ⎪ ⎪ {F E bati−>7} = ⎨ −80 0⎬ ⎪ E ⎪ ⎩ −Fz 0 ⎭(E,x\u00010 ,y\u00010 ,z\u00010 ) • Torseur d’efforts dans la liaison sphérique en F (valeurs en Newton): ⎧ 480 0 ⎫ ⎪ ⎪ {F F bati−>7} = ⎨−20 0⎬ ⎪ F ⎪ ⎩ Fz 0 ⎭(F,x\u0001 ,y\u0001 ,z\u0001 ) 0 0 0 • Le montage étant hyperstatique, on ne peut déterminer complètement les composantes FzE > 0 et FzF > 0 qui vérifient cependant le théorème de la \u0001 résultante statique en projection sur z0 \u0001: −FzE + FzF −100 = 0 . Remarque : quelles que soient"
+     },
+     {
+      "numero": "Q32",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 18,
+      "tags": [
+       "roulements"
+      ],
+      "texte": "Q 32 Inscrire votre réponse dans le cadre R32 de la notice R 6/7. Pour le roulement E, calculez numériquement en suivant la démarche constructeur donnée au Document 9 page D 7/11 les efforts radial FRE et E axial Fz . En déduire la charge équivalente P E sur le roulement E. \u0001"
+     },
+     {
+      "numero": "Q33",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 18,
+      "tags": [
+       "roulements"
+      ],
+      "texte": "Q 33 Inscrire votre réponse dans le cadre R33 de la notice R 6/7. En déduire l’expression de la durée de vie du roulement E en millions de tours. Faites l’application numérique approchée en années en supposant un fonctionnement de 12 heures par jour et commenter. \u0001"
+     },
+     {
+      "numero": "Q34",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       }
+      ],
+      "page": 18,
+      "tags": [
+       "précharge / précontrainte",
+       "roulements",
+       "cotation / chaîne de cotes"
+      ],
+      "texte": "Q34 Inscrire votre réponse dans le cadre R34 de la notice R 6/7. Quelle serait l’influence d’une précharge axiale du montage de roulements sur la durée de vie des roulements ? C.2.3.3 - Etude de la cotation et de la fabrication du couvercle 3 Les études précédentes, combinées à d’autres calculs par modèles éléments finis ont permis de conclure que la contrainte équivalente maximale qui s’exerce sur le couvercle 3 de la BTA est de près de 80 MPa."
+     },
+     {
+      "numero": "Q35",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Matériaux : Choix",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Matériaux : Propriétés physiques et mécaniques",
+        "semestre": "S3"
+       }
+      ],
+      "page": 18,
+      "tags": [
+       "fonderie / moulage",
+       "usinage"
+      ],
+      "texte": "Q35 Inscrire votre réponse dans le cadre R35 de la notice R 6/7. Après avoir rappelé la signification de la désignation normalisée EN AC- AlSi12, conclure sur la possibilité d’utiliser ce matériau. Proposer un autre matériau, et préciser la signification de la désignation normalisée employée. Le couvercle 3 étant produit en petites séries et le prix matière de l’alliage employé étant élevé, la pièce brute est d’abord obtenue par moulage au sable qui est ensuite reprise en usinage. \u0001"
+     },
+     {
+      "numero": "Q36",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       }
+      ],
+      "page": 18,
+      "tags": [
+       "fonderie / moulage"
+      ],
+      "texte": "Q36 Inscrire votre réponse dans le cadre R36 de la notice R 7/7. Sur le dessin de définition du couvercle 3 du cadre R36, ajouter les surépaisseurs nécessaires pour l’obtention du brut par moulage au sable. On placera également le plan de joint en traits pointillés. Parmi les contraintes géométriques dues à la liaison encastrement avec le carter 1 qui doivent être maîtrisées, il faut entre autres imposer : • une contrainte de planéité de la surface en appui plan avec le carter 1, • une contrainte de perpendicularité du cylindre réalisant le centrage par rapport à la surface en appui plan avec le carter 1. T18/22 \u0001 \u0001 \u0001"
+     },
+     {
+      "numero": "Q37",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+        "semestre": "S2"
+       }
+      ],
+      "page": 19,
+      "tags": [
+       "dessin / conception sur calque"
+      ],
+      "texte": "Q 37 Inscrire votre réponse dans le cadre R37 de la notice R 8/8. Compléter le dessin de définition partiel du couvercle 3 du cadre R37 en faisant apparaître ces deux tolérances géométriques. Il ne s’agit pas ici de quantifier l’étendue de la zone de tolérance ; elle sera notée « t ». C.3 - Dessin d’étude de construction mécanique C.3.1 - Présentation du support de travail Consignes spécifiques Pour cette partie de l’étude, il est demandé de compléter le calque 1 fourni avec le sujet. La zone 1 du calque 1 est destinée à la conception du guidage en rotation de l’arbre d’entrée 7 de la BTA par rapport au carter 1 (C.3.3) Echelle 3:4. La zone 2 du calque 1 est destinée à la conception de l’encastrement entre l’axe de commande 6 et le plateau de commande de pas 27 (C.3.4) Echelle 3:4. La zone 3 du calque 1 est destinée à la conception de la liaison entre le pied de la pale 20 et le faisceau 29 (C.3.5) Echelle 3:4. \u0007\u0013\u0018\u0015\u0001\u0010 \u0001 \u0016\u0013\u000f\u0012\u0001 \u0001\u0010! \u0014\u0015 \u0018\u0019 \u0003\u0001 \u0015\u0017 \u000f\u0012 \u0016\u0001\u0014 \u0015\u0017\u000f \u0016\u0001 \u0006 \u0001\u0015\u0013\u0017\u0013\u0015\u0001 \u0016\u0017\u0001\u0015 \u0014\u0015 \u0016 \u0012\u0017 \u0001 \u0012\u0001\u0014\u0013\u0016\u000f\u0017\u000f\u0013\u0012\u0001 \u0018\u0001\u0014\u0010 \u0012\u0001\u000f\u0012\u000f\u0017\u000f \u0010\u0001\u0013\u0012\u0017\u0001 \u0017 \u0001\u0016\u0018\u0014\u0014\u0015\u000f\u0011 \u0016\u0001\u0013\u0018\u0001\u0011\u0013 \u000f\u000e\u000f \u0016 \u000e \u000f\u0016 \u0018\u001a\u0001\u0017\u0013\u0015\u0016\u000f \u0010 \u0016\u0001\u0012\u0013\u0012\u0001 \u0013\u0012\u0017\u0015 \u000f\u0012\u0017\u0016 \u0013\u0015\u0015 \u0016\u0014\u0013\u0012 \u0012\u0017\u0001 \u0001\u0018\u0012\u0001\u0014 \u0016\u0001 \u0001\u0002\u0004 \u001a\u0001 \u0001 \u001b\u0001 ZONE 1 \u0005\u0019 \u0012\u0017\u0001 \u0001\u0010! \u0014\u0014 \u0015 \u000f\u0010 ZONE 3 \u0001 \u0002 \u0001 \u001a\u0002 ZONE 2 \u001b\u0002 CALQUE 1 T19/22 Tournez la pa"
+     },
+     {
+      "numero": "Q38",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Matériaux : Propriétés physiques et mécaniques",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+        "semestre": "S2"
+       }
+      ],
+      "page": 20,
+      "tags": [
+       "roulements",
+       "étanchéité",
+       "engrenages",
+       "lubrification",
+       "fonderie / moulage",
+       "tolérances géométriques",
+       "dessin / conception sur calque"
+      ],
+      "texte": "Q 38 Inscrire votre réponse dans la zone 1 du calque 1 de format A3. Dessiner aux instruments, sur la vue prédéfinie, vos propositions de solutions pour répondre aux spécifications demandées par le constructeur : - Guidage en rotation de l’arbre d’entrée 7 par rapport au bâti 1 à l’aide des deux roulements dont les caractéristiques sont données dans le tableau 1 page D 8/11. - Réglage (au montage) de la position axiale du pignon conique : pour cela le carter sera réalisé en deux parties encastrées l’une à l’autre. - Lubrification des éléments roulants et étanchéité vis-à-vis du milieu extérieur. - Réduction de la masse embarquée. T20/22 \u0001 \u0001 C.3.4 - Conception de l’encastrement entre l’axe de commande 6 et le plateau de commande de pas 27 Il s’agit ici de concevoir la liaison encastrement entre l’axe de commande 6 et le plateau de commande de pas 27. Compte tenu des efforts transmis, une étude préalable a permis de retenir le principe d’une solution par emmanchement conique. Données : Toutes les pièces ou parties de pièces déjà représentées ne doivent pas être modifiées. Le plateau de commande est moulé en alliage d’aluminium, l’axe de commande est en acier. Position de représentati"
+     },
+     {
+      "numero": "Q39",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Statique : Frottements",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Procédés : Composites",
+        "semestre": "S2"
+       }
+      ],
+      "page": 21,
+      "tags": [
+       "tolérances géométriques",
+       "dessin / conception sur calque"
+      ],
+      "texte": "Q 39 Inscrire votre réponse dans la zone 2 du calque 1 de format A3. Dessiner aux instruments, sur la vue prédéfinie, vos propositions de solutions pour répondre aux spécifications demandées par le constructeur: - Solution par emmanchement conique pour transmettre les efforts entre l’axe de commande 6 et le plateau de commande 27. - Possibilité de réglage (au montage) de la position axiale du plateau de commande 27 par rapport à l’axe de commande 6. - Réduction de la masse embarquée. T21/22 Tournez la page S.V.P.\u0001 \u0001 C.3.5 - Conception de la liaison entre le pied de la pale 20 et le faisceau 29 Il s’agit ici de concevoir la liaison entre le pied de la pale 20 et le faisceau flexible 29. Compte tenu des matériaux de la pale et du faisceau (composite), ceux-ci ne peuvent pas être filetés. Seuls des perçages peuvent être réalisés. Le principe retenu pour la liaison est celui d’un entrainement par adhérence, assuré par boulons, à l’image de celui proposé pour la liaison entre le faisceau et l’axe rotor. Données : Toutes les pièces ou parties de pièces déjà représentées ne doivent pas être modifiées. Le faisceau et la pale sont en matériau composite stratifié. Positions de représentation"
+     },
+     {
+      "numero": "Q40",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 22,
+      "tags": [
+       "tolérances géométriques",
+       "dessin / conception sur calque"
+      ],
+      "texte": "Q 40 Inscrire votre réponse dans la zones 3 du calque 1 de format A3. Dessiner aux instruments, sur les deux vues prédéfinies, vos propositions de solutions pour répondre aux spécifications demandées par le constructeur : - Liaison entre le pied de la pale et le faisceau - Réduction de la masse embarquée. T22/22 \u0001 \u0001 IN CHOISY – 12 1035 – D’après documents fournis"
+     }
+    ]
+   }
+  ]
+ }
+}

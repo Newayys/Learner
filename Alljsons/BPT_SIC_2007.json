@@ -1,0 +1,589 @@
+{
+ "concours": "Banque PT",
+ "filiere": "SIC",
+ "date": "2007",
+ "file": "BPT_SIC_2007.pdf",
+ "status": 200,
+ "source": "banquept.fr, rubrique « Annales d'annales » (rubrique23.html)",
+ "epreuve_originale": "SI C",
+ "classification": "automatique par mots-clés (Claude, oct. 2026) — moins fine que celle des sujets récents",
+ "decoupage_questions": "Question",
+ "texte_ocr": true,
+ "pages_sujet": 12,
+ "pages_total": 24,
+ "data": {
+  "parties": [
+   {
+    "titre_partie": "Partie 1 : Etude du séquencement des opérations de changement de bobine",
+    "questions": [
+     {
+      "numero": "Q1.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Systèmes séquentiels : Diagramme d'états",
+        "semestre": "S1"
+       }
+      ],
+      "page": 3,
+      "tags": [
+       "grafcet"
+      ],
+      "texte": "Question 1.1 : Donner l’état initial du système correspondant à la situation initiale de votre GRAFCET."
+     },
+     {
+      "numero": "Q1.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Statique : Frottements",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Systèmes séquentiels : Diagramme d'états",
+        "semestre": "S1"
+       }
+      ],
+      "page": 3,
+      "tags": [
+       "embrayage / frein",
+       "courroie / chaîne",
+       "grafcet"
+      ],
+      "texte": "Question 1.2 : A partir de l’inventaire des entrées/sorties données ci-dessus, établir le GRAFCET de changement de la bobine 1 à la bobine 2. Tournez la page S.V.P. −4− Partie 2 : Etude du mécanisme de frein asservi Le mécanisme de frein asservi, utilisé pour réguler la vitesse de rotation des bobines, est un système à courroie. Dans cette partie nous allons étudier le fonctionnement d’une transmission par courroie pour ensuite analyser le système de régulation utilisé. 2.a Etude simplifiée d’une transmission par courroie La courroie est un lien flexible réunissant deux poulies en liaison pivot par rapport au bâti. Cette transmission de puissance se fait par l'intermédiaire de l'adhérence entre la courroie et les poulies. Nous nous plaçons dans le cas d’une courroie de faible épaisseur appelée généralement courroie plate. La figure 6 présente, de façon schématique, une transmission par courroie et les paramètres géométriques et cinématiques permettant de réaliser les études proposées. Figure 6 : transmission par courroie."
+     }
+    ]
+   },
+   {
+    "titre_partie": "Partie 2 : Etude du mécanisme de frein asservi",
+    "questions": [
+     {
+      "numero": "Q2.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+        "semestre": "S1"
+       }
+      ],
+      "page": 4,
+      "tags": [
+       "ressort",
+       "courroie / chaîne"
+      ],
+      "texte": "Question 2.1 : Etude géométrique : en supposant la courroie inextensible, calculer la longueur de celle-ci en fonction des paramètres géométriques suivants : e, rm, rr, β et α. Les expressions de β et α seront précisées en fonction e, rm et rr. Pourquoi faut-il déterminer cette relation? Justifier l’utilisation d’un ressort pour le système de régulation, présenté sur le Document ressource III."
+     },
+     {
+      "numero": "Q2.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
+        "semestre": "S1"
+       }
+      ],
+      "page": 4,
+      "tags": [
+       "courroie / chaîne"
+      ],
+      "texte": "Question 2.2 : Etude cinématique : en supposant que la courroie s'enroule sans glisser sur les poulies et qu'elle est inextensible, déterminer la loi entrée-sortie ωr / ωm ?"
+     },
+     {
+      "numero": "Q2.3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
+        "semestre": "S1"
+       }
+      ],
+      "page": 4,
+      "tags": [
+       "engrenages",
+       "courroie / chaîne"
+      ],
+      "texte": "Question 2.3 : Citer quelques utilisations de transmissions par courroies. Quels sont les avantages et inconvénients des transmissions par courroies par rapport aux transmissions par engrenages ? T2 Cr T1 Figure 7 : calcul du couple transmis."
+     },
+     {
+      "numero": "Q2.4",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+        "semestre": "S1"
+       }
+      ],
+      "page": 4,
+      "tags": [
+       "courroie / chaîne"
+      ],
+      "texte": "Question 2.4 : En notant T2 et T1 (figure 7), les tensions dans les deux brins (T2 ≥ T1), donner l’expression des couples des actions de la courroie sur les 2 poulies : Cm et Cr (motrice et réceptrice). La démarche utilisée sera précisée. −5−"
+     },
+     {
+      "numero": "Q2.5",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Statique : Frottements",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Énergétique : Puissance et rendement",
+        "semestre": "S3"
+       }
+      ],
+      "page": 5,
+      "tags": [
+       "courroie / chaîne"
+      ],
+      "texte": "Question 2.5 : En utilisant les résultats de la partie 2.2, calculer le rendement de la transmission. Commenter le résultat. 2.b Etude de l’influence du coefficient de frottement poulie - courroie dF n dψ/2 dψ/2 t dψ Tg Td Figure 8 : isolement d’un élément de courroie - notations."
+     },
+     {
+      "numero": "Q2.6",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+        "semestre": "S3"
+       }
+      ],
+      "page": 5,
+      "tags": [
+       "courroie / chaîne"
+      ],
+      "texte": "Question 2.6 : Isolement d’un petit élément de courroie. Le repère lié au bâti est supposé galiléen et l'action de la pesanteur est négligée par rapport aux autres actions. Avec ces hypothèses écrire les équations issues du principe fondamental de la dynamique en isolant un élément de courroie de longueur ds = rdψ (r étant le rayon de la poulie) ; la figure 8 précise les notations pour cette étude. → → → T g et T d sont les tensions des parties gauche et droite de la courroie, d F est l'action de la poulie sur l’élément de courroie."
+     },
+     {
+      "numero": "Q2.7",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+        "semestre": "S1"
+       }
+      ],
+      "page": 5,
+      "tags": [
+       "courroie / chaîne"
+      ],
+      "texte": "Question 2.7 : Equations linéarisées au premier ordre. En supposant que la poulie tourne à vitesse constante écrire les deux équations scalaires après linéarisation au premier ordre. Les notations suivantes seront utilisées : → → → dT dT d F = pds n - tds t ; Tg = T - 2 et Td = T + 2"
+     },
+     {
+      "numero": "Q2.8",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Statique : Frottements",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       }
+      ],
+      "page": 5,
+      "tags": [
+       "roulements",
+       "courroie / chaîne"
+      ],
+      "texte": "Question 2.8 : Relation caractéristique à la limite du glissement. En se plaçant à la limite du glissement entre la courroie et la poulie (f = cte coefficient de frottement poulie-courroie) ; en négligeant les effets dynamiques (masse volumique de la courroie supposée nulle) et en notant α l'arc d'enroulement de la poulie sur la courroie écrire la relation entre les tensions de la courroie et les paramètres du problème. Commenter le résultat obtenu. 2.c Etude de système de régulation de tension du papier Pour assurer la tension du papier, un système utilisant une courroie est utilisé (Documents ressources I et III). La vitesse linéaire de la courroie est inférieure de 1,5% à la vitesse linéaire du papier. Ceci assure un glissement permanent entre la courroie et le papier. Le rouleau de papier peut donc être considéré comme la poulie. Le modèle d’étude est présenté figure 9 (Document ressource IV). En appelant δ l’angle « d’enroulement », Ti la tension du brin « i » de la courroie et μ le coefficient de frottement entre la courroie et la bobine de papier, à la limite du glissement, et pour des « glissements faibles » nous T2 avons la relation suivante : T = eμδ 1"
+     },
+     {
+      "numero": "Q2.9",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+        "semestre": "S1"
+       }
+      ],
+      "page": 5,
+      "tags": [
+       "courroie / chaîne"
+      ],
+      "texte": "Question 2.9 : Calculer le couple Cf qu’exerce la courroie sur le rouleau de papier en fonction de T1, ρ, δ, μ. Tournez la page S.V.P. −6−"
+     },
+     {
+      "numero": "Q2.10",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       }
+      ],
+      "page": 6,
+      "tags": [],
+      "texte": "Question 2.10 : En supposant que T1 = cte, donner l’évolution de Cf en fonction de δ pour ρ = cte puis en fonction de ρ pour δ = cte."
+     },
+     {
+      "numero": "Q2.11",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Capteurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Accélérations",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+        "semestre": "S1"
+       }
+      ],
+      "page": 6,
+      "tags": [
+       "roulements",
+       "courroie / chaîne"
+      ],
+      "texte": "Question 2.11 : Justifier l’utilisation d’un angle de contact important entre la courroie et le rouleau de papier (Documents ressources I et II) pour assurer l’accélération du rouleau ? 2.d Dimensionnement du levier de mesure de la tension du papier La tension du papier est un paramètre très important pour la qualité de l’impression ; ainsi, il est nécessaire de bien contrôler cette tension. Un système d’asservissement est donc nécessaire. Le système de mesure de la tension du papier est présenté figure 10 (Document ressource IV). Ce dispositif est placé juste après le déroulement du papier. Le modèle d’étude est représenté figure 11 (Document ressource IV)."
+     },
+     {
+      "numero": "Q2.12",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Accélérations",
+        "semestre": "S1"
+       }
+      ],
+      "page": 6,
+      "tags": [],
+      "texte": "Question 2.12 : Sans réaliser de calcul expliquer rapidement le fonctionnement de ce système de régulation de tension du papier. Quel est l’influence des actions de pesanteur sur le système de → régulation (l’accélération de la pesanteur étant dirigée suivant la direction - y ). La figure 12 présente le modèle pour l’étude permettant de dimensionner le levier. Figure 12 : levier. → →"
+     },
+     {
+      "numero": "Q2.13",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Résistance des matériaux : Torseur de cohésion",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 6,
+      "tags": [],
+      "texte": "Question 2.13 : Le levier (AOB) est en équilibre sous l’action des deux forces F x et F y en position définie par Θ = 0 (figure 11). En supposant la liaison pivot parfaite, exprimer le torseur des efforts intérieur en fonction de Fy dans les deux parties (AO) et (OB)."
+     },
+     {
+      "numero": "Q2.14",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       }
+      ],
+      "page": 6,
+      "tags": [],
+      "texte": "Question 2.14 : Donner la sollicitation principale dans les deux parties (AO) et (OB)."
+     },
+     {
+      "numero": "Q2.15",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       }
+      ],
+      "page": 6,
+      "tags": [],
+      "texte": "Question 2.15 : Donner la répartition des contraintes dans une section de la partie (OB). Expliciter les différents termes utilisés."
+     },
+     {
+      "numero": "Q2.16",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+        "semestre": "S1"
+       }
+      ],
+      "page": 6,
+      "tags": [
+       "ressort",
+       "embrayage / frein",
+       "courroie / chaîne",
+       "tolérances géométriques",
+       "hydraulique"
+      ],
+      "texte": "Question 2.16 : En supposant des poutres (AO) et (OB) de section constante, quelles sont les sections les plus sollicitées ? Proposer un critère de dimensionnement de ces poutres. −7− Partie 3 : Etude de la réalisation de modification de la tension du papier. Le système de réglage de la tension du papier est composé d’un frein à courroie (étudié dans la partie 2) et d’un système de contre poids régulé par un ressort. Les ingénieurs ont décidé de remplacer ce mécanisme à ressort par un vérin asservi en effort (figure 13). En effet, la régulation de tension du papier n’est pas assez constante et provoque des déchirements du papier lors des phases de production maximale. Ce nouveau système, s’il donne satisfaction, équipera à terme, l’ensemble des 7 unités des 6 rotatives, soit la réalisation de 42 ensembles. Figure 13 : système à ressort et système à vérin asservi. Pour cela, une pièce d’adaptation du vérin sur la rotative a été conçue. Son dessin de définition partiel est fourni document ressource V. 3.a Analyse des spécifications"
+     }
+    ]
+   },
+   {
+    "titre_partie": "Partie 3 : Etude de la réalisation de modification de la tension du papier.",
+    "questions": [
+     {
+      "numero": "Q3.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+        "semestre": "S2"
+       }
+      ],
+      "page": 7,
+      "tags": [],
+      "texte": "Question 3.1 : Sur la copie, expliciter la tolérance 75±0,5 extraite du dessin de définition partiel Document ressource V."
+     },
+     {
+      "numero": "Q3.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       }
+      ],
+      "page": 7,
+      "tags": [
+       "tolérances géométriques"
+      ],
+      "texte": "Question 3.2 : Sur les Documents réponses I, II et III « analyse des spécifications » expliciter les 3 tolérances extraites du dessin de définition partiel Document ressource V en respectant la décomposition suivante : • Donner le nom de la caractéristique tolérancée. • Définir les éléments tolérancés. • Définir les éléments de référence. • Définir les références spécifiées. • Définir la forme de la (ou des) zone(s) de tolérance et les contraintes d’orientation et/ou de position de la (ou des) zone(s) de tolérance par rapport au système de références spécifiées. 3.b Etude de l’obtention du brut"
+     },
+     {
+      "numero": "Q3.3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
+        "semestre": "S3"
+       }
+      ],
+      "page": 7,
+      "tags": [
+       "soudage / mécano-soudé"
+      ],
+      "texte": "Question 3.3 : Donner la signification du matériau : C25 Le brut est obtenu par soudage à l’arc de différents éléments standards tels que plaques, barres ou profilés. Une étude statique a permis de déterminer les épaisseurs de la plaque et la section du bras : Plaque Épaisseur Longueur (en mm) Largeur (en mm) 20 jusqu’à 500 50, 75, 100, 150 Type profilé (en mm) Longueur (en m) Hexagonal plein Plat de 30 Jusqu’à 6 m Tournez la page S.V.P. −8−"
+     },
+     {
+      "numero": "Q3.4",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       }
+      ],
+      "page": 8,
+      "tags": [],
+      "texte": "Question 3.4 : Proposer une gamme de fabrication de la pièce brute sous forme d’une liste de procédés et en donnant les principales dimensions des éléments choisis."
+     },
+     {
+      "numero": "Q3.5",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       }
+      ],
+      "page": 8,
+      "tags": [
+       "soudage / mécano-soudé"
+      ],
+      "texte": "Question 3.5 : Donner les domaines d’applications de la soudure à l’arc. Le choix pour l’application proposée vous semble-t-il pertinent ; justifier votre réponse."
+     },
+     {
+      "numero": "Q3.6",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 8,
+      "tags": [
+       "soudage / mécano-soudé",
+       "usinage",
+       "hydraulique"
+      ],
+      "texte": "Question 3.6 : Lors du soudage du profilé sur la plaque, quel type de défaut géométrique peut apparaître ? 3.c Etude de l’usinage. Les différents usinages à réaliser sur la pièce sont les suivants (voir Document ressource V) • Usinage du plan inférieur repéré Pi1. • Usinage des 2 flans de la plaque Fl2 et Fl4, les flancs Fl1 et Fl3 restent bruts. • Perçage des quatre trous de fixation repérés T1, T2, T3 et T4 et des lamages L1, L2, L3 et L4. • Usinage des deux plans parallèles Pp2 et Pp3. • Usinage de la face supérieure du profilé Fp. • Perçage de l’axe de maintien du vérin A1. La machine utilisée est un centre d’usinage 4 axes à broche horizontale disposant d’un plateau tournant (3 translations X, Y, Z et une rotation B autour de Y)."
+     },
+     {
+      "numero": "Q3.7",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       }
+      ],
+      "page": 8,
+      "tags": [],
+      "texte": "Question 3.7 : Sur le Document réponse IV, proposer une mise en position qui permet la réalisation de l’ensemble des surfaces en un seul posage."
+     },
+     {
+      "numero": "Q3.8",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       }
+      ],
+      "page": 8,
+      "tags": [
+       "usinage"
+      ],
+      "texte": "Question 3.8 : Sur le Document réponse IV, proposer les différentes orientations de la pièce permettant d’usiner l’ensemble des surfaces. Pour chacune des orientations, vous noterez le repère machine et colorierez les surfaces usinées."
+     },
+     {
+      "numero": "Q3.9",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
+        "semestre": "S3"
+       }
+      ],
+      "page": 8,
+      "tags": [
+       "soudage / mécano-soudé",
+       "usinage"
+      ],
+      "texte": "Question 3.9 : Sur le Document réponse IV, donner les différentes opérations et la liste des outils permettant l’obtention de chaque surface. Liste des outils disponibles : • Fraises à surfacer ∅ 50, 63, 80 100, 125 mm • Forets à pointer ∅ 8, 10 mm • Forets hélicoïdaux ∅ 8 à 18 mm tous les 1/10ème de mm • Fraises deux tailles ∅ 20, 25, 40, 50 mm • Alésoirs ∅ 10, 12, 18, 20 mm • Fraises à lamer ∅ 24.2 x 18, 28 x 18 mm 3.d Etude du montage d’usinage. Pour réaliser la pièce, il est nécessaire de réaliser un montage d’usinage pour assurer la mise et le maintien en position. Pour cette partie, nous étudierons seulement la mise en position. Le montage d’usinage est réalisé par mécano-soudage de plaques, barres ou profilés puis usinage."
+     },
+     {
+      "numero": "Q3.10",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       }
+      ],
+      "page": 8,
+      "tags": [
+       "usinage",
+       "hydraulique"
+      ],
+      "texte": "Question 3.10 : A partir du Document réponse IV représentant le plateau de la machine 4 axes, dessinez, à main levée, une vue en perspective de l’allure du montage d’usinage. Un soin particulier sera apporté aux formes générales et à l’accessibilité des surfaces à usiner. −9− Partie 4 : Etude de conception axe de rouleau liaison tendeur cylindre du levier droit levier droit vérin asservi bâti plaque droite Figure 14 : système à vérin asservi. On propose de re-concevoir le montage du système de régulation de la tension du papier utilisant le système asservi à vérin (figure 14). En effet, une des difficultés rencontrées lors de la maintenance de cet ensemble est liée au fait que le démontage d’un axe de liaison nécessite le démontage d’un nombre important de pièces très difficilement accessibles. Ainsi, souvent des techniques de réparations spécifiques sont proposées pour limiter le temps de maintenance. Le Document ressource VI présente l’architecture du bâti du porte bobine. Afin de simplifier l’étude, le bâti de la machine (bâti plaque droite + bâti plaque gauche, figure 14) est considéré comme constitué de deux plaques verticales (naturellement reliées rigidement entre elles). Ce"
+     }
+    ]
+   },
+   {
+    "titre_partie": "Partie 4 : Etude de conception",
+    "questions": [
+     {
+      "numero": "Q4.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 10,
+      "tags": [
+       "roulements"
+      ],
+      "texte": "Question 4.1 : Sur la copie, justifier rapidement le choix des types de roulements et du montage associé que vous proposez pour concevoir la liaison pivot entre l’axe de liaison et le bâti."
+     },
+     {
+      "numero": "Q4.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 10,
+      "tags": [
+       "roulements",
+       "dessin / conception sur calque"
+      ],
+      "texte": "Question 4.2 : Dessiner, sur le Document réponse V, un avant projet du système. Pour cette étude la contrainte d’accessibilité du système n’est pas prise en compte ; c’est-à- dire que pour le montage des différentes pièces, aucune contrainte d’encombrement n’est imposée. L’objectif est de proposer une solution technique permettant de répondre au cahier des charges, seulement pour la partie fonctionnement. Les différentes vues nécessaires à la compréhension de la solution proposée seront réalisées. Le dimensionnement des liaisons n’est pas demandé, par contre les dimensions doivent être en accord avec les sollicitations. De plus, il est demandé de respecter approximativement les dimensions des éléments utilisés (roulements, vis…). La qualité de la représentation graphique sera aussi évaluée."
+     },
+     {
+      "numero": "Q4.3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       }
+      ],
+      "page": 10,
+      "tags": [],
+      "texte": "Question 4.3 : Proposer sur la copie, sous forme de schéma réalisé à main levée, le principe d’une solution technique prenant en compte la contrainte d’accessibilité du système, en particulier pour les phases de maintenance. L’accessibilité du système est limitée au volume compris entre les plaques droite et gauche du bâti ; c’est-à-dire qu’un axe de liaison réalisé en une seule partie ne peut pas être démonté, lors des phases de maintenance. Le choix de solutions limitant le coût de fabrication sera recherché. Justifier rapidement les choix réalisés. Préciser, si nécessaire, les précautions à prendre pour le montage du système."
+     }
+    ]
+   }
+  ]
+ }
+}

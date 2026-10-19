@@ -1,0 +1,713 @@
+{
+ "concours": "Banque PT",
+ "filiere": "SIA",
+ "date": "2006",
+ "file": "BPT_SIA_2006.pdf",
+ "status": 200,
+ "source": "banquept.fr, rubrique « Annales d'annales » (rubrique23.html)",
+ "epreuve_originale": "SI A",
+ "classification": "automatique par mots-clés (Claude, oct. 2026) — moins fine que celle des sujets récents",
+ "decoupage_questions": "Question",
+ "texte_ocr": true,
+ "pages_sujet": 29,
+ "pages_total": 35,
+ "data": {
+  "parties": [
+   {
+    "titre_partie": "Pages 6",
+    "questions": [
+     {
+      "numero": "Q1.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Systèmes séquentiels : Diagramme d'états",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Chaîne d'information",
+        "semestre": "S1"
+       }
+      ],
+      "page": 6,
+      "tags": [
+       "grafcet"
+      ],
+      "texte": "Question 1.1 : sur le document réponse DR1.1, compléter l’expansion de la macro-étape M3. Le niveau de description doit étre homogéne au Grafcet de coordination des taches et a l’expansion de la macro-étape M2. 1.2 : GESTION DES MAGASINS « ardoises finies » Les ardoises finies sont déposées en D1 et D2 par le robot 1 de chargement / déchargement de la presse. Le robot 2 récupére alternativement chaque ardoise sur D1 ou D2 (support D1 ou D2 géré par la variable binaire B, avec B = 0 ou 1) pour la déposer a plat (rotation de 90° sur 6 Tournez la page S.V.P. le préhenseur a ventouses) dans le magasin en cours (magasins 2.1 ou 2.2). La gestion des deux magasins permet d’éviter un arrét de production lorsqu’un rack est complet (changement du rack par un opérateur en temps masqué). Le magasin en cours est géré par la variable binaire M, avec M = 0 ou 1. La séquence de pose des ardoises dans un magasin en cours correspond a la numérotation du schéma figure I-2 (respectivement les positions : ©, @, ®, ®), gérée par la variable j (avec j= 1, 2, 3 ou 4). Enfin, le nombre d’ardoises par position est géré par le compteur C (avec C compris entre 0 et n). L’expansion de la macro-étape M6 et cell"
+     }
+    ]
+   },
+   {
+    "titre_partie": "Pages 7",
+    "questions": [
+     {
+      "numero": "Q1.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dynamique : Géométrie des masses",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 7,
+      "tags": [
+       "engrenages",
+       "courroie / chaîne",
+       "grafcet"
+      ],
+      "texte": "Question 1.2 : sur le document réponse DR1.2, compléter l'expansion de la macro-étape M7. Le niveau de description doit étre homogéne au Grafcet de coordination des taches et a l’expansion de la macro-étape M6. 1.3 : DETERMINATION DES CAPACITES CINEMATIQUE ET DYNAMIQUE Le robot 1 de chargement / déchargement de la cellule d'injection est constitué d’un portique cartésien 3 axes. Chaque axe est composé d’un moteur synchrone autopiloté, d’un réducteur a train épicycloidal, d’un systéme de transformation de mouvement (de type pignon - crémaillére pour les axes X et Z, poulies - courroie crantée pour Y) et d’un chariot guidé par des galets. Dans cette partie, nous nous intéresserons uniquement a I’axe vertical Z. Celui-ci fonctionne avec un cycle imposé permettant de respecter les cadences du cycle injection. Notations : 7 Cm: couple électromécanique moteur Moteur Y Poulie-courroie @m : Vitesse angulaire de l’arbre moteur J \\ @p : vitesse angulaire du pignon i =“ | V> : vitesse linéaire du préhenseur Ye : accélération du préhenseur patil Moteur X . . Jm: moment d’inertie de l’arbre moteur Pignon-crémaillére te ae . , Jp: moment d’inertie du pignon J; : moment d’inertie du réducteur (ra"
+     }
+    ]
+   },
+   {
+    "titre_partie": "Pages 10",
+    "questions": [
+     {
+      "numero": "Q1.6",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Accélérations",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
+        "semestre": "S1"
+       }
+      ],
+      "page": 10,
+      "tags": [],
+      "texte": "Question 1.6 : exprimer, pour la zone &) du trapéze, la relation de la position Z, en fonction de Yp et de la durée de la phase d’accélération ty ; exprimer la relation de la vitesse constante atteinte Vp en fonction de Yp et de la durée de la phase d’accélération t,. En déduire l’expression de Z, en fonction de Vp et ta. Lorsque la course demandée atteint une valeur trop petite, notée Zmini, il n’est pas possible d’atteindre la vitesse maximale Vpmax tout en respectant la loi de vitesse définie (régle déquirépartition non respectée) :"
+     },
+     {
+      "numero": "Q1.7",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
+        "semestre": "S1"
+       }
+      ],
+      "page": 10,
+      "tags": [],
+      "texte": "Question 1.7 : montrer que cette course minimale peut s’exprimer sous la forme : 2-VB me Zmini =m YP max caleuler Zyini en prenant les valeurs numériques suivantes : -l Lypmax =20m-S?; Vpmax =2m-s (Les grandeurs peuvent étre légerement différentes de celles calculées précédemment)"
+     },
+     {
+      "numero": "Q1.8",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Systèmes séquentiels : Diagramme d'états",
+        "semestre": "S1"
+       }
+      ],
+      "page": 10,
+      "tags": [],
+      "texte": "Question 1.8 : en déduire les étapes du cycle du bras Z (figure 1.3) qui ne pourront pas respecter ces conditions."
+     },
+     {
+      "numero": "Q1.9",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Systèmes séquentiels : Diagramme d'états",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       }
+      ],
+      "page": 10,
+      "tags": [
+       "engrenages"
+      ],
+      "texte": "Question 1.9 : calculer Yp réelle respectant la loi de vitesse en trapéze proposée pour les étapes © et @. En déduire la valeur du couple électromécanique C,, a fournir par le moteur a l’accélération et a la décélération en prenant pour I’inertie totale équivalente la valeur numérique suivante : Iteq =1,3-10° + (2,2-10- Np) Avec Np = nombre de piéces dans le préhenseur (Np = 0, | ou 2). Pour simplifier les calculs, le type de piéce dans le préhenseur n’a pas été distingué. uestion 1.10: calculer Vp atteinte et réelle respectant la loi de vitesse en trapéze P ‘P ip proposée pour l'’étape ®. En déduire la valeur du couple électromécanique Cy a fournir par le moteur a l’accélération et a la décélération. 10 Tournez la page S.V.P. Partie 2 : modélisation mécanique du robot 1 La translation suivant X est assurée par un systéme de transformation de mouvement de type pignon - crémaillére. Le guidage de l’ensemble mobile X est réalisé par deux modules linéaires (figure 2.1). Chaque module est composé d’un profilé en aluminium et de deux chariots équipés de galets. Les galets de chaque module roulent sur un rail fixé sur le bati. Poutre verticale fixe et Chariot Y : SY Masse My Ensemble SX "
+     }
+    ]
+   },
+   {
+    "titre_partie": "Pages 14",
+    "questions": [
+     {
+      "numero": "Q2.7",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Isostatisme",
+        "semestre": "S2"
+       }
+      ],
+      "page": 14,
+      "tags": [],
+      "texte": "Question 2.7 : établir le graphe des liaisons entre les différentes piéces du chariot et le bati repérés sur le schéma figure 2.5 (piéces ©, ®, ©, ©, 1)."
+     },
+     {
+      "numero": "Q2.8",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Liaisons équivalentes",
+        "semestre": "S2"
+       }
+      ],
+      "page": 14,
+      "tags": [],
+      "texte": "Question 2.8 : en déduire la liaison équivalente globale entre le demi chariot avant ® et le bati ©."
+     },
+     {
+      "numero": "Q2.9",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
+        "semestre": "S1"
+       }
+      ],
+      "page": 14,
+      "tags": [],
+      "texte": "Question 2.9 : déterminer alors la liaison globale réalisée par les chariots avant et arriére constituant le module X droit de la liaison glissiére (figure 2.4-a). 2.3 : LIAISON EQUIVALENTE COMPLETE DE LA GLISSIERE X"
+     },
+     {
+      "numero": "Q2.10",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dynamique : Géométrie des masses",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Statique : Hyperstatisme",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
+        "semestre": "S1"
+       }
+      ],
+      "page": 14,
+      "tags": [
+       "ressort"
+      ],
+      "texte": "Question 2.10 : montrer que la liaison globale constituée du module X gauche et du module X droit (c'est-a-dire la liaison entre le sous-ensemble SX par rapport au bati ©) est une liaison glissicre de direction X. Déterminer le degré dhyperstatisme de celle-ci. 2.4: COMPORTEMENT STATIQUE DE LA LIAISON GLISSIERE X On se propose de déterminer les réactions aux appuis pour la liaison glissi¢re équivalente. L’objectif est de définir le sens des efforts et donc de vérifier les conditions de fonctionnement des porte-galets articulés associés aux ressorts de raideur Kx et Ky. Soit l'ensemble S, composé des sous-ensembles SX, SY et SZ (figure 2.1-b), représentant l'ensemble mobile X. Pour la suite de cette partie, le modéle retenu sera défini comme suit : ¢ la liaison glis: constituée d’une liaison pivot glissant A, X et d’une liaison ponctuelle B, Z ; © le centre d’inertie de l’ensemble mobile SX est défini en Gx, considéré comme fixe quelles que soient les positions en Y et Z du robot portique ; © le centre d’inertie de l’ensemble mobile SY + SZ est défini en Gyz ; re d’axe X équivalente entre les rails (bati ©) et l’ensemble isolé est ¢ le référentiel lié au rail © est supposé galiléen "
+     }
+    ]
+   },
+   {
+    "titre_partie": "Pages 15",
+    "questions": [
+     {
+      "numero": "Q2.11",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       }
+      ],
+      "page": 15,
+      "tags": [],
+      "texte": "Question 2.11 : exprimer les torseurs des différentes actions mécaniques qui s’exercent sur S. Déterminer les actions mécaniques qu’exerce le rail © sur S."
+     },
+     {
+      "numero": "Q2.12",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 15,
+      "tags": [],
+      "texte": "Question 2.12 : déduire le sens de l’effort de réaction pour la liaison ponctuelle B, Z et montrer qu’il dépend des paramétres a et CY. Donner la condition nécessaire pour que l'appui ait lieu sur le galet fixe © en B (figure 2.4-a). Application numérique"
+     },
+     {
+      "numero": "Q2.13",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Accélérations",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
+        "semestre": "S1"
+       }
+      ],
+      "page": 15,
+      "tags": [],
+      "texte": "Question 2.13 : calculer les différentes valeurs des composantes de la réaction en B et justifier les dispositions constructives du module de guidage défini sur la figure 2.5. 15 2.5 : COMPORTEMENT DYNAMIQUE DE LA LIAISON GLISSIERE X La liaison glissiére X est soumise, en plus des actions de la pesanteur, aux effets d’inerties des mobiles dans les directions X, Y et Z. On cherche a garantir 4 chaque instant un contact des galets de la liaison glissiére X sur leur rail. Le modeéle retenu pour cette étude est le méme que précédemment (figure 2.6). L’axe X est immobile, on se propose d’étudier l’influence sur la réaction aux appuis en A et B d’une accélération du sous-ensemble mobile SY+SZ dans la direction Y puis du sous-ensemble mobile SZ dans la direction Z et enfin d’une combinaison des deux mouvements. Dans chaque cas, on se place a l’instant de démarrage ou d’arrét du ou des mobiles afin de conserver les paramétres de position des différents éléments. 2.5.1. Accélération suivant Y Le sous-ensemble mobile SY+SZ, de masse Myz, est soumis a une accélération ou une décélération dans la direction Y: yy. Le torseur dynamique de l’ensemble mobile SY+SZ dans son mouvement par rapport au"
+     }
+    ]
+   },
+   {
+    "titre_partie": "Pages 16",
+    "questions": [
+     {
+      "numero": "Q2.14",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+        "semestre": "S3"
+       }
+      ],
+      "page": 16,
+      "tags": [],
+      "texte": "Question 2.14 : en appliquant le Principe Fondamental de la Dynamique, déterminer les nouvelles réactions aux appuis A et B du rail © sur l'ensemble S."
+     },
+     {
+      "numero": "Q2.15",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Accélérations",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+        "semestre": "S3"
+       }
+      ],
+      "page": 16,
+      "tags": [
+       "ressort"
+      ],
+      "texte": "Question 2.15 : déduire le sens des efforts de réaction pour les liaisons en A et B en fonction du signe de l’accélération yy. Indiquer pour quel cas les ressorts Ky et Kz risquent d’étre sollicités. 2.5.2 Accélération suivant Z Le sous-ensemble mobile SZ, de masse Mz, est soumis a une accélération ou une décélération dans la direction Z: y,. Le torseur dynamique de l’ensemble mobile SZ dans son mouvement par rapport au référentiel galiléen est le suivant : 0 0 {Piszin}=; 9 0 YMz ais"
+     },
+     {
+      "numero": "Q2.16",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+        "semestre": "S3"
+       }
+      ],
+      "page": 16,
+      "tags": [],
+      "texte": "Question 2.16 : en appliquant le Principe Fondamental de la Dynamique, déterminer les nouvelles réactions aux appuis A et B du rail © sur l'ensemble S."
+     },
+     {
+      "numero": "Q2.17",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Accélérations",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+        "semestre": "S3"
+       }
+      ],
+      "page": 16,
+      "tags": [
+       "ressort"
+      ],
+      "texte": "Question 2.17 : déduire le sens des efforts de réaction pour les liaisons en A et B en fonction du signe de l’accélération yz. Indiquer pour quel cas les ressorts Ky et Kz risquent d’étre sollicités. 16 Tournez la page S.V.P. 2.5.3 Accélération combinée suivant Y et Z Le sous-ensemble mobile SY est soumis 4 une accélération ou une décélération dans la direction Y: yy et, simultanément, le sous-ensemble mobile SZ est soumis a une accélération ou une décélération dans les directions Y: yy et Z: yz. Le torseur dynamique des ensembles mobiles dans leur mouvement par rapport au référentiel galiléen est le suivant : 0 0 {Disy.sz0}=} 1 -Myz 0 wM Veg"
+     }
+    ]
+   },
+   {
+    "titre_partie": "Pages 17",
+    "questions": [
+     {
+      "numero": "Q2.18",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 17,
+      "tags": [],
+      "texte": "Question 2.18 : en vous appuyant sur les réponses précédentes, déterminer les nouvelles réactions du rail © sur l'ensemble S aux appuis A et B."
+     },
+     {
+      "numero": "Q2.19",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Accélérations",
+        "semestre": "S1"
+       }
+      ],
+      "page": 17,
+      "tags": [
+       "ressort"
+      ],
+      "texte": "Question 2.19 : la référence étant la situation « statique » établie a la question Q2.12, établir un tableau de synthése d’évolution des efforts de réaction aux appuis A et B en fonction du sens des accélérations sous la forme suivante : W>d 0 <0 0 Cas extreme Ressort 0 %z>0 0 ¥z <0 | combinaison sollicité Ya Ya>Yas Za ZasZas Zs Ze>Zes Avec : Yas, Zas, Zas les valeurs de réaction aux appuis déterminées en statique. Valeurs numériques My = 230 kg E =05m 120 kg a =0.2m 25 kg CY =0,5m yy =25m-s2 CZ=0,5m Yz = 420m-s? Application numérique"
+     },
+     {
+      "numero": "Q2.20",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+        "semestre": "S3"
+       }
+      ],
+      "page": 17,
+      "tags": [
+       "ressort",
+       "précharge / précontrainte"
+      ],
+      "texte": "Question 2.20: calculer les réactions aux appuis dans les cas extrémes en utilisant les données numériques du tableau ci-dessus. En déduire les valeurs des efforts de précontrainte a donner aux ressorts Ky et Kz si l’on veut garantir un effort de contact minimum de 400 N sur chaque galet tout au long du fonctionnement. 17 Partie 3 : comportement dynamique de I’axe Y Dans cette partie, nous nous intéressons au comportement dynamique du bras Z du robot | en mouvement suivant la direction Y (figure 1.5). Le cycle critique pour ce robot se situe au moment du déchargement de la presse : la dynamique doit donc étre suffisamment élevée pour minimiser le temps d'ouverture du moule. Dans ce cas, on ne peut plus négliger les déformations des éléments constituants le bras Z. Une modélisation numérique (éléments finis) du robot cartésien 3 axes a été réalisée. Les analyses ont montré que les premiers modes de flexion du bras Z suivant les directions X et Y étaient dominants sur la réponse vibratoire de la charge (figure 3.1). Pour les deux axes concernés, le modéle générique de commande doit donc tenir compte de la souplesse li¢e a cette flexion pure. Dans le cadre de ce sujet, il a été choisi"
+     }
+    ]
+   },
+   {
+    "titre_partie": "Pages 20",
+    "questions": [
+     {
+      "numero": "Q3.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dynamique : Géométrie des masses",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 20,
+      "tags": [],
+      "texte": "Question 3.1: établir l’expression littérale du moment d’inertie équivalent Jieq ramené a larbre moteur des parties rigides. Effectuer l application numérique."
+     },
+     {
+      "numero": "Q3.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Énergétique : Puissance et rendement",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Énergétique : Théorème de l'énergie cinétique",
+        "semestre": "S3"
+       }
+      ],
+      "page": 20,
+      "tags": [],
+      "texte": "Question 3.2: a partir de la représentation causale de votre choix et des hypothéses précédentes, repérer et établir les relations qui régissent le fonctionnement des éléments accumulateurs d’énergie. Pour chaque cas, indiquer s’il s'agit d’accumulation d’énergie potentielle ou cinétique. 20 Tournez la page S.V.P. Question 3.3: de la méme maniére, repérer et établir les relations qui caractérisent les éléments dissipatifs. La figure 3.5 présente le schéma-bloc fonctionnel correspondant au modéle discret retenu pour cette étude. Nous pouvons établir la fonction de transfert mécanique représentant la relation Entrée (Cm) / Sortie (V2) de la chaine de transmission de mouvement. C, @,(s) &) H,(s) 44 Figure 3.5 : Schéma-bloc fonctionnel du processus mécanique."
+     }
+    ]
+   },
+   {
+    "titre_partie": "Pages 21",
+    "questions": [
+     {
+      "numero": "Q3.4",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 21,
+      "tags": [],
+      "texte": "Question 3.4: a partir des relations établies précédemment, donner les expressions littérales des fonctions de transfert Hj(s), H2(s) et H3(s) ainsi que celle du gain q en fonction des paramétres de la chaine cinématique."
+     },
+     {
+      "numero": "Q3.5",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       }
+      ],
+      "page": 21,
+      "tags": [],
+      "texte": "Question 3.5: dans ces conditions, exprimer les fonctions de transfert Ha(s) = V2(s) / Cm(s) et Ha(s) = Ven(s) / Cm(s) en fonction de q, Hi(s), H2(s) et H3(s). En déduire la fonction de transfert H¢c(s) = V2(s) / Ven(s)."
+     },
+     {
+      "numero": "Q3.6",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
+        "semestre": "S2"
+       }
+      ],
+      "page": 21,
+      "tags": [],
+      "texte": "Question 3.6: écrire les fonctions de transfert Hp(s) et Hc(s) sous les formes canoniques suivantes + H,(s)= Kyles tes\") et H,(s)= l+aqs , l+as+a,s° +a,s lt+as+c,s C,,(S) Ven (8) V,(s) >| H,(s) > Hs) > Figure 3.6 : Schéma-bloc simplifié du processus mécanique. - exprimer de maniere littérale les coefficients : km, a, a2, 43, €| et C2 en fonction des paramétres de la chaine cinématique ; - en déduire les expressions littérales du facteur d’amortissement € et de la pulsation naturelle @, ainsi que celle de la fréquence de résonance fo ; - indiquer quels sont les coefficients qui sont indépendants de l’amortissement interne du mode de flexion |, 21 > Dans la suite du probléme, nous prenons I’hypothése que le systéme étudié peut étre modélisé par un mode dominant du premier ordre (constante de temps T,), et un mode _oscillant amorti. Dans ces conditions, la fonction de transfert Ha(s) peut se factoriser sous la forme suivante : k,, (l+qs) l+as H(s)= a H_(s)= —\"* Ab) (14+ Qs)(L+ As + Bs? aves ls) ltqs+e,s°"
+     }
+    ]
+   },
+   {
+    "titre_partie": "Pages 22",
+    "questions": [
+     {
+      "numero": "Q3.7",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
+        "semestre": "S2"
+       }
+      ],
+      "page": 22,
+      "tags": [],
+      "texte": "Question 3.7: montrer que si A<<T1, on peut considérer que la constante de temps T vaut : area Me fh K, T avec Seq = Steq + q7M2"
+     },
+     {
+      "numero": "Q3.8",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
+        "semestre": "S2"
+       }
+      ],
+      "page": 22,
+      "tags": [],
+      "texte": "Question 3.8 : en procédant par identification, exprimer de maniere littérale, les coefficients A et B. En déduire les expressions du facteur d'amortissement C, et de la pulsation naturelle @, ainsi que celle de la fréquence de résonance foa correspondants a ce mode oscillant amorti."
+     },
+     {
+      "numero": "Q3.9",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       }
+      ],
+      "page": 22,
+      "tags": [],
+      "texte": "Question 3.9: a partir des données numériques, et en considérant que Jieq = 0,055 Kg.m?, calculer : - la valeur du gain statique Ha(0) = km, exprimer sa valeur en dB ; - les coefficients : cy, C2, T;, AetB; - les facteurs d’amortissements C, et C, ainsi que les pulsations naturelles @, et WM; - les fréquences de résonances fo, et foc ; - conclure quant a l’hypothése de départ sur T,."
+     },
+     {
+      "numero": "Q3.10",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       }
+      ],
+      "page": 22,
+      "tags": [],
+      "texte": "Question 3.10 : que deviennent ces valeurs numériques si on néglige \\,? Conclure. > Dans la suite du probléme, on néglige ’'amortissement interne du mode de flexion j1, ainsi que les facteurs d’amortissements C, et Cc. Dans ces conditions, les fonctions de transfert Hp(s) et Hc(s) valent respectivement : Vals) ky 1+(s/@.)° _Vals)_ 1 Halo) C,(s) 1+Ts 1+(s/a,) at Hels)= V,(s) 1+ (s/o) Les valeurs numériques ci-dessous sont choisies pour la suite de I’étude. Elles ne correspondent pas exactement aux valeurs calculées précédemment. @, = 60 rad/s ; @, = 50 rad/s ; T; =4.$ : km= 1,2 rad.s'/N"
+     },
+     {
+      "numero": "Q3.11",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Stabilité",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+        "semestre": "S1"
+       }
+      ],
+      "page": 22,
+      "tags": [
+       "courroie / chaîne"
+      ],
+      "texte": "Question 3.11 : sur le document réponse DR2 fourni, construire avec le plus grand soin, les diagrammes de BODE des fonctions de transfert complexes Ha(j@) et Hp(j@). - tracer les diagrammes asymptotiques en précisant les pentes et les valeurs caractéristiques, ainsi que les allures réelles des diagrammes d’amplitude et de phase - déterminer les marges de stabilité AGas et AQ, et discuter les valeurs trouvées ; - conclure sur la stabilité en boucle fermée avec retour unitaire de l'ensemble (lorsque la commande asservie sera appliquée au processus mécanique). 22 Tournez la page S.V.P. +! ')\"- -) 3%(-&&- \"- $ '/- ! ' 3 3 4 9 ! $ $ # S + T ' ! 3 4 9 $ $ $ + $ - L $ : ! &E 6 resolver B B; B& moteur synchrone Cm ; ωm B; B ;; B &; Fv Vch Courroie crantée Jp Jp Poulie rayon Rp Ordre de commutation des interrupteurs Kt M1 M2 Cmréf Autopilotage & ; µt V2 Commande θ θ 4 ?! $ \" 9 > :J :- ? ! @ 3 4 L ' ' $ θ % 3 3 4 A $ + 91 + 1 ! >! 9 P 9 $ ' &N ! : + 1 1 Processus mécanique Vréf (s) Cmréf(s) C m(s) Vch (s) V2(s) + H V (s) H m (s) HB(s) HC(s) - Boucle de couple 5 ?! : 23 > Dans la suite du probléme, on s’intéresse uniquement a la commande en vitesse de l’axe Y. Dans un premier temps, on consid"
+     }
+    ]
+   },
+   {
+    "titre_partie": "Pages 24",
+    "questions": [
+     {
+      "numero": "Q3.13",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       }
+      ],
+      "page": 24,
+      "tags": [],
+      "texte": "Question 3.13 : exprimer la fonction de transfert du correcteur de vitesse Hy(s) sous une forme faisant apparaitre les « péles » et « zéros ». En déduire l'expression littérale de la constante de temps intégrale T; qui caractérise ce correcteur en fonction des parametres de réglage K, et K;. 24 Tournez la page S.V.P. > Dans la suite du probléme, on choisit de régler la constante de temps intégrale T; du correcteur de vitesse égale a celle de T; : compensation du péle dominant par un zéro (T; = T;)"
+     }
+    ]
+   },
+   {
+    "titre_partie": "Pages 25",
+    "questions": [
+     {
+      "numero": "Q3.14",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 25,
+      "tags": [],
+      "texte": "Question 3.14 : justifier ce choix pour le réglage du correcteur."
+     },
+     {
+      "numero": "Q3.15",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       }
+      ],
+      "page": 25,
+      "tags": [],
+      "texte": "Question 3.15 : exprimer la fonction de transfert en boucle fermée Hpri(s) = Ven(s) / Vre(s) en fonction de Ki, km, Oa, Me: et Ty. En déduire l’expression littérale de la fonction de transfert Hpr2(s) = V2(s) / Vrer(s)."
+     },
+     {
+      "numero": "Q3.16",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 25,
+      "tags": [],
+      "texte": "Question 3.16 : écrire ces fonctions de transfert sous formes canoniques, en mettant en évidence le Polynéme caractéristique du systéme boucle."
+     },
+     {
+      "numero": "Q3.17",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Stabilité",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Correcteurs : Proportionnel-intégral",
+        "semestre": "S4"
+       }
+      ],
+      "page": 25,
+      "tags": [],
+      "texte": "Question 3.17 : analyser la stabilité de la boucle de vitesse en fonction de la valeur du gain Ki (vous utiliserez la méthode de votre choix). Que peut-on conclure sur la valeur du gain critique Kj. ? > Les exemples de réponses indicielles présentés ci-dessous, correspondent a une commande en vitesse, avec compensation du mode dominant (T; = T;), dont le gain de réglage K; vaut 7,5. La figure 3.9 présente les réponses temporelles des vitesses linéaires V2(t), et Ven(t) mesurées lorsque la boucle de vitesse précédente est soumise a une consigne en échelon unitaire. On peut remarquer que |’utilisation d’un simple correcteur PI ne permet pas d’atteindre parfaitement Vobjectif, car il y a apparition d’oscillations. Vitesses (m/s) V2 \"Veh ** Temps (s) Figure 3.9 : Réponse indicielle de la boucle de vitesse (correcteur PI)."
+     },
+     {
+      "numero": "Q3.18",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Stabilité",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Correcteurs : Proportionnel-intégral",
+        "semestre": "S4"
+       }
+      ],
+      "page": 25,
+      "tags": [],
+      "texte": "Question 3.18 : justifier les allures temporelles de V(t) et V2(t) en vous appuyant sur les résultats obtenus lors de l'étude de stabilité de la question 3.17. Comment peut- on caractériser ces oscillations ? Cette premiére analyse montre que la loi de commande doit étre adaptée en prenant en compte le caractére spécifique de l'axe considéré, car on ne peut pas négliger la partie souple. 25 La solution industrielle consiste a utiliser un correcteur PI filtré utilisant des techniques de filtrage de type passe-bas ou coupe-bande : filtre Notch ou Bicarré (figure 3.10). Afin de compenser les oscillations de vitesse, on propose de mettre en ceuvre un correcteur PI associé a un filtre bicarré dont la fonction de transfert Tyc(s) est de la forme : 26, 14%. 2, 1+ Tye(S)= Amplitude (4B) phase (9) fyn=44H2z f,0=24Hz ‘ Gy=2.9e-3 Cp=2.8e-3, , sof fyy=44Hz. f,9=45Hz Gy=2.9e-3 Cp=2.8e-3 Hz f,p=44Hz . fon=44Hz fyp=44Hz 90-3 {=2.6e-3 | for Gu=2.9e-3 Cp=3.2e-3 - rad/s rad/s Figure 3.10 : Allures fréquentielles des filtres bicarrés en fonction du réglage des paramétres. La figure 3.11 présente alors le schéma-bloc de la boucle de vitesse obtenue dans ces conditions. Processus mécanique Vit(8) Sorel"
+     }
+    ]
+   },
+   {
+    "titre_partie": "Pages 26",
+    "questions": [
+     {
+      "numero": "Q3.19",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Correcteurs : Proportionnel-intégral",
+        "semestre": "S4"
+       }
+      ],
+      "page": 26,
+      "tags": [],
+      "texte": "Question 3.19: en considérant le principe de compensation d’un péle par un zéro et inversement, proposer la structure du filtre Tgc(s) permettant de compenser parfaitement les oscillations du chariot mobile. Dans ces conditions, la fonction de transfert en boucle fermée Hpri(s) = Ven(s) / Vre(s) vaut ler’ avec Tgp; la constante de temps de la boucle de vitesse du chariot. FD ypyS aris 26 Tournez la page S.V.P. La figure 3.12 présente alors les réponses temporelles des vitesses linéaires V(t), et Ven(t) mesurées lorsque la boucle de vitesse précédente est soumise a une consigne en échelon unitaire (correcteur PI+Filtre bicarré 1). On peut remarquer que méme en considérant un réglage de la boucle de vitesse optimal, des oscillations de la partie flexible sont présentes ; elles sont méme amplifiées par rapport 4 la commande sans filtre. Vitesses (m/s) Temps (s) Figure 3.12 : Réponse indicielle de la boucle de vitesse (correcteur PI+Filtre bicarré 1)."
+     }
+    ]
+   },
+   {
+    "titre_partie": "Pages 27",
+    "questions": [
+     {
+      "numero": "Q3.20",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       }
+      ],
+      "page": 27,
+      "tags": [],
+      "texte": "Question 3.20 : en utilisant la transformée inverse de Laplace, et en vous aidant de la table de transformées en annexe, établir l’expression temporelle de V2(t) lorsque V;«(t) est un échelon _d’amplitude unitaire. Comment peut-on caractériser les oscillations de V>(t) ?"
+     },
+     {
+      "numero": "Q3.21",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Rapidité",
+        "semestre": "S2"
+       }
+      ],
+      "page": 27,
+      "tags": [],
+      "texte": "Question 3.21 : a partir des données précédentes, et en considérant que @:.Tpri >> 1, calculer les valeurs de l’amplitude et de la période de ces oscillations en régime établi pour un gain de réglage K;= 4,16. Déterminer la valeur du gain Kj qui assure des oscillations d’amplitude inférieure a 5%. En déduire le temps de réponse a 5% de la boucle fermée correspondant. Afin de compenser les oscillations de la partie flexible du chariot mobile, il est donc nécessaire de déterminer un nouveau filtre bicarré (non étudié ici). La figure 3.13 présente les résultats obtenus lorsqu’on prend en compte la partie flexible du chariot mobile dés la définition du filtre. Vitesses (m/s) =V2 “Veh \"Temps (s) Figure 3.13 : Réponse indicielle de la boucle de vitesse (correcteur PI+Filtre bicarré 2). En conclusion, on peut remarquer que le chariot subit quelques oscillations amorties lors d’un transitoire de vitesse, mais que la vitesse de la partie flexible du chariot mobile est parfaitement asservie. L’objectif est donc atteint grace 4 une commande par la « technique dite d’inversion » 27 ANNEXE 1: DOCUMENTATION MOTEUR INDRAMAT - BRAS VERTICAL Référence: MACO7 1A-2000-HS-1-0 Moteur synchrone a excita"
+     }
+    ]
+   }
+  ]
+ }
+}

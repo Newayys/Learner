@@ -1,0 +1,1720 @@
+
+===== page 1 =====
+[OCR] D21S
+
+# BANQUE FILIERE PT *
+
+Epreuve de Sciences Industrielles B
+
+Durée : 6hOO
+
+Composition du sujet :
+
+"1 cahier de 17 pages de texte, numérotées de T 1/17 a T 17/17.
+
+=9 documents, intitulés « Document j », avec j= 1 49, numérotés D 1/9 a D9/9.
+
+=3 feuilles format A3 pliées, imprimées recto verso, respectivement intitulées « Notice
+justificative 1/3 », « Notice justificative 2/3 », et « Notice justificative 3/3 », a
+rendre en fin d’épreuve ;
+
+"1 feuille de calque format A4, pré imprimée, intitulées « Calque n°1 » a rendre en fin
+d’épreuve.
+
+"2 feuilles de calque format A3, pré imprimées, intitulées « Calque n°2 » et « Calque
+n°3 » a rendre en fin d’épreuve.
+
+[TOUTE AUTRE DOCUMENTATION EST INTERDITE |
+
+Matériel autorisé : tous instruments usuels du dessinateur.
+
+Si, au cours de I’épreuve, un candidat repére ce qui lui semble étre une erreur
+d’énoncé, il le signale sur sa copie et poursuit sa composition en indiquant les
+raisons des initiatives qu’il est amené a prendre.
+
+TOUTES LES CALCULATRICES SONT INTERDITES, QUEL QU’EN SOIT LE
+TYPE, AINS| QUE LES AGENDAS ELECTRONIQUES ET LES TELEPHONES
+PORTABLES
+
+
+
+===== page 2 =====
+[OCR] D21S
+
+%* BANQUE FILIERE PT *
+
+Epreuve de Sciences Industrielles B
+
+Durée : 6h00
+
+Composition du sujet :
+= 1 cahier de 17 pages de texte, numérotées de T 1/17 a T 17/17.
+
+9 documents, intitules « Document i », avec i= 1 a 9, numérotés D 1/9 4 D9/9.
+
+3 feuilles format A3 pliées, imprimées recto verso, respectivement intitulées « Notice
+justificative 1/3 », « Notice justificative 2/3 », et « Notice justificative 3/3 », a rendre en
+fin d’épreuve ;
+
+1 feuille de calque format A4, pré imprimée, intitulées « Calque n°1 » a rendre en fin
+d’épreuve.
+
+2 feuilles de calque format A3, pré imprimées, intitulées « Calque n°2 » et « Calque n°3 »
+a rendre en fin d’épreuve.
+
+L TOUTE AUTRE DOCUMENTATION EST INTERDITE ]
+
+Matériel autorisé : tous instruments usuels du dessinateur.
+
+TOUTES LES CALCULATRICES SONT INTERDITES, QUEL QU’EN SOIT LE TYPE,
+AINSI QUE LES AGENDAS ELECTRONIQUES ET LES TELEPHONES PORTABLES
+
+Gestion du temps : En admettant une durée d'une heure pour la lecture et I'assimilation du sujet, il
+est vivement conseillé de consacrer entre 2 h 00 et 2h 30 au maximum a la
+réponse aux questions de la notice et 2 h 30 a 3 h au tracé des dessins.
+
+Figure 1 - Barriére
+automatique
+
+(photo acces-
+system)
+
+T1N7 Tournez la page S.V.P.
+
+
+
+===== page 3 =====
+[OCR] D21S
+ETUDE D’UNE BARRIERE AUTOMATIQUE
+
+A - Cahier des Charges Fonctionnel (Extraits)
+
+A.1 — Présentation du probléme
+
+A.1.1 —Le produit « barriére automatique » et son marché
+
+L’évolution croissante du marché automobile mondial, les besoins grandissant de sécurité
+des biens et personnes, ainsi que l'acquittement de droits de passage sur certaines voies
+routiéres ou d’accés a certains parkings payants, font que l'usage de moyens temporaires
+d’accés conditionnels 4 des zones accessibles 4 des véhicules automobiles est des plus
+répandu.
+
+La solution la plus courante pour répondre a ce besoin est l'utilisation d'une barriére
+animée d’un mouvement de rotation autour d'un axe horizontal, paralléle a la route.
+
+L’automatisation d'un tel mécanisme est une nécessité pour répondre au double objectif
+de diminuer les cotts d’exploitation et de satisfaire les diverses conditions de manceuvre.
+A titre d’exemple la figure 1, page T 1/17, illustre une solution d’un tel mécanisme.
+
+A.1.2 —Le produit 4 concevoir
+
+La société qui vous confie une étude produit déja du mobilier urbain et souhaite créer une
+nouvelle gamme de produits : la barriére automatique. La gamme de produits est construite sur
+la base d’un méme mécanisme, avec pour déclinaison : différentes largeurs de voie routiére a
+obstruer, différents modes de commande (monnayeur, badge, codes,...), et possibilité
+d'installer le mécanisme en un lieu 4 encombrement restreint (parking souterrain par exemple).
+
+L’architecture de la partie opérative de ce systéme est imposée par la société. Elle est
+constituée (voir figure 2 ci-dessous) d'un moto réducteur électrique entrainant un systéme de
+transformation de mouvement dont le mouvement de sortie est une rotation d’une amplitude
+
+limitée.
+Oe Tr. se >I
+Energie f aT Energie
+électrique | Systéme de i mécanique
+
+de mouvement
+|| Mouvement
+
+It de rotation
+limité
+1
+
+— Zone de I’étude
+
+I
+Moteur Réducteur de l d
+——>| alectrique ——>) vitesse Fp} Wansformation #——————>
+|
+|
+L
+
+—H!
+
+Figure 2 - Agencement des principaux sous-ensembles de la partie opérative de la barriére
+automatique.
+
+Les estimations de vente de la société sont de 100 unités la premiére année pour
+atteindre 500 unités par an dans trois ans.
+
+T2N7
+
+
+===== page 4 =====
+[OCR] D21S
+
+A.1.3 — Le contexte du projet
+
+Limites de l'étude : l'étude demandée ne porte que sur la partie mécanique de la barriére
+Choix de concept : - La partie mécanique du systeme est commune a toute la gamme de
+produits.
+
+- L'utilisation de composants standard du marché sera privilégiée.
+
+A.2 — Analyse fonctionnelle du besoin (extraits)
+
+Parmi toutes les situations du cycle de vie du produit, il ne sera considéré que la situation
+de fonctionnement opérationnel. De plus, son étude sera présentée sous une forme simplifiée.
+
+Les énoncés fonctionnels, les critéres de caractérisation des fonctions et la majeure partie
+des niveaux retenus sont définis pour toute la gamme des produits. Certains d’entre eux sont
+définis sous forme de plages de valeurs correspondant aux choix optionnels laissés a
+l'acquéreur de la barriére : ils concernent l’encombrement et les temps de manoeuvre.
+
+A.2.1 - Graphe des interacteurs
+
+Propriétaire
+de la zone
+
+Zone
+protégée
+
+Barriére
+automatique
+
+Lieu
+d'implantation
+
+Réseau
+électrique
+
+A.2.2 - Enoncés des fonctions de service et des contraintes
+
+Fonction principale :
+
+FP1 Autoriser a un véhicule un accés temporaire a une zone protégée.
+
+Fonctions contraintes :
+FC1 Etre manoeuvrable par l'utilisateur.
+FC2 Etre lié au sol.
+FC3 Ne pas engendrer de danger pour les humains proches de la barriére.
+FC4 Ne pas abimer les véhicules.
+FCS _Résister aux effets du milieu ambiant.
+FC6 Ne pas produire de salissures.
+FC7 Etre adapté au réseau électrique.
+
+T3/17 Tournez la page S.V.P.
+
+
+===== page 5 =====
+[OCR] D21S
+
+FC8 Etre d’un cotit acceptable.
+
+FCc9 Ne pas émettre un bruit insupportable pour les humains proches.
+
+FC10 =S'adapter a l'encombrement disponible.
+
+FC11 —_Résister aux conditions de service sans perturbation du fonctionnement.
+
+A.2.3 - Caractérisation des fonctions
+
+Le tableau est présenté ci-dessous.
+
+Critéres Niveaux
+FP41 * Angle d’ouverture. * 88° maximum
+* Temps d’ouverture. ede28a4s
+* Temps de fermeture. ede28a4s
+FC1 ¢ Effort a fournir par l'utilisateur. * aucun
+FC2 * Liaison complete. * démontable
+* Encombrement du corps de la barriére. * 400 x 400 x (h) 1100 mm
+FC3 * Classe de protection électrique. ° IP 55.
++ Nombre d’arétes vives accessibles aux mains. * aucune.
++ Possibilité d’accés en service d'une partie corporelle * aucune.
+humaine.
+FC4 * Choc de la barriére sur le véhicule. * aucun.
+FCS * Température minimale de fonctionnement. °- 20°C.
+* Température maximale de fonctionnement. * 50°C.
+* Corrosion d’un matériau au contact de l'eau. * aucune au bout de 2 ans,
+a 20°C.
+* Corrosion d’un matériau au contact d'un autre, en * aucune au bout de 2 ans,
+atmosphére humide. a 20°C.
+Effort maximal a l’extrémité de la lisse (lisse de 3men | * 500N.
+Porte a faux).
+FC6 * Rétention d'eau, de boue ou de poussiére par les * aucune
+formes extérieures.
+* Traces déposées ou projetées sur le lieu d'implantation. |» aucune au bout de 2 ans.
+FC7 * Tension électrique. * monophasé 230 V + 15%.
+* Fréquence du secteur. * 50 Hz.
+* Puissance disponible. °<2,5 kW.
+Fc8 + Prix d’achat maximal * non fourni.
+FC9 * Niveau de pression acoustique maximale due au * 60 dB(A).
+fonctionnement du systéme, a 1 m de la barriére.
+FC10 * Largeur de la voie. *de2a5,5m.
+* Hauteur de la voie. ° 2,5 m au minimum
+¢ Sens d’ouverture. * droite ou gauche
+FCc11 * Fréquence des cycles d'utilisation (aller + retour). °2min".
+* Durée annuelle de fonctionnement. * continu
+* Durée minimale de fonctionnement avant premiére *5000h.
+panne.
+* Durée minimale de fonctionnement entre pannes. * 500 h.
+¢ Durée maximale d’indisponibilité pour panne. * 1 journée
+
+T4/17
+
+
+
+===== page 6 =====
+[OCR] D21S
+
+B - Etude et éléments de solutions proposés
+
+B.1 — Architecture générale
+
+Comme indiqué plus haut, lentreprise a adopté le principe d’une conception et d’une
+réalisation modulaires de ses barriéres automatiques, qu’elle demande donc au candidat
+(faisant office de concepteur) de respecter. La figure 8, document 1, page D 1/9 présente
+l'agencement retenu pour les différents sous-ensembles constituant la partie mécanique du
+
+systéme.
+
+Le mécanisme est représenté sur cette méme figure 8 dans l’agencement « lisse a
+droite ». Dans le cas ou la barriére est implantée de l'autre coté de la voie (lisse a gauche), le
+mécanisme utilise les mémes piéces. Seuls le systeme de fixation du (des) ressort(s) 8 et du
+moto réducteur 16 sur le bati 3, ainsi que les butées mécaniques (non représentées et ne
+faisant pas partie de l'étude) sont prévus symétriquement par rapport a un plan vertical passant
+par l’'axe de l’arbre de lisse 5.
+
+B.2 — Principe de fonctionnement (voir figure 8, document 1, page D 1/9)
+
+L’arbre de sortie du motoréducteur 16 est en liaison complete avec le levier moteur 10.
+
+La lisse 4, le fourreau de lisse 2, l’arbre de lisse 5 et le levier de lisse 11 sont en liaison
+complete, et l'ensemble est en liaison pivot par rapport au bati 3.
+
+L’arbre de sortie du motoréducteur 16 et le levier moteur 10 sont animés d’un mouvement de
+rotation par rapport au bati 3 (10 tr.min” environ). Ils entrainent l'ensemble levier de lisse 11,
+arbre de lisse 5, fourreau de lisse 2, et lisse 1, par l’intermédiaire de la bielle 13.
+
+Le réle du (des) ressort(s) 8 est de soulager le moteur dans les différentes phases de
+fonctionnement et de relever la barriére en cas de coupure de |’alimentation électrique.
+
+Pour inverser le sens de rotation de la lisse (montée ou descente) il est nécessaire d’inverser le
+sens de rotation du moteur électrique.
+
+T 5/17 Tournez la page S.V.P.
+
+
+===== page 7 =====
+[OCR] D21S
+C - Etude de conception en construction mécanique
+
+C.1 — Présentation du travail 4 rendre
+
+Comme indiqué plus haut en page 1, en admettant une durée d'une heure pour la lecture et
+lassimilation du sujet, il est vivement conseillé de consacrer entre 2 h 00 et 2 h 30 au maximum
+a la reponse aux questions de la notice et 2 h 30 a 3 h au tracé des dessins.
+
+Les réponses seront fournies uniquement sur les six documents
+présentés ci-dessous.
+
+1 — Notice justificative (40 % de la note globale)
+
+Fournir les réponses sur les trois documents respectivement intitulés « Notice
+justificative 1/3 », « Notice justificative 2/3 » et « Notice justificative 3/3 », de format
+A3 horizontal, pliés, pré imprimés recto verso, et sur le document intitulé « Calque
+n°1 », de format A4 horizontal, pré imprimé, qui sont joints au sujet.
+
+Les réponses sur feuilles de copies additionnelles ou sur papier de brouillon ne
+seront pas acceptées.
+
+2 Dessin d’étude de construction mécanique (60 % de la note globale)
+
+ll est a tracer sur les deux calques pré imprimés de format A3 horizontal, intitulés
+« Calque n°2 » et « Calque n°3 » , joints au sujet, et seront a rendre non pliés.
+
+C.2 — Notice justificative
+Consignes spécifiques
+
+Sur les notices justificatives, les reponses seront fournies dans les limites des cadres prévus
+pour chaque question.
+
+Compte tenu de l’interdiction d’
+maniére approchée.
+
+ll sera tenu compte, dans la notation, de la clarté et de la concision des reponses. Les schémas
+doivent étre lisibles, précis, et respecter la normalisation en vigueur.
+
+Les écritures au crayon ne seront pas acceptées. La qualité de !’écriture, de l’orthographe et de
+la syntaxe sera prise en compte dans |’évaluation.
+
+iliser toute calculette, les calculs seront réalisés de
+
+C.2.1. Cinématique
+
+C.2.1.1.- Analyse de la cinématique du mécanisme
+Données (se reporter aux figures 10 et 11, document 2 page D 2/9) :
+
+Sur la figure 10 sont représentées, a l’échelle, différentes piéces du mécanisme dans la
+position « lisse horizontale ».
+
+Sur la figure 11 est représenté le schéma cinématique du mécanisme en phase de réglage.
+
+T6/17
+
+
+===== page 8 =====
+[OCR] D21S
+
+QT inscrire votre réponse dans le cadre R1 de Ia notice 1/3.
+
+Représenter Ia lisse 1, le levier de lisse 11, la bielle {13, 12, 12’, 15}, le levier moteur
+10, et les ressorts 8, dans la position « lisse levée » correspondant a un débattement
+
+de 88°.
+Q2 __inscrire votre réponse dans le cadre R2 de la notice 1/3
+Pour quelle raison n'est il pas envisagé un débattement maximal de 90° ?
+
+C.2.1.2.- Analyse du réglage de I’horizontalité de la lisse
+Données (se reporter aux figures 11, page D 2/9, et 17, page D 7/9) :
+Sur la figure 11 est représenté le schéma cinématique du mécanisme en phase de réglage.
+La figure 17 précise les caractéristiques principales de la téte de bielle 12.
+Mode opératoire de l’opération de réglage :
+
+En imposant une rotation au corps de bielle 13 dans le sens positif (sens de la fleche sur la
+figure 11), la lisse doit se lever.
+
+Q3 Inscrire votre réponse dans le cadre R3 de la notice 1/3.
+Quels doivent étre les sens des filetages des tétes de bielle 12 et 12’?
+
+C.2.1.3.- | Analyse de mobilité
+Hypothéses (se reporter a la figure 11, page D 2/9) :
+
+En fonctionnement, le réglage d’horizontalité de la lisse ayant été réalisé, chaque téte de bielle
+42 est immobilisée par rapport a la bielle de lisse 13 grace au serrage d'un contre-écrou de
+freinage 15.
+
+Toutes les liaisons sont parfaites.
+
+Q4 inscrire votre réponse dans le cadre R4 de la notice 1/3.
+Compleéter fa zone cerclée du schéma cinématique en phase de fonctionnement.
+
+Q5i inscrire votre réponse dans le cadre R5 de la notice 1/3
+
+Vaide d’une analyse dont il n’est pas demandé le détail, donner, pour cette
+modélisation :
+¢ le nombre total d’inconnues statiques de liaisons
+¢ le nombre total de mobilités et commenter chacune d’elles
+e le degré d’hyperstatisme du mécanisme
+
+C.2.2. ETUDE DU LEVIER DE LISSE
+
+Hypothéses (se reporter aux figures 12, page D 3/9) :
+
+Liaxe x passe par la ligne moyenne de la poutre DC, I'axe y est l'axe de rotation de la lisse.
+
+T7N7 Tournez la page S.V.P.
+
+
+===== page 9 =====
+[OCR] D21S
+Données (se reporter aux figures 12 et 13 , page D 3/9) :
+L’ordre de grandeur du diametre de l'alésage coté lisse est de 50 mm (en D).
+L’ordre de grandeur du diamétre de l'alésage coté bielle est de 25 mm (en C).
+
+Les diagrammes de la figure 12, page D3/9, représentent les composantes du torseur de
+cohésion entre D et C. Pour chacune des composantes, le levier de lisse a été placé dans le
+cas le plus défavorable. Les résultats sont donnés en valeur absolue.
+
+Q6 inscrire votre réponse dans le cadre R6 de la notice 1/3
+
+Pour chacun des diagrammes de Ia figue 12, indiquer sur le document réponse, cadre
+R6, la nature des différentes sollicitations dans le levier de lisse 11 (traction, flexion,
+
+we)
+Q7 inscrire votre réponse dans le cadre R7 de la notice 1/3
+
+Parmi les propositions de forme de levier de lisse 11 de la figure 13, choisir la forme
+de levier la mieux adaptée (en fonction des sollicitations). Justifier votre réponse.
+
+C.2.3. Choix multicritére du diamétre de l’arbre de lisse 5
+
+L’objectif de cette partie est de déterminer le diamétre minimal de l'arbre de lisse 5. Dans cette
+étude simplifiée, ce diamétre minimal est conditionné par sa résistance mécanique aux
+différentes sollicitations auxquelles il est soumis, ainsi que par le diamétre minimal des
+roulements qui le guident.
+
+C.2.3.1.-  Détermination des actions de liaisons
+Données (se reporter a la figure 14, document 4, page D 4/9) :
+
+Sur la figure 14 est représentée la modélisation de l'ensemble des piéces S = {4, 2, 5, 11} dans
+la position étudiée, la modélisation de ses guidages, ainsi que les efforts auxquels il est soumis.
+
+Les différentes valeurs des dimensions et des intensités des efforts ont été volontairement
+approchées par des valeurs facilitant les applications numériques.
+
+Hypothéses (se reporter a la figure 14, document 4, page D 4/9) :
+
+La position étudiée correspond a une barriére en porte a faux de 3 m, en position horizontale, et
+a l'extrémité de laquelle un utilisateur U exerce un effort vertical vers le bas de 500 N (selon le
+
+cahier des charges).
+
+Toutes les liaisons sont parfaites.
+
+Les actions du ou des ressorts 8 sont négligées.
+
+Les masses des différentes piéces sont négligées.
+
+Les solides sont indéformables.
+
+Notations :
+
+Les différentes expressions vectorielles seront toujours exprimées dans le repére
+
+R:(H,x,y,z).
+
+T 8/17
+
+
+===== page 10 =====
+[OCR] D21S
+Le torseur des actions mécaniques du solide i sur le solide j, exprimé au point M dans le repére
+
+Xusy Liay
+R sera noté : fr... }= Nuon | Muon
+Z N,
+
+con | Neon Jane
+
+Q8 inscrire votre réponse dans le cadre R8 de la notice 1/3 (ne pas faire figurer les
+calculs sur le document réponse).
+
+1) Donner les expressions particuliéres des torseurs des actions mécaniques aux
+points F et H, des paliers 4 et 6, sur S.
+
+2) Calculer les valeurs des actions mécaniques au point H, de 12 sur S, et de U sur
+S, et compléter le document réponse.
+
+3) Déterminer les valeurs des actions mécaniques aux points F et H, des paliers 4
+et 6, sur S, et compléter le document réponse.
+
+C.2.3.2.- | Choix du type de palier
+Données (se reporter a la figure 15, document 5 page D 5/9, et a la figure 16, document 6,
+page D 6/9) :
+Pour le guidage de l’arbre de lisse par rapport au bati, des paliers appliques RME ou RMEY ont
+été retenus.
+
+Q39 inscrire votre réponse dans le cadre R9 de Ia notice 1/3.
+Citer les critéres principaux qui ont conduit a ce choix de type de palier.
+
+C.2.3.3.- | Choix du diamétre minimal du roulement
+
+Données (se reporter a la figure 14, document 4, page D 4/9, aux figures 15 et 16 des
+documents D 5/9 et D 6/9, ainsi qu’aux extraits du cahier de charges page T 4/17) :
+
+Quels que soient les résultats précédents, et afin de faciliter les applications numériques, nous
+prendrons pour la suite de cette partie (forces en [kN]) :
+
+-7\0 2/0
+fess }= 25 |0 ‘Moo }= -710
+0/9, 01%,
+
+Q10 inscrire votre réponse dans le cadre R10 de la notice 1/3.
+
+1) D’une maniére générale, hormis les critéres d’encombrement, citer les deux
+critéres principaux qui interviennent dans le choix du diamétre d’un roulement, quel
+
+que soit son type.
+2) Dans notre cas d’étude, parmi ces deux critéres, quel est le plus restrictif ?
+
+Justifier votre réponse.
+
+3) Quel est le palier le plus sollicité, et quel est approximativement I’effort radial
+auquel il est soumis ?
+
+4) En déduire le diamétre nominal minimal de ce palier.
+
+T9N7 Tournez la page S.V.P.
+
+
+
+===== page 11 =====
+[OCR] D21S
+C.2.3.4.- Résistance de l’arbre de lisse 5
+
+Données (se reporter a la figure 14, document 4, page D 4/9) :
+Le matériau de l'arbre 5: C 45
+
+Résistance a la rupture : 650 MPa < Rr < 800 MPa
+
+Résistance élastique a l’extension : Re = 430 MPa
+
+Résistance élastique au glissement : Reg = 240 MPa
+
+Coefficient de sécurité : s = 1,5
+
+Hypothéses :
+
+Les efforts appliqués a l’arbre sont ceux de la position étudiée.
+
+Dans lobjectif de simplifier l'étude (hypothése trés simplificatrice), seule la sollicitation de
+torsion sera prise en compte.
+
+Le diamétre de l’arbre est constant sur toute sa longueur.
+
+Toutes les liaisons sont parfaites.
+
+Les masses des différentes piéces sont négligées.
+
+QT71 _inscrire votre réponse dans le cadre R11 de la notice 1/3.
+
+1) Donner la signification de la désignation de ce matériau.
+2) A quel(s) usage(s) est destiné généralement ce matériau 7?
+
+Q12_inscrire votre réponse dans le cadre R12 de la notice 1/3.
+
+1) Donner Ia condition de résistance de I’arbre, en fonction du moment de torsion
+et des caractéristiques de la section droite.
+
+2) En déduire I’expression du diamétre minimal de l’arbre Gnin-tors-
+
+3) Déterminer I’expression du moment de torsion en un point situé entre D et I.
+
+4) Parmi les allures des diagrammes des moments de torsion proposés sur le
+document réponse, entourer celui qui correspond a notre cas d’étude.
+
+5) En déduire le diamétre minimal de l’arbre imposé par cette sollicitation.
+
+C.2.3.5.-  Choix multicritére du diamétre minimal de l’arbre 5
+
+En considérant les résultats et les hypothéses associées aux questions Q10-4) et Q12-5) qui
+ont permis de déterminer le diamétre nominal minimal du palier le plus sollicité, ainsi que le
+diamétre minimal de l’'arbre imposé par la sollicitation de torsion :
+
+Q13 _ Inscrire votre réponse dans le cadre R13 de la notice 1/3.
+Quel doit étre le diamétre minimal de l’arbre de lisse 5 ? Justifier.
+
+T 10/17
+
+
+===== page 12 =====
+[OCR] D21S
+
+C.2.4. Etude de Ia fabrication du fourreau de lisse 2
+
+Cette partie est consacrée a |'étude de la fabrication d'une série de 10 piéces prototypes du
+fourreau de lisse 2, avant le lancement d’une série de piéces plus importante mettant
+éventuellement en oeuvre d'autres procédés de fabrication.
+
+Données (se reporter a la figure 19, document 8, page D 8/9) :
+
+Le document 8 page D 8/9 représente le dessin de définition du produit fini relatif au fourreau
+de lisse 2 dans sa version prototype. De maniére plus précise, ce dessin donne une définition
+compléte des formes et dimensions, et une définition partielle de leurs tolérances.
+
+Cette piéce est mécano-soudée, c'est-a-dire qu'elle est réalisée par assemblage permanent de
+produits courants de construction mécanique (tubes, profilés, plats...)
+
+Nombre de piéces a réaliser : 10
+Les tubes 1 et 2 sont livrés dans des barres de 6m.
+
+C.2.4.1. - Analyse chronologique de la fabrication
+
+Cc.
+
+Cc.
+
+Q141 inscrire votre réponse dans le cadre R14 de la notice 2/3.
+
+1) Esquisser a main levée le tube 2 avant l’opération de soudage.
+2) Enoncer les différentes activités successives permettant la fabrication du
+fourreau de lisse.
+
+2.4.2. - Propositions d’améliorations de la rigidité de la piéce
+
+Q15 inscrire votre réponse dans le cadre R15 de la notice 2/3.
+
+1) Sans modifier les dimensions des tubes, proposer, sur la figure du cadre R15,
+des améliorations de conception permettant d’augmenter la rigidité du fourreau de
+
+lisse.
+2) Esquisser I’allure du fourreau de lisse, aprés les opérations de soudage, en
+exagérant les déformations dues a ce procédé et a ces modifications.
+
+2.4.3. - Opération de pergage
+
+Q16 inscrire votre réponse dans le cadre R16 de la notice 2/3.
+
+1) Pour l’opération de pergage vertical des 4 trous 2 18 H13, schématiser votre
+proposition de mise en position et de maintien en position. La représentation
+symbolique rappelée sur la figure 3, ci-aprés, sera utilisée.
+
+2) Dans le cas particulier du fourreau de lisse, pour quelle raison l’opération de
+pergage direct des 4 trous 2 18 H13 est-elle délicate ?
+
+3) Quelles sont les solutions pour remédier a ce probleme ?
+
+T1117 Tournez la page S.V.P.
+
+
+===== page 13 =====
+[OCR] D21S
+
+Mise en position : appui principal Figure 3 - Symboles de schématisation pour
+
+(=) <q & outillages de mise et de maintien en position.
+
+Maintien en position :
+
+++
+
+C.2.5. Modeleur volumique
+
+Cette partie est consacrée a la modélisation de la géométrie du fourreau de lisse 2 a l'aide d'un
+modeleur volumique. II s’agit de préparer la saisie des informations nécessaires a la définition
+géométrique de cette piéce. La démarche de création de ce modéle est imposée. Celle-ci ne
+prétend aucunement étre la meilleure, elle fait simplement appel aux fonctions de base
+communes a tous les modeleurs volumiques.
+
+Données (se reporter a la figure 20, document 9, page D 9/9) :
+
+Le document 9 liste et décrit les seules fonctions de construction géométrique a utiliser pour la
+construction du modéle.
+
+Q17 inscrire votre réponse dans les 2 cadres R17 (recto verso) de Ia notice 2/3.
+
+1) Compléter le tableau des définitions des fonctions utilisées en précisant :
+- Lenom dela fonction.
+- Le type de condition limite.
+Sur le croquis préciser :
+- Le plan ou Ia surface plane d’esquisse.
+-  L’esquisse.
+- Les dimensions relatives a la fonction.
+
+L’utilisation de différentes couleurs est recommandée.
+
+C.2.6. Caractérisation de solutions techniques
+
+C.2.6.1. - Etude de solutions techniques pour réaliser une liaison encastrement
+
+Le mécanisme étudié comporte plusieurs sous-ensembles de piéces en liaison encastrement,
+et il existe un trés grand nombre de solutions techniques pour réaliser ces liaisons.
+
+Une liaison encastrement peut étre caractérisée par de nombreux critéres : démontabilité,
+forme des surfaces prépondérantes, type de maintien en position, possibilité de réglage,
+précision de la mise en position, cott relatif, durée de vie, encombrement, résistance...
+
+Afin de répondre au mieux aux spécifications générales des liaisons, il est judicieux de
+caractériser les solutions techniques permettant de réaliser ce type de liaison.
+
+représentent qu’une partie des familles de solutions et ne restreignent absolument pas le
+
+AVERTISSEMENT : les solutions techniques évoquées dans la question suivante ne
+candidat dans ses choix dans la partie C3 - Dessin d’étude en construction mécanique
+
+Q18 inscrire votre réponse dans les 2 cadres R18 (recto verso) de la notice 3/3.
+
+Compléter les cases non grisées dans les tableaux de caractérisation partielle de
+solutions techniques évoquées (croquis a main levée).
+
+712/17
+
+
+===== page 14 =====
+[OCR] D21S
+
+C.2.7. ETUDE DE LA BIELLE
+
+C.2.7.1. - REGLAGE DE LA POSITION DE LALISSE :
+
+Il est nécessaire de pouvoir régler la position horizontale de la lisse afin de s’adapter aux
+irrégularités du terrain d'implantation de la barriére. On désire pouvoir modifier la position
+angulaire de la lisse par rapport a I'horizontale. Ce réglage est obtenu par I’allongement ou le
+raccourcissement de la bielle qui relie le levier moteur au levier de lisse. La bielle est composée
+de deux tétes de bielle 12 et 12’, deux contre-écrous 15 et un corps 13. Les tétes de bielle ainsi
+que les contre-écrous sont normalisés.
+
+Données (se reporter aux figures 17 et 18, document 7, page D 7/9):
+- Les dimensions des piéces 12, 12’ et 15 sont données sur les figures 17 et 18.
+- La position de référence est la position pour laquelle la lisse est perpendiculaire a son bati.
+
+- Dans cette position de référence, la longueur AB de la bielle est de 141 mm, ce qui
+correspond a la longueur qu’elle a, au milieu de la plage de réglage.
+
+- Pour pouvoir résister aux différentes sollicitations, il faut que implantation minimale du
+filetage des tétes de bielle soit égale a 1,5 fois le diamétre nominal de la vis.
+
+Q19 inscrire votre réponse dans le cadre R19 Ia notice 3/3.
+
+1) En tenant compte des données précédentes, quelle est la course Cr de réglage
+
+de chacune des rotules.
+2) En déduire les longueurs maximale et minimale de Ia bielle.
+
+Notation : On appellera (voir figure 4 ci-dessous)
+
+-  Qyi¢ la course de réglage angulaire de Ia lisse,
+-  Qijscctay ' Course de réglage angulaire de Ia lisse vers le haut,
+
+-  Qijssemas '@ Course de réglage angulaire de Ia lisse vers le bas.
+
+bisse 1 — 4]
+1
+
+Figure 4- Définition des _=-— Clb
+angles de réglages. O= i aime
+
+TE
+
+Q20 inscrire votre réponse dans le cadre R20 la notice 3/3.
+
+1) Tracer sur la figure représentant la lisse en position de référence pour un
+réglage nominal, les positions extrémes de celle-ci, suite au réglage de la longueur
+de Ia bielle.
+
+2) En déduire la course de réglage angulaire ,,,, de la lisse. Indiquer également la
+
+valeur de la course du réglage angulaire vers le haut Qjisceriay @t VETS 1€ DAS Cl, icce55+
+Faire apparaitre ces angles sur la figure.
+
+T 13/17 Tournez la page S.V.P.
+
+
+===== page 15 =====
+[OCR] D21S
+
+C.2.7.2.- | CONCEPTION DU CORPS DE LA BIELLE
+La forme extérieure du corps de la bielle est un hexagone, identique au contre écrou.
+
+Données :
+- Le diamétre maximal pour un chambrage a l’intérieur du corps de la bielle est de 15mm.
+
+Q27 inscrire votre réponse dans le Calque 1 (voir figure 5 ci-dessous)
+
+1) Compléter le dessin d’ensemble (vue de face et vue de dessus en coupe A-A) de
+la bielle en position de référence en répartissant équitablement les possibilités de
+réglage. Penser aux formes nécessaires a la réalisation de la piéce.
+
+2) Mesurer la longueur Lc du corps de bielle 13 et noter sa valeur dans le cadre
+réponse.
+
+Figure 5 - Mise en page du calque n°1
+pré imprimé fourni.
+
+C.2.7.3. - CHOIX DE LA MATIERE DU CORPS DE LA BIELLE.
+Données :
+- La forme extérieure du corps est un hexagone régulier ayant pour cote sur plat a, = 21mm.
+- Le plus grand chambrage intérieur du corps a un diamétre maximum de d. = 15mm.
+- La force de traction-compression maximum Fmax Subie par la bielle est de 18 KN.
+
+- Le coefficient de sécurité s est de 2, le coefficient de concentrations de contrainte kt est de
+1,67 = 5/3.
+
+Q22 _inscrire votre réponse dans le cadre R22 de la notice 3/3.
+1) Exprimer la valeur de la surface Sin de la section minimale du corps en fonction
+de a, et de d, , subissant les sollicitations. Faire une figure explicative.
+2) En déduire I’expression de la contrainte longitudinale maximale O,,,,, .
+3) Donner I’expression de la valeur minimale de résistance élastique par extension
+
+Remin-
+4) Calculer la valeur approximative de Remin-
+5) Pour les matériaux suivants, lesquels pourraient convenir : S335 ; S195 ; C45 et
+
+£335 ? Justifier vos réponses en complétant le tableau.
+
+T 14/17
+
+
+===== page 16 =====
+[OCR] D21S
+C.3 -
+
+Dessin d’étude de construction mécanique
+
+C.3.1
+
+5 Présentation des supports de travail
+
+Pour cette partie de I’étude, il vous est demandé de définir plusieurs sous-ensembles du
+mécanisme sur les deux calques format A3 fournis avec le sujet. Les éléments pré imprimés sur
+ces calques sont destinés 4 faciliter la mise en place des différents composants.
+
+Le calque n°2, de format A3 horizontal, pré imprimé, fourni avec le sujet, est destiné a
+l'étude du guidage de l’arbre de lisse 5, de sa liaison avec le levier de lisse 11, et de la liaison
+entre les ressorts 8, la téte de bielle 12 et le levier de lisse 11. Les éléments fournis pré
+imprimés sont définis en vue de face en coupe. Ce plan de coupe est un plan horizontal
+passant par l'axe de I'arbre de lisse 5 et pour des commodités de représentation, l'axe de l'axe
+de bielle supérieur 7 est ramené dans ce plan. De méme les axes des ressorts 8 et de la bielle
+13 sont considérés perpendiculaires a ce plan.
+
+Plus précisément, le candidat trouvera, en vue de face, les axes de rotation horizontaux de
+Yarbre de lisse 5, et de l’'axe de bielle supérieur 7. Sont représentés également une partie des
+boitiers de roulements 4 et 6, une partie du bati 3, ainsi que les 2 ressorts 8. L’arbre de lisse
+étant relativement long, la vue de face est dessinée en vue interrompue. La distance séparant
+les deux parties verticales du bati est de 300°mm.
+
+Le candidat définira sur la vue suivant F, la liaison entre l’arbre de lisse 5 et le levier de lisse 11
+en vue de coté.
+
+Figure 6
+Mise en page
+du calque n°2
+
+pré imprimé
+fourni.
+
+Le calque n°3, de format A3 horizontal, pré imprimé, fourni avec le sujet, est destiné a
+l'étude de la liaison des ressorts 8 avec le bati 3. Les éléments fournis pré imprimés sont définis
+en vue de face en coupe. Plus précisément, le candidat trouvera, en vue de face, un ressort 8
+dont l'axe est ramené verticalement pour des commodités de représentation, et |’extrémité
+gauche du bati. Le candidat retrouvera en vue de droite, les mémes piéces. Deux cadres sont
+utilisés pour le dessin de deux croquis 4 main levée.
+
+T 15/17 Tournez la page S.V.P.
+
+
+===== page 17 =====
+[OCR] D21S
+
+Figure 7 - Mise en page du
+calque n°3 pré imprimé fourni.
+
+C.3.2. Consignes spécifiques aux travaux graphiques
+
+Les dessins sont a exécuter a I’échelle 1:1, aux instruments (sauf les croquis), avec pour l’essentiel
+mise au net au crayon respectant les épaisseurs de traits normalisées et les exigences d'une bonne
+lisibilité ; seuls les axes et les écritures seront tracés a l’encre noire. Les tracés de couleur ne sont
+
+pas admis. Les normes AFNOR seront respectées.
+Les principales conditions fonctionnelles relatives aux liaisons représentées seront clairement
+indiquées en respectant les régles normalisées AFNOR.
+
+Les éléments normalisés utilisés par le candidat autres que ceux fournis dans le sujet, seront
+dessinés approximativement en respectant au mieux leurs proportions.
+
+C.3.3. Travail demandé.
+
+Afin d'assurer toutes les fonctions de service et de satisfaire toutes les contraintes définies dans la
+cahier des charges fonctionnel (pages T 3/17 et T 4/17), et en utilisant au mieux les éléments fournis
+
+sur les calque n°2 et 3, on demande :
+1) Etude de conception des liaisons du systeme de manceuvre — répondre sur le Calque n°2
+Données : Les choix suivants ont été réalisés :
+- Les paliers a roulement sont de type RME ou RMEY (le choix est laissé au candidat).
+- Diamétre nominal des paliers 4 roulement 4 et 6 : 55 mm.
+- Diamétre minimal de I'arbre de lisse 5 : 40 mm.
+- La téte de bielle 12 est définie figure 17 document 7 page D 7/9.
+- Le couple entre le levier de lisse 11 et l'arbre de lisse 5 est transmis par obstacle.
+
+T 16/17
+
+
+===== page 18 =====
+[OCR] D21S
+
+Dessiner aux instruments, sur les différentes vues prédéfinies du calque n°2, vos propositions
+de solutions pour la définition complete :
+
+> dela liaison entre l'arbre de lisse 5 et les paliers de roulement 4 et 6.
+> des liaisons des boitiers de roulement 4 et 6 avec le bati 3.
+
+> de la liaison entre l'arbre de lisse § et le levier de lisse 11 (sur la vue de face et sur la
+vue suivant F) .
+
+> des liaisons entre le levier de lisse 11, les deux ressorts 8, et la téte de bielle 12.
+Prévoir toutes dispositions permettant d’assurer :
+
+> la montabilité de l'ensemble étudié.
+
+> sa maintenabilité.
+
+> Le candidat pourra glisser sous ses calques le document 7 page D 7/9, tracé a
+échelle 1:1, pour en reproduire directement les parties qu’il jugera utiles.
+
+2) Etude de conception de la liaison des ressorts 8 avec le bati 3 — répondre sur le calque
+n°3
+
+La longueur de la lisse étant variable de (3 a 6 m), il est nécessaire de faire varier l'effort du
+
+(des) ressort(s) d’équilibrage 8. Il existe 2 ressorts de raideur différente, avec la possibilité de
+
+les monter seuls ou par paire ce qui définit 5 montages différents, correspondant a 5 plages de
+
+longueur de lisse. Pour chacun de ces montages, il est nécessaire d’ajuster la force exercée
+
+par le(s) ressort(s) a la longueur de la lisse.
+
+La solution retenue pour réaliser cette fonction est de faire varier la position du point d’ancrage
+des ressorts sur le bati (point E sur la figure 10 document 2 page D 2/9) lors du montage.
+
+Données :
+
+- Course de réglage du point d’ancrage E: 60 mm sur I’'axe du ressort dans la position
+représentée sur le calque n°3.
+
+- Lopération de réglage s’effectue ressorts tendus.
+- Des parties mécano-soudées peuvent étre rajoutées sur le bati 3.
+- Le mécanisme est identique, qu'il y ait 1 ou 2 ressorts.
+
+Dessiner a main levée dans les cadres « croquis 1» et « croquis 2» deux schémas
+technologiques de deux solutions différentes permettant de réaliser ce réglage.
+
+Dessiner aux instruments, sur les différentes vues prédéfinies du calque n°3, vos propositions
+de solutions pour la définition compléte du mécanisme de réglage correspondant a l'un des
+deux croquis précédents. Choisir celui qui présente le meilleur compromis entre facilité de
+réglage et simplicité de fabrication.
+
+Prévoir toutes dispositions permettant d’assurer :
+> la montabilité de l'ensemble étudié.
+> sa maintenabilité.
+
+T17/17
+
+
+===== page 19 =====
+[OCR] D21S
+
+Document 1
+
+Figure 8 - Agencement « lisse a droite »
+des différents sous-ensembles de la partie 6
+mécanique
+
+Figure 9 - Nomenclature
+
+10
+
+-}:
+<
+
+16
+
+Moto-réducteur
+
+15
+
+Contre écrou Hm — M14
+
+14
+
+Axe de bielle inférieur
+
+13
+
+Corps de bielle
+
+Téte de bielle
+
+SAK B14F Sens a définir
+
+12
+
+Téte de bielle
+
+SAK B14F Sens a définir
+
+1
+
+Levier de lisse
+
+10
+
+Levier moteur
+
+1
+2
+1
+1
+12’) [1
+1
+1
+1
+1
+
+Support ressort
+
+1-2
+
+Ressort(s)
+
+1
+
+Axe de bielle supérieur
+
+Boitier de roulement coté moteur
+
+Arbre de lisse
+
+Boitier de roulement coté lisse
+
+Bati
+
+Electro-zingué
+
+Fourreau de lisse
+
+$235
+
+3/0/48] o]o|/NI]@]o
+
+Lisse
+
+EN AW 2017 |D=76,2 et e=1,7
+
+1
+1
+1
+1
+1
+N
+
+b
+
+D
+oO
+fo
+
+Désignation
+
+Matiére Observations
+
+D1/9
+
+Tournez la page S.V.P.
+
+
+===== page 20 =====
+[OCR] D21S
+
+Figure 10 - Epure du systéme avec la lisse en position « horizontale » Document 2
+
+!
+
+a
+Figure 11 - Schéma cinématique en phase réglage
+2 1,2,5, 11
+
+113
+
+10,1
+
+D2/9
+
+
+===== page 21 =====
+[OCR] Levier de lisse
+
+Ve Document 3
+
+Figure 12 - Evolution des composantes du
+torseur de cohésion entre D et C
+
+Effort Nx Effort Ty Effort Tz
+z z z
+eis gs ae
+5 10 C....._] 6 © 10
+5 5
+0 0 0
+0 30 60 90 O © et) 0 30 60 90
+enmm enmm enmm
+Moment Mx Moment My Moment Mz
+E € E
+Z 300 2 2000 Z 100
+© 200 ra 5
+6 ® 1000 o
+0 0 0
+Ol, 30) 60: 20 0} 30) 260: 20 Of. 30) GOL. 90
+enmm enmm enmm
+
+La position 0 correspond au point D et la position 105 mm au point C.
+
+Figure 13 - Propositions de formes de levier de lisse 11
+
+FORME 1 FORME 2 FORME 3
+
+FORME 4 FORME 5 FORME 6
+
+Les formes permettant les liaisons du levier de lisse 11 avec la bielle 13 et l’arbre de lisse
+5 ne sont pas représentées. Elles feront le sujet d’une étude ultérieure.
+
+D3/9 Tournez la page S.V.P.
+
+
+===== page 22 =====
+[OCR] D21S
+
+| S=(1,2,5, 11}
+
+Figure 14 - modéle statique de S = {1, 2, 5, 11}
+
+Document 4
+
+Longueurs en [mm], forces en [kN], moments en [Nm]
+
+DC =-100x+50y ; FD =100z ; HF =250z ; Hi =—1002z ; 1/ =3000x
+
+5 |0
+Action de la téte de bielle 12 sur S au point C : {ss f= -17,5 | 0
+0 lOc,
+0 |0
+Action de l'utilisateur U sur S au point J : fuss $= —0,5 | 0
+0 |0
+
+IR
+
+D4/9
+
+
+
+===== page 23 =====
+[OCR] D21S
+
+Figure 15 - Document INA palier RME
+
+Document 5
+
+INA : Paliers appliques 4 quatre trous de fixation RME
+corps de palier en fonte avec centrage, roulement auto-aligneur avec bague de blocage excentrée
+
+RME 35 | 35mm | 135mm
+
+51,1 mm
+
+RME 45 | 45mm | 155mm
+
+56,3 mm
+
+RME 55 | 55mm | 185mm
+
+71,4mm
+
+RME 65 | 65mm | 215mm
+
+66,1 mm
+
+RME 75 | 75mm | 220mm
+
+67,1 mm
+
+d 35 45 55 65 75
+H 135 155 185 215 220
+B, 51,1 56,3 71,4 66,1 67,1
+A 20,5 25 27,5 32 32
+Ay 10 12 15 18 18
+A> 1 2 3 6 6
+3 max 51 63 76 96 100
+J 110 130 150 177 184
+N 11,5 14 18 18 18
+Q M6 M6 M6 R1/8 R1/8
+Ss 2 2 0 0 0
+U 31,3 32,9 43,6 44,6 45,6
+r4 90 105 125 150 160 tolérance : h8
+m 1,34Kg 2,05kg 3,37kg 5,81kg 5,65kg | masse
+Cc, 25500N 32500N 43500N 62000N 62000N | charge dyn. de base, radiale
+Cor 15300N 20400N 29000N 44000N 44500N _ | charge statique de base, radiale
+GG ME07N| GGME09 GG ME 11 GG ME 14 GG ME 15_ | désignation du corps de palier
+GE 35 KRRB | GE 45KRRB | GE55KRRB | GE 65 KRABS | GE 75 KRRBS | désignation du roulement
+D5/9 Tournez la page S.V.P.
+
+
+===== page 24 =====
+[OCR] Figure 16 - Document INA palier RMEY
+
+bague ir
+
+intérieure
+
+Document 6
+
+INA: Paliers appliques quatre trous de fixation RMEY
+
+Corps de palier en fonte avec centrage, roulement auto-aligneur avec vis sans téte dans la
+
+d H B,
+RMEY 35 35mm} 135mm| 42,9mm
+RMEY 45 45mm| 155mm| 49,2mm
+RMEY 55 55mm| 185mm) 55,6mm
+RMEY 65 65mm| 215mm} 74,6mm
+RMEY 75 75mm| 220mm! 77,8mm
+
+d 35 45 55 65 75
+
+H 135 155 185 215 220
+
+B 42,9 49,2 55,6 74,6 77,8
+
+A 20,5 25 27,5 32 32
+
+Ay 10 12 15 18 18
+
+Ao 1 2 0 0 0
+
+J 110 130 150 177 184
+
+N 11,5 14 18 18 18
+
+Q M6 M6 M6 R1/8 R1/8
+
+s 2. 2 3 6 6
+
+U 24,4 28,2 33,4 44,4 44,5
+
+Zz 90 105 125 150 160 tolérance : h8
+
+m 1,28kg 1,94kg 3,05kg 5,35kg 5,19kg masse
+
+Cc, 25500N 32500N 43500N 62000N 62000N | charge dyn. de base, radiale
+Co, 15300N 20400N 29000N 44000N 44500N | charge statique de base, radiale
+
+GG ME 07 GG ME 09 GG ME 11 GG ME 14 GGME15_ | désignation du corps de palier
+GYE 35 KRRB | GYE 45 KRRB | GYE 55 KRRB | GYE 65 KRRB | GYE 75 KRRB | désignation du roulement
+
+D6/9
+
+
+
+===== page 25 =====
+[OCR] D21S
+
+Figure 17 - Document SKF — téte de bielle
+Embouts autolubrifiants a filetage extérieur
+
+Document 7
+
+7 7 7 Angles de Charges de base Désignation
+Pee oe oncom cement déversement | dynamique | Statique a embout a
+d3(D filetage
+d d, Blog e)| & h + c Co a droite ou
+: a gauche
+mm degrés N Kg
+14 | 37 | 19 [Gmi4| 13.5 | 60 16 17000 | 25500 | 0.14 | SAKB14F
+
+Coefficient de pression
+spécifique K 50
+
+Constante de matériau
+Km 530
+
+A
+a _B=19.0
+11 min=36 sy
+S a | 7
+i 1
+©eE==p 6o
+— = <f =
+= mS
+A i | Cimax=13.5
+h=60
+12 max=80
+— _ Echelle 1/1
+Contre-écrous Hm14 pas a droite et pas a e -
+gauche ) oa] 6S
+p=—d = 4
+Echelle 1:1 @ Figure 18 - Ecrous Hm
+
+D7/9
+
+Tournez la page S.V.P.
+
+
+
+===== page 26 =====
+[OCR] Document 8
+
+- Dessin de définition du fourreau de lisse 2
+
+Figure 19
+
+D21S
+
+AA
+
+A
+2x 0 18 H13 —>| 2x 0 18H13 2xOisHis [pif a
+feLTA} [efoAh B
+i [e]o.s[A |
+es =
+88 2 §
+3) |. d -—-—-—_-__-| & ee
+i y wD
+8 Fd 8
+a pa
+oe ee ee ee
+| 2x 018 H13 |
+ae aca COBEN
+[65] [5]
+
+Les diamétres intérieurs et
+extérieurs des 2 tubes sont
+réalisés par les fournisseurs.
+
+Dag
+
+
+===== page 27 =====
+[OCR] Document 9
+
+D21S
+Figure 20 - _Fonctions de base des modeleurs volumiques.
+Nom de la | Besoin | Conditions Exemple Descriptif
+Fonction limites
+Extrusion |-Unplanou |-Plan milieu Extrusion a plan milieu
+surface plane | ou borgne ou d'une longueur de 60mm
+de référence | jusqu’a la
+- Une surface
+esquisse - Longueur
+Extrusion |-Unplanou |- Plan milieu Extrusion avec
+_ surface plane | ou borgne ou enlévement de matiére a
+de référence | jusqu’a la travers tout
+enlévement | - une surface ou a
+de matiére | esquisse travers tout
+- Longueur
+Révolution |-Un plan ou |- Plan milieu Révolution avec un angle
+surface plane | ou borgne de 360°
+de référence | - Angle
+-Une
+esquisse
+- Un axe
+Révolution |-Unplan ou |- Plan milieu Révolution avec
+avec surface plane | ou borgne enlévement de matiere
+i de référence |- Angle avec un angle de 360°
+enlévement | - une
+de matiére | esquisse
+- Un axe
+
+D9/9
+
+Tournez la page S.V.P.
+
+
+===== page 28 =====
+[OCR] R10 | 1) Criteres principaux
+
+diamétre d'un roulement
+
+intervenant dans le choix du
+
+2) Critere le plus restrictif :
+
+Justification :
+
+D218
+
+Ne
+rien
+écrire
+
+Académie: ......cccccceeeceseeeeeeeeeeee
+
+N° diinscription : ..........cceeeeeeeeeeee
+
+CONCOURS BANQUE PT
+SCIENCES INDUSTRIELLES B
+
+NOTICE JUSTIFICATIVE 1/3
+
+Arendre a la fin de l’épreuve
+
+Dépliez la feuille S.V.P.
+
+dans
+
+ce
+cadre
+
+R1
+
+2) Expression de
+
+ini-tors =
+
+3) Mtp.=
+
+3) Palier le plus sollicité : 4)
+Drom _mini =
+Effort radial :
+R11 | 1) C 35- signification : 2) Usages :
+R12 | 1) Condition de résistance : 4) | me i ho
+° j 5 °
+
+5) Diamétre minimal de larbre (valeur) : Omini-tors =
+
+R13
+
+Choix multicritere du diamétre minimal de l'arbre de lisse
+
+mini =
+
+Justification :
+
+@E
+
+R2 | Justification du débattement de 88°
+
+Dépliez la feuille S.V.P,
+
+Dépliez la feuille S.V.P}
+
+Tournez la page S.V.P.
+
+
+
+===== page 29 =====
+[OCR] R6
+
+Nature des sollicitations
+
+Nx
+
+Ty
+
+aks
+
+Mx
+
+My
+
+Mz
+
+R7 La forme la plus adaptée aux sollicitations est la forme n°
+
+Justifications :
+
+R8 1) expressions particuliéres de
+
+R3 | Sens des filetages des tétes de bielle 12 et 12’ (rayer la mention inutile)
+téte de bielle 12: © 4 gauche téte de bielle 12’: © 4 gauche
+o adroite o adroite
+R4
+1,2,5,11
+10,14 %
+R5
+
+Nombre total d’inconnues statiques de liaisons :
+Nombre total de mobilités :
+
+Commentaires :
+
+Degré d’hyperstatisme du mécanisme :
+
+gy sere | sees
+
+2) valeurs de
+
+3) valeurs de
+
+Critéres de choix du type de palier
+
+
+
+===== page 30 =====
+[OCR] D218
+
+R17 | Fonction
+
+Croquis
+
+Nom:
+
+Condition limite :
+
+Nom:
+
+Condition limite :
+
+NOM 2 occ eee CONCOURS BANQUE PT
+PienOMi ee ee Bee ee
+foe NOTICE JUSTIFICATIVE 2/3
+Ne N° d’inscription : oe. sees A rendre a la fin de l'épreuve
+rien | Dépliez la feuille S.V.P. |
+ecrire
+dans
+ce
+cadre R14 1) Croquis du tube 2 avant l'opération de soudage
+2) Activités successives de fabrication
+Débiter le > > >
+tube 1
+—
+R15 é du fourreau de lisse 11
+
+Dépliez la feuille S.V.P.
+
+Dépliez la feuille S.V.P.
+
+Tournez la page S.V.P.
+
+
+===== page 31 =====
+[OCR] R15 2) Allure du fourreau aprés soudage R17 | Fonction Croquis
+Nom :
+Extrusion
+ee oo
+i Condition limite
+|
+Borgne
+i
+|
+R16 ) Mise et maintien en position pour l'opération de pergage
+Nom:
+
+Condition limite :
+
+2) Difficultés posées par le pergage direct :
+
+3) Solutions:
+
+Nom :
+
+Condition limite :
+
+
+
+===== page 32 =====
+[OCR] D218
+
+—ULUr—~—C CONCOURS BANQUE PT
+Pr6NOM : oe ceeeeeteseeeseteeeeeesees SCIENCES INDUSTRIELLES B
+heey NOTICE JUSTIFICATIVE 3/3
+Ne INecinscription=: Arendre a la fin de l’épreuve
+rien il é
+fen [ Dépliez la feuille S.V.P. |
+dans
+R22 | 1) FIGURE : ead Ris
+LIAISONS ENCASTREMENT
+Caractérisation partielle de quelques solutions techniques
+Forme de la
+2 Type de =
+Damen | Senda | martin on | Serna
+Descriptif prépondérante_|_ Croquis
+8 : 8] 2 2| Zl 2
+B : _ “| a] &
+2) 4)
+Soudage xX xX X|X G N
+Valeur approchée de KILL
+O Max ~ Remin=
+Frettage X |X x x
+3) 5)
+i Le « »
+Matériau einen Justifications 2 :
+X|X ————
+$335
+S195 Rivetage a
+froid x
+C45 |
+Expression de
+Femin- E335 |
+iez la feuille S.V.P. iez la feuille S.V.P! Tournez la page S.V.P.
+
+
+===== page 33 =====
+[OCR] R18
+
+LIAISONS ENCASTREMENT
+Caractérisation partielle de quelques solutions techniques
+
+R19 | 1) Course de réglage de chaque rotule :
+
+Cr=
+
+2) Longueur maximale de la bielle :
+
+L Bielle maximale=
+
+Longueur minimale de la bielle :
+
+Forme de la surface de | Type de a
+Démontable | mise en position maintien en | POssibité de
+prépondérante position glag :
+Descriptit 3 ® 3] 2 el le Croquis
+EZ: ZA.
+{ | (
+~- YA. —- -
+in)
+Z Ht LA
+fam
+Vis de
+pression a X x
+téton dans une| X xX ZA,
+rainure oe
+longitudinale x Xx WW
+Pincement sur x X
+me ML
+cylindrique xX x
+xX X x xX
+pou xX xX
+ntelure et
+arbre épaulé x x
+x Xx
+
+R20 L Bielle minimale=
+
+Articulation de la lisse
+
+Ar isse Haut
+
+An isse =
+
+Ar isse Bas
+
+i
+
+
+
+===== page 34 =====
+[OCR] D21S
+
+141
+
+Echelle 1/1
+CALQUE N°1
+
+A rendre obligatoitement
+
+en fin d'épreuve
+
+Cadres réservés
+
+
+
+===== page 35 =====
+[OCR] D21S
+
+1/2 Vue suivant F de
+la liaison levier de lisse 11
+arbre de lisse 5
+
+t+
+
+300
+
+Cadres réservés
+
+CALQUE N°2
+
+A rendre obligatoitement
+en fin d'épreuve
+
+ann
+
+Echelle 1/1
+
+
+
+===== page 36 =====
+[OCR] D21S
+
+Croquis 1
+
+Croquis 2
+
+Cadres réservés
+
+CALQUE N°3
+
+A rendre obligatoitement
+en fin d'épreuve
+
+Echelle 1/1
+
+

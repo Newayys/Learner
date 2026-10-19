@@ -1,0 +1,1634 @@
+
+===== page 1 =====
+[OCR] Bengue PT 11PT27
+
+Epreuve de Sciences Industrielles C
+
+Durée 6h
+
+Si, au cours de I'épreuve, un candidat repére ce qui lui semble étre une erreur d'énoncé, d'une
+part il le signale au chef de salle, d'autre part il le signale sur sa copie et poursuit sa composition
+en indiquant les raisons des initiatives qu'il est amené 4 prendre.
+
+Composition du sujet :
+
+* 1 cahier de 16 pages de texte, numérotées de 1 4 16;
+
+*  lcahier de 8 pages, numérotées de I a VIII, intitulé « DOCUMENT RESSOURCE » :
+* 1 cahier de 25 pages, intitulé « CAHIER REPONSE » ;
+
+* 1 calque format A3, intitulé « CALQUE REPONSE »,
+
+Matériel autorisé: tous instruments usuels du dessinateur.
+
+TOUTE AUTRE DOCUMENTATION EST INTERDITE
+
+[LES CALCULATRICES SONT INTERDITES|
+
+Gestion du temps : En admettant une durée de 15 minutes pour la lecture et l'assimilation du sujet, il
+est vivement conseillé de consacrer environ 15 % du temps a la partie I,
+environ 25 % du temps 4 la partie II, environ 20 % du temps @ la partie II,
+environ 20 % du temps 4 la partie IV, environ 20 % du temps 4 la partie V.
+
+Avertissement : La présentation, la lisibilité, l'orthographe, la qualité de la rédaction, la clarté et la
+précision des raisonnements entreront pour une part importante dans l'appréciation
+des copies. En particulier, les résultats non justifiés ne seront pas pris en compte. Les
+candidats sont invités 4 encadrer les résultats de leurs calculs.
+
+L'ensemble des réponses sera rédigé sur les documents réponses dans les espaces libres
+proposés pour chaque question.
+
+Tournez la page S.V.P.
+
+
+===== page 2 =====
+              ENFOUISSEMENT DE CABLES SOUS MARINS
+
+Présentation
+
+
+     Nous proposons d’étudier dans ce sujet une machine destinée à enfouir des câbles
+sous marins au fond de l’océan.
+
+
+     La société LD TravOcean est l’un des leaders européens de l’enfouissement de câbles
+sous marins (fibres optiques, câbles électriques, pipelines). Riche de 33 années
+d’expérience, cette compagnie intervient aux quatre coins du globe, et a participé à de
+prestigieux projets tels que la liaison électrique entre la France et la Grande-Bretagne. LD
+Travocean est spécialisée dans la conception et la construction d’équipements de
+creusement nécessaires lors des opérations d’enfouissement.
+
+
+     Pour enfouir les câbles, LD TravOcean utilise une barge et un véhicule sous marin à
+chenilles (Figure 1). Ainsi, on dépose progressivement le câble à enfouir depuis la barge
+dans la tranchée effectuée par l’engin sous marin. Le poseur et le presseur servent de
+guides afin de bien maîtriser la mise en position du câble dans la tranchée. On remarque que
+le pilotage et l’alimentation de la machine se font grâce à l’ombilical qui provient de la barge.
+Pour gérer l’entrée du câble dans le poseur, le sous marin chenillé est équipé d’un système
+d’entrainement du câble (MTL), qui fera l’objet de l’étude proposée.
+
+
+     La MTL a donc pour fonction de gérer l’orientation et la tension du câble à enfouir, afin
+que celui-ci se loge dans le poseur convenablement (Figure 2). Pour gérer la tension du
+câble, la MTL dispose d’un couple de chenilles motorisées. Celles-ci viennent dans un
+premier temps serrer le câble. Pour cela une des chenilles, dite fixe, est montée sur le
+châssis intermédiaire, l'autre chenille, dite mobile, est montée sur le châssis supérieur. Ce
+châssis coulisse sur le châssis intermédiaire. L'effort presseur est fourni par un vérin
+hydraulique, le vérin de serrage. Une fois le câble serré, 2 moteurs hydrauliques entrainent
+les chenilles. Pour maîtriser l’orientation du câble par rapport au poseur, cet ensemble doit
+pouvoir s'incliner. Le châssis intermédiaire est donc guidé en rotation par rapport au châssis
+inférieur solidaire du véhicule sous marin. C'est un vérin hydraulique, appelé vérin de
+relevage, qui impose l’orientation de ces chenilles.
+
+
+
+
+                                                2
+
+
+===== page 3 =====
+                 Figure 1 : description du système d’enfouissement
+
+
+
+
+                       Figure 2 : fonctionnement de la MTL
+
+
+
+
+Le document ressource II présente les éléments constitutifs du châssis de la MTL.
+
+
+
+
+                                         3                           Tournez la page S.V.P.
+
+
+===== page 4 =====
+L’analyse fonctionnelle du besoin contribue à la caractérisation des fonctions de service
+attendues et générées par l’usage de la MTL. L’analyse fonctionnelle présentée se limite à la
+phase de fonctionnement sous l’eau (Figure 3).
+
+
+     x FP1 Faciliter l’entrée du câble dans le système de pose
+     x FP2 Utiliser l’énergie hydraulique pour maîtriser la tension et l’orientation du câble
+     x FC1 Résister à l’environnement
+     x FC2 Respecter l’environnement
+     x FC3 Ne pas interférer avec le véhicule sous marin
+
+
+       L’analyse fonctionnelle technique de la fonction principale FP1 (Faciliter l’entrée du
+câble dans le système de pose) est proposée figure 4.
+
+
+       Le questionnaire est composé de 5 sous parties largement indépendantes.
+
+
+1.     La première partie vous propose d’appréhender le fonctionnement global de la MTL
+       FP1 (théorie des mécanismes et cinématique graphique)
+2.     La deuxième partie porte sur le dimensionnement du vérin de relevage (FT122)
+       (statique graphique et étude de l'implantation du vérin)
+3.     La troisième partie s’intéresse à la reconception des supports du vérin de relevage
+       (FT122) (conception, fabrication, matériaux)
+4.     Dans la quatrième partie, nous étudions le dimensionnement du châssis intermédiaire
+       (FP12) (résistance des matériaux)
+5.     Enfin la cinquième partie vous propose de concevoir le guidage en rotation du châssis
+       intermédiaire de la MTL (FT121) ainsi que le guidage en translation du châssis
+       supérieur (FT111) (Conception)
+
+
+
+
+                                                  4
+
+
+===== page 5 =====
+                      Environnement                               Véhicule
+                                                                 sous marin
+                                         FC2             FC3
+                            FC1
+
+                           FP1              MTL
+
+        Système de pose                                                       Câble
+                                                   FP2
+
+
+                                            Energie
+                                          hydraulique
+
+
+          Figure 3 : Diagramme des interacteurs en phase de fonctionnement sous l’eau
+
+
+
+
+ FP1                      FP11                             FT111                 Plateau coulissant
+                                                           Serrer le c
+ c
+ système de pose                                           FT112                 Moteurs hydrauliques
+                                                           Entra                 Chenilles
+
+
+                          FP12                             FT121
+                                                   ble     Guider en rotation le     Paliers
+
+
+
+                                                           FT122
+                                                                                    Vérin de relevage
+                                                           Maitriser cette rotation
+
+                     Figure 4 : Diagramme FAST associé à la fonction FP1
+
+
+
+
+Remarque préliminaire :
+Le document ressource I vous permettra d'estimer les valeurs des fonctions sinus et
+cosinus pour les applications numériques. De plus la valeur de S pourra être approchée par
+3.
+
+
+
+
+                                               5                             Tournez la page S.V.P.
+
+
+===== page 6 =====
+I. Etude du système
+Le schéma de principe relatif au fonctionnement de la MTL est donné sur le document
+ressource III. Les 2 chenilles y sont rappelées en trait fin interrompu mais ne se sont pas à
+prendre en considération pour les questions suivantes.
+
+Question 1.1 : Effectuez le graphe des liaisons de cette modélisation.
+
+Question 1.2 : Déterminez le degré d'hyperstatisme pour le sous-ensemble
+{(S0);(S1);(S7);(S8)} en expliquant votre démarche.
+
+Question 1.3 : Proposez une évolution à donner conduisant à un modèle isostatique pour ce
+sous-ensemble sans modifier ni les classes d'équivalence ni le principe cinématique du
+mécanisme.
+
+Question 1.4 : Déterminez le degré d'hyperstatisme de l'ensemble en expliquant votre
+démarche (pour cette question vous ne tiendrez pas compte de la modification proposée à la
+question précédente).
+
+Question 1.5 : Proposez une deuxième évolution à donner conduisant à un modèle
+isostatique pour l'ensemble sans modifier ni les classes d'équivalence ni le principe
+cinématique du mécanisme.
+
+Etude graphique de la rentrée du vérin de relevage
+On souhaite déterminer la vitesse de rotation du châssis intermédiaire par rapport au châssis
+inférieur à partir de la vitesse de sortie de la tige du vérin de relevage. La tige du vérin est
+articulée en B sur le châssis intermédiaire et son corps est articulé en C au châssis inférieur
+(voir document ressource IV). La disposition du vérin permet une étude plane de la
+cinématique.
+On supposera pour cette étude une vitesse de sortie de la tige par rapport au corps du vérin
+de 10 mm/s.
+                                                               JJJJJJJG
+Question 1.6 : Déterminez par une méthode graphique la vitesse VB,S1/S 0 . Vous ferez
+
+apparaître tous les éléments de construction nécessaires à sa détermination. On considère
+une échelle pour les constructions de 1 cm pour 2 mm/s.
+
+
+Question 1.7 : Estimez alors la vitesse de rotation du châssis intermédiaire par rapport au
+châssis inférieur.
+
+
+
+                                               6
+
+
+===== page 7 =====
+II. Dimensionnement statique du vérin de relevage
+L'adaptation aux différentes conditions de travail conduit à envisager une variation de
+l'inclinaison du châssis intermédiaire par rapport au châssis inférieur comprise entre 0 et
+12°. Dans cette partie on étudie le dimensionnement et l'implantation du vérin hydraulique de
+relevage.
+
+
+La MTL présentée ici est déjà une évolution d'une première version qui avait été conçue pour
+un effort de traction des chenilles sur le câble d'une valeur inférieure à celle envisagée dans
+cette étude. Les châssis, les chenilles ainsi que leurs motorisations ont été redimensionnés
+et il a été décidé d'étudier la possibilité d'utiliser le même vérin de relevage sur cette nouvelle
+version. Ce choix est motivé par la fiabilité éprouvé de celui-ci et le besoin de standardisation
+des références. Les caractéristiques du vérin sont données document ressource IV.
+
+
+On admettra que l'effort de traction nécessaire sur le câble afin de l'amener à l'outil de pose
+(le poseur) pourra atteindre maintenant la valeur de Tmax = 20 000 N. Cette tension dans le
+câble conduit à modéliser l'action du câble sur la MTL par un glisseur d'intensité T (0  T 
+Tmax) dont le support sera centré sur les chenilles de traction et toujours dans l'axe de ces
+dernières quelle que soit l'inclinaison envisagée pour la MTL (voir document ressource IV)
+
+
+Pour cette étude, on propose une modélisation plane. On considère que le poids de
+l'ensemble constitué des châssis supérieur et intermédiaire ainsi que des éléments qu’ils
+supportent (chenilles, moteurs hydrauliques, ...) est connu et égal à P appliqué en G. En
+pratique, le sous marin chenillé travaille essentiellement dans l’eau mais également sur la
+côte pour relier les câbles aux installations. Pour simplifier cette étude, le véhicule sera
+supposé travailler sur un sol horizontal et en dehors de l'eau.
+
+
+
+
+Question 2.1 : Expliquez la raison pour laquelle le constructeur a choisi un vérin hydraulique
+et non pneumatique.
+
+
+Question 2.2 : Ce vérin doit-il être simple effet ou double effet (justifiez votre réponse)?
+
+
+Question 2.3 : A l'aide d'un dessin, justifiez si, pour une pression d'utilisation donnée, un
+vérin est aussi efficace en poussant qu'en tirant.
+
+
+                                                7                           Tournez la page S.V.P.
+
+
+===== page 8 =====
+Dans un premier temps, l'implantation du vérin est conservée par rapport à l'ancienne
+version et il reste à vérifier que le vérin est apte à l'emploi du point de vue pression
+d'utilisation.
+Afin d'étudier une première configuration, on considère la position proposée sur le cahier
+réponse pour laquelle le châssis intermédiaire est incliné de 10° par rapport à l’horizontale et
+pour lequel l’action mécanique du câble sera nulle (T=0). Le poids P est égal à 5 000 N.
+
+
+Question 2.4 : Déterminez de manière graphique la norme et la direction de l’effort F à
+fournir par le vérin hydraulique. Vous ferez apparaître tous les éléments de construction
+nécessaires à sa détermination. On considère une échelle pour les constructions de 1 cm
+pour 2 000N.
+
+
+Question 2.5 : Donnez une estimation de la pression hydraulique nécessaire dans le vérin
+(on supposera une contre pression nulle).
+
+
+On considère maintenant la tension T du câble, égale à 20 000 N toujours pour une
+inclinaison du châssis intermédiaire de 10° par rapport à l’horizontale.
+
+
+Question 2.6 : Déterminez de manière graphique la norme et la direction de l’effort F à
+fournir par le vérin hydraulique. Vous ferez apparaître tous les éléments de construction
+nécessaires à sa détermination. On considère une échelle de 1 cm pour 2 000N.
+
+
+Question 2.7 : Donnez une estimation de la pression hydraulique nécessaire dans le vérin
+(on supposera une contre pression nulle).
+
+
+On désire maintenant rechercher à optimiser l'implantation du vérin afin de minimiser la
+pression hydraulique nécessaire. Afin de raisonner non plus sur une position particulière,
+vous allez envisager le travail que doit fournir le vérin pour soulever le châssis intermédiaire
+sur les 12° d'amplitude ('D = 12°).
+
+
+Question 2.8 : En isolant le châssis intermédiaire et tout ce qu'il supporte, donnez les
+expressions littérales du travail de l'action de la pesanteur et du travail de l'action du câble.
+Ces expressions seront données en fonction de P, T, 'D et des paramètres géométriques
+présents sur le document ressource IV.
+
+
+                                                8
+
+
+===== page 9 =====
+Question 2.9 : En estimant les valeurs numériques de ces travaux, quelle est la valeur de T
+la plus défavorable pour l'utilisation du vérin?
+
+
+Le document ressource V propose 2 dispositions possibles pour le vérin de levage.
+
+
+Question 2.10 : Par un raisonnement sur le sens de travail du vérin, quelle configuration
+vous semble la plus adaptée (justifiez votre réponse)?
+
+
+On suppose de manière purement arbitraire que la disposition (b) soit retenue. Le but est
+maintenant de trouver de nouvelles positions pour les articulations B et C afin de limiter le
+plus possible la pression hydraulique nécessaire.
+Les hypothèses à retenir pour la suite de l'étude sont les suivantes :
+  x le travail maximum que doit fournir le vérin a été déterminé suite aux questions 2.7 et
+     2.8.
+  x l'effort que doit fournir le vérin varie faiblement lors de sa course et pourra être supposé
+     constant (valeur moyenne) pour les raisonnements qui suivent.
+  x le mouvement est suffisamment lent pour pouvoir négliger les effets d'inertie.
+
+
+Question 2.11 : Par un raisonnement sur le travail, montrez que pour limiter la pression
+d'utilisation du vérin, il est important de l'exploiter sur toute sa course disponible.
+
+
+
+
+                                                                    F
+
+
+
+
+                                                   9                          Tournez la page S.V.P.
+
+
+===== page 10 =====
+Question 2.12 : A quelle distance minimale doit-on alors placer l'articulation B par rapport à
+A? On pourra pour répondre à cette question s'inspirer de l'inégalité sur les longueurs des
+cotés d'un triangle donnée ci-dessous.
+
+
+
+
+                     Lmin
+                                             u                     u  Lmax - Lmin
+
+
+
+
+                                Lmax
+
+
+
+
+Une position respectant cette distance minimale a été choisie arbitrairement. Elle est
+représentée sur le cahier réponse.
+
+
+Question 2.13 : Par une construction graphique, indiquez la nouvelle position du point C.
+Vous ferez apparaître tous les éléments de construction illustrant votre démarche.
+
+
+
+
+                                              10
+
+
+===== page 11 =====
+III. Etude de la liaison vérin / châssis inférieur
+Dans cette partie, on propose d’étudier la conception de la pièce (ci-après notée « le
+support ») à l’interface entre le châssis inférieur et le corps du vérin de relevage.
+
+
+Questions préliminaires
+
+
+Question 3.1 : Les différents châssis de la MTL sont composés de structures mécano
+soudées. Expliquez les trois procédés de soudage à l’arc suivants : soudage à l’électrode
+enrobée, soudage MIG, soudage TIG ainsi que leurs avantages et inconvénients pour le
+produit concerné.
+
+
+Question 3.2 : Les pièces de structures sont réalisées dans un matériau désigné par S355.
+Expliquez cette désignation.
+
+
+Etude Produit, Procédé, Matériau
+On propose des surfaces de contact (surfaces fonctionnelles) entre le support et la traverse
+du châssis inférieur et entre le support et le corps du vérin : un plan horizontal A, un plan
+vertical B, un évidement cylindrique de révolution d’axe horizontal C (document ressource
+V).
+
+
+Question 3.3 : A partir des surfaces fonctionnelles proposées, dessinez un schéma en 3D à
+main levée représentant l’allure générale de la pièce à concevoir. On ne tiendra pas compte
+des contraintes de résistance ou de fabrication.
+
+
+On propose les quatre spécifications géométriques et dimensionnelles suivantes pour définir
+et situer les trois surfaces fonctionnelles :
+      x Planéité de la surface A
+      x Perpendicularité de B / A
+      x Localisation C / A et B
+      x Diamètre de C
+
+
+Question 3.4 : Représentez la géométrie fonctionnelle en 2D et ajoutez-y les symboles
+normalisés (cadres, lignes de rappel, flèches, etc) des 4 spécifications. Les valeurs des
+tolérances associées seront notées t1, t2, t3 et IT4.
+
+
+                                                11                          Tournez la page S.V.P.
+
+
+===== page 12 =====
+Question 3.5 : Interprétez la spécification dimensionnelle.
+
+
+Question 3.6 : Interprétez les 3 tolérances géométriques à l’aide des grilles « GPS »
+proposées dans le document réponse.
+
+
+Question 3.7 : Après avoir précisé vos critères de choix, proposez deux matériaux et les
+traitements thermiques ou de surface éventuels associés pour réaliser le support.
+
+
+Question 3.8 : Proposez et détaillez deux processus de fabrication du support s’appuyant
+pour le premier sur un assemblage de plaques et pour le second sur un brut tridimensionnel
+en détaillant :
+   1. L’obtention de la (ou des) pièce(s) élémentaire(s) et intermédiaires
+   2. L’obtention de la pièce finie et des surfaces fonctionnelles
+
+
+Question 3.9 : Proposez trois classes de procédés différents permettant l’obtention d’une
+liaison complète démontable ou non entre le support et le châssis inférieur ainsi que leurs
+avantages et inconvénients.
+
+
+Question 3.10 : Proposez et justifiez la meilleure combinaison matériau/processus de
+fabrication pour le support ainsi que la méthode d’assemblage avec le châssis inférieur
+reprenant les solutions envisagées aux trois questions précédentes.
+
+
+Question 3.11 : Compte tenu du choix précédent, proposez un dessin à main levée du
+support final.
+
+
+
+
+                                                12
+
+
+===== page 13 =====
+IV. Dimensionnement du châssis intermédiaire
+Dans cette partie, on s’intéresse au comportement sous charge du châssis intermédiaire. La
+géométrie du châssis est simplifiée et représentée sur le document ressource VI.
+
+
+On modélise les efforts exercés sur le châssis intermédiaire comme indiqué sur le document
+ressource VI. On s’intéresse au comportement sous charge de la partie située entre O et A,
+que l’on considérera ici comme une poutre droite.
+Compte tenu de la variabilité du diamètre des câbles à enfouir et de l’asymétrie du système
+d’entrainement du câble par les chenilles motorisées, l’action mécanique du câble sur le
+châssis intermédiaire n’est pas dans le plan (x0,y0) mais dans un plan parallèle à celui-ci.
+
+
+Question 4.1 : Détaillez pour chacune des actions (action du câble, pesanteur, action du
+vérin) le(s) type(s) de sollicitation(s) qu'elles engendrent.
+
+
+Question 4.2 : Calculez le torseur des efforts intérieurs en tout point D(y) de cette poutre.
+
+
+Question 4.3 : A quel(s) type(s) de sollicitation(s) est-elle soumise ?
+
+
+Question 4.4 : Tracez les diagrammes d’évolution des composantes du torseur des efforts
+intérieurs en tout point de cette poutre. Vous préciserez les valeurs remarquables.
+
+
+Pour la suite de l'étude, seule la sollicitation de flexion sera considérée.
+
+
+Question 4.5 : On suppose une poutre de section carrée creuse, de coté a et d’épaisseur e.
+Exprimez le moment quadratique de la section droite en flexion au point D autour de l'axe Z
+en fonction de a et e.
+
+
+Question 4.6 : Donnez l’expression permettant de calculer la répartition de contraintes
+normales dans une section droite à partir du moment de flexion.
+
+
+Question 4.7 : A supposer que le matériau de la poutre ait une limite élastique de 355 MPa,
+déterminez si la poutre reste dans le domaine élastique ou non. On prendra a = 100 mm et
+e = 5 mm pour l’application numérique.
+
+
+
+
+                                                 13                            Tournez la page S.V.P.
+
+
+===== page 14 =====
+V. Conception
+Il est demandé dans cette partie de proposer une solution technique pour la liaison pivot
+entre les châssis inférieur et intermédiaire et pour la liaison glissière entre les châssis
+intermédiaire et supérieur.
+
+
+Liaison pivot entre les châssis inférieur et intermédiaire
+Cette liaison est réalisée par 2 paliers identiques, dont un seul sera à définir.
+La figure ci dessous précise les zones où se trouvent ces paliers.
+
+
+
+
+               Paliers à
+               concevoir
+
+
+
+
+                                                                           Montant vertical
+                                                                         présenté document
+                                                                            ressource VIII
+
+
+
+Le document ressource VIII détaille un des montants verticaux du châssis inférieur.
+
+
+Pour la conception des paliers il est demandé de respecter les points suivants :
+   - utilisation de coussinets en bronze dont les formes peuvent être spécifiques si
+       nécessaire (document ressource VII);
+   - dispositif de graissage du palier par utilisation d'un graisseur (document ressource
+       VII);
+   - la liaison doit être démontable pour les phases de maintenance.
+
+
+
+                                                14
+
+
+===== page 15 =====
+De plus, le dimensionnement d'un palier s'appuiera sur les points suivants :
+     - charge radiale devant être supportée de 20 000 N;
+     - charge axiale devant être supportée de 4 000 N.
+
+
+Le véhicule pouvant être utilisé pour des fonds marins jusqu'à 120 m de profondeur, il ne
+faudra pas que la pression chasse la graisse utile à la lubrification des paliers.
+
+
+Les dispositions particulières pour la conception de ces paliers comme par exemple la
+présence d'ajustements devront être indiquées.
+
+
+Question 5.1 : Complétez le calque format A3 par le dessin d'un palier :
+   - en vue de face coupe A-A;
+   - en vue de droite en demi-coupe C-C dont il faudra préciser la position du plan de
+       coupe;
+
+
+Question 5.2 : Justifiez du bon dimensionnement des coussinets choisis.
+
+
+Liaison glissière entre les châssis intermédiaire et supérieur
+
+
+Cette liaison glissière est construite sur les deux traverses du châssis intermédiaire. Elle
+permet le réglage de l’écartement des chenilles en fonction de la dimension des câbles à
+enfouir. Les surfaces fonctionnelles sont graissées lors du réglage de la MTL effectué avant
+le début des opérations.
+Il est impératif que la surface supérieure du châssis supérieur soit libre de tout obstacle pour
+laisser le câble glisser sans encombre.
+
+
+
+
+                                                15                         Tournez la page S.V.P.
+
+
+===== page 16 =====
+                 Surface devant être
+                     libre de tout
+                        obstacle
+
+
+
+
+                     Traverses
+
+
+
+
+Question 5.3 : Complétez le calque format A3 par le dessin de la liaison glissière dans la
+vue proposée et en vue de dessous. Seule une des deux traverses est représentée, on
+supposera que la conception est similaire sur l’autre traverse.
+
+
+
+
+                                     FIN DE L©EPREUVE
+
+
+
+
+                                               16
+
+
+===== page 17 =====
+[OCR] 0.95
+09
+0.85
+08
+0.75
+07
+0.65
+06
+0.55
+05
+0.45
+04
+0.35
+03
+0.25
+02
+0.15
+0.1
+
+0.05
+
+Fonctions sinus et cosinus
+
+11PT27
+
+cos(x) 7
+
+sin(x) 7
+
+x (degrés)
+
+DOCUMENT RESSOURCE |
+
+TOURNEZ LA PAGE S.V.P.
+
+
+===== page 18 =====
+                                    Châssis de la MTL
+
+                                                                      Châssis supérieur (S2)
+                                                                   (Supporte la chenille mobile)
+       Zones de fixation de la
+           chenille fixe
+
+
+
+
+                                                                              Châssis intermédiaire (S1)
+
+
+
+                                                                            Châssis inférieur (S0)
+                                                                      (Fixé sur le véhicule sous marin)
+
+Remarque :                       Châssis de la MTL - Eléments constitutifs
+Les chenilles ainsi que les
+motorisations hydrauliques
+ne sont pas représentées.                                                       Châssis supérieur (S2)
+
+
+
+                                                                                 Vérin de serrage
+
+
+
+
+                                                                                   Châssis
+                                                                              intermédiaire (S1)
+
+
+
+
+                                                                         Vérin de relevage
+
+
+
+                                                   Châssis inférieur (S0)
+
+                                 Châssis de la MTL - Vue éclatée
+
+                              DOCUMENT RESSOURCE II
+
+
+===== page 19 =====
+                                                                                                Roue motorisée de la chenille fixe
+                                                                                                             (S3)
+                                                                                                                                                              Roue motorisée de la chenille mobile
+                                                                                                                                                                             (S5)
+
+                                                                      Roue folle de la chenille fixe
+                                                                                  (S4)
+
+
+
+
+                                                   Châssis intermédiaire                                                                                                    Châssis supérieur
+                                                            (S1)                                                                                                                  (S2)
+
+
+
+                                                                                                                                               Tige (S9) et corps (S10)
+                                                                                                                                                 du vérin de serrage
+                                                                               A                            Roue folle de la chenille mobile
+                                                                                                                          (S6)
+
+                                                                                                                                 C
+
+
+
+
+                         DOCUMENT RESSOURCE III
+                                                                                                                                                                                                     Schéma de principe de la MTL
+
+
+
+
+                                                                                   B
+
+
+
+                                                  Châssis inférieur
+                                                       (S0)
+                                                                                                                    Tige (S7) et corps (S8)
+                                                                                                                     du vérin de serrage
+
+
+
+
+TOURNEZ LA PAGE S.V.P.
+
+
+===== page 20 =====
+                                  Etude statique
+
+
+                                                                  ni l   les
+                                                  p ér ieur et che
+                                                su
+                                        Châssis
+                           T
+                          l = 650
+                                                G
+d =200   A                                      P
+
+
+
+
+                                                       e            0 < D < 12°
+                                      is i nter médiair
+                                 Châss
+             B       Véri
+                          n   de r
+                                  elev
+                                      age
+                                       C
+
+
+                                   Châssis inférieur
+
+
+
+
+                  Caractéristiques du vérin de relevage
+
+                 Entraxe minimal                       373 mm
+                 Entraxe maximal                       464 mm
+                 Course                                91 mm
+                 Pression nominale                     160 MPa
+                 Pression maximale                     240 MPa
+                 Diamètre tige                         40 mm
+                 Diamètre chambre                      60 mm
+
+
+
+
+                       DOCUMENT RESSOURCE IV
+
+
+===== page 21 =====
+     Implantations possibles du vérin de relevage
+
+
+
+
+Configuration (a)                                        Configuration (b)
+
+
+
+ Caractéristiques fonctionnelles de la pièce support
+
+
+                    Cylindre C (diamètre 30)
+
+
+
+
+                                        C1 (-10, 50, 0)(O,x,y,z)
+                            C1
+
+
+
+                                                       Plan A
+                               y
+
+
+                                        x
+                              0
+                                        z
+
+
+
+
+                                                       Traverse
+                               Plan B
+
+
+
+
+                DOCUMENT RESSOURCE V
+                                                             TOURNEZ LA PAGE S.V.P.
+
+
+===== page 22 =====
+ Modélisation du châssis intermédiaire sous charge
+
+
+
+
+                                M
+
+
+                     Support de Fcable
+                                            G
+     A                                      Support de Fpoids
+                                                                              x1
+
+         D
+
+                                                                y1       y0
+                                                                     D
+         O
+     B
+
+
+Support de Fvérin                                                                  x1
+                                                                              D
+                                                                                   x0
+
+
+
+ AM = xM · x1 + yM · y1 + zM · z1         xM= 500mm ; yM = 200mm ; zM = -150mm
+ AG = xG · x1                             xG = 650mm
+ AB = xB · x1 + yB · y1                   xB = -50mm ; yB = -400mm
+ OA = L · y1                             L = 300mm
+ OD = y · y1
+ Fverin = - Fvx· x1 + Fvy y1                    Fvx = 1 700 N ; Fvy= 1 000N
+ Fpoids = - P y0                                P = 5 000 N
+ Fcable = - T· x1                               T = 20 000 N
+ D = 10° ; cos D      1 ; sin D     0.2
+
+
+
+
+                    DOCUMENT RESSOURCE VI
+
+
+===== page 23 =====
+[OCR] Graisseur
+
+sur plats
+pes
+4
+= Vaan
+po)
+d
+dxpas M6x1 M6x1 M7x1 M8x1 M10x1 | MI2x1.75
+M8x1.25| _M10x1.5
+sur plats
+(a) 7 7 8 10 i 14
+1 (mm) 3 5 5 5 5-7 7
+h(mm) 10.3 10 10 10 10 rT
+Coussinet en bronze
+£
+A150
+fx 45°
+eee
+7 a | TS
+a7) io} 12] 14] 16] 18] 20] 22] 25] 28] 32] 36] 40] 45] so
+(mm)
+a2) i6| is} 20] 22] 24] 26] 28] 32] 36] 40] 46] so] s5| 60
+(mm)
+a) 50/22) 25] 28] 30] 32] 34] 38] 42) 46] 52] ss] 03] os
+(mm)
+1 6 10 12] 12 15 20 30 40
+(mm)| 10 15 15] 20 20 30 40 50
+b
+(tah 3 4 5
+f
+(ca 03 04 06 08
+
+Pression spécifique : p = 80 MPa
+
+DOCUMENT RESSOURCE VII
+TOURNEZ LA PAGE S.V.P.
+
+
+===== page 24 =====
+[OCR] Montant vertical chassis inférieur
+
+Palier a concevoir sur le
+
+calque format A3
+
+Ug{LZZZZZZg,
+
+_4
+
+= Ful]
+7 7
+
+yo Ed
+
+a
+
+“(O_O
+
+Ech: 1/2 al “Ta
+
+DOCUMENT RESSOURCE VIII
+FIN DE LGPREUVE
+
+
+===== page 25 =====
+                 Académie :                                              Session :                                           Modèle EN.
+                 Examen ou Concours                                                                    Série* :
+                 Spécialité/option :                                                     Repère de l’épreuve :
+DANS CE CADRE
+
+
+
+
+                 Épreuve/sous-épreuve :
+                 NOM :
+                 (en majuscules, suivi s’il y a lieu, du nom d’épouse)
+                 Prénoms :                                                             N° du candidat
+                 Né(e) le :                                                                              (le numéro est celui qui figure sur la
+                                                                                                            convocation ou la liste d’appel)
+
+
+                 Examen ou concours :                                                  Série* :
+NE RIEN ÉCRIRE
+
+
+
+
+                                                                                                                      Numérotez chaque
+                 Spécialité/option :                                                                                  page (dans le cadre
+                                                                                                                      en bas de la page) et
+                 Repère de l’épreuve :                                                                                placez les feuilles
+                                                                                                                      intercalaires dans le
+                 Épreuve/sous-épreuve :                                                                               bon sens
+                 (Préciser, s’il y a lieu, le sujet choisi)
+
+                 Note :                      Appréciation du correcteur (uniquement s’il s’agit d’un examen) :
+
+                                       20
+
+
+
+
+                 * Uniquement s’il s’agit d’un examen.
+
+
+
+
+                                                                                                                             11PT27
+
+
+===== page 26 =====
+[OCR] 
+
+===== page 27 =====
+[OCR] 1.1 - Effectuez le graphe des liaisons de cette modélisation.
+
+1.2 - Déterminez le degré a'hyperstatisme pour le sous-ensemble {(So);(S1);(S7);(Sa)} en expliquant
+votre démarche.
+
+TOURNEZ LA PAGE S.V.P. 1
+
+
+===== page 28 =====
+[OCR] 1.3 - Proposez une évolution a donner conduisant a un modéle isostatique pour ce sous-ensemble
+sans modifier ni les classes d'équivalence ni le principe cinématique du mécanisme.
+
+1.4 - Déterminez le degré d'hyperstatisme de l'ensemble en expliquant votre démarche (pour cette
+question vous ne tiendrez pas compte de la modification proposée a la question précédente).
+
+1.5 - Proposez une deuxiéme évolution a donner conduisant a un modéle isostatique pour l'ensemble
+sans modifier ni les classes d'équivalence ni le principe cinématique du mécanisme.
+
+
+
+===== page 29 =====
+[OCR] 1.6 - Déterminez (sur la page suivante) par une méthode graphique la vitesse V;, sso . Vous ferez
+apparaitre tous les éléments de construction nécessaires a sa détermination. On considére une
+échelle pour les constructions de 1 cm pour 2 mm/s.
+
+1.7 - Estimez alors la vitesse de rotation du chassis intermédiaire par rapport au chassis inférieur.
+
+TOURNEZ LA PAGE S.V.P.
+
+3
+
+
+===== page 30 =====
+                 A
+                                                                                                     NE RIEN ÉCRIRE
+
+
+
+
+                 B
+
+
+
+                                        C
+                                                                                                     DANS LA PARTIE BARRÉE
+
+
+
+
+                     Châssis inférieur (6)
+
+    VB,S1/S0 =
+                      Echelle pour les constructions de cinématique graphique : 1 cm pour 2 mm/s
+                                                                           Echelle du dessin :1/10
+
+
+
+
+
+
+
+===== page 31 =====
+[OCR] 2.1 - Expliquez la raison pour laquelle le constructeur a choisi un vérin hydraulique et non
+pneumatique.
+
+2.2 - Ce vérin doit-il 6tre simple effet ou double effet (justifiez votre réponse)?
+
+2.3 - A I'aide d'un dessin, justifiez si, pour une pression d'utilisation donnée, un vérin est aussi
+efficace en poussant qu’en tirant.
+
+2.4 - Déterminez (sur la page suivante) de maniére graphique la norme et la direction de I’effort F a
+fournir par le vérin hydraulique. Vous ferez apparaitre tous les éléments de construction nécessaires
+a sa détermination. On considére une échelle pour les constructions de 1 cm pour 2 OOON.
+
+TOURNEZ LA PAGE S.V.P. 5
+
+
+===== page 32 =====
+                                                                                    NE RIEN ÉCRIRE
+
+
+
+
+                                 G
+    A
+                                 P
+
+
+
+
+    B
+
+
+
+                            C
+                                                                                    DANS LA PARTIE BARRÉE
+
+
+
+
+        Châssis inférieur
+
+                                Echelle pour les constructions : 1cm pour 2 000 N
+
+
+
+
+
+
+
+===== page 33 =====
+[OCR] 2.5 - Donnez une estimation de la pression hydraulique nécessaire dans le vérin (on supposera une
+
+contre pression nulle).
+
+2.6 - Déterminez (sur la page suivante) de maniére graphique la norme et la direction de l'effort F a
+fournir par le vérin hydraulique. Vous ferez apparaitre tous les éléments de construction nécessaires
+
+a sa détermination. On considére une échelle de 1 cm pour 2 OOON.
+
+2.7 - Donnez une estimation la pression hydraulique nécessaire dans le vérin (on supposera une
+
+contre pression nulle).
+
+TOURNEZ LA PAGE S.V.P.
+
+7
+
+
+
+===== page 34 =====
+                                                                                    NE RIEN ÉCRIRE
+
+
+
+
+                                 G
+    A
+                                 P
+
+
+
+
+    B
+
+
+
+                            C
+                                                                                    DANS LA PARTIE BARRÉE
+
+
+
+
+        Châssis inférieur
+
+                                Echelle pour les constructions : 1cm pour 2 000 N
+
+
+
+
+
+
+
+===== page 35 =====
+[OCR] 2.8 - En isolant le chassis intermédiaire et tout ce qu'il supporte, donnez les expressions littérales du
+travail de I'action de la pesanteur et du travail de de I'action du cable. Ces expressions seront
+données en fonction de P, T, Aa et des paramétres géométriques présents sur le document
+ressource IV.
+
+2.9 - En estimant les valeurs numériques de ces travaux, quelle est la valeur de T la plus défavorable
+pour l'utilisation du vérin?
+
+TOURNEZ LA PAGE S.V.P. 9
+
+
+
+===== page 36 =====
+[OCR] 2.10 - Par un raisonnement sur le sens de travail du vérin, quelle configuration vous semble la plus
+adaptée (justifiez votre réponse)?
+
+2.11 - Par un raisonnement sur le travail, montrez que pour limiter la pression d'utilisation du vérin, il
+est important de I'exploiter sur toute sa course disponible.
+
+2.12 - A quelle distance minimale doit-on alors placer I'articulation B par rapport a A?
+
+10
+
+
+===== page 37 =====
+                                                       NE RIEN ÉCRIRE   DANS LA PARTIE BARRÉE
+
+
+
+
+3DUXQHFRQVWUXFWLRQJUDSKLTXHLQGLTXH]ODQRXYHOOHSRVLWLRQGXSRLQW&9RXVIHUH]DSSDUDvWUH
+WRXVOHVpOpPHQWVGHFRQVWUXFWLRQLOOXVWUDQWYRWUHGpPDUFKH
+
+
+
+
+                                                                                                                                 Echelle : 1/10
+                      Châssis supérieur et chenilles
+
+
+
+
+                                                                         Châssis intermédiaire
+
+
+
+
+                                                                                                             Châssis inférieur
+                                                                        B
+                                                                A
+
+
+
+
+                                                                                                 TOURNEZ LA PAGE S.V.P.                           
+
+
+===== page 38 =====
+[OCR] 3.1 - Expliquez les trois procédés de soudage a I'arc suivants : soudage 4a I'électrode enrobée,
+soudage MIG, soudage TIG ainsi que leurs avantages et inconvénients pour la produit concerné.
+
+3.2 - Les piéces de structures sont réalisées dans un matériau désigné par S355. Expliquez cette
+désignation.
+
+12
+
+
+===== page 39 =====
+[OCR] 3.3 - A partir des surfaces fonctionnelles proposées, dessinez un schéma en 3D a main levée
+représentant l’allure générale de la piéce a concevoir. On ne tiendra pas compte des contraintes de
+résistance ou de fabrication.
+
+3.4 - Représentez la géométrie fonctionnelle en 2D et les symboles normalisés (cadres, lignes de
+rappel, fléches, etc) des 4 spécifications. Les valeurs des tolérances associées seront notées t1, 2,
+t3 et IT4.
+
+TOURNEZ LA PAGE S.V.P. 13
+
+
+===== page 40 =====
+[OCR] 3.5 - Interprétez la spécification dimensionnelle.
+
+3.6 - Interprétez les 3 tolérances géométriques a l'aide des grilles « GPS » pages suivantes
+
+14
+
+
+===== page 41 =====
+[OCR] DANS LA PARTIE BARREE.
+
+NE RIEN ECRIRE
+
+(s)ayjnut (s)uoquaw (se)) e| sakey
+
+SLISGNV1d
+
+UON|UYEp Ap UISSEP Np }!e}xXa-
+ewyos
+
+‘epyjoeds SOUsIsIaI &|
+e yoddei Jed
+uonisod uojejuey0
+‘saquyenuog
+
+agsodwoo
+aidwis
+
+awia}sks
+eunwwos —ajduiis
+
+sejdyinu ednoib
+anbun anblun
+
+“eouel9|o} ap auoz | suep
+Jetjue yno} 4oM}'8 08 lop gOUEI9IO} IUSWHeI9,7
+1 @HWUOJUOD ap UO!}IpuoD
+
+_ 99URJ9]O} Bp aU0Z
+
+« (S)egyloads (s)aouaigy9y
+
+aouaigja1 ep —_| , (s)goues9}oL.
+squswi91a squewi9|a
+
+*
+
+queweyeg uonisog
+uoneyueiQ euo4
+uoneoyisads ap adAL
+
+xneap! sjuawig|3
+
+« B[@poW UNIS » Np syeNXe
+xneap| uou sjusuia/y
+
+uoneoyisads
+eB] ap ajoquiks
+
+‘soueI9 10} ap SuoZ Jed uOHesyIONdS Sun.p eShleUy
+
+SSTIVINON INSWSONVESIOL
+
+15
+
+TOURNEZ LA PAGE S.V.P.
+
+
+===== page 42 =====
+[OCR] DANS LA PARTIE BARREE.
+
+NE RIEN ECRIRE
+
+(s)ajynu (s)uonuew (s9}) e] JeAeY ,
+
+SLIVINOIGNAddad
+
+uonluyep ep ujssep np wesnKe
+ewiayos
+
+Bgyjoads SoUsI8}51 ©]
+e yoddes sed
+uonjsod uoyeyueyo
+saqujesjuog
+
+agsodwuoo
+aidwis
+
+awiaysks
+eunwiuco = ajduis
+
+sejdyinw
+anbun
+
+ednosB
+anbiun
+
+‘e0ue29|0} ep euoz e| suep
+4JaU2 7NO} JMS 8s Yop gouEI9IO} WEWEIE7
+
+2 QJWUOJUOD ap UOHIPUD
+
+4, 89UBJ9/0} ap @UOZ
+
+. (S)eaytoads (s)eouai9j9y
+
+aouedg}94 ap
+squewi9|a
+
+» (S)pouesg]oL
+squewi9|a
+
+jueweneg uonisog
+uoNeyUeLO euui04
+uoljeoyioads ap adAL
+
+xnegp| sjuswia|y
+
+« 8]@POW UPIS » Np syesXe
+xneap| uou syuawi9]3
+
+uoneoiyisads
+Be] ap ajoquiks
+
+‘oues9|0} op Suoz Jed uoHeo|oeds oun,p eSATEUY
+
+SSMVNON INSWSIONVESIOL
+
+16
+
+
+===== page 43 =====
+[OCR] DANS LA PARTIE BARREE.
+
+NE RIEN ECRIRE
+
+(s)einnuy (s)uonuew (se}) &1 49408 «
+
+NOILVSITV901
+
+J9p 9p ulssep np y1eNxe
+ewiayos
+
+BpUjOSdS SOUBISIa e|
+e yoddei sed
+uonsod uoyeyuayo
+saquyejuo
+
+agsodwoo
+aidwis
+
+eweyshs
+
+eunwwos — 9jduis
+
+sejdyinw adnou6
+anbun anblun
+
+‘20ubJ9I0} ap auoz e| suep
+JNU sno} JeMIS @s Wop goueI9I0} jUEWUOIe7
+1 @HWUOJU0D ap UOHIPUDD,
+
+_ 99UBI9|0} ap BUOZ
+
+x (8)2
+
+ads (s)eouei9y
+
+*
+
+aouaigje4 ap
+squsw9|a
+
+ (S)99URIB}OL
+squewi9|3
+
+queweyeg uonisog
+uoneyUsQ eU04
+uoyjeoyioeds ap adAy
+
+xnegp| sjuewely
+
+« B]9POW UPS » Np sWesKe
+xneap| UoU s}usWa/y
+
+uonjeoyioeds
+e| ap ajoquiAg
+
+‘2Ue1910} op Uz Jed UOReoyIogds oun p OSATEUY
+
+SSIIVNHON INSWSONVES ION
+
+17
+
+TOURNEZ LA PAGE S.V.P.
+
+
+===== page 44 =====
+[OCR] 3.7 - Aprés avoir précisé vos critéres de choix, proposez deux matériaux et les traitements
+thermiques ou de surface éventuels associés pour réaliser le support.
+
+3.8 - Proposez et détaillez deux processus de fabrication du support s’appuyant pour le premier sur
+un assemblage de plaques et pour le deuxiéme sur un brut tridimensionnel en détaillant :
+
+1. L’obtention de la (ou des) piéce(s) élémentaire(s) et intermédiaires
+
+2. _ L’obtention de la piéce finie et des surfaces fonctionnelles
+
+18
+
+
+===== page 45 =====
+[OCR] 3.9 - Proposez trois classes de procédés différents permettant l’obtention d’une liaison compléte
+démontable ou non entre le support et le chassis inférieur ainsi que leurs avantages et inconvénients.
+
+3.10 - Proposez et justifiez la meilleure combinaison matériau/processus de fabrication pour le
+support ainsi que la méthode d’assemblage avec le chassis inférieur reprenant les solutions
+envisagées aux trois questions précédentes.
+
+TOURNEZ LA PAGE S.V.P. 19
+
+
+===== page 46 =====
+[OCR] a
+NE RIEN ECRIRE
+
+3.11 - Compte tenu du choix précédent, proposez un dessin a main levée du support final.
+
+20
+
+
+===== page 47 =====
+[OCR] 4.1 - Détaillez pour chacune des actions (action du cable, pesanteur, action du vérin) le(s) type(s) de
+sollicitation(s) qu'elles engendrent.
+
+4.2 - Calculez le torseur des efforts intérieurs en tout point D(y) de cette poutre.
+
+TOURNEZ LA PAGE S.V.P. 21
+
+
+===== page 48 =====
+NE RIEN ÉCRIRE   DANS LA PARTIE BARRÉE
+
+
+
+
+                                         
+
+
+===== page 49 =====
+[OCR] 4.3 - A quel(s) type(s) de sollicitation(s) est-elle soumise ?
+
+4.4 - Tracez les diagrammes d’évolution des composantes du torseur des efforts intérieurs en tout
+point de cette poutre. Vous préciserez les valeurs remarquables.
+
+TOURNEZ LA PAGE S.V.P. 23
+
+
+===== page 50 =====
+[OCR] 4.5 - On suppose une poutre de section carrée creuse, de coté a et d’épaisseur e. Exprimez le
+moment quadratique de la section droite en flexion au point D autour de I'axe Z en fonction de a et e.
+
+4.6 - Donnez I’expression permettant de calculer la répartition de contraintes normales dans une
+section droite a partir du moment de flexion.
+
+4.7 - A supposer que le matériau de la poutre ait une limite élastique de 355 MPa, déterminez si la
+poutre reste dans le domaine élastique ou non. On prendra a=100mm et e=5mm pour I’application
+numérique.
+
+24
+
+
+===== page 51 =====
+[OCR] 5.2 - Justifiez du bon dimensionnement des coussinets choisis.
+
+FIN DE LGPREUVE
+
+25
+
+
+===== page 52 =====
+[OCR] Document Reponse ENSAM 210x350 2009:Document Reponse ENSAM ooo 2009 22/01/09 8:54 Page 2
+
+
+
+===== page 53 =====
+[OCR] DANS CE CADRE
+
+NE RIEN ECRIRE
+
+NOM: i
+Ten majuscules, suivi s7y a lieu, du nom @épouse)
+Prénom: N° du candidat
+Neé(e) le: Tle numéro est celui qui figure sure
+convocation ou ia iste ¢appel)
+11PT27
+g g
+< <
+‘3 ‘3
+uw uw
+5
+2
+Oo
+© fom
+= S
+& o
+3 2 ‘
+. 3 5
+a
+5 8 2
+Oo
+ra Oo Q
+£ $
+_ o
+2 2
+O 3
+£ &
+° &
+5 3
+u }
+3 3
+s &
+2 o
+5 3
+> 5
+©
+2 10)
+8
+o
+a
+| PILI (LL
+— OSIOAPIL
+
+AA
+
+Cc-C
+
+Académie : Session :
+
+Modéle EN.
+
+Examen ou Concours
+
+Série* :
+
+Spécialité/option :
+
+Repére de I’épreuve :
+
+Epreuve/sous-épreuve :
+
+NE RIEN ECRIRE
+
+DANS LA PARTIE BARREE
+
+Calque réponse 5.1
+
+

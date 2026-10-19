@@ -1,0 +1,666 @@
+{
+ "concours": "Banque PT",
+ "filiere": "SIC",
+ "date": "2011",
+ "file": "BPT_SIC_2011.pdf",
+ "status": 200,
+ "source": "banquept.fr, rubrique « Annales d'annales » (rubrique23.html)",
+ "epreuve_originale": "SI C",
+ "classification": "automatique par mots-clés (Claude, oct. 2026) — moins fine que celle des sujets récents",
+ "decoupage_questions": "Question",
+ "texte_ocr": true,
+ "pages_sujet": 16,
+ "pages_total": 53,
+ "data": {
+  "parties": [
+   {
+    "titre_partie": "I. Etude du système",
+    "questions": [
+     {
+      "numero": "Q1.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Isostatisme",
+        "semestre": "S2"
+       }
+      ],
+      "page": 6,
+      "tags": [],
+      "texte": "Question 1.1 : Effectuez le graphe des liaisons de cette modélisation."
+     },
+     {
+      "numero": "Q1.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Hyperstatisme",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Correcteurs : Correcteur numérique",
+        "semestre": "S4"
+       }
+      ],
+      "page": 6,
+      "tags": [],
+      "texte": "Question 1.2 : Déterminez le degré d'hyperstatisme pour le sous-ensemble {(S0);(S1);(S7);(S8)} en expliquant votre démarche."
+     },
+     {
+      "numero": "Q1.3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Hyperstatisme",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Statique : Isostatisme",
+        "semestre": "S2"
+       }
+      ],
+      "page": 6,
+      "tags": [],
+      "texte": "Question 1.3 : Proposez une évolution à donner conduisant à un modèle isostatique pour ce sous-ensemble sans modifier ni les classes d'équivalence ni le principe cinématique du mécanisme."
+     },
+     {
+      "numero": "Q1.4",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Hyperstatisme",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Correcteurs : Correcteur numérique",
+        "semestre": "S4"
+       }
+      ],
+      "page": 6,
+      "tags": [],
+      "texte": "Question 1.4 : Déterminez le degré d'hyperstatisme de l'ensemble en expliquant votre démarche (pour cette question vous ne tiendrez pas compte de la modification proposée à la question précédente)."
+     },
+     {
+      "numero": "Q1.5",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Statique : Hyperstatisme",
+        "semestre": "S2"
+       }
+      ],
+      "page": 6,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "Question 1.5 : Proposez une deuxième évolution à donner conduisant à un modèle isostatique pour l'ensemble sans modifier ni les classes d'équivalence ni le principe cinématique du mécanisme. Etude graphique de la rentrée du vérin de relevage On souhaite déterminer la vitesse de rotation du châssis intermédiaire par rapport au châssis inférieur à partir de la vitesse de sortie de la tige du vérin de relevage. La tige du vérin est articulée en B sur le châssis intermédiaire et son corps est articulé en C au châssis inférieur (voir document ressource IV). La disposition du vérin permet une étude plane de la cinématique. On supposera pour cette étude une vitesse de sortie de la tige par rapport au corps du vérin de 10 mm/s. JJJJJJJG"
+     },
+     {
+      "numero": "Q1.6",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       }
+      ],
+      "page": 6,
+      "tags": [],
+      "texte": "Question 1.6 : Déterminez par une méthode graphique la vitesse VB,S1/S 0 . Vous ferez apparaître tous les éléments de construction nécessaires à sa détermination. On considère une échelle pour les constructions de 1 cm pour 2 mm/s."
+     },
+     {
+      "numero": "Q1.7",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       }
+      ],
+      "page": 6,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "Question 1.7 : Estimez alors la vitesse de rotation du châssis intermédiaire par rapport au châssis inférieur. 6 II. Dimensionnement statique du vérin de relevage L'adaptation aux différentes conditions de travail conduit à envisager une variation de l'inclinaison du châssis intermédiaire par rapport au châssis inférieur comprise entre 0 et 12°. Dans cette partie on étudie le dimensionnement et l'implantation du vérin hydraulique de relevage. La MTL présentée ici est déjà une évolution d'une première version qui avait été conçue pour un effort de traction des chenilles sur le câble d'une valeur inférieure à celle envisagée dans cette étude. Les châssis, les chenilles ainsi que leurs motorisations ont été redimensionnés et il a été décidé d'étudier la possibilité d'utiliser le même vérin de relevage sur cette nouvelle version. Ce choix est motivé par la fiabilité éprouvé de celui-ci et le besoin de standardisation des références. Les caractéristiques du vérin sont données document ressource IV. On admettra que l'effort de traction nécessaire sur le câble afin de l'amener à l'outil de pose (le poseur) pourra atteindre maintenant la valeur de Tmax = 20 000 N. Cette tension dans le câb"
+     }
+    ]
+   },
+   {
+    "titre_partie": "II. Dimensionnement statique du vérin de relevage",
+    "questions": [
+     {
+      "numero": "Q2.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 7,
+      "tags": [
+       "hydraulique",
+       "pneumatique"
+      ],
+      "texte": "Question 2.1 : Expliquez la raison pour laquelle le constructeur a choisi un vérin hydraulique et non pneumatique."
+     },
+     {
+      "numero": "Q2.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 7,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "Question 2.2 : Ce vérin doit-il être simple effet ou double effet (justifiez votre réponse)?"
+     },
+     {
+      "numero": "Q2.3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 7,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "Question 2.3 : A l'aide d'un dessin, justifiez si, pour une pression d'utilisation donnée, un vérin est aussi efficace en poussant qu'en tirant. 7 Tournez la page S.V.P. Dans un premier temps, l'implantation du vérin est conservée par rapport à l'ancienne version et il reste à vérifier que le vérin est apte à l'emploi du point de vue pression d'utilisation. Afin d'étudier une première configuration, on considère la position proposée sur le cahier réponse pour laquelle le châssis intermédiaire est incliné de 10° par rapport à l’horizontale et pour lequel l’action mécanique du câble sera nulle (T=0). Le poids P est égal à 5 000 N."
+     },
+     {
+      "numero": "Q2.4",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 8,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "Question 2.4 : Déterminez de manière graphique la norme et la direction de l’effort F à fournir par le vérin hydraulique. Vous ferez apparaître tous les éléments de construction nécessaires à sa détermination. On considère une échelle pour les constructions de 1 cm pour 2 000N."
+     },
+     {
+      "numero": "Q2.5",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 8,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "Question 2.5 : Donnez une estimation de la pression hydraulique nécessaire dans le vérin (on supposera une contre pression nulle). On considère maintenant la tension T du câble, égale à 20 000 N toujours pour une inclinaison du châssis intermédiaire de 10° par rapport à l’horizontale."
+     },
+     {
+      "numero": "Q2.6",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 8,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "Question 2.6 : Déterminez de manière graphique la norme et la direction de l’effort F à fournir par le vérin hydraulique. Vous ferez apparaître tous les éléments de construction nécessaires à sa détermination. On considère une échelle de 1 cm pour 2 000N."
+     },
+     {
+      "numero": "Q2.7",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 8,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "Question 2.7 : Donnez une estimation de la pression hydraulique nécessaire dans le vérin (on supposera une contre pression nulle). On désire maintenant rechercher à optimiser l'implantation du vérin afin de minimiser la pression hydraulique nécessaire. Afin de raisonner non plus sur une position particulière, vous allez envisager le travail que doit fournir le vérin pour soulever le châssis intermédiaire sur les 12° d'amplitude ('D = 12°)."
+     },
+     {
+      "numero": "Q2.8",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       }
+      ],
+      "page": 8,
+      "tags": [],
+      "texte": "Question 2.8 : En isolant le châssis intermédiaire et tout ce qu'il supporte, donnez les expressions littérales du travail de l'action de la pesanteur et du travail de l'action du câble. Ces expressions seront données en fonction de P, T, 'D et des paramètres géométriques présents sur le document ressource IV. 8"
+     },
+     {
+      "numero": "Q2.9",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 9,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "Question 2.9 : En estimant les valeurs numériques de ces travaux, quelle est la valeur de T la plus défavorable pour l'utilisation du vérin? Le document ressource V propose 2 dispositions possibles pour le vérin de levage."
+     },
+     {
+      "numero": "Q2.10",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
+        "semestre": "S1"
+       }
+      ],
+      "page": 9,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "Question 2.10 : Par un raisonnement sur le sens de travail du vérin, quelle configuration vous semble la plus adaptée (justifiez votre réponse)? On suppose de manière purement arbitraire que la disposition (b) soit retenue. Le but est maintenant de trouver de nouvelles positions pour les articulations B et C afin de limiter le plus possible la pression hydraulique nécessaire. Les hypothèses à retenir pour la suite de l'étude sont les suivantes : x le travail maximum que doit fournir le vérin a été déterminé suite aux questions 2.7 et 2.8. x l'effort que doit fournir le vérin varie faiblement lors de sa course et pourra être supposé constant (valeur moyenne) pour les raisonnements qui suivent. x le mouvement est suffisamment lent pour pouvoir négliger les effets d'inertie."
+     },
+     {
+      "numero": "Q2.11",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
+        "semestre": "S1"
+       }
+      ],
+      "page": 9,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "Question 2.11 : Par un raisonnement sur le travail, montrez que pour limiter la pression d'utilisation du vérin, il est important de l'exploiter sur toute sa course disponible. F 9 Tournez la page S.V.P."
+     },
+     {
+      "numero": "Q2.12",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       }
+      ],
+      "page": 10,
+      "tags": [],
+      "texte": "Question 2.12 : A quelle distance minimale doit-on alors placer l'articulation B par rapport à A? On pourra pour répondre à cette question s'inspirer de l'inégalité sur les longueurs des cotés d'un triangle donnée ci-dessous. Lmin u u  Lmax - Lmin Lmax Une position respectant cette distance minimale a été choisie arbitrairement. Elle est représentée sur le cahier réponse."
+     },
+     {
+      "numero": "Q2.13",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 10,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "Question 2.13 : Par une construction graphique, indiquez la nouvelle position du point C. Vous ferez apparaître tous les éléments de construction illustrant votre démarche. 10 III. Etude de la liaison vérin / châssis inférieur Dans cette partie, on propose d’étudier la conception de la pièce (ci-après notée « le support ») à l’interface entre le châssis inférieur et le corps du vérin de relevage. Questions préliminaires"
+     }
+    ]
+   },
+   {
+    "titre_partie": "III. Etude de la liaison vérin / châssis inférieur",
+    "questions": [
+     {
+      "numero": "Q3.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
+        "semestre": "S3"
+       }
+      ],
+      "page": 11,
+      "tags": [
+       "soudage / mécano-soudé"
+      ],
+      "texte": "Question 3.1 : Les différents châssis de la MTL sont composés de structures mécano soudées. Expliquez les trois procédés de soudage à l’arc suivants : soudage à l’électrode enrobée, soudage MIG, soudage TIG ainsi que leurs avantages et inconvénients pour le produit concerné."
+     },
+     {
+      "numero": "Q3.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Matériaux : Choix",
+        "semestre": "S3"
+       }
+      ],
+      "page": 11,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "Question 3.2 : Les pièces de structures sont réalisées dans un matériau désigné par S355. Expliquez cette désignation. Etude Produit, Procédé, Matériau On propose des surfaces de contact (surfaces fonctionnelles) entre le support et la traverse du châssis inférieur et entre le support et le corps du vérin : un plan horizontal A, un plan vertical B, un évidement cylindrique de révolution d’axe horizontal C (document ressource V)."
+     },
+     {
+      "numero": "Q3.3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 11,
+      "tags": [
+       "tolérances géométriques"
+      ],
+      "texte": "Question 3.3 : A partir des surfaces fonctionnelles proposées, dessinez un schéma en 3D à main levée représentant l’allure générale de la pièce à concevoir. On ne tiendra pas compte des contraintes de résistance ou de fabrication. On propose les quatre spécifications géométriques et dimensionnelles suivantes pour définir et situer les trois surfaces fonctionnelles : x Planéité de la surface A x Perpendicularité de B / A x Localisation C / A et B x Diamètre de C"
+     },
+     {
+      "numero": "Q3.4",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       }
+      ],
+      "page": 11,
+      "tags": [
+       "tolérances géométriques"
+      ],
+      "texte": "Question 3.4 : Représentez la géométrie fonctionnelle en 2D et ajoutez-y les symboles normalisés (cadres, lignes de rappel, flèches, etc) des 4 spécifications. Les valeurs des tolérances associées seront notées t1, t2, t3 et IT4. 11 Tournez la page S.V.P."
+     },
+     {
+      "numero": "Q3.5",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+        "semestre": "S2"
+       }
+      ],
+      "page": 12,
+      "tags": [
+       "tolérances géométriques"
+      ],
+      "texte": "Question 3.5 : Interprétez la spécification dimensionnelle."
+     },
+     {
+      "numero": "Q3.6",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+        "semestre": "S2"
+       }
+      ],
+      "page": 12,
+      "tags": [
+       "tolérances géométriques"
+      ],
+      "texte": "Question 3.6 : Interprétez les 3 tolérances géométriques à l’aide des grilles « GPS » proposées dans le document réponse."
+     },
+     {
+      "numero": "Q3.7",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 12,
+      "tags": [],
+      "texte": "Question 3.7 : Après avoir précisé vos critères de choix, proposez deux matériaux et les traitements thermiques ou de surface éventuels associés pour réaliser le support."
+     },
+     {
+      "numero": "Q3.8",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 12,
+      "tags": [],
+      "texte": "Question 3.8 : Proposez et détaillez deux processus de fabrication du support s’appuyant pour le premier sur un assemblage de plaques et pour le second sur un brut tridimensionnel en détaillant : 1. L’obtention de la (ou des) pièce(s) élémentaire(s) et intermédiaires 2. L’obtention de la pièce finie et des surfaces fonctionnelles"
+     },
+     {
+      "numero": "Q3.9",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 12,
+      "tags": [],
+      "texte": "Question 3.9 : Proposez trois classes de procédés différents permettant l’obtention d’une liaison complète démontable ou non entre le support et le châssis inférieur ainsi que leurs avantages et inconvénients."
+     },
+     {
+      "numero": "Q3.10",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 12,
+      "tags": [],
+      "texte": "Question 3.10 : Proposez et justifiez la meilleure combinaison matériau/processus de fabrication pour le support ainsi que la méthode d’assemblage avec le châssis inférieur reprenant les solutions envisagées aux trois questions précédentes."
+     },
+     {
+      "numero": "Q3.11",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       }
+      ],
+      "page": 12,
+      "tags": [],
+      "texte": "Question 3.11 : Compte tenu du choix précédent, proposez un dessin à main levée du support final. 12 IV. Dimensionnement du châssis intermédiaire Dans cette partie, on s’intéresse au comportement sous charge du châssis intermédiaire. La géométrie du châssis est simplifiée et représentée sur le document ressource VI. On modélise les efforts exercés sur le châssis intermédiaire comme indiqué sur le document ressource VI. On s’intéresse au comportement sous charge de la partie située entre O et A, que l’on considérera ici comme une poutre droite. Compte tenu de la variabilité du diamètre des câbles à enfouir et de l’asymétrie du système d’entrainement du câble par les chenilles motorisées, l’action mécanique du câble sur le châssis intermédiaire n’est pas dans le plan (x0,y0) mais dans un plan parallèle à celui-ci."
+     }
+    ]
+   },
+   {
+    "titre_partie": "IV. Dimensionnement du châssis intermédiaire",
+    "questions": [
+     {
+      "numero": "Q4.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 13,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "Question 4.1 : Détaillez pour chacune des actions (action du câble, pesanteur, action du vérin) le(s) type(s) de sollicitation(s) qu'elles engendrent."
+     },
+     {
+      "numero": "Q4.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Résistance des matériaux : Torseur de cohésion",
+        "semestre": "S3"
+       }
+      ],
+      "page": 13,
+      "tags": [],
+      "texte": "Question 4.2 : Calculez le torseur des efforts intérieurs en tout point D(y) de cette poutre."
+     },
+     {
+      "numero": "Q4.3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       }
+      ],
+      "page": 13,
+      "tags": [],
+      "texte": "Question 4.3 : A quel(s) type(s) de sollicitation(s) est-elle soumise ?"
+     },
+     {
+      "numero": "Q4.4",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Résistance des matériaux : Torseur de cohésion",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       }
+      ],
+      "page": 13,
+      "tags": [],
+      "texte": "Question 4.4 : Tracez les diagrammes d’évolution des composantes du torseur des efforts intérieurs en tout point de cette poutre. Vous préciserez les valeurs remarquables. Pour la suite de l'étude, seule la sollicitation de flexion sera considérée."
+     },
+     {
+      "numero": "Q4.5",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       }
+      ],
+      "page": 13,
+      "tags": [],
+      "texte": "Question 4.5 : On suppose une poutre de section carrée creuse, de coté a et d’épaisseur e. Exprimez le moment quadratique de la section droite en flexion au point D autour de l'axe Z en fonction de a et e."
+     },
+     {
+      "numero": "Q4.6",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       }
+      ],
+      "page": 13,
+      "tags": [],
+      "texte": "Question 4.6 : Donnez l’expression permettant de calculer la répartition de contraintes normales dans une section droite à partir du moment de flexion."
+     },
+     {
+      "numero": "Q4.7",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       }
+      ],
+      "page": 13,
+      "tags": [
+       "paliers lisses",
+       "lubrification"
+      ],
+      "texte": "Question 4.7 : A supposer que le matériau de la poutre ait une limite élastique de 355 MPa, déterminez si la poutre reste dans le domaine élastique ou non. On prendra a = 100 mm et e = 5 mm pour l’application numérique. 13 Tournez la page S.V.P. V. Conception Il est demandé dans cette partie de proposer une solution technique pour la liaison pivot entre les châssis inférieur et intermédiaire et pour la liaison glissière entre les châssis intermédiaire et supérieur. Liaison pivot entre les châssis inférieur et intermédiaire Cette liaison est réalisée par 2 paliers identiques, dont un seul sera à définir. La figure ci dessous précise les zones où se trouvent ces paliers. Paliers à concevoir Montant vertical présenté document ressource VIII Le document ressource VIII détaille un des montants verticaux du châssis inférieur. Pour la conception des paliers il est demandé de respecter les points suivants : - utilisation de coussinets en bronze dont les formes peuvent être spécifiques si nécessaire (document ressource VII); - dispositif de graissage du palier par utilisation d'un graisseur (document ressource VII); - la liaison doit être démontable pour les phases de maintenance. 14 De plu"
+     }
+    ]
+   },
+   {
+    "titre_partie": "V. Conception",
+    "questions": [
+     {
+      "numero": "Q5.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 15,
+      "tags": [
+       "dessin / conception sur calque"
+      ],
+      "texte": "Question 5.1 : Complétez le calque format A3 par le dessin d'un palier : - en vue de face coupe A-A; - en vue de droite en demi-coupe C-C dont il faudra préciser la position du plan de coupe;"
+     },
+     {
+      "numero": "Q5.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 15,
+      "tags": [
+       "paliers lisses",
+       "lubrification"
+      ],
+      "texte": "Question 5.2 : Justifiez du bon dimensionnement des coussinets choisis. Liaison glissière entre les châssis intermédiaire et supérieur Cette liaison glissière est construite sur les deux traverses du châssis intermédiaire. Elle permet le réglage de l’écartement des chenilles en fonction de la dimension des câbles à enfouir. Les surfaces fonctionnelles sont graissées lors du réglage de la MTL effectué avant le début des opérations. Il est impératif que la surface supérieure du châssis supérieur soit libre de tout obstacle pour laisser le câble glisser sans encombre. 15 Tournez la page S.V.P. Surface devant être libre de tout obstacle Traverses"
+     },
+     {
+      "numero": "Q5.3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 16,
+      "tags": [
+       "dessin / conception sur calque"
+      ],
+      "texte": "Question 5.3 : Complétez le calque format A3 par le dessin de la liaison glissière dans la vue proposée et en vue de dessous. Seule une des deux traverses est représentée, on supposera que la conception est similaire sur l’autre traverse. FIN DE L©EPREUVE 16"
+     }
+    ]
+   }
+  ]
+ }
+}

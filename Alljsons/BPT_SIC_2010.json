@@ -1,0 +1,734 @@
+{
+ "concours": "Banque PT",
+ "filiere": "SIC",
+ "date": "2010",
+ "file": "BPT_SIC_2010.pdf",
+ "status": 200,
+ "source": "banquept.fr, rubrique « Annales d'annales » (rubrique23.html)",
+ "epreuve_originale": "SI C",
+ "classification": "automatique par mots-clés (Claude, oct. 2026) — moins fine que celle des sujets récents",
+ "decoupage_questions": "num",
+ "texte_ocr": true,
+ "pages_sujet": 14,
+ "pages_total": 40,
+ "data": {
+  "parties": [
+   {
+    "titre_partie": "Partie 1 : Réguler en énergie les composants",
+    "questions": [
+     {
+      "numero": "1.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Énergétique : Puissance et rendement",
+        "semestre": "S3"
+       }
+      ],
+      "page": 4,
+      "tags": [],
+      "texte": "1.1 - Quel est l’intérêt d’avoir un alternateur de ce type ?"
+     },
+     {
+      "numero": "1.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 4,
+      "tags": [],
+      "texte": "1.2 - Dans le cadre du démarrage à froid du moteur, faut-il piloter ou non l’alternateur ? Justifier rapidement votre réponse."
+     },
+     {
+      "numero": "1.3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Capteurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 4,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "1.3 - Citer deux autres composants auxiliaires d’un moteur, préciser, pour chacun, si un pilotage revêt un intérêt. -3- Partie 2 : Réduire les émissions nocives Le document ressource | présente des éléments de la distribution du moteur thermique étudié. Phase de démarrage La phase de démarrage et les quelques kilométres qui suivent sont des phases de forte pollution (montée en température). L’objectif est donc d’amener le moteur a sa température de fonctionnement le plus rapidement possible. Pour cela, le moteur a une gestion électronique de trés haut niveau. II est en effet équipé d’une vingtaine de capteurs et de plus de trente actionneurs (vérins hydrauliques, moteurs électriques). L’ensemble est géré par un calculateur relié a la partie opérative par un bus spécifique. Nous allons maintenant nous intéresser a la commande des actionneurs utilisés en phase de démarrage du moteur (Fig. 3). Nous considérons ainsi 5 fonctions : L'admission d’air variable (B) est régie selon les modalités suivantes : v L’admission longue (B+) est utilisée lorsque le régime moteur est faible ET la charge moteur élevée. v L’admission courte (B-) est utilisée lorsque la charge du moteur est faible ET le"
+     },
+     {
+      "numero": "2.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Machines électriques : Machine à courant continu",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Systèmes séquentiels : Diagramme d'états",
+        "semestre": "S1"
+       }
+      ],
+      "page": 6,
+      "tags": [
+       "hydraulique",
+       "grafcet"
+      ],
+      "texte": "2.1 - A l’aide des descriptions précédentes et dans le cadre du démarrage du moteur, préciser la position recherchée des actionneurs (B) et (VRi) en justifiant la réponse. Lors de la mise du contact, les actionneurs sont initialisés pour être en condition de démarrage. Départ cycle (Dcy) Activer l’admission longue (B+) Activer l’admission courte (B-) admission longue (b1) Alimenter en carburant (AC) admission courte (bo) GRAFCET Activer circuit court avec chauffage (MCC+) pression à 4b (ac0) Initialisation Activer circuit court sans chauffage (MCC-) pression à 5,5 b (ac1) des Ouvrir le Bypass (By+) température eau (θe) actionneurs Fermer le Bypass (By-) température huile (θh) Activer la séquence d’initialisation (VRINIT) position neutre vérins (vrni) Démarrer le Moteur (M) Inventaire des entrées/sorties de l’initialisation des actionneurs."
+     },
+     {
+      "numero": "2.3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Systèmes séquentiels : Diagramme d'états",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Machines électriques : Machine à courant continu",
+        "semestre": "S4"
+       }
+      ],
+      "page": 6,
+      "tags": [
+       "grafcet"
+      ],
+      "texte": "2.3 - Ecrire un grafcet d’initialisation par fonction (B, AC, MCC, By et VRINIT)."
+     },
+     {
+      "numero": "2.4",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Statique : Frottements",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Systèmes séquentiels : Diagramme d'états",
+        "semestre": "S1"
+       }
+      ],
+      "page": 6,
+      "tags": [
+       "grafcet"
+      ],
+      "texte": "2.4 - Ecrire le grafcet global de gestion de l’ensemble des actionneurs (B, AC, MCC, By et VRINIT) afin de démarrer le moteur. -5- Réglage de la distribution du moteur Réglage angulaire de l’arbre à cames Pour la réalisation de cette fonction, l’utilisation d’une liaison par obstacle n’est pas très simple. Le constructeur propose d’utiliser une liaison par adhérence pour simplifier la réalisation. La surface de contact est annulaire et la pression de contact est assurée par une vis placée au centre de l’arbre."
+     },
+     {
+      "numero": "2.5",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 7,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "2.5 - Proposer une démarche de dimensionnement de cette liaison en notant C le couple maximal transmissible. La démarche utilisée sera justifiée. Vérin rotatif Pour augmenter les performances du moteur thermique, le constructeur propose une solution pour adapter le calage de la distribution en fonction des conditions d’utilisation. Pour les distributions classiques, il est nécessaire d’avoir un calage précis entre la position angulaire de l’arbre à cames et le vilebrequin du moteur. Le constructeur propose de placer un vérin rotatif entre la commande en rotation de l’arbre à cames et l’arbre à cames (document ressource I). La figure 4, document ressource II, présente, de façon simplifiée, le principe d’un vérin rotatif double effet (principe similaire à un vérin linéaire double effet)."
+     },
+     {
+      "numero": "2.6",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 7,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "2.6 - Justifier en quelques lignes que l’utilisation d’un vérin rotatif double effet permet de répondre au cahier des charges imposé pour le réglage en continu de la distribution."
+     },
+     {
+      "numero": "2.7",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 7,
+      "tags": [
+       "hydraulique",
+       "pneumatique"
+      ],
+      "texte": "2.7 - Pourquoi le constructeur propose d’utiliser un vérin rotatif hydraulique et non pas pneumatique ? Distributeur rotatif"
+     },
+     {
+      "numero": "2.8",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 7,
+      "tags": [
+       "ressort",
+       "engrenages",
+       "forgeage / emboutissage / découpe",
+       "hydraulique"
+      ],
+      "texte": "2.8 - Proposer, sous forme de schémas de principe à main levée la géométrie du distributeur hydraulique rotatif permettant l’alimentation en huile du vérin rotatif, sachant que pour l’application proposée le corps du vérin est en mouvement. Conception du système d’entraînement, du vérin rotatif et du système de pré-charge des engrenages Pour limiter les jeux dans la transmission par engrenage, le constructeur utilise un système pré- chargé souvent utilisé en robotique pour assurer la précision des positionnements (Fig. 5, document ressource II). Un des pignons de l’engrenage est découpé en deux ; des ressorts sont placés entre les deux parties du pignon pour assurer une pré-charge de l’engrenage. En fait, en fonctionnement les ressorts assurent un contact bilatéral au niveau des dents des pignons et ainsi pour un couple maximal donné l’engrenage fonctionne sans jeu et assure de ce fait le positionnement de façon précise. Pour faciliter le montage de cet ensemble il est nécessaire d’avoir un système de fixation des deux parties du pignon dans une configuration correspondant à un pignon classique (« monobloc »). Le document ressource II présente la géométrie du pignon réalisé en deux"
+     },
+     {
+      "numero": "2.9",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 7,
+      "tags": [
+       "engrenages",
+       "dessin / conception sur calque"
+      ],
+      "texte": "2.9 – Sur le document calque format A3, proposer une réalisation de la liaison pivot entre les pignons (pignon entraîné par la chaîne et pignon « monobloc ») et le carter du moteur. -6- TOURNEZ LA PAGE S.V.P. Pour la conception de cette liaison, il n’y a pas de contraintes fortes associées à la géométrie du carter du moteur ; la géométrie proposée pour cette partie du carter sera définie sur le dessin. L’arbre à cames est en liaison pivot avec le carter du moteur. Cette liaison n’est pas représentée sur le document réponse III pour ne pas surcharger le document. Mais il est important de noter que cette liaison n’est pas à concevoir."
+     },
+     {
+      "numero": "2.10",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
+        "semestre": "S1"
+       }
+      ],
+      "page": 8,
+      "tags": [
+       "ressort",
+       "étanchéité",
+       "engrenages",
+       "hydraulique",
+       "dessin / conception sur calque"
+      ],
+      "texte": "2.10 - Sur le document calque format A3, proposer une réalisation du système de réglage de la distribution du moteur. Il est demandé de concevoir les liaisons suivantes : • le montage du pignon en deux parties sachant que les deux parties du pignon sont en liaison pivot par rapport à l’arbre (il n’est pas demandé de représenter les ressorts, voir Fig. 5 document ressource II), • la liaison entre le pignon et le stator du vérin rotatif (il n’est pas demandé de représenter la géométrie exacte de la partie interne du vérin rotatif, voir Fig. 6 document ressource II), • la liaison complète entre le rotor du vérin rotatif et l’arbre à cames. Pour le vérin rotatif, il n’est pas demandé de représenter les éléments d’étanchéité. Mais il est demandé d’indiquer les zones où il est nécessaire d’avoir des étanchéités (statique ou dynamique). Les différents choix doivent être compatibles avec : • le bon fonctionnement de l’ensemble, • la facilité de montage/démontage. Les différentes vues nécessaires à la compréhension de la solution proposée seront réalisées. Le dimensionnement des liaisons n’est pas demandé, par contre les dimensions doivent être en accord avec les sollicitations. De plus, il"
+     },
+     {
+      "numero": "2.11",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 8,
+      "tags": [
+       "hydraulique",
+       "dessin / conception sur calque"
+      ],
+      "texte": "2.11 - Sur le document calque format A3, proposer un positionnement du distributeur rotatif avec les alimentations en fluide. Il n’est pas demandé de dessiner le distributeur. Procédure de montage"
+     },
+     {
+      "numero": "2.12",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 8,
+      "tags": [
+       "engrenages"
+      ],
+      "texte": "2.12 - Proposer une solution pour assurer la liaison complète entre les deux parties du pignon pour faciliter le montage de l’ensemble."
+     },
+     {
+      "numero": "2.13",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 8,
+      "tags": [
+       "dessin / conception sur calque"
+      ],
+      "texte": "2.13 - Proposer votre solution sur le document calque format A3 à main levée. -7- Partie 3 : Entrainer l’arbre a cames Etude de la transmission de mouvement par chaine Une chaine double est utilisée par le constructeur pour réaliser l’entrainement en rotation de arbre a cames a partir du vilebrequin du moteur. A. Justification du choix du type de transmission. Les réponses aux différentes questions seront rapidement justifiées."
+     }
+    ]
+   },
+   {
+    "titre_partie": "A. Justification du choix du type de transmission.",
+    "questions": [
+     {
+      "numero": "3.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       }
+      ],
+      "page": 9,
+      "tags": [],
+      "texte": "3.1 - Quelles sont les contraintes associées a cette transmission ?"
+     },
+     {
+      "numero": "3.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+        "semestre": "S1"
+       }
+      ],
+      "page": 9,
+      "tags": [
+       "courroie / chaîne"
+      ],
+      "texte": "3.2 - Pour réaliser cette transmission peut-on utiliser une transmission par courroie ? Si oui, quel type de transmission par courroie proposez vous ?"
+     },
+     {
+      "numero": "3.3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       }
+      ],
+      "page": 9,
+      "tags": [],
+      "texte": "3.3 - Pourquoi le constructeur utilise-t-il une chaine double ?"
+     },
+     {
+      "numero": "3.4",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Énergétique : Puissance et rendement",
+        "semestre": "S3"
+       }
+      ],
+      "page": 9,
+      "tags": [],
+      "texte": "3.4 - Cette chaine double peut étre considérée comme deux chaines utilisées céte a céte. Une chaine double peut-elle transmettre une puissance double par rapport a une chaine simple ?"
+     },
+     {
+      "numero": "3.5",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
+        "semestre": "S1"
+       }
+      ],
+      "page": 9,
+      "tags": [
+       "engrenages"
+      ],
+      "texte": "3.5 - Quel est Iinfluence d’une usure de la chaine et des pignons ?"
+     },
+     {
+      "numero": "3.6",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+        "semestre": "S1"
+       }
+      ],
+      "page": 9,
+      "tags": [
+       "engrenages"
+      ],
+      "texte": "3.6 - Quel est la fonction du tendeur de chaine ? Le tendeur peut-il compenser I’influence de /'usure de la chaine et des pignons ? B. Rapport de réduction moyen. Le systéme fonctionne a chaque instant comme un mécanisme a quatre barres si le brin tendu (A1A2) se comporte comme un solide (Fig. 7). Le mouvement est périodique car les points (A1A2) sont remplacés par les points (B1B2) et ainsi de suite; on notera T la période du mouvement. w1 et @2 représentent les vitesses de rotation instantanées des deux pignons par rapport au bati. On notera Z et Z2 les nombres de dents des deux pignons et 1m et 2m les vitesses de rotation moyennes des deux pignons."
+     }
+    ]
+   },
+   {
+    "titre_partie": "B. Rapport de réduction moyen.",
+    "questions": [
+     {
+      "numero": "3.7",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+        "semestre": "S1"
+       }
+      ],
+      "page": 9,
+      "tags": [],
+      "texte": "3.7 - Déterminer le rapport de réduction moyen en utilisant les propriétés des deux angles A@q et A@2 définis sur la figure 7."
+     },
+     {
+      "numero": "3.8",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+        "semestre": "S1"
+       }
+      ],
+      "page": 9,
+      "tags": [],
+      "texte": "3.8 - Une transmission par chaine assure-t-elle un entrainement sans glissement ?"
+     },
+     {
+      "numero": "3.9",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+        "semestre": "S1"
+       }
+      ],
+      "page": 9,
+      "tags": [],
+      "texte": "3.9 - Le rapport de réduction est-il constant ?"
+     },
+     {
+      "numero": "3.10",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Énergétique : Puissance et rendement",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Dynamique : Géométrie des masses",
+        "semestre": "S3"
+       }
+      ],
+      "page": 9,
+      "tags": [],
+      "texte": "3.10 - Ceci peut-il engendrer des vibrations (justifier rapidement votre réponse)? Figure 7 : Schématisation de la transmission. TOURNEZ LA PAGE S.V.P. Etude de réalisation Au cours des dernières années, les performances des voitures ont été augmentées par une augmentation de la puissance des moteurs. Pour atteindre cet objectif, ce moteur a été développé dans un souci de légèreté en prenant en compte le tryptique produit – procédé – matériau. Le produit : Le moteur a une masse de 223 Kg pour une puissance de 386 kW ce qui fait un rapport masse/puissance de 0,58. Il a été conçu pour avoir un centre de gravité le plus bas possible et des inerties d’ensembles tournants les plus faibles possibles. Les matériaux : Considérons le moteur comme un ensemble de composants associés aux éléments suivants : Admission, échappement, embiellage, distribution, carter moteur, culasse. Pour réaliser ces éléments, les matériaux employés sont de deux grandes familles : les matériaux plastiques et matériaux métalliques"
+     },
+     {
+      "numero": "3.11",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 10,
+      "tags": [],
+      "texte": "3.11 - Citer des matériaux métalliques utilisés dans la fabrication d’un moteur thermique."
+     },
+     {
+      "numero": "3.12",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 10,
+      "tags": [],
+      "texte": "3.12 - Définir les contraintes techniques associées à l’utilisation de matériaux plastiques. En déduire leur possible utilisation dans ce moteur."
+     },
+     {
+      "numero": "3.13",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Matériaux : Propriétés physiques et mécaniques",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 10,
+      "tags": [],
+      "texte": "3.13 - Définir, pour les composants associés aux éléments « échappement », « admission », « embiellage » et « carter moteur », des familles de matériaux aptes à l’emploi. Les procédés : La réalisation du carter d’admission d’air fait appel à l’injection sous pression d’un alliage de magnésium type EN M C MgAl9Zn1 (Fig. 8). Figure 8 : Présentation du carter d’admission."
+     },
+     {
+      "numero": "3.14",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+        "semestre": "S1"
+       }
+      ],
+      "page": 10,
+      "tags": [],
+      "texte": "3.14 - Justifier l’emploi d’un tel couple matériau procédé."
+     },
+     {
+      "numero": "3.15",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Matériaux : Propriétés physiques et mécaniques",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Procédés : Plasturgie",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       }
+      ],
+      "page": 10,
+      "tags": [],
+      "texte": "3.15 - Donner le pourcentage d’aluminium dans cet alliage. Le procédé d’injection métallique est un procédé similaire au procédé d’injection plastique. Pour simplifier, une presse (Fig. 9) est constituée d’un moule (deux ½ moules 4 et 6), d’une vis de malaxage (1) qui fait office de piston d’injection. Le matériau est malaxé et chauffé dans l’unité d’injection (3), la pièce (5) est injectée puis éjectée du moule. -9- OPEN» Figure 9 : constitution d’une presse. Un cycle d’injection comprend schématiquement une phase de remplissage du moule (de A a B), une phase de maintien en pression pendant la solidification de la matiére (de B a D) et une phase d’éjection (Fig. 10). Vv P — > A B c D Temps Début Fin de Fin de début du injection —_remplissage solidification recul du piston Figure 10 : Courbes de pression P et de vitesse d’injection V en fonction du temps. La phase de maintien se fait sous une pression P = 80 MPa. Les questions suivantes ont pour but de dimensionner la presse a injecter. Un des critéres de choix est l’effort de fermeture du moule."
+     },
+     {
+      "numero": "3.16",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+        "semestre": "S1"
+       }
+      ],
+      "page": 11,
+      "tags": [],
+      "texte": "3.16 - Pourquoi ce critére est important dans le choix de la presse ?"
+     },
+     {
+      "numero": "3.17",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+        "semestre": "S1"
+       }
+      ],
+      "page": 11,
+      "tags": [],
+      "texte": "3.17 - En vous aidant des figures 9 et 10, proposer un modéle simple pour calculer, lors de la phase de maintien, l’effort généré par la pression P. Vous préciserez, sur un schéma les notations employées. On assimile maintenant le carter d’admission (Fig. 8) 4 un demi cylindre de diamétre extérieur 350 mm, de longueur 600 mm et d’épaisseur 10 mm (avec le nervurage)."
+     },
+     {
+      "numero": "3.18",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+        "semestre": "S1"
+       }
+      ],
+      "page": 11,
+      "tags": [
+       "fonderie / moulage"
+      ],
+      "texte": "3.18 - Proposer une direction de plan de joint (c’est-a-dire une direction d'injection) qui favorise la phase d’injection."
+     },
+     {
+      "numero": "3.19",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Matériaux : Propriétés physiques et mécaniques",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
+        "semestre": "S3"
+       }
+      ],
+      "page": 11,
+      "tags": [
+       "fonderie / moulage"
+      ],
+      "texte": "3.19 - Calculer l’effort de fermeture minimal de fermeture du moule. -10- TOURNEZ LA PAGE S.V.P. La réalisation du carter de calage variable d’arbre à cames fait appel à un procédé d’obtention de brut par moulage. Figure 11 : Carter de calage variable d’arbres à cames. Il est réalisé dans un alliage d’aluminium."
+     },
+     {
+      "numero": "3.20",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Matériaux : Choix",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 12,
+      "tags": [
+       "fonderie / moulage"
+      ],
+      "texte": "3.20 - Proposer un matériau (et sa désignation normalisée) apte au moulage."
+     },
+     {
+      "numero": "3.21",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
+        "semestre": "S3"
+       }
+      ],
+      "page": 12,
+      "tags": [
+       "fonderie / moulage",
+       "usinage"
+      ],
+      "texte": "3.21 - Quels sont les éléments caractéristiques de la géométrie de la pièce qui montrent que cette pièce est réalisée par moulage ? La réalisation d’un outillage spécifique, proposé par le constructeur pour faciliter le réglage du système de calage de la distribution, fait appel à un procédé d’usinage par enlèvement de matière. Cet outillage est composé de deux parties (voir document ressource IV). Nous allons plus particulièrement étudier la partie A de cet outillage définie sur le document ressource V. Elle est réalisée en C35."
+     },
+     {
+      "numero": "3.22",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Matériaux : Choix",
+        "semestre": "S3"
+       }
+      ],
+      "page": 12,
+      "tags": [
+       "liaison hélicoïdale / vis-écrou",
+       "usinage"
+      ],
+      "texte": "3.22 - Expliquer la désignation normalisée. La pièce est mise à l’épaisseur dans une phase précédente, le brut a une dimension de 235 mm x 43 mm. Les différents usinages à réaliser sur la pièce sont les suivants (voir document ressource V) • Usinage de l’ensemble du contour de la pièce comprenant l’usinage des 2 fois « deux encoches à plans parallèles » et l’usinage de la forme circulaire centrale. • Perçage, taraudage des quatre trous de fixation. La machine utilisée est un centre d’usinage 4 axes à broche horizontale disposant d’un plateau tournant (3 translations X, Y, Z et une rotation B autour de Y)."
+     },
+     {
+      "numero": "3.23",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       }
+      ],
+      "page": 12,
+      "tags": [],
+      "texte": "3.23 - Proposer une mise en position qui permet la réalisation de l’ensemble des surfaces en une seule phase en précisant le repère X,Y,Z sur la pièce."
+     },
+     {
+      "numero": "3.24",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       }
+      ],
+      "page": 12,
+      "tags": [
+       "usinage"
+      ],
+      "texte": "3.24 - Proposer les différentes orientations de la pièce permettant d’usiner l’ensemble des surfaces. Pour chacune des orientations, vous noterez le repère machine et colorierez les surfaces usinées."
+     },
+     {
+      "numero": "3.25",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+        "semestre": "S1"
+       }
+      ],
+      "page": 12,
+      "tags": [],
+      "texte": "3.25 - Donner les différentes opérations et la liste des outils permettant l’obtention de chaque surface. - 11 - Liste des outils disponibles : • Fraises à surfacer ∅ 50, 63, 80, 100, 125 mm • Forets à pointer ∅ 8, 10 mm • Forets hélicoïdaux ∅ 5, 8, 10, 12, 14, 16, 18 mm • Fraises deux tailles ∅ 20, 25, 40, 50 0 mm • Alésoirs ∅ 10, 12, 20 mm • Tarauds M6, M8, M10"
+     },
+     {
+      "numero": "3.26",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+        "semestre": "S2"
+       }
+      ],
+      "page": 13,
+      "tags": [],
+      "texte": "3.26 - Expliciter la tolérance 40±0,5 extraite du dessin de définition partiel document ressource V."
+     },
+     {
+      "numero": "3.27",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Énergétique : Puissance et rendement",
+        "semestre": "S3"
+       }
+      ],
+      "page": 13,
+      "tags": [],
+      "texte": "3.27 - Expliciter les 2 tolérances extraites du dessin de définition partiel document ressource V en respectant la décomposition suivante : • Donner le nom de la caractéristique tolérancée. • Définir les éléments tolérancés. • Définir les éléments de référence. • Définir les références spécifiées. • Définir la forme de la (ou des) zone(s) de tolérance et les contraintes d’orientation et/ou de position de la (ou des) zone(s) de tolérance par rapport au système de références spécifiées. - 12 - TOURNEZ LA PAGE S.V.P. SL 63 AMG modèle 2009 Présentation du moteur Puissance (kW) Couple (mN) Régime moteur (tr/min) Caractéristiques du moteur FIN DE L©EPREUVE. - 13 -"
+     }
+    ]
+   }
+  ]
+ }
+}

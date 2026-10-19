@@ -1,0 +1,693 @@
+{
+ "concours": "Banque PT",
+ "filiere": "SIA",
+ "date": "2012",
+ "file": "BPT_SIA_2012.pdf",
+ "status": 200,
+ "source": "banquept.fr, rubrique « Annales d'annales » (rubrique23.html)",
+ "epreuve_originale": "SI A",
+ "classification": "automatique par mots-clés (Claude, oct. 2026) — moins fine que celle des sujets récents",
+ "decoupage_questions": "Question",
+ "texte_ocr": true,
+ "pages_sujet": 48,
+ "pages_total": 49,
+ "data": {
+  "parties": [
+   {
+    "titre_partie": "PARTIE A - CAPACITE GLOBALE, RAYON D’ACTION",
+    "questions": [
+     {
+      "numero": "Q1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 6,
+      "tags": [],
+      "texte": "Question 1: Calculer le courant moyen total |; consommé par le robot. En déduire la capacité en mAh nécessaire pour alimenter le robot pendant le temps d'utilisation Tu fourni par le constructeur."
+     },
+     {
+      "numero": "Q2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 6,
+      "tags": [],
+      "texte": "Question 2: Calculer la vitesse approximative de rotation des moteurs Nmot en tr/min pour un déplacement du robot Vittmax = 18 m/min en ligne droite."
+     },
+     {
+      "numero": "Q3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       }
+      ],
+      "page": 6,
+      "tags": [],
+      "texte": "Question3: Calculer la surface nettoyée pendant Tu a la vitesse moyenne du robot Vibtavg = 4 m/min."
+     },
+     {
+      "numero": "Q4",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Énergétique : Puissance et rendement",
+        "semestre": "S3"
+       }
+      ],
+      "page": 6,
+      "tags": [],
+      "texte": "Question4: Calculer le temps de recharge complet si la charge résiduelle de la batterie d’accumulateurs est de 10 %. On estime le rendement de la charge a 80 %."
+     },
+     {
+      "numero": "Q5",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Torseur cinématique",
+        "semestre": "S1"
+       }
+      ],
+      "page": 6,
+      "tags": [],
+      "texte": "Question5: A lanalyse des résultats obtenus aux questions précédentes les caractéristiques de ce robot sont-elles respectées ? Dans une habitation adaptée aux personnes a mobilité réduite, les rampes d'accés doivent avoir une pente inférieure ou égale a 8% (voir figure sur cahier-réponse). Le robot doit pouvoir remonter ces pentes sans aucune difficulté."
+     },
+     {
+      "numero": "Q6",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       }
+      ],
+      "page": 6,
+      "tags": [
+       "embrayage / frein"
+      ],
+      "texte": "Question 6: En supposant que ni la roue folle ni les brosses n'ont d'action mécanique significative freinant le déplacement du robot, écrire le bilan des forces extérieures s'exercant sur celui-ci lorsqu'il démarre sur une rampe de pente maximale."
+     },
+     {
+      "numero": "Q7",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+        "semestre": "S3"
+       }
+      ],
+      "page": 6,
+      "tags": [],
+      "texte": "Question7: En appliquant le Principe Fondamental de la Dynamique sur le robot, déterminer la valeur du couple nécessaire sur chacune des roues pour lui permettre d'atteindre la vitesse maximale Viotmax = 18 m/min en ligne droite, en 500 ms. On supposera ici que le couple fourni sur l'arbre moteur en entrée de réducteur est constant et se déduit du point de fonctionnement nominal (Prom = 10 W ; Nnom = 8000 tr/min ; rendement du réducteur évalué a 60%)."
+     },
+     {
+      "numero": "Q8",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 6,
+      "tags": [],
+      "texte": "Question 8: Déterminer le couple a la roue disponible et conclure sur les capacités de ce robot a remonter cette pente. 4118 Partie A : Capacité globale, rayon d’action PARTIE B - ANALYSE DE LA FONCTION suivre UN PROFIL Dans le cas du nettoyage d’une piéce ou d'une zone considérée comme particulierement sale, le robot posséde un mode SPOT. Ce mode consiste a faire réaliser au robot un profil de déplacement centré sur la zone a nettoyer (Cf. Figure 7). Figure 7 : Mode SPOT La trajectoire envisagée permet un déplacement en \"forme de spirales\". Composée d'arcs de cercle, cette trajectoire comporte 2 parties symétriques conduisant le robot a une position finale (point O;) décalée de la position initiale (point Oj) de la largeur entre roue (Lyoie) et orientée a 180°. La répétition de ce programme de nettoyage replace le robot a sa position initiale. Tableau 2 : Extrait du CdCF Fonctions techniques Critéres d'appréciation Niveau Variabilité surface ieee Ties UN NETO AGE Pee oe : | 22 largeurs 4 » Surf 2/2 CONTINU AUTOUR D'UN POINT Surface R=2largeurs de | de brosses DONNE brosse PERMETTRE UNE VITESSE x Vitesse linéaire du ee : a NOMINALE DE NETTOYAGE centre du robot G Vittava = 4 m/min a"
+     },
+     {
+      "numero": "Q9",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 9,
+      "tags": [
+       "dessin / conception sur calque"
+      ],
+      "texte": "Question 9 : Pour chaque arc de cercle Qi intermédiaire de la demi-trajectoire, dessiner la position finale du robot (matérialisé par son centre G et les centres de ses roues motrices Gg et Gd comme dans la Figure 8) et les coordonnées (en mm) du CIR (Ci) du mouvement dans le repère  g , associé au sol de la pièce à nettoyer."
+     },
+     {
+      "numero": "Q10",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
+        "semestre": "S1"
+       }
+      ],
+      "page": 9,
+      "tags": [],
+      "texte": "Question 10 : Pour chaque arc de cercle Qi intermédiaire de la demi-trajectoire, calculer  les modules des vitesses linéaires des centres de roues motrices Gg et Gd : VGd Robot /  g   et VGg Robot /  g pour que la vitesse du centre G soit égale à VGRobot /  g 4 m/min."
+     },
+     {
+      "numero": "Q11",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 9,
+      "tags": [
+       "dessin / conception sur calque"
+      ],
+      "texte": "Question 11 : Dessiner et hachurer la zone nettoyée par le robot."
+     },
+     {
+      "numero": "Q12",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       }
+      ],
+      "page": 9,
+      "tags": [],
+      "texte": "Question 12 : En déduire si la zone nettoyée par le robot est sans trou. B.2 Modélisation de la commande en boucle fermée de vitesse d’une roue Une analyse harmonique de la boucle de vitesse (ȍmot en rad/s) du moteur d’une roue soumis à une tension de commande (u en V) dans le plan de Bode a donné le diagramme asymptotique en gain suivant (Cf. Figure 9): |ȍmot(j.Ȧ)| 46dB |U(j.Ȧ)| 40dB 20dB 0dB Ȧ -1 0 1 2 3 4 Figure 9 : Diagramme asymptotique en gain dans le plan de Bode de la boucle fermée de vitesse : mot ( p )"
+     },
+     {
+      "numero": "Q13",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 9,
+      "tags": [],
+      "texte": "Question 13 : Déterminer numériquement la fonction de transfert donnant la U( p ) vitesse de rotation du moteur ȍmot(t) (rad/s) en fonction de la commande fournie par le calculateur u(t) (V). ____________________________________________________________________________ 7/18 Partie B : Suivre un profil Tournez la page S.V.P."
+     },
+     {
+      "numero": "Q14",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Capteurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 10,
+      "tags": [],
+      "texte": "Question 14 : Déterminer l’original (équation décrivant l’évolution de la variable considérée dans le domaine temporel issue de l’analyse dans le plan de LAPLACE) de la vitesse de rotation du moteur Nmot(t) en tr/min en réponse à un échelon de commande u(t) = 2,5 V. Tracer l’allure de la réponse. B.3 Commande en position d’une roue : mot ( p )K: Dans la suite de ce sujet, on posera U( p ) 1 \u000e W : .p L’architecture de la boucle de position est donnée ci-dessous : Correcteur de position șref (p) U(p) Kȍ ȍmot (p) ș mot (p) șr (p) C(p) 1+ Wȍ .p ș capt(p) Kpos = Capteur de position Figure 10 : Architecture de la boucle de position On note : ȍmot la vitesse de rotation du moteur d’une roue (rad/s). șmot la position angulaire du moteur d’une roue (rad). șcapt la position angulaire fournie en sortie du capteur de position (tops). șr la position angulaire d’une roue (rad)."
+     },
+     {
+      "numero": "Q15",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       }
+      ],
+      "page": 10,
+      "tags": [],
+      "texte": "Question 15 : Le capteur de position intégré en bout d’arbre du moteur fourni 3 tops/tour. Le réducteur reliant la roue au moteur à un rapport de réduction de k = 80. Déterminer le contenu des différentes transmittances sous forme littérale et numérique (pour la forme numérique on ne réalisera pas les calculs). Pour C(p) = Kp Tr ( p)"
+     },
+     {
+      "numero": "Q16",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
+        "semestre": "S2"
+       }
+      ],
+      "page": 10,
+      "tags": [],
+      "texte": "Question 16 : Déterminer sous forme littérale et canonique la transmittance . Tref ( p ) K Soit la forme canonique d’un 2nd ordre : 2.m p2 1\u000e .p \u000e 2 Zn Zn Avec m le coefficient d’amortissement et Ȧn la pulsation naturelle."
+     },
+     {
+      "numero": "Q17",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
+        "semestre": "S2"
+       }
+      ],
+      "page": 10,
+      "tags": [],
+      "texte": "Question 17 : Pour un coefficient d’amortissement strictement inférieur à 1, déterminer T ( p) sous forme littérale les pôles ps1 et ps2 de la transmittance mot en fonction de m et Tref ( p ) Ȧ n."
+     },
+     {
+      "numero": "Q18",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
+        "semestre": "S2"
+       }
+      ],
+      "page": 10,
+      "tags": [],
+      "texte": "Question 18 : Déterminer la valeur du coefficient d’amortissement m permettant d’obtenir des pôles ps1 et ps2 avec des parties réelles et imaginaires identiques en valeurs absolues. ____________________________________________________________________________ 8/18 Partie B : Suivre un profil On pose Kȍ = 200 rad/s/V, Kpos = 0,5 tops/rad et Wȍ = 100 ms."
+     },
+     {
+      "numero": "Q19",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
+        "semestre": "S2"
+       }
+      ],
+      "page": 11,
+      "tags": [],
+      "texte": "Question 19 : Pour cette valeur du coefficient d’amortissement m, déterminer sous forme littérale puis numérique Kp."
+     },
+     {
+      "numero": "Q20",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Rapidité",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
+        "semestre": "S2"
+       }
+      ],
+      "page": 11,
+      "tags": [],
+      "texte": "Question 20 : Pour ces valeurs du coefficient d’amortissement m et de Kp, déterminer le temps de réponse à 5% : tr5%."
+     },
+     {
+      "numero": "Q21",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 11,
+      "tags": [],
+      "texte": "Question 21 : Conclure quant au respect du cahier des charges. 1 \u000e W1 .p Pour C( p ) Kp. 1 \u000e W 2 .p La stratégie de réglage du correcteur C(p) consiste à compenser avec son zéro le pôle de la fonction de transfert en boucle ouverte. T ( p)"
+     },
+     {
+      "numero": "Q22",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       }
+      ],
+      "page": 11,
+      "tags": [],
+      "texte": "Question 22 : Déterminer sous forme littérale et canonique la transmittance r . Tref ( p )"
+     },
+     {
+      "numero": "Q23",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Rapidité",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
+        "semestre": "S2"
+       }
+      ],
+      "page": 11,
+      "tags": [],
+      "texte": "Question 23 : Pour le même coefficient d’amortissement que celui obtenu à la question 18 et pour le tr5% du cahier des charges, déterminer la pulsation naturelle Ȧn nécessaire T ( p) pour la transmittance r . Tref ( p )"
+     },
+     {
+      "numero": "Q24",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 11,
+      "tags": [],
+      "texte": "Question 24 : En déduire sous forme littérale puis numérique Kp (on se limitera à un chiffre après la virgule)."
+     },
+     {
+      "numero": "Q25",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       }
+      ],
+      "page": 11,
+      "tags": [],
+      "texte": "Question 25 : En déduire sous forme littérale puis numérique W2. La réponse à l’échelon unitaire obtenue avec ce réglage est présentée Figure 11 : ș(rad) șmot(t) șref(t) t(s) Figure 11 : Réponse indicielle de la boucle fermée de position"
+     },
+     {
+      "numero": "Q26",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Capteurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       }
+      ],
+      "page": 11,
+      "tags": [],
+      "texte": "Question 26 : Conclure quant au critère du cahier des charges ASSURER UN SUIVI DE TRAJECTOIRE. ____________________________________________________________________________ 9/18 Partie B : Suivre un profil Tournez la page S.V.P. B.4 Optimisation du coat Ce robot est a destination du grand public, il est donc soumis a des contraintes de marché fortement concurrentielles. Afin de diminuer les codts, les boucles de vitesse des motorisations des roues n’utilisent pas de capteurs de vitesse mais une structure utilisant des observateurs permettant de reconstruire la vitesse par la simple mesure des positions. Un observateur est un modéle mathématique du processus qui permet par la mesure des valeurs de certaines variables de prédire mathématiquement les valeurs d'autres variables du processus sans installer de capteurs sur ces derniéres. La méthode de réglage de l’observateur nécessite de mettre le systeme sous forme de modéle interne. Les variables reconstruites, donc estimées, seront surmontées d’un chapeau. Par exemple, pour 6, position de la roue réelle, 6, est la variable position de la roue estimée par Pobservateur. Dans cette partie on pose Kpos = 0,5 tops/rad. La structure par mod"
+     },
+     {
+      "numero": "Q27",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       }
+      ],
+      "page": 13,
+      "tags": [],
+      "texte": "Question 27: Déterminer le contenu littéral de '€quation donnant p.@mor(p) en fonction de Omo(P), Qmot(p) et U(p) sous la forme P.Amcr(P)=A1.Pmot(P)+A2.Qmor(P)+B1.U(p) dans laquelle A1, A2 et B1 ne dépendent que des paramétres du processus ou sont nuls et ne dépendent pas de l’opérateur de LAPLACE p."
+     },
+     {
+      "numero": "Q28",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       }
+      ],
+      "page": 13,
+      "tags": [],
+      "texte": "Question 28: Déterminer le contenu littéral de l’équation donnant p.Q2mo4p) en fonction de Omot(P), QmokP) et Up) sous la forme p.Qmor(P)=A3.Omot(P)+A4.Qmot(P)+B2.U(p) dans laquelle A3, A4 et B2 ne dépendent que des paramétres du processus ou sont nuls et ne dépendent pas de l’opérateur de LAPLACE p."
+     },
+     {
+      "numero": "Q29",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 13,
+      "tags": [],
+      "texte": "Question 29: Déterminer le contenu sous forme littérale des matrices As (de dimension 2x2), Bs (de dimension 2x1) et Cs (de dimension 1x2) tel que p.X8(p) = As.X8(p)+BS.U(p) et Opay. = CS.X8(p). La matrice As est appelée matrice de transfert. Ses valeurs propres sont les péles du processus."
+     },
+     {
+      "numero": "Q30",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Capteurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 13,
+      "tags": [],
+      "texte": "Question 30: Déterminer les valeurs propres de la matrice As. Comparer avec les péles du processus. Conclure. La structure d’observation (Cf. Figure 14) est une implémentation mathématique dans le contréleur du modéle considéré comme parfait du processus associé a un bouclage. Le Lol bouclage est réalisé par une matrice de bouclage Lo = [ical Capteur de position U(p). a s Ko Snot(P) Srot(P) Koe= 0.5 capt (P) > Figure 14 : Processus avec observateur 11/18 Partie B : Suivre un profil Tournez la page S.V.P."
+     },
+     {
+      "numero": "Q31",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 14,
+      "tags": [],
+      "texte": "Question 31 : Expliquer le rôle du bouclage de l’observateur. "
+     },
+     {
+      "numero": "Q32",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 14,
+      "tags": [],
+      "texte": "Question 32 : Déterminer l’équation d’état donnant p. Xs( p ) en fonction de As, Bs, Cs,  Lo, Xs( p ), Xs( p ) et U ( p ) ."
+     },
+     {
+      "numero": "Q33",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 14,
+      "tags": [],
+      "texte": "Question 33 : Déterminer la dérivée de l’erreur d’observation  p.H ( p ) p. Xs( p ) \u0010 p. Xs( p ) en fonction des matrices As, Cs, Lo et de l’erreur  d’observation H ( p ) Xs( p ) \u0010 Xs( p ) . On note Ao la matrice de transfert de l’observateur. Cette matrice est celle reliant p.İ(p) à İ(p)."
+     },
+     {
+      "numero": "Q34",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 14,
+      "tags": [],
+      "texte": "Question 34 : Déterminer sous forme littérale les coefficients de la matrice Ao reliant p.İ(p) à İ(p)."
+     },
+     {
+      "numero": "Q35",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+        "semestre": "S3"
+       }
+      ],
+      "page": 14,
+      "tags": [],
+      "texte": "Question 35 : Déterminer l’équation caractéristique de cette matrice. Cette équation caractéristique est le polynôme déterminant la dynamique de l’observateur (vitesse à laquelle converge le vecteur estimé vers les valeurs réelles)."
+     },
+     {
+      "numero": "Q36",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Capteurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 14,
+      "tags": [],
+      "texte": "Question 36 : Déterminer Lo1 et Lo2 sous forme littérale si on désire que l’observateur converge plus vite que le mode dominant du processus. Pour cela on désire que 1 l’équation caractéristique obtenue à la question 35 ait 2 racines réelles po1 po 2 \u0010 Wo avec Wo la constante de temps de l’observateur 5 fois plus faible que celle du processus. Un essai en simulation avec un capteur de vitesse et avec observateur a donné le résultat de la Figure 15. ș(rad) șmot(t) sans observateur șmot(t) avec observateur șref(t) t(s) Figure 15 : Essai avec capteur de vitesse et observateur"
+     },
+     {
+      "numero": "Q37",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Capteurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Chaîne d'information",
+        "semestre": "S1"
+       }
+      ],
+      "page": 14,
+      "tags": [],
+      "texte": "Question 37 : Par analyse de la réponse avec observateur, celle-ci répond-elle aux critères du cahier de charges (tr5% et nombre de capteurs). Relativiser votre réponse face aux contraintes de marché. ____________________________________________________________________________ 12/18 Partie B : Suivre un profil 3 détecteurs de proximité à droite 3 détecteurs de proximité à gauche Tourelle avec capteur I.R. Figure 16 : Présentation des capteurs du robot Tournez la page S.V.P. Tourelle d’émission I.R. Led gauche d’émission Led droite Figure 17 : Émetteurs du Dock Lobe recouvrement led gauche et led droite Lobe led gauche Lobe led droite Lobe recouvrement led tourelle et led gauche Lobe recouvrement led tourelle et led droite Dock Lobe led tourelle Figure 18 : Lobes d’émissions des leds du Dock Chaque led émet une trame créant un code binaire sur 8 bits. Les codes des trames sont les suivants (Tableau 5) : Tableau 5 : Codes binaires des leds Leds Code binaire Led droite 1010 01002 Led gauche 1010 10002 Led tourelle 1010 00012 14/18 Partie C : Permettre un retour automatique à la borne de recharge Une trame est définie comme suit : x chaque bit est codé sur une durée de 4 ms. x la premi"
+     },
+     {
+      "numero": "Q38",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 17,
+      "tags": [],
+      "texte": "Question 38 : Dans le cas du chronogramme de la Figure 19, déterminer quel est le code reçu par le robot. Le signal décodé par le robot est-il en logique négative (un état vrai est représenté par « 0 » et un état faux par « 1 ») ou positive (un état vrai est représenté par « 1 » et un état faux par « 0 ») ?"
+     },
+     {
+      "numero": "Q39",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Chaîne d'information",
+        "semestre": "S1"
+       }
+      ],
+      "page": 17,
+      "tags": [],
+      "texte": "Question 39 : Déterminer le code 1010 01002 délivré par la led droite en hexadécimal."
+     },
+     {
+      "numero": "Q40",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Traitement de l'information : Échantillonnage et quantification",
+        "semestre": "S2"
+       }
+      ],
+      "page": 17,
+      "tags": [],
+      "texte": "Question 40 : Déterminer le code 1010 10002 délivré par la led gauche en décimal. L’obtention du lobe led gauche et led droite est obtenue par le recouvrement des lobes d’émission des leds droite et gauche. Cela correspond à l’addition des 2 codes donnant un résultat formaté sur 8 bits."
+     },
+     {
+      "numero": "Q41",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Capteurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Chaîne d'information",
+        "semestre": "S1"
+       }
+      ],
+      "page": 17,
+      "tags": [],
+      "texte": "Question 41 : Déterminer le résultat en binaire du recouvrement de ces 2 lobes. En déduire un résultat en décimal. Il existe aussi un recouvrement des lobes led tourelle et led gauche et des lobes led tourelle et led droite. Suivant la position du capteur infrarouge du robot au niveau des lobes d’émission des leds du Dock, le robot peut récupérer les lobes en acquisition suivant (Tableau 6) : Tableau 6 : Lobes en acquisition Lobe led tourelle Lobe recouvrement led tourelle et led gauche Lobe led gauche Lobe recouvrement led gauche et led droite Lobe led droite Lobe recouvrement led droite et led tourelle"
+     },
+     {
+      "numero": "Q42",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Chaîne d'information",
+        "semestre": "S1"
+       }
+      ],
+      "page": 17,
+      "tags": [],
+      "texte": "Question 42 : Déterminer les codes binaires reçus pour chacun des cas. 15/18 Partie C : Permettre un retour automatique à la borne de recharge Tournez la page S.V.P. Comportement du robot face à une demande de retour au Dock Lors d’une demande de retour au Dock, deux cas peuvent se présenter : x le robot ne perçoit pas de signal du Dock (robot trop éloigné, obstacle entre le robot et le Dock) : le robot met alors en place un algorithme de déplacement lui demandant de suivre les murs extérieurs afin de possiblement passer à une distance détectable du Dock (Non traité dans ce sujet). x Le robot reçoit des codes du Dock. Le comportement en mode guidage (dès apparition d’un code du Dock) est le suivant : - Les détecteurs de proximité sont pris en compte seulement lorsque le robot est en acquisition du signal du lobe led tourelle. - Chaque nouveau déplacement en ligne droite dure au moins 500ms. x Robot en acquisition du signal du lobe led tourelle : le robot avance tout droit. o Si perte du signal et pas d’acquisition d’un autre lobe alors rotation sens horaire jusqu’à ré-acquisition du signal d’un lobe ou d’un détecteur de proximité.  Si acquisition du signal du lobe tourelle sans dé"
+     },
+     {
+      "numero": "Q43",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Systèmes séquentiels : Diagramme d'états",
+        "semestre": "S1"
+       }
+      ],
+      "page": 20,
+      "tags": [],
+      "texte": "Question 43 : Définir les réceptivités amont et aval de l’étape encapsulante."
+     },
+     {
+      "numero": "Q44",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Systèmes séquentiels : Diagramme d'états",
+        "semestre": "S1"
+       }
+      ],
+      "page": 20,
+      "tags": [
+       "grafcet"
+      ],
+      "texte": "Question 44 : Compléter la partie du grafcet encapsulé correspondant à l’apparition de l’acquisition du signal du lobe led tourelle."
+     },
+     {
+      "numero": "Q45",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Systèmes séquentiels : Diagramme d'états",
+        "semestre": "S1"
+       }
+      ],
+      "page": 20,
+      "tags": [
+       "grafcet"
+      ],
+      "texte": "Question 45 : Compléter le grafcet encapsulé Retour_Dock. Pour augmenter la lisibilité par rapport à la partie de grafcet de la question 44, le grafcet encapsulé fait apparaître des macro-étapes. 18/18 Partie C : Permettre un retour automatique à la borne de recharge IN CHOISY – 12 1034 – D’après documents fournis 034 Tournez la page S.V.P. st interdit aux candidats de signer leur composition ou d’y mettre un signe quelconque pouvant indiquer sa provenance. B PARTIE A - CAPACITE GLOBALE, RAYON D’ACTION"
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,436 @@
+{
+ "concours": "Banque PT",
+ "filiere": "SIB",
+ "date": "2008",
+ "file": "BPT_SIB_2008.pdf",
+ "status": 200,
+ "source": "banquept.fr, rubrique « Annales d'annales » (rubrique23.html)",
+ "epreuve_originale": "SI B",
+ "classification": "automatique par mots-clés (Claude, oct. 2026) — moins fine que celle des sujets récents",
+ "decoupage_questions": "Qn",
+ "texte_ocr": true,
+ "pages_sujet": 20,
+ "pages_total": 36,
+ "data": {
+  "parties": [
+   {
+    "titre_partie": "C - Etude de conception en construction mécanique",
+    "questions": [
+     {
+      "numero": "Q1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
+        "semestre": "S1"
+       }
+      ],
+      "page": 6,
+      "tags": [
+       "dessin / conception sur calque"
+      ],
+      "texte": "Q1 Inscrire votre réponse dans le cadre R1 de la notice justificative 1/8. Tracer la position du point B’ ; En déduire et tracer le point C’ ; Exprimer la distance CC’ en fonction de la longueur AB ; Déterminer et tracer la position du point de contact D’ entre la roue 4 et la crémaillère de commande 3 ; Tracer le point E’, point de contact entre la roue 4 et la crémaillère de piston 5 ; Tracer le point Dr’, correspondant à la position du point de contact D’ sur la roue 4 ; En déduire et tracer le point Er’, correspondant à la position du point E’ sur la roue 4; En déduire et tracer le point Ep’, correspondant à la position du point E’ sur la crémaillère de piston 5 ; Exprimer la distance E’Ep’ en fonction de la longueur AB ; Tracer le point F’ et mettre en place une cote chiffrée représentant la course du piston 7 ; Calculer la cylindrée unitaire (en cm3) Cylunit , et en déduire la cylindrée Cylmot du moteur (en cm3) ; Dessiner en bleu, la crémaillère de piston 5, le piston 7 et la roue 4 (sans les graduations), dans la position « point mort bas » C.2.1.2. - Détermination du taux de compression minimum du moteur Il s’agit de représenter le système en position « point mort haut » a"
+     },
+     {
+      "numero": "Q2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       }
+      ],
+      "page": 7,
+      "tags": [],
+      "texte": "Q2 Inscrire votre réponse dans le cadre R2 de la notice justificative 2/8 Exprimer la valeur de la cote x en fonction de la course du piston Cp et du « taux de compression » T."
+     },
+     {
+      "numero": "Q3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       }
+      ],
+      "page": 7,
+      "tags": [],
+      "texte": "Q3 Inscrire votre réponse dans le cadre R3 de la notice justificative 2/8 Calculer la distance xmin (donner 3 chiffres significatifs) pour le « taux de compression maximum » Tmax. Pour la suite du problème, on prendra xmin = 5 mm. Sur le document réponse cadre R4 de la notice justificative 2/8, les différentes pièces du mécanisme sont représentées, à l’échelle 0.7/1, dans la position « Point Mort Haut » avec le réglage « taux de compression maximum »."
+     },
+     {
+      "numero": "Q4",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
+        "semestre": "S1"
+       }
+      ],
+      "page": 7,
+      "tags": [
+       "dessin / conception sur calque"
+      ],
+      "texte": "Q4 Inscrire votre réponse dans le cadre R4 de la notice justificative 2/8. Tracer le point H’’ dans la position « taux de compression minimum » ; Tracer le point F’’ dans la position « taux de compression minimum » ; Mettre en place sur la figure la cote chiffrée entre F’’ et F ; Calculer le « taux de compression minimum » Tmin ; Dessiner en rouge, la crémaillère de commande 3, la roue 4 (sans les graduations) et le piston 5, dans la position « taux de compression minimum ». C.2.2. Statique L’étude proposée est une étude comparative entre les efforts appliqués sur le piston d’un système bielle manivelle classique, et les efforts appliqués sur le piston d’un moteur MCE-5. Hypothèses (se reporter aux figures 7 et 8 page D4/11) : r r Les études sont faites dans le plan de symétrie ( A, x , y ) ; r r Les résultantes des actions de contact sont contenues dans le plan ( A, x , y ) ; L’action de la pesanteur est négligée ; Les études sont réalisées dans la phase où le piston se déplace du PMH vers le PMB ; Les masses et inerties des différentes pièces ne sont pas prises en compte (étude en statique) ; L’effort résultant de l’action du gaz de combustion sur le piston Fgaz / 7 est tel que :"
+     },
+     {
+      "numero": "Q5",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       }
+      ],
+      "page": 8,
+      "tags": [],
+      "texte": "Q5 Inscrire votre réponse dans le cadre R5 de la notice justificative 3/8. Après avoir isolé la bielle 2* et fait le bilan des actions mécaniques, tracer, sur la figure, la uuuuuuur direction de C *7* / 2* ; Ecrire C *X 7* / 2* en fonction de C *Y 7* / 2* et β * ; Après avoir isolé le piston 7*, lister les actions mécaniques appliquées sur 7*. Sur la figure du cadre R5 sont représentées 4 propositions de modélisation de l’effort N ∗0∗ 7∗ . Pour chaque représentation, l’angle entre N ∗0∗ 7∗ et la normale n est égal à φ∗."
+     },
+     {
+      "numero": "Q6",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       }
+      ],
+      "page": 8,
+      "tags": [],
+      "texte": "Q6 Inscrire votre réponse dans le cadre R6 de la notice justificative 3/8. Parmi les 4 propositions, quelle est celle qui correspond à l’équilibre du piston 7* dans la phase étudiée ? justifier brièvement la réponse ; Ecrire N *X 0* / 7* en fonction de N *Y 0* / 7* et f* . T 8/17"
+     },
+     {
+      "numero": "Q7",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+        "semestre": "S3"
+       }
+      ],
+      "page": 9,
+      "tags": [],
+      "texte": "Q7 Inscrire votre réponse dans le cadre R7 de la notice justificative 3/8. Compléter le dynamique (la somme vectorielle) des forces extérieures appliquées au piston 7* ; Tracer les angles β* et φ* sur cette même figure ;"
+     },
+     {
+      "numero": "Q8",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       }
+      ],
+      "page": 9,
+      "tags": [
+       "roulements",
+       "engrenages"
+      ],
+      "texte": "Q8 Inscrire votre réponse dans le cadre R8 de la notice justificative 3/8. uuuuuuuur Exprimer les composantes N *X 0* / 7* et N *Y 0* / 7* en fonction de F *gaz / 7* , β* et f*. C.2.2.2. - Etude de l’équilibre d’un piston d’un moteur MCE-5 (se reporter à la figure 8 page D4/11) Hypothèses : Le système est étudié dans la position « commande de taux variable » en position moyenne. De ce fait, les points L, K, E, C et D sont alignés. L’étude dans une autre position de réglage du taux de compression, provoquerait un décalage vertical du rouleau synchroniseur 6, ce qui ne modifie pas les conclusions que l’on pourra tirer de cette étude. Notations : r La position angulaire du vilebrequin 1 par rapport à l’axe y est notée : θ. r La position angulaire de la bielle 2 par rapport à l’axe y est notée : β. r La position angulaire de la roue 4 par rapport à l’axe y est notée : δ. Modélisation des liaisons : Liaison roue 4 crémaillère de piston 5 : liaison roulement sans glissement parfaite en E, avec α angle de pression de l’engrenage ; Liaison crémaillère de piston 5 / rouleau synchroniseur 6 : liaison roulement sans glissement parfaite en K ; Liaison rouleau synchroniseur 6 /carter moteur 0 :"
+     },
+     {
+      "numero": "Q9",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       }
+      ],
+      "page": 9,
+      "tags": [],
+      "texte": "Q9 Inscrire votre réponse dans le cadre R9 de la notice justificative 4/8. Après avoir isolé le rouleau synchroniseur 6 et fait le bilan des actions mécaniques, déduire la direction de K 5 / 6 ; Sur la figure du cadre R10 sont représentées 8 propositions de modélisation de l’effort E4 / 5 ."
+     },
+     {
+      "numero": "Q10",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       }
+      ],
+      "page": 9,
+      "tags": [],
+      "texte": "Q10 Inscrire votre réponse dans le cadre R10 de la notice justificative 4/8. Parmi les 8 propositions, quelle est celle qui correspond à la modélisation de E4 / 5 dans la phase étudiée ? justifier brièvement la réponse ; Après avoir isolé le piston 7, lister les actions mécaniques appliquées sur 7. T 9/17 Tournez la page S.V.P."
+     },
+     {
+      "numero": "Q11",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       }
+      ],
+      "page": 10,
+      "tags": [],
+      "texte": "Q11 Inscrire votre réponse dans le cadre R11 de la notice justificative 4/8. Représenter de façon qualitative (direction, sens et point d’application), les résultantes des actions mécaniques appliquées sur le piston 7."
+     },
+     {
+      "numero": "Q12",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 10,
+      "tags": [],
+      "texte": "Q12 Inscrire votre réponse dans le cadre R12 de la notice justificative 4/8. Après avoir écrit et analysé l’équation de moments en E découlant du principe fondamental de la statique appliqué au piston 7, que peut-on dire de l’action mécanique N 0 / 7 ? C.2.2.3. - Etude comparative des formes de différents pistons (se reporter aux figures 9 et 10 page D4/11) Les figures 9 et 10 montrent les formes extérieures de deux pistons : l’un étant celui d’un moteur avec un système-bielle manivelle classique, l’autre celui d’un piston d’un moteur MCE-5."
+     },
+     {
+      "numero": "Q13",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 10,
+      "tags": [],
+      "texte": "Q13 Inscrire votre réponse dans le cadre R13 de la notice justificative 4/8. Comparer et justifier les différences de formes des pistons au niveau du contact piston 7 /cylindre 0. C.2.3. Analyse fonctionnelle des surfaces du rouleau synchroniseur 6 (se reporter aux figures 11 et 12 page D5/11 ) Sur la figure 11, certaines surfaces du rouleau synchroniseur 6 sont repérées par des lettres minuscules."
+     },
+     {
+      "numero": "Q14",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
+        "semestre": "S3"
+       }
+      ],
+      "page": 10,
+      "tags": [],
+      "texte": "Q14 Inscrire votre réponse dans le cadre R14 de la notice justificative 4/8. Compléter le tableau, en précisant la ou les fonctions de chacune des surfaces ou ensemble de surfaces repérés. Le constructeur a choisi de réaliser un traitement thermique superficiel sur le rouleau synchroniseur 6."
+     },
+     {
+      "numero": "Q15",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 10,
+      "tags": [],
+      "texte": "Q15 Inscrire votre réponse dans le cadre R15 de la notice justificative 5/8. Quelles sont les surfaces qui ont justifié un tel choix ? Quelle caractéristique mécanique le constructeur a-t-il ainsi augmenté ?"
+     },
+     {
+      "numero": "Q16",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Matériaux : Choix",
+        "semestre": "S3"
+       }
+      ],
+      "page": 10,
+      "tags": [
+       "usinage"
+      ],
+      "texte": "Q16 Inscrire votre réponse dans le cadre R16 de la notice justificative 5/8. Proposer un couple matériau / traitement thermique adapté (donner la désignation normalisée du matériau). T 10/17 C.2.4. Choix de procédés d’obtention de bruts (se reporter aux figures 13 et 14 pages D5/11 et D6/11 ) La figure 13 est une photographie de quelques pièces prototypes du moteur. Ces pièces prototypes ont toutes été réalisées uniquement par enlèvement de matière (usinage et rectification) à partir de bruts prismatiques ou cylindriques. Sur la figure 14 sont représentées certaines pièces du moteur en perspective. Ce moteur est destiné à être fabriqué en grande série. Afin de diminuer les coûts de production, le constructeur est amené à faire des choix de procédés d’obtention de bruts les plus économiques. Ces procédés d’obtention de bruts sont évidemment couplés à des familles de matériaux."
+     },
+     {
+      "numero": "Q17",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 11,
+      "tags": [],
+      "texte": "Q17 Inscrire votre réponse dans le cadre R17 de la notice justificative 5/8. Citer trois critères importants qui conduisent à un choix de couple {famille de matériaux, procédé de fabrication} ?"
+     },
+     {
+      "numero": "Q18",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 11,
+      "tags": [],
+      "texte": "Q18 Inscrire votre réponse dans le cadre R18 de la notice justificative 5/8. Compléter le tableau en indiquant par une croix, pour chaque pièce citée, le procédé d’obtention de brut, et la famille de matériaux retenus. C.2.5. Associations de liaisons cinématiques élémentaires (se reporter à la figure 15 page D7/11) Dans certains mécanismes, il est judicieux de concevoir des liaisons cinématiques entre différents sous-ensembles en combinant certaines liaisons élémentaires. Ces liaisons peuvent être caractérisées selon plusieurs critères et modélisées à plusieurs niveaux, comme pour l’exemple traité figure 15. Certaines de ces combinaisons de liaisons élémentaires permettent de réaliser des liaisons linéiques ou ponctuelles par l’intermédiaire de contacts surfaciques."
+     },
+     {
+      "numero": "Q19",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 11,
+      "tags": [],
+      "texte": "Q19 Inscrire votre réponse dans le cadre R19 de la notice justificative 6/8. Compléter le tableau caractérisant trois combinaisons de liaisons cinématiques."
+     },
+     {
+      "numero": "Q20",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       }
+      ],
+      "page": 11,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "Q20 Inscrire votre réponse dans le cadre R20 de la notice justificative 6/8. Quel est le principal intérêt de réaliser des liaisons linéiques ou ponctuelles par l’intermédiaire de contacts surfaciques ? Les solutions évoquées dans le tableau du cadre R19 pourront guider le candidat dans ses choix pour la partie C.3. T 11/17 Tournez la page S.V.P. C.2.6. Etude du verrou hydraulique (se reporter aux figures 16, 17, 18 et 19 page D8/11) Eléments constitutifs du verrou hydraulique et fonctions associées : Le piston de verrou hydraulique 14 est en liaison complète avec la crémaillère de commande 3 grâce à la douille de serrage 18. L’ensemble {15, 16i, 16s, 17i, 17s}, intégré au piston 14, permet de maintenir celui-ci dans une position donnée, ainsi que de l’autoriser à se déplacer verticalement. Cette position influe sur le taux de compression du moteur. Le pilotage de ce déplacement est assuré par le déplacement vertical de la tige de commande 15, actionnée par un système électromécanique non représenté et non étudié. Le clapet d’alimentation 19 permet de maintenir une pression minimale dans le verrou hydraulique. Le clapet de sécurité {20, 23} (non représenté sur la figure 16 page D8/"
+     },
+     {
+      "numero": "Q21",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       }
+      ],
+      "page": 12,
+      "tags": [
+       "ressort",
+       "hydraulique"
+      ],
+      "texte": "Q21 Cas où la composante FY 4 / 3 est négative - Inscrire votre réponse dans le cadre R21 de la notice justificative 7/8. Représenter le clapet 16s supérieur et son ressort de rappel 17s, le clapet 16i inférieur et son ressort de rappel 17i. Représenter par des flèches une éventuelle circulation d’huile. La crémaillère 3 est-elle immobile ? Se déplace-elle positivement ? Négativement ? T 12/17"
+     },
+     {
+      "numero": "Q22",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       }
+      ],
+      "page": 13,
+      "tags": [
+       "ressort",
+       "hydraulique"
+      ],
+      "texte": "Q22 Cas où la composante FY 4 / 3 est positive - Inscrire votre réponse dans le cadre R22 de la notice justificative 7/8. Représenter le clapet 16s supérieur et son ressort de rappel 17s, le clapet 16i inférieur et son ressort de rappel 17i. Représenter par des flèches une éventuelle circulation d’huile. La crémaillère 3 est-elle immobile ? Ce déplace-elle positivement ? Négativement ?"
+     },
+     {
+      "numero": "Q23",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Correcteurs : Proportionnel-intégral",
+        "semestre": "S4"
+       }
+      ],
+      "page": 13,
+      "tags": [
+       "ressort",
+       "hydraulique"
+      ],
+      "texte": "Q23 - Inscrire votre réponse dans le cadre R23 de la notice justificative 7/8. Par déduction, compléter les cases non-grisées du tableau indiquant les mouvements de la crémaillère 3 en fonction du sens du déplacement de la tige de commande 15, du sens de la composante verticale FY4/3, et de l’état des clapets 16i et 16s. C.2.6.2. - Etude de l’influence de l’intensité de la comosante FY4/3 sur le déplacement de la crémaillère 3 Conditions de l’étude : La position de l’étude est celle où la tige de commande 15 est déplacée positivement ; Afin de déterminer l’intensité de la composante FY 4 / 3 nécessaire à l’ouverture du clapet inférieur 16i, l’étude est faite à l’instant de l’ouverture de ce clapet ( FY 14 /16 = 0). Données : (se reporter à la figure 19 page D8/11) Les caractéristiques des ressorts 17i et 17s sont les suivantes : raideur k = 0,2 N/mm ; longueur libre l0 = 40 mm ; longueur dans la phase étudiée lm = 15 mm ; Diamètre du piston de verrou hydraulique 14 : Dp = 65 mm ; Diamètre de la tige de la crémaillère 3 : Dtv = 24 mm ; Diamètre des clapets 16i et 16s : Dcl = 13,5 mm ; Diamètre de guidage de la tige de commande 15 : Dgtc = 5 mm. Notation : On notera Δp = (pi – ps) la"
+     },
+     {
+      "numero": "Q24",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
+        "semestre": "S1"
+       }
+      ],
+      "page": 13,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "Q24 - Inscrire votre réponse dans le cadre R24 de la notice justificative 8/8. Etudier l’équilibre du clapet inférieur 16i, et en déduire l’expression de Δp en fonction de Fr, et des différentes dimensions ; Après avoir étudié l’équilibre du piston du verrou hydraulique 14, déduire l’expression de Δp en fonction de Fy4/3, et des différentes dimensions ; En déduire l’expression de Fy4/3 en fonction de Fr ; T 13/17 Tournez la page S.V.P. Calculer la valeur de Fr dans la position de l’étude ; Donner une valeur approchée de l’intensité de la composante FY4/3 permettant d’ouvrir le clapet inférieur 16i. C.2.6.3. - Etude de l’influence de l’intensité et du sens de la composante Fy4/3 sur le déplacement de la crémaillère 3 La figure 18 page D8/11 décrit l’évolution de la valeur de FY 4 / 3 en fonction de l’angle de rotation de vilebrequin dans certaines conditions de fonctionnement du moteur."
+     },
+     {
+      "numero": "Q25",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       }
+      ],
+      "page": 14,
+      "tags": [
+       "hydraulique",
+       "dessin / conception sur calque"
+      ],
+      "texte": "Q25 - Inscrire votre réponse dans le cadre R25 de la notice justificative 8/8. On souhaite augmenter le « taux de compression » du moteur. Préciser le sens de déplacement de la tige de commande à imposer et la(les) plage(s) de valeurs de l’angle de rotation du vilebrequin pendant laquelle cette variation est possible. C.3 - Dessin d’étude de construction mécanique C.3.1. Présentation du support de travail Pour cette partie de l’étude, il est demandé de définir plusieurs sous-ensembles du mécanisme sur le calque format A3 fourni avec le sujet. Ces sous-ensembles sont situés dans les deux zones à définir identifiées sur le dessin d’ensemble, figure 5, document D2/11. Les éléments pré imprimés sur le calque sont destinés à faciliter la mise en place des différents composants. Les plans de coupe A-A et B-B sont définis sur le calque. • La zone 1 du calque n°1 de format A3 horizontal, pré imprimé, fourni avec le sujet, est destinée à l’étude du verrou hydraulique. Les éléments fournis pré imprimés à l’échelle 1,5:1 sont définis en vue coupe A-A. Plus précisément, le candidat trouvera, A-A A-A en coupe AA : - des éléments du bloc moteur 10, et notamment l’alésage cylindrique permettant l"
+     }
+    ]
+   }
+  ]
+ }
+}

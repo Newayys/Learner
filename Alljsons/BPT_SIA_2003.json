@@ -1,0 +1,678 @@
+{
+ "concours": "Banque PT",
+ "filiere": "SIA",
+ "date": "2003",
+ "file": "BPT_SIA_2003.pdf",
+ "status": 200,
+ "source": "banquept.fr, rubrique « Annales d'annales » (rubrique23.html)",
+ "epreuve_originale": "Sciences Industrielles I",
+ "classification": "automatique par mots-clés (Claude, oct. 2026) — moins fine que celle des sujets récents",
+ "decoupage_questions": "Question",
+ "texte_ocr": true,
+ "pages_sujet": 35,
+ "pages_total": 35,
+ "data": {
+  "parties": [
+   {
+    "titre_partie": "Pages 9",
+    "questions": [
+     {
+      "numero": "QA1.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Systèmes séquentiels : Diagramme d'états",
+        "semestre": "S1"
+       }
+      ],
+      "page": 9,
+      "tags": [
+       "grafcet"
+      ],
+      "texte": "Question A1.1: a- Tracer sur le document réponse A1-R, pour une durée correspondant a4 3 cycles, le chronogramme (diagramme de Gantt) qui caractérise la coordination des taches exécutées par le Grafcet (figure 5) en faisant les hypothéses suivantes : . les plaques arrivent en continu, . la situation de départ est la suivante: une pile vient d’étre constituée, la pile précédente est en cours de brossage, le rateau est en position sortie et le chariot est cété four, . le temps des différentes taches (sur le Grafcet) est donné en fonction de la durée T entre deux constitutions de piles. b- Mettre en évidence sur le diagramme la durée T entre deux piles constituées. Montrer que la cadence n'est pas respectée pour les durées de taches proposées."
+     },
+     {
+      "numero": "QA1.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 9,
+      "tags": [
+       "hydraulique",
+       "pneumatique"
+      ],
+      "texte": "Question A1.2: Afin de minimiser le coat de la machine, il est envisagé de conserver un actionneur pneumatique pour |'entrainement du rateau. Par contre, un actionneur électrique sera utilisé pour le chariot de transfert. a-Le choix d’une motorisation va permettre un gain de temps sur les taches T3 et T4. Donner la durée maximale admissible pour ces taches (en faisant I’hypothése qu’elles ont méme durée) afin d’obtenir un fonctionnement respectant la cadence. b- Mettre en évidence sur le diagramme l'information « pile précédente évacuée de la zone table en U ». Etablir la relation exprimant la vitesse minimale du tapis d’évacuation des piles vers les brosses en fonction de la longueur d’une plaque et de la durée des téches concermées. A2 - ETUDE CINEMATIQUE Nous allons déterminer les cadences nécessaires pour répondre au cahier des charges donné et établir les lois de mouvements du chariot de transfert. D’autre part, il faut vérifier les conditions d'utilisation du vérin pneumatique pour le rateau. Paramétrage : - la machine constitue des piles de n plaques : 2 <n < 5(maxi) ; - la pile en cours est désignée par l'indice k, la pile suivante par lindice k+1 ; - le point X; représente"
+     }
+    ]
+   },
+   {
+    "titre_partie": "Pages 10",
+    "questions": [
+     {
+      "numero": "QA2.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Systèmes séquentiels : Diagramme d'états",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Accélérations",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
+        "semestre": "S1"
+       }
+      ],
+      "page": 10,
+      "tags": [
+       "grafcet"
+      ],
+      "texte": "Question A2.1: a- Tracer sur le document réponse A2-R les courbes de déplacement de la pile k et de la plaque 1,4 : respectivement les points d’abscisses Xp(t) et Xa(t). 10 b- Etablir fexpression du mouvement de Ia plaque 1+1 ; Xa(t). Montrer que la plaque 1x4 arrive dans la zone d’empilage (début du risque de collision) avec un temps de retard Tr. c- Etablir 'expression du mouvement de Ia pile k : Xp(t). d- Aprés avoir formulé la condition de non-collision entre Ia pile k et la plaque suivante 1:1, montrer que l'on aboutit 4 une inéquation de la forme : yor -t? -c,-t +c. >0. Calculer les valeurs de c; et c2. e- Conclure sur l'accélération ycr du chariot de transfert des piles de plaques pour éviter une collision avec la plaque suivante. Le chariot de transfert doit effectuer un aller/retour avec une cadence minimale correspondant a celle de constitution des piles de plaques (voir chronogramme ou Grafcet). Données (figure A2) : - on se place dans le cas de figure le plus défavorable pour les tailles de plaques : la largeur de la plus petite plaque est de 105 mm et la course maximale du chariot (Aller) est de 290 mm; - la loi de mouvement du chariot de transfert évolue selon une loi"
+     }
+    ]
+   },
+   {
+    "titre_partie": "Pages 11",
+    "questions": [
+     {
+      "numero": "QA2.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Énergétique : Puissance et rendement",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Trains épicycloïdaux",
+        "semestre": "S1"
+       }
+      ],
+      "page": 11,
+      "tags": [
+       "courroie / chaîne"
+      ],
+      "texte": "Question A2.2: a- Déterminer la cadence maximale de constitution d’une pile de plaques (dans le cas le plus défavorable : nombre de plaques par pile = 2). Il est conseillé d'utiliser la figure A1. b- Calculer l'accélération minimale du chariot de transfert pour respecter cette cadence. Donner Ia vitesse maximale Vcr max atteinte. c- Conclure par rapport aux calculs de la question A2.1. 1 Partie B : ETUDE DYNAMIQUE Une pré-étude de conception pour la fonction Tirer /a pile a défini la chaine de transmission de puissance suivante : moteur tournant associé a un réducteur a train épicycloidal et un systeme de transformation de mouvement de type poulies-courroie crantées. Compte tenu des différentes tailles de plaques et de I'encombrement du systéme de doigts, deux chariots montés en paralléle et distants de 1m20 sont nécessaires. Un schéma d’implantation des différents constituants de la machine est proposé en annexe 4. Les deux arbres d’entrainement des guidages sont liés mécaniquement par un arbre de synchronisation qui assure la transmission de puissance simultanément aux deux chariots intégrés MKU... de la société INA (annexe 5). Le moteur-réducteur transmet la puissance mécanique "
+     }
+    ]
+   },
+   {
+    "titre_partie": "Pages 12",
+    "questions": [
+     {
+      "numero": "QB1.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Accélérations",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Statique : Frottements",
+        "semestre": "S2"
+       }
+      ],
+      "page": 12,
+      "tags": [],
+      "texte": "Question B1.1: - Donner I’expression littérale du moment d'inertie total équivalent JTeq ramené 4 I'arbre moteur dans le cas du mouvement d’avance du chariot. 12 Le fonctionnement du chariot a déja été validé dans la partie précédente. A partir de cette question, la loi de mouvement deésirée est définie par la figure B2. II s'agit d'une loi de vitesse en trapéze, préférable a la loi en triangle pour le comportement thermique du moteur. Chacune des phases pendant le déplacement a une durée égale (t:=ts=t=te=t7=te=1/3 de la durée pour effectuer un aller ou un retour). Pour parcourir l'aller/retour dans le temps imparti, il est donc nécessaire d’augmenter I'accélération afin d’obtenir une phase de vitesse constante. Hypothéses : - l'ensemble mécanique est idéalisé : les efforts dus aux frottements secs et visqueux sont négligés, les liaisons sont considérées parfaites ; - taccélération maximale est fixée a y,; =10m-s (cette valeur est bien sir différente de celle calculée a la question A2.2) ; - on se place dans le cas de figure le plus défavorable pour l’entrainement des plaques (course aller) : pile de 5 plaques de la plus grande largeur ; - la durée tyoigs pour escamoter ou sortir "
+     }
+    ]
+   },
+   {
+    "titre_partie": "Pages 13",
+    "questions": [
+     {
+      "numero": "QB1.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dynamique : Géométrie des masses",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 13,
+      "tags": [
+       "courroie / chaîne"
+      ],
+      "texte": "Question B1.2: -A_ partir des hypothéses formulées, donner Iexpression littérale du couple électromécanique Cm a fournir par le moteur en fonction de JTeq et Ycr - Application numérique : - dm : moment tie de l'arbre moteur = 1,2 10% kg.m? - Jr: moment d'inertie du réducteur (ramené a l'arbre moteur) = 3,5 10° kg.m? - Jpr: moment d’inertie d'une poulie de renvoi= 1,7 10% kg.m - Jas : moment d’inertie de l’'arbre de synchronisation = 4 calculer - Jp : moment d’inertie d’une poulie = 7 10% kg.m? - Mchariot : masse du chariot = 40 kg - Mp: masse d’un patin INA = 3,8 kg - Mpile : masse d'une pile de 5 plaques = 15 kg -1n: rapport de réduction du réducteur moteur on =n=10 ©, ‘sr - Rp: rayon utile de la poulie module MKU - INA= 40 10% m 13 Question B1.3 : a- Déterminer la masse entrainée au niveau du chariot de transfert a aller puis au retour. b- Calculer le moment d’inertie de l'arbre de synchronisation Jas autour de son axe (arbre creux en acier de Zext 30mm et de Zint 20, longueur 1m, masse volumique de Iacier = 7800 kg.m*). (La formule de calcul littérale issue du cours de RDM est suffisante mais chaque terme doit 6tre correctement explicité)."
+     }
+    ]
+   },
+   {
+    "titre_partie": "Pages 14",
+    "questions": [
+     {
+      "numero": "QB1.4",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Accélérations",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 14,
+      "tags": [],
+      "texte": "Question B1.4: - Calculer les caractéristiques de la loi de mouvement désirée pour chacune des 8 phases. Préciser pour chacune des phases : sa durée, I’accélération et la vitesse de l’arbre moteur et le couple électromécanique a fournir. Présenter les résultats sous la forme d’un tableau (voir ci-dessous). Phase Durée Accélération Accélération Vitesse Vitesse Couple a fournir chariot arbre moteur chariot arbre moteur cm (seconde) (ms?) (rad.s*) (ms) (rad.s\") (N.m) 1 2 B2 — Prise en compte du comportement dynamique Le couple d’accélération transmis en sortie de réducteur est relativement important. La chaine de transmission de mouvement ne peut plus étre considérée comme infiniment rigide. Les processus mécaniques appartiennent a une classe de systémes dans laquelle les modéles de connaissance s'établissent directement a partir des lois physiques. La difficulté réside dans la recherche de I'adéquation modéle - systéme réel. Pour cela, il est important de déterminer les caractéristiques des différents constituants (masse, inertie, rigidité, amortissement). La partie mécanique du systéme de positionnement du chariot de transfert a été modélisée en tenant compte des caractéristiques du"
+     }
+    ]
+   },
+   {
+    "titre_partie": "Pages 15",
+    "questions": [
+     {
+      "numero": "QB2.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Énergétique : Inertie équivalente",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       }
+      ],
+      "page": 15,
+      "tags": [],
+      "texte": "Question B2.1 : a- Donner les expressions littérales des inerties équivalentes J1eq et J2eq en utilisant les variables définies pour la question B1.1. b- Etablir Pexpression littérale de la raideur équivalente en torsion Kt de I'arbre de synchronisation. A.N.: arbre creux en acier de Zext 30mm et de int 20, longueur 1m, module d’élasticité transversale = 81000 MPa. (La formule de calcul littérale issue du cours de RDM est suffisante). Le modéle équivalent comprend trois éléments accumulateurs d’énergie: une inertie équivalente J1eq, une raideur équivalente Kt et une inertie équivalente J2eg. Le processus est donc d’ordre 3. Nous voulons établir la fonction de transfert mécanique du processus modélisé et étudier son comportement fréquentiel. Llopérateur de Laplace est noté « s » de sorte que F(s) désigne la transformée ou fonction image de la fonction originale f(t). U(t) désigne l’'échelon unité tel que U(t)}=1 pour t20, U(t)=0 pour t<0"
+     },
+     {
+      "numero": "QB2.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Énergétique : Théorème de l'énergie cinétique",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Énergétique : Puissance et rendement",
+        "semestre": "S3"
+       }
+      ],
+      "page": 15,
+      "tags": [
+       "ressort"
+      ],
+      "texte": "Question B2.2: a- en appliquant le théoréme de I’énergie cinétique au premier élément accumulateur Jleq, écrire l'6quation différentielle du mouvement de rotation de l'arbre en sortie du réducteur. Montrer que la fonction de transfert de cet élément peut 6tre mise sous la forme suivante. Donner I’expression de H,(s). C,(s) Hys) o,(8) C(s) 15 b- Ecrire la loi de comportement du deuxiéme élément accumulateur, le ressort Kt. Montrer que la fonction de transfert de cet élément peut étre mise sous la forme suivante. Donner Texpression de H,(s). o,(S) Cs) HAs) ©, (Ss) c- En appliquant le théoréme de I’énergie cinétique au troisiéme élément accumulateur J2eq, écrire Equation différentielle du mouvement de rotation de I’arbre d’entrainement du chariot INA. Montrer que la fonction de transfert de cet élément peut étre mise sous la forme suivante. Donner l’expression de H;(s). Cis) (8) H,(s) La figure B.6 présente le schéma-bloc fonctionnel correspondant au modéle discret retenu pour cette étude. Nous pouvons établir la fonction de transfert mécanique représentant la relation Entrée (C,,) / Sortie (wp) de la chaine de transmission de mouvement. C,(s) Cis) @,(s) bw HSE] Hys) H,(s) Cs) FIG. B6"
+     }
+    ]
+   },
+   {
+    "titre_partie": "Pages 16",
+    "questions": [
+     {
+      "numero": "QB2.3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       }
+      ],
+      "page": 16,
+      "tags": [],
+      "texte": "Question B2.3 : a- Donner I’expression de Ia fonction de transfert @,(s) / Cs{s) en fonction de H.(s), H2(s) et H3(s). b- Remplacer H;(s), H2(s) et H3(s) par les expressions trouvées a la question B2.2. Mettre la fonction de transfert H(s) sous la forme canonique suivante : Ns) Kn 1 aw Dis) 1+a,8 +a,8* +a,s° c- Exprimer de maniére littérale les coefficients k,,, a1, a2 et a3."
+     },
+     {
+      "numero": "QB2.4",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+        "semestre": "S3"
+       }
+      ],
+      "page": 16,
+      "tags": [],
+      "texte": "Question B2.4 : a- Montrer que, si la raideur équivalente Kt est considérée de valeur infiniment grande (processus rigide), la fonction de transfert H(s) est de la forme : k, H(s)=——2 (s) 144s b- Exprimer kp, et 7; en fonction des paramétres de fa chaine cinématique J1eq, J2eq et f1. 16 Dans le cas de notre application, la dynamique souhaitée est telle que la souplesse de I'arbre de synchronisation ne peut pas étre ignorée. Le systéme peut alors étre modélisé par un mode dominant du premier ordre et un mode oscillant. H(s) peut étre factorisée sous la forme suivante : k, H(s) = ———__“»______ (1+ 1) -s)-(1+a-s+b-s?)"
+     }
+    ]
+   },
+   {
+    "titre_partie": "Pages 17",
+    "questions": [
+     {
+      "numero": "QB2.5",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Statique : Frottements",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
+        "semestre": "S2"
+       }
+      ],
+      "page": 17,
+      "tags": [],
+      "texte": "Question B2.5 : a- Montrer que si a<<rz , la constante de temps 72 vaut : J1eq + J2eq aa as b- En procédant par identification avec le polynéme du dénominateur D(s) trouvé a la question B 2.3-b et en gardant I'hypothése a<<tp : . exprimer le coefficient b puis le coefficient a ; . en déduire les expressions du facteur d’amortissement ¢ et de la pulsation naturelle @pn correspondants. c- Montrer que la pulsation naturelle @, est indépendante du frottement visqueux f; alors que l'amortissement ¢ est proportionnel a f;. d- Donner I'expression de H(s) lorsque ¢=0. e- Application numérique : on prendra pour ces calculs une valeur de Kt=6000 Nm/rad et f1=0,1 Nms.rad' . donner la valeur du gain statique H(0), exprimer sa valeur en dB ; . calculer les coefficients a et b ; . calculer le facteur d’amortissement ¢ et la pulsation naturelle w,. F- Vérifier I'hypothése de départ : a<<z2."
+     }
+    ]
+   },
+   {
+    "titre_partie": "F- Vérifier I'hypothése de départ : a<<z2.",
+    "questions": [
+     {
+      "numero": "QB2.6",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Stabilité",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       }
+      ],
+      "page": 17,
+      "tags": [],
+      "texte": "Question B2.6 : a- Montrer que si ¢<<1, la fonction de transfert H(s) met en évidence un « mode dominant » du premier ordre et un mode oscillant du deuxiéme ordre. b- Avec le plus grand soin, construire le diagramme de BODE de Ia fonction de transfert complexe H(ja). Sur le méme graphe : . tracer le diagramme asymptotique en précisant les pentes et les valeurs caractéristiques ; . tracer lallure des diagrammes réels d’amplitude et de phase ; . faire apparaitre les marges de stabilité AGug et Ag ; c- Déterminer la fréquence de résonance fyo et définir la bande passante BP_a +3dB du processus mécanique modélisé ; d- Conclure sur la stabilité en boucle fermée de ensemble (lorsque la commande asservie sera appliquée au processus mécanique). 17 Partie C : COMMANDE ASSERVIE DU PROCESSUS Les calculs et la modélisation effectués dans la partie precédente remettent en cause les choix de conception pour la chaine de transformation de mouvement. Afin de limiter les risques encourus par une motorisation unique alliée a une dissymétrie de la transmission de mouvement, il est préférable de mettre en place deux moteurs pilotant chacun un des chariots. D’autre part, les accélérations nécessaires é"
+     },
+     {
+      "numero": "QC1.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Accélérations",
+        "semestre": "S1"
+       }
+      ],
+      "page": 19,
+      "tags": [],
+      "texte": "Question C1.1: a- Compte tenu des hypothéses simplificatrices, donner les expressions littérales de la force de poussée F que doit fournir chaque moteur pendant les différentes phases lors d’un aller/retour du chariot. Présenter les résultats sous la forme d’un tableau (voir ci-dessous). Phase Accélération chariot (ms?) b- Préciser la phase pendant laquelle les moteurs doivent fournir la force de poussée maximale Finax. Justifier votre réponse."
+     },
+     {
+      "numero": "QC1.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 19,
+      "tags": [],
+      "texte": "Question C1.2 : a-A partir des données ci-dessus, tracer sur le document réponse A2-R I’évolution temporelle de Ia force de poussée F(t) que doit fournir chaque moteur sur un cycle de fonctionnement. b- Calculer la valeur de la force de poussée maximale Finax que doit fournir chaque moteur. 19 La force maximale instantanée que peut fournir un moteur est largement supérieure a la valeur moyenne disponible de fagon continue. Il convient donc de calculer la valeur moyenne de la force nécessaire pour le cycle envisage ; il s’agit de la « force équivalent thermique » Fean qui se définie comme la valeur efficace de la force de poussée développée par un moteur sur un cycle. Soit : 2 Featn T (nr (that"
+     },
+     {
+      "numero": "QC1.3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Machines électriques : Machine à courant continu",
+        "semestre": "S4"
+       }
+      ],
+      "page": 20,
+      "tags": [],
+      "texte": "Question C1.3 : a- Calculer la force de poussée moyenne Fean, que doit fournir chaque moteur. b- Pourquoi le choix de lactionneur fait-il appel a la notion de « force équivalent thermique » ? c- A partir des caractéristiques du constructeur de moteurs fournies en annexe 6, choisir un moteur de la série TBX 38 répondant au cahier des charges. Nous considérons que le moteur fonctionne sans surface d’échange thermique (les choix de conception conduisent & avoir le moteur « encapsulé » dans les éléments mécaniques du chariot). d- Justifier votre choix. C2 — IDENTIFICATION DU PROCESSUS A COMMANDER Hypothéses de modélisation : Par un changement de repére, appelé transformation de Park, on montre que le modéle électromécanique d’un moteur linéaire synchrone a aimants permanents est équivalent a une association électromagnétique et électromécanique de deux machines a courant continu : . a i 22 dX 5 Vg = Rig +t —e, avec 9 =L,i,+¢, et eg = + oe (Machine d) (1) d Va = Ri, +t +e, avec 9, =L,.i, et e,= aaley Oct (Machine q) (2) Tt Elles fournissent chacune une partie de la force de poussée globale F (Figure C4). 2x F =F, Fe — Feng = \"ui, ~ 9,1 —Feog (3) Notations: Fy, Fa Forces développées par "
+     },
+     {
+      "numero": "QC2.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       }
+      ],
+      "page": 21,
+      "tags": [],
+      "texte": "Question C2.1: a-A partir des équations temporelles précédentes, et en utilisant la transformée de Laplace, montrer que le schéma fonctionnel du systéme peut se mettre sous la forme décrite a la figure C4 (rappel : ¢¢: Flux propre des aimants = constante). b- Exprimer les gains k, et k, en fonction des courants. Machine d Machine q a > FIG. C4 : Schéma fonctionnel du processus a commander"
+     },
+     {
+      "numero": "QC2.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 21,
+      "tags": [],
+      "texte": "Question C2.2: a-A partir des relations (1) et (2) et des expressions de ky et kq trouvées en C2.1.b, exprimer la force de poussée F en fonction des courants ig et i, ainsi que du flux oy. b- Montrer que si on néglige la force de résistance a I’'avancement des moteurs, cette force de poussée est proportionnelle a la composante d’axe q du courant. c- Décomposer cette force de poussée F en une force principale notée F, proportionnelle au flux propre des aimants secondaires, et en une force de saillance notée F, liée aux Inductances Lg et Lg. d- Proposer une solution simple permettant d’annuler la force de saillance F, par une boucle d’asservissement. Dans ces conditions, comment régle-t-on la poussée ?"
+     },
+     {
+      "numero": "QC2.3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Électrotechnique : Convertisseurs statiques",
+        "semestre": "S2"
+       }
+      ],
+      "page": 21,
+      "tags": [],
+      "texte": "Question C2.3: a- En considérant que la machine est a péles lisses (Ly= L, = L), montrer que expression de fa force de poussée F est indépendante de la composante d’axe d du courant. b- Dans ce cas, déterminer /a constante de force k’, du moteur. c- En déduire un schéma fonctionnel simplifié en vue de la commande en poussée. 21 C3 - ETUDE DE LA COMMANDE EN POUSSEE Contexte : Le mouvement de chaque axe est assuré par un « moto-variateur auto-synchrone ». Cette technologie présente l'avantage d'étre robuste et fiable dans le temps. Les moteurs sont capables de développer une force constante sur une large plage de vitesse de translation grace a un contréle des courants et du flux dans la machine, appelé couramment « commande vectorielle de flux ». Ce réglage est possible par l'emploi d'un convertisseur statique travaillant en modulation de largeur d'impulsion a une fréquence de commutation élevée (onduleur MLI). Pour chaque ensemble, un régulateur de vitesse (non abordé dans le cadre de cette étude) élabore un signal de référence Frer (ou consigne de force). Hypothéses : - toutes les valeurs estimées ou mesurées sont identifiées par le signe « * » qui coiffe celles- ci; -la grande lin"
+     },
+     {
+      "numero": "QC3.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 23,
+      "tags": [],
+      "texte": "Question C3.1 : a- Donner les expressions de G1(s) et G2(s) telles que : ig(8)=G1(5) inex (8) +@2(8)-Ver (8) b- En déduire les expressions des fonctions de transfert en poursuite Hpr(S) = iq(S) / igrer(S) et en régulation Zpr(s) = ig(S) / Ver(s)-"
+     },
+     {
+      "numero": "QC3.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 23,
+      "tags": [],
+      "texte": "Question C3.2 : a- Montrer que si d'une part, la compensation est parfaitement réalisée, et d’autre part, le gain C, est grand, alors en régime permanent iq ~igrer 23 b- Exprimer la constante de temps Ter du systéme en boucle fermée en fonction du gain Cy et des paramétres électriques du moteur. c-A partir du théoréme de la valeur finale, déterminer erreur permanente & sur i, en fonction de Iqo, R et Cy lors d'une sollicitation en échelon d'amplitude Iqo."
+     },
+     {
+      "numero": "QC3.3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Rapidité",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
+        "semestre": "S2"
+       }
+      ],
+      "page": 24,
+      "tags": [],
+      "texte": "Question C3.3 : a- En utilisant la valeur R =R.5 = 8,60, calculer le gain C, minimal qui permet de limiter lerreur permanente & a 2 %. b- En déduire le temps de réponse trgr a 5 % de la boucle de courant. c- Comparer la constante de temps Tsr du systéme en boucle fermée a la période de commutation Tc de l’onduleur. Interpréter les résultats obtenus. On régle le gain C, du correcteur pour que la dynamique de la boucle de courant i, soit fixée a 5 kHz (trae = 600s)."
+     },
+     {
+      "numero": "QC34",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Correcteurs : Proportionnel-intégral",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+        "semestre": "S3"
+       }
+      ],
+      "page": 24,
+      "tags": [],
+      "texte": "Question C34: a- Calculer la valeur du gain C, qui permet d’obtenir ce comportement dynamique. b- En déduire erreur permanente & correspondante. c-Analyser les résultats obtenus. C3.2 - Commande en poussée par anticipation Le schéma de principe du modéle simplifié du processus et de la commande en poussée par anticipation est présentée a la figure C6. L'objectif de cette commande est d’éviter l'utilisation d'un correcteur a action intégrale tout en cherchant a annuler erreur permanente e,, Comme dans |'étude précédente, le correcteur choisi est de type proportionnel (C,(s) = C,: gain constant) mais une anticipation est ajoutée sur la grandeur de réglage Vaeg en utilisant la grandeur estimée de la résistance R. Dans un premier temps, l’estimation de la grandeur de la résistance et la compensation sont considérées parfaites : R = R = Ros = 8,60 et 6, =e,."
+     },
+     {
+      "numero": "QC3.5",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+        "semestre": "S3"
+       }
+      ],
+      "page": 24,
+      "tags": [],
+      "texte": "Question C3.5 : a- Montrer que si Vq = Voreg, alors l'erreur permanente « est toujours nulle quelle que soit la valeur de la consigne (iq = igrer en régime permanent). b- Comparer Ia nouvelle expression de la constante de temps Tar du systéme en boucle fermée a celle obtenue précédemment. On ragle le gain C, du correcteur pour que le comportement dynamique de la boucle de courant ig soit fixée a 5 KHz (trae = 600us)."
+     },
+     {
+      "numero": "QC3.6",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 24,
+      "tags": [
+       "roulements"
+      ],
+      "texte": "Question C3.6 : a- Calculer la valeur du gain C, qui permet d’obtenir ce comportement dynamique. b- Interpréter les résultats obtenus. 24 Vv A Fig. C6 : Mat ion de la commande en poussée par compensation et anticipation. Le cycle de fonctionnement des moteurs est tel que la température d’équilibre vaut 100°C (échauffement de 75°C par rapport a la température ambiante de 25°C). Dans ces conditions, estimation de la valeur de la résistance de l'enroulement primaire est sous-estimée : R = Ryg = 8,60 alors que la valeur réelle vaut R = Rygg = 10,750."
+     },
+     {
+      "numero": "QC3.7",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
+        "semestre": "S2"
+       }
+      ],
+      "page": 25,
+      "tags": [],
+      "texte": "Question C3.7 : a- Donner les expressions de G1(s) et G2(s) telles que : iq (S) = G1(S)-igrer (S) + G2().Ver (8) b- En déduire la fonction de transfert en poursuite Hpr(S) = ig(S) / igner(S) en considérant que la compensation est parfaitement réalisée : 6, =e, . c- Montrer que la boucle de courant i, aura un comportement dynamique de type premier ordre quelle que soit la valeur de la résistance R. On régle le gain C, du correcteur pour que le comportement dynamique de la boucle de courant i, soit fixée 4 5 KHz (trar = 600us)."
+     },
+     {
+      "numero": "QC3.8",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+        "semestre": "S3"
+       }
+      ],
+      "page": 25,
+      "tags": [],
+      "texte": "Question C3.8 : a- Calculer la valeur du gain C, qui permet dobtenir ce comportement dynamique. Comparer cette valeur au résultat obtenu a la question C3.6. 25 b- En déduire erreur permanente & correspondante. Pour les deux cas suivants : R=R=8,60 et R=1,25R=10,750 :"
+     },
+     {
+      "numero": "QC3.9",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Correcteurs : Proportionnel-intégral",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Précision",
+        "semestre": "S2"
+       }
+      ],
+      "page": 26,
+      "tags": [],
+      "texte": "Question C3.9 : a- Tracer sur un méme graphe allure de la réponse indicielle du courant i, suite a un échelon de consigne igrer = Igo= 5A. b- En déduire l'allure du chronogramme tempore! du signal de commande V,(t). Que vaut la valeur maximale de la tension Vawax. ? Ne risque t-on pas de saturer la commande ? c- Conclure sur la robustesse de cette commande, et montrer qu'il est souhaitable de surestimer la valeur de la résistance R. C3.3 - Commande en poussée par correcteur PI filtré On supprime la compensation de la perturbation et la fonction d’anticipation. On obtient le schéma fonctionnel de la figure C7. Afin d’améliorer le comportement dynamique et la précision statique de la boucle de courant i, on utilise un correcteur de type PI filtré dont la fonction de transfert est : C,(s)=¢, 1+Tys ares T, i é I *GsTs)3 avec Cy, Ty et T| les paramétres de réglage A Fig. C7 : Matérialisation de la commande en poussée par correcteur PI filtré."
+     },
+     {
+      "numero": "QC3.10",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Correcteurs : Proportionnel-intégral",
+        "semestre": "S4"
+       }
+      ],
+      "page": 26,
+      "tags": [],
+      "texte": "Question C3.10: a- Tracer Iallure du diagramme asymptotique d'amplitude de la fonction de transfert complexe C,(j@) en considérant que Ty > T; et C,>1. b- Justifier l'appellation PI filtré. 26 Question C3.11: a- Donner les expressions de G1(s) et G2(s) telles que : ig (8) =61(8)dgncr (5) +82(8).Vor (8) b-La constante de temps Ty du correcteur est régiée de telle sorte que Ty = UR (compensation d’un péle par un zéro): en déduire les expressions des fonctions de transferts en poursuite Har(S) = ig(S) / igrer(S) et en régulation Zar(S) = ig(S) / Ver(s)."
+     },
+     {
+      "numero": "QC3.12",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+        "semestre": "S3"
+       }
+      ],
+      "page": 27,
+      "tags": [],
+      "texte": "Question C3.12 : a- Identifier le facteur d’amortissement ¢ et la pulsation naturelle @n Caractéristiques du dénominateur du second ordre de Hpr(s). b- Montrer que ces paramétres de réglage ne sont pas indépendants. On régle le gain C, du correcteur pour que le comportement dynamique de la boucle de courant ig Soit fixée 4 5 KHz (trer = 600us)."
+     },
+     {
+      "numero": "QC3.13",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Rapidité",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+        "semestre": "S3"
+       }
+      ],
+      "page": 27,
+      "tags": [],
+      "texte": "Question C3.13 : a- Calculer la valeur du gain C, qui permet d’obtenir ce comportement dynamique avec un facteur d’amortissement optimal (¢= 0,707) en considérant la valeur de la résistance suivante : R=Rps = 8,60. b- Comparer cette valeur aux résultats obtenus aux questions C3.6 et C3.8. On s’intéresse au comportement du systéme en régulation. On veut rendre le courant ig(t) insensible aux variations de e,(t). Le temps de réponse a 5% doit étre minimum sachant que on admet un dépassement dans la réponse indicielle."
+     },
+     {
+      "numero": "QC3.14",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Précision",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Rapidité",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       }
+      ],
+      "page": 27,
+      "tags": [],
+      "texte": "Question C3.14 : a-A partir de I'expression de la fonction de transfert en régulation Zpr(s) obtenue a la question C3.11-b, comment évolue Ja perturbation eq(t) lorsque l'on applique un échelon de consigne igrer(t) = Igo = 5A. b- Dans quelles conditions de fonctionnement du moteur la perturbation peut-elle prendre la forme approchée ci-dessus ? c- En considérant la perturbation Z(t) = e,(t) (par excés), et en utilisant le théoréme de la valeur finale, calculer l’erreur permanente totale & en fonction de C,. d- En déduire la valeur numérique du gain C, pour obtenir une précision de 2% . e- Calculer la constante de temps T; de intégrateur et le temps de réponse trap 4 5% du processus corrigé."
+     },
+     {
+      "numero": "QC3.15",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
+        "semestre": "S1"
+       }
+      ],
+      "page": 27,
+      "tags": [
+       "hydraulique",
+       "pneumatique"
+      ],
+      "texte": "Question C3.15 : - Analyser de maniére succincte les performances obtenues dans les trois cas. Conclure. 27 Annexe 1 : FORMATS DES PLAQUES (p/L © 499) senbeld ap syeuuo} sjueseyiq Annexe 2 : DESCRIPTION DE LA MACHINE EXISTANTE Les différentes fonctions sont déja réalisées sur une machine existante dans Ientreprise mais travaillant 4 une cadence trois fois moins élevée et pour des formats de plaques moins contraignants. Le principe des solutions retenues est défini par les plans de I'annexe 3 : N° plan. Titre Description «3.5. 21345 Partie supérieure Plaque de réception (rep. 1) (arrivée des plaques en provenance du four) Chariot de transfert de la pile (rep. 2+6, vérin pneumatique + guidage par 4 paliers a billes). II permet d'amener la pile de plaques sur le rateau escamotable au-dessus du convoyeur des brosses tout en dégageant la zone d'arrivée des plaques. Une butée (non représentée) réglée sur la position d'arrivée de la pile permet d’aligner les plaques de la pile 'une par rapport a l'autre et de maintenir celle-ci au-dessus de la table en U lors du retrait du rateau. La course du chariot étant fixe (vérin pneumatique), c'est la forme des doigts qui donne leurs positions de d"
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,1225 @@
+
+===== page 1 =====
+[OCR] AG8Q
+
+*% Banque filigre PT 3%
+Epreuve de Sciences Industrielles |
+
+Durée 5h
+
+Attention penser a rendre les six documents réponse non-pliés en méme
+temps que les copies.
+
+Documents remis au candidat
+
+= Le texte du sujet ( 22 pages numérotées de 1 4 22).
+
+* 6 documents réponses (annexes A1, B1, B2, C1, C2, D1} a rendre avec la copie.
+* 1 document d’annexe C3 : abaques.
+
+Structure de I'épreuve
+
+L'épreuve comporte quatre parties indépendantes :
+
+= A-Automatique ;
+
+= B-Cinématique:
+
+= C-Statique;
+
+= D-Dynamique.
+
+Le candidat traitera chacune des parties (A, B, C et D) sur des copies séparées en indiquant sur chacune d’entre
+elles le numéro de la partie traitée et en y insérant les documents réponses correspondants.
+
+Les réponses finales doivent étre encadrées.
+
+Les candidats sont invités a formuler toutes les hypothéses qu’ils jugeront nécessaires pour répondre aux
+
+questions posées.
+Si, au cours de l’épreuve, un candidat repére ce qui iui semble étre une erreur d’énoncé, il le signale dans
+sa copie et poursuit sa composition en indiquant les raisons de son initiative.
+
+Protection
+
+Ce sujet utilise comme support d’étude un équipement de la société MTS Systems Corporation.
+
+Les informations sont utilisées avec la permission de MTS Systems Corporation.
+
+Chaque photographie et élément de texte extrait de documents MTS dans le présent sujet reste propriété de la
+société MTS Systems Corporation. L’autorisation d'utilisation de ces informations n'est valable que pour ce sujet
+
+de concours.
+Notations
+* La transformée de LAPLACE d'une fonction f de la variable temporelle continue du temps f est notée F de la
+
+variable complexe p associée a la transformée.
+"Pour un systéme de fonction de transfert F, la reponse harmonique est notée F(ja). Le module de F(ja) est
+
+noté |F('@)| et son argument arg(Flia)).
+= Le torseur cinématique du mouvement d'un solide i par rapport a un solide j sera noté Cy.
+
+ale A . Qu,
+
+Les éléments de réduction au point A de ce torseur s‘écriront C,,= {F wy
+
+a Paes
+
++ Le torseur des actions mécaniques transmissibles par une liaison quelconque q entre deux solides et j sera
+
+noté Ti;
+Fi,
+Mi
+= Le torseur dynamique d'un ensemble matériel Sen mouvement par rapport a un référentiel R sera noté
+
+Asin:
+
+Les éléments de réduction au point A de ce torseur s'écriront Ti4,; = {
+4
+
+: : , _ Dsin
+Les eléments de réduction au point A de ce torseur s'écriront Agr Sa :
+2 (Sasir
+
+1/22 présentation
+
+
+===== page 2 =====
+[OCR] PRESENTATION
+
+rc
+
+TS
+
+La société MTS Systems Corporation :
+Depuis 1966, MTS Systems Corporation développe ‘et fournit des équipements de test et
+simulation de systemes mécaniques en réponse a des excitations vibratoires.
+Ces équipements s'appliquent a |’étude du comportement aux vibrations mécaniques d’un
+équipement électronique, a la reproduction de la force d'un séisme sur un ouvrage génie civil ou
+la caractérisation comportementale de trains roulants de systémes de transport.
+Les domaines d’applications sont:
+
+Test de véhicules & Simulation
+
+Ces tests s'appliquent aux voitures, camions, motocyclettes.
+
+Bancs d’essais moteurs, trains roulants (vieillissement, reponses a |’impact...).
+
+Facteurs humains (bruits, vibrations, sécurité)
+
+Les solutions avancées d'ingénierie
+
+Simulateurs de vague d'océan, équipement pour parcs a’attractions...
+
+Test de matériaux
+
+Essais sur les matériaux tels que matériaux métalliques, composites, textiles afin de
+
+caractériser leurs propriétés.
+
+Test aérospatiai & Simulation
+Evaluation de la durabilité de trains d'atterrissages, de |'intégrité structurale d'ailes et
+
+autres infrastructures, de la performance de systémes de propulsion et autres
+composants de véhicules de vol.
+
+Test génie civil & Simulation
+Conception des ponts, barrages, routes, et autres infrastructures. Prise en compte des
+
+effets sismiques.
+
+Le systéme:
+Ce sujet se propose d'étudier un simuiateur de route (MTS Model 329 Multi-Axial Road
+
+Simulator).(Cf figure N°1).
+
+Figure N°1 : quatre simulateurs de route MTS Model 329
+
+|_cteprocuction avec la permission de MTS Systems Corporation-
+
+2/22 présentation
+
+
+
+===== page 3 =====
+[OCR] Ce systéme, a intégrer sur chacune des roues d'un véhicule, est un simulateur de route quatre
+axes permettant l’application dynamique d’efforts et de couples sur les axes verticaux, latéraux,
+longitudinaux, de freinage.
+
+li reproduit les conditions d’excitation d'une route sur les trains roulants.
+
+Grace a la fidélité de l'excitation auquel est soumis le train roulant, celui-ci peut-étre
+complétement identifié et caractérisé sans avoir a recourir 4 des essais in-situ (mise en place
+de capteurs facilitée, excitation adaptée -duree, format...-, flexibilité, environnement
+climatique...).
+
+La modularité du systéme permet de tester un ensemble roue-suspension (un équipement MTS
+Model 329 Cf figure N°2, figure N°3), un train roulant (train roulant avant ou arriére avec deux
+équipements Cf figure N°4) ou un véhicule complet (trains roulants avant et arriére avec quatre
+équipements Cf figure N°5).
+
+: oa Figure N°3: Ensemble roue-suspension +
+Figure N°2 : MTS Model 329 MTS Model 329
+
+reproduction avec la permission de MTS Systems Corporation- reproduction avec ia permission de MTS Systems Corporation
+
+=
+
+Figure N°5 : Test d'un véhicule complet
+reproduction avec la pe! de MTS Systems Carporation-
+
+Figure N° 4 : Test d'un train roulant
+“reproduction avec la permission de MTS Systems
+Corporation-
+
+3/22 présentation
+
+
+
+===== page 4 =====
+[OCR] Les actionneurs utilis¢s sont des vérins double effet hydrauliques pilotes par des servovalves
+électrohydrauliques trois étages. Les commandes des servovalves sont assurées par un
+controleur multi-axe (MTS FiexTest II) en dialogue avec un outil d’analyse de données (MTS
+Model 498 + outil logiciel RPC III) (Cf figure N°6).
+
+RPC Ill Functionality
+
+User imertace + Frequency response function Optional:
+File manipstation measurement + Fatigue anaiysis
+
+Time, froquency, amplitute - APC iteration 2 pynamic analysis
+
+and statistical anaiyyis + Durablilly test contiguration —. Optical render intertace:
+Interactive time editing + Data storage and archive
+
+Digital fltecing «+ Networking with FlexTest IL
+
+mrs. FiexTest i digital control
+FiesTast it funetions
+
+rnernerenenr ney
+Ts todei 498 20€ serve contro!
+tutomared site aatrix control
+controller + Cross coupling compensation
++ System user interface
++ Test execution
+* Data anaiysis/eaiting i
+| {using the RPC lil enaine)
+Networking with RPC lt
+Automated site controtier | mit checking
+functions + Signal conditioning
+Feninainainis :
++ Readout |
+| Durability test econtrot }
++ Test soheduling ° _
++ Test log
+| + Mutt-rate data acquisition
+| + Networking with RPC I 506.52 HPS
+
+| + Limit checking
+
+| + Digital vo
+
+{+ Gvent actions
+
++ Trend monitoring
+
++ Point-by-point monitoring
++ Ondine reinilow accumulation
+Options:
+
++ On-line damage monitoring
+
++ Up to four fest stations
+
+180 GPM
+
+Hydraulic distribution system
+
+Figure N°6 : simulateur pour véhicule a 4 roues, architecture d’un banc d’essai complet
+| <tepreduetion avec la permission de MTS Systems Corporation-
+
+4/22 présentation
+
+
+
+===== page 5 =====
+[OCR] A - AUTOMATIQUE
+
+Le simulateur de route MTS (Cf figure N°1 page 2/22 et figure N°2 page 3/22) repose sur une
+architecture quatre axes permettant des déplacements verticaux, latéraux, longitudinaux et de
+simulation de freinage sur chaque roue d'un véhicule.
+
+Cette architecture sera dédoublée dans |’étude d’un train roulant d'un véhicule ou quadruplée
+dans |'étude des trains roulants d’un véhicule complet a quatre roues.
+
+Les déplacements et applications d’efforts dynamiques sur les axes sont assurés par trois
+vérins linéaires hydrauliques (axe vertical, jatéral et longitudinal) et un vérin rotatif hydraulique
+pour simuler le freinage.
+
+Dans cette partie on s'intéresse a l'étude de l’'asservissement en position de | ‘axe vertical sur
+une roue afin d’étudier les caractéristiques du systéme de suspension d’une roue.
+Pour ce type d’essai le chassis du véhicule est fixé sur le sol.
+
+Le véhicule étudié est un véhicule de tourisme :
+L’ensemble ressort-amortisseur sur une roue du train avant posséde les caractéristiques
+suivantes ramenées sur l'axe du piston du vérin hydraulique :
+
+*  Raideur rr = 53N/mm.
+
+«  Frottement visqueux fv = 0,0091 N.s/mm.
+
+= Masse M = 65kg.
+
+L’ensemble vérin_hydraulique_+ servovalve + capteur de position du _piston_posséde les
+
+caractéristiques suivantes :
+= Effort maximal : 40 KN (8800 Ibf).
+
+= Servovalve : débit maximum 684 Ipm (litre par minute) (180 gpm).
+
+= Course du piston du vérin : 381 mm (15 inches).
+
+* Section utile du piston du vérin: S=17,95 cm? (par hypothése cette section est
+identique sur les deux faces du piston du vérin).
+
+= Gain de la servovalve : Kd=0,0114 m/siv.
+
+= Le capteur de position est modélisé par un gain pur kcap. La course de 381 mm du
+piston du vérin est convertie en un signal compris entre Ov. et 10v.
+
+Cahier des charges désirée :
+= Bande Passante a —3dB désirée > 50Hz.
+
+= Erreur de position en réponse a une rampe nulle.
+
+Toutes les variables utilisées avec le formalisme de LAPLACE seront considérées aux
+variations.
+
+5/22 partie A : automatique
+
+
+===== page 6 =====
+[OCR] A.1 Modélisation du vérin avec servovalve
+Un schéma simplifié du systeme asservi du vérin de l'axe vertical est le suivant (cf figure A.1) :
+
+servovalve Ps A)
+
+cap yret
+
+ution regulateur
+
+capteur de
+position
+
+keap
+
+chambre 4 chambre 2
+
+PLVLQT P2,V2,02
+
+verin figure A.1: vérin + servovalve
+
+Notation :
+
+Ps : pression de service.
+
+Pr: pression au refoulement (supposée nulle}.
+
+Pt, P2: pressions dans les chambres 1 et 2 du vérin.
+
+V1, V2: volumes des chambres 1 et 2 du vérin.
+
+Q1, Q2 :débits des fluides alimentant les chambres 1 et 2.
+S: section utile du piston du vérin (17,95 cm?).
+
+Hypothéses simplificatrices de travail :
+Le distributeur de la servovalve est parfaitement symétrique pour qu'au repos (pour une
+commande U = 0) et en I’absence de charges extérieures, les pressions dans les chambres du
+
+vérin soient quasi identiques et valent &.
+
+Pas de pertes en charge.
+
+Le vérin est symétrique.
+
+Les charges seront faibles pour que les pressions dans les chambres s'éioignent peu de .
+
+Les déplacements seront faibles afin d’éviter l'apparition de non-linéarités, mais pas trop faibles
+pour limiter l'influence des seuils.
+
+Explication qualitative du fonctionnement :
+
+Par une commande positive U on déplace le tiroir d’une distance x positive.
+
+La pression P71 dans la chambre 1 va augmenter et la pression P2 dans la chambre 2 va
+diminuer {mise au refoulement).
+
+La différence de pression P1 ~ P2 va générer un déplacement positif y du piston du vérin vers
+la droite.
+
+Le déplacement sera stoppé si on repositionne le tiroir de la servovalve en position médiane.
+
+6/22 partie A : automatique
+
+
+===== page 7 =====
+[OCR] A.1.1. Approche simplifiée
+
+Le débit entrant dans une chambre du vérin est égale au débit sortant de l'autre
+chambre.
+
+Hypothése supplémentaire:
+Le fluide est incompressible.
+
+A.1.1.1 ~ Déterminer I'équation différentielle littérale donnant le déplacement du piston
+y(t) en fonction du débit Q1(#) fourni a la chambre 1 et de la section utile du vérin S.
+
+A.1.1.2 — Déterminer |'équation différentielle littérale donnant le déplacement du piston
+y(t} en fonction du débit Q2(t) fourni a la chambre 2 et de la section utile du vérin S.
+
+A.1.1.3 — Déterminer la valeur numérique de la vitesse de sortie maximale du vérin.
+
+YQ)
+
+A.1.1.4 — Déterminer sous forme littérale la fonction de transfert du vérin Pup)
+
+Nota : pour simplifier I'écriture, dans la suite de la partie A.1.1, on pose Q7 = Q.
+
+A.1.1.5 — Régulateur proportionnel de position
+
+Le régulateur utilisé est proportionnel : UO) Kor
+
+(Pp)
+ap)
+A.1.1.5.1 — Par analyse du schéma simplifié figure A.1, tracer le schéma-bloc du
+systéme bouclé
+
+Variable d’entrée = la référence position kcapxYref(p).
+Variable de sortie = la position Y(p).
+La servovalve est modélisée par un gain pur Kd.
+Indiquer dans chacun des blocs les transmittances sous formes littérales.
+
+A.1.1.5.2 — Déterminer l'erreur statique en réponse a I’échelon unitaire
+
+A.1,1.5.3 — Déterminer sous forme littérale canonique la fonction de transfert en
+
+4 Kp)
+boucle fermée Keap.Yrehp)
+
+A.1,1.5.4 — Déterminer la valeur numérique de Kcor afin d’obtenir une bande
+passante 4 —3dB du systéme bouclé de 50 Hz.
+
+Nota: on nomme bande passante a —3dB la pulsation pour laquelle le gain du
+systéme bouclé est a —3dB du gain statique.
+
+A.1.2 Amélioration du modéle
+
+En réalité le fluide n'est pas incompressible.
+Soit B (B = 10000 bars) le module de compressibilité du fluide. La variation de volume du
+fluide AV en fonction de la variation de pression AP dans une chambre de veérin est
+
+AV AP
+
+définie par la relation TR
+
+A.1.2.1 — Déterminer l’équation littérale des débits reliant le débit Q7(t), la pression P1(t)
+dans la chambre 1 et le déplacement du piston y(t)
+
+A.1.2.2 — Déterminer |’équation littérale des débits reliant le débit Q2/t), la pression P2(t)
+dans la chambre 2 et le dépiacement du piston y(t).
+
+7/22 partie A : automatique
+
+
+===== page 8 =====
+[OCR] A.1.2.3 — Donner |'équation de l'effort de sortie du vérin F(t) en fonction des pressions
+dans les deux chambres P1(t) et P2(t).
+
+A.1.2.4 — Donner sous forme littérale le contenu des blocs de la structure suivante :
+
+Bi(p)
+
+210) | ar) ( P1(p)
+
+Y(p) F(p)
+— co Ls
+
+Q2(p) P2(p)
+
+s} Az) f
+
+B2(p)
+
+structure du vérin
+
+Hypothése supplémentaire : Dans cette partie on supposera le vérin au voisinage de sa
+position médiane : V7=V2=V.
+
+A.1.2.5 — Donner le contenu des blocs A(p) et B(p) de la structure ci-dessous faisant
+apparaitre la difference de pression dans les deux chambres P(t) = P1(t) — P2{(t).
+
+Le débit entrant dans une chambre du vérin est égal au débit sortant de l'autre chambre.
+Nota : pour simplifier 'écriture on pose Q7(t) = Q(t).
+
+Y(p) Bip)
+
+F(p)
+
+UO) | eg | 0)= AAPL) yp) f PO) | cp)
+
+servovalve
+
+structure du vérin simplifiée + servovalve
+
+8/22 partie A : automatique
+
+
+===== page 9 =====
+[OCR] A.2 Modélisation de la charge + actionneur (entrée U, sortie F)
+La charge est un combiné ressort-amortisseur de véhicule de tourisme.
+L’ensemble ressort-amortisseur sur une roue du train avant posséde les caractéristiques
+suivantes ramenées sur I'axe du piston du vérin hydraulique :
+= Raideur rr = 53N/mm.
+= Frottement visqueux fv = 0,0091 N.s/mm.
+= Masse M = 65kg.
+
+Un déplacement positif du piston augmente le volume de la chambre 1.
+
+Hypothéses simplificatrices de travail :
+Le piston du vérin est en position quasi centrale V7 = V2 = V.
+
+A.2.1 Ecrire la relation donnée par le principe fondamental de la dynamique pour le
+déplacement du piston du vérin accoupleé a la charge suivant y(t).
+
+A.2.2 En déduire l'expression littérale sous forme canonique de la transmittance de la fonction
+de transfert ¥(p)/F(p).
+
+A.2.3 Tracer le schéma-bloc du systéme bouclé a partir des résultats obtenus aux questions
+A.1.2.5 et A.2.2, donner l’expression littérale sous forme canonique de la transmittance
+de LAPLACE d’entrée la commande de servovalve U(p) et de sortie la position du piston
+du vérin Y(p).
+
+Variable d’entrée = la référence position kcapxYref(p).
+Variable de sortie = la position Y(p).
+Equation de bouclage : «(p) = keapxYref(p) — Y(p).
+Correction d’erreur : U(p) = COR(p) xe(p).
+
+Indiquer dans chacun des blocs les transmittances sous forme litterale.
+
+A.2.4 Donner |'expression litterale sous forme canonique de la transmittance de LAPLACE
+d'entrée la commande de servovalve U(p) et de sortie la position du piston du vérin Y/p).
+
+A.2.5 Mise en évidence de la raideur hydraulique rh dans la fonction de transfert Y(p)/U(p).
+
+Hypothéses de travail supplémentaire:
+Le distributeur de la servovalve est supposé fermé.
+Le fluide étant compressible, le vérin peut étre considéré comme un ressort ayant une certaine
+
+ae avec AF c(t) l'effort developpé entre le corps du vérin et son piston pour un
+déplacement du piston de Ay/(t).
+
+raideur rh=—
+
+A.2.5.1 — Par analyse du schéma bloc de la question A.1.2.5 donner la forme littérale de
+la raideur hydraulique rh en fonction des paramétres du systeme.
+
+A.2.5.2 — Réécrire la fonction de transfert Y(p)/U(p) (obtenue a la question A.2.4) sous
+
+forme canonique et littérale en fonction de la raideur hydraulique rh, la raideur de la
+charge rr, le frottement visqueux de la charge fv, la masse de la charge M et la section
+
+utile du piston S.
+A.2.5.3 — Déterminer | ‘application numérique de rh. Comparer avec rr. Conclure.
+
+A.2.5.4 — En déduire la forme littérale canonique simplifiée de Y¥(p)/U(p).
+
+A.2.5.5 — Donner I'application numérique de Y(p)/U(p)
+
+9/22 partie A : automatique
+
+
+===== page 10 =====
+[OCR] A.3 Etude de la stabilité
+
+On utilise la forme simplifiée de la question A.2.5.4 Y¥(p)/U(p) dans la suite de |’étude.
+La structure schéma bloc du systéme bouclé est la suivante :
+
+keap. Yref(p) U(p) Y(p)
+COR(p)=Kcor G(p)
+
+kcap
+
+Le correcteur COR(p)=Kcor est de type proportionnel
+
+A3.1
+
+A3.2
+
+A3.3
+
+A3.4
+
+A3.5
+
+Déterminer la forme littérale canonique de |’équation caractéristique notée D(p)
+Etude de la stabilité.
+
+A.3.2.1 - Etudier la stabilité du systeme bouclée 4 l'aide du critére de ROUTH sous forme
+littérale.
+En déduire sous forme littérale la plage de valeur admissible pour Kcor assurant la
+stabilité.
+
+A.3.2.2 — Donner sous forme numérique la plage de valeur admissible pour Kcor.
+
+Déterminer numériquement ta pulsation naturelle notée @0 et l’amortissement noté m du
+second ordre de la transmittance G(p)=Y(p)/U(p). Conclure quant a la valeur de
+l'amortissement m.
+
+Déterminer numériquement la phase de G(j.@) en w=a0. Conclure.
+
+Utilisation du critére du revers.
+
+Retrouver la valeur numérique de Kcor maximale assurant la stabilité par application du
+critére du revers :|FTBOC(j.a,)|=1 donne la valeur de Keor maximale. On note o, la
+pulsation pour laquelle la FTBOC posséde une phase de -180°.
+
+Nota : FTBOC=Fonction de Transfert Boucle Ouverte Corrigée
+
+10/22 partie A : automatique
+
+
+===== page 11 =====
+[OCR] A4 Correction
+
+A.4.1 Correction proportionnelle.
+Le schéma bioc du systéme bouclé est toujours le suivant
+
+kcap. Yref(p) Up) Y(p)
+
+} Keor G(p)
+
+kcap
+
+Tracer le diagramme asymptotique de Bode de la FTBOC (Fonction de Transfert en Boucle
+Ouverte Corrigée) pour Kcor = 0,0001 en indiquant les valeurs remarquables sur le document
+réponse Annexe A1.
+
+A.4.2 Pour Keor = 0,0001 déterminer numériquement la pulsation de coupure 4 OdB nommée
+@; de la FTBOC.
+
+A4.3 En déduire numériquement la marge de phase Mg.
+
+A4.4 Déterminer numériquement la marge de gain Mg.
+
+AA.5 Pour ce réglage de Keor quelle est la bande passante a ~3dB ?
+Nota : on nomme bande passante a —3dB la pulsation pour laquelle le gain du systeme
+boucié est a -3dB du gain statique.
+
+A.4.6 Respecte ton le cahier des charges ?
+
+A.4.7 Mise en ceuvre d'un filtre.
+
+Afin d’éviter d'exciter le systeme avec des pulsations proches de 0 on filtre la commande U(p)
+du systéme. La structure du systéme bouclé devient la suivante :
+
+kcap. Yref(p) , U(p) Y(p)
+Kcor Filtre(p) G(p)
+
+keap
+
+3,461.10-§p?+1
+6,923.10-°p?+1,861.10- p+]
+Le diagramme réel de Bode de ia FTBOC, pour Kcor=0,0001 et le filtre ci-dessus a donné les
+courbes de gain et de phase suivantes :
+
+Le filtre posséde pour fonction de transfert ; Filtre(p)=
+
+11/22 partie A : automatique
+
+
+===== page 12 =====
+[OCR] Bode Diagram
+
+Magnitude (48)
+3
+8
+
+os
+a
+Pannen
+
+410 100
+Frequency (radisec)
+
+zoom du diagramme de Bode précédent :
+
+Bode Diagram
+
+Magnitude (dB)
+
+254 36 398
+
+Frequency (rad/sec)
+
+A.4.7.1 - Par relevé graphique donner la valeur de Kcor assurant la stabilité tout en ayant
+une dynamique élevée (marge de phase Mg=20°).
+
+12/22 partie A : automatique
+
+
+===== page 13 =====
+[OCR] A.4.7.2 — Mesure de la bande passante a -3dB du systéme en boucle fermé
+
+Nota: on nomme bande passante 4 —3dB la pulsation pour laquelle le gain du systéme
+bouclé est a -3dB du gain statique.
+
+Le tracé du diagramme de Bode en gain en boucle fermé pour Keor = 1 a donné le
+résultat suivant :
+
+Bode Diagram
+
+Magnitude (4B)
+
+700 i000 {0000
+
+Frequency (rad/sec)
+
+zoom du diagramme de Bode précédent :
+
+Bode Diagram
+
+20 poem
+
+Mognitude (dB)
+
+‘316 398
+
+Frequency (radisec}
+
+AA4.7.2.1 — Donner la valeur litterale puis numérique en dB du gain statique en
+boucle fermé.
+
+13/22 partie A : automatique
+
+
+===== page 14 =====
+[OCR] A4.7.2.2 — Par relevé graphique donner la valeur de la bande passante a —3dB.
+
+A.4.7.2.3 — Conclure quant au cahier des charges désiré.
+
+A.5 Précision
+
+On utilise la structure bouclée suivante (I'influence du filtre précédent est négligeable) :
+
+kcap. Yret(p)
+
+Kcor
+
+U(p)
+
+G(p)
+
+Y(p)
+
+kcap
+
+On utilisera pour G(p) la transmittance sous forme canonique et littérale de la question A.2.5.4
+
+A.5.1 Déterminer l'expression littérale de erreur ep(t) en régime permanent en réponse a
+léchelon unitaire (erreur de position).
+
+A.5.2 Déterminer l'expression littérale de l'erreur ev(t) en regime permanent en réponse a une
+rampe de pente unitaire (erreur de vitesse).
+
+A.5.3 On désire une erreur de vitesse nulle. On modifie la structure du systeme bouclé comme
+
+suit :
+
+kcap. Yref(p)
+
+4(P,
+
+Kv.p
+
+Kcor
+
+U(p).
+
+G(p)
+
+Y(p)
+
+kcap
+
+Déterminer I’expression littérale de l'erreur ev(t) en régime permanent en réponse a une
+rampe de pente unitaire (erreur de vitesse).
+
+A5.4 Déterminer littéralement la valeur a régler pour Kv pour obtenir une erreur de vitesse
+ev(t) en régime permanent nulle.
+
+A.5.5 Esquisser une ébauche de solution différente de celle précédemment présenté
+
+permettant d’obtenir une erreur statique nulle.
+
+14/22 partie A : automatique
+
+
+===== page 15 =====
+[OCR] B - CINEMATIQUE
+
+L'objectif de la machine (plan général, page 21) est de simuler les conditions de roulage au
+niveau du train roulant d'un véhicule. Dans ce but, différents mouvements peuvent étre
+engendrés par la machine d'essais sur la roue du véhicule testé, a l'aide des vérins V;, Vz et V3.
+Le moyeu du train roulant est monté fixe dans le support de roue 1 et reste fixe en rotation par
+rapport au reste du train roulant. Les mouvements sont contenus dans le plan (0,x,.¥,)
+
+(schéma cinématique, page 22) du repére fixe Ro. Chaque vérin est étudié indépendamment
+des autres. Ces derniers sont alors considérés comme parfaitement rigides, leur tige
+parfaitement immobile par rapport a leur corps.
+
+B.1 Paramétrage (schéma cinématique page 22)
+Le mécanisme étudié dans cette partie est constitué de 9 solides et de 3 vérins :
+Bati 0 Repére (0,%,,,)
+
+Support de roue 1 Repére (0,%,.5,) (4
+Poutre support 2 Repére (0,z,,3) (ce
+Poutre support 2' Repére (0, ¥,,),)
+Traverse 3 Repére (0,3,,9,) (
+Bielle support 4 Repére (0,,.3.) (8,6
+Bielle 5 Repére (0, x...) (
+(
+(
+
+Barre 6 Repére (0, %,.j,)
+Bielle 7
+Bielle 8 Repére o. eh ea
+Barre 9 Repére (0,3,, dl,
+
+et (8,8, )=1,.5, | (Ar milieu de BsC)
+i(BC.)= 4.8, ~b, TyilCy4y.C,B,)= 8
+
+Il n'y a pas de contact de 9 au point Cs
+
+La position de la tige dans le vérin est définie de la fagon suivante :
+
+Vérin V; : glissiére d'axe (D,2,)| (D,8,)=A8),
+Vérin V2 : glissiére d'axe (&,B,) (E,B,)= 45,3
+Vérin V3 : glissiére d'axe (4,2, ) (4,8,)= As Xv3
+
+Liaison Pivots d'axe z, Centre Orientation absolue
+Entre V3 et Ro Ao a)
+Entre 5 et Ro Bo 8, = %s¥s)
+Entre 7 et Ro Co 8, = (%,%,)
+Entre 8 et Ro Do 8, = (Bo ¥)
+Entre Vi et Ro Eo 8,, = &.¥,1)
+Entre V2 et Ro A; 9.5 = Bos v2)
+Entre V3 et Ro Ao ps = Borys)
+
+Entre 4 et 7 B, 9, = (Xs)
+Entre 2 et 4 Ca , = %.¥:)
+Entre 3 et 8 As 8, = (i,%5)
+Entre 1 et 2 By 6, = (%,,)
+
+15/22 partie B : cinématique
+
+
+===== page 16 =====
+[OCR] B.2 Etude préliminaire
+Le but de l'étude est de déterminer les caractéristiques d’un systéme simple pour pouvoir les
+appliquer dans |'étude du simuilateur de route. Le systeme simple est un quadrilatére plan formé
+par 4 barres homogénes en liaison pivot entre elles (figure 1.1). On supposera qu'un des
+neeuds du quadrilatére (A) est fixe dans le repére fixe Ro. Une barre indicée i est définie par sa
+longueur | et sa direction x,. On définit 6, comme I'angle orienté entre x, et X,.
+
+Xs
+
+¥,
+A ° 7
+
+Figure b1.1 : Quadrilatére a 4 barres
+
+B.2.1 Sans résoudre le probléme mécanique, montrer par un calcul simple que la mobilité du
+mécanisme est égale 4 2.
+
+On propose alors de paramétrer ce systéme 4 l'aide des positions angulaires absolues de la
+barre 1 (8;) et de la barre 2 (82).
+
+B.2.2  Ecrire, sans les développer, les deux équations reliant les positions angulaires absolues
+de la barre 3 (93) et de la barre 4 (04) en fonction de 6; et de 02 et des longueurs des
+barres.
+
+B.2.3. En déduire les deux conditions pour que ies relations suivantes soient respectées
+ensembles : 03 = 61 et 04 = 92, quelles que soient 0; ou 02.
+
+B.2.4_ En se placgant dans les conditions précédentes et avec 8; constant, quel est le
+mouvement de la barre 3 lorsque 02 varie ?
+
+Dans la suite du probleme, on utilisera les propriétés de ce systeme appelé aussi
+parallélogramme de WATT.
+
+16/22 partie B : cinématique
+
+
+===== page 17 =====
+[OCR] B.3 Etude cinématique liée au mouvement du vérin V; seul (sur annexe B1)
+Dans cette partie de l'étude, on s‘intéressera au mouvement engendré par le vérin V;
+seulement. On cherche a connaitre la nature du mouvement de la roue du véhicule et la relation
+
+entre la vitesse de la tige du Vérin Vi, Mx, ccae pun Ct la vitesse du centre de la roue Cr, V5, -
+
+mecorps!
+
+B.3.1 Dans le mécanisme représenté en annexe B71, existe-t-il un (ou plusieurs)
+parallélogramme(s) de Watt, lié(s) au mouvement du vérin V; ? Si oui, décrire les deux
+principaux par la donnée de leurs sommets. On mettra en évidence ces
+parallélogrammes en les surlignant en couleur sur 'annexe B1.
+
+B.3.2  Indiquer la nature du mouvement que le vérin V; permet d’appliquer la roue autour de
+la position représentée sur le schéma cinématique.
+
+B.3.3 A partir de la connaissance de la vitesse /, tracée sur le schema, déterminer
+
+comps piston
+
+graphiquement les vitesses Vi, cn,. Vacsiays Peesin, Ot Pern, et donner la valeur de leur
+
+norme.
+On laissera visible la construction des vitesses et on privilégiera l'utilisation de couleurs.
+
+B.3.4 En déduire le type de comportement simulé par ce genre de mouvement sur le train
+roulant du véhicule.
+
+B.4 Etude cinématique liée au mouvement du véerin V2 seul (sur annexe B2)
+
+Dans cette partie de l'étude, on s'intéressera au mouvement engendré par le vérin V2
+seulement. On cherche a connaitre la nature du mouvement de la roue et la relation entre la
+
+vitesse de la tige du vérin V2, V,,.y,.9, . et la vitesse du centre de la roue C,, Paco
+
+B.4.1. Compléter le schéma cinématique de l'annexe B2. On précisera notamment les
+ensembles de piéces rigides en les surlignant chacun d'une méme couleur.
+
+B.4.2 Existe-t-il un (ou des) parallélogramme(s) de Watt lié(s) au mouvement du vérin V2
+seul ? Si oui, décrire les deux principaux par la donnée de leurs sommets.
+
+B.4.3. Quelle est la nature du mouvement imposé a la roue par le vérin V2 ?
+
+B.4.4 En déduire le type de comportement simulé par ce genre de mouvement sur le train
+roulant du véhicule.
+
+On se place dans Ia situation du schéma cinématique, soit X, =x, =X).
+B.4.5 A partir des questions précédentes, déterminer la valeur de fa norme de la vitesse
+¥. du centre de la roue C,, appartenant au support de roue 1 par rapport au bati 0.
+
+CoV!
+
+B.4.6 Calculer expression de la norme de la vitesse Py csis, du point Bi, appartenant au
+support de roue 1 par rapport au bati 0, en fonction de la norme de la vitesse Vreven, et
+de la géométrie (On se placera dans I'hypothése ol x,, est perpendiculaire 4 B,B,).
+
+B.4.7_ Faire l'application numérique et en déduire la valeur de la norme de la vitesse de
+rotation, Q(1/Ro), appliquée au support de roue 1 par rapport au repére No.
+
+On donne la norme de la vitesse de sortie de la tige du vérin V2 par rapport au bati 0, au
+point BS : [Poacesn,f[=425ms", Jes longueurs |= 459mm, Iz; = 578mm, lz. = 1010mm,
+
+ig = 204mm, Is = 289mm et les angles « = 23,6° et 02 = 156,4°.
+
+17/22 partie B : cinématique
+
+
+===== page 18 =====
+[OCR] C - STATIQUE
+
+Le but de !'étude est de déterminer I'état de sollicitation de la bielle 8 et de vérifier la résistance
+de la barre 6. Les calculs sont faits dans le plan {0.%,.¥,.). Comme dans la partie B, chaque
+vérin est étudié seul. Les autres sont alors considérés comme parfaitement rigides, la tige,
+parfaitement immobile par rapport au corps du vérin.
+
+C.1 Données de l'étude
+
+Une premiére conception propose de réaliser la bielle 8 par moulage au sable en fonte a
+graphite sphéroidal et la barre 6 a partir d'une barre en acier S185. Les propriétés mécaniques
+des matériaux sont regroupées dans le tableau ci dessous :
+
+Matériau Module d’élasticité (MPa) | Limite d'élasticité (MPa)
+Fonte a graphite sphéroidal 179 000 450
+Acier $185 210 000 185
+
+Les contraintes sont supposées rester inférieures 4 la limite d'élasticité du matériau.
+
+Un premier calcul a permis de définir certaines dimensions pour les vérins :
+
+Vérin Diamétre intérieur du corps Diamétre de la tige
+Dint (mm) di: (mm)
+Vérin Vi 64 28
+Vérin V2 32 24
+
+C.2 Etude statique lige au mouvement du verin V, seul
+
+C.2.4
+
+C.2.2
+
+C.2.3
+
+C.2.4
+
+C.2.5
+
+On se place dans Ia configuration du schéma cinématique, soit x, =, =X, =X, =X).
+
+Déterminer les expressions littérales de la force maximale en poussée, FO vay et de
+la force maximale en traction, Fy.) du vérin V; sur la bielle 8 en fonction de la
+pression. Connaissant la pression maximale d’alimentation hydraulique, égale 4 150bar
+(1bar = 10°Pa), et les dimensions retenues pour le matériel hydraulique, faire les
+applications numériques.
+
+Justifier la forme du torseur d'effort appliqué par le vérin V; en poussée sur la bielle 8,
+EU) = FO aye
+0
+De méme, justifier la forme du torseur d'effort appliqué par la barre 9 sur la bielle 8,
+F918) = Fy, 5
+0
+
+donné par : 7;,_.: {
+by
+
+donné par: T,_.: {
+A
+
+Ecrire 'équilibre statique de la bielle 8 (vérin en poussée) et déterminer tous les efforts
+inconnus s‘appliquant sur ce solide. On écrira tous les efforts inconnus en projection
+
+dans le plan (0, x,,3,)-
+On rappelle que %, Az, =sin(,)z, et que ¥, AX, =-cos(@)zZ,.
+
+Faire les applications numériques.
+On donne : @y1 = 21,7°, ag = 80mm, bs = 423,5mm, B = 10,7° et lo, = 578mm.
+
+18/22 partie C : statique
+
+
+===== page 19 =====
+[OCR] C.3 Résistance Des Matériaux (sur annexe C1)
+
+Dans la partie précédente, on a déterminé toutes les actions extérieures sur la bielle 8. Dans le
+but de vérifier sa résistance statique, on se propose de la modéliser sous la forme d'une poutre.
+On va donc se placer dans les conditions de la Résistance Des Matériaux puis on étudiera |'état
+de sollicitation de ta poutre modélisée.
+
+Le modéle retenu pour la piéce 8 est celui d'une poutre rectiligne allant de Co a Ag. Pour tenir
+compte de l’excentration du point Bs, on place la projection de ce point sur le segment [CoAs]
+qu'on appelle B's (annexe C1).
+
+C.3.1 Sachant que B,B; =a,.%,, déplacer le torseur d'effort appliqué par le vérin V; sur la
+bielle 8 du point Bg a B's.
+
+A partir des efforts tracés sur le document réponse (annexe C1):
+C.3.2 Tracer sur l'annexe C1 le diagramme de I'effort normal
+C.3.3. Tracer sur l'annexe C1 le diagramme de I'effort tranchant.
+
+C.3.4 Tracer sur l'annexe C1 le diagramme du moment fléchissant.
+
+C.4 Concentration de contraintes (vérin V2 seul) (annexes C2 et C3)
+
+La conception initiale de la barre 6 (cylindre plein de 20mm de diameétre) laisse apparaitre une
+fragilité au niveau du raccordement avec les rotules d'extrémité du fait de fa brusque variation
+de section (figure C.4.1 de l'annexe C2). On souhaite quantifier le phénoméne. Pour cela, on
+suppose que la situation la plus défavorable est celle donnée par le schéma cinématique
+(%, =%, = ¥,). On déterminera dans un premier temps la solicitation dans la barre 6. Puis on
+
+travaillera a l'aide des abaques de l'annexe C3.
+
+C.4.1. Connaissant la pression maximale d’alimentation hydraulique, égale a 150bar, et les
+dimensions retenues pour le matériel hydraulique, déterminer la force maximale en
+poussée, Fyy2 45), du vérin V2 sur la bielle 5 (expression littérale et valeur).
+
+C.4.2_ Donner le type de sollicitation simpie 4 laquelle la barre 6 est soumise.
+
+C43  Surla feuille de l'annexe C2, déterminer graphiquement I'équilibre de la bielle 5.
+
+C.4.4 En déduire la contrainte normale dans la partie centrale de la barre 6. Cette valeur
+satisfait-elle aux critéres de résistance élastique énoncés précédemment pour le
+
+matériau ?
+
+Aux extrémités de la barre 6, la brusque augmentation de section, pour permettre le montage
+de la bielle par vissage, introduit des concentrations de contraintes.
+
+C.4.5  A''aide des abaques fournis annexe C3 et des dimensions de la barre 6 données sur la
+figure C.4.1 de l'annexe C2, relever le coefficient de concentration de contrainte Ki.
+
+C.4.6 En déduire la contrainte maximale dans la barre 6. Cette valeur satisfait-elle aux
+critéres de résistance élastique énoncés précédemment pour le matériau ?
+
+C.4.7 Proposer une amélioration simpie.
+
+19/22 partie C : statique
+
+
+===== page 20 =====
+[OCR] D - DYNAMIQUE
+
+Il s'agit d'étudier le déplacement engendré par le vérin V3, vérin de l'axe vertical. Cet actionneur
+permet une translation verticale du centre de la roue, modélisant ainsi les irrégularités du
+revétement routier. Le but de l'étude est de déterminer la puissance consommée par le systéme
+dimensionné pour un véhicule de type pick-up américain (ligth truck). Pour cela, on travaille sur
+le systéme seul, sans véhicule.
+
+D.1 Hypotheses
+Les mouvements sont contenus dans un plan : (0.%,.3).
+
+Les solides sont considérés comme indéformables.
+Le fluide hydraulique est considéré comme incompressible.
+On donne les longueurs : lg = 480mm, l7 = 190mm
+On fera attention a respecter les repéres liés & chaque piéce.
+
+D.2 Dynamique : Etude du vérin V3 seul
+
+D.2.1  Existe-t-il un ou plusieurs parallélogrammes de Watt ? Si oui, surligner le principal en
+couleur sur l'annexe D1 et le décrire par la donnée de ses sommets.
+
+D.2.2 Sachant que la vitesse maximale de sortie du vérin V3 est égale a
+x |=0,635ms", déterminer (expression et valeur numérique) la norme de ta
+
+ek Ny
+
+vitesse du point Ay Passi, | et de la vitesse du point C, |? . x}
+On souhaite animer fa roue d'un mouvement vertical Uicr-smo), Sinusoidal, de période T et
+d’amplitude Up.
+
+D.2.3. Donner |’expression littérale du déplacement du centre de la roue du véhicule en
+fonction du temps, si a t=0 ce déplacement est nul.
+
+On définit S comme l'ensemble {1; 2; 2°83; 4}, supposé rigide. Le centre de gravité de S,
+Gs, est placé sur ja droite (A7A3). On note m la masse de S. On note |r, I'inertie de la piéce 7 en
+rotation autour de (Bo, 2, ) et mz, la masse de la piéce 7. Le centre de gravité de celle-ci, G7, est
+
+tel que (8,6, )= =X; X; ~ ¥g-3,. On suppose que les actions mécaniques des piéces 6 et 9 sur
+S sont négligeables devant les autres actions mécaniques.
+
+D.2.4 Donner l'expression littérale de la projection sur jy, des forces diinertie F, de
+l'ensemble S en son centre de gravité Gs.
+
+D.2.5  Ecrire le théoréme de la résultante dynamique de l'ensemble S en projection sur ¥,.
+En déduire l'action mécanique exercée par la bielle 7 sur S.
+
+D.2.6 Faire le bilan des actions extérieures sur le solide 7.
+D.2.7_ Ecrire le théoréme du moment dynamique de ce solide au point Bo.
+
+D.2.8 En déduire l'expression de |'action mécanique exercée par le vérin V3 en fonction de T,
+Up, g, m, mv, I7 du temps t et de la geométrie.
+
+20/22 partie D : dynamique
+
+
+===== page 21 =====
+[OCR] Dessin du simulateur de route
+a 4 degrés de liberté
+
+sion de MTS Syslenss Corporation
+
+21/22 Plan général
+
+
+
+===== page 22 =====
+[OCR] Schéma cinématique
+du simulateur de route a 4 degrés de liberté
+
+22/22 Schéma cinématique
+
+
+
+===== page 23 =====
+[OCR] NE RIEN ECRIRE
+
+Annexe A1 : Diagramme de Bode (a rendre)
+
+
+
+===== page 24 =====
+[OCR] NE RIEN ECRIRE
+
+p34 Bas
+Vitesse Norme
+7 T
+Vaecormeéuge 2,95 m.s
+IB.3.2 _ Viyexis,
+V a sity
+Cet
+Fos etise
+—>
+Ve,<corpsitige
+
+Annexe B1 : Cinématique graphique
+
+(a rendre)
+
+
+
+===== page 25 =====
+[OCR] NE RIEN ECRIRE
+
+B45
+B.4.6
+As
+B, /
+fo)
+\
+\
+VO
+» 3
+“ie
+Ao
+Baz
+B.4.3 B.4.7
+Paes =
+Annexe B2 : Cinématique analytique (a rendre) Q(1Ro) =
+
+
+
+===== page 26 =====
+[OCR] juIHO’ NITY IN
+
+(a rendre)
+
+Annexe C1 : Résistance Des Matériaux
+
+
+
+===== page 27 =====
+[OCR] NE RIEN ECRIRE
+
+Norme
+12065 N
+
+Rayon r= 0,2
+
+Raccordement de la piéce 6
+
+Figure C.4.1
+
+Annexe C2 : Concentration de contraintes (a4 rendre)
+
+
+
+===== page 28 =====
+[OCR] Abaques de détermination du coefficient de concentration de contrainte Kr (d'aprés CETIM)
+
+04 OF 06 O7 08 Og f
+
+Annexe C3 : Abaques
+
+
+
+===== page 29 =====
+[OCR] NE RIEN ECRIRE +
+
+Sommets du paraliélogramme :
+
+Annexe D1 : Dynamique (a rendre)
+
+

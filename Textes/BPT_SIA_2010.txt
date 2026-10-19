@@ -1,0 +1,2708 @@
+
+===== page 1 =====
+                                                                                                         10PT25
+
+
+
+
+Documents remis au candidat
+ Le texte du sujet (31 pages numérotées de 1 à 31),
+ Le cahier réponse (26 pages numérotées de 1 à 26) (à rendre).
+Structure de l’épreuve
+L’épreuve comporte quatre parties indépendantes :
+ B – Analyse fonctionnelle,
+ C – Fonction Permettre un arrêt d'urgence,
+ D – Fonction Imposer une vitesse d'avance avec précision,
+ E – Fonction Contrôler le déplacement d'avance avec précision.
+
+Le candidat traitera chacune des parties (B, C, D et E) sur le cahier réponse dans les cadres prévus à cet
+effet.
+
+Les réponses finales doivent être encadrées.
+
+Les candidats sont invités à formuler toutes les hypothèses qu’ils jugeront nécessaires pour répondre aux
+questions posées.
+Si, au cours de l’épreuve, un candidat repère ce qui lui semble être une erreur d’énoncé, il le signale dans
+sa copie et poursuit sa composition en indiquant les raisons de son initiative.
+Protection
+Ce sujet utilise comme support d’étude un équipement réalisé par la société PCI en collaboration avec le
+laboratoire de recherche LaMI de Clermont Ferrand. Les informations sont utilisées avec la permission de la
+société PCI et du laboratoire LaMI.
+Chaque photographie et élément de texte extrait de leurs documents dans le présent sujet restent propriétés de la
+société PCI et du laboratoire LaMI. L’autorisation d’utilisation de ces informations n’est valable que pour ce sujet de
+concours.
+Notations
+ La transformée de LAPLACE d’une fonction f de la variable temporelle continue du temps t est notée F de la
+   variable complexe p associée à la transformée.
+ Pour un système de fonction de transfert F, la réponse harmonique est notée F(jω). Le module de F(jω) est
+   noté |F(jω)| et son argument arg(F(jω)).
+                                                                      ∧
+   La variable en sortie d’un capteur de mesure x(t) sera notée x( t ) .
+   Le torseur cinématique du mouvement d’un solide i par rapport à un solide j sera noté Vi/j .
+                                                                               r
+                                                                             Ω i / j
+    Les éléments de réduction au point A de ce torseur s’écriront Vi / j =  r         .
+                                                                          A
+                                                                             
+                                                                             VA∈i / j
+   Le torseur des actions mécaniques transmissibles (éventuellement par une liaison quelconque q) entre deux
+    solides i et j sera noté T jq→i .
+                                                                                        r
+                                                                                      rFjq→i
+        Les éléments de réduction au point A de ce torseur s’écriront T      q
+                                                                            j →i   =  q         .
+                                                                                    A
+                                                                                       M A, j →i
+   Le torseur dynamique d’un ensemble matériel S en mouvement par rapport à un référentiel R sera noté        ∆S / R .
+                                                                              r
+                                                                            DS / R
+  Les éléments de réduction au point A de ce torseur s’écriront ∆ S / R =  r         .
+                                                                         A δ A∈S / R
+____________________________________________________________________________
+                                          1/31 Présentation
+                                                                                          TOURNEZ LA PAGE S.V.P.
+
+
+===== page 2 =====
+PRÉSENTATION
+      La société PCI conçoit et réalise des centres d'Usinage Grande Vitesse ainsi que des
+machines spéciales de production (Figure 1 et Figure 2).
+
+
+
+
+         Figure 1 : Machine transfert                          Figure 2 : Machine UGV
+       Les développements récents de l'usinage à grande vitesse, associés à l'utilisation d'une
+structure dite à architecture parallèle, permettent d'envisager un usinage rapide et précis
+(Figure 3).
+
+
+
+
+                        Figure 3 : Machine à structure parallèle Triptéor
+       La principale caractéristique d'une structure parallèle réside dans le fait que la mise en
+mouvement de l'organe mobile sur un axe ne demande pas la mise en mouvement des
+actionneurs et dispositifs cinématiques nécessaires à la mise en mouvement des autres
+organes mobiles sur les autres axes. Ainsi, la structure parallèle adopte une cinématique
+assurant le positionnement et le déplacement de chaque partie mobile par rapport au bâti fixe.
+La partie fixe de chaque actionneur est solidaire de l'élément fixe, la partie mobile de chaque
+actionneur étant solidaire de l'organe mobile par l'intermédiaire d'un élément de liaison.
+
+
+
+
+____________________________________________________________________________
+                              2/31 Présentation
+
+
+===== page 3 =====
+                            Figure 4 : Broche de la machine Triptéor
+       Un des inconvénients d'une telle structure réside dans la multiplication des articulations
+dont une des conséquences est le maintien en position précis de la broche à l'extrémité des
+bras de positionnement (Figure 4). Cela crée un bras de levier important par rapport à la base
+des bras de positionnement difficilement paramétrable. La solution à ce problème de bras de
+levier a été jusqu'à maintenant de placer l'axe de la broche verticalement afin que les effets de
+la gravité soient moindres.
+
+
+Le système
+       Le sujet se propose d’étudier plus particulièrement un des bras de la machine au travers
+de trois fonctions techniques de cette machine-outil : la gestion de l'arrêt d'urgence, la gestion
+de la vitesse d'avance et le suivi de trajectoire.
+
+
+Dans cette étude on se propose :
+   D’étudier l’architecture d’ensemble de la machine,
+   D'étudier la robustesse de la fonction arrêt d'urgence,
+   D'analyser l'obtention d'une vitesse d'avance de l'outil et la commande d’un axe de la
+      machine-outil pour atteindre cette vitesse d'avance,
+   D'analyser la commande en position d’un axe de la machine-outil.
+
+
+
+
+____________________________________________________________________________
+                              3/31 Présentation
+                                                                    TOURNEZ LA PAGE S.V.P.
+
+
+===== page 4 =====
+A - FONCTIONNEMENT & PARAMÉTRAGE MÉCANIQUE
+
+       La machine Triptéor est avant tout une machine-outil de fraisage qui doit permettre la
+mise en forme par enlèvement de matière à l'aide d'un outil coupant en rotation. Les
+déplacements de cet outil sont calculés à partir d'un modèle CAO de la pièce en fonction des
+capacités d'enlèvement de matière de l'outil et des capacités dynamiques de la machine. Pour
+obtenir les déplacements de l'outil, on décompose ses mouvements suivants des déplacements
+simples d'axes pilotés.
+       Classiquement, on retrouve une décomposition suivant des axes orthogonaux en série
+les uns par rapport aux autres : on parle alors de machines à architecture série (Figure 5).
+
+
+
+
+                        Figure 5 : Exemple de machine-outil cartésienne
+        Mais on peut théoriquement trouver des structures plus rigides, et donc a priori plus
+précises, en utilisant une architecture dite parallèle, où les déplacements des axes ne sont plus
+relatifs les uns par rapport aux autres mais relatifs au bâti pour chaque axe (Figure 6).
+
+
+
+
+        Figure 6 : Exemple de Machine à structure parallèle et de plateforme Hexapode
+        La machine Triptéor est composée d'un ensemble appelé EXECHON, d'un support de
+broche appelé Poignet et d'une table, support de pièce. L'EXECHON est constitué de trois bras
+qui permettent la mise en mouvement d'une plateforme sur laquelle est installé le poignet. La
+machine en elle-même est dite hybride car seul l'EXECHON est réellement parallèle. Le poignet
+est dit sériel parce que mis en série avec l'EXECHON (Figure 7).
+
+____________________________________________________________________________
+                     4/31 Partie A : Paramétrage Mécanique
+
+
+===== page 5 =====
+                    r           r
+                    x0          z0
+
+
+                                                r
+                                                y0
+
+
+
+
+          Figure 7 : Images CAO de l'ensemble cinématique de l'outil pour 2 positions
+       On donne le schéma cinématique de l'ensemble {EXECHON et poignet} en Figure 8. Les
+trois bras, B1 (Axe1), B2 (Axe2) et B3 (Axe3), sont en liaison pivot avec la plateforme P4,
+                            r         r           r
+respectivement d'axe (A4, x4 ), (B4, y4 ) et (C4, x4 ), et en double liaison pivot croisée avec le bâti
+                                               r r            r r            r r
+de la machine, respectivement d'axe (A0, y0 , x10 ), (B0, x0 , y20 ) et (C0, y0 , x30 ). Chaque bras est
+constitué d'une liaison glissière. Seul le bras B2 dispose d'un degré de mobilité supplémentaire
+donné par la liaison pivot d'axe B0B4. Le poignet, monté sur la plateforme P4, est constitué de 2
+solides, {P45, P56}, liés par 2 liaisons pivots rajoutant 2 mobilités au système.
+                                                                   r
+                          r                               Bâti 0   y0
+                          x0                                        C0
+                                                                                    B30'
+
+                   B20'              B0
+                                                A0                                 B30
+                   B20
+                                                                                    B10'
+                   B22
+
+                                                                                   B34
+                   B24
+                                                      r                            B10
+                                                      z0
+                    P4
+                                          B4
+
+                   P45                                       C4
+                                                     A4                            B14
+                                          O5
+                   P56
+
+                          Figure 8 : Schéma cinématique 3D de l'ensemble
+       La représentation schématique du système (Figure 8) est donnée dans une orientation
+différente de celle des images en Figure 7.
+
+____________________________________________________________________________
+                     5/31 Partie A : Paramétrage Mécanique
+                                                                                TOURNEZ LA PAGE S.V.P.
+
+
+===== page 6 =====
+       On associe à chaque solide un repère orthonormé direct (Tableau 1). Les points indiqués
+sont représentés sur la Figure 8. Les directions des vecteurs sont précisées par rapport aux
+liaisons décrites dans le Tableau 2.
+                             Tableau 1 : Repérage du système
+                                                r r r
+             Bâti 0           Repère ℜg (O0 , x0 , y0 , z0 )
+                                           (    r r r
+                             Repère ℜ10' A0 , x10 , y0 , z10'    )             r         r
+       Bras B10' – B10                         r r r             O0 A0 = −a0 .x0 − c0 . y 0
+                             Repère ℜ10 ( A0 , x10 , y10 , z10 )
+                                               r r r
+                             Repère ℜ14 ( A4 , x14 , y14 , z14 )
+                                                                               r         r
+           Bras B14                                              O4 A4 = −a 4 .x4 − c4 . y 4
+                                               r r r
+                             Repère ℜ20' (B0 , x0 , y20 , z20' )                  r
+       Bras B20' – B20                         r r r                  O0 B0 = b0 .x0
+                                         (
+                             Repère ℜ20 0 20 20 20
+                                           B , x   , y   , z   )
+                                               r r r
+           Bras B22          Repère ℜ22 (B0 , x22 , y22 , z22 )
+                                               r r r                              r
+           Bras B24          Repère ℜ24 (B4 , x24 , y24 , z 24 )      O4 B4 = b4 .x4
+                                           (    r r r
+                             Repère ℜ30' C0 , x30 , y0 , z30 '    )            r         r
+       Bras B30' – B30                         r r r             O0 C0 = −a0 .x0 + c0 . y0
+                             Repère ℜ30 (C0 , x30 , y30 , z30 )
+                                               r r r
+           Bras B34          Repère ℜ34 (C4 , x34 , y34 , z34 )                r         r
+                                                                 O4 C 4 = −a4 .x4 + c4 . y 4
+                                                r r r
+        Plateforme P4         Repère ℜ4 (O4 , x4 , y4 , z4 )
+                                               r r r
+         Poignet P45         Repère ℜ45 (O4 , x45 , y45 , z45 )
+                                               r r r                         r
+                             Repère ℜ56 (O5 , x56 , y56 , z56 )
+                                                                                       r
+         Poignet P56                                             O4 O5 = a5 .x45 + c5 .z 45
+
+      On associe à chaque liaison un ou des paramètres de mobilité.
+                            Tableau 2 : Paramétrage des liaisons
+                          Références                                                  Projections
+                                                       Paramètres
+                         géométriques                                                   planes
+                                                                                     r r
+                                                                                     x10 x0 r
+                                                         r r                   r              z10'
+     Entre ℜ10' et ℜg          A0              θ10' = ( x0 , x10 ) , autour de y0                  θ10 '
+                                                                                        r       r
+                                                                                        y0      z0
+                                                                                     r r
+                                                                                     z10 z10' r
+                                                        r r                   r               y10
+     Entre ℜ10 et ℜ10'         A0              θ10 = ( y0 , y10 ) , autour de x10                  θ10
+                                                                                        r       r
+                                                                                        x10 y0
+                                                                                     r r
+                                                                                     z20' z0
+                                                         r r                   r              y20
+     Entre ℜ20' et ℜg          B0              θ 20' = ( y0 , y20 ) , autour de x0                 θ 20 '
+                                                                                        r       r
+                                                                                        x0      y0
+                                                                                     r r
+                                                                                     x20 x0 r
+                                                        r r                   r               z20
+     Entre ℜ20 et ℜ20'         B0              θ 20 = ( x0 , x20 ) , autour de y20                 θ 20
+                                                                                        r       r
+                                                                                        y20 z20'
+
+____________________________________________________________________________
+                     6/31 Partie A : Paramétrage Mécanique
+
+
+===== page 7 =====
+                                                                                        r r
+                                                                                        x30 x0 r
+                                                        r r                   r                  z30'
+     Entre ℜ30 et ℜg             C0           θ 30' = ( x0 , x30 ) , autour de y0                     θ30 '
+                                                                                           r       r
+                                                                                           y0      z0
+                                                                                        r r
+                                                                                        z30 z30' r
+                                                       r r                   r                   y30
+     Entre ℜ30 et ℜ30'           C0          θ30 = ( y0 , y30 ) , autour de x30                       θ30
+                                                                                           r       r
+                                                                                           x30 y0
+                                                                                        r r
+                                                                                        y22 y20 r
+                                r     r                r    r                 r                  x22
+     Entre ℜ20 et ℜ22      B4 ; z20 = z 22   θ 22 = (x20 , x22 ) , autour de z20                      θ 22
+                                                                                           r       r
+                                                                                           z20 x20
+                                r     r                           r
+     Entre ℜ10 et ℜ14      A4 ; z10 = z14            A0 A4 = λ14 .z10
+                                r     r                           r
+     Entre ℜ22 et ℜ24      B4 ; z22 = z 24           B0 B4 = λ24 .z 20
+                                r     r                           r
+     Entre ℜ30 et ℜ34      C4 ; z30 = z34            C0C4 = λ34 .z30
+     Entre ℜ14 et ℜ4                                                                     r r
+                                                                                         z14 z4 r
+                                r    r                 r r                    r                  y14
+                           A4 ; x4 = x14      θ14 = ( y4 , y14 ) , autour de x4                      θ14
+                                                                                            r      r
+                                                                                            x4     y4
+     Entre ℜ24 et ℜ4                                                                     r r
+                                                                                         x24 x4 r
+                                r    r                 r r                    r                  z24
+                           B4 ; y4 = y24      θ 24 = (x4 , x24 ) , autour de y4                      θ 24
+                                                                                            r      r
+                                                                                            y4     z4
+     Entre ℜ34 et ℜ4                                                                     r r
+                                                                                         z34 z4 r
+                                r    r                 r r                    r                  y34
+                           C4 ; x4 = x34      θ 34 = ( y4 , y34 ) , autour de x4                     θ34
+                                                                                            r      r
+                                                                                            x4     y4
+                                                                                         r r
+                                                                                         y45 y4 r
+                                r r                    r r                    r                  x45
+     Entre ℜ4 et ℜ45       O4 ; z4 = z45      θ 45 = ( y4 , y45 ) , autour de z4                     θ 45
+                                                                                            r      r
+                                                                                            z4     x4
+                                                                                         r r
+                                                                                         z56 z45 r
+                                r     r               r     r                 r                  y56
+     Entre ℜ45 et ℜ56      O5 ; x45 = x56    θ 56 = ( y45 , y56 ) , autour de x45                    θ56
+                                                                                            r      r
+                                                                                            x45 y45
+
+
+      Les masses et les inerties des pièces sont regroupées dans le Tableau 3. Les
+caractéristiques des éléments (B10', B20' et B30') réalisant les liaisons pivots entre le bâti et
+l'ensemble des bras sont prises en compte dans celles des pièces B10, B20 et B30.
+
+____________________________________________________________________________
+                     7/31 Partie A : Paramétrage Mécanique
+                                                                                    TOURNEZ LA PAGE S.V.P.
+
+
+===== page 8 =====
+                              Tableau 3 : Masses et inerties des pièces
+                                                                                            r
+              B10 (& B10')              m10, Opérateur d'inertie I10 (G10 ) , A0G10 = l10 .z10
+                                                                                              r
+                   B14                  m14, Opérateur d'inertie I14 (G14 ) , A4G14 = −l14 .z10
+                                                                                             r
+              B20 (& B20')              m20, Opérateur d'inertie I 20 (G20 ) , B0G20 = l20 .z20
+                                                                                             r
+                   B22                  m22, Opérateur d'inertie I 22 (G22 ) , B0G22 = l22 .z20
+                                                                                                r
+                   B24                  m24, Opérateur d'inertie I 24 (G24 ) , B4 G24 = −l 24 .z 20
+                                                                                            r
+              B30 (& B30')              m30, Opérateur d'inertie I 30 (G30 ) , C0G30 = l30 .z30
+                                                                                               r
+                   B34                  m34, Opérateur d'inertie I 34 (G34 ) , C4G34 = −l34 .z30
+              Plateforme P4             m4, Opérateur d'inertie I 4 (O4 ) , O4 centre d'inertie
+               Poignet P45              m45, Opérateur d'inertie I 45 (O4 )
+               Poignet P56              m56, Opérateur d'inertie I 56 (O5 )
+
+
+        Les mouvements des bras sont assurés par des actionneurs électriques rotatifs
+(MSAP : Machine Synchrone AutoPilotée) M1, M2 et M3, accouplés à des systèmes vis-écrou
+et associés respectivement aux bras B1, B2 et B3. Ils sont positionnés entre les pièces liées par
+les liaisons glissières et commandent les déplacements respectifs λ14 , λ24 et λ34 . Le Poignet est
+motorisé par deux MSAP de même type.
+        L'étude de conception de la machine a conduit à la mise en place d'un diagramme
+pieuvre (Figure 9) permettant la définition des fonctions du système.
+                                                      Atelier
+                                                            FC5
+                         Opérateur           FC1                    FC6        Régleur
+                                   FP2                                        FP4
+
+                    Pièce à
+                                                    Machine                    FC7
+
+                                                   TRIPTEOR                          Lubrifiant
+                    usiner                                                     FP5
+                                 FC2
+
+                                       FP1
+                                                                        FC3
+                                                      FC4         FP3
+                                         Outil
+                                        coupant                         CFAO
+
+                    Figure 9 : Diagramme-pieuvre de la machine TRIPTEOR
+
+      Un SADT de niveau A-0 peut donc être proposé (Figure 10).
+                                              CFAO      Opérateur / Régleur
+               Pièce à usiner                                                        Pièce usinée
+                   Outil neuf                   Réaliser une
+                                               géométrie par
+                     Énergie                                                         Copeaux
+                                               enlèvement de
+               Lubrifiant neuf                                                       Lubrifiant usagé
+                                                  matière
+
+                                                   Machine TRIPTEOR
+                   Figure 10 : SADT de niveau A-0 de la machine TRIPTEOR
+
+____________________________________________________________________________
+                     8/31 Partie A : Paramétrage Mécanique
+
+
+===== page 9 =====
+B - ANALYSE FONCTIONNELLE
+
+   Dans cette partie, nous allons étudier le fonctionnement global de la machine
+en nous appuyant sur une description sous forme d'un diagramme SADT et d'une partie
+du diagramme de recherche de solutions (FAST).
+
+   Question 1 :     Compléter le SADT de niveau 0.
+
+   Question 2 :   Compléter la décomposition fonctionnelle partielle en indiquant les solutions
+     retenues sur la machine ou les fonctions associées aux solutions.
+
+   Question 3 :     Compléter le diagramme des liaisons de l'ensemble cinématique de l'outil.
+
+   Question 4 :  En déduire, en le justifiant, le degré d'hyperstatisme de l'ensemble
+     cinématique de l'outil.
+
+    A présent, nous allons travailler sur la translation de la plateforme P4 pour mieux en définir
+les caractéristiques qui guideront la conception mécanique et de commande.
+
+
+
+
+____________________________________________________________________________
+                      9/31 Partie B : Analyse fonctionnelle
+                                                                    TOURNEZ LA PAGE S.V.P.
+
+
+===== page 10 =====
+C - ANALYSE DE LA FONCTION PERMETTRE UN ARRÊT D'URGENCE
+
+       Cette machine-outil dispose d’un certain nombre de boutons poussoirs à accrochage
+permettant de couper l’alimentation générale de la machine à tout instant pour des raisons
+sécuritaires. Le cahier des charges fonctionnelles fait apparaître une fonction PERMETTRE UN
+ARRÊT D'URGENCE (Tableau 4).
+
+                                 Tableau 4 : Extrait du CdCF
+           Fonction              Critère
+                                                      Niveau             Variabilité
+          technique          d'appréciation
+                                                     ¤ Redondance
+                           ¤ être robuste                                 ¤ Aucune
+                                                         simple
+        PERMETTRE UN       (redondance)
+                                                    ¤ Un autocontrôle
+       ARRÊT D'URGENCE     ¤ Adaptatif                                    ¤ Aucune
+                                                    avec verrouillage
+                           (autocontrôle)
+                                                        en défaut
+   •   Le système doit donc pouvoir pallier à certaines défaillances d’un organe qui le
+       compose (redondance).
+   •   Le système doit également vérifier automatiquement le fonctionnement de certains
+       organes qui changent d’état à chaque cycle d’arrêt d’urgence. Le cycle d’arrêt d’urgence
+       suivant peut être interdit ou autorisé (autocontrôle).
+
+C.1 Système d’arrêt d’urgence simple
+      Sur le Triptéor, la prise en compte d’un arrêt d’urgence est câblée comme suit sur les
+deux schémas suivant (Folio 17, Figure 11 et Folio 21, Figure 12) :
+
+
+
+
+                                     Figure 11 : Folio 17
+
+____________________________________________________________________________
+                   10/31 Partie C : Effectuer un arrêt d'urgence
+
+
+===== page 11 =====
+                                     Figure 12 : Folio 21
+Convention de représentation dans le schéma :
+                                    SB1 est bouton poussoir à accrochage avec un contact
+                                    normalement fermé (une action sur le bouton ouvre le
+                                    contact qui reste mécaniquement ouvert)
+                                    SB3 est un bouton poussoir avec un contact normalement
+                                    fermé (une action sur le bouton ouvre le contact, au
+                                    relâchement le contact se referme)
+                                    SA1 est un interrupteur à clé. Les contacts changent d’état
+                                    suivant la position de la clé (Clé en position « 0 » les 3
+                                    contacts SA1 sont ouverts, clé en position « 1 » les 3
+                                    contacts SA1 sont fermés)
+                 KAU est la bobine du contacteur nommé « PAS ARRET D’URGENCE »
+                 Lorsque celle-ci est alimentée le contact associé KAU ci–dessous se ferme.
+
+
+
+
+Convention de notation dans les équations :   un contact S normalement ouvert sera noté S
+                                              un contact S normalement fermé sera noté S
+
+   Question 5 :    Donner les équations Booléennes du contacteur d’arrêt d’urgence KAU
+     (Folio 17) et du contacteur de mise en service KAMG (Folio 21). L’équation de l’automate
+     programmable comprise entre les équipotentielles 24VC et A320 notée SECURITE
+     AUTOMATE (A320) sera représentée par la variable Booléenne SA.
+
+____________________________________________________________________________
+  ____________________________________________________________________________
+                   11/31 Partie C : Effectuer un arrêt d'urgence
+                                                                  TOURNEZ LA PAGE S.V.P.
+
+
+===== page 12 =====
+C.2 Système d’arrêt d’urgence évolué
+Lors de l’action sur le bouton poussoir à accrochage d’arrêt d’urgence SB1, le Triptéor doit
+s’arrêter. Cette information peut ne pas être prise en compte si :
+    • Le contact de SB1 est défaillant : il reste fermé (collage ou pontage par une tierce
+        personne du contact). La bobine de KAU reste donc alimentée et le contact KAU sur le
+        Folio 21 reste fermé.
+    • Le contacteur KAU est défaillant : Le contact de KAU, sur le Folio 21, reste collé.
+Afin d’augmenter la robustesse du système on désire mettre en place une gestion redondante
+et d’autocontrôle (Capacité du système de vérifier son propre fonctionnement) de la commande
+d’arrêt d’urgence à l’aide d’un module sécuritaire nommé Preventa.
+On émet le postula qu’une seule défaillance peut apparaître au même instant.
+
+Soit le nouveau schéma électrique (Figure 13)
+Le bouton d’arrêt d’urgence SB1 possède 2
+contacts normalement fermés SB1a et SB1b.
+Ces      contacts   permettent    de   fournir
+l’alimentation aux entrées A1/A2.
+Dès lors l’alimentation est fournie entre la
+borne Y1 et la masse des deux relais
+auxiliaires KA1 et KA2.
+
+Nota : Le système avec une diode est un
+redresseur. Une différence de potentiel
+appliquée entre les bornes A1 et A2 (v(t)) est
+recopiée en sortie en valeur absolue |v(t)|
+               v(t)
+
+
+
+
+                              |v(t)|
+
+
+                                                     Figure 13 : Nouveau schéma électrique
+
+   Question 6 :     Donner l’équation Booléenne du potentiel Y1 par rapport à la masse des
+     relais auxiliaires KA1 et KA2 en fonction de SB1a et SB1b.
+
+On notera «0» l’état d’un bouton ou contact si aucune action n’est exercée dessus (état repos).
+On notera «1» l’état d’un bouton ou contact si une action est exercée dessus (état travail).
+
+   Question 7 :   Finir de remplir les tables de vérité d’évolution des variables (on indice « n »
+     l’état des variables suite à une demande et « n+1 » le nouvel état des variables
+     consécutif à cette demande). Pour chacun des deux cas, le système fait-il preuve de
+     redondance ou d’autocontrôle ? Si oui à quelle(s) phase(s).
+
+   Question 8 :   On a effacé le contact originel de KAU de la gestion d’arrêt d’urgence sans
+     redondance et autocontrôle sur le Folio 21. Tracer en lieu et place les contacts des
+     2 contacteurs KAU1 et KAU2 (dans le cadre pointillé) afin d’avoir une redondance du
+     fonctionnement de l’un sur l’autre.
+
+   Question 9 :   Conclure quant au respect des contraintes émises sur l’extrait du CdCF
+     (Tableau 4).
+ ____________________________________________________________________________
+                     12/31 Partie C : Effectuer un arrêt d'urgence
+
+
+===== page 13 =====
+D - ANALYSE DE LA FONCTION IMPOSER UNE VITESSE D'AVANCE AVEC PRÉCISION
+
+       Pour répondre au besoin du client d'une machine-outil lié à la fonction de réalisation de
+formes complexes, le cahier des charges fonctionnelles fait apparaître une fonction IMPOSER
+UNE VITESSE D'AVANCE AVEC PRÉCISION (Tableau 5). Cette vitesse d'avance est engendrée par le
+déplacement de la broche par rapport à la pièce.
+                                 Tableau 5 : Extrait du CdCF
+    Fonction
+                    Critère d'appréciation                  Niveau                  Variabilité
+   technique
+                    ¤ Type de réponse en
+   IMPOSER UNE                                 Premier dépassement : D1%=0%              0
+                    vitesse (vélocité,
+VITESSE D'AVANCE                              Temps de réponse à 5% : tr5%<3ms           0
+                    dépassement,
+ AVEC PRÉCISION                                     erreur statique : εs=0               0
+                    précision)
+
+      Nous nous intéresserons au réglage de l’Axe1 (bras1) (Figure 14) seulement (les autres
+axes mettant en œuvre la même méthode). Néanmoins, nous étudierons l'ensemble pour
+pouvoir connaître la relation entre la vitesse de l'outil (ou de la broche) et celles des axes.
+      Les différents axes sont pilotés par un ensemble CN (Commande Numérique) Siemens
+840D avec variateurs et des actionneurs électriques rotatifs type MSAP (Machine Synchrone
+AutoPilotée).
+
+
+                  Axe1
+
+
+
+
+                            Figure 14 : EXECHON et poignet, Axe1
+
+        Les premiers calculs cinématiques qui vous sont demandés représentent une partie de la
+définition globale du modèle de fonctionnement du système. La construction de ce qu'on
+appelle le modèle cinématique inverse réclame une mise en équations matricielle du problème
+qui n'est pas abordée ici.
+
+____________________________________________________________________________
+            13/31 Partie D : Imposer une vitesse d'avance avec précision
+                                                                   TOURNEZ LA PAGE S.V.P.
+
+
+===== page 14 =====
+D.1 Calcul des vitesses de commande en fonction de la vitesse d'avance
+        Pour pouvoir commander le déplacement de l'outil, il nous faut connaître la relation qui
+existe entre les déplacements des trois axes, du poignet et ceux recherchés de l'outil. A l'aide
+de la description des liaisons, on peut décrire facilement les mouvements autorisés. On inverse
+alors la description pour pouvoir remonter du déplacement recherché aux déplacements à
+piloter sur les axes et le poignet. On nomme cela un modèle inverse. Nous allons donc nous
+intéresser aux mouvements d'un des axes (globalement, ils sont assez semblables (voire même
+symétriques pour le bras B1 (Axe1) et le bras B3 (Axe3)) du point de vue cinématique).
+
+   Question 10 : Donner les expressions générales des torseurs cinématiques des liaisons
+     entre les parties du bras B1 : au point A0, entre le bâti 0, le bras B10, V10 / 0 ; au point A0,
+      entre le bras B10 et le bras B14, V14 / 10 ; au point A4, entre le bras B14 et la plateforme
+      P4, V4 / 14 en fonction des paramètres donnés dans les tableaux 1 et 2.
+
+   Question 11 : En déduire pour l'Axe1, le torseur cinématique V41/ 0 de la plateforme P4 par
+     rapport au bâti 0 au point A4.
+
+   Question 12 : Par analogie, sur l'Axe3, en déduire le torseur cinématique V43/ 0 de la
+     plateforme P4 par rapport au bâti 0 du point C4.
+
+   Question 13 : Donner les expressions générales des torseurs cinématiques des liaisons
+     entre les parties du bras B2 : au point B0, entre le bâti 0 et le bras B20, V20 / 0 ; au point
+      B0, entre le bras B20 et le bras B22, V22 / 20 ; au point B0, entre le bras B22 et le bras B24,
+      V24 / 22 et au point B4, entre le bras B24 et la plateforme P4, V4 / 24 en fonction des
+      paramètres donnés dans les tableaux 1 et 2.
+
+   Question 14 : En déduire sur l'Axe2, le torseur cinématique V42/ 0 de la plateforme P4 par
+     rapport au bâti 0 au point B4.
+
+   Question 15 : La plateforme P4 est un solide indéformable. En ne considérant que les
+     torseurs cinématiques de la plateforme P4 par rapport au bâti 0 aux points A4 et C4,
+     donner les premières relations vectorielles qui existent entre les paramètres.
+           On n'effectuera pas le calcul des produits vectoriels qui seront laissés tels quels.
+
+   Question 16 :    La liaison pivot sur l'Axe2 est-elle nécessaire ? Argumenter.
+
+   Question 17 :    Justifier la présence du poignet articulé pour supporter la broche.
+
+
+
+
+ ____________________________________________________________________________
+            14/31 Partie D : Imposer une vitesse d'avance avec précision
+
+
+===== page 15 =====
+D.2 Dynamique du bras B1 (Axe1)
+        On se place à présent dans un cas particulier pour étudier la dynamique du système et
+identifier certaines grandeurs dynamiques. Le mouvement étudié est une translation de l'outil
+                r
+suivant l'axe ( z 0 ) sans effort d'usinage. Pour cela, on commande la translation des 2 bras B1 et
+B3 de façon identique. Le bras B2 est déplacé de façon à maintenir l'orientation de la
+plateforme. Cela implique également que les angles θ10' et θ 30' sont pris égaux à 0°. Après avoir
+déterminé la relation qui existe entre le déplacement de la plateforme P4 et ceux des axes, on
+ne s'intéressera plus qu'à la dynamique du bras B1. Une étude identique pourrait être faite pour
+le bras B3 (problème symétrique). Puis, on cherche à établir la relation entre la vitesse de
+rotation de la MSAP (Machine Synchrone AutoPilotée) M1 et la vitesse linéaire du point A4 pour
+garantir la vitesse de translation demandée au niveau de l'outil. Cette MSAP est associée à une
+vis à rouleaux satellites SKF de type BRC (Élimination du jeu par précharge des rouleaux)
+(Cf. page suivante : "Extrait des documents SKF sur les vis à rouleaux" : référence BRC 36X6)
+qui transforme le mouvement de rotation de la MSAP en translation sur l'Axe1. On en déduira
+alors la dynamique au niveau de la MSAP M1 pour une translation sans effort de coupe. Enfin,
+la commande de cet axe sera étudiée suivant différents aspects.
+        On peut donner ici une représentation schématique du système de transformation
+d'énergie réalisé pour mouvoir l'Axe1 (Figure 15).
+
+                                                                      A0
+                              r
+                              z10                                       r
+                                                                        y0
+
+
+                                                   Vis à rouleaux
+                                    MSAP M1           satellites
+                                                                             B10
+                                B14
+
+                        Figure 15 : Schéma de la motorisation de l'Axe1
+       Un premier bilan des actions mécaniques sur le bras B1 fait apparaitre :
+       ¤ les actions des liaisons sont supposées parfaites. Il n'a pas été jugé nécessaire, dans
+un premier temps, pour l'étude mécanique, d'introduire du frottement dans les liaisons.
+       ¤ l'action de la MSAP M1 sur la vis à rouleaux permettant d'engendrer une vitesse de
+rotation de la vis par rapport à B10 égale à ωvis / B10 :
+                                                r
+                                              0
+               TMoteur→vis =  r
+                              A0 
+                                  M A0 ,Moteur→vis = CM .z10
+       ¤ l'action de la plateforme P4 sur l'Axe1 (le tiers du poids dans cette situation) :
+                             r                m
+                              FP 4→B14 = 4 .g.z g
+               TP 4→B14 =                  r 3
+                                          0
+                          O4
+
+       ¤ le poids des composants.
+       On notera que la représentation de la vue schématique du système (Figure 8) n'est pas
+orientée comme celle du système mis en place sur le bâti. Notamment, la direction de
+                                                              r               r r
+l'accélération de la pesanteur est donnée par le vecteur z g , colinéaire à ( z0 + x0 ).
+ ____________________________________________________________________________
+                 15/31 Partie D : Imposer une vitesse d'avance avec précision
+                                                                     TOURNEZ LA PAGE S.V.P.
+
+
+===== page 16 =====
+     Extrait des documents SKF sur les vis à rouleaux
+
+
+
+
+                                                                 d0
+                                             (pas)
+
+                                                                 Ph
+                                                                 N
+                                                                 ltp
+                                                                 α
+                                                                 Nr
+                                                                 Nmax Ca
+                                                                 Coa
+                                                                 Sap
+                                                                 mn
+                                                                 ms
+                                             [
+                                             Moments d'inertie
+
+                                                                 Is
+                                                                 Inn
+                                                                 Ins
+                                             ]
+
+                                                                 Zn
+
+
+
+
+____________________________________________________________________________
+            16/31 Partie D : Imposer une vitesse d'avance avec précision
+
+
+===== page 17 =====
+   Question 18 : A l'aide du schéma sur le cahier réponse, écrire la relation entre le
+     déplacement en translation U de la plateforme P4 par rapport au bâti et les longueurs
+     initiale (λ14initiale) et finale (λ14finale) du bras B1 et de ∆θ10, variation angulaire du bras B1.
+                        On utilisera le fait que la plateforme P4 ne se déforme pas et on calculera U².
+
+
+   Question 19 : Reprendre le calcul précédent dans le cas où on néglige la variation
+     angulaire (l'angle θ10 reste constant) et en déduire l'expression de la vitesse de
+                                                                       o
+      translation par rapport à ℜg de la plateforme, U , en fonction de la vitesse d'allongement
+                    o
+      du bras B1 λ14 et de θ10 .
+
+   Question 20 :     En utilisant les informations des documents SKF, donner la relation entre la
+                                                           o
+      vitesse d'allongement du bras B1, λ14 et la vitesse angulaire de rotation de la vis à
+      rouleaux par rapport à B10, ωvis / B10 .
+
+   Question 21 : Calculer la puissance par rapport au bâti du poids des pièces B10-B10' et
+     B14, du bras B1 dans l'hypothèse que l'angle θ10 reste constant.
+
+   Question 22 : Calculer la puissance par rapport au bâti de la force appliquée par la
+     plateforme P4 sur le B14 au point A4, au cours du déplacement U de celle-ci.
+
+   Question 23 : En déduire, par application du théorème de l'énergie-puissance, une
+     relation entre la vitesse angulaire de rotation de la MSAP de commande de l'Axe1,
+     ωMoteur / B14 = ωvis / B10 et les forces appliquées sur le bras B1. En déduire l'expression de
+     l'inertie ramenée à la MSAP de l'Axe1.
+
+
+
+        Pour le dimensionnement complet de l'Axe1, on cherche la valeur maximale de cette
+inertie pour être sûr de toujours pouvoir réaliser le mouvement demandé. Cette analyse
+nécessite une définition plus générale de la cinétique du système. Une telle étude conduit à
+retenir une valeur d'inertie ramenée à l'arbre de la MSAP égale à Jeq = 0,01 kg.m².
+      L'étude complète amène également à la conclusion qu'on ne peut négliger le frottement
+dans les liaisons. Celui-ci est donc pris en compte par l'introduction d'un facteur de frottement
+fluide égal à feq = 2,5 N.m.s.
+
+
+
+
+  ____________________________________________________________________________
+            17/31 Partie D : Imposer une vitesse d'avance avec précision
+                                                                                           TOURNEZ LA PAGE S.V.P.
+
+
+===== page 18 =====
+D.3 Modélisation de l'Axe1 : Boucle de couple
+Un schéma simplifié du système asservi de l’axe est le suivant (Figure 16) :
+             Anticipation
+             de vitesse
+
+
+Xref(p)      Correcteur Ω ref(p)       Correcteur           Filtre de   Cref(p)               C(p)                            Ω (p)   θ (p) Transformation   X(p)
+                serie                    serie              consigne               Boucle            Charge ramenée
+             de position               de vitesse           de couple             de couple          sur l'arbre de la MSAP                 de mouvement
+
+
+                                      Capteur de vitesse
+                                          angulaire
+
+             Compensation du gain
+                                      Capteur de position
+             du capteur de position
+
+
+                Figure 16 : Structure générique du système de régulation d'un axe
+Simplification, hypothèses :
+On considère de faibles déplacements autour d’une position de référence. Le comportement de
+l’Axe1 de la MOCN (Machine Outil à Commande Numérique) Triptéor peut-être considéré
+comme linéaire.
+Le filtre de consigne de couple est désactivé (équivalent à un gain unitaire).
+
+Notation :
+xref(t) : référence de position fournie par l’interpolateur de la CN 840D.
+x(t) : position de l’Axe1.
+Ωref(t) : référence de vitesse angulaire de la MSAP (Machine Synchrone AutoPilotée) de
+l’Axe1.
+Ω(t) : vitesse angulaire de la MSAP de l’Axe1.
+cref(t) : référence de couple fournie par la CN 840D au variateur de la MSAP de l’Axe1.
+c(t) : image du couple fourni par la MSAP de l’Axe1.
+
+Chaque axe de la MOCN est piloté par son variateur. Ceux-ci possèdent une boucle interne de
+courant. Ceci permet de gérer, au plus près de l’axe, deux grandeurs essentielles :
+           • Le couple fourni par la MSAP (le couple est linéairement lié au courant, c’est
+              d’ailleurs cette valeur qui est retournée par l’IHM -Interface Homme Machine- de
+              la CN 840D).
+           • L’état thermique de la MSAP [les pertes joules responsables de l’échauffement de
+              la MSAP sont de la forme r.Irms² (r la résistance et lrms la valeur efficace des
+              courants dans les enroulements de la MSAP)].
+Le réglage de cette boucle interne conditionne complètement les dynamiques des autres
+boucles externes (vitesse, position) : Les boucles externes ne peuvent bien évidemment pas
+être plus rapides que cette boucle interne.
+La CN 840D possède des outils d’aide aux réglages des différentes boucles d’asservissement
+présent dans une MOCN.
+Cette CN étant bien sur numérique le signal est échantillonné.
+Le pas de calcul est de 125µs, durée très faible devant la dynamique des différentes variables
+utilisées dans ce sujet. On considèrera donc que les variables sont assimilables à des variables
+continues du temps
+
+On a fait subir, après avoir réglé la boucle de couple, une réponse à l’échelon de référence de
+couple (Figure 17) de quelques % du couple nominal (valeur faible afin de limiter les effets des
+non-linéarités).
+
+Le temps est exprimé en millisecondes.
+
+
+
+____________________________________________________________________________
+            18/31 Partie D : Imposer une vitesse d'avance avec précision
+
+
+===== page 19 =====
+                         Figure 17 : Réponse à un échelon de référence
+Cette réponse fait apparaître un retard dans la réponse en couple.
+Afin d’augmenter la lisibilité de l’essai réalisé sous la CN 840D nous avons retravaillé les
+courbes sous un outil de simulation.
+
+Dans une première partie nous ferons abstraction de ce retard.
+Le résultat de la réponse à un échelon de la boucle de couple sans prise en compte du retard
+est donné Figure 18.
+
+                                                                                2,91
+               cref(t)         c(t)
+
+
+
+
+                                          Réponse en couple à l’échelon d’amplitude
+                                          trois sans prise en compte du retard
+
+
+
+
+                                                               0,5%.Cn
+                                                                            0,2ms
+
+
+
+
+   Figure 18 : Réponse en couple à l'échelon d'amplitude 3 sans prise en compte du retard
+
+
+
+
+ ____________________________________________________________________________
+            19/31 Partie D : Imposer une vitesse d'avance avec précision
+                                                                  TOURNEZ LA PAGE S.V.P.
+
+
+===== page 20 =====
+   Question 24 : Par analyse de la réponse en couple à l’échelon d’amplitude 3, donner la
+     transmittance type 1er ordre sous forme canonique reliant le couple de sortie C(p) au
+     couple de référence Cref(p). On précisera sur la figure les tracés nécessaires à
+     l’obtention de cette transmittance.
+
+Prise en compte du retard. Le résultat de la réponse à un échelon de la boucle de couple avec
+prise en compte du retard est donné Figure 19.
+
+
+
+                cref(t)
+                                         c(t)
+
+
+
+
+                                                Réponse en couple à l’échelon d’amplitude trois
+
+
+                                                                     0,5%.Cn
+                                                                                 0,2ms
+
+
+
+
+    Figure 19 : Réponse en couple à l'échelon d'amplitude 3 avec prise en compte du retard
+   Question 25 : Par analyse de la réponse en couple à l’échelon d’amplitude trois avec
+     prise en compte du retard et en reprenant la transmittance de la question 24, donner la
+     transmittance type 1er ordre avec retard sous forme canonique reliant le couple de sortie
+     C(p) au couple de référence Cref(p). On précisera sur la figure les tracés nécessaires à
+     l’obtention de cette transmittance.
+
+La transmittance obtenue avec prise en compte du retard est non-linéaire.
+Par approximation, on cherche à linéariser cette transmittance.
+
+   Question 26 :    En remplaçant la fonction retard pur par son développement limité à l’ordre
+                                                                               C( p )
+       1, donner la fonction de transfert approximée de la boucle de couple             faisant
+                                                                             Cref ( p )
+       apparaître un deuxième pôle stable.
+
+On pose, quel que soit les résultats trouvés aux questions précédentes :
+                              C( p )                   0,97
+                                       =
+                             Cref ( p ) ( 1 + 0,00025.p ).( 1 + 0 ,00015.p )
+
+
+
+
+  ____________________________________________________________________________
+             20/31 Partie D : Imposer une vitesse d'avance avec précision
+
+
+===== page 21 =====
+    Question 27 :         Tracer le diagramme de Bode asymptotique en gain et en phase de la
+                                               C( p )                  0,97
+            fonction de transfert linéarisée           =                                     en fonction de la
+                                             Cref ( p ) ( 1 + 0,00025.p ).( 1 + 0 ,00015.p )
+            pulsation ω (rad.s-1). On précisera sur le diagramme les pentes, le gain statique (sous la
+            forme 20log(cste)) et les valeurs des phases.
+
+Un essai en régime harmonique sur le Triptéor de la boucle de couple a donné le diagramme
+de Bode en phase de la Figure 20.
+
+
+
+
+                      Figure 20 : Diagramme de Bode en phase de la boucle de couple
+Nota : Le résultat de l’analyse harmonique fourni par la C.N. 840D est compris entre ± 180°.
+La phase réelle comprise entre 2kHz et 4kHz est bien sur comprise entre -180° et -360°.
+La phase est fournie en fonction de la fréquence f (Hz).
+
+    Question 28 : L’évolution de la phase obtenue ci-dessus est-elle identique à celle du
+      diagramme de Bode obtenue à la question 27 ? Argumenter votre réponse.
+
+D.4 Réglages de la boucle de vitesse
+
+D.4.1 Modèle simplifié de la boucle de vitesse
+Le système peut-être représenté par le schéma bloc suivant :
+
+                      Correcteur de vitesse
+ Ω ref(p)                 KΩ .(1+TΩ .p)        Filtre de   Cref(p)             0,97                C(p)                        Ω (p)
+                                               consigne                                                   Chaîne cinématique
+                             TΩ .p             de couple             (1+0,00025.p).(1+0,00015.p)
+
+                  Ω (p)   Capteur de vitesse
+                              angulaire
+
+                   ^
+Nota : On note Ω(t ) la grandeur estimée fournie par un capteur de mesure de la variable Ω(t).
+     On dispose en bout d’arbre de la MSAP d’un capteur de position. Celui-ci fourni
+     2048tops/tour à la CN 840D et est considéré comme un gain pur. Ce capteur de position
+     permet de déterminer la vitesse de rotation de l’axe.
+     Le filtre de consigne de couple n’est pas activé (gain unitaire).
+____________________________________________________________________________
+               21/31 Partie D : Imposer une vitesse d'avance avec précision
+                                                                                              TOURNEZ LA PAGE S.V.P.
+
+
+===== page 22 =====
+   Question 29 : D’après l’étude de la partie D2, l’Axe1 peut se modéliser par une inertie
+     ramenée sur l’arbre de la MSAP Jeq = 0,01 kg.m² et un frottement fluide ramené sur
+                                                                                Ω( p )
+     l’arbre de la MSAP de coefficient feq = 2,5 N.m.s. Donner la transmittance        sous
+                                                                                C( p )
+     forme canonique littérale puis numérique.
+
+Le capteur de position est un codeur incrémental
+(Figure 21).
+Il possède deux voies A et B fournissant des signaux en
+créneaux issues de 2 pistes gravées sur un disque.
+Les signaux A et B résultant de la rotation du disque sont
+pour le sens de rotation positif :
+
+Voie A
+                                                          t
+
+Voie B
+                                                                    Figure 21 : Codeur incrémental
+                                                          t
+Le signal B est en quadrature arrière sur A
+
+   Question 30 :       Tracer la forme du signal de la voie B pour le sens de rotation négatif.
+
+   Question 31 : Déterminer le nombre de périodes de chaque signal sur un tour du codeur
+     incrémental si la CN reçoit 2048 tops par tour en traitant les fronts montant et
+     descendant des 2 voies.
+
+La conformation des signaux des voies A et B suivant le sens de rotation du disque permet d’en
+déduire celui-ci.
+
+   Question 32 : Comment câbler les voies A et B sur une bascule D (Delay) afin d’obtenir la
+      sortie Q à l’état haut pour le sens de rotation positif et la sortie Q à l’état bas pour le sens
+      de rotation négatif.
+Table de vérité de la bascule D :
+                                   Dn    CLKn Qn+1
+                                    0              0
+                                     1               1
+                                     X       0      Qn
+
+                                                                                                  ˆ (p )
+                                                                                                  Ω
+   Question 33 :       Donner le contenu littéral de la transmittance du capteur de vitesse
+                                                                                                  Ω( p )
+         (celle-ci est identique à celle du capteur de position).
+
+                                                           Ω( p )
+   Question 34 :       Le modèle de la transmittance                possède trois pôles simples. On
+                                                         Cref ( p )
+         désire simplifier le modèle en ne conservant que les deux modes dominant (les modes
+                                                               Ω( p )
+         les plus lents). Donner la transmittance simplifiée            dans le schéma-bloc.
+                                                             Cref ( p )
+
+ ____________________________________________________________________________
+               22/31 Partie D : Imposer une vitesse d'avance avec précision
+
+
+===== page 23 =====
+D.4.2 Réglage du correcteur de vitesse
+On désire compenser, avec le zéro du correcteur de vitesse, le pôle le plus lent de la chaîne
+directe de la boucle de vitesse.
+
+   Question 35 :    Pour cette stratégie de réglage quelle valeur prend TΩ ?
+
+   Question 36 :   Pour cette stratégie de réglage, déterminer la fonction de transfert en
+                                                  Ω( p )
+       boucle fermée de vitesse FTBFΩ( p ) =               sous forme canonique. Les valeurs
+                                                Ωref ( p )
+       numériques apparaîtront dans le résultat sans faire les calculs de chaque coefficient.
+
+Cahier des charges : On désire la réponse la plus rapide possible sans dépassement.
+On pose, quel que soit le résultat trouvé à la question précédente :
+                                 Ω( p )                 0,003
+                                          =
+                               Ωref ( p )      3.10 − 5      8.10 − 9 2
+                                            1+          .p +         .p
+                                                 KΩ            KΩ
+
+   Question 37 : Déterminer KΩ répondant à ce cahier des charges (on se limitera à 2
+     chiffres significatifs après la virgule).
+
+D.4.3 Comparaison avec le système réel, analyse des simplifications
+Dans cette partie on désire vérifier la validité du réglage réalisé sur la boucle de vitesse avec le
+modèle de connaissance simplifié.
+
+   Question 38 :    Déduire du réglage de KΩ de la question précédente la pulsation naturelle
+                                                                                Ω( p )
+       ω0 de la fonction de transfert en boucle fermée de vitesse FTBFΩ( p ) =            .
+                                                                               Ωref ( p )
+
+   Question 39 : A l’aide de l’abaque des temps de réponse réduit à 5% d’un second ordre,
+     en déduire le temps de réponse à 5% de la boucle de vitesse. On précisera sur la figure
+     les tracés nécessaires à l’obtention de ce temps de réponse à 5%.
+
+
+
+
+  ____________________________________________________________________________
+             23/31 Partie D : Imposer une vitesse d'avance avec précision
+                                                                      TOURNEZ LA PAGE S.V.P.
+
+
+===== page 24 =====
+Une analyse du modèle complet (prise en compte des retards, de modes supplémentaires…)
+de la boucle de vitesse sous un outil de simulation des systèmes automatiques a donné, en
+réponse à l’échelon unitaire, le résultat suivant (Figure 22) :
+
+
+
+   0,00315
+
+
+
+
+                                                            0,5.10-3 rad.s-1
+                                                                                0,5ms
+
+
+
+
+               Figure 22 : Réponse à l’échelon unitaire de la boucle de vitesse
+   Question 40 : Déterminer le temps de réponse à 5%. Comparer avec votre résultat de la
+     question 39. Conclure. On précisera sur la figure les tracés nécessaires à l’obtention de
+     ce temps de réponse à 5%.
+
+Un zoom de la réponse à l’échelon de la boucle de vitesse réalisé sur le Triptéor a donné le
+résultat suivant (Figure 23) :
+
+
+
+
+                                                                               0,5ms
+
+
+
+
+             Figure 23 : Zoom sur la réponse à l'échelon de la boucle de vitesse
+
+
+
+
+____________________________________________________________________________
+            24/31 Partie D : Imposer une vitesse d'avance avec précision
+
+
+===== page 25 =====
+  Question 41 : Déterminer le temps de réponse à 5% (On précisera sur la figure les tracés
+    nécessaires à l’obtention de ce temps de réponse à 5%, la bande ±5% a été rajouté sur
+    l’essai en trait mixte). Comparer avec votre résultat avec ceux des questions
+    précédentes. Conclure.
+
+  Question 42 : La réponse du modèle complet simulé et l’essai sur le Triptéor (Figure 24)
+    laissent apparaître un dépassement sur la réponse à l’échelon. Les choix de réglage du
+    correcteur de vitesse devaient-il générer ce dépassement ? Argumenter.
+
+
+
+
+    Figure 24 : courbes complètes de la réponse du modèle complet et celles de l'essai
+
+  Question 43 : Conclure quant au respect des contraintes émises sur l’extrait du CdCF
+    (Tableau 5 page 14).
+
+
+
+
+____________________________________________________________________________
+            25/31 Partie D : Imposer une vitesse d'avance avec précision
+                                                                TOURNEZ LA PAGE S.V.P.
+
+
+===== page 26 =====
+E - ANALYSE DE LA FONCTION                                       CONTRÔLER          LE   DÉPLACEMENT
+   D'AVANCE AVEC PRÉCISION
+
+        Le cahier des charges fonctionnelles fait apparaître une fonction CONTRÔLER LE
+DÉPLACEMENT D'AVANCE AVEC PRÉCISION (Tableau 6).
+
+                                      Tableau 6 : Extrait du CdCF
+    Fonction               Critère
+                                                                  Niveau                     Variabilité
+   technique           d'appréciation
+ CONTRÔLER LE        ¤ Type de réponse              Premier dépassement : D1%=0%                  0
+ DÉPLACEMENT        en position (vélocité,        Temps de réponse à 5% : tr5%<40ms             ±20%
+ D'AVANCE AVEC         dépassement,                      erreur statique : εs=0                ±0,5µm
+   PRÉCISION              précision)                 erreur en poursuite : εp<10µm                0
+
+
+E.1 Réglage de la boucle de position
+E.1.1    Réglage du correcteur série de position sans anticipation avec modèle de la boucle de
+         vitesse simplifié
+
+La boucle de vitesse simplifiée est modélisée par un gain pur de valeur 0,003.
+Le système peut-être représenté par le schéma bloc suivant (Figure 25) :
+
+        Xref(p)                 Ω ref(p)                Ω (p)                V(p)            X(p)
+                          Kx                 0,003
+        (mm)                    (rad/s)                (rad/s)             (mm/min)          (mm)
+
+                  X(p)
+                          Traitement et compensation                   Capteur de position
+                  (mm)    du gain de capteur
+
+
+ Figure 25 : Boucle de position sans anticipation, correcteur série proportionnel, modèle de la
+                              boucle de vitesse de type gain pur
+Le capteur de position avec le système de traitement et compensation du gain de capteur peut
+être assimilé à un gain unitaire ; l’estimée de la position xˆ (t ) peut donc être assimilée à la valeur
+réelle de la position de l’axe x(t).
+Une vitesse de rotation de la MSAP (Machine Synchrone AutoPilotée) de 5000 tr/min
+correspond à une vitesse de déplacement linéaire de l’axe de 30m/min.
+
+
+
+
+ ____________________________________________________________________________
+          26/31 Partie E : Contrôler le déplacement d'avance avec précision
+
+
+===== page 27 =====
+   Question 44 : Compléter le schéma-bloc de la boucle de position (pour simplifier les
+     calculs on pourra poser 2.π = 6)
+
+   Question 45 :    Déterminer, sous forme canonique, la fonction de transfert en boucle
+                                         X( p )
+        fermée de position FTBFX( p ) =
+                                        Xref( p )
+
+   Question 46 : Déterminer la valeur de Kx permettant d’obtenir un temps de réponse à 5%
+     à l’échelon de 40ms. En déduire la forme canonique numérique de la fonction de
+                                                          X( p )
+     transfert en boucle fermée de position FTBFX( p ) =
+                                                         Xref( p )
+
+E.1.2    Réglage du correcteur série de position sans anticipation avec modèle d’ordre 2 de la
+         boucle de vitesse
+
+On replace la transmittance simplifiée par un gain pur de la boucle de vitesse par la
+transmittance d’ordre 2 de la partie D.4.2.
+Le capteur de position avec le système de traitement et compensation du gain de capteur peut
+être assimilé à un gain unitaire ; l’estimée de la position xˆ (t ) peut donc être assimilée à la valeur
+réelle de la position de l’axe x(t).
+Le système peut-être représenté par le schéma bloc suivant (Figure 26) :
+
+        Xref(p)                 Ω ref(p)          0,003           Ω (p)         V(p)            X(p)
+                          Kx
+        (mm)                    (rad/s)        -3        -7 2   (rad/s)      (mm/min)           (mm)
+                                           1+10 .p+2,5.10 .p
+
+                  X(p)
+                          Traitement et compensation                      Capteur de position
+                  (mm)    du gain de capteur
+
+
+   Figure 26 : Boucle de position sans anticipation, correcteur série proportionnel, modèle de
+                                   boucle de vitesse d'ordre 2
+   Question 47 :     Déterminer, sous forme canonique et en fonction de Kx, la fonction de
+                                                                  X( p )
+        transfert en boucle fermée de position FTBFX( p ) =                . Les valeurs numériques
+                                                                 Xref( p )
+        apparaîtront dans le résultat sans faire les calculs de chaque coefficient.
+
+   Question 48 : Déterminer, par application du critère de ROUTH, les valeurs de Kx
+     assurant la stabilité de la boucle de position. Conclure quant à la valeur obtenue de Kx à
+     la question 46.
+
+                                                                            X( p )
+L’équation caractéristique de la boucle de position FTBFX( p ) =                     pour la valeur de Kx
+                                                                           Xref( p )
+obtenue à la question 47 possède                       trois    racines   de valeurs approchées :
+p1 = -80, p2 = -1600 et p3 = -2400.
+
+   Question 49 : Par analyse des constantes de temps associées aux trois racines de
+     l’équation caractéristique ; montrer qu’une des racines est associée à un mode dominant
+     (considéré comme lent) sur les autres. Montrer que l’on retrouve approximativement le
+     modèle simplifié de la question 45 de la fonction de transfert de la boucle de
+                             X( p )
+     position FTBFX( p ) =            .
+                            Xref( p )
+ ____________________________________________________________________________
+          27/31 Partie E : Contrôler le déplacement d'avance avec précision
+                                                                             TOURNEZ LA PAGE S.V.P.
+
+
+===== page 28 =====
+E.1.3   Précision de la boucle de position
+
+La boucle de vitesse est de nouveau modélisée par un modèle simple : un gain pur de 0,003.
+Le système peut-être représenté par le schéma bloc suivant (Figure 27) :
+
+        Xref(p)                     Ω ref(p)                   Ω (p)                    V(p)            X(p)
+                           Kx                       0,003
+        (mm)                        (rad/s)                   (rad/s)                (mm/min)           (mm)
+
+                  X(p)
+                           Traitement et compensation                             Capteur de position
+                  (mm)     du gain de capteur
+
+
+ Figure 27 : Boucle de position sans anticipation, correcteur série proportionnel, modèle de la
+                              boucle de vitesse de type gain pur
+Le capteur de position avec le système de traitement et compensation du gain de capteur peut
+être assimilé à un gain unitaire ; l’estimée de la position xˆ (t ) peut donc être assimilée à la valeur
+réelle de la position de l’axe x(t).
+
+   Question 50 :     Déterminer l’erreur statique de position en réponse à l’échelon unitaire.
+
+   Question 51 : Déterminer l’erreur de poursuite en position (erreur de position en réponse
+     à la rampe de pente unitaire). Conclure quant au respect du cahier des charges en
+     précision (Tableau 6, page 26).
+
+Afin de supprimer cette erreur de poursuite en position, on choisit d’implanter un correcteur
+proportionnel intégral (CPI) à la place du correcteur proportionnel Kx précédent.
+Le système peut-être représenté par le schéma bloc suivant (Figure 28) :
+
+                                C
+                                    PI
+
+        Xref(p)     ε(p)                       Ω ref(p)                   Ω (p)         V(p)            X(p)
+                           Kx 1+Tx.p                        0,003
+        (mm)                   Tx.p            (rad/s)                  (rad/s)      (mm/min)           (mm)
+
+                  X(p)
+                           Traitement et compensation                             Capteur de position
+                  (mm)     du gain de capteur
+
+
+Figure 28 : Boucle de position sans anticipation, correcteur série proportionnel intégral, modèle
+                            de la boucle de vitesse de type gain pur
+
+
+
+
+____________________________________________________________________________
+          28/31 Partie E : Contrôler le déplacement d'avance avec précision
+
+
+===== page 29 =====
+   Question 52 : Pourquoi cette structure (Figure 28) permet-elle d’obtenir une erreur de
+     poursuite en position nulle ?
+
+L’ajout d’une action intégrale dans la structure de correction série d’une boucle de position n’est
+quasiment jamais réalisée.
+Deux éléments amènent à ce choix :
+    • Lors de transferts de l’axe entre 2 points éloignés celui-ci est en vitesse maximale, la
+       boucle de vitesse se comporte donc comme une saturation.
+    • L’action intégrale supprime 90° de phase pour les basses fréquences.
+
+   Question 53 : Expliquer qualitativement l’effet néfaste de l’action intégrale lorsque l’axe se
+     déplace en vitesse maximale ? Proposer une solution technologique permettant d’inhiber
+     cet effet néfaste.
+
+   Question 54 : Expliquer qualitativement l’effet néfaste de l’action intégrale sur la phase de
+     la fonction de transfert en boucle ouverte.
+
+E.1.4     Réglage du correcteur série de position avec anticipation
+
+Afin de supprimer cette erreur de poursuite on choisi d’utiliser la structure d’anticipation de
+vitesse disponible sur la CN 840D.
+Le gain Kx est conservé sous forme littérale.
+Le système peut-être représenté par le schéma bloc suivant (Figure 29) :
+
+
+                              Kav.p
+
+
+        Xref(p)        ε(p)                       Ω ref(p)                     Ω (p)         V(p)            X(p)
+                              Kx                             Gain statique
+         (mm)                                     (rad/s)                    (rad/s)      (mm/min)           (mm)
+
+                     X(p)
+                                   Traitement et compensation                          Capteur de position
+                    (mm)           du gain de capteur
+
+
+   Figure 29 : Boucle de position avec anticipation de vitesse, correcteur série proportionnel,
+                        modèle de la boucle de vitesse de type gain pur
+   Question 55 :     Déterminer la fonction de transfert de la boucle de position avec anticipation
+                                                     V( p )
+        de vitesse sous forme canonique. On pose              = 0,18 .
+                                                   Ωref ( p )
+
+   Question 56 :      Déterminer l’erreur de poursuite en position en fonction de Kx et Kav
+
+   Question 57 : Peut-on annuler l’erreur de poursuite en position à l’aide de l’anticipation
+     Kav ? Si oui, pour quelle valeur numérique de Kav (si nécessaire on utilisera la valeur de
+     Kx obtenue à la question 46).
+
+
+
+
+ ____________________________________________________________________________
+          29/31 Partie E : Contrôler le déplacement d'avance avec précision
+                                                                                        TOURNEZ LA PAGE S.V.P.
+
+
+===== page 30 =====
+E.1.5       Implantation physique de l’anticipation de vitesse
+
+Dans cette partie on utilise la structure précédente.
+On rappelle que le système peut-être représenté par le schéma bloc suivant (Figure 30) :
+
+
+                                   Kav.p
+
+
+        Xref(p)             ε(p)                        Ω ref(p)                     Ω (p)                 V(p)                X(p)
+                                   Kx                              Gain statique
+         (mm)                                          (rad/s)                     (rad/s)              (mm/min)               (mm)
+
+                          X(p)
+                                        Traitement et compensation                                   Capteur de position
+                      (mm)              du gain de capteur
+
+
+   Figure 30 : Boucle de position avec anticipation de vitesse, correcteur série proportionnel,
+                        modèle de la boucle de vitesse de type gain pur
+La transmittance Kav.p n’est pas une transmittance réalisable physiquement (principe de
+causalité).
+On remplace donc cette transmittance par une anticipation filtrée.
+Le système peut-être représenté par le schéma bloc suivant (Figure 31) :
+
+                            Kav.p
+                            1+Tf.p
+
+  Xref(p)            ε(p)                          Ω ref(p)                                  Ω (p)                V(p)                X(p)
+                             Kx
+                                                                       0,003
+   (mm)                                            (rad/s)                             (rad/s)              (mm/min)              (mm)
+
+                   X(p)
+                                 Traitement et compensation                                              Capteur de position
+                   (mm)          du gain de capteur
+
+
+Figure 31 : Boucle de position avec anticipation de vitesse filtrée, correcteur série proportionnel,
+                       modèle de la boucle de vitesse de type gain pur
+
+
+
+
+____________________________________________________________________________
+         30/31 Partie E : Contrôler le déplacement d'avance avec précision
+
+
+===== page 31 =====
+Un essai sur le Triptéor en réponse à l’échelon de position a donné le résultat suivant
+(Figure 32) :
+
+
+
+
+                        Figure 32 : Réponse à l’échelon de position
+   Question 58 : Par analyse de la dynamique de la réponse de la boucle de position
+     (Figure 32) déterminer une valeur de Tf n’entachant que de manière infime le
+     comportement de la boucle de position (le temps de réponse à 5% du filtre doit être au
+     moins 10 fois plus faible que celui de la boucle de position).
+
+   Question 59 : Conclure quant au respect des contraintes émises sur l’extrait du CdCF
+     (Tableau 6, page 26).
+
+
+
+
+                                    FIN DE L©EPREUVE
+
+
+
+
+____________________________________________________________________________
+         31/31 Partie E : Contrôler le déplacement d'avance avec précision
+
+
+===== page 32 =====
+[OCR] 
+
+===== page 33 =====
+Document Reponse ENSAM 210x350                 2009:Document Reponse ENSAM 210x350              2009    22/01/09      8:54     Page 1
+
+
+
+
+                              Académie :                                                 Session :                                                         Modèle EN.
+                              Examen ou Concours                                                                                 Série* :
+                              Spécialité/option :                                                                  Repère de l’épreuve :
+  DANS CE CADRE
+
+
+
+
+                              Épreuve/sous-épreuve :
+                              NOM :
+                              (en majuscules, suivi s’il y a lieu, du nom d’épouse)
+                              Prénoms :                                                                          N° du candidat
+                              Né(e) le :                                                                                               (le numéro est celui qui figure sur la
+                                                                                                                                          convocation ou la liste d’appel)
+
+
+                              Examen ou concours :                                                               Série* :
+  NE RIEN ÉCRIRE
+
+
+
+
+                                                                                                                                                    Numérotez chaque
+                              Spécialité/option :                                                                                                   page (dans le cadre
+                                                                                                                                                    en bas de la page) et
+                              Repère de l’épreuve :                                                                                                 placez les feuilles
+                                                                                                                                                    intercalaires dans le
+                              Épreuve/sous-épreuve :                                                                                                bon sens
+                              (Préciser, s’il y a lieu, le sujet choisi)
+
+                              Note :                      Appréciation du correcteur (uniquement s’il s’agit d’un examen) :
+
+                                                    20
+
+
+
+
+                              * Uniquement s’il s’agit d’un examen.
+
+
+
+
+                                                                                                                                                                  10PT25
+
+
+
+
+                                                     Cahier réponse
+                                                    SIA – Banque PT
+                                                          2010
+
+
+
+
+                                                                                                                    TOURNEZ LA PAGE S.V.P.
+
+
+                   Il est interdit aux candidats de signer leur composition ou d’y mettre un signe quelconque pouvant indiquer sa provenance.
+
+
+===== page 34 =====
+[OCR] Document Reponse ENSAM 210x350 2009:Document Reponse ENSAM ooo 2009 22/01/09 8:54 Page 2
+‘S
+
+NE RIEN ECRIRE DANS LA PARTIE BARREE
+
+
+
+===== page 35 =====
+Document Reponse ENSAM 210x350   2009:Document Reponse ENSAM 210x350             2009       22/01/09    8:54      Page 2
+
+
+
+
+                                           NE RIEN ÉCRIRE                                DANS LA PARTIE BARRÉE
+
+
+
+
+        B - ANALYSE FONCTIONNELLE
+
+        Question 1 : Compléter le SADT de niveau 0.
+
+
+                                                                  CFAO                   Opérateur / Régleur
+
+
+          Pièce à
+           usiner                                                                                                            Pièce
+                                  Positionner et                                                                             usinée
+                                  immobiliser la                                                       Engendrer les
+                                 matière à usiner                                                      mouvements
+                                 sur la machine                                                          d'avance
+
+
+
+                                                                                                        EXECHON
+
+
+
+                                                                                                                           Outil à
+         Outil neuf                                                                                                        remplacer
+
+                                                                             Poignet
+           Énergie                Porte-outil
+                                                           Engendrer une
+                                                            puissance de                                                    Copeaux
+                                                                coupe
+
+                                                            Électro-broche
+          Lubrifiant                                                          Fournir une
+               neuf                                                           lubrification                                Lubrifiant
+                                                                                                                           usagé
+                                                                             Pompe et circuit
+
+
+
+
+                             Machine TRIPTEOR
+
+
+
+        Question 2 : Compléter la décomposition fonctionnelle partielle en indiquant les solutions
+        retenues sur la machine ou les fonctions associées aux solutions.
+
+             Réaliser une
+                                         Transformer l'énergie
+            géométrie par
+                                         électrique en énergie
+            enlèvement de
+                                                cinétique
+                matière
+
+
+                                            Guider l'outil par
+                                          rapport au bâti de la
+                                               machine
+
+                                                                                                           Poignet
+
+                                                                                                Table support de pièce
+
+
+                                                                                                       Électro-broche
+
+
+        ____________________________________________________________________________
+                       1/26 Cahier réponse Partie B : Analyse fonctionnelle
+                                                                                                       TOURNEZ LA PAGE S.V.P.
+
+
+===== page 36 =====
+Document Reponse ENSAM 210x350   2009:Document Reponse ENSAM 210x350   2009    22/01/09   8:54   Page 2
+
+
+
+
+                                        NE RIEN ÉCRIRE                        DANS LA PARTIE BARRÉE
+
+
+
+
+        Question 3 : Compléter le diagramme des liaisons de l'ensemble cinématique de l'outil.
+
+                                                                                    r
+                                r                        Bâti            Pivot (B0, x0 )
+                     Pivot (A0, y0 )
+                                                                                                               r
+                                                                                                    Pivot (C0, y0 )
+
+
+                                                         B20'                              B30'
+                          B10'
+
+
+                                                         B20                               B30
+                          B10
+
+
+
+                                                          B22                               B34
+                           B14
+
+
+
+                                                          B24
+
+
+
+
+                                                          P4
+                                                  r
+                                       Pivot (O4, z4 )
+
+
+                                                          P45
+                                               r
+                                    Pivot (O5, x45 )
+
+
+                                                          P56
+
+
+        Question 4 : En déduire, en le justifiant, le degré d'hyperstatisme de l'ensemble cinématique de
+        l'outil.
+
+
+
+
+        ____________________________________________________________________________
+                       2/26 Cahier réponse Partie B : Analyse fonctionnelle
+
+
+===== page 37 =====
+Document Reponse ENSAM 210x350   2009:Document Reponse ENSAM 210x350   2009    22/01/09    8:54   Page 2
+
+
+
+
+                                      NE RIEN ÉCRIRE                          DANS LA PARTIE BARRÉE
+
+
+
+
+        C - EFFECTUER UN ARRÊT D'URGENCE
+
+        Question 5 : Equations Booléennes du contacteur d’arrêt d’urgence KAU (Folio 17) et du
+        contacteur de mise en service KAMG (Folio 21).
+
+        KAU =
+        KAMG =
+
+
+
+        Question 6 : Equation Booléenne du potentiel Y1 par rapport à la masse des relais auxiliaires
+        KA1 et KA2 en fonction de SB1a et SB1b.
+
+
+        Y1 =
+
+
+
+        Question 7 : Tables de vérité d’évolution des variables.
+
+
+        Gestion d’une défaillance sur le relais KA1
+
+        Phase 1 : Le système est sous tension
+           Y1n SA1n KA1n KA2n KAU1n KAU2n KA1n+1 KA2n+1 KAU1n+1 KAU2n+1
+            1      0      1       1       1   1 1  1       1       1
+
+        Phase 2 : Une demande d’arrêt d’urgence apparaît (action sur le bouton poussoir SB1→Y1
+        passe à 0 mais le relais KA1 reste collé)
+           Y1n SA1n KA1n KA2n KAU1n KAU2n KA1n+1 KA2n+1 KAU1n+1 KAU2n+1
+            0      0       1       1       1      1      1         0         0          0
+
+        Phase 3 : La demande d’arrêt d’urgence est supprimée (désenclenchement du bouton poussoir
+        SB1→Y1 passe à 1 mais le relais KA1 reste collé)
+           Y1n SA1n KA1n KA2n KAU1n KAU2n KA1n+1 KA2n+1 KAU1n+1 KAU2n+1
+            1      0     1      0         0       0        1        0        0          0
+
+        Phase 4 : Une demande de mise en service apparaît (action sur le bouton poussoir SA1)
+           Y1n SA1n KA1n KA2n KAU1n KAU2n KA1n+1 KA2n+1 KAU1n+1 KAU2n+1
+            1      1     1      0      0         0
+
+
+        Préciser dans quelle(s) phase(s) le système fonctionne en redondance ou autocontrôle
+
+
+
+
+        ____________________________________________________________________________
+                    3/26 Cahier réponse Partie C : Effectuer un arrêt d'urgence
+                                                                                          TOURNEZ LA PAGE S.V.P.
+
+
+===== page 38 =====
+Document Reponse ENSAM 210x350   2009:Document Reponse ENSAM 210x350   2009    22/01/09   8:54   Page 2
+
+
+
+
+                                      NE RIEN ÉCRIRE                          DANS LA PARTIE BARRÉE
+
+
+
+
+        Gestion d’une défaillance sur le relais KAU1
+
+        Phase 1 : Le système est sous tension
+           Y1n SA1n KA1n KA2n KAU1n KAU2n KA1n+1 KA2n+1 KAU1n+1 KAU2n+1
+            1      0      1       1       1   1 1  1       1       1
+
+        Phase 2 : Une demande d’arrêt d’urgence apparaît (action sur le bouton poussoir SB1→Y1
+        passe à 0 mais le relais KAU1 est défaillant et son contact ne revient pas en position repos)
+           Y1n SA1n KA1n KA2n KAU1n KAU2n KA1n+1 KA2n+1 KAU1n+1 KAU2n+1
+            0      0       1       1       1         1
+
+        Phase 3 : La demande d’arrêt d’urgence est supprimée (désenclenchement du bouton poussoir
+        SB1→Y1 passe à 1 mais le relais KAU1 est défaillant et son contact ne revient pas en position
+        repos)
+           Y1n SA1n KA1n KA2n KAU1n KAU2n KA1n+1 KA2n+1 KAU1n+1 KAU2n+1
+            1      0
+
+        Phase 4 : Une demande de mise en service apparaît (action sur le bouton poussoir SA1)
+           Y1n SA1n KA1n KA2n KAU1n KAU2n KA1n+1 KA2n+1 KAU1n+1 KAU2n+1
+            1
+
+        Préciser dans quelle(s) phase(s) le système fonctionne en redondance ou autocontrôle
+
+
+
+
+        ____________________________________________________________________________
+                    4/26 Cahier réponse Partie C : Effectuer un arrêt d'urgence
+
+
+===== page 39 =====
+Document Reponse ENSAM 210x350   2009:Document Reponse ENSAM 210x350   2009    22/01/09    8:54   Page 2
+
+
+
+
+                                      NE RIEN ÉCRIRE                          DANS LA PARTIE BARRÉE
+
+
+
+
+        Question 8 : Schéma de câblage.
+
+
+
+
+        Question 9 : Conclusion quant au respect des contraintes émises sur l’extrait du CdCF.
+
+
+
+
+        ____________________________________________________________________________
+                    5/26 Cahier réponse Partie C : Effectuer un arrêt d'urgence
+                                                                                          TOURNEZ LA PAGE S.V.P.
+
+
+===== page 40 =====
+Document Reponse ENSAM 210x350   2009:Document Reponse ENSAM 210x350   2009    22/01/09   8:54   Page 2
+
+
+
+
+                                      NE RIEN ÉCRIRE                          DANS LA PARTIE BARRÉE
+
+
+
+
+        D - IMPOSER UNE VITESSE D’AVANCE AVEC PRÉCISION
+
+        Question 10 :
+
+
+
+
+        Question 11 :
+
+
+
+
+        ____________________________________________________________________________
+             6/26 Cahier réponse Partie D : Imposer une vitesse d’avance avec précision
+
+
+===== page 41 =====
+Document Reponse ENSAM 210x350   2009:Document Reponse ENSAM 210x350   2009    22/01/09    8:54   Page 2
+
+
+
+
+                                      NE RIEN ÉCRIRE                          DANS LA PARTIE BARRÉE
+
+
+
+
+        Question 12 :
+
+
+
+
+        Question 13 :
+
+
+
+
+       ____________________________________________________________________________
+             7/26 Cahier réponse Partie D : Imposer une vitesse d’avance avec précision
+                                                                                          TOURNEZ LA PAGE S.V.P.
+
+
+===== page 42 =====
+Document Reponse ENSAM 210x350   2009:Document Reponse ENSAM 210x350   2009    22/01/09   8:54   Page 2
+
+
+
+
+                                      NE RIEN ÉCRIRE                          DANS LA PARTIE BARRÉE
+
+
+
+
+        Question 14 :
+
+
+
+
+        Question 15 :
+                   On n'effectuera pas les calculs des produits vectoriels qui seront laissés tels quels.
+
+
+
+
+       ____________________________________________________________________________
+             8/26 Cahier réponse Partie D : Imposer une vitesse d’avance avec précision
+
+
+===== page 43 =====
+Document Reponse ENSAM 210x350   2009:Document Reponse ENSAM 210x350   2009    22/01/09    8:54   Page 2
+
+
+
+
+                                      NE RIEN ÉCRIRE                          DANS LA PARTIE BARRÉE
+
+
+
+
+        Question 16 :
+
+
+
+
+        Question 17 :
+
+
+
+
+       ____________________________________________________________________________
+             9/26 Cahier réponse Partie D : Imposer une vitesse d’avance avec précision
+                                                                                          TOURNEZ LA PAGE S.V.P.
+
+
+===== page 44 =====
+Document Reponse ENSAM 210x350    2009:Document Reponse ENSAM 210x350             2009    22/01/09     8:54    Page 2
+
+
+
+
+                                         NE RIEN ÉCRIRE                                  DANS LA PARTIE BARRÉE
+
+
+
+
+        Question 18 :
+                                 On utilisera le fait que la plateforme P4 ne se déforme pas et on calculera U².
+
+
+
+
+               U
+
+                    C4                             C0      r
+                                                           z0
+                                                                    r
+                                                             r      x0
+                   B4                                        zg
+
+
+                                                 B0
+
+
+                   A4 θ
+                       10
+                                                   A0
+
+                                                           r
+                   B4                                      z0
+                                                  B0
+
+                                                                    r
+                                                                    y0
+                                                  C0
+                   C4
+               Schéma du système en déplacement
+
+
+
+
+        Question 19 :
+
+
+
+
+       ____________________________________________________________________________
+             10/26 Cahier réponse Partie D : Imposer une vitesse d’avance avec précision
+
+
+===== page 45 =====
+Document Reponse ENSAM 210x350   2009:Document Reponse ENSAM 210x350   2009    22/01/09    8:54   Page 2
+
+
+
+
+                                      NE RIEN ÉCRIRE                          DANS LA PARTIE BARRÉE
+
+
+
+
+        Question 20 :
+
+
+
+
+        Question 21 :
+
+
+
+
+        Question 22 :
+
+
+
+
+       ____________________________________________________________________________
+             11/26 Cahier réponse Partie D : Imposer une vitesse d’avance avec précision
+                                                                                          TOURNEZ LA PAGE S.V.P.
+
+
+===== page 46 =====
+[OCR] Document Reponse ENSAM 210x350 2009:Document Reponse ENSAM ooo 2009 22/01/09 8:54 Page 2
+
+NE RIEN ECRIRE DANS LA PARTIE BARREE
+
+Question 23 :
+
+12/26 Cahier réponse Partie D : Imposer une vitesse d’avance avec précision
+
+=
+
+
+===== page 47 =====
+Document Reponse ENSAM 210x350   2009:Document Reponse ENSAM 210x350   2009    22/01/09    8:54   Page 2
+
+
+
+
+                                      NE RIEN ÉCRIRE                          DANS LA PARTIE BARRÉE
+
+
+
+
+        Question 24 :         Transmittance type 1er ordre sous forme canonique reliant le couple de
+        sortie C(p) au couple de référence Cref(p).
+        On précisera sur la figure les tracés nécessaires à l’obtention de cette transmittance.
+
+                                                                                                           2,91
+                         cref(t)            c(t)
+
+
+
+
+                                                        Réponse en couple à l’échelon d’amplitude
+                                                        trois sans prise en compte du retard
+
+
+
+
+                                                                                    0,5%.Cn
+                                                                                                      0,2ms
+
+
+
+
+        Réponse en couple à l'échelon d'amplitude 3 sans prise en compte du retard
+
+
+
+
+         C( p )
+                   =
+        Cref ( p )
+
+
+
+
+        ____________________________________________________________________________
+             13/26 Cahier réponse Partie D : Imposer une vitesse d’avance avec précision
+                                                                                          TOURNEZ LA PAGE S.V.P.
+
+
+===== page 48 =====
+Document Reponse ENSAM 210x350   2009:Document Reponse ENSAM 210x350   2009    22/01/09   8:54   Page 2
+
+
+
+
+                                      NE RIEN ÉCRIRE                          DANS LA PARTIE BARRÉE
+
+
+
+
+        Question 25 :         Transmittance type 1er ordre avec retard sous forme canonique reliant le
+        couple de sortie C(p) au couple de référence Cref(p).
+        On précisera sur la figure les tracés nécessaires à l’obtention de cette transmittance.
+
+
+                         cref(t)
+                                                    c(t)
+
+
+
+
+                                                           Réponse en couple à l’échelon d’amplitude trois
+
+
+                                                                                     0,5%.Cn
+                                                                                                      0,2ms
+
+
+
+
+        Réponse en couple à l'échelon d'amplitude 3 avec prise en compte du retard
+
+
+
+
+         C( p )
+                   =
+        Cref ( p )
+
+
+
+
+        Question 26 :        En remplaçant la fonction retard pur par son développement limité à l’ordre
+                                                                               C( p )
+        1, donner la fonction de transfert approximée de la boucle de couple            faisant apparaître
+                                                                             Cref ( p )
+        un deuxième pôle stable.
+
+
+
+
+         C( p )
+                   =
+        Cref ( p )
+
+
+        ____________________________________________________________________________
+             14/26 Cahier réponse Partie D : Imposer une vitesse d’avance avec précision
+
+
+===== page 49 =====
+Document Reponse ENSAM 210x350   2009:Document Reponse ENSAM 210x350   2009    22/01/09    8:54   Page 2
+
+
+
+
+                                      NE RIEN ÉCRIRE                          DANS LA PARTIE BARRÉE
+
+
+
+
+        Question 27 :         Diagramme de Bode asymptotique en gain et en phase de la fonction de
+                              C( p )                   0,97
+        transfert linéarisée           =                                     .
+                             Cref ( p ) ( 1 + 0,00025.p ).( 1 + 0 ,00015.p )
+                                                           GAIN
+
+
+
+
+               °
+
+
+
+
+                                                          PHASE
+
+
+
+
+        ____________________________________________________________________________
+             15/26 Cahier réponse Partie D : Imposer une vitesse d’avance avec précision
+                                                                                          TOURNEZ LA PAGE S.V.P.
+
+
+===== page 50 =====
+Document Reponse ENSAM 210x350    2009:Document Reponse ENSAM 210x350   2009    22/01/09   8:54   Page 2
+
+
+
+
+                                       NE RIEN ÉCRIRE                          DANS LA PARTIE BARRÉE
+
+
+
+
+        Question 28 :            Comparaison de la phase du modèle simplifié et du système réel.
+
+
+
+
+                                                 Ω( p )
+        Question 29 :            Transmittance          sous forme canonique littérale puis numérique.
+                                                 C( p )
+
+
+
+
+        Ω( p )
+               =
+        C( p )
+        Ω( p )
+               =
+        C( p )
+
+
+
+        Question 30 :            Transmittance du capteur de vitesse.
+
+
+        ˆ (p )
+        Ω
+               =
+        Ω( p )
+
+
+        Question 31 :            Forme du signal de la voie B pour le sens de rotation négatif.
+
+                   1
+        Voie A
+                   0                                                     t
+                   1
+        Voie B
+                   0                                                     t
+
+
+
+
+        ____________________________________________________________________________
+             16/26 Cahier réponse Partie D : Imposer une vitesse d’avance avec précision
+
+
+===== page 51 =====
+Document Reponse ENSAM 210x350    2009:Document Reponse ENSAM 210x350   2009    22/01/09    8:54   Page 2
+
+
+
+
+                                       NE RIEN ÉCRIRE                          DANS LA PARTIE BARRÉE
+
+
+
+
+        Question 32 :            Nombre de périodes par tour.
+
+
+
+
+        Question 33 :            Câblage d’une bascule D (Delay).
+
+
+
+
+                                                               Sortie signe de la vitesse
+                                            D        Q
+                                                               de rotation
+
+                                            CLK      Q
+
+
+
+
+                                                                                     Ω( p )
+        Question 34 :            Schéma-bloc de la transmittance simplifiée                    .
+                                                                                    Cref ( p )
+
+
+
+
+          Boucle de vitesse simplifiée
+
+        Ω ref(p)                      KΩ .(1+TΩ .p) Cref(p)                                            Ω (p)
+
+                                         TΩ .p
+
+                          Ω (p)
+
+
+
+
+        Question 35 :            Compensation de pôle.
+
+
+
+
+        TΩ =
+
+
+        ____________________________________________________________________________
+             17/26 Cahier réponse Partie D : Imposer une vitesse d’avance avec précision
+                                                                                           TOURNEZ LA PAGE S.V.P.
+
+
+===== page 52 =====
+Document Reponse ENSAM 210x350   2009:Document Reponse ENSAM 210x350   2009    22/01/09   8:54   Page 2
+
+
+
+
+                                       NE RIEN ÉCRIRE                         DANS LA PARTIE BARRÉE
+
+
+
+
+        Question 36 :            Fonction     de        transfert   en         boucle      fermée         de   vitesse
+                        Ω( p )
+        FTBFΩ( p ) =              sous forme canonique.
+                       Ωref ( p )
+
+
+
+
+         Ω( s )
+                   =
+        Ωref ( s )
+
+
+
+
+        Question 37 :            Détermination de KΩ (on se limitera à 2 chiffres significatifs après la
+        virgule).
+
+
+
+
+           KΩ =
+
+
+
+
+        Question 38 :            Pulsation naturelle ω0.
+
+
+
+
+        ω0 =
+
+        ____________________________________________________________________________
+             18/26 Cahier réponse Partie D : Imposer une vitesse d’avance avec précision
+
+
+===== page 53 =====
+Document Reponse ENSAM 210x350    2009:Document Reponse ENSAM 210x350   2009    22/01/09    8:54    Page 2
+
+
+
+
+                                       NE RIEN ÉCRIRE                          DANS LA PARTIE BARRÉE
+
+
+
+
+        Question 39 :            Temps de réponse à 5% de la boucle de vitesse.
+
+
+
+
+                           Abaque des temps de réponse réduit à 5% d’un second ordre
+
+
+        tr5% =
+
+
+        Question 40 :            Temps de réponse à 5%. Comparaison avec la question précédente.
+
+
+
+           0,00315
+
+
+
+
+                                                                                 0,5.10-3 rad.s-1
+                                                                                                        0,5ms
+
+
+
+
+                                                          Réponse à l’échelon unitaire de la boucle de vitesse
+        tr5% =
+        Comparaison :
+
+        ____________________________________________________________________________
+             19/26 Cahier réponse Partie D : Imposer une vitesse d’avance avec précision
+                                                                                           TOURNEZ LA PAGE S.V.P.
+
+
+===== page 54 =====
+Document Reponse ENSAM 210x350    2009:Document Reponse ENSAM 210x350   2009    22/01/09   8:54   Page 2
+
+
+
+
+                                       NE RIEN ÉCRIRE                          DANS LA PARTIE BARRÉE
+
+
+
+
+        Question 41 :            Temps de réponse à 5%. Comparaison avec les questions précédentes.
+
+
+
+
+                                                                                                    0,5ms
+
+
+
+
+                                 Zoom sur la réponse à l'échelon de la boucle de vitesse
+        tr5% =
+        Comparaison :
+
+
+
+
+        Question 42 :            Analyse du comportement du réglage.
+
+
+
+
+        Question 43 :            Conclusion quant au respect des contraintes émises sur l’extrait du CdCF.
+
+
+
+
+        ____________________________________________________________________________
+             20/26 Cahier réponse Partie D : Imposer une vitesse d’avance avec précision
+
+
+===== page 55 =====
+Document Reponse ENSAM 210x350    2009:Document Reponse ENSAM 210x350   2009    22/01/09    8:54   Page 2
+
+
+
+
+                                       NE RIEN ÉCRIRE                          DANS LA PARTIE BARRÉE
+
+
+
+
+        E-        CONTRÔLER LE DÉPLACEMENT D’AVANCE AVEC PRÉCISION
+
+        Question 44 :            Compléter le schéma-bloc ci-dessous (pour simplifier les calculs on pourra
+        poser 2.π = 6).
+
+
+
+
+        Xref(p)                       Ω ref(p)                             Ω (p)               V(p)                 X(p)
+                                 Kx                     0,003
+        (mm)                          (rad/s)                            (rad/s)             (mm/min)              (mm)
+
+
+                                                                                                   Boucle de position
+
+
+
+                                                                                                               X( p )
+        Question 45 :            Fonction de transfert en boucle fermée de position FTBFX( p ) =                        en
+                                                                                                              Xref( p )
+        fonction de Kx.
+
+
+
+
+        Question 46 :      Valeur de Kx. Forme canonique numérique de la fonction de transfert en
+                                                X( p )
+        boucle fermée de position FTBFX( p ) =           pour la valeur de Kx.
+                                               Xref( p )
+
+
+
+
+        Kx =
+
+
+
+
+                        X( p )
+        FTBFX( s ) =             =
+                       Xref( p )
+
+
+
+        ____________________________________________________________________________
+           21/26 Cahier réponse Partie E : Contrôler le déplacement d’avance avec précision
+                                                                                           TOURNEZ LA PAGE S.V.P.
+
+
+===== page 56 =====
+Document Reponse ENSAM 210x350    2009:Document Reponse ENSAM 210x350   2009    22/01/09   8:54   Page 2
+
+
+
+
+                                       NE RIEN ÉCRIRE                          DANS LA PARTIE BARRÉE
+
+
+
+
+                                                                                                            X( p )
+        Question 47 :            Fonction de transfert en boucle fermée de position FTBFX( p ) =                     .
+                                                                                                           Xref( p )
+
+
+
+
+         X( p )
+                  =
+        Xref( p )
+
+
+
+
+        Question 48 :        Détermination, par application du critère de ROUTH, des valeurs de Kx
+        assurant la stabilité de la boucle de position. Conclusion quant à la valeur obtenue de Kx à la
+        question 46.
+
+
+
+
+        Valeurs de Kx :
+
+        Conclusion :
+
+
+
+
+        ____________________________________________________________________________
+           22/26 Cahier réponse Partie E : Contrôler le déplacement d’avance avec précision
+
+
+===== page 57 =====
+Document Reponse ENSAM 210x350    2009:Document Reponse ENSAM 210x350   2009    22/01/09    8:54   Page 2
+
+
+
+
+                                       NE RIEN ÉCRIRE                          DANS LA PARTIE BARRÉE
+
+
+
+
+        Question 49 :            Analyse des constantes de temps.
+
+
+
+
+        Question 50 :            Erreur statique de position en réponse à l’échelon unitaire.
+
+
+
+
+        Question 51 :      Erreur de poursuite en position. Conclusion quant au respect du cahier des
+        charges en précision.
+
+
+
+
+        Erreur de poursuite en position =
+
+        Conclusion :
+
+
+
+       ____________________________________________________________________________
+          23/26 Cahier réponse Partie E : Contrôler le déplacement d’avance avec précision
+                                                                                           TOURNEZ LA PAGE S.V.P.
+
+
+===== page 58 =====
+Document Reponse ENSAM 210x350    2009:Document Reponse ENSAM 210x350   2009    22/01/09   8:54   Page 2
+
+
+
+
+                                       NE RIEN ÉCRIRE                          DANS LA PARTIE BARRÉE
+
+
+
+
+        Question 52 :            Pourquoi cette structure permet-elle d’obtenir une erreur de poursuite en
+        position nulle ?
+
+
+
+
+        Question 53 :      Explication de l’effet néfaste de l’action intégrale lorsque l’axe se déplace
+        en vitesse maximale. Proposition d’une solution technologique.
+
+
+
+
+        Question 54 :        Expliquer qualitativement l’effet néfaste de l’action intégrale sur la phase de
+        la fonction de transfert en boucle ouverte.
+
+
+
+
+       ____________________________________________________________________________
+          24/26 Cahier réponse Partie E : Contrôler le déplacement d’avance avec précision
+
+
+===== page 59 =====
+Document Reponse ENSAM 210x350    2009:Document Reponse ENSAM 210x350   2009    22/01/09    8:54   Page 2
+
+
+
+
+                                       NE RIEN ÉCRIRE                          DANS LA PARTIE BARRÉE
+
+
+
+
+        Question 55 :            Fonction de transfert de la boucle de position avec anticipation de vitesse.
+
+
+
+
+         X( p )
+                  =
+        Xref( p )
+
+
+
+
+        Question 56 :            Déterminer l’erreur de poursuite en position en fonction de Kx et Kav.
+
+
+
+
+        Erreur de poursuite en position =
+
+
+
+        ____________________________________________________________________________
+           25/26 Cahier réponse Partie E : Contrôler le déplacement d’avance avec précision
+                                                                                           TOURNEZ LA PAGE S.V.P.
+
+
+===== page 60 =====
+Document Reponse ENSAM 210x350    2009:Document Reponse ENSAM 210x350   2009    22/01/09   8:54   Page 2
+
+
+
+
+                                       NE RIEN ÉCRIRE                          DANS LA PARTIE BARRÉE
+
+
+
+
+        Question 57 :            Possibilité d’annulation de l’erreur de poursuite en position.
+
+
+
+
+        Question 58 :            Détermination d’une valeur de Tf.
+
+
+
+
+        Tf =
+
+
+
+
+        Question 59 :            Conclusion quant au respect des contraintes émises sur l’extrait du CdCF.
+
+
+
+
+        ____________________________________________________________________________
+           26/26 Cahier réponse Partie E : Contrôler le déplacement d’avance avec précision
+
+
+===== page 61 =====
+Service des Concours
+
+            URGENT - IMPORTANT
+
+     ERRATUM SUJET « SCIENCES
+  INDUSTRIELLES A » DU MERCREDI 12
+             MAI 2010
+ « DANS LE CAHIER REPONSE, veuillez modifier les titres suivants :
+-page 16 : question 30 qui devient question 31,
+-question 31 qui devient 32,
+-page 17 : 32 qui devient 33,
+et 33 qui devient 30 »
+

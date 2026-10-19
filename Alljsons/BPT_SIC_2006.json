@@ -1,0 +1,649 @@
+{
+ "concours": "Banque PT",
+ "filiere": "SIC",
+ "date": "2006",
+ "file": "BPT_SIC_2006.pdf",
+ "status": 200,
+ "source": "banquept.fr, rubrique « Annales d'annales » (rubrique23.html)",
+ "epreuve_originale": "SI C",
+ "classification": "automatique par mots-clés (Claude, oct. 2026) — moins fine que celle des sujets récents",
+ "decoupage_questions": "roman",
+ "texte_ocr": false,
+ "pages_sujet": 12,
+ "pages_total": 30,
+ "data": {
+  "parties": [
+   {
+    "titre_partie": "I. Etude du bras oscillant",
+    "questions": [
+     {
+      "numero": "I-A1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       }
+      ],
+      "page": 4,
+      "tags": [],
+      "texte": "I-A1. On modélise les efforts exercés sur les bras lors d’un virage comme indiqué sur le document ressource II. On s’intéresse au comportement sous charge de la partie tubulaire, que l’on considérera ici comme une poutre. Isolez la partie tubulaire. Faites le bilan des actions mécaniques extérieures auxquelles elle est soumise. Calculez le torseur des efforts de cohésion en tout point de cette poutre. À quel(s) type(s) de sollicitation(s) est-elle soumise ?"
+     },
+     {
+      "numero": "I-A2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       }
+      ],
+      "page": 4,
+      "tags": [],
+      "texte": "I-A2. Calculez numériquement le moment quadratique polaire (I0) du tube, dont les dimensions sont données sur le document ressource II."
+     },
+     {
+      "numero": "I-A3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Matériaux : Propriétés physiques et mécaniques",
+        "semestre": "S3"
+       }
+      ],
+      "page": 4,
+      "tags": [],
+      "texte": "I-A3. Donnez l’expression de l’angle de torsion unitaire (Θ), en fonction de F1, F2, LB et LT, (document ressource II). Application numérique dans le cas où les forces F1 et F2 ont chacune une intensité de 200 daN. On donne : module d’élasticité transversal de l’alliage utilisé : G = 26 000 Mpa."
+     },
+     {
+      "numero": "I-A4",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       }
+      ],
+      "page": 4,
+      "tags": [],
+      "texte": "I-A4. En déduire, pour ce cas de chargement, l’expression du défaut de positionnement angulaire (α) de la roue arrière par rapport au plan de symétrie de la moto. On fera l’hypothèse que les liaisons bras / axe de roue ne participent pas à rigidifier l’ensemble. Application numérique dans le cas où les forces F1 et F2 ont chacune une intensité de 200 daN. 4"
+     },
+     {
+      "numero": "I-A5",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       }
+      ],
+      "page": 5,
+      "tags": [],
+      "texte": "I-A5. Conclure sur la fonction du renfort existant sur la version 2004 du bras oscillant présenté sur le document ressource II et commentez l’évolution de la géométrie du modèle 2005 présenté sur le document ressource III."
+     },
+     {
+      "numero": "I-B",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Dynamique : Géométrie des masses",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Matériaux : Choix",
+        "semestre": "S3"
+       }
+      ],
+      "page": 5,
+      "tags": [],
+      "texte": "I-B. Choix du matériau et des procédés On souhaite tenir compte également des sollicitations mécaniques et du poids du bras oscillant pour effectuer le choix du matériau. L’objectif est de minimiser la masse m de chaque bras. On isole le bras latéral 1. Il est soumis à des contraintes de flexion. Par ailleurs, on impose un déplacement maximal (flèche) δ au niveau de l’axe de la roue arrière pour un effort F1 donné. En première approximation, on considérera l’expression suivante de la flèche en bout de bras δ = F1 LB 3 / C1 E IGx pour une poutre encastrée avec E module d’Young, IGx moment d’inertie de la section du bras par rapport à l’axe x et C1 une constante. Pour simplifier les calculs dans cette partie, on considérera que la section du bras est pleine et carrée de longueur a et d’aire A. !"
+     },
+     {
+      "numero": "I-B1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dynamique : Géométrie des masses",
+        "semestre": "S3"
+       }
+      ],
+      "page": 5,
+      "tags": [],
+      "texte": "I-B1. Donnez l’expression du moment d’inertie de la section du bras IGx."
+     },
+     {
+      "numero": "I-B2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Matériaux : Propriétés physiques et mécaniques",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Matériaux : Choix",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
+        "semestre": "S1"
+       }
+      ],
+      "page": 5,
+      "tags": [],
+      "texte": "I-B2. Déterminer les fonctions f et g telles que : m = f(E,ρ) . g(F1,δ,LB) avec ρ la masse volumique. Le diagramme (log-log) Module d’Young / Masse volumique (document ressource IV) permet de choisir un matériau en fonction de l’indice de performance Ip = E1/2 / ρ."
+     },
+     {
+      "numero": "I-B3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 5,
+      "tags": [
+       "fonderie / moulage",
+       "forgeage / emboutissage / découpe"
+      ],
+      "texte": "I-B3. Parmi les matériaux retenus dans le diagramme (document ressource IV), quel est le matériau le plus performant et celui le moins performant ? Le bras oscillant 2005 n’est pas symétrique et n’est pas constitué d’une seule pièce monobloc mais de l’assemblage de plusieurs parties assurant des fonctions différentes et obtenues par des procédés de fabrication différents, la fonderie, l’emboutissage, le pliage et l’extrusion (document ressource III) 5 Tournez la page S.V.P."
+     },
+     {
+      "numero": "I-B4",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
+        "semestre": "S3"
+       }
+      ],
+      "page": 6,
+      "tags": [
+       "fonderie / moulage",
+       "forgeage / emboutissage / découpe"
+      ],
+      "texte": "I-B4. Expliquez le principe d’obtention des formes pour les procédés de fonderie, d’emboutissage et d’extrusion retenus et proposez deux matériaux compatibles par procédé."
+     },
+     {
+      "numero": "I-B5",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
+        "semestre": "S3"
+       }
+      ],
+      "page": 6,
+      "tags": [
+       "soudage / mécano-soudé"
+      ],
+      "texte": "I-B5. L’assemblage des différentes parties est réalisé par soudage. Expliquez ce qu’est l’assemblage par soudage. Quels sont les avantages et inconvénients de ce procédé d’assemblage en ce qui concerne le bras oscillant?"
+     },
+     {
+      "numero": "I-B6",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
+        "semestre": "S3"
+       }
+      ],
+      "page": 6,
+      "tags": [
+       "soudage / mécano-soudé"
+      ],
+      "texte": "I-B6. Décrivez le procédé de soudage à l’arc. Précisez à quels types d’applications est plus particulièrement réservé le soudage TIG (Tungsten Inert Gas)."
+     },
+     {
+      "numero": "I-B7",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 6,
+      "tags": [
+       "ressort"
+      ],
+      "texte": "I-B7. En vous appuyant sur le diagramme (document ressource IV) et sur les procédés de mise en forme et d’assemblage étudiés précédemment, proposez un matériau minimisant le poids et adapté à la réalisation du bras oscillant. Justifiez votre réponse. II. Etude de la suspension arrière On s’intéresse maintenant au comportement du mécanisme de suspension arrière dont la représentation schématique est donnée sur le document ressource V, et le plan sur le document réponse 1. Les liaisons aux points A, B, C, D, E, H, et K, sont toutes modélisées dans le plan par des articulations parfaites, et les solides sont ici supposés indéformables. L’objet de cette partie est de déterminer la raideur du ressort de la suspension arrière de cette machine. Le cahier des charges impose un déplacement (dv) vertical, parallèle à lui-même, du cadre par rapport au sol de 132 mm lorsqu’on applique une charge verticale (Q) de 500 daN sur la selle de la moto, en S. Le constructeur précise que la masse (M) de la machine est de 180 Kg (avec les pleins)."
+     }
+    ]
+   },
+   {
+    "titre_partie": "II. Etude de la suspension arrière",
+    "questions": [
+     {
+      "numero": "II-1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dynamique : Géométrie des masses",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       }
+      ],
+      "page": 6,
+      "tags": [],
+      "texte": "II-1. Effort exercé par l’axe de roue sur le bras oscillant : en isolant successivement la moto complète, puis la roue arrière, calculez l’effort (T) exercé par l’axe de la roue au point (C) sur le bras oscillant lorsque l’on applique la charge verticale (Q) de 500 daN sur la selle de la moto (au point S). 6 On fera ici l’hypothèse que la moto est placée droite sur un sol horizontal. Les dimensions sont celles précisées sur le document ressource V. G est le centre de gravité de la moto complète (le poids de la machine sera pris en compte dans cette question)."
+     },
+     {
+      "numero": "II-2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       }
+      ],
+      "page": 7,
+      "tags": [],
+      "texte": "II-2. Raideur de la suspension : calculez la raideur globale R de la suspension arrière, soit le rapport entre l’effort vertical (T) exercé en bout de bras oscillant (C) et le déplacement vertical de ce même point. On fera ici l’hypothèse que le comportement global de la suspension arrière est quasi linéaire."
+     },
+     {
+      "numero": "II-3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       }
+      ],
+      "page": 7,
+      "tags": [
+       "ressort"
+      ],
+      "texte": "II-3. Ecrasement du ressort sous charge : déterminez la position de chacun des points (A, B, C, D, E, H, et K) lorsque la moto passe de la position non chargée à la position chargée (document réponse 1). En déduire la valeur de l’écrasement du ressort (ΔL) de la suspension. On utilisera une méthode graphique en relevant les dimensions directement sur le document réponse 1."
+     },
+     {
+      "numero": "II-4",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       }
+      ],
+      "page": 7,
+      "tags": [
+       "ressort"
+      ],
+      "texte": "II-4. Charge appliquée sur le ressort : déterminez dans la position chargée le rapport (q) entre l’effort (T) appliqué en bout de bras oscillant (C) et l’effort transmis au ressort (F) . On utilisera une méthode graphique en relevant les dimensions directement sur le document réponse 1. En utilisant les résultats de la question II-1 calculez la charge (F) appliquée au ressort. Dans cette question, on négligera le poids propre des pièces devant les efforts mis en jeu."
+     },
+     {
+      "numero": "II-5",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       }
+      ],
+      "page": 7,
+      "tags": [
+       "ressort"
+      ],
+      "texte": "II-5. Déduire de ce qui précède la raideur (r) du ressort à monter à l’arrière de cette machine."
+     },
+     {
+      "numero": "II-6",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Matériaux : Propriétés physiques et mécaniques",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 7,
+      "tags": [
+       "embrayage / frein"
+      ],
+      "texte": "II-6. Un calcul plus complet du comportement sous charge du bras oscillant a permis d’établir que sous une charge de 400 daN sur de l’axe de la roue, la flèche en bout de bras est de l’ordre de 1,4 mm. Que dire de l’hypothèse « solides indéformables » faite dans cette partie de l’étude ? 7 Tournez la page S.V.P. III. Conception du support d’étrier de freins arrière Le support d’étrier a pour rôle de mettre en position l’étrier de frein par rapport au disque et de le maintenir lors d’un freinage. Le support, réalisé en alliage d’aluminium, est en liaison avec l’axe de la roue et le bras oscillant."
+     }
+    ]
+   },
+   {
+    "titre_partie": "III. Conception du support d’étrier de freins arrière",
+    "questions": [
+     {
+      "numero": "III-A",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 8,
+      "tags": [],
+      "texte": "III-A. Pré-conception"
+     },
+     {
+      "numero": "III-A1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Hyperstatisme",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Correcteurs : Correcteur numérique",
+        "semestre": "S4"
+       }
+      ],
+      "page": 8,
+      "tags": [],
+      "texte": "III-A1. À l’aide du schéma cinématique suivant déterminer le degré d’hyperstatisme du système composé du support d’étrier, du bras et de l’axe de roue."
+     },
+     {
+      "numero": "III-A2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Liaisons équivalentes",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Statique : Hyperstatisme",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Correcteurs : Correcteur numérique",
+        "semestre": "S4"
+       }
+      ],
+      "page": 8,
+      "tags": [],
+      "texte": "III-A2. En fonctionnement, la glissière est bloquée. On a donc une liaison complète entre le bras oscillant et l’axe de roue. Calculez le torseur des efforts transmissibles par la liaison équivalente entre le support d’étrier et l’ensemble axe de roue et bras oscillant. À supposer que l’ensemble axe de roue et bras oscillant soit de géométrie parfaite, en déduire les contraintes géométriques à respecter par le support d’étrier en s’aidant d’une analyse d’hyperstatisme de la liaison équivalente. Un premier modèle géométrique 3D situant la position (au nominal) des surfaces fonctionnelles entre elles est donné sur le document ressource VI. Le support d’étrier, positionné sur l’axe de roue, est en contact avec deux pièces ce qui nécessite d’avoir deux surfaces planes de part et d’autre du contact cylindre/cylindre. La liaison plane entre le support d’étrier et le bras oscillant est en fait bilatérale ce qui génère deux plans parallèles (la matière se situe entre les deux plans au niveau du bras). Les trous de fixation des étriers sur 8 le support ont également été ajoutés, ce qui génère un cylindre (passage de vis) et un plan (face d’appui de la tête de vis) par trou."
+     },
+     {
+      "numero": "III-A3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
+        "semestre": "S3"
+       }
+      ],
+      "page": 9,
+      "tags": [
+       "forgeage / emboutissage / découpe"
+      ],
+      "texte": "III-A3. On utilise un modeleur volumique (un logiciel de CAO) pour concevoir le modèle numérique de la pièce. Précisez à l’aide d’un arbre de construction les opérations de création de surface (extrusion, révolution, poche, etc.) que vous utiliseriez pour modéliser les entités fonctionnelles de la pièce dans un prisme dont vous préciserez également la géométrie du contour."
+     },
+     {
+      "numero": "III-A4",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+        "semestre": "S2"
+       }
+      ],
+      "page": 9,
+      "tags": [
+       "tolérances géométriques"
+      ],
+      "texte": "III-A4. Explicitez sur les documents réponses 2, 3 et 4 les spécifications dimensionnelles et géométriques issues du document ressource VI :"
+     },
+     {
+      "numero": "III-B1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 9,
+      "tags": [
+       "usinage",
+       "dessin / conception sur calque"
+      ],
+      "texte": "III-B1. Déterminez les opérations d’usinage adaptées à chacune des entités géométriques précédemment définies en tenant compte des exigences de qualité indiquées par les tolérances dimensionnelles. On précisera le nom de l’opération et des outils employés et on dessinera les outils de coupe."
+     },
+     {
+      "numero": "III-B2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       }
+      ],
+      "page": 9,
+      "tags": [
+       "usinage"
+      ],
+      "texte": "III-B2. En tenant compte des contraintes technologiques d’usinage ainsi que des contraintes dimensionnelles entre entités, déterminez le nombre de phases d’usinage nécessaires à l’obtention de la pièce. Pour chaque phase, vous préciserez le type de machine-outil utilisée et les opérations d’usinage effectuées."
+     },
+     {
+      "numero": "III-C",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       }
+      ],
+      "page": 9,
+      "tags": [
+       "usinage"
+      ],
+      "texte": "III-C. Processus d’usinage de l’entité cylindrique On étudie plus particulièrement l’opération de finition permettant de réaliser la surface cylindrique ∅25H7 assurant la liaison pivot avec l’axe de la roue arrière. Cette opération est réalisée avec une barre à aléser munie d’une plaquette carbure (document ressource VII). 9 Tournez la page S.V.P. Aspect macro géométrique"
+     },
+     {
+      "numero": "III-C1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       }
+      ],
+      "page": 10,
+      "tags": [
+       "usinage"
+      ],
+      "texte": "III-C1. Modélisez et représentez les actions mécaniques qui s’exercent sur l’outil durant l’usinage. Vous préciserez vos hypothèses."
+     },
+     {
+      "numero": "III-C2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       }
+      ],
+      "page": 10,
+      "tags": [],
+      "texte": "III-C2. Quels sont les effets de ces actions mécaniques sur l’outil et donc sur la qualité géométrique du cylindre ? Comment assurer la qualité dimensionnelle du cylindre ? Aspect micro géométrique"
+     },
+     {
+      "numero": "III-C3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 10,
+      "tags": [],
+      "texte": "III-C3. Expliquez la signification du symbole suivant porté sur le cylindre (document ressource VI) ainsi que sa définition mathématique, assortie d’un dessin explicatif."
+     },
+     {
+      "numero": "III-C4",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 10,
+      "tags": [],
+      "texte": "III-C4. Établir la relation liant le paramètre de hauteur maximale du profil de rugosité Rt, l’avance par tour et par dent fz et le rayon de plaquette rε. La démonstration s'appuiera sur une représentation graphique faisant intervenir les paramètres considérés."
+     },
+     {
+      "numero": "III-C5",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 10,
+      "tags": [
+       "embrayage / frein",
+       "tolérances géométriques",
+       "hydraulique"
+      ],
+      "texte": "III-C5. À partir de l’abaque du document ressource VII et pour un rayon de plaquette rε de 1,2 mm, déterminez la valeur de l’avance fz pour respecter la spécification précédente. Expliquez pourquoi il existe une zone dite de dispersion sur l’abaque. IV. Etude du système de freinage La ZX6R, comme toutes les motos sportives, elle est équipée d’un système de freins à disques commandés par un système hydraulique. Son principe repose sur la propriété d’incompressibilité du fluide. Le pilote, par l’intermédiaire de la poignée, actionne le frein avant, et par la pédale, actionne le frein arrière (freinage non intégral). La poignée actionne le maître-cylindre, assimilable à un piston, qui comprime le fluide dans le circuit hydraulique jusqu’aux pistons situés dans les étriers qui viennent pincer les plaquettes de freins sur les disques (document ressource VIII)."
+     }
+    ]
+   },
+   {
+    "titre_partie": "IV. Etude du système de freinage",
+    "questions": [
+     {
+      "numero": "IV-1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 10,
+      "tags": [
+       "embrayage / frein",
+       "hydraulique"
+      ],
+      "texte": "IV-1. Les efforts mis en jeu au niveau des freins sont largement supérieurs à ceux qu’un pilote peut exercer manuellement. Expliquez comment grâce à ce système, le pilote peut 10 malgré tout générer un effort suffisant sur les pistons des étriers pour assurer le freinage et stopper la moto. On envisage d’intégrer un système d’antiblocage de roues. Le circuit hydraulique contient alors un ensemble supplémentaire, une électrovanne, dont le rôle est de modifier la circulation du fluide entre le maître-cylindre et les pistons des étriers. Cette électrovanne est commandée par un calculateur électronique."
+     },
+     {
+      "numero": "IV-2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Capteurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 11,
+      "tags": [],
+      "texte": "IV-2. Proposez une solution technologique permettant de déterminer si une roue est bloquée ou non. Vous justifierez la nature du capteur employé et expliquerez son principe de fonctionnement. La modélisation fonctionnelle de la partie opérative et son comportement temporel sont donnés sur le document ressource IX."
+     },
+     {
+      "numero": "IV-3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       }
+      ],
+      "page": 11,
+      "tags": [],
+      "texte": "IV-3. Identifiez les actionneurs et pré-actionneurs du schéma fonctionnel et donnez leurs caractéristiques."
+     },
+     {
+      "numero": "IV-4",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       }
+      ],
+      "page": 11,
+      "tags": [],
+      "texte": "IV-4. Expliquez comment ce système permet d’éviter le blocage des roues à l’aide des différentes phases de fonctionnement du système décrites par le chronogramme et du schéma fonctionnel."
+     },
+     {
+      "numero": "IV-5",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Systèmes séquentiels : Diagramme d'états",
+        "semestre": "S1"
+       }
+      ],
+      "page": 11,
+      "tags": [
+       "grafcet"
+      ],
+      "texte": "IV-5. Établir le GRAFCET fonctionnel à partir de l’inventaire des entrées et sorties du système anti-blocage étudié (document ressource IX)."
+     },
+     {
+      "numero": "IV-6",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+        "semestre": "S2"
+       }
+      ],
+      "page": 11,
+      "tags": [
+       "roulements",
+       "embrayage / frein",
+       "tolérances géométriques",
+       "dessin / conception sur calque"
+      ],
+      "texte": "IV-6. Existe-t-il un cas d’utilisation du véhicule pour lequel les spécifications modélisées précédemment ne permettraient pas au système de freinage de fonctionner correctement ? V. Conception de la transmission finale Cette partie conduit à la conception du sous-ensemble transmission finale et roue arrière. La transmission du mouvement entre la couronne et la jante s’appuie sur un système par 11 Tournez la page S.V.P. obstacles similaire à des crabots axiaux. Pour amortir les chocs dans la transmission, on utilise quatre pièces en élastomère. La vue d’ensemble du système sur la jante et des crabots est fournie sur le document ressource X. L’ensemble des liaisons pivots et rotules sera réalisé à l’aide de roulements à billes (document ressource XI). Il est demandé de répondre sur le calque pré-imprimé format A3 document réponse 5 (à rendre non plié avec la copie) et comprenant 3 vues (la coupe A-A, la vue de gauche partielle et la vue de droite à dessiner). Une attention particulière sera portée sur la qualité graphique, sur les ajustements fonctionnels permettant le fonctionnement et le montage ainsi qu’à la définition des formes nécessaires à la compréhension du système. En s’in"
+     }
+    ]
+   }
+  ]
+ }
+}

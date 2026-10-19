@@ -1,0 +1,655 @@
+{
+ "concours": "Banque PT",
+ "filiere": "SIB",
+ "date": "2011",
+ "file": "BPT_SIB_2011.pdf",
+ "status": 200,
+ "source": "banquept.fr, rubrique « Annales d'annales » (rubrique23.html)",
+ "epreuve_originale": "SI B",
+ "classification": "automatique par mots-clés (Claude, oct. 2026) — moins fine que celle des sujets récents",
+ "decoupage_questions": "Qn",
+ "texte_ocr": true,
+ "pages_sujet": 19,
+ "pages_total": 40,
+ "data": {
+  "parties": [
+   {
+    "titre_partie": "C - Etude de conception en construction mécanique",
+    "questions": [
+     {
+      "numero": "Q1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dynamique : Géométrie des masses",
+        "semestre": "S3"
+       }
+      ],
+      "page": 7,
+      "tags": [],
+      "texte": "Q1 Inscrire votre réponse dans le cadre R1 de la notice 1/3. Donner l’expression de la matrice d’inertie de l’ensemble Ecadre au point A, dans la base B1 : I ( A, B1 ) ."
+     },
+     {
+      "numero": "Q2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Frottements",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+        "semestre": "S3"
+       }
+      ],
+      "page": 7,
+      "tags": [],
+      "texte": "Q2 Inscrire votre réponse dans le cadre R2 de la notice 1/3. G G Exprimer la projection sur y0 du moment dynamique G A, Ecadre / 0 de l’ensemble Ecadre par rapport au sol 0 au point A. T7/19 Tournez la page S.V.P.\u0003 On note P le paramètre de frottement visqueux d’un amortisseur 22-23."
+     },
+     {
+      "numero": "Q3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       }
+      ],
+      "page": 8,
+      "tags": [],
+      "texte": "Q3 Inscrire votre réponse dans le cadre R3 de la notice 1/3. Donner l’expression vectorielle de l’effort appliqué par une tige G d’amortisseur 23 sur l’ensemble Ecadre : F23o1 au point M en fonction de P et • de la valeur algébrique de la vitesse d’allongement de l’amortisseur : l am ."
+     },
+     {
+      "numero": "Q4",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+        "semestre": "S3"
+       }
+      ],
+      "page": 8,
+      "tags": [],
+      "texte": "Q4 Inscrire votre réponse dans le cadre R4 de la notice 1/3. En isolant l’ensemble Ecadre et en appliquant le théorème du moment G dynamique au point A en projection sur y0 , écrire la relation liant D10 et ses • dérivées successives, à l am , ainsi qu’aux différentes propriétés de masse et aux différents paramètres géométriques. On ne cherchera pas à éliminer l’angle D 220 de l’équation obtenue. Cette équation différentielle du second ordre non linéaire ne possède pas de solution analytique. On fait alors appel à un logiciel permettant de réaliser une intégration numérique de cette équation. Les figures 11 et 12, document 5, page D5/8 donnent alors les • évolutions de D10 et D 10 respectivement en fonction du temps. Dans cette simulation, la présence du sol n’est pas prise en compte."
+     },
+     {
+      "numero": "Q5",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
+        "semestre": "S1"
+       }
+      ],
+      "page": 8,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "Q5 Inscrire votre réponse dans le cadre R5 de la notice 1/3. A l’aide de ces courbes, relever l’instant auquel le tapis entre en contact • avec le sol. En déduire la vitesse angulaire D 10 au moment de l’impact, et donner un ordre de grandeur de la vitesse d’impact sachant que la distance du point A au point de contact vaut environ 1,5m. Conclure vis-à-vis du cahier des charges. C.2.2 - Etude de la fonction « Permettre différents cycles d’entraînement » C.2.2.1 - Etude du dispositif d’inclinaison Objectifs de l’étude : \u0010 Déterminer la loi entrée-sortie allongement du vérin/angle d’inclinaison afin de choisir la course du vérin ; \u0010 Déterminer l’effort maximum développé par le vérin en vue de sa validation en terme de charge statique ; \u0010 Vérifier le dimensionnement du levier 4 ; \u0010 Etudier l’irréversibilité de la chaîne de transformation de mouvement ; \u0010 Déterminer les conditions de montage. \u0003 Données : On note (se reporter au schéma cinématique de la figure 4, document 1, page D1/8) : G G G \u0010 B3 ( x3 , y0 , z3 ) la base associée à la bielle 3 ; T8/19 \u0003 \u0001 la base associée au levier 4 ; \u0001 la base associée au corps du vérin 5. On utilise également les bases introduites dans la section p"
+     },
+     {
+      "numero": "Q6",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
+        "semestre": "S1"
+       }
+      ],
+      "page": 9,
+      "tags": [],
+      "texte": "Q6 Inscrire votre réponse dans le cadre R6 de la notice 1/3. Faire le bilan des paramètres variables. Indiquer le nombre d’équations qui doivent être écrites afin de déterminer la loi entrée-sortie souhaitée. \u0001"
+     },
+     {
+      "numero": "Q7",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Fermeture géométrique",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 9,
+      "tags": [
+       "traitement thermique",
+       "hydraulique"
+      ],
+      "texte": "Q7 Inscrire votre réponse dans le cadre R7 de la notice 1/3. Dans le tableau proposé sur la notice justificative, indiquer pour chaque fermeture de chaîne traitée : \u0001 Les solides constituant la chaîne de solides considérée ; \u0001 La fermeture de chaîne sous forme vectorielle, en faisant apparaître les points considérés ; \u0001 La projection de ces équations dans le plan . Le tableau comporte au moins le nombre de cases nécessaire ; toutes les cases ne doivent donc pas forcément être remplies. Les différentes équations de fermeture de chaîne ayant été obtenues, on constate que celles-ci ne permettent pas d’écrire sous forme explicite la loi entrée-sortie. La résolution de ces équations est alors donnée sous forme numérique sur la figure 13, document 6, page D6/8. La figure 19, document 8, page D8/8 fournit la documentation technique associée au vérin employé."
+     },
+     {
+      "numero": "Q8",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Capteurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 9,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "Q8 Inscrire votre réponse dans le cadre R8 de la notice 1/3. Indiquer à l’aide de ce document quelle doit être la course du vérin. Commenter l’aspect linéaire de la courbe et conclure vis-à-vis de la mesure de l’angle (on rappelle que la rotation de la vis du vérin est mesurée par un potentiomètre)."
+     },
+     {
+      "numero": "Q9",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Accélérations",
+        "semestre": "S1"
+       }
+      ],
+      "page": 9,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "Q9 Inscrire votre réponse dans le cadre R9 de la notice 1/3. Calculer le temps nécessaire pour passer de l’inclinaison de 0% à l’inclinaison maxi de 12%. \u0001 T9/19 Tournez la page S.V.P.\u0001 On cherche à présent à déterminer l’effort maximal que doit développer le vérin afin de maintenir le tapis à l’équilibre. On se contente ici d’une étude dans le domaine statique car l’élévation du tapis se fait à une vitesse quasi-constante et les accélérations mises en jeu sont faibles. L’étude est faite dans le cas le plus défavorable. On considère le coureur ayant la masse maximum indiquée dans le cahier des charges, c’est-à-dire 130 kg. Il est positionné le plus en avant sur la bande de course. Le cadre est en position horizontale : . L’étude est menée dans le plan. Les glisseurs seront introduits de la façon suivante : en M, pour une liaison entre les solides et , la résultante d’actions mécaniques est notée où est la base de projection. On pourra également noter ce vecteur avec un vecteur unitaire. \u0001 Données : \u0001 L’action de pesanteur sur le coureur est notée s’appliquant en Gcoureur ; \u0001 L’action de pesanteur sur le cadre supérieur ainsi que toutes les pièces qu’il supporte est notée s’appliqua"
+     },
+     {
+      "numero": "Q10",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 10,
+      "tags": [],
+      "texte": "Q 10 Inscrire votre réponse dans le cadre R10 de la notice 1/3. Déterminer les directions des efforts en A, B, C, D, E et F. Indiquer notamment dans le tableau proposé les isolements successifs réalisés, et pour chaque isolement l’(les) effort(s) pour lequel(lesquels) la direction a été déduite. Réaliser sur la figure proposée la construction graphique associée. On note : l’effort en C et l’effort en D."
+     },
+     {
+      "numero": "Q11",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 10,
+      "tags": [],
+      "texte": "Q 11 Inscrire votre réponse dans le cadre R11 de la notice 1/3. Préciser l’isolement et le théorème utilisé permettant de montrer que . Cette relation reste-t-elle valable quelque soit l’angle d’inclinaison du cadre supérieur ? On note : l’effort en E. T10/19 \u0001"
+     },
+     {
+      "numero": "Q12",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 11,
+      "tags": [],
+      "texte": "Q12 Inscrire votre réponse dans le cadre R12 de la notice 1/3. Préciser l’isolement et le théorème utilisé permettant de déterminer X E . En G déduire l’expression de E3o1 ."
+     },
+     {
+      "numero": "Q13",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Capteurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 11,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "Q13 Inscrire votre réponse dans le cadre R13 de la notice 1/3. Préciser l’isolement et le théorème utilisé permettant de déterminer l’effort développé par le vérin. On se contentera de faire le bilan des actions mécaniques extérieures en donnant pour chacun des vecteurs l’expression sous laquelle ils seront recherchés. Des angles supplémentaires peuvent être introduits. La résolution n’est pas demandée. \u0003 Une étude numérique permet de montrer que l’effort développé par le vérin dans cette configuration la plus défavorable vaut 2350N. \u0003"
+     },
+     {
+      "numero": "Q14",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       }
+      ],
+      "page": 11,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "Q14 Inscrire votre réponse dans le cadre R14 de la notice 1/3. Conclure sur le choix du vérin. \u0003 L’étude statique qui vient d’être menée à permis de montrer que le levier 4 était une des pièces les plus sollicitées. On cherche à présent à vérifier son dimensionnement. La figure 14, document 6, page D6/8 permet de préciser la forme du levier 4. Il est constitué de deux barres parallèles de section rectangulaire (allant des points B à D). Une barre de section carrée creuse permet de les relier (allant des points O1 à O3). C’est cette barre de liaison qui est la plus sollicitée. On note O1 et O3 les points situés aux extrémités de la barre de liaison (points d’attache de la barre de liaison avec les barres parallèles), et O2 le point milieu. On donne : JJJJJG JJJJJG L G G G G O3O2 = O2O1 = y0 . Le vérin électrique applique au point C, l’effort C6 o4 = Z C .z0 + X C .x0 . On 2 JJJJG G a O2 C = d . x0 . G Compte tenu de la forte épaisseur des barres parallèles suivant la direction z0 , les G sections extrêmes de la barre de liaison ne peuvent pas tourner autour de ( O1 y0 ) . En G revanche, leur faible épaisseur suivant y0 autorise les sections extrêmes à tourner G G respectivement auto"
+     },
+     {
+      "numero": "Q15",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       }
+      ],
+      "page": 12,
+      "tags": [],
+      "texte": "Q15 Inscrire votre réponse dans le cadre R15 de la notice 1/3. Compte tenu du modèle de liaison retenu aux points O1 et O3, donner la forme des torseurs d’actions mécaniques ª¬TO1 º¼ et ª¬TO3 º¼ . Compte tenu de la symétrie du modèle, écrire les relations supplémentaires obtenues entre les inconnues de ces deux torseurs."
+     },
+     {
+      "numero": "Q16",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 12,
+      "tags": [],
+      "texte": "Q16 Inscrire votre réponse dans le cadre R16 de la notice 1/3. Déterminer entièrement le torseur ª¬TO1 º¼ en fonction de Z C , X C et des différentes dimensions."
+     },
+     {
+      "numero": "Q17",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Résistance des matériaux : Torseur de cohésion",
+        "semestre": "S3"
+       }
+      ],
+      "page": 12,
+      "tags": [],
+      "texte": "Q17 Inscrire votre réponse dans le cadre R17 de la notice 1/3. En déduire le torseur de cohésion, noté [Tcoh ] ,sur les tronçons [O3O2] et [O2O1]."
+     },
+     {
+      "numero": "Q18",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       }
+      ],
+      "page": 12,
+      "tags": [],
+      "texte": "Q18 Inscrire votre réponse dans le cadre R18 de la notice 1/3. Conclure sur la nature des sollicitations dans la barre de liaison. Ce cas d’étude étant trop complexe, on se limite uniquement à regarder l’effet de la G G flexion dans le plan ( O2 , y0 , z0 ) . Le moment de flexion maximum est alors donné par : L.Z C M fx = 4 Pour les applications numériques, on utilisera les valeurs suivantes : h = 25mm L = 400mm I Qx = 15000mm 4 ZC = 1500 N"
+     },
+     {
+      "numero": "Q19",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 12,
+      "tags": [],
+      "texte": "Q19 Inscrire votre réponse dans le cadre R19 de la notice 1/3. Donner l’expression littérale du moment quadratique I Qx de la section de la G barre par rapport à l’axe ( Qx0 ) . T12/19 \u0003"
+     },
+     {
+      "numero": "Q20",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       }
+      ],
+      "page": 13,
+      "tags": [],
+      "texte": "Q20 Inscrire votre réponse dans le cadre R20 de la notice 1/3. Donner l’expression littérale de la contrainte maximale."
+     },
+     {
+      "numero": "Q21",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 13,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "Q21 Inscrire votre réponse dans le cadre R21 de la notice 1/3. Donner une valeur approchée de la contrainte maximale. On s’aperçoit alors que le niveau de contraintes dans le levier est relativement important. Une étude plus précise doit être menée. On utilise alors un logiciel de calculs par éléments finis. Celui-ci permet alors d’estimer une contrainte équivalente maximale (au niveau de l’attache avec le vérin) d’environ 300 MPa."
+     },
+     {
+      "numero": "Q22",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Statique : Frottements",
+        "semestre": "S2"
+       }
+      ],
+      "page": 13,
+      "tags": [
+       "liaison hélicoïdale / vis-écrou",
+       "hydraulique"
+      ],
+      "texte": "Q22 Inscrire votre réponse dans le cadre R22 de la notice 1/3. Après avoir rappelé la signification de la désignation normalisée S235, conclure sur la possibilité d’utiliser ce matériau. Proposer un autre matériau, et préciser la signification de la désignation normalisée employée. On cherche à présent à étudier le comportement du système vis-écrou faisant partie du vérin d’inclinaison, notamment lors des phases d’arrêt du vérin lorsque l’inclinaison souhaitée a été atteinte. La vis est à filet rectangulaire définie par : \u0010 Son pas p ; \u0010 Son angle d’hélice i positif (filet à droite), calculé sur le rayon moyen : p tan i = . 2.S .rmoy On suppose que la vis V est animée d’un mouvement de rotation par rapport à l’écrou G 6, négative selon x5 . Compte tenu des actions que supporte le vérin, le rattrapage de jeu entre la vis V et l’écrou 6 se fait comme représenté sur la figure 16, document 7, page D7/8. Soit f = tan M le coefficient de frottement entre la vis V et l’écrou 6. La figure 17, document 7, page D7/8 précise les différentes bases utilisées. Sur une surface dS entourant un point M situé sur le filet, l’action de la vis V sur l’écrou 6 se caractérise par : \u0010 Une composante norm"
+     },
+     {
+      "numero": "Q23",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 14,
+      "tags": [],
+      "texte": "Q23 Inscrire votre réponse dans le cadre R23 de la notice 1/3. Compléter la figure de calcul proposée en faisant apparaître en couleur les composantes dN et dT ."
+     },
+     {
+      "numero": "Q24",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Statique : Frottements",
+        "semestre": "S2"
+       }
+      ],
+      "page": 14,
+      "tags": [
+       "liaison hélicoïdale / vis-écrou"
+      ],
+      "texte": "Q24 Inscrire votre réponse dans le cadre R24 de la notice 1/3. En intégrant l’effort local mis en place à la question précédente sur toute la surface de contact entre la vis V et l’écrou 6, exprimer X V o6 en fonction de ³³ p.dS (S représente la totalité de la surface hélicoïdale sur laquelle l’écrou S et la vis sont en contact), de l’angle d’hélice i et du coefficient de frottement f."
+     },
+     {
+      "numero": "Q25",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Frottements",
+        "semestre": "S2"
+       }
+      ],
+      "page": 14,
+      "tags": [],
+      "texte": "Q25 Inscrire votre réponse dans le cadre R25 de la notice 1/3. Procéder de façon identique pour exprimer LV o6 en fonction de ³³ p.dS , du S rayon moyen rmoy de l’angle d’hélice i et du coefficient de frottement f ."
+     },
+     {
+      "numero": "Q26",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Frottements",
+        "semestre": "S2"
+       }
+      ],
+      "page": 14,
+      "tags": [],
+      "texte": "Q26 Inscrire votre réponse dans le cadre R26 de la notice 1/3. En déduire l’expression de LV o6 en fonction de X V o6 en fonction de rmoy , i et de l’angle de frottement M ."
+     },
+     {
+      "numero": "Q27",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Frottements",
+        "semestre": "S2"
+       }
+      ],
+      "page": 14,
+      "tags": [],
+      "texte": "Q27 Inscrire votre réponse dans le cadre R27 de la notice 1/3. Quelle condition faut-il vérifier pour que le système soit irréversible ? Ici l’angle d’hélice vaut : i | 3,5° ."
+     },
+     {
+      "numero": "Q28",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Frottements",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
+        "semestre": "S1"
+       }
+      ],
+      "page": 14,
+      "tags": [
+       "lubrification",
+       "hydraulique"
+      ],
+      "texte": "Q28 Inscrire votre réponse dans le cadre R28 de la notice 1/3. Sachant que la vis V et l’écrou 6 sont en acier, et que le montage est graissé, donner un ordre de grandeur du coefficient de frottement f . Donner alors la valeur approximative de l’angle de frottement M correspondant. Conclure sur le caractère irréversible du vérin. Quel est l’intérêt dans le cadre du tapis de course ? T14/19 \u0003 Nous allons maintenant étudier les conditions d’assemblage du dispositif d’inclinaison. On considère le schéma cinématique de la figure 4, document 1, page D1/8."
+     },
+     {
+      "numero": "Q29",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Statique : Hyperstatisme",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Correcteurs : Correcteur numérique",
+        "semestre": "S4"
+       }
+      ],
+      "page": 15,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "Q29 Inscrire votre réponse dans le cadre R29 de la notice 1/3. Déterminer le degré d’hyperstatisme du modèle proposé. Le développement du calcul n’est pas demandé ; on demande juste de détailler les mobilités du modèle retenu. Parmi les contraintes géométriques qui doivent être maîtrisées, il faut entre autres imposer : \u0010 Une contrainte de parallélisme entre les axes de fixation du levier 4 sur le cadre supérieur 1 et les axes des galets roulant sur le cadre inférieur 2 ; \u0010 Une contrainte de symétrie entre les deux plans intérieurs des barres parallèles du levier et la patte de fixation de la tige de vérin 6."
+     },
+     {
+      "numero": "Q30",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+        "semestre": "S2"
+       }
+      ],
+      "page": 15,
+      "tags": [
+       "courroie / chaîne"
+      ],
+      "texte": "Q30 Inscrire votre réponse dans le cadre R30 de la notice 1/3. Compléter le dessin de définition en faisant apparaître ces deux tolérances géométriques. Il ne s’agit pas ici de quantifier l’étendue de la zone de tolérance ; elle sera notée « t ». C.2.2.2 - Etude de la motorisation du tapis Objectifs de l’étude : \u0010 Valider la cohérence entre la vitesse maxi du moteur et la vitesse de défilement maxi du tapis ; \u0010 Déterminer le temps nécessaire pour atteindre la vitesse de défilement maxi du tapis ; Données : On note (se reporter au schéma cinématique de la figure 6, document 2, page D2/8, et à la documentation du moteur de la figure 18, document 8, page D8/8) : \u0010 J M l'inertie de l'ensemble rotor du moteur et volant d'inertie 84 ; \u0010 J TM l'inertie du tambour moteur 12 et de la poulie réceptrice 12 ; \u0010 J TR l'inertie du tambour récepteur 13 ; \u0010 RPM = 17,5mm le rayon de la poulie motrice 84 ; \u0010 RPR = 48mm le rayon de la poulie réceptrice 12 ; \u0010 RTM = 60mm le rayon du tambour moteur 12 ;\u0003 \u0010 RTR = 50mm le rayon du tambour récepteur 13 ; \u0010 N M la vitesse de rotation du moteur, en tr.min-1. On note ZM son expression en rad.s-1. \u0010 CM le couple moteur exercé sur le rotor. T15/19 Tournez la p"
+     },
+     {
+      "numero": "Q31",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 16,
+      "tags": [],
+      "texte": "Q31 Inscrire votre réponse dans le cadre R31 de la notice 1/3. Donner l’expression littérale de la vitesse linéaire du tapis, Vtapis en km.h-1, en fonction de N M , RPM , RPR , RTM . Effectuer l'application numérique donnant la vitesse linéaire maximale en km.h-1 ; conclure quant au respect du cahier des charges. Dans la suite, on considère que le coureur n'est pas sur le tapis. On cherche le temps mis pour passer d'une vitesse de défilement de 0 km.h-1 à 18 km.h-1. On fait l'hypothèse que le système n'est pas asservi en vitesse. Hypothèse : la masse du tapis est négligée."
+     },
+     {
+      "numero": "Q32",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Énergétique : Inertie équivalente",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+        "semestre": "S1"
+       }
+      ],
+      "page": 16,
+      "tags": [
+       "courroie / chaîne"
+      ],
+      "texte": "Q32 Inscrire votre réponse dans le cadre R32 de la notice 1/3. Exprimer l'énergie cinétique de l'ensemble E={poulie et rotor moteur 84 ; tambour moteur 12 ; poulie réceptrice 12 ; tambour récepteur 13}, en fonction de J M , J TM , J TR , des données géométriques, et de ZM ( t ) uniquement ; en déduire l'inertie équivalente J éq de cet ensemble ramenée sur l'arbre moteur. Hypothèse : les liaisons sont parfaites."
+     },
+     {
+      "numero": "Q33",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Machines électriques : Machine à courant continu",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       }
+      ],
+      "page": 16,
+      "tags": [],
+      "texte": "Q33 Inscrire votre réponse dans le cadre R33 de la notice 1/3. En isolant l'ensemble E, et en appliquant le théorème de l'énergie cinétique, donner l'équation différentielle liant la vitesse angulaire du moteur ZM ( t ) à J éq et au couple moteur CM . Le moteur utilisé est un moteur électrique à courant continu Son comportement peut être modélisé par les équations suivantes: \u0010 U ( t ) = e ( t ) + R.i ( t ) \u0003 \u0010 CM ( t ) = K t .i ( t ) \u0003 \u0010 e ( t ) = K e .ZM ( t ) \u0003 avec \u0010 U ( t ) : tension d'induit en V ; \u0010 i ( t ) courant d'induit en A ; \u0010 e ( t ) : force contre-électromotrice en V ; \u0010 R : résistance d'induit ; \u0010 Kt \u0003: la constante de couple en Nm.A-1 ; T16/19 \u0003 \u0010 K e : constante de force contre-électromotrice en V.s.rad-1. Dans la suite, on considèrera K t = K e Ǥ"
+     },
+     {
+      "numero": "Q34",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       }
+      ],
+      "page": 17,
+      "tags": [],
+      "texte": "Q34 Inscrire votre réponse dans le cadre R34 de la notice 1/3. En utilisant les équations du moteur électrique fournies, en déduire l'équation différentielle liant la vitesse angulaire du moteur ZM ( t ) à J éq , Kt • et U ( t ) . Elle sera mise sous la forme : Z M ( t ) + A.Z M ( t ) = B.U ( t ) où A et B sont des constantes à déterminer."
+     },
+     {
+      "numero": "Q35",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 17,
+      "tags": [],
+      "texte": "Q35 Inscrire votre réponse dans le cadre R35 de la notice 1/3. Dans le cas où le moteur est alimenté à tension U ( t ) = U 0 constante, donner l’expression de ZM ( t ) , solution de cette équation différentielle. \u00102 2 On donne J éq | 3,1.10 kg.m ."
+     },
+     {
+      "numero": "Q36",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 17,
+      "tags": [],
+      "texte": "Q36 Inscrire votre réponse dans le cadre R36 de la notice 1/3. Dans le cas où on alimente le moteur à la tension maximale indiquée dans le document 8, page D8/8, estimer la vitesse de rotation du moteur, puis la vitesse de défilement du tapis, à t = 0, 25s ."
+     },
+     {
+      "numero": "Q37",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Machines électriques : Machine à courant continu",
+        "semestre": "S4"
+       }
+      ],
+      "page": 17,
+      "tags": [],
+      "texte": "Q37 Inscrire votre réponse dans le cadre R37 de la notice 1/3. Donner l’expression du courant d’induit i ( t ) . Estimer la valeur de ce courant à t = 0 s et t = 0, 25s ."
+     },
+     {
+      "numero": "Q38",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 17,
+      "tags": [],
+      "texte": "Q38 Inscrire votre réponse dans le cadre R38 de la notice 1/3. Pour préserver le moteur, le courant est saturé à imax = 7,5 A . Donner alors la nouvelle expression de ZM ( t ) . En déduire le temps nécessaire pour atteindre la vitesse de défilement du tapis de 18 km.h-1."
+     },
+     {
+      "numero": "Q39",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 17,
+      "tags": [
+       "courroie / chaîne",
+       "dessin / conception sur calque"
+      ],
+      "texte": "Q39 Inscrire votre réponse dans le cadre R39 de la notice 1/3. Compte tenu du temps de montée en vitesse indiqué dans le cahier des charges, comment peut-on imaginer que le moteur est commandé ? C.3 - Dessin d’étude de construction mécanique C.3.1 - Présentation des supports de travail Pour cette partie de l’étude, il vous est demandé de définir plusieurs sous-ensembles du mécanisme sur le calque format A3 fourni avec le sujet. Les éléments pré imprimés sur ce calque sont destinés à faciliter la mise en place des différents composants. T17/19 Tournez la page S.V.P.\u0003 Zone 1 Zone 3 Guidage du tambour moteur Dispositif de réglage de la tension du tapis Zone 2 Dispositif de réglage de la tension de la courroie poly V Figure 2 : Mise en page du calque pré imprimé fourni C.3.2 - Consignes spécifiques aux travaux graphiques Les dessins sont à exécuter à l’échelle 1:1, aux instruments, avec pour l’essentiel mise au net au crayon respectant les épaisseurs de traits normalisées et les exigences d’une bonne lisibilité ; seuls les"
+     }
+    ]
+   }
+  ]
+ }
+}

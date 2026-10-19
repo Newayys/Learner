@@ -1,0 +1,959 @@
+{
+ "concours": "Banque PT",
+ "filiere": "SIA",
+ "date": "2010",
+ "file": "BPT_SIA_2010.pdf",
+ "status": 200,
+ "source": "banquept.fr, rubrique « Annales d'annales » (rubrique23.html)",
+ "epreuve_originale": "SI A",
+ "classification": "automatique par mots-clés (Claude, oct. 2026) — moins fine que celle des sujets récents",
+ "decoupage_questions": "Question",
+ "texte_ocr": true,
+ "pages_sujet": 32,
+ "pages_total": 61,
+ "data": {
+  "parties": [
+   {
+    "titre_partie": "B - ANALYSE FONCTIONNELLE",
+    "questions": [
+     {
+      "numero": "Q1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 9,
+      "tags": [],
+      "texte": "Question 1 : Compléter le SADT de niveau 0."
+     },
+     {
+      "numero": "Q2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 9,
+      "tags": [],
+      "texte": "Question 2 : Compléter la décomposition fonctionnelle partielle en indiquant les solutions retenues sur la machine ou les fonctions associées aux solutions."
+     },
+     {
+      "numero": "Q3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 9,
+      "tags": [],
+      "texte": "Question 3 : Compléter le diagramme des liaisons de l'ensemble cinématique de l'outil."
+     },
+     {
+      "numero": "Q4",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Statique : Hyperstatisme",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Métrologie : Contrôle tridimensionnel",
+        "semestre": "S3"
+       }
+      ],
+      "page": 9,
+      "tags": [],
+      "texte": "Question 4 : En déduire, en le justifiant, le degré d'hyperstatisme de l'ensemble cinématique de l'outil. A présent, nous allons travailler sur la translation de la plateforme P4 pour mieux en définir les caractéristiques qui guideront la conception mécanique et de commande. ____________________________________________________________________________ 9/31 Partie B : Analyse fonctionnelle TOURNEZ LA PAGE S.V.P. C - ANALYSE DE LA FONCTION PERMETTRE UN ARRÊT D'URGENCE Cette machine-outil dispose d’un certain nombre de boutons poussoirs à accrochage permettant de couper l’alimentation générale de la machine à tout instant pour des raisons sécuritaires. Le cahier des charges fonctionnelles fait apparaître une fonction PERMETTRE UN ARRÊT D'URGENCE (Tableau 4). Tableau 4 : Extrait du CdCF Fonction Critère Niveau Variabilité technique d'appréciation ¤ Redondance ¤ être robuste ¤ Aucune simple PERMETTRE UN (redondance) ¤ Un autocontrôle ARRÊT D'URGENCE ¤ Adaptatif ¤ Aucune avec verrouillage (autocontrôle) en défaut • Le système doit donc pouvoir pallier à certaines défaillances d’un organe qui le compose (redondance). • Le système doit également vérifier automatiquement le fonctionnement de"
+     }
+    ]
+   },
+   {
+    "titre_partie": "C - ANALYSE DE LA FONCTION PERMETTRE UN ARRÊT D'URGENCE",
+    "questions": [
+     {
+      "numero": "Q5",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Métrologie : Contrôle tridimensionnel",
+        "semestre": "S3"
+       }
+      ],
+      "page": 11,
+      "tags": [],
+      "texte": "Question 5 : Donner les équations Booléennes du contacteur d’arrêt d’urgence KAU (Folio 17) et du contacteur de mise en service KAMG (Folio 21). L’équation de l’automate programmable comprise entre les équipotentielles 24VC et A320 notée SECURITE AUTOMATE (A320) sera représentée par la variable Booléenne SA. ____________________________________________________________________________ ____________________________________________________________________________ 11/31 Partie C : Effectuer un arrêt d'urgence TOURNEZ LA PAGE S.V.P. C.2 Système d’arrêt d’urgence évolué Lors de l’action sur le bouton poussoir à accrochage d’arrêt d’urgence SB1, le Triptéor doit s’arrêter. Cette information peut ne pas être prise en compte si : • Le contact de SB1 est défaillant : il reste fermé (collage ou pontage par une tierce personne du contact). La bobine de KAU reste donc alimentée et le contact KAU sur le Folio 21 reste fermé. • Le contacteur KAU est défaillant : Le contact de KAU, sur le Folio 21, reste collé. Afin d’augmenter la robustesse du système on désire mettre en place une gestion redondante et d’autocontrôle (Capacité du système de vérifier son propre fonctionnement) de la commande d’arrê"
+     },
+     {
+      "numero": "Q6",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 12,
+      "tags": [],
+      "texte": "Question 6 : Donner l’équation Booléenne du potentiel Y1 par rapport à la masse des relais auxiliaires KA1 et KA2 en fonction de SB1a et SB1b. On notera «0» l’état d’un bouton ou contact si aucune action n’est exercée dessus (état repos). On notera «1» l’état d’un bouton ou contact si une action est exercée dessus (état travail)."
+     },
+     {
+      "numero": "Q7",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Métrologie : Contrôle tridimensionnel",
+        "semestre": "S3"
+       }
+      ],
+      "page": 12,
+      "tags": [],
+      "texte": "Question 7 : Finir de remplir les tables de vérité d’évolution des variables (on indice « n » l’état des variables suite à une demande et « n+1 » le nouvel état des variables consécutif à cette demande). Pour chacun des deux cas, le système fait-il preuve de redondance ou d’autocontrôle ? Si oui à quelle(s) phase(s)."
+     },
+     {
+      "numero": "Q8",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Métrologie : Contrôle tridimensionnel",
+        "semestre": "S3"
+       }
+      ],
+      "page": 12,
+      "tags": [],
+      "texte": "Question 8 : On a effacé le contact originel de KAU de la gestion d’arrêt d’urgence sans redondance et autocontrôle sur le Folio 21. Tracer en lieu et place les contacts des 2 contacteurs KAU1 et KAU2 (dans le cadre pointillé) afin d’avoir une redondance du fonctionnement de l’un sur l’autre."
+     },
+     {
+      "numero": "Q9",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Précision",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 12,
+      "tags": [],
+      "texte": "Question 9 : Conclure quant au respect des contraintes émises sur l’extrait du CdCF (Tableau 4). ____________________________________________________________________________ 12/31 Partie C : Effectuer un arrêt d'urgence D - ANALYSE DE LA FONCTION IMPOSER UNE VITESSE D'AVANCE AVEC PRÉCISION Pour répondre au besoin du client d'une machine-outil lié à la fonction de réalisation de formes complexes, le cahier des charges fonctionnelles fait apparaître une fonction IMPOSER UNE VITESSE D'AVANCE AVEC PRÉCISION (Tableau 5). Cette vitesse d'avance est engendrée par le déplacement de la broche par rapport à la pièce. Tableau 5 : Extrait du CdCF Fonction Critère d'appréciation Niveau Variabilité technique ¤ Type de réponse en IMPOSER UNE Premier dépassement : D1%=0% 0 vitesse (vélocité, VITESSE D'AVANCE Temps de réponse à 5% : tr5%<3ms 0 dépassement, AVEC PRÉCISION erreur statique : εs=0 0 précision) Nous nous intéresserons au réglage de l’Axe1 (bras1) (Figure 14) seulement (les autres axes mettant en œuvre la même méthode). Néanmoins, nous étudierons l'ensemble pour pouvoir connaître la relation entre la vitesse de l'outil (ou de la broche) et celles des axes. Les différents axes sont piloté"
+     }
+    ]
+   },
+   {
+    "titre_partie": "D - ANALYSE DE LA FONCTION IMPOSER UNE VITESSE D'AVANCE AVEC PRÉCISION",
+    "questions": [
+     {
+      "numero": "Q10",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Torseur cinématique",
+        "semestre": "S1"
+       }
+      ],
+      "page": 14,
+      "tags": [],
+      "texte": "Question 10 : Donner les expressions générales des torseurs cinématiques des liaisons entre les parties du bras B1 : au point A0, entre le bâti 0, le bras B10, V10 / 0 ; au point A0, entre le bras B10 et le bras B14, V14 / 10 ; au point A4, entre le bras B14 et la plateforme P4, V4 / 14 en fonction des paramètres donnés dans les tableaux 1 et 2."
+     },
+     {
+      "numero": "Q11",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Torseur cinématique",
+        "semestre": "S1"
+       }
+      ],
+      "page": 14,
+      "tags": [],
+      "texte": "Question 11 : En déduire pour l'Axe1, le torseur cinématique V41/ 0 de la plateforme P4 par rapport au bâti 0 au point A4."
+     },
+     {
+      "numero": "Q12",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Torseur cinématique",
+        "semestre": "S1"
+       }
+      ],
+      "page": 14,
+      "tags": [],
+      "texte": "Question 12 : Par analogie, sur l'Axe3, en déduire le torseur cinématique V43/ 0 de la plateforme P4 par rapport au bâti 0 du point C4."
+     },
+     {
+      "numero": "Q13",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Torseur cinématique",
+        "semestre": "S1"
+       }
+      ],
+      "page": 14,
+      "tags": [],
+      "texte": "Question 13 : Donner les expressions générales des torseurs cinématiques des liaisons entre les parties du bras B2 : au point B0, entre le bâti 0 et le bras B20, V20 / 0 ; au point B0, entre le bras B20 et le bras B22, V22 / 20 ; au point B0, entre le bras B22 et le bras B24, V24 / 22 et au point B4, entre le bras B24 et la plateforme P4, V4 / 24 en fonction des paramètres donnés dans les tableaux 1 et 2."
+     },
+     {
+      "numero": "Q14",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Torseur cinématique",
+        "semestre": "S1"
+       }
+      ],
+      "page": 14,
+      "tags": [],
+      "texte": "Question 14 : En déduire sur l'Axe2, le torseur cinématique V42/ 0 de la plateforme P4 par rapport au bâti 0 au point B4."
+     },
+     {
+      "numero": "Q15",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Torseur cinématique",
+        "semestre": "S1"
+       }
+      ],
+      "page": 14,
+      "tags": [],
+      "texte": "Question 15 : La plateforme P4 est un solide indéformable. En ne considérant que les torseurs cinématiques de la plateforme P4 par rapport au bâti 0 aux points A4 et C4, donner les premières relations vectorielles qui existent entre les paramètres. On n'effectuera pas le calcul des produits vectoriels qui seront laissés tels quels."
+     },
+     {
+      "numero": "Q16",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 14,
+      "tags": [],
+      "texte": "Question 16 : La liaison pivot sur l'Axe2 est-elle nécessaire ? Argumenter."
+     },
+     {
+      "numero": "Q17",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Machines électriques : Machine synchrone",
+        "semestre": "S4"
+       }
+      ],
+      "page": 14,
+      "tags": [
+       "usinage"
+      ],
+      "texte": "Question 17 : Justifier la présence du poignet articulé pour supporter la broche. ____________________________________________________________________________ 14/31 Partie D : Imposer une vitesse d'avance avec précision D.2 Dynamique du bras B1 (Axe1) On se place à présent dans un cas particulier pour étudier la dynamique du système et identifier certaines grandeurs dynamiques. Le mouvement étudié est une translation de l'outil r suivant l'axe ( z 0 ) sans effort d'usinage. Pour cela, on commande la translation des 2 bras B1 et B3 de façon identique. Le bras B2 est déplacé de façon à maintenir l'orientation de la plateforme. Cela implique également que les angles θ10' et θ 30' sont pris égaux à 0°. Après avoir déterminé la relation qui existe entre le déplacement de la plateforme P4 et ceux des axes, on ne s'intéressera plus qu'à la dynamique du bras B1. Une étude identique pourrait être faite pour le bras B3 (problème symétrique). Puis, on cherche à établir la relation entre la vitesse de rotation de la MSAP (Machine Synchrone AutoPilotée) M1 et la vitesse linéaire du point A4 pour garantir la vitesse de translation demandée au niveau de l'outil. Cette MSAP est associée à une vis "
+     },
+     {
+      "numero": "Q18",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Précision",
+        "semestre": "S2"
+       }
+      ],
+      "page": 17,
+      "tags": [],
+      "texte": "Question 18 : A l'aide du schéma sur le cahier réponse, écrire la relation entre le déplacement en translation U de la plateforme P4 par rapport au bâti et les longueurs initiale (λ14initiale) et finale (λ14finale) du bras B1 et de ∆θ10, variation angulaire du bras B1. On utilisera le fait que la plateforme P4 ne se déforme pas et on calculera U²."
+     },
+     {
+      "numero": "Q19",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       }
+      ],
+      "page": 17,
+      "tags": [],
+      "texte": "Question 19 : Reprendre le calcul précédent dans le cas où on néglige la variation angulaire (l'angle θ10 reste constant) et en déduire l'expression de la vitesse de o translation par rapport à ℜg de la plateforme, U , en fonction de la vitesse d'allongement o du bras B1 λ14 et de θ10 ."
+     },
+     {
+      "numero": "Q20",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       }
+      ],
+      "page": 17,
+      "tags": [],
+      "texte": "Question 20 : En utilisant les informations des documents SKF, donner la relation entre la o vitesse d'allongement du bras B1, λ14 et la vitesse angulaire de rotation de la vis à rouleaux par rapport à B10, ωvis / B10 ."
+     },
+     {
+      "numero": "Q21",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Énergétique : Puissance et rendement",
+        "semestre": "S3"
+       }
+      ],
+      "page": 17,
+      "tags": [],
+      "texte": "Question 21 : Calculer la puissance par rapport au bâti du poids des pièces B10-B10' et B14, du bras B1 dans l'hypothèse que l'angle θ10 reste constant."
+     },
+     {
+      "numero": "Q22",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Énergétique : Puissance et rendement",
+        "semestre": "S3"
+       }
+      ],
+      "page": 17,
+      "tags": [],
+      "texte": "Question 22 : Calculer la puissance par rapport au bâti de la force appliquée par la plateforme P4 sur le B14 au point A4, au cours du déplacement U de celle-ci."
+     },
+     {
+      "numero": "Q23",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Frottements",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Énergétique : Puissance et rendement",
+        "semestre": "S3"
+       }
+      ],
+      "page": 17,
+      "tags": [],
+      "texte": "Question 23 : En déduire, par application du théorème de l'énergie-puissance, une relation entre la vitesse angulaire de rotation de la MSAP de commande de l'Axe1, ωMoteur / B14 = ωvis / B10 et les forces appliquées sur le bras B1. En déduire l'expression de l'inertie ramenée à la MSAP de l'Axe1. Pour le dimensionnement complet de l'Axe1, on cherche la valeur maximale de cette inertie pour être sûr de toujours pouvoir réaliser le mouvement demandé. Cette analyse nécessite une définition plus générale de la cinétique du système. Une telle étude conduit à retenir une valeur d'inertie ramenée à l'arbre de la MSAP égale à Jeq = 0,01 kg.m². L'étude complète amène également à la conclusion qu'on ne peut négliger le frottement dans les liaisons. Celui-ci est donc pris en compte par l'introduction d'un facteur de frottement fluide égal à feq = 2,5 N.m.s. ____________________________________________________________________________ 17/31 Partie D : Imposer une vitesse d'avance avec précision TOURNEZ LA PAGE S.V.P. D.3 Modélisation de l'Axe1 : Boucle de couple Un schéma simplifié du système asservi de l’axe est le suivant (Figure 16) : Anticipation de vitesse Xref(p) Correcteur Ω ref(p) Corre"
+     },
+     {
+      "numero": "Q24",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       }
+      ],
+      "page": 20,
+      "tags": [],
+      "texte": "Question 24 : Par analyse de la réponse en couple à l’échelon d’amplitude 3, donner la transmittance type 1er ordre sous forme canonique reliant le couple de sortie C(p) au couple de référence Cref(p). On précisera sur la figure les tracés nécessaires à l’obtention de cette transmittance. Prise en compte du retard. Le résultat de la réponse à un échelon de la boucle de couple avec prise en compte du retard est donné Figure 19. cref(t) c(t) Réponse en couple à l’échelon d’amplitude trois 0,5%.Cn 0,2ms Figure 19 : Réponse en couple à l'échelon d'amplitude 3 avec prise en compte du retard"
+     },
+     {
+      "numero": "Q25",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       }
+      ],
+      "page": 20,
+      "tags": [],
+      "texte": "Question 25 : Par analyse de la réponse en couple à l’échelon d’amplitude trois avec prise en compte du retard et en reprenant la transmittance de la question 24, donner la transmittance type 1er ordre avec retard sous forme canonique reliant le couple de sortie C(p) au couple de référence Cref(p). On précisera sur la figure les tracés nécessaires à l’obtention de cette transmittance. La transmittance obtenue avec prise en compte du retard est non-linéaire. Par approximation, on cherche à linéariser cette transmittance."
+     },
+     {
+      "numero": "Q26",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Précision",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       }
+      ],
+      "page": 20,
+      "tags": [],
+      "texte": "Question 26 : En remplaçant la fonction retard pur par son développement limité à l’ordre C( p ) 1, donner la fonction de transfert approximée de la boucle de couple faisant Cref ( p ) apparaître un deuxième pôle stable. On pose, quel que soit les résultats trouvés aux questions précédentes : C( p ) 0,97 = Cref ( p ) ( 1 + 0,00025.p ).( 1 + 0 ,00015.p ) ____________________________________________________________________________ 20/31 Partie D : Imposer une vitesse d'avance avec précision"
+     },
+     {
+      "numero": "Q27",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       }
+      ],
+      "page": 21,
+      "tags": [],
+      "texte": "Question 27 : Tracer le diagramme de Bode asymptotique en gain et en phase de la C( p ) 0,97 fonction de transfert linéarisée = en fonction de la Cref ( p ) ( 1 + 0,00025.p ).( 1 + 0 ,00015.p ) pulsation ω (rad.s-1). On précisera sur le diagramme les pentes, le gain statique (sous la forme 20log(cste)) et les valeurs des phases. Un essai en régime harmonique sur le Triptéor de la boucle de couple a donné le diagramme de Bode en phase de la Figure 20. Figure 20 : Diagramme de Bode en phase de la boucle de couple Nota : Le résultat de l’analyse harmonique fourni par la C.N. 840D est compris entre ± 180°. La phase réelle comprise entre 2kHz et 4kHz est bien sur comprise entre -180° et -360°. La phase est fournie en fonction de la fréquence f (Hz)."
+     },
+     {
+      "numero": "Q28",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Capteurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 21,
+      "tags": [],
+      "texte": "Question 28 : L’évolution de la phase obtenue ci-dessus est-elle identique à celle du diagramme de Bode obtenue à la question 27 ? Argumenter votre réponse. D.4 Réglages de la boucle de vitesse D.4.1 Modèle simplifié de la boucle de vitesse Le système peut-être représenté par le schéma bloc suivant : Correcteur de vitesse Ω ref(p) KΩ .(1+TΩ .p) Filtre de Cref(p) 0,97 C(p) Ω (p) consigne Chaîne cinématique TΩ .p de couple (1+0,00025.p).(1+0,00015.p) Ω (p) Capteur de vitesse angulaire ^ Nota : On note Ω(t ) la grandeur estimée fournie par un capteur de mesure de la variable Ω(t). On dispose en bout d’arbre de la MSAP d’un capteur de position. Celui-ci fourni 2048tops/tour à la CN 840D et est considéré comme un gain pur. Ce capteur de position permet de déterminer la vitesse de rotation de l’axe. Le filtre de consigne de couple n’est pas activé (gain unitaire). ____________________________________________________________________________ 21/31 Partie D : Imposer une vitesse d'avance avec précision TOURNEZ LA PAGE S.V.P."
+     },
+     {
+      "numero": "Q29",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Capteurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Statique : Frottements",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Énergétique : Inertie équivalente",
+        "semestre": "S3"
+       }
+      ],
+      "page": 22,
+      "tags": [],
+      "texte": "Question 29 : D’après l’étude de la partie D2, l’Axe1 peut se modéliser par une inertie ramenée sur l’arbre de la MSAP Jeq = 0,01 kg.m² et un frottement fluide ramené sur Ω( p ) l’arbre de la MSAP de coefficient feq = 2,5 N.m.s. Donner la transmittance sous C( p ) forme canonique littérale puis numérique. Le capteur de position est un codeur incrémental (Figure 21). Il possède deux voies A et B fournissant des signaux en créneaux issues de 2 pistes gravées sur un disque. Les signaux A et B résultant de la rotation du disque sont pour le sens de rotation positif : Voie A t Voie B Figure 21 : Codeur incrémental t Le signal B est en quadrature arrière sur A"
+     },
+     {
+      "numero": "Q30",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Précision",
+        "semestre": "S2"
+       }
+      ],
+      "page": 22,
+      "tags": [],
+      "texte": "Question 30 : Tracer la forme du signal de la voie B pour le sens de rotation négatif."
+     },
+     {
+      "numero": "Q31",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Capteurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 22,
+      "tags": [],
+      "texte": "Question 31 : Déterminer le nombre de périodes de chaque signal sur un tour du codeur incrémental si la CN reçoit 2048 tops par tour en traitant les fronts montant et descendant des 2 voies. La conformation des signaux des voies A et B suivant le sens de rotation du disque permet d’en déduire celui-ci."
+     },
+     {
+      "numero": "Q32",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Chaîne d'information",
+        "semestre": "S1"
+       }
+      ],
+      "page": 22,
+      "tags": [],
+      "texte": "Question 32 : Comment câbler les voies A et B sur une bascule D (Delay) afin d’obtenir la sortie Q à l’état haut pour le sens de rotation positif et la sortie Q à l’état bas pour le sens de rotation négatif. Table de vérité de la bascule D : Dn CLKn Qn+1 0 0 1 1 X 0 Qn ˆ (p ) Ω"
+     },
+     {
+      "numero": "Q33",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Capteurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       }
+      ],
+      "page": 22,
+      "tags": [],
+      "texte": "Question 33 : Donner le contenu littéral de la transmittance du capteur de vitesse Ω( p ) (celle-ci est identique à celle du capteur de position). Ω( p )"
+     },
+     {
+      "numero": "Q34",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Précision",
+        "semestre": "S2"
+       }
+      ],
+      "page": 22,
+      "tags": [],
+      "texte": "Question 34 : Le modèle de la transmittance possède trois pôles simples. On Cref ( p ) désire simplifier le modèle en ne conservant que les deux modes dominant (les modes Ω( p ) les plus lents). Donner la transmittance simplifiée dans le schéma-bloc. Cref ( p ) ____________________________________________________________________________ 22/31 Partie D : Imposer une vitesse d'avance avec précision D.4.2 Réglage du correcteur de vitesse On désire compenser, avec le zéro du correcteur de vitesse, le pôle le plus lent de la chaîne directe de la boucle de vitesse."
+     },
+     {
+      "numero": "Q35",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Précision",
+        "semestre": "S2"
+       }
+      ],
+      "page": 23,
+      "tags": [],
+      "texte": "Question 35 : Pour cette stratégie de réglage quelle valeur prend TΩ ?"
+     },
+     {
+      "numero": "Q36",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
+        "semestre": "S2"
+       }
+      ],
+      "page": 23,
+      "tags": [],
+      "texte": "Question 36 : Pour cette stratégie de réglage, déterminer la fonction de transfert en Ω( p ) boucle fermée de vitesse FTBFΩ( p ) = sous forme canonique. Les valeurs Ωref ( p ) numériques apparaîtront dans le résultat sans faire les calculs de chaque coefficient. Cahier des charges : On désire la réponse la plus rapide possible sans dépassement. On pose, quel que soit le résultat trouvé à la question précédente : Ω( p ) 0,003 = Ωref ( p ) 3.10 − 5 8.10 − 9 2 1+ .p + .p KΩ KΩ"
+     },
+     {
+      "numero": "Q37",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 23,
+      "tags": [],
+      "texte": "Question 37 : Déterminer KΩ répondant à ce cahier des charges (on se limitera à 2 chiffres significatifs après la virgule). D.4.3 Comparaison avec le système réel, analyse des simplifications Dans cette partie on désire vérifier la validité du réglage réalisé sur la boucle de vitesse avec le modèle de connaissance simplifié."
+     },
+     {
+      "numero": "Q38",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       }
+      ],
+      "page": 23,
+      "tags": [],
+      "texte": "Question 38 : Déduire du réglage de KΩ de la question précédente la pulsation naturelle Ω( p ) ω0 de la fonction de transfert en boucle fermée de vitesse FTBFΩ( p ) = . Ωref ( p )"
+     },
+     {
+      "numero": "Q39",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Rapidité",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Précision",
+        "semestre": "S2"
+       }
+      ],
+      "page": 23,
+      "tags": [],
+      "texte": "Question 39 : A l’aide de l’abaque des temps de réponse réduit à 5% d’un second ordre, en déduire le temps de réponse à 5% de la boucle de vitesse. On précisera sur la figure les tracés nécessaires à l’obtention de ce temps de réponse à 5%. ____________________________________________________________________________ 23/31 Partie D : Imposer une vitesse d'avance avec précision TOURNEZ LA PAGE S.V.P. Une analyse du modèle complet (prise en compte des retards, de modes supplémentaires…) de la boucle de vitesse sous un outil de simulation des systèmes automatiques a donné, en réponse à l’échelon unitaire, le résultat suivant (Figure 22) : 0,00315 0,5.10-3 rad.s-1 0,5ms Figure 22 : Réponse à l’échelon unitaire de la boucle de vitesse"
+     },
+     {
+      "numero": "Q40",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Rapidité",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Précision",
+        "semestre": "S2"
+       }
+      ],
+      "page": 24,
+      "tags": [],
+      "texte": "Question 40 : Déterminer le temps de réponse à 5%. Comparer avec votre résultat de la question 39. Conclure. On précisera sur la figure les tracés nécessaires à l’obtention de ce temps de réponse à 5%. Un zoom de la réponse à l’échelon de la boucle de vitesse réalisé sur le Triptéor a donné le résultat suivant (Figure 23) : 0,5ms Figure 23 : Zoom sur la réponse à l'échelon de la boucle de vitesse ____________________________________________________________________________ 24/31 Partie D : Imposer une vitesse d'avance avec précision"
+     },
+     {
+      "numero": "Q41",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Rapidité",
+        "semestre": "S2"
+       }
+      ],
+      "page": 25,
+      "tags": [],
+      "texte": "Question 41 : Déterminer le temps de réponse à 5% (On précisera sur la figure les tracés nécessaires à l’obtention de ce temps de réponse à 5%, la bande ±5% a été rajouté sur l’essai en trait mixte). Comparer avec votre résultat avec ceux des questions précédentes. Conclure."
+     },
+     {
+      "numero": "Q42",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       }
+      ],
+      "page": 25,
+      "tags": [],
+      "texte": "Question 42 : La réponse du modèle complet simulé et l’essai sur le Triptéor (Figure 24) laissent apparaître un dépassement sur la réponse à l’échelon. Les choix de réglage du correcteur de vitesse devaient-il générer ce dépassement ? Argumenter. Figure 24 : courbes complètes de la réponse du modèle complet et celles de l'essai"
+     },
+     {
+      "numero": "Q43",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Précision",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       }
+      ],
+      "page": 25,
+      "tags": [],
+      "texte": "Question 43 : Conclure quant au respect des contraintes émises sur l’extrait du CdCF (Tableau 5 page 14). ____________________________________________________________________________ 25/31 Partie D : Imposer une vitesse d'avance avec précision TOURNEZ LA PAGE S.V.P. E - ANALYSE DE LA FONCTION CONTRÔLER LE DÉPLACEMENT D'AVANCE AVEC PRÉCISION Le cahier des charges fonctionnelles fait apparaître une fonction CONTRÔLER LE DÉPLACEMENT D'AVANCE AVEC PRÉCISION (Tableau 6). Tableau 6 : Extrait du CdCF Fonction Critère Niveau Variabilité technique d'appréciation CONTRÔLER LE ¤ Type de réponse Premier dépassement : D1%=0% 0 DÉPLACEMENT en position (vélocité, Temps de réponse à 5% : tr5%<40ms ±20% D'AVANCE AVEC dépassement, erreur statique : εs=0 ±0,5µm PRÉCISION précision) erreur en poursuite : εp<10µm 0 E.1 Réglage de la boucle de position E.1.1 Réglage du correcteur série de position sans anticipation avec modèle de la boucle de vitesse simplifié La boucle de vitesse simplifiée est modélisée par un gain pur de valeur 0,003. Le système peut-être représenté par le schéma bloc suivant (Figure 25) : Xref(p) Ω ref(p) Ω (p) V(p) X(p) Kx 0,003 (mm) (rad/s) (rad/s) (mm/min) (mm) X(p) Traitement et"
+     },
+     {
+      "numero": "Q44",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       }
+      ],
+      "page": 27,
+      "tags": [],
+      "texte": "Question 44 : Compléter le schéma-bloc de la boucle de position (pour simplifier les calculs on pourra poser 2.π = 6)"
+     },
+     {
+      "numero": "Q45",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       }
+      ],
+      "page": 27,
+      "tags": [],
+      "texte": "Question 45 : Déterminer, sous forme canonique, la fonction de transfert en boucle X( p ) fermée de position FTBFX( p ) = Xref( p )"
+     },
+     {
+      "numero": "Q46",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Capteurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 27,
+      "tags": [],
+      "texte": "Question 46 : Déterminer la valeur de Kx permettant d’obtenir un temps de réponse à 5% à l’échelon de 40ms. En déduire la forme canonique numérique de la fonction de X( p ) transfert en boucle fermée de position FTBFX( p ) = Xref( p ) E.1.2 Réglage du correcteur série de position sans anticipation avec modèle d’ordre 2 de la boucle de vitesse On replace la transmittance simplifiée par un gain pur de la boucle de vitesse par la transmittance d’ordre 2 de la partie D.4.2. Le capteur de position avec le système de traitement et compensation du gain de capteur peut être assimilé à un gain unitaire ; l’estimée de la position xˆ (t ) peut donc être assimilée à la valeur réelle de la position de l’axe x(t). Le système peut-être représenté par le schéma bloc suivant (Figure 26) : Xref(p) Ω ref(p) 0,003 Ω (p) V(p) X(p) Kx (mm) (rad/s) -3 -7 2 (rad/s) (mm/min) (mm) 1+10 .p+2,5.10 .p X(p) Traitement et compensation Capteur de position (mm) du gain de capteur Figure 26 : Boucle de position sans anticipation, correcteur série proportionnel, modèle de boucle de vitesse d'ordre 2"
+     },
+     {
+      "numero": "Q47",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       }
+      ],
+      "page": 27,
+      "tags": [],
+      "texte": "Question 47 : Déterminer, sous forme canonique et en fonction de Kx, la fonction de X( p ) transfert en boucle fermée de position FTBFX( p ) = . Les valeurs numériques Xref( p ) apparaîtront dans le résultat sans faire les calculs de chaque coefficient."
+     },
+     {
+      "numero": "Q48",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Stabilité",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 27,
+      "tags": [],
+      "texte": "Question 48 : Déterminer, par application du critère de ROUTH, les valeurs de Kx assurant la stabilité de la boucle de position. Conclure quant à la valeur obtenue de Kx à la question 46. X( p ) L’équation caractéristique de la boucle de position FTBFX( p ) = pour la valeur de Kx Xref( p ) obtenue à la question 47 possède trois racines de valeurs approchées : p1 = -80, p2 = -1600 et p3 = -2400."
+     },
+     {
+      "numero": "Q49",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Capteurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       }
+      ],
+      "page": 27,
+      "tags": [],
+      "texte": "Question 49 : Par analyse des constantes de temps associées aux trois racines de l’équation caractéristique ; montrer qu’une des racines est associée à un mode dominant (considéré comme lent) sur les autres. Montrer que l’on retrouve approximativement le modèle simplifié de la question 45 de la fonction de transfert de la boucle de X( p ) position FTBFX( p ) = . Xref( p ) ____________________________________________________________________________ 27/31 Partie E : Contrôler le déplacement d'avance avec précision TOURNEZ LA PAGE S.V.P. E.1.3 Précision de la boucle de position La boucle de vitesse est de nouveau modélisée par un modèle simple : un gain pur de 0,003. Le système peut-être représenté par le schéma bloc suivant (Figure 27) : Xref(p) Ω ref(p) Ω (p) V(p) X(p) Kx 0,003 (mm) (rad/s) (rad/s) (mm/min) (mm) X(p) Traitement et compensation Capteur de position (mm) du gain de capteur Figure 27 : Boucle de position sans anticipation, correcteur série proportionnel, modèle de la boucle de vitesse de type gain pur Le capteur de position avec le système de traitement et compensation du gain de capteur peut être assimilé à un gain unitaire ; l’estimée de la position xˆ (t ) peut donc "
+     },
+     {
+      "numero": "Q50",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Précision",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       }
+      ],
+      "page": 28,
+      "tags": [],
+      "texte": "Question 50 : Déterminer l’erreur statique de position en réponse à l’échelon unitaire."
+     },
+     {
+      "numero": "Q51",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Précision",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Correcteurs : Proportionnel-intégral",
+        "semestre": "S4"
+       }
+      ],
+      "page": 28,
+      "tags": [],
+      "texte": "Question 51 : Déterminer l’erreur de poursuite en position (erreur de position en réponse à la rampe de pente unitaire). Conclure quant au respect du cahier des charges en précision (Tableau 6, page 26). Afin de supprimer cette erreur de poursuite en position, on choisit d’implanter un correcteur proportionnel intégral (CPI) à la place du correcteur proportionnel Kx précédent. Le système peut-être représenté par le schéma bloc suivant (Figure 28) : C PI Xref(p) ε(p) Ω ref(p) Ω (p) V(p) X(p) Kx 1+Tx.p 0,003 (mm) Tx.p (rad/s) (rad/s) (mm/min) (mm) X(p) Traitement et compensation Capteur de position (mm) du gain de capteur Figure 28 : Boucle de position sans anticipation, correcteur série proportionnel intégral, modèle de la boucle de vitesse de type gain pur ____________________________________________________________________________ 28/31 Partie E : Contrôler le déplacement d'avance avec précision"
+     },
+     {
+      "numero": "Q52",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Correcteurs : Proportionnel-intégral",
+        "semestre": "S4"
+       }
+      ],
+      "page": 29,
+      "tags": [],
+      "texte": "Question 52 : Pourquoi cette structure (Figure 28) permet-elle d’obtenir une erreur de poursuite en position nulle ? L’ajout d’une action intégrale dans la structure de correction série d’une boucle de position n’est quasiment jamais réalisée. Deux éléments amènent à ce choix : • Lors de transferts de l’axe entre 2 points éloignés celui-ci est en vitesse maximale, la boucle de vitesse se comporte donc comme une saturation. • L’action intégrale supprime 90° de phase pour les basses fréquences."
+     },
+     {
+      "numero": "Q53",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Correcteurs : Proportionnel-intégral",
+        "semestre": "S4"
+       }
+      ],
+      "page": 29,
+      "tags": [],
+      "texte": "Question 53 : Expliquer qualitativement l’effet néfaste de l’action intégrale lorsque l’axe se déplace en vitesse maximale ? Proposer une solution technologique permettant d’inhiber cet effet néfaste."
+     },
+     {
+      "numero": "Q54",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 29,
+      "tags": [],
+      "texte": "Question 54 : Expliquer qualitativement l’effet néfaste de l’action intégrale sur la phase de la fonction de transfert en boucle ouverte. E.1.4 Réglage du correcteur série de position avec anticipation Afin de supprimer cette erreur de poursuite on choisi d’utiliser la structure d’anticipation de vitesse disponible sur la CN 840D. Le gain Kx est conservé sous forme littérale. Le système peut-être représenté par le schéma bloc suivant (Figure 29) : Kav.p Xref(p) ε(p) Ω ref(p) Ω (p) V(p) X(p) Kx Gain statique (mm) (rad/s) (rad/s) (mm/min) (mm) X(p) Traitement et compensation Capteur de position (mm) du gain de capteur Figure 29 : Boucle de position avec anticipation de vitesse, correcteur série proportionnel, modèle de la boucle de vitesse de type gain pur"
+     },
+     {
+      "numero": "Q55",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       }
+      ],
+      "page": 29,
+      "tags": [],
+      "texte": "Question 55 : Déterminer la fonction de transfert de la boucle de position avec anticipation V( p ) de vitesse sous forme canonique. On pose = 0,18 . Ωref ( p )"
+     },
+     {
+      "numero": "Q56",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Précision",
+        "semestre": "S2"
+       }
+      ],
+      "page": 29,
+      "tags": [],
+      "texte": "Question 56 : Déterminer l’erreur de poursuite en position en fonction de Kx et Kav"
+     },
+     {
+      "numero": "Q57",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Capteurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 29,
+      "tags": [],
+      "texte": "Question 57 : Peut-on annuler l’erreur de poursuite en position à l’aide de l’anticipation Kav ? Si oui, pour quelle valeur numérique de Kav (si nécessaire on utilisera la valeur de Kx obtenue à la question 46). ____________________________________________________________________________ 29/31 Partie E : Contrôler le déplacement d'avance avec précision TOURNEZ LA PAGE S.V.P. E.1.5 Implantation physique de l’anticipation de vitesse Dans cette partie on utilise la structure précédente. On rappelle que le système peut-être représenté par le schéma bloc suivant (Figure 30) : Kav.p Xref(p) ε(p) Ω ref(p) Ω (p) V(p) X(p) Kx Gain statique (mm) (rad/s) (rad/s) (mm/min) (mm) X(p) Traitement et compensation Capteur de position (mm) du gain de capteur Figure 30 : Boucle de position avec anticipation de vitesse, correcteur série proportionnel, modèle de la boucle de vitesse de type gain pur La transmittance Kav.p n’est pas une transmittance réalisable physiquement (principe de causalité). On remplace donc cette transmittance par une anticipation filtrée. Le système peut-être représenté par le schéma bloc suivant (Figure 31) : Kav.p 1+Tf.p Xref(p) ε(p) Ω ref(p) Ω (p) V(p) X(p) Kx 0,003 (mm) (rad"
+     },
+     {
+      "numero": "Q58",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Rapidité",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+        "semestre": "S3"
+       }
+      ],
+      "page": 31,
+      "tags": [],
+      "texte": "Question 58 : Par analyse de la dynamique de la réponse de la boucle de position (Figure 32) déterminer une valeur de Tf n’entachant que de manière infime le comportement de la boucle de position (le temps de réponse à 5% du filtre doit être au moins 10 fois plus faible que celui de la boucle de position)."
+     },
+     {
+      "numero": "Q59",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Précision",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Métrologie : Contrôle tridimensionnel",
+        "semestre": "S3"
+       }
+      ],
+      "page": 31,
+      "tags": [],
+      "texte": "Question 59 : Conclure quant au respect des contraintes émises sur l’extrait du CdCF (Tableau 6, page 26). FIN DE L©EPREUVE ____________________________________________________________________________ 31/31 Partie E : Contrôler le déplacement d'avance avec précision"
+     }
+    ]
+   }
+  ]
+ }
+}

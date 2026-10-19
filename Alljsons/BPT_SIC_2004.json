@@ -1,0 +1,341 @@
+{
+ "concours": "Banque PT",
+ "filiere": "SIC",
+ "date": "2004",
+ "file": "BPT_SIC_2004.pdf",
+ "status": 200,
+ "source": "banquept.fr, rubrique « Annales d'annales » (rubrique23.html)",
+ "epreuve_originale": "Sciences Industrielles III",
+ "classification": "automatique par mots-clés (Claude, oct. 2026) — moins fine que celle des sujets récents",
+ "decoupage_questions": "roman",
+ "texte_ocr": true,
+ "pages_sujet": 24,
+ "pages_total": 24,
+ "data": {
+  "parties": [
+   {
+    "titre_partie": "Pages 5",
+    "questions": [
+     {
+      "numero": "I-A",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Résistance des matériaux : Torseur de cohésion",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       }
+      ],
+      "page": 5,
+      "tags": [],
+      "texte": "I-A. Etude du dimensionnement des deux poutres principales Le chassis de la remorque est réalisé par |'intermédiaire de deux poutres, a section variable, en forme de « I » (document I). Dans cette question nous allons, par un calcul simplifié, justifier la solution constructive utilisée pour |a réalisation de ces poutres. Pour cette étude, nous supposons une répartition constante de pression linéique sur une poutre rectiligne représentant une des poutres principales réalisant le chassis. Pour simplifier l'étude, nous modélisons l'action des essieux par un simple appui ponctuel (Document Il). 1-A1. Calcul du moment fléchissant en configuration « transport ». A partir de la figure 4, donner l'expression du moment fléchissant en tout point de la poutre OD. Tracer !’évolution de ce moment fléchissant. |-A2. Calcul du moment fléchissant en configuration « sur béquille ». A partir de la figure 5, donner I'expression du moment fléchissant en tout point de la partie OB de la poutre OD. Tracer |’évolution de ce moment fléchissant 1-A3. Calcul de la contrainte maximale. Donner |'expression de la contrainte en tout point d'une section droite de ja poutre en fonction du moment fléchissant au c"
+     }
+    ]
+   },
+   {
+    "titre_partie": "Pages 6",
+    "questions": [
+     {
+      "numero": "I-B",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Frottements",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 6,
+      "tags": [
+       "pneumatique"
+      ],
+      "texte": "I-B. Etude en virage Pour cette question, nous prenons en compte les trois essieux porteurs de la remorque et nous nous plagons dans une configuration particuliére pour étudier effort que doit exercer le tracteur pour réaliser un virage. Le comportement d’un pneumatique étant complexe (structure déformable...) nous proposons une modélisation simplifiée pour cette étude (document réponse rm La liaison entre le pneu et le sol est représentée par un contact ponctuel ayant un comportement modélisé par une loi de frottement de Coulomb, le coefficient de frottement est noté «f», Nous supposons que la charge normale des six roues est identique et est notée « N ». Les notations sont précisées sur la figure 7. Le point A correspond au centre de la liaison entre le tracteur et la remorque. |-B1. Cinématique graphique. Sur la figure 8, a partir de la donnée de la vitesse du point A de la remorque par rapport a la route et en supposant que le centre instantané du mouvement est 12, tracer les vecteurs vitesse des points D1, D2, D3, G1, G2 et G3, « centres » des six roues (point de l'axe de la roue situé dans fe plan moyen de celle-ci). |-B2. Vitesse de glissement aux points de contact roue-sol."
+     }
+    ]
+   },
+   {
+    "titre_partie": "Pages 7",
+    "questions": [
+     {
+      "numero": "I-C2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 7,
+      "tags": [
+       "embrayage / frein",
+       "hydraulique"
+      ],
+      "texte": "I-C2. Le frein, fixé sur l'essieu permet, lors d'un freinage d’exercer un couple de freinage sur une roue de la remorque noté Cfv (vétant défini sur la figure 7). Lors de cette opération de freinage quelles sont les actions mécaniques supplémentaires exercées sur le chassis de la remorque par rapport au cas sans freinage. Les réponses seront rapidement justifiées ; de plus l'utilisation d'un schéma peut faciliter la présentation de la démarche. La liaison élastique (suspension) existant entre l'essieu et le chassis a-telle une influence sur ces actions mécaniques ? Ces actions mécaniques doivent-elles étre prisent en compte dans le dimensionnement du chassis ? Les réponses seront rapidement justifiées. Il. Etude du fonctionnement du Fond Mouvant Alternatif (FMA) Pour augmenter ta productivité et ainsi réduire les coiits de transport ; une solution consiste a réduire le temps de déchargement des camions en équipant les remorques d’un systeéme permettant d'assurer cette fonction. La solution classique, consistant a utiliser une « benne » actionnée généralement par un vérin télescopique, ne peut pas étre utilisée pour les produits de faible densité ; en effet, pour ces produits les re"
+     }
+    ]
+   },
+   {
+    "titre_partie": "Pages 8",
+    "questions": [
+     {
+      "numero": "II-B",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Frottements",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+        "semestre": "S3"
+       }
+      ],
+      "page": 8,
+      "tags": [],
+      "texte": "II-B. Etude du systeme FMA La solution actuellement commercialisée est présentée sur le document IV. Elle utilise plusieurs barres qui se déplacent alternativement comme le présente la figure 10. L'étude du fonctionnement de ce systéme peut se faire en utilisant seulement trois barres (figure 11). Pour Pétude d’un cycle du fonctionnement du systéme FMA nous allons supposer que : - le chargement de la remorque est assimilable 4 un solide « C » de masse M, - une répartition uniforme des pressions normales entre la charge « C », les trois barres (« B1 », « B2 » et « B3 ») et le piancher fixe de la remorque « P », - les efforts entre les barres sont négligeables, - lacharge « C » est seulement en contact avec les barres, - tous les mouvements relatifs sont effectués dans la direction u, - les effets dynamiques seront négligés (les mouvement sont relativement lents), - lamasse des barres est négligée par rapport a la masse de la charge, - les barres sont longues par rapport a la course de celles-ci. ll-B1. En notant « f » le coefficient de frottement entre la charge « C » et une barre « Bi » et «[» le coefficient de frottement entre une barre « Bi » et le plancher fixe « P » ; a partir "
+     },
+     {
+      "numero": "II-B6",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Matériaux : Propriétés physiques et mécaniques",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Statique : Frottements",
+        "semestre": "S2"
+       }
+      ],
+      "page": 8,
+      "tags": [
+       "forgeage / emboutissage / découpe"
+      ],
+      "texte": "II-B6. Le systéme proposé peut-il permettre le chargement de produits (figure b), c'est-a- dire le déplacement des produits chargés 4 l’arriére de la remorque (arriére du camion) vers l'avant de celle-ci ? Justifier rapidement votre réponse. lll. Etude de ta réalisation du Fond Mouvant Alternatif (FMA) Le document V présente de fagon schématique la réalisation du FMA. Les différentes barres réalisant le « plancher » sont en alliage d’aluminium (noté « alu » sur le document). Elles ont une longueur de 13,5 m et sont en liaison glissigre avec le chassis de la remorque par lintermédiaire de 21 patins en matiére plastique. Ces patins assurent le guidage en limitant les effets liés au frottement. II est important de noter que le guidage d’une barre par 21 patins conduit @ une solution fortement hyperstatique. Le process de fabrication du plancher FMA est le suivant : * Découpe des traverses en aluminium (30 unités) sur scie a ruban a partir de profilés, longueur souhaitée : 2,35 m —§— « Poingonnage des trous de mise en position des patins de guidage et fixation par boulons des 21 patins sur chaque traverse. Ces trous sont réalisés symétriquement par rapport au milieu de la traverse. * D"
+     }
+    ]
+   },
+   {
+    "titre_partie": "Pages 9",
+    "questions": [
+     {
+      "numero": "III-B",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Matériaux : Propriétés physiques et mécaniques",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 9,
+      "tags": [
+       "soudage / mécano-soudé"
+      ],
+      "texte": "III-B. Etude de la fixation du plancher sur les poutres en I L’entreprise utilise le soudage pour réaliser l'ensemble de la structure porteuse en acier. Ul-B1. Citer trois différents procédés de soudage. Donner les domaines d'emploi privilégiés de ces procédés de soudage. UL-B2. L'entreprise utilise le soudage MIG, ce procédé vous semble-t-il adapté a leur production ? L'ensemble du plancher est réalisé en alliage d'aluminium. Les poutres porteuses principales (cf. étude de la réalisation du chassis) sont en acier. L’entreprise propose de fixer des Tournez la page S.V.P. -6- pattes en acier sur les traverses du plancher (figure 12) pour ensuite souder ces pattes aux poutres en | étudiées précédemment. IIl-B3, Justifier la solution technique d’assemblage par pattes intermédiaires. NI-B4. Proposer, sur le document réponse VII une solution constructive pour la réalisation de ces pattes de fixation. Vous préciserez le procédé d’obtention. Ill-C. Etude des barres du plancher La figure 15 montre la géomeétrie de la section des barres du plancher. Elles glissent les unes a coté des autres. Pour le transport de certains produits, des liquides peuvent suinter, il faut, pour des raisons de p"
+     }
+    ]
+   },
+   {
+    "titre_partie": "IV. Etude de la commande du Fond Mouvant Alternatif (FMA)",
+    "questions": [
+     {
+      "numero": "IV-A",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Systèmes séquentiels : Diagramme d'états",
+        "semestre": "S1"
+       }
+      ],
+      "page": 10,
+      "tags": [
+       "grafcet"
+      ],
+      "texte": "IV-A. Analyse par GRAFCET La figure 17 présente l'inventaire des entrées et sorties du systeme étudié. IV-A1, Représenter le grafcet de commande du plancher FMA."
+     },
+     {
+      "numero": "IV-B",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Capteurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 10,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "IV-B. Analyse du systéme hydraulique Afin de limiter le nombre de capteurs et de simplifier la commande du plancher FMA, le constructeur propose une solution utilisant un seul distributeur 5 voies 2 positions, Ce distributeur est piloté par la sortie du vérin V3 et la rentrée du vérin V1. Cette solution est représentée sur le schéma hydraulique (document XI). De plus, des vérins spéciaux, a clapets anti-retour piloté mécaniquement en bout de course sont utilisés. Lorsque la tige est en position sortie (ou rentrée), -7- un systéme permet l’ouverture pilotée des clapets anti-retour. Ce principe est schématisé sur la figure 18. Pour l'ensemble des questions suivantes, le fluide hydraulique sera considéré comme incompressible."
+     },
+     {
+      "numero": "IV-B1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Statique : Frottements",
+        "semestre": "S2"
+       }
+      ],
+      "page": 11,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "IV-B1. Si l'on considére un vérin hydraulique double effet en position horizontale, tige rentrée, donner les conditions nécessaires et suffisantes (pression et débit sur les deux orifices du vérin) pour que la tige sorte. On considére que les frottements sur la tige ne permettent pas un déplacement de celle-ci sans effort."
+     },
+     {
+      "numero": "IV-B2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Systèmes séquentiels : Diagramme d'états",
+        "semestre": "S1"
+       }
+      ],
+      "page": 11,
+      "tags": [
+       "hydraulique",
+       "dessin / conception sur calque"
+      ],
+      "texte": "IV-B2. A l'aide du schéma hydraulique simplifié présenté sur le document XI, expliquer le fonctionnement de ce systéme. La fonction chargement est opérationnelle lorsque le circuit hydraulique est sous pression. Pour se faire, vous noterez en rouge le circuit haute pression et en vert le circuit basse pression pour l'ensemble des étapes proposées. Vous dessinerez la position des tiges de vérins en indiquant leur sens de déplacement."
+     },
+     {
+      "numero": "IV-B3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       }
+      ],
+      "page": 11,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "IV-B3. Que se passe- actionné. lorsque le distributeur mono stable 4 voies 2 positions est V. Conception du « kit hydraulique » Le « kit hydraulique » qui réalise |'entrainement des barres du Fond Mouvant Alternatif est fabriqué par un sous-traitant. I] est monté sur la remorque aprés le montage des différents supports des barres du FMA (par le dessous de la remorque). || est fixé sur les poutres principales réalisant le chassis de la remorque. Dans cette partie nous proposons de concevoir ce kit hydraulique en respectant les conditions précédentes et en proposant un systeme permettant de limiter au maximum les efforts parasites qui peuvent entrainer une réduction de la durée de vie du Fond Mouvant Alternatif. Il est important de noter qu’a l'emplacement du kit hydraulique il n'est pas possible de disposer des traverses pour supporter les barres en aluminium ; c'est-a-dire que dans la conception du kit il est nécessaire de prendre en compte cette contrainte. De plus pour assurer le déplacement des barres par lintermédiaire des 3 vérins, les différentes barres d'un méme groupe sont reliées entre-elles par une poutre. Le document réponse XII présente une partie du plancher permettant"
+     }
+    ]
+   },
+   {
+    "titre_partie": "V. Conception du « kit hydraulique »",
+    "questions": [
+     {
+      "numero": "V-A",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 11,
+      "tags": [],
+      "texte": "V-A. Recherche de solutions pour la réalisation des liaisons Pour simplifier la démarche de conception dans un premier temps nous proposons de rechercher des solutions technologiques pour fa réalisation des différentes liaisons permettant de répondre au cahier des charges en ne prenant en compte que l'entrainement d'un groupe de barres. La figure 19 présente le schéma cinématique du systéme simplifié."
+     },
+     {
+      "numero": "V-A1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Hyperstatisme",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Correcteurs : Correcteur numérique",
+        "semestre": "S4"
+       }
+      ],
+      "page": 11,
+      "tags": [],
+      "texte": "V-A1. Calculer |’ordre d’hyperstaticité du mécanisme proposé figure 19. En déduire des conséquences sur la conception de cet ensemble. Justifier rapidement vos réponses."
+     },
+     {
+      "numero": "V-A2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
+        "semestre": "S3"
+       }
+      ],
+      "page": 11,
+      "tags": [
+       "soudage / mécano-soudé",
+       "hydraulique",
+       "dessin / conception sur calque"
+      ],
+      "texte": "V-A2. Conception du systéme permettant !'entrainement d'un groupe de barres (document réponse XiIl). Il est demander de concevoir les liaisons complétes L1 et L2. La liaison L2 doit permettre l'entrainement de l'ensemble des barres du groupe considéré. La liaison L1 entre le chassis de la remorque et le vérin utilise une piéce intermédiaire (bati du kit hydraulique) réalisée en mécano-soudage. I! est important de noter que le kit hydraulique utilise des vérins spéciaux, ainsi la géométrie des flasques des vérins peut étre adaptée aux solutions techniques proposées. De plus, dans la démarche de conception des liaisons il faut prendre en compte lintensité des efforts exercés par les vérins (pression maximale de 200 bar). Tournez la page S.V.P. -8- Le document réponse XII présente l'architecture générale du systéme étudié. Pour ne pas surcharger le document tous les éléments ne sont représentés, par exemple les patins sont seulement représentés de fagon schématique. Dessiner sur Je calque préimprimé (document réponse XII) un avant projet du systéme. La définition du systeme de fixation du vérin sur le kit hydraulique est a étudier (le document réponse XII présente seulement l'encombre"
+     },
+     {
+      "numero": "V-B",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 12,
+      "tags": [],
+      "texte": "V-B. Proposition de solution pour le systéme complet V-B1, Proposer sous forme de schémas une solution technologique permettant le déplacement des trois groupes de barres. Justifier rapidement votre réponse. Figure 3 Plateau de la remorque lors de l’assemblage DOCUMENT I: Présentation de la réalisation du chassis Figure 4 : Schéma pour l'étude du dimensionnement des deux poutres (cas n°1) L < an - > 2a c a « = >< >< > \\ : oO B Ya Cc D > > x Z > Figure 5 : Schéma pour l'étude du dimensionnement des deux poutres (cas n°2) g g <=> > Figure 6 : Caractéristiques de la section de la poutre DOCUMENT II : Dimensionnement des poutres du chassis w £ & Zz a & wl z m m «< >< > 1 <— — os > D1 D2 D3 A n A 12 By _| “O- - . ou _ \" in Y » Gl G2 G3 “t > > u w Figure 7 : Modélisation de la remorque A — VAeV/R Va > > u wee — Figure 8 : Figure pour la premiére étude graphique DI D2 D3 =o Al _ _ ty 12 13] Gl G2 G3 oo t VAeviR t > a u we > Figure 9 : Figure pour la seconde étude graphique DOCUMENT Réponse III : Etude en virage de la remorque v : phase 4 vit phase3 Figure 10 : Principe de fonctionnement du systeme FMA Figure 11 : Modéle pour l'étude du fonctionnement du systéme FMA. DOCUMENT IV : Etude du"
+     }
+    ]
+   }
+  ]
+ }
+}

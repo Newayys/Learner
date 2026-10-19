@@ -1,0 +1,2531 @@
+
+===== page 1 =====
+                  Epreuve de Sciences Industrielles B
+
+       Durée : 6h00
+
+Composition du sujet :
+     1 cahier de 20 pages de texte, numérotées de T1/20 à T20/20 ;
+     16 documents, intitulés « Document i », avec i = 1 à 16, numérotés D1/16 à
+       D16/16 ;
+     3 feuilles format A3 pliées, imprimées recto verso, respectivement intitulées « Notice
+       justificative 1/3 », « Notice justificative 2/3 » et « Notice justificative 3/3 », à
+       rendre en fin d’épreuve ;
+     1 feuille de calque format A3, pré imprimée, intitulée « Calque n°1 » à rendre en fin
+       d’épreuve ;
+     1 feuille de calque format A4, pré imprimée, intitulée « Calque n°2 » à rendre en fin
+       d’épreuve.
+
+                 TOUTE AUTRE DOCUMENTATION EST INTERDITE
+
+Matériel autorisé :   tous instruments usuels du dessinateur.
+TOUTES LES CALCULATRICES SONT INTERDITES, QUEL QU’EN SOIT LE TYPE,
+AINSI QUE LES AGENDAS ELECTRONIQUES ET LES TELEPHONES PORTABLES
+
+
+
+Gestion du temps : En admettant une durée d’une heure pour la lecture et l’assimilation
+                       du sujet, il est vivement conseillé de consacrer entre 2 h 00 et 2 h 30
+                       au maximum à la réponse aux questions de la notice et 2 h 30 à
+                       3 h au tracé des dessins.
+
+
+
+
+            Figure 1 : Vue partielle d’un groupe motopropulseur de motocyclette
+
+
+               T1/20                                               Tournez la page S.V.P.
+
+
+===== page 2 =====
+ ETUDE D’UNE BOÎTE DE VITESSES DE MOTOCYCLETTE
+              ET DE SON EMBRAYAGE
+          A - Cahier des Charges Fonctionnel (Extraits)
+A.1 - Présentation du problème
+    A.1.1 - Le contexte
+      On s’intéresse dans ce projet à une motocyclette produite par un grand constructeur, et
+plus particulièrement à sa transmission de puissance.
+    Comme indiquée ci-dessous sur la figure 2, page T2/20, elle est principalement
+composée :
+               −   d’un moteur thermique ;
+               −   de la transmission primaire par engrenage ;
+               −   d’un embrayage        multidisque   commandé      mécaniquement      par   le
+                   conducteur ;
+               −   d’une boîte de vitesses à six rapports ;
+               −   d’une transmission secondaire par chaîne jusqu’à la roue arrière ;
+               −   de la roue arrière.
+
+         Moteur          Transmission                               Arbre
+                                               Embrayage
+       thermique           primaire                                primaire
+
+
+
+                                           Arbre              Transmission
+                                         secondaire            secondaire        Roue
+
+
+                   Figure 2 : Chaîne de transmission de puissance
+    Une photo de cette chaîne de transmission de puissance est donnée figure 6,
+document 1, page D1/16.
+       Les caractéristiques mécaniques du véhicule produit à l’heure actuelle sont données
+dans le tableau 1, document 2, page D2/16. Comme il le fait régulièrement, le constructeur
+fait évoluer ce modèle aussi bien du point de vue de la partie cycle qu’au niveau de la chaîne
+de transmission de puissance.
+      Les modifications au niveau de la chaîne de transmission de puissance comprennent
+principalement :
+               −   une augmentation de la puissance et du couple du moteur ;
+               −   un allègement systématique de toutes les pièces et en particulier des
+                   pièces mobiles dans un référentiel lié au véhicule ;
+               −   un nouveau dimensionnement, si nécessaire, des pièces mécaniques
+                   davantage sollicitées ;
+               −   une amélioration du comportement routier du véhicule, en courbe, lors
+                   des freinages, ou lors des rétrogradages (par exemple, passage de 3ème
+                   en 2nde).
+
+
+                T2/20                                                Tournez la page S.V.P.
+
+
+===== page 3 =====
+       Etant donnée la complexité de l’ensemble de ces modifications, on ne s’intéressera ici
+qu’à une petite partie de la chaîne de transmission de puissance : l’embrayage multidisque
+et la boîte de vitesses.
+
+    A.1.2 - Le produit à concevoir
+       Le constructeur, fortement impliqué dans différents championnats, souhaite faire
+profiter ses futurs clients des innovations technologiques initialement conçues pour les
+machines de course. En particulier, il souhaite remédier aux problèmes de tenue de route
+liés au glissement de la roue arrière lors de freinages violents accompagnés d’un
+rétrogradage (passage à un rapport de boîte de vitesses inférieur à celui utilisé).
+       Lors d’un freinage fort, la roue avant est surchargée, la roue arrière délestée, réduisant
+d’autant l’effet du frein de roue arrière et autorisant le blocage de celle-ci. Toutefois le
+conducteur peut doser l’effort de freinage sur la roue arrière de façon à éviter toute glissade
+périlleuse.
+      Par ailleurs, si le conducteur rétrograde dans un même temps, ce qui est fréquent,
+l’augmentation de régime moteur engendrée crée un frein moteur très important qui peut
+également causer le blocage de la roue arrière, même si le frein arrière n’est pas actionné.
+Cette fois, le conducteur peut agir sur le levier d’embrayage, afin de faire patiner celui-ci et
+d’éviter le blocage de la transmission.
+      Ces différentes tâches à réaliser en parallèle rendent la conduite très délicate. Le
+constructeur prévoit ainsi d’utiliser un organe courant en compétition permettant
+d’automatiser mécaniquement cette action sur l’embrayage et donc de limiter le blocage de
+la roue arrière : l’embrayage anti-blocage ou « sliding-clutch ».
+
+    A.1.3 - Limites de l’étude
+      La figure 6, document 1, page D1/16 donne l’architecture générale d’une boîte de
+vitesses de motocyclette. Elle permet de situer les limites de l’étude :
+      Limite en amont : Roue d’entraînement de la cloche de l’embrayage
+
+      Limite en aval :   Pignon de sortie de boîte de vitesses
+
+A.2 - Analyse fonctionnelle du besoin (extraits)
+      Le produit considéré dans cette partie est l’embrayage sliding-clutch.
+       Parmi toutes les situations du cycle de vie du produit, il ne sera considéré que la
+situation de fonctionnement, en distinguant toutefois trois phases :
+                −   Phase E : phase « embrayée ». Le couple moteur généré par le moteur
+                    est transmis à la roue arrière ;
+                −   Phase D : phase « débrayée ». Le moteur est désaccouplé de la roue
+                    arrière, ce qui permet entre autres le changement de rapport de
+                    transmission ;
+                −   Phase A : phase de « débrayage automatique » pendant laquelle le
+                    système évite le blocage de la roue arrière. Le couple de freinage généré
+                    par le moteur est transmis de façon limité à la roue arrière.
+      Seuls les graphes des interacteurs des phases E et A sont explicités ci-dessous.
+
+
+
+
+                T3/20                                                Tournez la page S.V.P.
+
+
+===== page 4 =====
+        A.2.1.1 -       Phase E : Graphe des interacteurs en position embrayée
+
+                                                              Arbre
+                           Conducteur                        primaire
+                                               FC3
+                                         FC4           FC2
+                                                              FP1
+                                                                             Arbre moteur
+           Carter            FC5             Embrayage
+                                            sliding-clutch                  FC1
+
+
+                                         FC6          FC7
+
+                                             Milieu
+                                            ambiant
+
+
+      Enoncés des fonctions de service et des contraintes
+
+           Fonction principale :
+        FP1         Transmettre la puissance du moteur à l’arbre primaire de boîte de vitesses
+
+           Fonctions contraintes :
+        FC1         Filtrer les irrégularités du couple moteur et du couple résistant
+        FC2         S’adapter à l’arbre primaire
+        FC3         Ne pas générer d’effort axial dans les guidages en rotation
+        FC4         Ne pas demander d’effort au conducteur
+        FC5         S’adapter à l’encombrement disponible
+        FC6         Ne pas émettre de bruits excessifs
+        FC7         Fonctionner en présence d’huile
+
+      Caractérisation des fonctions
+
+       Critères                                                     Niveaux
+FP1     Couple moteur maxi transmis par l’embrayage                  147 N.m
+        Vitesse de rotation maxi de l’embrayage                      8 000 tr.min-1
+FC1     Irrégularités du couple moteur                               non fourni
+FC2     Liaison complète                                             démontable
+FC3     Effort axial transmis                                        0N
+FC4     Effort nécessaire pour maintenir l’embrayage en              0N
+       position embrayée
+FC5     Volume disponible                                            ∅200 mm x 100 mm
+FC6     Bruit généré maxi                                            60 dB(A)
+FC7     Huile utilisée                                               SAE 15W-50 ou SAE 20W-50
+
+
+
+                  T4/20                                                 Tournez la page S.V.P.
+
+
+===== page 5 =====
+        A.2.1.2 -  Phase A : Graphe des interacteurs en phase de débrayage
+        automatique
+
+                                                           Arbre
+                                                          primaire
+                        Conducteur
+                                             FC3
+                                      FC4          FC2
+                                                           FP1
+                                                                         Arbre moteur
+           Carter         FC5             Embrayage
+                                         sliding-clutch
+                                                                       FC1
+
+
+                                       FC6         FC7
+
+
+                                          Milieu
+                                         ambiant
+
+
+      Enoncés des fonctions de service et des contraintes
+
+           Fonction principale :
+        FP1      Limiter le couple de freinage transmissible de l’arbre moteur à l’arbre
+                 primaire
+
+           Fonctions contraintes :
+        FC1      Filtrer les irrégularités du couple moteur et du couple résistant
+        FC2      S’adapter à l’arbre primaire
+        FC3      Ne pas générer d’effort axial dans les guidages en rotation
+        FC4      Ne pas demander d’intervention du conducteur
+        FC5      S’adapter à l’encombrement disponible
+        FC6      Ne pas émettre de bruits excessifs
+        FC7      Fonctionner en présence d’huile
+
+      Caractérisation des fonctions
+
+       Critères                                                  Niveaux
+FP1     Couple résistant maxi transmis par l’embrayage            de 35 à 40 N.m
+        Vitesse de rotation maxi de l’embrayage                   8 000 tr.min-1
+FC1     Irrégularités du couple moteur                            non fourni
+FC2     Liaison complète                                          démontable
+FC3     Effort axial transmis                                     0N
+FC4     Intervention pour obtenir l’anti-blocage                  aucune
+FC5     Volume disponible                                         ∅200 mm x 100 mm
+FC6     Bruit généré maxi                                         60 dB(A)
+FC7     Huile utilisée                                             SAE 15W-50 ou SAE 20W-50
+
+
+               T5/20                                                 Tournez la page S.V.P.
+
+
+===== page 6 =====
+           B - Etude et éléments de solutions proposés
+
+B.1 - Architecture générale
+     Dans toute la suite, on considèrera que l’arbre primaire tourne dans le sens positif :
+Ω      =ω         avec ω      ≥ . Le repère choisi est tel que      est selon l’axe de l’arbre
+primaire. L’orientation du repère est précisée sur la figure 7, document 3, page D3/16.
+      Une vue d’ensemble en écorché est donnée figure 7, document 3, page D3/16. Elle
+permet de faire une synthèse de l’ensemble des pièces qui seront introduites par la suite. La
+figure 8, document 4, page D4/16 donne une vue plus détaillée de l’embrayage.
+
+    B.1.1 - Principe de fonctionnement d’un embrayage multidisque
+     classique
+       Un schéma d’architecture d’un embrayage multidisque classique est donné sur la
+figure 9, document 5, page D5/16. On notera que, pour des raisons de lisibilité, seuls 5
+disques ont été représentés. La cloche C est entraînée via un engrenage par le vilebrequin.
+Sur cette cloche C sont disposées des rainures dans lesquelles viennent s’insérer des
+disques garnis DE. Des disques métalliques DI sont intercalés entre les disques garnis DE.
+Les disques internes DI peuvent être considérés, dans une première approche, comme en
+liaison glissière avec la noix N, encastrée sur l’arbre primaire AP. Un effort presseur, obtenu
+grâce à la précontrainte de six ressorts hélicoïdaux RH, plaque les disques les uns contre les
+autres. Le couple est ainsi transmis par adhérence des disques externes DE aux disques
+internes DI, et donc globalement de la cloche C à l’arbre primaire AP de boîte. Le débrayage
+s’obtient en exerçant un effort extérieur sur la plaque de poussée P, dans la direction . Cet
+effort est exercé par la tige de commande de débrayage, non représentée sur le schéma
+d’architecture.
+
+    B.1.2 - Principe de fonctionnement de l’embrayage multidisque anti-
+     blocage
+      Les mécanismes anti-blocage ont été introduits initialement sur les motocyclettes de
+compétition. En effet, l’accroissement des performances des motocyclettes a obligé à trouver
+des astuces techniques pour aider le conducteur, notamment lors des freinages
+accompagnés de rétrogradage, où le risque de blocage de la roue arrière est important. Ceci
+peut se traduire par la perte de contrôle du véhicule.
+      Différents types d’embrayage anti-blocage existent. Dans tous les cas, c’est la liaison
+entre la noix et l’arbre primaire qui est modifiée.
+     A partir de l’étude du système réel représenté sur la figure 7, document 3, page
+D3/16 et sur la figure 8, document 4, page D4/16, on propose deux schémas d’architecture
+modélisant le comportement de l’embrayage « sliding-clutch » en phase « embrayée » et en
+phase de « débrayage automatique ».
+       Le mode de fonctionnement « embrayé » est représenté sur la figure 10, document 6,
+page D6/16. Lorsque le moteur MOT entraîne la roue, en marche avant, la cloche C est
+soumise à un couple positif selon le vecteur . Ce couple est transmis aux disques externes
+DE. Puis il est transmis par adhérence aux disques internes DI grâce à l’effort presseur
+généré par les ressorts hélicoïdaux RH. Pour finir, il est transmis à la noix N. Le couple
+moteur est transmis de la noix N au flasque F solidaire de l’arbre primaire AP par trois
+liaisons sphère-plan unilatérales (petites zones planes visibles sur la figure 12, document
+8, page D8/16, et dont une seule est représentée sur le schéma d’architecture).
+
+
+                T6/20                                               Tournez la page S.V.P.
+
+
+===== page 7 =====
+     Le débrayage se fait, comme dans un embrayage classique, en exerçant un effort de
+commande selon sur la plaque de poussée P, par l’intermédiaire d’une tige de commande
+de débrayage non représentée figure 10, document 6, page D6/16.
+       Le mode de fonctionnement de « débrayage automatique » est représenté sur la
+figure 11, document 7, page D7/16. Lorsque la roue entraîne le moteur MOT, ce qui est le
+cas lors d’un rétrogradage, les sens de rotation n’ont bien sûr pas changé. Par contre, la
+cloche C est soumise à un couple négatif selon . Le contact dans la liaison sphère-plan
+unilatérale noix N / flasque F n’est plus maintenu. A l’inverse, le contact noix N / flasque F
+s’effectue sur une rampe hélicoïdale modélisée par la liaison hélicoïdale. Un déplacement
+relatif dans la liaison hélicoïdale se produit, ayant pour effet de comprimer les ressorts en
+étoile RE. La noix N vient en contact avec la plaque de poussée P via la liaison sphère-plan
+noix N / plaque P, et ainsi réduire l’effort presseur entre les disques, ce qui a pour effet de
+diminuer le couple maximum transmissible par adhérence. La rampe dans la liaison
+hélicoïdale a un angle d’hélice permettant la réversibilité du mécanisme : les ressorts en
+étoile RE peuvent renvoyer la noix N en position initiale lorsque le couple frein diminue.
+      La liaison hélicoïdale est faite soit par contact direct, ce qui est le cas dans cette étude,
+soit par l’intermédiaire de quelques billes. Les deux pièces réalisant cette liaison hélicoïdale
+sont représentées figure 12, document 8, page D8/16.
+      Les composants élastiques utilisés sont :
+                −   des ressorts hélicoïdaux RH pour l’effort presseur sur les disques ;
+                −   des ressorts en tôle en forme d’étoile RE pour le rappel de la noix N.
+
+
+
+
+                 T7/20                                                Tournez la page S.V.P.
+
+
+===== page 8 =====
+     C - Etude de conception en construction mécanique
+
+C.1 - Présentation du travail à rendre
+      Comme indiqué plus haut en page T1/20, en admettant une durée d’une heure pour la
+lecture et l’assimilation du sujet, il est vivement conseillé de consacrer entre 2 h 00 et 2 h 30
+au maximum à la réponse aux questions de la notice et 2 h 30 à 3 h au tracé des dessins.
+
+
+    Les réponses seront fournies uniquement sur les cinq documents
+                         présentés ci-dessous.
+
+   1 – Notice justificative (40 % de la note globale)
+       Fournir les réponses sur les trois documents respectivement intitulés « Notice
+justificative 1/3 », « Notice justificative 2/3 » et « Notice justificative 3/3 », de format A3
+horizontal, pliés, pré imprimés recto verso.
+     Les réponses sur feuilles de copies additionnelles ou sur papier de brouillon ne
+seront pas acceptées.
+
+   2 – Dessin d’étude de construction mécanique (60 % de la note globale)
+      Il est à tracer sur les deux calques pré imprimés de format A3 horizontal et A4
+vertical, intitulés « Calque n°1 » et « Calque n°2 », joints au sujet, et qui seront à rendre
+non pliés.
+
+
+
+C.2 - Notice justificative
+      Consignes spécifiques
+     Sur les notices justificatives, les réponses seront fournies dans les limites des cadres
+prévus pour chaque question.
+      Compte tenu de l’interdiction d’utiliser toute calculette, les calculs seront
+réalisés de manière approchée.
+     Il sera tenu compte, dans la notation, de la clarté et de la concision des réponses. Les
+schémas doivent être lisibles, précis, et respecter la normalisation en vigueur.
+       Les écritures au crayon ne seront pas acceptées. La qualité de l’écriture, de
+l’orthographe et de la syntaxe sera prise en compte dans l’évaluation.
+      Le candidat trouvera sur le tableau 2, document 16, page D16/16 un récapitulatif de
+l’ensemble des grandeurs utilisées au cours du sujet.
+
+    C.2.1 - Statique
+      Dans toute cette partie, on confondra les valeurs du coefficient de frottement et du
+coefficient d’adhérence.
+
+         C.2.1.1 -   Calcul du couple maximal transmissible en phase E
+      On se situe dans cette partie en phase embrayée. Dans cette phase, l’embrayage
+fonctionne comme un embrayage classique. Le couple moteur est transmis au niveau des
+surfaces de contact entre disques internes DI et disques externes DE.
+
+                T8/20                                                Tournez la page S.V.P.
+
+
+===== page 9 =====
+     On s’intéresse dans un premier temps au comportement d’une seule surface frottante.
+     Données (voir figure 13, document 9, page D9/16) :
+     On note respectivement            et        les rayons intérieur et extérieur de la surface de
+contact.
+     On note           l’effort presseur exercé sur les surfaces en contact.
+
+     L’embrayage tourne dans le sens positif : Ω               =ω        avec ω             ≥
+     Hypothèses :
+     On suppose une répartition de pression              uniforme entre les deux disques.
+
+
+     On se place à la limite du glissement, et on note                                la valeur du coefficient
+d’adhérence entre disque interne DI , ∈ {i
+                                                        }, et disque externe DE j,              ∈{       }.
+     Le coefficient d’adhérence entre un disque externe DE i et le flasque F, et entre un
+disque externe DE i et la plaque de poussée P, est également pris égal à .
+
+                   Inscrire votre réponse dans le cadre R1 de la notice 1/3.
+          Donner l’expression de la pression                en fonction de              ,       et   .
+
+                   Inscrire votre réponse dans le cadre R2 de la notice 1/3.
+          Donner l’expression du couple                     maxi transmissible par une surface
+          frottante, en fonction de          ,      ,     et      . Cette expression peut se mettre
+          sous la forme           =          , et on donnera l’expression du rayon équivalent
+               .
+
+     L’effort normal        est donné par l’ensemble des ressorts hélicoïdaux RH.
+     Données :
+     Chaque ressort hélicoïdal RH k,                ∈{         }, a une raideur                 =             −
+                                                                                                                  , une
+longueur à vide        =       , et une longueur en phase embrayée                =             .
+     Hypothèses :
+     On néglige l’effet du frottement dans les liaisons glissières liant les disques extérieurs
+DE à la cloche C et les disques intérieurs DI à la noix N. L’effort presseur exercé par les
+ressorts hélicoïdaux RH est alors intégralement transmis à travers l’empilage de disques.
+
+                   Inscrire votre réponse dans le cadre R3 de la notice 1/3.
+          Déterminer le nombre de surfaces frottantes noté                    .
+
+                   Inscrire votre réponse dans le cadre R4 de la notice 1/3.
+          Donner l’expression de             en fonction de          ,   et       .
+
+
+
+
+                    T9/20                                                         Tournez la page S.V.P.
+
+
+===== page 10 =====
+                Inscrire votre réponse dans le cadre R5 de la notice 1/3.
+            En déduire l’expression du couple maximal transmissible                          par les
+            surfaces frottantes en fonction de    ,     ,       ,   ,   et   .
+
+      Données :
+      Dans la suite, on prendra      =       .
+
+      On considère un coefficient d’adhérence       =       .
+
+                Inscrire votre réponse dans le cadre R6 de la notice 1/3.
+            Donner la valeur numérique du couple maximal transmissible                   .
+
+                Inscrire votre réponse dans le cadre R7 de la notice 1/3.
+            A l’aide des données fournies, indiquer la valeur du couple maximal
+                  devant être transmis par l’embrayage. Conclure.
+
+        C.2.1.2 -    Comportement de l’embrayage en phase A
+     Lors des rétrogradages, le couple résistant exercé par le moteur peut devenir trop
+important, et provoquer le blocage de la roue arrière. Lorsque le couple résistant sur la
+cloche d’embrayage atteint la valeur critique       =       , l’embrayage fonctionne en
+limiteur de couple.
+      On se place dans la configuration de la figure 11, document 7, page D7/16. Suite à
+un mouvement relatif de rotation de la noix N par rapport au flasque F, la noix N s’est
+translatée d’un déplacement égal au jeu initial , représenté figure 8, document 4, page
+D4/16, selon et est venue au contact de la plaque de poussée P. Dans cette phase, on
+considère que la plaque de poussée P ne se déplace pas axialement. Il y a donc toujours
+contact au niveau des surfaces frottantes.
+      Hypothèses :
+      Les actions de la pesanteur sont négligées.
+      Les liaisons disque interne DI / disque externe DE, disque externe DE / plaque de
+poussée P, disque externe DE / flasque F, seront comme précédemment considérées avec
+frottement. Toutes les autres liaisons sont parfaites.
+     On se place en régime stationnaire, et on considère les pièces comme équilibrées, afin
+de pouvoir appliquer le principe fondamental de la statique.
+      Notations :
+      Le torseur des actions mécaniques du solide i sur le solide j, exprimé au point M dans
+                                                                    →                    →
+
+              sera noté : { }=           →
+le repère                    →                   avec       →   =   →   et       →   =   →    .
+                                         →
+                                                                    →                    →
+
+
+      Compte tenu de la nature du problème, les torseurs seront tous exprimés en un point
+de l’axe (    ) . Seules les composantes suivant seront explicitées. Par exemple, le torseur
+des actions transmises par le moteur MOT sur la cloche C de l’embrayage sera noté :
+
+
+
+                 T10/20                                                 Tournez la page S.V.P.
+
+
+===== page 11 =====
+                                     −
+                  {       →   }=              avec      > .
+
+
+      Le couple exercé par l’ensemble des disques internes DI = {DI 1;…;DI 7} sur la noix N
+sera noté      →    =−     avec    > .
+     Le couple exercé par le dernier disque externe DE 8 sur la plaque de poussée P sera
+noté      →
+               = − avec        > .
+
+     L’effort axial exercé par la plaque de poussée P sur le dernier disque externe DE 8 sera
+noté   →
+               = − avec        > . Compte tenu de l’hypothèse faite sur le caractère parfait
+des liaisons glissière, l’effort presseur      est intégralement transmis à travers l’empilage de
+disques.
+     L’effort axial exercé par l’ensemble des ressorts en étoile RE = {RE 1;RE 2} sur la noix
+N sera noté     →     = − avec        > .
+     L’effort axial exercé par l’ensemble des ressorts hélicoïdaux RH = {RH 1;…;RH 6} sur la
+plaque de poussée sera noté       !→   = − ! avec ! > .
+        La liaison entre le flasque F et la noix N est assimilable à une liaison hélicoïdale d’axe
+(      ) et d’hélice à gauche. La projection de la résultante sur sera notée → = !
+avec      !   > . La projection du moment sur           sera notée       →    =     β   ! ,   où
+représente le rayon moyen du filet, et β représente l’angle d’hélice de la liaison hélicoïdale.
+
+                      Inscrire votre réponse dans le cadre R8 de la notice 1/3.
+              En isolant l’ensemble noix, plaque de poussée {N;P}, écrire les équations de
+              résultante et de moment en O en projection sur l’axe .
+       Le couple exercé par le premier disque externe DE 1 sur le flasque F sera noté
+       →
+            =−    avec    > .
+
+      Le couple exercé par l’arbre secondaire AS sur l’arbre primaire AP de la boîte de
+vitesses sera noté    "→     =    avec    > .
+
+                       Inscrire votre réponse dans le cadre R9 de la notice 1/3.
+              En isolant l’ensemble arbre primaire AP, flasque F {F;AP}, écrire l’équation
+              de moment en O en projection sur l’axe .
+     Le couple exercé par un disque externe DE i sur un disque interne en contact DI j sera
+noté      →
+                =−     avec     > .
+
+                       Inscrire votre réponse dans le cadre R10 de la notice 1/3.
+              En isolant l’ensemble des disques internes DI = {DI 1;…;DI 7}, écrire l’équation
+              de moment en O en projection sur l’axe , en faisant apparaître déterminé
+              à la question Q3.
+
+
+
+                      T11/20                                            Tournez la page S.V.P.
+
+
+===== page 12 =====
+          Hypothèse :
+        On considère qu’il y a glissement au niveau de toutes les surfaces frottantes (cas limite
+d’utilisation de l’embrayage « sliding-clutch »).
+          Données :
+     L’angle d’hélice β de la liaison hélicoïdale entre le flasque F et la noix N est de 45°. Le
+rayon moyen du filet vaut =            .
+          On rappelle que d’après le résultat obtenu à la question Q2, on a :
+              =            =            =
+
+                                Inscrire votre réponse dans le cadre R11 de la notice 1/3.
+                                                                                                                  +
+              En déduire l’ expression de                                           sous la forme :       =            !
+                                                                                                                               et l’expression
+                                                                                                                 +
+                                                                                     +
+              de                sous la forme :                    =                     !
+                                                                                              où    et     s’écrivent en fonction de
+                                                                                    +
+                   ,        ,           ,    et β .
+
+          Données :
+          Chaque ressort en étoile RE p,                               ∈{           }, a une raideur      =                −
+                                                                                                                                et une hauteur
+à vide    =        . En phase E (phase embrayée), la hauteur vaut                                                          =          .       est
+représentée figure 8, document 4, page D4/16.
+          La valeur du jeu initial vaut                        =                .
+
+          On rappelle que chaque ressort hélicoïdal RHk,                                                  ∈{          }, a une raideur
+                       −
+      =                    , une longueur à vide                            =                , et une longueur en phase embrayée
+  =            .
+
+
+
+                                Inscrire votre réponse dans le cadre R12 de la notice 1/3.
+              Donner les expressions de                                             en fonction de        ,      ,     ,         et de    !   en
+              fonction de                         ,   et   .
+
+                                Inscrire votre réponse dans le cadre R13 de la notice 1/3.
+              Donner l’expression du couple maximal transmissible par l’embrayage en
+                                                                                    +
+              phase A sous la forme                                =                         où    s’écrit en fonction de             ,   ,     ,
+                                                                                    +
+                   ,            ,       et   .
+          Données :
+          Compte tenu des valeurs numériques données précédemment, on calcule :
+
+                                    ≈        et       =        .
+
+
+
+
+                            T12/20                                                                            Tournez la page S.V.P.
+
+
+===== page 13 =====
+                   Inscrire votre réponse dans le cadre R14 de la notice 1/3.
+          Calculer la valeur numérique de           . Conclure.
+
+    C.2.2 - Résistance des matériaux
+     On s’intéresse dans cette partie au comportement des ressorts en étoile RE
+représentés figure 14, document 10, page D10/16. Nous avons pu voir que leurs
+caractéristiques avaient une influence directe sur le comportement de l’embrayage, et il est
+donc nécessaire de pouvoir effectuer leur dimensionnement.
+      Compte tenu de la géométrie du ressort à six branches disposées à 60°, on se limite à
+l’étude du comportement d’une seule branche. La figure 15, document 10, page D10/16
+donne la géométrie de cette branche dans le repère       = (% $ # ) . La projection de la
+branche sur l’axe % est notée            . Sa hauteur à vide est notée       . L’inclinaison de la
+branche par rapport à % est notée γ . Elle est soumise à un effort            =  $ . Nous allons
+chercher dans la suite à déterminer la relation existant entre      et le déplacement suivant $
+du point B.
+     Pour cela, on considère la poutre de la figure 16, document 10, page D10/16, définie
+dans le repère = (% $ #) , tel que (% % ) = ($ $ ) = γ identique à la branche d’origine. Elle
+est soumise au point B au même effort         que celui défini précédemment, incliné d’un angle
+γ . Sa longueur est notée .
+     Notations :
+
+
+     On note { ' } =        $    $        le torseur de cohésion exprimé au centre de gravité de
+                            #    #   &
+
+la section, avec    & = (% .
+     L’épaisseur de la poutre dans la direction $ est notée        et sa largeur dans la direction
+# est notée ) .
+
+                   Inscrire votre réponse dans le cadre R15 de la notice 1/3.
+          Déterminer l’expression des composantes du torseur de cohésion le long de
+          la poutre en fonction de , ( et γ .
+
+
+     Donnée :
+     Le module d’Young du matériau constituant un ressort en étoile RE p est noté           .
+     Hypothèse :
+     Dans la suite, on néglige l’effet de l’effort tranchant ainsi que celui de l’effort normal.
+
+                   Inscrire votre réponse dans le cadre R16 de la notice 1/3.
+          Donner l’expression de la déformée $(( ) suivant la direction $ . On précisera
+          notamment la valeur du déplacement du point B $* en fonction de                  ,    , ),
+           , γ et .
+
+
+                   T13/20                                              Tournez la page S.V.P.
+
+
+===== page 14 =====
+                   Inscrire votre réponse dans le cadre R17 de la notice 1/3.
+          En déduire la valeur du déplacement δ du point B suivant la direction $ en
+          fonction de      ,   ,   , ),        et   .
+
+      On définit la raideur    d’un ressort en étoile comme le rapport entre l’effort appliqué
+sur la zone d’appui centrale du ressort et le déplacement de cette zone, lorsque le ressort
+est en appui sur ses branches.
+
+                   Inscrire votre réponse dans le cadre R18 de la notice 1/3.
+          En déduire la valeur théorique                      de la raideur d’un ressort en étoile en
+          fonction de      ,   , ),   et        .
+
+    C.2.3 - Cotation fonctionnelle
+      Le fonctionnement de l’embrayage fait appel à un certain nombre d’exigences
+fonctionnelles. Nous avons notamment vu dans la partie C.2.1 – Statique qu’il est nécessaire
+d’avoir un jeu fonctionnel    entre la noix N et la plaque de poussée P (voir figure 8,
+document 4, page D4/16).
+     Données :
+     Le jeu    doit être compris dans un intervalle [                      ] . Ces valeurs permettent de
+fixer les valeurs    et       du couple frein transmissible par l’embrayage en phase de
+fonctionnement automatique (phase A).
+     Notations :
+     Dans la chaîne de cotes, on note                   la cote relative à la pièce X entre les surfaces
+numérotées i et j. On note         l’intervalle de tolérance correspondant.
+
+     On considère l’empilage de disques comme une seule pièce notée D.
+
+
+                   Inscrire votre réponse dans le cadre R19 de la notice 1/3.
+          Dessiner la chaîne de cotes relative au jeu                           . Ecrire les relations
+          géométriques reliant            et        avec les éléments constitutifs de la chaîne
+          de cotes.
+      Le constructeur propose plusieurs gammes d’empilage pour les disques internes DI,
+par exemple :
+               −    7 disques d’épaisseur                 ;
+
+               −    4 disques d’épaisseur                     et 3 disques d’épaisseur           ;
+
+               −    2 disques d’épaisseur                     et 5 disques d’épaisseur       .
+
+                       Inscrire votre réponse dans le cadre R20 de la notice 2/3.
+          Quelle est l’influence de la modification d’empilages de disques internes DI
+          sur le couple transmissible en mode embrayé (phase E) ?
+
+
+
+
+                T14/20                                                        Tournez la page S.V.P.
+
+
+===== page 15 =====
+                     Inscrire votre réponse dans le cadre R21 de la notice 2/3.
+            Sur le dessin de définition de la noix N, faire apparaître la spécification
+            fonctionnelle relative à la condition fonctionnelle évoquée précédemment.
+
+    C.2.4 - Choix de roulements
+       On s’intéresse dans cette partie au choix des roulements assurant le guidage en
+rotation de la cloche C sur l’arbre primaire AP.
+      La cloche C est entraînée par le vilebrequin par l’intermédiaire d’un pignon à denture
+droite. Elle ne subit donc aucun effort axial. Le choix du constructeur pour assurer le guidage
+de la cloche C s’est donc orienté vers des cages à aiguilles.
+     On note α l’angle de pression de la roue d’entraînement de la cloche C. Le torseur
+des actions mécaniques exercées par le moteur MOT sur la roue dentée de l’embrayage,
+
+
+exprimé au point d’engrènement        , vaut alors {     →   }=                .
+
+
+     Ce torseur s’exprime de la façon suivante au point           , situé sur l’axe de l’arbre primaire
+
+
+AP : {      →   }=
+
+     où :       −      représente le couple moteur ramené à la cloche C ;
+
+                − L’effort radial est donné par la relation :       =−        α ;
+                − L’effort tangentiel est donné par la relation :        =         α.
+     La figure 17, document 11, page D11/16 représente l’action de contact au point               .
+     La position du point d’engrènement est donnée par :
+
+                     +=ρ
+     Hypothèses :
+      Les deux cages à aiguilles guidant la cloche C de l’embrayage sont chargées de façon
+identique.
+     Les actions de pesanteur sont négligées.
+     Les liaisons sont parfaites.
+
+
+                     Inscrire votre réponse dans le cadre R22 de la notice 2/3.
+            Déterminer la charge radiale     à laquelle est soumise chacune des cages à
+            aiguilles, en fonction du couple moteur     , du rayon ρ et de l’angle α .
+
+
+
+
+                    T15/20                                                   Tournez la page S.V.P.
+
+
+===== page 16 =====
+     Dans la suite, on considère un chargement constant dans le temps, avec une vitesse
+de rotation      constante dans le temps (ce qui est une approximation grossière du
+chargement réel), exprimée en          .
+     Données :
+     On note     la durée de vie souhaitée en heures.
+     La figure 18, document 12, page D12/16 donne un extrait de catalogue constructeur
+de cages à aiguilles.
+
+                 Inscrire votre réponse dans le cadre R23 de la notice 2/3.
+          Donner, sous la forme d’un organigramme faisant intervenir            ,    et   , la
+          démarche de choix des dimensions des cages à aiguilles.
+
+    C.2.5 - Etude de solutions techniques pour réaliser une liaison
+     glissière
+       Le mécanisme étudié comporte plusieurs sous-ensembles de pièces en liaison
+glissière. Par exemple certains pignons se translatent par rapport aux arbres qui les guident
+lors des changements de rapport de vitesse. Il existe un très grand nombre de solutions
+techniques pour réaliser ces liaisons.
+      Une liaison glissière peut être caractérisée par de nombreux critères : démontabilité,
+forme des surfaces prépondérantes, nature des surfaces en contact, possibilité de réglage,
+précision de la mise en position, vitesse de déplacement maximale, coût relatif, durée de vie,
+encombrement, résistance…
+     Afin de répondre au mieux aux spécifications générales des liaisons, il est judicieux de
+caractériser les solutions techniques permettant de réaliser ce type de liaison.
+
+
+  AVERTISSEMENT : les solutions techniques évoquées dans la question suivante ne
+  représentent qu’une partie des familles de solutions et ne restreignent absolument
+  pas le candidat dans ses choix dans la partie C3 – Dessin d’étude en construction
+  mécanique.
+
+
+                 Inscrire votre réponse dans les 2 cadres R24 de la notice 2/3.
+          Compléter les cases non grisées dans les tableaux de caractérisation
+          partielle de solutions techniques évoquées (croquis à main levée).
+
+
+
+    C.2.6 - Lubrification – Etanchéité
+                 Inscrire votre réponse dans le cadre R25 de la notice 3/3.
+          Quelles sont les différentes fonctions du lubrifiant dans un système
+          mécanique ?
+
+                 Inscrire votre réponse dans le cadre R26 de la notice 3/3.
+          Quelles sont les différentes dispositions constructives possibles pour une
+          lubrification à l’huile ? Indiquer celle qui vous paraît la plus adaptée pour la
+          lubrification de cette boîte de vitesses. Justifier.
+
+
+                T16/20                                             Tournez la page S.V.P.
+
+
+===== page 17 =====
+     Il est nécessaire d’étancher le carter de boîte de vitesses par rapport à l’extérieur au
+niveau de la sortie de l’arbre secondaire.
+
+                 Inscrire votre réponse dans le cadre R27 de la notice 3/3.
+          Caractériser le type d’étanchéité dans ce contexte. Proposer une solution
+          technique pour la réaliser.
+
+    C.2.7 - Choix des matériaux
+     La plaque de poussée P est réalisée en fonderie.
+     Remarque : le candidat prendra soin dans la suite d’utiliser les désignations
+normalisées des matériaux.
+
+                 Inscrire votre réponse dans le cadre R28 de la notice 3/3.
+          Proposer un matériau pour la plaque de poussée P en donnant sa
+          désignation normalisée. Justifier.
+
+                 Inscrire votre réponse dans le cadre R29 de la notice 3/3.
+          Proposer un matériau pour les ressorts hélicoïdaux RH en donnant sa
+          désignation normalisée. Justifier.
+
+C.3 - Dessin d’étude de construction mécanique
+    C.3.1 - Présentation des supports de travail
+     Pour cette partie de l’étude, il vous est demandé de définir plusieurs sous-ensembles
+du mécanisme sur les deux calques format A3 et A4 fournis avec le sujet. Les éléments pré
+imprimés sur ces calques sont destinés à faciliter la mise en place des différents
+composants.
+      Le calque n°1, de format A3 horizontal, pré imprimé, fourni avec le sujet, est
+destiné à l’étude du guidage des arbres primaire et secondaire ainsi qu’à la fixation du
+pignon de sortie de boîte de vitesses. Le candidat trouvera sur la vue fournie une ébauche
+des arbres équipés des pignons correspondant aux différents rapports de vitesse. La
+position et l’encombrement du pignon de sortie de boîte de vitesses sont également fournis.
+
+
+                                                             Zone de l’étude
+                                                                                                                                                                                          A
+
+
+                                                           A-A
+                                                    Arbre primaire seul
+
+
+
+
+                                                                                          Pignon de
+
+
+
+Figure 3 : Mise en page du
+                                                                                         sortie de boîte
+
+
+                                                                                                                                                                                          A
+                                                                                                                                                                      B
+
+
+calque n°1 pré imprimé fourni                            B-B
+                                                Arbre secondaire seul
+                                        C cie stru
+                                         on nc c
+                                          S on
+
+                                           co es tio
+                                            C
+
+
+                                             ur In n M
+                                               s d
+                                                ba us éc
+                                                C
+                                                  en
+
+
+
+
+                                                  nq trie n
+                                                     tre
+
+
+
+
+                                                      ue lle iqu
+
+
+
+
+                                                                                                                                                                      B
+                                                         d'e
+
+
+
+
+                                                         PT s B e
+                                                            N
+
+
+                                                             xa
+                                                              om
+
+
+
+
+                                                               a
+                                                                m
+                                                                  en
+                                                                   :.
+                                                                     ...
+
+
+                                                                      :.
+                                                                        ...
+
+
+                                                                         ...
+                                                                            ...
+
+
+                                                                             .
+                                                                             Pr
+
+
+
+
+                                                                              . ...
+                                                                                ...
+                                                                                  én
+
+
+
+
+                                                                                    ...
+                                                                                    ...
+                                                                                       om
+
+
+
+
+                                                                                       .
+                                                                                        ...
+
+
+                                                                                         ....
+                                                                                            ...
+
+
+                                                                                              ...
+
+
+
+
+                                                                                                                                                                                                     CALQUE N°1
+                                                                                               :.
+
+
+                                                                                               ...
+
+
+                                                                                                  ...
+                                                                                                   ...
+
+
+                                                                                                   .
+                                                                                                    N
+
+
+
+
+                                                                                                     .
+
+
+                                                                                                      ...
+                                                                                                      ...
+                                                                                                       ...
+
+
+
+
+                                                                                                                                     C
+                                                                                                        °:
+
+
+
+
+                                                                                                         ...
+                                                                                                          ...
+                                                                                                           ...
+
+
+
+
+                                                                                                                                     ad
+                                                                                                             ...
+                                                                                                             ...
+
+
+
+
+                                                                                                              .
+                                                                                                               ...
+
+
+                                                                                                               .
+
+
+
+
+                                                                                                                                         re
+                                                                                                                 ...
+
+
+                                                                                                                  ....
+                                                                                                                  ...
+
+
+                                                                                                                   ...
+
+
+
+
+                                                                                                                                                                                                    A rendre obligatoirement
+                                                                                                                     ...
+                                                                                                                      ...
+
+
+
+
+                                                                                                                                          ré
+                                                                                                                       ...
+
+
+
+
+                                                                                                                       ...
+
+
+
+
+                                                                                                                                                      A   B   C   T                                                            Echelle 1
+                                                                                                                         ...
+                                                                                                                          ...
+
+
+
+
+                                                                                                                                             s
+                                                                                                                           ...
+
+
+
+
+                                                                                                                           ...
+
+
+
+
+                                                                                                                                                                                                         en fin d'épreuve
+                                                                                                                             ...
+
+
+
+
+                                                                                                                                              er
+                                                                                                                              .
+
+
+                                                                                                                               .
+
+
+
+
+                                                                                                                               .
+                                                                                                                                 .
+
+
+
+
+                                                                                                                                                 vé
+
+
+
+
+                                                                                                                                                                      Cadres réservés
+
+
+
+
+       Le calque n°2, de format A4 vertical, pré imprimé, fourni avec le sujet, est destiné
+à l’étude d’une adaptation de l’embrayage « sliding-clutch » en une version classique.
+
+
+                T17/20                                                                                                                                                                  Tournez la page S.V.P.
+
+
+===== page 18 =====
+                                                                                                                                               Zone de
+                                                                                                                                               l’étude
+
+
+
+Figure 4 : Mise en page du calque n°2
+pré imprimé fourni
+
+
+
+
+                                                C cie stru
+                                                 on nc c
+                                                  S on
+
+                                                   co es io
+                                                    C
+
+
+                                                     ur In n M
+                                                       s d
+                                                        ba us éc
+                                                        C
+                                                          en
+
+
+
+
+                                                          nq tri an
+                                                            t
+                                                             tre
+
+
+
+
+                                                              ue elle iqu
+                                                                 d'e
+
+
+
+
+                                                                 PT s B e
+                                                                    N
+
+
+                                                                     xa
+                                                                      om
+
+
+                                                                       m
+                                                                         en
+                                                                                                                                                              CALQUE N°2
+
+
+                                                                          :.
+                                                                             ...
+
+
+                                                                              : ...
+                                                                                 ...
+
+
+                                                                                    ...
+                                                                                     ...
+                                                                                      Pr
+
+
+
+
+                                                                                        ...
+                                                                                         ...
+                                                                                           én
+
+
+
+
+                                                                                            ...
+                                                                                             .
+                                                                                                                                                             A rendre obligatoirement
+
+
+
+
+                                                                                               ...
+                                                                                                 om
+
+
+
+
+                                                                                                 ...
+                                                                                                   ...
+
+
+                                                                                                     ...
+                                                                                                                                                                  en fin d'épreuve
+
+
+
+
+                                                                                                       ...
+                                                                                                         :.
+
+
+
+
+                                                                                                         ...
+                                                                                                                                                                                         Echelle 1
+
+
+                                                                                                           ...
+                                                                                                             ...
+
+
+
+
+                                                                                                             ...
+                                                                                                              N
+
+
+
+
+                                                                                                               ...
+                                                                                                                 ...
+
+
+
+
+                                                                                                                 ...
+
+
+
+
+                                                                                                                                               C
+                                                                                                                  °:
+
+
+
+
+                                                                                                                   ...
+                                                                                                                     ...
+
+
+
+
+                                                                                                                     ...
+
+
+
+
+                                                                                                                                               ad
+                                                                                                                       .
+                                                                                                                        ...
+
+
+
+
+                                                                                                                         ...
+                                                                                                                          ...
+
+
+
+
+                                                                                                                          ...
+
+
+
+
+                                                                                                                                                 re
+                                                                                                                            ...
+
+
+
+
+                                                                                                                             ...
+                                                                                                                              ...
+
+
+
+
+                                                                                                                              ...
+                                                                                                                                ...
+
+
+
+
+                                                                                                                                 ...
+
+
+
+
+                                                                                                                                                   ré
+                                                                                                                                  ...
+
+
+
+
+                                                                                                                                  ...
+                                                                                                                                     ...                          A    B      C     T
+
+
+
+
+                                                                                                                                     ...
+
+
+
+
+                                                                                                                                                      s
+                                                                                                                                      ...
+
+
+
+
+                                                                                                                                      ...
+
+
+
+
+                                                                                                                                                      er
+                                                                                                                                         .
+
+
+
+
+                                                                                                                                         ...
+                                                                                                                                          .
+
+
+
+
+                                                                                                                                          .
+
+
+
+
+                                                                                                                                                        vé
+                                                                                                                                                                                        Cadres réservés
+
+
+
+
+    C.3.2 - Consignes spécifiques aux travaux graphiques
+     Les dessins sont à exécuter à l’échelle 1:1, aux instruments, avec pour l’essentiel mise
+au net au crayon respectant les épaisseurs de traits normalisées et les exigences d’une
+bonne lisibilité ; seuls les axes et les écritures seront tracés à l’encre noire. Les tracés de
+couleur ne sont pas admis. Les normes AFNOR seront respectées.
+      Les principales conditions fonctionnelles relatives aux liaisons représentées seront
+clairement indiquées en respectant les règles normalisées AFNOR.
+     Les éléments normalisés utilisés par le candidat autres que ceux fournis dans le sujet,
+seront dessinés approximativement en respectant au mieux leurs proportions.
+
+    C.3.3 - Travail demandé
+      Afin d’assurer toutes les fonctions de service et de satisfaire toutes les contraintes
+définies dans la cahier des charges fonctionnel (pages T4/20 et T5/20), et en utilisant au
+mieux les éléments fournis sur les calques n°1 et 2, on demande :
+         −   L’étude de conception du guidage des arbres primaire et secondaire ;
+         −   L’étude de la liaison complète démontable entre l’arbre secondaire AS et le
+             pignon de sortie de boîte de vitesses ;
+         −   L’adaptation de l’embrayage « sliding-clutch » en une version classique.
+
+       C.3.3.1 - Conception du guidage des arbres primaire et secondaire –
+       Répondre sur le calque n°1
+     Données :
+     Les choix suivants ont été réalisés :
+         −   Guidage des arbres à l’aide d’un roulement à billes à contact radial avec rainure
+             pour segment d’arrêt et d’un roulement à aiguilles à cage sans bague
+             intérieure ;
+
+
+                T18/20                                                                                                                                        Tournez la page S.V.P.
+
+
+===== page 19 =====
+         −   Montage du pignon de sortie de boîte par une liaison encastrement
+             démontable ;
+         −   Carter réalisé en deux parties avec un plan de joint passant par les axes des
+             deux arbres ;
+         −   Lubrification à l’huile.
+      La figure 5, page T19/20 donne l’agencement de la boîte de vitesses, et aidera donc
+le candidat dans le choix de la disposition des roulements. Ceux-ci seront choisis dans les
+documents fournis figure 19, document 13, page D13/16 et figure 20, document 14, page
+D14/16.
+     Le candidat remarquera que les pignons retenus pour la boîte de vitesses sont des
+pignons à denture droite.
+                                                                                Embrayage
+
+
+
+
+          Pignon de
+     sortie de boîte
+
+
+
+
+                   Figure 5 : Schéma architectural de la boîte de vitesses
+
+      Dessiner aux instruments, sur la vue prédéfinie du calque n°1, vos propositions de
+solutions pour la définition complète :
+         −   de la liaison pivot entre l’arbre primaire AP et le carter ;
+         −   de la liaison pivot entre l’arbre secondaire AS et le carter ;
+         −   de la liaison complète démontable entre le pignon de sortie de boîte de vitesses
+             et l’arbre secondaire AS ;
+         −   des éléments d’étanchéité ;
+         −   du carter.
+       L’ajout de vues complémentaires (éventuellement un croquis à main levée) est laissé à
+la libre initiative du candidat.
+     Prévoir toutes dispositions permettant d’assurer :
+         −   la montabilité de l’ensemble étudié ;
+         −   sa maintenabilité.
+
+
+
+                T19/20                                                 Tournez la page S.V.P.
+
+
+===== page 20 =====
+         C.3.3.2 -   Adaptation de l’embrayage – Répondre sur le calque n°2
+      Le constructeur souhaite toutefois continuer à proposer à ses clients les deux versions
+de l’embrayage :
+         −   l’embrayage de type « sliding-clutch » ;
+         −   l’embrayage classique.
+    Afin de diminuer les coûts de production, il souhaite avoir un maximum de pièces
+communes entre ces deux versions.
+      Par ailleurs, il ne souhaite pas conserver de pièces n’ayant pas de fonctions
+techniques dans un embrayage classique.
+      Dessiner aux instruments, sur la vue prédéfinie du calque n°2, vos propositions de
+solutions pour la définition complète de l’embrayage classique.
+      On rappelle que le schéma d’architecture correspondant à un embrayage classique est
+fourni figure 9, document 5, page D5/16.
+      L’accent sera mis sur l’adaptation de composants communs, ou ayant des gammes de
+fabrication proches, entre les deux versions.
+      Le candidat pourra glisser sous son calque la figure 21, document 15, page D15/16,
+tracée à l’échelle 1:1, pour en reproduire directement les parties qu’il jugera utiles.
+
+
+
+
+                T20/20                                            Tournez la page S.V.P.
+
+
+===== page 21 =====
+         Document 1
+
+
+
+                                                                   Vilebrequin
+
+
+
+
+Transmission                                                    Arbre primaire
+     primaire
+                                                                   Emplacement du
+                                                                   pignon de sortie
+
+
+        Embrayage
+                                                                 Arbre
+                                                                 secondaire
+
+                      Roue d’entraînement de
+                      la cloche d’embrayage
+
+     Figure 6 : Architecture générale d’une boîte de vitesses de motocyclette
+
+
+
+
+                                         D1/16              Tournez la page S.V.P.
+
+
+===== page 22 =====
+Document 2
+
+                             Moteur
+                                   4 cylindres en ligne – 4 temps
+       Type de moteur               Double arbre à came en tête
+                                       4 soupapes par cylindre
+          Cylindrée                            748 cm3
+     Alésage x Course                         73 x 44,7
+   Taux de compression                          12 : 1
+    Puissance maximale           103 kW (140cv) à 13 000 tr.min-1
+Couple maximal au vilebrequin                  84 N.m
+      Refroidissement                          Liquide
+                                              Par huile
+        Lubrification
+                                 Viscosité SAE 15W-50, 20W-50
+                          Transmission
+Rapport de réduction primaire               1,755 (93/53)
+                                      Multidisque à commande
+         Embrayage
+                                        mécanique dans l’huile
+      Boîte de vitesses                       6 rapports
+                                  1ère          2,412 (41/17)
+                                    nde
+                                  2             2,053 (39/19)
+                                 3ème           1,762 (37/21)
+     Rapports de boîte             ème
+                                 4              1,545 (34/22)
+                                   ème
+                                 5              1,435 (33/23)
+                                 6ème           1,333 (32/24)
+  Rapport de transmission
+                                            2,294 (39/17)
+         secondaire
+                            Châssis
+        Empattement                           1 435 mm
+         Poids à sec                            203 kg
+   Poids tous pleins faits                      232 kg
+
+     Tableau 1 - Spécifications générales du véhicule (extraits)
+
+
+
+
+                                  D2/16                 Tournez la page S.V.P.
+
+
+===== page 23 =====
+                                                                                                                                                                                           Tournez la page S.V.P.
+                                                                                 Roue d'entraînement
+
+
+
+
+                                                                                                                                Figure 7 : Vue écorchée d’une boîte de vitesses avec embrayage « sliding-clutch »
+                                                    Arbre primaire AP
+                                                                                                 Disque externe DE i
+                                                                                                 Disque interne DI j
+                 Tige de
+                 commande
+                 de débrayage                                     Flasque F                      Noix N
+                                                                                                          Ressort
+                                                                                                          hélicoïdal RH k
+     Arbre
+     secondaire AS
+
+
+
+
+                                                                                                                                                                         D3/16
+                                                                                                                  y
+                                                                                                                            x
+                                                                                                  z
+             Seconde
+Document 3
+
+
+
+                  Sixième
+                       Quatrième                                                                 Ressort
+                                                                                                 en étoile RE p
+                             Troisème                                                    Plaque de poussée P
+                                   Cinquième
+                                                                              Cloche C
+                                         Première
+
+
+===== page 24 =====
+[OCR] Document 4
+
+{— >.
+
+NNN
+~\-a A
+AMO \
+ee Vy)
+\ A
+ells
+INS
+if
+N BAIA ANANGNG
+LJ ss)
+eS.
+
+Figure 8 : Vue d’ensemble de l'embrayage « sliding-clutch »
+
+D4/16
+
+
+===== page 25 =====
+[OCR] Document 5
+
+Di!
+P
+DE! !
+|
+|
+|-
+Cc
+y RH*
+7 N
+F
+z
+AP
+id N\_Ca
+Figure 9 : Schéma d’architecture d'un embrayage multidisque classique
+RH* |6 Ressorts hélicoidaux Acier
+DE: |e Disques externes Alliage d’aluminium Revétement liége
+DI! {7 Disques internes Acier
+Cc il Cloche Alliage d’aluminium
+P 1 Plaque de poussée Alliage d’aluminium
+N 1 Noix Acier
+F 1 Flasque Alliage d’aluminium
+AP 1 Arbre primaire Acier
+Ca 1 Carter Alliage d’aluminium
+Rep |Nb Désignation Type de matériau Observation
+
+D5/16 Tournez la page S.V.P.
+
+
+
+===== page 26 =====
+[OCR] Document 6
+
+Figure 10 : Schéma d’architecture d'un embrayage multidisque avec dispositif anti-blocage
+Mode moteur
+
+RH' |6 Ressorts hélicoidaux Acier
+
+RE' [2 Ressorts en étoile Acier Tédle emboutie
+DE: \o Disques externes Alliage d’aluminium Revétement liége
+Die ha Disques internes Acier
+
+Git Cloche Alliage d’aluminium bidisteiallaniaead
+P 1 Plaque de poussée Alliage d’aluminium
+
+N 1 Noix Acier
+
+F 1 Flasque = : Alliage d’aluminium
+
+AP 1 Arbre primaire Acier
+
+Ca 1 Carter Alliage d’aluminium
+
+Rep |Nb Désignation Type de matériau Observation
+
+D6/16 Tournez la page S.V.P.
+
+
+
+===== page 27 =====
+[OCR] Document 7
+
+Figure 11 : Schéma d’architecture d'un embrayage multidisque avec dispositif anti-blocage
+
+Mode frein
+RH' {6 Ressorts hélicoidaux Acier
+RE' |2 Ressorts en étoile Acier Téle emboutie
+DE' |8 Disques externes Alliage d’aluminium Revétement liege
+Die 7 Disques internes Acier
+Cc 1 Cloche Alliage d’aluminium Bivetce sur eT
+P 1 Plaque de poussée Alliage d’aluminium
+N 1 Noix Acier
+F 1 Flasque == Alliage d’aluminium
+AP 1 Arbre primaire Acier
+Ca 1 Carter Alliage d’aluminium
+Rep |Nb Désignation Type de matériau Observation
+
+D716
+
+Tournez la page S.V.P.
+
+
+===== page 28 =====
+                            Document 8
+
+               Flasque F                             Noix N
+                            Plans d'appui droits
+                           permettant de réaliser
+                           une liaison ponctuelle
+
+
+
+
+                                  Plans d'appui inclinés
+                                  permettant de réaliser
+                                  une liaison hélicoïdale
+
+
+Figure 12 : Vue des pièces réalisant la liaison par rampe hélicoïdale
+
+
+
+
+                                          D8/16               Tournez la page S.V.P.
+
+
+===== page 29 =====
+[OCR] Document 9
+
+7
+
+“tT OR
+
+pl lle +
+
+No “No
+
+Figure 13 : Couple transmissible entre deux surfaces planes
+
+D9/16 Tournez la page S.V.P.
+
+
+===== page 30 =====
+                              Document 10
+
+
+
+
+             Figure 14 : Vue en perspective d’un ressort en étoile
+
+        v0
+                                 L0
+
+
+        A                                                                       u0
+
+                         γ
+
+                                                                        h0
+
+
+                                                           B
+
+
+                                                               F
+
+
+Figure 15 : Modèle pour l’étude d’une branche dans le repère                =(       )
+        v
+
+
+
+        A                                                       B               u
+
+
+                                                                        F
+                                  L
+
+
+                                                                    γ
+            Figure 16 : Modèle équivalent dans le repère       =(           )
+
+
+                                       D10/16                  Tournez la page S.V.P.
+
+
+===== page 31 =====
+                                    Document 11
+
+                                                  y
+                                                      F
+                                              I           α
+
+
+
+
+                 z
+
+
+
+
+Figure 17 : Modélisation de l’action de contact du pignon moteur sur la roue d’entraînement
+
+
+
+
+                                             D11/16              Tournez la page S.V.P.
+
+
+===== page 32 =====
+                                        Document 12
+Cages à aiguilles
+                                                        L
+•    A une rangée d’aiguilles, type B
+                                                                                              r
+•    A deux rangées d’aiguilles, type                                       E                         E
+     BB                                                                              (H11)
+                                                                                     L
+                                        Di                          De
+                                                                            A                         A
+
+
+
+
+                                                                                   Vitesse
+    Désignation     Di    De      L     rmaxi   Amaxi   Emini      C       C0              Masse
+                                                                                    limite
+                                                                                         -1
+                   mm     mm     mm     mm      mm          mm     N        N       min           g
+  Bx6x9x8          6      9      8      0,3     6,4     7,4      3 000    2 600    65 000     1,1
+ Bx8x11x10         8      11     10     0,3     8,4     9,4      4 500    4 600    50 000     1,7
+ Bx9x12x10         9      12     10     0,3     9,3     10,4     5 000    5 500    44 000      2
+ Bx10x13x9         10     13      9     0,3     10,3    12,4     3 800    3 950    40 000     2,4
+ Bx12x15x10        12     15     10     0,3     12,4    14,4     4 800    5 600    33 000     3,2
+BBx14x17x20        14     17     20     0,2     14,4    16,4     10 500   16 000   28 500     8,8
+ Bx15x19x13        15     19     13     0,6     15,8    17,8      9 400   11 700   26 500     6,3
+ Bx16x20x13        16     20     13     0,6     16,7    18,7      9 700   12 500   25 000     6,6
+ Bx17x21x15        17     21     15     0,7     17,9    19,9     11 800   16 300   23 500     8,3
+ Bx18x22x13        18     22     13     0,6     18,8    20,8     10 400   14 000   22 000     7,4
+ Bx20x24x13        20     24     13     0,7     20,9    22,9     11 000   15 500   20 000     8,2
+ Bx22x26x13        22     26     13     0,4     22,5    24,9     11 200   16 500   18 000     9,5
+ Bx25x29x13        25     29     13     0,5     25,6     28      12 000   18 800   16 000     10,8
+ Bx28x33x17        28     33     17     0,6     28,8    31,2     20 000   32 500   14 300     18,8
+ Bx30x35x17        30     35     17     0,8      31     33,4     20 500   34 000   13 300      20
+ Bx32x37x17        32     37     17     0,8     33,1    35,5     21 500   36 500   12 500     21,5
+ Bx35x40x17        35     40     17     0,7     35,9    38,5     22 000   39 500   11 500      23
+ Bx40x45x17        40     45     17     0,7     40,9    43,4     23 800   45 000   10 000      26
+                    Figure 18 : Cages à aiguilles - Données Nadella (extraits)
+
+
+
+
+                                                   D12/16                 Tournez la page S.V.P.
+
+
+===== page 33 =====
+                                Document 13
+                                                                    L
+
+
+
+         Roulement à une rangée de billes à
+         contact radial ouvert avec 1 rainure
+         pour segment d'arrêt
+                                                         De                  Di
+
+
+
+
+                                                                  Vitesse
+           Désignation     Di     De     L        C       C0
+                                                                   limite
+                                                                        -1
+                          mm     mm     mm        N        N        min
+             6303N         17     47     14    1 350      660     18 000
+             6004N         20     42     12     940       500     20 000
+             6204N         20     47     14    1 280      660     17 000
+             6304N         20     52     15    1 590      790     16 000
+             6005N         25     47     12    1 010      580     18 000
+             6205N         25     52     15    1 400      790     14 000
+             6305N         25     62     17    2 360     1 210    13 000
+             6006N         30     55     13    1 260      820     15 000
+             6206N         30     62     16    1 950     1 130    12 000
+             6306N         30     72     19    2 800     1 580    10 000
+             6007N         35     62     14    1 600     1 030    13 000
+             6207N         35     72     17    2 550     1 530    11 000
+             6307N         35     80     21    3 350     1 910     9 900
+             6208N         40     80     18    2 900     1 790     9 600
+             6308N         40     90     23    4 050     2 390     8 800
+             6408N         40    110     27    6 300     3 650     7 600
+Figure 19 : Roulement à billes à contact radial avec rainure pour segment d’arrêt –
+                             Données SNR (extraits)
+
+
+
+
+                                         D13/16                Tournez la page S.V.P.
+
+
+===== page 34 =====
+                        Document 14
+                                                                 L
+
+
+   Roulement à aiguilles à cage sans
+   bague intérieure
+
+                                                   De                      Ci
+
+
+
+
+                                                        Vitesse
+Désignation     Ci    De      L       C       C0         limite Masse
+                                                            -1
+               mm     mm     mm       N        N         min         g
+ RNA4900        14    22     13    10 600   11 600      28 500   24,3
+NBx14x22x16     14    22     16    13 100   15 300      28 500    30
+NBx15x23x16     15    23     16    13 800   16 500      27 000    30
+ RNA4901        16    24     13    11 700   13 700      25 000   27,5
+NBx18x26x16     18    26     16    15 700   20 500      22 000   40,5
+NBx19x27x16     19    27     16    15 500   20 800      21 000    40
+ RNA4902        20    28     13    13 100   16 900      20 000    36
+NBx20x28x20     20    28     20    20 000   29 000      20 000    56
+NBx21x29x16     21    29     16    16 800   23 500      19 000   43,5
+ RNA4903        22    30     13    14 000   18 900      18 000    39
+NBx22x30x16     22    30     16    17 400   24 800      18 000    49
+NBx22x30x20     22    30     20    21 500   32 500      18 000    61
+NBx24x32x16     24    32     16    18 500   27 500      16 700    49
+NBx24x32x30     24    32     20    22 800   36 500      16 700    62
+NBx25x33x16     25    33     16    19 000   29 000      16 000    55
+ RNA4904        25    37     17    25 000   30 000      16 000    79
+NBx26x34x20     26    34     20    23 300   38 000      15 400    67
+RNA29/2217      28    39     17    27 000   34 500      14 000    84
+NBx28x37x20     28    37     20    27 500   42 500      14 000    83
+NBx29x38x20     29    38     20    27 300   42 500      13 800    80
+  Figure 20 : Roulement à aiguilles à cage sans bague intérieure –
+                    Données Nadella (extraits)
+
+
+
+
+                                  D14/16                Tournez la page S.V.P.
+
+
+===== page 35 =====
+                             Document 15
+
+
+
+
+y
+
+
+
+        x
+
+
+
+
+    Figure 21 : Vue en coupe brisée de l’embrayage « sliding-clutch »
+
+
+
+
+                                    D15/16              Tournez la page S.V.P.
+
+
+===== page 36 =====
+                                   Document 16
+Paramètre   Désignation                                                      Valeur numérique
+            Rayon interne des surfaces frottantes
+            Rayon externe des surfaces frottantes
+            Coefficient de frottement et d’adhérence des surfaces
+            frottantes
+            Rayon équivalent des surfaces frottantes
+            Nombre de surfaces frottantes
+            Raideur d’un ressort hélicoïdal                                               −
+
+
+            Longueur à vide d’un ressort hélicoïdal
+            Longueur en phases E et A d’un ressort hélicoïdal
+            Couple maximal transmissible par l’embrayage en mode frein
+            Rayon moyen du filet de la rampe hélicoïdale
+    β       Angle d’hélice de la rampe hélicoïdale                                    °
+            Raideur d’un ressort en étoile                                                −
+
+
+            Hauteur à vide d’un ressort en étoile
+            Hauteur en phase E d’un ressort en étoile
+            Jeu initial entre la noix N et la plaque de poussée P
+            Projection d’une branche d’un ressort en étoile
+            Longueur d’une branche d’un ressort en étoile
+    γ       Inclinaison d’une branche de ressort en étoile
+            Epaisseur d’une branche
+            Largeur d’une branche
+            Module d’Young d’un ressort en étoile
+            Raideur théorique d’un ressort en étoile
+    ρ       Rayon primitif de fonctionnement du pignon de cloche C
+    α       Angle de pression du pignon de cloche C
+                                                      −
+            Vitesse de rotation de la cloche C en
+            Durée de vie en heures
+
+                        Tableau 2 – Récapitulatif des notations utilisées
+
+
+
+
+                                                D16/16                Tournez la page S.V.P.
+
+
+===== page 37 =====
+  Montage 1                 NOM : …………………………….                                 CONCOURS BANQUE PT
+
+                                                                               SCIENCES INDUSTRIELLES B
+                            Prénom : …………………………..
+                                                                             NOTICE JUSTIFICATIVE 1/3
+                            Académie : ………………………….
+
+                            N° d’inscription : …………………….                        A rendre à la fin de l’épreuve
+Ne
+rien                                                                                Dépliez la feuille S.V.P.
+écrire
+dans
+ce
+cadre                       R1      Expression de la pression     :
+
+
+
+
+                            R2      Expression du couple transmissible       pour une surface frottante :
+
+
+
+                                    Expression du rayon équivalent       :
+
+
+
+
+  R3      Nombre de surfaces frottantes     :
+
+
+
+
+  R4      Expression de l’effort presseur       :
+
+
+
+
+  R5      Expression du couple maximal transmissible      :
+
+
+
+
+  R6      Valeur numérique du couple maximal transmissible        :
+
+
+
+
+  R7      Couple maximal transmis par l’embrayage             :
+
+
+
+
+          Conclusion :
+
+
+
+
+Dépliez la feuille S.V.P.                                                                     Tournez la page S.V.P.
+
+
+===== page 38 =====
+R8    Théorème de la résultante sur   appliqué à {N;P} :
+
+
+
+      Théorème du moment en O sur      appliqué à {N;P} :
+
+
+
+
+R9    Théorème du moment en O sur      appliqué à {F;AP} :
+
+
+
+
+R10     Théorème du moment en O sur       appliqué à DI :
+
+
+
+
+R11     Expression de       :                                Expression de   :
+
+
+
+
+R12    Expression de       :
+
+
+
+
+       Expression de        :
+
+
+===== page 39 =====
+                         R13        Expression de       :
+
+
+
+
+                         R14        Valeur numérique de         :
+
+
+
+Conclusion :
+
+
+
+
+R15     Expression du torseur de cohésion :
+
+
+                     =                                      =
+
+
+                     =                                      =
+
+
+                     =                                      =
+
+
+R16     Expression de la déformée    ():
+
+
+
+        Expression du déplacement au point B        :
+
+
+===== page 40 =====
+ R17      Expression du déplacement δ :
+
+
+
+
+ R18      Raideur théorique      du ressort en étoile :
+
+
+
+
+ R19      Chaîne de cotes relative au jeu   :
+
+
+
+                                                                            EC          6
+
+                                                                    3
+                                                        1       F
+                                                                                4                               P
+                                                                        R
+
+
+
+
+                                                                            N       5
+
+
+
+
+                                                                                                        8   9
+
+
+
+
+                                                                                                    7
+
+
+                                                            2
+
+
+
+
+                                                1   2           3   4   5           6       7   8           9
+
+                                                                                                    j
+
+
+
+
+   Ecriture des chaînes de cotes :
+
+      •        =
+
+      •        =
+
+
+Dépliez la feuille S.V.P.
+
+
+===== page 41 =====
+                            NOM : …………………………….                          CONCOURS BANQUE PT
+
+                                                                        SCIENCES INDUSTRIELLES B
+                            Prénom : …………………………..
+                                                                      NOTICE JUSTIFICATIVE 2/3
+                            Académie : ………………………….
+
+                            N° d’inscription : …………………….                 A rendre à la fin de l’épreuve
+Ne
+rien                                                                         Dépliez la feuille S.V.P.
+écrire
+dans
+ce
+cadre                       R20   Conséquence de la modification de l’empilage de disques sur le couple
+                                  transmissible :
+
+
+
+
+                            R21    Spécifications fonctionnelles pour la noix :
+
+
+
+
+                                                  4
+
+
+
+                                                       5
+
+
+
+                                                                  8
+
+
+
+
+Dépliez la feuille S.V.P.                                                            Tournez la page S.V.P.
+
+
+===== page 42 =====
+R22   Expression de la charge radiale R :
+
+
+
+
+R23   Démarche de choix des cages à aiguilles :
+
+
+===== page 43 =====
+                               R24
+
+                                                        LIAISONS GLISSIERE
+                                       Caractérisation partielle de quelques solutions techniques
+
+
+
+
+                                   Forme de la
+                                                                                                   Possibilité
+                   Solution    surface de mise en
+                                                              Nature du contact                    de réglage
+                 isostatique         position
+                                                                                                     du jeu
+                                 prépondérante
+  Descriptif                                                                                                     Croquis
+                                                                        anti-friction
+                                cylindrique
+
+
+
+
+                                                                         Eléments
+
+
+
+                                                                                        Eléments
+                                                                                        roulants
+                                                              Contact
+                                              plane
+
+
+
+
+                                                               direct
+                                                      autre
+                        non
+
+
+
+
+                                                                                                           non
+                 oui
+
+
+
+
+                                                                                                   oui
+
+
+
+
+   Guidage
+ prismatique     X                            X                X                                          X
+
+      Vis de
+   pression à
+téton dans une                  X                              X                                          X
+     rainure
+ longitudinale
+
+
+
+ Guidage par
+  cannelure      X
+
+
+===== page 44 =====
+R24
+
+
+                     LIAISONS GLISSIERE
+    Caractérisation partielle de quelques solutions techniques
+
+
+
+
+                                   Forme de la
+                                                                                                   Possibilité
+                   Solution    surface de mise en
+                                                              Nature du contact                    de réglage
+                 isostatique         position
+                                                                                                     du jeu
+                                 prépondérante
+  Descriptif                                                                                                     Croquis
+                                                                        anti-friction
+                                cylindrique
+
+
+
+
+                                                                         Eléments
+
+
+
+                                                                                        Eléments
+                                                                                        roulants
+                                                              Contact
+                                              plane
+
+
+
+
+                                                               direct
+                                                      autre
+                        non
+
+
+
+
+                                                                                                           non
+                 oui
+
+
+
+
+                                                                                                   oui
+
+
+
+
+ Guidage par
+    queue
+d’aronde avec
+ dispositif de          X                                      X                                   X
+rattrapage de
+      jeu
+
+
+ Guidage à
+ colonnes                                                      X                                          X
+
+
+
+
+ Guidage à
+  galets                                                                                           X
+
+
+===== page 45 =====
+  Montage 1                 NOM : …………………………….                    CONCOURS BANQUE PT
+
+                                                                 SCIENCES INDUSTRIELLES B
+                            Prénom : …………………………..
+                                                                 NOTICE JUSTIFICATIVE 3/3
+                            Académie : ………………………….
+
+                            N° d’inscription : …………………….          A rendre à la fin de l’épreuve
+Ne
+rien                                                                 Dépliez la feuille S.V.P.
+écrire
+dans
+ce
+cadre                       R25      Fonctions du lubrifiant :
+
+
+
+
+  R26       Différents dispositifs de lubrification :
+
+
+
+
+            Dispositif le plus adapté – Justification :
+
+
+
+
+  R27       Type d’étanchéité :
+
+
+
+
+            Solution technique retenue :
+
+
+
+
+Dépliez la feuille S.V.P.                                                    Tournez la page S.V.P.
+
+
+===== page 46 =====
+R28   Matériau pour la plaque de poussée P :
+
+
+
+
+      Justification :
+
+
+
+
+R29   Matériau pour les ressorts hélicoïdaux RH :
+
+
+
+
+      Justification :
+
+
+===== page 47 =====
+[OCR] 
+
+===== page 48 =====
+[OCR] \Dépliez la feuille S.V.P,
+
+
+===== page 49 =====
+                                                                                                                                                               Echelle 1
+                                                                                                                                                           A rendre obligatoirement
+                                                                                                                                         CALQUE N°1
+
+                                                                                                                                                                en fin d'épreuve
+A
+
+
+
+
+                                            A
+
+
+
+
+                                                                                                                                                                               Cadres réservés
+                                                B
+
+
+
+
+                                                                                                   B
+
+
+
+
+                                                                                                                                                                T
+                                                                                                                                                                C
+                                                                                                                                                                B
+                                                                                                                                                                A
+                                                                                                                                                                                      é
+                                                                                                                                                                              rv
+                                                                                                                                                                      se
+                                                                                                                                                                ré
+                                                                                                                                                        re
+                                                                                                                                                      ad
+                                                                                                                                                 C
+                                                                                                                                                               ...
+                                                                                                                                                           ...
+
+
+
+
+                          sortie de boîte
+                                                                                                                                                       ...
+                                                                                                                                                    ...
+
+
+
+
+                           Pignon de
+                                                                                                                                               ...
+                                                                                                                                           ...                     ..
+                                                                                                                                      ...                     ...
+                                                                                                                                  ...                     ...
+
+
+
+
+                                                    Arbre secondaire seul
+                                                                                          PT s B e                            ...                     ...
+
+
+
+
+    Arbre primaire seul
+                                                                                        ue elle iqu                      . ...                   ....
+                                                                                      nq tri an                     . ...                  . ...
+                                                                                                              ...
+                                                                                                                  .
+                                                                                                                                    ...
+                                                                                                                                        ..                     ...
+                                                                                    ba us éc              ...                      .                       ...
+                                                                                   s d                 :.                      ...                     ...
+
+
+
+
+           A-A
+
+
+
+
+                                                             B-B
+                                                                                 ur In n M                                 ...                    ....
+                                                                               co es tio           en                  ...                     ..
+                                                                             on nc c              m              . ...                   ....                    .
+                                                                            C ie tru           xa            ...                     ...                     ...
+                                                                              Sc ons      d'
+                                                                                             e           ...                     :.                      ...
+                                                                                                      ...                                            ...
+                                                                                    C               :.
+                                                                                                  tre
+                                                                                                                            m
+                                                                                                                                   no            ...
+                                                                                             en               om                 é        °:
+                                                                                            C               N                 Pr               N
+
+
+===== page 50 =====
+[OCR] Ss
+
+Ss
+
+Echelle 1
+
+W SM ———
+
+en fin d'épreuve
+
+Arendre obligatoirement
+
+CALQUE N°2
+
+AARARRAT
+
+ENCRERER ERENT
+
+Cadres réservés
+
+

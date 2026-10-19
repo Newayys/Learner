@@ -1,0 +1,950 @@
+
+===== page 1 =====
+        Alimentation en papier d’une rotative d’impression
+
+Présentation du contexte de l’étude
+
+Ouest France produit un quotidien qui paraît du lundi au samedi en 42 éditions locales différentes,
+représentant en moyenne chaque nuit 120 000 lignes, 540 pages et 1700 photos. La diffusion
+moyenne se situe à plus de 800 000 exemplaires toutes éditions confondues. Ouest France est ainsi
+le premier quotidien de France avec plus de 2 millions de lecteurs.
+
+Pour fabriquer ses journaux, Ouest France dispose de deux unités de production (une à Chantepie en
+Ille et Vilaine et une à la Chevrolière en Loire Atlantique).
+
+L’atelier de production, situé à Chantepie (36 éditions pour 780 000 exemplaires), est composé de 6
+rotatives dont la production unitaire est de 60 000 journaux/heure pour 56 pages maxi.
+
+La rotative est composée de 7 unités identiques (disposées en parallèle) qui permettent, chacune,
+l’impression de 8 pages. La figure 1, sur la chemise, présente de façon schématique une vue
+globale de l’installation complète d’une rotative.
+
+Une rotative fait 40 m de long pour 11 m de haut et comporte 3 étages :
+   • Le premier étage est dédié à l’alimentation en papier sous forme de bobine (950 kg pour 15
+       km de papier) (figure 2 sur la chemise).
+   • Le second étage réalise l’impression des pages (figure 3 sur la chemise).
+   • Le troisième étage regroupe l’ensemble des pages, plie et coupe pour former le journal prêt à
+       être envoyé chez les distributeurs (figure 4a, b, c sur la chemise).
+
+Pour ce sujet, nous allons étudier plus particulièrement le premier étage et la phase d’alimentation
+en papier d’une unité (Documents ressources I et II).
+L’alimentation d’une unité est composée d’un carrousel support-bobines à trois bras : un premier
+bras supporte la bobine en déroulement, un deuxième bras est en attente avec une bobine neuve, le
+troisième bras servira lors du cycle suivant et n’est pas utilisé. Une rotation de 120° du carrousel
+permet le passage d’une bobine à une autre. Un collage par adhésif double face est effectué entre la
+bobine neuve et le papier en défilement pour assurer la continuité de la production. Le papier de la
+bobine vide est alors sectionné. Pendant cette phase (qui dure quelques mètres), le papier est en
+double (papier bobine neuve + papier bobine vide).
+
+
+
+
+                                                                       Tournez la page S.V.P.
+
+
+===== page 2 =====
+                                             −2−
+
+Questions préliminaires
+Question p.1 : Justifier la capacité maximale de la rotative à 56 pages.
+
+Question p.2 : Calculer la capacité journalière de production de journaux de l’atelier de production
+de Chantepie en faisant l’hypothèse d’une durée journalière de fabrication de 8 heures. Justifier la
+surcapacité de production de l’atelier par rapport à la fabrication journalière.
+
+Question p.3 : La vitesse de défilement du papier en sortie de rotative est de 9 m/s. Sachant qu’une
+bobine a une capacité utile de 15 km de papier, en fonctionnement en continu, donner le temps entre
+deux changements de bobine par rotative.
+
+Question p.4 : En notant V la vitesse linéique du papier, calculer la vitesse de rotation angulaire ω
+du rouleau de papier en fonction du rayon ρ de celui-ci.
+
+Question p.5 : Calcul de l’évolution du rayon de la bobine en fonction du temps. Par exemple, en
+traduisant le fait que pour un rayon ρ donné, la diminution de rayon ρ est égale à l’épaisseur du
+papier (« e ») pour une longueur de papier déroulée égale au périmètre du rouleau, écrire l’équation
+différentielle permettant de d’écrire l’évolution du rayon ρ du rouleau. Déterminer l’évolution de ρ
+en fonction du temps.
+A partir des données du texte, et sachant que le rayon initial des bobines est de Re = 0,55 m et que
+le rayon du support cartonné (mandrin) utilisé pour réaliser la bobine est de Ri = 0,05 m, tracer
+l’allure de l’évolution de ρ en fonction du temps pour une vitesse de défilement du papier de 9 m/s.
+
+Question p.6 : Donner l’expression de la vitesse de rotation angulaire ω du rouleau de papier en
+fonction du temps.
+
+Lors de la phase de changement de bobine (collage/découpage du papier), les journaux imprimés
+seront à mettre au rebut (papier en double).
+
+Question p.7 : Proposer une solution simple pour repérer ces journaux à la sortie de la rotative
+(figure 4c sur la chemise).
+
+
+===== page 3 =====
+                                              −3−
+
+Partie 1 : Etude du séquencement des opérations de changement de bobine
+Dans cette partie, on se propose d’étudier le processus de changement d’une bobine sans arrêt de la
+production. Pour cela, on s’appuiera sur la représentation schématique des diverses phases
+représentées Document ressource II.
+Le deuxième étage de la rotative donne au papier une vitesse linéaire de 9 m/s. Un système de frein
+asservi agissant sur la bobine (étudié dans la partie 2) permet d’avoir une tension constante du
+papier. En effet, une tension trop importante déchire le papier et une tension trop faible crée des plis
+et des bourrages dans le second étage.
+Chaque bras porte bobine (3 axes à 120° noté 1, 2 et 3) comporte un moteur–frein : il peut soit
+freiner les bobines (FB1, FB2, FB3) soit les entraîner (EB1, EB2, EB3). Ces moteurs doivent être
+commandés pour freiner ou entraîner. Si aucune commande n’est effectuée, ils sont en « roue
+libre ».
+Des capteurs donnent une information de position à chaque tour (p1, p2 et p3). Lorsque les vitesses
+linéaires des deux bobines sont synchronisées, une information si-j est fournie. L’asservissement en
+vitesse des moteurs n’est pas étudié ici.
+
+A l’initiative de l’opérateur, la phase de changement de bobine est activée (bobine 1 en cours,
+bobine 2 neuve) :
+   • Le frein asservi (FA) est désactivé, le moteur-frein de la bobine 1 prend le relais pour freiner
+        pendant la phase de changement de bobine.
+   • Le carrousel tourne jusqu’à ce que la bobine neuve 2 soit à une distance de 10 mm du papier
+        en cours de défilement. La bobine neuve 2 est entraînée en rotation par le moteur-frein de la
+        bobine 2 pour atteindre une vitesse périphérique identique à celle du défilement du papier.
+   • Lorsque la détection de fin de papier de la bobine 1 apparaît et que la bobine est en position
+        angulaire p2, le vérin simple effet de collage vient appuyer sur le papier. Les papiers se
+        collent l’un sur l’autre grâce à un papier adhésif double face. A la position angulaire p2 du
+        tour suivant, une lame vient couper le papier. Le moteur-frein de la bobine 1 est alors
+        désactivé.
+   • Le cycle se termine par la mise en route du frein asservi sur la bobine 2 puis l’arrêt du
+        moteur-frein de la bobine 2.
+
+   Départ cycle (Dcy)                                        Tourner le carrousel (TC)
+                                                             Entraîner bobine 1 (EB1)
+   Position angulaire p2 (p2)         GRAFCET                Freiner bobine 1 (FB1)
+   Détection fin de papier (dfp)     Changement de           Entraîner bobine 2 (EB2)
+   Synchronisation 1-2 (s1-2)           bobine               Freiner bobine 2 (FB2)
+   Frein asservi activé (fa+)                                Activer le frein asservi 1 (FA+)
+   Frein asservi désactivé (fa-)                             Désactiver le frein asservi 1 (FA-)
+   Carrousel en position (cp)                                Voyant départ cycle (V_Dcy)
+   Papier coupé (pc)                                         Couper le papier (Cp+)
+                                                             Sortir vérin de collage (VC)
+
+                  Figure 5 : inventaire des entrées/sorties du modèle GRAFCET.
+
+Question 1.1 : Donner l’état initial du système correspondant à la situation initiale de votre
+GRAFCET.
+
+Question 1.2 : A partir de l’inventaire des entrées/sorties données ci-dessus, établir le GRAFCET
+de changement de la bobine 1 à la bobine 2.
+
+
+
+                                                                           Tournez la page S.V.P.
+
+
+===== page 4 =====
+                                               −4−
+
+Partie 2 : Etude du mécanisme de frein asservi
+Le mécanisme de frein asservi, utilisé pour réguler la vitesse de rotation des bobines, est un système
+à courroie. Dans cette partie nous allons étudier le fonctionnement d’une transmission par courroie
+pour ensuite analyser le système de régulation utilisé.
+
+2.a Etude simplifiée d’une transmission par courroie
+
+       La courroie est un lien flexible réunissant deux poulies en liaison pivot par rapport au bâti.
+Cette transmission de puissance se fait par l'intermédiaire de l'adhérence entre la courroie et les
+poulies. Nous nous plaçons dans le cas d’une courroie de faible épaisseur appelée généralement
+courroie plate.
+       La figure 6 présente, de façon schématique, une transmission par courroie et les paramètres
+géométriques et cinématiques permettant de réaliser les études proposées.
+
+
+
+
+                               Figure 6 : transmission par courroie.
+
+Question 2.1 : Etude géométrique : en supposant la courroie inextensible, calculer la longueur de
+celle-ci en fonction des paramètres géométriques suivants : e, rm, rr, β et α. Les expressions de β et
+α seront précisées en fonction e, rm et rr.
+        Pourquoi faut-il déterminer cette relation?
+        Justifier l’utilisation d’un ressort pour le système de régulation, présenté sur le Document
+ressource III.
+
+Question 2.2 : Etude cinématique : en supposant que la courroie s'enroule sans glisser sur les
+poulies et qu'elle est inextensible, déterminer la loi entrée-sortie ωr / ωm ?
+
+Question 2.3 : Citer quelques utilisations de transmissions par courroies. Quels sont les avantages
+et inconvénients des transmissions par courroies par rapport aux transmissions par engrenages ?
+
+
+                                          T2                 Cr
+
+
+                                          T1
+
+
+                               Figure 7 : calcul du couple transmis.
+
+Question 2.4 : En notant T2 et T1 (figure 7), les tensions dans les deux brins (T2 ≥ T1), donner
+l’expression des couples des actions de la courroie sur les 2 poulies : Cm et Cr (motrice et
+réceptrice). La démarche utilisée sera précisée.
+
+
+===== page 5 =====
+                                              −5−
+
+
+Question 2.5 : En utilisant les résultats de la partie 2.2, calculer le rendement de la transmission.
+Commenter le résultat.
+
+2.b Etude de l’influence du coefficient de frottement poulie - courroie
+                                             dF      n
+                                                              dψ/2
+                                  dψ/2                               t
+
+                                                        dψ
+                                    Tg                                  Td
+
+                    Figure 8 : isolement d’un élément de courroie - notations.
+
+Question 2.6 : Isolement d’un petit élément de courroie. Le repère lié au bâti est supposé galiléen et
+l'action de la pesanteur est négligée par rapport aux autres actions. Avec ces hypothèses écrire les
+équations issues du principe fondamental de la dynamique en isolant un élément de courroie de
+longueur ds = rdψ (r étant le rayon de la poulie) ; la figure 8 précise les notations pour cette étude.
+→       →                                                                    →
+ T g et T d sont les tensions des parties gauche et droite de la courroie, d F est l'action de la poulie
+sur l’élément de courroie.
+
+Question 2.7 : Equations linéarisées au premier ordre. En supposant que la poulie tourne à vitesse
+constante écrire les deux équations scalaires après linéarisation au premier ordre. Les notations
+suivantes seront utilisées :
+ →       →       →            dT             dT
+d F = pds n - tds t ; Tg = T - 2 et Td = T + 2
+
+Question 2.8 : Relation caractéristique à la limite du glissement. En se plaçant à la limite du
+glissement entre la courroie et la poulie (f = cte coefficient de frottement poulie-courroie) ; en
+négligeant les effets dynamiques (masse volumique de la courroie supposée nulle) et en notant α
+l'arc d'enroulement de la poulie sur la courroie écrire la relation entre les tensions de la courroie et
+les paramètres du problème.
+Commenter le résultat obtenu.
+
+
+2.c Etude de système de régulation de tension du papier
+
+Pour assurer la tension du papier, un système utilisant une courroie est utilisé (Documents
+ressources I et III). La vitesse linéaire de la courroie est inférieure de 1,5% à la vitesse linéaire du
+papier. Ceci assure un glissement permanent entre la courroie et le papier. Le rouleau de papier peut
+donc être considéré comme la poulie.
+
+Le modèle d’étude est présenté figure 9 (Document ressource IV). En appelant δ l’angle
+« d’enroulement », Ti la tension du brin « i » de la courroie et μ le coefficient de frottement entre la
+courroie et la bobine de papier, à la limite du glissement, et pour des « glissements faibles » nous
+                             T2
+avons la relation suivante : T = eμδ
+                              1
+
+Question 2.9 : Calculer le couple Cf qu’exerce la courroie sur le rouleau de papier en fonction de
+T1, ρ, δ, μ.
+
+
+                                                                          Tournez la page S.V.P.
+
+
+===== page 6 =====
+                                              −6−
+
+Question 2.10 : En supposant que T1 = cte, donner l’évolution de Cf en fonction de δ pour ρ = cte
+puis en fonction de ρ pour δ = cte.
+
+Question 2.11 : Justifier l’utilisation d’un angle de contact important entre la courroie et le rouleau
+de papier (Documents ressources I et II) pour assurer l’accélération du rouleau ?
+
+
+2.d Dimensionnement du levier de mesure de la tension du papier
+
+La tension du papier est un paramètre très important pour la qualité de l’impression ; ainsi, il est
+nécessaire de bien contrôler cette tension. Un système d’asservissement est donc nécessaire. Le
+système de mesure de la tension du papier est présenté figure 10 (Document ressource IV). Ce
+dispositif est placé juste après le déroulement du papier. Le modèle d’étude est représenté figure 11
+(Document ressource IV).
+
+Question 2.12 : Sans réaliser de calcul expliquer rapidement le fonctionnement de ce système de
+régulation de tension du papier. Quel est l’influence des actions de pesanteur sur le système de
+                                                                               →
+régulation (l’accélération de la pesanteur étant dirigée suivant la direction - y ).
+
+La figure 12 présente le modèle pour l’étude permettant de dimensionner le levier.
+
+
+
+
+                                         Figure 12 : levier.
+
+                                                                                       →        →
+Question 2.13 : Le levier (AOB) est en équilibre sous l’action des deux forces F x et F y en
+position définie par Θ = 0 (figure 11). En supposant la liaison pivot parfaite, exprimer le torseur des
+efforts intérieur en fonction de Fy dans les deux parties (AO) et (OB).
+
+Question 2.14 : Donner la sollicitation principale dans les deux parties (AO) et (OB).
+
+Question 2.15 : Donner la répartition des contraintes dans une section de la partie (OB). Expliciter
+les différents termes utilisés.
+
+Question 2.16 : En supposant des poutres (AO) et (OB) de section constante, quelles sont les
+sections les plus sollicitées ? Proposer un critère de dimensionnement de ces poutres.
+
+
+===== page 7 =====
+                                            −7−
+
+Partie 3 : Etude de la réalisation de modification de la tension du papier.
+Le système de réglage de la tension du papier est composé d’un frein à courroie (étudié dans la
+partie 2) et d’un système de contre poids régulé par un ressort. Les ingénieurs ont décidé de
+remplacer ce mécanisme à ressort par un vérin asservi en effort (figure 13). En effet, la régulation
+de tension du papier n’est pas assez constante et provoque des déchirements du papier lors des
+phases de production maximale. Ce nouveau système, s’il donne satisfaction, équipera à terme,
+l’ensemble des 7 unités des 6 rotatives, soit la réalisation de 42 ensembles.
+
+
+
+
+                    Figure 13 : système à ressort et système à vérin asservi.
+
+Pour cela, une pièce d’adaptation du vérin sur la rotative a été conçue. Son dessin de définition
+partiel est fourni document ressource V.
+
+3.a Analyse des spécifications
+
+Question 3.1 : Sur la copie, expliciter la tolérance 75±0,5 extraite du dessin de définition partiel
+Document ressource V.
+
+Question 3.2 : Sur les Documents réponses I, II et III « analyse des spécifications » expliciter les
+3 tolérances extraites du dessin de définition partiel Document ressource V en respectant la
+décomposition suivante :
+   • Donner le nom de la caractéristique tolérancée.
+   • Définir les éléments tolérancés.
+   • Définir les éléments de référence.
+   • Définir les références spécifiées.
+   • Définir la forme de la (ou des) zone(s) de tolérance et les contraintes d’orientation et/ou de
+       position de la (ou des) zone(s) de tolérance par rapport au système de références spécifiées.
+
+3.b Etude de l’obtention du brut
+
+Question 3.3 : Donner la signification du matériau : C25
+Le brut est obtenu par soudage à l’arc de différents éléments standards tels que plaques, barres ou
+profilés. Une étude statique a permis de déterminer les épaisseurs de la plaque et la section du
+bras :
+
+Plaque                 Épaisseur               Longueur (en mm)      Largeur (en mm)
+                       20                      jusqu’à 500           50, 75, 100, 150
+Type profilé                  (en mm)                        Longueur (en m)
+Hexagonal plein               Plat de 30                     Jusqu’à 6 m
+
+                                                                       Tournez la page S.V.P.
+
+
+===== page 8 =====
+                                             −8−
+
+
+Question 3.4 : Proposer une gamme de fabrication de la pièce brute sous forme d’une liste de
+procédés et en donnant les principales dimensions des éléments choisis.
+
+Question 3.5 : Donner les domaines d’applications de la soudure à l’arc. Le choix pour
+l’application proposée vous semble-t-il pertinent ; justifier votre réponse.
+
+Question 3.6 : Lors du soudage du profilé sur la plaque, quel type de défaut géométrique peut
+apparaître ?
+
+3.c Etude de l’usinage.
+
+Les différents usinages à réaliser sur la pièce sont les suivants (voir Document ressource V)
+    • Usinage du plan inférieur repéré Pi1.
+    • Usinage des 2 flans de la plaque Fl2 et Fl4, les flancs Fl1 et Fl3 restent bruts.
+    • Perçage des quatre trous de fixation repérés T1, T2, T3 et T4 et des lamages L1, L2, L3 et
+        L4.
+    • Usinage des deux plans parallèles Pp2 et Pp3.
+    • Usinage de la face supérieure du profilé Fp.
+    • Perçage de l’axe de maintien du vérin A1.
+La machine utilisée est un centre d’usinage 4 axes à broche horizontale disposant d’un plateau
+tournant (3 translations X, Y, Z et une rotation B autour de Y).
+
+Question 3.7 : Sur le Document réponse IV, proposer une mise en position qui permet la réalisation
+de l’ensemble des surfaces en un seul posage.
+
+Question 3.8 : Sur le Document réponse IV, proposer les différentes orientations de la pièce
+permettant d’usiner l’ensemble des surfaces. Pour chacune des orientations, vous noterez le repère
+machine et colorierez les surfaces usinées.
+
+Question 3.9 : Sur le Document réponse IV, donner les différentes opérations et la liste des outils
+permettant l’obtention de chaque surface.
+Liste des outils disponibles :
+    • Fraises à surfacer ∅ 50, 63, 80 100, 125 mm
+    • Forets à pointer ∅ 8, 10 mm
+    • Forets hélicoïdaux ∅ 8 à 18 mm tous les 1/10ème de mm
+    • Fraises deux tailles ∅ 20, 25, 40, 50 mm
+    • Alésoirs ∅ 10, 12, 18, 20 mm
+    • Fraises à lamer ∅ 24.2 x 18, 28 x 18 mm
+
+3.d Etude du montage d’usinage.
+
+Pour réaliser la pièce, il est nécessaire de réaliser un montage d’usinage pour assurer la mise et le
+maintien en position. Pour cette partie, nous étudierons seulement la mise en position. Le montage
+d’usinage est réalisé par mécano-soudage de plaques, barres ou profilés puis usinage.
+
+Question 3.10 : A partir du Document réponse IV représentant le plateau de la machine 4 axes,
+dessinez, à main levée, une vue en perspective de l’allure du montage d’usinage. Un soin particulier
+sera apporté aux formes générales et à l’accessibilité des surfaces à usiner.
+
+
+===== page 9 =====
+                                             −9−
+
+Partie 4 : Etude de conception
+
+                                        axe de                                      rouleau
+                                        liaison                                     tendeur
+
+
+
+                                                                cylindre du
+                                                                levier droit
+
+
+                                                         levier droit
+
+                          vérin
+                         asservi
+
+
+                                                                  bâti
+                                                              plaque droite
+                                Figure 14 : système à vérin asservi.
+
+On propose de re-concevoir le montage du système de régulation de la tension du papier utilisant le
+système asservi à vérin (figure 14). En effet, une des difficultés rencontrées lors de la maintenance
+de cet ensemble est liée au fait que le démontage d’un axe de liaison nécessite le démontage d’un
+nombre important de pièces très difficilement accessibles. Ainsi, souvent des techniques de
+réparations spécifiques sont proposées pour limiter le temps de maintenance.
+
+Le Document ressource VI présente l’architecture du bâti du porte bobine. Afin de simplifier
+l’étude, le bâti de la machine (bâti plaque droite + bâti plaque gauche, figure 14) est considéré
+comme constitué de deux plaques verticales (naturellement reliées rigidement entre elles). Ces deux
+plaques servent à maintenir le carrousel portant les bobines de papier ; elles positionnent aussi le
+système de régulation de la tension du papier. La figure 14 présente le montage d’un système
+asservi à vérin (du coté droit).
+
+Pour augmenter la rigidité du système de régulation de tension du papier (nécessaire à la bonne
+qualité d’impression) une solution hyperstatique est utilisée. Deux vérins asservis sont utilisés (un
+du coté droit et un du coté gauche) et l’axe de liaison impose une rotation identique des deux leviers
+assurant ainsi un bon positionnement du rouleau tendeur régulant la tension du papier.
+
+Le travail de conception demandé a pour but de proposer une solution technique permettant un
+montage/démontage facile de l’axe de liaison pour favoriser la maintenance de l’ensemble.
+
+Pour simplifier la présentation, le Document réponse V présente seulement les éléments
+nécessaires au travail proposé (les plaques droite et gauche du bâti, l’axe de liaison et les parties
+cylindriques des deux leviers).
+
+Remarques importantes :
+  • Pour les questions 4.1 et 4.2 la contrainte d’accessibilité, associée à la maintenance,
+     n’est pas prise en compte, c’est-à-dire que l’axe de liaison peut être réalisé en une
+     partie.
+  • Pour la question 4.3 la contrainte d’accessibilité, associée à la maintenance, est prise en
+     compte, c’est-à-dire que l’axe de liaison ne peut plus être réalisé en une partie.
+
+                                                                         Tournez la page S.V.P.
+
+
+===== page 10 =====
+                                              − 10 −
+
+
+Il est demandé de concevoir les liaisons suivantes :
+     • liaison pivot entre l’axe de liaison et le bâti (liaison réalisée par roulements pour favoriser
+         l’asservissement),
+     • liaison complète entre l’axe de liaison et le cylindre des leviers de droite et de gauche.
+
+Les différents choix doivent être compatibles avec :
+   • le bon fonctionnement de l’ensemble,
+   • la facilité de montage/démontage de l’axe de liaison.
+
+Question 4.1 : Sur la copie, justifier rapidement le choix des types de roulements et du montage
+associé que vous proposez pour concevoir la liaison pivot entre l’axe de liaison et le bâti.
+
+Question 4.2 : Dessiner, sur le Document réponse V, un avant projet du système.
+
+       Pour cette étude la contrainte d’accessibilité du système n’est pas prise en compte ; c’est-à-
+dire que pour le montage des différentes pièces, aucune contrainte d’encombrement n’est imposée.
+L’objectif est de proposer une solution technique permettant de répondre au cahier des charges,
+seulement pour la partie fonctionnement.
+
+       Les différentes vues nécessaires à la compréhension de la solution proposée seront réalisées.
+
+      Le dimensionnement des liaisons n’est pas demandé, par contre les dimensions doivent être
+en accord avec les sollicitations. De plus, il est demandé de respecter approximativement les
+dimensions des éléments utilisés (roulements, vis…).
+
+       La qualité de la représentation graphique sera aussi évaluée.
+
+Question 4.3 : Proposer sur la copie, sous forme de schéma réalisé à main levée, le principe d’une
+solution technique prenant en compte la contrainte d’accessibilité du système, en particulier pour les
+phases de maintenance. L’accessibilité du système est limitée au volume compris entre les plaques
+droite et gauche du bâti ; c’est-à-dire qu’un axe de liaison réalisé en une seule partie ne peut pas être
+démonté, lors des phases de maintenance. Le choix de solutions limitant le coût de fabrication sera
+recherché.
+
+       Justifier rapidement les choix réalisés.
+
+       Préciser, si nécessaire, les précautions à prendre pour le montage du système.
+
+
+===== page 11 =====
+[OCR] 
+
+===== page 12 =====
+[OCR] 
+
+===== page 13 =====
+                                                                                                                                               Epreuve de Sciences Industrielles C
+
+                                                                                                                                                                         Durée 6 heures
+
+                                                                                                                           Si, au cours de l’épreuve, un candidat repère ce qui lui semble être une erreur
+                                                                                                                           d’énoncé, d’une part il le signale au chef de salle, d’autre part il le signale sur sa
+                                                                                                                           copie et poursuit sa composition en indiquant les raisons des initiatives qu’il est
+                                                                                                                           amené à prendre
+    Figure 2 : premier étage de la rotative, alimentation en        Figure 3 : deuxième étage, une unité
+                     papier, vue générale                                 d’impression des pages
+
+.                                               .                                                                          Composition du sujet :
+                                                                                                                           1 chemise format A3 contenant :
+                                                                                                                           x      1 cahier de 10 pages de texte numérotés de 1 à 10.
+                                                                                                                           x      6 documents formats A4, intitulés « Document ressource i », avec i = I, II, III, IV, V, VI
+                                                                                                                           x      3 documents formats A3, comportant les documents intitulés « Document réponse i »,
+                                                                                                                                  avec i = I, II, III, IV *
+                                                                                                                           x      1 document calque format A3, intitulé « Document réponse V » *
+
+                                                                                                                           * à remettre impérativement avec vos copies
+
+
+
+
+                                                                                                                           Matériel autorisé :                 tous instruments usuels du dessinateur
+
+
+                                                4a                               4b
+
+                                                                                                                                           TOUTE AUTRE DOCUMENTATION EST INTERDITE
+
+
+
+                                                                                                                                                  LES CALCULATRICES SONT AUTORISEES
+
+
+
+                                                                                                                           Gestion du temps : En admettant une durée de 30 min pour la lecture et
+                                                                                                                           l’assimilation du sujet, il est vivement conseillé de consacrer environ 30 min aux
+
+                                                                  4c
+                                                                                                                           questions préliminaires, 30 min à la partie 1, 90 min à la partie 2, 90 min à la partie 3
+                    Figure 4 : troisième étage, regroupement (4a), pliage des pages (4b) et découpage des journaux (4c).   et 90 min à la partie 4.
+
+
+                                                                                                                                                                                                        Tournez la page S.V.P.
+
+
+===== page 14 =====
+3ème étage
+
+
+
+
+2ème étage
+
+
+
+
+1er étage
+
+
+
+
+             Figure 1 : vue globale d’une rotative composée de 7 unités (numérotées 1, 2, 4, 5, 6, 7 et 8)
+
+
+===== page 15 =====
+[OCR] Zz 2
+a pe
+o $
+3 g ] asuod31 juauins.0q
+3 38
+= S
+o| 3 28
+O! g| g
+s
+$ 3
+2 a]
+ey €
+2 8
+« 3
+3
+2
+2
+g a] v|[ stoo|@
+a |
+|
+UONTULZp ap UIssap Np WeyXy
+Bugs
+H agijlogds
+S aouargyai ey @ Woddes red “goues9]0} ap auoz B] suep JanUa
+IE uontsod uonejuaLo agsodwioo ouraisks saidyjnw adnois 10} JANIS aS WO goueI9]O1 WIUII}9,T
+E nt neue!
+s sajuresju0. ajduns aunutuios = ajduns anbrun anbrun Q}TWLIOJUOD ap UOHIpuo_D
+® iS quaweneq 1s0d
+e I
+5 3 N (sjpatgpeds anuai9]91 (syouesgjoy, wonejUuaLo aULIOY
+8 g al 90UB.19]0} ap 9u0Z, (s)aoual9j2y ap syuewiayy syuauia|y uoneoyioads ap ad4y,
+8 Z| a] iS < 9[apour ULYS > Np sWeHXy
+3) ia
+ala g sl | .. xnegpl syuaulgyy xnegp! WOU syusWa] A uoneoyiads eB] ap ajoquidg
+&) &| 3] S| (8 €| & 3oue.9]0) ap auoz ed uoHeoytgds aun,p aséeuy ASITVWAON LNAWAONVATIOL
+=| E| 5) 3] slP 2] a
+8} 8] 3] 5) SF 3| 3|
+<] | vial Zea] 2
+auavo 39 SNVG | aula NaIY IN
+I] esuod9. yuowmns0q
+w
+Sr
+fa
+fa
+=<
+a
+w
+&
+=
+<
+s
+2
+d.
+= za
++t 9] 10 |/
+w UOKIUI9P op Ulssap np WeIyXq
+a
+z= BUIQyS
+& agigtogds
+Zz gouorgyo1 B] B Hodder red -gouei9[01 ap auoz | suep 10a
+4 ina sod uoreUsLIO agsoduioo oulg}sks sojdyynur odnois yo} JoMMIS as Wop ouRID]O) 1UOWIEID,T
+° 2 sayuresjuo, aqduns ounumu0s — ajduns anbrun anbrun 2 9}TWL10JUOd ap UOHIpUO.
+8 UTEAUO) du dua " PITULIOS! Pp UOHIpuoD
+a quowaneq uonisod
+8 (s)aguogds 99U9.19494 (s)pouvag{o1, wonmmaLo auntIOy
+3 99U8.19]0) 3p 3U0Z, (s)aoua19;9y ap syuauIg |] syuoWg|y uoneoyiogds ap adAy,
+. « 2]Qpoul ULYs » np syreNX”
+& xneap! syuswg| xnevgp! WOU syusg,y uonesyiogds ey ap ajoquidg
+g 2904910} ap auoz 1ed uoHesipo9ds aun,p asdjeuy ASTTVWHON LNAWAONVATION
+8
+g
+8
+&
+3
+Ey
+8
+8
+8
+@
+a
+
+
+
+===== page 16 =====
+[OCR] Page 2
+
+11:35
+
+28/02/07
+
+77D DOC REPONSE
+
+DANS LA PARTIE BARREE
+
+NE RIEN ECRIRE
+
+Zz 2}
+a | II] 2suod9.1 yuoumns0q
+9 38}
+= get
+eg ei
+2) 3 aa
+3] 3 281
+a) 5 2}
+2 ‘
+s 3 H
+te o)
+oat c H
+3 8
+c 3 H a
+2 | A
+' V | SCOD |
+© H vx
+2 ‘
+a H
+A H
+o H
+e H
+| UONIULSp ap Ulssap np wWeNXq
+: eBUIgYDS
+A ‘ sauyioads
+8 : ouaigja1 B] e Woddes med *gouRI9[01 9p 9uOz B| suEP JONUD
+fs ' uontsod uoneuaL0 agsoduioo uiaisks sodnjnu adnois MO} JANIS as Nop :ouRI9]0} ]UAWZ}9,"T
+le iH .
+& i SazUTBIZUOD) ajduns sunumuod = ajduts anbrun anbiun 2 9}TULIOJUOD Vp UOTIPUOD
+| 8 i quswsyeq uonisod
+eg} |g e ' (spaypeds aoualgjat (spoueag[oL, uoneuatio aULIOy
+a] ..J a} S H a9uB.19[0} ap au07 ‘s)a0ua9) ap syuawig) uaui9| uoreoyioads ap ad Af.
+3 910} ap au0Z 22a Pp ola sy 1A
+°o 6 = ' 4 a ee
+5 § | 2 ' « J[QPOUr UYs » Np syeNxg
+| 9} 8 3 z H xnegp! syuswa[y xneap! wou syuauIa]q uoneoygieds e] ap ajoquikg
+2 9] 3] & eel |i 20u839[0} ap auoz zed uonEoyID9ds aun,p assqeuy ASVYIVWYON LNAWAONVYTTIOL
+5] 9) s/ 2) 8) 2) |
+3 €| | 3] Se) 3) |
+§) 8] a] a} Ofe-8] @) |
+<q} d] alt) Zeal 2) |
+3ugvo 39 SNVG | auldo3 NaIY aN
+
+
+
+===== page 17 =====
+[OCR] L77D DOC REPONSE 28/02/07 11:35 Page 3
+
++
+
+Académie : Session : Modéle EN.
+Examen ou Concours Série* :
+Spécialité/option : Repére de l'épreuve :
+. w Epreuve/sous-épreuve :
+NE RIEN ECRIRE DANS LA PARTIE BARREE Fs NOM:
+é en majuscules, suivi sy a Neu, du nom @’épouse]
+S Prénoms : N° du candidat
+2 Néle) le: (ie numéro est celui qui figure sur la
+6 convocation ou la liste d’appel)
+sergeeceesenonencepecosenaceaeaaraacaatoateacaasassaasaasaascascassaasaasaasaascascassascassasaasaaseseaseas
+=
+=
+5
+a
+z
+gy
+=
+w
+2
+7
+/
+/
+2 2
+zm 3 zm =
+° o)
+3
+: 5
+23 u ny =
+38 a a =
+gs Ala < &
+6 E|Z Z a
+se : 5
+S 2
+alg 2 é 3 id
+Eig z a E 3
+als ZB z 2 a
+3 3 ° iS o aol
+a =
+2 a
+S [e) ry
+i 5 Fs
+[--) <= i)
+8 % 2
+5 a =
+2 ° =I
+3 lg 4 z
+3 o 3
+g = g
+3 4
+= ra) 2 2
+2 a 3 oa B=
+5 =] 2
+> 2 ° 6 8
+Z 6 <
+So - TE Zz
+= < Ka
+B =)
+g a a
+= 2
+Zz 4 i
+a O}aa a 5
+a oe 6 g
+= SIZ Zz _
+= ie) So é
+3 ae 2 g 2 a
+E ae 3 é E :
+Ss 6 3 Zz 2 3
+% ae 5 g g g
+Shee a 2 3
+So fellel & 5 S So
+
+©
+
+
+===== page 18 =====
+                                                 (b) fin du rouleau
+
+
+
+
+     (a) présentation
+
+
+
+
+   (c) début du rouleau                        (d) début du rouleau
+
+
+
+
+ (e) phase d’accélération             (f) le support du système d’entraînement
+
+                   Document ressource I :
+Carrousel - Fonctionnement du régulateur de tension du papier
+
+
+===== page 19 =====
+[OCR] Frein asservi
+
+Vérin de
+
+collage
+CD CD
+
+Phase 2 : Rotation du carrousel pour amener
+la bobine neuve en position + mise en
+rotation de la bobine neuve
+
+Phase 1: Déroulement d’une bobine
+presque vide
+
+1
+
+Phase 4: Collage, découpage du papier de
+la bobine vide et déroulement du papier
+bobine neuve + arrét de la rotation de la
+bobine vide
+
+Phase 3 : La bobine neuve est en position (a
+10 mm du papier défilant de la bobine
+presque vide).
+
+Document ressource II : Phases du changement de bobine
+
+
+===== page 20 =====
+                                           re s s o rt
+
+
+
+
+(a ) sy stè m e a u r e p o s                                          (b ) fo n c tio n n e m e n t - d é b u t d e r o u le a u
+
+
+
+
+  (c ) p h a s e d 'a c c é lé r a tio n                              (d ) fo n c tio n n e m e n t - fin d e r o u le a u
+
+
+
+
+          D o c u m e n t r e s s o u r c e I I I : S y s tè m e d e r é g u la tio n d e la te n s io n
+
+
+===== page 21 =====
+            Figure 9 : étude du couple de freinage
+
+
+
+
+          Figure 10 : mesure de la tension du papier
+
+
+
+
+           Figure 11 : étude de la tension du papier
+
+
+Document ressource IV : Régulateur de tension du papier
+
+
+===== page 22 =====
+[OCR] SOF O81
+
+SL
+
+ad
+
+SOF SL
+
+jetued uontuyap ap uissoq] bv
+A 904NOSS91 JUIUINIOG -@b]
+(ane
+NIUAA Fd LYOddns aqjauog
+a
+v | sco @ |-&
+: STOF8SIOrx
+
+00r
+
+ta
+
+Id
+
+rs.
+' 7
+Iv He 7
+dy | Na V| sos |p
+LH8I@
+
+
+
+===== page 23 =====
+     Bâti                                                                          Bâti
+Plaque gauche                                                                  Plaque droite
+
+
+
+
+ Position
+ de l’axe
+de liaison
+
+
+
+
+                Document ressource VI : Architecture du bâti du porte bobine
+
+
+===== page 24 =====
+[OCR] Code Barre
+
+Bati Bati i
+plaque gauche plaque droite
+100 mm 2000mm 100 mm
+
+if
+} |
+}
+| i
+i i
+pity
+|
+il
+Cylindre Cylindre
+du levier du levier
+gauche droit
+a Axe de liaison peer cenmamear!
+[aa [cats cata cas |
+
+Document réponse V : Etude de conception (échelle 1/5)
+
+

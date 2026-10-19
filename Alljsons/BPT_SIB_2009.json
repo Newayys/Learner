@@ -1,0 +1,543 @@
+{
+ "concours": "Banque PT",
+ "filiere": "SIB",
+ "date": "2009",
+ "file": "BPT_SIB_2009.pdf",
+ "status": 200,
+ "source": "banquept.fr, rubrique « Annales d'annales » (rubrique23.html)",
+ "epreuve_originale": "SI B",
+ "classification": "automatique par mots-clés (Claude, oct. 2026) — moins fine que celle des sujets récents",
+ "decoupage_questions": "sect",
+ "texte_ocr": true,
+ "pages_sujet": 24,
+ "pages_total": 52,
+ "data": {
+  "parties": [
+   {
+    "titre_partie": "A - Cahier des Charges Fonctionnel (Extraits)",
+    "questions": [
+     {
+      "numero": "A.1.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 2,
+      "tags": [],
+      "texte": "A.1.1 - Le contexte La soif de connaissance nous pousse à nous poser des questions sur le monde qui nous entoure : de quoi est composée notre planète ? Comment expliquer les propriétés de la matière et imaginer de nouveaux matériaux ? Que sait-on du processus de la vie ? La plupart de ces questions ne peut être résolue que par une connaissance approfondie de la structure intime de la matière. Les scientifiques ont donc construit des instruments de plus en plus puissants, capables de sonder la matière à l’échelle des atomes et des molécules, tels que les sources de rayonnement synchrotron qui, comparables à des « super microscopes », apportent des informations inestimables dans de très nombreux domaines de recherche. L’ESRF (European Synchrotron Radiation Facility), construit à Grenoble en 1988 (cf figure 1, page T1/21), permet de réaliser des expériences inédites en utilisant la lumière synchrotron."
+     },
+     {
+      "numero": "A.1.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 2,
+      "tags": [],
+      "texte": "A.1.2 - Ligne ID22 : expérimentation de nanotomographie L’anneau de l’ESRF permet d’alimenter en rayons X une cinquantaine de salles d’expérience. Dans la ligne ID22, le faisceau de photons, capté et guidé par des dispositifs optiques, est dirigé ensuite sur des échantillons pour réaliser des expérimentations de nanotomographie."
+     },
+     {
+      "numero": "A.1.2.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Procédés : Plasturgie",
+        "semestre": "S2"
+       }
+      ],
+      "page": 2,
+      "tags": [],
+      "texte": "A.1.2.1 - Principe de la nanotomographie Figure 2 : Nanotomographie d’une polyoléfine thermoplastique La nanotomographie est une technique d’imagerie 3D permettant d’obtenir l’image d’un échantillon (exemple donné figure 2, page T2/21), tranche par tranche, sans le détruire. Elle repose sur le principe suivant : un rayonnement se trouve plus ou moins atténué, suivant la densité des matériaux qu’il rencontre sur sa route. Plus il a de mal à se frayer un passage à travers les atomes, plus son intensité s'affaiblit. Il suffit donc de placer l'objet à étudier sur le trajet d’un faisceau de rayons X, et de comparer le spectre du faisceau d’entrée avec celui du faisceau à la sortie. T2/21 Tournez la page S.V.P. En faisant tourner l'échantillon, et en utilisant un logiciel de reconstruction, il est alors possible d'obtenir l'image d'une tranche de l'objet, puis, en répétant l’opération de bas en haut, de reconstituer son volume tout entier. Cette technique d'imagerie est bien connue dans le secteur médical, où depuis une vingtaine d'années, les scanners explorent le corps humain."
+     },
+     {
+      "numero": "A.1.3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 4,
+      "tags": [],
+      "texte": "A.1.3 - Le produit à concevoir Le sujet propose plus particulièrement de s’intéresser à la façon de réaliser le déplacement vertical entre les marbres MA0 et MA1. T4/21 Tournez la page S.V.P. La principale caractéristique que doit avoir ce déplacement sera une excellente répétabilité afin d’éviter de devoir repositionner tous les éléments optiques à chaque passage d’un faisceau à l’autre. Le marbre MA1 est posé sur 4 points d’appui réglables. On utilise pour cela des butées couramment utilisées pour réaliser l’isolation vibratoire des machines-outils, développées par la société AIRLOC. Il est également relié au marbre MA0 par trois bielles. La figure 10, document 1, page D1/13, donne la disposition de ces différents éléments. Le diagramme FAST de la figure 11, document 2, page D2/13, précise les fonctions respectives des différents constituants."
+     },
+     {
+      "numero": "A.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Énergétique : Puissance et rendement",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Précision",
+        "semestre": "S2"
+       }
+      ],
+      "page": 5,
+      "tags": [],
+      "texte": "A.2 - Analyse fonctionnelle du besoin (extraits) Le produit considéré dans cette partie est la liaison entre le marbre MA0 et le marbre MA1. Parmi toutes les situations du cycle de vie du produit, il ne sera considéré que la situation de fonctionnement normal. Marbre MA0 FP Energie FC2 Dispositif de déplacement vertical Marbre MA1 FC1 FC3 Salle d’expérimentation Enoncés des fonctions de service Fonction principale : FP Déplacer le marbre MA1 par rapport au marbre MA0 entre deux positions définies Fonctions contraintes : FC1 Supporter les efforts FC2 S’adapter à l’énergie disponible FC3 S’adapter à la salle d’expérimentation T5/21 Tournez la page S.V.P. Caractérisation des fonctions Critères Niveaux r FP  Déplacement entre les deux positions  12,5 mm portés par z  Précision  0,1 µm  Résolution  1 nm  Répétabilité  50 nm  Encombrement disponible  4 400 x 1 500 x 240 mm3  Première fréquence propre du système  50 Hz mini FC1  Masse de l’ensemble {MA1 + son équipage} 6t FC2  Tension de courant électrique  230 V monophasé  Fréquence du secteur  50 Hz  Puissance disponible  non fourni FC3  Déplacements dus aux variations de température  non fourni T6/21 Tournez la pa"
+     }
+    ]
+   },
+   {
+    "titre_partie": "B - Etude et éléments de solutions proposés",
+    "questions": [
+     {
+      "numero": "B.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 7,
+      "tags": [],
+      "texte": "B.1 - Repère de travail Dans tout le sujet, on utilise la convention suivante : r − la direction x est donnée par la direction du faisceau de photons ; r − la direction z est donnée par la verticale ascendante ; r r r r r r − y = z ∧ x de telle sorte que la base B = ( x , y , z ) forme un trièdre direct ; − le point O , centré sur la face supérieure du marbre MA0, est pris comme r r r origine du repère de travail. On note R le repère R = ( O, x , y , z ) . La mise en place de ce repère est précisée sur : − la figure 10, document 1, page D1/13 ; − la figure 12, document 3, page D3/13 ; − la figure 13, document 4, page D4/13 ; − la figure 14, document 5, page D5/13."
+     },
+     {
+      "numero": "B.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Précision",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
+        "semestre": "S2"
+       }
+      ],
+      "page": 7,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "B.2 - Principe de fonctionnement du dispositif de déplacement vertical L’ESRF a déjà réalisé pour une expérience de microtomographie un mécanisme permettant de déplacer verticalement une manipulation pour pouvoir fonctionner avec différents faisceaux. L’architecture retenue était alors la suivante : − marbre guidé par 4 colonnes verticales ; − marbre déplacé par 4 vérins mécaniques synchronisés et entraînés par un seul moteur. Comme pour cette expérience il ne s’agissait « que » de microtomographie, cette solution était satisfaisante. Pour passer à l’échelle inférieure de la nanotomographie, cette architecture est devenue insuffisante pour les raisons suivantes : − précision du guidage trop faible ; − rigidité insuffisante conduisant à une première fréquence propre trop faible. La nouvelle architecture retenue pour l’expérience de nanotomographie est alors la suivante (voir figure 10, document 1, page D1/13 ) : le marbre MA1 est posé sur le marbre MA0 par l’intermédiaire de 4 butées réglables A1, A2, A3 et A4 du constructeur AIRLOC. Dans la suite, nous les appellerons tout simplement les « AIRLOC ». La figure 13, document 4, page D4/13, précise le fonctionnement des AIRLOC : un coi"
+     }
+    ]
+   },
+   {
+    "titre_partie": "C - Etude de conception en construction mécanique",
+    "questions": [
+     {
+      "numero": "C.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 9,
+      "tags": [
+       "dessin / conception sur calque"
+      ],
+      "texte": "C.1 - Présentation du travail à rendre Comme indiqué plus haut en page T1/21, en admettant une durée d’une heure pour la lecture et l’assimilation du sujet, il est vivement conseillé de consacrer entre 2 h 00 et 2 h 30 au maximum à la réponse aux questions de la notice et 2 h 30 à 3 h au tracé des dessins. Les réponses seront fournies uniquement sur les cinq documents présentés ci-dessous. 1 – Notice justificative (40 % de la note globale) Fournir les réponses sur le cahier réponse, de format A4 vertical, pré imprimé recto verso. Les réponses sur feuilles de copies additionnelles ou sur papier de brouillon ne seront pas acceptées. 2 – Dessin d’étude de construction mécanique (60 % de la note globale) Il est à tracer sur les deux calques pré imprimés de format A3 horizontal, intitulés « Calque n°1 » et « Calque n°2 », joints au sujet, et qui seront à rendre non pliés."
+     },
+     {
+      "numero": "C.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 9,
+      "tags": [],
+      "texte": "C.2 - Notice justificative Consignes spécifiques Sur le cahier réponse, les réponses seront fournies dans les limites des cadres prévus pour chaque question. Il sera tenu compte, dans la notation, de la clarté et de la concision des réponses. Les schémas doivent être lisibles, précis, et respecter la normalisation en vigueur. Les écritures au crayon ne seront pas acceptées. La qualité de l’écriture, de l’orthographe et de la syntaxe sera prise en compte dans l’évaluation. Le candidat trouvera sur le tableau 4, document 13, page D13/13 un récapitulatif de l’ensemble des grandeurs utilisées au cours du sujet."
+     },
+     {
+      "numero": "C.2.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 9,
+      "tags": [],
+      "texte": "C.2.1 - Etude du mouvement du marbre MA1 Les quatre AIRLOC permettent de réaliser l’élévation du marbre MA1. Cependant, ces composants présentent un jeu latéral entre la partie mobile Am et la partie fixe Af d’environ r 60 µm (dans la direction y ), ce qui est tout à fait inacceptable compte tenu des critères de la fonction FP."
+     },
+     {
+      "numero": "C.2.1.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Liaisons équivalentes",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Torseur cinématique",
+        "semestre": "S1"
+       }
+      ],
+      "page": 9,
+      "tags": [],
+      "texte": "C.2.1.1 - Influence des bielles Bi1 et Bi2 seules On considère dans cette partie que la bielle Bi3 n’est pas assemblée. Les bielles Bi1 et Bi2 sont liées au marbre MA0, respectivement en A et C, et au marbre MA1, respectivement en B et D. La position d’étude est la position médiane définie figure 14, document 5, page r r D5/13. Dans cette configuration, on a AB = CD = −2.c. y et AC = BD = 2.a.x . T9/21 Tournez la page S.V.P. Notations : Le torseur cinématique du solide i par rapport au solide j, exprimé au point M dans le ω x ,i / j VMx ,i / j r r r r { repère R sera noté : {Vi / j } = Ωi / j VM ,i / j } M ,R avec Ωi / j = ω y ,i / j et VM ,i / j = VMy ,i / j ω z ,i / j VMz ,i / j Q1 Inscrire votre réponse dans le cadre R1 du cahier réponse. Donner la forme du torseur cinématique de la liaison entre la bielle Bi1 et le marbre MA0 au point A. Q2 Inscrire votre réponse dans le cadre R2 du cahier réponse. Donner la forme du torseur cinématique de la liaison équivalente entre les marbres MA1 et MA0 réalisée par l’association des liaisons en A et B au point A. En déduire la nature de la liaison équivalente réalisée. Q3 Inscrire votre réponse dans le cadre R3 du cahier réponse. Donner la"
+     },
+     {
+      "numero": "C.2.1.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 11,
+      "tags": [],
+      "texte": "C.2.1.2 - Influence des trois bielles Bi1, Bi2 et Bi3 Lorsque les trois bielles sont assemblées, il existe un couplage entre les mouvements imposés d’une part par Bi1 et Bi2, et d’autre part par Bi3. Une étude paramétrée des mouvements imposés par ces trois bielles devient alors difficile. Cette étude se fait à l’aide d’un logiciel de simulation cinématique dans l’espace. La figure 16, document 6, page D6/13, donne en particulier l’évolution de l’angle de r rotation suivant la direction y du marbre MA1 par rapport au marbre MA0 lors du passage de la position basse (« monochromatic beam ») à la position haute (« pink beam »). On prend comme configuration de référence la position médiane du marbre MA1, c’est-à-dire celle occupée sur le schéma de la figure 14, document 5, page D5/13. On note O’ le projeté du point O dans le plan médian du marbre MA1 lorsque celui-ci r est en position médiane. Le déplacement suivant z du point O’ entre les deux positions « pink beam » et « monochromatic beam » sera pris égal à 12,5 mm. Q6 Inscrire votre réponse dans le cadre R6 du cahier réponse. Compléter la figure du cadre R6 en esquissant la position du marbre MA1 en position haute et en position ba"
+     },
+     {
+      "numero": "C.2.2.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Statique : Hyperstatisme",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 11,
+      "tags": [
+       "liaison hélicoïdale / vis-écrou"
+      ],
+      "texte": "C.2.2.1 - Etude des AIRLOC Dans la section C.2.2.1, on s’intéresse à l’AIRLOC seul. Le candidat fera donc attention à ne pas tenir compte du marbre MA1 et des doubles joints de cardan Cj. Un modèle de l’AIRLOC est proposé sur la figure 13, document 4, page D4/13. Q7 Inscrire votre réponse dans le cadre R7 du cahier réponse. Calculer le degré d’hyperstatisme du modèle d’AIRLOC proposé. Pour pouvoir garantir la montabilité de l’AIRLOC, le constructeur devra entre autres assurer une perpendicularité suffisante de l’axe de la liaison hélicoïdale avec les axes des liaisons pivot glissant de l’écrou E, ainsi qu’une cylindricité suffisante de cette même pièce. Q8 Inscrire votre réponse dans le cadre R8 du cahier réponse. Mettre en place ces deux tolérances sur le dessin de définition de l’écrou E fourni. L’objet de cette question n’est en aucun cas de chiffrer les valeurs des tolérances à indiquer : le candidat se contentera donc d’indiquer « ti » pour l’étendue des zones de tolérance. Afin de diminuer les coûts de production, on préfère souvent concevoir un mécanisme dont le modèle associé est isostatique. T11/21 Tournez la page S.V.P. Q9 Inscrire votre réponse dans le cadre R9 du cahier"
+     },
+     {
+      "numero": "C.2.2.3.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Frottements",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Statique : Hyperstatisme",
+        "semestre": "S2"
+       }
+      ],
+      "page": 12,
+      "tags": [],
+      "texte": "C.2.2.3.1 Etude à l’aide d’un modèle simplifié Le modèle global prenant en compte les quatre AIRLOC et les bielles étant hyperstatique, on travaille dans un premier temps sur un modèle simplifié afin de pouvoir mener des calculs de statique. Dans cette partie, on se base sur le modèle de la figure 17, document 6, page D6/13. Les bielles ne sont pas prises en compte dans ce modèle. On note f le coefficient de frottement entre le coin Ac et le marbre MA1, et entre le coin Ac et le marbre MA0. Pour les applications numériques, on prendra f = 0, 2 . On introduit également l’angle de frottement ϕ tel que tan ϕ = f . Comme indiqué sur la figure 13, document 4, page D4/13, on note α l’angle que r forment les cales pentées Af et Am avec la direction y et on prendra α = 6° . Le marbre MA1 a une masse m = 6000kg . Son centre de gravité G est tel que les r quatre AIRLOC sont disposés symétriquement par rapport à G (G est sur la droite Oz ). On prendra pour l’accélération de la pesanteur : g = 10m.s −2 . Notations : On note N1, T1 et N2, T2 les composantes normales et tangentielles respectivement du marbre MA1 sur un coin Ac, et du marbre MA0 sur le même coin Ac. Compte tenu des symétries du p"
+     },
+     {
+      "numero": "C.2.2.3.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Statique : Hyperstatisme",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Correcteurs : Correcteur numérique",
+        "semestre": "S4"
+       }
+      ],
+      "page": 13,
+      "tags": [],
+      "texte": "C.2.2.3.2 Etude à l’aide d’un modèle numérique On cherche maintenant à étudier le comportement du mécanisme en prenant en compte les trois bielles. Le modèle étant hyperstatique, une simple étude statique ne suffit plus. On utilise alors un modèle de calcul numérique dans lequel les trois bielles sont considérées comme des barres. Les AIRLOC étant très rigides, ils sont supposés indéformables. Lors des simulations, on impose aux AIRLOC des déplacements permettant de faire décrire au marbre l’ensemble de son déplacement en montée et en descente depuis la configuration basse, jusqu’à la configuration haute. Les simulations permettent alors d’obtenir les efforts dans les trois bielles ainsi que les efforts moteurs nécessaires pour l’entraînement des quatre AIRLOC. La figure 18, document 7, page D7/13 donne l’évolution de l’effort dans la bielle Bi1. Les ordres de grandeur des efforts calculés dans les deux autres bielles étant comparables, les résultats correspondant ne sont pas fournis. De même, la figure 19, document 7, page D7/13 donne l’évolution de l’effort axial Fa de la vis d’entrée V sur le coin Ac. Q14 Inscrire votre réponse dans le cadre R14 du cahier réponse. Les courbes ob"
+     },
+     {
+      "numero": "C.2.3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Capteurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 13,
+      "tags": [],
+      "texte": "C.2.3 - Vérification du moteur Les deux sections suivantes ont pour but de vérifier que le critère de résolution associé à FP et le critère de masse associé à FC1 peuvent être atteints par le moteur retenu."
+     },
+     {
+      "numero": "C.2.3.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 13,
+      "tags": [
+       "liaison hélicoïdale / vis-écrou",
+       "engrenages"
+      ],
+      "texte": "C.2.3.1 - Vérification de la résolution Dans toute la section C.2.3.1, on s’intéresse à un guidage réalisé par les quatre AIRLOC seuls. Les trois bielles ne sont donc pas prises en compte. Le motoréducteur MR est constitué d’un moteur M associé à un réducteur R. T13/21 Tournez la page S.V.P. Le moteur utilisé est un moteur pas à pas de marque Pacific scientific, référence Powerpac K43HXHL, dont les caractéristiques techniques sont fournies figures 23a et 23b, document 10, page D10/13. On note ωmoteur la vitesse de rotation du rotor du moteur M, et ω A int la vitesse de rotation de l’arbre intermédiaire Aint en sortie du réducteur R. ω Aint 1 On note k le rapport de réduction du réducteur R ( k = ) et on donne k = . ωmoteur 30 On suppose que le double joint de cardan réalise une transmission homocinétique. Tous les pignons coniques constituant les boîtiers de renvoi conique B1 et B2 ont le même nombre de dents. Comme indiqué sur la figure 13, document 4, page D4/13, on rappelle que α désigne r l’angle que forment les cales pentées Af et Am avec la direction y . La liaison hélicoïdale entre l’écrou E et la vis d’entrée V a un pas p = 2mm . Q16 Inscrire votre réponse dans le cadre R16"
+     },
+     {
+      "numero": "C.2.3.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Énergétique : Puissance et rendement",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Statique : Frottements",
+        "semestre": "S2"
+       }
+      ],
+      "page": 14,
+      "tags": [
+       "liaison hélicoïdale / vis-écrou"
+      ],
+      "texte": "C.2.3.2 - Calcul du couple moteur On vérifie le moteur à la montée. Quel que soit le résultat obtenu à la question Q12, on prendra pour la suite l’effort de la vis d’entrée V sur l’écrou E d’un AIRLOC Ai Fa = 10000 N . Hypothèses : On néglige les frottements dans les boîtiers de renvoi conique B1 et B2. Leur rendement sera donc pris égal à 1. T14/21 Tournez la page S.V.P. Le réducteur R associé au moteur M a un rendement η R = 0,9 . La liaison hélicoïdale entre la vis d’entrée V et le coin Ac d’un AIRLOC Ai a un rendement η H = 0, 3 . Le système étudié est très peu dynamique. On ne s’intéresse donc pas aux phases transitoires. La vitesse de rotation du moteur est alors supposée constante. Q20 Inscrire votre réponse dans le cadre R20 du cahier réponse. Donner l’expression littérale du couple moteur Cm nécessaire pour équilibrer le système en fonction de Fa et des différentes données. Préciser le(s) sous- ensemble(s) isolé(s) et le(s) théorème(s) utilisé(s). Faire l’application numérique. Conclure en comparant les données du moteur retenu avec le résultat obtenu."
+     },
+     {
+      "numero": "C.2.4.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Résistance des matériaux : Torseur de cohésion",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Dynamique : Géométrie des masses",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 15,
+      "tags": [],
+      "texte": "C.2.4.1 - Dimensionnement de la bielles Bi1 Comme les mouvements effectués sont de faible amplitude, on pourra supposer que les bielles restent en configuration médiane afin de simplifier les calculs. La figure 20, document 8, page D8/13 donne les dimensions de la bielle Bi1. Notations : Tx M fx    On note {Tcoh } =  N M t  le torseur de cohésion exprimé au centre de gravité de T M   z fz G , R uuur r la section, avec AG = − s. y . Hypothèse : Compte tenu des faibles efforts transmis par les bielles, le poids des bielles n’est pas négligeable. Par contre son influence est faible sur le déplacement du marbre MA1 par rapport au marbre MA0. Il n’est donc pas pris en compte. Q21 Inscrire votre réponse dans le cadre R21 du cahier réponse. Compte tenu des liaisons retenues pour le montage de la bielle Bi1, donner la forme du torseur de cohésion (on ne cherchera pas dans cette question à quantifier les différents termes, mais uniquement à déterminer les composantes nulles du torseur de cohésion). On se place dans le cas le plus défavorable issu du calcul de statique, c’est-à-dire celui pour lequel l’effort du marbre MA1 sur la bielle Bi1 vaut Fmax = 10 N (résultat tiré de la cou"
+     },
+     {
+      "numero": "C.2.4.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
+        "semestre": "S1"
+       }
+      ],
+      "page": 16,
+      "tags": [],
+      "texte": "C.2.4.2 - Torsion de l’arbre reliant les boîtiers de renvoi conique Les boîtiers de renvoi conique B1 et B2 sont reliés comme indiqué sur la figure 12, document 3, page D3/13 par un arbre intermédiaire Aint. La géométrie de cet arbre est fournie figure 21, document 8, page D8/13. Son diamètre extérieur est noté DAe int avec DAe int = 45mm , son diamètre intérieur est noté DAi int avec DAi int = 32mm , et sa longueur est notée LA int avec LAint = 726mm . r La sortie du boîtier de renvoi conique B1 exerce sur l’arbre intermédiaire un couple C. y . On note θ y l’angle relatif que fait la section de sortie de l’arbre intermédiaire  LAint   LAint   y = 2  par rapport à sa section d’entrée  y = − 2  .     Données : Quel que soit le résultat trouvé à la question Q20, on prendra pour la suite C = 20 Nm . Le module de cisaillement du matériau constituant l’arbre intermédiaire Aint est noté G avec G = 80GPa . Q23 Inscrire votre réponse dans le cadre R23 du cahier réponse. Déterminer littéralement l’angle θ y en fonction des différentes données lorsque le couple appliqué vaut C . Donner la valeur numérique de θ y (en radians). Cette rotation relative θ y génère une différence de d"
+     },
+     {
+      "numero": "C.2.5",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+        "semestre": "S2"
+       }
+      ],
+      "page": 17,
+      "tags": [],
+      "texte": "C.2.5 - Tolérancement Lors de la commande des marbres, il est nécessaire de spécifier au sous-traitant l’emplacement des inserts qui ensuite serviront à fixer les différents éléments sur les marbres. La figure 22, document 9, page D9/13 fournit un tolérancement partiel du marbre MA0. Q26 Inscrire votre réponse dans le cadre R26 du cahier réponse. Expliquer la signification de la tolérance . On rappelle que 14.8 H6 = 14.8 0+11 ."
+     },
+     {
+      "numero": "C.2.6",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
+        "semestre": "S2"
+       }
+      ],
+      "page": 17,
+      "tags": [
+       "accouplement",
+       "tolérances géométriques"
+      ],
+      "texte": "C.2.6 - Etude de solutions techniques pour réaliser un joint d’accouplement Le mécanisme étudié comporte plusieurs sous-ensembles de pièces devant être accouplés. C’est le cas notamment de la sortie des boîtiers de renvoi conique avec les AIRLOC. Il existe un très grand nombre de solutions techniques pour réaliser ces liaisons. Un joint d’accouplement peut être caractérisé par de nombreux critères : nature du joint, homocinétie, désalignements possibles, angle de brisure admissible, amortissement, coût relatif, durée de vie, encombrement, résistance… Afin de répondre au mieux aux spécifications générales des liaisons, il est judicieux de caractériser les solutions techniques permettant de réaliser ce type de liaison. AVERTISSEMENT : les solutions techniques évoquées dans la question suivante ne représentent qu’une partie des familles de solutions et ne restreignent absolument pas le candidat dans ses choix dans la partie C3 – Dessin d’étude en construction mécanique. Q27 Inscrire votre réponse dans le cadre R27 du cahier réponse. Compléter les cases non grisées dans les tableaux de caractérisation partielle de solutions techniques évoquées."
+     },
+     {
+      "numero": "C.2.7",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Matériaux : Choix",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
+        "semestre": "S1"
+       }
+      ],
+      "page": 17,
+      "tags": [
+       "engrenages"
+      ],
+      "texte": "C.2.7 - Désignation des matériaux Les carters et les pignons coniques des boîtiers de renvoi conique seront réalisés dans des matériaux de désignation normalisée EN-GJL 400 et 36 Ni Cr Mo 16 respectivement. Q28 Inscrire votre réponse dans le cadre R28 du cahier réponse. Donner la signification de ces deux désignations normalisées. T17/21 Tournez la page S.V.P."
+     },
+     {
+      "numero": "C.3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 18,
+      "tags": [],
+      "texte": "C.3 - Dessin d’étude de construction mécanique"
+     },
+     {
+      "numero": "C.3.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 18,
+      "tags": [
+       "dessin / conception sur calque"
+      ],
+      "texte": "C.3.1 - Présentation des supports de travail Pour cette partie de l’étude, il vous est demandé de définir plusieurs sous-ensembles du mécanisme sur les deux calques format A3 fournis avec le sujet. Les éléments pré imprimés sur ces calques sont destinés à faciliter la mise en place des différents composants. Le calque n°1, de format A3 horizontal, pré imprimé, fourni avec le sujet, est destiné à l’étude du boîtier de renvoi conique B2 et aux liaisons entre les arbres d’entrée Ae2 et de sortie As21 et As24 avec respectivement l’arbre intermédiaire Aint et les cardans"
+     },
+     {
+      "numero": "C1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+        "semestre": "S1"
+       }
+      ],
+      "page": 18,
+      "tags": [
+       "accouplement",
+       "frettage / ajustement serré",
+       "dessin / conception sur calque"
+      ],
+      "texte": "C1 et C4. La figure 6, page T18/21 précise la mise en page du calque n°1. Le candidat trouvera sur le calque fourni une ébauche des arbres d’entrée Ae2 et de sortie As21 et As24. La figure 7, page T18/21, précise l’implantation des différents composants introduits dans ce paragraphe. Accouplement par frette Figure 6 : Mise en page du conique calque n°1 pré imprimé Réducteur à Manchon renvoi conique fourni Extrémité de d’entrée du Extrémité de l’arbre As21 cardan C1 l’arbre Ae2 Extrémité de Accouplement l’arbre Aint rigide As21 As24 B2"
+     },
+     {
+      "numero": "C.3.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 19,
+      "tags": [],
+      "texte": "C.3.2 - Consignes spécifiques aux travaux graphiques Les dessins sont à exécuter à l’échelle 1:1, sauf indication contraire, aux instruments, avec pour l’essentiel mise au net au crayon respectant les épaisseurs de traits normalisées et les exigences d’une bonne lisibilité ; seuls les axes et les écritures seront tracés à l’encre noire. Les tracés de couleur ne sont pas admis. Les normes AFNOR seront respectées. Les principales conditions fonctionnelles relatives aux liaisons représentées seront clairement indiquées en respectant les règles normalisées AFNOR. Les éléments normalisés utilisés par le candidat autres que ceux fournis dans le sujet, seront dessinés approximativement en respectant au mieux leurs proportions."
+     },
+     {
+      "numero": "C.3.3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 19,
+      "tags": [
+       "accouplement",
+       "frettage / ajustement serré",
+       "dessin / conception sur calque"
+      ],
+      "texte": "C.3.3 - Travail demandé Afin d’assurer toutes les fonctions de service et de satisfaire toutes les contraintes définies dans le cahier des charges fonctionnel (pages T5/21 et T6/21), et en utilisant au mieux les éléments fournis sur les calques n°1 et 2, on demande : − L’étude de conception du boîtier de renvoi conique B2 ; − L’étude de l’accouplement rigide entre l’arbre intermédiaire Aint et l’arbre d’entrée Ae2 du boîtier de renvoi conique B2 ; − L’étude de l’accouplement par frette conique entre l’arbre de sortie As21 du boîtier de renvoi conique B2 et le cardan C1 ; − L’étude de la liaison sphérique entre le corps de bielle Bi2 et le marbre MA0."
+     },
+     {
+      "numero": "C.3.3.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
+        "semestre": "S3"
+       }
+      ],
+      "page": 19,
+      "tags": [
+       "roulements",
+       "clavetage / cannelures",
+       "lubrification",
+       "fonderie / moulage",
+       "dessin / conception sur calque"
+      ],
+      "texte": "C.3.3.1 - Conception du boîtier de renvoi conique B2 – Répondre sur le calque n°1 Données : Les choix suivants ont été réalisés : − Guidage en rotation des arbres à l’aide de roulements à rouleaux coniques ; on respectera l’implantation des roulements suivant le schéma d’architecture de la figure 9, page T20/21 ; T19/21 Tournez la page S.V.P. As21 As24 B2 Ae2 Figure 9 : Schéma d’architecture du boîtier de renvoi conique − Montage de l’arbre d’entrée Ae2 et des arbres de sortie As21 et As24 dans le carter du boîtier de renvoi conique B2 ; − Extrémités des arbres d’entrée Ae2 et des arbres de sortie As21 et As24 clavetées ; − Carter moulé ; − Lubrification à la graisse. Les roulements à rouleaux coniques utilisés sont des roulements de référence 32006 et 32206. La figure 24, document 11, page D11/13 propose un dessin à l’échelle 1:1 de ces roulements. Dessiner aux instruments, sur la vue prédéfinie du calque n°1, vos propositions de solutions pour la définition complète : − de la liaison pivot entre l’arbre d’entrée Ae2 du boîtier de renvoi conique B2 et le carter du boîtier de renvoi conique B2 ; − de la liaison pivot entre l’arbre de sortie As21 et le carter du boîtier de renvoi co"
+     },
+     {
+      "numero": "C.3.3.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 21,
+      "tags": [
+       "dessin / conception sur calque"
+      ],
+      "texte": "C.3.3.2 - Liaison sphérique entre corps de bielle et marbre – Répondre sur le calque n°2 Le constructeur utilise la même liaison entre le corps de chaque bielle et les marbres MA1 ou MA0. Le calque n°2 fournit les éléments suivants : − la plaque support ; − les paliers sur lesquels la rotule est montée ; − la bielle Bi3. Les vues définissant complètement la géométrie des rotules UNIBAL utilisées sont données figure 25, document 11, page D11/13. Le candidat pourra s’en inspirer pour toute vue complémentaire. Dessiner aux instruments, sur la vue prédéfinie du calque n°2, vos propositions de solutions pour la définition complète : − de la liaison encastrement de la rotule UNIBAL avec la bielle Bi3. Par ailleurs, la longueur de l’ensemble bielle – rotule doit pouvoir être réglée ; − de la liaison entre la rotule et les paliers ; hormis le jeu interne à la rotule, cette liaison doit être sans jeu ; − de la liaison encastrement des paliers avec la plaque support. Compléter la vue en coupe A-A à l’échelle 1:2 pour préciser la solution retenue pour la liaison encastrement des paliers avec la plaque support. T21/21"
+     }
+    ]
+   }
+  ]
+ }
+}

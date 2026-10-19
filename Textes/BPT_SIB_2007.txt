@@ -1,0 +1,2857 @@
+
+===== page 1 =====
+[OCR] MT27
+
+% Banque filiere PT *
+
+Epreuve de Sciences Industrielles B
+
+Durée 6h
+
+Si, au cours de I’épreuve, un candidat repére ce qui lui semble étre une erreur d’énoncé,
+d’une part il le signale au chef de salle, d’autre part il le signale sur sa copie et poursuit sa
+composition en indiquant les raisons des initiatives qu’il est amené a prendre.
+
+Composition du sujet :
+
+= 1 cahier de 26 pages de texte, numérotées de T1/26 a T26/26 ;
+
+16 documents format A4, intitulés « Document i», avec je {1, 2, ..., 17} définis dans les
+pages D1/17 a D17/17 ;
+
+3 feuilles format A3 pliées, imprimées recto verso, respectivement intitulées « Notice justificative
+1/3 », « Notice justificative 2/3 », « Notice justificative 3/3 » a rendre en fin d’épreuve ;
+
+2 feuilles de calque format A3, pré imprimées, intitulées « Calque n°1 » et « Calque n°2 » a
+rendre en fin d’épreuve ;
+
+2 feuilles format A4, intitulées « Dessin pour réponses n°1 » et « Dessin pour réponses n°2 »,
+a rendre en fin d’épreuve.
+
+[ TOUTE AUTRE DOCUMENTATION EST INTERDITE ]
+
+Matériel autorisé : tous instruments usuels du dessinateur.
+
+LES CALCULATRICES SONT AUTORISEES.
+LES AGENDAS ELECTRONIQUES ET LES TELEPHONES PORTABLES SONT
+INTERDITS
+
+Gestion du temps : En admettant une durée d’une heure pour la lecture et l'assimilation du
+sujet, il est vivement conseillé de consacrer 2 h 30 min pour la réponse
+aux questions de la notice et 2 h 30 min au tracé des dessins.
+
+71/26
+Tournez la page S.V.P.
+
+
+
+===== page 2 =====
+[OCR] ETUDE D’UN SYSTEME D’ENTRAINEMENT D’UNE
+BROCHE DE FRAISAGE
+
+A - Cahier des Charges Fonctionnel (Extraits)
+
+A.1 — Présentation du probleme
+
+A.1-1 Le Contexte du sujet
+
+Avec l’ouverture des frontiéres et la concurrence grandissante, la plupart des entreprises (secteur
+de l'automobile, secteur aéronautique, secteurs de la plasturgie et du moule,...) ont besoin
+d’améliorer, d’augmenter voire de diversifier leurs offres. Elles ont donc compris tout l'intérét d’investir
+dans des techniques de pointe qui permettent de répondre a ces besoins comme par exemple
+l'Usinage a Grande Vitesse (UGV) ou bien encore les machines multifonctions.
+
+C’est dans ce contexte qu’un grand constructeur de machine outil propose des centres de
+tournage fraisage 5 axes’. Ainsi des piéces qui nécessitent normalement l'emploi de centres
+d'usinage verticaux et horizontaux peuvent maintenant étre usinées en totalité par une seule machine
+et parfois en une seule prise de piéce avec une efficacité et une précision sans égales. La figure 1,
+page 72/26, illustre ce type de machine outil et quelques applications d’usinage.
+
+Rouet centrifuge
+
+Couvercle
+
+“age
+
+Position du dispositif i apt
+faisant Fobjet de étude Ni ag
+A =
+
+Figure 1 - Centre de tournage fraisage 5 axes
+
+Naturellement, le constructeur attache une attention particuliére a la précision de la machine qu'il
+congoit entiérement et commercialise. Il cherche donc a innover constamment et ces innovations
+passent entre autres par :
+
+¢ L’amélioration des systémes de prise de piéce et des systemes de changement rapide d’outil ;
+
+e L’amélioration des dispositifs de maintenance de la machine (maintenance plus rapide,
+maintenance plus simple,...) ;
+
+e L’augmentation du volume usinable par l’évolution de la cinématique machine ;
+
+¢ L’amélioration de l’'accessibilité machine ;
+
+¢ Lutilisation de broches de plus en plus puissantes ;
+
+« L’amélioration de la dynamique et de la précision des axes de déplacement de la machine ;
+e Etc.
+
+"lest rappelé qu’un axe de déplacement est asservi a Ia fois en vitesse et en position
+
+72/26 Tournez la page S.V.P.
+
+
+===== page 3 =====
+[OCR] Cest le dernier point cité qui nous intéresse particuliérement dans ce sujet. En effet, le travail
+proposé dans ce sujet se focalise sur le systeme de mise en position angulaire de la broche de
+fraisage. La figure 2, page T3/26 présente I'architecture du centre de tournage fraisage 5 axes et la
+
+position de la broche de fraisage dans la machine. Les 3 axes de translation sont x, y et z et les
+deux autres axes sont les axes de rotation B et C respectivement autour des axes y etz.
+
+Broche de
+fraisage
+
+Mandrin de
+tournage
+
+Figure 2 - Définition des axes de translation et de rotation du centre de tournage fraisage
+
+A.1-2 Le produit 4 concevoir: systéme d’entrainement motorisé de la broche de
+fraisage
+
+Le constructeur, souhaitant améliorer la robustesse et la précision du déplacement angulaire de
+la broche de fraisage envisage d’intégrer un systéme d’entrainement a roue et vis sans fin reprenant
+ainsi le principe utilisé dans de nombreuses machines outils. En intégrant ce systéme, le constructeur
+souhaite apporter une grande rigidité a la transmission et permettre une indexation trés précise de la
+broche en vue d’applications spécifiques.
+
+Le systéme d’entrainement étudié est donc constitué d’un moteur, d’un étage de réduction de
+vitesse et d’un dispositif de transformation de mouvement. L’énergie électrique fournie au moteur est
+ainsi convertie en énergie mécanique. L’énergie mécanique est transmise via l’étage de réduction et
+le systéme de transmission de mouvement (figure 3, page T3/26).
+
+-
+ls ACQUERIR
+Hid Capteurs
+I
+
+1
+ALIMENTER
+1
+
+=> Réseau ri
+
+électrique
+
+Informations destinées &
+
+Broche en
+
+DISTRIBUER CONVERTIR TRANSMETTRE ||
+Variateurde Ly! Moteur LJ Réducteur + Roue AGIR
+
+I
+I
+1
+i
+vitesse électrique et vis sans fin !
+I
+I
+
+électrique *DCN : Directeur de Commande Numérique Broche orientée
+
+Figure 3 - Agencement des principaux sous-ensembles du vérin a étudier : chaine d’énergie
+
+73/26 Tournez la page S.V.P.
+
+
+===== page 4 =====
+    Le système d’entraînement par roue et vis sans fin à concevoir doit permettre l’orientation précise
+de la broche de fraisage autour de l’axe y de la machine. Son rapport de transmission permettra à
+l’axe B des positionnements et des indexations par très petits incréments.
+
+    La broche de fraisage (en rotation autour de l’axe y ) peut également être utilisée en mode
+tournage. En mode tournage et dans ces conditions, l’outil de tournage est monté dans la broche
+appelée broche de fraisage par abus de langage. L’outil de tournage indexé en position peut ensuite
+être orienté en rotation autour de l’axe y . Notons ici que la possibilité d’utiliser un outil de tournage
+dans une position angulaire B donnée constitue une spécificité de la machine par rapport à un centre
+de tournage classique où l’outil ne peut être utilisé qu’en position horizontale (position B=0°, figure
+4a, page T4/26) ou en position verticale (position B=90°) ( figure 4b, page T4/26).
+
+                                                                                       Om    x
+ O m : origine machine                                                                            z
+                                                                                         y
+                                           Outil de
+                                          tournage
+                                                                          B
+            Mandrin de         x
+             tournage                                                                        Broche de
+                                                                                              fraisage
+
+
+                               y                           C
+                                                                               z
+
+                                                Pièce à
+                                                usiner
+
+                  Figure 4a - Outil de tournage utilisé en position horizontale (B=0°)
+
+
+                                                                                       Om    x
+                                                                                                  z
+                                                                                         y
+
+
+                                                                          B
+
+                                   x
+
+
+
+
+                                   y                           C
+                                                                                   z
+
+
+
+
+                   Figure 4b - Outil de tournage utilisé en position verticale (B=90°)
+
+
+      T4/26                                                                   Tournez la page S.V.P.
+
+
+===== page 5 =====
+A.1-3 Limites de l’étude
+     Limites de l’étude :     l’étude proposée porte uniquement sur le système d’entraînement en
+                              rotation de la broche de fraisage :
+                              • Dimensionnement du moteur ;
+                              • Dimensionnement des roulements guidant les différents arbres en
+                                rotation ;
+                              • Dimensionnement des arbres.
+     Choix de concept :       Chacun des sous-ensembles composant le système d’entraînement
+                              constituera un module interchangeable ;
+                              Le moteur électrique utilisé pour la transmission sera un composant
+                              standard du commerce.
+
+
+
+
+A.2 – Analyse fonctionnelle du besoin (extraits)
+    Parmi toutes les situations du cycle de vie du produit, il ne sera considéré que la situation de
+fonctionnement opérationnel. De plus, son étude sera présentée sous une forme simplifiée.
+
+A.2-1 Graphe des interacteurs
+     L’outil et le porte outil sont montés dans la broche de fraisage. Ces trois éléments essentiels
+constituent l’ensemble {Broche / Porte outil / Outil}. Le graphe des interacteurs du sous ensemble
+étudié dans ce sujet est présenté sur la figure 5, page T5/26. Il montre notamment que la partie
+opérative du système d’entraînement par roue et vis sans fin est également le support du dispositif de
+lubrification de l’ensemble {Broche / Porte Outil / Outil}.
+
+
+         Directeur de                         Bâti machine                           Ensemble
+      commande numérique                                                    {Broche / Porte Outil / Outil}
+                                                           FP3
+                                  FP1
+
+                                                                             FC5
+                                         Système d’entraînement par
+                            FP2
+                                             roue et vis sans fin
+
+                             FC2                                      FC4
+    Groupe hydraulique
+                                           FC3
+                                                                  Energie
+                                          Milieu ambiant
+
+
+                                   Figure 5 - Graphe des interacteurs
+
+A.2-2 Enoncés des fonctions de service
+           Fonctions principales :
+          FP1 : Convertir la consigne électrique émise par le directeur de commande numérique en
+     un déplacement angulaire de l’ensemble {Broche / Porte Outil / Outil}
+           FP2 : Permettre l’alimentation en fluides de l’ensemble {Broche / Porte Outil / Outil}
+
+           FP3 : Permettre le blocage de la rotation de fraisage autour de l’axe y
+
+     T5/26                                                                     Tournez la page S.V.P.
+
+
+===== page 6 =====
+           Fonctions contraintes :
+           FC1 : S’adapter au bâti machine (support de broche)
+           FC2 : Etre alimenté en huile
+           FC3 : Résister aux effets du milieu ambiant (projections de copeaux, huile de coupe)
+           FC4 : S’adapter aux possibilités générales d’alimentation électrique d’un atelier
+           FC5 : Permettre l’adaptation d’une broche de fraisage
+
+A.2-3 Caractérisation des fonctions
+
+ Fonction Critères                                                        Niveaux
+ FP1       Débattement angulaire                                          [-120° ; +105°]
+           Vitesse de rotation maximale                                   40 tr.min-1
+           Couple maximal transmissible                                   Non précisé
+ FP2       Système d’arrosage (fluide de coupe) – à travers la            20 L.min-1
+            broche et sur l’extérieur de la broche                         15 bars
+           Liquide de refroidissement                                     Pompe 1,2 kW
+           Pression d’huile dans le système de bridage du porte-          Non précisée
+            outil dans la broche
+           Alimentation pneumatique                                       5 bars | 500 L.min-1
+ FP3       Protection du système d’entraînement en rotation               Démontable
+           Liaison avec le bâti (support de broche), maintenance          Démontable
+            facile
+ FC1            Volume disponible                                         0,06 m3
+                Liaison complète                                          Démontable
+ FC2            Huile utilisée                                            Non précisée
+ FC3            Matériau du carter                                        EN-GJS 500
+ FC4            Source d’énergie électrique                               Triphasé 380 V | 50 Hz
+                Alimentation électrique nécessaire (en continu)           38,1 kVA
+ FC5            Puissance de la broche                                    15 kW
+                Couple maximum de la broche                               12,2 kgf.m
+                          Tableau 1 - Caractérisation des différentes fonctions.
+
+
+
+
+       T6/26                                                                 Tournez la page S.V.P.
+
+
+===== page 7 =====
+                     B – Etude et éléments de solutions proposés
+
+
+B.1 – Architecture générale
+
+     Le directeur de commande numérique de la machine envoie une consigne électrique au variateur
+qui amplifie le signal et alimente le moteur permettant l’orientation de la broche de fraisage. L’axe de
+rotation B étudié a un débattement angulaire de -120° à 105°. Le schéma technologique de la figure
+11, document 1, page D1/17, présente l’agencement retenu pour les différents sous ensembles
+constituant la partie mécanique du système étudié. Attention, le repère introduit sur cette figure et
+dans la suite du sujet est indépendant de la définition des axes de la machine.
+
+    La solution technique retenue par le constructeur pour réaliser la transformation de mouvement
+comprend un étage de réduction et un système de renvoi d’angle respectivement réalisés par deux
+pignons et un système roue et vis sans fin.
+
+     Pour assurer une meilleure rigidité et une meilleure précision angulaire, l’arbre 1 du moteur est
+guidé par rapport au support de broche de fraisage 4 grâce à un roulement à billes SNR 61904,
+modélisé par une liaison sphère / cylindre. Un premier étage de réduction, constitué de deux pignons,
+permet la transmission du mouvement de rotation de l’arbre 1 à l’arbre intermédiaire 2 qui est guidé
+en rotation par rapport au support de broche 4 par deux roulements à rouleaux coniques SNR
+32208. Chacun de ces roulements est modélisé par une liaison sphérique. Le second étage de
+réduction (système roue et vis sans fin) permet d’entraîner l’arbre de sortie 3 , lié à la broche de
+fraisage, qui est en liaison pivot par rapport au support de broche 4 .
+
+    Le candidat trouvera sur la figure 12, document 2, page D2/17 les caractéristiques des
+roulements à billes SNR. Il trouvera de même les informations sur les roulements à rouleaux
+coniques sur la figure 13, document 2, page D2/17.
+
+
+B.2 – Description des choix retenus pour les différents éléments
+
+B.2-1 Le moteur
+
+     Le moteur utilisé est un modèle HC-RFS153 fabriqué par MITSUBISHI. Les données techniques
+et les caractéristiques du couple des moteurs de la série HC-RFS fournies par le constructeur sont
+données sur les figures 14 et 15, document 3, page D3/17. Le candidat prendra les notations
+suivantes :
+    - Puissance nominale : Pnom = 1,5 kW ;
+   -    Vitesse nominale : N nom = 3000 tr / min ;
+   -    Couple nominal : C nom = 4,78 N ⋅ m ;
+   -    Vitesse maximale : N max = 4500 tr / min ;
+   -    Couple maximal : C max = 11,9 N ⋅ m ;
+   -    Moment d’inertie : J m = 1,9.10 −4 kg .m ;
+   -    Rapport entre le moment d’inertie de la charge ramené sur l’arbre moteur J ch arg e et le moment
+                                              J ch arg e
+        d’inertie du servomoteur J m : Ri =                ≤ 5 . Cette limitation est donnée par le constructeur
+                                                Jm
+        pour ne pas réduire de manière excessive l’accélération des éléments en mouvement.
+                                                                           ⎛ dω m ⎞
+    Le constructeur précise aussi l’accélération maximale à vide : ⎜              ⎟ = 62000 rad .s −2 .
+                                                                           ⎝  dt  ⎠ max
+       T7/26                                                                        Tournez la page S.V.P.
+
+
+===== page 8 =====
+     Lorsque l’axe de rotation B est utilisé en déplacement rapide, le servomoteur est utilisé à son
+point de fonctionnement nominal. Lorsque l’on utilise l’axe de rotation B pour réaliser une opération
+d’usinage, le couple moteur peut varier jusqu’à son couple maximal.
+
+B.2-2 Le système de transformation de mouvement
+
+    B.2-2-1 Les pignons
+
+    Le pignon lié à l’arbre 1 sera noté P1 . Le pignon lié à l’arbre intermédiaire 2 sera noté P2 .
+    Les deux pignons sont à denture droite.
+    Le nombre de dents de P1 est : Z 1 = 26 .
+    Le nombre de dents de P2 est : Z 2 = 78 .
+    Le module de ces deux pignons P1 et P2 est : m12 = 2 mm .
+    L’angle de pression de P1 et P2 est : α 12 = 20° .
+    Le rendement de ce réducteur sera noté η 12 . Etant donnée la très grande précision des
+    dentures, il sera considéré que : η 12 = 1 .
+
+    B.2-2-2 Le système roue et vis sans fin
+
+    La roue liée à l’arbre de sortie 3 sera notée P3 . La vis sans fin liée à l’arbre intermédiaire 2 sera
+noté P2' . Les caractéristiques de ce système roue et vis sans fin sont les suivantes :
+
+   - Nombre de filets de la vis sans fin : Z 2' = 2 ;
+   - Nombre de dents de la roue : Z 3 = 48 ;
+   - Module pour la vis et pour la roue : m 2' 3 = 5 ,5 mm ;
+   - Angle de frottement entre la vis et la roue : ϕ 2' 3 = 6° ;
+   - Angle de pression entre la vis et la roue : α 2' 3 = 20° ;
+   - Angle d’inclinaison de l’hélice de la roue : β 3 = 10 ,27° .
+   - Les hélices de la roue et de la vis sont à gauche.
+
+    Le candidat trouvera des informations complémentaires concernant les systèmes roue et vis
+sans fin classiques sur le document 4, page D4/17.
+
+
+
+
+     T8/26                                                                    Tournez la page S.V.P.
+
+
+===== page 9 =====
+               C – Etude de conception en construction mécanique
+
+C.1 – Présentation du travail à rendre
+
+     Comme indiqué en page T1/26, en admettant une durée d’une heure pour la lecture et
+l’assimilation du sujet, il est vivement conseillé de consacrer 2 h 30 min à la réponse aux questions
+de la notice et 2 h 30 au tracé des dessins.
+
+
+    Les réponses seront fournies uniquement sur les six documents présentés ci-dessous.
+
+
+       1 – Notice justificative (50 % de la note globale)
+
+    Fournir les réponses sur les trois documents respectivement intitulés « Notice justificative
+1/3 », « Notice justificative 2/3 » et « Notice justificative 3/3 », de format A3 horizontal, pré
+imprimés recto verso, qui sont joints au sujet.
+
+    Les réponses sur feuilles de copies additionnelles ou sur papier de brouillon ne seront
+pas acceptées.
+
+       2 – Dessin d’étude de construction mécanique (50 % de la note globale)
+
+     Le dessin d’étude est à tracer sur les calques pré imprimés de format A3 horizontaux
+intitulés respectivement « Calque n°1 » et « Calqu e n°2 », à rendre non pliés , et sur les
+documents intitulés « Dessin pour réponses n°1 » et « Dessin pour réponses n°2 », de format
+A4 vertical, joints au sujet.
+
+
+C.2 – Notice justificative
+
+Consignes spécifiques
+
+    Sur les notices justificatives, les réponses seront fournies dans les limites des cadres prévus
+pour chaque question.
+
+    Il sera tenu compte, dans la notation, de la clarté et de la concision des réponses. Les schémas
+doivent être lisibles, précis et respecter la normalisation en vigueur.
+
+     Les écritures au crayon ne seront pas acceptées. La qualité de l’écriture, de l’orthographe et de
+la syntaxe sera prise en compte dans l’évaluation.
+
+    Le candidat trouvera sur le tableau 5, document 14, page D15/17 un récapitulatif de l’ensemble
+des grandeurs utilisées au cours du sujet.
+
+C.2.1 Caractéristiques du système de transformation de mouvement
+
+    Le système de transformation de mouvement est composé de deux pignons P1 - P2 et d’un
+système roue et vis sans fin P3 - P2' . Les caractéristiques de ces différents éléments ont été données
+dans la partie B du sujet ainsi que dans le document 4, page D4/17. La première partie de l’épreuve
+aborde le calcul des caractéristiques du système de transformation de mouvement qui ne sont pas
+précisées et qui sont nécessaires à l’étude mécanique proposée dans ce sujet.
+
+
+
+     T9/26                                                                  Tournez la page S.V.P.
+
+
+===== page 10 =====
+          Q1 Inscrire votre réponse dans le cadre R1 de la notice 1/3.
+                                                                                     ω2
+               1 - Donner la valeur numérique du rapport de transmission k 12 =         des pignons P1 et P2 .
+                                                                                     ω1
+
+               2 – Déterminer les valeurs numériques des diamètres primitifs d 1 et d 2 des 2 pignons.
+
+          Q2 Inscrire votre réponse dans le cadre R2 de la notice 1/3.
+               1 - En utilisant le document 4, page D4/17, déterminer les valeurs :
+                    - de l’angle d’inclinaison d’hélice β 2' de la vis ;
+                    - des diamètres primitifs d 3 de la roue et d 2' de la vis ;
+                    - de l’entraxe a 2' 3 ;
+                                                                 ω3
+                    - du rapport de transmission k 2' 3 =             ;
+                                                                 ω 2'
+                    - le rendement du système η 2' 3 .
+
+               2 - Proposer des matériaux utilisables pour la vis et pour la roue.
+
+C.2.2 Détermination de l’effort de coupe tangentiel maximum entre l’outil et la pièce
+
+     Les caractéristiques du système de transformation de mouvement viennent d’être précisées.
+Pour dimensionner les liaisons, il est maintenant nécessaire de revenir sur les efforts supportés par
+ce système. Pour cela, nous considérons une opération de fraisage (surfaçage) utilisant le
+mouvement de l’axe de rotation B dans des conditions critiques. L’effort de coupe tangentiel maximal
+entre la fraise utilisée et la pièce doit être déterminé pour quantifier la limite du système. Il sera alors
+possible de conclure quant à la possibilité de réaliser des opérations de fraisage ébauche utilisant
+l’axe de rotation B.
+
+     Les données géométriques associées au système de transformation de mouvement, ainsi que le
+mouvement d’avance Mf = −Mf z de la broche par rapport au bâti pour l’opération de fraisage
+considérée sont présentées sur la figure 11, document 1, page D1/17.
+
+     Le torseur des actions mécaniques de la pièce usinée sur l’outil, exprimé au point M (point
+générateur de l’outil), dans la base ( x , y , z ) , est :
+                                                                   ⎧ Fc 0 ⎫
+                                                {            }     ⎪
+                                                T( pièce→outil ) = ⎨ Fp 0⎬
+                                                                          ⎪
+                                                                   ⎪ Ff 0 ⎪
+                                                                   ⎩      ⎭M
+     L’effort de coupe tangentiel Fc = Fc x de la pièce sur l’outil est prépondérant devant l’effort
+radial de pénétration Fp = Fp y et devant l’effort de coupe axial Ff = Ff z . L’effort de coupe
+tangentiel Fc engendre sur l’arbre de sortie 3 un couple résistant Cr = Cr z .
+
+    Pour déterminer l’effort de coupe tangentiel maximal entre la fraise utilisée et la pièce, il faut
+donc déterminer la valeur du couple résistant maximum dans le système étudié sachant que le
+constructeur a déjà fait le choix du moteur et du système de transformation de mouvement.
+     Le couple exercé par le moteur sur l’arbre 1 est noté Cmot = Cmot x . Selon l’usinage à réaliser,
+ce couple peut changer de signe. Pour le reste de l’étude, on prendra Cmot > 0 .
+      T10/26                                                                       Tournez la page S.V.P.
+
+
+===== page 11 =====
+        Q3 Inscrire votre réponse dans le cadre R3 de la notice 1/3.
+            1 - En tenant compte du couple moteur maximal et en prenant en compte les
+            rendements des systèmes de réduction, déterminer l’expression du couple résistant Cr
+            maximum autorisé en régime permanent en fonction de C max , η 12 , η 2' 3 , k 12 , k 2' 3 .
+
+            2 - Donner la valeur numérique de Cr .
+
+        Q4 Inscrire votre réponse dans le cadre R4 de la notice 1/3.
+            1 - Sachant que la distance entre le point générateur M de l’outil et l’axe de l’arbre de
+            sortie 3 est H , donner l’expression simplifiée de l’effort de coupe tangentiel maximum
+            Fc max entre l’outil et la pièce lors de l’opération de surfaçage considérée en fonction de
+              H et de Cr ?
+
+            2 – Sur la machine utilisée, la valeur de H est de 400 mm. Que vaut l’effort de coupe
+            tangentiel Fc max ?
+
+            3 - En vous aidant du document 5, page D5/17 et page D6/17, sur le calcul de la
+            puissance consommée pour une opération de fraisage et du document 6, page D7/17,
+            sur la détermination de la pression spécifique de coupe, calculer la valeur numérique de
+            l’effort de coupe Fc pour une opération de surfaçage « centré » avec les
+            caractéristiques suivantes :
+                 - Matériau de la pièce à usiner : C60,
+                 - Engagement radial : a r = 30 mm ;
+                 - Profondeur de passe : a p = 2 mm ;
+                 - Fraise utilisée : D = 50 mm et Z = 6 ;
+                 - Angle de direction d’arête : Κ r = 90° ;
+                 - Angle de coupe : γ = 0° ;
+                 - Avance par dent : f z = 0 ,2 mm.dent −1 ;
+                 - Vitesse de coupe : Vc = 200 m. min −1 .
+
+            4 - Conclure sur la possibilité de réaliser des opérations de fraisage ébauche utilisant
+            l’axe de rotation B.
+
+C.2.3 Détermination des actions de liaisons
+
+    La liaison pivot de l’arbre intermédiaire 2 par rapport au support de broche de fraisage 4 est
+assurée par deux roulements à rouleaux coniques dont les centres de poussée sont les points Q1 et
+Q2 . Les positions respectives de ces points sont précisées sur le schéma technologique de la figure
+11, document 1, page D1/17. Chacun de ces roulements est modélisé par une liaison sphérique.
+    Dans la base ( x , y , z ) , les torseurs représentatifs des actions mécaniques du support de broche
+de fraisage 4 sur l’arbre intermédiaire 2 exprimés aux centres de poussée Q1 et Q2 des paliers
+sont donnés par les expressions suivantes :
+                                               ⎧ X Q1 0 ⎫                           ⎧ X Q2 0 ⎫
+                                               ⎪⎪         ⎪⎪                        ⎪⎪         ⎪⎪
+                             {            }
+                                 T * (4 →2 ) = ⎨YQ1 0 ⎬          {             }
+                                                                     T ** (4 →2 ) = ⎨Y Q2 0 ⎬
+                                                ⎪          ⎪                         ⎪          ⎪
+                                                ⎪⎩Z Q1 0 ⎪⎭ Q                        ⎪⎩Z Q2 0 ⎪⎭ Q
+                                                             1                                    2
+
+
+     T11/26                                                                                Tournez la page S.V.P.
+
+
+===== page 12 =====
+    L’action de contact P( 3→ 2 ) exercée par la roue P3 sur la vis P2' est modélisable en P par le
+torseur glisseur suivant :
+                                                 ⎧ A32 0 ⎫
+                                  { T(3→2 ) } = ⎪⎨− R32 0 ⎪⎬ avec A32 , R32 et T32 > 0
+                                                 ⎪T     0 ⎪⎭ P
+                                                 ⎩ 32
+    Les efforts A32 = A32 x , R32 = − R32 y et T32 = T32 z sont représentés sur les figures 16, 17 et
+18, document 7, page D8/17. La projection de P( 3→ 2 ) dans le plan ( P, x, z ) est noté Pxz .
+    L’action de contact S ( 1→ 2 ) exercée par le pignon à denture droite P1 sur le pignon à denture
+droite P2 est modélisable en S par le torseur glisseur suivant :
+                                                    ⎧0     0⎫
+                                      { T(1→2 ) } = ⎨− R12 0 ⎪⎬ avec R12 et T12 > 0
+                                                    ⎪
+                                                    ⎪− T      ⎪
+                                                    ⎩ 12 0 ⎭ S
+    Les efforts R12 = − R12 y et T12 = −T12 z sont représentés sur la figure 19, document 7, page
+D8/17.
+
+         Q5 Inscrire votre réponse dans le cadre R5 de la notice 1/3.
+             1 - En fonctionnement sous charge maximum déterminer l’expression des composantes
+                                                                                      {   }
+             R12 et T12 du torseur représentatif des actions mécaniques T( 1→2 ) en fonction de
+              C max , d 1 et α 12 .
+
+             2 - En fonctionnement sous charge maximum et en tenant compte des rendements des
+             systèmes de transmission, déterminer l’expression des composantes A32 , R32 et T32 du
+                                                                 {      }
+             torseur représentatif des actions mécaniques T( 3→2 ) en fonction de Cr , α 2' 3 , d 3 , β 3
+             et ϕ 2' 3 .
+
+             3 - Donner les valeurs numériques de R12 , T12 , A32 , R32 et T32 .
+
+         Q6 Inscrire votre réponse dans le cadre R6 de la notice 1/3.
+             1 - Appliquer le principe fondamental de la statique à l’arbre intermédiaire 2 et
+             déterminer les expressions de YQ 1 , Z Q 1 , YQ 2 et Z Q 2 en fonction de R12 , T12 , A32 , R32 ,
+              T32 et des caractéristiques géométriques du système étudié.
+
+             2 - Calculer les valeurs numériques de YQ 1 , Z Q 1 , YQ 2 et Z Q 2 sachant que L = 323 mm ,
+               L1 = 84 mm et L2 = 131 mm .
+
+             3 - Pourquoi ne peut-on pas calculer X Q1 et X Q 2 ?
+
+C.2.4 Etude du moteur
+
+     Le constructeur a choisi d’équiper le système étudié avec un moteur HC-RFS153 fabriqué par
+MITSUBISHI. Les données techniques et les caractéristiques de ce moteur sont données en partie B
+et sur les figures 14 et 15, document 3, page D3/17.
+
+
+      T12/26                                                                     Tournez la page S.V.P.
+
+
+===== page 13 =====
+    L’objectif de l’étude qui suit est de vérifier que ce moteur est bien dimensionné. Il paraît
+notamment judicieux de vérifier la valeur du rapport d’inertie Ri ainsi que de la vitesse de
+déplacement de l’axe de rotation B étant donné le système étudié.
+
+    Hypothèses : Les frottements secs et visqueux dans le moteur seront négligés. L’ensemble
+{Broche de fraisage / Porte Outil / Outil} lié à l’arbre de sortie 3 et à la roue du système de
+transformation du mouvement a une inertie de rotation J B de 4 ,5 kg .m par rapport à l’axe z .
+
+C.2.4.1 Etude du moteur seul
+
+    Le fabriquant du moteur n’a pas d’information sur la future utilisation du moteur par le client. Il
+fournit donc des données concernant le moteur seul, sans charge accouplée. On parlera de moteur à
+vide.
+
+        Q7 Inscrire votre réponse dans le cadre R7 de la notice 1/3.
+            1 - En appliquant le théorème du moment dynamique à l’arbre du moteur, déterminer
+                                                                  ⎛ dω m ⎞
+              l’expression de l’accélération maximale ⎜                  ⎟ du moteur à vide en fonction de J m
+                                                                  ⎝ dt ⎠ max
+              et C max .
+
+                                                                        ⎛ dω m ⎞
+            2 - Donner la valeur numérique de l’accélération ⎜                 ⎟ .
+                                                                        ⎝ dt ⎠ max
+
+            3 - Comparer le résultat obtenu à la valeur fournie par le constructeur.
+
+C.2.4.2 Etude du moteur en charge
+    Le système d’entraînement de la broche de fraisage peut être représenté par le schéma suivant :
+
+
+        Moteur             θm            Réducteur                   Roue et vis                     Broche de
+                                                             θ2                          θ3           fraisage
+                                           P1 / P2                     sans fin
+      inertie J m          ωm            rapport k 12        ω2      rapport k 2' 3      ω3          inertie J B
+
+
+
+    Ce schéma se ramène au schéma suivant :
+                                                                               Charge
+                                       Moteur           θm
+                                                                    inertie équivalente ramenée
+                                   inertie J m          ωm           sur l’axe moteur : J ch arg e
+
+
+            Q8 Inscrire votre réponse dans le cadre R8 de la notice 1/3.
+            1 – Déterminer l’énergie cinétique de l’ensemble (E) composé des 3 solides 1 , 2 et 3
+        dans leur mouvement par rapport au support de broche de fraisage 4 en fonction de ω m ,
+         J m , J B , k 2' 3 et k12 .
+
+              2 - En déduire l’inertie équivalente de la charge ramenée sur l’axe moteur J ch arg e en
+        fonction de J B , k 2' 3 et k12 .
+     T13/26                                                                              Tournez la page S.V.P.
+
+
+===== page 14 =====
+        Q9 Inscrire votre réponse dans le cadre R9 de la notice 1/3.
+                                                                        J ch arg e
+           1 - Calculer la valeur numérique du rapport d’inertie Ri =                .
+                                                                           Jm
+           2 - En fonction des données du constructeur, le moteur est-il bien dimensionné ?
+
+
+        Q10 Inscrire votre réponse dans le cadre R10 de la notice 1/3.
+                                                                        ⎛ dω m ⎞
+            1 - Déterminer l’expression de l’accélération angulaire ⎜          ⎟ du moteur au point de
+                                                                        ⎝ dt ⎠ nom
+            fonctionnement nominal en fonction de J m , J ch arg e et C nom .
+
+            2 - Au point de fonctionnement nominal, donner l’expression du déplacement angulaire
+                                                              ⎛ dω m ⎞
+             θ 3 ( t ) de la broche de fraisage en fonction de ⎜     ⎟ , k 2' 3 , k12 et du temps t .
+                                                              ⎝ dt ⎠ nom
+
+            3 - Le fabricant de la machine outil précise que l’axe de rotation B peut passer de la
+            position 0 à 90° en 0,23 seconde. Qu’en pensez-vous ?
+
+C.2.5 Guidage de l’arbre intermédiaire 2
+
+     L’arbre intermédiaire 2 est guidé par 2 roulements à rouleaux coniques identiques SNR 32208.
+Ces roulements de centres de poussée Q1 et Q2 seront notés respectivement R1 et R2 . Leurs
+caractéristiques sont présentées sur la figure 13, document 2, page D3/17. Le fabricant de la
+machine outil souhaite que la durée de vie L10 des roulements soit de 35000 heures. L’objectif est de
+vérifier que les roulements SNR 32208 satisfont bien à cette condition.
+
+        Q11 Inscrire votre réponse dans le cadre R11 de la notice 1/3.
+            Justifier le choix fait par le constructeur d’utiliser des roulements à rouleaux coniques
+            pour le guidage de l’arbre intermédiaire 2 .
+
+        Q12 Inscrire votre réponse dans le cadre R12 de la notice 1/3.
+            1 - Donner trois critères à considérer lorsque l’on doit choisir de réaliser un montage de
+            roulements en O ou en X.
+
+            2 - Quelle solution envisagez-vous pour le guidage de l’arbre intermédiaire 2 ? (montage
+            en X ou montage en O). Justifier votre réponse.
+
+        Q13 Inscrire votre réponse dans le cadre R13 de la notice 1/3.
+            Choisir les tolérances à spécifier pour les portées des roulements.
+
+        Q14 Inscrire votre réponse dans le cadre R14 de la notice 1/3.
+            Tracer un schéma technologique sur lequel vous représenterez l’arbre guidé, les deux
+            roulements et leurs arrêts axiaux.
+
+
+
+     T14/26                                                                      Tournez la page S.V.P.
+
+
+===== page 15 =====
+    En fonctionnement sous charge maximum, les composantes radiales Fr1 et Fr2 des efforts
+exercées par l’arbre intermédiaire 2 sur les roulements R1 et R2 sont :
+           Fr1 = ( YQ1 + Z Q1 ) = 970 N et Fr2 = ( YQ2 + Z Q2 ) = 1425 N .
+
+    Il est rappelé au candidat que dans ce type de montage, la démarche constructeur introduit un
+                                         Fr
+effort axial induit donné par : Fai =         . La composante axiale des efforts extérieurs est :
+                                         2Y
+A32 = 3960 N . On choisira, pour le calcul, l’orientation de cet effort dans le sens des x positifs.
+
+     Suivant la norme ISO281, la charge radiale dynamique équivalente est P = X ⋅ Fr + Y ⋅ Fa avec
+Fa et Fr les efforts axial et radial appliqués au roulement. Les facteurs de charge X et Y sont
+définis ci-dessous (la valeur de e est à prendre dans la table de données du constructeur fournie sur
+la figure 13, document 2, page D2/17) :
+                       Fa
+               •    Si    ≤ e alors X = 1 et Y = 0 .
+                       Fr
+                       Fa
+               •    Si    > e alors X = 0 ,4 et la valeur de Y est à prendre dans la table de données
+                       Fr
+                    du constructeur fournie sur la figure 13, document 2, page D2/17.
+
+        Q15 Inscrire votre réponse dans le cadre R15 de la notice 2/3.
+             1 - Déterminer les expressions des efforts axiaux Fa1 et Fa 2 exercées par l’arbre sur
+             les roulements R1 et R2 en fonctionnement sous charge maximale en fonction de A32 ,
+             Y et Fr1 .
+
+             2 - Donner les valeurs numériques des efforts Fa1 et Fa 2 .
+
+        Q16        Inscrire votre réponse dans le cadre R16 de la notice 2/3.
+
+             1 - Déterminer les expressions des charges dynamiques équivalentes P1 et P2 des
+             deux roulements R1 et R2 en fonction de A32 , Y , Fr1 et Fr2 .
+
+             2 - Donner les valeurs numériques de ces charges P1 et P2 .
+
+     Du fait de l’inversion possible du sens de la composante axiale des efforts extérieurs, les
+roulements choisis seront identiques et capables d’encaisser tous les deux la charge dynamique
+équivalente P la plus grande des deux valeurs calculées précédemment.
+
+        Q17 Inscrire votre réponse dans le cadre R17 de la notice 2/3.
+             1 - Donner l’expression de la valeur minimale de la charge dynamique de base C min en
+             fonction de L10 , P et de la vitesse nominale N 2 de l’arbre intermédiaire 2 .
+
+             2 - Calculer la vitesse nominale N 2 de l’arbre intermédiaire 2 et donner la valeur
+             numérique de C min .
+
+             3 - Conclure sur le choix par le constructeur des roulements à rouleaux coniques SNR
+             32208.
+     T15/26                                                                 Tournez la page S.V.P.
+
+
+===== page 16 =====
+             Q18 Inscrire votre réponse dans le cadre R18 de la notice 2/3.
+                  Quelle est la proportion de la population de roulements mis en service à ne pas atteindre
+                  la durée de vie L10 souhaitée par le fabricant de la machine outil ?
+
+C.2.6 Etude de résistance des matériaux
+
+     Dans cette partie, le dimensionnement de l’arbre intermédiaire 2 est étudié. La figure 6, page
+T16/26 montre que l’arbre est modélisé par une poutre de diamètre D et de longueur utile L . Les
+variations de diamètre seront négligées.
+                              y
+                                                                L
+                                           L1                 L2               L3
+                                                                                          S         L = 323 mm
+                                                    P                                               L1 = 84 mm
+                     z                                                                              L2 = 131 mm
+                                                A                         Q2          B       x
+                             Q1                                                                     L3 = 108 mm
+
+
+
+                                        Figure 6 - Modèle RDM de l’arbre intermédiaire 2
+
+    Les points A et B sont les centres d’inertie géométriques des sections droites contenant
+respectivement les points P et S .
+       En considérant la composante A32 des efforts de la roue sur la vis dans le sens x positif, les
+torseurs des actions mécaniques extérieures qui s’exercent sur l’arbre intermédiaire 2 , dans la base
+( x , y , z ) , sont :
+                  ⎧ X Q1 0 ⎫                        ⎧ X Q2 0 ⎫              ⎧ A32  0⎫                ⎧0     0⎫
+                  ⎪⎪         ⎪⎪                     ⎪⎪         ⎪⎪
+{            }
+    T * (4 →2 ) = ⎨YQ1 0 ⎬          {    **
+                                                }
+                                        T (4 →2 ) = ⎨Y Q2 0 ⎬ { T(3→2 ) } = ⎨− R32 0 ⎬ { T(1→2 ) } = ⎨− R12 0 ⎬
+                                                                            ⎪         ⎪              ⎪        ⎪
+                   ⎪          ⎪                      ⎪          ⎪           ⎪T     0 ⎪⎭ P            ⎪− T     ⎪
+                   ⎪⎩Z Q1 0 ⎪⎭ Q                     ⎪⎩Z Q2 0 ⎪⎭ Q          ⎩ 32                     ⎩ 12 0 ⎭ S
+                                1                                 2
+
+
+
+
+       Il est précisé au candidat que la valeur numérique de Z Q2 est positive.
+
+       Limite de l’étude :               Le candidat n’étudiera que les 2 tronçons AQ2 et Q2 B .
+
+             Q19 Inscrire votre réponse dans le cadre R19 de la notice 2/3.
+                  Donner l’expression des torseurs des efforts intérieurs pour les 2 tronçons étudiés en
+                  fonction de R12 , T12 , X Q2 , YQ2 , Z Q2 , L , L1 , L2 , d 2 et de l’abscisse x du centre
+                  d’inertie géométrique G de la section droite .
+
+       Dans la suite du sujet, les notations utilisées pour le torseur de cohésion, donné dans la base
+( x , y , z ) , seront les suivantes :
+                               ⎧N M t ⎫
+                   { Tcoh } = ⎪⎨T y Mf y ⎪⎬             ( G est le centre d’inertie géométrique de la section droite)
+                               ⎪          ⎪
+                               ⎩Tz Mf z ⎭ G
+         T16/26                                                                               Tournez la page S.V.P.
+
+
+===== page 17 =====
+    Pour les sollicitations de torsion ( M t ) et de flexion (pour cette dernière, nous allons étudier
+uniquement Mf y ), il est proposé au candidat sur les figures 20 et 21, document 8, page D9/17 des
+allures de différents diagrammes possibles concernant la variation des composantes du torseur des
+efforts intérieurs.
+
+        Q20 Inscrire votre réponse dans le cadre R20 de la notice 2/3.
+            Choisir pour les sollicitations de torsion ( M t ) et de flexion ( Mf y ) précisées, l’allure du
+            diagramme correspondant. Justifier brièvement votre réponse.
+
+    C.2.6.1 Torsion de l’arbre intermédiaire 2
+
+    Le module de Coulomb du matériau utilisé est : G = 80000 MPa .
+
+        Q21 Inscrire votre réponse dans le cadre R21 de la notice 2/3.
+           1 - Déterminer l’expression, en fonction de T12 , d 2 , G , L2 , L3 et θ lim , du diamètre
+            minimum Dmin de l’arbre 2 , pour que le déphasage θ des sections passant par le point
+              P et par le point S soit inférieur à la valeur limite θ lim .
+
+           2 - Dans le système étudié, le constructeur souhaite θ lim = 0 ,1°. Donner la valeur
+            numérique de Dmin .
+
+        Q22 Inscrire votre réponse dans le cadre R22 de la notice 2/3.
+           Du fait de l’existence de ce déphasage de sections et vis-à-vis du système étudié, quelle
+           est le meilleur emplacement pour positionner le capteur de position. Doit-on le positionner
+           sur le moteur ou sur la broche elle-même ? Justifier brièvement votre réponse.
+
+    C.2.6.2 Flexion de l’arbre intermédiaire 2
+
+    Hypothèse : Dans cette étude, le candidat ne prendra en compte que le moment de flexion
+Mf y .
+
+    Il est proposé au candidat sur la figure 22, document 8, page D9/17 des allures de différentes
+déformées z( x ) possibles.
+
+        Q23 Inscrire votre réponse dans le cadre R23 de la notice 2/3.
+            Choisir pour la poutre étudiée, l’allure de la déformée z( x ) correspondante. Justifier
+            brièvement votre réponse.
+
+C.2.7 Montage des pignons P1 et P2
+
+   La transmission de puissance du moteur peut être réalisée par obstacle (clavetage) ou par
+adhérence (moyeu expansible).
+
+        Q24 Inscrire votre réponse dans le cadre R24 de la notice 2/3.
+            1 - Rappeler le critère de dimensionnement d’une clavette parallèle.
+     T17/26                                                                    Tournez la page S.V.P.
+
+
+===== page 18 =====
+             2 - En utilisant les notations de la figure 23, document 9, page D10/17, donner
+             l’expression de ce critère en fonction du couple à transmettre C , du diamètre de l’arbre
+              d , de la longueur de clavette L et de la hauteur d’implantation h .
+
+    Pour la suite des calculs et pour le choix des éléments, le candidat prendra les valeurs
+suivantes :
+            - Valeur admissible de la grandeur de référence : 40 MPa ;
+            - Diamètre de l’arbre 1 : 24 mm ;
+            - Diamètre de l’arbre 2 : 30 mm.
+
+        Q25 Inscrire votre réponse dans le cadre R25 de la notice 2/3.
+             En utilisant le tableau 2, document 9, page D10/17 donnant les grandeurs
+             caractéristiques des clavettes parallèles usuelles de forme B, déterminer les dimensions
+             de la clavette 1 pour transmettre le couple maximal au pignon P1 ainsi que celles de la
+             clavette 2 pour le pignon P2 ?
+
+    Le constructeur a préféré utiliser un moyeu expansible (frette démontable) du fournisseur
+japonais TSUBAKIMOTO (figures 24 et 25, document 9, page D10/17) plutôt que choisir la solution
+clavetée.
+
+    Principe :
+
+     Le blocage des pièces se fait par adhérence. En rapprochant les bagues coniques de
+l’accouplement par serrage des vis, les bagues extérieures de l’accouplement s’écartent. La pièce
+extérieure est alors frettée mécaniquement sur l’arbre par l’intermédiaire du moyeu expansible.
+
+        Q26      Inscrire votre réponse dans le cadre R26 de la notice 2/3.
+
+             Pourquoi le constructeur a-t-il fait le choix des moyeux expansibles vis-à-vis d’un
+             clavetage classique ? Proposer trois critères justifiant ce choix.
+
+        Q27      Inscrire votre réponse dans le cadre R27 de la notice 2/3.
+
+             1 - A l’aide du tableau 3, document 9, page D10/17 du fournisseur de moyeux
+             expansibles, donner la référence de l’élément nécessaire dans le montage du pignon
+             P1 .
+
+             2 - A l’aide du tableau 4, document 9, page D10/17 du fournisseur de moyeux
+             expansibles, donner la référence de l’élément nécessaire dans le montage du pignon
+             P2 .
+
+             3 - Le constructeur a décidé de prendre des moyeux expansibles de deux séries
+             différentes pour le montage des pignons (série PL pour le pignon P1 et série RTT pour
+             le pignon P2 ). Justifier ce choix.
+
+C.2.8 Etude de la fabrication d’une pièce
+
+     Pour fabriquer la roue P3 montée sur l’arbre de sortie 3 , le fabricant utilise un élément
+intermédiaire appelé touret. Le dessin de définition de cette pièce est représenté sur le document 10,
+page D11/17. Le contrat de phase de la dernière phase d’usinage du touret est fourni sur le
+document 11, page D12/17.
+
+     T18/26                                                                Tournez la page S.V.P.
+
+
+===== page 19 =====
+        Q28 Inscrire votre réponse dans le cadre R28 de la notice 2/3.
+             Donner la signification de la désignation normalisée du matériau utilisé pour le touret.
+
+        Q29 Inscrire votre réponse dans le cadre R29 de la notice 3/3.
+             Interpréter les spécifications suivantes figurant sur le dessin de définition :
+
+             1 - 116 ±0.05
+
+
+             2-           Ø 0.05     C     +    91
+
+
+             Remarque : Pour cette seconde spécification, le candidat devra bien préciser le nom de
+             la spécification, l’élément tolérancé, la référence spécifiée et la zone de tolérance.
+
+        Q30 Inscrire votre réponse dans le cadre R30 de la notice 3/3.
+
+              En utilisant la 2ème partie de la norme NFE 04-013 rappelée sur le document 12, page
+              D13/17, représenter la mise en position et le maintien en position de la pièce. Justifier
+              votre choix.
+
+        Q31 Inscrire votre réponse dans le cadre R31 de la notice 3/3.
+              Pour l’opération de tournage ébauche du profil extérieur du touret, calculer la
+              fréquence de rotation N et la vitesse d’avance Vf .
+
+     On s’intéresse ici au calcul de la puissance nécessaire à la coupe pendant l’opération d’ébauche.
+Il est rappelé au candidat que le centre d’usinage utilisé pour réaliser cette opération a une puissance
+disponible à la broche de 15 kW. Le matériau usiné est un C60. La profondeur de passe radiale
+est de 4 mm. L’outil utilisé a un angle de direction d’arête Κ r de 93° et un angle de coupe γ de 0°.
+
+        Q32 Inscrire votre réponse dans le cadre R32 de la notice 3/3.
+              1 - En vous aidant du document 13, page D14/17, sur le calcul de la puissance
+              consommée pendant une opération de tournage et du document 6, page D7/17, sur la
+              détermination de la pression spécifique de coupe, déterminer la puissance nécessaire
+              à la coupe pour l’opération d’ébauche.
+
+              2 - L’usinage est-il envisageable avec la machine proposée ?
+
+
+
+
+     T19/26                                                                    Tournez la page S.V.P.
+
+
+===== page 20 =====
+C.3 – Dessin d’étude de construction mécanique
+
+C.3.1 Présentation générale du travail de conception
+    Comme nous l’avons souligné précédemment, le marché de la machine outil est très
+concurrentiel. Des produits innovants sont donc indispensables pour gagner des parts de marché. Le
+constructeur du système étudié souhaite donc améliorer la robustesse et la précision du déplacement
+angulaire de la broche de fraisage de façon décisive pour s’imposer vis-à-vis des autres fabricants. Il
+envisage d’intégrer un système d’entraînement par vis globique et galets à la place du traditionnel
+système roue et vis sans fin (figure 7, page T20/26). Ce nouveau système permet notamment
+d’améliorer les exigences de la fonction principale FP1 (figure 5, page T5/26).
+    Le système à vis globique et galets doit permettre un positionnement de l’axe B et des
+indexations d’axe par incréments de 0,0001°. La soc iété estime qu’avec cette technologie, la
+précision de la machine sur le positionnement angulaire de l’axe B ne sera pas égalée sur le marché,
+ce qui aura une répercussion directe sur les possibilités de la machine : variété des usinages
+possibles, contournage avec l’axe B, rectification de pièces, taillage de pignons, ou encore utilisation
+de dispositifs originaux comme le système Flash Tool (plusieurs outils sur un seul porte outil). Cela
+augmentera naturellement l’intérêt des clients et par conséquent les ventes de machine.
+
+                                                   Vis globique
+
+
+
+
+                                    Touret
+
+
+                            Figure 7 - Système d’entraînement par vis globique
+     L’étude de conception porte sur l’ensemble du système abordé dans les parties B et C.2 en
+intégrant cette fois un système à vis globique. Avant de définir les supports de la partie dessin, nous
+allons brièvement revenir sur l’intérêt du constructeur face à ce nouveau dispositif d’entraînement.
+Rappelons qu’un des objectifs du constructeur est d’assurer la possibilité de tourner une pièce avec
+un outil incliné d’un angle B donné, B étant compris dans l’intervalle [-120° ; +105°].
+
+        Q33 Inscrire votre réponse dans le cadre R33 de la notice 3/3.
+              Quel est à votre avis le principal intérêt de disposer sur un centre de tournage de la
+              possibilité de tourner une pièce avec un outil incliné d’un angle B ?
+
+    Dans ce mode de tournage, il est nécessaire d’indexer la position angulaire de la broche qui
+contient alors l’outil de tournage (figure 7, page T20/26 et figure 8, page T21/26).
+
+
+
+
+     T20/26                                                                  Tournez la page S.V.P.
+
+
+===== page 21 =====
+             Positions des 8 vis M12
+           permettant de lier la broche
+              de fraisage au touret
+
+
+
+
+                                                  Ø 272
+
+                                                  Ø 232
+       8 vis M12
+
+                                                                                      Sous ensemble
+                                                                                     broche de fraisage
+
+
+
+
+  Dispositif hydraulique                                                                 Touret
+     de translation du
+       poussoir non
+    représenté sur ce
+          schéma                                                                        Poussoir
+
+
+
+
+                                                                                   Support de broche
+
+
+
+
+                              Position de tournage Position de fraisage 3 ou
+                                   avec axe B               5 axes
+                                   positionné
+         Figure 8 - Système d’indexation du système broche/touret sur le support de broche
+
+
+     Le constructeur a décidé de réaliser cette indexation par crabotage sur le support de broche de la
+pièce appelée touret, qui est liée à la broche. L’ensemble composé de la broche et du touret est en
+liaison pivot avec le support de broche. Le dessin, figure 8, page T21/26, illustre le système de
+crabotage retenu. Ce système repose sur la translation d’une pièce, appelée poussoir, actionnée
+hydrauliquement par un dispositif non représenté sur la figure 8, page T21/26.
+
+      Le poussoir vient craboter ou non le touret et le support de broche selon que la broche est
+utilisée respectivement en mode tournage ou en mode fraisage. On retrouve alors deux
+configurations :
+          • Configuration broche indexée (partie gauche de la figure 8, page T21/26),
+          • Configuration broche non indexée (partie droite de la figure 8, page T21/26).
+
+     T21/26                                                                    Tournez la page S.V.P.
+
+
+===== page 22 =====
+     En mode tournage à axe B incliné, le système broche/touret craboté sur le support de broche
+permet de libérer le moteur que l’on considérera à l’arrêt dans cette phase. En mode fraisage, le
+système broche/touret n’est pas craboté au support de broche, ce qui limite l’utilisation du mode
+fraisage à des opérations n’engendrant pas d’efforts de coupe excessifs, donc plutôt des opérations
+de finition. En cas d’efforts de coupe importants, le système à vis globique et galets risque d’être
+détérioré. Le constructeur avertit d’ailleurs qu’il ne faut pas dépasser une certaine limite en fraisage.
+     Le constructeur spécifie également qu’en mode tournage le couple résistant maximal toléré sur le
+touret est C r = 3000 Nm. Pour faciliter la maintenance de la machine, le constructeur souhaite ne
+jamais avoir à changer le système de crabotage. En cas de choc donc de couple trop important, il est
+donc préférable que ce soit la liaison par adhérence (8 vis M12) qui se détériore (début de glissement
+puis rupture). Les vis sont donc serrées avec un couple maximal que nous allons calculer.
+
+         Q34 Inscrire votre réponse dans le cadre R34 de la notice 3/3.
+               Le coefficient d’adhérence entre les surfaces liées par les vis est noté f a et vaut 0.15.
+               On note respectivement Ri et Re les rayons intérieur et extérieur de la surface de
+               contact. On considérera que l’aire des 8 trous de passage est négligeable par rapport à
+               l’aire de la section de contact. On note également Q l’effort normal transmissible par
+               une vis. On considère que les vis utilisées sont des vis à tête hexagonale. On note Dv ,
+               le diamètre d’une vis et N v le nombre de vis participant à la liaison.
+
+               1 – Donner l’expression littérale du couple Ca transmissible par adhérence entre les
+               deux pièces, en fonction de f a , N v , Ri , Re et Ro .
+               2 – En déduire l’expression littérale de l’effort de serrage maximal Q que chaque vis
+               doit transmettre pour que la liaison par adhérence réagisse lorsque le couple résistant
+               vaut C r ?
+               3 – Donner la valeur numérique de Q . Les valeurs numériques de Ri et Re seront lues
+               sur le document 10, page D11/17
+
+         Q35 Inscrire votre réponse dans le cadre R35 de la notice 3/3.
+               Calculer, en utilisant le document 14, page D15/17, le couple maximal de serrage
+               C s max à donner à chaque vis pour que l’on obtienne le fonctionnement souhaité.
+
+
+C.3.2 Présentation des supports du travail de conception
+     Pour cette partie de l’étude, il est demandé de définir l’ensemble du mécanisme d’entraînement
+de la broche. Pour cela, le candidat dispose du calque n°1, de format A3 vertical, pré imprimé, et
+du calque n°2, de format A3 vertical, pré imprimé, fournis avec le sujet.
+    Les éléments pré imprimés sur ce calque sont destinés à faciliter la mise en place des différents
+éléments à dessiner (voir figure 9, page T23/26).
+
+
+
+
+     T22/26                                                                    Tournez la page S.V.P.
+
+
+===== page 23 =====
+                Figure 9 - Croquis de mise en page des calques pré imprimés fournis.
+
+
+     Le candidat trouvera l’axe de rotation du moteur et une représentation partielle simplifiée de la vis
+globique et du touret supportant les différents galets sur la coupe A-A (Calque n°1, figure 9, page
+T23/26). Attention, seule une partie de la vis globique est représentée afin de laisser libre le choix de
+la représentation de la liaison pivot entre la vis et le carter. Les formes et dimensions de la vis
+globique définie sur la figure 9, page T23/26 devront être respectées. Il est important de noter ici que
+l’entraxe entre la vis et le touret a légèrement été modifié pour intégrer le nouveau système étudié.
+L’entraxe vaut désormais 159,5mm.
+     Le candidat devra également, pour préciser les formes du carter et notamment la liaison de l’axe
+entraîné par le moteur au support de broche, compléter la coupe B-B définie sur le calque n°2
+(figure 9, page T23/26). La figure 10, page T24/26 précise l’agencement des différentes coupes à
+compléter ainsi que l’implantation des éléments à dessiner.
+      Le document dessin pour réponses n°1, de format A4 vertical, pr é imprimé, représentant la
+coupe C-C du moteur définie sur le document 16, page D17/17, sera utilisé pour préciser la liaison
+du moteur au support de broche. Le candidat complètera la coupe C-C et représentera les formes de
+la fixation selon la vue F précisée sur le dessin pour réponses n°1 .
+    Le document dessin pour réponses n°2, de format A4 vertical, pr é imprimé, mais vierge de
+tout élément prédéfini, sera utilisé pour la représentation des croquis tracés à main levée.
+
+
+
+
+      T23/26                                                                  Tournez la page S.V.P.
+
+
+===== page 24 =====
+                                        B
+        Coupe A-A                                                                          Coupe B-B
+
+
+                                            Moteur                         Moteur
+
+
+
+
+                                       75            84,5
+
+
+                                                            108
+       332
+
+             201,5
+                                                            131
+
+
+                                                                                                       Broche de
+                                                                                                        fraisage
+
+                                                                  84
+
+
+
+
+                        B                                                                       Vues à dessiner
+
+
+
+
+                                                                                    Coupe A-A     Calque n°1
+                                                                       A            Coupe B-B     Calque n°2
+  A
+
+
+
+
+                             Broche
+                               de
+                            fraisage
+
+
+
+
+                                       Figure 10 - Position des vues à dessiner
+
+C.3.3 Consignes spécifiques aux travaux graphiques
+      Les dessins sur calque sont à exécuter à l’échelle 1:2, aux instruments, avec pour l’essentiel
+mise au net au crayon respectant les épaisseurs de traits normalisées et les exigences d’une bonne
+lisibilité ; seuls les axes et les écritures seront tracés à l’encre noire. Les tracés de couleur ne sont
+pas admis. Les normes AFNOR seront respectées.
+    Les croquis à main levée seront exécutés au crayon, sans l’aide d’instruments (règle, équerre ou
+compas). La grosseur et la noirceur des traits assureront une lisibilité satisfaisante. Aucune échelle
+n’est imposée mais, toujours pour la lisibilité, il est demandé de la choisir au maximum compatible
+avec l’espace offert. De plus, il sera fait en sorte que les proportions des pièces soient
+      T24/26                                                                               Tournez la page S.V.P.
+
+
+===== page 25 =====
+convenablement respectées, afin de ne pas introduire de distorsion de compréhension à la lecture. Le
+choix des points de vue assurera l’expression la plus claire possible des solutions retenues.
+     Les coupes, les positions de plans de coupes et les directions particulières d’observation seront
+clairement repérées en respectant les normes AFNOR en vigueur.
+     Les principales conditions fonctionnelles relatives aux liaisons représentées seront clairement
+indiquées en respectant les règles normalisées AFNOR.
+
+C.3.4 Choix constructifs retenus
+    Même si l’étude de la partie C.2, pages T9/26 à T19/26 s’est essentiellement attachée aux
+systèmes classiques basés sur l’utilisation de roue et vis sans fin, nous admettrons qu’une partie des
+choix constructifs définis en partie C.2 reste valable :
+    • Liaison des roues dentées sur leurs axes respectifs par manchons
+      Pour représenter en coupe le moyeu expansible de la série RTT, le candidat utilisera le
+symbole suivant en respectant son encombrement (document 9, page D10/17) :
+
+
+
+
+    • Définition des roulements à rouleaux coniques
+     Nous ferons l’hypothèse que les roulements proposés dans la partie C2.5 restent valables pour
+le nouveau dispositif. Bien évidemment le calcul serait à refaire avec un effort axial sur la vis globique
+différent de celui encaissé par un système à roue et vis sans fin.
+     Le candidat utilisera pour le guidage de l’arbre du moteur un roulement à billes SNR de type
+61904. Les caractéristiques de ce roulement sont précisées sur la figure 12, document 2, page
+D2/17.
+
+C.3.5 Travail demandé
+    Afin d’assurer toutes les fonctions de service et de satisfaire toutes les contraintes définies dans
+le cahier des charges fonctionnel (pages T5/26 et T6/26), et en utilisant au mieux les éléments
+fournis sur les calques n°1 et n°2 , il est demandé de dessiner aux instruments, sur les vues en
+coupe prédéfinies du calque n°1 et du calque n°2 , vos propositions de solutions pour la définition
+complète :
+        de la liaison du premier pignon sur l’arbre moteur (le diamètre de l’arbre moteur au niveau
+         de l’accouplement vaut 24 mm) ;
+        de la liaison du second pignon sur l’arbre récepteur lié à la vis globique ;
+        du guidage de la vis globique dans le carter ;
+        des formes manquantes de ce guidage, les extrémités de la vis globique sont à définir à
+         cette occasion ;
+        des formes du carter : l’objectif est de minimiser sa masse ;
+        de la liaison de l’axe supportant le premier pignon à l’axe du moteur ;
+        de la liaison du moteur au carter (la silhouette du moteur est donnée sur le document 16,
+         page D17/17) ; pour préciser les formes de cette liaison, la coupe C-C et la vue selon F du
+         document pour réponses n°1 devront alors être complétées.
+
+      T25/26                                                                  Tournez la page S.V.P.
+
+
+===== page 26 =====
+       du guidage de l’arbre moteur dans le carter ;
+         Pour ces deux derniers points, il est demandé de définir des formes permettant un montage
+         et un démontage aisé des pièces du système de transmission. En effet, le constructeur
+         souhaite rationnaliser la maintenance de ce type de machine. Il souhaite donc privilégier
+         une standardisation des pièces afin de pouvoir assurer rapidement leur remplacement en
+         cas de problème.
+         Il est également précisé que le moteur doit se situer à l’intérieur du carter.
+
+
+      Prévoir toutes dispositions permettant d’assurer :
+        o la montabilité de l’ensemble étudié ;
+        o sa maintenabilité ;
+        o l’absence de risque pour les humains proches ;
+        o la protection du milieu externe vis-à-vis du milieu interne, et inversement.
+    Le candidat devra spécifier brièvement la procédure de montage de l’ensemble des pièces sur le
+calque n°2 .
+    Le candidat a la liberté de dessiner toute vue complémentaire aux vues demandées s’il juge
+qu’elles sont nécessaires à la compréhension globale de son travail.
+    Il devra notamment réaliser un ou plusieurs croquis perspectifs complétant la définition des
+formes externes ou internes du carter sur le document « dessin pour réponses n°2 », de format A4
+vertical, fourni avec le sujet. Ces formes devront naturellement respecter les consignes
+spécifiques énoncées au § C.3.2.
+                                           _______________________
+
+
+
+
+     T26/26
+
+
+===== page 27 =====
+[OCR] 
+
+===== page 28 =====
+[OCR] 
+
+===== page 29 =====
+                                                                                                   DOCUMENT 1
+
+      y                                                                               y
+                                        2                 1
+               P3                                                                         4
+                                                                                                  3
+                                                                        P1
+
+
+                                                                                                         Moteur
+                                                                                                           de
+                                                                                                         broche
+P2'
+
+                                                               Moteur
+                                                      S
+                       P
+                                                                    x                                  Broche de
+          Q1                                Q2                                                z         fraisage
+
+                                                                                                                     H
+
+
+                                                                         P2
+  z
+               L1              L2                L3
+                                                                                  5
+                                 L                                                                Mf
+                                                                              6
+                                                                                                   M
+                                                                                                         Pièce
+                                                                              0                        Porte pièce
+
+
+
+          Figure 11 - Schéma technologique du système étudié
+
+                                                                 D1/17
+
+
+===== page 30 =====
+[OCR] DOCUMENT 2
+
+DESIGNATION | —9 D B c Go
+mm mm mm N N
+
+61802 15 24 5 2080 | 1260
+61902 15 28 7 4350 _| 2850
+
+B 62202 15 35 14__| 7700 | 3750
+62302 15 42 17__| 11300 |_5400
+61803 17 26 5 2230 | 1460
+61903 17 30 7 4600 | 2550
+62203 17 40 16 | 9500 | 4750
+62303 17 47 19__| 13600 | 6600
+61804 20 32 7 3500 | 1930
+61904 20 37 9 6000 | 2900
+
+i an ft | 62204 20 47 18_| 12800 | 6600
+62304 20 52 21 | 15900 | 7900
+61805 25 37 7 3850 | 2420
+61905 25 42 9 6700 | 3600
+62205 25 52 18__| 14000 |_7900
+62305 25 62 24 | 23600 | 12100
+61806 30 42 7 4150 | 2900
+61906 30 47 9 7200 | 4350
+62206 30 62 20 | 19500 | 11300
+62306 30 72 27__| 28000 | 15800
+
+Figure 12 — Roulements a une rangée de billes SNR
+
+pesienation/—2 +P | 7 | B | a | b c fo e | Y
+T mm | mm | mm | mm | mm] mm N N
+a 30208 17_[ 40 [43,3[ 12 [11 [9,75 | 20800 | 19000 [ 0,34 [1,74
+| 30303 17 [47 [45,3] 14 [12 [| 10 | 29000 | 26500 | 0,29 | 2,1
+30204 20 [47 [15.3] 14 | 12 [11,25| 30500 | 31000 | 0,35 [1,74
+30804 20 [52 [16,3] 15 | 13 | 11,6 | 35000 | 33500 | 0,3 | 2
+« 32005 25 | 47 | 15 | 15 | 11.5] 11,5 | 28500 | 31500 | 0.43 | 1,39
+32205 25 | 52 | 19.3| 18 | 15 | 13,7 [ 38500 | 43500 | 0,39 | 1,5
+B 32305 25 | 62 |25,3| 24 | 20 | 15,6 | 62500 | 66000 | 0,3 | 2
+32006 30 | 55 | 17 |17_|_13 | 13.5 | 38000 | 45000 | 0,43 | 1,39
+D 32206 30 | 62 |17.3| 16 | 14 |13,75| 46000 | 48500 | 0,37 | 1,6
+32306 30 | 72 |288| 27 | 23 | 18 | 80000 | 88500 | 0,32 | 1,9
+32007 35 | 62 | 18 | 18 | 14 | 15 | 46500 | 56000 | 0,45 | 1,32
+32207 35 | 72 |243| 23 | 19 [18,25| 70000 | 80000 | 0,37 | 1,6
+32307 36 | 80 | 32,8] 31 | 25 | 20,7 | 99000 | 111000 | 0,32 | 1,9
+32008 40 [68 | 19 | 19 [145] 15 | 53000 | 65000 | 0,38 | 1,58
+32208 40 | 80 |248| 23 | 19 |[19,75| 78000 | 88000 | 0,37 | 1,6
+32308 40 | 90 [35,3 | 33 | 27 | 23,4 [120000 | 145000 | 0,35 | 1,7
+
+Figure 13 - Roulements a rouleaux coniques SNR
+
+D2/17
+
+
+===== page 31 =====
+                         DOCUMENT 3
+
+
+
+
+             [kW]
+
+
+
+
+Figure 14 - Données techniques des servomoteurs de la série HC-RFS
+
+
+
+
+Figure 15 - Caractéristiques du couple des servomoteurs de la série HC-RFS
+
+
+
+
+                                D3/17
+
+
+===== page 32 =====
+DOCUMENT 4 : Caractéristiques des systèmes roue et vis sans fin
+
+
+
+
+                                                   pz
+                        β3                    px
+                                                                                             2'
+                β 2'
+
+                                                                   d 2'
+               β3                                                                            3
+
+                                                            d3                                    a 2' 3
+A-A    pn
+
+                                        L2'                        d3
+
+
+
+
+Les systèmes roue et vis sans fin sont caractérisés par les paramètres suivants :
+
+   - Nombre de filets de la vis sans fin : Z 2' ;
+   - Nombre de dents de la roue : Z 3 ;
+   - Angles d’inclinaison de l’hélice de la vis : β 2' ;
+                                                                          β 2' + β 3 = 90°
+   - Angles d’inclinaison de l’hélice de la roue : β 3 ;
+   - Module pour la vis et pour la roue : m 2' 3 ;
+   - Pas de la vis : pn = m 2' 3 .π ;
+                                   pn
+   - Pas axial de la vis : px =           ;
+                                 cos β 3
+   - Pas de l’hélice de la vis : pz = px . Z 2' ;
+                                               pz      m ⋅Z
+   - Diamètre primitif de la vis : d 2' =             = 2' 3 2' ;
+                                           π .tan β 3   cos β 2'
+                                            m ⋅Z
+   - Diamètre primitif de la roue : d 3 = 2' 3 3 ;
+                                              cos β 3
+   - Longueur de la vis : L2' ;
+   - Angle de frottement entre la vis et la roue : ϕ 2' 3 ;
+                                               tan β 3
+   - Rendement du système : η 2' 3 =                           .
+                                          tan ( β 3 + ϕ 2' 3 )
+
+
+
+
+                                                   D4/17
+
+
+===== page 33 =====
+                 DOCUMENT 5 : PUISSANCE CONSOMMEE EN FRAISAGE
+
+
+1- Etude des efforts de coupe en fraisage
+    En fraisage, contrairement au tournage, on constate que la section du copeau n'est pas constante pendant
+la coupe. Par conséquent, l'effort de coupe sur une dent en prise est variable.
+
+       Exemple pour un surfaçage centré                                 Exemple pour un fraisage de profil
+
+trajectoire d'une dent                                                          fz
+      (cycloïde)                   trajectoire de la dent précédente                                      Mc
+
+
+        e                                     R : rayon de la fraise
+
+ ar
+                     ϕ                                                                    R
+                                                                                              ϕ
+                                                                       ar      e
+
+                                         Mc                                                               Mf
+            fz
+Mf                    dent de fraise
+
+                                          ar : engagement radial
+                                          f z : avance par dent
+                                          ϕ : angle d’engagement d’une dent
+                                          e : épaisseur variable du copeau
+
+       1-1 Détermination de l'épaisseur moyenne du copeau
+
+       L'aire de copeau enlevé par une dent est : A = ar . fz
+       La longueur parcourue par la dent est : L = R .ϕ avec ϕ en radians
+                                                                A ar . f Z
+       L'épaisseur moyenne du copeau est donc : hm =              =
+                                                                L   R .ϕ
+                                                         ar 
+                 En surfaçage centré : ϕ = 2 . Arc sin      
+                                                         2R 
+                                                      R − ar 
+                 En fraisage de profil : ϕ = Arc cos         
+                                                      R 
+
+       Etude de l'influence de l'angle Κ r d'orientation de l'arête :
+
+
+
+
+                         Κr
+
+                                                                                      ar . f z .sin K r
+                                                                               hm =
+                              hm                                                             R .ϕ
+                                           épaisseur
+                                           moyenne
+
+
+                                                           D5/17
+
+
+===== page 34 =====
+    1-2 Détermination de l'effort de coupe résultant Fc pour une dent
+
+                                             Axe de rotation fraise
+                                                                          a p : profondeur de passe
+            Κr                                                            hm : épaisseur copeau moyen
+                          hm                                              l : longueur du copeau
+                                                                          Κ r : angle de direction d'arête
+       ap
+                 l
+
+                        Section du copeau
+
+                                                 ar . f z . sin Κ r   a p                    ar .a p . f z
+    La section du copeau est : S = hm .l =                          .              S=
+                                                       R .ϕ            sin Κ r                  R .ϕ
+
+    L'effort de coupe Fc pour une dent est donc : Fc = Kc . S
+
+    La pression spécifique de coupe Kc sera déterminée à partir du tableau donné sur le document, et en
+    appliquant les facteurs correctifs dus à l'épaisseur hm du copeau et à l'angle de coupe γ .
+
+    Or, il y a plusieurs dents en prise. On notera n d le nombre de dents en prise dans la matière :
+
+                                     Z .ϕ 
+            nd = 1 + partie entière       
+                                     2π 
+
+                     Z : nombre de dents de la fraise
+                     ϕ : angle parcouru par une dent dans la matière
+
+    L'effort total de coupe est donc : Fc = Kc . S . nd
+
+
+
+                                     ar .a p . f z  
+                           Fc = Kc .                . 1 + partie entière  Z .ϕ  
+                                    
+                                        R .ϕ                             2π  
+                                                                                        
+
+
+
+
+2- Puissance consommée pour une opération de fraisage
+
+    La puissance consommée pour une opération de fraisage est estimée par la relation suivante :
+
+
+                            Pc = Fc .Vc
+
+     Pc : puissance consommée par la coupe en W ;
+     Fc : effort de coupe en N ;
+     Vc : vitesse de coupe en m/s.
+
+
+
+                                                       D6/17
+
+
+===== page 35 =====
+DOCUMENT 6 : DETERMINATION DE LA PRESSION SPECIFIQUE DE COUPE
+
+
+      La pression spécifique de coupe Kc est fonction de la matière usinée, de sa résistance à la traction
+Rm et de l'épaisseur du copeau hm (donc de l'avance f et de l'angle Κ r de direction de l'arête de coupe).
+
+        Les fournisseurs d’outils de coupe donnent un tableau des valeurs de Kco pour hm = 0 ,2 mm et pour
+un outil avec un angle de coupe γ = 0° (données SANDVIK COROMANT et HERTEL) :
+
+        MATIERES                                                                          Kco (N/mm²)
+        Aciers ordinaires            S185 S275                                                 2600
+                                     S 355                                                     2900
+                                     E 335                                                     3000
+                                     E 360                                                     3150
+        Aciers fins                  C35 C40                                                   2300
+        (non alliés)                 C45 C55                                                   2600
+                                     C60                                                       2850
+        Aciers alliés                16 Mn Cr 5                                                3400
+                                     10 Ni Cr 6                                                3600
+                                     35 Cr Mo 4                                                3800
+                                     Acier inoxydable                                          3750
+        Fontes                       EN-GJL 150                                                1360
+                                     EN-GJL 200, EN-GJL 250                                    2100
+                                     Fonte alliée                                              2300
+                                     EN-GJMW, EN-GJMB, EN-GJS                                  1750
+        Alliages de Cuivre           Laiton Cu Zn 15                                           1150
+                                     Bronze Cu Sn 8 P                                          2450
+        Alliages d'Aluminium         EN AC-AlSi13                                              1000
+                                     Alliage de moulage (Rr ≤ 190 N/mm²)                       850
+                                     Alliage de moulage (190 < Rr < 270 N/mm²)                 1000
+                                     Alliage de moulage (270 < Rr < 370 N/mm²)                 1220
+
+
+
+       Pour une épaisseur de copeau hm différente, il faut donc appliquer un facteur de correction k1 :
+
+          hm (mm)        0,05 0,10 0,15 0,20 0,25 0,30 0,35 0,40 0,45 0,50 0,60 0,70 0,80 1,00
+            k1           1,50 1,23 1,10 1,00 0,94 0,89 0,85 0,81 0,79 0,76 0,72 0,69 0,66             0,6
+
+
+
+       De même, suivant la valeur de l'angle de coupe γ , il faut appliquer la correction k 2 suivante :
+
+                        k 2 = ( 1 − 0 ,013 .γ )
+
+                                                                   d'où      Kc = Kco . k 1 . k 2
+
+
+
+
+                                                      D7/17
+
+
+===== page 36 =====
+                                                                DOCUMENT 7
+
+
+                                                                                                                 y
+ y                                                                                                              y
+y
+                                                           3
+
+
+
+
+                                                                                               1
+
+
+                                                                                          S
+         2                         P                                        A32                                P             T32
+Q1                                                                     Q2                      x                                           z
+                                                                                               x                                           z
+ z
+ z
+                             R32
+                                                    Figure 16 – Efforts A32 , R32 et T32
+
+
+
+
+              y
+             y                                Pxz                                   y P
+                   P                                                                                          A32
+                                                                   u                                                                   x
+                                                                                   y
+              z                            α 2' 3                  x                                    β 3 + ϕ 2' 3                   x
+                                                                                  T32
+              z                                      P( 3→2 )                                                                      u
+             R32
+                                                                                                          Pxz                      x
+                                                                                 z
+     Figure 17 – Projections de P( 3→2 ) dans ( P ,u , y )                      z
+                                                                              Figure 18 – Projections de P dans ( P , x , z )
+                                                                                                                    xz
+
+
+
+
+                             y                                                                      y
+                   1        y                                                                      y
+
+                                                                                         T12
+                        S                                                                                 S
+                                                                                  α 12
+                             z         x                                                                 R12             z
+                             z         x                          S( 1→2 )                                               z
+
+                   2
+
+
+
+                                       Figure 19 – Efforts R12 et T12 et action S( 1→2 )
+
+                                                                   D8/17
+
+
+===== page 37 =====
+                          DOCUMENT 8
+        Mt                                            Mt
+
+Allure n°1                                    Allure n°2
+                                      x                                              x
+         Q1   A           Q2      B                     Q1         A       Q2    B
+
+        Mt                                            Mt
+
+Allure n°3                            x       Allure n°4                             x
+         Q1                                             Q1         A       Q2    B
+              A           Q2      B
+
+        Mt                                            Mt
+
+Allure n°5                                    Allure n°6                             x
+                                      x
+         Q1                                            Q1          A       Q2    B
+              A           Q2      B
+
+              Figure 20 – Allures du diagramme du moment de torsion M t ( x )
+
+       Mf y                                          Mf y
+Allure n°1                                    Allure n°2
+                                      x                                              x
+         Q1   A          Q2       B                    Q1          A      Q2     B
+
+       Mf y                                          Mf y
+Allure n°3                                    Allure n°4
+                                      x                                              x
+         Q1   A          Q2       B                    Q1          A       Q2    B
+
+       Mf y                                          Mf y
+
+Allure n°5                                    Allure n°6
+                                      x                                              x
+         Q1                                            Q1          A       Q2    B
+              A          Q2       B
+
+              Figure 21 – Allures du diagramme du moment de flexion Mf y ( x )
+         z                                              z
+
+Allure n°1                                    Allure n°2
+                                      x                                              x
+         Q1   A          Q2       B                    Q1          A       Q2    B
+         z                                              z
+
+Allure n°3                                    Allure n°4
+              A         Q2            x                                              x
+         Q1                                            Q1          A       Q2    B
+                                  B
+
+                         Figure 22 – Allures de déformées z( x )
+                                          D9/17
+
+
+===== page 38 =====
+[OCR] DOCUMENT 9
+
+d (mm) a (mm) | b (mm) Jj (mm)
+12.417 inclus 5 5 d-3
+17 & 22 inclus 6 6 d-3,5
+22 a 30 inclus 8 7 d-4
+30 a 38 inclus 10 8 d-5
+38 a 44 inclus 12 8 d-5
+44 & 50 inclus 14 9 d-5,5
+
+Figure 23 — Clavettes paralléles forme B
+Tableau 2 - Caractéristiques des clavettes paralléles
+
+Couple
+BB Référence | 7% | YD | L A B transmissible
+
+(mm) | (mm) | (mm) | (mm) | (mm) (Nm)
+
+<L5 B PLOISxO19E| 15 | 19 | 63 | 53 | 53 22,1
+Ay ke PLOIex020E| 16 | 20 | 63 | 53 | 53 25,1
+PLOI7x021E| 17 | 21 | 63 | 53 | 53 28,3
+
+PLOtex022E| 18 | 22 | 63 | 53 | 53 31,8
+
+PLOI9x024E| 19 | 24 | 63 | 53 | 53 35,3
+
+gd}—- PF |gD — ~ [PLozox025e| 20 | 25 | 63 | 53 | 53 39,2
+PLO22x026E| 22 | 26 | 63 | 53 | 53 47
+
+PLO24x028E| 24 | 28 | 63 | 53 | 53 56,8
+
+B B PLO25x030E| 25 | 30 | 63 | 53 | 53 60,8
+
+le PLO2ex032E| 28 | 32 | 63 | 53 | 53 76,4
+
+PLOSOxO35E| 30 | 35 | 63 | 53 | 53 88,2
+
+Figure 24 - POWERLOCK Série PL PLO32x036E| 32 | 36 | 63 | 53 | 5,3 700
+PLOSSx040E| 35 | 40 | 7 6 6 136
+
+PLOS6x042E| 36 | 42 | 7 6 6 144
+
+PLOSex044E| 38 | 44 | 7 6 6 160
+
+PLO4Ox045E| 40 | 45 | 7 6 6 195
+
+Tableau 3 — Caractéristiques des POWERLOCK Série PL
+
+Couple
+Référence gd | gD) L B Vis M transmissible
+(mm) | (mm) | (mm) | (mm) (Nm)
+RTT-20-47 | 20 47 20 28 | 8xM6x18 270
+RTT-22-47 | 22 47 20 28 | 8xM6x18 300
+RTT-24-50| 24 50 20 28 | 9xM6x18 360
+RTT-25-50| 25 50 20 28 | 9xM6x18 380
+RTT-28-55 | 28 55 20 28 | 10xM6x18 500
+RTT-30-55 |_ 30 55 20 28 | 10xM6x18 530
+RTT-32-60 | 32 60 20 28 | 12xM6x18 630
+RTT-35-60| 35 60 20 28 | 12xM6x18 700
+RTT-38-65 | 38 65 20 28 | 14xM6x18 860
+RTT-40-65 | _ 40 65 20 28 | 14xM6x18 910
+RTT-42-75 | 42 75 24 34 | 12xM8x22 1500
+RTT-45-75 | 45 75 24 34 | 12xM8x22 1610
+RTT-48-80| 48 80 24 34 | 12xM8x22 1700
+RTT-50-80| 50 80 24 34 | 12xM8x22 1770
+
+Figure 25 - POWERLOCK Série RTT Tableau 4 - Caractéristiques des POWERLOCK Série RTT
+
+D10/17
+
+
+===== page 39 =====
+[OCR] DOCUMENT 10 n Coupe A-A 2
+i D232H7 @| Ra 0.8
+mS WA
+i rr)
+| a
+| °
+=
+T
+116 +0.05 DI76H7 Bare ;
+g
+—>[B]
+|0.05/C
+c,| 8*M12
+J, [#]00.5
+oS
+12
+Ss e)
+| o)
+eh le
+a io)
+oO
+KS)
+2
+cj
+S81 (s]o.05 C|
+>— 24*018.5H7
+ne |00.02/A/B
+
+— 24*M6
+
+$|00.02/A/B
+
+D11/17 : Cotation Partielle
+
+du Touret Coupe C-C
+
+MATERIAU : 35 Ni Cr Mo 16
+
+ECHELLE 1:4 TAILLE A4
+
+
+
+===== page 40 =====
+      DOCUMENT 11                          Ensemble :                                       Bureau
+                                           Système d’entraînement de broche                  Des         1/1
+    CONTRAT DE PHASE
+               (incomplet)                 Elément : TOURET                                Méthodes
+
+                                           Matière : 35 Ni Cr Mo 16                        Date : 05/2007
+         PHASE N° 20
+                                           Programme : %3002                             Machine : Tour CN
+
+
+
+
+                                                                                     T1
+    Cf 20= φ252 -0.02
+                   +0.02
+                                                             1
+              +0.05
+    Cf 21= 25 -0.05                        X
+               +0.05
+    Cf 22= 116 -0.05
+
+
+
+
+                                                                        Cf 20
+
+
+
+                                                                            Z
+                                      OP
+
+
+
+
+                                                    Cf 21
+                                                     Cf 22
+
+
+
+                                                                                   Vc         N           f
+      Désignation des opérations                             Outils
+                                                                                 (m/min)    (tr/min)   (mm/tr)
+                                               T1 : PCLNR 16-16 avec plaquette
+a) Tournage ébauche du profil extérieur                                            150                   0,3
+                                               CNMG 12 04 12
+
+
+                                               T2 : PCLNR 16-16 avec plaquette
+b) Tournage finition du profil extérieur                                           200                   0,1
+                                               CNMG 12 04 16
+
+
+c) Usinage de la gorge 1                       Outil spécifique
+
+
+
+
+                                                   D12/17
+
+
+===== page 41 =====
+  DOCUMENT 12 : DEUXIEME PARTIE DE LA NORME NFE 04-013
+
+         La deuxième partie de la norme NFE 04-013 définit les symboles représentant sur la
+  partie graphique des contrats de phase, les éléments d’appui et de maintien des pièces
+  pendant les opérations d’usinage, de contrôle ou de manutention.
+
+          Chaque symbole est construit à l’aide d’un certain nombre de symboles élémentaires
+  additifs dont le rôle est de préciser : la fonction de l’élément technologique, la nature du
+  contact avec la surface, la nature de la surface de la pièce, le type de technologie de
+  l’élément.
+
+  Exemple :         Type de technologie    Fonction de l’élément technologique
+
+
+
+
+                  Nature de la surface                         Nature du contact
+
+
+  Détail des symboles élémentaires :
+
+Nature de la                                 Fonctions des
+                                                                               Vue en projection
+ surface de       Symbole                      éléments    Symbole
+                                                                              Forme des touches
+  contact                                   technologiques
+
+
+Surface usinée
+                                            Mise en position
+                                                                          centreur
+                                                                                     complet dégagé
+Surface brute
+                                              Maintien en
+                                               position
+
+
+
+
+                                                               Nature du contact        Symbole
+                                                            Contact ponctuel
+        Type de
+      technologie      Symbole                              Contact surfacique
+     des éléments
+                                                            Contact strié
+  Appui fixe
+                                                            Contact dégagé
+  Centrage fixe
+
+  Système à serrage                                         Cuvette
+
+  Système à serrage                                         Pointe fixe
+  concentrique
+  Système de soutien                                        Pointe tournante
+  irréversible
+                                                            Palonnier
+  Système de soutien
+  réversible
+                                                            Vé
+
+
+                                            D13/17
+
+
+===== page 42 =====
+            DOCUMENT 13 : PUISSANCE CONSOMMEE EN TOURNAGE
+
+
+
+1- Effort de coupe en tournage
+       L'effort de coupe en tournage peut être estimé selon la formule :
+
+
+                                        Fc = Kc . f .a p
+
+              Fc : effort de coupe en N ;
+              Kc : pression spécifique de coupe en N.mm-² ;
+              f : avance en mm.tr-1 ;
+              a p : profondeur de passe radiale en mm.
+
+       La pression spécifique de coupe Kc sera déterminée à partir du document 6, page D7/16, et en
+appliquant les facteurs correctifs dus à l'épaisseur hm du copeau et à l'angle de coupe γ . La valeur de hm
+est obtenue de la façon suivante :
+
+
+                                                      f
+
+                                            ap
+                         f                                hm               hm = f . sin Κ r
+                                           Κr
+
+              Κr             ap
+
+
+
+
+2- Puissance consommée pour une opération de tournage
+
+       La puissance consommée pour une opération de tournage est estimée par la relation suivante :
+
+
+                                       Pc = Fc .Vc
+
+              Pc : puissance consommée par la coupe en W ;
+              Fc : effort de coupe en N ;
+              Vc : vitesse de coupe en m/s.
+
+
+
+
+                                                   D14/17
+
+
+===== page 43 =====
+           DOCUMENT 14 : Assemblages par éléments filetés
+
+    Le document 14 est un formulaire simplifiant le calcul de l’effort normal Q transmissible
+par une vis soumise à un couple de serrage C :
+
+                                                 C
+                             Q=
+                                  0,16⋅ p + (ρ m + 0,583⋅ D2 ) ⋅ f a
+Q et C sont définis conformément aux figures suivantes :
+
+
+
+
+ p est le pas du filetage.
+ f a est le coefficient de frottement vis/écrou et vaut 0,15.
+                      ρ + ρ2
+ ρ m est donnée par 1          . Pour une vis M12, nous considérerons que ρ 2 vaut 9mm.
+                         2
+ ρ 2 (le candidat est libre de faire des hypothèses sur cette valeur) et D2 sont donnés par le
+tableau ci-dessous :
+
+
+
+
+                                             D2 + d3
+               D2
+                                                2
+                                             (mm 2 )
+
+
+
+
+                                            D15/17
+
+
+===== page 44 =====
+  DOCUMENT 15                       Tableau 5 - Récapitulatif des notations utilisées
+
+
+Paramètre    Désignation                                                           Valeur numérique
+Pnom         Puissance nominale du moteur                                          1,5 kW
+N nom        Vitesse nominale du moteur                                            3000 tr.min-1
+C nom        Couple nominal du moteur                                              4,78 Nm
+N max        Vitesse maximale du moteur                                            4500 tr.min-1
+C max        Couple maximal du moteur                                              11,9 Nm
+Jm           Moment d’inertie du moteur                                            1,9.10-4 kg.m²
+J ch arg e   Moment d’inertie de la charge
+Ri           Rapport d’inertie
+ dω m 
+           Accélération maximale à vide du moteur                                62000 rad.s-2
+ dt  max
+Z1           Nombre de dents du pignon P1                                          26 dents
+Z2           Nombre de dents du pignon P2                                          78 dents
+m12          Module des pignons P1 et P2                                           2 mm
+d1           Diamètre primitif du pignon P1
+d2           Diamètre primitif du pignon P2
+α 12         Angle de pression des pignons P1 et P2                                20 °
+k12          Rapport de transmission des pignons P1 et P2
+η 12         Rendement du réducteur P1 - P2                                        100 %
+Z 2'         Nombre de filets de la vis sans fin                                   2 filets
+Z3           Nombre de dents de la roue                                            48 dents
+m2' 3        Module pour la vis et pour la roue                                    5,5 mm
+d3           Diamètre primitif de la roue
+d 2'         Diamètre primitif de la vis sans fin
+k 2' 3       Rapport de transmission du système roue et vis sans fin
+a 2' 3       Entraxe du système roue et vis sans fin
+ϕ 2' 3       Angle de frottement pour la vis sans fin et la roue                   6°
+α 2' 3       Angle de pression pour la vis sans fin et la roue                     20 °
+β3           Angle d’inclinaison de l’hélice de la roue                            10,27 °
+β 2'         Angle d’inclinaison de l’hélice de la vis sans fin
+η 2' 3       Rendement du système roue et vis sans fin
+H            Distance entre le point générateur de l’outil et l’axe de l’arbre 3   400 mm
+JB           Inertie de la broche de fraisage                                      4,5 kg.m²
+L10          Durée de vie des roulements SNR 32208                                 35000 h
+L            Longueur Q1 B                                                         323 mm
+L1           Longueur Q1 A                                                         84 mm
+L2           Longueur Q1Q2                                                         131 mm
+L3           Longueur Q2 B                                                         108 mm
+N2           Vitesse nominale de l’arbre intermédiaire 2
+G            Module de Coulomb du matériau pour l’arbre intermédiaire 2            80000 MPa
+
+
+
+                                              D16/17
+
+
+===== page 45 =====
+[OCR] 100
+
+=
+oO
+o
+
+10
+
+122
+
+DBOh7
+
+G30
+
+“Wh
+HY |
+
+D24j6
+
+40
+
+DOCUMENT 16
+
+Coupe C-C
+
+4 Taraudages M10*10
+
+10
+
+8H7
+
+DBH7
+
+D17/17 : SILHOUETTE D17/17
+
+SIMPLIFIEE DU MOTEUR
+
+ECHELLE 1:2
+
+TAILLE A4
+
+
+
+===== page 46 =====
+[OCR] 
+
+===== page 47 =====
+[OCR] 
+
+===== page 48 =====
+[OCR] 
+
+===== page 49 =====
+                                           Code Barre
+
+
+
+
+                                                                                                                          Cadres réservés
+                                                                                                       Echelle 1:5
+                                                                                                                CD
+                                                                                                                 B
+                                                                                                                 A
+DOCUMENT POUR REPONSE N°2
+
+
+
+
+                                                                                                                                  é
+                                                                                                                       rv
+                                                                                                                     se
+                                                                                                               ré
+                                                                                                     re
+                                                                                                   ad
+                                                                                                 C
+                                                                                                                ..
+                                                                                                            ...
+                            A rendre obligatoirement
+
+
+
+
+                                                                         PT s B e                       ...
+                                                                                                     ... ..
+                                                                       ue elle iqu                ... ...
+                                                                                               ... ...
+                                en fin d'épreuve
+
+                                                                   nq tri n    a            ... ... ...
+                                                                 ba us éc                ... ... ...
+                                                                s d                   ... ... ...
+                                                             ur In n M             : . ..... ..... .....
+                                                           co es io  t           en ..... ..... .....
+                                                         on nc c             am .... ... ...
+                                                        C ie tru
+                                                          Sc ns            ex .. : ...
+                                                              o          d' .... om ....
+                                                                             :
+                                                            C         tre m én ° :
+                                                                   en No Pr N
+                                                                     C
+
+
+===== page 50 =====
+                                        Code Barre
+
+
+
+
+                                                                                                                                                                                                  Cadres réservés
+                                                     Fixation du moteur sur le bâti
+
+
+
+
+                                                                                                                                                                                    Echelle 1:2
+                                                        A rendre obligatoirement
+
+
+
+
+                                                                                                                                        Vue F (détails des formes de la fixation)
+                                                            en fin d'épreuve
+
+
+
+
+                                                                                                                                                                                      C
+                                                                                                                                                                                      BD
+                                                                                                                                                                                       A
+DOCUMENT POUR REPONSE N°1
+
+
+
+
+                                                                                                                                                                                                          é
+                                                                                                                                                                                                  rv
+                                                                                                                                                                                           se
+                                                                                                                                                                                     ré
+                                                                                                                                                     re
+                                                                                                                                                   ad
+                                                                                                                                       C
+                            100
+
+
+
+
+                                                                                                                                                      ..
+                                                                                                                                                  ...
+                                                                                                               PT s B e                       ...
+                                                                                                                                           ... ..
+                                                                                                             ue elle iqu                ... ...
+                                                                                                         nq tri n                    ... ...
+                                                                                                                     a            ... ... ...
+                                                                                                       ba us éc                ... ... ...
+                                                                                                      s d                   ... ... ...
+                                                                                                   ur In n M             : . ..... ..... .....
+                                                                                                 co es io              en ..... ..... .....
+                            Coupe C-C
+                                                                                                           t
+                                                                                               on nc c             am .... ... ...
+                                                                                              C ie tru
+                                                                                                Sc ns            ex .. : ...
+                                                                                                    o          d' .... om ....
+
+
+
+
+                                                                                      Vue F
+                                                                                                                   :
+                                                                                                  C         tre m én ° :
+                                                                                                         en No Pr N
+                                                                                                           C
+
+
+===== page 51 =====
+     K14G
+  Montage 1                 NOM : …………………………….                            CONCOURS BANQUE PT
+
+                                                                          SCIENCES INDUSTRIELLES B
+                            Prénom : …………………………..
+                                                                        NOTICE JUSTIFICATIVE 1/3
+                            Académie : ………………………….
+
+                            N° d’inscription : …………………….                   A rendre à la fin de l’épreuve
+Ne
+rien                                                                           Dépliez la feuille S.V.P.
+écrire
+dans
+ce
+                                                                                             ω2
+cadre
+                            R1     1 - Valeur numérique du rapport de transmission k 12 =
+                                                                                             ω1
+                                                                                                :
+
+
+
+
+                            2 - Valeurs numériques des diamètres primitifs d 1 et d 2 :
+
+
+
+
+  R2      1 - Détermination des caractéristiques du système roue et vis sans fin :
+
+
+
+
+  2 - Matériaux utilisables :
+                 pour la vis :                                    pour la roue :
+
+  R3       1 - Expression du couple résistant maximum autorisé Cr :
+
+
+
+
+   2 - Valeur numérique du couple Cr :
+
+
+
+  R4       1 - Expression de l’effort de coupe                      2 - Valeur numérique de Fc max :
+              tangentiel Fc max :
+
+
+
+   3 - Valeur numérique de l’effort Fc pour l’opération d’usinage donnée :
+
+
+
+
+    4 - Conclusion :
+
+
+
+Dépliez la feuille S.V.P.                                                                 Tournez la page S.V.P.
+
+
+===== page 52 =====
+R5      1 - Expression des composantes R12 et T12 :
+
+
+
+2 - Expression des composantes A32 , R32 et T32 :
+
+
+
+
+3 - Valeurs numériques de R12 , T12 , A32 , R32 et T32 :
+
+
+
+
+R6      1 - Expressions de YQ1 , Z Q1 , YQ2 et Z Q2 :
+
+
+
+
+ 2 - Valeurs numériques de YQ1 , Z Q1 , YQ2 et Z Q2 :
+
+
+
+
+3 - Pourquoi ne peut-on pas calculer X Q1 et X Q2 ?
+
+
+===== page 53 =====
+                          R7        1 - Expression de l’accélération maximale ⎜
+                                                                                   ⎛ dω m ⎞
+                                                                                          ⎟ du moteur à vide :
+                                                                                   ⎝ dt ⎠ max
+
+
+
+
+                                                                    ⎛ dω m ⎞
+                           2 - Valeur numérique de l’accélération ⎜        ⎟   :
+                                                                    ⎝ dt ⎠ max
+
+3 - Comparaison du résultat obtenu avec la valeur fournie par le constructeur :
+
+
+
+
+R8      1 - Expression de l’énergie cinétique de l’ensemble (E) :
+
+
+
+2 - Expression de l’inertie équivalente de la charge ramenée sur l’axe moteur J ch arg e :
+
+
+
+
+R9      1 - Calcul du rapport d’inertie Ri :
+
+
+2 - Vérification du dimensionnement du moteur :
+
+
+
+
+R10     1 - Expression de l’accélération ⎜
+                                          ⎛ dω m ⎞
+                                                 ⎟ du moteur au point de fonctionnement nominal :
+                                          ⎝ dt ⎠ nom
+
+
+
+2 - Expression du déplacement angulaire θ 3 ( t ) de la broche de fraisage :
+
+
+
+
+3 - Comparaison avec les informations du constructeur :
+
+
+===== page 54 =====
+ R11       Justification du choix de roulements à rouleaux coniques :
+
+
+
+
+ R12         1 - Critères à observer pour le choix entre un montage en O ou en X :
+
+
+
+
+  2 - Solution envisagée dans notre montage :
+
+
+  Justification :
+
+
+
+ R13       Tolérances à spécifier pour les portées des roulements :
+
+                          Arbre           Alésage
+
+
+
+
+ R14        Schéma technologique du guidage :
+
+
+
+
+Dépliez la feuille S.V.P.
+
+
+===== page 55 =====
+     K14G
+  Montage 1                 NOM : …………………………….                           CONCOURS BANQUE PT
+
+                                                                         SCIENCES INDUSTRIELLES B
+                            Prénom : …………………………..
+                                                                     NOTICE JUSTIFICATIVE 2/3
+                            Académie : ………………………….
+
+                            N° d’inscription : …………………….                 A rendre à la fin de l’épreuve
+Ne
+rien                                                                        Dépliez la feuille S.V.P.
+écrire
+dans
+ce
+cadre
+                            R15     1 - Expressions des coordonnées axiales Fa1 et Fa 2 :
+
+
+
+
+                            2 – Valeurs numériques de Fa1 et de Fa 2 :
+
+
+
+
+  R16       1 - Expressions des charges dynamiques équivalentes P1 et P2 :
+
+
+
+
+  2 – Valeurs numériques de P1 et P2 :
+
+
+  R17       1 - Expression de la valeur minimale de la charge dynamique de base C min :
+
+
+
+
+  2 - Valeurs numériques de N 2 et de C min :
+
+
+
+  3 - Conclusion sur le choix des roulements :
+
+
+
+
+  R18       Interprétation de la durée de vie L10 :
+
+
+
+
+Dépliez la feuille S.V.P.                                                           Tournez la page S.V.P.
+
+
+===== page 56 =====
+R19      1 - Torseurs des efforts intérieurs pour les 2 tronçons étudiés :
+
+
+ Tronçon AQ2 :
+
+
+
+
+ Tronçon Q2 B :
+
+
+
+
+R20               Sollicitation de torsion ( M t )                    Sollicitation de flexion ( Mf y )
+
+Choix du diagramme :                                      Choix du diagramme :
+
+Justification :                                           Justification :
+
+
+===== page 57 =====
+                           R21      1 - Expression du diamètre minimum Dmin de l’arbre intermédiaire
+
+
+
+
+                           2 - Valeur numérique de Dmin :
+
+
+R22       Position du capteur de position :
+
+
+Justification :
+
+
+
+
+R23      Choix de l’allure de la déformée z(x) de la poutre :
+
+Justification :
+
+
+
+
+R24       1 - Critère de dimensionnement des clavettes parallèles :
+
+
+
+
+2 - Expression du critère de dimensionnement :
+
+
+===== page 58 =====
+ R25       Dimensions de la clavette 1 pour le pignon P1 :
+
+
+
+
+ Dimensions de la clavette 2 pour le pignon P2 :
+
+
+
+
+ R26       Avantages des moyeux expansibles :
+
+
+
+
+ R27      1 - Choix du moyeu expansible pour le pignon P1 :
+
+
+
+  2 - Choix du moyeu expansible pour le pignon P2 :
+
+
+  3 - Justification du choix du constructeur :
+
+
+
+
+ R28       Signification de la désignation du matériau :
+
+
+
+
+Dépliez la feuille S.V.P.
+
+
+===== page 59 =====
+     K14G
+  Montage 1                 NOM : …………………………….                           CONCOURS BANQUE PT
+
+                                                                         SCIENCES INDUSTRIELLES B
+                            Prénom : …………………………..
+                                                                       NOTICE JUSTIFICATIVE 3/3
+                            Académie : ………………………….
+
+                            N° d’inscription : …………………….                    A rendre à la fin de l’épreuve
+Ne
+rien                                                                           Dépliez la feuille S.V.P.
+écrire
+dans
+ce
+cadre
+                            R29      Interprétation des spécifications géométriques :
+
+                            116 ± 0.05
+
+
+
+
+                                  Ø 0.05    C     +       91
+
+
+
+
+  R30        Mise en position et maintien en position :
+                                                                        X
+
+   Justification :
+
+
+
+
+                                                                                             Z
+
+
+
+
+Dépliez la feuille S.V.P.                                                               Tournez la page S.V.P.
+
+
+===== page 60 =====
+R31    Calcul de la fréquence de rotation N et de la vitesse d’avance V f :
+
+
+
+
+R32    1 - Détermination de la puissance nécessaire à la coupe pour l’opération d’ébauche :
+
+
+
+
+2 - L’usinage est-il envisageable avec la machine proposée ?
+
+
+
+
+R33    Intérêt de réaliser une opération de tournage avec un outil incliné d’un angle de rotation B :
+
+
+===== page 61 =====
+                          R34       1 - Expression littérale du couple Ca transmissible par adhérence entre
+                                    les surfaces liées par les vis :
+
+
+
+
+2 - Expression littérale de l’effort de serrage maximal Q :
+
+
+
+
+3 – Calcul de la valeur numérique de Q :
+
+
+
+
+R35       Couple maximal de serrage C s max pour chaque vis :
+
+
+===== page 62 =====
+[OCR] Dépliez la feuille S.V.P.
+
+
+===== page 63 =====
+ CALQUE N°1
+A rendre obligatoirement
+    en fin d'épreuve
+                                                                                    100
+                                                                                             84,5
+
+
+
+
+                                                                             Silhouette du moteur
+
+
+
+
+                                                           132
+                                                           332
+
+
+
+
+                                                                             75
+
+
+
+
+                C
+           Sc onc
+       C ie ou
+         on nc rs
+C            st es b
+  en            ru I an
+                   ct nd q
+     tre              io u ue
+N                        n st
+  om d'e                    M rie PT
+       :
+ Pr ... m
+               xa            éc lle
+                               an s
+    én ... en                    iq B
+        om .... :                  ue
+   N               ... ...
+    ° : : ... ..                                                                                               Code Barre
+         ... ..... .... .....             C
+            ... ... ... ...                ad                  Coupe A-A Echelle 1:2
+               ... ... ... ...                  re
+                  ... ... ... ...
+                     ... ... ... ...                 ré
+                        ... ... ... ...                   se
+                                                            rv       A   B     C     D
+                           .. .. .. ..                           é                           Cadres réservés
+
+
+===== page 64 =====
+ CALQUE N°2                                                                                                        Coupe B-B
+                                                                                                                     Echelle 1:2
+A rendre obligatoirement
+    en fin d'épreuve
+
+
+
+
+                                                                                            Silhouette du moteur
+
+
+
+
+                C
+           Sc onc
+       C ie ou
+         on nc rs
+C            st es b
+  en            ru I an
+                   ct nd q
+     tre              io u ue
+N                        n st
+  om d'e                    M rie PT
+       :
+ Pr ... m
+               xa            éc lle
+                               an s
+    én ... en                    iq B
+        om .... :                  ue
+   N               ... ...
+    ° : : ... ..                                                                                                     Code Barre
+         ... ..... .... .....             C
+            ... ... ... ...                ad
+               ... ... ... ...                  re
+                  ... ... ... ...
+                     ... ... ... ...                 ré
+                        ... ... ... ...                   se
+                                                               rv       A   B   C   D
+                           .. .. .. ..                              é                   Cadres réservés
+

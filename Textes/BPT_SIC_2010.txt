@@ -1,0 +1,2386 @@
+
+===== page 1 =====
+[OCR] Bangue PT
+
+10PT27
+
+Epreuve de Sciences Industrielles C
+
+Durée 6h
+
+Si, au cours de l’épreuve, un candidat repére ce qui lui semble étre une erreur d’énoncé, d’une part il
+le signale au chef de salle, d’autre part il le signale sur sa copie et poursuit sa composition en
+indiquant les raisons des initiatives qu’il est amené 4 prendre.
+
+L’usage de calculatrices est interdit.
+
+La présentation, la lisibilité, 'orthographe, la qualité de la rédaction, la clarté et la précision des
+raisonnements entreront pour une part importante dans l’appréciation des copies. En particulier
+les résultats non justifiés ne seront pas pris en compte. Les candidats sont invités a encadrer les
+résultats de leurs calculs.
+
+Matériel autorisé :
+
+L’usage des instruments usuels du dessinateur est autorisé.
+
+Composition du sujet :
+
+1 cahier comprenant 14 pages de texte.
+
+5 documents format A4, intitulés «Document ressource i», avec i=1aV.
+
+1 cahier réponse de 17 pages.
+1 feuille de calque format A3.
+
+Toute autre documentation est interdite.
+Les réponses sur feuilles de copies ou papiers de
+brouillon ne seront pas acceptées.
+
+Gestion du temps :
+En admettant une durée 30 min pour la lecture et l’assimilation du sujet, il est vivement conseillé
+
+de consacrer environ 15 min sur la partie 1, 3 h 00 sur la partie 2 (incluant l'étude graphique) et
+2h 15 sur la partie 3.
+
+TOURNEZ LA PAGE S.V.P.
+
+
+===== page 2 =====
+  Etude du système de calage de la distribution du moteur AMG V8 6.3
+
+
+
+Introduction :
+La division AMG de Mercedes Benz a développé, pour les modèles sportifs siglés AMG, un moteur
+atmosphérique V8. Ce moteur, monté sur plusieurs modèles, a une cylindrée de 6208 cm3 et
+développe de 336 kW à 386 kW suivant les versions (Fig.1).
+
+
+
+
+                               Figure 1 : SL 63 AMG modèle 2009
+
+
+Ce moteur (Fig. 2) dispose de tous les raffinements technologiques permettant de faibles
+émissions de polluants (HC, CO et NOx) en regard de ses performances. Cette prouesse
+technologique est obtenue entre autres par :
+    La mise en œuvre de la technique à 4 soupapes avec calage variable d’arbres à cames
+     d’admission et d’échappement.
+    L’optimisation de l’alimentation en air par des tubulures d’admission variables.
+    Un système d’échappement à dépollution des gaz sophistiqué (amont et aval des deux
+     catalyseurs).
+    L’utilisation d’une gestion électronique de haut niveau.
+    Des matériaux et des procédés de fabrication modernes (alliages de magnésium,
+     revêtement par D-GUN,…).
+
+
+
+
+                                Figure 2 : Motorisation 63 AMG.
+
+
+
+
+                                              -1-
+
+
+===== page 3 =====
+[OCR] L’analyse fonctionnelle de la motorisation montre le moteur et ses interactions :
+
+FP1 : Permettre a l’énergie de déplacer le véhicule
+FC1 : Etre commandé par le conducteur
+
+FC2 : Respecter les normes environnementales
+
+FC3 : Réguler en énergie les composants auxiliaires
+
+Tableau de caractérisation des fonctions :
+
+Fonction Critéres Niveau
+FP1 Réduction de la consommation | 15 %
+par rapport aux véhicules du
+méme segment.
+Vitesse maximale autolimitée 4 250 km/h
+Accélération de 0 a 100 km/h 46s
+Puissance maximale de 336 a 386 kW
+FC1 Sélection des vitesses Automatique / manuelle
+Sélection du mode Normal / Sport / Race start
+Enfoncement des pédales De 0 a 100%
+FC2 Réduction des  émissions
+nocives :
+NOx Normes euro IV
+HC Normes euro IV
+co Normes euro IV
+Réduction du C02 15%
+Réduction du poids 10 % par rapport a version n-1
+FC3 Amélioration du rendement
+
+moteur
+Alternateur piloté
+
+Climatisation automatique
+
+Lobjectif du travail est d’étudier les différentes fonctions présentées, de justifier les choix effectués
+et de proposer des solutions constructives.
+
+TOURNEZ LA PAGE S.V.P.
+
+
+
+===== page 4 =====
+Partie 1 :              Réguler            en       énergie           les      composants
+auxiliaires.
+Sur ce moteur, les composants auxiliaires sont pilotés et non plus entraînés constamment. Ainsi,
+l’alternateur a une gestion spécifique pilotée par le calculateur. Le calculateur gère son utilisation
+suivant l’état de différents paramètres : charge batterie, régime, charge et température moteur.
+       1.1 - Quel est l’intérêt d’avoir un alternateur de ce type ?
+       1.2 - Dans le cadre du démarrage à froid du moteur, faut-il piloter ou non l’alternateur ?
+       Justifier rapidement votre réponse.
+       1.3 - Citer deux autres composants auxiliaires d’un moteur, préciser, pour chacun, si un
+       pilotage revêt un intérêt.
+
+
+
+
+                                                 -3-
+
+
+===== page 5 =====
+[OCR] Partie 2 : Réduire les émissions nocives
+
+Le document ressource | présente des éléments de la distribution du moteur thermique étudié.
+
+Phase de démarrage
+
+La phase de démarrage et les quelques kilométres qui suivent sont des phases de forte pollution
+(montée en température). L’objectif est donc d’amener le moteur a sa température de
+fonctionnement le plus rapidement possible.
+
+Pour cela, le moteur a une gestion électronique de trés haut niveau. II est en effet équipé d’une
+vingtaine de capteurs et de plus de trente actionneurs (vérins hydrauliques, moteurs électriques).
+L’ensemble est géré par un calculateur relié a la partie opérative par un bus spécifique.
+
+Nous allons maintenant nous intéresser a la commande des actionneurs utilisés en phase de
+démarrage du moteur (Fig. 3). Nous considérons ainsi 5 fonctions :
+
+L'admission d’air variable (B) est régie selon les modalités suivantes :
+
+v L’admission longue (B+) est utilisée lorsque le régime moteur est faible ET la
+charge moteur élevée.
+
+v L’admission courte (B-) est utilisée lorsque la charge du moteur est faible ET le
+régime moteur est faible ou fort.
+
+> La phase diinitialisation comporte une fermeture compléte (B-) puis une phase d’ouverture
+compléte (B+) et un positionnement final pour le démarrage. II y a deux capteurs associés a (B) :
+bO (pour la fermeture) et b1 (pour l’ouverture).
+
+Figure 3 : Phase de démarrage du moteur.
+Légende : A : papillon des gaz, B : admission variable (position ouverte et fermée).
+
+C et D: vers banc de cylindres gauche et droit
+
+L’alimentation en carburant (AC) est réglable sur deux niveaux, 4 bars (ac0) et 5,5 bars (act)
+dépendant du régime moteur :
+
+v Le niveau acO correspond a un régime moteur faible.
+v Le niveau ac1 correspond a un régime moteur élevé.
+> La phase diinitialisation correspond a une mise en pression a 4 bars.
+Le circuit de refroidissement d’eau est régi par deux lois :
+v ll est en mode « circuit court » avec chauffage (MCC+) lorsque la température de
+l'eau de refroidissement e est inférieure a 60°C.
+
+-4-
+TOURNEZ LA PAGE S.V.P.
+
+
+===== page 6 =====
+            Il est en mode « circuit court » sans chauffage (MCC-) lorsque la température de
+             l’eau de refroidissement θe est comprise entre 60 et 100°C.
+ La phase d’initialisation consiste à positionner le circuit dans le bon mode.
+       Nota : Au-dessus de 100°C (non considéré dans le sujet), le refroidissement est en mode
+       « circuit normal » avec ou sans chauffage.
+Le circuit d’huile possède un Bypass (By) qui est :
+            Fermé (By-) lorsque l’huile a une température θh inférieure à 80°C.
+            Ouvert (By+) lorsque la température de l’huile θh est au-dessus de 80°C.
+ La phase d’initialisation consiste à positionner le circuit dans le bon mode.
+Le calage variable des quatre arbres à cames s’effectue grâce à quatre vérins rotatifs (VRi, i=1 à
+4). Ils permettent :
+            Un décalage négatif (peu ou pas de croisement de soupapes) lorsque la charge
+             moteur est élevée.
+            Un décalage positif (faible à fort croisement de soupapes) lorsque la charge moteur
+             est faible et le régime moteur moyen.
+            Pas de décalage, vérins rotatifs en position neutre (vrni, i=1 à 4) pour la phase de
+             démarrage moteur.
+ La phase d’initialisation consiste à vérifier que les quatre vérins sont en position neutre. Sinon,
+une séquence d’initialisation notée (VRINIT) est effectuée.
+
+
+       2.1 - A l’aide des descriptions précédentes et dans le cadre du démarrage du moteur,
+       préciser la position recherchée des actionneurs (B) et (VRi) en justifiant la réponse.
+
+
+Lors de la mise du contact, les actionneurs sont initialisés pour être en condition de démarrage.
+
+
+  Départ cycle (Dcy)                                         Activer l’admission longue (B+)
+                                                             Activer l’admission courte (B-)
+  admission longue (b1)                                      Alimenter en carburant (AC)
+  admission courte (bo)                 GRAFCET              Activer circuit court avec chauffage (MCC+)
+  pression à 4b (ac0)                  Initialisation        Activer circuit court sans chauffage (MCC-)
+  pression à 5,5 b (ac1)                    des              Ouvrir le Bypass (By+)
+  température eau (θe)                 actionneurs           Fermer le Bypass (By-)
+  température huile (θh)                                     Activer la séquence d’initialisation (VRINIT)
+  position neutre vérins (vrni)                                Démarrer le Moteur (M)
+
+
+                   Inventaire des entrées/sorties de l’initialisation des actionneurs.
+
+
+       2.3 - Ecrire un grafcet d’initialisation par fonction (B, AC, MCC, By et VRINIT).
+       2.4 - Ecrire le grafcet global de gestion de l’ensemble des actionneurs (B, AC, MCC, By et
+       VRINIT) afin de démarrer le moteur.
+
+
+
+
+                                                  -5-
+
+
+===== page 7 =====
+Réglage de la distribution du moteur
+Réglage angulaire de l’arbre à cames
+Pour la réalisation de cette fonction, l’utilisation d’une liaison par obstacle n’est pas très simple. Le
+constructeur propose d’utiliser une liaison par adhérence pour simplifier la réalisation. La surface
+de contact est annulaire et la pression de contact est assurée par une vis placée au centre de
+l’arbre.
+       2.5 - Proposer une démarche de dimensionnement de cette liaison en notant C le couple
+       maximal transmissible. La démarche utilisée sera justifiée.
+Vérin rotatif
+        Pour augmenter les performances du moteur thermique, le constructeur propose une
+solution pour adapter le calage de la distribution en fonction des conditions d’utilisation. Pour les
+distributions classiques, il est nécessaire d’avoir un calage précis entre la position angulaire de
+l’arbre à cames et le vilebrequin du moteur. Le constructeur propose de placer un vérin rotatif entre
+la commande en rotation de l’arbre à cames et l’arbre à cames (document ressource I). La figure
+4, document ressource II, présente, de façon simplifiée, le principe d’un vérin rotatif double effet
+(principe similaire à un vérin linéaire double effet).
+
+
+       2.6 - Justifier en quelques lignes que l’utilisation d’un vérin rotatif double effet permet de
+       répondre au cahier des charges imposé pour le réglage en continu de la distribution.
+       2.7 - Pourquoi le constructeur propose d’utiliser un vérin rotatif hydraulique et non pas
+       pneumatique ?
+Distributeur rotatif
+       2.8 - Proposer, sous forme de schémas de principe à main levée la géométrie du
+       distributeur hydraulique rotatif permettant l’alimentation en huile du vérin rotatif, sachant
+       que pour l’application proposée le corps du vérin est en mouvement.
+Conception du système d’entraînement, du vérin rotatif et du système de pré-charge
+des engrenages
+Pour limiter les jeux dans la transmission par engrenage, le constructeur utilise un système pré-
+chargé souvent utilisé en robotique pour assurer la précision des positionnements (Fig. 5,
+document ressource II). Un des pignons de l’engrenage est découpé en deux ; des ressorts sont
+placés entre les deux parties du pignon pour assurer une pré-charge de l’engrenage. En fait, en
+fonctionnement les ressorts assurent un contact bilatéral au niveau des dents des pignons et ainsi
+pour un couple maximal donné l’engrenage fonctionne sans jeu et assure de ce fait le
+positionnement de façon précise.
+Pour faciliter le montage de cet ensemble il est nécessaire d’avoir un système de fixation des deux
+parties du pignon dans une configuration correspondant à un pignon classique (« monobloc »).
+
+Le document ressource II présente la géométrie du pignon réalisé en deux parties (Fig. 5) et la
+géométrie du rotor et du stator du vérin rotatif (Fig. 6). Des modifications de la géométrie de ces
+pièces sont possibles pour assurer le montage.
+Le document ressource III présente le schéma de principe du système de calage de la
+distribution.
+Il est demandé d’utiliser une représentation normalisée des différents composants utilisés (en
+respectant si possible l’ordre de grandeur des dimensions).
+
+
+       2.9 – Sur le document calque format A3, proposer une réalisation de la liaison pivot entre
+       les pignons (pignon entraîné par la chaîne et pignon « monobloc ») et le carter du moteur.
+
+
+                                                  -6-
+                                                                           TOURNEZ LA PAGE S.V.P.
+
+
+===== page 8 =====
+       Pour la conception de cette liaison, il n’y a pas de contraintes fortes associées à la
+       géométrie du carter du moteur ; la géométrie proposée pour cette partie du carter sera
+       définie sur le dessin.
+L’arbre à cames est en liaison pivot avec le carter du moteur. Cette liaison n’est pas représentée
+sur le document réponse III pour ne pas surcharger le document. Mais il est important de noter
+que cette liaison n’est pas à concevoir.
+       2.10 - Sur le document calque format A3, proposer une réalisation du système de
+       réglage de la distribution du moteur. Il est demandé de concevoir les liaisons suivantes :
+             •   le montage du pignon en deux parties sachant que les deux parties du pignon
+                 sont en liaison pivot par rapport à l’arbre (il n’est pas demandé de représenter les
+                 ressorts, voir Fig. 5 document ressource II),
+             •   la liaison entre le pignon et le stator du vérin rotatif (il n’est pas demandé de
+                 représenter la géométrie exacte de la partie interne du vérin rotatif, voir Fig. 6
+                 document ressource II),
+             •   la liaison complète entre le rotor du vérin rotatif et l’arbre à cames.
+
+
+Pour le vérin rotatif, il n’est pas demandé de représenter les éléments d’étanchéité. Mais il est
+demandé d’indiquer les zones où il est nécessaire d’avoir des étanchéités (statique ou
+dynamique).
+
+
+Les différents choix doivent être compatibles avec :
+   • le bon fonctionnement de l’ensemble,
+   • la facilité de montage/démontage.
+
+
+Les différentes vues nécessaires à la compréhension de la solution proposée seront réalisées.
+Le dimensionnement des liaisons n’est pas demandé, par contre les dimensions doivent être en
+accord avec les sollicitations. De plus, il est demandé de respecter approximativement les
+dimensions des éléments standards utilisés (roulements, vis…).
+La qualité de la représentation graphique sera aussi évaluée.
+
+
+       2.11 - Sur le document calque format A3, proposer un positionnement du distributeur
+       rotatif avec les alimentations en fluide. Il n’est pas demandé de dessiner le distributeur.
+
+
+Procédure de montage
+       2.12 - Proposer une solution pour assurer la liaison complète entre les deux parties du
+       pignon pour faciliter le montage de l’ensemble.
+       2.13 - Proposer votre solution sur le document calque format A3 à main levée.
+
+
+
+
+                                                  -7-
+
+
+===== page 9 =====
+[OCR] Partie 3 : Entrainer l’arbre a cames
+
+Etude de la transmission de mouvement par chaine
+
+Une chaine double est utilisée par le constructeur pour réaliser l’entrainement en rotation de
+arbre a cames a partir du vilebrequin du moteur.
+
+A. Justification du choix du type de transmission.
+Les réponses aux différentes questions seront rapidement justifiées.
+3.1 - Quelles sont les contraintes associées a cette transmission ?
+
+3.2 - Pour réaliser cette transmission peut-on utiliser une transmission par courroie ? Si oui,
+quel type de transmission par courroie proposez vous ?
+
+3.3 - Pourquoi le constructeur utilise-t-il une chaine double ?
+
+3.4 - Cette chaine double peut étre considérée comme deux chaines utilisées céte a céte.
+Une chaine double peut-elle transmettre une puissance double par rapport a une chaine
+simple ?
+
+3.5 - Quel est Iinfluence d’une usure de la chaine et des pignons ?
+
+3.6 - Quel est la fonction du tendeur de chaine ? Le tendeur peut-il compenser I’influence
+de /'usure de la chaine et des pignons ?
+
+B. Rapport de réduction moyen.
+
+Le systéme fonctionne a chaque instant comme un mécanisme a quatre barres si le brin
+tendu (A1A2) se comporte comme un solide (Fig. 7). Le mouvement est périodique car les points
+(A1A2) sont remplacés par les points (B1B2) et ainsi de suite; on notera T la période du
+mouvement. w1 et @2 représentent les vitesses de rotation instantanées des deux pignons par
+
+rapport au bati.
+
+On notera Z et Z2 les nombres de dents des deux pignons et 1m et 2m les vitesses de rotation
+moyennes des deux pignons.
+
+3.7 - Déterminer le rapport de réduction moyen en utilisant les propriétés des deux angles
+A@q et A@2 définis sur la figure 7.
+
+3.8 - Une transmission par chaine assure-t-elle un entrainement sans glissement ?
+3.9 - Le rapport de réduction est-il constant ?
+3.10 - Ceci peut-il engendrer des vibrations (justifier rapidement votre réponse)?
+
+Figure 7 : Schématisation de la transmission.
+
+TOURNEZ LA PAGE S.V.P.
+
+
+===== page 10 =====
+Etude de réalisation
+Au cours des dernières années, les performances des voitures ont été augmentées par une
+augmentation de la puissance des moteurs. Pour atteindre cet objectif, ce moteur a été développé
+dans un souci de légèreté en prenant en compte le tryptique produit – procédé – matériau.
+Le produit :
+Le moteur a une masse de 223 Kg pour une puissance de 386 kW ce qui fait un rapport
+masse/puissance de 0,58. Il a été conçu pour avoir un centre de gravité le plus bas possible et des
+inerties d’ensembles tournants les plus faibles possibles.
+Les matériaux :
+Considérons le moteur comme un ensemble de composants associés aux éléments suivants :
+Admission, échappement, embiellage, distribution, carter moteur, culasse. Pour réaliser ces
+éléments, les matériaux employés sont de deux grandes familles : les matériaux plastiques et
+matériaux métalliques
+       3.11 - Citer des matériaux métalliques utilisés dans la fabrication d’un moteur thermique.
+       3.12 - Définir les contraintes techniques associées à l’utilisation de matériaux plastiques.
+       En déduire leur possible utilisation dans ce moteur.
+       3.13 - Définir, pour les composants associés aux éléments « échappement »,
+       « admission », « embiellage » et « carter moteur », des familles de matériaux aptes à
+       l’emploi.
+
+
+Les procédés :
+La réalisation du carter d’admission d’air fait appel à l’injection sous pression d’un alliage de
+magnésium type EN M C MgAl9Zn1 (Fig. 8).
+
+
+
+
+                           Figure 8 : Présentation du carter d’admission.
+
+
+       3.14 - Justifier l’emploi d’un tel couple matériau procédé.
+       3.15 - Donner le pourcentage d’aluminium dans cet alliage.
+Le procédé d’injection métallique est un procédé similaire au procédé d’injection plastique. Pour
+simplifier, une presse (Fig. 9) est constituée d’un moule (deux ½ moules 4 et 6), d’une vis de
+malaxage (1) qui fait office de piston d’injection. Le matériau est malaxé et chauffé dans l’unité
+d’injection (3), la pièce (5) est injectée puis éjectée du moule.
+
+
+
+
+                                                -9-
+
+
+===== page 11 =====
+[OCR] OPEN»
+
+Figure 9 : constitution d’une presse.
+
+Un cycle d’injection comprend schématiquement une phase de remplissage du moule (de A a B),
+une phase de maintien en pression pendant la solidification de la matiére (de B a D) et une phase
+d’éjection (Fig. 10).
+
+Vv
+P
+—
+>
+A B c D Temps
+Début Fin de Fin de début du
+injection —_remplissage solidification recul du
+
+piston
+Figure 10 : Courbes de pression P et de vitesse d’injection V en fonction du temps.
+
+La phase de maintien se fait sous une pression P = 80 MPa. Les questions suivantes ont pour but
+de dimensionner la presse a injecter. Un des critéres de choix est l’effort de fermeture du moule.
+
+3.16 - Pourquoi ce critére est important dans le choix de la presse ?
+
+3.17 - En vous aidant des figures 9 et 10, proposer un modéle simple pour calculer, lors de
+la phase de maintien, l’effort généré par la pression P. Vous préciserez, sur un schéma les
+notations employées.
+
+On assimile maintenant le carter d’admission (Fig. 8) 4 un demi cylindre de diamétre extérieur 350
+mm, de longueur 600 mm et d’épaisseur 10 mm (avec le nervurage).
+
+3.18 - Proposer une direction de plan de joint (c’est-a-dire une direction d'injection) qui
+favorise la phase d’injection.
+
+3.19 - Calculer l’effort de fermeture minimal de fermeture du moule.
+
+-10-
+TOURNEZ LA PAGE S.V.P.
+
+
+===== page 12 =====
+La réalisation du carter de calage variable d’arbre à cames fait appel à un procédé d’obtention
+de brut par moulage.
+
+
+
+
+                      Figure 11 : Carter de calage variable d’arbres à cames.
+
+
+Il est réalisé dans un alliage d’aluminium.
+       3.20 - Proposer un matériau (et sa désignation normalisée) apte au moulage.
+       3.21 - Quels sont les éléments caractéristiques de la géométrie de la pièce qui montrent
+       que cette pièce est réalisée par moulage ?
+
+
+La réalisation d’un outillage spécifique, proposé par le constructeur pour faciliter le réglage du
+système de calage de la distribution, fait appel à un procédé d’usinage par enlèvement de matière.
+Cet outillage est composé de deux parties (voir document ressource IV).
+Nous allons plus particulièrement étudier la partie A de cet outillage définie sur le document
+ressource V. Elle est réalisée en C35.
+
+
+       3.22 - Expliquer la désignation normalisée.
+
+
+La pièce est mise à l’épaisseur dans une phase précédente, le brut a une dimension de 235 mm x
+43 mm.
+Les différents usinages à réaliser sur la pièce sont les suivants (voir document ressource V)
+   • Usinage de l’ensemble du contour de la pièce comprenant l’usinage des 2 fois « deux
+        encoches à plans parallèles » et l’usinage de la forme circulaire centrale.
+   • Perçage, taraudage des quatre trous de fixation.
+La machine utilisée est un centre d’usinage 4 axes à broche horizontale disposant d’un plateau
+tournant (3 translations X, Y, Z et une rotation B autour de Y).
+
+
+       3.23 - Proposer une mise en position qui permet la réalisation de l’ensemble des surfaces
+       en une seule phase en précisant le repère X,Y,Z sur la pièce.
+       3.24 - Proposer les différentes orientations de la pièce permettant d’usiner l’ensemble des
+       surfaces. Pour chacune des orientations, vous noterez le repère machine et colorierez les
+       surfaces usinées.
+       3.25 - Donner les différentes opérations et la liste des outils permettant l’obtention de
+       chaque surface.
+
+                                              - 11 -
+
+
+===== page 13 =====
+Liste des outils disponibles :
+    • Fraises à surfacer ∅ 50, 63, 80, 100, 125 mm
+    • Forets à pointer ∅ 8, 10 mm
+    • Forets hélicoïdaux ∅ 5, 8, 10, 12, 14, 16, 18 mm
+    • Fraises deux tailles ∅ 20, 25, 40, 50 0 mm
+    • Alésoirs ∅ 10, 12, 20 mm
+    • Tarauds M6, M8, M10
+      3.26 - Expliciter la tolérance 40±0,5 extraite du dessin de définition partiel document
+      ressource V.
+
+
+      3.27 - Expliciter les 2 tolérances extraites du dessin de définition partiel document
+      ressource V en respectant la décomposition suivante :
+          •   Donner le nom de la caractéristique tolérancée.
+          •   Définir les éléments tolérancés.
+          •   Définir les éléments de référence.
+          •   Définir les références spécifiées.
+          •   Définir la forme de la (ou des) zone(s) de tolérance et les contraintes d’orientation
+              et/ou de position de la (ou des) zone(s) de tolérance par rapport au système de
+              références spécifiées.
+
+
+
+
+                                                 - 12 -
+                                                                      TOURNEZ LA PAGE S.V.P.
+
+
+===== page 14 =====
+              SL 63 AMG modèle 2009
+
+
+
+
+               Présentation du moteur
+                                           Puissance (kW)
+Couple (mN)
+
+
+
+
+                  Régime moteur (tr/min)
+              Caractéristiques du moteur
+
+                   FIN DE L©EPREUVE.
+                           - 13 -
+
+
+===== page 15 =====
+                                                                                         10PT27
+
+
+
+
+                                                                               
+                                                                               
+
+
+                                                     
+                                                     
+
+
+
+                                       
+                                       
+
+                                                                              
+                                                                              
+
+                                                 
+                                                 
+
+
+
+ : Chaîne de transmission      : Pignons d’entraînement    : Système de réglage
+ : Distributeur hydraulique    : Arbre à cames             : Soupapes
+ : Piston                      : Bielle                    : Vilebrequin
+
+
+
+                                                                                           
+                                       
+                                                                                            
+                                                                                     
+                                                                                    
+                                                                         
+
+                                       
+                                                                    
+                                                                     
+
+
+                                            
+                                            
+                                             
+                                             
+                                                                                 
+                                                                                
+      Document ressource I : Présentation de la distribution du moteur thermique
+
+
+===== page 16 =====
+          Alimentation                                              Alimentation
+
+
+
+                                                                        Corps du vérin
+
+
+
+                                                                    rotor
+
+
+
+              Figure 4 : Présentation schématique d’un vérin rotatif.
+
+
+
+
+     a : pignon (partie 1)             Pignon après le montage              Pignon en
+     b : pignon (partie 2)                   sur l’arbre                 fonctionnement
+c : ressort pour la pré-charge
+Figure 5 : Présentation des éléments du système de pré-charge des engrenages.
+
+
+
+
+        d : rotor du vérin rotatif (en liaison complète avec l’arbre à came)
+                              e : stator du vérin rotatif
+ Figure 6 : Présentation des éléments du vérin rotatif utilisé par le constructeur.
+
+Document ressource II : Présentation du système de calage de la distribution
+
+
+===== page 17 =====
+Document ressource III : Présentation du schéma de principe du système de calage de la distribution
+
+
+===== page 18 =====
+[OCR] SOUIBD E SAGA Sap 93BIS91 ap ISeIINNO : A] 9dANOssaa JUIUINIOG
+
+a nef
+
+so 94 60 93
+
+00 19.00 .68¢ 9GL A dG oseWINN
+
+00 22.00 685 961 M_ 9g ox:UINN
+
+uonexy ep anbeld
+
+
+
+===== page 19 =====
+[OCR] 8
+x4 M6
+
+TOFOI
+
+OUTILLAGE - PARTIE A
+
+Document ressource V
+
+Dessin de définition partiel
+
+A4
+
+150+0,1
+230 +0,1
+
+15
+
+
+
+===== page 20 =====
+Document Reponse ENSAM 210x350                 2009:Document Reponse ENSAM 210x350              2009    22/01/09      8:54     Page 1
+
+
+
+
+                              Académie :                                                 Session :                                                         Modèle EN.
+                              Examen ou Concours                                                                                 Série* :
+                              Spécialité/option :                                                                  Repère de l’épreuve :
+  DANS CE CADRE
+
+
+
+
+                              Épreuve/sous-épreuve :
+                              NOM :
+                              (en majuscules, suivi s’il y a lieu, du nom d’épouse)
+                              Prénoms :                                                                          N° du candidat
+                              Né(e) le :                                                                                               (le numéro est celui qui figure sur la
+                                                                                                                                          convocation ou la liste d’appel)
+
+
+                              Examen ou concours :                                                               Série* :
+  NE RIEN ÉCRIRE
+
+
+
+
+                                                                                                                                                    Numérotez chaque
+                              Spécialité/option :                                                                                                   page (dans le cadre
+                                                                                                                                                    en bas de la page) et
+                              Repère de l’épreuve :                                                                                                 placez les feuilles
+                                                                                                                                                    intercalaires dans le
+                              Épreuve/sous-épreuve :                                                                                                bon sens
+                              (Préciser, s’il y a lieu, le sujet choisi)
+
+                              Note :                      Appréciation du correcteur (uniquement s’il s’agit d’un examen) :
+
+                                                    20
+
+
+
+
+                              * Uniquement s’il s’agit d’un examen.
+
+
+
+
+                                                                                                                                                                 10PT27
+
+
+
+
+                                            CAHIER REPONSE
+
+
+
+
+                                                                                                                    TOURNEZ LA PAGE S.V.P.
+
+                   Il est interdit aux candidats de signer leur composition ou d’y mettre un signe quelconque pouvant indiquer sa provenance.
+
+
+===== page 21 =====
+Document Reponse ENSAM 210x350   2009:Document Reponse ENSAM 210x350   2009    22/01/09   8:54   Page 2
+
+
+
+
+                                      NE RIEN ÉCRIRE                          DANS LA PARTIE BARRÉE
+
+
+
+
+              1.1 - Quel est l’intérêt d’avoir un alternateur de ce type ?
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              1.2 - Dans le cadre du démarrage à froid du moteur, faut-il piloter ou non l’alternateur ?
+              Justifier rapidement votre réponse.
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              1.3 - Citer deux autres composants auxiliaires d’un moteur, préciser, pour chacun, si un
+              pilotage revêt un intérêt.
+              	
+  
+
+              -­‐	
+  	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              -­‐	
+  	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              2.1 - A l’aide des descriptions précédentes et dans le cadre du démarrage du moteur,
+              préciser la position recherchée des actionneurs (B) et (VRi) en justifiant la réponse.
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+
+              	
+                                                                                          1	
+  
+
+
+===== page 22 =====
+Document Reponse ENSAM 210x350              2009:Document Reponse ENSAM 210x350               2009          22/01/09    8:54      Page 2
+
+
+
+
+                                                            NE RIEN ÉCRIRE                           DANS LA PARTIE BARRÉE
+
+
+
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              2.3 - Ecrire un grafcet d’initialisation par fonction (B, AC, MCC, By et VRINIT).
+              	
+  
+
+              Grafcet	
+  pour	
+  B	
+  :	
+            	
+           	
+     	
+     	
+     	
+            	
+           grafcet	
+  pour	
+  AC	
+  :	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              grafcet	
+  pour	
+  MCC	
+  :	
+  	
+   	
+              	
+     	
+     	
+     	
+            	
+           grafcet	
+  pour	
+  By	
+  :	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              grafcet	
+  pour	
+  VRINIT	
+  :	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+
+
+              	
+                                                                                                                                   2	
+  
+                                                                                                                       TOURNEZ LA PAGE S.V.P.
+
+
+===== page 23 =====
+Document Reponse ENSAM 210x350          2009:Document Reponse ENSAM 210x350   2009    22/01/09   8:54   Page 2
+
+
+
+
+                                             NE RIEN ÉCRIRE                          DANS LA PARTIE BARRÉE
+
+
+
+
+              2.4 - Ecrire le grafcet global de gestion de l’ensemble des actionneurs (B, AC, MCC, By et
+              VRINIT) afin de démarrer le moteur.
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              2.5 - Proposer une démarche de dimensionnement de cette liaison en notant C le couple
+              maximal transmissible. La démarche utilisée sera justifiée.
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              Justifications	
+  :	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+
+              	
+                                                                                                 3	
+  
+
+
+===== page 24 =====
+Document Reponse ENSAM 210x350   2009:Document Reponse ENSAM 210x350   2009    22/01/09    8:54   Page 2
+
+
+
+
+                                      NE RIEN ÉCRIRE                          DANS LA PARTIE BARRÉE
+
+
+
+
+              2.6 - Justifier en quelques lignes que l’utilisation d’un vérin rotatif double effet permet de
+              répondre au cahier des charges imposé pour le réglage en continu de la distribution.
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              2.7 - Pourquoi le constructeur propose d’utiliser un vérin rotatif hydraulique et non pas
+              pneumatique ?
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              2.8 - Proposer, sous forme de schémas de principe à main levée la géométrie du distributeur
+              hydraulique rotatif permettant l’alimentation en huile du vérin rotatif, sachant que pour
+              l’application proposée le corps du vérin est en mouvement.
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+
+
+              	
+                                                                                             4	
+  
+                                                                                          TOURNEZ LA PAGE S.V.P.
+
+
+===== page 25 =====
+Document Reponse ENSAM 210x350   2009:Document Reponse ENSAM 210x350    2009    22/01/09   8:54   Page 2
+
+
+
+
+                                       NE RIEN ÉCRIRE                          DANS LA PARTIE BARRÉE
+
+
+
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              2.9 - Proposer une réalisation de la liaison pivot entre les pignons (pignon entraîné par la
+              chaîne et pignon « monobloc ») et le carter du moteur. Pour la conception de cette liaison,
+              il n’y a pas de contraintes fortes associées à la géométrie du carter du moteur ; la
+              géométrie proposée pour cette partie du carter sera définie sur le dessin.
+              2.10 - Proposer une réalisation du système de réglage de la distribution du moteur. Il est
+              demandé de concevoir les liaisons suivantes :
+                            •    le montage du pignon en deux parties sachant que les deux parties du
+                                 pignon sont en liaison pivot par rapport à l’arbre (il n’est pas demandé de
+                                 représenter les ressorts, voir Fig. 5 document ressource II),
+                            •    la liaison entre le pignon et le stator du vérin rotatif (il n’est pas demandé de
+                                 représenter la géométrie exacte de la partie interne du vérin rotatif, voir Fig.
+                                 6 document ressource II),
+                            •    la liaison complète entre le rotor du vérin rotatif et l’arbre à cames.
+              2.11 - Sur le dessin, proposer un positionnement du distributeur rotatif avec les alimentations
+              en fluide. Il n’est pas demandé de dessiner le distributeur.
+              	
+  
+
+              =>	
+  Répondre	
+  sur	
+  le	
+  document	
+  calque	
+  format	
+  A3.	
+  
+
+              	
+                                                                                                5	
+  
+
+
+===== page 26 =====
+Document Reponse ENSAM 210x350         2009:Document Reponse ENSAM 210x350                     2009     22/01/09      8:54     Page 2
+
+
+
+
+                                                NE RIEN ÉCRIRE                                        DANS LA PARTIE BARRÉE
+
+
+
+
+              2.12	
+  -­	
+  Proposer	
+  une	
+  solution	
+  pour	
+  assurer	
+  la	
+  liaison	
+  complète	
+  entre	
+  les	
+  deux	
+  parties	
+  du	
+  
+              pignon	
+  pour	
+  faciliter	
+  le	
+  montage	
+  de	
+  l’ensemble	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              2.13	
+  -­	
+  Proposer	
+  votre	
+  solution	
+  sur	
+  le	
+  document	
+  calque	
+  format	
+  A3	
+  à	
+  main	
+  levée	
+  
+
+              3.1 - Quelles sont les contraintes associées à cette transmission ?
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              3.2 - Pour réaliser cette transmission peut-on utiliser une transmission par courroie ? Si oui,
+              quel type de transmission par courroie proposez vous ?
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              3.3 - Pourquoi le constructeur utilise-t-il une chaîne double ?
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+
+
+              	
+                                                                                                                                       6	
+  
+                                                                                                                    TOURNEZ LA PAGE S.V.P.
+
+
+===== page 27 =====
+Document Reponse ENSAM 210x350   2009:Document Reponse ENSAM 210x350   2009    22/01/09   8:54   Page 2
+
+
+
+
+                                      NE RIEN ÉCRIRE                          DANS LA PARTIE BARRÉE
+
+
+
+
+              3.4 - Cette chaîne double peut être considérée comme deux chaînes utilisées côte à côte.
+              Une chaîne double peut-elle transmettre une puissance double par rapport à une chaîne
+              simple ?
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              3.5 - Quel est l’influence d’une usure de la chaîne et des pignons ?
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              3.6 - Quel est la fonction du tendeur de chaîne ? Le tendeur peut-il compenser l’influence de
+              l’usure de la chaîne et des pignons ?
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              3.7 - Déterminer le rapport de réduction moyen en utilisant les propriétés des deux angles
+              ΔΘ1 et ΔΘ2 définis sur la figure 7.
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+
+              	
+                                                                                          7	
+  
+
+
+===== page 28 =====
+Document Reponse ENSAM 210x350   2009:Document Reponse ENSAM 210x350   2009    22/01/09    8:54   Page 2
+
+
+
+
+                                      NE RIEN ÉCRIRE                          DANS LA PARTIE BARRÉE
+
+
+
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              3.8 - Une transmission par chaîne assure-t-elle un entraînement sans glissement ?
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              3.9 - Le rapport de réduction est-il constant ?
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              3.10 - Ceci peut-il engendrer des vibrations (justifier rapidement votre réponse)?
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+
+
+              	
+                                                                                             8	
+  
+                                                                                          TOURNEZ LA PAGE S.V.P.
+
+
+===== page 29 =====
+Document Reponse ENSAM 210x350   2009:Document Reponse ENSAM 210x350   2009    22/01/09   8:54   Page 2
+
+
+
+
+                                      NE RIEN ÉCRIRE                          DANS LA PARTIE BARRÉE
+
+
+
+
+              3.11 - Citer des matériaux métalliques utilisés dans la fabrication d’un moteur thermique.
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              3.12 - Définir les contraintes techniques associées à l’utilisation de matériaux plastiques. En
+              déduire leur possible utilisation dans ce moteur.
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              3.13 - Définir, pour les composants associés aux éléments « échappement », « admission »,
+              « embiellage » et « carter moteur », des familles de matériaux aptes à l’emploi.
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              3.14 - Justifier l’emploi d’un tel couple matériau procédé.
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+
+              	
+                                                                                           9	
+  
+
+
+===== page 30 =====
+Document Reponse ENSAM 210x350   2009:Document Reponse ENSAM 210x350   2009    22/01/09    8:54   Page 2
+
+
+
+
+                                      NE RIEN ÉCRIRE                          DANS LA PARTIE BARRÉE
+
+
+
+
+              3.15 - Donner le pourcentage d’aluminium dans cet alliage.
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              3.16 - Pourquoi ce critère est important dans le choix de la presse ?
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              3.17 - En vous aidant des figures 9 et 10, proposer un modèle simple pour calculer, lors de la
+              phase de maintien, l’effort généré par la pression P. Vous préciserez, sur un schéma les
+              notations employées.
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+
+
+              	
+                                                                                            10	
+  
+                                                                                          TOURNEZ LA PAGE S.V.P.
+
+
+===== page 31 =====
+Document Reponse ENSAM 210x350   2009:Document Reponse ENSAM 210x350   2009    22/01/09   8:54   Page 2
+
+
+
+
+                                      NE RIEN ÉCRIRE                          DANS LA PARTIE BARRÉE
+
+
+
+
+              3.18 - Proposer une direction de plan de joint (c’est-à-dire une direction d’injection) qui
+              favorise la phase d’injection.
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              3.19 - Calculer l’effort de fermeture minimal de fermeture du moule.
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              3.20 - Proposer un matériau (et sa désignation normalisée) apte au moulage.
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              3.21 - Quels sont les éléments caractéristiques de la géométrie de la pièce qui montrent que
+              cette pièce est réalisée par moulage ?
+              	
+  
+
+              	
+  
+
+              	
+  
+
+
+              	
+                                                                                          11	
+  
+
+
+===== page 32 =====
+Document Reponse ENSAM 210x350        2009:Document Reponse ENSAM 210x350   2009    22/01/09    8:54   Page 2
+
+
+
+
+                                           NE RIEN ÉCRIRE                          DANS LA PARTIE BARRÉE
+
+
+
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              3.22 - Expliquer la désignation normalisée.
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              3.23 - Proposer une mise en position qui permet la réalisation de l’ensemble des surfaces en
+              une seule phase en précisant le repère X,Y,Z sur la pièce (répondre page 13).
+              3.24 - Proposer les différentes orientations de la pièce permettant d’usiner l’ensemble des
+              surfaces. Pour chacune des orientations, vous noterez le repère machine et colorierez les
+              surfaces usinées (répondre page 14).
+              3.25 - Donner les différentes opérations et la liste des outils permettant l’obtention de chaque
+              surface (répondre page 14).
+              	
+  
+
+              Commentaires	
+  :	
+  	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+
+
+              	
+                                                                                                 12	
+  
+                                                                                               TOURNEZ LA PAGE S.V.P.
+
+
+===== page 33 =====
+[OCR] 8:54 Page 2
+
+22/01/09
+
+2009
+
+2009:Document Reponse ENSAM 2}9x350
+
+Document Reponse ENSAM 210x350
+
+DANS LA PARTIE BARREE
+
+NE RIEN ECRIRE
+
+sexe p
+aBeulsn,p aquad.
+
+(.0=€ S0uaIgJ91 Op UOHEIUSLO) NOILLISOd Na ASIN
+
+13
+
+
+
+===== page 34 =====
+[OCR] 8:54 Page 2
+
+22/01/09
+
+2009
+
+2009:Document Reponse ENSAM 2}9x350
+
+Document Reponse ENSAM 210x350
+
+DANS LA PARTIE BARREE
+
+NE RIEN ECRIRE
+
+squng, suonei9dQ,
+
+sjano
+
+suoneigdQ,
+
+=a: p NOILVINATYO
+
+=: € NOILV.LNATYO
+
+s[ano suoneiedQ
+
+Ne)
+
+suoneigdQ,
+
+pot =€ | Z NOLLVLNATYO
+
+=a: | NOLLV.LNAIYO
+
+STLNO.C ALSIT Y SNOLLVUAdO “AOdId WT AG SNOLLVLNATYO
+
+14
+
+TOURNEZ LA PAGE S.V.P.
+
+
+
+===== page 35 =====
+Document Reponse ENSAM 210x350        2009:Document Reponse ENSAM 210x350   2009    22/01/09   8:54   Page 2
+
+
+
+
+                                              NE RIEN ÉCRIRE                       DANS LA PARTIE BARRÉE
+
+
+
+
+              3.26 - Expliciter la tolérance 40±0,5 extraite du dessin de définition partiel document
+              ressource V.
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              3.27 - Expliciter les 2 tolérances extraites du dessin de définition partiel document
+              ressource V en respectant la décomposition suivante :
+                              •   Donner le nom de la caractéristique tolérancée.
+                              •   Définir les éléments tolérancés.
+                              •   Définir les éléments de référence.
+                              •   Définir les références spécifiées.
+                              •   Définir la forme de la (ou des) zone(s) de tolérance et les contraintes
+                                  d’orientation et/ou de position de la (ou des) zone(s) de tolérance par rapport
+                                  au système de références spécifiées.
+              	
+  
+
+              =>	
+  Répondre	
+  pages	
+  16	
+  et	
+  17.	
+  
+
+                       	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+              	
+  
+
+
+
+
+              	
+                                                                                               15	
+  
+
+
+===== page 36 =====
+[OCR] 8:54 Page 2
+
+22/01/09
+
+2009
+
+2009:Document Reponse ENSAM 2}9x350
+
+Document Reponse ENSAM 210x350
+
+DANS LA PARTIE BARREE
+
+NE RIEN ECRIRE
+
+uonluyap op uyssap np arene
+euURnyDS
+
+aairoods’
+souaugyau Be uoddes sed
+
+S9UBID|O 9p 9UOZ P|
+
+uonrsod uoneyuati0 a9soduros aurgysks sopdyynut adnoxd sno} 4aNHIS 8 Yop FoUeI9]0} uALZ|D
+saquyesju0D aids ounuiuwos — ajduns anbiun onbrun 2 9}TWLIOJUOD ap UOHIpUOD,
+quouraneg, wonrsod
+(s)aayrogds a9ua.9j94 (s)gouei9{0 1 woneIuaL0 outs0y
+99UBAJO} 9p UOT (s)aoua.939e ap syuawiayy syuouay a uoneayiogds ap adAy,
+
+xnwgpr syuautayy
+
+<o[apoUr UNS > Np SHENK
+xnegp! wou syuowig|q
+
+uoneayioads vy ap ajoquidg
+
+‘aUA910) ap 9U0Z red UOHEALIIpdS ouN,p asATeUY
+
+AST TVINAON LNAWADNVAATION,
+
+16
+
+S.V.P.
+
+3
+
+TOURNEZ LA PAG
+
+
+
+===== page 37 =====
+[OCR] 8:54 Page 2
+
+22/01/09
+
+2009
+
+2009:Document Reponse ENSAM 2}9x350
+
+Document Reponse ENSAM 210x350
+
+DANS LA PARTIE BARREE
+
+NE RIEN ECRIRE
+
+UoRUygp op uIssap np stesNXg
+eUrgys
+
+Doopds
+aauargyga ve] e Moddes sed
+
+9uoz e suep ronUD
+
+uonisod uoneyuerio a9soduos auiasks sodnyjnut adnoid JS 98 Hop 991EI9]0} 19LD]>, 7
+sayuresyu0D, ojduns sunumuos — ajduns anbrun anbrun 1 9)IW10JUO0D ap UOHIpUoD,
+JuauonEg TonIsod
+(saayroads aauazgy94 (s)goueagoL uoneyuaT0 dusOy
+aaues9[0} ap au07, (s)aauaagj9y ap sjuawigyy squawiay ay uoneayiads ap adAy,
+
+xnv9p! sjusW9TT
+
+“d[Qpour UPJS > Ap STEAK,
+xnegp! uou syuowg[q
+
+uoneayioads ve] ap aoquidg
+
+‘20ue.
+
+3} ap auoz aed woRLaIHI9ds uN,p
+
+Aeuy
+
+SIIVINUON LNAIWIINVATIOL
+
+17
+
+
+
+===== page 38 =====
+[OCR] 
+
+===== page 39 =====
+[OCR] 
+
+===== page 40 =====
+[OCR] DOC REPONSE R V inverse 25/01/08 9:21 Page 1
+
+Académie :
+
+Modéle EN.
+
+Examen ou Concours
+
+Série* :
+
+Spécialité/option :
+
+Repére de I’épreuve :
+
+Epreuve/sous-épreuve :
+
+NE RIEN ECRIRE
+
+w
+5
+
+8 NOM :
+
+S Ten majuscules, suivi s7Ty a lieu, du nom W’épouse)
+
+9 Prénoms : N° du candidat
+
+z Neéle) le : Tie nurniro oat call ul igure sur la
+4 convocation outo hate appe!
+
+NE RIEN ECRIRE
+
+fan
+
+~~ én liaison pivot
+avec le carter du moteur
+
+Arbre entrainé
+
+DANS LA PARTIE BARREE
+
+Limite du carter moteur
+Sees
+
+! Pignon en deux parties
+ee
+
+Arbre a cames '
+
+rn
+
+, —=——__ Pignon "monobloc"
+
+Pignon entrainé par la chaine
+
+Document calque : Etude de conception (échelle 1)
+
+—h—
+

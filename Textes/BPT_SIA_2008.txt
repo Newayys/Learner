@@ -1,0 +1,1739 @@
+
+===== page 1 =====
+[OCR] 25NA
+
+% Banque filitre PT #*
+
+Epreuve de Sciences Industrielles A
+
+Durée 5h
+
+Si, au cours de I’épreuve, un candidat repére ce qui lui semble étre une erreur d’énoncé, d’une part il
+le signale au chef de salle, d’autre part il le signale sur sa copie et poursuit sa composition en
+indiquant les raisons des initiatives qu’il est amené 4 prendre.
+
+L’usage de calculatrices est autorisé.
+
+Aucun document n’est autori:
+
+Ce document se compose :
+
+- d’une présentation du sujet : 5 pages ;
+
+- du travail demandé (4 parties indépendantes I, II, III et IV) : 21 pages ;
+- des annexes : 2 pages ;
+
+- un cahier réponses a rendre avec votre copie : 10 pages.
+
+Tl est demandé au candidat :
+
+- de traiter chacune des parties sur des copies séparées en indiquant sur celles-ci le numéro de la partie
+correspondante ;
+
+- de formuler toutes les hypothéses qu’ il jugera nécessaires pour répondre aux questions posées ;
+
+- de rédiger tous les calculs en littéral avant de faire, si elles sont demandées, les applications
+numériques ;
+
+- d’encadrer les réponses finales.
+
+La présentation, la lisibilité, l’orthographe, la qualité de rédaction, la clarté et la précision des
+raisonnements entreront pour une part importante dans l’appréciation des copies. En particulier, les
+résultats non justifiés ne seront pas pris en compte.
+
+Tournez la page S.V.P.
+
+
+
+===== page 2 =====
+[OCR] 
+
+===== page 3 =====
+PRÉSENTATION
+                                   Système de distribution à calage variable
+                                   pour moteur quatre temps
+
+
+
+    Le moteur à combustion interne (cf. Figure 1), encore appelé moteur à explosion, est utilisé pour assurer la
+propulsion de la plupart de nos véhicules actuels. Il transforme l’énergie thermique, due à la combustion d’un mélange
+carburé avec de l’air, en énergie mécanique, utilisée pour actionner les roues du véhicule. Pour cela, la pression générée
+par la combustion permet la mise en mouvement d’un piston dont le déplacement alternatif est transformé en rotation
+par l’intermédiaire d’un système bielle-manivelle schématisé sur la Figure 2.
+
+
+
+
+                                 Figure 1 • Moteur 6 cylindres en ligne (© BMW 2006)
+
+
+
+1    Principe de fonctionnement d’un moteur quatre temps
+    La Figure 2 présente le moteur dans les deux positions extrêmes du piston, appelées point mort haut (PMH)
+et point mort bas (PMB). Le mouvement du piston dans sa chambre de combustion (ou cylindre) est transmis
+sous forme de rotation à l’arbre moteur (ou vilebrequin, angle de rotation v ) par l’intermédiaire d’une bielle. Le
+système de distribution représenté comporte une soupape d’admission et une soupape d’échappement qui per-
+mettent respectivement d’assurer le remplissage du cylindre en mélange carburé puis l’évacuation des gaz après com-
+bustion. Dans la réalité, le moteur comporte plusieurs cylindres dont chacun compte plusieurs soupapes d’admission
+et d’échappement. Afin de simplifier la présentation, un seul cylindre, alimenté par une soupape d’admission et une
+soupape d’échappement, a été représenté.
+
+
+===== page 4 =====
+[OCR] soupape soupape
+
+d'admission d’échappement
+iston
+Pi N~ Al
+‘PMH.
+eylindre course
+PMB.
+bielle 8y
+
+vilebrequin IO}
+
+as
+Figure 2 ¢ Schématisation du moteur dans les deux positions extrémes du piston
+
+Le fonctionnement du moteur est régi a la fois par des paramétres dynamiques, liés & la cinématique du syst¢me
+bielle-vilebrequin, et par des paramétres thermodynamiques, liés aux transformations du mélange gazeux dans la
+chambre de combustion. La grande majorité des moteurs @ combustion interne fonctionne suivant un cycle 4 quatre
+temps done les caractéristiques sont représentées sur la Figure 3. Les quatre phases de fonctionnement du cycle
+théorique sont :
+
+(a) admission : aprés ouverture de la soupape d’admission (OA), le piston descend, créant une dépression qui
+aspire dans la chambre de combustion le mélange d’air et d’essence. La soupape d’échappement reste fermé
+
+(b) compression : aprés fermeture de la soupape d’admission (FA), le piston remonte, comprimant les gaz enfermés
+dans la chambre de combustion ;
+
+(©) explosion puis détente : la bougie crée une étincelle qui enflamme les gaz comprimés (allumage All). La
+combustion se développe et la pression croit rapidement. La soupape d’admission et la soupape d’échappement
+étant toujours fermées, la détente des gaz pousse le piston vers le bas ;
+
+(4) échappement : l’ouverture de la soupape d’échappement (OE) provoque une évacuation des gaz brilés sous
+
+Veffet de leur propre pression, suivie d’une poussée du piston qui remonte. La soupape d’admission reste
+fermée. La fermeture de la soupape d’échappement, lorsque le piston a atteint sa position haute, conclue le
+
+cycle.
+(a) admission (b) compression (c) explosion, détente (d) échappement
+
+Figure 3 ¢ Les 4 temps du fonctionnement du moteur
+
+2 Présentation
+
+
+===== page 5 =====
+[OCR] 2 Systeme de distribution classique
+
+Le pilotage du mouvement des soupapes par rapport & celui du piston est réal
+Celui-ci pilote donc I’évolution de la section de passage du mélange carburé en définissant la levée de Ia soupape h en
+fonction de l’angle de rotation du vilebrequin 6,. La Figure 4 schématise un systéme de distribution classique dans
+lequel une came (encastrée sur un arbre & cames) vient actionner un linguet par ’intermédiaire d’un galet, ce qui
+permet le déplacement de la soupape. Un ressort situé entre la soupape et le carter du moteur (ou culasse) permet
+de maintenir les cont: soupape-linguet et linguet-came. La synchronisation de la rotation du vilebrequin et des
+arbres & cames (qui actionnent la soupape d’admission et celle d’échappement) est assurée par un syst?me de type
+poulie-courroie ou poulie-chaine sur la plupart des modéles de véhicules actuels.
+
+came poulie d'arbre
+
+A cames
+
+arbre & cames
+
+ressort,
+
+culasse
+
+soupape galet de
+
+réglage
+
+galets
+‘enrouleurs
+
+poulie du
+vilebrequin
+
+Figure 4 ¢ Systtme de distribution et synchronisation par poulie-chaine
+
+Pour la soupape d’admission, la loi de levée idéale, représentée sur la Figure 5(a) haut, serait celle qui offre la
+section débitante maximale durant toute la phi se de transvasement, avec des instants d’ouverture et de fermeture de
+la soupape qui correspondent aux positions extremes (PMH ou PMB) du piston. Cependant, une telle loi présente des
+vitesses et accélérations infinies, ce qui la rend physiquement irréalisable. De plus, la prise en compte de I’inertie des
+gaz, de leur temps d’inflammation, des échanges thermiques entre l’intéricur de la chambre et I’extéricur... font que
+la loi de levée réelle est plus proche de celle représentée sur la Figure 5(a) bas. On remarque que l’ouverture de la
+soupape est en avance par rapport & sa position théorique et la fermeture en retard. L’étalement de la loi de levée
+désigne la taille de la plage durant laquelle la soupape est ouverte tandis que le calage désigne la position de cette
+zone par rapport & l’angle de rotation du vilebrequin.
+
+La Figure 5(b) représente le cycle réel du moteur quatre temps dans un diagramme « pression des gaz dans la
+chambre — volume de la chambre » sur lequel sont placés les différents points caractéristiques définis précédemment.
+
+Le systéme de distribution joue donc un réle central dans le fonctionnement du moteur puisque, en définissant
+V’étalement et le calage des soupapes, il influe sur le comportement du syst¢me et notamment sur :
+
+— les performances, que l’on cherche & augmenter, pour une consommation de carburant donnée ;
+— les émissions polluantes, que I’on cherche & diminuer, pour répondre aux normes antipollution.
+
+Les réglages optimaux du calage et de I’étalement dépendent de nombreux paramtres, qui varient au cours du
+fonctionnement du moteur (régime, charge, température...). L’idéal serait donc de les optimiser en permanence en
+fonction de ces paramtres. Sur la majorité des véhicules actuels, on se contente d’introduire un déphasage constant
+
+Présentation 3
+
+
+===== page 6 =====
+       h                                                         pression
+                             étalement
+
+
+
+                            loi de levée
+                 OA            idéale            FA
+
+                      PMH                  PMB              θv
+             calage
+                                                                            All
+       h
+                            étalement                                                                       OE
+
+                                                                              OA               ent          FA
+                                                                                       échappem
+                            loi de levée
+           OA                  réelle                 FA
+                                                                              FE
+                      PMH                  PMB              θv               PMH                       PMB       volume
+           calage
+              (a) Loi de levée de la soupape d’admission                     (b) Cycle du moteur quatre temps
+
+
+                                     Figure 5 • Correspondance entre cycle et loi de levée
+
+
+entre l’arbre à cames et le vilebrequin. Ce calage « moyen » permet d’obtenir des performances et une consommation
+honorables sur toute la plage d’utilisation du moteur, mais la course à la performance et les normes antipollution de
+plus en plus sévères ont amené les constructeurs à se tourner vers des systèmes de distribution à calage variable,
+c’est-à-dire susceptibles d’optimiser en permanence le calage en fonction du régime moteur et des autres paramètres
+influents.
+
+
+3    Système de distribution à calage variable
+3.1 Introduction
+    On trouve des systèmes de déphasage chez un nombre croissant de constructeurs automobiles et notamment
+chez BMW (système Vanos), PSA (EW10A, ES9A), Honda (VTEC), Toyota (VVT-i), Ford (Sigma Zetec-SE) ou
+Renault (K4)... Ils permettent un réglage optimisé du calage des soupapes en fonction du régime moteur et des autres
+paramètres influents. Pour des raisons de coût, il n’était souvent implanté que sur le système de soupapes d’admission
+mais son implantation sur la distribution associée aux soupapes d’échappement tend à se généraliser. On retrouve
+actuellement le système Vanos sur différents modèles tels que le coupé haut gamme Z4 de chez BMW présenté sur la
+Figure 6.
+
+
+
+
+                                           Figure 6 • Coupé Z4 de BMW (© BMW 2006)
+
+
+===== page 7 =====
+[OCR] 3.2. Principe de fonctionnement
+
+La Figure A.1 de I’Annexe A présente I’implantation du syst@me au sein du moteur tandis que la Figure A.2 de
+V’Annexe A schématise le fonctionnement du mécanisme pour un des deux arbres & cames.
+
+Le systéme est installé entre la poulie 1, entrainée par la chaine de distribution, et l’arbre & cames 2, qui ne
+sont done plus solidaires comme dans un syst#me de distribution classique. Un systéme électro-hydraulique (servo-
+distributeur) permet de commander le déplacement x3 du piston 3 par rapport & la culasse 0, ce qui impose un
+déplacement longitudinal au coulisseau 4. Celui-ci est relié & la poulie 1 par des cannelures hélicoidales et & l'arbre &
+cames 2 par des cannelures droites. Cette cinématique particuligre permet de transformer le déplacement x3 du piston
+en un déphasage AO entre I’angle de rotation de la poulie @; et celui de l’arbre & cames 82.
+
+Le caleulateur du véhicule détermine le calage optimal (et done le déphasage A@ correspondant) en fonetion
+du régime du moteur et des autres paramétres influents. L’électro-aimant du servo-distributeur est alors actionné par
+un courant électrique de commande, généré par une électronique de contrdle qui corrige le déphasage de I’arbre &
+cames en fonction de la consigne générée par le calculateur et des mesures des positions angulaires du vilebrequin 6,
+et de arbre & cames 02. Ces mesures sont réalisées par deux capteurs de position angulaire (non représentés sur la
+Figure A.2) et les angles de rotation de la poulie 0; et le déphasage AO s’en déduisent aisément.
+
+Travail demandé
+
+Apres une lecture détaillée du sujet (durée conseillée 30 min), cette étude est l’occasion de traiter quatre parties
+indépendantes, elles-mémes constituées de nombreuses questions qui peuvent @tre traitées s¢parément :
+
+— la Partie I (durée conseillée 30 min) propose une analyse fonctionnelle partielle externe et interne de celui-ci
+qui permettra d’appréhender les interactions entre les différents éléments constitutifs ;
+
+— la Partie II (durée conseillée 2h) détaille les aspects cinématiques et dynamiques du syst#me avant d’entamer
+Vétude du risque d’affolement de la distribution afin d’en déduire la puissance nécessaire au pilotage du syst’me
+de déphasage puis de commenter les choix technologiques qui ont été faits pour celui-ci ;
+
+— la Partie III (durée conseillée 1h30) aborde le contréle du systéme de déphasage et est 1’ o«
+les performances de celui-ci en termes de rapidité et de précision ;
+
+sion d’analyser
+
+— la Partie IV (durée conseillée 30 min), enfin, s’intéresse aux capteurs de position angulaire qui sont utilisés,
+ainsi qu’A la technologie de multiplexage employée pour éviter un cablage électrique trop important dans le
+véhicule.
+
+Présentation
+
+wn
+
+
+===== page 8 =====
+             I
+PARTIE
+                           Analyse fonctionnelle du système de
+                           déphasage
+
+
+
+I.1 Analyse fonctionnelle externe
+     La prestation attendue est réalisée pendant la phase de vie « accélération maximale » dont la caractérisation par-
+tielle des principales fonctions de service est donnée par les Figure I.1 et Figure I.2.
+
+                                                                              Arbre
+                                            Poulie
+                                                                             à cames
+
+
+                                                         FU 1                   FU 2
+                    Environnement                                                               Huile
+                                            FA 4                                  FA 5
+
+                                                                Système de
+                                                                déphasage              FA 2
+                                          FA 3
+                       Normes                                                                  Durites
+                                                                         FA 1
+
+
+
+                                         Calculateur                         Culasse
+
+
+                  Figure I.1 • Diagramme APTE partiel - Phase de vie « accélération maximale »
+
+
+
+
+                                                     ’
+
+
+
+
+                            Figure I.2 • Caractérisation partielle des fonctions de service
+
+
+===== page 9 =====
+[OCR] J[Question 1] Expliquer, en au plus 5 lignes, I'utilité de caractériser les fonctions de service et les éléments du
+milieu extérieur qui interviennent dans un diagramme AP’
+Expliquer, en au plus 5 lignes, pourquoi analyse fonctionnelle externe d’un syst?me née
+réalisation de plusieurs diagrammes APTE.
+
+1.2 Analyse fonctionnelle interne
+
+La Figure 1.3 représente le diagramme SADT niveau A-0 du syst8me de distribution incluant le systtme de
+déphasage.
+
+a
+2 2o 33
+fe [8 2
+slg 22 55
+els 58 ge
+ys BS 2 2
+sls al= |B. 2p
+sie lg oe EES
+Sf Sle ele rae
+g2 SR Bie td
+gs BS = bal
+x alg Ale &
+Consigne fournie Fuites hydrauliques
+
+par le calculateur
+
+Puissance mécanique de rotation
+FUI et FU2) Semen roe
+transmise & Varbre & cames 2
+
+seas meses |
+Totation fournie par Ta poulie 1 Mouvement controlé
+de larbre A cames 2
+
+Systéme de
+déphasage
+
+ure 1.3 ¢ Diagramme SADT A-0 du systéme de distribution avec systéme de déphasage
+
+A partir de la description fournie dans la Présentation, compléter le diagramme SADT niveau AO
+du syst#me de déphasage sur la Figure 1 du Cahier Réponses. Vous préciserez clairement les flux
+reliant les 4 actigrammes.
+
+Partie I 7
+
+
+===== page 10 =====
+                                                     
+                                            
+                                
+                                           
+
+
+                                                         
+         
+                     
+             →
+                                                         
+→                                        →
+              →                                          
+                                                              
+
+
+===== page 11 =====
+[OCR] [Question 4
+
+En la supposant constante, déterminer la valeur numérique de l’accélération maximale Pmrax du
+véhicule par rapport au sol durant cette phase. En comparant ordre de grandeur de la force
+diinertie d’entrainement & celui de l’effort mis en jeu, conclure dans ce cas quant 2 la validité
+de ’hypothése qui consiste & supposer Ro galiléen.
+
+Dans tous les cas, dans la suite du sujet, le référentiel Ro sera supposé galiléen.
+
+A partir des explications du fonctionnement du moteur et du syst8me de distribution (voir
+Présentation ct Partie 1), montrer que l’angle de rotation 8) de I'arbre & cames 2 est relié &
+@,, celui du vilebrequin, et au déphasage A@ par une équation de la forme :
+
+@) = A8, + AB
+
+dans laquelle } est une constante dont on précisera la valeur numérique.
+
+11.3 Calcul du régime d’affolement de la distribution
+
+A haut régime du moteur, les effets d’inertie dus aux mouvements des différentes pices peuvent étre suffisamment
+importants pour provoquer des décollements entre les organes de distribution. On parle d’affolement de soupapes
+Ce phénomine se traduit par une désynchronisation de la distribution, ce qui conduit & une perte de puissance, mais
+
+parfois au:
+
+une casse du moteur.
+
+La Figure II.1 schématise le pilotage de la soupape par came et linguet. On note 2 la came (encastrée sur l’arbre &
+cames 2 de la Figure II.3), 5 le galet, 6 le linguet et 7 la soupape, tous supposés indéformables. Le ressort, déformable,
+
+est noté 8.
+
+Ic
+1 IG
+7
+
+Figure II.1 « Pilotage de la soupape par came et linguet
+
+Partie IT
+
+
+===== page 12 =====
+[OCR] La culasse 0 est munie du repére Ro = (A, 0,330, 20)-
+
+© La came 2 est liée & la culasse 0 par une liaison pivot d’axe (A, Xo). Le repere lié Ro = (A,X, 32,22) est tel que
+¥) = Xp et on note 8 = (5,5) = (So, 2). Le rayon de la partie cylindrique de la came est noté r.
+
+© Le linguet 6 est lié & la culasse 0 par une liaison pivot d’axe (B,%o). Le repére lié Re = (B,X¢, Yo, Z5) est tel que
+Xp = Xp et on note 05 = (o,¥e) = (Zo,Z). La masse du linguet est mg et son moment d’inertie par rapport &
+axe (B,Xg) est Is.
+
+« Le galet 5 est lié au linguet 6 par une liaison pivot d’axe (C,Xo). Le reptre lié Rs = (C,X5,,%5,25) est tel que
+25 = Xo et on note O5 = (36,9) = (%, Zs). Le centre de gravité du galet est C, son rayon rs, Sa masse ms et son
+moment d’inertie par rapport a l’axe (C,x5) est Js.
+
+La soupape 7 est ison pivot glissant d’axe (G, Yo). Le repere lié Ry = (G,¥1,¥7,21)
+
+est tel que 37 = jp et sa position est repérée par la loi de levée h = -FD
+
+Figure I1.2). La masse de la soupape est 17.
+
+Ja culasse 0 par une li
+
+# Le contact entre la came 2 et le galet § a lieu en / et est modélisé par une liaison sphére-plan d’axe (J, i) ot
+le repre (/, 1, ¥,X5) est tel que # soit normal a la surface de contact en J. On note BJ = Ui + V¥, ot U(82) et
+V (02) sont des fonctions de l’angle de rotation 0). L’action mécanique du galet § sur la came 2 est modélisée
+par un glisseur d’axe (J, ii) et de résultante F (5 — 2) = Fyil.
+
+Le contact entre le linguet 6 ct la soupape 7 a licu en E et est modélisé par une liaison sphére-plan d’axe (E34).
+L’action mécanique de la soupape 7 sur le linguet 6 est modélisée par un glisseur d’axe (E,¥7) et de résultante
+F(1 = 6) = Fey.
+
+* Le ressort 8 agit entre la culasse 0 et la soupape 7. On modélise son action mécanique sur la soupape 7 par un
+glisseur d’axe (G, 7) et de résultante F(8 > 7) = (Fy + kh+ “*h)i7, ot Fo > O est la précharge, k la raideur et
+48 est un terme qui modélise l'influence de la masse mg du ressort (qui n’est pas négligeable devant celle des
+autres solides).
+
+© Onnote : BC = (Zs, BD = Lis, BF = Ly et DE = —rej, 00 C, L, re sont des constantes.
+
+Dans les questions qui vont suivre, toutes les liaisons
+
+ont considérées parfaites.
+
+La loi de levée (82) de la soupape en fonction de l’angle de rotation de I’arbre & cames est représentée sur la
+
+Figure II.2. La fonction h(82) est symétrique par rapport & I’axe 8 = % et constituée sur [2,4] de deux paraboles.
+
+hi@2)
+Anna
+&® 1
+0s) = trnex| 2a 9) sur [3
+hrmax|6(2— 5) -2| sur |
+6 3 Fe &
+
+Figure II.2 © Loi de levée h(02) de la soupape
+
+Le mouvement du systéme est complétement défini par la loi de levée (82) et par la vitesse angulaire de la
+came 2 = 6) supposée constante. On se propose de déterminer «2 7, la plus petite vitesse «2 pour laquelle un des
+contacts risque d’étre rompu. Ceci permettra de dimensionner Ie ressort de rappel de fagon & repousser ce phénoméne
+a une vitesse hors de la plage d’utilisation du moteur.
+
+10 Partie IT
+
+
+===== page 13 =====
+                    
+  ∪                                ℓ
+
+
+                                               ∪
+
+
+
+
+      ≈       ≪       ≈−
+
+
+
+′
+
+                  
+                           ′
+
+
+
+
+                                       ′
+
+
+
+
+                               ℓ
+                                           −
+          −
+      −                                        −
+
+
+===== page 14 =====
+                                  y0            1
+                                                                                         2
+                                                        P
+                                       z0
+                                                +                +                                                 x0
+                                  O                          Q       A       4
+                      0
+                                                    3
+
+
+                               Figure II.3 • Schéma cinématique du système de déphasage
+
+    • La culasse 0 est munie du repère R0 = (O,x0 ,y0 ,z0 ).
+
+    • La poulie 1 est liée à la culasse 0 par une liaison pivot d’axe (O,x0 ). Le repère lié R1 = (O,x1 ,y1 ,z1 ) est tel
+      que x1 =x0 et on note 1 = (y0 ,y1 ) = (z0 ,z1 ). La masse de la poulie est m1 et son moment d’inertie par rapport
+      à l’axe (O,x1 ) est I1 .
+
+    • L’arbre à cames 2 est lié à la culasse 0 par une liaison pivot d’axe (O,x0 ). Le repère lié R2 = (O,x2 ,y2 ,z2 ) est
+      tel que x2 = x0 et on note 2 = (y0 ,y2 ) = (z0 ,z2 ). La masse de l’arbre à cames est m2 et son moment d’inertie
+      par rapport à l’axe (O,x2 ) est I2 .
+
+    • Le piston 3 est lié à la culasse 0 par une liaison sphère-cylindre d’axe (P,x0 ). Le repère lié R3 = (P,x3 ,y3 ,z3 )
+      est tel que x3 =x0 . La masse du piston est m3 et son moment d’inertie par rapport à l’axe (P,x3 ) est I3 .
+
+    • Le coulisseau 4 est lié à la poulie 1 par une liaison glissière hélicoı̈dale d’axe (A,x0 ), au piston 3 par une
+      liaison appui-plan de normale x0 et à l’arbre à cames 2 par une liaison glissière de direction x0 . Le repère lié
+                                                                                                                −→
+      R4 = (Q,x4 ,y4 ,z4 ) est tel que x4 = x0 , on note  = 4 = (y1 ,y4 ) = (z1 ,z4 ) et enfin x4 = QA ·x4 . La masse du
+      coulisseau est m4 et son moment d’inertie par rapport à l’axe (Q,x4 ) est I4 . Le pas pas de la liaison glissière
+      hélicoı̈dale entre le coulisseau 4 et la poulie 1 est un pas à droite (pas > 0 exprimé en unité de longueur par
+      tour).
+
+    Dans les questions qui vont suivre, toutes les liaisons sont considérées parfaites.
+
+  Question 13        Établir le graphe des liaisons du mécanisme de la Figure II.3 (pièces 0, 1, 2, 3, 4).
+
+
+
+  Question 14        Déterminer le degré d’hyperstatisme et le nombre de mobilités de ce modèle. On précisera la
+                     démarche utilisée et la nature des différents termes qui interviennent dans les relations.
+
+
+
+II.5 Détermination de l’effort de commande
+     On considère toujours le modèle présenté sur la Figure II.3 et on cherche à déterminer l’effort que doit fournir le
+vérin 3 afin de déphaser l’arbre à cames 2, ainsi que l’effort axial au niveau de la liaison glissière hélicoı̈dale entre 1
+et 4, ce qui permettra de dimensionner celle-ci. Pour cela, on modélise les actions mécaniques extérieures au modèle
+de la manière suivante :
+
+    • l’action mécanique de la chaı̂ne C sur la poulie 1 :
+                                             F(C → 1)                               F(C → 1) ·x0 = 0
+                                                                               
+                           T (C → 1) =                               avec            
+                                            M(A,C → 1) A                              M(A,C → 1) = MC x0
+    • l’action mécanique de l’huile H sous pression sur le piston 3 :
+                                              F(H → 3)                               
+                                                                               
+                                                                                      F(H → 3) = FH x0
+                             T (H → 3) =                        avec
+                                             M(P, H → 3) P                            
+                                                                                      M(P, H → 3) = 0
+
+
+===== page 15 =====
+                                                  
+                                            
+                        →                              →       
+    →                                             
+                         →                                 →       
+
+
+                              
+                                                  
+                                              
+                                              
+
+
+                                     
+                                                  
+                                         →
+                        →                →
+
+
+
+
+   →                                                                 
+
+
+===== page 16 =====
+[OCR] _< |
+NP 4
+4
+
+/ 4
+el ls
+
+Figure 11.4 ¢ Cannelures hélicoidales
+
+On se place dans le cas oi1 64 > 0 et ott le contact entre 1 et 4 a lieu sur le flanc de cannelure contenant le
+point M (cf. Figure II.4). On considére un élément de surface dS entourant un point M de la surface de contact S.
+
+Question 17) Exprimer dans la base locale (f,7,Z) les composantes normale dN et tangentielle d7’ de I’action
+mécanique exercée par la poulie 1 sur le coulisseau 4 au travers de dS.
+
+Question 18 En supposant la hauteur de la cannelure ¢ est petite devant le rayon rmoy, exprimer l’effort axial
+X14 = F(1 4) -%; et le moment Li4 = M(A, 1 — 4) 4 exercés par la poulie 1 sur le coulisseau
+4.en fonction de rmoy,, 9, p et S.
+
+En déduire la relation qui lie le moment L14 & ’effort axial X14 en fonction de rinay, & et . Pour
+simplifier cette relation, on utilisera & bon escient l’égalité :
+
+itl
+
+tana +tanb
+
+tan(a +b) = 7
+
+tanatanb
+
+On cherche a étudier si le moment La = M(A,2 ~ 4) -%4, exercé par l’arbre & cames 2 sur le coulisseau 4, peut
+conduire & une translation du piston 3 par rapport & la poulie 1 et done & introduction d’un déphasage.
+
+Exprimer la puissance motrice P,, développée par le moment moteur Lz4 dans le mouvement de
+4 par rapport & 1. Exprimer la puissance réceptrice P, développée par l’effort récepteur X34 =
+
+F(3 — 4) -Xq dans le mouvement de 4 par rapport & 1. Exprimer dans ce cas le rendement n de la
+
+liaison glissiére hélicoidale en fonction de Pp, et P,.
+
+Question 21] _ A partir des expressions précédentes et en appliquant le principe fondamental de la dynamique au
+coulisseau 4 (en négligeant les termes d’inerties par rapport aux actions mécaniques mises en jeu),
+montrer que le rendement y peut s’exprimer en fonction de a et par la relation :
+
+tan(a— 9)
+tana
+
+14 Partie IT
+
+
+===== page 17 =====
+[OCR] En fonction de la valeur des parametres @ et $, discuter la possibilité d’introduire un déphasage
+
+entre la poulie 1 et l’arbre & cames 2 en appliquant un moment L4 sur le coulisseau 4.
+
+Dans le systéme de déphasage de la Figure A.2 de I’ Annexe A, le contact au niveau des cannelures hélicoidales
+est lubrifié et se fait entre deux aciers. Le coefficient de frottement est f = 0,1. Le rayon moyen sur lequel est calculé
+Dangle d’hélice ot est rmoy = 2 em. On souhaite pouvoir introduire un déphasage A@ entre l’arbre & cames 2 et la poulie
+1 qui peut aller jusqu’a 15°.
+
+Calculer angle d’hélice maximal ety, qui permet d’ avoir un syst#me dans lequel le moment exercé
+par arbre & cames 2 sur Je coulisseau 4 ne risque pas de faire varier le déphasage. Calculer la
+course du piston correspondante, notée cj, et commenter ce résultat.
+
+Dans le syst#me réel, l’angle d’hélice est co = 20°. Comme représenté sur la Figure A.1 de l’Annexe A, le vérin
+3 est piloté par un servo-distributeur commandé par un électro-aimant, qui permet de transformer le signal électrique
+d’entrée en un débit proportionnel de fluide. La partie distributeur est de type 4/3 & centre fermé avec un retour au
+repos commandé par un ressort de centrage.
+
+Question 24 Calculer la course réelle du piston, notée c. Le moment exercé par |’arbre 4 cames sur le coulis-
+seau risque-t-il de faire varier le déphasage ? Commenter l'utilisation du servo-distributeur décrit
+précédemment.
+
+Proposer une modification du systtme qui permettrait de conserver l’irréversibilité tout en dimi-
+
+nuant la course.
+
+Partie IT 15
+
+
+===== page 18 =====
+[OCR] PARTIE
+Contrdle du systeme de déphasage
+
+L'objectif de cette partie est de définir l’architecture du systtme de commande et de déterminer les valeurs
+numériques de certaines caractéristiques afin d’obtenir un asservissement en poursuite du déphasage. On rappelle
+que I’actionneur utilisé pour réaliser le déphasage A@ de I’arbre 2 cames est un vérin hydraulique double-effet piloté
+par un servo-distributeur. La consigne de déphasage AQ, a obtenir est calculée & partir de diverses informations pro-
+venant de capteurs de position angulaire implantés sur le vilebrequin (mesure de 6,) et sur l’arbre & cames (mesure de
+82), de capteurs thermiques implantés a différents endroits dans le moteur et du capteur d’enfoncement de la pédale
+@accélération (consigne du conducteur...). La gestion de ces informations n’est pas abordée dans 1’étude proposée.
+
+III.1_ Notations et hypothéses
+
+On notera, lorsque cela est possible, les fonctions dans le domaine temporel par des lettres minuscules (e.g. i(t))
+et sa transformée de Laplace par une lettre majuscule (soit /(p)).
+
+On réalise dans cette Partie III un modéle aux variations, on considérera donc des conditions initiales nulles.
+
+Le schéma d’asservissement du processus physique et des différents bouclages réalisés est donné sur la Fi-
+gure IIL1.
+
+Capreur de Vers le
+position du
+
+silebreguia calculateur
+
+mot)
+
+Oxte) Rapport de] 0,(1)
+
+reduction
+pouliechaine
+xi) Coulweaee] 0/1) 64)
+
+Verin ‘annelures
+hnlicoidales
+
+Att) | Gainde [Hel cy &(t) it) [seo |_ate
+ae " moister} oy tate
+
+commande
+
+Capieur de
+position de
+lnarbre  cames
+
+rolt)
+
+matt)
+
+Rapport de
+reduction
+poulie-chaine
+
+TNT
+
+Figure III.1 ¢ Schéma bloc de l’architecture du systtme
+
+On précise :
+A0,(t) : consigne de déphasage u.(t) : tension de commande
+g(t): débit & entrée du vérin i(t) : courant de commande du servo-distributeur
+x(t): déplacement axial du piston du vérin A@(t) : déphasage de l’arbre & cames
+62(r) : position angulaire de l’arbre & cames ‘mo, (t) : mesure de la position angulaire de I’arbre 4 cames
+0.() : position angulaire du vilebrequin mo, (t) : mesure de la position angulaire du vilebrequin
+‘ma(t) : mesure du déphasage 0;(t) : position angulaire de la poulie
+e(t): écart de tension img, (t) : image de la mesure de la position angulaire du
+
+vilebrequin
+
+16 Partie I
+
+
+===== page 19 =====
+    Afin de simplifier la suite de l’étude, on supposera que la position angulaire du vilebrequin v (t) est nulle (cela
+revient à étudier directement le déphasage de l’arbre à cames).
+
+  Question 26         Montrer que le schéma bloc Figure III.1 donne alors celui de la Figure III.2 :
+
+
+  ∆θc(t)                uc(t)      ε(t)                   i(t)                  q(t)               x(t)   Coulisseau à   ∆θ(t)
+            Gain de                                                 Servo
+                                          Amplificateur                                    Vérin           cannelures
+           commande                                              distributeur
+                                                                                                          hélicoïdales
+                                 md(t)
+
+                                                                            Capteur de
+                                                                            position de
+                                                                         l’arbre à cames
+
+
+                                Figure III.2 • Schéma simplifié de l’architecture du système
+
+     On considère que les capteurs de mesure des positions angulaires v (t) du vilebrequin et 2 (t) de l’arbre à cames
+sont assimilables à des gains purs de même valeur C. Le gain de commande est identique au gain du capteur mesurant
+la position angulaire de l’arbre à cames. Le gain de l’amplificateur est supposé unitaire. Le gain associé au coulisseau
+à cannelures hélicoı̈dales est noté Kc . Le servo-distributeur est modélisé par un gain pur noté Ke . On considérera les
+valeurs numériques suivantes :
+
+                                             C = 10 V rad−1            Kc = 18 rad m−1
+
+
+III.2 Analyse du comportement dynamique avec une modélisation de fluide incom-
+      pressible
+    Le fluide est modélisé par un comportement incompressible. On néglige les fuites possibles dans le circuit hy-
+draulique. L’équation caractérisant le comportement du vérin hydraulique est alors la suivante (avec S, la surface utile
+du piston du vérin) :
+                                           q(t) = S ẋ(t)  et     S = 9, 6 cm2
+
+
+  Question 27         Après avoir appliqué la transformée de Laplace aux différentes équations, compléter le schéma-
+                      bloc de la Figure 2 du Cahier Réponses.
+
+
+  Question 28         Déterminer la Fonction de Transfert en Boucle Fermée HBF (p) associée à ce schéma. Déterminer
+                      la valeur du gain Ke du servo-distributeur qui entraı̂ne un temps de réponse à 5% de 250 ms.
+
+
+
+III.3 Analyse du comportement dynamique en prenant en compte la compressibi-
+      lité du fluide
+    Le modèle précédent est trop simpliste car il ne prend pas en compte des caractéristiques physiques importantes
+vis-à-vis du comportement réel du système. Il est nécessaire de considérer :
+
+    – la compressibilité du fluide ;
+    – les fuites dans la partie hydraulique.
+
+     Pour analyser l’influence de ces deux phénomènes sur le comportement dynamique global du système, il est
+nécessaire de prendre en compte l’effort résistant exercé par le coulisseau à cannelures hélicoı̈dales sur le piston du
+vérin, grandeur physique correspondant à une perturbation. On admettra que les équations simplifiées traduisant le
+
+
+===== page 20 =====
+[OCR] comportement du vérin en prenant en compte la compressibilité du fluide sont (les fuites ne sont pas introduites dans
+cette modélisation, leur influence sur le comportement ne sera abordée que dans la partie suivante) :
+
+pour l’aspect hydraulique :
+
+Vv . a at
+a) = Sal) + E000 V volume moyen dela chambre du vérin (48 em") —
+B : coefficient de compressibilité de l’huile (1500 10° Pa)
+
+pour l’aspect dynamique :
+
+Mi(t) = Spt) — Fi-a(t)
+
+Question 29
+
+)) 2 pression utile dans le vérin
+) 1 force exercée par la poulie sur le coulisseau
+M : masse des parties mobiles en translation (500 g)
+
+Aprés avoir appliqué la transformée de Laplace aux différentes équations, compléter le schéma-
+bloc de la Figure 3 du Cahier Réponses.
+
+Déterminer les fonctions de transfert Hg(p) et Hr(p) qui relient Q(p) et Fi4(p) & X(p) (voir
+Figure III.3) de la fagon suivante :
+
+X(p) = Ho(p)Q(p) + Hr(p)Fi—a(P)
+Modifier leurs expressions afin d’obtenir les formes canoniques suivantes :
+
+1 a3
+
+1
+Ho(p) = ———S et Help) = 2
+0) = Tita MRO) TR
+
+et préciser les expressions littérales et les valeurs numériques des coefficients (ay ,a2,a3) en don-
+nant 4 chiffres significatifs.
+
+Le schéma de la Figure 3 du Cahier Réponses peut donc étre transformé sous la forme de la Figure II1.3.
+
+FAP)
+— J Arp)
+
+A®e(p)
+
+UdP) > ep) 1) 2p) Sy _ Xr) A(p)
+
+1 Holp)
+
+[Louestion 31
+
+Map)
+
+Figure [1.3 Schéma simplifié de l’architecture du syst¢me
+
+Appliquer le crittre de Routh & la modélisation actuelle. Conclure.
+
+III.4 Etude de l’influence des fuites hydrauliques
+
+Il existe plusieurs fagons de rendre le systéme stable. II est possible en particulier d’introduire artificiellement un
+débit de fuite au niveau du vérin (débit supérieur aux débits de fuites internes qui sont insuffisants pour stabiliser le
+
+18
+
+Partie I
+
+
+===== page 21 =====
+comportement dynamique du système). L’introduction de ce débit de fuite dans les équations traduisant le compor-
+tement du vérin conduit à la présence d’un coefficient d’amortissement Q dans la fonction de transfert HQ (p). On a
+alors :
+                                               1          1                        1
+                                    HQ (p) =                          et    a 2 =   2
+                                             a1 p      2Q     p2                   Q
+                                                  1+       p+ 2
+                                                               Q       Q
+
+     En prenant Q = 0, 0001, on obtient le diagramme de Bode de la Fonction de Transfert en Boucle Ouverte HBO1 (p)
+(telle que Md (p) = HBO1 (p) Uc (p)) présenté sur la Figure III.4.
+
+                            50
+
+
+
+                             0
+              Gain (dB)
+
+
+
+
+                           −50
+
+
+
+                          −100
+
+
+
+                          −150
+                           −90
+
+
+                          −135
+              Phase (°)
+
+
+
+
+                          −180
+
+
+                          −225
+
+
+                          −270
+                               0               1               2                 3              4              5
+                             10              10              10               10              10             10
+                                                             Pulsation (rad/s)
+
+                                      Figure III.4 • Diagramme de Bode de la fonction HBO1
+
+
+  Question 32               En prenant 3 ou 4 valeurs sur le diagramme de Bode restreint aux pulsations proches de 104 rad/s
+                            (voir Figure III.5), compléter le diagramme de Black de (HBO1 ) sur la Figure 4 du Cahier
+                            Réponses.
+
+
+  Question 33               Discuter de la stabilité du système en énonçant précisément le théorème que vous utilisez.
+                            Déterminer la valeur limite du coefficient d’amortissement Q qui stabilise le comportement du
+                            système.
+
+
+  Question 34               Préciser dans ce cas les valeurs de la marge de phase et de la marge de gain.
+
+   Afin d’assurer la stabilité du système, on prendra pour la suite comme valeur de coefficient d’amortissement :
+Q = 0, 001.
+
+
+===== page 22 =====
+                            20
+                            10
+                             0
+                           −10
+
+
+              Gain (dB)
+                           −20
+                           −30
+                           −40
+                           −50
+                           −60
+                           −70
+                           −90
+
+
+                          −135
+              Phase (°)
+
+
+
+
+                          −180
+
+
+                          −225
+
+
+                          −270
+                                                                                        4
+                             5000                                                     10             12000
+                                                        Pulsation (rad/s)
+
+                            20
+
+                            15
+
+                            10
+              Gain (dB)
+
+
+
+
+                             5
+
+                             0
+
+                           −5
+
+                          −10
+
+                          −15
+                          −90
+
+
+                          −135
+              Phase (°)
+
+
+
+
+                          −180
+
+
+                          −225
+
+
+                          −270
+                             7580   7586                              7603                           7620
+                                                        Pulsation (rad/s)
+
+                                    Figure III.5 • Diagramme de Bode de la fonction HBO1
+
+
+III.5 Optimisation du comportement du système
+     Pour toutes les phases d’accélération et de décélération du véhicule, le régime moteur n’est pas constant. Le
+système doit donc en permanence ajuster la valeur du déphasage. L’étude de ce type de comportement nécessite
+l’étude de la réponse en poursuite (réponse à une rampe unitaire) du système asservi.
+
+
+===== page 23 =====
+[OCR] [Question 35
+
+A partir du mod&le précédent, en prenant Eg = 0,001, préciser le mode dominant de la Fonction de
+Transfert en Boucle Ouverte Hgo2(p) telle que Ma(p) = Hxo2(p) Uc(p). En ne considérant que ce
+mode dominant, déterminer I’écart et le retard de la réponse en poursuite du systéme. Déterminer
+la bande passante de cette modélisation.
+
+Pour annuler |’écart en poursuite, on introduit un intégrateur aprés le comparateur (cf. Figure 111.6).
+
+Question 36] Tracer sur la Figure 5 du Cahier Réponses le diagramme asymptotique de Bode de la Fonction
+
+de Transfert en Boucle Ouverte Hgo2(p) telle que My(p) = Hzo2(p) Uc(p) du systtme corrigé
+par un intégrateur. Discuter la stabilité du syst®me obtenu. En particulier, préciser la valeur de la
+marge de phase.
+
+FAP)
+Hr(p)
+Oc Ue elf I ) x AG(p)
+yl [Uh gy ei) FT| te) Cn o)_ sf dy
+Malp) Cc
+
+Figure IIL.6 * Systtme corrigé par un intégrateur
+
+On souhaite obtenir une marge de phase de 50°. Pour cela, on introduit un correcteur & avance de phase (cf.
+Figure IIL.7) de fonction de transfert :
+
+lit
+Hyy =Kay ——Poavee, OK acl
+1-Fatwv p
+
+FAP)
+Help)
+G44 Ip)
+Plo Hap) Lo 4 (p) Op) Help) 6 X(p) AQ(p)
+c
+
+[Louestion 38
+
+Figure III.7 © Systtme corrigé par un intégrateur et un correcteur & avance de phase
+
+Déterminer graphiquement la valeur du gain du correcteur Kay qui permet de récupérer la dy-
+namique qu’avait le syst8me avant l’insertion de l’intégrateur (vous pouvez done utiliser le dia-
+gramme de Bode de la Figure IL.4).
+
+Déterminer les valeurs numériques de a puis de tay qui permettent d’obtenir une marge de phase
+de 50° tout en conservant au mieux la dynamique du systéme. On rappelle que l’apport maximum
+de phase @max d’un tel correcteur est donné par Ia relation :
+
+l-a
+
+SiN @max = T
++a
+
+Partie 11
+
+2
+
+
+===== page 24 =====
+[OCR] Pour information, la Figure I1L.8 représente la réponse du modéle final & un signal de consigne linéaire par
+morceaux.
+
+asp — Déphasage y : 4
+ge oak : : ——_
+S oast \ f 4
+4
+
+‘Temps (s)
+
+Figure IIL8 ¢ Réponse du systtme corrigé
+
+22 Partie I
+
+
+===== page 25 =====
+             IV
+PARTIE
+                                            Capteurs et transfert d’informations
+
+
+
+
+    Pour piloter le déphasage, le calculateur du véhicule utilise les mesures des angles 2 et v fournies par deux
+capteurs angulaires. On s’intéresse à l’un de ceux-ci et, dans une première étude, on se propose d’étudier la technique
+employée pour transformer une position angulaire en un code binaire, délivré sur les bornes de sortie du capteur.
+    Dans un véhicule, le nombre de capteurs est en constante augmentation : entre la mécanique (moteur, boı̂te de
+vitesse), la sécurité active (antiblocage des roues, antidérapage), la sécurité passive (airbags, prétensionneurs de
+ceintures) et le confort (climatisation, autoradio, navigation, clé d’accès à bord), on peut en compter jusqu’à une
+soixantaine. Un cablage classique de toutes les bornes de chacun des capteurs conduirait à un faisceau électrique de
+plusieurs kilomètres, source de pannes multiples, de surplus de masse embarquée et d’encombrement. Depuis 2000,
+les constructeurs se sont donc tournés vers le multiplexage, qui va faire l’objet d’une seconde étude.
+
+
+IV.1 Capteur de position angulaire
+    Pour présenter le fonctionnement, on se place dans le cas d’un capteur permettant de mesurer 10 positions an-
+gulaires (notées 0 à 9) représenté sur la Figure IV.1. Il est composé d’un disque, comportant des informations de
+position réparties sur 4 pistes, et d’un lecteur optique muni que 4 capteurs qui renvoient 4 signaux (x, y, z,t) en fonc-
+tion de la position du disque (blanc = 1 et noir = 0) et d’un transcodeur qui transforme ce code de position (x, y, z,t)
+en code binaire naturel (d, c, b, a), d étant le bit de poids fort.
+
+                                               0
+                                    9          x         1             x
+                                               y                       y     lecteur
+                               8               z
+                                                               2
+                                                                       z     optique
+                                               t                       t
+
+
+
+
+                              7                                3
+                                                                            x y z t
+
+                                                         4
+                                                                           transcodeur
+                                     6
+                                               5                            d c b a
+
+
+
+                     Figure IV.1 • Capteur à 10 secteurs angulaires et bornes de sortie (d, c, b, a)
+
+
+  Question 39       Sur le Cahier Réponses, remplir la table de vérité de la Figure 6, qui définit le fonctionnement
+                    du transcodeur.
+
+
+  Question 40       Sur le Cahier Réponses, remplir les 4 tableaux de Karnaugh de la Figure 7, qui sont associés aux
+                    variables binaires d, c, b et a.
+
+
+===== page 26 =====
+  Question 41      En déduire les expressions logiques simplifiées (formes canoniques de type « somme de produits »,
+                   e.g. : k = mn̄op + m̄o p̄ + ...) des variables binaires d, c, b et a en fonction des variables d’entrée x,
+                   y, z et t.
+
+     Le codage employé pour le disque est tel qu’une seule case change de couleur entre deux secteurs angulaires
+consécutifs. Nous allons montrer que ce choix permet d’éviter les erreurs de lecture, même si l’un des 4 capteurs
+(x, y, z,t) souffre d’un défaut de d’alignement. Pour cela, nous allons considérer les 4 cas de la Figure 8 du Cahier
+Réponses : capteurs parfaitement alignés ou présence d’un défaut d’alignement du capteur x, dans le cas du codage
+proposé et dans le cas d’un codage différent.
+
+  Question 42      Sur le Cahier Réponses, remplir les 4 chronogrammes de la Figure 8, qui représentent les
+                   évolutions temporelles des signaux x, y, z et t. Pour cela, on suppose que :
+                   – chaque chronogramme débute dans la position représentée et que le disque tourne dans le sens
+                      trigonométrique ;
+                   – l’information envoyée par chaque capteur change d’état au moment où la ligne délimitant deux
+                      secteurs consécutifs dépasse le centre du capteur ;
+                   – l’instant t1 désigne l’instant du premier changement d’état d’un des signaux et l’instant t2 celui
+                      où un deuxième changement se produit.
+
+
+  Question 43      À partir de l’observation des chronogrammes précédents, expliquer l’intérêt du codage utilisé dans
+                   le capteur.
+
+
+
+IV.2 Multiplexage
+    Le multiplexage est une technique qui consiste à faire passer plusieurs informations à travers un seul support de
+transmission. En amont, un multiplexeur combine les signaux à transmettre sur une seule voie, tandis qu’en aval un
+démultiplexeur se charge de rediviser le signal en autant de signaux indépendants. La Figure IV.2 illustre l’intérêt
+d’utiliser le multiplexage pour transférer les informations issues des capteurs de position angulaire du vilebrequin et
+de l’arbre à cames (v et 2 ) au calculateur.
+
+                        capteur de
+                    position angulaire
+                     du vilebrequin
+                                                                                              calculateur
+                        capteur de
+                    position angulaire
+                    de l’arbre à cames
+
+
+
+                        capteur de
+                                                                             démultiplexeur
+
+
+
+
+                    position angulaire
+                                           multiplexeur
+
+
+
+
+                     du vilebrequin
+                                                                                              calculateur
+                        capteur de
+                    position angulaire
+                    de l’arbre à cames
+
+
+
+                                                          horloge
+
+
+                Figure IV.2 • Transfert d’informations vers le calculateur sans et avec multiplexage
+
+
+===== page 27 =====
+[OCR] On se propose d’étudier le fonctionnement du syst¢me de multiplexage de la Figure IV.3.
+
+x Pakd
+a | do Ys a
+0]0 ]x 5 se
+
+a 2:
+ote la al:
+1 [0 ]z 8 sr
+1[i je ai][ 40 ai[] 20
+
+Figure IV.3 © Systtme de multiplexage et table de vérité du multiplexeur « 4 vers 1»
+
+1V.2.1 Etude du multiplexeur
+
+sélectionner cette
+
+Un multiplexcur est un circuit combinatoire qui transmet sur une sortie une des N ent
+entrée, le multiplexeur regoit une adresse codée sur n = log, N bits. La table de vérité de la Figure IV.3 est celle d’un
+multiplexeur « 4 vers 1», c’est-a-dire 4 N = 4 entrées (x,y,z,/) et une sortie s, adressée par n = 2 bits de sélection
+(a1, a0) qui sont indexés sur des signaux d’horloge.
+
+Question 44 ssions logiques simplifiées (de type « somme de produits », e.g. : k = mitop +
+mop +...) de la variable s en fonction de (x,y,z,t) et (a1, 40).
+Question 45] Sur le Cahier Réponses, réaliser le logigramme de la Figure 9 correspondant au fonctionnement
+
+du multiplexeur.
+
+Question 46] Sur le Cahier Réponses, réaliser le chronogramme de la Figure 10 correspondant au fonctionne-
+ment du multiplexeur lorsque les bits de sélection (a;,a9) sont indexés sur les signaux d’horloge
+définis sur la figure.
+
+Question 47| Le mot binaire de 2 bits formé par ayao décrit un cycle de valeurs. Quel est-il? Expliquer les
+différences entre les valeurs des fréquences des différents signaux (x,9,z,t,40,a1)-
+
+TE Tel
+
+Question 48] Sur le syst#me réel, on souhaite avoir avec le capteur une précision de mesure de la position
+angulaire de l’arbre & cames de 0,3°. Déterminer le nombre minimum de pistes nécessaires pour
+le capteur. En supposant que la vitesse de rotation maximum de l’arbre & cames est de 4000 tr/min,
+déterminez la fréquence maximale des signaux associés A chaque piste. De combien de bits doit
+atre composé l’adressage du multiplexeur ? Quelle est alors la valeur de la plus haute fréquence de
+ces signaux d’adressage ? Conclure quant & la faisabilité actuelle d’une telle architecture pour la
+transmission de donnée dans un véhicule automobile.
+
+IV.3 Etude du démultiplexeur
+
+Le message s ayant été transmis, il est nécessaire de reconstruire les signaux (x,y,z,t) l'aide d’un démultiplexeur
+« 1 vers 4 » adressé par les bits de sélection (ay, ao). On fait ’hypothése qu’un systéme « bloqueur » fait en sorte que
+le signal sur l’une des sorties du démultiplexeur reste & sa valeur tant que cette sortie n’est pas de nouveau adressée.
+
+
+
+===== page 28 =====
+[OCR] Question 49
+
+Question 50
+
+iil
+
+Question 51
+
+Sur le Cahier Réponses, réaliser la table de vérité de la Figure 11 correspondant au fonction-
+nement du démultiplexeur. Vous noterez Hi (Haute impédance) l'état d’une sortie qui n’est pas
+affecté par I’état de entrée s.
+
+Ecrire les expressions logiques simplifiées (de type « somme de produits ») des variables x, y, z et
+ten fonction de l’entrée s et des bits d’adressage (a), a0).
+
+Transformer les expressions précédentes afin de les exprimer en fonction de l’opérateur NAND &
+2 entrées uniquement. Sur le Cahier Réponses, et uniquement 4 l'aide d’opérateurs NAND 2
+entrées, réaliser sur la Figure 12 le logigramme de la sortie x du démultiplexeur (les logigrammes
+des 3 autres sorties ne sont pas demandés).
+
+26
+
+Partie IV
+
+
+===== page 29 =====
+[OCR] ANNEXE
+Systeme de déphasage
+
+Figure A.1 © Systéme de déphasage implanté sur les arbres & cames d’admission et d’échappement
+(© BMW 2006)
+
+Annexe A. 27
+
+
+===== page 30 =====
+[OCR] chaine
+
+déplacement poulie 1
+du piston x3 (angle de rotation @1)
+
+piston 3
+
+culasse 0
+
+piston du
+servo-distributeur
+
+électro-aimant de pilotage
+du servo-distributeur
+
+7A) buile sous pression
+
+Figure A.2 ¢ Schéma de principe du systéme de déphasage d’arbre & cames (d’aprés systéme Vanos
+© BMW 2006)
+
+28 Annexe A.
+
+
+===== page 31 =====
+DOC REPONSE R V 25 na   24/01/08   14:47   Page 1
+
+
+
+
+                                                    CAHIER RÉPONSES
+                                                                                        À rendre avec la copie, même non
+                                                                                        rempli
+
+
+
+                                                      Ce cahier comprend 12 ﬁgures à compléter au fur et à mesure des différentes parties du sujet :
+
+
+                                                      Partie I    Analyse fonctionnelle du système de déphasage
+
+                                                        Figure 1 • Diagramme SADT niveau A0 : système de déphasage
+
+
+                                                      Partie III Commande du système de déphasage
+
+                                                        Figure 2 • Schéma bloc avec ﬂuide incompressible
+                                                        Figure 3 • Schéma bloc avec ﬂuide compressible
+                                                        Figure 4 • Diagramme de Black de la fonction HBO1
+                                                        Figure 5 • Diagramme de Bode de la fonction HBO2
+
+
+                                                      Partie IV     Capteurs et transfert d’informations
+
+                                                        Figure 6 • Table de vérité du fonctionnement du transcodeur
+                                                        Figure 7 • Tableaux de Karnaugh associés aux variables binaires a, b, c et d
+                                                        Figure 8 • Mise en évidence de l’intérêt du codage proposé
+                                                        Figure 9 • Logigramme d’un multiplexeur « 4 vers 1 »
+                                                        Figure 10 • Chronogramme d’un multiplexeur « 4 vers 1 » piloté par signaux d’horloge
+                                                        Figure 11 • Table de vérité du fonctionnement d’un démultiplexeur « 1 vers 4 »
+                                                        Figure 12 • Logigramme d’un démultiplexeur « 1 vers 4 » (sortie x uniquement)
+
+
+
+
+                                                     Cahier Réponses                                                                                      1
+
+
+===== page 32 =====
+2
+                                                                                                                                                                                                                                                               DOC REPONSE R V 25 na
+                                                                                                                                                                                                                                                               24/01/08
+
+
+
+
+                                                                                                                     Position angulaire        Position angulaire      Puissance                         Puissance mécanique
+                                                                                                                     du vilebrequin            de l'arbre à cames 2    hydraulique                       résistante exercée
+                                                                                                                                                                                                         par l'arbre à cames 2
+                                                                                                                                                                                                                                                               14:47
+                                                                                                                                                                                                                                                               Page 2
+
+
+
+
+                                                                                                                                           A21
+                                                                                                                                                                                                                             Fuites hydrauliques
+                                                                                                                                électronique
+                                                                                                                                de contrôle
+
+
+                                                                                                                                                                                                                             Puissance mécanique de rotation
+                                                                                                                                                                      A21                                                    transmise à l'arbre à cames 2
+                                                                                                Consigne fournie
+                                                                                                par le calculateur
+
+                                                                                                                                                                                                                             Mouvement contrôlé
+                                                                                         Puissance mécanique de                                                             Transformer
+                                                                                                                                                                        l'énergie hydraulique                                de l'arbre à cames 2
+                                                                                  rotation fournie par la poulie 1
+                                                                                                                                                                        en énergie mécanique
+                                                                                                                                                                            de translation
+                                                                                                                                                                                            A22
+
+
+
+
+                                                                                                                                                                                                                 A23
+                                                                                                                                                                                                  Coulisseau à
+
+
+
+
+                   Figure 1 • Diagramme SADT niveau A0 : système de déphasage
+                                                                                                                                                                                                  cannelures
+                                                                                                                                                                                                  hélicoïdales
+
+
+
+
+Cahier Réponses
+
+
+===== page 33 =====
+DOC REPONSE R V 25 na   24/01/08   14:47    Page 3
+
+
+
+
+                                                                                                                                                     Δθc(p)        Uc(p)    ε(p)           I(p)       Q(p)           X(p)              Δθ(p)
+                                                                                                                                                               C                    1
+
+
+
+                                                                                                                                                                            Md(p)
+                                                                                                             x                                                                                           C
+
+
+                                                                                                                                                                   Figure 2 • Schéma bloc avec ﬂuide incompressible
+
+                                                                                                                                                                                                                       F1 −> 4 ( p )
+
+
+                                                                                                                          Δθc(p)            Uc(p)      ε(p)          I(p)           Q(p)                      P(p)                             X(p)   Δθ(p)
+                                                                                                                                       C                       1
+
+
+
+
+                                                                                                                                                       Md(p)
+                                                                                                                                                                                                  C
+                                                                                                             y
+                                                                                                                                                                     Figure 3 • Schéma bloc avec ﬂuide compressible
+
+
+                                                                                                                                     25
+                 s                                                                                                                   20
+
+                                                                                                                                     15
+                                                                                                                                                                                                                                                      ω
+                                                                                                                                     10
+
+                                                                                                             z                        5
+
+                                                                                                                                      0
+                                                                                                                        Gain (dB)    −5
+
+                                                                                                                                    −10
+
+                                                                                                                                    −15
+
+                                                                                                                                    −20
+
+                                                                                                                                    −25
+                                                                                                             t                      −30
+
+                                                                                                                                    −35
+
+                                                                                                                                    −40
+
+                                                                                                                                    −45
+                              a1           a0
+                                                                                                                                    −50
+                                                                                                                                     −280           −260       −240         −220        −200      −180       −160      −140             −120   −100   −80
+                        Figure 12 • Logigramme d’un démultiplexeur « 1 vers 4 » (sortie x uniquement)
+                                                                                                                                                                                                  Phase (°)
+
+                                                                                                                                                                   Figure 4 • Diagramme de Black de la fonction HBO1
+
+            10                                                                                       Cahier Réponses               Cahier Réponses                                                                                                  3
+
+
+===== page 34 =====
+DOC REPONSE R V 25 na   24/01/08   14:47    Page 4
+
+
+
+
+                                                            Amplitude
+
+
+
+
+                                                                                                                                                                  s a1 a0         x y z t
+
+
+
+                10                 10                  10                  10                 10              10
+                                                                Phase
+
+
+
+
+                                                                                                                                         Figure 11 • Table de vérité du fonctionnement d’un démultiplexeur « 1 vers 4 »
+
+
+
+
+                10                 10                  10                  10                 10              10
+
+                                           Figure 5 • Diagramme de Bode de la fonction HBO2
+
+            4                                                                                      Cahier Réponses   Cahier Réponses                                                                                       9
+
+
+===== page 35 =====
+DOC REPONSE R V 25 na   24/01/08   14:47   Page 5
+
+
+
+
+                   x
+
+
+                                                                                                                                                               Position      x y z t          d c b a
+                                                                                                                                                                  0
+                                                                                                                                                                  1
+                                                                                                            temps
+                   y                                                                                                                                              2
+                                                                                                                                                                  3
+                                                                                                                                                                  4
+                                                                                                                                                                  5
+                                                                                                            temps
+                                                                                                                                                                  6
+                   z                                                                                                                                              7
+                                                                                                                                                                  8
+                                                                                                                                                                  9
+                                                                                                                                                       Figure 6 • Table de vérité du fonctionnement du transcodeur
+                                                                                                            temps
+                   t
+
+
+
+
+                                                                                                            temps
+                   a1
+
+                                                                                                                                                        xy                                                    xy
+                                                                                                                                              a      00 01 11 10                                   b       00 01 11 10
+                                                                                                                                              00                                                   00
+                                                                                                            temps                          zt 01                                                zt 01
+                   a0
+                                                                                                                                              11                                                   11
+                                                                                                                                              10                                                   10
+                                                                                                                                                        xy                                                    xy
+                                                                                                            temps
+                                                                                                                                               c     00 01 11 10                                   d       00 01 11 10
+                   s                                                                                                                          00                                                   00
+                                                                                                                                           zt 01                                                zt 01
+                                                                                                                                              11                                                   11
+                                                                                                                                              10                                                   10
+                                                                                                            temps                               Figure 7 • Tableaux de Karnaugh associés aux variables binaires a, b, c et d
+
+                        Figure 10 • Chronogramme d’un multiplexeur « 4 vers 1 » piloté par signaux d’horloge
+
+
+
+
+            8                                                                                             Cahier Réponses   Cahier Réponses                                                                                   5
+
+
+===== page 36 =====
+DOC REPONSE R V 25 na                  24/01/08          14:47       Page 6
+
+
+
+
+                                            0                                             variables
+                               n
+                                   9                       1
+                        q u ti o
+
+
+
+
+                                            x                                     1
+                                                                             x
+                     dis ta
+                           e
+
+
+
+
+                                                                                  0
+                 du de ro
+
+
+
+
+                                            y
+                                            z
+                Sens
+
+
+
+
+                          8                                         2          1
+                                            t                                y 0
+
+                                                                               1
+                                                                             z 0
+                         7                                          3
+                                                                                                                                                 x
+                                                                               1
+                                                                             t 0
+                                   6                       4
+                                            5
+                                                                                      0               t1               temps
+                                                                   Position lue
+
+                                            0                                             variables
+                                   9             x         1                      1
+                                                                             x
+                                            y                                     0
+                           8                z                                  1
+                                                                     2
+                                            t                                y 0
+
+                                                                               1
+                                                                     3
+                                                                             z 0                                                                 y
+                          7
+                                                                               1
+                                                                             t 0
+                                   6                       4
+                                            5
+                                                                                      0               t1   t2          temps
+                                                                   Position lue
+                                                                                                                                                                                                                        s
+
+                                            0                                             variables
+                                   9         x             1                      1
+                                                                             x
+                                             y                                    0
+                           8                 z                                 1
+                                                                     2
+                                                                             y 0
+                                             t                                                                                                   z
+                                                                               1
+                                                                             z 0
+                           7                                         3
+                                                                               1
+                                                                             t 0
+                                   6                        4
+                                            5
+                                                                                      0               t1               temps
+                                                                   Position lue
+
+                                                 0                                        variables
+                                       9             x         1                  1
+                                                                             x
+                                                 y                                0                                                              t
+                               8                 z
+                                                                         2     1
+                                                 t                           y 0
+
+                                                                               1
+                                                                             z 0
+                              7                                          3
+                                                                               1
+                                                                             t 0                                                                            a1       a0
+                                       6                       4
+                                                 5
+                                                                                      0               t1   t2           temps
+                                                                                                                                                                 Figure 9 • Logigramme d’un multiplexeur « 4 vers 1 »
+                                                                   Position lue
+
+
+                                                     Figure 8 • Mise en évidence de l’intérêt du codage proposé
+
+
+
+            6                                                                                                         Cahier Réponses   Cahier Réponses                                                                   7
+

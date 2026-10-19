@@ -1,0 +1,251 @@
+{
+ "concours": "Banque PT",
+ "filiere": "SIC",
+ "date": "2003",
+ "file": "BPT_SIC_2003.pdf",
+ "status": 200,
+ "source": "banquept.fr, rubrique « Annales d'annales » (rubrique23.html)",
+ "epreuve_originale": "Sciences Industrielles III",
+ "classification": "automatique par mots-clés (Claude, oct. 2026) — moins fine que celle des sujets récents",
+ "decoupage_questions": "Question",
+ "texte_ocr": true,
+ "pages_sujet": 23,
+ "pages_total": 23,
+ "data": {
+  "parties": [
+   {
+    "titre_partie": "PARTIE II : Conception de l'actionneur thermomécanique et de l'amplificateur mécanique.",
+    "questions": [
+     {
+      "numero": "QI.1.a",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 4,
+      "tags": [],
+      "texte": "Question I.1.a : Parmi les mécanismes classiques de transfert de chaleur énoncer ceux qui sont responsables, dans l'espace, de |'élévation de température des composants optoélectroniques des instruments de la sonde, sous l'effet du soleil, a travers la fenétre supposée ouverte, volets en position normale (n). Chaque volet est en liaison pivot d'axe (A.,y) avec la structure métallique, voir Document |. Sa position est commandée par un moteur électrique. L'arbre du moteur est en liaison pivot d'axe X avec la structure métallique. Chaque volet porte un bras A\\B; dont l'extrémité B; est reliée a l'arbre du moteur par une chaine de solides. Question |.1.b : Représenter sur le Document | (a rendre non plié) le schéma cinématique d'un mécanisme qui agit sur l'extrémité B, des volets et transforme la rotation de I'arbre du moteur électrique en rotation des volets. En vue d'un gain de poids, chercher a minimiser le nombre des solides du mécanisme. Question |.1.¢ : Si la distance AjB; = 16 mm donner la valeur numérique du déplacement d'un point Bi, en projection sur x, en supposant, pour simplifier, une rotation théorique des volets de 180°. La commande de la position des volets est fonction"
+     },
+     {
+      "numero": "Q1.1.d",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Systèmes séquentiels : Diagramme d'états",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Matériaux : Propriétés physiques et mécaniques",
+        "semestre": "S3"
+       }
+      ],
+      "page": 5,
+      "tags": [
+       "grafcet"
+      ],
+      "texte": "Question 1.1.d : A partir de l'inventaire des entrées et sorties de la Figure 2, représenter sur le Document | (a rendre non plié) le grafcet de commande des volets. La situation initiale est définie par la position normale (n) des volets. 1.2 : Solution avec volets a articulations multiples et commande thermomécanique La Société AER développe un actionneur thermomécanique, voir le schéma de principe sur la figure 3. Toute variation de la température du fluide contenu dans le réservoir entraine, par dilatation, une variation de son volume et la translation de la tige d'un piston suivant I'axe x. Ces translations sont d'amplitudes faibles comme ce sera vu au paragraphe 1.2.2. Il convient donc d'interposer un amplificateur mécanique schématisé par un levier mais dont l'étude réaliste est demandée dans la Partie II. La tige de sortie de l'amplificateur déplace une came a deux rampes qui commande la translation de la tige HG. Cette came est étudiée au paragraphe 1.2.3. Enfin, une autre maniére d'amplifier la rotation du volet consiste a utiliser des biellettes articulées comme celles qui sont étudiés au paragraphe 1.2.1."
+     },
+     {
+      "numero": "Q1.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Capteurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 5,
+      "tags": [],
+      "texte": "Question 1.2 : Sachant que toute exposition, sans protection, de la fenétre de mesure au flux thermique, conduirait a la destruction irremédiable de la sonde, donner en -4- quelques mots les avantages de la commande des volets par actionneur thermomécanique par rapport a une commande électrique. 1.2.1 : Articulation des volets a la structure métallique de la sonde Afin d'autoriser les faibles déplacements produits par l'actionneur thermomécanique, la société AER propose !'architecture dont la figure 3 donne un schéma de principe. Un seul volet, en position normale (n), est représenté. La translation suivant X de la came a deux rampes commande la translation suivant Z de la tige HG considérée en liaison glissiére avec la structure métallique de la sonde. La biellette GF est en liaison pivot d'axe (G,y) avec la tige HG. Elle est aussi en liaison pivot d'axe (F,y) avec la biellette FD et la barre EF liée au volet. Les biellettes FD et EC sont en liaisons pivots d'axes (F,y) et (E,y) avec le volet. Elles sont en liaisons pivots d'axes (D,¥) et (C,y) avec la structure métallique. Cet ensemble de solides articulés transforme la translation de la tige HG en une rotation du volet. On donne"
+     },
+     {
+      "numero": "Q1.2.1.b",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       }
+      ],
+      "page": 7,
+      "tags": [],
+      "texte": "Question 1.2.1.b : Sur I'ebauche inférieure du Document Il, recto, tracer a la régle et au compas, la position E, du point E' pour laquelle la position E.F,. de la barre EF est orthogonale a sa position normale (n). Cette position correspond a une rotation de -90° du volet autour de I'axe y, volet en position fermée chaude (c). En déduire la position G, du point G. Sur le méme schéma, construire les positions E; F; et G; des points E' F’ G' pour lesquelles le volet a tourné de + 90° autour de I'axe y et se trouve en position fermée froide (f). Estimer graphiquement les valeurs numériques des déplacements G,G et GG, du point G, suivant I'axe Z. Ecrire leur valeur numérique vraie, en mm, sur le dessin. Comparer le déplacement G,G, a la valeur du déplacement du point B trouvée a la question I.1.c. En vue de comprendre I'influence des paramétres géométriques sur la cinématique de la liaison, on considére le volet dans sa position normale (n), au début de son mouvement de fermeture vers la position fermée chaude (f). La came impose aux points H et G de la tige HG une vitesse V(Ge tige/ structure) = uZ par rapport a la structure. Tous les corps constituant le mécanisme sont des solides i"
+     },
+     {
+      "numero": "Q1.2.1.0",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Matériaux : Propriétés physiques et mécaniques",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       }
+      ],
+      "page": 7,
+      "tags": [
+       "dessin / conception sur calque"
+      ],
+      "texte": "Question 1.2.1.0 : Sur I'ébauche inférieure du Document Il, verso, est représenté le vecteur Nz. En définissant a chaque fois le systéme isolé, en faisant le bilan des actions mécaniques et en précisant le théoréme utilisé on demande d'abord de tracer -6- et de calculer en fonction de N la force exercée par la biellette GF sur le volet, puis de calculer la composante N en fonction de C;,, «, B et 2 et enfin de justifier le type de sollicitation, a savoir traction ou compression, de chacune des biellettes CE et DF. Calculer, en fonction de Cy, a, B, & et u la puissance développée par le torseur de cohésion exercé par HK sur KG, dans le champ des vitesses de la question 1.2.1.c. 1.2.2 : Etude de I'actionneur thermomécanique La figure 3 donne le schéma de principe de l'actionneur thermomécanique. Le document II! en donne un dessin d'ensemble. On souhaite calculer la translation de l'extrémité du soufflet, portant le piston et sa tige, en fonction de l'augmentation de température de l'actionneur. Un réservoir est constitué par le carter de l'actionneur thermomécanique, en alliage d'aluminium et béryllium, et par le soufflet dont les coefficients de dilatation thermique linéique a, sont"
+     },
+     {
+      "numero": "Q1.2.2.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 9,
+      "tags": [
+       "hydraulique",
+       "dessin / conception sur calque"
+      ],
+      "texte": "Question 1.2.2.¢ : Calculer le volume initial du fluide contenu entre le réservoir et le soufflet, en fonction des paramétres R, R, r,h, Het p. En différenciant I'expression du volume par rapport au paramétre h, en déduire l'expression littérale de la section équivalente S, du vérin associé au soufflet Calculer la section réduite, en mm’, pour les valeurs suivantes des parametres : R=7.4mm r=3,7mm 1.2.3 : Etude de la came On suppose que le multiplicateur permet une translation de la came de 0,4 mm/°C. On admet, pour simplifier, que les déplacements GfG et GGc sont égaux et valent 4 mm. Question |.2.3 : Dessiner, sur la copie, a |'échelle 5, I'allure de la rainure de la came qui entraine un galet de centre H, de diamétre 4 mm. La géométrie de la rainure permet la commande suivante des volets : - pour -20°C <T< 10°C les volets sont en position fermée froide (f), H; est en position basse, - pour 10°C <T< 20°C les volets sont entre les positions fermée froide (f) et normale (n), - pour 20°C <T< 50°C les volets sont en position ouverte normale (n), H est en position médiane, - pour 50°C <T< 60°C les volets sont entre les positions normale (n) et fermée chaude (c), - pour 60°C <T< 70°C l"
+     },
+     {
+      "numero": "QII.1.a",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+        "semestre": "S2"
+       }
+      ],
+      "page": 11,
+      "tags": [],
+      "texte": "Question II.1.a : Choisir une tolérance dimensionnelle et en donner sa signification normalisée. Crémaillére SE2 de sortie"
+     },
+     {
+      "numero": "QII.1.b",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 11,
+      "tags": [],
+      "texte": "Question II.1.b : Quelles surfaces et tolérances dimensionnelles et géométriques du carter de l'actionneur permettent d'assurer, sans collision avec le carter, le déplacement du piston et du soufflet ? Donner la signification de la (ou des) tolérance(s) géométrique(s) utilisée(s)."
+     },
+     {
+      "numero": "QIl.1.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+        "semestre": "S2"
+       }
+      ],
+      "page": 11,
+      "tags": [],
+      "texte": "Question Il.1.¢ : Donner la signification normalisée des deux tolérances et | Enoncer pour chacune d'elle la fonction technique correspondante."
+     },
+     {
+      "numero": "QIl.1.d",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+        "semestre": "S2"
+       }
+      ],
+      "page": 11,
+      "tags": [
+       "dessin / conception sur calque"
+      ],
+      "texte": "Question Il.1.d : Sur la copie, dessiner la forme, et indiquer les surfaces et les limensions du calibre fonctionnel (gabarit de contréle), correspondant a la tolérance et les indications qui lui sont associées. Axe de la tige de la crémaillére_de_ sortie de lamplificateur et de la forme"
+     },
+     {
+      "numero": "QIl.1.e",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
+        "semestre": "S3"
+       }
+      ],
+      "page": 11,
+      "tags": [],
+      "texte": "Question Il.1.e : Sur la copie, a l'aide d'un dessin a main levée, proposer, sur une vue en projection du carter de l'actionneur, une tolérance de 0,2 mm de défaut de forme quelconque avec références, permettant de satisfaire la condition technique : \"la crémaillére de sortie (de diamétre maxi @ 4mm), de l'amplificateur, n'entre pas en collision avec le carter de l'actionneur, et se trouve 4 une distance minimum de 0,4 mm de ce carter\". On fera I'hypothése que la variation du Figure 6 : Vue du carter de positionnement relatif entre les deux parties SE1 Vactionneur et SE2, due au jeu, est négligeable. =10- On rappelle que les deux sous ensembles SE1 et SE2 (Figure 5) sont assemblés entre eux par une liaison plane et quatre goujons spéciaux calibrés. Justifier en quelques lignes le choix de la (ou des) références spécifiées retenues. Afin de calculer les dimensions théoriques exactes, la position nominale de l'axe de la crémaillére de sortie est définie par !'intersection d'un plan situé 4 3,5 mm du plan B-C, et du plan de symétrie situé a égales distances des axes du veérin et du réservoir 11.2. Réalisation du carter de l'actionneur : Le matériau utilisé est obtenu par frittage, le "
+     },
+     {
+      "numero": "Q11.2.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Statique : Hyperstatisme",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+        "semestre": "S2"
+       }
+      ],
+      "page": 12,
+      "tags": [
+       "usinage"
+      ],
+      "texte": "Question 11.2.1 : Au cours de la premiére phase (Phase 10), la surface de référence spécifiée B-C fait partie de l'ensemble des surfaces usinées. Sur le document réponse V, a l'aide de schémas, représenter la forme de la piéce avant usinage, les surfaces usinées, l'isostatique de la mise en position de la piéce, puis indiquer te nom et la forme des outils utilisés."
+     },
+     {
+      "numero": "Q1.2.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Statique : Hyperstatisme",
+        "semestre": "S2"
+       }
+      ],
+      "page": 12,
+      "tags": [
+       "engrenages",
+       "soudage / mécano-soudé",
+       "usinage",
+       "dessin / conception sur calque"
+      ],
+      "texte": "Question 1.2.2 : Sur le document réponse VI, proposer a l'aide de schémas, pour chacune des deux phases deux et trois (Phases 20 et 30) : la forme générale de la piéce avant usinage, les surfaces usinées, I'isostatique de la mise en position de la piéce, le bridage, et indiquer par une fléche le sens d'accessibilité des outils. 1.3 Etude constructive de t'amplificateur (sous-ensemble SE2) Les limites extérieures de l'espace alloué a J'amplificateur, dans le satellite, doivent étre impérativement respectées (Calque préimprimé). Le carter de l'amplificateur est entigrement usiné dans la masse a partir d'un parallélépipéde d'alliage d'aluminium bérytlium. Afin d'obtenir une meilleure rigidité, le carter est constitué de cing faces possédant les ouvertures nécessaires aux passages des crémailléres et a la fixation des guidages des différents pignons. La sixiéme face, définie sur la vue de droite du calque préimprimé, sert d'interface avec l'actionneur. Dans l'espace, les matériaux métalliques en contact ont tendance a se souder entre eux. Les vitesses relatives entre pignons et carter ainsi qu'entre crémaillére et carter sont tres faibles. Les efforts dans les liaisons sont négligeable"
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,2019 @@
+
+===== page 1 =====
+[OCR] ES58J
+
+%# BANQUE FILIERE PT *
+
+Epreuve de Sciences Industrielles A
+
+Durée 5 h
+
+Aucun document n'est autori
+
+Moyen de calcul autorisé :
+
+Calculatrice de poche - y compris calculatrice programmable et alphanumérique - a@
+fonctionnement autonome, non imprimante, autorisée conformément a la circulaire n° 99-018
+du 1° février 1999.
+En aucune facon la calculatrice ne pourra posséder de données scientifiques et techniques
+propres au génie mécanique et a l'automatique.
+
+Documents remis au candidat
+
+- Le texte du sujet ( 28 pages numérotées de | a 28).
+
+- un dossier de documents réponses comportant 6 pages, a rendre avec la copie.
+Structure du sujet
+
+Le sujet comporte 7 parties :
+
+la partie 1 est une présentation générale ;
+
+la partie 2 est une étude d’analyse fonctionnelle et les fonctions de service présentées
+
+dans cette partie sont a la base des développements des 5 autres parties ;
+
+toutefois les questionnaires de ces 5 autres parties sont indépendants les uns des autres.
+Temps approximatif a consacrer 4 chaque partie :
+
+Partie 1 Partie 2 | Partie3 | Partie4 | PartieS | Partie6 | Partie7
+et lecture sujet
+20 minutes 20min. | 45min. | 2heures | 45min. | 30min. | 20min.
+
+Présentation des copies
+
+Les réponses finales doivent étre encadrées.
+
+Les candidats sont invités 4 formuler toutes les hypothéses qu’ ils jugeront nécessaires pour
+répondre aux questions posées.
+Si, au cours de I’épreuve, un candidat repére ce qui lui semble étre une erreur d’énoncé, il le
+signale dans sa copie et poursuit sa composition en indiquant les raisons de son initiative.
+
+Le candidat traitera chacune des parties 3 4 6, sur des copies séparées en indiquant sur
+chacune d’entre elles le numéro de la partie traitée.
+
+le dossier de documents réponses, puis l’ensemble des copies, seront placés dans I’ordre a
+l’intérieur d’une copie vierge portant les références du candidat et servant de chemise.
+
+Si, au cours de I’épreuve, un candidat repére ce qui lui semble étre une erreur
+d’énoncé, il le signale sur sa copie et poursuit sa composition en indiquant les
+raisons des initiatives qu’il est amené a prendre.
+
+Texte du sujet page 1/28
+
+
+===== page 2 =====
+[OCR] Sujet ; "ROBOT POUR LA CHIRURGIE ENDOSCOPIQUE"
+
+1 - Présentation : La chirurgie endoscopique
+
+Les avancées technologiques dans le domaine de la chirurgie permettent actuellement de
+réaliser des opérations de trés grande complexité (chirurgie cardiaque, digestive, urologique
+etc ...) avec des avantages pour le patient qui proviennent de la limitation des zones de
+dissection, ce qui réduit considérablement le traumatisme opératoire.
+
+Plusieurs étapes ont été franchies lors de la mise au point des solutions limitant I'étendue des
+incisions dans le corps du patient, et permettant néanmoins au chirurgien I'accés jusqu'aux
+organes a soigner ; ces étapes sont présentées ci-dessous.
+
+1-1- La chirurgie endoscopique manuelle
+La premiére étape consiste en une technique d'utilisation de micro-instruments (voir
+photographies N° 1-1, 1-2 et 1-3):
+
+Photo N° 1-1 : chirurgie endoscopique manuelle Photo N°1-2:: instrument chirurgical
+a "pince"
+
+——_—_——_>
+300 mm
+
+Photo N° 1-3 : Outil "pince”
+
+il s'agit d'utiliser des outils chirurgicaux de trés petite taille, placés a l'extrémité de tiges
+tubulaires tenues par le chirurgien ; la partie inférieure des tiges est insérée dans la zone a
+traiter, a travers trois petits orifices réalisés dans le corps du patient (entre les cétes par
+exemple pour une chirurgie cardiaque). Ces outils chirurgicaux sont actionnés par un systéme
+de cables fins qui passent a l'intérieur des tiges tubulaires et sont commandés par le chirurgien
+a l'aide de leviers placés sur la partie supérieure des tiges.
+
+Dans la suite du sujet, l'ensemble "outil chirurgical + tige + leviers de commande" sera
+nommé plus simplement "Instrument chirurgical" .
+
+Les instruments sont en général au nombre de trois : une pince, un scalpel et un support de
+caméra miniature (instrument "endoscope") qui permet au chirurgien de visualiser la zone de
+travail a I'intérieur du corps du patient.
+
+Pour faciliter le passage de chaque outil a travers les orifices réalisés dans le corps du patient,
+on utilise un guide ou "trocart" fixé sur la peau (voir figure 1-6 page 4).
+
+Texte du sujet page 2/28
+
+
+
+===== page 3 =====
+[OCR] 1-2- La chirurgie endoscopique robotisée
+
+Un nouveau pas est franchi autour des années 1990 lorsqu'une équipe chirurgicale utilise trois
+robots a actionneurs électriques pour positioner et commander chacun des trois instruments.
+Le chirurgien est alors plus confortablement installé devant un poste de commande et de
+contréle (Photo N° 1-4) pour commander a distance les robots et donc les outils chirurgicaux.
+Ce poste nommé "console" contient :
+
+- les dispositifs d'acquisition des mouvements du chirurgien,
+
+- un écran vidéo pour le retour d'image provenant de l'endoscope,
+
+- un écran de contréle du systéme informatique.
+
+Les trois robots appelés "robots esclaves" (photo 1-5) portent les instruments, dont
+l'endoscope.
+
+Photo N°1- 4 : chirurgie robotisée : la console Photo N°1-5 : les trois robots esclaves
+
+Outre le confort opératoire pour le chirurgien, le principal avantage du systéme robotisé est de
+permettre le traitement des ordres générés par la console, avant que ceux-ci ne soient transmis
+aux robots esclaves.
+
+On peut par exemple utiliser ce traitement pour
+
+- limiter les débattements des outils,
+
+- filtrer les mouvements vibratoires,
+
+- changer d'échelle et permettre des déplacements infinitésimaux.
+
+Texte du sujet page 3/28
+
+
+===== page 4 =====
+[OCR] 1-3- Evolution du robot esclave
+
+Les recherches menées a partir des années 2000 portent sur une structure de robot esclave, qui
+permet d'améliorer la précision des mouvements opératoires.
+
+Le robot objet de cette étude est un prototype démonstrateur de la faisabilité des concepts.
+
+Le sujet proposé reprend certaines des démarches des ingénieurs qui ont développé le
+prototype de robot appelé "Endoxirob" ou "robot pour la chirurgie endoscopique". Ce robot a
+été présenté pour la premiére fois en 2002 au "Salon International des Techniques et Energies
+du Futur" de Toulouse.
+
+Figure N° 1-6 : La structure du robot esclave "EndoXirob"
+
+‘Actionneurs de louti
+chirurgical
+
+Sur Vextrémité du bras de robot, les instruments
+chirurgicaux sont interchangeables.
+
+L’échange d’instruments doit pouvoir s’effectuer
+rapidement pendant I’utilisation du robot.
+
+Le choix technologique des ingénieurs a été de placer les
+actionneurs électriques de l’outil chirurgical non pas sur
+l’instrument chirurgical lui-méme, mais sur la structure du
+robot ; ce choix a conduit a la conception d’une interface
+mécanique spécifique, 4 poussoirs, permettant le transfert
+des actions de commande des actionneurs vers |’outil
+chirurgical.
+
+La Photo 1-7 montre la plaque d’extrémité du bras de
+robot, sur laquelle |’instrument chirurgical vient se
+positionner et se fixer ; des ouvertures usinées permettent
+le passage des poussoirs.
+
+Photo 1-7 : la plaque d’interface
+entre le bras et |’instrument
+
+Texte du sujet page 4/28
+
+
+
+===== page 5 =====
+[OCR] 2- ANALYSE FONCTIONNELLE
+
+Cette étude permettra de formaliser la description du systéme.
+
+2-1 - Analyse fonctionnelle interne de l'ensemble du systéme "robot chirurgical"
+Le diagramme d'analyse fonctionnelle SADT d'une seule chaine de commande d'un robot
+esclave est présenté figure N° 2-1 ;
+
+Figure n° 2-1
+Energie Paramétres
+Glectrique _opérateur
+| | Paramétres de
+Gl G2 réglage du robot
+—| Fi
+Energie
+1 électrique | Programme
+Console ¥ ¥
+G3
+rR al
+T
+Dispositif de +4
+traitement
+Ga
+Energie BB
+|
+électrique
+T
+Carte de commande
+axe (préactionneur) Gs
+Fa
+Moteur et chaine
+cinématique
+Vee :
+Un «axe » du robot esclave
+
+uestion
+Compléter la description fonctionnelle sous forme SADT d’un « axe » du robot chirurgical en
+remplissant les 3 cases vides des grandeurs physiques et les 4 cases vides des fonctions, sur le
+tableau « Réponse 1 » du document réponses.
+
+Il est envisagé d'équiper le robot chirurgical d'un systéme dit "a retour d'effort" 4 technologie
+électrique, qui permettra au chirurgien de recevoir la sensation de l'effort exercé sur l'outil
+chirurgical lors de son action.
+
+Le diagramme SADT d’un seul systéme 4 retour d'effort est amorcé sur la figure R2 du
+document réponses ;
+
+Question 2. :
+
+Proposer des solutions techniques qui permettent de réaliser ce systéme a retour d'effort ; pour
+cela :
+
+- Completer la figure R2 du document réponses, en mettant en place les blocs fonctionnels ;
+
+- Donner dans les cases prévues sous la figure R2, la désignation des grandeurs physiques
+transformées, les moyens proposés pour réaliser les transformations, et les fonctions décrivant
+ces transformations (le nombre de lignes utiles de ces tableaux n’est pas imposé).
+
+Texte du sujet page 5/28
+
+
+===== page 6 =====
+[OCR] 2-2 Analyse fonctionnelle externe d'un "robot esclave"
+Avertissement: L'analyse fonctionnelle externe conduite a partir du diagramme des
+interacteurs de la figure 2-3 est celle d'un seul "robot esclave".
+
+Figure 2-3 : diagramme des interacteurs
+
+Energie électrique
+Console +
+calculateur
+
+FS6
+
+chirurgical
+
+Quelques-unes des fonctions de service du robot esclave utilisées dans le sujet sont données
+dans le tableau ci-dessous (il n’est pas fait de distinction entre fonctions principales et
+fonctions contraintes) :
+
+N° __| Fonction de service
+
+FS1 | Contraindre l’instrument chirurgical 4 ne pas se déplacer latéralement au niveau du
+trocart afin de ne traverser la peau du patient qu’en un seul point
+
+FS2 | Transformer les signaux regus de la console et du calculateur, en mouvements de
+l'instrument chirurgical
+
+FS3 | Permettre a l’instrument chirurgical de se mouvoir avec des performances dynamiques
+comparables 4 celle réalisées par un chirurgien humain
+
+FS4 |Permettre a I’équipe médicale de retirer les instruments chirurgicaux du corps du
+patient, en cas d’urgence, en soulevant la structure
+
+FS5_|Permettre le maintien des instruments en position, en cas d'absence d'énergie électrique
+
+FS6_|Permettre au calculateur d’acquérir la position de l’instrument chirurgical
+
+Question 3. : (répondre sur le document réponses)
+
+Proposer une expression de la fonction de service qui définit la relation entre l’instrument
+chirurgical et la plaque d’extrémité (figure 1-7) du bras du robot esclave ;
+
+proposer trois critéres que vous jugez importants pour quantifier cette fonction de service.
+
+Rappel :
+Présentation des copies
+
+Les réponses finales doivent étre encadrées.
+
+Le candidat traitera chacune des parties 3 a 6, sur des copies séparées en indiquant sur
+chacune d’entre elles le numéro de la partie traitée.
+
+Texte du sujet page 6/28
+
+
+
+===== page 7 =====
+[OCR] 3-_ RESPECT DES CRITERES ASSOCIES_A_LA_ FONCTION DE
+
+SERVICE "FS 1"
+
+L'étude menée dans cette partie consiste 4 déterminer les paramétres de construction et
+dimplantation du robot, qui permettent de respecter les critéres associées a la fonction de
+service FS1 « Contraindre l’instrument chirurgical a ne pas se déplacer latéralement au niveau
+du trocart afin de ne traverser la peau du patient qu’en un seul point » :
+
+Critéres associés a la fonction FS1 : Niveau
+
+Déplacement latéral (perpendiculairement a la direction Z1) au] =
+niveau du point "To" d'implantation du trocart dans le corps du
+patient (voir la figure 3-1)
+
+La figure 3-1 présente une modélisation plane du robot autour de la table d'opération, qui ne
+prend en compte que les deux mouvements "élévation Z1" et "orientation autour de X0".
+
+Figure 3-1
+
+Données : Fi 3-2
+Donnees : igure
+La base (Xo, Yo,Zo) est orthonormée directe ; 5
+Le mouvement d’ orientation autour de l’axe Xo est défini par le a
+parametre 6 tel que (¥o,¥,) =9 (voir la figure 3-2). in
+Le mouvement d’élévation selon l’axe Z1 est défini par A tel tf
+= . Yo
+
+rm
+que : 0A = O,B= d-ji+(ho-2)1.
+
+Ao est un paramétre constant qui caractérise la possibilité de
+modifier l’origine de la mesure pour les déplacements selon |’axe Z; de facon a tenir compte
+des différentes longueurs d’instruments chirurgicaux.
+
+L'ensemble des solides (3, 4, 5, 6) est dimensionné de fagon 4 ce que les points (A, B, D, C)
+forment un parallélogramme déformable.
+
+Texte du sujet page 7/28
+
+
+===== page 8 =====
+[OCR] Le détail de schématisation des liaisons est
+montré figure 3-3 :
+
+- 0/1 : pivot d'axe O;Xo ;
+
+- 1/3 : glissiére d'axe GZ; ;
+
+- 3/5 : pivot d'axe AXo ;
+
+- 0/2 : pivot d'axe O2Xo0 ;
+
+- 2/4: glissiére d'axe G2Z, ;
+
+- 4/5 : pivot d'axe BXo ;
+
+- 4/6 : pivot d'axe DXo ;
+
+- 3/6 : pivot d'axe CXo.
+
+L’expression au point P, dans une base
+(x,y,z), du torseur cinématique d’une liaison
+entre deux solides i et j, sera basée sur la
+forme générale suivante :
+
+Piltty
+Vis} ail yy Tableau 3-4:
+
+Ty [Wy
+FT) Peay.)
+
+Vecteurs expression
+
+Les grandeurs dimensionnelles
+
+a = dyit(ho-2)Zi
+caractéristiques du robot sont données 0,A =0,B yi ya
+
+dans le tableau 3-4. =-v-y -Z,
+AE - Cy V-Yo t+ W-Zo
+
+as >
+AC=BD=EJ
+
+O102=4B=CD_|* ©Y0
+
+3-1 Traitement du probléme d’hyperstatisme
+
+La validation du critére associé a la fonction de service FS1 nécessite que le positionnement
+de l’outil chirurgical soit correctement défini, ce qui conduit a analyser et a traiter le probléme
+d@hyperstatisme de la structure.
+
+L’étude ne concerne que la partie de structure présentée figure 3-3 constituée de 8 liaisons et
+7 solides, car les portions CJ et AE possédent une certaine souplesse.
+
+Elle conduira a mettre en place le systéme d’équations de cinématique qui permet de calculer
+le degré de mobilité « mc », le degré d’hyperstatisme « h », puis 4 donner des conclusions
+pour le traitement du probleme d’hyperstatisme.
+
+Question 4. :
+
+Déterminer y, le « nombre cyclomatique » ou nombre de cycles indépendants de la structure
+étudiée.
+
+Question 5. :
+
+Mettre en place le systéme des 6 équations de cinématique qui correspond 4 la fermeture de la
+chaine de solides (3-5-4-6-3) et aux liaisons en A, B, D, C.
+
+Les torseurs cinématiques seront pour cela exprimés au point A et dans la base (Xo, Yi, Z1).
+On numérotera ces équations de 1 a 6.
+
+Texte du sujet page 8/28
+
+
+===== page 9 =====
+[OCR] On donne le systéme d’équations de cinématique correspondant a la fermeture de la chaine de
+solides (0-1-3-5-4-2-0) et aux liaisons en O1, G1, A, B, G2, O2. (les torseurs cinématiques
+ont été exprimés au point Oj, dans la base (Xo, Y1, Z:).
+
+Projection des vecteurs rotation :
+
+sur XO: Port Past Psat Pro = 0 (7)
+
+sur Y1:0=0 (8)
+
+sur Z1:0=0 (9)
+Projection des vecteurs vitesse :
+
+sur X0:0=0 (10)
+
+sur Y1: (Ay-A)Qss+ Psa)+€Psst Pro)'sind = 0 (1)
+
+sur ZL: wWis-d(pss+ Pss)LAPse* Pix) C0804 Wey = 0 (12)
+Question 6. :
+
+Déterminer le rang « re » du systéme des équations de fermeture de chaines cinématiques qui
+correspondent a la structure étudiée (figure 3-3)
+
+- vérifier 4 partir de ce résultat la mobilité « m, » de la structure ;
+
+- déduire son degré d’hyperstatisme « h ».
+
+Question 7. :
+
+On souhaite éviter les effets néfastes de I’hyperstatisme en ajoutant des mobilités dans les
+liaisons de la structure. On choisit de modifier les liaisons 5/4 et 4/6 (respectivement point B
+et point D sur la figure 3-3). Proposer une liste de mobilités judicieusement choisies
+permettant de répondre au probléme, et donner la nouvelle écriture des torseurs cinématiques
+de ces deux liaisons.
+
+3-2 Traitement du probléme géométrique et cinématique
+Notations :
+
+- Pour un point P quelconque, on note Vesus le vecteur vitesse du point P considéré comme
+appartenant a (S1), dans le mouvement de (S1) par rapport a (SO).
+
+- On notera 8 la dérivée temporelle # du paramétre 0, et A la dérivée temporelle a du
+
+paraméetre 1.
+- La géométrie de l’instrument chirurgical est définie par la position de son extrémité T, (voir
+
+la figure 3-1) :|T, Eee, Y, +f, Z| et par le fait que tout point T de sa tige appartient 4 la
+
+droite T:Z: .
+
+3-2-1 Phase de mise en position
+Pour effectuer la mise en position du robot par rapport au patient et a la table, on positionne
+
+Vinstrument chirurgical de fagon telle que son extrémité T, soit en coincidence avec le point
+To du trocart (voir figure 3-1 page 7).
+
+Pour cela, l’axe Z; du robot est translaté dans une position particuliére dite « position
+d initialisation » dans laquelle le paramétre i a la valeur 0 (A=0) ;
+
+avec ce réglage, A représentera la pénétration de l’instrument dans le corps du patient.
+
+Dans cette position, le seul paramétre variable est l'angle d'orientation 9.
+
+Objectif du travail : établir des relations utiles 4 la construction, concernant la dimension e, et
+la cote d’ initialisation Ao :
+
+Texte du sujet page 9/28
+
+
+
+===== page 10 =====
+[OCR] Question
+
+Ecrire la relation vectorielle qui traduit que, dans la position d’initialisation (A=0), le point T;
+est centre instantané de rotation du mouvement de I’instrument (solide 8) par rapport au
+repére Ro (réalisation du critére associé a la fonction de service FS1).
+
+Question 9. :
+
+Dériver le vecteur position O17: pour en déduire :
+
+- la valeur de la dimension e; 4 respecter, en fonction de certaines dimensions du robot ;
+
+- la valeur de la cote d’initialisation Ao, en fonction de la dimension « f, » de l’instrument
+chirurgical.
+
+On souhaite connaitre la position du patient par rapport au robot, en exprimant les
+
+composantes du vecteur |O:T, =—Er-YotHr-Zo| (voir la figure 3-1)
+"Er" cote d'éloignement du patient par rapport au robot ;
+"Hr" cote de positionnement en hauteur du patient par rapport au robot.
+
+uestion 10. :
+Déterminer en fonction des grandeurs dimensionnelles caractéristiques du robot (tableau 3-4),
+la valeur des cotes "Ey" et "Hr".
+
+3-2-2 Phase d’utilisation
+On se place maintenant dans la phase d’utilisation du robot, dans laquelle les paramétres A et
+8 sont tous deux variables.
+L’instrument chirurgical utilisé, fixé sur le solide (8), est toujours caractérisé par son
+
+>
+extrémité T, telle que TIE=e-¥j+f}-21 (voir la figure 3-1).
+
+Soit T le point de l’instrument chirurgical qui coincide avec le trocart ; on a|T{T=A-Z}].
+
+L’objectif du travail est de montrer que la géométrie du robot permet de respecter le critére
+associé a la fonction de service FS1, quelles que soient les valeurs de A et @; pour cela on
+
+cherche a exprimer le vecteur V; gi -
+
+Exprimer le vecteur Vaso en fonction de @ et 2 , dans la base (¥,,2Z,) ;
+Démontrer que le solide (5) est animé d'un mouvement de translation par rapport a (0), puis
+
+donner I'expression de Vs,s0 , en fonction de 0, A et des grandeurs dimensionnelles, dans la
+base (¥,,2;)
+
+Question 12. :
+
+Exprimer Verso dans la base (¥,,Z,), et vérifier que le résultat respecte le critére associé a la
+fonction de service FS1.
+
+Rappel :
+Présentation des copies
+
+Les réponses finales doivent étre encadrées.
+
+Le candidat traitera chacune des parties 3 6 sur des copies séparées en indiquant sur chacune
+d’entre elles le numéro de la partie traitée.
+
+Texte du sujet page 10/28
+
+
+
+===== page 11 =====
+[OCR] 4- RESPECT DES CRITERES ASSOCIES A LA FONCTION DE
+SERVICE "FS 3"
+
+L'étude menée dans cette partie consiste a valider le choix des composants du robot qui
+permettent de respecter les niveaux des critéres associés a la fonction de service FS3
+"Permettre 4 l’instrument chirurgical de se mouvoir avec des performances dynamiques
+comparables ou meilleures que celles réalisées par un chirurgien humain " ;
+
+L’étude est effectuée uniquement pour l’axe « d’élévation » selon Z;.
+
+Critéres associés 4 la fonction FS 3 : Niveaux
+
+Vitesse de translation nominale : > 0,1 m/s
+
+Temps tl pour atteindre la vitesse nominale :_| 100 millisecondes maximum
+
+Performances de l’asservissement :
+Précision : .......cececeeeeeeeeeeeeeeeeeeeee Ecart statique < 0,2 mm.
+Retard de trainage < 0.1s
+
+pour une entrée rampe de 0,1 m/s.
+
+Stabilite jt Marge de phase = 45°; pas de
+« dépassement » en réponse temporelle.
+Rapidite ee Bande passantea -3 dB pour la partie
+
+mécanique : 4 Hertz.
+
+4-1 Description de la chaine fonctionnelle de positionnement en translation.
+
+4-1-1 Schéma-blocs
+
+Figure 4-1
+
+déplacement = déplacement
+
+entranslation . [ capteur + codeur + [consigne de pox «> mmoto- |_posttion | mecanisme 4° | on translation
+2) transformation | 20H
+
+dela main du>| fire + atténuateur_[siton angulaire > réducteur [Tangulairé”| 46 mouvement | & instrument
+
+chirurgien
+
+La figure 4-1 présente le schéma-bloc de l’axe d’élévation (selon Z1) du dispositif de
+commande de |’instrument chirurgical :
+
+La console permet de capter le déplacement de la main, de le coder, de le corriger
+éventuellement afin d’élaborer la consigne de position angulaire du rotor moteur.
+
+La position angulaire est ensuite transformée en position linéaire de |’instrument par un
+mécanisme de transformation de mouvement a crémaillére.
+
+4-1-2 Schéma cinématique minimal
+
+La figure 4-2 présente de fagon simplifiée, la chaine cinématique de l’axe d’élévation :
+L’actionneur est un moto-réducteur (1) 4 courant continu Gammatic n° RH-8D-6006.
+
+Le premier étage de transmission du mouvement se fait par une courroie crantée (2) qui
+s’enroule sur des poulies de méme diameétre pour entrainer |’ arbre intermédiaire (3).Une roue
+dentée (3”) de diamétre primitif ©; = 38,4 mm solidaire de l’arbre intermédiaire (3) engréne
+avec une crémaillére (4) solidaire de la partie supérieure mobile du robot. Cette crémaillére
+est en liaison glissiére d’axe Z, par rapport a la partie inférieure du robot considérée comme
+fixe dans cette partie du sujet, et notée « Bati ».
+
+Pour équilibrer le poids de la partie supérieure (coulisseau compris) de masse M = 5,5 kg, les
+ingénieurs ont placé un contre-poids (7) de masse 2M = 11 kg tiré par un cable qui s’enroule
+sur un tambour (3") de diamétre ® = ®, / 2 = 19,2 mm solidaire de l’arbre intermédiaire (3).
+
+Texte du sujet page 11/28
+
+
+
+===== page 12 =====
+[OCR] Courroie @et poulies Arbre inter-
+
+Figure 4-2
+
+Partie supérieure mobile
+Masse M = 5,5 kg
+
+identiques ~~ | médiaire @)
+
+Moto-réd lucteur
+
+Roue dentée
+®, = 38,4 mm
+
+Coulisseau
+a crémaillére
+
+Capteur (codeur
+Partie inférieure
+
+X1=X0
+
+du cable ©, = 19,2 mm
+Renvoi
+
+Contre-poids
+Masse 2M = 11 kg
+
+incrémental)
+
+4-2 Etude de la boucle d’asservissement de la position angulaire du moteur
+
+Données :
+
+Le constructeur du moto-réducteur donne les caractéristiques mécaniques en sortie du
+réducteur ce qui permet de considérer le moto-réducteur comme un « moteur qui tourne
+lentement avec un couple élevé ».
+
+Puissance nominale en sortie du réducteur : Prom = 8,6 Watts
+
+Couple nominal en sortie du réducteur : Chom = 1,4 N.m;
+
+Couple de maintien en sortie du réducteur : Cmaint = 1,5 N.m ;
+
+Couple maxi en sortie du réducteur: Cmax = 2,7 N.m
+
+Vitesse nominale en sortie du réducteur : Nnom = 60 tr / mn ;
+
+Vitesse maxi en sortie du réducteur : Nmnax = 100 tr / mn
+
+Moment d’inertie total ramené a l’arbre de sortie du réducteur : J, = 3,70.107 kg.m?
+Capteur de position : codeur 360 incréments par tour monté sur le rotor du moteur
+Rapport de réduction : 50 (n’interviendra que dans le calcul de la résolution du
+capteur).
+
+4-2-1 Vérification de la vitesse de rotation maximum du moto-réducteur.
+
+Question 13. :
+
+Déterminer la vitesse nominale de translation du coulisseau (4) ; vérifier la conformité avec le
+cahier des charges.
+
+Texte du sujet page 12/28
+
+
+===== page 13 =====
+[OCR] 4-2-2 Vérification du temps t; de mise en vitesse
+
+Lorsque |’outil est en place dans le corps du
+patient, le déplacement axial se fait suivant la loi
+de vitesse en trapéze donnée figure 4-3,
+
+Données :
+
+- La courroie (2) et le cable (5) sont inextensibles,
+sans masse et roulent sans glisser sur les poulies ou
+tambour. Le cAble est toujours tendu.
+
+- Les frottements entre la roue dentée (3') et la
+crémaillére (4) sont négligés.
+
+- Les liaisons pivot d’axe X; horizontal sont sans
+frottements.
+
+- Les frottements dans la liaison glissiére (4/0) induisent dans l’expression de la résultante du
+torseur des efforts transmissibles par cette liaison, une composante supplémentaire
+Zgiss = 10 N dirigée dans le sens opposé au mouvement du coulisseau par rapport au bati.
+
+- L’arbre (3) équipé d’une poulie, d’une roue dentée (3°), du tambour d’enroulement (3”’), a
+un moment d’inertie J2 = 0,05 . 10° kg.m’ par rapport a son axe de rotation OX1.
+
+On note C;eg et req les valeurs instantanées du couple et de la pulsation (vitesse) de rotation 4
+la sortie du réducteur pendant la phase d’accélération.
+
+Reproduire le modéle de tableau ci-dessous pour répondre a la question suivante :
+(Nota : le nombre de lignes des tableaux n’est pas imposé)
+
+Actions mécaniques extérieures
+
+Expression du torseur_| Puissance galiléenne(=0ou#0) _| Justifications
+
+{T (Bati + 3) } P(B>3/B)=0 - pas de frottements
+- la liaison ne se déplace pas
+
+Actions mécaniques intérieures
+
+Expression du torseur_| Puissance inter-efforts (=0 ou#0) | Justifications
+
+{T(526)} P(56)=0 - pas de glissement cable/poulie
+
+Question 14. :
+
+Isoler l'ensemble { rotor et pignons du moto-réducteur (1) + poulies-courroie (2) + arbre
+intermédiaire (3) + pignon (3’) + coulisseau a crémaillére (4) + partie supérieure du robot +
+tambour (3’”) + cable (5) + renvoi (6) + contre-poids (7) }.
+
+Faire le bilan, sans détailler les éléments de réduction des torseurs, des actions extérieures et
+intérieures a l’ensemble isolé et préciser si les puissances correspondantes sont nulles ou non
+nulles.
+
+uestion 15. :
+Exprimer la somme des puissances des actions de pesanteur sur l’ensemble isolé ; montrer
+que cette somme est nulle lorsque le contre-poids (7) et le tambour (3’’) d’enroulement du
+cable sont correctement dimensionnés (critére d’équilibrage statique associé a la fonction de
+service FS5) .
+Exprimer littéralement la somme des puissances pendant la phase de montée, en fonction de
+Cred @red, Zgiiss, Py et M.
+
+Texte du sujet page 13/28
+
+
+
+===== page 14 =====
+[OCR] Question 16. :
+
+Exprimer littéralement |’énergie cinétique galiléenne instantanée de l’ensemble isolé, en
+fonction de @rea, Ji, Jz, Diet M.
+
+En déduire l’expression littérale du moment d’inertie équivalent Jequ, a toutes les piéces en
+mouvement, ramené 4 l’arbre de sortie du réducteur.
+
+Faire l’application numérique (trois chiffres significatifs sont attendus).
+
+uestion 17. :
+Ecrire littéralement le théoréme de I’énergie cinétique pendant la phase d’accélération en
+
+montée, en fonction de Jequ, Cred, Zetiss, D1 et  rea= d rea /dt.
+
+En déduire l’expression de l’accélération angulaire @ rea pendant cette phase.
+
+Question 18. :
+
+Faire l’application numérique lorsque Creg = Crom = 1,4 N.m.
+
+En déduire le temps t; pour que le moteur atteigne la vitesse de rotation nominale Nnom et
+vérifier la conformité du systéme par rapport au critére du cahier des charges (t; < 0,1 s).
+
+Question 19. :
+
+Lorsque la partie supérieure du robot s’éléve, en phase d’accélération, on souhaite vérifier que
+le cable est toujours tendu : exposer la démarche du raisonnement en précisant le systéme
+isolé, le bilan des actions, le théoréme utilisé, l’équation de projection utile et le résultat avec
+| application numérique.
+
+4-2-3 Evaluation de la fonction de transfert du moto-réducteur
+
+Le constructeur donne les caractéristiques électro-mécaniques exprimées 4 la sortie du
+réducteur.
+On rappelle les équations temporelles :
+
+u(t)=Ri(t)+L.di(t)/dtt+e(t) —; e(t) = Ke . zea(t)
+
+Crea (t)= ke - i(t) : Crea(t) — Cr — fy « @rea(t)= Jequ - d @rea(t) / dt
+
+avec : u(t) tension appliquée aux bornes de l’induit
+
+i(t) intensité du courant traversant |’induit
+
+e(t) force électromotrice induite par la rotation du moteur, évaluée a la sortie du
+réducteur
+
+@,éa(t) vitesse de rotation a la sortie du réducteur
+
+C,sa(t) couple moteur ramené a la sortie du réducteur
+
+R= 10 Q résistance de l’induit
+
+L=2,2 mH inductance de l’induit
+
+k, = 2,1 N.m/A constante de couple évaluée a la sortie du réducteur
+
+k, = 2,1 V.s/rad constante de f.e.m évaluée a la sortie du réducteur
+
+C, = 0,2 N.m couple résistant induit par les frottements secs, ramené 4 la sortie du
+réducteur
+
+f, = 0,04 Nm.s / rd coefficient de frottement visqueux équivalent a toutes les piéces en
+mouvement, ramené a la sortie du réducteur
+
+Jéqu = 7x10° kg.m? moment d’inertie équivalent 4 toutes les piéces en mouvement,
+ramené a la sortie du réducteur.
+
+Les transformées de Laplace des fonctions u(t), i(t), e(t), @;ea(t), Crea(t) sont respectivement
+U(p), I(p), E(p), Qrea(p) et Crea(p). On considére toutes les conditions initiales nulles.
+
+Texte du sujet page 14/28
+
+
+===== page 15 =====
+[OCR] Question 20. :
+
+Transformer les équations temporelles ci-dessus.
+Remplir sous forme littérale les blocs du schéma figure R20 du document réponses.
+Exprimer les grandeurs physiques entre chaque bloc.
+
+Question 21. :
+
+Exprimer littéralement sous forme canonique la fonction de transfert du moto-réducteur
+Queat(p)
+
+Mp Up) *
+
+Quel que soit le résultat obtenu a la question précédente, on utilisera l’expression de M(p)
+
+0,436
+
+3. p+3, 0p?
+
+suivante : | Mi(p)= T4510
+
+Sur le systéme de levage non asservi c’est 4 dire avec le capteur de position angulaire
+déconnecté (figures 4-1 et 4-2), on a pratiqué, un essai en charge, en donnant au moteur un
+échelon de tension u(t) = 24 V.
+
+Avec une génératrice tachymétrique dont le gain est de 0,166 V.s.rd' , on a tracé sur le
+document réponses figure R22 , la courbe de tension image de @,ga(t).
+
+Remarque : la partie supérieure du robot est supposée rigide pendant cet essai.
+
+Question 22. :
+
+Aprés avoir analysé cette courbe, expliquer sur le document réponses sous la figure R22
+pourquoi on peut négliger l’inductance L.
+
+Question 23. :
+
+Justifier analytiquement la réponse précédente a partir de |’expression de M,(p) lorsque I’on
+envisage une étude fréquentielle : on précisera la valeur du péle dominant, |’autre (faisant
+intervenir la valeur de L) étant rejeté.
+
+Dans la suite du probléme, on néglige l’inductance L du moteur.
+
+Question 24. :
+
+Exprimer littéralement, sous forme canonique, la fonction de transfert du moto-réducteur
+Pred) __Gs
+
+MPT) iT p
+
+| Donner les valeurs numériques de Gs et de T a partir de l’expression de Mj(p) et des réponses
+
+apportées a la question 23 (3 chiffres significatifs sont attendus).
+
+Question 25. :
+
+Déterminer les valeurs de Gs et T, a partir de la courbe de tension image de @,gq(t) figure
+R22 (expliquer les démarches sous la figure et comparer avec les résultats de la question 23).
+
+4-2-4 Respect du critére de marge de phase
+
+La boucle d’asservissement de
+
+la position angulaire de l’arbre | Figure 4-4
+
+de sortie du réducteur est définie cnotoaeur cleat
+
+par le schéma-blocs figure 4-4. tension de vitesse « moto angle 6 moto
+A An consigne de_ + £5}. commande, | yp) | réducteur B(p) Ltedusteus,
+
+La consigne de position en | -osnorer Denvots>| M(p) sare (2) Parra
+
+incréments est élaborée par le | "men's
+calculateur, a partir des
+
+5 A A mesure en
+informations envoyées par la pecs c
+console.
+
+‘codeur incrémental et compteur
+
+Texte du sujet page 15/28
+
+
+===== page 16 =====
+[OCR] Le convertisseur-amplificateur K de gain k variable élabore la commande du moteur.
+Données : Le codeur incrémental C placé sur le rotor du moteur a une résolution de 360
+incréments par tour. Il est associé 4 un compteur - décompteur qui élabore la mesure de
+position en incréments.
+Le systéme est discret (non continu) mais on l’assimile 4 un systéme continu car le
+comptage est trés rapide.
+Le réducteur a un rapport de réduction de 50.
+
+Question 26. :
+
+Donner la fonction de transfert du bloc B(p) et la valeur du coefficient du bloc C en incr./rad.
+Exprimer numériquement, en fonction de k, la fonction de transfert en boucle ouverte Ho(p) .
+
+Question 27. :
+
+Tracer sur le document réponses figure R 27, les diagrammes de Bode du systéme en boucle
+ouverte pour k = 1.
+
+Le systéme est-il stable en boucle fermée pour cette valeur de k ? Répondre au bas du
+document réponse 27 en justifiant.
+
+On a tracé sur le document réponses figure R28 le diagramme de Black du systéme en
+boucle ouverte pour k = | lorsque la valeur de L n’est pas négligée.
+
+Question 28. :
+
+Quelle est l’influence de la prise en compte de L sur la stabilité en boucle fermée ? (répondre
+sur le document réponses sous la figure R28). L’hypothése consistant a négliger L est-elle
+vérifiée ?
+
+Determiner, et expliquer a partir de constructions faites sur le diagramme de Black document
+réponses figure R28, la valeur kys de k qui permet d’obtenir la marge de phase de 45 °
+spécifiée dans le cahier des charges.
+
+angulaire
+
+4-2-5 Etude de la ion de la boucle d’asservissement de
+
+Question 29. :
+
+Calculer, pour la valeur k4s de k établie précédemment, |’écart statique €cons o en incréments
+lorsque la consigne est un échelon de position : Cons(t) = 1.u(t).
+
+Etant donné que la perturbation Figure 4-da c
+Cr intervient entre deux blocs de { "
+M(p), on adopte le schéma de la M(p).Rike
+figure 4-4a pour faciliter les calculs
+de la question suivante. consi S$ QE SK |Y M(p)
+
+B(p)
+
+mesure c
+
+Question 30.
+Calculer, pour la valeur kas de k établie précédemment, I’écart statique Epert » en incréments
+entre la consigne et la mesure lorsque la perturbation est l’échelon de couple résistant C,.u(t)
+induit par les frottements secs.
+
+La chaine cinématique de transmission est telle qu’il faut 150 incréments pour que la
+crémaillére se déplace de 1 mm, quelle est l’incidence de cet écart sur la position de
+instrument ?
+
+Conclure par rapport aux exigences du cahier des charges.
+
+Proposer une modification du bloc K qui annulerait cet écart.
+
+Texte du sujet page 16/28
+
+
+===== page 17 =====
+[OCR] 4-3_Vérification des _performances_de_la_chaine de _positionnement_de
+Vinstrument
+
+4-3-1 Modélisation par schéma-blocs
+
+boucle dasserissement transformation de mouvement élasticté de la partie supérieure
+ton 1p) |-2ostion angulaire de tarbre |déplacement en transiatiog déplacoment
+Hi) Ff sore duraductur end >| [dea crémalfre en m > |¥*(°) | —Soraretation
+
+de tnstrument
+
+dea main
+
+4-3-2 Analyse du déplacement en translation de la crémaillére
+
+Lorsque la boucle d’asservissement estbien réglée, la fonction de transfert est
+
+Op) ____0,00035_
+HP) Cons(p) 1+0,014p+0,0001 7p" .
+
+On rappelle que la courroie s’enroule sur des poulies de méme diamétre et que la roue dentée
+qui engréne avec la crémaillére a un diamétre ©, = 38,4 mm (voir la figure 4-2).
+
+Question 31. :
+
+Exprimer le coefficient du bloc Hz ; préciser l’unité.
+
+En régime statique, la position de la crémaillére est l’image de la position de la main, aux
+écarts prés.
+
+Question 32.
+
+Quelle relation doit vérifier le produit P des gains des blocs C, , H; , H2 ? Justifier.
+Exprimer le coefficient c, en incréments par métre du bloc C, .
+
+Pour augmenter la précision de l’opération chirurgicale, on désire que la crémaillére se
+déplace 10 fois moins que la main.
+
+Question 33.
+
+Exprimer le nouveau coefficient cz du bloc C; ainsi que le nouveau produit P, .
+
+4-3-3 Analyse du déplacement de l’instrument chirurgical par rapport a la crémaillére
+
+La partie supérieure du robot est constituée par assemblage | Figure 4-6
+de tubes minces en fibres de carbone.
+Solide So lié a la
+
+On modélise cette partie par deux solides : So représentant <—_—_—_—_
+la crémaillére et les solides qui y sont liés; et S; 3 cone
+
+représentant |’instrument chirurgical. << Ressort ot amortisseur
+Ces solides sont considérés en liaison glissiére parfaite et
+
+reliés par un ressort de raideur ko et un amortisseur de
+coefficient fp, montés en paralléle comme le montre le
+schéma figure 4-6.
+
+Solide S: ié @
+
+——
+Tinstrument
+
+Dinsirum(D)
+Deren(p)
+de cette partie, on a imposé a la crémaillére un échelon de déplacement deem(t) = 20 . 10° ma
+partir de la position d’équilibre. On a tracé sur le document réponses figure R34, la courbe
+
+de déplacement dinstrum(t) de l’instrument.
+
+Pour identifier la fonction de transfert H3(p)=
+
+Texte du sujet page 17/28
+
+
+===== page 18 =====
+[OCR] On donne sur la figure 4-7 les abaques des dépassements relatifs et des temps de réponse
+réduits d’un systéme du second ordre.
+
+Figure 4-7 ‘Tr = temps de réponse 45% ; wo = pulsation propre
+Abaque des dépassements relatifs Abaque des temps de réponse réduits Tr.wo
+3 | 3
+2 0s = 00
+BOT oestenen B00
+8 8
+8 2
+§ 02 5 100
+1° depassement 5 50
+ot : 3 30
+i e y]
+0,05 2 40
+5
+002 3
+0,01 4
+0,01 002 005 01 Uke Os 4
+facteur damonissement Opt 005 Ot 05 12 Eetour éamotissamant
+Question 34. :
+
+Etablir, a partir de cette figure R34, l’expression de la fonction de transfert H3(p) ; déterminer
+les valeurs caractéristiques : Gain statique, coefficient d’amortissement et pulsation propre.
+
+Le critére de la bande passante de 4 Hz a —3 dB est-il satisfait ? répondre et justifier sur le
+document réponse.
+
+Les questions suivantes vont permettre de déterminer |’expression analytique de H3(p), de
+facon a analyser |’influence du paramétre de raideur, pour respecter le critére
+de bande passante du cahier des charges. Figure 4-8
+
+Soit m; la masse du solide S, ; L’axe du mouvement est vertical ascendant et
+
+noté Z. L’origine O du mouvement de S, correspond 4 la position pour Z
+laquelle le ressort est 4 sa longueur libre (voir aussi la figure 4-6).
+Soit ap (voir figure 4-8) l’allongement du ressort dans la position d’équilibre
+qui prend en compte I’action de la pesanteur. fe)
+Nota : ao est négatif car on considére qu’il y a allongement du ressort.
+
+ag
+
+Question 36. :
+
+Le solide S; est dans la position d’équilibre ; écrire l’équation d’équilibre.
+
+Question 37. :
+
+Le solide S; est déplacé de sa position d’équilibre puis abandonné a son propre poids.
+Déterminer |’équation différentielle du mouvement autour de la position d’équilibre.
+
+Aprés avoir mis l’équation différentielle du mouvement sous forme canonique :
+
+A-Z(0)+B-2(t)+2()=0, exprimer le coefficient d’amortissement C3 et la pulsation propre 93 du
+mouvement en fonction de ko, fo, mi .
+
+Texte du sujet page 18/28
+
+
+===== page 19 =====
+[OCR] On donne la valeur numérique de la masse de l’instrument chirurgical et de la plaque
+d interface : m= 1,6 Kg ;
+
+Question 38. :
+
+Pour la valeur de @o3 calculée précédemment, déterminer la valeur minimale de la raideur ko
+(en N/m) qui permettrait de respecter le critére de la bande passante 4 —3 dB de 4 Hz.
+(On notera que .348 > @o3 )-
+
+4-3-4 Analyse du déplacement de l’instrument par rapport au déplacement de la main.
+
+On conserve la valeur c; du bloc C;. La fonction de transfert du systéme est:
+Hw= Dinsirum(p) _ l
+
+Danain(p) (1+0,014p+0,0001 7p? )-(1+0,015p+0,0014p?) *
+Le chirurgien impose avec sa main une rampe de déplacement de 100 mm/s. On a tracé sur
+le document réponses figure R39 les courbes de déplacement de la main et de l’instrument.
+
+Question 39. :
+
+Mettre en évidence sur le document réponses et donner les valeurs numériques :
+de I’écart dynamique maximal ; de I’écart de trainage (ou de vitesse) ¢, en régime établi, du
+retard de trainage. Le cahier des charges est-il satisfait pour ce dernier critére ?
+
+On donne sur le document réponses figure R41, la courbe d’amplitude (gain) de H(p) pour
+p = jo dans le plan de Bode.
+
+La main du chirurgien est prise d’un tremblement sensiblement sinusoidal dont la période est
+de 0,25 s et l’amplitude 1 mm.
+
+Question 40. :
+
+Déterminer a partir de cette courbe, l’amplitude du mouvement pris par |’instrument. Quelle
+est la conséquence de ce mouvement sur la plaie chirurgicale ?
+
+4-3-5 Amélioration des performances dynamiques.
+
+On souhaite limiter l’amplitude du mouvement de I’outil lors du tremblement de la main en
+filtrant le signal traité par le capteur-codeur C, de sorte que les tremblements n’apparaissent
+plus sur le soustracteur. On propose trois filtres du premier ordre, de gains statiques égaux a 1
+et de constantes de temps: T,;=0,04s; T2=0,ls; T; =0,5s.
+
+Question 41. :
+
+Tracer sur le document réponses figure R41, les trois courbes asymptotiques d’amplitude de
+ces filtres avec des couleurs différentes.
+
+Sachant que les mouvements dont la période est inférieure a 1 s ne doivent pas étre atténués
+de plus de 1 dB, choisir le numéro 1, 2 ou 3 du filtre qui atténue de 8 4 10 dB le tremblement
+de la main de période 0,25s.
+
+Tracer sur cette figure, dans une autre couleur, |’allure de la courbe d’amplitude corrigée par
+ce filtre.
+
+Le niveau de 4 Hz, de la bande passante 4 —3dB du critére de rapidité est-il toujours respecté ?
+
+Rappel : Présentation des copies
+Les réponses finales doivent étre encadrées.
+Le candidat traitera chacune des parties 3 4 6, sur des copies séparées en indiquant sur
+chacune d’entre elles le numéro de la partie traitée.
+
+Texte du sujet page 19/28
+
+
+===== page 20 =====
+[OCR] 5- RESPECT DES CRITERES ASSOCIES A LA FONCTION DE
+SERVICE "FS 4:
+
+L'étude menée dans cette partie consiste, par un calcul de résistance, a vérifier que le niveau
+d’un critére associé a la fonction de service FS4 : « Permettre a l’équipe médicale de retirer
+rapidement les instruments chirurgicaux du corps du patient en cas d’urgence, en soulevant la
+structure », est validé ;
+
+Elle est suivie d’un calcul de raideur, qui est utile 4 la validation d’un critére associé 4 la
+
+fonction de service FS3.
+
+Critéres associés 4 la fonction FS4 : Niveau
+Résistance du bras du robot lors du| Coefficient de sécurité = 5
+soulévement par l’extrémité
+
+5-1 Etude de résistance
+
+Hypothéses de travail
+
+L'étude est effectuée sur le parallélogramme qui supporte I'instrument chirurgical ;
+
+Elle concerne le bras supérieurs (J, J’, L, L') et inférieur (E, E', F, F’) du parallélogramme
+(figure 5-1) ; On ne considérera que la position dans laquelle |'instrument chirurgical est
+vertical (axe Zo) ; le modéle d'étude est donné figure 5-2.
+
+Figure 5-1
+
+Instrument
+
+Données :
+Compte tenu des masses des constituants et des frottements dans la chaine cinématique,
+Veffort Fop =Fop-Z , a fournir par l'opérateur est estimé a : Fop = 100 N . Cet effort est
+
+exercé sur la plaque EE’J’J.
+
+Le repére utilisé sur les figure 5-3 et 5-4 correspond au repére utilisé pour résoudre les
+problémes de flexion sur poutres droites ; il est choisi tel que X=-Yo ; Y=Xo ; Z=Zo.
+
+Le choix de construction des ingénieurs s'est porté sur | Figure 5-3
+l'utilisation de tubes (voir la section figure 5-3) en fibres
+de carbone et matrice époxyde. De Z
+
+Les caractéristiques mécaniques du matériau sont : Di
+- Module d'élasticité longitudinal : E = 130 000 N.mm?
+- Contrainte de limite élastique : Re = 1700 N.mm?
+
+- Masse volumique: 1550 kg.m*
+
+diamétre extérieur : De = 12 mm;
+diamétre intérieur : 10 mm.
+Surface : St= 34,6 mm’.
+
+Texte du sujet page 20/28
+
+
+
+===== page 21 =====
+[OCR] Question 42. :
+
+Comparer l'utilisation de ce matériau par rapport 4 un tube de méme section en acier S235 ?
+(On comparera la raideur et la résistance) ;
+
+Question 43. :
+
+Donner I'expression littérale du moment quadratique "ISy", de la section de tube par rapport 4
+V'axe Sy et calculer sa valeur en mm‘ .
+
+On suppose que chacun des quatre tubes de longueur "Lt" = 600 mm, est sollicité
+équitablement sous I'effet de l'action "Fop" exercée par l'opérateur sur la plaque EE’J’J.
+
+Question 44. : ; :
+Tracer le diagramme du moment de flexion le long d'un Figure 5-4
+tube et calculer la valeur maximale de celui-ci.
+
+(On utilisera le repére (X,Z) de la figure 5-4 dans lequel x
+axe de la poutre est porté par X). <
+
+Question 45. : Lt= 600
+
+Déterminer la contrainte normale maximale dans un
+tube ;
+Conclure par rapport au cahier des charges.
+
+5-2 Etude des déformations
+
+Pour l'étude du comportement vibratoire du robot et du systéme asservi, on souhaite connaitre
+la raideur de I'extrémité du robot.
+
+L'étude sera faite dans un premier temps sur la structure constituée de 4 tubes (figure 5-2).
+
+Donnée : la déformation élastique "57," d'un tube, | Figure 5-5
+
+résultant de I'application d'un effort "Fzt" en extrémité 3 Lt AZ
+de tube (figure 5-5) est donnée par la relation : “WE
+
+Fel, = 4 x « _—_|
+O03 Ty ; on prendra Isy = 530 mm* . =
+
+F,
+On note : Kz, = —8 Ja raideur de la structure dont
+Zs
+
+Textrémité se déplace de la quantité "67," sous I'effet de l'effort vertical "F,.".
+
+Question 46. :
+
+Déterminer |'expression littérale, puis donner la valeur numérique de la raideur "K 7.5," de la
+structure a 4 tubes (figure 5-2).
+
+Pour augmenter la rigidité, les ingénieurs Figure 5-6
+ont procédé a I'ajout de tubes
+supplémentaires ; svurnent
+
+I'étude concernera successivement le bras
+inférieur (E, F, H) et son double (E’, F',
+H’) puis le bras supérieur (J, L, M, N) et
+son double (J', L', M', N') (figure 5-6).
+
+Texte du sujet page 21/28
+
+
+===== page 22 =====
+[OCR] 5-2-1 Evolution de la structure du bras inférieur (E, F) :
+
+Une structure en treillis triangulaire (E, F, H), constitués de tubes est utilisée pour augmenter
+la rigidité du bras inférieur (E, F) (voir la figure 5-6).
+
+Hypothése de travail : on considére que |’assemblage entre les tubes au point E d'une part, et
+entre les tubes et le reste de la structure aux points F et H d'autre part, se comporte comme
+une liaison rotule ; le modéle d'étude est donné figure 5-7 .
+
+Figure 5-7
+
+E
+
+Tous les calculs seront effectués pour un effort Fz in¢ = 100 N.
+
+Question 47. :
+Déterminer la nature et la valeur numérique des solicitations existant dans le tube EF, puis
+dans le tube EH (un raisonnement rigoureux est exigé) ;
+
+Question 48. :
+
+Déterminer les valeurs numériques (en mm) des allongements rp et yp (valeurs
+algébriques) des tubes EF et EH.
+
+Question 49. :
+
+Donner I'expression (algébrique) en mm du déplacement vertical 8, ,,- de l'extrémité E de la
+partie de la structure triangulaire en fonction de dz, et Sys.
+Calculer numériquement 67 ;,¢ ; En déduire la raideur "K7j.¢" de cette partie de structure
+
+triangulaire .
+
+Texte du sujet page 22/28
+
+
+===== page 23 =====
+[OCR] 5-2-2 Evolution de la structure du bras supérieur (J, L) :
+
+On augmente la rigidité du bras supérieur (J, L) par le doublement des tubes 4 l'aide d'une
+structure rectangulaire (J, L, M, N) (voir la figure 5-6).
+
+Hypothése de travail : Les parties (J, N) et (L, M) liant les tubes (J, L) et (N, M) par des
+encastrements sont considérées comme infiniment rigides.
+
+L'utilisation d'un logiciel Figure 5-8
+
+de calcul par éléments Ne 600 mm >.
+finis a permis d'obtenir,
+sous l'effet d'un effort
+Fz sup = 100 N,
+
+e la déformée 4
+proposée sur la 8
+
+Zsup
+
+figure 5-8 : | Fz sup
+
+: a bo : | Point M Point L
+a appurs, sur la Résultante/yo _|- 298N 298N
+
+. Résultante / Zo - 50N -50N
+
+Moment / xo 15 Nm 15 Nm
+
+uestion 50. :
+Tracer le long des poutres (N, M) et (J, L), les diagrammes de I'effort normal, de I'effort
+tranchant et du moment fléchissant.
+(on travaillera avec la convention du torseur de cohésion qui utilise les actions exercées par la
+partie située a droite de la section fictive, sur la partie située 4 gauche de celle-ci).
+En déduire une figure qui précise les actions (forces et moments orientés, avec les valeurs
+numériques) exercées aux points J et N par les tubes, sur le trongon JN.
+
+Le logiciel a aussi donné le déplacement 57,,,= 13,4 mm de I'extrémité J de la partie de la
+
+structure rectangulaire sous I'effet d'un effort F, =100N.
+
+Z sup
+
+Question 51. :
+
+En déduire la raideur "Kz..." de cette partie de structure rectangulaire, ainsi que la raideur
+
+"Kzs)" de la structure compléte (comprenant deux parties supérieures rectangulaires et deux
+
+parties inférieures triangulaires).
+
+Rappel :
+Présentation des copies
+
+Les réponses finales doivent étre encadrées.
+
+Le candidat traitera chacune des parties 3 4 6, sur des copies séparées en indiquant sur
+chacune d’entre elles le numéro de la partie traitée.
+
+Texte du sujet page 23/28
+
+
+
+===== page 24 =====
+[OCR] 6- OPTIMISATION DE LA COMMANDE
+
+Les déformations périodiques des organes du corps humain, qui sont dues aux mouvements
+respiratoires, et de fagon plus critique aux battements cardiaques représentent des
+perturbations pour le chirurgien manipulant (ou télé-manipulant) le robot chirurgical.
+
+Il doit en réalité compenser lui-méme le mouvement qu’il observe dans les images
+endoscopiques, dés qu’il cherche a effectuer une tache précise (de la suture par exemple) a la
+surface d’un organe.
+
+On envisage d’utiliser un systéme de traitement d’images pour définir une consigne de suivi
+des mouvements de l’organe a opérer; cette consigne sera superposée 4 celle donnée
+habituellement par le chirurgien pour la réalisation de l’acte opératoire. Tout se passera alors
+pour le chirurgien comme s’il opérait un organe immobile.
+
+Pour suivre les consignes 4 dynamique rapide qui sont imposées par le systeme de traitement
+d’image, on envisage de développer la commande par une méthode « d’inversion de la
+causalité du processus ».
+
+La démarche proposée dans ce paragraphe est l’amorce d’une étude qui consiste a décrire
+complétement le « processus » par un « Graphe Informationnel Causal ».
+
+L’étude est limitée 4 la chaine de commande du mouvement de translation de |’axe
+d’élévation selon Z, (figure 3-1).
+
+Le schéma équivalent de la figure 6-1 donne le modéle théorique du systéme et délimite les
+composants intervenant dans I’étude; |’axe Z oriente les mouvements des piéces en
+
+translation et les efforts exercés sur celles-ci.
+
+Notations :
+
+Figure 6-1
+Moto-réducteur (on rappelle que les
+caractéristiques sont ramenées a
+Varbre de sortie du réducteur) :
+
+- moment d’inertie : Jy ;
+~ couple délivré : Crea 3 oN Za
+~ paramétre de position : Oréq 5 Se ba
+i Ps te >) Moteur
+- vitesse angulaire : @req ;
+
+Pignon-crémaillere :
+- diamétre primitif pignon : P,
+
+N
+
+Coulisseau :
+
+- masse : mo ;
+
+- paramétre de position : Zo ;
+- vitesse : Vo;
+
+Ressort-amortisseur :
+= raideur : ko ;
+- coeff. de frottement visqueux : fy ; fe)
+
+Ressort - amortisseur
+
+Instrument (m1)
+Instrument :
+
+masse : my ;
+
+- paramétre de position : Z1 ;
+- vitesse V1.
+
+Texte du sujet page 24/28
+
+
+===== page 25 =====
+[OCR] Le tracé du « graphe informationnel
+figure 6-2 :
+
+causal » associé aux composants étudiés est proposé
+
+Figure 6-2
+
+Moto-Réducteur
+
+Ressort + amortisseur Instrument
+
+Pignon-crémaillére
+
+Certaines des équations qui décrivent le comportement du systéme sont rappelées ci-dessous :
+
+#0.
+
+RI: Ri) LA = u()-e(h) R6: Ve Lorcd)
+R2: Cedi)=ke.i(d) RT: Co Ainb. Fodt)
+
+a R8: AV(D=Vi(0) - Volt)
+R3 : e(t)=ke. @red(t) RO: Fa(A)=, FA) HFA)
+
+" = R10: voir le questionnaire
+RA: C= fred) R11 : voir le questionnaire
+RS: Cudt)-Co(1)—Cor(t)=Jenu L2f0 R12: -F(t)-Fa(d)=m, HO
+
+Avec les notations complémentaires suivantes :
+
+u(t) : tension aux bornes du moteur
+
+Cq(t) : couple de frottement visqueux équivalent 4
+toutes les piéces en mouvement, mesuré a
+Larbre de sortie du réducteur
+
+e(t) : force électro-motrice du moteur
+
+\f. : coefficient de frottement visqueux équivalent
+
+i(t) : courant dans |’induit du moteur
+
+F(t) : effort exercé par le ressort sur le coulisseau
+(positif si compression du ressort)
+
+L : inductance du moteur
+
+F(t) : effort exercé par l’amortisseur sur le coulisseau
+(positif si mouvement de compression de
+V’amortisseur)
+
+k, : coefficient de couple évalué a la
+sortie du réducteur
+(=k. : constante de f.e.m)
+
+F,,,(t) : effort exercé par l’ensemble
+ressort+amortisseur sur le coulisseau ;
+
+AV(t) : différentiel de vitesses entre coulisseau et
+instrument
+
+Jéqu : Moment d’inertie équivalent de
+T’ensemble moteur + coulisseau,
+ramené a I’arbre de sortie du
+réducteur
+
+C,-(t) : couple généré au niveau de l’arbre de sortie du
+réducteur, par l’effort F(t)
+
+Texte du sujet page 25/28
+
+
+
+===== page 26 =====
+[OCR] Question 52. :
+
+La relation R12 est une relation causale (ou « unilatérale » ou « orientée ») ;
+expliquer pourquoi, en exprimant la grandeur de sortie en fonction de la grandeur d’entrée ;
+préciser comment s’effectue la transformation d’ énergie dans le systeme concerné.
+
+Question 53. :
+
+Les relations R6 et R7 sont des relations dites « rigides » ou « non strictement causales » ;
+expliquer pourquoi.
+
+Question 54. :
+
+Donner I’expression de la relation R10 qui décrit le comportement de l’amortisseur ; indiquer
+la nature (causale ou rigide) de cette relation.
+
+Question 55. :
+
+Donner la relation R11 qui décrit le comportement du ressort ; indiquer la nature (causale ou
+rigide) de cette relation ; préciser comment s’effectue la transformation d’énergie dans le
+systéme concerné.
+
+Question 56. :
+
+Le processeur associé aux relations R6 et R7 est un élément de couplage de type
+« modulateur » ; que peut-on dire de la forme prise par I’énergie de part et d’autre de cet
+élément ?
+
+Question 57. :
+
+Le processeur associé aux relations R2 et R3 est un élément de couplage de type « gyrateur » ;
+que peut-on dire de la forme prise par l’énergie de part et d’autre de cet élément ?
+
+Rappel :
+Présentation des copies
+
+Les réponses finales doivent étre encadrées.
+Le candidat traitera chacune des parties 3 a 6, sur des copies séparées en indiquant sur
+chacune d’entre elles le numéro de la partie traitée.
+
+Texte du sujet page 26/28
+
+
+
+===== page 27 =====
+[OCR] 7-_ RESPECT DES CRITERES ASSOCIES_A_LA_ FONCTION DE
+SERVICE "FS 6"
+
+L'étude menée dans cette partie vise 4 déterminer les caractéristiques du robot qui assurent la
+fonction de service FS 6: « permettre au calculateur d’acquérir la position de |’instrument
+chirurgical ».
+
+La mesure du déplacement en translation le long de l’axe de l’outil se fait par un codeur
+incrémental placé sur l’arbre du moteur, ce qui présente les inconvénients suivants :
+
+- la position de l’instrument est perdue en cas de coupure de l’alimentation ;
+- il est nécessaire de faire coincider, 4 chaque mise en route du systéme, l’origine du
+comptage avec une origine absolue : cette procédure se nomme la « procédure de prise
+d’origine du robot ».
+
+La définition de l’origine absolue sur le robot fait intervenir deux détecteurs de position
+spécifiques :
+
+- un _détecteur de proximité inductif placé sur la partie fixe, associé 4 une plaque métallique
+solidaire de la partie mobile, détecte la position haute (voir figure 7-1) ;
+
+Détecteur de proximité inductif Figure 7-1
+
+Déplacement
+PI Plaquette de mesure
+Courbe
+
+de relachement al
+Courbe d'action ; Lc 5
+2 ———_ } Déplacement
+S|» <Courbe de
+©) 4, telachement Plaquette de la plaquette
+\ de mesure ——VJ
+
+- |
+
+~~
+Ed \ 7 oa C action L|
+Face sensible telachement aie
+
+Corps du
+
+détecteur Etat du détecteur
+de proximité
+
+Portée nominale
+
+Courbes caractéristiques de commutation
+
+we Figure 7-2
+Codeur incrémental
+
+Signaux de sortie
+
+Ti4 T
+s147thr
+voie 1 |_| |
+Pod pt,
+sf TO PL
+Voie 2 H
+_
+Top 0
+1t
+
+Texte du sujet page 27/28
+
+
+===== page 28 =====
+[OCR] un détecteur appelé « Top zéro » est intégré au codeur incrémental et situé sur une troisiéme
+piste de celui-ci (voir figure 7-2) ;
+
+La séquence de prise d’origine pour un axe se déroule de la fagon suivante :
+
+- une translation de l’axe est commandée pour détecter I’activation (front montant) du capteur
+inductif ;
+
+- dés que le capteur inductif est activé, le systéme attend le passage du premier « Top zéro »
+du codeur ;
+
+- le comptage incrémental commence au passage du « Top zéro ».
+
+les « entrées » et « sorties » de la
+partie commande sont
+représentées figure 7-3 ;
+
+Figure 7-3 : Entrées et sorties de la partie commande
+
+Conditions de départ :CD —} — L-»  Monter
+Défaut constaté Descendre
+Position haute Alarme
+
+Top zéro codeur
+
+Aprés avoir analysé le principe de fonctionnement du capteur inductif et du codeur, établir
+sur la figure R58 du document réponses, le grafcet de prise d’origine (graphe POM) selon un
+point de vue partie commande, relatif au mouvement de translation de |’outil en respectant les
+contraintes suivantes :
+- les variables internes sont :
+CT : compteur associé au codeur ( on écrira Raz CT pour !’initialiser) ;
+Asservir mouvement : asservir le mouvement de translation ;
+Xi: variable associée a l’étape i pour synchroniser les grafcets ;
+- lorsqu’on met en route le robot, deux cas se présentent :
+- la partie supérieure mobile est dans une position quelconque, il faut détecter le
+front montant de Tz ;
+- la partie supérieure mobile est déja dans la position haute, il faut aussi détecter
+le front montant de Tz.
+
+Rappel:
+Présentation des copies
+
+Les réponses finales doivent étre encadrées.
+
+Le candidat traitera chacune des parties 3 4 6, sur des copies séparées en indiquant sur
+chacune d’entre elles le numéro de la partie traitée.
+
+le dossier de documents réponses, puis l’ensemble des copies, seront placés dans ordre
+4 Pintérieur d’une copie vierge portant les références du candidat et servant de chemise.
+
+Fin du questionnaire
+
+Texte du sujet page 28/28
+
+
+
+===== page 29 =====
+[OCR] Académie : __ _ _ Session : —— — _ —_
+4 Examen ou Concours: __ _ _ _ = 2 TR —
+gs Spécialité/option : _ es Repére de I'épreuve : =
+Fy 2 Epreuve/sous-épreuve : = ee _ _ a
+26 NOM : - a _ _ = = = =
+
+(on majuscules, suivi sy a lieu, du nom o'épouse)
+
+Prénoms : __ = — = = N° du candidat
+
+Neé(e) le: = — = (convocation outa ite Tape)
+
+DOCUMENT-REPONSES
+Réponse 1
+
+Grandeurs physiques :
+
+Gl Mouvements (consignes) du chirurgien
+G2
+
+G3
+
+G4
+
+GS Mouvements de l'instrument chirurgical
+Fonctions :
+
+Fl
+
+F2
+
+F3
+
+F4
+
+Réponse 2
+
+Figure R2
+
+chiewegieal
+
+=}
+
+Moyens :
+MIL
+
+Grandeurs physiques :
+Gil
+
+Fonctions :
+Fil
+
+Document réponses page 1/6
+
+
+===== page 30 =====
+[OCR] NE RIEN ECRIRE DANS LA PARTIE BARREE
+
+Réponse 20
+
+figure R20 : Schéma-blocs du moto-réducteur
+
+cr
+
+tension de z Qmoto
+
+commande + + + réducteur
+
+Uen Vols enrd/s
+Réponse 22
+
+figure R22 : Identification du moto-réducteur
+
+Tension (V) image de @,ca(t), en fonction du temps t
+
+18
+
+03 006 009 a2
+
+On peut négliger L :
+Explications :
+
+temps ens
+
+Réponse 25
+
+Valeur de Gs :
+
+Valeur de T :
+
+Explications :
+
+Document réponses
+
+page 2/6
+
+
+
+===== page 31 =====
+[OCR] NE RIEN ECRIRE
+
+DANS LA PARTIE BARREE
+
+Réponse 27 : Diagrammes de Bode pour k= 1 et L=0
+
+Figure R27
+Anpl itude (dB)
+
+oo 4
+
+so}
+
+ao
+
+30}
+
+204 4
+
+to4
+
+°
+
+10-4
+
+204
+
+30
+
+10°
+
+PHASE (*)
+
+107 3 102 3 103
+
+Pul sation (rd/s)
+
+-20 |
+
+-o |
+
+-6o | See
+
+-so |
+
+100 -} jet
+
+120 4 :
+
+140 4
+
+-160 4
+
+180
+
+100
+
+Stabilité :
+
+i 3 1? 3 103
+
+PULSATION (rd/s)
+
+Document réponses page 3/6
+
+
+
+===== page 32 =====
+[OCR] NE RIEN ECRIRE
+
+DANS LA PARTIE BARREE
+
+Réponse 28 : Diagrammes de Black pour k = 1 et L#0
+
+Figure R28
+‘Auplitude en dB
+
+-170
+80 |
+
+-200 -180 -140
+
+Influence de la prise en compte de L :
+
+Validité de ’hypothése consistant 4 négliger L :
+
+Valeur de K pour marge de phase de 45° :
+
+Explications :
+
+Document réponses
+
+page 4/6
+
+
+
+===== page 33 =====
+[OCR] NE RIEN ECRIRE DANS LA PARTIE BARREE
+
+Réponse 34 : Identification de la partie supérieure
+
+Figure R 34
+
+déplacement de l'instrument en mm
+35
+
+30 +.
+
+as 4
+
+20 4
+
+as
+
+io 4
+
+0 02 04 06 08 a:
+Valeurs et explications :
+- Gain statique
+
+- Coefficient d’amortissement
+
+- Pulsation propre
+
+Réponse 35 : critére de bande passante de 4 Hz satisfait ? :
+
+Réponse 39:
+Figure R 39 : courbes de déplacements
+Dépl acements (n) .
+= Ecart dynamique maximal :
+
+00 5 ; | - Ecart de trainage :
+004 A Retard detrainage:
+003] | i Conformité par rapport au cahier des
+oe charges ?
+oo }— >
+
+0 I
+
+0 on 02 03 04 05 TEMPS(s)
+
+Document réponses page 5/6
+
+
+
+===== page 34 =====
+[OCR] NE RIEN ECRIRE DANS LA PARTIE BARREE
+
+Figure R41
+
+amplitude en dB
+15
+
+5 102
+pulsation en rd/s
+
+Réponse 58 : Grafcet partiel de sécurité et de prise d’origine du mouvement
+
+figure R58 :
+
+Graphe INIT incomplet Graphe POM
+
+ma
+1
+t
+
+2 Effectuer prise d'origine
+
+2+ a compléter
+
+3 LLAsservir mouvement
+
+Haut Fat
+
+at Def at Def
+
+Alarme
+
+oe
+
+Document réponses page 6/6
+

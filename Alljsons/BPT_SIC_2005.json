@@ -1,0 +1,446 @@
+{
+ "concours": "Banque PT",
+ "filiere": "SIC",
+ "date": "2005",
+ "file": "BPT_SIC_2005.pdf",
+ "status": 200,
+ "source": "banquept.fr, rubrique « Annales d'annales » (rubrique23.html)",
+ "epreuve_originale": "SI C",
+ "classification": "automatique par mots-clés (Claude, oct. 2026) — moins fine que celle des sujets récents",
+ "decoupage_questions": "Question",
+ "texte_ocr": true,
+ "pages_sujet": 20,
+ "pages_total": 20,
+ "data": {
+  "parties": [
+   {
+    "titre_partie": "Partie 1: Etude du séquencement des opérations de descente et de levage des",
+    "questions": [
+     {
+      "numero": "Q1.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Systèmes séquentiels : Diagramme d'états",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Statique : Frottements",
+        "semestre": "S2"
+       }
+      ],
+      "page": 5,
+      "tags": [
+       "hydraulique",
+       "grafcet"
+      ],
+      "texte": "Question 1.1 : Donner l'état initial du systeme correspondant a la situation initiale de votre GRAFCET. Question 1.2: A partir de l'inventaire des entrées/sorties donné figure 1.1, établir le GRAFCET de descente et de levage des galets d’un essieu de guidage et de gestion des voyants associés. Partie 2 : Etude du systéme de guidage. Pour permettre un guidage satisfaisant, et une transmission directe de |’orientation des roues, il est nécessaire d’avoir un effort normal de chaque galet sur le rail de 7500 N. Cet effort est engendré par les deux vérins. On notera Wey } = {4 a m;,\\ le torseur des efforts transmissibles, au point A, du solide i sur le solide j. On supposera dans cette partie que le probléme est plan, que les forces de pesanteur sont négligées ainsi que les efforts de frottement. Le contact en K est maintenu dans cette étude (voir le schéma cinématique du document 2.0)"
+     }
+    ]
+   },
+   {
+    "titre_partie": "Partie 2 : Etude du systéme de guidage.",
+    "questions": [
+     {
+      "numero": "Q2.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 6,
+      "tags": [
+       "ressort",
+       "hydraulique"
+      ],
+      "texte": "Question 2.1 : Sur la figure du document réponse 2.1, déterminer graphiquement l'effort de poussée nécessaire pour les 2 vérins. On négligera pour cette étude, les actions des 2 ressorts. On prendra comme échelle des forces : 2 cm pour 7500 N. Justifier rapidement la démarche utilisée."
+     },
+     {
+      "numero": "Q2.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 6,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "Question 2.2 : Ces vérins hydrauliques travaillent sous une pression de 150 bars. Calculer la section utile d’un vérin."
+     },
+     {
+      "numero": "Q2.3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       }
+      ],
+      "page": 6,
+      "tags": [
+       "ressort hélicoïdal"
+      ],
+      "texte": "Question 2.3 : Donner la fonction des ressorts. Le fil d’un ressort hélicoidal est essentiellement sollicité en torsion (voir figure 2.1). Pour un effort F appliqué sur ce ressort, on obtient une fléche fdu ressort. On donne la relation suivante : Ou: e ff estla fléche du ressort en mm. e¢ G= 80000 N/mm? e n=13: nombre de spires du ressort. R=10mm F R F r=3mm <r EE 2r Figure 2.1 : Ressort hélicoidal"
+     },
+     {
+      "numero": "Q2.4",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 6,
+      "tags": [
+       "ressort"
+      ],
+      "texte": "Question 2.4: Expliquer succinctement d’oti provient la relation précédente. Calculer leffort engendré par chaque ressort pour une élongation f de 30 mm."
+     },
+     {
+      "numero": "Q2.5",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 6,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "Question 2.5 : Peut-on conserver I'hypothése faite a la question 2.1 ? Justifier la réponse. Partie 3 : Etude du levage du galet Lors de la phase de levage du galet, la tige du vérin sort du corps a une vitesse de 20 mm/s. Ceci a pour effet de faire pivoter la piéce 6 autour du point G, entrainant a l'aide de la biellette 5, la piéce 4 en rotation autour du point fixe D. La liaison sphére/plan en K permet ainsi l'entrainement en rotation de la piéce 3 autour du point D. Le contact en K entre la piéce 4 et la piéce 3, est maintenu dans toute cette partie. On justifiera les constructions sur la copie. mi J xt a cm & \\ Effort du “a Figure 3.1 : Cinématique du systéme de levage"
+     },
+     {
+      "numero": "Q3.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       }
+      ],
+      "page": 7,
+      "tags": [],
+      "texte": "Question 3.1: En prenant comme échelle des vitesses 1 cm pour 20 mm/s, tracer sur le document réponse 3.1 la vitesse du point H dans le mouvement de la tige 7 par rapport au corps 8 notée : V4."
+     },
+     {
+      "numero": "Q3.3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 7,
+      "tags": [],
+      "texte": "Question 3.3 : En déduire et placer sur la méme figure, le centre instantané de rotation : I5i0."
+     },
+     {
+      "numero": "Q3.4",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       }
+      ],
+      "page": 7,
+      "tags": [],
+      "texte": "Question 3.4 : Déterminer graphiquement sur la méme figure, la vitesse du point F dans le mouvement de la piéce 5 par rapport au bati 0."
+     },
+     {
+      "numero": "Q3.5",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       }
+      ],
+      "page": 7,
+      "tags": [],
+      "texte": "Question 3.5 : Déterminer graphiquement sur la méme figure, la vitesse du point E dans le mouvement de la piéce 4 par rapport au bati 0."
+     },
+     {
+      "numero": "Q3.6",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Frottements",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       }
+      ],
+      "page": 7,
+      "tags": [],
+      "texte": "Question 3.6: La droite (CD) est pratiquement paralléle a la droite (AB). En faisant approximation que lo se trouve a l’infini sur la droite (AB), déterminer graphiquement sur la méme figure, la vitesse du point C dans son mouvement de la piéce 2 par rapport au bati 0. Partie 4 : Etude du comportement du tramway dans les trajectoires courbes. Lorsque le tramway aborde une trajectoire courbe, l’'adhérence d’un pneu sur la route engendre un moment selon z di au pivotement du pneu par rapport a la route. On supposera les actions identiques sur chaque pneu. On modélisera les actions de la route sur les pneus par les torseurs suivants : Le schéma simplifié (figure 4.1), met en évidence la transmission directionnelle des galets de guidage aux pneus du tramway. | eel Loh , Lie@bas4 2a vA 2 | ou —— i la Do, x UD) +t 5b a D Figure 4.1 : Schéma simplifié de la transmission directionnelle. © On note FxR-+a) et Fx(rss»), les composantes sur ¥ des forces du rail sur les galets 5a et 5b. On néglige les masses et les inerties des pieces du schéma figure 4.1, et on suppose que les liaisons sont parfaites."
+     }
+    ]
+   },
+   {
+    "titre_partie": "Partie 4 : Etude du comportement du tramway dans les trajectoires courbes.",
+    "questions": [
+     {
+      "numero": "Q4.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       }
+      ],
+      "page": 8,
+      "tags": [],
+      "texte": "Question 4.1 : Donner une relation liant L;, Lo, Ls, M, Fxirssay et Fx(xssn)- On détaillera la démarche utilisée."
+     },
+     {
+      "numero": "Q4.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       }
+      ],
+      "page": 8,
+      "tags": [],
+      "texte": "Question 4.2 : Pourquoi le constructeur a-t-il pris des valeurs de L, et L2 différentes ?"
+     },
+     {
+      "numero": "Q4.3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       }
+      ],
+      "page": 8,
+      "tags": [],
+      "texte": "Question 4.3 : On suppose que les valeurs absolues des composantes Fxip.45a) et FXir+sb) sont égales. Exprimer Fx(r45a) en fonction des paramétres de la question 4.1."
+     },
+     {
+      "numero": "Q4.4",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       }
+      ],
+      "page": 8,
+      "tags": [],
+      "texte": "Question 4.4 : Du fait de la déformation élastique des pneus dans les courbes, des efforts tangentiels supplémentaires sont encaissés par les galets. Que se passe-t-il si ces efforts sont trop importants ?"
+     },
+     {
+      "numero": "Q4.5",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Matériaux : Propriétés physiques et mécaniques",
+        "semestre": "S3"
+       }
+      ],
+      "page": 8,
+      "tags": [
+       "fonderie / moulage",
+       "usinage",
+       "tolérances géométriques"
+      ],
+      "texte": "Question 4.5 : Proposer une solution pour remédier a ce probléme. Partie 5 : Etude de la réalisation de la chape du galet La chape du galet défini document 5.1 (élément 2 du systéme de levage) en aluminium 2024 (AlCu4Mg1) est réalisée par moulage puis usinage. Pour des raisons de fabrication la partie permettant la liaison pivot du point C sera rapporté par la suite par un élément en liaison complete démontable. La production envisagée est de 500 unités. Les surfaces usinées sont : e Les plans PI1, Pl2, PI3.1 et Pl4.1, PI5.1, PI6.1, PI7.1, PI8.1, PI9.1 et leurs symétriques par rapport au plan médian de la piéce PI3.2, Pl4.2, PI5.2, PI6.2, PI7.2, PI8.2, PI9.2 e Les cylindres Cy1, Cy2 et Cy3.1, Cy4.1, Cy5.1, Cy6.1 et leurs symétriques par rapport au plan médian de la piéce Cy3.2, Cy4.2, Cy5.2, Cy6.2. e Les trous taraudés Tt1.1, Tt2.1, Tt3.1, Tt4.1 et leurs symétriques par rapport au plan médian de la piéce Tt1.2, Tt2.2, Tt3.2, Tt4.2. 5.1: Analyse des spécifications"
+     }
+    ]
+   },
+   {
+    "titre_partie": "Partie 5 : Etude de la réalisation de la chape du galet",
+    "questions": [
+     {
+      "numero": "Q5.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       }
+      ],
+      "page": 9,
+      "tags": [
+       "tolérances géométriques"
+      ],
+      "texte": "Question 5.1: Sur le document réponse 5.2 « Analyse des spécifications » expliciter les 4 tolérances extraites de dessin de définition partiel du document 5.1 en respectant la décomposition suivante : e Donner le nom de la caractéristique tolérancée. e Définir le(s) élément(s) tolérancé(s) en précisant son type (plan, cylindre, ...) et sa nature (idéale ou réelle). e Définir le(s) élément(s) de référence(s) en précisant son type (plan, cylindre, ...) et sa nature (idéale ou réelle). e Définir la (ou les) référence(s) spécifiée(s) en précisant leur type (plan, cylindre, ...), leur nature (idéale ou réelle), les contraintes d'orientation et les critéres d’association. e Définir la forme de la (ou des) zone(s) de tolérance, donner une représentation graphique 3D, la valeur et les contraintes d'orientation et/ou de position de la (ou des) zone(s) de tolérance par rapport au systéme de références spécifiées. 5.2 : Etude de l’obtention du brut"
+     },
+     {
+      "numero": "Q5.2.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       }
+      ],
+      "page": 9,
+      "tags": [],
+      "texte": "Question 5.2.1 : Donner la signification du matériau : 2024 (AlCu4Mg1)."
+     },
+     {
+      "numero": "Q5.2.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
+        "semestre": "S3"
+       }
+      ],
+      "page": 9,
+      "tags": [
+       "fonderie / moulage"
+      ],
+      "texte": "Question 5.2.2 : Proposer, en le justifiant, un procédé de moulage pour l’obtention de cette piéce."
+     },
+     {
+      "numero": "Q5.2.3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
+        "semestre": "S3"
+       }
+      ],
+      "page": 9,
+      "tags": [
+       "fonderie / moulage",
+       "usinage"
+      ],
+      "texte": "Question 5.2.3 : En utilisant la liste des surfaces usinées, proposer un dessin non coté du brut sur le document réponse 5.3 « Etude de Fonderie ». Il est demandé de : Situer le plan de joint, Le vecteur gravité, les surépaisseurs d’usinage (3mm), la forme éventuelle des noyaux. REMARQUE : Ne pas représenter les dépouilles, tous les trous de diamétre inférieur a 30mm seront bouchés. On s’attachera a minimiser le volume de la piéce tout en simplifiant le moule. II est fortement conseillé d’utiliser de la couleur. 5.3 : Etude de l’usinage On se propose maintenant d’étudier la phase d’usinage de la chape du galet. La machine utilisée est un centre d’usinage 4 axes a broche horizontale disposant d’un plateau tournant (3 translations X, Y et Z et une rotation B autour de I’axe Y)."
+     },
+     {
+      "numero": "Q5.3.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       }
+      ],
+      "page": 9,
+      "tags": [],
+      "texte": "Question 5.3.1 : Proposer sur le document réponse 5.4 une mise en position qui respecte l'accessibilité des surfaces usinées et la symétrie des surfaces usinées par rapport au plan médian de la piéce brute."
+     },
+     {
+      "numero": "Q5.3.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       }
+      ],
+      "page": 9,
+      "tags": [
+       "usinage"
+      ],
+      "texte": "Question 5.3.2: Proposer sur le document réponse 5.4 différentes orientations de la piéce permettant d’'usiner l'ensemble des surfaces énumérées. Pour chacune des orientations il est demandé de : * représenter le repére d’usinage (X, Y et Z) ¢ donner et colorier la liste des surfaces usinées."
+     },
+     {
+      "numero": "Q5.3.3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
+        "semestre": "S3"
+       }
+      ],
+      "page": 9,
+      "tags": [
+       "soudage / mécano-soudé",
+       "usinage"
+      ],
+      "texte": "Question 5.3.3: En prenant comme hypothése que le plan PL5.1 est déja fabriqué, proposer la liste numérotés des opérations avec les outils, permettant de réaliser les cylindres Cy3.1 et Cy4.1, le plan PI6.1 et trou taraudé Tt1.1 (pas de 2 mm). Liste non exhaustive des outils disponibles : e Foréts a pointer diamétre : 8, 10, 20 ¢ Foréts hélicoidaux diamétre : 6, 8, 10, 12, 14, 16, 20, 24, 28 e Foréts hélicoidaux série longue diamétre : 6, 8, 10, 12, 14, 16, 20, 24, 28 e Foréts a fond plat diamétre : 10, 12, 14, 16, 20, 24, 27, 28 e Tarauds machine : M12, M14, M16 ¢ Fraises 2 tailles diamétre : 10, 12, 14, 16, 20 e Alésoirs machine diamétre : 10, 14, 20, 25, 28, 32 5.4 : Etude de la réalisation du montage d’usinage Le montage d'usinage permettant de positionner et maintenir la chape du galet sur le centre d'usinage 4 axes est réalisé a partir d’éléments modulaires de mise en position et d'une équerre mécano soudée. Pour assurer la rigidité du montage, l’équerre sera réalisée a partir de plaque d'acier de 40 mm d’épaisseur et possédera des nervures. Les moyens disponibles pour la réalisation de l'équerre sont : e Des procédés d’usinage e Des procédés de traitement thermique e Des pro"
+     },
+     {
+      "numero": "Q5.4.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Matériaux : Choix",
+        "semestre": "S3"
+       }
+      ],
+      "page": 10,
+      "tags": [],
+      "texte": "Question 5.4.1 : Proposer une désignation normalisée du matériau pour I’équerre."
+     },
+     {
+      "numero": "Q5.4.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 10,
+      "tags": [
+       "usinage",
+       "dessin / conception sur calque"
+      ],
+      "texte": "Question 5.4.2: Dessiner 4 main levée une vue en perspective de I’allure du montage d’'usinage. On demande de représenter uniquement les formes générales et en particulier celles permettant l'accessibilité des surfaces a usiner et de la mise en position de I’équerre sur le centre d’usinage."
+     },
+     {
+      "numero": "Q5.4.3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       }
+      ],
+      "page": 10,
+      "tags": [
+       "paliers lisses",
+       "dessin / conception sur calque"
+      ],
+      "texte": "Question 5.4.3 : Proposer une gamme de fabrication de I'équerre sous la forme d’une liste de procédés dont on précisera les caractéristiques, on pourra s'aider de dessins. Partie 6 : Etude de la conception du systéme de levage Cette partie conduit 4 la conception du sous-ensemble du systéme de levage d’un galet. On ne s'intéressera a la conception du mécanisme a biellette que d’un coté, l'autre étant symétrique. L’ensemble des liaisons pivots seront réalisées a l'aide de paliers lisses (voir tableau 6.1) Il est demandé de répondre sur le calque pré-imprimé format A3 document réponse 6.1 (a rendre non plié avec la copie) et comprenant 7 vues (une vue de dessus, la coupe A-A, la coupe B-B, la section rabattue C-C passant par les points C-D-E-F-G, la coupe D-D, la section E-E et la vue isométrique des éléments du bati, de la chape et du galet). Une attention particuliére sera portée sur la qualité graphique, sur les ajustements fonctionnels permettant le fonctionnement et le montage ainsi qu’a la définition des formes nécessaires a la compréhension du systéme. En s’inspirant des formes et des positions extrémes définies sur les figures 0.3 et 0.4, on concevra en particuliers : «la pié"
+     }
+    ]
+   }
+  ]
+ }
+}

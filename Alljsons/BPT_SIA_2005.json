@@ -1,0 +1,770 @@
+{
+ "concours": "Banque PT",
+ "filiere": "SIA",
+ "date": "2005",
+ "file": "BPT_SIA_2005.pdf",
+ "status": 200,
+ "source": "banquept.fr, rubrique « Annales d'annales » (rubrique23.html)",
+ "epreuve_originale": "SI A",
+ "classification": "automatique par mots-clés (Claude, oct. 2026) — moins fine que celle des sujets récents",
+ "decoupage_questions": "Question",
+ "texte_ocr": true,
+ "pages_sujet": 34,
+ "pages_total": 34,
+ "data": {
+  "parties": [
+   {
+    "titre_partie": "Partie 1 Partie 2 | Partie3 | Partie4 | PartieS | Partie6 | Partie7",
+    "questions": [
+     {
+      "numero": "Q2.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Matériaux : Choix",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 5,
+      "tags": [],
+      "texte": "Question 2. : Proposer des solutions techniques qui permettent de réaliser ce systéme a retour d'effort ; pour cela : - Completer la figure R2 du document réponses, en mettant en place les blocs fonctionnels ; - Donner dans les cases prévues sous la figure R2, la désignation des grandeurs physiques transformées, les moyens proposés pour réaliser les transformations, et les fonctions décrivant ces transformations (le nombre de lignes utiles de ces tableaux n’est pas imposé). Texte du sujet page 5/28 2-2 Analyse fonctionnelle externe d'un \"robot esclave\" Avertissement: L'analyse fonctionnelle externe conduite a partir du diagramme des interacteurs de la figure 2-3 est celle d'un seul \"robot esclave\". Figure 2-3 : diagramme des interacteurs Energie électrique Console + calculateur FS6 chirurgical Quelques-unes des fonctions de service du robot esclave utilisées dans le sujet sont données dans le tableau ci-dessous (il n’est pas fait de distinction entre fonctions principales et fonctions contraintes) : N° __| Fonction de service FS1 | Contraindre l’instrument chirurgical 4 ne pas se déplacer latéralement au niveau du trocart afin de ne traverser la peau du patient qu’en un seul point "
+     },
+     {
+      "numero": "Q3.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 6,
+      "tags": [],
+      "texte": "Question 3. : (répondre sur le document réponses) Proposer une expression de la fonction de service qui définit la relation entre l’instrument chirurgical et la plaque d’extrémité (figure 1-7) du bras du robot esclave ; proposer trois critéres que vous jugez importants pour quantifier cette fonction de service. Rappel : Présentation des copies Les réponses finales doivent étre encadrées. Le candidat traitera chacune des parties 3 a 6, sur des copies séparées en indiquant sur chacune d’entre elles le numéro de la partie traitée. Texte du sujet page 6/28 3-_ RESPECT DES CRITERES ASSOCIES_A_LA_ FONCTION DE SERVICE \"FS 1\" L'étude menée dans cette partie consiste 4 déterminer les paramétres de construction et dimplantation du robot, qui permettent de respecter les critéres associées a la fonction de service FS1 « Contraindre l’instrument chirurgical a ne pas se déplacer latéralement au niveau du trocart afin de ne traverser la peau du patient qu’en un seul point » : Critéres associés a la fonction FS1 : Niveau Déplacement latéral (perpendiculairement a la direction Z1) au] = niveau du point \"To\" d'implantation du trocart dans le corps du patient (voir la figure 3-1) La figure 3-1 présen"
+     },
+     {
+      "numero": "Q4.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 8,
+      "tags": [],
+      "texte": "Question 4. : Déterminer y, le « nombre cyclomatique » ou nombre de cycles indépendants de la structure étudiée."
+     },
+     {
+      "numero": "Q5.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Torseur cinématique",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       }
+      ],
+      "page": 8,
+      "tags": [],
+      "texte": "Question 5. : Mettre en place le systéme des 6 équations de cinématique qui correspond 4 la fermeture de la chaine de solides (3-5-4-6-3) et aux liaisons en A, B, D, C. Les torseurs cinématiques seront pour cela exprimés au point A et dans la base (Xo, Yi, Z1). On numérotera ces équations de 1 a 6. Texte du sujet page 8/28 On donne le systéme d’équations de cinématique correspondant a la fermeture de la chaine de solides (0-1-3-5-4-2-0) et aux liaisons en O1, G1, A, B, G2, O2. (les torseurs cinématiques ont été exprimés au point Oj, dans la base (Xo, Y1, Z:). Projection des vecteurs rotation : sur XO: Port Past Psat Pro = 0 (7) sur Y1:0=0 (8) sur Z1:0=0 (9) Projection des vecteurs vitesse : sur X0:0=0 (10) sur Y1: (Ay-A)Qss+ Psa)+€Psst Pro)'sind = 0 (1) sur ZL: wWis-d(pss+ Pss)LAPse* Pix) C0804 Wey = 0 (12)"
+     },
+     {
+      "numero": "Q6.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Hyperstatisme",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Correcteurs : Correcteur numérique",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Torseur cinématique",
+        "semestre": "S1"
+       }
+      ],
+      "page": 9,
+      "tags": [],
+      "texte": "Question 6. : Déterminer le rang « re » du systéme des équations de fermeture de chaines cinématiques qui correspondent a la structure étudiée (figure 3-3) - vérifier 4 partir de ce résultat la mobilité « m, » de la structure ; - déduire son degré d’hyperstatisme « h »."
+     },
+     {
+      "numero": "Q7.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Torseur cinématique",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Statique : Hyperstatisme",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       }
+      ],
+      "page": 9,
+      "tags": [],
+      "texte": "Question 7. : On souhaite éviter les effets néfastes de I’hyperstatisme en ajoutant des mobilités dans les liaisons de la structure. On choisit de modifier les liaisons 5/4 et 4/6 (respectivement point B et point D sur la figure 3-3). Proposer une liste de mobilités judicieusement choisies permettant de répondre au probléme, et donner la nouvelle écriture des torseurs cinématiques de ces deux liaisons. 3-2 Traitement du probléme géométrique et cinématique Notations : - Pour un point P quelconque, on note Vesus le vecteur vitesse du point P considéré comme appartenant a (S1), dans le mouvement de (S1) par rapport a (SO). - On notera 8 la dérivée temporelle # du paramétre 0, et A la dérivée temporelle a du paraméetre 1. - La géométrie de l’instrument chirurgical est définie par la position de son extrémité T, (voir la figure 3-1) :|T, Eee, Y, +f, Z| et par le fait que tout point T de sa tige appartient 4 la droite T:Z: . 3-2-1 Phase de mise en position Pour effectuer la mise en position du robot par rapport au patient et a la table, on positionne Vinstrument chirurgical de fagon telle que son extrémité T, soit en coincidence avec le point To du trocart (voir figure 3-1 page 7). Pour "
+     },
+     {
+      "numero": "Q9.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 10,
+      "tags": [],
+      "texte": "Question 9. : Dériver le vecteur position O17: pour en déduire : - la valeur de la dimension e; 4 respecter, en fonction de certaines dimensions du robot ; - la valeur de la cote d’initialisation Ao, en fonction de la dimension « f, » de l’instrument chirurgical. On souhaite connaitre la position du patient par rapport au robot, en exprimant les composantes du vecteur |O:T, =—Er-YotHr-Zo| (voir la figure 3-1) \"Er\" cote d'éloignement du patient par rapport au robot ; \"Hr\" cote de positionnement en hauteur du patient par rapport au robot. uestion 10. : Déterminer en fonction des grandeurs dimensionnelles caractéristiques du robot (tableau 3-4), la valeur des cotes \"Ey\" et \"Hr\". 3-2-2 Phase d’utilisation On se place maintenant dans la phase d’utilisation du robot, dans laquelle les paramétres A et 8 sont tous deux variables. L’instrument chirurgical utilisé, fixé sur le solide (8), est toujours caractérisé par son > extrémité T, telle que TIE=e-¥j+f}-21 (voir la figure 3-1). Soit T le point de l’instrument chirurgical qui coincide avec le trocart ; on a|T{T=A-Z}]. L’objectif du travail est de montrer que la géométrie du robot permet de respecter le critére associé a la fonction de ser"
+     },
+     {
+      "numero": "Q12.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Stabilité",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       }
+      ],
+      "page": 10,
+      "tags": [],
+      "texte": "Question 12. : Exprimer Verso dans la base (¥,,Z,), et vérifier que le résultat respecte le critére associé a la fonction de service FS1. Rappel : Présentation des copies Les réponses finales doivent étre encadrées. Le candidat traitera chacune des parties 3 6 sur des copies séparées en indiquant sur chacune d’entre elles le numéro de la partie traitée. Texte du sujet page 10/28 4- RESPECT DES CRITERES ASSOCIES A LA FONCTION DE SERVICE \"FS 3\" L'étude menée dans cette partie consiste a valider le choix des composants du robot qui permettent de respecter les niveaux des critéres associés a la fonction de service FS3 \"Permettre 4 l’instrument chirurgical de se mouvoir avec des performances dynamiques comparables ou meilleures que celles réalisées par un chirurgien humain \" ; L’étude est effectuée uniquement pour l’axe « d’élévation » selon Z;. Critéres associés 4 la fonction FS 3 : Niveaux Vitesse de translation nominale : > 0,1 m/s Temps tl pour atteindre la vitesse nominale :_| 100 millisecondes maximum Performances de l’asservissement : Précision : .......cececeeeeeeeeeeeeeeeeeeeee Ecart statique < 0,2 mm. Retard de trainage < 0.1s pour une entrée rampe de 0,1 m/s. Stabilite jt Mar"
+     },
+     {
+      "numero": "Q13.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Frottements",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+        "semestre": "S1"
+       }
+      ],
+      "page": 12,
+      "tags": [
+       "roulements",
+       "courroie / chaîne"
+      ],
+      "texte": "Question 13. : Déterminer la vitesse nominale de translation du coulisseau (4) ; vérifier la conformité avec le cahier des charges. Texte du sujet page 12/28 4-2-2 Vérification du temps t; de mise en vitesse Lorsque |’outil est en place dans le corps du patient, le déplacement axial se fait suivant la loi de vitesse en trapéze donnée figure 4-3, Données : - La courroie (2) et le cable (5) sont inextensibles, sans masse et roulent sans glisser sur les poulies ou tambour. Le cAble est toujours tendu. - Les frottements entre la roue dentée (3') et la crémaillére (4) sont négligés. - Les liaisons pivot d’axe X; horizontal sont sans frottements. - Les frottements dans la liaison glissiére (4/0) induisent dans l’expression de la résultante du torseur des efforts transmissibles par cette liaison, une composante supplémentaire Zgiss = 10 N dirigée dans le sens opposé au mouvement du coulisseau par rapport au bati. - L’arbre (3) équipé d’une poulie, d’une roue dentée (3°), du tambour d’enroulement (3”’), a un moment d’inertie J2 = 0,05 . 10° kg.m’ par rapport a son axe de rotation OX1. On note C;eg et req les valeurs instantanées du couple et de la pulsation (vitesse) de rotation 4 la sorti"
+     },
+     {
+      "numero": "Q14.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dynamique : Géométrie des masses",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Énergétique : Puissance et rendement",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+        "semestre": "S1"
+       }
+      ],
+      "page": 13,
+      "tags": [
+       "roulements",
+       "engrenages",
+       "courroie / chaîne"
+      ],
+      "texte": "Question 14. : Isoler l'ensemble { rotor et pignons du moto-réducteur (1) + poulies-courroie (2) + arbre intermédiaire (3) + pignon (3’) + coulisseau a crémaillére (4) + partie supérieure du robot + tambour (3’”) + cable (5) + renvoi (6) + contre-poids (7) }. Faire le bilan, sans détailler les éléments de réduction des torseurs, des actions extérieures et intérieures a l’ensemble isolé et préciser si les puissances correspondantes sont nulles ou non nulles. uestion 15. : Exprimer la somme des puissances des actions de pesanteur sur l’ensemble isolé ; montrer que cette somme est nulle lorsque le contre-poids (7) et le tambour (3’’) d’enroulement du cable sont correctement dimensionnés (critére d’équilibrage statique associé a la fonction de service FS5) . Exprimer littéralement la somme des puissances pendant la phase de montée, en fonction de Cred @red, Zgiiss, Py et M. Texte du sujet page 13/28 Question 16. : Exprimer littéralement |’énergie cinétique galiléenne instantanée de l’ensemble isolé, en fonction de @rea, Ji, Jz, Diet M. En déduire l’expression littérale du moment d’inertie équivalent Jequ, a toutes les piéces en mouvement, ramené 4 l’arbre de sortie du réducteur. Faire "
+     },
+     {
+      "numero": "Q18.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 14,
+      "tags": [],
+      "texte": "Question 18. : Faire l’application numérique lorsque Creg = Crom = 1,4 N.m. En déduire le temps t; pour que le moteur atteigne la vitesse de rotation nominale Nnom et vérifier la conformité du systéme par rapport au critére du cahier des charges (t; < 0,1 s)."
+     },
+     {
+      "numero": "Q19.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Machines électriques : Machine à courant continu",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 14,
+      "tags": [],
+      "texte": "Question 19. : Lorsque la partie supérieure du robot s’éléve, en phase d’accélération, on souhaite vérifier que le cable est toujours tendu : exposer la démarche du raisonnement en précisant le systéme isolé, le bilan des actions, le théoréme utilisé, l’équation de projection utile et le résultat avec | application numérique. 4-2-3 Evaluation de la fonction de transfert du moto-réducteur Le constructeur donne les caractéristiques électro-mécaniques exprimées 4 la sortie du réducteur. On rappelle les équations temporelles : u(t)=Ri(t)+L.di(t)/dtt+e(t) —; e(t) = Ke . zea(t) Crea (t)= ke - i(t) : Crea(t) — Cr — fy « @rea(t)= Jequ - d @rea(t) / dt avec : u(t) tension appliquée aux bornes de l’induit i(t) intensité du courant traversant |’induit e(t) force électromotrice induite par la rotation du moteur, évaluée a la sortie du réducteur @,éa(t) vitesse de rotation a la sortie du réducteur C,sa(t) couple moteur ramené a la sortie du réducteur R= 10 Q résistance de l’induit L=2,2 mH inductance de l’induit k, = 2,1 N.m/A constante de couple évaluée a la sortie du réducteur k, = 2,1 V.s/rad constante de f.e.m évaluée a la sortie du réducteur C, = 0,2 N.m couple résistant induit par les fro"
+     },
+     {
+      "numero": "Q21.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 15,
+      "tags": [],
+      "texte": "Question 21. : Exprimer littéralement sous forme canonique la fonction de transfert du moto-réducteur Queat(p) Mp Up) * Quel que soit le résultat obtenu a la question précédente, on utilisera l’expression de M(p) 0,436 3. p+3, 0p? suivante : | Mi(p)= T4510 Sur le systéme de levage non asservi c’est 4 dire avec le capteur de position angulaire déconnecté (figures 4-1 et 4-2), on a pratiqué, un essai en charge, en donnant au moteur un échelon de tension u(t) = 24 V. Avec une génératrice tachymétrique dont le gain est de 0,166 V.s.rd' , on a tracé sur le document réponses figure R22 , la courbe de tension image de @,ga(t). Remarque : la partie supérieure du robot est supposée rigide pendant cet essai."
+     },
+     {
+      "numero": "Q22.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 15,
+      "tags": [],
+      "texte": "Question 22. : Aprés avoir analysé cette courbe, expliquer sur le document réponses sous la figure R22 pourquoi on peut négliger l’inductance L."
+     },
+     {
+      "numero": "Q23.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 15,
+      "tags": [],
+      "texte": "Question 23. : Justifier analytiquement la réponse précédente a partir de |’expression de M,(p) lorsque I’on envisage une étude fréquentielle : on précisera la valeur du péle dominant, |’autre (faisant intervenir la valeur de L) étant rejeté. Dans la suite du probléme, on néglige l’inductance L du moteur."
+     },
+     {
+      "numero": "Q24.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+        "semestre": "S1"
+       }
+      ],
+      "page": 15,
+      "tags": [],
+      "texte": "Question 24. : Exprimer littéralement, sous forme canonique, la fonction de transfert du moto-réducteur Pred) __Gs MPT) iT p | Donner les valeurs numériques de Gs et de T a partir de l’expression de Mj(p) et des réponses apportées a la question 23 (3 chiffres significatifs sont attendus)."
+     },
+     {
+      "numero": "Q25.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Capteurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Stabilité",
+        "semestre": "S2"
+       }
+      ],
+      "page": 15,
+      "tags": [],
+      "texte": "Question 25. : Déterminer les valeurs de Gs et T, a partir de la courbe de tension image de @,gq(t) figure R22 (expliquer les démarches sous la figure et comparer avec les résultats de la question 23). 4-2-4 Respect du critére de marge de phase La boucle d’asservissement de la position angulaire de l’arbre | Figure 4-4 de sortie du réducteur est définie cnotoaeur cleat par le schéma-blocs figure 4-4. tension de vitesse « moto angle 6 moto A An consigne de_ + £5}. commande, | yp) | réducteur B(p) Ltedusteus, La consigne de position en | -osnorer Denvots>| M(p) sare (2) Parra incréments est élaborée par le | \"men's calculateur, a partir des 5 A A mesure en informations envoyées par la pecs c console. ‘codeur incrémental et compteur Texte du sujet page 15/28 Le convertisseur-amplificateur K de gain k variable élabore la commande du moteur. Données : Le codeur incrémental C placé sur le rotor du moteur a une résolution de 360 incréments par tour. Il est associé 4 un compteur - décompteur qui élabore la mesure de position en incréments. Le systéme est discret (non continu) mais on l’assimile 4 un systéme continu car le comptage est trés rapide. Le réducteur a un rapport de réduction de "
+     },
+     {
+      "numero": "Q26.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       }
+      ],
+      "page": 16,
+      "tags": [],
+      "texte": "Question 26. : Donner la fonction de transfert du bloc B(p) et la valeur du coefficient du bloc C en incr./rad. Exprimer numériquement, en fonction de k, la fonction de transfert en boucle ouverte Ho(p) ."
+     },
+     {
+      "numero": "Q27.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Stabilité",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
+        "semestre": "S2"
+       }
+      ],
+      "page": 16,
+      "tags": [],
+      "texte": "Question 27. : Tracer sur le document réponses figure R 27, les diagrammes de Bode du systéme en boucle ouverte pour k = 1. Le systéme est-il stable en boucle fermée pour cette valeur de k ? Répondre au bas du document réponse 27 en justifiant. On a tracé sur le document réponses figure R28 le diagramme de Black du systéme en boucle ouverte pour k = | lorsque la valeur de L n’est pas négligée."
+     },
+     {
+      "numero": "Q28.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Stabilité",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 16,
+      "tags": [],
+      "texte": "Question 28. : Quelle est l’influence de la prise en compte de L sur la stabilité en boucle fermée ? (répondre sur le document réponses sous la figure R28). L’hypothése consistant a négliger L est-elle vérifiée ? Determiner, et expliquer a partir de constructions faites sur le diagramme de Black document réponses figure R28, la valeur kys de k qui permet d’obtenir la marge de phase de 45 ° spécifiée dans le cahier des charges. angulaire 4-2-5 Etude de la ion de la boucle d’asservissement de"
+     },
+     {
+      "numero": "Q29.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Précision",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Capteurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 16,
+      "tags": [],
+      "texte": "Question 29. : Calculer, pour la valeur k4s de k établie précédemment, |’écart statique €cons o en incréments lorsque la consigne est un échelon de position : Cons(t) = 1.u(t). Etant donné que la perturbation Figure 4-da c Cr intervient entre deux blocs de { \" M(p), on adopte le schéma de la M(p).Rike figure 4-4a pour faciliter les calculs de la question suivante. consi S$ QE SK |Y M(p) B(p) mesure c"
+     },
+     {
+      "numero": "Q30.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Statique : Frottements",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+        "semestre": "S1"
+       }
+      ],
+      "page": 16,
+      "tags": [
+       "courroie / chaîne"
+      ],
+      "texte": "Question 30. Calculer, pour la valeur kas de k établie précédemment, I’écart statique Epert » en incréments entre la consigne et la mesure lorsque la perturbation est l’échelon de couple résistant C,.u(t) induit par les frottements secs. La chaine cinématique de transmission est telle qu’il faut 150 incréments pour que la crémaillére se déplace de 1 mm, quelle est l’incidence de cet écart sur la position de instrument ? Conclure par rapport aux exigences du cahier des charges. Proposer une modification du bloc K qui annulerait cet écart. Texte du sujet page 16/28 4-3_Vérification des _performances_de_la_chaine de _positionnement_de Vinstrument 4-3-1 Modélisation par schéma-blocs boucle dasserissement transformation de mouvement élasticté de la partie supérieure ton 1p) |-2ostion angulaire de tarbre |déplacement en transiatiog déplacoment Hi) Ff sore duraductur end >| [dea crémalfre en m > |¥*(°) | —Soraretation de tnstrument dea main 4-3-2 Analyse du déplacement en translation de la crémaillére Lorsque la boucle d’asservissement estbien réglée, la fonction de transfert est Op) ____0,00035_ HP) Cons(p) 1+0,014p+0,0001 7p\" . On rappelle que la courroie s’enroule sur des poulies de mé"
+     },
+     {
+      "numero": "Q31.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       }
+      ],
+      "page": 17,
+      "tags": [],
+      "texte": "Question 31. : Exprimer le coefficient du bloc Hz ; préciser l’unité. En régime statique, la position de la crémaillére est l’image de la position de la main, aux écarts prés."
+     },
+     {
+      "numero": "Q32.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Précision",
+        "semestre": "S2"
+       }
+      ],
+      "page": 17,
+      "tags": [],
+      "texte": "Question 32. Quelle relation doit vérifier le produit P des gains des blocs C, , H; , H2 ? Justifier. Exprimer le coefficient c, en incréments par métre du bloc C, . Pour augmenter la précision de l’opération chirurgicale, on désire que la crémaillére se déplace 10 fois moins que la main."
+     },
+     {
+      "numero": "Q33.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Rapidité",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       }
+      ],
+      "page": 17,
+      "tags": [
+       "ressort"
+      ],
+      "texte": "Question 33. Exprimer le nouveau coefficient cz du bloc C; ainsi que le nouveau produit P, . 4-3-3 Analyse du déplacement de l’instrument chirurgical par rapport a la crémaillére La partie supérieure du robot est constituée par assemblage | Figure 4-6 de tubes minces en fibres de carbone. Solide So lié a la On modélise cette partie par deux solides : So représentant <—_—_—_—_ la crémaillére et les solides qui y sont liés; et S; 3 cone représentant |’instrument chirurgical. << Ressort ot amortisseur Ces solides sont considérés en liaison glissiére parfaite et reliés par un ressort de raideur ko et un amortisseur de coefficient fp, montés en paralléle comme le montre le schéma figure 4-6. Solide S: ié @ —— Tinstrument Dinsirum(D) Deren(p) de cette partie, on a imposé a la crémaillére un échelon de déplacement deem(t) = 20 . 10° ma partir de la position d’équilibre. On a tracé sur le document réponses figure R34, la courbe de déplacement dinstrum(t) de l’instrument. Pour identifier la fonction de transfert H3(p)= Texte du sujet page 17/28 On donne sur la figure 4-7 les abaques des dépassements relatifs et des temps de réponse réduits d’un systéme du second ordre. Figure 4-7 ‘Tr = temp"
+     },
+     {
+      "numero": "Q34.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Rapidité",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       }
+      ],
+      "page": 18,
+      "tags": [
+       "ressort"
+      ],
+      "texte": "Question 34. : Etablir, a partir de cette figure R34, l’expression de la fonction de transfert H3(p) ; déterminer les valeurs caractéristiques : Gain statique, coefficient d’amortissement et pulsation propre. Le critére de la bande passante de 4 Hz a —3 dB est-il satisfait ? répondre et justifier sur le document réponse. Les questions suivantes vont permettre de déterminer |’expression analytique de H3(p), de facon a analyser |’influence du paramétre de raideur, pour respecter le critére de bande passante du cahier des charges. Figure 4-8 Soit m; la masse du solide S, ; L’axe du mouvement est vertical ascendant et noté Z. L’origine O du mouvement de S, correspond 4 la position pour Z laquelle le ressort est 4 sa longueur libre (voir aussi la figure 4-6). Soit ap (voir figure 4-8) l’allongement du ressort dans la position d’équilibre qui prend en compte I’action de la pesanteur. fe) Nota : ao est négatif car on considére qu’il y a allongement du ressort. ag"
+     },
+     {
+      "numero": "Q36.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       }
+      ],
+      "page": 18,
+      "tags": [],
+      "texte": "Question 36. : Le solide S; est dans la position d’équilibre ; écrire l’équation d’équilibre."
+     },
+     {
+      "numero": "Q37.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       }
+      ],
+      "page": 18,
+      "tags": [],
+      "texte": "Question 37. : Le solide S; est déplacé de sa position d’équilibre puis abandonné a son propre poids. Déterminer |’équation différentielle du mouvement autour de la position d’équilibre. Aprés avoir mis l’équation différentielle du mouvement sous forme canonique : A-Z(0)+B-2(t)+2()=0, exprimer le coefficient d’amortissement C3 et la pulsation propre 93 du mouvement en fonction de ko, fo, mi . Texte du sujet page 18/28 On donne la valeur numérique de la masse de l’instrument chirurgical et de la plaque d interface : m= 1,6 Kg ;"
+     },
+     {
+      "numero": "Q38.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Rapidité",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       }
+      ],
+      "page": 19,
+      "tags": [],
+      "texte": "Question 38. : Pour la valeur de @o3 calculée précédemment, déterminer la valeur minimale de la raideur ko (en N/m) qui permettrait de respecter le critére de la bande passante 4 —3 dB de 4 Hz. (On notera que .348 > @o3 )- 4-3-4 Analyse du déplacement de l’instrument par rapport au déplacement de la main. On conserve la valeur c; du bloc C;. La fonction de transfert du systéme est: Hw= Dinsirum(p) _ l Danain(p) (1+0,014p+0,0001 7p? )-(1+0,015p+0,0014p?) * Le chirurgien impose avec sa main une rampe de déplacement de 100 mm/s. On a tracé sur le document réponses figure R39 les courbes de déplacement de la main et de l’instrument."
+     },
+     {
+      "numero": "Q39.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+        "semestre": "S3"
+       }
+      ],
+      "page": 19,
+      "tags": [],
+      "texte": "Question 39. : Mettre en évidence sur le document réponses et donner les valeurs numériques : de I’écart dynamique maximal ; de I’écart de trainage (ou de vitesse) ¢, en régime établi, du retard de trainage. Le cahier des charges est-il satisfait pour ce dernier critére ? On donne sur le document réponses figure R41, la courbe d’amplitude (gain) de H(p) pour p = jo dans le plan de Bode. La main du chirurgien est prise d’un tremblement sensiblement sinusoidal dont la période est de 0,25 s et l’amplitude 1 mm."
+     },
+     {
+      "numero": "Q40.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Capteurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       }
+      ],
+      "page": 19,
+      "tags": [],
+      "texte": "Question 40. : Déterminer a partir de cette courbe, l’amplitude du mouvement pris par |’instrument. Quelle est la conséquence de ce mouvement sur la plaie chirurgicale ? 4-3-5 Amélioration des performances dynamiques. On souhaite limiter l’amplitude du mouvement de I’outil lors du tremblement de la main en filtrant le signal traité par le capteur-codeur C, de sorte que les tremblements n’apparaissent plus sur le soustracteur. On propose trois filtres du premier ordre, de gains statiques égaux a 1 et de constantes de temps: T,;=0,04s; T2=0,ls; T; =0,5s."
+     },
+     {
+      "numero": "Q41.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Rapidité",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 19,
+      "tags": [],
+      "texte": "Question 41. : Tracer sur le document réponses figure R41, les trois courbes asymptotiques d’amplitude de ces filtres avec des couleurs différentes. Sachant que les mouvements dont la période est inférieure a 1 s ne doivent pas étre atténués de plus de 1 dB, choisir le numéro 1, 2 ou 3 du filtre qui atténue de 8 4 10 dB le tremblement de la main de période 0,25s. Tracer sur cette figure, dans une autre couleur, |’allure de la courbe d’amplitude corrigée par ce filtre. Le niveau de 4 Hz, de la bande passante 4 —3dB du critére de rapidité est-il toujours respecté ? Rappel : Présentation des copies Les réponses finales doivent étre encadrées. Le candidat traitera chacune des parties 3 4 6, sur des copies séparées en indiquant sur chacune d’entre elles le numéro de la partie traitée. Texte du sujet page 19/28 5- RESPECT DES CRITERES ASSOCIES A LA FONCTION DE SERVICE \"FS 4: L'étude menée dans cette partie consiste, par un calcul de résistance, a vérifier que le niveau d’un critére associé a la fonction de service FS4 : « Permettre a l’équipe médicale de retirer rapidement les instruments chirurgicaux du corps du patient en cas d’urgence, en soulevant la structure », est validé ; Elle es"
+     },
+     {
+      "numero": "Q43.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 21,
+      "tags": [],
+      "texte": "Question 43. : Donner I'expression littérale du moment quadratique \"ISy\", de la section de tube par rapport 4 V'axe Sy et calculer sa valeur en mm‘ . On suppose que chacun des quatre tubes de longueur \"Lt\" = 600 mm, est sollicité équitablement sous I'effet de l'action \"Fop\" exercée par l'opérateur sur la plaque EE’J’J."
+     },
+     {
+      "numero": "Q44.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       }
+      ],
+      "page": 21,
+      "tags": [],
+      "texte": "Question 44. : ; : Tracer le diagramme du moment de flexion le long d'un Figure 5-4 tube et calculer la valeur maximale de celui-ci. (On utilisera le repére (X,Z) de la figure 5-4 dans lequel x axe de la poutre est porté par X). <"
+     },
+     {
+      "numero": "Q45.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 21,
+      "tags": [],
+      "texte": "Question 45. : Lt= 600 Déterminer la contrainte normale maximale dans un tube ; Conclure par rapport au cahier des charges. 5-2 Etude des déformations Pour l'étude du comportement vibratoire du robot et du systéme asservi, on souhaite connaitre la raideur de I'extrémité du robot. L'étude sera faite dans un premier temps sur la structure constituée de 4 tubes (figure 5-2). Donnée : la déformation élastique \"57,\" d'un tube, | Figure 5-5 résultant de I'application d'un effort \"Fzt\" en extrémité 3 Lt AZ de tube (figure 5-5) est donnée par la relation : “WE Fel, = 4 x « _—_| O03 Ty ; on prendra Isy = 530 mm* . = F, On note : Kz, = —8 Ja raideur de la structure dont Zs Textrémité se déplace de la quantité \"67,\" sous I'effet de l'effort vertical \"F,.\"."
+     },
+     {
+      "numero": "Q46.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 21,
+      "tags": [],
+      "texte": "Question 46. : Déterminer |'expression littérale, puis donner la valeur numérique de la raideur \"K 7.5,\" de la structure a 4 tubes (figure 5-2). Pour augmenter la rigidité, les ingénieurs Figure 5-6 ont procédé a I'ajout de tubes supplémentaires ; svurnent I'étude concernera successivement le bras inférieur (E, F, H) et son double (E’, F', H’) puis le bras supérieur (J, L, M, N) et son double (J', L', M', N') (figure 5-6). Texte du sujet page 21/28 5-2-1 Evolution de la structure du bras inférieur (E, F) : Une structure en treillis triangulaire (E, F, H), constitués de tubes est utilisée pour augmenter la rigidité du bras inférieur (E, F) (voir la figure 5-6). Hypothése de travail : on considére que |’assemblage entre les tubes au point E d'une part, et entre les tubes et le reste de la structure aux points F et H d'autre part, se comporte comme une liaison rotule ; le modéle d'étude est donné figure 5-7 . Figure 5-7 E Tous les calculs seront effectués pour un effort Fz in¢ = 100 N."
+     },
+     {
+      "numero": "Q47.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 22,
+      "tags": [],
+      "texte": "Question 47. : Déterminer la nature et la valeur numérique des solicitations existant dans le tube EF, puis dans le tube EH (un raisonnement rigoureux est exigé) ;"
+     },
+     {
+      "numero": "Q48.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 22,
+      "tags": [],
+      "texte": "Question 48. : Déterminer les valeurs numériques (en mm) des allongements rp et yp (valeurs algébriques) des tubes EF et EH."
+     },
+     {
+      "numero": "Q49.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Résistance des matériaux : Torseur de cohésion",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 22,
+      "tags": [],
+      "texte": "Question 49. : Donner I'expression (algébrique) en mm du déplacement vertical 8, ,,- de l'extrémité E de la partie de la structure triangulaire en fonction de dz, et Sys. Calculer numériquement 67 ;,¢ ; En déduire la raideur \"K7j.¢\" de cette partie de structure triangulaire . Texte du sujet page 22/28 5-2-2 Evolution de la structure du bras supérieur (J, L) : On augmente la rigidité du bras supérieur (J, L) par le doublement des tubes 4 l'aide d'une structure rectangulaire (J, L, M, N) (voir la figure 5-6). Hypothése de travail : Les parties (J, N) et (L, M) liant les tubes (J, L) et (N, M) par des encastrements sont considérées comme infiniment rigides. L'utilisation d'un logiciel Figure 5-8 de calcul par éléments Ne 600 mm >. finis a permis d'obtenir, sous l'effet d'un effort Fz sup = 100 N, e la déformée 4 proposée sur la 8 Zsup figure 5-8 : | Fz sup : a bo : | Point M Point L a appurs, sur la Résultante/yo _|- 298N 298N . Résultante / Zo - 50N -50N Moment / xo 15 Nm 15 Nm uestion 50. : Tracer le long des poutres (N, M) et (J, L), les diagrammes de I'effort normal, de I'effort tranchant et du moment fléchissant. (on travaillera avec la convention du torseur de cohésion qui utili"
+     },
+     {
+      "numero": "Q51.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       }
+      ],
+      "page": 23,
+      "tags": [],
+      "texte": "Question 51. : En déduire la raideur \"Kz...\" de cette partie de structure rectangulaire, ainsi que la raideur \"Kzs)\" de la structure compléte (comprenant deux parties supérieures rectangulaires et deux parties inférieures triangulaires). Rappel : Présentation des copies Les réponses finales doivent étre encadrées. Le candidat traitera chacune des parties 3 4 6, sur des copies séparées en indiquant sur chacune d’entre elles le numéro de la partie traitée. Texte du sujet page 23/28 6- OPTIMISATION DE LA COMMANDE Les déformations périodiques des organes du corps humain, qui sont dues aux mouvements respiratoires, et de fagon plus critique aux battements cardiaques représentent des perturbations pour le chirurgien manipulant (ou télé-manipulant) le robot chirurgical. Il doit en réalité compenser lui-méme le mouvement qu’il observe dans les images endoscopiques, dés qu’il cherche a effectuer une tache précise (de la suture par exemple) a la surface d’un organe. On envisage d’utiliser un systéme de traitement d’images pour définir une consigne de suivi des mouvements de l’organe a opérer; cette consigne sera superposée 4 celle donnée habituellement par le chirurgien pour la réalisation d"
+     },
+     {
+      "numero": "Q53.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 26,
+      "tags": [],
+      "texte": "Question 53. : Les relations R6 et R7 sont des relations dites « rigides » ou « non strictement causales » ; expliquer pourquoi."
+     },
+     {
+      "numero": "Q54.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 26,
+      "tags": [],
+      "texte": "Question 54. : Donner I’expression de la relation R10 qui décrit le comportement de l’amortisseur ; indiquer la nature (causale ou rigide) de cette relation."
+     },
+     {
+      "numero": "Q55.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Énergétique : Puissance et rendement",
+        "semestre": "S3"
+       }
+      ],
+      "page": 26,
+      "tags": [
+       "ressort"
+      ],
+      "texte": "Question 55. : Donner la relation R11 qui décrit le comportement du ressort ; indiquer la nature (causale ou rigide) de cette relation ; préciser comment s’effectue la transformation d’énergie dans le systéme concerné."
+     },
+     {
+      "numero": "Q56.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Énergétique : Puissance et rendement",
+        "semestre": "S3"
+       }
+      ],
+      "page": 26,
+      "tags": [],
+      "texte": "Question 56. : Le processeur associé aux relations R6 et R7 est un élément de couplage de type « modulateur » ; que peut-on dire de la forme prise par I’énergie de part et d’autre de cet élément ?"
+     },
+     {
+      "numero": "Q57.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Capteurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Énergétique : Puissance et rendement",
+        "semestre": "S3"
+       }
+      ],
+      "page": 26,
+      "tags": [],
+      "texte": "Question 57. : Le processeur associé aux relations R2 et R3 est un élément de couplage de type « gyrateur » ; que peut-on dire de la forme prise par l’énergie de part et d’autre de cet élément ? Rappel : Présentation des copies Les réponses finales doivent étre encadrées. Le candidat traitera chacune des parties 3 a 6, sur des copies séparées en indiquant sur chacune d’entre elles le numéro de la partie traitée. Texte du sujet page 26/28 7-_ RESPECT DES CRITERES ASSOCIES_A_LA_ FONCTION DE SERVICE \"FS 6\" L'étude menée dans cette partie vise 4 déterminer les caractéristiques du robot qui assurent la fonction de service FS 6: « permettre au calculateur d’acquérir la position de |’instrument chirurgical ». La mesure du déplacement en translation le long de l’axe de l’outil se fait par un codeur incrémental placé sur l’arbre du moteur, ce qui présente les inconvénients suivants : - la position de l’instrument est perdue en cas de coupure de l’alimentation ; - il est nécessaire de faire coincider, 4 chaque mise en route du systéme, l’origine du comptage avec une origine absolue : cette procédure se nomme la « procédure de prise d’origine du robot ». La définition de l’origine absolue sur"
+     }
+    ]
+   }
+  ]
+ }
+}

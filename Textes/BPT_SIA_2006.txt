@@ -1,0 +1,1580 @@
+
+===== page 1 =====
+[OCR] P82T
+
+# Banque filiere PT *
+Epreuve de Sciences Industrielles A
+
+Durée 5h
+
+Si, au cours de I’épreuve, un candidat repére ce qui lui semble étre une erreur
+d’énoncé, d’une part il le signale au chef de salle, d’autre par il le signale sur sa
+copie et poursuit sa composition en indiquant les raisons des initiatives qu’il
+est amené a prendre.
+
+Aucun document n'est autorisé
+
+Moyen de calcul autorisé :
+
+Calculatrice de poche - y compris calculatrice programmable et alphanumérique - a
+fonctionnement autonome, non imprimante, autorisée conformément a la circulaire n° 99-018
+du I” février 1999.
+En aucune fagon la calculatrice ne pourra posséder de données scientifiques et techniques
+propres au génie mécanique et a l'automatique.
+
+Ce document comporte quatre parties :
+
+© une présentation du sujet : 3 pages,
+
+e le travail demande (parties 1, 2 et 3) : 23 pages,
+
+les annexes : 2 pages,
+
+eles documents réponses : 1 feuillet de 4 pages (DR1) et une page séparée (DR2).
+
+Le candidat traitera chacune des parties (partie 1, partie 2 et partie 3) sur_des copies
+séparées en indiquant sur chacune d’entre elles le numéro de la partie traitée.
+
+Penser a rendre les deux documents réponse en méme temps que les copies.
+
+Les candidats sont invités a formuler toutes les hypothéses qu'ils jugeront nécessaires pour
+répondre aux questions posées.
+
+Tournez la page S.V.P.
+
+
+
+===== page 2 =====
+[OCR] Chargement / déchargement d'une presse injection plastique
+
+Les piéces injectées représentent aujourd'hui une grande part de la production industrielle. Le
+déchargement des presses d'injection est généralement effectué en automatique par des robots
+3 axes cartésiens, voire par des robots 6 axes lorsque des problémes dégagement imposent des
+trajectoires complexes de la piéce hors du moule. Ce déchargement représente un enjeu
+stratégique : la durée du cycle du robot pour récupérer la piéce dans le moule engendre un
+cot non négligeable sur le prix final de la piéce produite puisqu’il n’y a pas d'injection
+pendant ce temps.
+
+Le sujet porte sur une cellule d'injection automatisée produisant des piéces injectées. Les
+piéces produites sont des ardoises (figure I-1) composées d’un insert en carton plastifié
+surmoulé pour obtenir un bord plastifié autour de celui-ci. Les inserts sont déposés dans le
+moule de la presse avant la fermeture du moule. Le moule comporte deux empreintes afin de
+réaliser 2 ardoises par cycle.
+
+Ardoise brute : insert en carton Ardoise finie : insert en carton et
+surmoulage plastique
+
+Moule mobile et ses 2 empreintes
+
+Cellule d’ injection
+
+Figure I-1 : Cellule d'injection automatisée
+
+La cellule d’injection (figure I-2) est constituée des sous-ensembles suivants :
+
+- deux magasins (1.1 et 1.2) d’inserts (cartons bruts) comportant deux racks de deux
+rangées de cartons chacun ;
+
+- un robot de chargement / déchargement de la presse (robot 1) équipé d’un double
+préhenseur avec deux jeux de ventouses. Le premier préhenseur, avec ses ventouses
+V1, récupére les ardoises moulées sur le moule fixe. Le deuxiéme préhenseur, avec ses
+ventouses V2, assure la prise et la dépose des ardoises brutes. Il est 6quipé d’une unité
+de rotation a 90° pour effectuer le changement d’ orientation entre la préhension dans
+les magasins 1./ et la dépose des inserts sur le moule mobile ;
+
+- une presse d’injection permettant de mouler deux ardoises simultanément ;
+
+2 Tournez la page S.V.P.
+
+
+
+===== page 3 =====
+    *                     !                                   !                                                                                          1
+            #                     .
+    *          5                                          !                                                                       "              6
+            6 .
+    *         "                                                                                                                       -
+                                              1
+
+                                                                              X
+
+Magasin                                                               Y
+  2.2                                                                         Z
+                              1           2                                                                                           Magasin
+                                                                                                   d       d                            1.2
+évacuation
+ du rack                      4           3       D2                                                                                  Alimentation
+                                                                                                   c       c                          du rack 1.2
+
+Magasin                                           D1
+  2.1                         1           2                                                                                           Magasin
+                                                                                                   b       b                            1.1
+évacuation
+ du rack                      4           3
+                ROBOT 2
+
+
+
+
+                                                                                                                                      Alimentation
+                                                                                                   a       a                          du rack 1.1
+
+
+
+
+                                                                                                                                      ROBOT 1
+
+
+        PRESSE
+                                                                                                                   Moule mobile
+                                                                                  Moule fixe
+
+
+
+
+                                          $        %' 7
+
+
+
+6                                                     &
+                                                                          "
+                !                                 1                           - #                      "                                             !
+                                      "                                                        #               0                  #
+    "                     !                       #                   !                            #                                  8      !
+            6         #                                           *
+
+        !                                         "                                     # *1*#                                    )
+#                   0                 #                                                       #                            9                         8
+
+
+                                                                          3
+
+
+===== page 4 =====
+"           +                               /                       !
+                !                                   "
+                    !
+                        /   '           "               !                   1
+    #                                   6       6   :       "           !       "
+        !                                   1
+                                1                   -#          "
+
+
+
+
+                                    4
+
+
+===== page 5 =====
+[OCR] Travail demandé
+Remarques importantes :
+
+1. Le sujet comporte trois parties indépendantes, elles mémes constituées de nombreuses
+questions traitables séparément :
+
+e la partie 1 est consacrée a l’analyse fonctionnelle du systéme en abordant tout
+d’abord |’ étude de la coordination entre la presse d’injection et les deux robots puis
+la vérification des capacités cinématiques et dynamiques de |’axe vertical du
+robot | de chargement / déchargement de la presse.
+
+(durée conseillée 1h 15) ;
+
+e la partie 2 s’intéresse a la liaison glissi¢re suivant X du robot 1, elle permet
+notamment de valider les dispositions constructives de celle-ci.
+(durée conseillée 1h 15) ;
+
+ela partie 3 aborde la chaine fonctionnelle de commande de |’axe Y du robot | et le
+réglage des correcteurs de l’asservissement pour le contréle en position du
+préhenseur dans cette direction.
+(durée conseillée 2h 00).
+
+En considérant une durée de 30 minutes pour la lecture du sujet.
+
+2. Tous les calculs seront systématiquement rédigés en littéral puis, s’il y a lieu, en
+numérique. Les [résultats seront encadrés sur la copie.
+
+
+
+===== page 6 =====
+[OCR] Partie 1 : analyse fonctionnelle et cinématique
+
+1.1 : FONCTIONNEMENT GLOBAL
+
+Le cycle de fonctionnement de la cellule d’injection peut étre décrit par le Grafcet de
+coordination des taches figure 1.1. La liste des Entrées / Sorties utilisées et l’expansion de la
+macro-étape M2 sont décrites sur le document réponse DR7.1.
+
+c—
+(23 s)| Mt | "M1: MOULAGE”
+
+> Autorisation fonctionnement
+
+(1.5){ m2] "M2: Préhension ardoises
+finies / moule fixe"
+
+Fi
+
+M3
+
+"M3: Dépose ardoises
+brutes / moule mobile”
+
+(15s)
+
+Ma] "M4: Dépose ardoises
+finies / support D1 & D2"
+
+tt
+i oo
+
+M5 | "MS: Préhension ardoises
+
+brutes / Robot 1"
+[LF
+
+"MG: Préhension ardoises
+finies / robot 2 sur D1 ou D2"
+
+M6
+1 =
+
+M7] "M7: Dépose ardoises finies
+/ magasins 2.1 ou 2.2"
+
+B
+
+a
+
+Figure 1.1 : Grafcet de coordination des taches de la cellule d’injection
+
+Question 1.1 : sur le document réponse DR1.1, compléter l’expansion de la macro-étape M3.
+Le niveau de description doit étre homogéne au Grafcet de coordination des
+taches et a l’expansion de la macro-étape M2.
+
+1.2 : GESTION DES MAGASINS « ardoises finies »
+
+Les ardoises finies sont déposées en D1 et D2 par le robot 1 de chargement / déchargement de
+la presse. Le robot 2 récupére alternativement chaque ardoise sur D1 ou D2 (support D1 ou
+D2 géré par la variable binaire B, avec B = 0 ou 1) pour la déposer a plat (rotation de 90° sur
+
+6 Tournez la page S.V.P.
+
+
+===== page 7 =====
+[OCR] le préhenseur a ventouses) dans le magasin en cours (magasins 2.1 ou 2.2). La gestion des
+deux magasins permet d’éviter un arrét de production lorsqu’un rack est complet (changement
+du rack par un opérateur en temps masqué). Le magasin en cours est géré par la variable
+binaire M, avec M = 0 ou 1.
+
+La séquence de pose des ardoises dans un magasin en cours correspond a la numérotation du
+schéma figure I-2 (respectivement les positions : ©, @, ®, ®), gérée par la variable j (avec
+j= 1, 2, 3 ou 4). Enfin, le nombre d’ardoises par position est géré par le compteur C (avec C
+compris entre 0 et n). L’expansion de la macro-étape M6 et celle, partielle, de M7 sont
+décrites sur le document réponse DR1.2.
+
+Question 1.2 : sur le document réponse DR1.2, compléter l'expansion de la macro-étape M7.
+Le niveau de description doit étre homogéne au Grafcet de coordination des
+taches et a l’expansion de la macro-étape M6.
+
+1.3 : DETERMINATION DES CAPACITES CINEMATIQUE ET DYNAMIQUE
+
+Le robot 1 de chargement / déchargement de la cellule d'injection est constitué d’un portique
+cartésien 3 axes. Chaque axe est composé d’un moteur synchrone autopiloté, d’un réducteur a
+train épicycloidal, d’un systéme de transformation de mouvement (de type pignon -
+crémaillére pour les axes X et Z, poulies - courroie crantée pour Y) et d’un chariot guidé par
+des galets.
+
+Dans cette partie, nous nous intéresserons uniquement a I’axe vertical Z.
+
+Celui-ci fonctionne avec un cycle imposé permettant de respecter les cadences du cycle
+injection.
+
+Notations :
+7 Cm: couple électromécanique moteur
+Moteur Y Poulie-courroie @m : Vitesse angulaire de l’arbre moteur
+J \ @p : vitesse angulaire du pignon
+i =“ | V> : vitesse linéaire du préhenseur
+Ye : accélération du préhenseur
+
+patil
+
+Moteur X . . Jm: moment d’inertie de l’arbre moteur
+Pignon-crémaillére te ae .
+
+, Jp: moment d’inertie du pignon
+
+J; : moment d’inertie du réducteur
+(ramené a l’arbre moteur)
+
+M, : masse totale de la poutre verticale en
+mouvement (sans piéce)
+
+Mp, : masse d’une ardoise finie
+
+M;: masse d’un insert (carton brut)
+
+\_ Moteur Z
+
+Rp : rayon primitif du pignon moteur
+
+ae ©,
+Rotation U n: rapport de réduction : n =—
+
+o,
+
+Figure 1.2 : Schéma de principe de la chaine de positionnement — axe vertical Z
+
+oles solides sont considérés indéformables ;
+
+o les efforts dus aux frottements secs et visqueux sont négligés, les liaisons sont
+considérées parfaites ;
+
+co les mouvements du robot s’effectuent en paraxial (un seul axe 4 la fois).
+
+
+===== page 8 =====
+[OCR] Question 1.3 : donner I’expression littérale du moment d‘inertie total équivalent Jteg ramené
+a larbre moteur de l’ensemble vertical mobile (axe Z).
+
+Le cycle étudié se situe a la fin de I'injection : depuis la préhension des piéces venant d’étre
+injectées (bras au-dessus du moule) jusqu’a la dépose de celles-ci sur la zone de dépose
+(figures I-2 et 1.3-a). Le déroulement du cycle est décrit dans le tableau 1.1.
+
+Z, (m)
+2 4 12
+= f 1
+( 57) 8 14
+|
+3 > : 0 temps (s)
+ia
+ey, 9 Cycle de déplacement suivant Z
+)}— 2. —__
+| Jo y a , (m.s1)
+‘| Jo q “ 2 58 12
+el jo Eig 9 s.
+g Sle &
+al ! é os
+lp a AP
+LE Zone D1 Zone D2
+| dépose depose | 25.1 427 11 .
+- e 3 ct) temps (s)
+Presse Magasin 1.1
+injection cartons bruts
+a) Loi de vitesse en trapéze suivant Z b)
+
+Figure 1.3 : a) Cycle étudié pour I’axe Z — b) Loi de mouvement pour l’axe Z
+
+La loi de mouvement désirée est définie par la figure 1.3-b. Il s’agit d’une loi de vitesse de
+type « trapéze » permettant un meilleur comportement thermique du moteur. L’ensemble
+« moteur et variateur » doit pouvoir supporter le cycle prévu sans échauffement anormal.
+Classiquement, les constructeurs de moteurs préconisent d’utiliser une régle d’équirépartition
+(figure 1.4) des temps d’accélération, de vitesse constante et de décélération : ty = ty = te .
+
+a”
+
+Durée pour effectuer la course
+
+Phase Couple moteur
+a) |c,=
+b) |C,=
+©) |c,=
+
+Figure 1.4 : Cycle de vitesse en trapéze — régle d’équirépartition
+
+Tournez la page S.V.P.
+
+
+===== page 9 =====
+Etape                                 Description                                          Pièces dans les               Axe en              Course    Durée
+                                                                                            préhenseurs                 mouvement             (mm)      (s)
+  1         Descente dans le moule de la presse                                              2 (inserts)                       Z-             650
+ ---        Préhension ardoises et dépose cartons                                                                                                           1
+  2         Remontée des ardoises finies                                               2 (pièces injectées)                 Z+                650
+  3         Déplacement vers zone de dépose                                                    2                            X+                 ---          3
+  4         Descente vers dépose D2                                                            2                            Z-                600
+ ---        Dépose ardoise 1                                                                                                                            0,5
+  5         Remontée préhenseurs                                                                  1                            Z+             300
+  6         Déplacement vers zone dépose D1                                                       1                            X-              ---      0,5
+  7         Descente vers dépose D1                                                               1                            Z-             400
+ ---        Dépose ardoise 1                                                                      0                                                     0,5
+  8         Remontée préhenseurs                                                                  0                        Z+                 450
+  9         Déplacement vers magasin 1.1                                                          0                        X-                  ---       2
+ 10         Retournement préhenseur à l’horizontal                                                0                        U-                           0,5
+ 11         Descente vers magasin 1.1 prise cartons                                               0                        Z-                 350
+ 12         Remontée préhenseurs                                                             2 (inserts)                   Z+                 600
+ 13         Retournement préhenseur en vertical                                              2 (inserts)                   U+                           1
+ 14         Déplacement vers presse                                                          2 (inserts)                   X-                 ---       2
+ ---        Attente ouverture presse (boucle idem tant                                       2 (inserts)                                                1
+            que magasin 1.1 non vide…)
+
+                                        B                  &&&?                        '              !
+
+                                                                1                                             3 ,
+                                                                                                                                              :;       γP
+                                                                                       (<                          1<
+                        "                                                                                                                    #-#
+
+                                  #    &                            N                         O                        #        &
+                                                                        I              "                                   " H
+            ,           >                   I          *
+                                                                        Pignon-crémaillère :                  Rp=25mm ;                 module = 1,5
+                                                                                                              Inertie : Jp =        &*% C          '
+
+
+
+                                                                        Moteur :              ,+%3F +* 333*MC                           )J6;+,+@
+                    ,        <                                                                                                           Annexe 1
+                                        I          *
+                                                                        Réducteur :           SP 60 – M
+                                                                                              ;               & DA
+        I       *                                  ,        H                                 )                  F&*% C
+                                                                                                          & E D &;                       '
+
+                                                                                                                           1        !
+            ?
+                        :                                               %                             !            H
+                @
+                                                                        Masse totale du chariot mobile :                                Mz = 23 kg
+                                                                        Masse d’un insert (carton brut) :                               Mi = 0,1 kg
+                                               ;            :
+                                                                        Masse d’une ardoise :                                           Mp = 0,5 kg
+                                                                        Course totale utile :                                           1m
+       $            &       &; !
+
+                                                                                                                               3 , 9 )Annexe 1+
+                                                                                   3                               ,                          1
+                        γ P max                                                                   "            =
+                                           "                    ,           0I     "                      #
+
+
+
+                                                                              9
+
+
+===== page 10 =====
+[OCR] 1.4: VALIDATION DU CYCLE PREVU PAR L’UTILISATEUR
+
+Le robot portique est fourni en standard avec la presse d'injection. Le dimensionnement des
+préactionneurs et des actionneurs est donc réalisé par le constructeur avec un cahier des
+charges défini a priori. Il est donc nécessaire pour l'utilisateur de vérifier que les capacités
+cinématiques et dynamiques des actionneurs seront compatibles avec les cadences et les
+caractéristiques des piéces qui sont manipulées. On se propose en outre de minimiser le
+temps nécessaire pour la réalisation des mouvements du robot.
+
+Pour la loi de vitesse en trapéze définie figure 1.4 :
+
+Question 1.6 : exprimer, pour la zone &) du trapéze, la relation de la position Z, en fonction
+de Yp et de la durée de la phase d’accélération ty ;
+exprimer la relation de la vitesse constante atteinte Vp en fonction de Yp et de
+la durée de la phase d’accélération t,. En déduire l’expression de Z, en
+fonction de Vp et ta.
+
+Lorsque la course demandée atteint une valeur trop petite, notée Zmini, il n’est pas possible
+d’atteindre la vitesse maximale Vpmax tout en respectant la loi de vitesse définie (régle
+déquirépartition non respectée) :
+
+Question 1.7 : montrer que cette course minimale peut s’exprimer sous la forme :
+
+2-VB me
+Zmini =m
+
+YP max
+
+caleuler Zyini en prenant les valeurs numériques suivantes :
+-l
+
+Lypmax =20m-S?; Vpmax =2m-s
+
+(Les grandeurs peuvent étre légerement différentes de celles calculées précédemment)
+
+Question 1.8 : en déduire les étapes du cycle du bras Z (figure 1.3) qui ne pourront pas
+respecter ces conditions.
+
+Question 1.9 : calculer Yp réelle respectant la loi de vitesse en trapéze proposée pour les
+étapes © et @. En déduire la valeur du couple électromécanique C,, a fournir
+par le moteur a l’accélération et a la décélération en prenant pour I’inertie
+totale équivalente la valeur numérique suivante :
+
+Iteq =1,3-10° + (2,2-10- Np)
+
+Avec Np = nombre de piéces dans le préhenseur (Np = 0, | ou 2). Pour simplifier les calculs,
+le type de piéce dans le préhenseur n’a pas été distingué.
+
+uestion 1.10: calculer Vp atteinte et réelle respectant la loi de vitesse en trapéze
+P ‘P ip
+proposée pour l'’étape ®. En déduire la valeur du couple électromécanique Cy
+a fournir par le moteur a l’accélération et a la décélération.
+
+10 Tournez la page S.V.P.
+
+
+===== page 11 =====
+[OCR] Partie 2 : modélisation mécanique du robot 1
+
+La translation suivant X est assurée par un systéme de transformation de mouvement de type
+pignon - crémaillére. Le guidage de l’ensemble mobile X est réalisé par deux modules
+linéaires (figure 2.1). Chaque module est composé d’un profilé en aluminium et de deux
+chariots équipés de galets. Les galets de chaque module roulent sur un rail fixé sur le bati.
+Poutre verticale fixe
+
+et Chariot Y : SY
+Masse My
+
+Ensemble SX
+
+~/S Chariot X
+~ Masse M,
+
+Poutre mobile
+verticale
+Poutre mobile
+vertical: SZ =
+Masse mobile M,
+
+Robot | (préhenseur non représenté) a) Différents sous-ensembles mobiles _b)
+
+Chariot Y
+
+Ensemble mobile X
+(poutres verticales non représentées)
+Figure 2.1 : a) Composition du robot 1 — b) Sous-ensembles mobiles
+c) Ensemble X — d) Modules droit et gauche glissiére X
+
+°) Détails des modules X gauche et droit)
+
+2.1 : LIAISON EQUIVALENTE DU MODULE X GAUCHE
+
+Le module gauche est donc composé d’un profilé aluminium 4 |’intérieur duquel sont fixés
+deux chariots porte-galets (figure 2.2). Ce module, composé du profilé et des chariots porte-
+galets, est mobile sur le rail de guidage fixe.
+
+11
+
+
+===== page 12 =====
+                                                  @    ?
+
+
+
+                                                  :
+
+
+
+
+                                                                                                                                                 !
+    +    !                   1                                                 P"
+                         $           ''&%                                          < 8
+
+:                                                                                        6                                 *! 7
+
+        !        #                                          "                       !                                                       *
+                     i                   '       RGi                               # #                                     .%
+                         '                                                            *
+                                         &
+    A5, Z pour le galet          ;               A4, Y pour le galet           ;             A7, Y7 pour le galet                       .
+                                                                                                     !       {X, Y,Z}                       #
+                 #           " I X avec le chariot                   ;                                           KY "
+
+                                                                                                 Z
+                                     Z       X
+                                 Y                                                               5
+                                                                                    1
+
+                                                                                                     C5                     P
+                                                                               RG5                               YP
+E                                                                                                    A5                             3
+                                                       $                                                                                         ZP
+Q                                                                                                                                           2
+                                                                          Z7   Y                 X                         C4
+                                                                                                             A4                 4
+                                                                                     A7
+                                                                                                                                            KY
+F                                                                        7         C7                            RG4
+                                                                          Y7                             0
+
+
+
+                                                                                                                                                  !
+                             $               '6&,
+
+7                                                           #                                                          ,
+            *!                                         !B
+
+                     #                                                                               1                                           6
+                                                            *#( # ) 1                ,       ,   ,       ,   ,    +#
+
+
+
+                                                                12
+
+
+===== page 13 =====
+                                                                                   "
+                                        *                                 #
+                            $
+                                                                                   "                                                           #
+                                                                                                                                       ,                "
+
+                                    "                                                                      3
+                                                                                                                                  "        #
+                                                                      @                                                  3
+                                        KY#
+
+                                                                      "                                                                6           #
+                                                                                                                             ,
+                                             A                                               1 )          *#* +#
+
+'' 1                    -. 89                     1 .             39 / -391 @ 37-
+                                                                                                               1                                                 "
+                        *           IA                                                       E 6          9          R
+                "                                                                                              *                                                 "
+                    &                                     N                   O                  !                                     *
+11 +                            *                                 +       + 19
+
+
+                        P.G. supérieur                        8
+                        arrière
+                                                                                                                                                   11
+     P.G.                               10
+     inférieur                                                9
+     arrière
+                                                    P.G. supérieur
+                                                                              11
+                                                    avant (levier)
+
+                 P.G. inférieur
+            19
+@                avant
+        ?                                                     8
+                                            9'                                                                                             8
+                                              9
+
+ :                                                                                                                                                                   !
+ +          !                       *           1                                                    P"                       8                #        11
+
+                                            $            'A&%                                             < 8
+
+:                                                             #                                       6                               Q 7
+                                                                                                                                                                 !
+    #                                                    "I A                                #                 19                     E*
+                               ' RG8                                               # C8 Y            #              #        11                #        11
+
+                 #            " I  X #                                              :                                 KZ "
+                               #                                           '           RG9                          # C9 Y             #
+                                                    19
+%                                           !       !                                                                                                        1
+            *                                                                                                        &
+                                    A8, Z pour le galet                       ;              A9, Z pour le galet              .
+
+
+
+
+                                                                                       13
+
+
+===== page 14 =====
+[OCR] Figure 2.5 : Modélisation d'un chariot droit
+
+On se propose de déterminer la liaison équivalente entre le module droit r® modélisé figure
+2.5 et le rail © appartenant au bati.
+
+Question 2.7 : établir le graphe des liaisons entre les différentes piéces du chariot et le bati
+repérés sur le schéma figure 2.5 (piéces ©, ®, ©, ©, 1).
+
+Question 2.8 : en déduire la liaison équivalente globale entre le demi chariot avant ® et le
+bati ©.
+
+Question 2.9 : déterminer alors la liaison globale réalisée par les chariots avant et arriére
+constituant le module X droit de la liaison glissiére (figure 2.4-a).
+
+2.3 : LIAISON EQUIVALENTE COMPLETE DE LA GLISSIERE X
+
+Question 2.10 : montrer que la liaison globale constituée du module X gauche et du module
+X droit (c'est-a-dire la liaison entre le sous-ensemble SX par rapport au bati
+©) est une liaison glissicre de direction X. Déterminer le degré
+dhyperstatisme de celle-ci.
+
+2.4: COMPORTEMENT STATIQUE DE LA LIAISON GLISSIERE X
+
+On se propose de déterminer les réactions aux appuis pour la liaison glissi¢re équivalente.
+L’objectif est de définir le sens des efforts et donc de vérifier les conditions de
+fonctionnement des porte-galets articulés associés aux ressorts de raideur Kx et Ky.
+Soit l'ensemble S, composé des sous-ensembles SX, SY et SZ (figure 2.1-b), représentant
+l'ensemble mobile X. Pour la suite de cette partie, le modéle retenu sera défini comme suit :
+¢ la liaison glis:
+constituée d’une liaison pivot glissant A, X et d’une liaison ponctuelle B, Z ;
+© le centre d’inertie de l’ensemble mobile SX est défini en Gx, considéré comme fixe
+quelles que soient les positions en Y et Z du robot portique ;
+© le centre d’inertie de l’ensemble mobile SY + SZ est défini en Gyz ;
+
+re d’axe X équivalente entre les rails (bati ©) et l’ensemble isolé est
+
+¢ le référentiel lié au rail © est supposé galiléen et muni de la base B= {XYZ} 3
+
+¢ l’accélération de la pesanteur est g=-9-Z.
+
+14 Tournez la page S.V.P.
+
+
+===== page 15 =====
+[OCR] Valeurs numériques
+Mx = 230 kg
+My + Mz = Myz = 120 kg
+E=0,5m
+a=0,2m
+CY =0,5m
+CZ=0,2m
+
+Figure 2.6: Configuration retenue pour l'étude statique - Ensemble isolé S
+
+Les torseurs des actions mécaniques exercées par le rail © sur S sont exprimés sous la forme
+suivante :
+
+Xa La Xe Lg
+{Taoas)}=} Ya Ma > {Taoss)}=)Ye Me
+Za Nalag Ze NeJay
+
+Question 2.11 : exprimer les torseurs des différentes actions mécaniques qui s’exercent sur
+S. Déterminer les actions mécaniques qu’exerce le rail © sur S.
+
+Question 2.12 : déduire le sens de l’effort de réaction pour la liaison ponctuelle B, Z et
+montrer qu’il dépend des paramétres a et CY. Donner la condition
+nécessaire pour que l'appui ait lieu sur le galet fixe © en B (figure 2.4-a).
+
+Application numérique
+Question 2.13 : calculer les différentes valeurs des composantes de la réaction en B et
+
+justifier les dispositions constructives du module de guidage défini sur la
+figure 2.5.
+
+15
+
+
+===== page 16 =====
+[OCR] 2.5 : COMPORTEMENT DYNAMIQUE DE LA LIAISON GLISSIERE X
+
+La liaison glissiére X est soumise, en plus des actions de la pesanteur, aux effets d’inerties des
+mobiles dans les directions X, Y et Z. On cherche a garantir 4 chaque instant un contact des
+galets de la liaison glissiére X sur leur rail.
+
+Le modeéle retenu pour cette étude est le méme que précédemment (figure 2.6). L’axe X est
+immobile, on se propose d’étudier l’influence sur la réaction aux appuis en A et B d’une
+accélération du sous-ensemble mobile SY+SZ dans la direction Y puis du sous-ensemble
+mobile SZ dans la direction Z et enfin d’une combinaison des deux mouvements. Dans
+chaque cas, on se place a l’instant de démarrage ou d’arrét du ou des mobiles afin de
+conserver les paramétres de position des différents éléments.
+
+2.5.1. Accélération suivant Y
+Le sous-ensemble mobile SY+SZ, de masse Myz, est soumis a une accélération ou une
+
+décélération dans la direction Y: yy. Le torseur dynamique de l’ensemble mobile SY+SZ
+dans son mouvement par rapport au référentiel galiléen est le suivant :
+
+0 0
+{Disveszio}=}%v Myz 0
+0 0
+
+GB
+
+Question 2.14 : en appliquant le Principe Fondamental de la Dynamique, déterminer les
+nouvelles réactions aux appuis A et B du rail © sur l'ensemble S.
+
+Question 2.15 : déduire le sens des efforts de réaction pour les liaisons en A et B en fonction
+du signe de l’accélération yy. Indiquer pour quel cas les ressorts Ky et Kz
+
+risquent d’étre sollicités.
+
+2.5.2 Accélération suivant Z
+
+Le sous-ensemble mobile SZ, de masse Mz, est soumis a une accélération ou une décélération
+dans la direction Z: y,. Le torseur dynamique de l’ensemble mobile SZ dans son mouvement
+par rapport au référentiel galiléen est le suivant :
+
+0 0
+{Piszin}=; 9 0
+YMz ais
+
+Question 2.16 : en appliquant le Principe Fondamental de la Dynamique, déterminer les
+nouvelles réactions aux appuis A et B du rail © sur l'ensemble S.
+
+Question 2.17 : déduire le sens des efforts de réaction pour les liaisons en A et B en fonction
+
+du signe de l’accélération yz. Indiquer pour quel cas les ressorts Ky et Kz
+risquent d’étre sollicités.
+
+16 Tournez la page S.V.P.
+
+
+===== page 17 =====
+[OCR] 2.5.3 Accélération combinée suivant Y et Z
+Le sous-ensemble mobile SY est soumis 4 une accélération ou une décélération dans la
+
+direction Y: yy et, simultanément, le sous-ensemble mobile SZ est soumis a une accélération
+ou une décélération dans les directions Y: yy et Z: yz. Le torseur dynamique des ensembles
+
+mobiles dans leur mouvement par rapport au référentiel galiléen est le suivant :
+
+0 0
+{Disy.sz0}=} 1 -Myz 0
+wM Veg
+
+Question 2.18 : en vous appuyant sur les réponses précédentes, déterminer les nouvelles
+réactions du rail © sur l'ensemble S aux appuis A et B.
+
+Question 2.19 : la référence étant la situation « statique » établie a la question Q2.12, établir
+un tableau de synthése d’évolution des efforts de réaction aux appuis A et B
+en fonction du sens des accélérations sous la forme suivante :
+
+W>d 0 <0 0 Cas extreme Ressort
+
+0 %z>0 0 ¥z <0 | combinaison sollicité
+Ya Ya>Yas
+Za ZasZas
+Zs Ze>Zes
+
+Avec : Yas, Zas, Zas les valeurs de réaction aux appuis déterminées en statique.
+
+Valeurs numériques
+
+My = 230 kg E =05m
+120 kg a =0.2m
+25 kg CY =0,5m
+yy =25m-s2 CZ=0,5m
+
+Yz = 420m-s?
+
+Application numérique
+
+Question 2.20: calculer les réactions aux appuis dans les cas extrémes en utilisant les
+données numériques du tableau ci-dessus. En déduire les valeurs des efforts
+de précontrainte a donner aux ressorts Ky et Kz si l’on veut garantir un effort
+de contact minimum de 400 N sur chaque galet tout au long du
+fonctionnement.
+
+17
+
+
+===== page 18 =====
+[OCR] Partie 3 : comportement dynamique de I’axe Y
+
+Dans cette partie, nous nous intéressons au comportement dynamique du bras Z du robot | en
+mouvement suivant la direction Y (figure 1.5). Le cycle critique pour ce robot se situe au
+moment du déchargement de la presse : la dynamique doit donc étre suffisamment élevée pour
+minimiser le temps d'ouverture du moule. Dans ce cas, on ne peut plus négliger les déformations
+des éléments constituants le bras Z. Une modélisation numérique (éléments finis) du robot
+cartésien 3 axes a été réalisée. Les analyses ont montré que les premiers modes de flexion du
+bras Z suivant les directions X et Y étaient dominants sur la réponse vibratoire de la charge
+(figure 3.1).
+
+Pour les deux axes concernés, le modéle générique de commande doit donc tenir compte de la
+souplesse li¢e a cette flexion pure. Dans le cadre de ce sujet, il a été choisi de ne prendre en
+compte que le premier mode de déformation de la structure du robot | suivant la direction Y .
+
+Y ¥i
+1" déformée suivant la direction X 1 déformée suivant la direction Y
+
+Figure 3.1 : Modéle numérique du robot cartésien (déformées suivant les directions X et Y ).
+
+Hypothés
+
+* on considére que la chaine de transmission du mouvement de translation du chariot
+mobile suivant la direction Y est rigide ;
+
+¢ la flexibilité de la poutre verticale Z suivant la direction Y est prise en compte ;
+
+¢ les amortissements sont limités aux frottements visqueux ramenés a l’arbre moteur et
+aux amortissements internes du mode de flexion considéré ;
+
+¢ les liaisons sont considérées parfaites et les frottements secs sont négligés ;
+
+ela masse de la courroie est négligeable devant les autres masses en mouvement.
+
+Remarques préalables :
+
+e la variable complexe de Laplace est noté «s» de sorte que F(s) désigne la
+transformée ou fonction image de la fonction originale f(t).
+¢ U(t) désigne I’échelon unité tel que U(t) = 1 pour t = 0, U(t) = 0 pour t < 0.
+
+18 Tournez la page S.V.P.
+
+
+
+===== page 19 =====
+[OCR] Cette chaine de positionnement mono-axe est présentée a la figure 3.2. Elle est constituée d’un
+moteur tournant associé a un systéme de transformation de mouvement de type poulies-courroie
+crantées qui transmet la puissance mécanique au chariot Y qui supporte la poutre verticale Z.
+Cette poutre verticale est constituée d’une partie fixe li¢e au chariot Y, et d’une partie mobile en
+translation par rapport a la direction Z sur laquelle est fixé le préhenseur.
+
+Les effets de la flexion du bras Z suivant la direction Y , sont modélisés en considérant M; et M2
+les masses équivalentes associées respectivement aux parties rigides et aux parties flexibles.
+
+resolver Notations :
+moteur
+|synchrone Ci couple électromécanique
+Bese moteur
+Con i Om svi .
+rer. @m : Vitesse angulaire de
+
+Y) T Voy SN =a Parbre moteur
+JUTTTUTTTETT ES ITTTH HHL LLL Ven: vitesse linéaire du chariot
+
+~Poulie rayon Rp
+
+Y suivant axe Y
+is eS , a .
+vitesse linéaire des parties
+
+a ko K\ Mh flexibles suivant l'axe Y
+mm
+
+—_>
+
+Figure 3.2 : Schéma de principe de la chaine de positionnement — constitution de l’axe Y.
+
+Notations complémentaires et données numériques :
+
+- masse équivalente associ¢e aux parties rigides : M; = 136 kg
+
+- masse équivalente associée aux parties flexibles : M2 = 46 kg
+
+- moment d’inertie de l’arbre moteur : Jj, = 5,4. 10" kg.m?
+
+- moment d’inertie d’une poulie : Jp = 6.10° kg.m?
+
+- rayon primitif d’une poulie crantée : Ry = 20 mm
+
+- frottements visqueux ramenés a l’arbre moteur : f, = 0,0171 Nm/rad.s™
+
+- raideur équivalente (1™ mode de flexion de la poutre Z) : K, = 124000 Nim
+- amortissement interne du mode de flexion considéré : p= 64,1 N/m.s™
+
+Cry : couple associé aux frottements visqueux f,
+kt : force résultante associée a la raideur équivalente K, suivant la direction Y
+ut : force résultante associée a l’amortissement interne 11; suivant la direction Y
+F) : force totalisée appliquée aux parties flexibles suivant la direction Y telle que F2 = Fer + Fut
+
+Vu du moteur d’entrainement, la chaine de positionnement met en évidence trois éléments
+accumulateurs d’énergie :
+
+- une inertie équivalente ramenée a |’arbre moteur Jeq correspondant aux parties rigides ;
+- une raideur équivalente K, correspondant au premier mode de flexion de la poutre Z ;
+- une masse équivalente M2 associée aux parties flexibles.
+
+ainsi que deux éléments dissipatifs :
+
+- les frottements visqueux de constante de couple fy ramenés a l’arbre moteur ;
+- Pamortissement interne \1, du mode de flexion considéré.
+
+19
+
+
+===== page 20 =====
+[OCR] 3.1 : MODELISATION DU COMPORTEMENT DYNAMIQUE DE L’AXE Y
+
+Les objectifs de cette partie sont d’une part, d’établir la fonction de transfert mécanique du
+processus modélisé et d’autre part, d’en étudier son comportement temporel et fréquentiel. Pour
+cela, dans un premier temps, nous allons analyser la représentation causale du processus, afin
+de déterminer le schéma fonctionnel de la Partie Opérative de l’axe Y.
+
+Le modéle a constante localisée peut alors étre représenté soit par le Graphe Informationnel
+Causal (GIC) de la figure 3.3, soit par le Bond Graph (BG) de la figure 3.4.
+
+Le candidat a le choix d’utiliser l'une ou Vautre des représentations causales suivantes :
+
+Figure 3.3 : Modéle GIC retenu pour I’axe Y du robot.
+
+C: 1/Kt
+
+I: Im+2Jp 1: Mi t I: Me
+Pea ty I
+
+Se! em —1: amb—> Te: E-> 4 AY 1: V2
+T ota
+R: fv J
+R: pt
+
+Figure 3.4 : Modéle Bond Graph retenu pour I’axe Y du robot.
+
+Question 3.1: établir l’expression littérale du moment d’inertie équivalent Jieq ramené a
+larbre moteur des parties rigides. Effectuer l application numérique.
+
+Question 3.2: a partir de la représentation causale de votre choix et des hypothéses
+précédentes, repérer et établir les relations qui régissent le fonctionnement des
+éléments accumulateurs d’énergie. Pour chaque cas, indiquer s’il s'agit
+d’accumulation d’énergie potentielle ou cinétique.
+
+20 Tournez la page S.V.P.
+
+
+===== page 21 =====
+[OCR] Question 3.3: de la méme maniére, repérer et établir les relations qui caractérisent les
+éléments dissipatifs.
+
+La figure 3.5 présente le schéma-bloc fonctionnel correspondant au modéle discret retenu pour
+cette étude. Nous pouvons établir la fonction de transfert mécanique représentant la relation
+Entrée (Cm) / Sortie (V2) de la chaine de transmission de mouvement.
+
+C, @,(s)
+&) H,(s) 44
+
+Figure 3.5 : Schéma-bloc fonctionnel du processus mécanique.
+
+Question 3.4: a partir des relations établies précédemment, donner les expressions littérales
+des fonctions de transfert Hj(s), H2(s) et H3(s) ainsi que celle du gain q en
+fonction des paramétres de la chaine cinématique.
+
+Question 3.5: dans ces conditions, exprimer les fonctions de transfert Ha(s) = V2(s) / Cm(s) et
+Ha(s) = Ven(s) / Cm(s) en fonction de q, Hi(s), H2(s) et H3(s). En déduire la
+fonction de transfert H¢c(s) = V2(s) / Ven(s).
+
+Question 3.6: écrire les fonctions de transfert Hp(s) et Hc(s) sous les formes canoniques
+suivantes +
+
+H,(s)= Kyles tes") et H,(s)= l+aqs ,
+l+as+a,s° +a,s lt+as+c,s
+C,,(S) Ven (8) V,(s)
+>| H,(s) > Hs) >
+
+Figure 3.6 : Schéma-bloc simplifié du processus mécanique.
+
+- exprimer de maniere littérale les coefficients : km, a, a2, 43, €| et C2 en fonction
+des paramétres de la chaine cinématique ;
+
+- en déduire les expressions littérales du facteur d’amortissement € et de la
+pulsation naturelle @, ainsi que celle de la fréquence de résonance fo ;
+
+- indiquer quels sont les coefficients qui sont indépendants de l’amortissement
+interne du mode de flexion |,
+
+21
+
+
+===== page 22 =====
+[OCR] > Dans la suite du probléme, nous prenons I’hypothése que le systéme étudié peut étre modélisé
+par un mode dominant du premier ordre (constante de temps T,), et un mode _oscillant
+amorti. Dans ces conditions, la fonction de transfert Ha(s) peut se factoriser sous la forme
+suivante :
+
+k,, (l+qs) l+as
+H(s)= a H_(s)= —"*
+Ab) (14+ Qs)(L+ As + Bs? aves ls) ltqs+e,s°
+
+Question 3.7: montrer que si A<<T1, on peut considérer que la constante de temps T vaut :
+
+area Me
+fh K,
+
+T avec Seq = Steq + q7M2
+
+Question 3.8 : en procédant par identification, exprimer de maniere littérale, les coefficients A
+et B. En déduire les expressions du facteur d'amortissement C, et de la pulsation
+naturelle @, ainsi que celle de la fréquence de résonance foa correspondants a
+ce mode oscillant amorti.
+
+Question 3.9: a partir des données numériques, et en considérant que Jieq = 0,055 Kg.m?,
+calculer :
+
+- la valeur du gain statique Ha(0) = km, exprimer sa valeur en dB ;
+
+- les coefficients : cy, C2, T;, AetB;
+
+- les facteurs d’amortissements C, et C, ainsi que les pulsations naturelles @, et
+WM;
+
+- les fréquences de résonances fo, et foc ;
+
+- conclure quant a l’hypothése de départ sur T,.
+
+Question 3.10 : que deviennent ces valeurs numériques si on néglige \,? Conclure.
+> Dans la suite du probléme, on néglige ’'amortissement interne du mode de flexion j1, ainsi
+
+que les facteurs d’amortissements C, et Cc. Dans ces conditions, les fonctions de transfert Hp(s) et
+Hc(s) valent respectivement :
+
+Vals) ky 1+(s/@.)° _Vals)_ 1
+Halo) C,(s) 1+Ts 1+(s/a,) at Hels)= V,(s) 1+ (s/o)
+
+Les valeurs numériques ci-dessous sont choisies pour la suite de I’étude. Elles ne correspondent
+pas exactement aux valeurs calculées précédemment.
+
+@, = 60 rad/s ; @, = 50 rad/s ; T; =4.$ : km= 1,2 rad.s'/N
+
+Question 3.11 : sur le document réponse DR2 fourni, construire avec le plus grand soin, les
+diagrammes de BODE des fonctions de transfert complexes Ha(j@) et Hp(j@).
+
+- tracer les diagrammes asymptotiques en précisant les pentes et les valeurs
+caractéristiques, ainsi que les allures réelles des diagrammes d’amplitude et de phase
+
+- déterminer les marges de stabilité AGas et AQ, et discuter les valeurs trouvées ;
+
+- conclure sur la stabilité en boucle fermée avec retour unitaire de l'ensemble (lorsque la
+commande asservie sera appliquée au processus mécanique).
+
+22 Tournez la page S.V.P.
+
+
+===== page 23 =====
+        +!            ')"- -) 3%(-&&- "- $ '/-
+
+                                      !               '                                3         3                                                          4 9
+    !                                  $                      $
+                                                              #
+                                                                                                                                             S +                    T
+                                           '                         !                                        3                                                      4
+9                                                      $                 $
+             $                      +                 $                                                    - L
+
+$                                 :
+                                  !                                                   &E
+
+
+                                6
+
+                                                                                           resolver
+               B               B;              B&
+                                                                                           moteur
+                                                                                           synchrone
+
+                                                                                            Cm ; ωm
+               B;              B ;;            B &;                             Fv                                                           Vch
+                                                                                                      Courroie crantée
+                                                                                      Jp                                                                            Jp
+                                                                                           Poulie rayon Rp
+
+                   Ordre de commutation
+                     des interrupteurs                                                                                        Kt
+                                                                                                                         M1                 M2
+    Cmréf                Autopilotage
+                              &
+                                                                  ;
+                                                                                                                              µt                   V2
+                         Commande                     θ      θ
+
+
+                                                                 4 ?!                                 $                            "
+    9                      >                        :J                   :-          ?      !          @
+
+                                                                         3                            4                                            L                  '
+         '                                                                                                               $                                           θ
+% 3                                   3                          4                                                                     A
+                     $                                                   +                                           91            +
+    1                                                                    !       >!
+
+                                                                                                9                                                       P
+                                                                                                                                                            9
+$                                                                                     '
+
+              &N                                      !      :                                                                 +             1
+                                          1
+
+                                                                                                      Processus mécanique
+        Vréf (s)                                          Cmréf(s)                   C m(s)                              Vch (s)                            V2(s)
+               +                          H V (s)                     H m (s)                           HB(s)                              HC(s)
+                     -
+                                                                 Boucle de couple
+
+
+
+                                                      5 ?!               :
+
+
+                                                                                 23
+
+
+===== page 24 =====
+[OCR] > Dans la suite du probléme, on s’intéresse uniquement a la commande en vitesse de l’axe Y.
+
+Dans un premier temps, on considére que le modéle de représentation de la boucle de couple,
+considérée linéaire dans le sujet, aura comme fonction de transfert Hm(s) = Cm(S) / Cmeei(S) 2
+
+_ C,ls) 1
+Mal)" Tes
+
+Hypothéses :
+© on considére que la constante de temps Tm qui caractérise la boucle de couple, est trés
+petite devant la constante de temps naturelle du processus mécanique ;
+e le calcul de la vitesse linéaire de translation suivant Y du chariot est parfaitement
+réalisée a partir de la mesure de la position 6 du moteur ;
+* on néglige l’amortissement interne du mode de flexion pu.
+
+On rappelle que dans ces conditions, les fonctions de transfert Hp(s) et Hc(s) valent
+respectivement :
+
+Vals) _ t/a)
+
+C,(s) +h 1+(s/a,)
+
+Données numériqu
+
+Les valeurs ci-dessous sont choisies pour étudier la boucle de commande en vitesse. Elles ne
+correspondent pas exactement aux valeurs calculées précédemment.
+
+@a = 60 rad/s ; @- = 50 rad/s ; T; =48; Tm =0,01 8 ; km = 1,2 rad.s'/N
+
+mestion 3.12: a partir des hypothéses précédentes, et des données numériques ci-dessus,
+Pi yp Pi q
+déterminer le mode dominant du systéme, et montrer que la dynamique de la
+boucle de couple Hy(s) peut étre négligée.
+
+> Dans la suite du probléme, on néglige la constante de temps de la boucle de couple T,,, et
+on choisit un correcteur de vitesse 4 actions proportionnelle et intégrale, ayant pour fonction de
+transfert :
+
+H,(s)=K, +
+
+>
+
+Dans ces conditions, la boucle de couple peut étre modélisée par un gain unitaire H,,(s) = 1.
+
+Question 3.13 : exprimer la fonction de transfert du correcteur de vitesse Hy(s) sous une forme
+faisant apparaitre les « péles » et « zéros ». En déduire l'expression littérale de
+la constante de temps intégrale T; qui caractérise ce correcteur en fonction des
+parametres de réglage K, et K;.
+
+24 Tournez la page S.V.P.
+
+
+===== page 25 =====
+[OCR] > Dans la suite du probléme, on choisit de régler la constante de temps intégrale T; du correcteur
+de vitesse égale a celle de T; : compensation du péle dominant par un zéro (T; = T;)
+
+Question 3.14 : justifier ce choix pour le réglage du correcteur.
+
+Question 3.15 : exprimer la fonction de transfert en boucle fermée Hpri(s) = Ven(s) / Vre(s) en
+fonction de Ki, km, Oa, Me: et Ty. En déduire l’expression littérale de la fonction
+de transfert Hpr2(s) = V2(s) / Vrer(s).
+
+Question 3.16 : écrire ces fonctions de transfert sous formes canoniques, en mettant en évidence
+le Polynéme caractéristique du systéme boucle.
+
+Question 3.17 : analyser la stabilité de la boucle de vitesse en fonction de la valeur du gain Ki
+(vous utiliserez la méthode de votre choix). Que peut-on conclure sur la valeur
+du gain critique Kj. ?
+
+> Les exemples de réponses indicielles présentés ci-dessous, correspondent a une commande en
+vitesse, avec compensation du mode dominant (T; = T;), dont le gain de réglage K; vaut 7,5.
+
+La figure 3.9 présente les réponses temporelles des vitesses linéaires V2(t), et Ven(t) mesurées
+lorsque la boucle de vitesse précédente est soumise a une consigne en échelon unitaire. On peut
+remarquer que |’utilisation d’un simple correcteur PI ne permet pas d’atteindre parfaitement
+Vobjectif, car il y a apparition d’oscillations.
+
+Vitesses (m/s)
+
+V2
+"Veh
+
+** Temps (s)
+
+Figure 3.9 : Réponse indicielle de la boucle de vitesse (correcteur PI).
+
+Question 3.18 : justifier les allures temporelles de V(t) et V2(t) en vous appuyant sur les
+résultats obtenus lors de l'étude de stabilité de la question 3.17. Comment peut-
+on caractériser ces oscillations ?
+
+Cette premiére analyse montre que la loi de commande doit étre adaptée en prenant en compte le
+caractére spécifique de l'axe considéré, car on ne peut pas négliger la partie souple.
+
+25
+
+
+===== page 26 =====
+[OCR] La solution industrielle consiste a utiliser un correcteur PI filtré utilisant des techniques de
+filtrage de type passe-bas ou coupe-bande : filtre Notch ou Bicarré (figure 3.10). Afin de
+compenser les oscillations de vitesse, on propose de mettre en ceuvre un correcteur PI associé a
+un filtre bicarré dont la fonction de transfert Tyc(s) est de la forme :
+
+26,
+
+14%.
+2,
+
+1+
+
+Tye(S)=
+
+Amplitude (4B) phase (9)
+
+fyn=44H2z f,0=24Hz ‘
+
+Gy=2.9e-3 Cp=2.8e-3, ,
+sof fyy=44Hz. f,9=45Hz
+Gy=2.9e-3 Cp=2.8e-3
+
+Hz f,p=44Hz . fon=44Hz fyp=44Hz
+90-3 {=2.6e-3 | for Gu=2.9e-3 Cp=3.2e-3
+
+-
+
+rad/s rad/s
+
+Figure 3.10 : Allures fréquentielles des filtres bicarrés en fonction du réglage des paramétres.
+
+La figure 3.11 présente alors le schéma-bloc de la boucle de vitesse obtenue dans ces conditions.
+
+Processus mécanique
+
+Vit(8) Sorel) C8) | Ven(s) Vis)
+Cy(s) Tac(s) >| H,,(s)=1 + H,(S) H,(s) >
+ComecteurPl ‘File bicaré ©“ Boucle decouple _-zsseccace----seeesssoe=- !
+
+Figure 3.11 : Schéma-bloc de la boucle de vitesse complete (PI+filtre bicarré).
+
+Question 3.19: en considérant le principe de compensation d’un péle par un zéro et
+inversement, proposer la structure du filtre Tgc(s) permettant de compenser
+parfaitement les oscillations du chariot mobile.
+
+Dans ces conditions, la fonction de transfert en boucle fermée Hpri(s) = Ven(s) / Vre(s) vaut
+
+ler’ avec Tgp; la constante de temps de la boucle de vitesse du chariot.
+FD ypyS
+
+aris
+
+26 Tournez la page S.V.P.
+
+
+===== page 27 =====
+[OCR] La figure 3.12 présente alors les réponses temporelles des vitesses linéaires V(t), et Ven(t)
+mesurées lorsque la boucle de vitesse précédente est soumise a une consigne en échelon
+unitaire (correcteur PI+Filtre bicarré 1). On peut remarquer que méme en considérant un
+réglage de la boucle de vitesse optimal, des oscillations de la partie flexible sont présentes ; elles
+sont méme amplifiées par rapport 4 la commande sans filtre.
+
+Vitesses (m/s)
+
+Temps (s)
+
+Figure 3.12 : Réponse indicielle de la boucle de vitesse (correcteur PI+Filtre bicarré 1).
+
+Question 3.20 : en utilisant la transformée inverse de Laplace, et en vous aidant de la table de
+transformées en annexe, établir l’expression temporelle de V2(t) lorsque V;«(t)
+est un échelon _d’amplitude unitaire. Comment peut-on caractériser les
+oscillations de V>(t) ?
+
+Question 3.21 : a partir des données précédentes, et en considérant que @:.Tpri >> 1, calculer
+les valeurs de l’amplitude et de la période de ces oscillations en régime établi
+pour un gain de réglage K;= 4,16. Déterminer la valeur du gain Kj qui assure
+des oscillations d’amplitude inférieure a 5%. En déduire le temps de réponse a
+5% de la boucle fermée correspondant.
+
+Afin de compenser les oscillations de la partie flexible du chariot mobile, il est donc nécessaire
+de déterminer un nouveau filtre bicarré (non étudié ici). La figure 3.13 présente les résultats
+obtenus lorsqu’on prend en compte la partie flexible du chariot mobile dés la définition du filtre.
+
+Vitesses (m/s)
+=V2
+“Veh
+
+"Temps (s)
+Figure 3.13 : Réponse indicielle de la boucle de vitesse (correcteur PI+Filtre bicarré 2).
+
+En conclusion, on peut remarquer que le chariot subit quelques oscillations amorties lors d’un
+transitoire de vitesse, mais que la vitesse de la partie flexible du chariot mobile est parfaitement
+asservie. L’objectif est donc atteint grace 4 une commande par la « technique dite d’inversion »
+
+27
+
+
+===== page 28 =====
+[OCR] ANNEXE 1:
+DOCUMENTATION MOTEUR INDRAMAT - BRAS VERTICAL
+
+Référence: MACO7 1A-2000-HS-1-0
+Moteur synchrone a excitation permanente. Moteur avec frein.
+
+Masse du moteur 8,5 kg
+Moment d'inertie 5,4.107 kgm?
+Diamétre d'arbre 19mm
+Vitesse nominale 2000 tr/min
+Vitesse maximale 3100 tr/min
+Couple nominal a l’arrét 2,2 Nm
+Couple maximal 6,1 Nm
+Constante de couple (Kt) 1Nm/A
+
+' Courbe caractéristique
+
+== INDRAMAT MAG071A-2000-HS-1-0(Continuous)
+Nm ee INDRAMAT MACO71A-2000-HS-1-0(ED=1%)
+Ty
+aN
+Urmin
+SARS BASAS OSRRS ASSES GARSSRRSAS RSRSB ASSES CARSSRGEAS DEASEOSSESORARSLGRAN BEASERSEEI
+0 500 1000 1500 2000 2500 3000 3500 4000
+
+28 Tournez la page S.V.P.
+
+
+===== page 29 =====
+    ANNEXE 2 :
+
+
+
+
+ω
+
+
+
+
+        29
+
+
+===== page 30 =====
+  Montage 1                   NOM : …………………………….                           CONCOURS BANQUE PT
+
+                                                                           SCIENCES INDUSTRIELLES A
+                              Prénom : …………………………..
+                                                                          DR1 : expansion des Macro
+                              Académie : ………………………….
+
+                              N° d’inscription : …………………….                     A rendre à la fin de l’épreuve
+Ne
+rien                                                                                Dépliez la feuille S.V.P.
+écrire
+dans
+ce
+cadre
+
+
+
+                                                                            !
+                                                                         "# !
+
+
+
+                                                                                    $%        # !
+                                                                         # !
+
+              E2                                                          E3
+                    1                                                           1
+
+              2.1       Autorisation au robot 1 : =1                      3.1        Autorisation au robot 1 : =1
+                    1                                                           1
+                     "Descente Z- préhenseur1 Robot 1
+              2.2                                                         3.2
+                     devant moule fixe et translation Y+"
+                  Fin de mouvement robot 1          0,2s/X2.3
+
+  M2                                         Ventouses moule
+              2.3       Ventouses V2 : =1                       M3
+                                             fixe : =0
+       1            aspiration V2 obtenue
+                                                                     1
+
+              2.4       Autorisation au robot 1 : =1
+                    1
+                       "Translation Y- Préhenseur Robot 1
+              2.5
+                       en position attente "
+                    Fin de mouvement robot 1
+
+              S2
+
+
+
+
+                                                                           &
+
+
+
+Dépliez la feuille S.V.P.                                                                     Tournez la page S.V.P.
+
+
+===== page 31 =====
+[OCR] E6
+1
+6.1 YY
+M6
+7 +B
+"Préhension ardoise “Préhension ardoise
+M61 sur D1 par robot 2" M62 sur D2 par robot 2"
+1 ri
+sé
+Expansion de M6 : préhension ardoises finies / D1 & D2
+E7
+yi
+71h] C:=
+M7 C:=C+H
+7 fic <n]. j=] Fic <n). j=2] Fic <n}. f=3] F...
+"Dépose ardoise "Dépose ardoise
+M71 position 1" M72 position 2"
+1 ti
+S7
+
+Expansion de M7 : dépose ardoises finies / Magasins 2.1 & 2.2 aux positions ©, ®, ®, ®
+
+
+
+===== page 32 =====
+[OCR] 
+
+===== page 33 =====
+[OCR] Dépliez la feuille S.V.P.
+
+
+===== page 34 =====
+  Montage 1                   NOM : …………………………….                     CONCOURS BANQUE PT
+
+                                                                     SCIENCES INDUSTRIELLES A
+                              Prénom : …………………………..
+                                                                        DR2 : lieux de Bode
+                              Académie : ………………………….
+
+                              N° d’inscription : …………………….           A rendre à la fin de l’épreuve
+Ne
+rien
+écrire
+dans
+ce
+cadre
+                              DR2
+
+
+                                                      ω                      ω
+
+
+
+
+                Amplitude (dB)
+          20
+
+            0
+
+          -20
+
+          -40
+
+          -60
+
+          -80
+
+         -100
+
+         -120
+
+                Phase (deg)
+          90
+
+
+
+            0
+
+
+
+          -90
+
+
+
+         -180
+
+
+
+         -270
+              -2                  -1           0                 1                 2                  3
+            10                   10          10                 10               10               10
+                                                  Fréquence (rad/sec)
+
+
+===== page 35 =====
+[OCR] 

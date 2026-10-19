@@ -1,0 +1,1904 @@
+
+===== page 1 =====
+Composition du sujet :
+    1 cahier de 17 pages de texte, numérotées de T 1/17 à T 17/17.
+    11 documents annexes, numérotés D 1/11 à D11/11.
+    2 feuilles format A3 pliées, imprimées recto verso, respectivement intitulées « Notice
+        justificative 1/8 à 4/8» et « Notice justificative 5/8 à 8/8» et à rendre en fin d’épreuve ;
+       1 feuille de calque format A3, pré imprimée, intitulée « Calque n°1 » à rendre en fin
+        d’épreuve.
+     Remarque : A la fin du cahier de 17 pages (page T17/17), se trouve un tableau
+     récapitulatif des données et des notations principales utilisées dans l’épreuve.
+
+                    TOUTE AUTRE DOCUMENTATION EST INTERDITE
+
+Matériel autorisé : tous instruments usuels du dessinateur.
+
+TOUTES LES CALCULATRICES SONT INTERDITES, QUEL QU’EN SOIT LE TYPE,
+AINSI QUE LES AGENDAS ELECTRONIQUES ET LES TELEPHONES PORTABLES
+
+«LA PRESENTATION, LA LISIBILITE, L’ORTHOGRAPHE, LA QUALITE DE LA REDACTION, LA
+     CLARTE ET LA PRECISION DES RAISONNEMENTS ENTRERONT POUR UNE PART
+                IMPORTANTE DANS L’APPRECIATION DES COPIES. »
+
+Gestion du temps : En admettant une durée d’une heure pour la lecture et l’assimilation du sujet, il
+                      est vivement conseillé de consacrer entre 2 h 00 et 2 h 30 au maximum à la
+                      réponse aux questions de la notice et 2 h 30 à 3 h au tracé des dessins.
+
+
+
+
+         Figure 1 - Moteur à taux de
+         compression variable MCE-5
+
+
+
+
+                                 T 1/17
+                                                                  Tournez la page S.V.P.
+
+
+===== page 2 =====
+                 ETUDE D’UN MOTEUR THERMIQUE A TAUX DE
+                      COMPRESSION VARIABLE MCE-5
+
+                         A - Présentation du produit étudié
+
+
+A.1 – Le produit et son marché
+
+
+    La diminution des ressources pétrolières mondiales, l’augmentation des coûts des carburants
+    dérivés et les évolutions vers des normes antipollution de plus en plus sévères, sont des
+    facteurs qui engagent les constructeurs automobiles vers des développements de nouveaux
+    moteurs. Une des pistes de recherche les plus empruntées, est le développement de moteurs à
+    « taux de compression variable ».
+          Le produit étudié (voir figure 1 page T1/17) est un moteur de ce type développé par la
+    société MCE-5, il est en phase d’industrialisation. La commercialisation des véhicules en
+    grande série est prévue pour 2012.
+
+
+A.2 – Principes de base de la cinématique des moteurs à combustion interne
+
+    Les moteurs à combustion interne utilisent en grande majorité des systèmes bielle-manivelle
+    dont le principe est décrit sur la figure 2 page T2/17 ci-dessous.
+    On peut définir
+                                                                          Culasse       Position PMH
+      - les positions extrêmes du piston par PMH
+        (Point Mort Haut) et PMB (Point Mort Bas) ;         Chambre de
+      - la cylindrée unitaire Cylunit qui est le volume     combustion
+        balayé par le piston pendant son déplacement
+        du PMB vers le PMH ;                                              Piston
+      - Le     rapport    volumétrique    T, appelé                       Bielle
+        commercialement             «Taux        de
+        compression », qui est le rapport du volume                       Bloc moteur
+        occupé par les gaz quand le piston est au
+        PMB, sur le volume occupé par les gaz quand                       Vilebrequin
+        le piston est au PMH ;                                                          Position PMB
+
+
+
+
+         Figure 2 - Définition des principaux sous-
+           ensembles d’un moteur à combustion
+                     interne à 4 temps.
+
+
+
+
+                                T 2/17
+
+
+===== page 3 =====
+A.3 - Principe de la variabilité du taux de compression
+
+
+            Le taux de compression est un des paramètres les plus influents d’un moteur thermique.
+     Sa valeur influe directement sur des grandeurs telles que rendement, consommation,
+     puissance, et polluants émis.
+            La possibilité de faire varier le taux de compression permet d’optimiser ces diffférentes
+     grandeurs. Or, par construction cinématique, le taux de compression d’un moteur « classique »
+     est fixe.
+            Plusieurs architectures cinématiques basées sur le système bielle-manivelle ont été
+     brevetées. Elles permettent toutes de faire varier le taux de compression du moteur en pilotant
+     un dispositif de réglage mécanique. La solution MCE-5 est une de ces architectures.
+
+
+
+
+A.4 – Principales caractéristiques du moteur MCE-5
+
+     Les principales caractéristiques du moteur MCE-5 sont données dans le tableau ci-dessous
+
+            Carburant                                          essence
+            Nombre de cylindres                                4
+            Disposition                                        en ligne
+            Alésage x Course                                   75 x à déterminer
+            Cylindrée                                          à déterminer
+            Puissance maxi                                     160 kW
+            Couple maxi                                        300 Nm
+            Taux de compression                                de 7 / 1 à 18 / 1
+            Suralimentation                                    sans
+            Consomation moyenne (cycle mixte européen)         6,2 l pour 100 km
+
+
+
+
+                   B - Etude et éléments de solutions proposés
+
+B.1 – Architecture générale (voir D1/11 figures 3 et 4 et D2/11 figure 5)
+
+
+            L’architecture cinématique du moteur MCE-5 est principalement composée d’un piston en
+     liaison complète avec sa crémaillère, d’un vilebrequin et de sa bielle, d’une roue dentée, d’une
+     crémaillère de commande verrouillable, d’un rouleau synchroniseur, et d’un dispositif de réglage
+     de jeu radial (non représenté).
+
+           Le mécanisme est représenté sur la figure 3 page D1/11 et page D2/11 en position PMH
+     (point mort haut).
+
+
+
+
+                                 T 3/17                           Tournez la page S.V.P.
+
+
+===== page 4 =====
+B.2 – Principe de fonctionnement (voir figures 3 et 4 page D1/11 et figure 5 page D2/11)
+
+
+           La roue dentée 4 engrène avec la crémaillère de piston 5, et avec la crémaillère de
+     commande 3 qui en fonctionnement stabilisé est fixe par rapport au bloc moteur 10, mais dont
+     la position verticale influe sur le taux de compression.
+
+            Dans la phase motrice, la détente des gaz provoque le déplacement du piston 7 du PMH
+     vers le PMB. Le piston 7 est en liaison complète avec la crémaillère de piston 5. La crémaillère
+     de piston 5 prend appui sur le bloc moteur 10 grâce au rouleau synchroniseur 6 et entraine en
+     rotation la roue dentée 4. Cette roue dentée prend appui sur la crémaillère de commande 3. Le
+     déplacement de son centre entraine le déplacement de la bielle 2 avec laquelle elle est en
+     liaison pivot, et met ainsi en rotation le vilebrequin 1.
+
+           Le mécanisme étant réversible, la rotation du vilebrequin provoque la translation
+     alternative du piston.
+
+          En fonctionnement, la variation du taux de compression du moteur est obtenue grâce au
+     déplacement vertical de la crémaillère de commande 3. Ce déplacement est obtenu par
+     déverrouillage et asservissement en position du verrou hydraulique.
+
+           Un dispositif de réglage de jeu axial (non représenté) permet de précontraindre
+     radialement la crémaillère de commande, la roue dentée, la crémaillère de piston, et le rouleau
+     synchroniseur.
+
+          Le guidage particulier de l’ensemble {piston, crémaillère} augmente sensiblement le
+     rendement mécanique du moteur par rapport à un système classique actuel.
+
+
+
+
+                C - Etude de conception en construction mécanique
+
+C.1 – Présentation du travail à rendre
+     Comme indiqué plus haut en page T1/17, en admettant une durée d’une heure pour la lecture
+     et l’assimilation du sujet, il est vivement conseillé de consacrer entre 2 h 00 et 2 h 30 au
+     maximum à la réponse aux questions de la notice et 2 h 30 à 3 h au tracé des dessins.
+
+
+      Les réponses seront fournies uniquement sur les 3 documents présentés
+                                    ci-dessous.
+     1 – Notice justificative (40 % de la note globale)
+        Fournir les réponses sur les deux documents respectivement intitulés « Notice
+        justificative 1/8 à 4/8 » et « Notice justificative 5/8 à 8/8 », de format A3 horizontal,
+        pliés, pré imprimés recto verso, qui sont joints au sujet.
+        Les réponses sur feuilles de copies additionnelles ou sur papier de brouillon ne
+        seront pas acceptées.
+        2 – Dessins d’étude de construction mécanique (60 % de la note globale)
+        Ils sont à tracer sur un calque pré imprimé de format A3 horizontal, intitulé « Calque
+        N°1» joint au sujet, et sera à rendre non plié.
+
+
+                                 T 4/17
+
+
+===== page 5 =====
+C.2 – Notice justificative
+  Consignes spécifiques
+     Sur les notices justificatives, les réponses seront fournies dans les limites des cadres prévus
+     pour chaque question.
+     Compte tenu de l’interdiction d’utiliser toute calculatrice, les calculs seront réalisés de
+     manière approchée.
+     Il sera tenu compte, dans la notation, de la clarté et de la concision des réponses. Les schémas
+     doivent être lisibles, précis, et doivent respecter la normalisation en vigueur.
+     Les écritures au crayon ne seront pas acceptées. La qualité de l’écriture, de l’orthographe et de
+     la syntaxe sera prise en compte dans l’évaluation.
+
+
+
+
+C.2.1.     Cinématique
+
+
+     Données (se reporter à la figure 6 page D3/11) :
+     Sur la figure 6 sont représentées, à l’échelle 0.7/1, les différentes pièces du mécanisme dans
+     une position quelconque.
+     Longueurs : AB = 21 mm ; BC = 88,75 mm ;
+     Rayon primitif de la roue 4 : CD = DE = 50 mm ;
+                                                                                          π .752
+     Diamètre des pistons 7 : Dp7 = 75 mm (pour les applications numériques, on prendra            ≈ 4500 )
+                                                                                            4
+
+
+     Hypothèses :
+     Les liaisons sont considérées comme parfaites.
+     La liaison entre la roue 4 et la crémaillère de commande 3 ainsi que la liaison entre la roue 4 et
+     la crémaillère de piston 5, sont des liaisons de roulement sans glissement obtenues par
+     engrènement.
+
+
+   C.2.1.1. -   Détermination de la cylindrée du moteur
+
+
+     Il s’agit de représenter le système en position « Point Mort Bas » avec le réglage « taux de
+     compression maximum ».
+     Pour cette position les points seront notés avec une apostrophe (exemple : B’).
+     La crémaillère de commande 3 est considérée fixe.
+     Sur le document réponse cadre R1 de la notice justificative 1/8, les différentes pièces du
+     mécanisme sont représentées, à l’échelle 0.7/1, dans la position « Point Mort Haut » avec le
+     réglage « taux de compression maximum ».
+
+
+
+
+                                 T 5/17                             Tournez la page S.V.P.
+
+
+===== page 6 =====
+     Q1 Inscrire votre réponse dans le cadre R1 de la notice justificative 1/8.
+       Tracer la position du point B’ ;
+       En déduire et tracer le point C’ ;
+       Exprimer la distance CC’ en fonction de la longueur AB ;
+       Déterminer et tracer la position du point de contact D’ entre la roue 4 et la crémaillère
+       de commande 3 ;
+       Tracer le point E’, point de contact entre la roue 4 et la crémaillère de piston 5 ;
+       Tracer le point Dr’, correspondant à la position du point de contact D’ sur la roue 4 ;
+       En déduire et tracer le point Er’, correspondant à la position du point E’ sur la roue
+       4;
+       En déduire et tracer le point Ep’, correspondant à la position du point E’ sur la
+       crémaillère de piston 5 ;
+       Exprimer la distance E’Ep’ en fonction de la longueur AB ;
+       Tracer le point F’ et mettre en place une cote chiffrée représentant la course du
+       piston 7 ;
+
+       Calculer la cylindrée unitaire (en cm3) Cylunit , et en déduire la cylindrée Cylmot du
+       moteur (en cm3) ;
+
+       Dessiner en bleu, la crémaillère de piston 5, le piston 7 et la roue 4 (sans les
+       graduations), dans la position « point mort bas »
+
+
+
+
+C.2.1.2. -     Détermination du taux de compression minimum du moteur
+
+
+  Il s’agit de représenter le système en position « point mort haut » avec le levier de commande
+  en position « taux de compression minimum ».
+  Notation :                                                                   Culasse
+  On appellera « taux de compression » T, le rapport du volume
+
+
+
+
+                                                                                                        x
+                                                                           Piston "point mort haut"
+  occupé par les gaz quand le piston est au « point mort bas, sur le
+
+
+
+
+                                                                                                      Course du piston
+  volume occupé par les gaz quand le piston est au « point mort haut » ;
+  Dans la position « point mort haut », on note x la distance entre le
+  piston 7 et la culasse 8 (voir figure ci-contre);
+  Pour cette position les points seront notés avec deux apostrophes
+  (ex : H’’).
+  Hypothèses :                                                             Piston "point mort bas"
+
+  Le haut du piston 7 est supposé plan ;
+  Le volume de gaz comprimé entre le piston 7 et la culasse 8 est supposé cylindrique ;
+  La course du piston 7 reste constante, quelle que soit la position de la crémaillère de
+  commande 3 ;
+  Le vilebrequin 1 est considéré fixe, la crémaillère de commande 3 est mobile.
+
+
+  Données :
+  Le « taux de compression maximum » Tmax est de 18 ;
+  La crémaillère de commande 3 se déplace de 9 mm pour atteindre la position « taux de
+  compression minimum ».
+
+                              T 6/17
+
+
+===== page 7 =====
+         Q2      Inscrire votre réponse dans le cadre R2 de la notice justificative 2/8
+          Exprimer la valeur de la cote x en fonction de la course du piston Cp et du « taux de
+          compression » T.
+
+         Q3      Inscrire votre réponse dans le cadre R3 de la notice justificative 2/8
+          Calculer la distance xmin (donner 3 chiffres significatifs) pour le « taux de
+          compression maximum » Tmax.
+
+     Pour la suite du problème, on prendra xmin = 5 mm.
+     Sur le document réponse cadre R4 de la notice justificative 2/8, les différentes pièces du
+     mécanisme sont représentées, à l’échelle 0.7/1, dans la position « Point Mort Haut » avec le
+     réglage « taux de compression maximum ».
+
+
+         Q4      Inscrire votre réponse dans le cadre R4 de la notice justificative 2/8.
+
+          Tracer le point H’’ dans la position « taux de compression minimum » ;
+          Tracer le point F’’ dans la position « taux de compression minimum » ;
+          Mettre en place sur la figure la cote chiffrée entre F’’ et F ;
+          Calculer le « taux de compression minimum » Tmin ;
+          Dessiner en rouge, la crémaillère de commande 3, la roue 4 (sans les graduations) et
+          le piston 5, dans la position « taux de compression minimum ».
+
+
+C.2.2.      Statique
+
+
+     L’étude proposée est une étude comparative entre les efforts appliqués sur le piston d’un
+     système bielle manivelle classique, et les efforts appliqués sur le piston d’un moteur MCE-5.
+
+
+     Hypothèses (se reporter aux figures 7 et 8 page D4/11) :
+
+                                                             r r
+     Les études sont faites dans le plan de symétrie ( A, x , y ) ;
+                                                                                   r r
+     Les résultantes des actions de contact sont contenues dans le plan ( A, x , y ) ;
+     L’action de la pesanteur est négligée ;
+     Les études sont réalisées dans la phase où le piston se déplace du PMH vers le PMB ;
+     Les masses et inerties des différentes pièces ne sont pas prises en compte (étude en statique) ;
+
+     L’effort résultant de l’action du gaz de combustion sur le piston Fgaz / 7                est tel que :
+     uuuuur       uuuuur r
+     Fgaz / 7 = − Fgaz / 7 . y ;
+                                                           uuuuur               uuuuur     uuuuur r
+     Le couple extérieur résistant sur le vilebrequin 1 CExt /1 est tel que : CExt /1 = − CExt /1 .z ;
+
+     Une liaison parfaite est une liaison sans jeu et sans frottement.
+
+
+
+
+                                   T 7/17                                Tournez la page S.V.P.
+
+
+===== page 8 =====
+ Notations :
+
+
+ La résultante des actions mécaniques au point M du solide i sur le solide j sera notée :
+ M i j = M X i j .x + M Y i j . y ( M X i j et M Y i j sont positifs ; ils seront précédés d’un signe + ou - en
+ fonction de l’orientation de M i j ) ;
+
+ Pour différencier les notations, des deux systèmes, nous rajouterons, pour le système
+ bielle-manivelle classique, une « étoile » (*) en exposant, aux points, aux vecteurs et à leurs
+ composantes.
+
+
+
+
+C.2.2.1. -    Etude de l’équilibre d’un piston d’un système bielle manivelle classique (se
+    reporter à la figure 7 page D4/11)
+
+
+ Notations :
+                                                                    r
+ La position angulaire du vilebrequin 1* par rapport à l’axe y est notée : θ*.
+                                                                r
+ La position angulaire de la bielle 2* par rapport à l’axe y est notée : β*.
+ Les pièces non mobiles liées au bloc moteur sont repérées 0*.
+
+
+ Modélisations des liaisons :
+                                                                    r
+ Liaison vilebrequin 1*/bielle 2* : liaison pivot parfaite d’axe z passant par B* ;
+                                                                        r
+ Liaison piston 7*/bielle 2* : liaison pivot glissant parfaite d’axe z passant par C* ;
+ Liaison piston 7*/ carter moteur 0* : liaison pivot glissant sans jeu avec frottement passant par
+ C*. Le facteur de frottement est noté : f* = tanφ*. Le point de contact est noté N* (non
+ représenté sur la figure 7).
+
+
+    Q5     Inscrire votre réponse dans le cadre R5 de la notice justificative 3/8.
+
+     Après avoir isolé la bielle 2* et fait le bilan des actions mécaniques, tracer, sur la figure, la
+                   uuuuuuur
+     direction de C *7* / 2* ;
+     Ecrire C *X 7* / 2* en fonction de C *Y 7* / 2* et β * ;
+     Après avoir isolé le piston 7*, lister les actions mécaniques appliquées sur 7*.
+
+
+ Sur la figure du cadre R5 sont représentées 4 propositions de modélisation de l’effort N ∗0∗ 7∗ .
+ Pour chaque représentation, l’angle entre N ∗0∗ 7∗ et la normale n est égal à φ∗.
+
+
+    Q6     Inscrire votre réponse dans le cadre R6 de la notice justificative 3/8.
+     Parmi les 4 propositions, quelle est celle qui correspond à l’équilibre du piston 7*
+     dans la phase étudiée ? justifier brièvement la réponse ;
+     Ecrire N *X 0* / 7* en fonction de N *Y 0* / 7* et f* .
+
+
+                                 T 8/17
+
+
+===== page 9 =====
+    Q7    Inscrire votre réponse dans le cadre R7 de la notice justificative 3/8.
+     Compléter le dynamique (la somme vectorielle) des forces extérieures appliquées au
+     piston 7* ;
+     Tracer les angles β* et φ* sur cette même figure ;
+
+    Q8    Inscrire votre réponse dans le cadre R8 de la notice justificative 3/8.
+                                                                             uuuuuuuur
+     Exprimer les composantes N *X 0* / 7* et N *Y 0* / 7* en fonction de F *gaz / 7* , β* et f*.
+
+
+C.2.2.2. -  Etude de l’équilibre d’un piston d’un moteur MCE-5 (se reporter à la figure 8
+    page D4/11)
+
+
+ Hypothèses :
+ Le système est étudié dans la position « commande de taux variable » en position moyenne.
+ De ce fait, les points L, K, E, C et D sont alignés. L’étude dans une autre position de réglage du
+ taux de compression, provoquerait un décalage vertical du rouleau synchroniseur 6, ce qui ne
+ modifie pas les conclusions que l’on pourra tirer de cette étude.
+ Notations :
+                                                              r
+ La position angulaire du vilebrequin 1 par rapport à l’axe y est notée : θ.
+                                                          r
+ La position angulaire de la bielle 2 par rapport à l’axe y est notée : β.
+                                                         r
+ La position angulaire de la roue 4 par rapport à l’axe y est notée : δ.
+ Modélisation des liaisons :
+ Liaison roue 4 crémaillère de piston 5 : liaison roulement sans glissement parfaite en E, avec α
+ angle de pression de l’engrenage ;
+ Liaison crémaillère de piston 5 / rouleau synchroniseur 6 : liaison roulement sans glissement
+ parfaite en K ;
+ Liaison rouleau synchroniseur 6 /carter moteur 0 : liaison roulement sans glissement parfaite
+ en L ;
+ Liaison piston 7 /cylindre 0 : liaison sphère - cylindre (linéaire annulaire) sans jeu avec
+ frottement. Le facteur de frottement est noté : f = tanφ. Le point de contact est noté N.
+
+
+    Q9    Inscrire votre réponse dans le cadre R9 de la notice justificative 4/8.
+
+     Après avoir isolé le rouleau synchroniseur 6 et fait le bilan des actions mécaniques,
+     déduire la direction de K 5 / 6 ;
+
+
+
+ Sur la figure du cadre R10 sont représentées 8 propositions de modélisation de l’effort E4 / 5 .
+    Q10        Inscrire votre réponse dans le cadre R10 de la notice justificative 4/8.
+
+     Parmi les 8 propositions, quelle est celle qui correspond à la modélisation de E4 / 5
+     dans la phase étudiée ? justifier brièvement la réponse ;
+     Après avoir isolé le piston 7, lister les actions mécaniques appliquées sur 7.
+
+
+                              T 9/17                              Tournez la page S.V.P.
+
+
+===== page 10 =====
+         Q11     Inscrire votre réponse dans le cadre R11 de la notice justificative 4/8.
+         Représenter de façon qualitative (direction, sens et point d’application), les
+         résultantes des actions mécaniques appliquées sur le piston 7.
+
+         Q12     Inscrire votre réponse dans le cadre R12 de la notice justificative 4/8.
+         Après avoir écrit et analysé l’équation de moments en E découlant du principe fondamental
+         de la statique appliqué au piston 7, que peut-on dire de l’action mécanique N 0 / 7 ?
+
+
+   C.2.2.3. -   Etude comparative des formes de différents pistons (se reporter aux figures 9
+       et 10 page D4/11)
+
+
+     Les figures 9 et 10 montrent les formes extérieures de deux pistons : l’un étant celui d’un
+     moteur avec un système-bielle manivelle classique, l’autre celui d’un piston d’un moteur MCE-5.
+
+
+         Q13     Inscrire votre réponse dans le cadre R13 de la notice justificative 4/8.
+         Comparer et justifier les différences de formes des pistons au niveau du contact
+         piston 7 /cylindre 0.
+
+
+C.2.3.    Analyse fonctionnelle des surfaces du rouleau synchroniseur 6 (se reporter
+   aux figures 11 et 12 page D5/11 )
+
+
+     Sur la figure 11, certaines surfaces du rouleau synchroniseur 6 sont repérées par des lettres
+     minuscules.
+
+
+         Q14     Inscrire votre réponse dans le cadre R14 de la notice justificative 4/8.
+         Compléter le tableau, en précisant la ou les fonctions de chacune des surfaces ou
+         ensemble de surfaces repérés.
+
+
+     Le constructeur a choisi de réaliser un traitement thermique superficiel sur le rouleau
+     synchroniseur 6.
+
+
+         Q15     Inscrire votre réponse dans le cadre R15 de la notice justificative 5/8.
+         Quelles sont les surfaces qui ont justifié un tel choix ?
+         Quelle caractéristique mécanique le constructeur a-t-il ainsi augmenté ?
+         Q16     Inscrire votre réponse dans le cadre R16 de la notice justificative 5/8.
+         Proposer un couple matériau / traitement thermique adapté (donner la désignation
+         normalisée du matériau).
+
+
+
+
+                                T 10/17
+
+
+===== page 11 =====
+C.2.4.    Choix de procédés d’obtention de bruts (se reporter aux figures 13 et 14 pages
+   D5/11 et D6/11 )
+     La figure 13 est une photographie de quelques pièces prototypes du moteur. Ces pièces
+     prototypes ont toutes été réalisées uniquement par enlèvement de matière (usinage et
+     rectification) à partir de bruts prismatiques ou cylindriques.
+     Sur la figure 14 sont représentées certaines pièces du moteur en perspective.
+
+
+     Ce moteur est destiné à être fabriqué en grande série. Afin de diminuer les coûts de production,
+     le constructeur est amené à faire des choix de procédés d’obtention de bruts les plus
+     économiques. Ces procédés d’obtention de bruts sont évidemment couplés à des familles de
+     matériaux.
+
+
+         Q17     Inscrire votre réponse dans le cadre R17 de la notice justificative 5/8.
+         Citer trois critères importants qui conduisent à un choix de couple {famille de
+         matériaux, procédé de fabrication} ?
+
+
+         Q18     Inscrire votre réponse dans le cadre R18 de la notice justificative 5/8.
+         Compléter le tableau en indiquant par une croix, pour chaque pièce citée, le procédé
+         d’obtention de brut, et la famille de matériaux retenus.
+
+
+C.2.5.    Associations de liaisons cinématiques élémentaires (se reporter à la figure 15
+   page D7/11)
+
+     Dans certains mécanismes, il est judicieux de concevoir des liaisons cinématiques entre
+     différents sous-ensembles en combinant certaines liaisons élémentaires. Ces liaisons peuvent
+     être caractérisées selon plusieurs critères et modélisées à plusieurs niveaux, comme pour
+     l’exemple traité figure 15.
+     Certaines de ces combinaisons de liaisons élémentaires permettent de réaliser des liaisons
+     linéiques ou ponctuelles par l’intermédiaire de contacts surfaciques.
+
+         Q19     Inscrire votre réponse dans le cadre R19 de la notice justificative 6/8.
+         Compléter le tableau caractérisant trois combinaisons de liaisons cinématiques.
+
+         Q20     Inscrire votre réponse dans le cadre R20 de la notice justificative 6/8.
+         Quel est le principal intérêt de réaliser des liaisons linéiques ou ponctuelles par
+         l’intermédiaire de contacts surfaciques ?
+
+Les solutions évoquées dans le tableau du cadre R19 pourront guider le candidat dans ses
+choix pour la partie C.3.
+
+
+
+
+                                T 11/17                           Tournez la page S.V.P.
+
+
+===== page 12 =====
+C.2.6.    Etude du verrou hydraulique (se reporter aux figures 16, 17, 18 et 19 page D8/11)
+
+     Eléments constitutifs du verrou hydraulique et fonctions associées :
+     Le piston de verrou hydraulique 14 est en liaison complète avec la crémaillère de commande 3
+     grâce à la douille de serrage 18. L’ensemble {15, 16i, 16s, 17i, 17s}, intégré au piston 14, permet
+     de maintenir celui-ci dans une position donnée, ainsi que de l’autoriser à se déplacer
+     verticalement. Cette position influe sur le taux de compression du moteur.
+     Le pilotage de ce déplacement est assuré par le déplacement vertical de la tige de commande
+     15, actionnée par un système électromécanique non représenté et non étudié.
+     Le clapet d’alimentation 19 permet de maintenir une pression minimale dans le verrou
+     hydraulique.
+     Le clapet de sécurité {20, 23} (non représenté sur la figure 16 page D8/11) permet de limiter la
+     différence de pression entre les deux chambres du verrou.
+
+     Principe de fonctionnement (se reporter aux figures 16, 17 et 18 page D8/11) :
+
+     Les chambres inférieure et supérieure du verrou hydraulique sont remplies d’huile. Par
+     l’intermédiaire du clapet d’alimentation 19, la pompe à huile du moteur (non représentée),
+     assure une pression minimale dans ces deux chambres.
+     La crémaillère de commande 3 est soumise à l’effort de la roue dentée 4 dont la composante
+     verticale Fy4/3 est variable en sens et en intensité (voir figure 18 page D8/11).
+     Sans déplacement de la tige de commande 15, la crémaillère 3 est verrouillée hydrauliquement.
+     En effet, quand la composante FY 4 / 3 est positive, la pression dans la chambre supérieure
+     augmente et plaque le clapet 16s supérieur contre le piston 14. La crémaillère 3 ne peut pas se
+     déplacer positivement. De même, quand la composante FY 4 / 3 est négative, la pression dans la
+     chambre inférieure augmente et plaque le clapet 16i inférieur contre le piston 14. La crémaillère
+     3 ne peut pas se déplacer négativement, sa position est donc verrouillée.
+
+     Hypothèses :
+     Les liaisons sont supposées parfaites (frottements négligés).
+     Les étanchéités sont parfaites (pas de fuites).
+
+
+   C.2.6.1. -   Etude de l’influence du sens de la composante FY4/3 sur le déplacement de la
+       crémaillère 3
+
+     Un déplacement vertical positif de 2 mm est imposé à la tige de commande 15 par son dispositif
+     de pilotage. Ce déplacement est représenté sur les documents réponses, cadre R21 la notice
+     justificative 7/8.
+
+         Q21     Cas où la composante FY 4 / 3 est négative - Inscrire votre réponse dans le cadre
+              R21 de la notice justificative 7/8.
+         Représenter le clapet 16s supérieur et son ressort de rappel 17s, le clapet 16i
+         inférieur et son ressort de rappel 17i. Représenter par des flèches une éventuelle
+         circulation d’huile.
+         La crémaillère 3 est-elle immobile ? Se déplace-elle positivement ? Négativement ?
+
+
+                                 T 12/17
+
+
+===== page 13 =====
+    Q22       Cas où la composante FY 4 / 3 est positive - Inscrire votre réponse dans le cadre R22
+           de la notice justificative 7/8.
+      Représenter le clapet 16s supérieur et son ressort de rappel 17s, le clapet 16i
+      inférieur et son ressort de rappel 17i. Représenter par des flèches une éventuelle
+      circulation d’huile.
+      La crémaillère 3 est-elle immobile ? Ce déplace-elle positivement ? Négativement ?
+
+    Q23       - Inscrire votre réponse dans le cadre R23 de la notice justificative 7/8.
+      Par déduction, compléter les cases non-grisées du tableau indiquant les
+      mouvements de la crémaillère 3 en fonction du sens du déplacement de la tige de
+      commande 15, du sens de la composante verticale FY4/3, et de l’état des clapets 16i et
+      16s.
+
+
+C.2.6.2. -  Etude de l’influence de l’intensité de la comosante FY4/3 sur le déplacement de
+    la crémaillère 3
+
+ Conditions de l’étude :
+ La position de l’étude est celle où la tige de commande 15 est déplacée positivement ;
+ Afin de déterminer l’intensité de la composante FY 4 / 3 nécessaire à l’ouverture du clapet
+ inférieur 16i, l’étude est faite à l’instant de l’ouverture de ce clapet ( FY 14 /16 = 0).
+
+ Données : (se reporter à la figure 19 page D8/11)
+ Les caractéristiques des ressorts 17i et 17s sont les suivantes : raideur k = 0,2 N/mm ; longueur
+ libre  l0 = 40 mm ; longueur dans la phase étudiée lm = 15 mm ;
+ Diamètre du piston de verrou hydraulique 14 : Dp = 65 mm ;
+ Diamètre de la tige de la crémaillère 3 : Dtv = 24 mm ;
+ Diamètre des clapets 16i et 16s : Dcl = 13,5 mm ;
+ Diamètre de guidage de la tige de commande 15 : Dgtc = 5 mm.
+ Notation :
+ On notera Δp = (pi – ps) la différence entre la pression de la chambre inférieure du vérin et celle
+ de la chambre supérieure ;
+ On notera Fr l’effort exercé par un ressort 17 sur un clapet 16 ;
+ Valeurs approchées :
+ Afin de simplifier les calculs, pour les applications numériques, on prendra 652 = 4225 ;
+ 242 ≈ 575 ; 13,52 ≈ 175.
+
+    Q24       - Inscrire votre réponse dans le cadre R24 de la notice justificative 8/8.
+      Etudier l’équilibre du clapet inférieur 16i, et en déduire l’expression de Δp en fonction
+      de Fr, et des différentes dimensions ;
+
+      Après avoir étudié l’équilibre du piston du verrou hydraulique 14, déduire l’expression de
+      Δp en fonction de Fy4/3, et des différentes dimensions ;
+
+      En déduire l’expression de Fy4/3 en fonction de Fr ;
+
+                                T 13/17                                Tournez la page S.V.P.
+
+
+===== page 14 =====
+         Calculer la valeur de Fr dans la position de l’étude ;
+         Donner une valeur approchée de l’intensité de la composante FY4/3 permettant
+         d’ouvrir le clapet inférieur 16i.
+   C.2.6.3. - Etude de l’influence de l’intensité et du sens de la composante Fy4/3 sur le
+       déplacement de la crémaillère 3
+
+
+     La figure 18 page D8/11 décrit l’évolution de la valeur de FY 4 / 3 en fonction de l’angle de
+     rotation de vilebrequin dans certaines conditions de fonctionnement du moteur.
+
+         Q25    - Inscrire votre réponse dans le cadre R25 de la notice justificative 8/8.
+         On souhaite augmenter le « taux de compression » du moteur. Préciser le sens de
+         déplacement de la tige de commande à imposer et la(les) plage(s) de valeurs de
+         l’angle de rotation du vilebrequin pendant laquelle cette variation est possible.
+
+
+
+
+C.3 - Dessin d’étude de construction mécanique
+C.3.1.    Présentation du support de travail
+     Pour cette partie de l’étude, il est demandé de définir plusieurs sous-ensembles du mécanisme
+     sur le calque format A3 fourni avec le sujet. Ces sous-ensembles sont situés dans les deux
+     zones à définir identifiées sur le dessin d’ensemble, figure 5, document D2/11. Les éléments
+     pré imprimés sur le calque sont destinés à faciliter la mise en place des différents composants.
+     Les plans de coupe A-A et B-B sont définis sur le calque.
+     • La zone 1 du calque n°1 de format A3 horizontal, pré imprimé, fourni avec le sujet, est
+     destinée à l’étude du verrou hydraulique. Les éléments fournis pré imprimés à l’échelle 1,5:1
+     sont définis en vue coupe A-A.
+     Plus précisément, le candidat trouvera,                                                    A-A                                                                   A-A
+
+     en coupe AA :
+     -   des éléments du bloc moteur 10, et
+         notamment l’alésage cylindrique
+         permettant le guidage du piston de
+         verrou hydraulique 14 ;
+     -   des éléments de la culasse 8, et
+         notamment l’alésage cylindrique
+                                                 Zone 1
+         permettant le passage de la douille     Echelle 1,5:1
+                                                                 (1/2 vue) B-B       Définition des plans de coupe
+
+
+         de serrage 18 ;                                                                                B                      Contour du
+                                                                                                                     piston du vérou hydraulique 14
+                                                                                                                       Vue de dessus à l'échelle 1
+
+
+
+
+     -   des éléments de l’extrémité de la
+         crémaillère de commande 3.                                              A                                      A
+
+
+                                                                                                                                                      Zone 3                CALQUE N°1
+                                                 Zone 2          Echelle 1,5:1                          B                                             Echelle 1,5:1
+
+
+
+
+     • La zone 2 du calque n°1 est destinée à l’étude du clapet de sécurité du verrou hydraulique.
+     Les éléments fournis pré imprimés à l’échelle 1,5:1 sont définis en ½ vue coupe B-B.
+     Le candidat trouvera l’axe du piston de verrou hydraulique 14
+
+
+
+
+                                T 14/17
+
+
+===== page 15 =====
+     • La zone 3 du calque n°1 est destinée à l’étude de la liaison entre la crémaillère de
+     commande 3 et le bloc moteur 10. Les éléments fournis pré imprimés à l’échelle 1,5:1 sont
+     définis en vue en coupe A-A. Plus précisément, le candidat trouvera des éléments de la
+     crémaillère de commande 3 et du bloc moteur 10, ainsi que l’axe horizontal de la liaison
+     ponctuelle entre le bloc moteur 10 et la crémaillère de commande 3.
+C.3.2.     Consignes spécifiques aux travaux graphiques
+     Les dessins sont à exécuter à l’échelle 1,5:1, aux instruments, avec pour l’essentiel mise au
+     net au crayon respectant les épaisseurs de traits normalisées et les exigences d’une bonne
+     lisibilité ; seuls les axes et les écritures seront tracés à l’encre noire. Les tracés de couleur ne
+     sont pas admis. Les normes AFNOR seront respectées.
+     Les principales conditions fonctionnelles relatives aux liaisons représentées seront clairement
+     indiquées en respectant les règles normalisées AFNOR.
+     Les éléments normalisés utilisés par le candidat autres que ceux fournis dans le sujet, seront
+     dessinés approximativement en respectant au mieux leurs proportions.
+
+
+C.3.3.     Reconception du verrou de crémaillère (se reporter à la figure 16 page D8/11) .
+     Dans la solution actuelle, l’alimentation hydraulique du verrou hydraulique est placée
+     latéralement. Le fluide sous pression traverse le clapet d’alimentation 19 et alimente les
+     chambres supérieure et inférieure du verrou hydraulique par l’intermédiaire des clapets 16i et
+     16s. Cette solution impose la présence de deux joints d’étanchéité entre le piston 14 et le bloc
+     moteur 10. Le piston 14 est également équipé d’un clapet de sécurité unidirectionnel à bille {20,
+     23} permettant de limiter la différence de pression entre la chambre supérieure et la chambre
+     inférieur.
+
+
+     Afin d’optimiser le circuit d’alimentation, le constructeur souhaite implanter le clapet
+     d’alimentation 19 à l’intérieur de la douille de serrage 18 . Cette configuration permet également
+     de supprimer un des deux joints cités précédemment. Le clapet de sécurité {20, 23} inclus dans
+     le piston est maintenu.
+
+Données (se reporter à la figure 20 page D9/11 et documents constructeurs page D10/11 et
+D11/11) :
+     Les pièces suivantes ne doivent pas être modifiées. Elles sont dessinées sur la figure 20 page
+     D9/11 :
+     -   extrémité de la crémaillère de commande 3 ;
+     -   tige, clapets et ressorts de commande 15, 16i, 16s, 17i, 17s
+     -   clapet de sécurité {20, 23}.
+     Le clapet d’alimentation 19 est défini figure 20 page D9/11 ;
+     Les joints d’étanchéité pourront être définis grâce aux indications des pages D10/11 et D11/11.
+
+Précisions sur les fonctions de certaines pièces :
+     Le piston 14 a pour principales fonctions :
+     -   assurer une partie du guidage de la crémaillère 3 grâce à une liaison sphère cylindre avec
+         le bloc moteur 10 ;
+
+
+                                 T 15/17                             Tournez la page S.V.P.
+
+
+===== page 16 =====
+     -   assurer l’étanchéité entre les deux chambres du verrou ;
+     -   intégrer le dispositif de verrouillage {15, 16i, 16s, 17i, 17s};
+     -   intégrer le clapet de sécurité {20, 23}.
+
+
+     La douille de serrage 18 a pour principales fonctions :
+     -   assurer la liaison complète démontable entre le piston 14 et la crémaillère 3 ;
+     -   permettre l’alimentation hydraulique des chambres du verrou en intégrant le clapet
+         d’alimentation 19.
+
+Position de représentation :
+     Le mécanisme sera dessiné dans la position suivante :
+     -   crémaillère de réglage en position basse ;
+     -   tous les clapets fermés.
+
+
+
+Travail demandé :
+
+
+     Dessiner aux instruments, sur les différentes vues prédéfinies du calque n°1, vos propositions
+     de solutions pour répondre aux modifications demandées par le constructeur.
+     Dans la zone 1 du calque n°1 de format A3 horizontal, sur la vue en coupe AA, représenter :
+     -   le dispositif de verrouillage {15, 16i, 16s, 17i, 17s};
+     -   le piston 14, la douille de serrage 18 et le clapet d’alimentation 19 intégré;
+     -   les dispositifs d’étanchéité ;
+     -   et toute nouvelle pièce nécessaire au bon fonctionnement de l’ensemble.
+     Dans la zone 2 du calque n°1 de format A3 horizontal, sur la ½ vue en coupe BB,
+     représenter uniquement le piston 14 et le clapet de sécurité {20, 23}.
+
+
+C.3.4.     Conception d’une liaison ponctuelle (se reporter à la figure 5 page D2/11 et à la
+   figure 6 page D3/11) .
+
+
+     Sur la figure 6 page D3/11, on constate l’existence d’une liaison sphère-plan (ponctuelle) entre
+     le bloc moteur 10 et la crémaillère de commande 3.
+     Sur le dessin d’ensemble (figure 5 page D2/11), la solution technologique, modélisée par cette
+     liaison sphère-plan, n’est pas définie. On demande de concevoir cette liaison ponctuelle de
+               r
+     normale n .
+
+Expression du besoin :
+
+     Etant donnée l’importance des efforts mis en jeux, la liaison ponctuelle (sphère-plan) devra être
+     réalisée par association de contacts surfaciques. (Voir les questions Q19 et Q20 page T11/17).
+                                                                             r
+     La surface minimale de contact (projetée dans un plan orthogonal à n ) doit être de 7 cm² au
+     minimum soit un disque de 3 cm de diamètre environ.
+
+
+                                   T 16/17
+
+
+===== page 17 =====
+     Les surfaces de contact frottantes seront lubrifiées par l’huile moteur. Une étanchéité par
+     rapport à l’extérieur du bloc moteur est à prévoir.
+                                                                             r
+     La position de cette liaison doit être réglable selon la normale n afin de permettre de
+     précontraindre radialement la crémaillère de commande 3, la roue dentée 4, la crémaillère de
+     piston 5, et le rouleau synchroniseur 6 .
+     Un dispositif doit permettre un maintien en position du système de réglage.
+     Les formes de la crémaillère de commande 3 peuvent être adaptées aux solutions retenues.
+
+Travail demandé :
+
+
+     Dessiner aux instruments, dans la zone 3 du calque n°1 de format A3 horizontal sur la vue
+     prédéfinie en coupe A-A, vos propositions de solutions pour répondre aux besoins exprimés ci-
+     dessus.
+
+ TABLEAU RECAPITULATIF DE DONNEES ET DES NOTATIONS PRINCIPALES DU SUJETS :
+
+      Désignation                                               Notation               Valeurs
+      Point Mort Haut                                            PMH
+      Point Mort Bas                                             PMB
+      Cylindrée unitaire                                         Cylunit
+      Cylindrée du moteur                                        Cylmot
+      Diamètre des pistons 7                                      Dp7                  75 mm
+      Puissance maxi                                                                  160 kW
+      Couple maxi                                                                     300 Nm
+      Taux de compression                                            T             de 7 / 1 à 18 / 1
+      Taux de compression maximum                                Tmax                     18
+      Taux de compression minimum                                 Tmin
+      Longueur de manivelle                                       AB                   21 mm
+      Longueur de la bielle                                       BC                  88,75 mm
+      Rayon primitif de la roue 4                               CD = DE                50 mm
+      Course du piston                                            Cp
+      Action du gaz de combustion sur le piston 7                 Fgaz / 7
+                                                                  uuuuur
+      Couple extérieur résistant sur le vilebrequin 1             CExt /1
+      Raideur des ressorts 17i et 17s                                k               0,2 N/mm
+      Longueur libre des ressorts 17i et 17s                        l0                40 mm
+      Longueur des ressorts 17i et 17s dans la phase                lm                15 mm
+      étudiée
+      Diamètre du piston de verrou hydraulique 14 :                Dp                  65 mm
+      Diamètre de la tige de la crémaillère 3                      Dtv                 24 mm
+      Diamètre des clapets 16i et 16s:                             Dcl                13,5 mm
+      Diamètre de guidage de la tige de commande 15                Dgtc                 5 mm
+      Pression de la chambre inférieure                             Pi
+      Pression de la chambre supérieure                            Ps
+      Effort exercé par un ressort 17 sur un clapet 16              Fr
+
+
+
+
+                                T 17/17
+
+
+===== page 18 =====
+[OCR] 
+
+===== page 19 =====
+[OCR] 
+
+===== page 20 =====
+[OCR] 
+
+===== page 21 =====
+                     Fig. 3 – Principaux composants du moteur MCE-5
+                      (Certaines zones de cette figure ont été rendues volontairement floues).
+
+
+
+
+Piston                                                                                                       Douille de
+                                                                                                             serrage
+
+
+
+
+Crémaillère
+de piston                                                                                                   Verrou
+                                                                                                            hydraulique
+
+
+
+                                                                                                           Crémaillère
+Rouleau                                                                                                    de
+synchroniseur                                                                                              commande
+
+
+                                                                                                   Roue dentée
+
+                                                                                          Bielle
+
+
+                                                                            Vilebrequin
+
+          23  4 Ressort de clapet de sécurité
+          22  1 Joint de culasse
+          21  1 Carter inférieur
+          20  4 Bille de clapet de sécurité
+          19  4 Clapet d'alimentation
+          18  4 Douille de serrage
+          17  8 Ressort de clapet de commande
+          16  8 Clapet de commande
+          15  4 Tige de commande
+          14  4 Piston du verrou hydraulique
+          13  8 Piste de roulement
+          12  4 Corps de platine d'appui
+          11  4 Axe de roue dentée                                             Fig.4 –
+          10  1 Bloc moteur                                                 Nomenclature
+           9  4 Chapeau de bielle                                             (extraits)
+           8  1 Culasse
+           7  4 Piston
+           6  4 Rouleau synchroniseur
+           5  4 Crémaillère de piston
+           4  4 Roue dentée
+           3  4 Crémaillère de commande
+           2  4 Corps de bielle
+           1  1 Vilebrequin
+         Rep Nb Désignation
+
+
+                                        D1/11                                Tournez la page S.V.P
+
+
+===== page 22 =====
+                                                          AA                        Alimentation d'huile
+
+
+8
+
+22
+
+
+
+
+3
+                                                                                                              Zone à définir
+7
+
+
+10
+
+
+5
+4
+
+11
+
+13
+
+6
+
+12
+                                                                                                                                      Axe de la liaison ponctuelle
+                                                                                                                                      crémaillère de commande 3
+                                                                                                                                       ensemble carter moteur 0
+
+                                                                                                                                              n
+
+
+
+
+                                                                                                                                                                 Zone à définir
+2
+
+
+
+9
+
+
+
+
+1
+
+
+21
+
+
+
+
+     Ce plan d'ensemble en coupe du moteur MCE-5 est partiellement défini. Seules les pièces et les arrêtes cachées nécessaires à la compréhension du
+       mécanisme sont représentées. La culasse et ses composants sont ébauchés en pièces voisines. Le dispositif de vérrouillage de la crémaillère de
+       commande 3, ainsi que la liaison ponctuelle entre le bloc moteur 10 et la crémaillère de commande 3 ne sont pas représentés. Seules les pièces
+                                               principales sont repérées et présentes dans la nomenclature.
+
+                                                                  Echelle 0.65/1
+
+           Fig.5 – Dessin
+            d’ensemble                                 D2/11                                    Tournez la page S.V.P
+
+
+===== page 23 =====
+Fig. 6 – Schéma du système de transformation de mouvement
+                  en position quelconque
+
+
+
+
+                      F
+                                     Echelle 0,7/1
+             {5,7}
+
+
+
+
+                                                        H
+
+                       4
+
+
+                     E               C
+     6                                             D
+L        K
+
+                                     2                      3
+
+
+
+
+                             B
+                                 1   A          {8,10,12,13,21}
+
+
+
+
+                     D3/11               Tournez la page S.V.P
+
+
+===== page 24 =====
+        Fig. 7 – Schéma du système de                                 Fig. 8 – Schéma du système de
+     transformation de mouvement bielle                             transformation de mouvement du
+              manivelle classique                                             moteur MCE-5
+
+
+                                                                                                     Mélange air essence
+
+
+
+
+                                                                    Fgaz/7
+                                    Mélange air essence
+                                                                                        P1
+               F*gaz/7*
+
+
+
+                                     aprés combustion                                                 aprés combustion
+                               P1        P1>>P2
+                                                                                                          P1>>P2
+                                                                                F
+                          F*                                    P2
+                          7*
+          P2
+                          C*
+
+
+
+
+                                                                        {5,7}
+               E
+          2*                                                                                         G               H
+                                                                                    4
+                          y
+      B* T                                                  L
+                                                                6
+                                                                    K           E                    C              D
+Z 1*/0*
+
+
+
+
+                   1*                0*
+                          A*    x
+
+
+                                                                                                                         3
+                   C*Ext/1*
+                                                                                             2
+
+                                                                                                 E
+                                                                                                     y
+                                                                                             T
+                                                                                   
+                                                                                Z
+
+
+
+
+                                                                                         B1          A   x   0={8,10,12,13,21}
+
+
+                                                                                             CExt/1
+
+
+
+
+     Fig. 9 – Formes d’un piston d’un                                   Fig. 10 – Formes d’un piston d’un
+     système bielle manivelle classique                                           Moteur MCE-5
+
+
+                                                    D4/11           Tournez la page S.V.P
+
+
+===== page 25 =====
+      Fig. 11 – Plans détaillés du rouleau synchroniseur 6                                       Fig. 12 – Photo du rouleau
+                                                                                                       synchroniseur 6
+                                                Vue en coupe de l'assemblage
+rouleau synchronisseur 6 seul         rouleau synchronisseur 6, crémaillère de piston 5,
+                                     corps de platine d'appui 12 et pistes de roulement 13
+
+            B-B                                         A-A
+                                13                                         6
+       A                                                          B
+                            f
+
+  a
+  b
+
+  c
+
+
+  d                        g                                                                 5
+
+
+
+  e
+
+                           h
+       A                                                          B
+                                                   12
+
+
+
+
+                                               Fig. 13 – Photo de quelques
+                                                pièces du moteur MCE-5
+
+
+
+
+                                               D5/11                              Tournez la page S.V.P
+
+
+===== page 26 =====
+           Fig. 14 – Représentation 3D de
+          quelques pièces du moteur MCE-5
+
+                                                        2
+1
+
+
+
+
+     10
+                                              3
+
+
+
+
+                                                            7
+13                              6
+
+
+
+
+          D6/11                 Tournez la page S.V.P
+
+
+===== page 27 =====
+                2                           Fig. 15 – Exemple de
+                          1               caractérisation de liaison
+                                                 cinématique
+3
+            z
+
+                                  y
+
+
+    M
+
+
+
+                              x
+
+
+
+
+        x       Schéma cinématique détaillé :
+
+
+
+        x       Torseur cinématique :                ­Z x   0½
+                                                     °        °
+                                          ^X3 / 1`   ®Z y   0¾
+                                                     °Z     0°¿M
+                                                     ¯ z
+
+        x       On notera Zx, Zy, Zz, les vitesses de rotation respectivement
+                                & & &
+                autour des axes x , y , z , et Vx, Vy, Vz, les vitesses de translation
+                                               & & &
+                respectivement sur les axes x , y , z ;
+
+
+        x       Liaison équivalente : liaison rotule (sphérique) ;
+
+
+        x       Schéma cinématique de la liaison équivalente :
+
+
+
+
+                                  D7/11                     Tournez la page S.V.P
+
+
+===== page 28 =====
+                                                                                      18 Douille de serrage
+Fig. 16 – Schéma de principe
+   du verrou hydraulique                                                              Chambre supérieure
+                                                                                      17s Ressort du Clapet de
+                                                                                          commande supérieur
+                                                                                      16s Clapet supérieur
+                                                                                      14 Piston du verrou
+                                                                                         Hydraulique
+
+
+                                                                                      19 Clapet d'alimentation
+
+
+                                                                                      16i Clapet inférieur
+
+                                                                                      17i Ressort du Clapet de
+             10 bloc moteur                                                               commande inférieur
+                                                                                      Chambre inférieure
+
+
+                                                                                      15 Tige de commande
+
+                                                                                      3 Crémaillère de commande
+
+
+
+
+    Fig. 17 – vue éclatée du
+      verrou hydraulique
+                                                    Fig. 18 – Evolution de Fy4/3 en fonction de
+                                                        l’angle de rotation du vilebrequin
+
+      Culasse 8
+                                                  Fy4/3
+                                                    30000
+                                                  (N)
+Douille de serrage 18                                          25000
+
+
+                                                               20000
+                                                 F XX/YY (N)
+
+
+
+
+                                                               15000
+
+
+                                                               10000
+
+
+                                                               5000
+
+
+                                                                  0
+                                                                       0   90   180    270      360    450     540   630   720
+                                                               -5000
+                                                                                      angle vilebrequin (°)
+
+
+
+                                                                                                ØDcl
+
+
+
+
+                                                                            ØDtv
+                                                                                           lm
+
+
+
+
+                                                               ØDp
+            Fig. 19 – Schéma du verrou
+               hydraulique - Détails                                                                   ØDgtc
+
+
+
+
+                                         D8/11         Tournez la page S.V.P
+
+
+===== page 29 =====
+                                        Fig. 20 – Dessins de pièces
+                                        non-modifiables du verrou
+                                                hydraulique
+
+
+
+
+          Extrémité de la crémaillère
+               de commande 3
+
+
+
+
+            Clapets 16i et 16s
+                                                                      Tige de commande 15
+
+
+
+
+                                        Ressorts de clapets de          Ressort et bille de clapet de
+Clapet d’alimentation 19                 commande 17i et 17s                 sécurité 20 et 23
+
+
+
+                                        ECHELLE 1,5:1
+
+
+
+
+                                    D9/11                    Tournez la page S.V.P
+
+
+===== page 30 =====
+                   Joint de piston LUBROSEAL© LGP
+                                                                                                        Cylindre
+Les joints composites LUBROSEAL© LGP en PTFE sont utilisés en tant que joints de
+piston en hydraulique mobile et lourde jusqu'à 40 MPa (jusqu'à 80 MPa si des conditions
+de montage particulières sont respectées).
+                                                                                                                                Pression
+
+
+
+
+Fonction                                                                                                     Piston
+
+Le joint de piston LGP est un élément d'étanchéité                                +0,2                   a
+                                                                                 L0
+à double effet. Des constructions de piston
+particulièrement courtes sont par conséquent
+
+
+
+
+                                                                                                                          20°
+possibles. L'étanchéité optimale de la bague
+d'étanchéité Lubroseol© LGP est assurée par la                                    R
+
+
+
+
+                                                                                                                B
+précontrainte propre de l'élément en PTFE ainsi
+
+
+
+
+                                                                                                                          ØD
+que par la force d'appui du O-Ring . Comme un
+
+
+
+
+                                                                                                                Ø d h10
+film lubrifiant hydrodynamique est permis au cours
+du mouvement alternatif, la géométrie du joint est
+simple. La montée de pression faisant
+automatiquement augmenter la force d’appui.
+
+Chanfrein de montage                                           Etat de surface
+
+       Ø D (mm)           a (mm)                                                             Ra       Rz
+                                                               Valeurs de rugosité
+           40                4                                                              ȝm       ȝm
+     40 d D  80             6                                Surface de frottement         d 0,3    d3
+     80 d D  133            8                                Fond de gorge                 d 1,8    d 10
+    133 d D  330           10                                Flancs de gorge               d3       d 16
+    330 d D  500           12
+
+ Joint de piston LUBROSEAL© LGP                         Tolérances recommandées
+                                                          Diamèlre nominal   Alésage du cylindre      Fond de gorge
+                                                                mm                    D                     d
+                                      ©
+Si les joints de piston LUBROSEAL LGP sont                      d80                  H9                   H10
+utilisés avec des bandes de guidage, les interstices            >80                  H8                   h10
+situés dans la zone du joint doivent être plus étroits
+que ceux se trouvant devant les bandes de guidage afin d'éviter l'extrusion de la bague d'étanchéité en PTFE,
+notamment lors de pointes de pression et de dilatation du cylindre (déformation cyclique du cylindre).
+
+LUBROSEAL© LGP Joint de piston                                    Série 1W20/1W22/1W24
+
+    Série       Série         Série       Profondeur   Largeur              Interstice radial
+                                                                                                                                Ø de corde
+   lourde     standard       légère       de gorge     de gorge     0-20         20-40        40-80      Rmax                    du O-Ring
+                                           radiale      axiale
+  LGP1W22     LGP1W20       LGP1W24                                (MPa)        (MPa)        (MPa)
+    ØD            ØD          ØD             B            L           s             s           s
+   (mm)          (mm)        (mm)          (mm)         (mm)        (mm)         (mm)         (mm)        (mm)                     (mm)
+     x            8-12       15-38          2,45         2,2         0,3          0,2          0,1         0,3                      1,78
+     x           15-38       40-75         3,75          3,2         0,4          0,3          0,2         0,5                      2,62
+   15-38        40-75       80-130         5,50          4,2         0,5          0,3          0,2         0,7                      3,53
+   40-75        80-130      140-320        7,75          6,3         0,6          0,4          0,3         1,2                      5,34
+  80 130       140-320      330-500        10,50         8,1         0,6          0,4          0,3         1,5                      6.99
+  140-320      330-500         x           12,25         8,1         0,7          0,5          0,4         1,5                      6,99
+
+
+
+
+                                             D10/11                       Tournez la page S.V.P
+
+
+===== page 31 =====
+                                Joint de tige
+                 PTFE/bronze + HBR LUBROSEAL© LOMSC
+                                                                              Ø de fond de   Largeur de
+                 Ø de fond de     Largeur de                      Ø de tige
+   Ø de tige                                                                     gorge         gorge
+                    gorge           gorge
+                                                                  d en mm       D en mm       L en mm
+   d en mm         D en mm         L en mm                         30,00         40,70         4,20
+      4,00            8,90            2,20                         32.00         39.30         3.20
+      5,00            9,90            2,20                         32,00         42,70         4,20
+      6,00           10,90            2,20                         35,00         42,30         3,20
+      7,00           11,90            2,20                         35,00         45,70         4,20
+      8,00           12,90            2,20                         36,00         43,30         3,20
+      8,00           15,30            3,20                         36,00         46,70         4,20
+     10,00           14,90            2,20                         38,00         48,70         4,20
+     10,00           17,30            3,20                         38,00         53,10         6,30
+     12,00           16,90            2,20                         40,00         50,70         4,20
+     12,00           19,30            3,20                         40,00         55,10         6,30
+     14,00           18,90            2,20                         42,00         52,70         4,20
+     14,00           21,30            3,20                         42,00         57,10         6,30
+     15,00           19,90            2,20                         45,00         55,70         4,20
+     15,00           22,30            3,20                         45,00         60,10         6,30
+     16,00           20,90            2,20                         50,00         60,70         4,20
+     16.00           23.30            3.20                         50,00         65,10         6,30
+     18,00           22,90            2,20                         56,00         66,70         4,20
+     18,00           25,30            3,20                         56,00         71,10         6,30
+     20,00           27,30            3,20                         60,00         70,70         4,20
+     20,00           30,70            4,20                         60,00         75,10         6,30
+     22,00           29,30            3,20                         63,00         78,10         6,30
+     22,00           32,70            4,20                         65,00         80,10         6,30
+     25,00           32,30            3,20                         70,00         85,10         6,30
+     25,00           35,70            4,20                         75,00         90,10         6,30
+     28,00           35,30            3,20                         80,00         95,10         6,30
+     28,00           38,70            4,20                         85,00        100,10         6,30
+
+Matériau élément d'étanchéité: PTFE/bronze.
+Matériau O-Ring: NBR.
+Dureté O-Ring: 70 ±5 Shore A.
+Température d'utilisation: -30 a +100°C.
+Pression: max 40 MPa.
+Vitesse de glissement: max 5 m/s.
+Indication: utilisation en contact avec des huiles hydrauliques
+minérales.
+Description du produit: garniture d'étanchéité en deux parties
+composée d'une bague profilée en PTFE et d'un 0-Ring servant
+d'élément de précontrainte.
+Application: pour l'étanchéité de tiges en hydraulique.
+
+
+
+                                         D11/11                     Tournez la page S.V.P
+
+
+===== page 32 =====
+DOC REPONSE R V   24/01/08   11:04   Page 1
+
+
+
+
+      R9          Direction de K 5 / 6 :
+
+
+      R10                                                            R11
+
+
+
+
+                                                                                                        Fgaz/7
+                     8D D7
+                               5
+                                y
+                                                                                                                    F
+      1                                            6
+                                   E
+                                                   D
+     D
+
+
+
+
+                                           x                                                                                           R1
+                                                                                                                                                                F
+          D
+
+
+
+
+                                               D
+
+
+
+
+      2                                        4   5
+                            D D                                                                             {5,7}
+
+                                                                                                                                                                        Echelle 0,7/1
+
+
+
+
+                                                                                                                                                        {5,7}
+                     3                 4
+                   Solution n° :
+
+          Justification :
+
+
+                                                                                                        K           E
+      Liste des actions mécaniques appliquées                                                                                                                                         H
+      sur 7* :                                                                                                                                                  4
+       Fgaz / 7 ;…
+                                                                                                                                                    L 6 K
+                                                                                                                                                                        C
+                                                                                Repère des surfaces
+                                                                                                                                                                E                D
+      R12                                          R14                                                  a b c d e         f   g h
+                                                                Fonction assurée par les surfaces
+
+       N0/7 :                                      Assurer le roulement sans glissement du rouleau
+                                                   synchroniseur 6 par rapport au corps de la platine
+                                                                      d’appui 12
+                                                                                                                                        CC’ =
+                                                     Permettre la prise de pièce pendant l’usinage
+                                                                                                                                                                        2                 3
+                                                         Assurer le guidage latéral du rouleau                                          E’Ep’ =
+      R13                                          synchroniseur 6 par rapport au corps de la platine
+                                                                       d’appui 12
+                                                      Assurer la transmission d’efforts du rouleau                                      Cylunit =
+                                                       synchroniseur 6 par rapport aux pistes de
+      Comparaison :                                                  roulements 13
+                                                   Assurer le roulement sans glissement du rouleau
+                                                    synchroniseur 6 par rapport à la crémaillère de
+                                                                                                                                        Cylmot =                    B
+                                                                        piston 5
+                                                                                                                                                                    1
+      Justification :
+                                                                    Non fonctionnel                                       X                                             A     {8,10,12,13,21}
+                                                     Assurer la transmission d’efforts du rouleau
+                                                    synchroniseur 6 par rapport à la crémaillère de
+                                                                      piston 5
+
+                                                    Permettre de dégager l’outil pendant l’usinage
+
+
+                                                                                                            Notice justificative 4/8                                         Notice justificative 1/8
+
+
+===== page 33 =====
+[OCR] DOC REPONSE R V 24/01/08 11:04 Page 2
+
+_
+oo
+NE RIEN ECRIRE DANS LA PARTIE BARREE NE RIEN ECRIRE DANS LA PARTIE BARREE
+R2 R3 R5
+X= Xmin=
+R4
+C* os
+XT /2
+N *
+4
+N *
+2
+Liste des actions mécaniques appliquées sur
+7:
+3 R6 Solution n°
+F <q Justification :
+E N *\ oT =
+E 3
+R7 R8
+Acca N* 075
+1
+LA {8,10,12,13,21}
+YY
+Echelle o7\_/ 1
+«5
+iL N * y0/7 =
+Trin =
+\
+Notice justificative 2/8 Notice justificative 3/8
+
+—h—
+
+
+
+===== page 34 =====
+DOC REPONSE R V 2 CAHIER   24/01/08   11:07   Page 1
+
+
+
+
+       R24         Expression 1 :                                Expression 2 :
+
+
+                   'p =                                          'p =
+
+
+
+                   Fy4/3 =                                       Fr =
+
+
+                                         Résultat numérique :
+                                                                                                               R15                                                       R17
+                                         Fy4/3 =
+                                                                                                               Justification :                                           Critères :
+
+       R25        La tige de commande doit se déplacer :             positivement                                                                                        -
+                                                                     négativement
+                                                                                                               Caractéristique mécanique :
+                                                                                                                                                                         -
+                  L’angle de rotation du vilebrequin doit être compris entre :
+                                                                                                                                                                         -
+
+                                                                                                               R16         Matériau :
+
+
+                                                                                                               Traitement thermique :
+
+
+
+
+                                                                                                               R18
+
+
+                                                                                                                                                                        Procédés            Familles de
+                                                                                                                                                                   d'obtention de brut       matériaux
+
+                                                                                                                            Ne placer que deux " X " par
+
+
+
+
+                                                                                                                                                                                m
+                                                                                                                            ligne
+
+
+
+
+                                                                                                                                                                              ge
+
+
+
+
+                                                                                                                                                                             niu
+                                                                                                                                                                           ina
+
+
+
+
+                                                                                                                                                                          mi
+                                                                                                                                                                       am
+
+
+
+
+                                                                                                                                                                      'alu
+                                                                                                                                                                      e
+
+                                                                                                                                                                   eL
+
+                                                                                                                                                                   ge
+
+                                                                                                                                                                   ed
+                                                                                                                                                                   ag
+
+
+
+                                                                                                                                                                ula
+                                                                                                                                                               rag
+                                                                                                                                                               rge
+
+
+
+
+                                                                                                                                                                                           nte
+                                                                                                                                                              iag
+
+
+                                                                                                                                                               ier
+                                                                                                                                                           Mo
+                                                                                                                                                           Fo
+
+
+
+
+                                                                                                                                                                                         Fo
+                                                                                                                                                           Eti
+
+
+
+
+                                                                                                                                                           Ac
+                                                                                                                                                           All
+                                                                                                                         13 Piste de roulement                 X                  X
+                                                                                                                         10 Bloc moteur                             X        X
+                                                                                                                          8 Culasse                                 X        X
+                                                                                                                          7 Piston                                  X        X
+                                                                                                                          6 Rouleau synchroniseur          X                      X
+                                                                                                                          3 Crémaillère de commande        X                      X
+                                                                                                                          2 Corps de bielle                X                      X
+                                                                                                                          1 Vilebrequin                    X                      X
+
+
+
+
+                                                                                    Notice justificative 8/8                                                                                          Notice justificative 5/8
+
+
+===== page 35 =====
+DOC REPONSE R V 2 CAHIER    24/01/08    11:07   Page 2
+
+
+
+
+      R19                                                                                                   R21                                                     R22
+
+
+
+
+       Vue 3D et vue
+       en coupe
+
+
+
+
+                                                                                                                                                          2mm
+
+
+
+
+                                                                                                                                                                                                                        2mm
+       Schéma
+       cinématique
+       détaillé
+
+                                                                                                                                 
+                                                                                                                                F4 / 3 . y
+                                                                                                                                                                                         
+                                                                                                                                                                                        F4 / 3 . y
+        Torseur
+        cinématique
+                                       ­....... .......½    ­....... .......½       ­....... .......½
+                                       °               °    °               °       °               °
+        (mobilités de 1/3)             ®....... .......¾    ®....... .......¾       ®....... .......¾
+            ^X `
+               ( 3 / 1) M
+                                       ° ...... .......°
+                                       ¯               ¿M
+                                                            ° ...... .......°
+                                                            ¯               ¿M
+                                                                                    ° ...... .......°
+                                                                                    ¯               ¿M      FY 4 / 3 négatif.                                       FY 4 / 3 positif.
+                                                                                                              La crémaillère reste immobile                             La crémaillère reste immobile
+                                                                                                              La crémaillère se déplace positivement                    La crémaillère se déplace positivement
+        Liaison                                                                                               La crémaillère se déplace négativement                    La crémaillère se déplace négativement
+        équivalente (1/3)
+                                                                                                            R23             Déplacement
+                                                                                                                                               Signe de
+                                                                                                                                                          Etat du clapet Etat du clapet
+                                                                                                                                                          supérieur 16s   inférieur 16i
+                                                                                                                                                                                        Mouvement
+                                                                                                                             de la tige de                                                  de la
+                                                                                                                                                 Fy4/3      (fermé ou      (fermé ou
+                                                                                                                            commande 15                                                 crémaillère 3
+                                                                                                                                                              ouvert)        ouvert)
+        Schéma
+        cinématique de                                                                                                                                                                     pas de
+                                                                                                                                               négatif         fermé          fermé
+        la liaison                                                                                                                Pas de                                                mouvement
+        équivalente (1/3)                                                                                                       déplacement                                                           pas de
+                                                                                                                                                positif         fermé              fermé
+                                                                                                                                                                                                     mouvement
+
+                                                                                                                                               négatif
+      R20                                                                                                                            Positif
+                                                                                                                                                positif
+
+        Intérêt :                                                                                                                              négatif
+                                                                                                                                     Négatif
+                                                                                                                                                positif
+
+
+                                                                                 Notice justificative 6/8                                                                                             Notice justificative 7/8
+
+
+===== page 36 =====
+DOC REPONSE R V inverse   25/01/08   9:21   Page 1
+
+
+
+
+                                                                                    A-A                                                                    A-A
+
+
+
+
+                    Zone 1
+                    Echelle 1,5:1
+                                                     (1/2 vue) B-B       Définition des plans de coupe
+                                                                                                                   Contour du
+                                                                                           B             piston du verrou hydraulique 14
+                                                                                                           Vue de dessus à l'échelle 1
+
+
+
+
+                                                                     A                                      A
+
+
+                                                                                                                                           Zone 3          CALQUE N°1
+                    Zone 2                           Echelle 1,5:1                         B                                               Echelle 1,5:1
+

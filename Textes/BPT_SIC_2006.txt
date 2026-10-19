@@ -1,0 +1,1155 @@
+
+===== page 1 =====
+ BANQUE FILIERE PT 
+
+
+                       Epreuve de Sciences Industrielles C
+
+                                              Durée : 6h00
+
+
+
+
+Composition du sujet :
+
+   •   1 cahier de 12 pages de texte, numérotées de 1 à 12 ;
+   •   11 documents format A4, intitulés « DOCUMENT RESSOURCE i », avec i = I, II, III, IV, V, VI,
+       VII, VIII, IX, X, XI, tous imprimés au recto seulement ;
+   •   3 documents format A4, intitulés « DOCUMENT REPONSE i », avec i = 2, 3, 4, tous imprimés
+       au recto seulement ;
+   •   2 documents format A3, intitulés « DOCUMENT REPONSE i », avec i = 1, 5 tous imprimés
+       au recto seulement ;
+
+
+
+
+Matériel autorisé : tous instruments usuels du dessinateur.
+
+
+                    TOUTE AUTRE DOCUMENTATION EST INTERDITE
+
+
+
+
+                         LES CALCULATRICES SONT AUTORISEES
+
+
+
+Gestion du temps : En admettant une durée de 30min pour la lecture et l’assimilation du sujet, il
+                       est vivement conseillé de consacrer environ 20% du temps à la partie I,
+                       environ 15% du temps à la partie II, environ 20% du temps à la partie III,
+                       environ 15% du temps à la partie IV et environ 30% du temps à la partie V.
+
+
+
+                                                    1                       Tournez la page S.V.P.
+
+
+===== page 2 =====
+      ÉTUDE DE LA PARTIE CYCLE D’UNE MOTOCYCLETTE DE TYPE
+                     KAWASAKI NINJA ZX-6RR
+
+
+Présentation
+
+
+     Ce texte, composé de 5 parties largement indépendantes, vous propose d’étudier la
+partie cycle d’une moto, destinée à une utilisation à la fois routière et sportive sur circuit.
+Nous nous intéresserons aux différents organes qui permettent à la roue arrière de guider
+sainement la moto et de transmettre la puissance du moteur à la route.
+
+
+La première partie vous propose d’étudier le bras oscillant, d’un point de vue comportement
+sous charge, puis d’un point de vue fabrication.
+La deuxième partie s’intéresse au mécanisme de suspension arrière.
+La troisième et la quatrième partie vous proposent d’étudier le système de freinage de la
+roue, d’un point de vue conception, fabrication puis commande.
+La cinquième partie vous propose de concevoir le guidage en rotation de la roue arrière par
+rapport au bras oscillant.
+
+
+
+
+                                               2
+
+
+===== page 3 =====
+                          Récapitulatif des notations utilisées
+
+Partie                                  Données                            Nom Valeur
+      Moment quadratique polaire du tube                                    I0
+      Diamètre extérieur de la partie tubulaire                             D   46 mm
+      Diamètre intérieur de la partie tubulaire                             d   40mm
+      Angle de torsion unitaire                                             Θ
+      Module d’élasticité transversal                                       G 26000 MPa
+I - A Effort exercé sur le premier bras                                     F1 200 daN
+      Effort exercé sur le second bras                                      F2 200 daN
+      Longueur des bras                                                     LB 580 mm
+      Longueur de la partie tubulaire                                       LT 180 mm
+      Écartement des bras au niveau de l’axe de la roue                     e  300 mm
+      Défaut de positionnement angulaire de la roue par rapport au plan de
+      symétrie de la moto                                                   α
+
+
+      Moment d’inertie de la section du bras                                             IGx
+      Module d’Young du matériaux utilisé pour le bras oscillant                          E
+ I -B
+      Masse d’un bras                                                                    m
+      Masse volumique du matériau                                                         ρ
+
+         Déplacement vertical du cadre de la moto par rapport au sol                     dv    132 mm
+         Charge appliquée sur la selle de la moto                                        Q     500 daN
+         Masse de la moto complète                                                       M      180 Kg
+         Raideur globale de la suspension arrière                                        R
+  II     Effort exercé par l’axe de la roue en bout de bras oscillant                    T
+         Ecrasement du ressort de la suspension                                          ΔL
+         Effort transmis au ressort de la suspension                                     F
+         Rapport entre l’effort exercé en bout de bras et l’effort transmis au ressort   q
+         Raideur du ressort de la suspension                                              r
+
+       Hauteur maximale du profil de rugosité                                            Rt
+III -C Avance par tour et par dent                                                       fz
+       Rayon de plaquette                                                                rε    1,2 mm
+
+
+
+
+                                                     3                          Tournez la page S.V.P.
+
+
+===== page 4 =====
+I. Etude du bras oscillant
+
+
+
+I-A. Comportement du bras oscillant
+
+
+Dans cette partie, on s’intéresse au comportement sous charges du bras oscillant. Celui-ci a
+plusieurs fonctions, dont celle de garantir l’alignement de la roue arrière par rapport à l’axe
+de symétrie de la machine. Il doit donc être d’une grande rigidité. Le bras oscillant étudié
+dans cette question est celui du document ressource II.
+Il est composé de deux bras, supposés indéformables, reliés à une partie tubulaire.
+
+
+On s’intéresse au comportement du bras oscillant lorsque la moto est en virage.
+
+
+I-A1. On modélise les efforts exercés sur les bras lors d’un virage comme indiqué sur le
+document ressource II. On s’intéresse au comportement sous charge de la partie tubulaire,
+que l’on considérera ici comme une poutre.
+Isolez la partie tubulaire.
+Faites le bilan des actions mécaniques extérieures auxquelles elle est soumise.
+Calculez le torseur des efforts de cohésion en tout point de cette poutre.
+À quel(s) type(s) de sollicitation(s) est-elle soumise ?
+
+
+I-A2. Calculez numériquement le moment quadratique polaire (I0) du tube, dont les
+dimensions sont données sur le document ressource II.
+
+
+I-A3. Donnez l’expression de l’angle de torsion unitaire (Θ), en fonction de F1, F2, LB et LT,
+(document ressource II).
+Application numérique dans le cas où les forces F1 et F2 ont chacune une intensité de
+200 daN.
+On donne : module d’élasticité transversal de l’alliage utilisé : G = 26 000 Mpa.
+
+
+I-A4. En déduire, pour ce cas de chargement, l’expression du défaut de positionnement
+angulaire (α) de la roue arrière par rapport au plan de symétrie de la moto. On fera
+l’hypothèse que les liaisons bras / axe de roue ne participent pas à rigidifier l’ensemble.
+Application numérique dans le cas où les forces F1 et F2 ont chacune une intensité de
+200 daN.
+
+                                                 4
+
+
+===== page 5 =====
+I-A5. Conclure sur la fonction du renfort existant sur la version 2004 du bras oscillant
+présenté sur le document ressource II et commentez l’évolution de la géométrie du modèle
+2005 présenté sur le document ressource III.
+
+
+
+
+I-B. Choix du matériau et des procédés
+
+
+On souhaite tenir compte également des sollicitations mécaniques et du poids du bras
+oscillant pour effectuer le choix du matériau. L’objectif est de minimiser la masse m de
+chaque bras. On isole le bras latéral 1. Il est soumis à des contraintes de flexion. Par ailleurs,
+on impose un déplacement maximal (flèche) δ au niveau de l’axe de la roue arrière pour un
+effort F1 donné.
+En première approximation, on considérera l’expression suivante de la flèche en bout de
+bras δ = F1 LB 3 / C1 E IGx pour une poutre encastrée avec E module d’Young, IGx moment
+d’inertie de la section du bras par rapport à l’axe x et C1 une constante. Pour simplifier les
+calculs dans cette partie, on considérera que la section du bras est pleine et carrée de
+longueur a et d’aire A.
+                                           !
+
+I-B1. Donnez l’expression du moment d’inertie de la section du bras IGx.
+
+
+I-B2. Déterminer les fonctions f et g telles que : m = f(E,ρ) . g(F1,δ,LB) avec ρ la masse
+volumique.
+
+
+Le diagramme (log-log) Module d’Young / Masse volumique (document ressource IV)
+permet de choisir un matériau en fonction de l’indice de performance Ip = E1/2 / ρ.
+
+
+I-B3. Parmi les matériaux retenus dans le diagramme (document ressource IV), quel est le
+matériau le plus performant et celui le moins performant ?
+
+
+Le bras oscillant 2005 n’est pas symétrique et n’est pas constitué d’une seule pièce
+monobloc mais de l’assemblage de plusieurs parties assurant des fonctions différentes et
+obtenues par des procédés de fabrication différents, la fonderie, l’emboutissage, le pliage et
+l’extrusion (document ressource III)
+
+
+                                                5                          Tournez la page S.V.P.
+
+
+===== page 6 =====
+I-B4. Expliquez le principe d’obtention des formes pour les procédés de fonderie,
+d’emboutissage et d’extrusion retenus et proposez deux matériaux compatibles par procédé.
+
+
+I-B5. L’assemblage des différentes parties est réalisé par soudage. Expliquez ce qu’est
+l’assemblage par soudage. Quels sont les avantages et inconvénients de ce procédé
+d’assemblage en ce qui concerne le bras oscillant?
+
+
+I-B6. Décrivez le procédé de soudage à l’arc. Précisez à quels types d’applications est plus
+particulièrement réservé le soudage TIG (Tungsten Inert Gas).
+
+
+I-B7. En vous appuyant sur le diagramme (document ressource IV) et sur les procédés de
+mise en forme et d’assemblage étudiés précédemment, proposez un matériau minimisant le
+poids et adapté à la réalisation du bras oscillant. Justifiez votre réponse.
+
+
+
+
+II. Etude de la suspension arrière
+
+
+On s’intéresse maintenant au comportement du mécanisme de suspension arrière dont la
+représentation schématique est donnée sur le document ressource V, et le plan sur le
+document réponse 1.
+Les liaisons aux points A, B, C, D, E, H, et K, sont toutes modélisées dans le plan par des
+articulations parfaites, et les solides sont ici supposés indéformables.
+L’objet de cette partie est de déterminer la raideur du ressort de la suspension arrière de
+cette machine.
+Le cahier des charges impose un déplacement (dv) vertical, parallèle à lui-même, du cadre
+par rapport au sol de 132 mm lorsqu’on applique une charge verticale (Q) de 500 daN sur la
+selle de la moto, en S.
+Le constructeur précise que la masse (M) de la machine est de 180 Kg (avec les pleins).
+
+
+II-1. Effort exercé par l’axe de roue sur le bras oscillant : en isolant successivement la moto
+complète, puis la roue arrière, calculez l’effort (T) exercé par l’axe de la roue au point (C) sur
+le bras oscillant lorsque l’on applique la charge verticale (Q) de 500 daN sur la selle de la
+moto (au point S).
+
+
+
+                                                6
+
+
+===== page 7 =====
+On fera ici l’hypothèse que la moto est placée droite sur un sol horizontal. Les dimensions
+sont celles précisées sur le document ressource V. G est le centre de gravité de la moto
+complète (le poids de la machine sera pris en compte dans cette question).
+
+
+II-2. Raideur de la suspension : calculez la raideur globale R de la suspension arrière, soit le
+rapport entre l’effort vertical (T) exercé en bout de bras oscillant (C) et le déplacement
+vertical de ce même point.
+On fera ici l’hypothèse que le comportement global de la suspension arrière est quasi
+linéaire.
+
+
+II-3. Ecrasement du ressort sous charge : déterminez la position de chacun des points (A, B,
+C, D, E, H, et K) lorsque la moto passe de la position non chargée à la position chargée
+(document réponse 1). En déduire la valeur de l’écrasement du ressort (ΔL) de la
+suspension. On utilisera une méthode graphique en relevant les dimensions directement sur
+le document réponse 1.
+
+
+II-4. Charge appliquée sur le ressort : déterminez dans la position chargée le rapport (q)
+entre l’effort (T) appliqué en bout de bras oscillant (C) et l’effort transmis au ressort (F) . On
+utilisera une méthode graphique en relevant les dimensions directement sur le document
+réponse 1. En utilisant les résultats de la question II-1 calculez la charge (F) appliquée au
+ressort. Dans cette question, on négligera le poids propre des pièces devant les efforts mis
+en jeu.
+
+
+II-5. Déduire de ce qui précède la raideur (r) du ressort à monter à l’arrière de cette machine.
+
+
+II-6. Un calcul plus complet du comportement sous charge du bras oscillant a permis d’établir
+que sous une charge de 400 daN sur de l’axe de la roue, la flèche en bout de bras est de
+l’ordre de 1,4 mm. Que dire de l’hypothèse « solides indéformables » faite dans cette partie
+de l’étude ?
+
+
+
+
+                                                7                          Tournez la page S.V.P.
+
+
+===== page 8 =====
+III. Conception du support d’étrier de freins arrière
+
+
+Le support d’étrier a pour rôle de mettre en position l’étrier de frein par rapport au disque et
+de le maintenir lors d’un freinage. Le support, réalisé en alliage d’aluminium, est en liaison
+avec l’axe de la roue et le bras oscillant.
+
+
+III-A. Pré-conception
+
+
+III-A1. À l’aide du schéma cinématique suivant déterminer le degré d’hyperstatisme du
+système composé du support d’étrier, du bras et de l’axe de roue.
+
+
+
+
+III-A2. En fonctionnement, la glissière est bloquée. On a donc une liaison complète entre le
+bras oscillant et l’axe de roue. Calculez le torseur des efforts transmissibles par la liaison
+équivalente entre le support d’étrier et l’ensemble axe de roue et bras oscillant.
+À supposer que l’ensemble axe de roue et bras oscillant soit de géométrie parfaite, en
+déduire les contraintes géométriques à respecter par le support d’étrier en s’aidant d’une
+analyse d’hyperstatisme de la liaison équivalente.
+
+
+Un premier modèle géométrique 3D situant la position (au nominal) des surfaces
+fonctionnelles entre elles est donné sur le document ressource VI. Le support d’étrier,
+positionné sur l’axe de roue, est en contact avec deux pièces ce qui nécessite d’avoir deux
+surfaces planes de part et d’autre du contact cylindre/cylindre. La liaison plane entre le
+support d’étrier et le bras oscillant est en fait bilatérale ce qui génère deux plans parallèles (la
+matière se situe entre les deux plans au niveau du bras). Les trous de fixation des étriers sur
+
+
+                                                 8
+
+
+===== page 9 =====
+le support ont également été ajoutés, ce qui génère un cylindre (passage de vis) et un plan
+(face d’appui de la tête de vis) par trou.
+
+
+III-A3. On utilise un modeleur volumique (un logiciel de CAO) pour concevoir le modèle
+numérique de la pièce. Précisez à l’aide d’un arbre de construction les opérations de création
+de surface (extrusion, révolution, poche, etc.) que vous utiliseriez pour modéliser les entités
+fonctionnelles de la pièce dans un prisme dont vous préciserez également la géométrie du
+contour.
+
+
+III-A4. Explicitez sur les documents réponses 2, 3 et 4 les spécifications dimensionnelles et
+géométriques issues du document ressource VI :
+
+
+
+
+III-B. Gamme d’usinage
+
+
+Afin de garantir la qualité requise sur les surfaces fonctionnelles, celles-ci doivent être
+usinées.
+
+
+III-B1. Déterminez les opérations d’usinage adaptées à chacune des entités géométriques
+précédemment définies en tenant compte des exigences de qualité indiquées par les
+tolérances dimensionnelles. On précisera le nom de l’opération et des outils employés et on
+dessinera les outils de coupe.
+
+
+III-B2. En tenant compte des contraintes technologiques d’usinage ainsi que des contraintes
+dimensionnelles entre entités, déterminez le nombre de phases d’usinage nécessaires à
+l’obtention de la pièce. Pour chaque phase, vous préciserez le type de machine-outil utilisée
+et les opérations d’usinage effectuées.
+
+
+III-C. Processus d’usinage de l’entité cylindrique
+
+
+On étudie plus particulièrement l’opération de finition permettant de réaliser la surface
+cylindrique ∅25H7 assurant la liaison pivot avec l’axe de la roue arrière. Cette opération est
+réalisée avec une barre à aléser munie d’une plaquette carbure (document ressource VII).
+
+                                               9                         Tournez la page S.V.P.
+
+
+===== page 10 =====
+Aspect macro géométrique
+
+
+III-C1. Modélisez et représentez les actions mécaniques qui s’exercent sur l’outil durant
+l’usinage. Vous préciserez vos hypothèses.
+
+
+III-C2. Quels sont les effets de ces actions mécaniques sur l’outil et donc sur la qualité
+géométrique du cylindre ? Comment assurer la qualité dimensionnelle du cylindre ?
+
+
+Aspect micro géométrique
+
+
+III-C3. Expliquez la signification du symbole suivant porté sur le cylindre (document
+ressource VI) ainsi que sa définition mathématique, assortie d’un dessin explicatif.
+
+
+
+
+III-C4. Établir la relation liant le paramètre de hauteur maximale du profil de rugosité Rt,
+l’avance par tour et par dent fz et le rayon de plaquette rε. La démonstration s'appuiera sur
+une représentation graphique faisant intervenir les paramètres considérés.
+
+
+III-C5. À partir de l’abaque du document ressource VII et pour un rayon de plaquette rε de
+1,2 mm, déterminez la valeur de l’avance fz pour respecter la spécification précédente.
+Expliquez pourquoi il existe une zone dite de dispersion sur l’abaque.
+
+
+IV. Etude du système de freinage
+
+
+La ZX6R, comme toutes les motos sportives, elle est équipée d’un système de freins à
+disques commandés par un système hydraulique. Son principe repose sur la propriété
+d’incompressibilité du fluide. Le pilote, par l’intermédiaire de la poignée, actionne le frein
+avant, et par la pédale, actionne le frein arrière (freinage non intégral).
+La poignée actionne le maître-cylindre, assimilable à un piston, qui comprime le fluide dans
+le circuit hydraulique jusqu’aux pistons situés dans les étriers qui viennent pincer les
+plaquettes de freins sur les disques (document ressource VIII).
+
+
+IV-1. Les efforts mis en jeu au niveau des freins sont largement supérieurs à ceux qu’un
+pilote peut exercer manuellement. Expliquez comment grâce à ce système, le pilote peut
+
+                                                 10
+
+
+===== page 11 =====
+malgré tout générer un effort suffisant sur les pistons des étriers pour assurer le freinage et
+stopper la moto.
+
+
+On envisage d’intégrer un système d’antiblocage de roues. Le circuit hydraulique contient
+alors un ensemble supplémentaire, une électrovanne, dont le rôle est de modifier la
+circulation du fluide entre le maître-cylindre et les pistons des étriers. Cette électrovanne est
+commandée par un calculateur électronique.
+
+
+IV-2. Proposez une solution technologique permettant de déterminer si une roue est bloquée
+ou non. Vous justifierez la nature du capteur employé et expliquerez son principe de
+fonctionnement.
+
+
+La modélisation fonctionnelle de la partie opérative et son comportement temporel sont
+donnés sur le document ressource IX.
+
+
+IV-3. Identifiez les actionneurs et pré-actionneurs du schéma fonctionnel et donnez leurs
+caractéristiques.
+
+
+IV-4. Expliquez comment ce système permet d’éviter le blocage des roues à l’aide des
+différentes phases de fonctionnement du système décrites par le chronogramme et du
+schéma fonctionnel.
+
+
+IV-5. Établir le GRAFCET fonctionnel à partir de l’inventaire des entrées et sorties du
+système anti-blocage étudié (document ressource IX).
+
+
+IV-6. Existe-t-il un cas d’utilisation du véhicule pour lequel les spécifications modélisées
+précédemment ne permettraient pas au système de freinage de fonctionner correctement ?
+
+
+
+
+V. Conception de la transmission finale
+
+
+Cette partie conduit à la conception du sous-ensemble transmission finale et roue arrière. La
+transmission du mouvement entre la couronne et la jante s’appuie sur un système par
+
+
+                                                11                         Tournez la page S.V.P.
+
+
+===== page 12 =====
+obstacles similaire à des crabots axiaux. Pour amortir les chocs dans la transmission, on
+utilise quatre pièces en élastomère. La vue d’ensemble du système sur la jante et des
+crabots est fournie sur le document ressource X.
+L’ensemble des liaisons pivots et rotules sera réalisé à l’aide de roulements à billes
+(document ressource XI).
+Il est demandé de répondre sur le calque pré-imprimé format A3 document réponse 5 (à
+rendre non plié avec la copie) et comprenant 3 vues (la coupe A-A, la vue de gauche partielle
+et la vue de droite à dessiner).
+Une attention particulière sera portée sur la qualité graphique, sur les ajustements
+fonctionnels permettant le fonctionnement et le montage ainsi qu’à la définition des formes
+nécessaires à la compréhension du système.
+En s’inspirant des formes déjà définies sur le calque, on concevra en particulier :
+
+
+IV-1 La liaison complète démontable entre le bras oscillant et l’axe de roue :
+   •   réglage de la tension de chaîne.
+À réaliser sur la coupe AA et sur la vue de gauche.
+
+
+IV-2 La liaison pivot entre l’axe de roue et la jante :
+   •   débrochage rapide,
+   •   étanchéité vis-à-vis de l’extérieur.
+À réaliser sur la coupe AA.
+
+
+IV-3 La conception du porte couronne :
+   •   Liaison complète démontable avec la couronne
+   •   Transmission par obstacle avec la jante
+   •   Liaison rotule avec l’axe
+   •   Étanchéité vis-à-vis de l’extérieur
+À réaliser sur la coupe AA et seul sur la vue de droite.
+
+
+IV-4 L’assemblage global :
+   •   Mise en position
+   •   Serrage de l’ensemble
+À réaliser sur la coupe AA et sur la vue de gauche.
+
+
+
+
+                                                  12
+
+
+===== page 13 =====
+[OCR] DOCUMENT RESSOURCE |
+
+
+===== page 14 =====
+CHARGEMENT DU BRAS EN VIRAGE
+
+
+
+
+SECTION DE LA PARTIE TUBULAIRE
+
+
+
+
+ BRAS OSCILLANT MODELE 2004
+
+
+ DOCUMENT RESSOURCE II
+
+
+===== page 15 =====
+[OCR] Bras oscillant 2005
+
+i |
+
+Piéces
+extrudées .
+et pliées Piéces | Piéces ;
+ad moulées | embouties
+
+|
+
+|
+Piéces élémentaires du bras oscillant 2005
+
+DOCUMENT RESSOURCE III
+
+
+===== page 16 =====
+[OCR] Systéme d’entrainement sur la jante
+
+( az
+; ey
+| hy Systéme d’entrainement
+P
+
+Vue d’une des quatre piéces en élastomére
+
+DOCUMENT RESSOURCE X
+
+
+===== page 17 =====
+[OCR] Vue isométrique fonctionnelle
+
+}
+
+(i oh
+
+TIL
+
+ii |
+
+|
+i
+
+Vue de face cotée
+
+|
+
+|
+
+|
+|
+
+0, 15/A]
+
+-—{e]o, 5/4]
+
+0,1[A]
+
+DOCUMENT RESSOURCE VI
+
+
+===== page 18 =====
+[OCR] Module d’Young E (GPa)
+
+Diagramme densité / module d’Young de choix de matériaux
+
+Carbure de tungstene U
+5004 Carbure de bore. .“ Carbure de silicium
+? ()
+7 \\) z
+é Alumine
+inede > ()
+“ silicium f ;
+wool ge E f \0 Alliages de Nickel“
+Composite rénforeé : CA :
+de fibres de carbone “ rae
+: 0 _’ Alliages Fontes, ih ( ;
+ey aa "?) | 1 aliages de cuivre
+1004 F ( / Fi
+‘O
+Verte de sice o.” (>) a, !
+“ Alliages  iliages de zine’
+04 d’aluminium ra
+Alliages de
+magenisum
+20 oe a ve
+\ wf Alliages de glomb
+112 a ; :
+EY ccste’
+p
+a z
+os H 2 3 ny
+
+Masse volumique p (10°Kg / m*)
+
+DOCUMENT RESSOURCE IV
+
+
+
+===== page 19 =====
+           CHARGEMENT DE LA MOTO
+
+
+
+
+SCHEMA D’ARCHITECTURE DE LA SUSPENSION ARRIERE
+
+
+          DOCUMENT RESSOURCE V
+
+
+===== page 20 =====
+[OCR] Porte-outil
+
+40
+Outil
+| oO
+050
+50 7 Tr]
+40 4 ate]
+315 ae
+25 + —
+20 ara
+16 -
+12,5 tt
+10 Te 1
+8 Limite su E
+63 pour transition de Ra vers Rt A 4
+5 \
+4 ! eucuneee
+é ay f
+= wa érieure de Ra
+e 5 pour transition de Rt vers Ra
+mae LC
+0.016 4 [
+02 10,315! 0,5 ' 08 '1,25' 2 '315' 5 | 8 1125! 20! 31,5! 50! 80! 125!
+016 0.25 04 063 1 16 25 4 63 10 16 25 40 63 100 160 250
+
+Rt (um)
+
+DOCUMENT RESSOURCE VII
+
+ov
+
+399
+
+
+===== page 21 =====
+                                Levier de frein et
+                                maître cylindre
+
+
+
+
+                                                           Pédale de frein et
+                                                           maître cylindre
+
+
+                                        Electrovanne
+                                        et calculateur
+
+
+
+
+ Disques et étrier                                                Disque et étrier
+ avants                                                           arrière
+
+Schéma d’ensemble de l’installation de freinage avec ABS
+
+
+
+
+                     Section maître cylindre
+
+
+
+
+                                   Section pistons d’étriers
+
+
+
+
+   Sections du maître cylindre et des pistons d’étriers
+
+
+
+
+            DOCUMENT RESSOURCE VIII
+
+
+===== page 22 =====
+[OCR] Schéma fonctionnel Chronogrammes
+
+Piston d’étrier
+
+r
+
+Roue
+Bloquée
+
+S1
+
+. r
+
+t<T tT.
+
+| Maitre cylindre
+
+Inventaire des entrées et sorties
+
+cat id Partie > Maintenir (la pression sur les pistons)
+commande
+Véhicule en »  dusysteme eae : Fl
+mouvement > Réduire (la pression sur les pistons)
+
+DOCUMENT RESSOURCE IX
+
+
+===== page 23 =====
+[OCR] (poy FAG : Roulements 4 billes 62
+
+dimensions principales selon DIN 625-1
+
+d D B d D B
+‘ mm mm mm mm mm mm
+‘ 623 3°10 4 6207 35 «72 «17
+624 4 13 5 6208 40 80 18
+625, 5 16 5 6209 45 85 19
+626 6 19 6 6210 50 90 20
+627 7 22 7 6211 55 100 21
+629 9 2 8 6212 60 110 22
+6200 10 30 9 6213 65 120 23
+6201 12 32 10 6214 70 125 24
+6202 15 35 11 6215 75 130 25
+6203 17 40 12 6216 80 140 26
+6204 20 47 14 6217 = 85 150 28
+6205 «25 «52 15 6218 90 160 30
+6206 30 62 16 6219 95 170 32
+| FAG : Roulements a billes 60
+| dimensions principales selon DIN 625-1
+ee dD B d DB
+mm =omm mm mm mm mm
+607 7 19 6 6008 40 68 15
+608 8 22 7 6009 45 «75 16
+609 9 24 7 6010 50 80 16
+6000 10 26 8 6011 55 90 18
+6001 12 28 8 6012 60 95 18
+6002 15 32 9 6013 65 100 18
+6003 17 35 10 6014 = 70 110 20
+6004 20 42 12 6015 75 115 20
+
+6005 25 47 12 601 80 125 22
+6006 30 55 13 017 85 130 22
+6007 35 62 14 6018 90 140 24
+
+DOCUMENT RESSOURCE XI
+
+
+===== page 24 =====
+[OCR] Récapitulatif:
+
+Il- 1: Effort exercé par I'axe de la roue sur le bras oscillant : T
+Il - 2 Raideur de la suspenstion : R
+
+I -3: Ecrasement du ressort sous charge : delta L
+
+Il-4: Charge appliquée sur le ressort : F
+
+Il -5 : Raideur du resort: r
+
+Axe vertical
+
+Document a I'échelle 1:3
+
+DOCUMENT REPONSE 1
+
+
+===== page 25 =====
+[OCR] Modéle EN.
+
+Session :
+
+Académie :
+
+Série* :
+
+Examen ou Concours
+
+Repére de I'épreuve :
+
+Spécialité/option :
+
+Epreuve/sous-épreuve :
+
+NOM :
+
+Ten majuscules, Suivi sTIy a lieu, du nom depouse)
+
+Prénoms :
+
+N° du candidat
+
+Né(e) le:
+
+(s)ajqnur (s)uoquaw (sa) e] JeAeY
+
+Tie numéro est celui qui figure sur la
+convocation ou la liste d'appel)
+
+@zHsz0
+
+Uon!Uyap ap UISsap Np yeN)xe
+BUWaYydS
+
+aayloads S0uUdI9JAl |
+e yodde sed
+
+uonisod uoneyuao
+sejulesjUu0D
+
+egsodwoo
+ejduis
+
+aunwiwoo
+
+awaysks
+ajdwis
+
+ednob
+anbiun
+
+“20ueJ9|0} 8p uoz e| sueP
+Jaque no} JMS Bs Wop goUes9I0} JUALUI9,)
+
+1 @}IWUOJUOD ap UOHIPUCD
+
+99819491 ep » (S)99URIgjOL jueweyeg UONISOd
+4, 99URI9[O} ap BUOZ » (S)a9ytoeds (s)eouaiayoy syuewa|a syuewa|3 uo}e}UaLOQ ETO
+uone: ads ap adAL
+« a]QPoW UDIS » Np syesKe uonesyio9ds
+
+xneap| sjuewie|3
+
+xnegp| uou sjuewi9|3
+
+e]| ap ajoquiAs
+
+‘BauBI9|0} op ouOz Jed UOHE
+
+joeds oun.p oshjeuy
+
+SSTIVAYON LNBWSONVESIOL
+
+DOCUMENT REPONSE 2
+
+
+===== page 26 =====
+[OCR] Modéle EN.
+
+Tie numéro est colui qui figure sur la
+convocation au la liste d'appel)
+
+Série* :
+
+Repére de l’épreuve :
+
+N° du candidat
+
+Session :
+
+Ten majuscules, suivi sy a lieu, du nam depouse)
+
+Epreuve/sous-épreuve :
+Prénoms :
+
+Examen ou Concours
+Spécialité/option :
+NOM :
+
+Académie :
+Né(e) le :
+
+(s)aiynu (s)uonuew (s9j) e] seAeY ,
+
+DOCUMENT REPONSE 3
+
+[>]
+UONIUYEP Ep UISSEP NP [WeNXe
+ewayos
+‘aayloeds eouEl901 E|
+e yodde, sed agsodwoo ewaysks adnob “e0ues9|o} ap euoz e| suep
+uonisod uoneyuayo ajduis eunwwoo = ajdwis Tt enbiun Janue yNo} Jems 8s yop goURJ9|O} JUEWE/9,7
+sa}ulesjuoD : @HWIOJUOD ap UO!}IPUOD
+« 99U8J9J91 ap » (S)gouesg]O) juaweyeg UONISOd
+4 90U2J9/0} ap BUOZ « (S)egytoeds (s)aouaigj9y syuewa|3 syuewe}3 uonejueuO ewo4
+uoneoyiogds ap adAL
+« 8]@POW UIs » Np syeyxXe uojesyioeds
+xnegp| sjuewi9|y xnegp] uou s}usWwi9|y eB] ep ajoquiAs
+
+‘20Ue19/0} Op BuOz Jed UOHeDYIOEds euN,p eshieuy SSMVARION INSWSONVESIOL
+
+
+
+===== page 27 =====
+[OCR] (s)ai nu! (s)uonuew (s9j) e] JeAeY ,
+
+onIUyaP ep UIssep Np W!enxe
+ewi94yos
+
+eayloeds eouelajel e|
+e yodde sed
+uonisod uoneyuao
+
+eegsodwoo
+ejduis
+
+ewe}shks
+
+eunwwos = ajdwis
+
+ednoi6
+nbiun
+
+"e0ueJ9|0} 8p euoz e| suep
+Je1Ue JNO} JoMIIs 8S yop gUeJ9|
+
+sequlesju09 19]
+= 99U019}91 ep » (S)gouesgjoL jueweyeg UOHISOd
+99URJ9/0} ep BUOZ » (S)a9ytoeds (s)aouaigj9y syuewa|3 squewe|y uoHe}UsuO auuo4
+*
+uoneoyioeds ap edAL
+« @]QPOW UNIS » Np syeyXe uojesyioeds
+
+xnegp] sjuawi9[a
+
+xnegp| uou sju9Ww9]/3
+
+eB] ap ajoquiAs
+
+"20u1e19]0 ep euOZ Jed uopeoylogds eun,p eskieuy
+
+SSMVARON INSWSONVESIOL
+
+DOCUMENT REPONSE 3
+
+
+===== page 28 =====
+[OCR] Modéle EN.
+
+Session :
+
+Académie :
+
+Série* :
+
+Examen ou Concours
+
+Repére de l’épreuve :
+
+Spécialité/option :
+
+Epreuve/sous-
+
+NOM :
+
+epreuve =
+
+Ten majuscules, Suivi sy a leu, du nom depouse)
+
+Prénoms :
+
+N° du candidat
+
+Né(e) le:
+
+(s)ajqnu! (s)uonuaw (saj) eB] akeY ,
+
+Tie numéro est celui qui figure sur la
+convocation ou la liste d'appel)
+
+Uoniuyep ep ulssep np yWenxe
+BUE4ydS
+
+‘epyloeds eouel9j91 E]
+
+e yodde sed eegsoduoo ewa}shs adnoi6 ‘20ueI9|0} ep euoz e| SUeP
+od = uOHE|UeLO ajduis aunwiwos —ajdwis enbiun Jomue ino} sany!s as Wop goUeI9IO} JUSWIAIP.|
+soqulesju09 1 Q}IWOJUOD ap UOIIPUOD
+
+» 99UBI9|O} Bp BUOZ
+
+» (S)agylogds (s)eouas939y
+
+*
+
+e0ua9j91 8p
+squewe|3
+
+» (S)gouesg/OL
+squewe|3
+
+juaweyeg UONISOg
+uone}UaC euuo4
+uonesyioeds ap adAL
+
+xneap| sjuawie!a
+
+« BJEPOW UNS » Np syewyxe
+xnegp| uou sju9wi9|3
+
+uonesyioeds
+eB] ap ajoquiAs
+
+‘SaueI9|0} ep euoz Jed uoHeayIeds Oun,p OSTeuy,
+
+SSIIVAMON INSWSONVESIOL
+
+DOCUMENT REPONSE 4
+
+
+===== page 29 =====
+[OCR] (s)ajqnui (s)uonuaw (saj) eB] JaAeY ,
+
+Uonluygp ep ulssep np yesKe
+
+ewayos
+
+‘apyjoeds eouel9}91 E|
+ yoddes sed
+uon!sod uojejuevo
+sazuyesjuod
+
+egsodwoo
+ejdwis
+
+eweyshs
+
+eunwwoo = ajdwis
+
+ednoiB
+enbiun
+
+‘@0UBI9|0} Bp BuOZ e] SUP
+4J9UE NO} JeNyIS 9S Yop gOUeEIO} JUSWIPI9,1
+
+4 90URI9|O} ap BUZ
+
+x (S)agylogds (s)eoues9j9y
+
+aouel9j91 ap
+squewe|3
+
+» (S)pOUeIgIOL
+squewi9|y
+
+1 @YWYOjUOD ap UI uoD
+juoweyeg UONISOg
+uoneueuO eu04
+
+uonesyisads ap adAL
+
+xneap| sjuawie!3
+
+« 19POW UNIS » NP SWeNXe
+xnegp| uou sjuewe/y
+
+uonesyioeds
+e] ap ajoquiAs
+
+‘eauel9|o} ep Suz Jed uopeayiogds Oun,p oshleuy
+
+SSIIVWYON INSWSONVESIOL
+
+DOCUMENT REPONSE 4
+
+
+===== page 30 =====
+[OCR] a
+
+TI
+I
+|
+r
+
+Coupe A-A
+
+5 4 Elastomére
+
+4 1 Disque
+
+3 1 Couronne
+
+2 1 Jante
+
+1 1 Bras oscillant
+
+REP. NB. DESIGNATION
+
+DOCUMENT REPONSE 5 : transmission finale et roue arriére
+
+1:2 ae A3 PT SIC 03/11/2005 | 1/1
+
+

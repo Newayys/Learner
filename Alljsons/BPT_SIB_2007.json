@@ -1,0 +1,657 @@
+{
+ "concours": "Banque PT",
+ "filiere": "SIB",
+ "date": "2007",
+ "file": "BPT_SIB_2007.pdf",
+ "status": 200,
+ "source": "banquept.fr, rubrique « Annales d'annales » (rubrique23.html)",
+ "epreuve_originale": "SI B",
+ "classification": "automatique par mots-clés (Claude, oct. 2026) — moins fine que celle des sujets récents",
+ "decoupage_questions": "Qn",
+ "texte_ocr": true,
+ "pages_sujet": 28,
+ "pages_total": 64,
+ "data": {
+  "parties": [
+   {
+    "titre_partie": "C – Etude de conception en construction mécanique",
+    "questions": [
+     {
+      "numero": "Q1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+        "semestre": "S1"
+       }
+      ],
+      "page": 10,
+      "tags": [
+       "engrenages"
+      ],
+      "texte": "Q1 Inscrire votre réponse dans le cadre R1 de la notice 1/3. ω2 1 - Donner la valeur numérique du rapport de transmission k 12 = des pignons P1 et P2 . ω1 2 – Déterminer les valeurs numériques des diamètres primitifs d 1 et d 2 des 2 pignons."
+     },
+     {
+      "numero": "Q2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Énergétique : Puissance et rendement",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+        "semestre": "S1"
+       }
+      ],
+      "page": 10,
+      "tags": [
+       "usinage"
+      ],
+      "texte": "Q2 Inscrire votre réponse dans le cadre R2 de la notice 1/3. 1 - En utilisant le document 4, page D4/17, déterminer les valeurs : - de l’angle d’inclinaison d’hélice β 2' de la vis ; - des diamètres primitifs d 3 de la roue et d 2' de la vis ; - de l’entraxe a 2' 3 ; ω3 - du rapport de transmission k 2' 3 = ; ω 2' - le rendement du système η 2' 3 . 2 - Proposer des matériaux utilisables pour la vis et pour la roue. C.2.2 Détermination de l’effort de coupe tangentiel maximum entre l’outil et la pièce Les caractéristiques du système de transformation de mouvement viennent d’être précisées. Pour dimensionner les liaisons, il est maintenant nécessaire de revenir sur les efforts supportés par ce système. Pour cela, nous considérons une opération de fraisage (surfaçage) utilisant le mouvement de l’axe de rotation B dans des conditions critiques. L’effort de coupe tangentiel maximal entre la fraise utilisée et la pièce doit être déterminé pour quantifier la limite du système. Il sera alors possible de conclure quant à la possibilité de réaliser des opérations de fraisage ébauche utilisant l’axe de rotation B. Les données géométriques associées au système de transformation de mouvement, ai"
+     },
+     {
+      "numero": "Q3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Énergétique : Puissance et rendement",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 11,
+      "tags": [],
+      "texte": "Q3 Inscrire votre réponse dans le cadre R3 de la notice 1/3. 1 - En tenant compte du couple moteur maximal et en prenant en compte les rendements des systèmes de réduction, déterminer l’expression du couple résistant Cr maximum autorisé en régime permanent en fonction de C max , η 12 , η 2' 3 , k 12 , k 2' 3 . 2 - Donner la valeur numérique de Cr ."
+     },
+     {
+      "numero": "Q4",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Énergétique : Puissance et rendement",
+        "semestre": "S3"
+       }
+      ],
+      "page": 11,
+      "tags": [
+       "usinage"
+      ],
+      "texte": "Q4 Inscrire votre réponse dans le cadre R4 de la notice 1/3. 1 - Sachant que la distance entre le point générateur M de l’outil et l’axe de l’arbre de sortie 3 est H , donner l’expression simplifiée de l’effort de coupe tangentiel maximum Fc max entre l’outil et la pièce lors de l’opération de surfaçage considérée en fonction de H et de Cr ? 2 – Sur la machine utilisée, la valeur de H est de 400 mm. Que vaut l’effort de coupe tangentiel Fc max ? 3 - En vous aidant du document 5, page D5/17 et page D6/17, sur le calcul de la puissance consommée pour une opération de fraisage et du document 6, page D7/17, sur la détermination de la pression spécifique de coupe, calculer la valeur numérique de l’effort de coupe Fc pour une opération de surfaçage « centré » avec les caractéristiques suivantes : - Matériau de la pièce à usiner : C60, - Engagement radial : a r = 30 mm ; - Profondeur de passe : a p = 2 mm ; - Fraise utilisée : D = 50 mm et Z = 6 ; - Angle de direction d’arête : Κ r = 90° ; - Angle de coupe : γ = 0° ; - Avance par dent : f z = 0 ,2 mm.dent −1 ; - Vitesse de coupe : Vc = 200 m. min −1 . 4 - Conclure sur la possibilité de réaliser des opérations de fraisage ébauche utilisant"
+     },
+     {
+      "numero": "Q5",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Énergétique : Puissance et rendement",
+        "semestre": "S3"
+       }
+      ],
+      "page": 12,
+      "tags": [],
+      "texte": "Q5 Inscrire votre réponse dans le cadre R5 de la notice 1/3. 1 - En fonctionnement sous charge maximum déterminer l’expression des composantes { } R12 et T12 du torseur représentatif des actions mécaniques T( 1→2 ) en fonction de C max , d 1 et α 12 . 2 - En fonctionnement sous charge maximum et en tenant compte des rendements des systèmes de transmission, déterminer l’expression des composantes A32 , R32 et T32 du { } torseur représentatif des actions mécaniques T( 3→2 ) en fonction de Cr , α 2' 3 , d 3 , β 3 et ϕ 2' 3 . 3 - Donner les valeurs numériques de R12 , T12 , A32 , R32 et T32 ."
+     },
+     {
+      "numero": "Q6",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Statique : Frottements",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       }
+      ],
+      "page": 12,
+      "tags": [
+       "usinage"
+      ],
+      "texte": "Q6 Inscrire votre réponse dans le cadre R6 de la notice 1/3. 1 - Appliquer le principe fondamental de la statique à l’arbre intermédiaire 2 et déterminer les expressions de YQ 1 , Z Q 1 , YQ 2 et Z Q 2 en fonction de R12 , T12 , A32 , R32 , T32 et des caractéristiques géométriques du système étudié. 2 - Calculer les valeurs numériques de YQ 1 , Z Q 1 , YQ 2 et Z Q 2 sachant que L = 323 mm , L1 = 84 mm et L2 = 131 mm . 3 - Pourquoi ne peut-on pas calculer X Q1 et X Q 2 ? C.2.4 Etude du moteur Le constructeur a choisi d’équiper le système étudié avec un moteur HC-RFS153 fabriqué par MITSUBISHI. Les données techniques et les caractéristiques de ce moteur sont données en partie B et sur les figures 14 et 15, document 3, page D3/17. T12/26 Tournez la page S.V.P. L’objectif de l’étude qui suit est de vérifier que ce moteur est bien dimensionné. Il paraît notamment judicieux de vérifier la valeur du rapport d’inertie Ri ainsi que de la vitesse de déplacement de l’axe de rotation B étant donné le système étudié. Hypothèses : Les frottements secs et visqueux dans le moteur seront négligés. L’ensemble {Broche de fraisage / Porte Outil / Outil} lié à l’arbre de sortie 3 et à la roue du systèm"
+     },
+     {
+      "numero": "Q7",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Accélérations",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Énergétique : Inertie équivalente",
+        "semestre": "S3"
+       }
+      ],
+      "page": 13,
+      "tags": [
+       "usinage"
+      ],
+      "texte": "Q7 Inscrire votre réponse dans le cadre R7 de la notice 1/3. 1 - En appliquant le théorème du moment dynamique à l’arbre du moteur, déterminer ⎛ dω m ⎞ l’expression de l’accélération maximale ⎜ ⎟ du moteur à vide en fonction de J m ⎝ dt ⎠ max et C max . ⎛ dω m ⎞ 2 - Donner la valeur numérique de l’accélération ⎜ ⎟ . ⎝ dt ⎠ max 3 - Comparer le résultat obtenu à la valeur fournie par le constructeur. C.2.4.2 Etude du moteur en charge Le système d’entraînement de la broche de fraisage peut être représenté par le schéma suivant : Moteur θm Réducteur Roue et vis Broche de θ2 θ3 fraisage P1 / P2 sans fin inertie J m ωm rapport k 12 ω2 rapport k 2' 3 ω3 inertie J B Ce schéma se ramène au schéma suivant : Charge Moteur θm inertie équivalente ramenée inertie J m ωm sur l’axe moteur : J ch arg e"
+     },
+     {
+      "numero": "Q8",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Énergétique : Inertie équivalente",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Énergétique : Théorème de l'énergie cinétique",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Énergétique : Puissance et rendement",
+        "semestre": "S3"
+       }
+      ],
+      "page": 13,
+      "tags": [
+       "usinage"
+      ],
+      "texte": "Q8 Inscrire votre réponse dans le cadre R8 de la notice 1/3. 1 – Déterminer l’énergie cinétique de l’ensemble (E) composé des 3 solides 1 , 2 et 3 dans leur mouvement par rapport au support de broche de fraisage 4 en fonction de ω m , J m , J B , k 2' 3 et k12 . 2 - En déduire l’inertie équivalente de la charge ramenée sur l’axe moteur J ch arg e en fonction de J B , k 2' 3 et k12 . T13/26 Tournez la page S.V.P."
+     },
+     {
+      "numero": "Q9",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 14,
+      "tags": [],
+      "texte": "Q9 Inscrire votre réponse dans le cadre R9 de la notice 1/3. J ch arg e 1 - Calculer la valeur numérique du rapport d’inertie Ri = . Jm 2 - En fonction des données du constructeur, le moteur est-il bien dimensionné ?"
+     },
+     {
+      "numero": "Q10",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Accélérations",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       }
+      ],
+      "page": 14,
+      "tags": [
+       "roulements",
+       "usinage"
+      ],
+      "texte": "Q10 Inscrire votre réponse dans le cadre R10 de la notice 1/3. ⎛ dω m ⎞ 1 - Déterminer l’expression de l’accélération angulaire ⎜ ⎟ du moteur au point de ⎝ dt ⎠ nom fonctionnement nominal en fonction de J m , J ch arg e et C nom . 2 - Au point de fonctionnement nominal, donner l’expression du déplacement angulaire ⎛ dω m ⎞ θ 3 ( t ) de la broche de fraisage en fonction de ⎜ ⎟ , k 2' 3 , k12 et du temps t . ⎝ dt ⎠ nom 3 - Le fabricant de la machine outil précise que l’axe de rotation B peut passer de la position 0 à 90° en 0,23 seconde. Qu’en pensez-vous ? C.2.5 Guidage de l’arbre intermédiaire 2 L’arbre intermédiaire 2 est guidé par 2 roulements à rouleaux coniques identiques SNR 32208. Ces roulements de centres de poussée Q1 et Q2 seront notés respectivement R1 et R2 . Leurs caractéristiques sont présentées sur la figure 13, document 2, page D3/17. Le fabricant de la machine outil souhaite que la durée de vie L10 des roulements soit de 35000 heures. L’objectif est de vérifier que les roulements SNR 32208 satisfont bien à cette condition."
+     },
+     {
+      "numero": "Q11",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 14,
+      "tags": [
+       "roulements"
+      ],
+      "texte": "Q11 Inscrire votre réponse dans le cadre R11 de la notice 1/3. Justifier le choix fait par le constructeur d’utiliser des roulements à rouleaux coniques pour le guidage de l’arbre intermédiaire 2 ."
+     },
+     {
+      "numero": "Q12",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 14,
+      "tags": [
+       "roulements"
+      ],
+      "texte": "Q12 Inscrire votre réponse dans le cadre R12 de la notice 1/3. 1 - Donner trois critères à considérer lorsque l’on doit choisir de réaliser un montage de roulements en O ou en X. 2 - Quelle solution envisagez-vous pour le guidage de l’arbre intermédiaire 2 ? (montage en X ou montage en O). Justifier votre réponse."
+     },
+     {
+      "numero": "Q13",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 14,
+      "tags": [
+       "roulements"
+      ],
+      "texte": "Q13 Inscrire votre réponse dans le cadre R13 de la notice 1/3. Choisir les tolérances à spécifier pour les portées des roulements."
+     },
+     {
+      "numero": "Q14",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+        "semestre": "S3"
+       }
+      ],
+      "page": 14,
+      "tags": [
+       "roulements"
+      ],
+      "texte": "Q14 Inscrire votre réponse dans le cadre R14 de la notice 1/3. Tracer un schéma technologique sur lequel vous représenterez l’arbre guidé, les deux roulements et leurs arrêts axiaux. T14/26 Tournez la page S.V.P. En fonctionnement sous charge maximum, les composantes radiales Fr1 et Fr2 des efforts exercées par l’arbre intermédiaire 2 sur les roulements R1 et R2 sont : Fr1 = ( YQ1 + Z Q1 ) = 970 N et Fr2 = ( YQ2 + Z Q2 ) = 1425 N . Il est rappelé au candidat que dans ce type de montage, la démarche constructeur introduit un Fr effort axial induit donné par : Fai = . La composante axiale des efforts extérieurs est : 2Y A32 = 3960 N . On choisira, pour le calcul, l’orientation de cet effort dans le sens des x positifs. Suivant la norme ISO281, la charge radiale dynamique équivalente est P = X ⋅ Fr + Y ⋅ Fa avec Fa et Fr les efforts axial et radial appliqués au roulement. Les facteurs de charge X et Y sont définis ci-dessous (la valeur de e est à prendre dans la table de données du constructeur fournie sur la figure 13, document 2, page D2/17) : Fa • Si ≤ e alors X = 1 et Y = 0 . Fr Fa • Si > e alors X = 0 ,4 et la valeur de Y est à prendre dans la table de données Fr du constructeur "
+     },
+     {
+      "numero": "Q15",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 15,
+      "tags": [
+       "roulements"
+      ],
+      "texte": "Q15 Inscrire votre réponse dans le cadre R15 de la notice 2/3. 1 - Déterminer les expressions des efforts axiaux Fa1 et Fa 2 exercées par l’arbre sur les roulements R1 et R2 en fonctionnement sous charge maximale en fonction de A32 , Y et Fr1 . 2 - Donner les valeurs numériques des efforts Fa1 et Fa 2 ."
+     },
+     {
+      "numero": "Q16",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+        "semestre": "S3"
+       }
+      ],
+      "page": 15,
+      "tags": [
+       "roulements"
+      ],
+      "texte": "Q16 Inscrire votre réponse dans le cadre R16 de la notice 2/3. 1 - Déterminer les expressions des charges dynamiques équivalentes P1 et P2 des deux roulements R1 et R2 en fonction de A32 , Y , Fr1 et Fr2 . 2 - Donner les valeurs numériques de ces charges P1 et P2 . Du fait de l’inversion possible du sens de la composante axiale des efforts extérieurs, les roulements choisis seront identiques et capables d’encaisser tous les deux la charge dynamique équivalente P la plus grande des deux valeurs calculées précédemment."
+     },
+     {
+      "numero": "Q17",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+        "semestre": "S3"
+       }
+      ],
+      "page": 15,
+      "tags": [
+       "roulements"
+      ],
+      "texte": "Q17 Inscrire votre réponse dans le cadre R17 de la notice 2/3. 1 - Donner l’expression de la valeur minimale de la charge dynamique de base C min en fonction de L10 , P et de la vitesse nominale N 2 de l’arbre intermédiaire 2 . 2 - Calculer la vitesse nominale N 2 de l’arbre intermédiaire 2 et donner la valeur numérique de C min . 3 - Conclure sur le choix par le constructeur des roulements à rouleaux coniques SNR 32208. T15/26 Tournez la page S.V.P."
+     },
+     {
+      "numero": "Q18",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 16,
+      "tags": [
+       "roulements"
+      ],
+      "texte": "Q18 Inscrire votre réponse dans le cadre R18 de la notice 2/3. Quelle est la proportion de la population de roulements mis en service à ne pas atteindre la durée de vie L10 souhaitée par le fabricant de la machine outil ? C.2.6 Etude de résistance des matériaux Dans cette partie, le dimensionnement de l’arbre intermédiaire 2 est étudié. La figure 6, page T16/26 montre que l’arbre est modélisé par une poutre de diamètre D et de longueur utile L . Les variations de diamètre seront négligées. y L L1 L2 L3 S L = 323 mm P L1 = 84 mm z L2 = 131 mm A Q2 B x"
+     },
+     {
+      "numero": "Q19",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Résistance des matériaux : Torseur de cohésion",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Dynamique : Géométrie des masses",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       }
+      ],
+      "page": 16,
+      "tags": [],
+      "texte": "Q19 Inscrire votre réponse dans le cadre R19 de la notice 2/3. Donner l’expression des torseurs des efforts intérieurs pour les 2 tronçons étudiés en fonction de R12 , T12 , X Q2 , YQ2 , Z Q2 , L , L1 , L2 , d 2 et de l’abscisse x du centre d’inertie géométrique G de la section droite . Dans la suite du sujet, les notations utilisées pour le torseur de cohésion, donné dans la base ( x , y , z ) , seront les suivantes : ⎧N M t ⎫ { Tcoh } = ⎪⎨T y Mf y ⎪⎬ ( G est le centre d’inertie géométrique de la section droite) ⎪ ⎪ ⎩Tz Mf z ⎭ G T16/26 Tournez la page S.V.P. Pour les sollicitations de torsion ( M t ) et de flexion (pour cette dernière, nous allons étudier uniquement Mf y ), il est proposé au candidat sur les figures 20 et 21, document 8, page D9/17 des allures de différents diagrammes possibles concernant la variation des composantes du torseur des efforts intérieurs."
+     },
+     {
+      "numero": "Q20",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Statique : Frottements",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
+        "semestre": "S1"
+       }
+      ],
+      "page": 17,
+      "tags": [],
+      "texte": "Q20 Inscrire votre réponse dans le cadre R20 de la notice 2/3. Choisir pour les sollicitations de torsion ( M t ) et de flexion ( Mf y ) précisées, l’allure du diagramme correspondant. Justifier brièvement votre réponse. C.2.6.1 Torsion de l’arbre intermédiaire 2 Le module de Coulomb du matériau utilisé est : G = 80000 MPa ."
+     },
+     {
+      "numero": "Q21",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 17,
+      "tags": [],
+      "texte": "Q21 Inscrire votre réponse dans le cadre R21 de la notice 2/3. 1 - Déterminer l’expression, en fonction de T12 , d 2 , G , L2 , L3 et θ lim , du diamètre minimum Dmin de l’arbre 2 , pour que le déphasage θ des sections passant par le point P et par le point S soit inférieur à la valeur limite θ lim . 2 - Dans le système étudié, le constructeur souhaite θ lim = 0 ,1°. Donner la valeur numérique de Dmin ."
+     },
+     {
+      "numero": "Q22",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Capteurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 17,
+      "tags": [],
+      "texte": "Q22 Inscrire votre réponse dans le cadre R22 de la notice 2/3. Du fait de l’existence de ce déphasage de sections et vis-à-vis du système étudié, quelle est le meilleur emplacement pour positionner le capteur de position. Doit-on le positionner sur le moteur ou sur la broche elle-même ? Justifier brièvement votre réponse. C.2.6.2 Flexion de l’arbre intermédiaire 2 Hypothèse : Dans cette étude, le candidat ne prendra en compte que le moment de flexion Mf y . Il est proposé au candidat sur la figure 22, document 8, page D9/17 des allures de différentes déformées z( x ) possibles."
+     },
+     {
+      "numero": "Q23",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Frottements",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Énergétique : Puissance et rendement",
+        "semestre": "S3"
+       }
+      ],
+      "page": 17,
+      "tags": [
+       "engrenages",
+       "clavetage / cannelures",
+       "frettage / ajustement serré"
+      ],
+      "texte": "Q23 Inscrire votre réponse dans le cadre R23 de la notice 2/3. Choisir pour la poutre étudiée, l’allure de la déformée z( x ) correspondante. Justifier brièvement votre réponse. C.2.7 Montage des pignons P1 et P2 La transmission de puissance du moteur peut être réalisée par obstacle (clavetage) ou par adhérence (moyeu expansible)."
+     },
+     {
+      "numero": "Q24",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 17,
+      "tags": [
+       "clavetage / cannelures"
+      ],
+      "texte": "Q24 Inscrire votre réponse dans le cadre R24 de la notice 2/3. 1 - Rappeler le critère de dimensionnement d’une clavette parallèle. T17/26 Tournez la page S.V.P. 2 - En utilisant les notations de la figure 23, document 9, page D10/17, donner l’expression de ce critère en fonction du couple à transmettre C , du diamètre de l’arbre d , de la longueur de clavette L et de la hauteur d’implantation h . Pour la suite des calculs et pour le choix des éléments, le candidat prendra les valeurs suivantes : - Valeur admissible de la grandeur de référence : 40 MPa ; - Diamètre de l’arbre 1 : 24 mm ; - Diamètre de l’arbre 2 : 30 mm."
+     },
+     {
+      "numero": "Q25",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Statique : Frottements",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
+        "semestre": "S1"
+       }
+      ],
+      "page": 18,
+      "tags": [
+       "accouplement",
+       "engrenages",
+       "clavetage / cannelures",
+       "frettage / ajustement serré"
+      ],
+      "texte": "Q25 Inscrire votre réponse dans le cadre R25 de la notice 2/3. En utilisant le tableau 2, document 9, page D10/17 donnant les grandeurs caractéristiques des clavettes parallèles usuelles de forme B, déterminer les dimensions de la clavette 1 pour transmettre le couple maximal au pignon P1 ainsi que celles de la clavette 2 pour le pignon P2 ? Le constructeur a préféré utiliser un moyeu expansible (frette démontable) du fournisseur japonais TSUBAKIMOTO (figures 24 et 25, document 9, page D10/17) plutôt que choisir la solution clavetée. Principe : Le blocage des pièces se fait par adhérence. En rapprochant les bagues coniques de l’accouplement par serrage des vis, les bagues extérieures de l’accouplement s’écartent. La pièce extérieure est alors frettée mécaniquement sur l’arbre par l’intermédiaire du moyeu expansible."
+     },
+     {
+      "numero": "Q26",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 18,
+      "tags": [
+       "clavetage / cannelures"
+      ],
+      "texte": "Q26 Inscrire votre réponse dans le cadre R26 de la notice 2/3. Pourquoi le constructeur a-t-il fait le choix des moyeux expansibles vis-à-vis d’un clavetage classique ? Proposer trois critères justifiant ce choix."
+     },
+     {
+      "numero": "Q27",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       }
+      ],
+      "page": 18,
+      "tags": [
+       "engrenages",
+       "usinage"
+      ],
+      "texte": "Q27 Inscrire votre réponse dans le cadre R27 de la notice 2/3. 1 - A l’aide du tableau 3, document 9, page D10/17 du fournisseur de moyeux expansibles, donner la référence de l’élément nécessaire dans le montage du pignon P1 . 2 - A l’aide du tableau 4, document 9, page D10/17 du fournisseur de moyeux expansibles, donner la référence de l’élément nécessaire dans le montage du pignon P2 . 3 - Le constructeur a décidé de prendre des moyeux expansibles de deux séries différentes pour le montage des pignons (série PL pour le pignon P1 et série RTT pour le pignon P2 ). Justifier ce choix. C.2.8 Etude de la fabrication d’une pièce Pour fabriquer la roue P3 montée sur l’arbre de sortie 3 , le fabricant utilise un élément intermédiaire appelé touret. Le dessin de définition de cette pièce est représenté sur le document 10, page D11/17. Le contrat de phase de la dernière phase d’usinage du touret est fourni sur le document 11, page D12/17. T18/26 Tournez la page S.V.P."
+     },
+     {
+      "numero": "Q28",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Matériaux : Choix",
+        "semestre": "S3"
+       }
+      ],
+      "page": 19,
+      "tags": [],
+      "texte": "Q28 Inscrire votre réponse dans le cadre R28 de la notice 2/3. Donner la signification de la désignation normalisée du matériau utilisé pour le touret."
+     },
+     {
+      "numero": "Q29",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+        "semestre": "S2"
+       }
+      ],
+      "page": 19,
+      "tags": [
+       "tolérances géométriques"
+      ],
+      "texte": "Q29 Inscrire votre réponse dans le cadre R29 de la notice 3/3. Interpréter les spécifications suivantes figurant sur le dessin de définition : 1 - 116 ±0.05 2- Ø 0.05 C + 91 Remarque : Pour cette seconde spécification, le candidat devra bien préciser le nom de la spécification, l’élément tolérancé, la référence spécifiée et la zone de tolérance."
+     },
+     {
+      "numero": "Q30",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       }
+      ],
+      "page": 19,
+      "tags": [],
+      "texte": "Q30 Inscrire votre réponse dans le cadre R30 de la notice 3/3. En utilisant la 2ème partie de la norme NFE 04-013 rappelée sur le document 12, page D13/17, représenter la mise en position et le maintien en position de la pièce. Justifier votre choix."
+     },
+     {
+      "numero": "Q31",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Énergétique : Puissance et rendement",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       }
+      ],
+      "page": 19,
+      "tags": [
+       "usinage"
+      ],
+      "texte": "Q31 Inscrire votre réponse dans le cadre R31 de la notice 3/3. Pour l’opération de tournage ébauche du profil extérieur du touret, calculer la fréquence de rotation N et la vitesse d’avance Vf . On s’intéresse ici au calcul de la puissance nécessaire à la coupe pendant l’opération d’ébauche. Il est rappelé au candidat que le centre d’usinage utilisé pour réaliser cette opération a une puissance disponible à la broche de 15 kW. Le matériau usiné est un C60. La profondeur de passe radiale est de 4 mm. L’outil utilisé a un angle de direction d’arête Κ r de 93° et un angle de coupe γ de 0°."
+     },
+     {
+      "numero": "Q32",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Énergétique : Puissance et rendement",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 19,
+      "tags": [
+       "usinage"
+      ],
+      "texte": "Q32 Inscrire votre réponse dans le cadre R32 de la notice 3/3. 1 - En vous aidant du document 13, page D14/17, sur le calcul de la puissance consommée pendant une opération de tournage et du document 6, page D7/17, sur la détermination de la pression spécifique de coupe, déterminer la puissance nécessaire à la coupe pour l’opération d’ébauche. 2 - L’usinage est-il envisageable avec la machine proposée ? T19/26 Tournez la page S.V.P. C.3 – Dessin d’étude de construction mécanique C.3.1 Présentation générale du travail de conception Comme nous l’avons souligné précédemment, le marché de la machine outil est très concurrentiel. Des produits innovants sont donc indispensables pour gagner des parts de marché. Le constructeur du système étudié souhaite donc améliorer la robustesse et la précision du déplacement angulaire de la broche de fraisage de façon décisive pour s’imposer vis-à-vis des autres fabricants. Il envisage d’intégrer un système d’entraînement par vis globique et galets à la place du traditionnel système roue et vis sans fin (figure 7, page T20/26). Ce nouveau système permet notamment d’améliorer les exigences de la fonction principale FP1 (figure 5, page T5/26). Le systèm"
+     },
+     {
+      "numero": "Q33",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 20,
+      "tags": [
+       "usinage",
+       "hydraulique"
+      ],
+      "texte": "Q33 Inscrire votre réponse dans le cadre R33 de la notice 3/3. Quel est à votre avis le principal intérêt de disposer sur un centre de tournage de la possibilité de tourner une pièce avec un outil incliné d’un angle B ? Dans ce mode de tournage, il est nécessaire d’indexer la position angulaire de la broche qui contient alors l’outil de tournage (figure 7, page T20/26 et figure 8, page T21/26). T20/26 Tournez la page S.V.P. Positions des 8 vis M12 permettant de lier la broche de fraisage au touret Ø 272 Ø 232 8 vis M12 Sous ensemble broche de fraisage Dispositif hydraulique Touret de translation du poussoir non représenté sur ce schéma Poussoir Support de broche Position de tournage Position de fraisage 3 ou avec axe B 5 axes positionné Figure 8 - Système d’indexation du système broche/touret sur le support de broche Le constructeur a décidé de réaliser cette indexation par crabotage sur le support de broche de la pièce appelée touret, qui est liée à la broche. L’ensemble composé de la broche et du touret est en liaison pivot avec le support de broche. Le dessin, figure 8, page T21/26, illustre le système de crabotage retenu. Ce système repose sur la translation d’une pièce, appelé"
+     },
+     {
+      "numero": "Q35",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 22,
+      "tags": [
+       "dessin / conception sur calque"
+      ],
+      "texte": "Q35 Inscrire votre réponse dans le cadre R35 de la notice 3/3. Calculer, en utilisant le document 14, page D15/17, le couple maximal de serrage C s max à donner à chaque vis pour que l’on obtienne le fonctionnement souhaité. C.3.2 Présentation des supports du travail de conception Pour cette partie de l’étude, il est demandé de définir l’ensemble du mécanisme d’entraînement de la broche. Pour cela, le candidat dispose du calque n°1, de format A3 vertical, pré imprimé, et du calque n°2, de format A3 vertical, pré imprimé, fournis avec le sujet. Les éléments pré imprimés sur ce calque sont destinés à faciliter la mise en place des différents éléments à dessiner (voir figure 9, page T23/26). T22/26 Tournez la page S.V.P. Figure 9 - Croquis de mise en page des calques pré imprimés fournis. Le candidat trouvera l’axe de rotation du moteur et une représentation partielle simplifiée de la vis globique et du touret supportant les différents galets sur la coupe A-A (Calque n°1, figure 9, page T23/26). Attention, seule une partie de la vis globique est représentée afin de laisser libre le choix de la représentation de la liaison pivot entre la vis et le carter. Les formes et dimensions de la"
+     }
+    ]
+   }
+  ]
+ }
+}

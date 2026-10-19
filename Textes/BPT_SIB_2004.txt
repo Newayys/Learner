@@ -1,0 +1,1801 @@
+
+===== page 1 =====
+[OCR] K14G
+
+% BANQUE FILIERE PT *
+
+Epreuve de Sciences Industrielles II
+
+Durée : 6hOO
+
+«1 cahier de 20 pages de texte, numérotées de 1 a 20;
+
+«8 documents format A4, intitulés « Document i», avec i= 1, 2, 4, 5, 6, 7, 8, 9,
+et 1 document format A3, intitulé « Document 3 »,
+tous imprimés au recto seulement, sauf le Document 7 ;
+
+= 2feuilles format A3 pliées, imprimées recto verso, respectivement intitulées « Notice
+justificative 1/2 », « Notice justificative 2/2 », a rendre en fin d’épreuve ;
+
+= 2 feuilles format A3, pré imprimées au recto seulement, intitulées « Dessin pour réponses
+n°1 » et « Dessin pour réponses n°2 », a rendre en fin d'épreuve ;
+
+= 2 feuilles de calque format A3, pré imprimées, intitulées « Caique n°1 » et « Caique n°2 » a
+rendre en fin d’épreuve.
+
+[TOUTE AUTRE DOCUMENTATION EST INTERDITE |
+
+Matériel autorisé : tous instruments usuels du dessinateur.
+
+TOUTES LES CALCULATRICES SONT INTERDITES, QUEL QU’EN SOIT LE TYPE,
+AINS] QUE LES AGENDAS ELECTRONIQUES ET LES TELEPHONES PORTABLES
+
+Gestion du temps : En admettant une durée d’une heure pour la lecture et ’assimilation du sujet, il
+est vivement conseillé de consacrer entre 1h 30 min. et 2h au maximum a la
+réponse aux questions de la notice et 3 h 4 3h 30 min. au tracé des dessins.
+
+Figure 1 - Exemple de vérin
+mécanique linéaire, a systeme
+vis-écrou glissant a filet
+trapézoidal.
+
+1 Tournez la page S.V.P.
+
+
+===== page 2 =====
+[OCR] ETUDE D’UN VERIN ELECTROMECANIQUE LINEAIRE
+A SYSTEME VIS - ECROU
+
+A - Cahier des Charges Fonctionnel (Extraits)
+
+A.1 - Présentation du probléme.
+
+A.1.1 — Le produit « actionneur » et son marché.
+
+L'usage d’actionneurs est largement répandu dans la conception de machines de
+production, de matériels d’équipement immobilier ou industriel, de véhicules en tous genres,
+etc.
+
+Les actionneurs rendent service aux producteurs de ces matériels ou installations, en
+constituant des sous-ensembles de performances connues et garanties, qu'il est possible de
+choisir sur catalogue, réalisés le plus souvent en série par des entreprises spécialisées,
+directement intégrables dans le matériel ou I’installation 4 produire, 4 coGt moindre que s'il
+fallait les fabriquer spécifiquement pour chaque application particuliére.
+
+Les actionneurs agissent sur des parties mobiles de structures, de machines, des objets
+jisolés, des matiéres solides divisées, des fluides en mouvement, etc.
+
+Les actionneurs peuvent réaliser, de maniére exclusive ou cumulative, plusieurs
+fonctions :
+
+= convertir de |'énergie disponible (électrique, chimique, thermique, fluide,
+potentielle, etc.) en énergie mécanique ;
+
+= transformer |’énergie mécanique (recue, si cette forme d’énergie est directement
+disponible, ou issue de la conversion précédente) pour :
+
+o changer la nature du mouvement véhiculant cette énergie ;
+
+o adapter son terme intensif (effort, couple) et son terme extensif (course
+rectiligne ou angulaire) a l'usage qui en sera fait.
+
+A titre d'exemple, la figure 1, page 1, représente un actionneur dit « vérin mécanique
+linéaire 4 systéme vis-écrou », n’assurant pas la fonction de conversion d’énergie (il regoit
+directement de l'énergie mécanique), mais seulement celle de transformation de l’énergie
+mécanique regue dans un mouvement de rotation en énergie mécanique dans un mouvement
+de translation.
+
+A.1.2 —Le produit a concevoir.
+
+La société qui vous confie une étude produit notamment des vérins électromécaniques
+linéaires 4 systéme vis-écrou. Un te! actionneur convertit d'abord l'énergie électrique qu’il
+recoit en énergie mécanique sous forme d’un couple dans un mouvement de rotation, ce qui est
+réalisé par un moteur électrique. I! transforme ensuite cette énergie mécanique en effort exercé
+dans un mouvement de translation, par utilisation d'un systéme de transformation de
+mouvement a vis-écrou.
+
+Ces vérins sont congus et réalisés de maniére modulaire, ce qui permet a la société de
+proposer dans son catalogue une certaine diversité au niveau des types de moteurs et de leurs
+performances, au niveau des types de systémes vis-écrou, au niveau enfin des types de liaison
+de ces vérins avec les piéces ou parties de structures qui les regoivent.
+
+Actuellement, la fonction d'adaptation n’est assurée que dans des proportions restreintes,
+par choix initial de fa vitesse du moteur (parmi un trés petit nombre de valeurs possibles) et des
+caractéristiques du systéme vis-écrou (nombre limite de valeurs possibles de pas et de nombre
+de filets).
+
+
+===== page 3 =====
+[OCR] La société envisage d’élargir la plage de choix possible en assignant aux vérins actuels
+une fonction supplémentaire d'adaptation de énergie mécanique 4 l'utilisation envisagée, par
+modification de la vitesse de rotation produite par le moteur électrique a !'aide d’un réducteur de
+vitesse interposé entre ie moteur électrique et le systeme vis-écrou. La figure 2, ci-dessous,
+représente l'agencement des trois principaux sous-ensembles de {a partie opérative du vérin a
+étudier. Il sera alors possible a l'acquéreur d’un tel actionneur de choisir la réduction la mieux
+adaptée a son probléme, et méme de la faire évoluer au cours de la vie du vérin, par simple
+changement de la chaine cinématique interme du réducteur de vitesse.
+
+Pott tnt nn nnn nn nnn nn nan A
+Energie | ~ | Energie
+électrique | , Systéme vis- | mécanique
+
+Moteur Réducteur de écrou de i
+—— électrique md vitesse =P} transformation =P
+de mouvement ! effort en
+! translation
+1
+
+Partie opérative du vérin a étudier
+
+Figure 2 - Agencement des principaux sous-ensembles du vérin a étudier.
+
+Actuellement, la société produit 20 000 vérins par an, a peu prés également répartis sur
+les 5 « tailles » proposées par le catalogue. Une taille correspond a un niveau d’effort maximai
+développable par le vérin, déterminé par la tenue mécanique des composants du vérin et les
+Possibilités d'utilisation du moteur choisi. La société estime que l'augmentation des possibilités
+de ses produits augmentera leur intérét et, en conséquence, les ventes d’environ 1 000 unités
+par an pour chaque taille.
+
+A.1.3 - Le contexte du projet.
+
+Limites de l'étude : étude demandée ne porte que sur Ia partie opérative du vérin.
+Choix de concept : - chacun des sous-ensembles reste un module interchangeable ;
+
+- les moteurs éiectriques sont des composants achetés.
+
+A.2 — Analyse fonctionnelle du besoin. (extrait)
+
+Parmi toutes les situations du cycle de vie du produit, il ne sera considéré que la situation
+de fonctionnement opérationnel. De plus, son étude sera présentée sous une forme simplifiée.
+
+Bien que les énoncés fonctionnels, les critéres de caractérisation des fonctions et la
+majeure partie des niveaux retenus soient généraux, indépendants de ia « taille » du vérin (en
+termes d'effort), quelques niveaux sont exprimés en référence aux capacités propres a chaque
+taille de vérin.
+
+Enfin, quelques niveaux sont définis sous forme de plages de valeurs correspondant aux
+choix optionnels laissés a f'acquéreur du vérin : ils concernent la vitesse et la course du vérin.
+
+3 Tournez Ia page S.V.P.
+
+
+===== page 4 =====
+[OCR] A.2.1 - Graphe des interacteurs.
+
+Producteur de l’équipement industriel Ensemble de |'équipement industriel
+FS4
+For Fs2 Partie fixe de
+Fséy FSS FS3 équipement industriel
+Humains \ a - -
+proches du Vérin électromécanidye linéaire re Partie mabile de_
+vérin ‘equipement industriel
+
+FSs9
+Fs41 Fe2 Fs1
+FS10 FS8
+Milieu ambiant Lieu d’implantation Réseau électrique
+
+A.2.2 - Enoncés des fonctions de service et des contraintes
+
+Fonctions principales :
+
+FS1 Convertir 'énergie électrique en énergie mécanique.
+FS2 Faire varier la distance entre une zone de la partie mobile de I'équipement et une
+zone de la partie fixe.
+
+Fs3 Exercer un effort sur la partie mobile de 'équipement en prenant appui sur la partie
+fixe.
+
+Fonctions secondaires :
+FS4 S'intégrer a l'équipement industriel.
+
+FS5 Résister aux conditions de service sans perturbation du fonctionnement.
+(démarrages, durée de fonctionnement, surcharges éventuelles, etc.)
+
+FS6 Ne pas engendrer de danger pour les humains proches sur le site (piéces en
+mouvement, courant électrique, formes dangereuses, instabilité, etc.)
+
+FS7 Ne pas émettre un bruit insupportable pour les humains proches.
+Fss Limiter la consommation énergétique.
+
+FS9 Résister aux effets du milieu ambiant. (température, éléments agressifs solides,
+liquides ou gazeux, chocs d'autres objets, etc.)
+
+FS10 — Eviter l'accumulation de salissures externes.
+FS11 Ne pas salir le lieu d’implantation.
+Contraintes :
+
+FC1 Etre d’un cout acceptable.
+FC2 Etre adapté au réseau électrique.
+
+A.2.3 - Caractérisation des fonctions.
+
+Le tableau est présenté page 5, ci-contre.
+
+
+===== page 5 =====
+[OCR] Fonction | Critéres Niveaux
+FS1 » Puissance du moteur électrique. * 250 W.
+» Fréquence de rotation du moteur électrique. * 1390 min*
+FS2 * Course maximale du vérin. +250 4 1000 mm.
+* Vitesse de translation de la tige du vérin par rapport a © 1,25 42,5 m.min", soit
+son corps. 21442 mms! ®.
+FS3 * Effort maximal développé par ie vérin. *2000N.
+* Degré d’hyperstaticité de la chaine fermée { partie fixe / | *H=0.
+partie mobile / actionneur }-
+FS4 + Encombrement axial maximal (tige rentrée). * course + 300 mm.
++ Encombrement transversal maximal. * 300 mm x 300 mm.
+FSs * Fréquence des cycles d'utilisation (aller + retour). *30hn"
+* Durée annuelle de fonctionnement. * 2000 h.
+* Durée minimale de fonctionnement avant premiére +2000 h.
+panne.
+* Durée minimale de fonctionnement entre pannes. * 500 h.
+* Durée maximale d’indisponibilité pour panne. * 1 semaine.
+* Taux maximal de non démarrage. © 10%.
+* Marge par rapport aux états limites de ruine. 2.
+FS6 * Classe de protection électrique. «IP 55.
+* Nombre d’arétes vives accessibles aux mains. * aucune.
+* Possibilité d’accés en service d’une partie corporelle * aucune.
+humaine.
+FS7 * Niveau de pression acoustique maximale due au vérin, | * 70 dB(A).
+& 1m du vérin.
+Fss8 * Consommation énergétique maximale. * 600 Wh.
+Fs9 « Température minimale de fonctionnement. *-20°C.
+* Température maximale de fonctionnement. + 50°C.
+* Corrosion d’un matériau au contact d’eau. * aucune au bout de - mois,
+a 20°C.
+* Corrosion d’un mateériau au contact d'un autre, en * aucune au bout de 2 ans,
+atmosphére humide. a 20°C.
+* Energie maximale de choc subi par le vérin ne °5J.
+l'empéchant pas de bien fonctionner.
+FS10 + Rétention d'eau, de boue ou de poussiére par les * aucune.
+formes extérieures.
+FS11 + Traces déposées ou projetées sur le tieu d’implantation. | » aucune au bout de 2 ans.
+FC1 * Prix d’achat maximal. .
+FCc2 * Tension de courant électrique. * triphasé 380 V + T.
+* Fréquence du secteur. * 50 Hz.
+* Puissance disponibile. *<2,5 kW.
+
+© Quatre variantes de réalisation sont prévues, de valeurs de courses 250, 500, 750 et 1 000 mm.
+® Suivant la réduction du sous-ensemble réducteur.
+
+Tournez la page S.V.P.
+
+
+===== page 6 =====
+[OCR] B - Etude et éléments de solutions proposés
+B.1— Architecture générale.
+
+Comme indiqué plus haut, rentreprise a adopté le principe d'une conception et d'une
+réalisation modulaires de ses vérins, qu'elle demande donc au candidat (faisant office de
+concepteur) de respecter. La figure 3, ci-dessous présente l'agencement retenu pour les
+différents sous-ensembles énumérés sur la figure 2, page 3. Pour satisfaire la contrainte
+d'encombrement axial (cf. FS4, pages 4 et 5), une disposition « repliée » (avec fe moteur
+disposé 4 cété du fourreau de guidage) a été adoptée : le carter de réducteur est la piéce
+maitresse de la structure du vérin, 4 laquelle sont respectivement liés le moteur électrique et le
+socle du fourreau. Le systéme vis-écrou est contenu dans l'ensemble du sccle et du fourreau.
+
+Chape de liaison
+ala partie mobile ———>
+
+Tige du
+vérin
+
+Fourreau de
+guidage de la
+tige
+
+Socle du
+
+Moteur fourreau
+
+électrique
+
+Réducteur
+
+de vitesse Tourillons de liaison
+
+a la partie fixe
+
+Figure 3 - Agencement des principaux sous-ensembles du vérin a étudier et de ses liaisons.
+
+C'est également par ce carter que le vérin est lié a la partie fixe de ’équipement : deux
+tourillons, solidaires du carter du réducteur, participent a la réalisation d’une articulation. La tige
+du vérin, qui est plus ou moins sortie du fourreau, est liée a la partie mobile de l’équipement par
+une chape participant a une autre articulation. Ces liaisons sont évidemment réalisées avec les
+degrés de mobilités nécessaires pour un fonctionnement globalement isostatique de l'ensemble
+de l’équipement. Leur étude ne sera pas abordée, sauf partiellement pour les tourillons du
+carter.
+
+B.2 — Description des choix retenus pour les divers modules.
+
+B.2.1- Le systéme vis-écrou.
+
+Méme si d'autres schémas sont d’abord utilisés dans les questions de la partie C.2.3-
+Modélisation mécanique, c’est finalement le schéma cinématique de la figure 7, page 16,
+qui est adopteé. |! conduit a un schéma technologique du systéme vis-écrou qui est représenté
+de maniére simplifiée par la figure 4, ci-aprés. Ce choix est justifié par le souci de protection
+en fonctionnement du systéme vis-écrou : c'est une tige (lisse) qui sort du fourreau qui la guide,
+
+
+===== page 7 =====
+[OCR] et non directement la vis ; cette tige est creuse, fermée en bout, et contient la vis qui se trouve
+donc isolée du milieu extérieur. Le fourreau est fixé sur le carter du réducteur par l’intermédiaire
+du socle.
+
+1 ;
+nl Carter du réducteur Tige
+
+sk i JE a a — ast
+
+i Région non !
+Socle Fourreau i @tudiée =!
+
+darticulation
+
+Figure 4 - Schéma technologique simplifié du systéme vis-écrou.
+
+Le document 1, sur feuille A4 séparée, définit partiellement, a I'échelle 1:1, la forme de
+Pextrémité de la vis traversant le socle. Pour faciliter son travail de conception, le détail de la
+forme du bout d’arbre de vis est laissé au fibre choix du candidat. Dans sa partie filetee, cette
+vis a un diamétre nominal d = 16 mm, un profil carré de pas p = 4 mm, dont le detail est défini
+par lafigure 6, page 16.
+
+Le socle sera obtenu a partir d'une préforme moulée. Dans un souci de recherche
+d’économie 4 la fabrication, i! a été décidé d’utiliser une préforme ayant les mémes formes
+extemes qu’un socle déja fabriqué pour un autre type de vérin: cela permettra d'utiliser le
+méme modéle en ne créant qu'une nouvelle boite a noyau. Le document 2, sur feuille A4
+séparée, intitulé « Socle — Préforme moulée », définit 'ensembie de cette préforme actuelle.
+Le document 3, sur feuille A3 séparée, intitulé « Socle — Dessin de définition du produit
+fini », définit ‘ensemble des usinage du socle actuel.
+
+Par ailleurs, afin d’utiliser des fourreaux déja couramment usinés dans la société, il est
+décidé de s’aligner sur les formes et dimensions existantes ; pour le vérin étudié, il s’agira d’un
+fourreau_de diamétre extérieur 35, fileté M35x2 a son extrémité. Le taraudage du socle ou se
+visse le fourreau se trouve donc ainsi imposé.
+
+Le document 4, sur feuille A4 séparée, définit, 4 l’échelle 1:1, la partie ainsi déja définie
+de la forme du socle, a respecter par le candidat dans son travail de conception : forme externe
+compléte et forme inteme partielle pour la liaison du fourreau.
+
+Le document 5, sur feuille A4 séparée, définit partiellement, a l’échelle 1:1, la forme de
+extrémité du fourreau venant se visser dans le socle. Le vissage est réalisé jusqu’a appui de
+Pextrémité du fourreau sur le fond plan du taraudage du socie.
+
+L’étude de la partie contenue a l'intérieur du cadre tracé en mixte fin sur la figure 4 n’est
+pas demandée : la tige, son guidage en translation dans le fourreau, le guidage en rotation et
+en translation, par rapport a la tige, de |’extrémité de la vis la plus éloignée du réducteur.
+
+7 Tournez la page S.V.P.
+
+
+===== page 8 =====
+[OCR] B.2.2- Le moteur.
+
+Compte tenu du rendement preévisionne!l du systeme vis-écrou, il a été choisi un moteur
+électrique asynchrone triphasé fermé, de niveau de protection IP55, de puissance nominale
+P = 250 W et de fréquence de rotation nominale Nm = 1 390 min~'. Le document 6, sur feuille
+A4 séparée, deéfinit, a l'échelle 1:1, les formes du bout d’arbre du moteur et de son flasque de
+fixation.
+
+B.2.3 - Le réducteur de vitesse.
+
+La nécessité géomeétrique d’un entraxe important entre les axes de ses arbres d’entrée et
+de sortie, résultant du choix d’agencement présenté figure 3, page 6, la faible puissance a
+transmettre, la recherche d'un rapport de réduction modéré, ont conduit a l’adoption, pour la
+transmission inteme a ce réducteur, d'un systéme poulies et courroie dentée (ou crantée ou
+« synchrone ») a profil curviligne au pas de 3mm. Ces composants seront achetés sur
+catalogue. Le document 7, imprimé recto verso sur feuille séparée, définit la courroie
+retenue. En se reportant au document 8, sur feuille séparée, on pourra voir l’allure de la
+forme extérieure des poulies recevant cette courroie ; leurs formes intérieures ne sont pas
+définies car elles sont usinées a la demande.
+
+B.2.3.1 - Les poulies.
+
+L'adaptation de vitesse aux besoins de l’acquéreur (vitesse de translation de la tige du
+vérin par rapport a son fourreau) (cf. FS2, pages 4 et 5) sera obtenue par le choix d’un couple
+de poulies approprié, réalisant la réduction souhaitée entre le moteur (fréquence de rotation
+donnée) et ia vis. Le producteur de ces composants de transmission propose dans son
+catalogue une série compléte de poulies dont les nombres de dents sont échelonnés d’unité en
+unité sur une plage tres large couvrant largement le besoin pour cette réalisation dans taquelle
+‘on retiendra «
+
+Tailles extremes des poulies Petite poulie Grande poulie
+Nombre minimal de dents Zi min = 31 Ze min = 69
+Nombre maximal de dents Zi max = 45 22 max = 138
+
+Utilisation des poulies Petite poulie Grande poulie
+Réduction minimaie Z1 = Z4 min = 31 Zz = Zz min = 69
+Réduction maximale 21 = Zi min = 31 22 = Ze max = 138
+
+Encombrement maximal 24 max = 45 22 max = 138
+
+La petite poulie sera fixée directement sur le bout d’arbre du moteur dont les formes sont
+définies sur le document 6, déja cité, et ne peuvent étre modifiées ; ce sera la pouiie motrice.
+La grande poulie sera fixée sur le bout d’arbre de la vis du systéme vis-écrou ; ce sera la poulie
+réceptrice. Contrairement au bout d’arbre du moteur, les formes de ce bout d’arbre ne sont pas
+précisées (cf. document 1, déja cité) et seront a définir dans la partie « conception ». De
+méme, les formes des poulies pour leur liaison aux arbres, ne sont pas définies : c’est toujours
+a Vacquéreur de préciser ce qu’il souhaite ou de les finir lui-méme ; vous aurez la tache de
+préciser vos choix de formes et de dimensions.
+
+C'est la combinaison 4 encombrement_ maximal des poulies qui_sera_retenue_pour la
+partie « Conception ». Le document 8, déja cité, présente 4 l’échelle 1:1 les formes extérieures
+des deux poulies retenues.
+
+
+
+===== page 9 =====
+[OCR] B.2.3.2 — La courroie et le réglage.
+
+En ce qui conceme les courroies proposées dans le catalogue, elles sont caractérisées
+par le pas de leur denture, leur fargeur et leur longueur ; ce sont obligatoirement des courroies
+fermées sur elles-méme. Le_pas choisi_ est 3mm (cf. 1° alinéa du paragraphe courant). La
+largeur choisie est de 15 mm ; les poulies définies par le document 6 lui sont adaptées.
+
+Le choix de la longueur de Ia courroie est moins souple que celui du nombre de dents des
+poulies : pour le pas choisi, |'etagement des longueurs proposées par le catalogue est de l’ordre
+de 20 a 40mm. Il en résulte qu'il est impossible de trouver une courroie de longueur
+exactement adaptée a la combinaison des diamétres de poulies choisis et de leur entraxe.
+
+Une solution pourrait étre de faire varier l'entraxe des poulies. La conception du carter en
+serait compliquée, et l'encombrement transversal du verin augmenté. Cette solution a été
+rejetée.
+
+L’autre solution pour résoudre le probleme de longueur de courroie, qui est retenue ici, est
+d’avoir recours a un galet compensateur (parfois dit galet « tendeur », bien qu'il ne soit pas
+indispensable de mettre en tension ce type de courroie au montage).
+
+Ila été décidé de privilégier la résolution de la contrainte de limitation de l'encombrement
+transversal (cf. FS4, pages 4 et 5), en adoptant un entraxe minimal compatible avec
+tencombrement du moteur et du socie. La valeur d’entraxe retenue est de 128 mm; c'est elle
+qui est représentée sur le calque pré-imprimé destiné a la conception.
+
+Toujours pour satisfaire au mieux la contrainte de limitation de |l'encombrement
+transversal, le galet compensateur sera disposé a l'extérieur de la courroie et non a l'intérieur.
+Ce choix augmente les arcs d’enroulement, mais contre-fléchit la courroie ce qui réduit sa durée
+de vie ; cela reste acceptable ici puisque le vérin est utilisé de maniére discontinue.
+
+La définition de la trajectoire du galet compensateur, en direction et limites de course
+nécessaire, est tracée sur le calque pré-imprimé destiné a la conception. Le document 9, sur
+feuille séparée, définit les formes extemes du galet compensateur, qui sera guidé en rotation
+par un roulement combiné a aiguilles et a billes a choisir (sans calcul) parmi ceux proposés par
+le méme document.
+
+B.2.3.3 — Le carter.
+
+Comme déja précisé, les composants cinématiques définis ci-dessus sont contenus dans
+un carter sur !equel sont fixés le moteur et le socle du fourreau (cf. début du § B.1 et figure 3,
+page 6). C'est également ce carter qui porte les deux tourillons de son articulation sur la partie
+fixe de l'équipement. Pour des raisons mécaniques évidentes, |'axe commun de ces tourillons
+doit étre concourant avec !'axe de Ia vis et de son fourreau, et lui étre perpendicuiaire.
+
+9 Tournez fa page S.V.P.
+
+
+===== page 10 =====
+[OCR] C - Etude de conception en construction mécanique
+
+C.1 — Présentation du travail 4 rendre.
+Comme indiqué plus haut en page 1, en admettant une durée d’une heure pour la lecture et
+assimilation du sujet, il est vivement conseillé de consacrer entre 1h 30min. et 2h au
+maximum a la réponse aux questions de la notice et 3 h 4 3h 30 min. au tracé du dessin.
+
+Les réponses seront fournies uniquement sur les six documents
+présentés ci-dessous.
+
+1 — Notice justificative (40 % de ta note globale).
+
+Fournir les réponses sur les deux documents respectivement intitulés « Notice
+justificative 1/2 » et « Notice justificative 2/2», de format A3 horizontal, pliés, pré
+imprimés recto verso, et sur les deux documents respectivement intitulés « Dessin
+pour réponse n°1» et «Dessin pour réponse n°2», de format A3 horizontal, pré
+imprimés au recto seulement, qui sont joints au sujet et seront 4 rendre non pliés.
+
+Les réponses sur feuilles de copies additionnelles ou sur papier de brouilion ne
+seront pas acceptées.
+
+2 — Dessin d’étude de construction mécanique (60 % de la note globale).
+
+It est a tracer sur les deux calques pré imprimés de format A3V, intitulés « Calque n°4 »
+et « Calque n°2 » , joints au sujet
+
+C.2 — Notice justificative.
+Consignes spécifiques
+
+Sur les notices justificatives, les reponses seront fournies dans les fimites des cadres prévus
+pour chaque question.
+
+Compte tenu de /’interdiction d’utiliser toute calculette, les calculs seront réalisés de
+maniére approchée.
+
+Il sera tenu compte, dans la notation, de la clarté et de la concision des réponses. Les schémas
+doivent étre lisibles, précis, et respecter la normalisation en vigueur.
+
+Les écritures au crayon ne seront pas acceptées. La qualité de I'écriture, de l’orthographe et de
+la syntaxe sera prise en compte dans ’évaluation.
+
+C.2.1 — Elaboration de solutions techniques.
+
+C.2.1.1- Etude du guidage de la vis du systéme vis-écrou.
+
+Le schéma technologique de la figure 4, page 7, décrit un guidage de la vis dans l'ensemble
+du socle et du fourreau réalisé par deux roulements, trés éloignés I'un de lautre, positionnés
+aux deux extrémités de la vis: run implanté dans le socle, l'autre 4 !'extremité opposée du
+fourreau.
+
+Dans un premier temps, on envisage d'implanter dans le socle non pas un, mais deux
+roulements a une rangée de billes a contact oblique repérés A1 et A2, montés en opposition,
+associés a un roulement rigide 4 une rangée de billes repéré B monte libre axialement a l'autre
+extrémité de la vis suivant les dispositions de la figure4. Sauf cas trés particulier
+d’agencement, une hyperstaticité globale du guidage de la vis en résultera ; elle peut toutefois
+tre considérée comme peu influente, compte tenu de la grande longueur de la vis et de sa
+faible section qui lui conférent une souplesse certaine en flexion, et son effet sera négligé.
+
+10
+
+
+===== page 11 =====
+[OCR] Q1 — Inscrire votre réponse dans le cadre R1 de la notice 1/2,
+
+1) En application de la régle générale définissant l’ajustement des roulements A1 et A2
+sur ou dans les piéces qui les recoivent, indiquer les tolérances 4 spécifier pour leurs
+portées sur la vis et dans le socle. Justifier clairement vos choix.
+
+2) Parmi les deux dispositions foumies sous forme de schémas dans le cadre R17,
+indiquer celle qui est préférable vis-a-vis des critéres de facilité de montage-
+démontage, de facilite de réglage et de simplicité de la solution. (consignes de
+réponse définies sur la notice)
+
+3) Sur te schéma retenu, préciser les arréts axiaux fonctionnels fixes et réglables a
+réaliser dans la solution technique
+
+Dans un second temps, dans un souci d’abaissement de coit, on décide de remplacer les deux
+roulements a une rangée de billes a contact oblique séparés par un unique roulement a deux
+rangées de billes 4 contact oblique. Le modéle retenu est un roulement 3201 A-2RS1,
+étanche, graissé a vie, caractérisé par :
+
+d=12mm; D=32mm; B=15,9mm r= 0,6 mm (rayon de bord des bagues) ;
+Co=5600N; C=10000N; Po=F,+0,63F,;
+
+P=X.F,+Y.F, avec X et Y définis dans le tableau ci-dessous :
+
+e=0,86 Fa/F,<e F,/F,>e
+x 1 0,6
+Y 0,7 1,2
+
+On admettra qu’en fonctionnement, sous effort axial maximal, outre le couple transmis, la poulie
+réceptrice exerce sur le bout d’arbre de la vis un effort radial résultant Fp» = 130 N, appliqué en
+un point noté P de l’'axe de la vis, situé 4 a = 50 mm environ du centre du roulement étudié, qui
+sera noté A. On admettra également que l'étude est réalisée dans la situation de la plus petite
+longueur possible de course (250 mm), ce qui conduit a une distance L = 300 mm entre le
+centre du roulement A et celui du roulement B situé 4 l'autre extrémité de la vis.
+
+On se place dans I’hypothése d'une utilisation conforme a celle définie dans le cahier des
+charges (cf. FS3, pages 4 et 5), en présence de |’effort maximal et a vitesse constante.
+
+Q2 - Inscrire votre réponse dans le cadre R2 de Ia notice 1/2.
+
+1) Etablir la modélisation graphique claire, précise et compléte qui permettra de
+déterminer les actions s’exergant sur le roulement A.
+
+2) Dé€terminer effectivement la valeur des actions s’exercant sur ce roulement.
+
+3) Calculer (en tours) !a durée de vie probable usuelie du roulement A. Quelle sera fa
+proportion de la population de roulements mis en service a ne pas atteindre cette
+durée ?
+
+4) Avec quelle périodicité faudra-t-il changer ce roulement ? (cf. FS5, pages 4 et 5)
+
+C.2.1.2— Touriflons du véri
+
+A la fin du paragraphe B.1, page6, sur la figure 3, puis en rappel 4 la fin du
+Paragraphe B.2.3, page 9, ont été annoncées 'existence et la position de deux tourillons,
+solidaires du carter du réducteur, d’axe commun, concourant et perpendiculaire par rapport a
+l'axe du vérin, et participant 4 son articulation sur la partie fixe de !'équipement.
+
+Chaque tourillon est de forme cylindrique de révolution, de diamétre d= 16 mm, de longueur
+nette t= 14 mm (chanfreins déduits). On admettra, a ce stade de l'étude, que les plans de mi-
+
+1 Tournez la page S.V.P.
+
+
+===== page 12 =====
+[OCR] longueur des deux tourillons sont approximativement distants de A=200mm et
+symétriquement disposés par rapport a l'axe de la vis. On admettra pour la question suivante
+que ces tourillons sont réalisés en acier, et que le berceau qui les recevra est réalisé en fonte
+grise 4 graphite lamellaire. L’articulation sera graissée au montage. On se placera bien sir
+dans la phase de fonctionnement sous effort axial maximal, dans laquelle on admettra que le
+couple d’inter efforts transmis dans le systéme vis-écrou vaut C, = 3,0 N.m.
+
+Q3 — Inscrire votre réponse dans le cadre R3 de la notice 1/2.
+
+1) Quel critére de vérification du bon comportement en service de ces tourillons
+convient-il d’appliquer ? Détailler son expression en fonction des paramétres.
+
+2) Quelle valeur admissible de la grandeur de référence peut-on considérer? En
+préciser les conditions de validité.
+
+3) Les dimensions des tourillons sont-elles alors satisfaisantes ?
+
+C.2.1.3-— Clavetage de la poulie motrice.
+
+Le document 6 présente le moteur électrique dans son état de livraison. On admettra qu'il
+fonctionne en conditions nominales (cf. § B.2.2, page 8).
+
+Q4 — inscrire votre réponse dans le cadre Ré4 de Ia notice 1/2.
+
+1) Quel critére de vérification du bon comportement en service de fa clavette convient-i!
+dappliquer ? Préciser expression de ce critére en fonction de parameétres qui seront
+définis sur un dessin en coupe de l’arbre.
+
+2) Quelle valeur admissible de la grandeur de référence peut-on considérer? En
+préciser les conditions de validité.
+
+3) Les dimensions de fa clavette sont-elles satisfaisantes ?
+
+C.2.1.4- Matériaux.
+
+Q5 — inscrire votre réponse dans le cadre R5 de la notice 1/2.
+
+Sur les documents 2, 3 et 4 est indiqué prés des titres de ces documents : EN GJL 350.
+Sur te document1, dans la méme région, est indiqué: 35CrA/Mo6-12. Sur le
+document 5 est indiqué S355JR. Enfin, sur le dessin de l’écrou (qui n’est pas fourni), est
+indiqué : CuZn19Al6. Donner la signification détaillée de chacune de ces indications :
+nature du matériau, composition.
+
+5— Protection - Etanchéité.
+
+Q6 -— Inscrire votre réponse dans le cadre R6 de la notice 1/2.
+
+Sur les figures 3 et 4, respectivement pages 6 et 7, on peut voir que Ia tige cylindrique
+lisse du vérin entre et sort altemativement du fourreau. Quelle(s) solution(s) peut-on
+mettre en place a interface pour empécher les entrées de corps étrangers solides ou
+liquides a lintérieur du fourreau ? La ou les solutions proposées seront désignées par leur
+nom, représentées par un ou plusieurs croquis clairs, décrites et commentées briévement.
+
+C.2.2 — Etude de fabrication d’une piéce.
+La production est de l'ordre de 4000 piéces/an, réalisées par lots de 400 piéces/mois.
+
+12
+
+
+===== page 13 =====
+[OCR] Consignes spécifiques.
+
+Les réponses aux questions Q7 a Q12 de cette partie « Etude de fabrication » appelant une
+expression graphique des réponses, le candidat se reportera au préalable aux consignes
+spécifiques relatives aux travaux graphiques rédigées au § C.3.2. pages 19 et 20.
+
+C.2,2.1 — Etude de fonderie.
+
+La préforme du socle actuel définie par le document 2, sur feuille A4 séparée, est obtenue
+par fonderie en moule destructible avec modéle permanent. Il a été décidé de disposer I’axe du
+modéle horizontalement dans le chassis. On admettra la tenue de noyaux en sable aggloméré
+assurée pour des diamétres pouvant descendre jusqu’a un minimum de 12mm avec une
+longueur allant jusqu’a un maximum de deux fois le diamétre.
+
+Les réponses seront @ tracer aux instruments, a l'échelle 1:1, sur le document « Dessin pour
+réponses n°1 » sur lequel /a représentation de la piéce a été simplifiée en la limitant 4 une
+silhouette en trait fin des seules formes de révolution.
+
+La différenciation graphique claire des diverses parties du moule, du modéle, des
+noyaux, etc. pourra utiliser des couleurs, des hachures, des grisés différents.
+
+Q7—Aprés avoir ajouté, les nervures du socle sur_les 3vues en leur donnant
+lorientation qui vous semble Ia plus favorable, représentez clairement sur les vues 1 et 2
+la surface de joint que vous proposez.
+
+Q8 — Sur ies deux _mémes vues, tracez en trait fort les contours de la piéce en y
+intégrant les dépouilles qu'il vous parait nécessaire de prévoir.
+
+Q9 — Sur ta vue 2, dessiner le moule prét a étre coulé. Le systéme d’alimentation
+(remplissage + masselotage) ne sera pas représenté. Repérer clairement fe demi-moule
+supérieur, le demi-moule inférieur, le ou les noyaux et leurs portées, le ou les jeux
+fonctionnels.
+
+Q10 — Sur la vue 3, dessiner !'élément d’outillage « modéle » en précisant clairement s’i!
+est en une ou plusieurs parties. En cas de besoin, il peut étre tracé une ou plusieurs vues
+auxiliaires a partir de la vue 3 ; dans ce cas, les repérer clairement. (On ne demande pas
+le dessin de la ou des boites 4 noyaux)
+
+C.2.2.2 ~ Etude d’enlévement de matiére.
+
+Le document 3, sur feuille A3 séparée, présente le dessin de définition du produit fini relatif
+au socle du fourreau vérin dans sa version actuelle. De maniére plus précise, ce dessin donne
+une définition compléte des formes et dimensions, et une définition partielle de leurs to!érances.
+
+Les demiéres opération d’enlévement de matiére sur la piéce sont le pergage et le lamage des
+4trous de passage des vis, respectivement repérés Het rc} sur le document 3. L’étude ne
+portera que sur le percage des 4 trous @7 repérés FL
+Les outils utilisables sont des forets 4 deux lévres de série normale, en acier « super rapide »
+HSS revétu de nitrure de titane, 4 queue cylindrique, caractérisés par :
+
+o diamétre : 7mm;
+
+o longueurtotale: 109mm;
+
+co longueur taillée: 69mm;
+
+et conforme a la photographie de la figure 8, ci-aprés.
+
+13 Tournez la page S.V.P
+
+
+
+===== page 14 =====
+[OCR] Longueur totale
+
+Figure 8 - Foret.
+
+Les réponses seront & tracer aux instruments, a échelle 1:1, en respectant des proportions
+réalistes, sur le document « Dessin pour réponses n°2 » sur lequel la piéce a été représentée
+dans son état juste avant le pergage des 4 trous considérés.
+
+Q11 —Schematiser votre proposition pour loutillage de mise en position et de maintien
+€n position permettant le percage direct des 4 trous sans opération préliminaire, pour une
+réalisation avec direction de percage verticale. La représentation symbolique rappelée sur
+la figure 9, ci-aprés, sera utilisée.
+
+Q12 — Sur les diverses vues du dessin pour réponses n°2, dessiner la piéce de
+Poutillage qui sera en contact avec la surface op (et avec d'autres surfaces,
+éventuellement). Situer sa position par rapport a la table de la machine en représentant
+partiellement celle-ci sur les vues appropriées. Coter partiellement ce dessin pour préciser
+les dimensions d’interface.
+
+Mise en position : appui principat
+
+Maintien en position
+
+++-
+
+Figure 9 - Symboles de schématisation pour outillages de mise et de maintien en position.
+
+C.2.3— Modélisation mécanique.
+
+C.2.3.1- Schéma cinématique, mobilités, hyperstaticité.
+La figure 5 ci-aprés propose un schéma cinématique minimal de la partie « systéme vis-
+écrou » du vérin mécanique linéaire. La signification des symboles de schématisation utilisés
+est directement précisée sur la figure, ainsi que le repérage des piéces principales.
+
+Q13 — Inscrire votre réponse dans le cadre R13 de ta notice 2/2.
+
+Proposer le schéma cinématique minimal qui correspondrait 4 un mouvement de sortie de
+translation de la vis obtenu a partir d'un entrainement en rotation de [écrou.
+
+14
+
+
+===== page 15 =====
+[OCR] Liaison pivot de la vis Liaison hélicoidale
+
+Vis (1)
+
+Rotation d’entrée \
+|—~— | J
+| ij
+
+Translation
+de sortie
+
+==>
+
+Tige (2)
+
+Corps de vérin (0)
+anon glissiére rectiligne
+
+“ee de I’écrou
+
+Figure 5 - Schéma cinématique minimal du systéme vis-écrou du vérin linéaire mécanique.
+
+Q14 — inscrire votre réponse dans fe cadre R14 de {a notice 2/2.
+
+On revient au schéma cinématique minimal de la figure 5, ci-dessus, et on pose
+'hypothése que toutes ses liaisons sont parfaites, y compris ta liaison hélicoidale. A l'aide
+d'une analyse dont il nest pas demandé de foumir le détail, donner pour le mécanisme
+
+défini par ce schéma :
+
+= le nombre total d’inconnues statiques ;
+= te nombre total de mobilités internes ;
+= le degré global d’hyperstaticité.
+
+Dans lespace restant dans le bas du méme cadre, préciser les conditions fonctionnelles
+
+géométriques a imposer au systéme pour permettre son fonctionnement.
+
+Par simplification, pour les questions Q15 a Q21, le profil du filetage sera supposé carré et non
+trapézoidal, ce qui sera considéré n’avoir qu'une influence négligeable sur les résultats
+
+qualitatifs et quantitatifs.
+
+Q15 — Inscrire votre réponse dans le cadre R15 de la notice 2/2.
+
+qui doit lui étre affectée en respectant le code suivant :
+0 : composante de mobilité réelle nulle ;
+& : mobilité réduite due au(x) jeu(x) ;
+m : mobilité cinématiquement significative.
+
+elles.
+
+La figure 6, ci-aprés, précise le profil carré de filetage utilise. On considérera un couple
+vis-6crou a sens d’hélice a droite, 4 5 spires de filet simple en prise. Compte tenu de la
+présence simultanée d'un jeu radial a fond de filet de la vis comme de l’écrou, ainsi que
+d’un jeu axial a, proposer un modéle de cette liaison héticoidale réelle. Répondre dans le
+cadre défini, en écrivant, dans l'espace laissé 4 ia droite du symbole de chaque
+composante des éléments de réduction du torseur cinématique, la valeur indicative codée
+
+Ecrire dans le méme cadre la ou les équations liant les composantes significatives entre
+
+15 Tournez la page S.V.P
+
+
+===== page 16 =====
+[OCR] Pp
+J
+y Ecrou
+2 Y Y
+ple aq Lf Vis
+y »| a] §
+x Ss sl a
+70> ee
+
+Figure 6 - Définition du profil carré de filetage.
+
+t’ Vis (1)
+g
+
+Repére lié
+au corps
+du vérin
+
+Tige (2)
+
+Liaisons linéaires annulaires
+
+“4———___ Corps de vérin (0)
+
+Figure 7 - Schéma cinématique architectural d'un systéme vis-écrou de vérin mécanique linéaire.
+
+Q16 — Inscnie votre réponse dans le cadre R16 de fa notice 2/2.
+
+La figure 7 ci-dessus représente le schéma cinématique architectural d’une réalisation
+de vérin mécanique linéaire dans lequel on cherche toujours a obtenir la translation d'une
+tige de sortie par rapport au corps du vérin a partir de la mise en rotation de la vis par
+rapport au méme corps. Dans le cadre deéfini, indiquer les mobiliteés a ajouter ou a
+supprimer sous fa forme indiquée par les deux exemples suivants :
+
+* Vey : la barre de surlignage traduirait la suppression de la mobilité en translation de
+la piéce 8 par rapport a la piéce 9, selon l’axe z d'un repére général (x, y, z) propre au
+carps du vérin ;
+
+" @, 6: absence de barre de surlignage, traduirait l'ajout de la mobilité en rotation de
+ia piéce 6 par rapport a la piéce 5, selon l’axe x du repére général.
+
+16
+
+
+===== page 17 =====
+[OCR] C.2.3.2— Etude dynamique du systéme vis-écrou.
+
+Q17 — Inscrire votre réponse dans le cadre R17 de Ia notice 2/2.
+
+A Paide du tracé d'une figure simple et d’explications bréves, établir ta relation littérale
+entre langle @ d’inclinaison d'hélice et les principaux paramétres définissant I'hélice
+« moyenne » : p son pas et dj, son diamétre d’enroulement. Cette hélice moyenne est
+tracée sur le flanc hélicoidal du filet de la vis, a mi-hauteur de sa partie en contact avec le
+flanc de filet de /'@crou ; dm est appelé diamétre « moyen » du profil.
+
+Pour les questions Q18 a Q21, il sera admis que, pour la vis considérée, @ = Are tan 0,091.
+
+La figure du cadre R18 représente en perspective une portion de la vis a filet carré a droite
+(enroulement en hélice a droite du filet de la vis). L’écrou en prise avec cette vis sur un nombre
+
+entier de spires n'est pas représenté, mais il sera supposé étre en contact avec la vis sur le
+flanc hélicoidal supérieur du filet de celle-ci, visible sur la figure.
+
+Q18 — Inscrire votre réponse dans le cadre R18 de la notice 2/2.
+1) Représenter sur la figure, par une fléche ascendante ou descendante, le vecteur
+
+Ft représentant l'effort axial résultant exercé par l’écrou sur la vis.
+
+2) +Représenter, en marge gauche de la figure, par une fleche convenablement orientée,
+le vecteur vitesse de translation Vyg de I'écrou associé au vecteur vitesse de rotation
+
+@ 479 de 1a vis représenté sur la figure.
+
+3) +Représenter sur la figure le vecteur effort élémentaire GF exerce par l'écrou sur la
+
+2
+vis sur un élément sectoriel d’aire entourant le point courant M de la partie en contact
+du flanc de filet, supposé situé sur I'hélice moyenne. Il sera admis que leffort
+
+élémentaire oF 1 Sapplique en M. On notera @ langle de frottement associé au
+facteur de frottement jz régnant entre les flancs hélicoidaux en contact du filet de vis
+et du filet d'écrou. On admettra que 4 = 0,12.
+
+4) (ta) constitue un repére local en M, dont les directions sont définies comme
+respectivement radiale, tangentielle (ou circonférentielle), et axiale en ce point.
+
+Représenter sur la figure les coordonnées dF,, dF; et dF, de OF respectivement
+
+suivant les directions radiale, circonférentielie et axiale en M.
+5) Toujours sur fa méme figure, tracer le vecteur représentant le moment élémentaire
+dC de manoeuvre de la vis (couple 4 exercer sur celle-ci) associé a [effort
+
+élémentaire OF a! et le vecteur représentant le couple C global de manceuvre de la
+
+vis.
+
+Q19 — Inscrire votre réponse dans le cadre R19 de Ia notice 2/2.
+En faisant intervenir tout paramétre jugé utile, exprimer litteralement :
+
+1) la relation algébrique entre dF, et dF, ;
+
+17 Tournez la page S.V.P
+
+
+
+===== page 18 =====
+[OCR] 2)
+
+3)
+4)
+
+léquation d’équilibre en moment projetée sur la direction axiale a, et la relation
+algébrique qui en découle entre dC et OF; , ainsi que celle entre dC et dF, ;
+
+la relation entre dF, et F;
+
+la relation entre C et dF, , ainsi que la relation entre C et F qui en découle, en
+exprimant briévement, mais clairement, la ou les hypothéses qu'il parait utile de
+poser.
+
+La figure du cadre R20 représente, en perspective, une portion de la méme vis a filet carré a
+droite, mais cette fois animée d'un mouvement de rotation de sens inverse de celui de la figure
+du cadre R6. L’écrou, toujours non représenté, sera supposé rester en contact avec la vis sur le
+méme flanc hélicoidal supérieur du filet de celle-ci, visible sur la figure.
+
+1)
+
+2)
+
+3)
+
+4)
+
+5)
+
+1)
+2)
+
+3)
+
+Q20 — Inscrire votre réponse dans le cadre R20 de Ia notice 2/2.
+
+Représenter sur la figure, par une fléche ascendante ou descendante, le vecteur
+
+F 4 représentant l'effort axial exercé par |’écrou sur Ia vis.
+
+Représenter, en marge gauche de la figure, par une fleche convenablement orientée,
+le vecteur vitesse de transiation Yo de l’écrou associé au vecteur de vitesse de
+rotation 4/9 de la vis.
+
+Représenter sur la figure le vecteur effort élémentaire OF 4 exercé par l’écrou sur la
+
+vis sur un élément sectoriel d’aire entourant Je point courant M de la partie en contact
+du flanc de filet, toujours supposé situé sur I'hélice moyenne. Il sera admis que !effort
+
+élémentaire OF, s'applique en M_. On notera g l'angle de frottement associé au
+
+2M
+facteur de frottement 42 régnant entre {es flancs hélicoidaux en contact du filet de vis
+et du filet d’écrou. On admettra encore que 4 = 0,12.
+
+oF a? Fespectivement
+
+Représenter sur la figure les coordonnées OF,, dF; et dF, de 3
+
+suivant les directions radiale, circonférentielle et axiale en M.
+
+Toujours sur la méme figure, tracer le vecteur représentant le moment élémentaire
+dC de manceuvre de la vis (couple a exercer sur celle-ci) associé a [effort
+élémentaire GF, et te vecteur représentant le couple C global de manoeuvre de
+
+2/1"
+la vis.
+
+Q21 — Inscrire votre réponse dans le cadre R21 de la notice 2/2.
+En faisant intervenir tout paramétre jugé utile, exprimer littéralement :
+
+la relation algébrique entre dF; et dF, ;
+
+Véquation d’équilibre en moment projetée sur la direction axiale a, et la relation
+algébrique qui en découle entre dC et dF; , ainsi que celle entre dC et dF, :
+
+la relation entre dF, et F ;
+
+18
+
+
+===== page 19 =====
+[OCR] 4) la relation entre C et dF;, ainsi que la relation entre C et F qui en découle, en
+exprimant briévement, mais clairement, fa ou les hypothéses qu'il parait utile de
+poser ;
+
+5) préciser s'il faut encore fournir de l’énergie a la vis pour la mettre en rotation dans le
+
+sens défini sur la figure du cadre R20 ou si l'effort axial résultant F exercé par
+l'écrou sur la vis provoque spontanément cette mise en rotation.
+
+C.3 — Dessin d’étude de construction mécanique.
+
+C.3.1 - Présentation générale du travail de conception et de ses supports.
+
+Pour cette partie de |’étude, il vous est demandé de définir, sur le calque n°%1, de format A3
+vertical, pré imprimé, fourni avec le sujet, l'ensemble du réducteur, du moteur, du socle, du
+fourreau et de ce qu’ils contiennent. Les éléments pré imprimés sur ce calque sont destinés 4
+faciliter la mise en place de ces sous-ensembles. (voir figure 10, ci-dessous)
+
+Les éléments fournis pré imprimés sont définis en vue de dessus et en vue de face. Plus
+précisément, le candidat trouvera, en vue de face, les axes verticaux de rotation du moteur et
+de la vis, une représentation partielle simplifiée du moteur électrique : seuls sont représentés la
+bride du moteur et un fragment de son corps. Le bout d’arbre n’est volontairement pas
+représenté afin de laisser libre le choix de la représentation de sa liaison avec la poutie. Les
+formes et dimensions du bout d'arbre définies sur le
+document 6 devront étre respectées.
+
+Le candidat trouvera sur la vue de dessus, la
+représentation des deux poulies retenues pour cette
+étude de conception (combinaison possible des
+poulies utilisables de plus grand diamétres), ja
+représentation en position correspondante correcte
+(pour la longueur de courroie utilisable) du galet
+compensateur, et la représentation des positions Pn ey
+extrémes attendues, notées G7 et G2, du centre de i Vue de dess 1
+
+ce galet compensateur. °
+
+Le calque n°2, de format A3 vertical, pré imprimé,
+mais vierge de tout élément prédéfini, sera utilisé
+pour la représentation des vues annexes dessinées
+aux instruments et des croquis tracés 4 main levée,
+laissés a ta discrétion du candidat.
+
+Figure 10 - Croquis de mise en page du calque pré imprimé fourni.
+
+C.3.2 - Consignes spécifiques aux travaux graphiques.
+
+Le dessin est a exécuter a |'échelle 1:1, aux instruments, avec pour l'essentiel mise au net au
+crayon respectant les épaisseurs de traits normalisées et les exigences d’une bonne lisibilité ;
+seuls les axes et les écritures seront tracés a l'encre noire. Les tracés de couleur ne sont pas
+admis. Les normes AFNOR seront respectées.
+
+Les croquis 4 main levée seront exécutés au crayon, sans l'aide d'instruments (régle, équerre
+ou compas). La grosseur et la noirceur des traits assureront une lisibilité satisfaisante. Aucune
+&chelle n’est imposée mais, toujours pour la lisibilité, il est demandé de la choisir au maximum
+compatible avec l'espace offert. De plus, il sera veillé a ce que les proportions des piéces soient
+convenablement respectées, afin de ne pas introduire de distorsion de compréhension a la
+
+19 Tournez la page S.V.P
+
+
+===== page 20 =====
+[OCR] lecture. Le choix des points de vue assurera l'expression la plus claire possible des solutions
+retenues.
+
+Les coupes, les positions de plans de coupes et les directions particuliéres d’observation seront
+
+clairement repérées en respectant les normes AFNOR en vigueur.
+
+Les principales conditions fonctionneiles relatives aux liaisons représentées seront clairement
+
+indiquées en respectant les régles normalisées AFNOR
+
+C.3.3 - Choix constructifs retenus.
+
+lls ont été définis en partie B, pages 6 a 9, a laquelle le candidat se reportera. Le guidage de la
+vis dans le socle est réalisé par le roulement 4 deux rangées de billes 4 contact oblique defini
+en introduction a la question Q2, page 11. Et bien évidemment, le candidat se reportera
+également aux documents 1, 4, 5, 6, 7, 8 et 9, sur feuilles séparées.
+
+C.3.4 - Travail demandé.
+
+Afin d’assurer toutes les fonctions de service et de satisfaire toutes les contraintes définies dans
+la cahier des charges fonctionnel (pages 4 et 5), et en utilisant au mieux ies éléments fournis
+sur le calque n°4, il est demande :
+
+1) de dessiner aux instruments, sur les vues de face et de dessus prédéfinies du calque n°,
+ainsi que sur toutes vues locales complémentaires jugées utiles et tracées sur le
+calque n°2 (ces vues imposées ou a choisir étant au gré du candidat extérieures ou en
+coupe), vos propositions de solutions pour la définition complete :
+
+du carter de réducteur, y compris de ses deux tourillons ;
+de la liaison du moteur a ce carter ;
+
+de la liaison du socle au carter de réducteur ;
+
+du guidage de Ia vis dans le socie ;
+
+des formes manquantes du socle ;
+
+de la liaison de la poulie motrice sur l’arbre du moteur et de la poulie réceptrice sur le
+bout d’arbre de la vis, lui-méme a préciser a cette occasion ;
+
+VV VV Ww Vv
+
+Vv
+
+du support et du guidage du galet compensateur ;
+
+Vv
+
+du dispositif de réglage en position de ce galet ;
+
+> des éventuels dispositifs de lubrification et de protection nécessaires au bon
+fonctionnement.
+
+Prévoir toutes dispositions permettant d’assurer :
+ola montabilité de l'ensemble étudié ;
+o sa maintenabilité ;
+co l'absence de risque pour les humains proches ;
+© la protection du milieu externe vis-a-vis du milieu inteme.
+
+Le candidat pourra glisser sous ses calques les documents 1, 4, 5, 6, 8 et 9, tracés a
+léchelle 1:1, pour en reproduire directement les parties qu’il jugera utiles.
+
+2) De tracer a main levée, sur le caique n°2, de format A3 vertical, fourni avec le sujet, un
+ou plusieurs croquis perspectifs complétant la définition des formes externes ou internes du
+carter de réducteur, et respectant tes consignes spécifiques énoncées au § C.3.2.
+
+20
+
+
+===== page 21 =====
+[OCR] ‘
+3
+2
+a
+8 =
+oO *«
+= wo
+s 8 al
+‘Sy
+ce NS
+Lod
+Bout d'arbre recevant la poulie
+4 K14G
+
+et zone de guidage dans le socle
+
+Document 1
+
+VIS (du systéme vis-écrou)
+Extrémité de vis
+
+Echelle 1:1 35CrAIMo6-12
+
+
+===== page 22 =====
+[OCR] G45
+
+K14G
+
+SOCLE
+
+Préforme moulée
+
+Echelle 1:1 EN GJL 350
+
+
+
+===== page 23 =====
+[OCR] ._—__85|
+@/05/B Ole ot &
+a
+8 0.50 | 0,50
+S ©] @ 01/4
+te E 3| H
+Yj rh ¥
+< 4 ¥/ aXe ~
+his
+— gee if Awol || =
+Sg) = g 30: as)
+~ 0,2) D
+4 UE A,
+; YU” |
+FS ©} @ ote
+2 3 8
+& = 3s
+2 R
+he cs) Q16 H7
+©} @ 0,02] ¢
+Oe 28 A || @ 9,02; b
+Tolérance générale ISO 2768 - m.K
+K14G
+Document 3
+SOCLE
+Dessin de définition du produit fini
+Cotation partielle
+
+Echelle 1:1 EN GJL 350
+
+
+===== page 24 =====
+[OCR] Ki4G
+
+Document 4
+
+SOCLE
+
+Formes a utiliser pour la conception
+
+Echelle 1:1 EN GJL 350
+
+
+===== page 25 =====
+[OCR] A-A
+
+As
+935
+028
+
+fanny y, ae
+
+M35 x 2 ‘ 2
+we
+32
+
+K14G
+
+Document 5
+
+FOURREAU
+
+Extrémité vissée du fourreau
+
+Echelle 1:1 S$355JR
+
+
+===== page 26 =====
+[OCR] ‘araudage axial M4
+Kdans le bout d'arbre,
+rofondeur 10
+
+95 j7
+
+|
+|
+
+[;----— Clavette paralléle forme C
+
+MOTEUR ELECTRIQUE
+
+Formes et dimensions d'interface
+Echelle 1:1
+
+18
+23
+
+KI4G
+
+Document 6
+
+
+
+===== page 27 =====
+[OCR] K14G
+
+Document 7 |
+
+8 Composition de la courroie POWER
+
+Les transmissions PowERGHip HTD &
+> entrainement positif fonctionnent sans.
+maintenance, dans des applications &
+
+couples élevés. Elles crésentent de
+nombreux avantages par rapport aux
+transmissions par chaines et par
+engrenages.
+
+IP HTD
+
+AVANTAGES
+
+absence de lubrification
+absence de retension
+
+@ résistance a la corrosion
+excelente résistance a l’abrasion
+niveau: sonore réduit
+
+@ fonctionnement propre
+absence de maintenance.
+
+CONSTRUCTION
+
+Le profil deta denture améfiore
+considérablement la réparcition uniforme
+et symétrique des efforts, oermettant
+une charge totale supérieure. Les dents
+moulées permettent un engrénement
+Positif dans les dents de la poulie et un
+passage avec une friction presque
+négiigeable, Le systéme fonctionne
+comme un engrenage. La courroie est
+composée des 4 éléments suivants:
+
+LES CABLES -DE LA cA
+
+COURROIE - ¢ &
+Un élement de tractior sans fin, enroulé
+en hélice d'une maniére extrémement
+Drécise est le secret de |'énorme
+resistance de ia courtole, de sa parfaite
+tenue aux contraintes, de flexion et de
+son allongement pratiquement nul.
+
+REVETEMENT.EN 8
+POLYGHLOROPRENE
+
+Le revétemert solide et souple enrdbe le
+cabié. Il est constitué par un
+polychloropréne résistant  l'usure,
+solidaire du cabié qu’il protege contre
+Thuile, ’humidité et toute autre action
+abrasive. |i résiste aussi 4l'usure due a
+
+la friction, si la puissance est transmise
+par le dos de la courroie. it résiste aux
+huiles.
+
+DENTS.EN _ 5 at
+
+POLYCHLOROPRENE = ©
+Intégralement moulées au revétement
+protégeant les cabiés et fabriquées dans
+un pelychloropréne modérément cur,
+résistant au cisailiement. Afin c'assurer
+Fe bon engagement avec les dents de la
+peulie, les dents sont moulées et
+espactes avec précision. Elles sont
+situées de tella fagon que la base de ia
+Gent se trouve bien sur le méme plan
+que la ligne primitive de la courrofe; ainsi
+lespacement des dents (pas circu'aire)
+
+112
+
+de la courroie n'est pas altéré tors de
+Venroulement sur la poulie,
+
+Un tissu nylon recouvre les surfaces
+Sujettes a usure; sa haute ténacité et son
+coefficient de froctement pau élevé,
+Protégent les dents de la méme maniére
+que la cémentation renforce l'acier, Ce
+revétement se polit a l'usage, il dure
+normalement plus longtemps que les
+autres éléments de la courroie.
+
+Tournez la page S.V.P.
+
+
+===== page 28 =====
+[OCR] K14G
+
+Spécifications des courroies POwERGRIP HTD
+
+Pour couvrir une large gamme de
+puissances, de vitesses et
+d’appiications, ies poulies et courroies
+existent en différentes dimensions.
+
+Les trois dimensions principales d'une
+courraie sont:
+
+Longueur primitive Pas Largeur
+Le pas de la courroie est défini par la
+distance en mm comprise entre deux
+dents juxtaposées mesurée sur la ligne
+primitive de la courroie. La longueur de
+
+as (ckulare)
+
+PasCouroa «= «(BS 84
+Pas "A" 3s fs 8 14 20
+Epaisseur totale de
+
+lacouroie “B= |2.41/3.81 6.00 10.00 13.20
+Hautaur de dent “C'"|1.17|2,08.3.40 6.00 8.40
+
+Core
+mill de
+poule
+
+212
+
+fa courroie correspond 4 la longueur
+totale (circonférence), mesurée sur la
+ligne primitive. La ligne primitive
+théorique d'une courraie HTO” se situs &
+Vintérieur de |’élement de traction.
+
+Les trois dimensions principales d'une
+poulie sont:
+
+Nombre de dents Pas Largeur
+Sur la poutie, le pas est la distance entre
+le centre des creux de dents mesurée
+Sur le cercta primitif de a poulie. Le
+cercle primitit de la poulie coincide avec
+la ligne primitive de la courroie
+correspondante. Le diametre primitif de
+la poulie est toujours plus grand que son
+diameétre extérieur.
+
+Toute courrcie PowerGrrp HTD doit étre
+utilisée avec des poulies du méme pas.
+
+Les courroies Gates PowsAGalp HTD”
+sont disponibles dans 5 pas. Les
+dimensions des courroies standard sont
+Teprises dans les tableaux des pages “0
+et 11. Ceux-ci donnent la liste des
+courroies standard dans les pas de 3, 5,
+8, 14 et 20M, leur longueur primitive,
+leur poids approximatif, leur nombre de
+dents et leur largeur standard. En
+utilisant ces renseignements, un code
+permet de commander une courrcie
+déterminée:
+
+Longuiewr primitive Pas deta Largour de ia
+delacoursle == courrole. © ourrole
+
+(mm) (men) (mm
+640 8M 20
+ou, 1190 14M 55
+
+Les poulies pour les courroies
+PoweRGRIP HTD* existent également
+dans les oas de 3, 5, 8, 14 et 20M. Leurs
+diamétres sont donnés aux pages 59.
+63, Le code des poulies est le suivant:
+
+Pas Lageur
+
+Mombre de dents (om) (em)
+P48 8M 50
+
+ou, P36 14M 15
+
+Tournez la page S.V.P.
+
+
+===== page 29 =====
+[OCR] K14G
+
+C45 POULIES
+
+. 138 dents sans joues
+Echelle 1:1 et Document 8
+
+45 dents avec joues
+
+
+
+===== page 30 =====
+[OCR] K14G GALET COMPENSATEUR
+
+Formes externes
+Document 9 Echelle 1:1 Matériau a définir
+
+Forme intérieure 20 a 25 au choix
+
+a définir |
+
+0,50 x 45°
+
+ROULEMENTS POUR LE GALET COMPENSATEUR
+yo type a utiliser
+
+Roulements _
+ae B
+combinés = - -
+_ r
+y aia i c i eee ETA)
+a aiguilles et - ‘a 1 61
+x ke i 7 SS “74
+a billes | 1 fa
+charges axiales dans a 4 DF di de)
+un seul sens i ' '
+Série NKiA 14 SING L_. SSS ‘
+' © 1 LLL)
+charges axiales dans & S
+ies deux sens “
+_ NKIA NKIB
+Série NKIB
+Tableau de dimensions (en mm)
+Diamatre | Désignation | Masse | Dimensions Charges de base Charge imite | Vitesse | Vitesse
+arbre Ala fatigue limite: de base?)
+d fF fp Ts fc |r radial [axial radial [axial ng. rea
+dyn. [stat “dyn. stat |P, | Py
+Clq ¢! |e
+~g min KN [KN KN fKN kN [kN [mint min
+12 NKias901 [40 [12/16 24/16 |- [08 | 76] 63 27 | 343) 119 /6,128 [eacoo |2roco
+NKIBSe01 | 4312 [76 | eeli7slie fos | 76| sa | 27 [34s | 119 [0128 [24000 [21000
+15 NKIA 5902 | 50 [15 J2o[ 28lts {- [os [ios | 136 | 20 | 42 [tea [aise [22000 |i7000
+NKIB 5002 | 52 [15/20] 28/20 [18 fos [ios | 136 | 29 | 42 | 4.84 [0186 [22000 [17000
+7 NKIASe03 | 56 |i? |22[ solia j- fos [ii | 146 | 318] 49 | 1.97 [ote [21000 [715000
+nip 5903 | 58 [17 [22 | sola0 [eos [1 [148 [| 315/49 [| 197 [otar [21000 [15000
+
+
+
+===== page 31 =====
+[OCR] K14G
+
+Ne
+tien
+écrire
+
+NOM : CONCOURS BANQUE PT
+
+SCIENCES INDUSTRIELLES II
+ae NOTICE JUSTIFICATIVE 1/2
+Académie : ......... cece
+Arendre a la fin de ’épreuve
+
+N° d’inscription : .........0. eee
+[ Dépliez fa feuille S.V.P. j
+
+dans
+
+cadre
+
+R1 1 ) Tolerances :
+
+Roulement A1 | Roulement A2
+
+Portée de la bague intérieure sur l’arbre
+
+Portée de la bague extérieure dans l'alésage
+
+Justification du choix des tolérances proposées :
+
+Rt 2)&3)
+
+Répondre en
+utilisant les
+signes :
+
++ sila solution
+est favorable
+
+— sila solution
+est défavorable
+
+Exprimer le choix
+par une croix
+
+Montage 1 Montage 2
+
+x
+x
+
+a
+x
+
+daha
+
+Facilité de montage
+et démontage
+
+Facilité de réglage
+
+Simplicité de la
+solution
+
+CHOIX
+
+liez la feuille
+
+Tournez la page S.V.P.
+
+
+===== page 32 =====
+[OCR] R3 Vérification des tourillons du carter.
+
+1) Critére de vérification :
+
+2) Valeur admissible de la grandeur de référence et validite :
+
+3) Vérification des dimensions :
+
+R4 | Vérification du clavetage de la poutie motrice.
+
+1) Critére de vérification :
+
+2) Valeur admissible de la grandeur de référence et validité :
+
+3) ~—_-Vérification des dimensions :
+
+
+
+===== page 33 =====
+[OCR] R6
+
+Protection - Etancheité.
+
+R5__ | Matériaux.
+
+EN GJL 350
+
+35CrAIMo6-12
+
+S355JR
+
+CuZni9Ai6
+
+
+
+===== page 34 =====
+[OCR] R2 Caicul de roulement.
+
+1) Modélisation graphique :
+
+2) Efforts supportés par le roulement A :
+
+3) Durée de vie de ce roulement :
+
+4) Périodicité de remplacement de ce roulement :
+
+fiez ta feuille S.V.P
+
+
+===== page 35 =====
+[OCR] K14G
+
+NOM 2 occ eee CONCOURS BANQUE PT
+PROMOM 2 once ccccecceccec eee ceeee SCIENCES INDUSTRIELLES II
+, NOTICE JUSTIFICATIVE 2/2
+Académie | .........ccccecc eee
+Ne N° d’inscription : ....cesceeeeeceereeeee A rendre 4 la fin de l’épreuve
+rien
+écrire
+dans
+ce
+cadre R1 4 Analyse de mécanisme.
+
+o Nombre total d'inconnues statiques
+
+© Nombre total de mobilités internes
+
+o Degré global d'hyperstaticité
+
+Conditions fonctionnelles géometriques :
+
+R1 3 Schéma cinématique minimal :
+
+R1 5 Torseur cinématique de la
+
+Mobilités a ajouter
+liaison hélicoidale réette : R16
+
+Equation(s) :
+a s) cou a supprimer :
+
+'
+{
+
+H
+
+x Vx H
+
+H
+
+!
+
+\Vie } = 4) oy vy H
+@z Vz H
+
+Tournez la page S.V.P.
+
+
+
+===== page 36 =====
+[OCR] Figure -
+
+R18 Modélisation graphique : R19 Relations :
+v0
+mf 2
+n
+Flanc supérieur
+\ du filet
+Hélice 2)
+yrevenne
+a 3)
+t
+<_
+A |
+fo a)
+i ||
+a
+_
+iay
+R17 | Relation entre a, p et dn.
+
+Explications et relation :
+
+1
+1
+'
+i
+i
+i
+i
+i
+H
+i
+1
+1
+
+
+
+===== page 37 =====
+[OCR] R20
+
+2)
+
+3)
+
+4)
+
+5)
+
+Relations :
+
+R21
+
+Modélisation graphique :
+
+
+
+===== page 38 =====
+[OCR] Vue
+
+Cadres réservés
+
+Vue
+
+K14G
+
+[| Echelle 1:1 |
+
+Dessin pour réponses n°1
+
+A rendre obligatoirement en fin d'épreuve
+
+
+
+===== page 39 =====
+[OCR] K14G
+AB. eT Echelle 1:1 | Dessin pour réponses n°2
+
+Cadres réservés A rendre obligatoirement en fin d'épreuve
+
+
+
+===== page 40 =====
+[OCR] Nos NN /
+1 | NN ‘ v
+! — +62 ™ ! a “
+_ +o
+By K14G
+iN ae et Echelle 1:1] (Calque n°1
+eo A rendre obligatoirement
+Cadres réservés en fin d'épreuve
+
+

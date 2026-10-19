@@ -1,0 +1,2404 @@
+
+===== page 1 =====
+                                             Aucun document n’est autorisé.
+
+
+
+     Ce document se compose :
+     —    d'une présentation du sujet : 5 pages numérotées de 1 à 5 ;
+     —    du travail demandé (5 parties indépendantes A, B, C, D et E) : 17 pages numérotées de 6 à 22 ;
+     —    des documents annexes : 8 pages ;
+     —    un cahier réponse à rendre avec votre copie : 8 pages.
+
+
+
+     Il est demandé au candidat :
+     —       de traiter chacune des parties sur des copies séparées en indiquant sur celles-ci la référence de la
+             partie correspondante ;
+     —       de formuler toutes les hypothèses qu'il jugera nécessaires pour répondre aux questions posées ;
+     —       de rédiger tous les calculs en littéral avant de faire, si elles sont demandées, les applications
+             numériques ;
+     —       d'encadrer les réponses finales.
+     La présentation, la lisibilité, l'orthographe, la qualité de la rédaction, la clarté et la précision des
+     raisonnements entreront pour une part importante dans l'appréciation des copies. En particulier, les
+     résultats non justifiés ne seront pas pris en compte.
+                          Il ne sera remis qu'un seul cahier réponse au cours de l'épreuve.
+
+
+   Protection
+   Ce sujet utilise comme support d’étude un système développé par le groupe AREVA. Les éléments d'information extraits
+   de documents AREVA dans le présent sujet et utilisés avec leur permission, restent la propriété du groupe AREVA.
+   L’autorisation d’utilisation de ces informations n’est valable que pour ce sujet de concours.
+
+
+
+
+Système d’inspection pour tubes de guidage                                                             Banque PT - SIA 2009
+
+
+===== page 2 =====
+[OCR] 
+
+===== page 3 =====
+                                             PRÉSENTATION
+               SYSTÈME D'INSPECTION POUR TUBES DE GUIDAGE
+                                   ou
+                             SYSTÈME ÉCLIPSE
+
+
+
+
+   La maintenance des installations nucléaires civiles est un enjeu essentiel de la sureté de ces installations. Les
+centrales nucléaires font ainsi l'objet d'inspections régulières avec des matériels adaptés au contexte particulier
+de ce secteur d'activité.
+   Le groupe AREVA, numéro un mondial dans son secteur
+d’activité, propose une offre complète sur l’ensemble du cycle
+de l’énergie nucléaire civile.
+   Le pôle RÉACTEUR ET SERVICES conçoit et construit les
+réacteurs nucléaires mais apporte également les prestations
+de services et les produits nécessaires à leur fonctionnement
+et leur maintenance. Ainsi AREVA NP située à Chalon sur
+Saône a récemment développé, au sein du DÉPARTEMENT DES
+PROCÉDÉS OUTILLAGES SERVICES NUCLÉAIRES, un procédé et
+son système de mise en œuvre, nommé ÉCLIPSE, permettant
+d’inspecter les tubes de guidage des grappes de contrôle.
+
+   LES GRAPPES DE CONTRÔLE
+
+   Pour maîtriser la réaction en chaîne au cœur du réacteur,
+on plonge à l'intérieur, des "grappes de contrôle" qui, suivant
+leur profondeur de descente, régulent la réaction. Elles ont
+ainsi un rôle de pilotage du réacteur en fonctionnement
+normal mais permettent également de stopper la réaction en
+cas d'incident de fonctionnement. Dans ce cas, les grappes
+chutent complètement par gravité au sein du combustible et
+stoppent très rapidement la réaction en chaîne.
+
+
+
+Système d’inspection pour tubes de guidage            Page 1                                        Banque PT - SIA 2009
+
+
+===== page 4 =====
+                                                Les grappes de contrôle sont constituées de plusieurs tiges, appelées
+                                             "crayons", d'environ quatre mètres de longueur pour un diamètre de dix
+                                             millimètres. Les crayons sont fixés à une tête à laquelle on impose les
+                                             mouvements de montée ou descente. Chaque grappe de contrôle (voir
+                                             photo ci-dessous) est guidée dans un tube.
+                                                En effet les crayons d'une grappe de contrôle sont très flexibles et ont
+                                             besoin d'être maintenus et guidés dans leur mouvement vertical.
+
+
+
+
+                                                       tube de guidage
+
+
+                                                       grappe de contrôle                          tête
+
+
+
+                                                       cœur du réacteur
+
+
+                                                                                                crayons
+
+
+
+
+                                                     LES TUBES DE GUIDAGE
+
+                                                      Les tubes de guidage sont des colonnes verticales d'un peu
+                                                   plus de trois mètres de hauteur à profil extérieur rectangulaire. Au
+                                                   nombre de 70, elles sont maintenues entre elles par deux plaques
+                                                   support et forment ainsi un ensemble rigide que l'on peut démonter
+                                                   et déplacer.
+                                                      Le guidage des grappes de contrôle, constituées des crayons et de
+                                                   la tête, nécessite une forme interne du tube de guidage adaptée. De
+                                                   plus, le concepteur a prévu un guidage continu dans la partie basse
+                                                   du tube et un guidage discontinu dans la partie haute. La figure de la
+                                                   page suivante précise ces formes d'un tube de guidage.
+
+                                                     L'INSPECTION
+
+                                             Les grappes de contrôle jouent une rôle essentiel dans le
+    Vue de l'ensemble des tubes de
+                                           fonctionnement du réacteur et notamment en cas d’incident où elles
+     guidage et de leurs supports
+                                           doivent descendre en chute libre entièrement dans le cœur. Tout
+blocage de leur mouvement dans les tubes de guidage pourrait provoquer un incident important. La décision
+de leur remplacement constituent donc un enjeu important pour la sûreté des installations.
+  Cette décision s'appuie sur l’estimation du degré d’usure des tubes de guidage qui permet d'apprécier leur
+capacité à remplir leur fonction.
+
+
+
+Système d’inspection pour tubes de guidage                   Page 2                                       Banque PT - SIA 2009
+
+
+===== page 5 =====
+                                                       tube de guidage
+                                                                                                   plaque du guidage discontinu
+                                                          plaque support supérieure
+ longueur du tube avec guidage discontinu
+          par plaques équiréparties
+
+
+
+
+                                                                                                               guidage cylindrique des crayons
+                                                                                                                inspecté par le système ÉCLIPSE
+ longueur du tube avec
+    guidage continu
+
+
+
+
+                                                                                                   guidage
+                                                                                                   continu
+
+
+
+                                                                 plaque support inférieure
+
+
+                           On procède en altitude, à des mesures dans 8 plans situés à des niveaux successifs
+       Position                             Altitude
+                        en commençant par le bas où on définit le niveau zéro de référence. Les huit plans de
+                                             en mm
+
+   GC 1      500        mesures se répartissent en 3 plans dans le guidage continu ( GC ) et 5 plans pour le
+   GC 2      700        guidage discontinu situés au niveau des plaques de guidage. La figure et le tableau
+   GC 3     1000        donnés    ci-contre, donnent précisément la position des 8 plans de mesure.
+ Plaque 1   1350           L'inspection porte sur 12 guidages                        contour après usure
+
+ Plaque 2   1600        cylindriques    répartis en 4 alésages centraux
+ Plaque 3   1950        et 8 alésages périphériques aussi bien dans la
+ Plaque 4   2250        partie du guidage continu que dans celle du
+ Plaque 5   2600        guidage discontinu (voir disques noirs placés
+                                                                                          diamètre de référence
+                        sur la figure ci-dessus).
+  Les mesures effectuées permettent de contrôler l'état d'usure de
+chacun des 12 alésages. La figure ci-contre à droite donne un exemple
+de contour avant et après usure.
+
+
+                                                                LE PRINCIPE DE MESURE : ÉCLIPSE
+
+
+                                                                Le caractère innovant de la solution proposée par AREVA tient pour beaucoup au
+                                                             principe de mesure. Ce principe s’appuie sur un phénomène optique semblable à
+                                                             celui d’une éclipse solaire. On place un masque circulaire d’un diamètre légèrement
+                                                             inférieur au diamètre d’alésage à contrôler. On l’éclaire d’un coté et on observe
+                                                             de l’autre, avec une caméra, la lumière qui passe entre le masque et le contour de
+                                                             l’alésage (voir schéma ci-contre). On observe alors une image comme celle qui suit.
+
+
+
+
+Système d’inspection pour tubes de guidage                                               Page 3                                    Banque PT - SIA 2009
+
+
+===== page 6 =====
+  L’image obtenue par la caméra fait l’objet d’une analyse
+numérique associée à une reconnaissance de forme. Les résultats
+sont enregistrés sur DVD. La précision de la mesure par ce procédé
+est de ±0,15 mm.
+
+
+
+   LE PRINCIPE ET LES CONDITIONS D'INSPECTION
+
+
+
+
+                                                           Pour mettre en œuvre ce principe et inspecter les tubes de
+                                                    guidage, le bureau d’étude a conçu l’outil d’inspection ci-dessus. Il
+                                                    est constitué de 3 cartes d’inspection et de 3 guides cylindriques
+                                                    coulissant dans les alésages de guidage des grappes de contrôle
+                                                    dans le tube de guidage. Chaque carte d’inspection comprend
+                                                    un système de mesure constitué d’une caméra, d’un masque et
+                                                    d’un éclairage, et un support liant le système de mesure au corps
+                                                    central de l’outil.
+                                                       Cet outil permet d’inspecter 3 alésages par passage de l’outil
+                                                    sur la hauteur à inspecter dans un tube guide. On répète donc
+                                                    l’opération        plusieurs
+                                                    fois pour inspecter tous
+                                                    les alésages à contrôler,
+                                                    en faisant une rotation
+                                                    de l’outil entre chaque
+                                                    passage.
+
+   Le matériel à inspecter étant fortement irradié, son inspection est effectuée
+dans l’eau. À cet effet l’ensemble des tubes et des plaques support est déposé
+et reste dans la "piscine", à une profondeur de 11 m. Cette piscine, située dans
+l’enceinte de confinement, contient le réacteur, quand il fonctionne, mais peut
+également recevoir les éléments irradiés que l'on démonte pour les opérations
+de maintenance.
+  L'inspection est donc réalisée sous l'eau et à une pression supérieure à la
+pression atmosphérique.
+
+                                                                                     Vue de la piscine vide avec un élément
+                                                                                       du réacteur en cours de montage
+
+
+
+Système d’inspection pour tubes de guidage               Page 4                                           Banque PT - SIA 2009
+
+
+===== page 7 =====
+   LE SYSTÈME ÉCLIPSE
+
+   Le système ÉCLIPSE réalise donc l'inspection de l'état d'usure des surfaces
+de guidage des tubes de guidage (voir expression fonctionnelle figure 1 de
+l'Annexe 1). AREVA NP fournit au client une prestation complète d'inspection
+et met lui-même en œuvre le système ÉCLIPSE qu'il a développé. À charge
+pour le client, après l'arrêt du réacteur, de la dépose et la mise en place de
+l'ensemble "tubes de guidage" au fond de la piscine sur une rehausse (voir
+figure 2 de l'Annexe 1).
+   Le processus de réalisation de l'inspection est globalement le suivant (voir
+figure 2 et photos de l'Annexe 1) :
+   L'ensemble constitué d'un robot chenillé supportant l'unité de stockage et
+de rotation de l'outil d'inspection, est plongé et déposé au fond de la piscine
+par le matériel de manutention propre à la centrale. Le robot est relié à une
+console spécifique, déportée à proximité de la piscine, par un faisceau de
+                                                                                            Vue du système éclipse au
+câbles assurant l'alimentation en énergie et la transmission des informations.             cours d'essais de validation.
+L'opérateur téléguide alors à vue, via la console lui donnant une image fournie            On distingue le support de
+par une caméra embarquée, le robot chenillé jusque sous un tube. Une plaque                  réhausse des tubes posé
+de repérage, positionnée au préalable au fond de la piscine sous les tubes,                    au fond de la piscine
+permet à l'opérateur de guider le robot chenillé jusqu'au tube souhaité. Après
+cette mise en position visuelle approximative sous un tube, une unité de translation verticale vient, en prenant
+appui sur des doigts de positionnement liés aux tubes, mettre l'unité de stockage et de rotation de l'outil en
+position précise par rapport au tube à inspecter, et verrouiller cette position. On descend alors une perche,
+commandée en montée et descente par un palan spécifique dédié au système ÉCLIPSE et suspendu au dessus
+de la piscine (voir figure 2 de l'Annexe 1). La perche pénètre à l'intérieur du tube à inspecter et descend jusqu'à
+l'outil d'inspection auquel on accroche la perche par un système d'accrochage. Les mouvements de la perche
+permettent ensuite de déplacer à volonté l'outil dans le tube de guidage. Une gaine flexible fixée sous l'outil
+d'inspection et le reliant au robot chenillé, contient les câbles assurant l'alimentation des caméras, la gestion de
+la prise d'images et leur transmission vers le système d'acquisition, située sur la console de l'opérateur, et qui
+permet de visualiser et d'enregistrer les images.
+
+
+                                               TRAVAIL DEMANDÉ :
+  Après une lecture attentive de la présentation du système et de son contexte (environ 15 min), l'étude
+proposée s'articule en cinq parties indépendantes :
+     A - Analyse fonctionnelle et structurelle (30 min)
+     B - Analyse de la commande séquentielle du processus d'inspection (45 min)
+     C - Validation du système d'accrochage de la perche sur l'outil d'inspection (1h 15 min)
+     D - Validation du système de maintien en tension de la gaine flexible (1h)
+     E - Réglage et validation du correcteur de la commande asservie du déplacement de l'outil par le palan
+         (1h 15 min)
+
+
+
+
+Système d’inspection pour tubes de guidage              Page 5                                         Banque PT - SIA 2009
+
+
+===== page 8 =====
+                                                          Partie A
+                      ANALYSE FONCTIONNELLE ET STRUCTURELLE
+
+
+   Cette partie vise à donner une description fonctionnelle interne de la fonction de service (FS) :
+                 "Réaliser l'inspection de l'état d'usure des tubes de guidage",
+issue d'une analyse fonctionnelle externe préalable.
+   Cette description fonctionnelle interne permet d'organiser l'analyse structurelle du système et de préciser les
+performances attendues qui feront l'objet des études de validation proposées dans la suite du sujet.
+   Après lecture de la présentation et la consultation du diagramme SADT de niveau A-0 de la figure 1 de
+l'Annexe 1, on demande :
+   QUESTION 1
+   Compléter le diagramme de niveau A0 ébauché sur le Document réponse 1 du cahier réponse.
+
+  Après lecture du diagramme FAST de description associé à la fonction de service étudiée et donné sur le
+Document réponse 2 du cahier réponse, on demande :
+   QUESTION 2
+   Indiquer à droite de ce diagramme les éléments de la structure réalisant les différentes fonctions du niveau le
+   plus bas de la description.
+
+
+   La prestation fournie par le système ÉCLIPSE peut globalement se scinder en deux parties :
+    r %ÊQMBDFSFUQMBDFSMhPVUJMEhJOTQFDUJPOBVYQPJOUTEFNFTVSF '5FU'5
+    r (ÊOÊSFSMhJNBHFSJFEFMhÊUBUEhVTVSFNFTVSÊQBSMhPVUJMEhJOTQFDUJPOTVSMFQSJODJQFÉclipse" (FT.4)
+
+                             L'étude proposée dans ce sujet porte sur la première partie de la prestation
+                                   et plus particulièrement sur la réalisation de la fonction FT.2.
+
+
+                                                           Partie B
+                         ANALYSE DE LA COMMANDE SÉQUENTIELLE
+                              DU PROCESSUS D'INSPECTION
+
+
+   La commande séquentielle du processus d'inspection est spécifiée par un modèle de commande décrit en
+langage GRAFCET. L'Annexe 2 définit partiellement ce modèle de commande. En effet, seul le mode de marche
+automatique est décrit et seule la tâche "déplacement outil" est détaillée. L'opérateur peut accèder à un mode
+de marche manuel lui permettant principalement de refaire une mesure qu'il jugerait délicate à interpréter, et
+un mode de secours lui permettant d'accèder directement aux commandes des actionneurs sans les sécurités
+logicielles des autres modes. La manœuvre d'accostage et de verrouillage sous un tube est, quant à elle,
+entièrement manuelle.
+
+
+
+
+Système d’inspection pour tubes de guidage                    Page 6                                        Banque PT - SIA 2009
+
+
+===== page 9 =====
+   Les variables traitées par le modèle de commande sont les suivantes :
+
+   Variables d'entrée binaires :
+   aru              : arrêt d'urgence
+   cdf              : conditions de fonctionnement
+   sec              : mode secours
+   manu             : mode manuel
+   auto             : mode automatique
+   mdp              : mot de passe validé
+   ost              : outil verrouillé sous le tube
+   dcy              : départ cycle automatique
+   deft             : présence défaut
+   acq_deft         : acquittement défaut
+   stop             : arrêt temporaire du cycle automatique
+   reprise          : reprise du cycle automatique
+   fap              : fin de la tâche : accrochage perche
+   fpo              : fin de la tâche : prise origine outil
+   frot             : fin de la tâche : rotation outil
+   fmes             : fin de la tâche : opération de mesure
+   fdes             : fin de la tâche : descente outil
+   fin secours      : fin du mode secours
+   fin manu         : fin du mode manuel
+   fin auto         : fin du mode automatique
+   Variable d'entrée numérique :
+    h               : contient la valeur courante de la hauteur de l'outil dans le tube, mesurée à partir de l'origine
+                      définie par la prise d'origine outil
+   Variables de sortie binaires de la tâche "déplacement outil" :
+   Vitesse lente : envoie l'ordre de mise en mouvement de translation ascendante de l'outil par le palan à
+                      une valeur de 10 mm/s
+   Vitesse rapide : envoie l'ordre de mise en mouvement de translation ascendante de l'outil par le palan à
+                      une valeur de 50 mm/s
+   Variables internes numériques :
+   H0               : contient la valeur de la hauteur du plan de la mesure qui vient d'être effectuée. Cette
+                      valeur change à chaque plan de mesure
+   H1               : contient la valeur de la hauteur du plan de mesure vers lequel se dirige l'outil d'inspection.
+                      Cette valeur change à chaque plan de mesure
+
+   Objectifs de l'analyse proposée
+   On se propose d'estimer la durée d'inspection d'un tube en mode automatique avec le modèle donné dans
+des conditions de fonctionnement sans aléa, puis de valider la description du modèle quand l'opérateur utilise
+la fonction stop-reprise du mode automatique.
+    On précise les durées des tâches suivantes :
+   opération de mesure : 15 s
+   descente outil        : 55 s
+   rotation outil        : 5s
+
+
+
+Système d’inspection pour tubes de guidage             Page 7                                         Banque PT - SIA 2009
+
+
+===== page 10 =====
+   B1 - ESTIMATION DE LA DURÉE D'INSPECTION D'UN TUBE EN MODE AUTOMATIQUE
+
+
+   QUESTION 3
+   On souhaite connaître la durée d'inspection entre le niveau 0 mm et le niveau 500 mm. Pour cela, on cherche le
+   graphe d'évolution du modèle de commande entre les situations (1, 13, 100, 200, 300) et (1, 13, 100, 200, 301).
+   Compléter le graphe d'évolution du document réponse 3, dont on donne les premières situations depuis la
+   situation initiale jusqu'à la situation de début du graphe demandé. On précisera :
+     r les événements provoquant l'évolution,
+     r les éventuelles situations instables en les encadrant (situation instable = situation suivie d'une évolution
+        fugace),
+     r la durée de chaque situation. On supposera que la durée d'une situation instable est négligeable pour
+        l'échelle de temps de la partie opérative.
+   En déduire la durée d'inspection du niveau 0 au niveau 500 mm.
+   QUESTION 4
+   Même question pour l'inspection du niveau 1000 au niveau 1350 mm. On complétera à cet effet le document
+   réponse 3 où on donnera le graphe d'évolution depuis la situation (1, 13, 100, 200, 303) jusqu'à la situation (1,
+   13, 100, 200, 304).
+   QUESTION 5
+   Même question pour la durée du processus d'inspection dans la phase de changement de position de
+   l'outil d'inspection pour un nouveau passage dans le même tube. On complétera à cet effet le document
+   réponse 4 où on donnera le graphe d'évolution depuis la situation (1, 13, 130, 307) jusqu'à la situation
+   (1, 13, 100, 200, 300, 403).
+   QUESTION 6
+   Déduire des questions précédentes et d'une analyse complète du modèle, la durée totale, sans incident, du
+   mode automatique. On pourra remplir un tableau du type de celui proposé sur le document réponse 4.
+
+   B2 - VALIDATION DE LA DESCRIPTION DU MODÈLE DE COMMANDE
+
+  L'opérateur a la possibilité d'interrompre à tout moment le déplacement de l'outil en mode automatique, et
+de reprendre le fonctionnement au point d'interruption. Le comportement attendu du système est le suivant :
+    r appui sur le bouton stop : l'outil arrête son déplacement, puis,
+    r appui sur le bouton reprise : l'outil reprend son déplacement là où il s'était arrêté.
+   QUESTION 7
+   On se place à l' instant où h = 1500 mm correspondant à la situation (1, 13, 100, 200, 304) de la description du
+   modèle de commande. On suppose ensuite qu'à l'instant où h = 1595 mm, l'opérateur appuie sur le bouton
+   stop. Après avoir fait les vérifications qu'il souhaitait, il appuie sur le bouton reprise.
+   Donner, en complétant le document réponse 4, le graphe d'évolution depuis la situation (1, 13, 100, 200, 304),
+   jusqu'à la situation atteinte quand h = 1600 mm.
+   QUESTION 8
+   Peut-on valider, à partir du graphe d'évolution précédent, la conformité de la description du modèle de
+   commande, au comportement attendu?
+
+
+
+
+Système d’inspection pour tubes de guidage             Page 8                                       Banque PT - SIA 2009
+
+
+===== page 11 =====
+                                                               Partie C
+                           VALIDATION DU SYSTÈME D'ACCROCHAGE
+                                 DE LA PERCHE SUR L'OUTIL
+
+  Ce système réalise la fonction FT.2.1.1 caractérisée par les critères d'appréciation donnés dans l'extrait du
+cahier des charges suivant :
+
+     Fonction technique                             Critères d'appréciation                                 Niveau
+ FT.2.1.1                       r démontabilité de la liaison                                                       ‒
+ Accrocher l'outil d'inspection r montage quelle que soit la position angulaire de                                  ‒
+ au système de déplacement         l'outil autour de son axe vertical
+ vertical.                      r type d'énergie de commande :
+                                    - en fonctionnement normal : pneumatique                                        ‒
+                                    - en cas de blocage de l'outil : manuelle                                       ‒
+                                r commande par obstacle dans les deux sens                                         ‒
+                                r maintien de la liaison en cas de perte d'énergie                                 ‒
+                                r durée de l'accrochage                                                           < 1s
+                                r effort de commande                                                             < 50N
+                                r résistance à l'effort d'entraînement :
+                                    - en fonctionnement normal                                                   700N
+                                    - en cas de blocage de l'outil                                               1200N
+                                r encombrement                                                                adapté aux
+                                                                                                             dimensions du
+                                                                                                             corps de l'outil
+   Les figures de l'Annexe 3 donnent quelques éléments de la solution adoptée par le bureau d'étude. On y
+trouve notamment l'extrémité de la perche sur laquelle est fixée la tête d'accrochage. La liaison démontable est
+réalisée par trois griffes pivotantes qui viennent se loger dans une gorge de la pièce insérée dans le corps de
+l'outil d'inspection. Le pivotement des griffes est commandé par une tige coulissant dans la perche sur toute sa
+longueur puisque la commande pneumatique ou manuelle est effectuée en haut de la perche, hors d'eau.
+   On souhaite valider deux des critères d'appréciation :
+    r critère 1 : la commande par obstacle dans les deux sens (accrochage et décrochage)
+    r critère 2 : la durée de l'accrochage
+
+  Les notations adoptées sont les suivantes :
+                                                            E E E
+      La base orthonormée directe liée au solide i : Bi = ( x i , y i , zi )
+      Le torseur cinématique du mouvement d’un solide j par rapport à un solide i (ou par rapport au
+                                                                                   HE
+                                                                             ®«® 8( j / i) ®º®
+      référentiel Ri lié à celui-ci), réduit en A, sera noté : V(j/i) y¬HE                        » où les éléments de réduction
+                                                                               ®®­V ( A , j / i)®®¼   HE
+                                                                     EEE                           A             E     E   E
+      exprimés dans une base orthonormée quelconque x, y, z sont notés : 8( j / i) = p ji x + q ji y +rji z et
+       HE                    E         E          E
+       V ( A , j / i)  u ji x    v ji y     w ji z .
+      Le torseur des actions mécaniques exercées par un solide i sur le solide j, réduit en A, sera noté :
+                      E
+                ®«® R(i m j) ®    º
+                                  ®
+      F(i j) y¬HE                 » où les éléments de réduction exprimés dans une base orthonormée quelconque
+                  ®®­M( A , i m j)®
+                                  ®
+                                  ¼A
+       EEE                           E        E   E    E    HE                 E     E     E
+       x, y, z sont notés : R(i m j)  Xij x Yij y Zij z et M( A , i m j) Lij x Mij y Nij z .
+
+
+Système d’inspection pour tubes de guidage                        Page 9                                          Banque PT - SIA 2009
+
+
+===== page 12 =====
+   C1 - VALIDATION DU PREMIER CRITÈRE
+
+
+   C1.1 - Validation de la transmission du mouvement de commande
+   C1.1.1 - Étude préliminaire d'un modèle simplifié
+
+  On adopte dans un premier temps, un modèle simplifié, pour une seule griffe, défini par le schéma cinématique
+donné figure 5 de l'Annexe 4.
+   QUESTION 9
+   En considérant que le modèle est spatial, donner le graphe de structure (graphe des liaisons) associé au
+   schéma cinématique proposé en précisant les éléments géométriques caractéristiques de chaque liaison puis
+   la forme de leur torseur cinématique V(j/i), c'est-à-dire l'expression des éléments de réduction en fonction des
+   paramètres pij, qij, rij, uij,vij et wij dans la base locale de la liaison.
+   QUESTION 10
+   Établir le système de six équations, en projection dans la base B3 liée au solide 3, traduisant la fermeture
+   cinématique du mécanisme, en fonction des paramètres cinématiques introduits à la question 9 et des
+   paramètres géométriques définis sur la figure 5 de l'Annexe 4.
+   QUESTION 11
+   Évaluer le rang du système d'équations obtenu et en déduire le degré de mobilité du mécanisme. On supposera
+   que le paramètre cinématique d'entrée v21 est connu et que l'angle β est différent de zéro.
+   Si on fait l'hypothèse que les liaisons sont parfaites, ce modèle est-il hyperstatique ?
+
+   C1.1.2 - Étude du modèle associé à la commande d'une griffe
+
+  Afin d'obtenir une commande par obstacle dans les deux sens de commande, le modèle est complété par une
+seconde liaison sphère-plan, telle que le schéma cinématique devienne celui de la figure 6 de l'Annexe 4.
+   Objectif de l'étude proposée
+   On cherche ici à montrer qu'il est impossible d'obtenir ce double contact avec la géométrie actuelle.
+
+   QUESTION 12
+   En vous appuyant sur les résultats précédents et en supposant que les angles β et β' sont différents de zéro,
+   donner la valeur du degré de mobilité de ce modèle puis son degré d'hyperstatisme. Que concluez-vous de ces
+   résultats ? On notera V'(3/2) le torseur cinématique de la liaison sphère-plan de centre J dont on précisera la
+   normale.
+   QUESTION 13
+   En supposant que les normales, à préciser, aux liaisons sphère-plan, de centres I et J, sont concourantes au point
+   que l'on notera I32, déterminer, en utilisant l'équivalence statique, la liaison équivalente entre les solides 3 et 2
+   au point I32.
+   QUESTION 14
+   Compléter, sur le document réponse 5, le schéma cinématique avec la liaison équivalente.
+   QUESTION 15
+   Calculer le degré de mobilité du mécanisme ainsi modélisé et comparer     HHHEcetteE valeur à celle trouvée à la
+                                                                                            E
+   question 12, en supposant les valeurs de a et b quelconques, définies par AI32  ax1 b y1 .
+   QUESTION 16
+   Indiquer à quelle condition sur a et/ou b, le degré de mobilité serait égal à 1. Commentez ce résultat en regard
+   de l'objectif énoncé plus haut.
+
+
+
+
+Système d’inspection pour tubes de guidage              Page 10                                         Banque PT - SIA 2009
+
+
+===== page 13 =====
+   Les valeurs de a et b étant des fonctions du temps, on constate que la condition trouvée ne peut être réalisée
+à chaque instant du mouvement d'accrochage, en conservant, sur la pièce 3, deux rampes rectilignes pour les
+contacts ponctuels en I et J.
+   Une simulation informatique du mécanisme montre que si on décide de conserver la rampe rectiligne
+uniquement au contact en I, il est nécessaire d'avoir un profil bombé, donné sur le document réponse 5, pour
+le contact en J.
+   QUESTION 17
+   Expliquer et effectuer, sur le document réponse 5, le tracé permettant de trouver exactement la position du
+   point de contact J, entre la surface sphérique de la tige de commande et le profil bombé de la griffe, obtenu
+   dans la position représentée.
+   QUESTION 18
+   Le bureau d'étude a finalement décidé de conserver les deux rampes rectilignes repérées DI et DJ sur le
+   document réponse 5. Quelle conséquence a ce choix sur le fonctionnement du mécanisme d'accrochage ?
+   Peut-on valider le critère étudié de la FT 2.1.1 ?
+
+   C1.2 - Validation de la transmission de l'effort de commande
+
+   On souhaite vérifier que le mouvement de commande de la griffe est toujours possible. Pour cela, on se
+place dans la configuration du modèle simplifié donné figure 5 de l'Annexe 4. On suppose que seule la liaison
+sphère-plan de centre I n'est pas parfaite avec un coefficient de frottement au contact f de 0,2. On suppose
+négligeable le poids de la griffe 3 devant les actions mécaniques transmises. On précise que d = 10 mm et que
+y varie entre 20 et 32 mm.
+   QUESTION 19
+   Préciser, en justifiant votre réponse, si un phénomène d'arc-boutement peut se produire au cours du mouvement
+   de la griffe ? Peut-on valider la solution proposée ?
+
+   C2 - VALIDATION DU DEUXIÈME CRITÈRE
+
+   La commande du pivotement des griffes réalisant l'accrochage est effectuée par le ressort de commande
+(voir figure 3 en Annexe 3) qui provoque le déplacement λ (voir figure 7 Annexe 4) de la tige de commande 2. Ce
+ressort travaille en compression et est caractérisé par sa raideur k et sa longueur libre L0. Sa longueur après le
+pivotement de l'angle a (voir figure 7 Annexe 4) des griffes réalisant l'accrochage est notée L1. On donne la loi
+de comportement du système sur l'amplitude du déplacement (voir figures 7 et 8 Annexe 4).
+   On suppose que toutes les liaisons du mécanisme sont parfaites et qu'aucune action extérieure au solide 3 ne
+   s'oppose à son basculement pendant l'accrochage.
+   On néglige la masse du solide 3 par rapport à la masse totale de la tige de commande 2 notée m.
+   On note G le centre d'inertie de la tige de commande 2.
+   L'action du ressort est supposée constante sur la course d'accrochage et égale à sa valeur en fin de course.
+                                                                                  E E E
+   L'accrochage s'effectuant la perche à l'arrêt, on considère que le repère (A , x1 , y1 , z1 ) est galiléen.
+
+   QUESTION 20
+   Déterminer la durée ta d'accrochage de la tête sur l'outil d'inspection en fonction des données.
+   Faire l'application numérique pour L0 = 105 mm, L1 = 70 mm, k = 8 N / mm et m = 20 kg.
+   Peut-on valider le critère étudié de la FT 2.1.1 ?
+
+
+
+
+Système d’inspection pour tubes de guidage                Page 11                                          Banque PT - SIA 2009
+
+
+===== page 14 =====
+                                                                      Partie D
+                          VALIDATION DU SYSTÈME DE MAINTIEN EN
+                               TENSION DE LA GAINE FLEXIBLE
+
+  Quand on poursuit l'analyse fonctionnelle interne de la fonction FT 3.1 avec l'outil de description FAST, on
+obtient :
+ FT.3.1 : Alimenter l'outil                  FT.3.1.1 : Relier l'outil à      FT.3.1.1.1 : Protéger le                  gaine
+ et assurer l'échange                        l'interface de commande          support matériel de
+                                                                                                                       flexible
+ des informations                            par un support matériel          l'environnement mécanique
+
+
+                                                                              FT.3.1.1.2 : Éviter que le   enrouleur
+                                                                              support matériel entrave     basculeur
+                                             FT.3.1.2 : Gérer les
+                                                                              le déplacement de l'outil
+                                             transmissions
+
+
+  Fonctions techniques                             Critères d'appréciation Niveau
+  FT.3.1.1.1                     r contact avec les                            0
+  Protéger le support matériel      parois du tube
+  de l'environnement                de guidage
+  mécanique
+  FT.3.1.1.2                     r contact avec les                            0
+  Éviter que le support matériel    parois du tube
+  entrave le déplacement            de guidage
+  de l'outil d'inspection
+
+
+   Les solutions adoptées (voir figure 9 de l'Annexe 5)pour satisfaire ces critères sont :
+     r Regrouper dans une gaine flexible mais radialement rigide, tous les câbles assurant l'alimentation en
+        énergie électrique et les transmissions de l'information. Ainsi l'outil d'inspection est relié au robot chenillé
+        par un faisceau de câbles contenus dans la gaine flexible. Quand l'outil est au niveau le plus bas, la gaine
+        flexible est sur le sol de la piscine dans sa presque totalité. Sa longueur est légèrement supérieure à la
+        course de l'outil d'inspection, soit 3000 mm.
+      r Adapter le diamètre de la gaine flexible aux dimensions du passage dans le tube de guidage. Ce diamètre
+         est fixé à 40 mm.
+      r Assurer une tension toujours positive de la gaine afin d'éviter le contact de celle-ci avec le tube de
+         guidage pendant les déplacements de l'outil. Ainsi un système motorisé à galets, dit "enrouleur",
+         accompagne le mouvement de la gaine quand elle suit la montée ou la descente de l'outil. Le moteur de
+         l'enrouleur entraîne la gaine, par adhérence avec le galet d'entraînement ou galet moteur, à une vitesse
+         légèrement inférieure à la vitesse de l'outil, imposée par le palan, dans la phase de montée et légèrement
+         supérieure dans la phase de descente afin de maintenir la gaine continuellement en tension.
+      r Éviter une surtension mécanique de la gaine pouvant endommager sa fixation à l'outil d'inspection.
+         Ainsi un système commandé par ressort, dit "basculeur" et composé du balancier avec les galets presseur
+         et de renvoi, permet de limiter la tension à une valeur maximale acceptable, fixée à 100 N, en autorisant
+         un glissement au contact entre le galet moteur et la gaine.
+
+
+
+
+Système d’inspection pour tubes de guidage                                 Page 12                               Banque PT - SIA 2009
+
+
+===== page 15 =====
+   Le principe de la solution est donc :
+     r une mise en tension de la gaine progressive et continue grâce à une légère différence de vitesses entre
+        l'avant et l'arrière de la gaine. Cette différence étant imposée par la différence des vitesses d'entraînement
+        du palan et de l'enrouleur ;
+     r un relâchement brusque de la tension à sa valeur minimale quand elle atteint un seuil maximal fixé au
+        préalable. Ceci étant réalisé par le basculeur.
+   Objectif de l'étude proposée
+   On se propose dans cette partie de valider le système de maintien en tension de la gaine par la validation du
+   critère de tension maximale supportée par la gaine.
+   Les notations adoptées, en complément de la partie C, sont les suivantes :
+       Les torseurs cinétique et dynamique du mouvement d’un solide j par rapport à un solide i (ou par
+       rapport au référentiel Ri lié à celui-ci), réduits en A, seront notés respectivement :
+                                                   HHE                                 HHE
+                                                 « R ( j / i) ®º
+                                                 ®                                «® R ( j / i) º®
+                                                                                   ®                    ®®
+                                        C(j/i) y®¬ E               ®»    D(j/i) y®¬ E
+                                                     C                                   D
+                                                                                                         »
+                                                 ®                  ®®             ®®                    ®
+                                                 ®
+                                                 ®
+                                                 ­ T ( A , j / i )   ®¼A            ®­ E ( A , j / i) ®®¼A
+       Les dérivées première et seconde d’une quantité x(t) par rapport au temps seront notées :
+                                                       dx t              d2 x t
+                                              x t           et 
+                                                                 x t                 .
+                                                       dt                        dt 2
+         L'opérateur d'inertie du solide i en un point Q du solide sera noté I(Q,i) et la matrice d’inertie associée
+                          E E E
+         dans une base x , y , z sera notée :
+                                                  ¨ Ai Fi Ei ·
+                                                  ©               ¸
+                                                  © Fi Bi Di ¸
+                                                  ©               ¸
+                                                  ©E D      C   ¸
+                                                  ª i     i     i ¹ xE , yE , zE
+
+
+
+
+   D1 - PRÉSENTATION DU SYSTÈME DE MAINTIEN EN TENSION DE LA GAINE FLEXIBLE
+
+   L’architecture générale du système de maintient en tension est illustrée sur l'Annexe 5.
+   Lors de la phase de montée, la gaine accrochée à l’outil d’inspection est tractée avec celui-ci par le palan à une
+vitesse v. Afin de garantir une tension minimale dans la gaine introduite dans le tube et d'éviter son coincement
+entre le stockage au sol et son entrée dans le tube, un galet moteur entraîne celle-ci, dans la partie basse, à une
+vitesse v-Δv. La quantité Δv représente le léger écart de vitesse entre les deux extrémités de la portion de gaine
+entraînée.
+   L’entraînement de la gaine par le galet moteur est assuré par un contact avec frottement. L'effort normal
+au contact, ou effort presseur, est exercé grâce un ressort de traction agissant sur un ensemble basculeur
+composé :
+       r EVOCBMBODJFSFOMJBJTPOQJWPUBWFDMFDPSQTEVSPCPU
+       r EVOHBMFUQSFTTFVSFODPOUBDUBWFDMBHBJOFBVESPJUEVHBMFUNPUFVS
+       r EVOHBMFUEFSFOWPJ
+   Les surfaces de contact des galets moteur et presseur sont réalisées en Courbhane, matériau souple garantissant
+notamment un coefficient de frottement important de la gaine sur le galet moteur.
+   La partie de la gaine se trouvant au sol n'est soumise à aucune tension. Elle est simplement tirée, au fur et
+à mesure des besoins lors de la montée de l'outil dans le tube, par le galet moteur du système de maintien en
+tension.
+   C'est le basculement progressif du balancier qui permet de relâcher la tension dans la gaine. En effet, il y a
+adhérence durant toute la phase de mise en tension, et c'est son basculement qui provoque, au moment où la
+tension devient trop importante, un brusque glissement au contact de la gaine avec le galet moteur. Suite à ce
+
+
+
+Système d’inspection pour tubes de guidage                Page 13                                      Banque PT - SIA 2009
+
+
+===== page 16 =====
+brusque relâchement, le basculeur reprend sa position initiale et le cycle se poursuit.
+   C'est l'étude de la phase d'augmentation de la tension de la gaine provoquant la rotation du balancier jusqu'au
+brusque relâchement de la tension de celle-ci, qui fait l'objet de cette partie afin de vérifier que la tension dans
+la gaine ne dépasse pas un seuil maximal.
+
+
+   D2 - MODÉLISATION DU SYSTÈME DE MAINTIEN EN TENSION DE LA GAINE FLEXIBLE
+
+
+   D2.1 - Modèle structurel
+
+   D2.1.1 - Description géométrique et cinématique
+
+  On adopte un modèle du basculeur défini par le schéma cinématique de la figure 11 de l'Annexe 6. On suppose
+                                                              E E E
+plans, les mouvements des différents solides. Soit R 0 O , x 0 , y 0 , z 0 le repère orthonormé, direct, lié au socle 0. Les
+                                          E E           E
+mouvements s'effectuent dans le plan ( x 0 , y 0 ) , et y 0 est vertical descendant. Le repère R0 est supposé galiléen.
+  L'ensemble est constitué :
+     - d'un socle 0;
+                                                          E
+     - d'un galet moteur 4 en liaison pivot d'axe (E, z 0 ) avec le socle 0;
+                                                      E
+     - d'un balancier 1 en liaison pivot d'axe (O, z 0 ) avec le socle 0;
+                                                                                                              E          E
+     - d'un galet de renvoi 2 et d'un galet presseur 3 respectivement en liaisons pivot d'axe (G2, z 0 ) et (G3, z 0 )
+        avec le balancier 1;
+     - d'un ressort de traction R fixé au socle 0 et accroché au balancier 1 au point H;
+     - de la gaine représentée partiellement.
+   La figure 12 de l'Annexe 6 représente la position du basculeur (hors galet moteur) à un instant t quelconque,
+définie par le paramètre géométrique θ(t), associé à la liaison pivot entre le balancier 1 et le socle 0, tel que
+                 E E            E E
+l'angle θ(t) = ( x 0 , x1 )  ( y 0 , y1 ) . Sur cette figure, la gaine est limitée à une portion comprise entre les points I et J
+tels que I est à l'horizontale du point G2 et J à la verticale du point G3.
+   L'ensemble basculeur est représenté, sur le schéma de la figure 11 de l'Annexe 6, dans sa position initiale dite
+position d'équilibre, pour laquelle l'angle θ(t=0) vaut zéro.
+   L’angle θ(t) restant faible et on pourra linéariser le comportement, autour de la position d'équilibre, en
+adoptant les approximations suivantes : sin θ(t)≈ θ(t) et cos θ(t)≈1.
+
+   D2.1.2 - Caractéristiques d'inertie
+
+  Les galets 2 et 3 sont de masses identiques m2 et de centres d’inertie respectifs G2 et G3. Le balancier 1 est
+de masse m1 et de centre d’inertie O (la tige de G3H étant de masse négligeable). La géométrie simplifiée,
+adoptée pour la détermination préalable des caractéristiques d'inertie, est décrite sur la figure 13 de l’Annexe 7.
+Les solides 1, 2 et 3 sont supposés homogènes.
+   QUESTION 21
+                                                                               E E E
+   Donner la forme de la matrice d’inertie du solide 1 au point O dans la base x1 , y1 , z 0 . On justifiera la réponse.
+   QUESTION 22
+                                                                                     E
+   Exprimer littéralement le moment d’inertie C1 du solide 1 par rapport à l’axe O , z 0 , en fonction de la masse
+   m1 et de ses dimensions.
+   QUESTION 23
+                                                                                E E E
+   Donner la forme de la matrice d’inertie du solide 2 au point G2 dans la base x1 , y1 , z 0 . On justifiera la réponse.
+   QUESTION 24
+                                                                                       E
+   Exprimer littéralement le moment d’inertie C'2 du solide 2 par rapport à l’axe G2 , z 0 , en fonction de la masse
+   m2 et de ses dimensions.
+
+
+
+Système d’inspection pour tubes de guidage                  Page 14                                             Banque PT - SIA 2009
+
+
+===== page 17 =====
+   QUESTION 25
+                                                                                     E
+   Exprimer littéralement le moment d’inertie C2 du solide 2 par rapport à l’axe O , z 0 , en fonction de la masse
+   m2 et de ses dimensions.
+
+   D2.2 - Modèle comportemental
+
+   D2.2.1 - Actions mécaniques
+
+  La gaine étant flexible, on adopte une modélisation globale des actions mécaniques exercées sur la portion I J
+de la gaine définie sur la figure 12 de l'annexe 6. On modélise :
+     r MBDUJPOEFMBQBSUJFWFSUJDBMFEFMBHBJOFTVSMBQPSUJPOI J, par un glisseur réduit en I, dont la résultante est
+         E        E
+        RI  TI y 0 en phase de montée, avec TI ≥ 0;
+                                                                                                          E        E      E
+     r MBDUJPOEVHBMFUNPUFVS4 sur la portion IJ, par un glisseur réduit en J, dont la résultante est R J  TJ x 0 NJ y 0 :
+           - la composante TJ est dite "tangentielle" et TJ ≥ 0;
+           - la composante NJ est dite "normale" et NJ ≥ 0;
+                                                                                                          E           E
+     r MBDUJPOEVSFTTPSUR sur le balancier 1, par un glisseur réduit en H dont la résultante est RH  FH y 0 , avec
+        FH ≥ 0.
+   La tension de la gaine est supposée uniforme entre I et J, et en conséquence, on aura à tout instant : TI = TJ .
+   On note :
+     r T(t) = TI = TJ , la tension de la gaine à l’instant t (on rappelle qu'à droite du point J la tension est nulle);
+     r N(t) = NJ , l'effort normal sur la gaine à l’instant t;
+     r Fr(t) = FH , l’effort dans le ressort à l'instant t.
+   Les actions de la pesanteur sur la gaine et le ressort seront négligées devant les autres actions.
+   Les liaisons sont supposées parfaites.
+   Les surfaces de contact des galets moteur et presseur, réalisées en Courbhane, garantissent un coefficient de
+frottement gaine/galet f = 0,9.
+
+   D2.2.2 - Loi de comportement du ressort
+
+   Afin de conduire l’étude dynamique, il est préférable d’établir la loi de comportement, en effort, du ressort en
+   fonction de l’angle d’inclinaison θ(t) du basculeur.
+   QUESTION 26
+   Établir la loi de comportement du ressort sous la forme : Fr(t) = Fr0 + kr θ(t). Exprimer kr en fonction de la raideur
+   k du ressort et des dimensions utiles. Faire l’application numérique.
+
+   D2.2.3 - Loi de comportement de la gaine
+
+  La géométrie, les notations et les caractéristiques associées à la gaine, sont définies sur la figure 14 de l’Annexe 6.
+Dans sa portion verticale (partie IJ non comprise), la gaine est assimilable à une poutre droite de longueur L. Les
+hypothèses de la théorie des poutres sont supposées vérifiées (Barré de St-Venant, Navier/Bernoulli).
+  On note ΔL l'allongement de la gaine consécutif à la différence de vitesse Δv constante imposée entre le
+galet moteur et le palan, et S l’aire de la section de la gaine.
+   QUESTION 27
+   Nommer la sollicitation subie par la gaine dans sa portion verticale au dessus du point I.
+   QUESTION 28
+   Établir la relation donnant la tension de gaine T(t) en fonction de T0, E, ΔL, L et S.
+   QUESTION 29
+   En déduire la relation donnant la tension T(t) sous la forme : T(t) = T0 + kT t. Exprimer kT en fonction de E, Δv, L
+   et S. Faire l’application numérique pour L = 3000 mm et Δv = 2 mm/s.
+
+
+
+Système d’inspection pour tubes de guidage                 Page 15                                            Banque PT - SIA 2009
+
+
+===== page 18 =====
+   D2.2.4 - Loi de comportement du revêtement des galets
+
+  Le comportement du revêtement des galets est élastique. Il induit une déformation locale ainsi qu’une
+variation de l’effort normal N(t) en fonction de la position du basculeur.
+   Un essai pratiqué sur le système a permis d’établir le relation suivante : N(t) = N0 – kN θ(t) avec kN = 300 N / rad.
+
+
+   D3 - RECHERCHE DE LA TENSION MAXIMALE
+
+
+   On se propose dans cette partie de mettre en équation le comportement dynamique du basculeur lors de
+la mise en tension de la gaine.
+   Pour cela, on considérera l’ensemble constitué du balancier 1, du galet de renvoi 2, du galet moteur 3 et de la
+portion de gaine comprise entre les points I et J.
+   Sous l’effet de l’augmentation de la tension de gaine, consécutif à la différence de vitesse de ses deux extrémités
+(celle liée au palan et celle entraînée par le galet moteur) et au non glissement en J, le basculeur va se mettre en
+mouvement. Ce basculement induit une diminution de l'effort presseur jusqu'à provoquer le glissement en J.
+                      E E E                                                        E E            E E
+   Le repère R1 O , x1 , y1 , z 0 est lié au basculeur et on rappelle que θ(t) = ( x 0 , x1 )  ( y 0 , y1 ) , avec θ(t=0) = 0.
+              E          E                                                                                            E         E
+   On note 8(2/1)= S 2 z 0 le vecteur vitesse de rotation du galet 2 par rapport au balancier 1, et 8(3/1)= S 3 z 0 le
+vecteur vitesse de rotation du galet 3 par rapport au balancier 1. On suppose que les galets 2 et 3 roulent sans
+glisser sur la gaine dont la vitesse varie peu. Ce qui conduit à faire l'hypothèse que S 2 et S 3 sont constants.
+
+   D3.1 - Analyse du point d'équilibre du basculeur
+
+   A l’instant t = 0, le système est horizontal et à l’équilibre : le palan et le galet moteur sont stoppés. On note :
+                                           T0 =T(t=0); N0 = N(t=0); Fr0 = Fr(t=0)
+   Il subsiste à cet instant une tension résiduelle dans la gaine évaluée à T0 = 10N (Newton).
+
+   QUESTION 30
+   Établir une relation entre T0, N0, Fr0 et les dimensions utiles.
+   QUESTION 31
+   En déduire l’expression puis la valeur numérique de N0.
+   QUESTION 32
+   Vérifier le non glissement en J entre le galet moteur et la gaine à l’instant initial.
+
+   D3.2 - Recherche du comportement dynamique du basculeur
+
+   Indépendamment des parties D2.2.2 à D2.2.4, on admettra les expressions suivantes :
+                     Fr(t) = Fr0 + kr θ(t) ;   T(t) =T0 + kT t   avec kT = 360 N.s-1;       N(t) = N0 – kN θ(t)
+   Les conditions initiales du mouvement sont toutes nulles.
+   En reprenant les notations introduites précédemment, soient : C1 le moment d’inertie du solide 1 par rapport à
+          E                                                                E
+l’axe O , z 0 , C2 le moment d’inertie du solide 2 par rapport à l’axe O , z 0 et C3 le moment d’inertie du solide 3 par
+                      E
+rapport à l’axe O , z 0 , on posera : Jéq =C1 +C2 +C3 .
+   QUESTION 33
+   Établir, par l’application du principe fondamental de la dynamique, l’équation différentielle régissant les
+   variations de θ(t). On rappelle que θ(t) est supposé petit. On demande de préciser clairement la stratégie et la
+   démarche de calcul proposées.
+
+
+
+
+Système d’inspection pour tubes de guidage                  Page 16                                            Banque PT - SIA 2009
+
+
+===== page 19 =====
+   QUESTION 34
+   Simplifier cette équation en utilisant le résultat de la question 30 et mettre l’équation obtenue sous la forme
+   S( t ) X 2 . S( t )  K .t . Exprimer ω et K en fonction de a, d, r, k , k , k et J .
+              0                             0                              N T r        éq
+
+   QUESTION 35
+   Établir la solution de cette équation en fonction de t, ω0 et K. Le choix de la méthode de résolution est laissé libre
+                                                                                                               X
+   au candidat. On rappelle, si nécessaire, que la transformée de Laplace de la fonction sin(ωt).u(t) est 2            où
+                                                                                                           p X2
+   u(t) est l’échelon unité et p la variable de Laplace.
+   QUESTION 36
+   En déduire l’expression de N(t) en fonction de t, N0, kN, ω0 et K.
+
+   D3.3 - Validation du critère de tension maximale
+
+  Les expressions établies dans la partie précédente ont permis de tracer les graphes donnés sur le document
+réponse 6. On y distingue les évolutions de N(t) et de θ(t).
+   QUESTION 37
+   Tracer sur le graphe de N(t) l’évolution de T(t).
+   QUESTION 38
+   En déduire la valeur de l’instant tg de début de glissement entre le galet moteur et la gaine.
+   QUESTION 39
+   Relever sur les graphes la valeur de l’angle θg et celle de la tension Tmax à cet instant. Conclure sur la validation
+   du critère définissant la tension maximale à ne pas dépasser.
+
+
+
+
+                                                            Partie E
+                    RÉGLAGE ET VALIDATION DU CORRECTEUR
+                  DE LA COMMANDE ASSERVIE DU DÉPLACEMENT
+                           DE L'OUTIL PAR LE PALAN
+
+                             Cette partie nécessite la lecture de la présentation du système de la partie D.
+
+   Le maintien en tension de la gaine flexible contenant les câbles reliant l'outil d'inspection au robot chenillé est
+assuré par deux systèmes complémentaires. Le basculeur qui a fait l'objet de la partie D, et le système de mise en
+tension progressive et continue de la gaine. On s'intéresse plus particulièrement à la commande des actionneurs
+électriques assurant la différence des vitesses de rotation du galet moteur et du tambour d'enroulement.
+   La différence des vitesses de rotation doit rester constante quelles que soient :
+    r les circonstances : phases de montée ou descente, d'accélération ou ralentissement, vitesse rapide ou
+       lente;
+    r les perturbations : tension variable de la gaine, frottements secs ou visqueux.
+   Les actionneurs utilisés sont deux moteurs "brushless" identiques qui, grâce à leur résolver intégré, permettent
+de connaître à tout instant la position et la vitesse des arbres moteurs. Chacun est piloté par un variateur de
+vitesse constitué d'un onduleur MLI permettant de contrôler les courants et le flux dans la machine par une
+commande généralement appelée "commande vectorielle de flux".
+
+
+
+Système d’inspection pour tubes de guidage                     Page 17                                         Banque PT - SIA 2009
+
+
+===== page 20 =====
+   La solution adoptée consiste à asservir la commande en vitesse des deux moteurs actionnant les deux chaînes
+d'énergie, c'est-à-dire, celle constituée du palan et de la perche et celle de l'enrouleur.
+   L'étude porte sur la première chaîne d'énergie (palan + perche) et la chaîne d'information permettant par
+l'asservissement de la commande en vitesse de l'actionneur d'atteindre les performance souhaitées.
+   Le cahier des charges donne les valeurs des critères d'appréciation adoptés :
+     r la précision : en régime permanent à vitesse constante, soit εS = 0 et à accélération constante, soit εT = 0;
+                       εS désigne l'erreur statique de position et εT l'erreur statique de vitesse ou erreur de traînage
+     r la rapidité : le temps de réponse à 5% tel que : tR5% w 1 s;
+     r la stabilité : marge de phase  45° et marge de gain  10 dB.
+
+   E1 - MODÉLISATION DU SYSTÈME DE DÉPLACEMENT DE L'OUTIL
+
+    La chaîne d'énergie est donc constituée d'un moto-variateur synchrone autopiloté (moteur brushless)
+entraînant un palan associé à un réducteur qui donne son mouvement vertical à l'outil d'inspection par
+l'intermédiaire du câble du palan et de la perche de commande accrochée à l'outil (voir figure 15 en Annexe 7).
+   Le schéma bloc précisant l'architecture de la chaîne d'énergie peut alors se mettre sous la forme suivante :
+
+
+  Uc                                     Um                  Moteur               Cm               Mécanisme d'entraînement                      V
+                Onduleur                                                                             de l'outil d'inspection
+                                                            brushless                               Palan + câble + perche
+   Notations :
+   Uc : tension de commande
+   Um : tension d'alimentation du moteur
+   Cm : couple moteur exercé par le stator sur l'arbre moteur
+   V : vitesse linéaire de déplacement de l'outil d'inspection
+   Un modèle simple de commande du moteur en courant, donc en couple, est adopté. Cette modélisation
+permet de poser Cm(t) = Kt . i(t) avec Kt = Cste comme pour le modèle d'un moteur à courant continu.
+   On admet que l'hypothèse de linéarité sur le modèle aux variations est vérifiée et que l'on peut appliquer à
+la modélisation du système la théorie des systèmes linéaires, continus et invariants avec des conditions initiales
+nulles.
+   Dans ce cadre, on donne ci-après une représentation de la modélisation du système sous la forme d'un
+schéma bloc :
+                                                                     Variateur
+                                                Module de commande                        Onduleur                Moteur               Mécanisme
+                                                                                                                                     d'entraînement
+Vref              Uref              GU               Iref            GI              Uc              Um            Im           Cm                    V
+         A(p)              +                 CV(p)           +             CBC(p)             Kd          He(p)            Kt            HL(p)
+                                                                
+
+                                   UV
+
+                                                                                 Boucle de courant
+                                                                                          Kcv
+
+   Notations complémentaires :
+   On note p la variable de Laplace et F(p) la transformée de la fonction f(t).
+   Grandeurs physiques :
+   Vref : référence de la vitesse de l'outil donnée par le programme de commande
+   Uref : tension de référence image de la vitesse de référence
+   UV : tension image de la mesure de vitesse
+   Iref : courant de référence élaboré par le module de commande
+   Im : courant moteur
+
+
+Système d’inspection pour tubes de guidage                                          Page 18                                             Banque PT - SIA 2009
+
+
+===== page 21 =====
+   Fonctions de transfert (FT) :
+   CV(p) : FT du correcteur de la boucle de vitesse
+   CBC(p) : FT du correcteur de la boucle de courant
+   He(p) : FT du comportement électrique du moteur
+   HL(p) : FT du comportement mécanique du mécanisme d'entraînement
+   A(p) : FT de l'adaptateur de la référence de vitesse
+   Kd : gain statique de l'onduleur
+   Kt     : constante de couple moteur
+   Kcv : gain statique du capteur de vitesse (résolveur)
+
+   E1.1 - Recherche de la fonction de transfert de la boucle de courant et du moteur
+
+                                                                      Ke
+   On prend pour He(p) un modèle du premier ordre tel que : He(p) =           .
+                                                                    1+ t e .p
+                                                                                                          1+ti .p
+   Le correcteur de la boucle de courant est un correcteur proportionnel intégral (PI), soit : CBC(p) = k
+                                                                                                           ti .p
+   QUESTION 40
+   Déterminer HBC(p) telque Im(p) = HBC(p) Iref(p) la fonction de transfert en boucle fermée (FTBF), sous forme
+   canonique, de la boucle de courant en fonction de te, k, Kd et Ke, si on choisit ti = te.
+   QUESTION 41
+                                                    Km
+   On pose Hm(p) = HBC(p) . Kt , soit Hm(p) =        . Exprimer Km et tm, en fonction de te, k, Kd, Ke et Kt.
+                                          1 tm .p
+   Faire l'application numérique pour te = 1 ms, k = 10 V/A, Kd = 50, Ke = 0,16 A/V et Kt = 0,51 Nm/A.
+
+   E1.2 - Recherche de la fonction de transfert du mécanisme d'entraînement
+
+   La figure 15 en Annexe 7 montre que le palan est constitué de deux tambours solidaires sur lesquels le câble
+s'enroule simultanément. Cette solution évite que le point d'ancrage de la perche avec le câble ne se déplace
+latéralement pendant la montée et permet de tirer ainsi sur l'outil d'inspection toujours dans son axe.
+   On cherche à établir le schéma bloc décrivant le comportement du mécanisme d'entraînement de l'outil
+                                              d'inspection. Pour cette recherche on utilisera la modélisation
+                Tambour                       simplifiée proposée ci-contre.
+              et réducteur                        On se place dans la phase de montée de l'outil d'inspection et
+                de vitesse                                                                         E E E
+                                              on suppose galiléen le repère Rg O , x g , y g , z g . On note :
+Arbre moteur
+   d'inertie      yg                          - M la masse équivalente à l'ensemble en translation attribuée à
+      Jm                                             l'outil ;
+                                              - V laE vitesse de translation de l'outil par rapport à Rg, telle que
+                                                                            E
+    Cm             O                                  V ( outil / R g )  V y g ;
+                                              - T l'action du câble, supposé inextensible       E               et sans masse, sur
+                                                                                                                     E
+  ωm                         xg                      l'outil au point C, telle que T ( cable       â    m outil)  T y g ;
+                                              - TG l'action regroupant celle de la gaine et celle de la
+   zg                                                                                                               E
+                          Câble                      pesanteur
+                                                      E                 sur l'outil, toutes deux d'axe C , y g , telles que
+                                                                                            E
+                                                      T ( gaine pes m outil)  TG y g ;
+                                     V        - fv le coefficient de frottement visqueux entre l'outil et le tube
+                                                     de guidage, les frottements secs sont négligés ;
+                         Outil
+                                  C           - J m  l'inertie     de l'arbre moteur;
+                        masse                 - ω  m la   vitesse      de rotation
+                                                                                E      de l'arbre moteur
+                                                                                                     E         Am par rapport au
+                      équivalente                    stator,     telle   que   8  ( Am / Rg )  w m gz  ;
+                           M                  - Cm le couple E        moteur exercé par le stator sur l'arbre moteur, tel
+                                                                                         E
+                                                     que C( stator m Am)  Cm z g ;
+                                              - CT le E couple exercé par le réducteur                 sur l'arbre moteur, tel que
+                                                                                         E
+                        Gaine                         C(reducteur
+                                                           é            m Am)  C T z g ;
+
+
+
+
+Système d’inspection pour tubes de guidage                  Page 19                                             Banque PT - SIA 2009
+
+
+===== page 22 =====
+     - μ le coefficient de frottement visqueux entre l'arbre moteur et le stator, lesE frottements secs sont négligés ;
+                                                                                                   E
+     - ωT la vitesse de rotation du tambour Tb par rapport au stator, telle que 8( Tb / Rg)  YT z g , et R son rayon,
+          c'est-à-dire le rayon d'enroulement du câble, supposé constant, sur le tambour ;
+     - r le rapport des vitesses ωm / ωT ;
+     - η le rendement du réducteur.
+   Vous préciserez clairement les éventuelles hypothèses et/ou notations complémentaires que vous jugerez
+   utiles pour traiter les questions de cette partie.
+   QUESTION 42
+                                                         en appliquant le théorème de la résultante dynamique à
+   Exprimer T en fonction de TG, fv, M, V et sa dérivée V,
+                                         E
+   l'outil de masse M en projection sur y g .
+   QUESTION 43
+   Exprimer CT en fonction de T, B et η, en appliquant de théorème de l'énergie-puissance à l'ensemble
+                                                                              r
+   E= {tambour + réducteur+câble} dont on négligera l'inertie et en posant B = .
+                                                                              R
+   QUESTION 44
+                                                                                                  E
+   Écrire le théorème du moment dynamique au point O, appliqué à l'arbre moteur en projection sur z g .
+   QUESTION 45
+   Mettre le mécanisme d'entraînement sous la forme du schéma bloc proposé sur le document réponse 7, en
+   utilisant les résultats précédents. On exprimera les fonctions de transfert en fonction de fv, Jm, M, B, η et μ.
+   QUESTION 46
+   En déduire l'expression de V(p) sous la forme : V(p) = HL(p) . Cm(p) − HG(p) .TG(p). On donnera l'expression littérale
+   des fonctions de transfert HL (p) et HG (p) sous leur forme canonique.
+   Faire l'application numérique pour : M = 20 kg, Jm = 0,2 kg.cm2, μ = 0,001 Nm.rad-1.s, fv = 0,22 N.m-1.s, r = 900,
+   η = 0,6 et R = 90 mm.
+
+
+   E2 - RÉGLAGE ET VALIDATION DU CORRECTEUR DE VITESSE
+
+
+   E2.1 - Modélisation
+
+   On néglige la constante de temps τm du moteur devant la constante de temps du système mécanique et pour
+la suite de l'étude on adopte le schéma bloc suivant :
+                                                                                                                          TG (p)
+
+
+                                                                                                                  HG(p)
+
+
+                                Vref (p)            Uref (p)            εU (p)             Cm (p)                            V (p)
+                                             A(p)              +                   CV(p)                  HL(p)   +
+                                                                   
+                                                                       UV
+                                                                                                    Kcv
+
+  Quels que soient les résultats trouvés précédemment, on adoptera les expressions suivantes pour les fonctions
+de transfert HL(p) et HG(p) :
+            KL                    KG
+  HL(p) =            et HG(p) =            avec :  τG = τL = 20 ms ; KL = 10-3 N-1.s-1 et KG = 2.10-5 m.N-1.s-1 .
+          1 VL .p               1 V G .p
+   Le bloc CV(p) correspond au correcteur de vitesse. Le gain du capteur de vitesse est KCV.
+
+
+
+
+Système d’inspection pour tubes de guidage                                       Page 20                                              Banque PT - SIA 2009
+
+
+===== page 23 =====
+   QUESTION 47
+   Donner l'expression de A(p) et justifier rapidement pourquoi la fonction de transfert du capteur de vitesse est
+   assimilée à un simple gain statique.
+
+   E2.2 - Recherche des performances du système
+
+  On choisit finalement de mettre le schéma bloc sous la forme suivante avec un gain unitaire pour le capteur
+de vitesse.
+                                                                                                       TG (p)
+
+
+                                                                                               HG(p)
+
+
+                                         Vref (p)           εV (p)           Cm (p)                       V (p)
+                                                    +                CV(p)             HL(p)   +
+                                                        
+
+
+
+
+   On choisit tout d'abord une correction proportionnelle telle que CV(p) = KP .
+
+   QUESTION 48
+   Le cahier des charges est-il respecté en termes de précision, rapidité et stabilité ? Peut-on choisir une valeur de
+   KP qui puisse assurer le respect complet du cahier des charges ? Le système est-il robuste à une perturbation
+   en échelon ?
+
+   E2.3 - Recherche et validation d'un correcteur
+
+                   Pour la suite de l'étude, on considère que le système n'est pas perturbé et que TG(p) = 0
+
+                                                                                                                       Ki
+   On décide de corriger le comportement du système avec une correction intégrale, tel que CV(p) =                        .
+                                                                                                                       p
+   QUESTION 49
+   Le cahier des charges est-il respecté en terme de précision ? Discuter. Calculer numériquement le temps de
+   réponse à 5% optimal obtenu avec cette correction. Préciser la valeur de Ki permettant d'obtenir ce temps de
+   réponse. A-t-on augmenté ou diminué la rapidité du système par rapport à la correction proportionnelle ?
+   QUESTION 50
+   Tracer sur le document réponse 7 l'allure des diagrammes de Black des fonctions HL(p) et CV(p). Tracer alors
+   l'allure du diagramme de Black de la fonction de transfert en boucle ouverte (FTBO) du système. Indiquer sur ce
+   tracé où est mesurée la marge de phase.
+   QUESTION 51
+   Calculer la valeur de Ki limite assurant le cahier des charges en terme de marge de phase. Vérifier cette valeur en
+   vous aidant du diagramme de Black partiel de la fonction CV(p).HL(p), donné figure 16 de l'Annexe 7, pour la valeur
+   particulière : Ki = 7000. Que pensez vous de cette valeur, vis-à-vis du comportement du système, comparée à
+   celle trouvée à la question 49 ?
+   QUESTION 52
+                                  Ki
+   Un correcteur de type CV(p) =     , permettrait-il d'obtenir les performances attendues en terme de précision
+                                 p2
+   et pourquoi ? Permet-il d'assurer la stabilité du système et pourquoi ?
+
+
+
+
+Système d’inspection pour tubes de guidage                                   Page 21                               Banque PT - SIA 2009
+
+
+===== page 24 =====
+                                                                                             KV             1 k f .V V .p
+   On adopte finalement une correction telle que : CV(p) = CV1(p) . CV2(p) , avec CV1(p) =      et CV2(p) =               , où
+                                                                                             p2              1 V V .p
+   kf est appelé le coefficient de filtrage et dont la valeur est généralement comprise entre 5 ≤ kf ≤ 10.
+   QUESTION 53
+   Comment se nomme la correction apportée par CV2(p) ? Expliquer brièvement comment ce type de correction
+   permet de stabiliser un système instable. Pour cela, tracer l'allure du diagramme de Bode correspondant à ce
+   terme.
+
+   La figure 17 de l'Annexe 8 fournit les diagrammes de Bode du système corrigé uniquement par le correcteur
+                                                                   1
+   CV1(p) avec KV =1, c'est-à-dire la fonction de transfert W(p) = 2 . HL(p) .
+                                                                  p
+   QUESTION 54
+   Lire sur les diagrammes de Bode du système de fonction de transfert W(p), donnés en Annexe 8, la valeur de la
+   pulsation de coupure ω0dB où le rapport d'amplitude A dB s'annule . Quelle est, à cette pulsation, la valeur de la
+                                                        1 k f .V V .p
+   phase ? Justifier alors la présence de la correction               .
+                                                         1 V V .p
+   QUESTION 55
+   Exprimer en fonction de τV et de kf la pulsation ωm pour laquelle la phase maximale est atteinte. On rappelle
+                 d(arctan x )     1
+   pour cela que                    .
+                     dx         1 x2
+   On montre que pour un coefficient de filtrage kf = 8, la valeur maximale de la phase, ajoutée par la correction,
+   est de 51°
+
+   On choisit de prendre pour ωm la valeur de la pulsation pour laquelle le système corrigé uniquement par le
+   correcteur CV1(p) , possède une phase de -185°.
+   QUESTION 56
+   Lire sur les diagrammes de Bode de l'Annexe 8 la valeur de ω pour laquelle la phase du système corrigé
+   uniquement par le correcteur CV1(p) , est de -185°. En déduire la valeur de τV correspondante.
+   QUESTION 57
+   Pour la valeur de τV trouvée précédemment, on donne, sur le document réponse 8, le diagramme de Black de
+   la FTBO du système corrigé entièrement, obtenu pour KV = 75. Donner la valeur de KV qui maximise la marge de
+   phase en expliquant comment vous l'obtenez à la lecture de ce diagramme.
+   Valider alors les performances attendues en terme de stabilité.
+   QUESTION 58
+   On donne sur le document réponse 8 le tracé de la réponse temporelle à un échelon de vitesse de 10 mm.s-1
+   du système corrigé pour trois valeurs de KV. Quelle valeur de KV permet de valider les performances attendues
+   en terme de rapidité ? Donnez une valeur optimale de KV qui permette de satisfaire au mieux le cahier des
+   charges ? On donne les valeurs numériques suivantes : log10 3 = 0,477 et log10 4 = 0,602.
+   QUESTION 59
+   Le système ainsi corrigé est-il robuste aux perturbations en échelon mais également en rampe comme celles
+   provoquées par le système de maintien en tension ?
+
+
+
+                                                      FIN DE L'ÉNONCÉ
+
+
+
+
+Système d’inspection pour tubes de guidage              Page 22                                             Banque PT - SIA 2009
+
+
+===== page 25 =====
+[OCR] Q70R
+
+Bangue PT
+
+Epreuve de Sciences Industrielles A
+
+Durée 5h
+
+Si, au cours de l’épreuve, un candidat repére ce qui lui semble étre une erreur d’énoncé, d’une part il
+le signale au chef de salle, d’autre part il le signale sur sa copie et poursuit sa composition en
+indiquant les raisons des initiatives qu’il est amené a prendre.
+
+DOCUMENTS
+
+ANNEXES
+
+Tournez la page S.V.
+
+
+===== page 26 =====
+                                             présence énergies
+                                                           programme de
+                                                           commande
+                                                                      consignes
+                                                                      opérateur
+                                                                                  données de
+                                                                                  configuration
+
+
+                 Tubes
+                                                Réaliser l'inspection                                 Tubes inspectés
+                 Énergie électrique
+                                                de l'état d'usure des                                DVD gravé avec
+                 DVD vierge                      tubes de guidage                                    imagerie d'usure
+
+
+                                                    Système ECLIPSE
+                                                                                                                     Niveau A-0
+                                                                   figure 1
+
+
+                                                                                                            Perche
+
+
+
+
+                                                                                                            Outil
+                                                                                                        d'inspection
+
+
+
+
+                                                                                                       Unité de         Unité de       Gaine
+                                                                                                       stockage        translation    flexible
+                                                                                                    et de rotation      verticale
+                                                                                          Doigts de
+                                                                                       positionnement
+
+
+
+
+                                                                                                  Robot chenillé              Faisceau
+figure 2                                                                                                                      de câbles
+
+
+
+Système d’inspection pour tubes de guidage                Annexe 1                                                          Banque PT - SIA 2009
+
+
+===== page 27 =====
+                                                                                                                       1
+                         0
+                                                                                                10
+                             ___
+                             aru
+                                                                                        *
+                                                                                                     cdf
+
+                         1
+                                                                                                20      "choix du mode de fonctionnement"
+                             aru
+                                                                                                                      ___
+                                                                        sec rmdp                                   deft rost r ( manu + auto )
+                    G.A.U
+                                                                                                                 30         "accrochage perche sur outil"
+
+                                                                                                                      fap
+       300            H0:= 0             H1:= 500
+                                                                                                                 40         "prise origine outil"
+             X150
+                                                                                                                      fpo
+       301        H0:= 500               H1:= 700
+                                                                                                                                 h := 0
+             X150
+                                                                                                                 50         "choix mode manuel ou automatique"
+       302        H0:= 700           H1:= 1000
+                                                                                                                                                 _____
+             X150                                                                                  manu                                 auto rmanu rdcy
+
+       303       H0:= 1000           H1:= 1350
+                                                                     11 "mode secours"          12 "mode manuel"                      13 "mode automatique"
+             X150
+
+                                                                                                                               ___
+       304       H0:= 1350           H1:= 1600                          fin secours                  fin manu          (X410 rdeft ) + fin auto        deft            stop
+
+             X150
+                                                                                                                                                   60              70
+       305       H0:= 1600           H1:= 1950                                                                                                      acq _deft         reprise
+
+             X150
+                                                                                                                       G.M.M
+       306       H0:= 1950           H1:= 2250
+             X150
+                                                                                                                                 13
+       307       H0:= 2250           H1:= 2600
+             X140
+                               G.H.                                                      * 100 "déplacement outil"
+                                                                                                      [h = H1]
+
+     X130                                   100                                               110 "opération de mesure"
+
+ 400                      * 200               Vitesse lente                                           fmes
+
+       ___                           [h > H0+10]
+       X401 + X10                                                                               120
+                                   210        Vitesse rapide                                                                   _________
+ 401
+                                                                                         [H1 = 2600]                           [H1 = 2600]
+       ___                           [H1 w 1000]+([h > H1–10] r[H1  1350])
+       X402 + X10
+                                                                                      130 "descente outil"               150
+                                   220        Vitesse lente
+ 402
+                                                                                         fdes                                  X301+X302+X303+X304+X305+X306+X307
+       ___                                         G.D.
+       X403 + X10
+                                                                                                     h := 0
+ 403
+                                                                                      140 "rotation outil"
+       X400 rX401 rX402 rX403 + X10
+                                                                                         frot
+ 410
+                                                                                                                                 G.M.A
+                          G.C.
+       X10
+
+
+
+
+Système d’inspection pour tubes de guidage                                     Annexe 2                                                                        Banque PT - SIA 2009
+
+
+===== page 28 =====
+                                                                        reliée à la commande pneumatique
+                                                                                              ou manuelle
+
+
+                                                       perche
+
+
+
+
+                                                           ressort de
+                                                          commande
+
+                                               tige de
+                                             commande
+
+                                                       griffe
+                                                   d'accrochage
+
+
+                                                 pièce insérée dans
+                                                  le corps de l'outil
+                                             d'inspection permettant
+                                             l'accrochage des griffes
+
+
+
+                                               figure 3
+
+
+
+
+                                               tête d'accrochage
+
+
+
+                                               tige de commande
+
+
+                                               3 griffes d'accrochage
+                                                  réparties à 120°
+
+                                                          figure 4
+
+
+
+Système d’inspection pour tubes de guidage             Annexe 3                              Banque PT - SIA 2009
+
+
+===== page 29 =====
+                                 y1
+
+                                                                                                                                         HE
+                                                                                                                                          H     E      E
+                                                                                        y1                                               IA = dx 3 + y y 3
+                                                                                                                                              E E         E E
+                                                                                                                                         C = x1 , x 3 = y 1 , y 3
+                                                                                                                                         E E
+                                                  1
+                                                                                                                                         z3 = z1
+                                                                                                        2 Tige de commande
+                                      2
+
+
+
+                                                                                                   y3
+                                              J                                                                  1 Tête d'accrochage
+                                                      3                                                                                          x3
+                                                  A                                                                    A                 β
+                                                                          x1                                                                          x1
+                                                                                                   H
+
+                                                                                                        I
+                                          I
+                                                                                                                            3 Griffe d'accrochage
+
+                                                                                                            figure 5
+                                                                                                                                             HHE      E      E
+                               y1                                                                                      y1                    JA = d’x’3 + y’y’3
+                                                                                                                                                   E E        E E
+                                                                                                                                             C’ = x1 , x’3 = y1 , y’3
+                                                                                                                                             E     E
+                                                                                                                                             z’3 = z1
+                                                  2 Tige de commande                                                                 2
+                                                                                                                                                      y'3
+
+                                                                                                                                             J
+                                          y3
+                                                             1 Tête d'accrochage
+                                                                                             x3
+                                                                  A                                                             y3                    1
+                                                                                    β             x1                                                                         x3
+                                          H                               C                                                          K
+                                                                                                                                              A                        β x1
+                                                  I                 3 Griffe d'accrochage                                        H                                     β'
+                             N                                                                                                                                              x'3
+                                                                      figure 7                                                       I
+
+                                                                                                                                                      3
+                                    Rotation de la griffe 3 / translation de la tige 2
+                                                              translation N en mm                                                        figure 6
+                        0
+                        -2 0                          2               4             6                   8               10
+rotation C en degrés
+
+
+
+
+                        -4
+                        -6
+                        -8
+                       -10                                                                                                    figure 8
+                       -12                                Amplitude du déplacement
+                       -14
+
+
+
+Système d’inspection pour tubes de guidage                                              Annexe 4                                                            Banque PT - SIA 2009
+
+
+===== page 30 =====
+                                                                                                        Galet moteur
+                                                                                                                                 Moteur
+
+
+
+
+         Action exercée par le palan via
+         l'outil d'inspection
+              Gaine (partie verticale fixée à l'outil d'inspection)
+
+                                                Moteur
+
+                             Socle
+
+
+
+
+              Galet moteur                                                                                                                Gaine
+                                                                                   Galet de renvoi          Balancier        Galet presseur
+             Balancier
+
+
+
+
+                                                                            Gaine (partie basse en fond de piscine)
+
+
+
+                                                                        Structure mécano-soudée
+                                                  Galet presseur
+                       Galet de renvoi
+                                                                      figure 9
+
+
+                                                                      figure 10
+                                                    Vue de l'ensemble sans la gaine
+                                                      une partie de la structure
+                                                       mécano-soudée enlevée
+
+
+
+
+                                                                Balancier
+
+                                                                                                                             Ressort exerçant
+                                                                                                                             l'effort presseur
+
+
+
+
+                                                                                                                      Tige solidaire du balancier
+
+                                                                 Axe de rotation du balancier
+
+
+Système d’inspection pour tubes de guidage                            Annexe 5                                                  Banque PT - SIA 2009
+
+
+===== page 31 =====
+                                                           galet moteur 4                                               0
+                                                                                                     r                              ressort R
+
+
+
+                                                                                            E
+
+                  V                           2 galet de renvoi
+                                                                                                         V - Δv                     ℓéq
+                                                       r
+     gaine                                                                              J                     r                                   z0
+                                         G2                   O                             G3                                            x0
+                          I
+                                                                                                                            H
+
+                                                                                                         1 balancier
+                                                                    0 socle solidaire
+                                                                        du robot                     3 galet
+                                                                                                         presseur
+                                                   a                        a
+                                                                                                 d
+                                                                   y0
+          Principales dimensions                                                        Caractéristiques ressort R
+             a = 100 mm                                                                 raideur : k = 600 N / m
+             r = 80 mm                                            figure 11             longueur à vide : ℓ0 = 50 mm
+             d = 200 mm                                                                 longueur à l'équilibre : ℓéq. = 150 mm
+
+
+
+                                                                                                         0
+
+                      2
+                                                                                                                                    ℓ
+                                                                                        J
+                                                                                                                                                  z0
+                                         G2
+                      I                                       O                                                                                        x0
+                                                                                   G3                                                           θ(t)
+                                                                                                                        C                              x1
+                                                                          0                                         1
+                                                                                                          3
+                                                            y1     y0                                                           figure 12
+
+                                                                    S
+                                                                                                      Caractéristiques de la gaine
+                                                                                                        Section : S = 120 mm2
+                                                                                                        Module de Young : E = 4500 MPa
+                                                                                                        Longueur (mm) : 400 < L < 3000
+                                  L
+
+                                                figure 14
+
+
+Système d’inspection pour tubes de guidage                           Annexe 6                                                           Banque PT - SIA 2009
+
+
+===== page 32 =====
+                          2                                                                                                   z0
+                                                z0              r                                  r
+
+
+
+                                                     3
+                                                                                                O                                        x1
+
+
+
+
+                                                                                           c
+                                                                               G2                               G3
+                         1
+                                                         x1
+                                                                                                   y1
+                               y1
+                                                                                       a                a
+
+                                                                                               b
+  Dimensions et masses
+                                                                                           z0
+       b 300 mm                      a 110 mm
+                                                         h1
+
+
+                                                                                           O
+       c 60 mm                       r 80 mm                                                                                              x1
+                                                         h2
+
+
+
+
+       h1 20 mm                      h2 50 mm
+                                                                               G2                               G3
+       m      1 8 kg                 m 900 g
+
+                                                              figure 1314                                                      y1
+                                                                 figure
+
+
+                              Crochet                                                                                         A dB
+                                                                                                                                         φ°
+Moteur                                                                                                                             0
+
+
+Réducteur
+                                                                                                                                   -5
+
+
+
+
+                                                Tambours
+                                                                                                                                   -10
+                                             d'enroulement
+
+                Câble
+                                                                                                                                   -15
+
+
+
+
+                                                                                                                                   -20
+                 Perche
+
+
+                                                                                                                                   -25
+
+
+
+
+                                                                                                                                   -30
+                  Outil                                         -180    -165        -150   -135         -120   -105          -90
+
+
+
+
+       figure 15
+                                                                                                figure 16
+
+
+
+Système d’inspection pour tubes de guidage                      Annexe 7                                              Banque PT - SIA 2009
+
+
+===== page 33 =====
+                                                    figure 17          Diagrammes de Bode
+                                                                A dB      fonction W(p)
+     60,00
+
+
+     40,00
+
+
+     20,00
+
+                                                                                                       ω
+      0,00
+             0,01                            0,10           1,00             10,00               100,00
+
+    -20,00
+
+
+    -40,00
+
+
+    -60,00
+
+
+    -80,00
+
+
+  -100,00
+
+
+  -120,00
+
+
+  -140,00
+
+                                                                φ°
+     20,00
+                                                                                                       ω
+
+
+    -30,00
+
+
+
+
+    -80,00
+
+
+
+
+  -130,00
+
+
+
+
+  -180,00
+
+
+
+
+  -230,00
+
+
+
+Système d’inspection pour tubes de guidage           Annexe 8                               Banque PT - SIA 2009
+
+
+===== page 34 =====
+[OCR] 
+
+===== page 35 =====
+[OCR] 
+
+===== page 36 =====
+[OCR] 
+
+===== page 37 =====
+Document Reponse ENSAM 210x350                           2009:Document Reponse ENSAM 210x350                 2009    22/01/09       8:54    Page 1
+
+
+
+
+                                        Académie :                                                     Session :                                                        Modèle EN.
+                                        Examen ou Concours                                                                                    Série* :
+                                        Spécialité/option :                                                                     Repère de l’épreuve :
+ DANS CE CADRE
+
+
+                                        Épreuve/sous-épreuve :
+                                        NOM :
+                                        (en majuscules, suivi s’il y a lieu, du nom d’épouse)
+                                        Prénoms :                                                                              N° du candidat
+                                        Né(e) le :                                                                                                  (le numéro est celui qui figure sur la
+                                                                                                                                                       convocation ou la liste d’appel)
+
+
+                                        Examen ou concours :                                                                   Série* :
+ NE RIEN ÉCRIRE
+
+
+
+
+                                                                                                                                                                 Numérotez chaque
+                                        Spécialité/option :                                                                                                      page (dans le cadre
+                                                                                                                                                                 en bas de la page) et
+                                        Repère de l’épreuve :                                                                                                    placez les feuilles
+                                                                                                                                                                 intercalaires dans le
+                                        Épreuve/sous-épreuve :                                                                                                   bon sens
+                                        (Préciser, s’il y a lieu, le sujet choisi)
+
+                                        Note :                      Appréciation du correcteur (uniquement s’il s’agit d’un examen) :
+
+                                                               20
+
+
+
+
+                                        * Uniquement s’il s’agit d’un examen.
+
+
+
+
+                                                                                                                                                                                      Q70R
+
+                                                                        CAHIER RÉPONSE
+                                                               À rendre avec la copie même non rempli
+
+                  QUESTION 1
+
+
+
+
+                                                               Gérer les processus
+                                                            d'inspection des tubes et
+                                                          d'enregistrement des images
+
+
+
+
+                                                                                                                                  Mettre en œuvre le
+                                                                                                                                processus d'inspection
+                                                                                                                                      des tubes
+                                             Convertir l'énergie
+                                            électrique en énergie            énergie de                                             Outil d'inspection
+                                                                             placement
+                                           mécanique de placement
+                                            de l'outil sous le tube
+
+
+                                                                                        Convertir l'énergie
+                                                                                       électrique en énergie     énergie de
+                                                                                     mécanique de déplacement    déplacement
+                                                                                       de l'outil dans le tube
+
+
+                                                                                                                                                 Niveau A0
+
+
+
+
+                  Système d’inspection pour tubes de guidage                   Document réponse 1                                                        Banque PT - SIA 2009
+
+
+
+                           Il est interdit aux candidats de signer leur composition ou d’y mettre un signe quelconque pouvant indiquer sa provenance.
+
+
+===== page 38 =====
+Document Reponse ENSAM 210x350                2009:Document Reponse ENSAM 210x350                  2009     22/01/09      8:54   Page 2
+
+
+
+
+                                                      NE RIEN ÉCRIRE                                      DANS LA PARTIE BARRÉE
+
+
+
+
+        QUESTION 2
+
+
+        FS : Réaliser                       FT.1 : Convertir
+                                                                      FT.1.1 : Approcher
+        l'inspection de l'état              l'énergie électrique en
+                                                                      l'outil d'inspection
+        d'usure des tubes                   énergie mécanique de
+                                                                      sous un tube
+        de guidage                          placement de l'outil
+                                            sous le tube
+
+                                                                      FT.1.2 : Verrouiller
+                                                                      la position de
+                                                                      l'outil d'inspection
+                                                                      sous le tube
+
+
+                                            FT.2 : Convertir
+                                                                      FT.2.1 : Déplacer                   FT.2.1.1 : Accrocher
+                                            l'énergie électrique en
+                                                                      verticalement l'outil               l'outil d'inspection
+                                            énergie mécanique de
+                                                                      d'inspection dans                   au système de
+                                            déplacement de l'outil
+                                                                      le tube de guidage                  déplacement vertical
+                                            dans le tube
+
+
+                                                                      FT.2.2 : Tourner                    FT.2.1.2 : Mettre en
+                                                                      de 90° l'outil                      mouvement l'outil
+                                                                      d'inspection dans                   d'inspection dans le
+                                                                      l'unité de stockage                 tube de guidage
+
+
+                                                                                                          FT.2.1.3 : Arrêter
+                                                                                                          l'outil d'inspection
+                                                                                                          aux niveaux des
+                                                                                                          plans de mesure
+
+
+                                            FT.3 : Mettre en
+                                                                      FT.3.1 : Alimenter l'outil
+                                            œuvre le processus
+                                                                      et assurer l'échange
+                                            d'inspection des
+                                                                      des informations
+                                            tubes
+
+
+                                                                      FT.3.2 : Créer
+                                                                      l'image de l'état
+                                                                      d'usure par ÉCLIPSE
+
+                                            FT.4 : Gérer
+                                            les processus
+                                            d'inspection              FT.4.1 : Mémoriser
+                                            des tubes et              l'imagerie transmise
+                                            d'acquisition de
+                                            l'imagerie d'usure
+
+                                                                      FT.4.2 : Échanger
+                                                                      les informations de
+                                                                      commande
+
+
+
+                                                                      FT.4.3 : Traiter les
+                                                                      informations
+
+
+
+
+        Système d’inspection pour tubes de guidage               Document réponse 2                                                       Banque PT - SIA 2009
+
+
+===== page 39 =====
+[OCR] Document Reponse ENSAM 210x350 200!
+
+Document Reponse ENSAM afosso 2009 22/01/09 8:54 Page 2
+
+NE RIEN ECRIRE DANS LA PARTIE BARREE
+QUESTION 3 QUESTION 4
+Graphe d’évolution: Durée situation: Graphe d'évolution: Durée situation:
+ée situgti neues
+4 2.
+“Ste diasection ourtubes de gudage Document réponse 3 Gangue PT-SIA 2009
+
+=
+
+
+===== page 40 =====
+[OCR] SNSAM 210x350. 2009 2009 22/01/09 8:54 Page 2
+
+DANS LA PARTIE BARREE
+
+QUESTIONS oo QUESTION 7
+Graphe d'évolution: Durée situation: Graphe d'évolution:
+(1,13.130,302). (1.13.10, 200, 304)
+
+{
+
+|
+|
+|
+|
+|
+}
+}
+}
+}
+
+PHASES DUREES
+DUREE TOTALE
+Spine aspect partes deine Document réponse 4 Banque PT SA 2008
+
++
+
+
+===== page 41 =====
+Document Reponse ENSAM 210x350                       2009:Document Reponse ENSAM 210x350   2009    22/01/09   8:54   Page 2
+
+
+
+
+                                                            NE RIEN ÉCRIRE                        DANS LA PARTIE BARRÉE
+
+
+
+
+        QUESTION 14
+
+
+                             y1
+
+                                                   2
+
+                                                            1                I32
+                                                                A                                             b         x1
+
+
+
+
+                                                                    a
+
+
+
+
+        QUESTION 17
+                                                       &J
+
+
+
+
+                  profil bombé
+                                                    ne
+                                               tilig
+                                           rec
+                                        pe
+                                     ram
+
+
+
+
+               C2
+
+
+
+
+                                         A
+
+                                                                                                                                              x1
+
+
+
+
+                              I
+                C1
+                                  e &I
+                            tilign
+                                      e rec
+                                  ramp
+
+
+
+
+        Système d’inspection pour tubes de guidage                  Document réponse 5                                        Banque PT - SIA 2009
+
+
+===== page 42 =====
+Document Reponse ENSAM 210x350                 2009:Document Reponse ENSAM 210x350   2009     22/01/09   8:54   Page 2
+
+
+
+
+                                                           NE RIEN ÉCRIRE                   DANS LA PARTIE BARRÉE
+
+
+
+
+        QUESTIONS 37 à 39                       100
+                                    N(t)
+                               (Newtons)
+                                                     90
+
+
+                                                     80
+
+
+                                                     70
+
+
+                                                     60
+
+
+                                                     50
+
+
+                                                     40
+
+
+                                                     30
+
+
+                                                     20
+
+
+                                                     10
+
+
+                                                      0                                                                         t (secondes)
+                                                           0         0,05   0,1             0,15          0,2            0,25
+
+
+                                                0,25
+                                      θ(t)
+                                  (degrés)
+
+
+                                                     0,2
+
+
+
+
+                                                0,15
+
+
+
+
+                                                     0,1
+
+
+
+
+                                                0,05
+
+
+
+
+                                                      0                                                                         t (secondes)
+                                                           0         0,05   0,1             0,15          0,2            0,25
+
+
+
+        Système d’inspection pour tubes de guidage                Document réponse 6                                      Banque PT - SIA 2009
+
+
+===== page 43 =====
+Document Reponse ENSAM 210x350                 2009:Document Reponse ENSAM 210x350                         2009     22/01/09       8:54   Page 2
+
+
+
+
+                                                           NE RIEN ÉCRIRE                                          DANS LA PARTIE BARRÉE
+
+
+
+
+        QUESTION 45
+
+
+                                                                                                 TG(p)
+
+                                       Cm(p)                                   T(p)                                           V
+                                                  +                                     +
+                                                      
+
+
+
+
+        QUESTION 50
+                                                                                                                                              A dB
+
+                                                                                                                                              50
+
+
+
+
+                                                                                                                                              40
+
+
+
+
+                                                                                                                                              30
+
+
+
+
+                                                                                                                                              20
+
+
+
+
+                                                                                                                                              10
+
+
+
+
+                                                                                                                                                    φ°
+                                                                                                                                              0
+
+
+
+
+                                                                                                                                              -10
+
+
+
+
+                                                                                                                                              -20
+
+
+
+
+                                                                                                                                              -30
+
+
+
+
+                                                                                                                                              -40
+
+
+
+
+                                                                                                                                              -50
+                                -200       -180           -160   -140   -120          -100           -80     -60       -40         -20    0
+
+
+
+
+        Système d’inspection pour tubes de guidage                  Document réponse 7                                                                   Banque PT - SIA 2009
+
+
+===== page 44 =====
+Document Reponse ENSAM 210x350                 2009:Document Reponse ENSAM 210x350        2009    22/01/09      8:54   Page 2
+
+
+
+
+                                                       NE RIEN ÉCRIRE                            DANS LA PARTIE BARRÉE
+
+
+
+
+        QUESTION 57
+                                                                                                                            A dB
+
+                                                                                                                             60
+
+
+
+
+                                                                                                                             40
+
+
+
+
+                                                                                                                             20
+
+
+
+                                                                                                                                    φ°
+                                                                                                                             0
+
+
+
+
+                                                                                                                             -20
+
+
+
+
+                                                                                                                             -40
+
+
+
+
+                                                                                                                             -60
+
+
+
+
+                                                                                                                             -80
+
+
+
+
+                                                                                                                             -100
+                                  -240          -210         -180     -150   -120     -90          -60         -30      0
+
+
+        QUESTION 58
+                             V en mm.s-1             Kv = 12000 Kv = 10000    Kv = 7500
+                14,0
+
+
+
+                12,0
+
+
+
+                10,0
+
+
+
+                 8,0
+
+
+
+                 6,0
+
+
+
+                 4,0
+
+
+
+                 2,0
+
+
+                                                                                                                                         t en seconde
+                 0,0
+                       0,0                             0,5                   1,0                         1,5                        2,0
+
+
+
+
+        Système d’inspection pour tubes de guidage                  Document réponse 8                                              Banque PT - SIA 2009
+

@@ -1,0 +1,491 @@
+{
+ "concours": "Banque PT",
+ "filiere": "SIB",
+ "date": "2004",
+ "file": "BPT_SIB_2004.pdf",
+ "status": 200,
+ "source": "banquept.fr, rubrique « Annales d'annales » (rubrique23.html)",
+ "epreuve_originale": "Sciences Industrielles II",
+ "classification": "automatique par mots-clés (Claude, oct. 2026) — moins fine que celle des sujets récents",
+ "decoupage_questions": "sect",
+ "texte_ocr": true,
+ "pages_sujet": 40,
+ "pages_total": 40,
+ "data": {
+  "parties": [
+   {
+    "titre_partie": "A - Cahier des Charges Fonctionnel (Extraits)",
+    "questions": [
+     {
+      "numero": "A.1.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Énergétique : Puissance et rendement",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 2,
+      "tags": [],
+      "texte": "A.1.1 — Le produit « actionneur » et son marché. L'usage d’actionneurs est largement répandu dans la conception de machines de production, de matériels d’équipement immobilier ou industriel, de véhicules en tous genres, etc. Les actionneurs rendent service aux producteurs de ces matériels ou installations, en constituant des sous-ensembles de performances connues et garanties, qu'il est possible de choisir sur catalogue, réalisés le plus souvent en série par des entreprises spécialisées, directement intégrables dans le matériel ou I’installation 4 produire, 4 coGt moindre que s'il fallait les fabriquer spécifiquement pour chaque application particuliére. Les actionneurs agissent sur des parties mobiles de structures, de machines, des objets jisolés, des matiéres solides divisées, des fluides en mouvement, etc. Les actionneurs peuvent réaliser, de maniére exclusive ou cumulative, plusieurs fonctions : = convertir de |'énergie disponible (électrique, chimique, thermique, fluide, potentielle, etc.) en énergie mécanique ; = transformer |’énergie mécanique (recue, si cette forme d’énergie est directement disponible, ou issue de la conversion précédente) pour : o changer la nature du mou"
+     },
+     {
+      "numero": "A.1.3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
+        "semestre": "S1"
+       }
+      ],
+      "page": 3,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "A.1.3 - Le contexte du projet. Limites de l'étude : étude demandée ne porte que sur Ia partie opérative du vérin. Choix de concept : - chacun des sous-ensembles reste un module interchangeable ; - les moteurs éiectriques sont des composants achetés."
+     },
+     {
+      "numero": "A.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
+        "semestre": "S1"
+       }
+      ],
+      "page": 3,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "A.2 — Analyse fonctionnelle du besoin. (extrait) Parmi toutes les situations du cycle de vie du produit, il ne sera considéré que la situation de fonctionnement opérationnel. De plus, son étude sera présentée sous une forme simplifiée. Bien que les énoncés fonctionnels, les critéres de caractérisation des fonctions et la majeure partie des niveaux retenus soient généraux, indépendants de ia « taille » du vérin (en termes d'effort), quelques niveaux sont exprimés en référence aux capacités propres a chaque taille de vérin. Enfin, quelques niveaux sont définis sous forme de plages de valeurs correspondant aux choix optionnels laissés a f'acquéreur du vérin : ils concernent la vitesse et la course du vérin. 3 Tournez Ia page S.V.P. A.2.1 - Graphe des interacteurs. Producteur de l’équipement industriel Ensemble de |'équipement industriel FS4 For Fs2 Partie fixe de Fséy FSS FS3 équipement industriel Humains \\ a - - proches du Vérin électromécanidye linéaire re Partie mabile de_ vérin ‘equipement industriel FSs9 Fs41 Fe2 Fs1 FS10 FS8 Milieu ambiant Lieu d’implantation Réseau électrique"
+     },
+     {
+      "numero": "A.2.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Stabilité",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Énergétique : Puissance et rendement",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       }
+      ],
+      "page": 4,
+      "tags": [],
+      "texte": "A.2.2 - Enoncés des fonctions de service et des contraintes Fonctions principales : FS1 Convertir 'énergie électrique en énergie mécanique. FS2 Faire varier la distance entre une zone de la partie mobile de I'équipement et une zone de la partie fixe. Fs3 Exercer un effort sur la partie mobile de 'équipement en prenant appui sur la partie fixe. Fonctions secondaires : FS4 S'intégrer a l'équipement industriel. FS5 Résister aux conditions de service sans perturbation du fonctionnement. (démarrages, durée de fonctionnement, surcharges éventuelles, etc.) FS6 Ne pas engendrer de danger pour les humains proches sur le site (piéces en mouvement, courant électrique, formes dangereuses, instabilité, etc.) FS7 Ne pas émettre un bruit insupportable pour les humains proches. Fss Limiter la consommation énergétique. FS9 Résister aux effets du milieu ambiant. (température, éléments agressifs solides, liquides ou gazeux, chocs d'autres objets, etc.) FS10 — Eviter l'accumulation de salissures externes. FS11 Ne pas salir le lieu d’implantation. Contraintes : FC1 Etre d’un cout acceptable. FC2 Etre adapté au réseau électrique."
+     },
+     {
+      "numero": "A.2.3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Statique : Hyperstatisme",
+        "semestre": "S2"
+       }
+      ],
+      "page": 4,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "A.2.3 - Caractérisation des fonctions. Le tableau est présenté page 5, ci-contre. Fonction | Critéres Niveaux FS1 » Puissance du moteur électrique. * 250 W. » Fréquence de rotation du moteur électrique. * 1390 min* FS2 * Course maximale du vérin. +250 4 1000 mm. * Vitesse de translation de la tige du vérin par rapport a © 1,25 42,5 m.min\", soit son corps. 21442 mms! ®. FS3 * Effort maximal développé par ie vérin. *2000N. * Degré d’hyperstaticité de la chaine fermée { partie fixe / | *H=0. partie mobile / actionneur }- FS4 + Encombrement axial maximal (tige rentrée). * course + 300 mm. + Encombrement transversal maximal. * 300 mm x 300 mm. FSs * Fréquence des cycles d'utilisation (aller + retour). *30hn\" * Durée annuelle de fonctionnement. * 2000 h. * Durée minimale de fonctionnement avant premiére +2000 h. panne. * Durée minimale de fonctionnement entre pannes. * 500 h. * Durée maximale d’indisponibilité pour panne. * 1 semaine. * Taux maximal de non démarrage. © 10%. * Marge par rapport aux états limites de ruine. 2. FS6 * Classe de protection électrique. «IP 55. * Nombre d’arétes vives accessibles aux mains. * aucune. * Possibilité d’accés en service d’une partie corporelle * auc"
+     },
+     {
+      "numero": "B.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+        "semestre": "S1"
+       }
+      ],
+      "page": 6,
+      "tags": [
+       "liaison hélicoïdale / vis-écrou",
+       "hydraulique"
+      ],
+      "texte": "B.1— Architecture générale. Comme indiqué plus haut, rentreprise a adopté le principe d'une conception et d'une réalisation modulaires de ses vérins, qu'elle demande donc au candidat (faisant office de concepteur) de respecter. La figure 3, ci-dessous présente l'agencement retenu pour les différents sous-ensembles énumérés sur la figure 2, page 3. Pour satisfaire la contrainte d'encombrement axial (cf. FS4, pages 4 et 5), une disposition « repliée » (avec fe moteur disposé 4 cété du fourreau de guidage) a été adoptée : le carter de réducteur est la piéce maitresse de la structure du vérin, 4 laquelle sont respectivement liés le moteur électrique et le socle du fourreau. Le systéme vis-écrou est contenu dans l'ensemble du sccle et du fourreau. Chape de liaison ala partie mobile ———> Tige du vérin Fourreau de guidage de la tige Socle du Moteur fourreau électrique Réducteur de vitesse Tourillons de liaison a la partie fixe Figure 3 - Agencement des principaux sous-ensembles du vérin a étudier et de ses liaisons. C'est également par ce carter que le vérin est lié a la partie fixe de ’équipement : deux tourillons, solidaires du carter du réducteur, participent a la réalisation d’une art"
+     },
+     {
+      "numero": "B.2.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+        "semestre": "S1"
+       }
+      ],
+      "page": 6,
+      "tags": [
+       "liaison hélicoïdale / vis-écrou"
+      ],
+      "texte": "B.2.1- Le systéme vis-écrou. Méme si d'autres schémas sont d’abord utilisés dans les questions de la partie C.2.3- Modélisation mécanique, c’est finalement le schéma cinématique de la figure 7, page 16, qui est adopteé. |! conduit a un schéma technologique du systéme vis-écrou qui est représenté de maniére simplifiée par la figure 4, ci-aprés. Ce choix est justifié par le souci de protection en fonctionnement du systéme vis-écrou : c'est une tige (lisse) qui sort du fourreau qui la guide, et non directement la vis ; cette tige est creuse, fermée en bout, et contient la vis qui se trouve donc isolée du milieu extérieur. Le fourreau est fixé sur le carter du réducteur par l’intermédiaire du socle. 1 ; nl Carter du réducteur Tige sk i JE a a — ast i Région non ! Socle Fourreau i @tudiée =! darticulation Figure 4 - Schéma technologique simplifié du systéme vis-écrou. Le document 1, sur feuille A4 séparée, définit partiellement, a I'échelle 1:1, la forme de Pextrémité de la vis traversant le socle. Pour faciliter son travail de conception, le détail de la forme du bout d’arbre de vis est laissé au fibre choix du candidat. Dans sa partie filetee, cette vis a un diamétre nominal d = 16 mm"
+     },
+     {
+      "numero": "B.2.3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Énergétique : Puissance et rendement",
+        "semestre": "S3"
+       }
+      ],
+      "page": 8,
+      "tags": [
+       "courroie / chaîne"
+      ],
+      "texte": "B.2.3 - Le réducteur de vitesse. La nécessité géomeétrique d’un entraxe important entre les axes de ses arbres d’entrée et de sortie, résultant du choix d’agencement présenté figure 3, page 6, la faible puissance a transmettre, la recherche d'un rapport de réduction modéré, ont conduit a l’adoption, pour la transmission inteme a ce réducteur, d'un systéme poulies et courroie dentée (ou crantée ou « synchrone ») a profil curviligne au pas de 3mm. Ces composants seront achetés sur catalogue. Le document 7, imprimé recto verso sur feuille séparée, définit la courroie retenue. En se reportant au document 8, sur feuille séparée, on pourra voir l’allure de la forme extérieure des poulies recevant cette courroie ; leurs formes intérieures ne sont pas définies car elles sont usinées a la demande."
+     },
+     {
+      "numero": "B.2.3.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       }
+      ],
+      "page": 8,
+      "tags": [
+       "courroie / chaîne",
+       "hydraulique"
+      ],
+      "texte": "B.2.3.1 - Les poulies. L'adaptation de vitesse aux besoins de l’acquéreur (vitesse de translation de la tige du vérin par rapport a son fourreau) (cf. FS2, pages 4 et 5) sera obtenue par le choix d’un couple de poulies approprié, réalisant la réduction souhaitée entre le moteur (fréquence de rotation donnée) et ia vis. Le producteur de ces composants de transmission propose dans son catalogue une série compléte de poulies dont les nombres de dents sont échelonnés d’unité en unité sur une plage tres large couvrant largement le besoin pour cette réalisation dans taquelle ‘on retiendra « Tailles extremes des poulies Petite poulie Grande poulie Nombre minimal de dents Zi min = 31 Ze min = 69 Nombre maximal de dents Zi max = 45 22 max = 138 Utilisation des poulies Petite poulie Grande poulie Réduction minimaie Z1 = Z4 min = 31 Zz = Zz min = 69 Réduction maximale 21 = Zi min = 31 22 = Ze max = 138 Encombrement maximal 24 max = 45 22 max = 138 La petite poulie sera fixée directement sur le bout d’arbre du moteur dont les formes sont définies sur le document 6, déja cité, et ne peuvent étre modifiées ; ce sera la pouiie motrice. La grande poulie sera fixée sur le bout d’arbre de la vis du "
+     },
+     {
+      "numero": "B.2.3.3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 9,
+      "tags": [],
+      "texte": "B.2.3.3 — Le carter. Comme déja précisé, les composants cinématiques définis ci-dessus sont contenus dans un carter sur !equel sont fixés le moteur et le socle du fourreau (cf. début du § B.1 et figure 3, page 6). C'est également ce carter qui porte les deux tourillons de son articulation sur la partie fixe de l'équipement. Pour des raisons mécaniques évidentes, |'axe commun de ces tourillons doit étre concourant avec !'axe de Ia vis et de son fourreau, et lui étre perpendicuiaire. 9 Tournez fa page S.V.P. C - Etude de conception en construction mécanique"
+     },
+     {
+      "numero": "C.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 10,
+      "tags": [
+       "dessin / conception sur calque"
+      ],
+      "texte": "C.1 — Présentation du travail 4 rendre. Comme indiqué plus haut en page 1, en admettant une durée d’une heure pour la lecture et assimilation du sujet, il est vivement conseillé de consacrer entre 1h 30min. et 2h au maximum a la réponse aux questions de la notice et 3 h 4 3h 30 min. au tracé du dessin. Les réponses seront fournies uniquement sur les six documents présentés ci-dessous. 1 — Notice justificative (40 % de ta note globale). Fournir les réponses sur les deux documents respectivement intitulés « Notice justificative 1/2 » et « Notice justificative 2/2», de format A3 horizontal, pliés, pré imprimés recto verso, et sur les deux documents respectivement intitulés « Dessin pour réponse n°1» et «Dessin pour réponse n°2», de format A3 horizontal, pré imprimés au recto seulement, qui sont joints au sujet et seront 4 rendre non pliés. Les réponses sur feuilles de copies additionnelles ou sur papier de brouilion ne seront pas acceptées. 2 — Dessin d’étude de construction mécanique (60 % de la note globale). It est a tracer sur les deux calques pré imprimés de format A3V, intitulés « Calque n°4 » et « Calque n°2 » , joints au sujet"
+     },
+     {
+      "numero": "C.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 10,
+      "tags": [],
+      "texte": "C.2 — Notice justificative. Consignes spécifiques Sur les notices justificatives, les reponses seront fournies dans les fimites des cadres prévus pour chaque question. Compte tenu de /’interdiction d’utiliser toute calculette, les calculs seront réalisés de maniére approchée. Il sera tenu compte, dans la notation, de la clarté et de la concision des réponses. Les schémas doivent étre lisibles, précis, et respecter la normalisation en vigueur. Les écritures au crayon ne seront pas acceptées. La qualité de I'écriture, de l’orthographe et de la syntaxe sera prise en compte dans ’évaluation."
+     },
+     {
+      "numero": "C.2.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 10,
+      "tags": [],
+      "texte": "C.2.1 — Elaboration de solutions techniques."
+     },
+     {
+      "numero": "C.2.1.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Statique : Hyperstatisme",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+        "semestre": "S2"
+       }
+      ],
+      "page": 10,
+      "tags": [
+       "roulements",
+       "liaison hélicoïdale / vis-écrou"
+      ],
+      "texte": "C.2.1.1- Etude du guidage de la vis du systéme vis-écrou. Le schéma technologique de la figure 4, page 7, décrit un guidage de la vis dans l'ensemble du socle et du fourreau réalisé par deux roulements, trés éloignés I'un de lautre, positionnés aux deux extrémités de la vis: run implanté dans le socle, l'autre 4 !'extremité opposée du fourreau. Dans un premier temps, on envisage d'implanter dans le socle non pas un, mais deux roulements a une rangée de billes a contact oblique repérés A1 et A2, montés en opposition, associés a un roulement rigide 4 une rangée de billes repéré B monte libre axialement a l'autre extrémité de la vis suivant les dispositions de la figure4. Sauf cas trés particulier d’agencement, une hyperstaticité globale du guidage de la vis en résultera ; elle peut toutefois tre considérée comme peu influente, compte tenu de la grande longueur de la vis et de sa faible section qui lui conférent une souplesse certaine en flexion, et son effet sera négligé. 10 Q1 — Inscrire votre réponse dans le cadre R1 de la notice 1/2, 1) En application de la régle générale définissant l’ajustement des roulements A1 et A2 sur ou dans les piéces qui les recoivent, indiquer les toléra"
+     },
+     {
+      "numero": "C.2.1.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Matériaux : Propriétés physiques et mécaniques",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       }
+      ],
+      "page": 11,
+      "tags": [
+       "liaison hélicoïdale / vis-écrou",
+       "embrayage / frein",
+       "lubrification",
+       "hydraulique"
+      ],
+      "texte": "C.2.1.2— Touriflons du véri A la fin du paragraphe B.1, page6, sur la figure 3, puis en rappel 4 la fin du Paragraphe B.2.3, page 9, ont été annoncées 'existence et la position de deux tourillons, solidaires du carter du réducteur, d’axe commun, concourant et perpendiculaire par rapport a l'axe du vérin, et participant 4 son articulation sur la partie fixe de !'équipement. Chaque tourillon est de forme cylindrique de révolution, de diamétre d= 16 mm, de longueur nette t= 14 mm (chanfreins déduits). On admettra, a ce stade de l'étude, que les plans de mi- 1 Tournez la page S.V.P. longueur des deux tourillons sont approximativement distants de A=200mm et symétriquement disposés par rapport a l'axe de la vis. On admettra pour la question suivante que ces tourillons sont réalisés en acier, et que le berceau qui les recevra est réalisé en fonte grise 4 graphite lamellaire. L’articulation sera graissée au montage. On se placera bien sir dans la phase de fonctionnement sous effort axial maximal, dans laquelle on admettra que le couple d’inter efforts transmis dans le systéme vis-écrou vaut C, = 3,0 N.m. Q3 — Inscrire votre réponse dans le cadre R3 de la notice 1/2. 1) Quel critére de véri"
+     },
+     {
+      "numero": "C.2.1.4",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 12,
+      "tags": [
+       "hydraulique",
+       "dessin / conception sur calque"
+      ],
+      "texte": "C.2.1.4- Matériaux. Q5 — inscrire votre réponse dans le cadre R5 de la notice 1/2. Sur les documents 2, 3 et 4 est indiqué prés des titres de ces documents : EN GJL 350. Sur te document1, dans la méme région, est indiqué: 35CrA/Mo6-12. Sur le document 5 est indiqué S355JR. Enfin, sur le dessin de l’écrou (qui n’est pas fourni), est indiqué : CuZn19Al6. Donner la signification détaillée de chacune de ces indications : nature du matériau, composition. 5— Protection - Etanchéité. Q6 -— Inscrire votre réponse dans le cadre R6 de la notice 1/2. Sur les figures 3 et 4, respectivement pages 6 et 7, on peut voir que Ia tige cylindrique lisse du vérin entre et sort altemativement du fourreau. Quelle(s) solution(s) peut-on mettre en place a interface pour empécher les entrées de corps étrangers solides ou liquides a lintérieur du fourreau ? La ou les solutions proposées seront désignées par leur nom, représentées par un ou plusieurs croquis clairs, décrites et commentées briévement."
+     },
+     {
+      "numero": "C.2.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 12,
+      "tags": [],
+      "texte": "C.2.2 — Etude de fabrication d’une piéce. La production est de l'ordre de 4000 piéces/an, réalisées par lots de 400 piéces/mois. 12 Consignes spécifiques. Les réponses aux questions Q7 a Q12 de cette partie « Etude de fabrication » appelant une expression graphique des réponses, le candidat se reportera au préalable aux consignes spécifiques relatives aux travaux graphiques rédigées au § C.3.2. pages 19 et 20."
+     },
+     {
+      "numero": "C.2,2.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
+        "semestre": "S3"
+       }
+      ],
+      "page": 13,
+      "tags": [
+       "fonderie / moulage"
+      ],
+      "texte": "C.2,2.1 — Etude de fonderie. La préforme du socle actuel définie par le document 2, sur feuille A4 séparée, est obtenue par fonderie en moule destructible avec modéle permanent. Il a été décidé de disposer I’axe du modéle horizontalement dans le chassis. On admettra la tenue de noyaux en sable aggloméré assurée pour des diamétres pouvant descendre jusqu’a un minimum de 12mm avec une longueur allant jusqu’a un maximum de deux fois le diamétre. Les réponses seront @ tracer aux instruments, a l'échelle 1:1, sur le document « Dessin pour réponses n°1 » sur lequel /a représentation de la piéce a été simplifiée en la limitant 4 une silhouette en trait fin des seules formes de révolution. La différenciation graphique claire des diverses parties du moule, du modéle, des noyaux, etc. pourra utiliser des couleurs, des hachures, des grisés différents. Q7—Aprés avoir ajouté, les nervures du socle sur_les 3vues en leur donnant lorientation qui vous semble Ia plus favorable, représentez clairement sur les vues 1 et 2 la surface de joint que vous proposez. Q8 — Sur ies deux _mémes vues, tracez en trait fort les contours de la piéce en y intégrant les dépouilles qu'il vous parait nécessaire de pré"
+     },
+     {
+      "numero": "C.2.2.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Matériaux : Propriétés physiques et mécaniques",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 13,
+      "tags": [
+       "traitement thermique",
+       "hydraulique"
+      ],
+      "texte": "C.2.2.2 ~ Etude d’enlévement de matiére. Le document 3, sur feuille A3 séparée, présente le dessin de définition du produit fini relatif au socle du fourreau vérin dans sa version actuelle. De maniére plus précise, ce dessin donne une définition compléte des formes et dimensions, et une définition partielle de leurs to!érances. Les demiéres opération d’enlévement de matiére sur la piéce sont le pergage et le lamage des 4trous de passage des vis, respectivement repérés Het rc} sur le document 3. L’étude ne portera que sur le percage des 4 trous @7 repérés FL Les outils utilisables sont des forets 4 deux lévres de série normale, en acier « super rapide » HSS revétu de nitrure de titane, 4 queue cylindrique, caractérisés par : o diamétre : 7mm; o longueurtotale: 109mm; co longueur taillée: 69mm; et conforme a la photographie de la figure 8, ci-aprés. 13 Tournez la page S.V.P Longueur totale Figure 8 - Foret. Les réponses seront & tracer aux instruments, a échelle 1:1, en respectant des proportions réalistes, sur le document « Dessin pour réponses n°2 » sur lequel la piéce a été représentée dans son état juste avant le pergage des 4 trous considérés. Q11 —Schematiser votre proposition "
+     },
+     {
+      "numero": "C.2.3.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Statique : Hyperstatisme",
+        "semestre": "S2"
+       }
+      ],
+      "page": 14,
+      "tags": [
+       "liaison hélicoïdale / vis-écrou",
+       "hydraulique"
+      ],
+      "texte": "C.2.3.1- Schéma cinématique, mobilités, hyperstaticité. La figure 5 ci-aprés propose un schéma cinématique minimal de la partie « systéme vis- écrou » du vérin mécanique linéaire. La signification des symboles de schématisation utilisés est directement précisée sur la figure, ainsi que le repérage des piéces principales. Q13 — Inscrire votre réponse dans le cadre R13 de ta notice 2/2. Proposer le schéma cinématique minimal qui correspondrait 4 un mouvement de sortie de translation de la vis obtenu a partir d'un entrainement en rotation de [écrou. 14 Liaison pivot de la vis Liaison hélicoidale Vis (1) Rotation d’entrée \\ |—~— | J | ij Translation de sortie ==> Tige (2) Corps de vérin (0) anon glissiére rectiligne “ee de I’écrou Figure 5 - Schéma cinématique minimal du systéme vis-écrou du vérin linéaire mécanique. Q14 — inscrire votre réponse dans fe cadre R14 de {a notice 2/2. On revient au schéma cinématique minimal de la figure 5, ci-dessus, et on pose 'hypothése que toutes ses liaisons sont parfaites, y compris ta liaison hélicoidale. A l'aide d'une analyse dont il nest pas demandé de foumir le détail, donner pour le mécanisme défini par ce schéma : = le nombre total d’inconnues"
+     },
+     {
+      "numero": "C.3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 19,
+      "tags": [],
+      "texte": "C.3 — Dessin d’étude de construction mécanique."
+     },
+     {
+      "numero": "C.3.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+        "semestre": "S1"
+       }
+      ],
+      "page": 19,
+      "tags": [
+       "courroie / chaîne",
+       "dessin / conception sur calque"
+      ],
+      "texte": "C.3.1 - Présentation générale du travail de conception et de ses supports. Pour cette partie de |’étude, il vous est demandé de définir, sur le calque n°%1, de format A3 vertical, pré imprimé, fourni avec le sujet, l'ensemble du réducteur, du moteur, du socle, du fourreau et de ce qu’ils contiennent. Les éléments pré imprimés sur ce calque sont destinés 4 faciliter la mise en place de ces sous-ensembles. (voir figure 10, ci-dessous) Les éléments fournis pré imprimés sont définis en vue de dessus et en vue de face. Plus précisément, le candidat trouvera, en vue de face, les axes verticaux de rotation du moteur et de la vis, une représentation partielle simplifiée du moteur électrique : seuls sont représentés la bride du moteur et un fragment de son corps. Le bout d’arbre n’est volontairement pas représenté afin de laisser libre le choix de la représentation de sa liaison avec la poutie. Les formes et dimensions du bout d'arbre définies sur le document 6 devront étre respectées. Le candidat trouvera sur la vue de dessus, la représentation des deux poulies retenues pour cette étude de conception (combinaison possible des poulies utilisables de plus grand diamétres), ja représentation "
+     },
+     {
+      "numero": "C.3.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       }
+      ],
+      "page": 19,
+      "tags": [
+       "dessin / conception sur calque"
+      ],
+      "texte": "C.3.2 - Consignes spécifiques aux travaux graphiques. Le dessin est a exécuter a |'échelle 1:1, aux instruments, avec pour l'essentiel mise au net au crayon respectant les épaisseurs de traits normalisées et les exigences d’une bonne lisibilité ; seuls les axes et les écritures seront tracés a l'encre noire. Les tracés de couleur ne sont pas admis. Les normes AFNOR seront respectées. Les croquis 4 main levée seront exécutés au crayon, sans l'aide d'instruments (régle, équerre ou compas). La grosseur et la noirceur des traits assureront une lisibilité satisfaisante. Aucune &chelle n’est imposée mais, toujours pour la lisibilité, il est demandé de la choisir au maximum compatible avec l'espace offert. De plus, il sera veillé a ce que les proportions des piéces soient convenablement respectées, afin de ne pas introduire de distorsion de compréhension a la 19 Tournez la page S.V.P lecture. Le choix des points de vue assurera l'expression la plus claire possible des solutions retenues. Les coupes, les positions de plans de coupes et les directions particuliéres d’observation seront clairement repérées en respectant les normes AFNOR en vigueur. Les principales conditions fonctionneiles r"
+     },
+     {
+      "numero": "C.3.3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 20,
+      "tags": [
+       "roulements"
+      ],
+      "texte": "C.3.3 - Choix constructifs retenus. lls ont été définis en partie B, pages 6 a 9, a laquelle le candidat se reportera. Le guidage de la vis dans le socle est réalisé par le roulement 4 deux rangées de billes 4 contact oblique defini en introduction a la question Q2, page 11. Et bien évidemment, le candidat se reportera également aux documents 1, 4, 5, 6, 7, 8 et 9, sur feuilles séparées."
+     },
+     {
+      "numero": "C.3.4",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 20,
+      "tags": [
+       "courroie / chaîne",
+       "lubrification",
+       "dessin / conception sur calque"
+      ],
+      "texte": "C.3.4 - Travail demandé. Afin d’assurer toutes les fonctions de service et de satisfaire toutes les contraintes définies dans la cahier des charges fonctionnel (pages 4 et 5), et en utilisant au mieux ies éléments fournis sur le calque n°4, il est demande : 1) de dessiner aux instruments, sur les vues de face et de dessus prédéfinies du calque n°, ainsi que sur toutes vues locales complémentaires jugées utiles et tracées sur le calque n°2 (ces vues imposées ou a choisir étant au gré du candidat extérieures ou en coupe), vos propositions de solutions pour la définition complete : du carter de réducteur, y compris de ses deux tourillons ; de la liaison du moteur a ce carter ; de la liaison du socle au carter de réducteur ; du guidage de Ia vis dans le socie ; des formes manquantes du socle ; de la liaison de la poulie motrice sur l’arbre du moteur et de la poulie réceptrice sur le bout d’arbre de la vis, lui-méme a préciser a cette occasion ; VV VV Ww Vv Vv du support et du guidage du galet compensateur ; Vv du dispositif de réglage en position de ce galet ; > des éventuels dispositifs de lubrification et de protection nécessaires au bon fonctionnement. Prévoir toutes dispositions pe"
+     }
+    ]
+   }
+  ]
+ }
+}

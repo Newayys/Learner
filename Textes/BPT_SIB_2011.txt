@@ -1,0 +1,1660 @@
+
+===== page 1 =====
+[OCR] 11PT26
+Bangue PT
+
+Epreuve de Sciences Industrielles B
+
+Durée 6h
+
+Si, au cours de l’épreuve, un candidat repére ce qui lui semble étre une erreur d’énoncé,
+d’une part il le signale au chef de salle, d’autre part il le signale sur sa copie et poursuit sa
+composition en indiquant les raisons des initiatives qu’il est amené 4 prendre.
+
+L’usage de calculatrices est interdit
+
+Aucun document n’est autorisé
+
+Composition du sujet :
+
+1 cahier de 19 pages de texte numérotées de 1a 19
+
+1 cahier de documents ressources numérotés Document i avec i= 1 a 8
+1 calque format A3 a rendre a la fin de l’épreuve
+
+1 cahier reponse de 12 pages a rendre a la fin de I’épreuve
+
+Gestion du temps :
+
+En admettant une durée d’une demi-heure pour la lecture et I’assimilation du sujet, il
+est vivement conseillé de consacrer entre 2 h 30 et 3 h 00 au maximum a la réponse
+aux questions de la notice et 2 h 30 a 3 h au tracé des dessins.
+
+Il est demandé au candidat de formuler toutes les hypothéses qu'il jugera
+nécessaires pour répondre aux questions posées.
+
+La présentation, la lisibilité, orthographe, la qualité de la rédaction, la clarté et la
+précision des raisonnements entreront pour une part importante dans l’appréciation
+des copies. En particulier, les résultats non justifies ne seront pas pris en compte.
+Les candidats sont invités a encadrer les résultats de leurs calculs.
+
+TaN Tournez la page S.V.P.
+
+
+===== page 2 =====
+               ETUDE D’UN TAPIS DE COURSE A PIED
+
+
+
+
+                      Figure 1 : Vue du tapis de course à pied TC790
+
+          A - Cahier des Charges Fonctionnel (Extraits)
+A.1 - Présentation du problème
+                          A.1.1 - Le contexte
+      Depuis maintenant plusieurs décennies, on constate un essor de la pratique des sports
+d’extérieur dans les salles de fitness, faisant apparaître régulièrement de nouveaux
+appareils. On a ainsi vu apparaître au début des années 1980 des tapis permettant de
+pratiquer la course à pied à l’instar des vélos d’appartement ou encore des rameurs.
+      Avec le nombre grandissant de coureurs à pied souhaitant avoir une pratique régulière
+mais pas forcément toujours prêts à subir les conditions extérieures, il a été commercialisé
+des tapis de course à pied accessibles à un particulier. Celui-ci comporte des différences par
+rapport à un tapis destiné à une salle de fitness : il n’est pas aussi robuste puisqu’employé
+de manière beaucoup moins intensive ; il doit pouvoir être rangé ; ses performances seront
+liées au niveau de course de son propriétaire.
+
+                          A.1.2 - Le produit à concevoir
+      Le support de l’étude est le tapis de la marque DOMYOS TC790 (voir figure 1, page
+T2/19). Il s’agit d’un modèle haut de gamme de la marque, destiné au coureur ayant une
+pratique intensive (plus de 5h par semaine).
+
+
+
+
+              T2/19                                                                          
+
+
+===== page 3 =====
+    A.2 - Analyse fonctionnelle du besoin (extraits)
+              Le produit considéré est le tapis de course à pied.
+
+                                                               Coureur
+                                                                à pied
+                                                                           FC1
+                                                                                                 Energie
+                                                                FP1                    FC3
+                                                                         Tapis de
+                                                                          course
+                                                                          à pied
+                             Lieu
+                       d’entraînement
+                                                                FC2              FC4
+                                                                                          Milieu
+                                                                                         ambiant
+                                                                                                                
+                Enoncés des fonctions de service
+                         Fonction principale :
+                    FP1             Permettre à un coureur à pied de s’entraîner dans un lieu fermé
+
+                         Fonctions contraintes :
+                    FC1             Permettre différents cycles d’entraînement
+                    FC2             Permettre un rangement aisé
+                    FC3             S’adapter à l’énergie disponible
+                    FC4             S’adapter au milieu ambiant
+
+                 Caractérisation des fonctions
+
+                 Critères                                                             Niveaux
+
+FP1               y Masse du coureur                                                   y 130 kg maxi
+                  y Encombrement du dispositif                                         y 1880mm x 820mm x 1330mm
+                  (Longueur x largeur x hauteur)
+                  y Dimensions de la zone de course                                    y 1430mm x 480mm
+                  (Longueur x largeur)
+FC1               y Vitesse de défilement du tapis                                     y 18 km.h-1 maxi
+                  y Incréments de vitesse                                              y 0,1 km.h-1
+                  y Temps de montée jusqu’à vitesse maxi                               y 30s de 0 à 18 km.h-1
+                  y Inclinaison du tapis                                               y 12% maxi1
+                  y Incréments d’inclinaison                                           y 1%
+                  y Temps de montée jusqu’à inclinaison maxi                           y 30s de 0 à 12%
+                  y Programmes                                                         y Différents modes :
+                                                                                         o préprogrammé
+                                                                                         o utilisateur
+                                                                                         o cardiotraining
+    
+    ͳͳʹΨ  ±ǯ͸ǡͻιǯ
+
+
+
+
+                              T3/19                                                       Tournez la page S.V.P.
+
+
+===== page 4 =====
+FC2   y Encombrement du dispositif replié                  y 970mm x 820mm x 1620mm
+      y Effort à fournir pour le pliage                    y non fourni
+      y Vitesse d’impact au sol lors du dépliage           y 1 m.s-1 maxi
+FC3   y Tension d’alimentation                             y 230 V monophasé
+      y Fréquence du secteur                               y 50 Hz
+      y Puissance disponible                               y d 3 kW
+FC4   y Température du local                               y non fourni
+      y Masse du dispositif                                y 92,5kg
+      y Niveau de pression acoustique à 1m de la machine   y 75dB ± 5dB à vitesse maxi
+
+
+
+
+            T4/19                                                                    
+
+
+===== page 5 =====
+            B - Etude et éléments de solutions proposés
+B.1 - Principe de fonctionnement du tapis de course à pied
+      Le système est constitué de deux chaînes fonctionnelles indépendantes.
+      La première chaîne correspond au dispositif permettant d’imposer l’inclinaison du tapis.
+Une vue en perspective de ce dispositif est fournie sur la figure 3, document 1, page D1/8,
+ainsi que le schéma cinématique associé sur la figure 4, document 1, page D1/8. Un vérin
+électrique, lié par deux liaisons pivot entre le levier 4 et le cadre supérieur 1, permet
+d’imposer la longueur entre les points F et C. Ce vérin est constitué d’un moteur électrique,
+d’un réducteur à engrenages, et d’une chaîne de transformation de mouvement par vis-
+                                                                        G
+écrou. La vis est en liaison pivot avec le corps de vérin 5 d’axe ( Fx5 ) . L’écrou 6 est en
+liaison pivot avec le levier 4. Sur le schéma cinématique, la vis n’est pas représentée, et on
+considère donc directement le mouvement de l’écrou 6 par rapport au corps du vérin 5.
+L’allongement du vérin provoque une augmentation de l’inclinaison du cadre supérieur 1. Ce
+cadre est guidé par le levier 4, mais également par la bielle 3, qui est guidée par deux
+liaisons pivot entre le cadre supérieur 1 et le cadre inférieur 2. Le vérin électrique est équipé
+d’un potentiomètre permettant de connaître son allongement.
+       Le cadre inférieur est posé sur le sol, noté 0, sur quatre appuis. Les deux appuis avant
+sont réglables en hauteur afin de pouvoir régler le niveau du tapis. Ils réalisent des appuis
+linéaires rectilignes sur le sol. Dans le cadre d’une utilisation normale, il n’y a pas de
+mouvement entre le cadre inférieur 2 et le sol.
+      La deuxième chaîne correspond au dispositif permettant d’imposer la vitesse de
+défilement du tapis. Une vue en perspective de ce dispositif est fournie sur la figure 5,
+document 2, page D2/8, ainsi que le schéma cinématique associé sur la figure 6,
+document 2, page D2/8. Un moteur électrique à courant continu entraîne le système
+poulies-courroie constitué d’une poulie motrice 84, d’une poulie réceptrice solidaire du
+tambour moteur 12, et d’une courroie poly V 17. La rotation du tambour moteur 12 entraîne
+le défilement du tapis 24, qui joue le rôle d’une courroie, liée au tambour récepteur 13. La
+vitesse de rotation de la poulie réceptrice 12 est mesurée à l’aide de deux aimants insérés
+dans celle-ci. Un capteur inductif (non représenté) permet de détecter la fréquence de
+passage de ces aimants.
+      La vue en perspective fournie sur la figure 7, document 3, page D3/8, ainsi que le
+schéma de principe associé sur la figure 8, document 3, page D3/8, permettent de décrire
+le dispositif de réglage de la tension de la courroie poly V 17. Il permet notamment de faire
+apparaître la liaison pivot existant entre le stator moteur 14 et le cadre supérieur 1 (liaison
+non représentée sur le schéma de la figure 6, document 2, page D2/8). En serrant l’écrou
+70 sur la vis de précharge 42, le ressort 15 est comprimé. L’augmentation de l’effort appliqué
+par le ressort 15 sur la plaque support du stator moteur 14 permet d’ajuster la tension dans
+la courroie poly V 17.
+      Afin de pouvoir assurer le rangement du tapis, il peut être replié. Le vérin 5-6 est alors
+rétracté et bloqué de telle sorte que le levier 4 reste parallèle au tapis (voir figure 9,
+document 4, page D4/8, ainsi que le schéma cinématique associé sur la figure 10,
+document 4, page D4/8). Le cadre supérieur est en appui par l’intermédiaire d’une butée
+sur la bielle 3. L’effet de la pesanteur permet de maintenir l’appui sur cette butée. L’utilisateur
+peut relever le cadre supérieur et doit verrouiller la barre de relevage 10-11 en position haute
+pour maintenir le tapis plié. Pour le déplier, il déverrouille cette barre. Les deux amortisseurs
+22-23 permettent alors d’éviter une chute brutale du cadre supérieur 1.
+
+
+
+
+               T5/19                                                  Tournez la page S.V.P.
+
+
+===== page 6 =====
+     C - Etude de conception en construction mécanique
+C.1 - Présentation du travail à rendre
+      Comme indiqué plus haut en page T1/19, en admettant une durée d’une demi-heure
+pour la lecture et l’assimilation du sujet, il est vivement conseillé de consacrer entre 2 h 30 et
+3 h au maximum à la réponse aux questions de la notice et 2 h 30 à 3 h au tracé des
+dessins.
+
+
+        Les réponses seront fournies uniquement sur les deux documents
+                                     présentés ci-dessous.
+
+
+   1 – Notice justificative (50 % de la note globale)
+     Fournir les réponses sur le cahier réponse, de format A3 horizontal, pliés, pré
+imprimés recto verso.
+     Les réponses sur feuilles de copies additionnelles ou sur papier de brouillon ne
+seront pas acceptées.
+
+   2 – Dessin d’étude de construction mécanique (50 % de la note globale)
+     Il est à tracer sur le calque pré imprimé de format A3 horizontal, joint au sujet, et
+qui sera à rendre non plié.
+
+
+
+C.2 - Notice justificative
+      Consignes spécifiques
+      Sur le cahier réponse, les réponses seront fournies dans les limites des cadres prévus
+pour chaque question.
+      Compte tenu de l’interdiction d’utiliser toute calculette, les calculs seront
+réalisés de manière approchée.
+     Il sera tenu compte, dans la notation, de la clarté et de la concision des réponses. Les
+schémas doivent être lisibles, précis, et respecter la normalisation en vigueur.
+       Les écritures au crayon ne seront pas acceptées. La qualité de l’écriture, de
+l’orthographe et de la syntaxe sera prise en compte dans l’évaluation.
+
+      C.2.1 - Etude de la fonction « permettre un rangement aisé »
+Objectif de l’étude :
+    Déterminer la vitesse d’impact au sol lorsque l’utilisateur laisse le tapis se déplier sous
+       l’effet seul de la gravité.
+
+
+Données :
+     On note (se reporter au schéma cinématique de la figure 10, document 4, page
+D4/8) :
+          G G G
+    B0 ( x0 , y0 , z0 ) la base associée au sol 0 ;
+
+
+
+               T6/19                                                                                 
+
+
+===== page 7 =====
+            G G G
+     B1 ( x1 , y0 , z1 ) la base associée au cadre supérieur 1 ;
+              G    G G
+     B22 ( x22 , y0 , z22 ) la base associée au corps d’amortisseur 22 ;
+                                             G                                                 G G G
+         La rotation autour de y0 faisant passer de la base B0 ( x0 , y0 , z0 ) à la base
+               G G G                                               G G           G G
+          Bi ( xi , yi , zi ) est paramétrée par l’angle D i 0 = ( x0 , xi ) = ( z0 , zi ) .
+                                       G G        G G
+         Par exemple, D10 = ( x0 , x1 ) = ( z0 , z1 ) paramètre la rotation de B0 vers B1 .
+
+         On donne par ailleurs le paramétrage de la position des différents points :
+      JJJG       G        G
+     AL = z L . z0 + xL .x0 ;
+      JJJJG        G        G
+     AM = z M .z1 + xM .x1 ;
+      JJJJG        G
+     LM = lam . z22 avec lam variable ;
+        Le tapis est rangé dans une position telle que D10 = D10 ini = 70° . En position dépliée
+(roulette 35 en contact avec le sol), on a D10 = 0° .
+     On appelle Ecadre l’ensemble matériel constitué du cadre supérieur et de toutes les
+pièces qui lui sont liées lors de la phase de relevage.
+                                                                                JJJJG          G       G
+        Le centre de gravité de l’ensemble Ecadre, est noté GC : AGC = zGc . z1 + xGc .x1 . La masse
+                                                        G
+de cet ensemble est notée m . Le vecteur z0 correspond à la verticale ascendante.
+
+La matrice d’inertie de cet ensemble, exprimée au centre de gravité GC, dans la base B1 , est
+                      ª I xx    I xy   I xz º
+                      «                      »
+notée I ( GC , B1 ) = « I xy    I yy   I yz » .
+                      « I xz    I yz   I zz »¼
+                      ¬
+                                                                                                               G
+Notations : Le vecteur vitesse de rotation du solide i par rapport au solide j est noté :i / j , et
+                                                                                                           G
+le vecteur vitesse du point M appartenant au solide i par rapport au solide j est noté VM ,i / j .
+
+
+Hypothèses :
+     Le cadre inférieur 2 est immobile par rapport au sol 0 ;
+     Les liaisons sont parfaites ;
+     L’action de la barre de relevage 10-11 est négligeable (barre déverrouillée) ;
+     Les poids des pièces autres que celles appartenant à l’ensemble Ecadre sont
+        négligeables.
+    
+           Q1         Inscrire votre réponse dans le cadre R1 de la notice 1/3.
+             Donner l’expression de la matrice d’inertie de l’ensemble Ecadre au point A,
+             dans la base B1 : I ( A, B1 ) .
+
+           Q2         Inscrire votre réponse dans le cadre R2 de la notice 1/3.
+                                                    G                                      G
+             Exprimer la projection sur y0 du moment dynamique G A, Ecadre / 0 de l’ensemble
+             Ecadre par rapport au sol 0 au point A.
+
+
+
+                  T7/19                                                                 Tournez la page S.V.P.
+
+
+===== page 8 =====
+      On note P le paramètre de frottement visqueux d’un amortisseur 22-23.
+
+
+
+         Q3        Inscrire votre réponse dans le cadre R3 de la notice 1/3.
+           Donner l’expression vectorielle de l’effort appliqué par une tige
+                                                    G
+           d’amortisseur 23 sur l’ensemble Ecadre : F23o1 au point M en fonction de P et
+                                                                                        •
+           de la valeur algébrique de la vitesse d’allongement de l’amortisseur : l am .
+
+         Q4        Inscrire votre réponse dans le cadre R4 de la notice 1/3.
+           En isolant l’ensemble Ecadre et en appliquant le théorème du moment
+                                                  G
+           dynamique au point A en projection sur y0 , écrire la relation liant D10 et ses
+                                           •
+           dérivées successives, à l am , ainsi qu’aux différentes propriétés de masse et
+           aux différents paramètres géométriques. On ne cherchera pas à éliminer
+           l’angle D 220 de l’équation obtenue.
+
+
+      Cette équation différentielle du second ordre non linéaire ne possède pas de solution
+analytique. On fait alors appel à un logiciel permettant de réaliser une intégration numérique
+de cette équation. Les figures 11 et 12, document 5, page D5/8 donnent alors les
+                          •
+évolutions de D10 et D 10 respectivement en fonction du temps. Dans cette simulation, la
+présence du sol n’est pas prise en compte.
+
+
+         Q5        Inscrire votre réponse dans le cadre R5 de la notice 1/3.
+           A l’aide de ces courbes, relever l’instant auquel le tapis entre en contact
+                                                                   •
+           avec le sol. En déduire la vitesse angulaire D 10 au moment de l’impact, et
+           donner un ordre de grandeur de la vitesse d’impact sachant que la distance
+           du point A au point de contact vaut environ 1,5m. Conclure vis-à-vis du
+           cahier des charges.
+
+      C.2.2 - Etude de la fonction                           « Permettre   différents   cycles
+              d’entraînement »
+                                  C.2.2.1 -       Etude du dispositif d’inclinaison
+Objectifs de l’étude :
+    Déterminer la loi entrée-sortie allongement du vérin/angle d’inclinaison afin de choisir
+       la course du vérin ;
+    Déterminer l’effort maximum développé par le vérin en vue de sa validation en terme
+       de charge statique ;
+    Vérifier le dimensionnement du levier 4 ;
+    Etudier l’irréversibilité de la chaîne de transformation de mouvement ;
+    Déterminer les conditions de montage.
+
+Données :
+    On note (se reporter au schéma cinématique de la figure 4, document 1, page D1/8) :
+           G G G
+     B3 ( x3 , y0 , z3 ) la base associée à la bielle 3 ;
+
+
+                T8/19                                                                            
+
+
+===== page 9 =====
+                           la base associée au levier 4 ;
+                           la base associée au corps du vérin 5.
+        On utilise également les bases introduites dans la section précédente.
+        On donne par ailleurs le paramétrage de la position des différents points :
+
+                              ,                    et                ;
+                  ;
+                      et                ;
+                  avec            variable ;
+                      avec         variable ;
+                           
+     GA = z A . z0 + x A . x0 avec x A variable.
+      On cherche à déterminer la loi entrée-sortie reliant la longueur du vérin constitué de la
+tige 6 et du corps 5, notée , à l’angle d’inclinaison du cadre supérieur, noté    .
+
+          Q6           Inscrire votre réponse dans le cadre R6 de la notice 1/3.
+            Faire le bilan des paramètres variables. Indiquer le nombre d’équations qui
+            doivent être écrites afin de déterminer la loi entrée-sortie souhaitée.
+
+          Q7           Inscrire votre réponse dans le cadre R7 de la notice 1/3.
+            Dans le tableau proposé sur la notice justificative, indiquer pour chaque
+            fermeture de chaîne traitée :
+               Les solides constituant la chaîne de solides considérée ;
+             La fermeture de chaîne sous forme vectorielle, en faisant apparaître les
+            points considérés ;
+
+               La projection de ces équations dans le plan                 .
+
+            Le tableau comporte au moins le nombre de cases nécessaire ; toutes les
+            cases ne doivent donc pas forcément être remplies.
+
+
+      Les différentes équations de fermeture de chaîne ayant été obtenues, on constate que
+celles-ci ne permettent pas d’écrire sous forme explicite la loi entrée-sortie. La résolution de
+ces équations est alors donnée sous forme numérique sur la figure 13, document 6, page
+D6/8. La figure 19, document 8, page D8/8 fournit la documentation technique associée au
+vérin employé.
+
+          Q8           Inscrire votre réponse dans le cadre R8 de la notice 1/3.
+            Indiquer à l’aide de ce document quelle doit être la course du vérin.
+            Commenter l’aspect linéaire de la courbe et conclure vis-à-vis de la mesure
+            de l’angle (on rappelle que la rotation de la vis du vérin est mesurée par un
+            potentiomètre).
+
+          Q9           Inscrire votre réponse dans le cadre R9 de la notice 1/3.
+            Calculer le temps nécessaire pour passer de l’inclinaison de 0% à
+            l’inclinaison maxi de 12%.
+
+
+                T9/19                                                     Tournez la page S.V.P.
+
+
+===== page 10 =====
+       On cherche à présent à déterminer l’effort maximal que doit développer le vérin afin de
+maintenir le tapis à l’équilibre. On se contente ici d’une étude dans le domaine statique car
+l’élévation du tapis se fait à une vitesse quasi-constante et les accélérations mises en jeu
+sont faibles.
+      L’étude est faite dans le cas le plus défavorable. On considère le coureur ayant la
+masse maximum indiquée dans le cahier des charges, c’est-à-dire 130 kg. Il est positionné le
+plus en avant sur la bande de course. Le cadre est en position horizontale :      .
+
+     L’étude est menée dans le plan. Les glisseurs seront introduits de la façon suivante :
+en M, pour une liaison entre les solides et , la résultante d’actions mécaniques est notée
+                         où                   est la base de projection. On pourra également
+noter ce vecteur                  avec        un vecteur unitaire.
+
+
+Données :
+     L’action de pesanteur sur le coureur est notée                          s’appliquant en
+        Gcoureur ;
+     L’action de pesanteur sur le cadre supérieur ainsi que toutes les pièces qu’il supporte
+       est notée                  s’appliquant en Gc ;
+     On note                      et                      .
+
+Hypothèses
+    Toutes les liaisons sont considérées sans frottement ;
+    Les poids des autres pièces sont négligés.
+
+
+         Q 10 Inscrire votre réponse dans le cadre R10 de la notice 1/3.
+          Déterminer les directions des efforts en A, B, C, D, E et F. Indiquer
+          notamment dans le tableau proposé les isolements successifs réalisés, et
+          pour chaque isolement l’(les) effort(s) pour lequel(lesquels) la direction a été
+          déduite. Réaliser sur la figure proposée la construction graphique associée.
+
+
+      On note :                         l’effort en C et                  l’effort en D.
+
+
+
+         Q 11 Inscrire votre réponse dans le cadre R11 de la notice 1/3.
+          Préciser l’isolement et le théorème utilisé permettant de montrer que
+                     . Cette relation reste-t-elle valable quelque soit l’angle
+          d’inclinaison du cadre supérieur ?
+
+
+      On note :                         l’effort en E.
+
+
+
+
+                T10/19                                                                           
+
+
+===== page 11 =====
+         Q12      Inscrire votre réponse dans le cadre R12 de la notice 1/3.
+          Préciser l’isolement et le théorème utilisé permettant de déterminer X E . En
+                                       G
+          déduire l’expression de E3o1 .
+
+         Q13      Inscrire votre réponse dans le cadre R13 de la notice 1/3.
+          Préciser l’isolement et le théorème utilisé permettant de déterminer l’effort
+          développé par le vérin. On se contentera de faire le bilan des actions
+          mécaniques extérieures en donnant pour chacun des vecteurs l’expression
+          sous laquelle ils seront recherchés. Des angles supplémentaires peuvent
+          être introduits. La résolution n’est pas demandée.
+
+      Une étude numérique permet de montrer que l’effort développé par le vérin dans cette
+configuration la plus défavorable vaut 2350N.
+
+         Q14      Inscrire votre réponse dans le cadre R14 de la notice 1/3.
+          Conclure sur le choix du vérin.
+
+      L’étude statique qui vient d’être menée à permis de montrer que le levier 4 était une
+des pièces les plus sollicitées. On cherche à présent à vérifier son dimensionnement.
+      La figure 14, document 6, page D6/8 permet de préciser la forme du levier 4. Il est
+constitué de deux barres parallèles de section rectangulaire (allant des points B à D). Une
+barre de section carrée creuse permet de les relier (allant des points O1 à O3). C’est cette
+barre de liaison qui est la plus sollicitée.
+      On note O1 et O3 les points situés aux extrémités de la barre de liaison (points
+d’attache de la barre de liaison avec les barres parallèles), et O2 le point milieu. On donne :
+ JJJJJG JJJJJG L G                                                    G           G         G
+O3O2 = O2O1 = y0 . Le vérin électrique applique au point C, l’effort C6 o4 = Z C .z0 + X C .x0 . On
+                  2
+   JJJJG     G
+a O2 C = d . x0 .
+                                                                                            G
+       Compte tenu de la forte épaisseur des barres parallèles suivant la direction z0 , les
+                                                                                          G
+sections extrêmes de la barre de liaison ne peuvent pas tourner autour de ( O1 y0 ) . En
+                                                 G
+revanche, leur faible épaisseur suivant y0 autorise les sections extrêmes à tourner
+                              G            G
+respectivement autour de ( O1 x0 ) et ( O3 x0 ) . La figure 15, document 6, page D6/8 précise
+alors le modèle de liaisons retenues. La barre de liaison est considérée liée à son support
+par deux liaisons « sphère-cylindre à doigt » en O1 et O3. Ces liaisons doivent être
+interprétées comme des liaisons sphère-cylindre, mais pour lesquelles la rotation autour de
+ G
+ y0 a été supprimée.
+      La barre de liaison a une section carrée creuse. Le carré extérieur a un côté noté h .
+                                                                       JJJJG     G
+Son épaisseur est notée e . Son centre de surface est noté Q avec O2 Q = y. y0 .
+      On note E le module de Young du matériau.
+
+
+
+
+               T11/19                                                 Tournez la page S.V.P.
+
+
+===== page 12 =====
+Notations :
+       Le torseur des actions mécaniques exercées par les barres parallèles sur la barre de
+liaison, associé à la liaison au point O1, dans la base B0 sera noté :
+                      G           X1         L1
+                   ­° RO ½°   G        G
+      ª¬TO1 º¼ = ® G ¾ avec RO = Y1 et M O = M 1 .
+                        1
+
+                                1         1
+
+                O1 ¯° M O1 ¿°     Z          N
+                                      1            1
+
+                                                      G           X3           L3
+                                                   ­° RO3 ½°  G         G
+     L’action au point O3 est notée : ª¬TO3 º¼ = ® G ¾ avec RO3 = Y3 et M O3 = M 3 .
+                                                O3 °¯ M O3 °¿     Z            N
+                                                                      3          3
+
+
+
+
+        Q15        Inscrire votre réponse dans le cadre R15 de la notice 1/3.
+         Compte tenu du modèle de liaison retenu aux points O1 et O3, donner la
+         forme des torseurs d’actions mécaniques ª¬TO1 º¼ et ª¬TO3 º¼ . Compte tenu de la
+         symétrie du modèle, écrire les relations supplémentaires obtenues entre les
+         inconnues de ces deux torseurs.
+
+        Q16        Inscrire votre réponse dans le cadre R16 de la notice 1/3.
+
+         Déterminer entièrement le torseur ª¬TO1 º¼ en fonction de Z C , X C et des
+         différentes dimensions.
+
+        Q17        Inscrire votre réponse dans le cadre R17 de la notice 1/3.
+
+         En déduire le torseur de cohésion, noté [Tcoh ] ,sur les tronçons [O3O2] et
+         [O2O1].
+
+        Q18        Inscrire votre réponse dans le cadre R18 de la notice 1/3.
+         Conclure sur la nature des sollicitations dans la barre de liaison.
+
+
+      Ce cas d’étude étant trop complexe, on se limite uniquement à regarder l’effet de la
+                            G G
+flexion dans le plan ( O2 , y0 , z0 ) . Le moment de flexion maximum est alors donné par :
+
+               L.Z C
+      M fx =
+                 4
+     Pour les applications numériques, on utilisera les valeurs suivantes :
+
+                  h = 25mm      L = 400mm      I Qx = 15000mm 4   ZC = 1500 N
+
+
+        Q19        Inscrire votre réponse dans le cadre R19 de la notice 1/3.
+         Donner l’expression littérale du moment quadratique I Qx de la section de la
+                                          G
+         barre par rapport à l’axe ( Qx0 ) .
+
+
+
+
+                T12/19                                                                        
+
+
+===== page 13 =====
+        Q20      Inscrire votre réponse dans le cadre R20 de la notice 1/3.
+          Donner l’expression littérale de la contrainte maximale.
+
+        Q21      Inscrire votre réponse dans le cadre R21 de la notice 1/3.
+          Donner une valeur approchée de la contrainte maximale.
+
+
+     On s’aperçoit alors que le niveau de contraintes dans le levier est relativement
+important. Une étude plus précise doit être menée. On utilise alors un logiciel de calculs par
+éléments finis. Celui-ci permet alors d’estimer une contrainte équivalente maximale (au
+niveau de l’attache avec le vérin) d’environ 300 MPa.
+
+
+        Q22      Inscrire votre réponse dans le cadre R22 de la notice 1/3.
+          Après avoir rappelé la signification de la désignation normalisée S235,
+          conclure sur la possibilité d’utiliser ce matériau. Proposer un autre matériau,
+          et préciser la signification de la désignation normalisée employée.
+
+
+      On cherche à présent à étudier le comportement du système vis-écrou faisant partie du
+vérin d’inclinaison, notamment lors des phases d’arrêt du vérin lorsque l’inclinaison
+souhaitée a été atteinte.
+     La vis est à filet rectangulaire définie par :
+            Son pas p ;
+            Son angle d’hélice i positif (filet à droite), calculé sur le rayon moyen :
+                                    p
+                       tan i =             .
+                                 2.S .rmoy
+      On suppose que la vis V est animée d’un mouvement de rotation par rapport à l’écrou
+                    G
+6, négative selon x5 . Compte tenu des actions que supporte le vérin, le rattrapage de jeu
+entre la vis V et l’écrou 6 se fait comme représenté sur la figure 16, document 7, page
+D7/8.
+     Soit f = tan M le coefficient de frottement entre la vis V et l’écrou 6.
+     La figure 17, document 7, page D7/8 précise les différentes bases utilisées.
+      Sur une surface dS entourant un point M situé sur le filet, l’action de la vis V sur
+l’écrou 6 se caractérise par :
+            Une composante normale notée dN ;
+            Une composante tangentielle notée dT .
+Hypothèse : le contact vis-écrou est réalisé sur une surface hélicoïdale de largeur faible
+devant le rayon moyen de la vis.
+
+
+
+
+              T13/19                                                  Tournez la page S.V.P.
+
+
+===== page 14 =====
+      Le torseur d’actions mécaniques de la vis V sur l’écrou 6 est noté :
+                            G                         X V o6              LV o 6
+                        ­° RV o6 ½°          G                G
+         [TV o6 ] = ® G               ¾ avec RV o6 = YV o6 et M H ,V o6 = M V o6 exprimés dans la base
+                      H °¯ M H ,V o6 °¿               ZV o6               NV o6
+  G G G
+( x5 , y5 , z5 ) , où H est un point de l’axe de la liaison vis-écrou.
+                                              JJJJG G
+        Le rayon moyen est défini par HM .er = rmoy .
+
+
+
+         Q23       Inscrire votre réponse dans le cadre R23 de la notice 1/3.
+          Compléter la figure de calcul proposée en faisant apparaître en couleur les
+          composantes dN et dT .
+
+         Q24       Inscrire votre réponse dans le cadre R24 de la notice 1/3.
+          En intégrant l’effort local mis en place à la question précédente sur toute la
+          surface de contact entre la vis V et l’écrou 6, exprimer X V o6 en fonction de
+
+           ³³ p.dS (S représente la totalité de la surface hélicoïdale sur laquelle l’écrou
+             S
+          et la vis sont en contact), de l’angle d’hélice i et du coefficient de frottement
+           f.
+
+         Q25       Inscrire votre réponse dans le cadre R25 de la notice 1/3.
+
+          Procéder de façon identique pour exprimer LV o6 en fonction de                ³³ p.dS , du
+                                                                                          S
+
+          rayon moyen rmoy de l’angle d’hélice i et du coefficient de frottement f .
+
+         Q26       Inscrire votre réponse dans le cadre R26 de la notice 1/3.
+          En déduire l’expression de LV o6 en fonction de X V o6 en fonction de rmoy , i
+          et de l’angle de frottement M .
+
+         Q27       Inscrire votre réponse dans le cadre R27 de la notice 1/3.
+          Quelle condition faut-il vérifier pour que le système soit irréversible ?
+
+
+      Ici l’angle d’hélice vaut : i | 3,5° .
+
+
+
+         Q28       Inscrire votre réponse dans le cadre R28 de la notice 1/3.
+          Sachant que la vis V et l’écrou 6 sont en acier, et que le montage est graissé,
+          donner un ordre de grandeur du coefficient de frottement f . Donner alors la
+          valeur approximative de l’angle de frottement M correspondant. Conclure
+          sur le caractère irréversible du vérin. Quel est l’intérêt dans le cadre du tapis
+          de course ?
+
+
+
+
+                 T14/19                                                                                
+
+
+===== page 15 =====
+     Nous allons maintenant étudier les conditions d’assemblage du dispositif d’inclinaison.
+     On considère le schéma cinématique de la figure 4, document 1, page D1/8.
+
+
+        Q29      Inscrire votre réponse dans le cadre R29 de la notice 1/3.
+          Déterminer le degré d’hyperstatisme du modèle proposé. Le développement
+          du calcul n’est pas demandé ; on demande juste de détailler les mobilités du
+          modèle retenu.
+
+
+     Parmi les contraintes géométriques qui doivent être maîtrisées, il faut entre autres
+imposer :
+            Une contrainte de parallélisme entre les axes de fixation du levier 4 sur le cadre
+             supérieur 1 et les axes des galets roulant sur le cadre inférieur 2 ;
+            Une contrainte de symétrie entre les deux plans intérieurs des barres parallèles
+             du levier et la patte de fixation de la tige de vérin 6.
+
+
+        Q30      Inscrire votre réponse dans le cadre R30 de la notice 1/3.
+          Compléter le dessin de définition en faisant apparaître ces deux tolérances
+          géométriques. Il ne s’agit pas ici de quantifier l’étendue de la zone de
+          tolérance ; elle sera notée « t ».
+
+                              C.2.2.2 -      Etude de la motorisation du tapis
+Objectifs de l’étude :
+    Valider la cohérence entre la vitesse maxi du moteur et la vitesse de défilement maxi
+      du tapis ;
+    Déterminer le temps nécessaire pour atteindre la vitesse de défilement maxi du tapis ;
+
+Données :
+       On note (se reporter au schéma cinématique de la figure 6, document 2, page D2/8,
+et à la documentation du moteur de la figure 18, document 8, page D8/8) :
+    J M l'inertie de l'ensemble rotor du moteur et volant d'inertie 84 ;
+    J TM l'inertie du tambour moteur 12 et de la poulie réceptrice 12 ;
+    J TR l'inertie du tambour récepteur 13 ;
+    RPM = 17,5mm le rayon de la poulie motrice 84 ;
+    RPR = 48mm le rayon de la poulie réceptrice 12 ;
+    RTM = 60mm le rayon du tambour moteur 12 ;
+    RTR = 50mm le rayon du tambour récepteur 13 ;
+    N M la vitesse de rotation du moteur, en tr.min-1. On note ZM son expression en
+      rad.s-1.
+    CM le couple moteur exercé sur le rotor.
+
+
+
+
+              T15/19                                                 Tournez la page S.V.P.
+
+
+===== page 16 =====
+          Q31         Inscrire votre réponse dans le cadre R31 de la notice 1/3.
+            Donner l’expression littérale de la vitesse linéaire du tapis, Vtapis en km.h-1, en
+            fonction de N M , RPM , RPR , RTM . Effectuer l'application numérique donnant
+            la vitesse linéaire maximale en km.h-1 ; conclure quant au respect du cahier
+            des charges.
+
+
+      Dans la suite, on considère que le coureur n'est pas sur le tapis. On cherche le temps
+mis pour passer d'une vitesse de défilement de 0 km.h-1 à 18 km.h-1. On fait l'hypothèse que
+le système n'est pas asservi en vitesse.
+
+
+Hypothèse : la masse du tapis est négligée.
+
+
+          Q32         Inscrire votre réponse dans le cadre R32 de la notice 1/3.
+            Exprimer l'énergie cinétique de l'ensemble E={poulie et rotor moteur 84 ;
+            tambour moteur 12 ; poulie réceptrice 12 ; tambour récepteur 13}, en
+            fonction de J M , J TM , J TR , des données géométriques, et de ZM ( t )
+            uniquement ; en déduire l'inertie équivalente J éq de cet ensemble ramenée
+            sur l'arbre moteur.
+
+
+Hypothèse : les liaisons sont parfaites.
+
+
+          Q33         Inscrire votre réponse dans le cadre R33 de la notice 1/3.
+            En isolant l'ensemble E, et en appliquant le théorème de l'énergie cinétique,
+            donner l'équation différentielle liant la vitesse angulaire du moteur ZM ( t ) à
+             J éq et au couple moteur CM .
+
+
+      Le moteur utilisé est un moteur électrique à courant continu Son comportement peut
+être modélisé par les équations suivantes:
+
+    U ( t ) = e ( t ) + R.i ( t ) 
+    CM ( t ) = K t .i ( t ) 
+    e ( t ) = K e .ZM ( t ) 
+      avec
+
+    U ( t ) : tension d'induit en V ;
+    i ( t ) courant d'induit en A ;
+    e ( t ) : force contre-électromotrice en V ;
+    R : résistance d'induit ;
+    Kt : la constante de couple en Nm.A-1 ;
+
+
+
+                  T16/19                                                                      
+
+
+===== page 17 =====
+    K e : constante de force contre-électromotrice en V.s.rad-1. Dans la suite, on
+       considèrera K t = K e Ǥ
+
+
+        Q34       Inscrire votre réponse dans le cadre R34 de la notice 1/3.
+          En utilisant les équations du moteur électrique fournies, en déduire
+          l'équation différentielle liant la vitesse angulaire du moteur ZM ( t ) à J éq , Kt
+                                                        •
+          et U ( t ) . Elle sera mise sous la forme : Z M ( t ) + A.Z M ( t ) = B.U ( t ) où A et B
+          sont des constantes à déterminer.
+
+        Q35       Inscrire votre réponse dans le cadre R35 de la notice 1/3.
+
+          Dans le cas où le moteur est alimenté à tension U ( t ) = U 0 constante, donner
+          l’expression de ZM ( t ) , solution de cette équation différentielle.
+
+
+                              2      2
+     On donne J éq | 3,1.10 kg.m .
+
+
+
+        Q36       Inscrire votre réponse dans le cadre R36 de la notice 1/3.
+          Dans le cas où on alimente le moteur à la tension maximale indiquée dans le
+          document 8, page D8/8, estimer la vitesse de rotation du moteur, puis la
+          vitesse de défilement du tapis, à t = 0, 25s .
+
+        Q37       Inscrire votre réponse dans le cadre R37 de la notice 1/3.
+
+          Donner l’expression du courant d’induit i ( t ) . Estimer la valeur de ce courant
+          à t = 0 s et t = 0, 25s .
+
+        Q38       Inscrire votre réponse dans le cadre R38 de la notice 1/3.
+          Pour préserver le moteur, le courant est saturé à imax = 7,5 A . Donner alors la
+          nouvelle expression de ZM ( t ) . En déduire le temps nécessaire pour
+          atteindre la vitesse de défilement du tapis de 18 km.h-1.
+
+        Q39       Inscrire votre réponse dans le cadre R39 de la notice 1/3.
+          Compte tenu du temps de montée en vitesse indiqué dans le cahier des
+          charges, comment peut-on imaginer que le moteur est commandé ?
+
+C.3 - Dessin d’étude de construction mécanique
+     C.3.1 - Présentation des supports de travail
+      Pour cette partie de l’étude, il vous est demandé de définir plusieurs sous-ensembles
+du mécanisme sur le calque format A3 fourni avec le sujet. Les éléments pré imprimés sur
+ce calque sont destinés à faciliter la mise en place des différents composants.
+
+
+
+
+              T17/19                                                   Tournez la page S.V.P.
+
+
+===== page 18 =====
+                     Zone 1                                  Zone 3
+                     Guidage du tambour moteur               Dispositif      de
+                                                             réglage de la
+                                                             tension du tapis
+
+
+
+
+                     Zone 2
+                     Dispositif de réglage de
+                     la   tension     de    la
+                     courroie poly V
+
+
+
+                       Figure 2 : Mise en page du calque pré imprimé fourni
+
+     C.3.2 - Consignes spécifiques aux travaux graphiques
+     Les dessins sont à exécuter à l’échelle 1:1, aux instruments, avec pour l’essentiel mise
+au net au crayon respectant les épaisseurs de traits normalisées et les exigences d’une
+bonne lisibilité ; seuls les axes et les écritures seront tracés à l’encre noire. Les tracés de
+couleur ne sont pas admis. Les normes AFNOR seront respectées.
+      Les principales conditions fonctionnelles relatives aux liaisons représentées seront
+clairement indiquées en respectant les règles normalisées AFNOR.
+     Les éléments normalisés utilisés par le candidat autres que ceux fournis dans le sujet,
+seront dessinés approximativement en respectant au mieux leurs proportions.
+
+     C.3.3 - Travail demandé
+      Afin d’assurer toutes les fonctions de service et de satisfaire toutes les contraintes
+définies dans la cahier des charges fonctionnel (pages T3/19 et T4/19), et en utilisant au
+mieux les éléments fournis sur le calque, on demande de définir :
+            La liaison pivot du tambour moteur 12 avec le cadre supérieur 1 ;
+            La liaison encastrement de la poulie réceptrice 12 avec le tambour moteur 12 ;
+            Le dispositif de réglage de la tension de la courroie poly V 17 ;
+            Le dispositif de réglage de la tension du tapis 24
+
+      C.3.3.1 -       Conception du guidage du tambour moteur
+Données :
+     Les choix suivants ont été réalisés :
+            Deux pattes de fixation ont été soudées sur le cadre supérieur 1. Elles sont
+             déjà représentées dans la zone 1 du calque. L’axe du tambour moteur 12 est
+             guidé directement dans une de ces deux pattes. Une vis C HC est utilisée pour
+             lier l’axe du tambour moteur 12 à la deuxième patte, afin de régler les éventuels
+             problèmes d’alignement et de rendre l’ensemble montable.
+            Le rouleau du tambour moteur 12 est guidé par rapport à l’axe par deux
+             roulements à billes à contact radial de référence 63032. Le candidat pourra
+             glisser sous son calque la figure 20, document 8, page D8/8, tracée à
+
+
+              T18/19                                                                              
+
+
+===== page 19 =====
+             l’échelle 1:1, sur laquelle les dimensions du roulement ont été respectées. Bien
+             que les joints ne soient pas représentés sur la figure 20, document 8, page
+             D8/8, les roulements 63032 sont graissés à vie.
+            La poulie réceptrice 12 est frettée sur le tambour moteur 12.
+     Dessiner aux instruments, dans la zone 1 du calque, vos propositions de solutions.
+
+      C.3.3.2 -      Conception du dispositif de réglage de la tension de la courroie
+      poly V 17
+Données :
+    Les choix suivants ont été réalisés (se reporter au schéma de principe de la figure 8,
+document 3, page D3/8) :
+            Le stator moteur 14 est monté sur une plaque support. Cette plaque est guidée
+             en rotation à l’aide d’un montage en chape par rapport au cadre supérieur 1.
+            L’écrou 70 permet de comprimer le ressort hélicoïdal 15. L’effort restitué par le
+             ressort 15 tend la courroie poly V 17.
+            Le ressort utilisé a un diamètre moyen de 20mm et un diamètre de fil de
+             2,5mm. Il comporte 6 spires.
+     Dessiner aux instruments, dans la zone 2 du calque, vos propositions de solutions.
+Remarques :
+            Les deux esquisses de vue sont à compléter, notamment pour la définition du
+             guidage en rotation de la plaque support.
+            La vis de précharge 42 doit être immobilisée en rotation pour permettre le
+             serrage de l’écrou 70. L’espace disponible de la zone 2 sera utilisé pour réaliser
+             un croquis en perspective de la vis de précharge 42.
+
+      C.3.3.3 -      Conception du dispositif de réglage de la tension du tapis 24
+Données :
+     Les choix suivants ont été réalisés :
+            L’axe du tambour récepteur 13 est monté sur deux pattes de fixation soudées
+             sur le cadre supérieur 1. Une d’entre elles est déjà représentée dans la zone 3
+             du calque. Deux vis permettent de lier cet axe au cadre supérieur 1. La tension
+             mais aussi l’alignement du tapis 24 sont réglés grâce au serrage/desserrage de
+             ces deux vis.
+            Un cache en plastique permet de masquer l’ensemble des éléments de
+             guidage. Les vis doivent pouvoir être manœuvrées sans que ce cache soit
+             démonté.
+     Dessiner aux instruments, dans la zone 3 du calque, vos propositions de solutions.
+
+
+
+
+              T19/19                                               FIN DE L'EPREUVE
+
+
+===== page 20 =====
+                                                                                                                     11PT26
+                              Document 1
+                                                                             Corps de
+                                                                             vérin 5
+
+
+
+                G                                                                           Tige de
+  G             z0
+  x0                                                                                        vérin 6
+
+
+                                                                                                      Cadre
+                                                                                                      supérieur 1
+
+
+Bielle 3
+
+
+
+                                                                  Levier 4
+
+
+            Cadre
+            inférieur 2
+
+
+
+
+                                          Figure 3 : Vue d’ensemble du dispositif d’inclinaison
+
+                     G
+                     x5
+                                                             G
+                                      F                      z3         G
+                                                                        z4
+                          5
+                                                                                                                G
+                                                     E                                  1                       z1
+
+                                                             D                                        G
+                                  6                                                                   x1
+
+                      G       3
+                      z0                             C            4     2
+
+           G                                                                                     0
+           x0                             A
+                                                         B
+                                                                                                               G
+                              Figure 4 : Schéma cinématique plan du dispositif d’inclinaison
+
+
+
+
+                                                                      D1/8                    Tournez la page S.V.P.
+
+
+===== page 21 =====
+                              Document 2
+
+                                                          Tambour
+   Poulie
+                                                          moteur 12
+   motrice
+    84
+
+
+Courroie                                                                   Tapis 24
+Poly V 17
+
+
+                                                                                           Planche 25
+
+
+          Poulie                                                                                         Tambour
+        réceptrice                                                                                       récepteur 13
+           12
+
+
+
+
+                                   Figure 5 : Vue d’ensemble de la motorisation du tapis
+
+         84              17
+  G                                                                                             G
+  x17                                                       12                24                z1
+
+           H
+                                                                                                               13
+                          G
+                          x1
+                                                   I                                                 J
+
+
+
+
+                               1
+
+                     Figure 6 : Schéma cinématique plan du dispositif d’entraînement du tapis
+
+
+
+
+                                                             D2/8
+
+
+===== page 22 =====
+                                Document 3
+
+ Plaque support +
+  Stator moteur
+       14                                                                                         Rotor moteur +
+                                                                                                  Poulie motrice
+    Ecrou 70                                                                                            84
+
+
+Vis de précharge 42
+    + Ressort 15
+                                                                                                  Courroie poly V
+                                                                                                        17
+
+
+
+ Cadre supérieur 1                                                                            Poulie réceptrice
+                                                                                                     12
+
+
+
+
+                    Figure 7 : Vue d’ensemble du dispositif de tension de la courroie du moteur
+
+                                                84                17
+                                          G
+                                          x17
+                            70
+                    15
+                           G                     H                                                 12
+                           z1
+
+                                                                                     I
+               G                                      14
+               x1
+
+                                                                       K
+                                                 1
+
+                                Figure 8 : Schéma de principe du dispositif de tension
+
+
+
+
+                                                           D3/8                 Tournez la page S.V.P.
+
+
+===== page 23 =====
+                          Document 4
+                                                                  Roulette
+                                                                    35
+                                   Cadre
+                                  supérieur
+                                     1
+
+
+              Tige
+          d’amortisseur
+               23
+
+                                                                                                      Tige de la barre
+                                                                                                        de relevage
+                                                                                                             11
+
+
+                                                                                                Corps de la barre
+                                                                                                  de relevage
+                                                                                                       10
+
+                                                                                      Cadre
+                                                                                     inférieur
+   Corps                                                                                 2
+d’amortisseur
+    22
+                               Figure 9 : Vue d’ensemble du dispositif de pliage
+
+                                                                                     G
+                                                                                     z10
+
+                                                                      G                    O
+                                                                      z22
+
+                                                                                           11
+                                                              M
+                                                     23
+
+                                            G        1
+                                            z0
+
+
+                          G                                          22
+                          x0                A                                   10
+
+                                      D10                                   N
+                                 G
+                                 x1                       L
+                                                 2
+
+                     Figure 10 : Schéma de principe plan du dispositif de pliage
+
+
+                                                              D4/8
+
+
+===== page 24 =====
+[OCR] Document 5 | cs
+
+Pa | gs 9 1495
+
+60
+40
+
+&p (’)
+20
+
+70
+20
+
+temps (s)
+40
+60
+80
+Figure 11 : Evolution de I'angle a,, en fonction du temps
+0 5S 10 15 20 2 30 35 40 4 50 55 60 65 70
+eo temps (s)
+-0.05
+3 0.1 +
+io (rad.s")
+0.15
+0.2. + + .
+4aas a9 |
+
+005
+oat
+
+as
+02
+
+028
+23
+2 ie ee
+
+04s
+
+05
+
+Figure 12 : Evolution de la vitesse angulaire ao en fonction du temps
+
+D5/8 Tournez la page S.V.P.
+
+
+===== page 25 =====
+[OCR] Document 6
+
+1, (mm)
+0 sO 100 150 200 250 300 350 400
+
+Mo (°)
+
+Figure 13 : Loi entrée-sortie
+
+Figure 15 : Modélisation de la poutre associée a la barre de liaison du levier
+
+Dé/s
+
+
+===== page 26 =====
+Document 7
+                    G
+                    x5
+
+
+
+
+       jeu
+                                                                      Tige 6
+
+
+
+
+                                                     Vis V
+
+
+             Figure 16 : Assemblage de la vis du vérin avec la tige 6
+
+                                                G             G           G
+                                                x5            eT          z5
+
+                         G
+                         eT     G
+                              i t          G
+                                           x5
+                                                                                   G
+                                                                                   er
+                                                G                              T
+                                       i        n                    G
+                                                                                       G
+                                                                                       y5
+                                                                     x5
+             H
+                                                              G           G
+                    T         M                        G      n           x5
+                                                       er
+
+                                                                                   G
+                                                                                   t
+                                                                               i    G
+                                                                   G                eT
+                                           G
+                                                                   er
+                                           y5
+
+                 Figure 17 : Figures de calcul associées à l’écrou
+
+
+
+
+                                           D7/8                Tournez la page S.V.P.
+
+
+===== page 27 =====
+     Document 8
+
+N° de modèle                               B2K05J13
+Tension nominale (V)                           180
+Courant nominal (A)                            7,5
+Vitesse de rotation à vide (tr.min-1)         4 000
+Puissance en fonctionnement continu (cv)       1,5
+Puissance maximale (cv)                        5,5
+Diamètre du volant d’inertie (mm)          150/160/170
+Diamètre de la poulie                        30/33/35
+Résistance (ȍ)                                  2
+Constante de couple (Nm.A-1)                   0,5
+
+                         Figure 18 : Documentation moteur courant continu
+
+
+                               N° de modèle                       JS18
+                               Tension d’alimentation             110/220 V AC – 50/60 Hz
+                               Charge maximale                             5 000 N
+                               Vitesse d’allongement maximale             4,6 mm.s-1
+                               Course                               Définie par l’utilisateur
+
+                                                  Figure 19 : Documentation vérin
+
+
+
+
+                        Figure 20 : Roulement à billes à contact radial 63032
+
+
+
+
+                                            FIN DE L©EPREUVE
+
+
+
+
+                                                  D8/8
+
+
+===== page 28 =====
+                 Académie :                                              Session :                                           Modèle EN.
+                 Examen ou Concours                                                                    Série* :
+                 Spécialité/option :                                                     Repère de l’épreuve :
+DANS CE CADRE
+
+
+
+
+                 Épreuve/sous-épreuve :
+                 NOM :
+                 (en majuscules, suivi s’il y a lieu, du nom d’épouse)
+                 Prénoms :                                                             N° du candidat
+                 Né(e) le :                                                                              (le numéro est celui qui figure sur la
+                                                                                                            convocation ou la liste d’appel)
+
+
+                 Examen ou concours :                                                  Série* :
+NE RIEN ÉCRIRE
+
+
+
+
+                                                                                                                      Numérotez chaque
+                 Spécialité/option :                                                                                  page (dans le cadre
+                                                                                                                      en bas de la page) et
+                 Repère de l’épreuve :                                                                                placez les feuilles
+                                                                                                                      intercalaires dans le
+                 Épreuve/sous-épreuve :                                                                               bon sens
+                 (Préciser, s’il y a lieu, le sujet choisi)
+
+                 Note :                      Appréciation du correcteur (uniquement s’il s’agit d’un examen) :
+
+                                       20
+
+
+
+
+                 * Uniquement s’il s’agit d’un examen.
+
+
+
+                                                                                                                                  11PT26
+
+
+===== page 29 =====
+[OCR] a
+NE RIEN ECRIRE
+
+
+
+===== page 30 =====
+[OCR] NE RIEN ECRIRE
+
+DANS LA PARTIE BARREE.
+
+R1 | Expression de /(A,B,) :
+R2 | Expression de 6). 19 :
+R3 | Expression de F,.,, :
+R4 | Théoréme du moment dynamique appliqué a Eade :
+R5 | Instant du contact cadre/sol : beomact =
+10 (fans =
+
+Vitesse d’impact : V
+
+impact ©
+
+Conclusion :
+
+Tournez la page S.V.P.
+
+
+
+===== page 31 =====
+[OCR] DANS LA PARTIE BARREE.
+
+NE RIEN ECRIRE
+
+R6 | Liste des paramétres variables :
+
+Nombre d’équations scalaires a écrire :
+
+R7 | Ecriture des équations scalaires :
+
+Chaine de solides :
+
+Chaine de solides :
+
+0-2-4
+
+Fermeture vectorielle :
+
+Y
+
+Fermeture vectorielle :
+
+GA+ AB+...=0
+
+&
+
+Projections : Op
+
+Projections :
+
+° -Z4+
+
+© =x, +..
+
+Chaine de solides :
+
+Chaine de solides :
+
+Fermeture vectorielle :
+
+Fermeture vectorielle :
+
+Projections :
+
+Projections :
+
+Chaine de solides :
+
+Chaine de solides :
+
+Fermeture vectorielle :
+
+Fermeture vectorielle :
+
+Projections :
+
+Projections :
+
+
+
+===== page 32 =====
+[OCR] R8 | Course du vérin :
+
+Commentaire sur la linéarité :
+
+R9Q | Temps de montée :
+
+R10 | Etude statique :
+
+F Geoureur
+
+| @x
+
+AQ G %
+
+0
+
+Isolement effectué Efforts dont la direction est déterminée
+
+Tournez la page S.V.P.
+
+
+
+===== page 33 =====
+[OCR] NE RIEN ECRIRE
+
+R11 X.=-X, ? Solide(s) isolé(s) :
+Théoréme(s) utilisé(s) :
+Valable Va, ? O oui O non (cocher la bonne case)
+R12 X,, ? Solide(s) isolé(s) :
+Théoréme(s) utilisé(s) :
+Expression de Ey, :
+R13 | Effort vérin ? Solide(s) isolé(s) :
+
+Théoréme(s) utilisé(s) :
+
+Bilan des actions mécaniques extérieures :
+
+R14
+
+Conclusion :
+
+
+
+===== page 34 =====
+[OCR] Torseurs statiques :
+
+[%, ]=
+
+Relations liées a la symétrie :
+
+R16
+
+[%, ]=
+
+Expression de [t ] :
+
+R17
+
+Torseur de cohésion :
+
+Trongon [O30,] :
+
+[Ton]=
+
+Trongon [0,0,] :
+
+[Toon] =
+
+R18
+
+Nature des sollicitations :
+
+Tournez la page S.V.P.
+
+
+
+===== page 35 =====
+[OCR] R19 | Moment quadratique :
+To. =
+
+R20 | Contrainte maximale :
+
+R21 Application numérique :
+
+R22 $235 — signification : Autre matériau :
+Matériau adapté ? Signification :
+
+R23 | Représentation de dN et dT :
+
+R24 Expression de X,,,, :
+
+
+
+===== page 36 =====
+[OCR] R25
+
+Expression de L,,, :
+
+R26 | L,_,, enfonctionde X,,, :
+
+R27 _ | Condition pour irréversibilité :
+
+R28 | Valeurde f : Valeur de @ :
+Irréversible ? O oui Onon (cocher la bonne case)
+Intérét ?
+
+R29 | Degré d’hyperstatisme :
+
+Mobilités du modeéle :
+
+Tournez la page S.V.P.
+
+
+===== page 37 =====
+[OCR] R30 | Parallélisme et symétrie :
+A A
+f
+ro
+T
+1
+na)
+7
+A-A
+R31 | Expression de la vitesse du tapis :
+
+Application numérique :
+
+Conclusion :
+
+
+
+===== page 38 =====
+[OCR] NE RIEN ECRIRE
+
+R32 Expression de l’énergie cinétique de l'ensemble E :
+Expression de J, :
+
+R33__| Equation différentielle liant @,,(t) a J,, et Cy:
+
+R34 | Equation différentielle liant @,,(t) a J,,, K, et U(t) :
+
+R35 | Solution de l'équation différentielle pour U(t)=U, :
+
+Tournez la page S.V.P.
+
+
+
+===== page 39 =====
+[OCR] R36_ | Vitesse de rotation du moteur (en rad.s') a f= 0,258 :
+Vitesse de défilement du tapis (en km.h") a ¢=0,25s :
+R37 | Expression du courant d’induit :
+Courant a ¢=0s : Courant a ¢=0,25s :
+R38 | Nouvelle expression de @,, (7) :
+Temps pour atteindre 18 km.h”:
+R39 Commande du moteur :
+
+FIN DE LGPREUVE
+
+
+
+===== page 40 =====
+[OCR] DANS CE CADRE
+
+NE RIEN ECRIRE
+
+Académie : Session : Modéle EN.
+Examen ou Concours Série* :
+Spécialité/option : Repére de l’épreuve :
+Epreuve/sous-épreuve : NE RIEN ECRIRE DANS LA PARTIE BARREE
+NOM : ee
+Ten majuscules, Sui STV a lieu, du nom GT epouse]
+Prénom N° du candidat
+Né(e) le: (le numero est celui qui figure sur la
+convocation outa liste eppel)
+11PT26
+ZONE 1 ZONE 3
+Cache
+\
+| \ ee ee ee
+a 1
+
+WwNNNNNAN
+
+ECHELLE 1:1
+
+ECHELLE 1:1
+
+ECHELLE 1:1
+
+

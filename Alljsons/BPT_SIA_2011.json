@@ -1,0 +1,1019 @@
+{
+ "concours": "Banque PT",
+ "filiere": "SIA",
+ "date": "2011",
+ "file": "BPT_SIA_2011.pdf",
+ "status": 200,
+ "source": "banquept.fr, rubrique « Annales d'annales » (rubrique23.html)",
+ "epreuve_originale": "SI A",
+ "classification": "automatique par mots-clés (Claude, oct. 2026) — moins fine que celle des sujets récents",
+ "decoupage_questions": "Question",
+ "texte_ocr": true,
+ "pages_sujet": 22,
+ "pages_total": 56,
+ "data": {
+  "parties": [
+   {
+    "titre_partie": "PARTIE A",
+    "questions": [
+     {
+      "numero": "Q1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 6,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "Question 1 À partir de la présentation du système et des diagrammes fournis en annexe 1, compléter le diagramme SADT de niveau A3 ébauché sur le cahier réponse. Les actionneurs utilisés sont des vérins hydrauliques double effet. Ils sont pilotés par des servo-distributeurs à commande électrique. On donne sur le cahier réponse une ébauche du schéma hydraulique de câblage d'un vérin."
+     },
+     {
+      "numero": "Q2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Matériaux : Choix",
+        "semestre": "S3"
+       }
+      ],
+      "page": 6,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "Question 2 Compléter le schéma de câblage hydraulique du vérin en reliant les composants. Préciser la désignation et/ou la fonction des éléments indiqués."
+     },
+     {
+      "numero": "Q3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Rapidité",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Chaîne d'énergie",
+        "semestre": "S1"
+       }
+      ],
+      "page": 6,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "Question 3 Après lecture du diagramme FAST proposé sur le cahier réponse, indiquer les éléments réalisant les différentes fonctions du niveau le plus bas de la description. Tuyère à ouverture variable Page 4 Banque PT – SIA 2011 PARTIE B MODÉLISATION DE LA CHAÎNE FONCTIONNELLE RÉALISANT LA FONCTION DE SERVICE \"FAIRE VARIER LE DIAMÈTRE DE LA VEINE DE FLUIDE\" Objectif : Cette partie a pour objectif de proposer un modèle de comportement pour les éléments constitutifs de la chaîne fonctionnelle réalisant la fonction de service. Cette modélisation permettra de valider une partie des performances attendues et de préparer la synthèse du correcteur pour la partie suivante. Dans l'ensemble de cette partie, nous n'étudierons qu'une seule des 4 chaînes fonctionnelles constituant le système complet. Nous ferons l'hypothèse que les chaînes sont parfaitement identiques et que la charge est également répartie sur chacun des 4 vérins. On donne ci-dessous un extrait du cahier des charges relatif à la fonction de service. Fonction de service Critères d'appréciation Niveau Faire varier le diamètre x Diamètre de la veine de fluide de 400 à 600 mm de la veine de fluide x Rapidité - Temps de réponse à 5"
+     }
+    ]
+   },
+   {
+    "titre_partie": "PARTIE B",
+    "questions": [
+     {
+      "numero": "Q4",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Fermeture géométrique",
+        "semestre": "S1"
+       }
+      ],
+      "page": 8,
+      "tags": [],
+      "texte": "Question 4 Écrire la relation vectorielle traduisant la fermeture géométrique de la chaîne de solides. En déduire les deux E E équations scalaires en projection dans la base x1 , y1 ."
+     },
+     {
+      "numero": "Q5",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 8,
+      "tags": [],
+      "texte": "Question 5 En éliminant l'inconnue E, exprimer D en fonction de x. Puis le diamètre D de la veine fluide en fonction de D et D0 le diamètre initial de la tuyère."
+     },
+     {
+      "numero": "Q6",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 8,
+      "tags": [],
+      "texte": "Question 6 On donne figure 8 le tracé de la fonction D x déduite de la question précédente. Peut-on linéariser cette fonction sur cet intervalle ? Si oui, proposer une expression affine de D en fonction de x."
+     },
+     {
+      "numero": "Q7",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Précision",
+        "semestre": "S2"
+       }
+      ],
+      "page": 8,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "Question 7 À partir du résultat de la question précédente, déduire du cahier des charges relatif à la fonction de service les niveau des critères à valider pour la commande des vérins (course, temps de réponse, précision). B2 – MODÉLISATION DU COMPORTEMENT DU SERVO-DISTRIBUTEUR HYDRAULIQUE Objectif : Il s'agit ici d'établir un modèle de comportement du servo-distributeur et de valider les choix des composants hydrauliques vis-à-vis du cahier des charges. La fonction de distribution de l'énergie est assurée par un servo-distributeur dont les caractéristiques principales sont données en annexe 2. Tuyère à ouverture variable Page 6 Banque PT – SIA 2011"
+     },
+     {
+      "numero": "Q8",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 9,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "Question 8 À partir de la courbe de débit et des caractéristiques fournies, proposer une valeur numérique pour le gain KD du servo-distributeur (on négligera pour cela la légère non linéarité perceptible sur la courbe)."
+     },
+     {
+      "numero": "Q9",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Capteurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 9,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "Question 9 Calculer la vitesse maximale Vmax (en m/s) de déplacement de la tige du vérin. Vérifier alors que les performances maximales des composants hydrauliques choisis sont compatibles avec les exigences de rapidité spécifiées au cahier des charges. B3 – MODÉLISATION DU COMPORTEMENT DU CAPTEUR DE DÉPLACEMENT Objectif : Établir un modèle de comportement du capteur de déplacement et valider les performances du capteur vis-à-vis du cahier des charges. Le vérin hydraulique inclut un capteur de position fonctionnant sur le principe de la magnétostriction et dont les principales caractéristiques sont données en annexe 2. Le signal fourni par ce capteur est numérique. La mesure s'effectue comme sur un codeur incrémental par incrémentation des tops émis par le composant. L'estimation x̂(t) du déplacement x(t) correspond au nombre de tops émis lors de ce déplacement."
+     },
+     {
+      "numero": "Q10",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Capteurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 9,
+      "tags": [],
+      "texte": "Question 10 En tenant compte de la résolution du capteur, donner la valeur numérique du gain KC du capteur."
+     },
+     {
+      "numero": "Q11",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Capteurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 9,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "Question 11 Donner la valeur maximale prise par x̂(t) lors du déplacement du vérin. Combien de bits sont nécessaires pour coder cette information ? Est-ce compatible avec le capteur choisi ?"
+     },
+     {
+      "numero": "Q12",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Capteurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       }
+      ],
+      "page": 9,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "Question 12 Quelle est la spécificité du code Gray ? En quoi est-elle intéressante pour une mesure par incrémentation ? B4 – MODÉLISATION DU COMPORTEMENT DU VÉRIN – HYPOTHÈSE FLUIDE INCOMPRESSIBLE Objectif : Il s'agit dans cette partie de proposer un premier modèle du comportement du vérin en adoptant une hypothèse de fluide incompressible. Le résultat de la partie précédente nous permet de réduire l'étude à la commande en position du vérin. Nous adopterons pour cela le schéma-bloc suivant où Xréf(p) représente la consigne de position du vérin équivalente à la consigne portant sur le diamètre de la veine de fluide : Servo - Module de commande Distributeur Vérin Xréf(p) UD(p) Q(p) X(p) KC + C(p) KU KD HV(p) \u0010\u0003 Adaptateur \u0002 Xp KC Capteur Dans toute cette partie, on prendra K U 5.10\u000e4 V . Tuyère à ouverture variable Page 7 Banque PT – SIA 2011 Tournez la page S.V.P. Nous considèrerons par ailleurs une action proportionnelle du correcteur telle que C p K p . Nous nous proposons en première approximation de considérer le fluide utilisé (huile) comme étant incompressible. Cette hypothèse induit la relation suivante : dx t q t S. , où S représente la section utile du vérin en sortie de ti"
+     },
+     {
+      "numero": "Q13",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 10,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "Question 13 Xp Donner l'expression de la fonction de transfert du vérin HV p . Qp"
+     },
+     {
+      "numero": "Q14",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       }
+      ],
+      "page": 10,
+      "tags": [],
+      "texte": "Question 14 X p Donner alors l'expression de la fonction de transfert en boucle fermée HBF p . La mettre sous la Xref p K forme F p en précisant les expressions de K et de T. 1 T.p"
+     },
+     {
+      "numero": "Q15",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 10,
+      "tags": [],
+      "texte": "Question 15 Quelle est alors l'écart de position consécutif à une consigne de 100 mm ? Est-ce compatible avec la performance spécifiée dans le cahier des charges ?"
+     },
+     {
+      "numero": "Q16",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Rapidité",
+        "semestre": "S2"
+       }
+      ],
+      "page": 10,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "Question 16 Proposer un réglage du correcteur permettant de valider la performance de rapidité. B5 – MODÉLISATION DU COMPORTEMENT DU VÉRIN – HYPOTHÈSE FLUIDE COMPRESSIBLE Objectif : Il s'agit ici de proposer un modèle plus affiné du comportement du vérin en tenant compte de la compressibilité du fluide et du comportement dynamique du mécanisme. L'hypothèse d'incompressibilité formulée dans la partie précédente conduit à un modèle cinématique qui ne tient pas compte des causes du mouvement. Pour rendre compte du comportement dynamique du système il faut modifier le modèle de comportement du vérin en tenant compte de la compressibilité du fluide. L'évolution du débit est alors une fonction du déplacement mais aussi de la pression sous la forme de la relation suivante : V t : pression utile dans le vérin. On notera 6 p sa transformée V0 dV t dx t <1> q t S. \u000e . , avec V0 : demi volume de fluide contenu dans le vérin dt B dt B : coefficient de compressibilité du fluide La pression utile induit l'effort développé par le vérin que nous noterons FV tel que : <2> FV p S.6 p , où S représente la section utile du vérin en sortie de tige. C'est cette action qui permet la mise en mouvement du "
+     },
+     {
+      "numero": "Q17",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dynamique : Géométrie des masses",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Énergétique : Inertie équivalente",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Matériaux : Propriétés physiques et mécaniques",
+        "semestre": "S3"
+       }
+      ],
+      "page": 11,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "Question 17 E Déterminer, avec les hypothèses précédentes, le moment d'inertie par rapport à l'axe C, z I V ,Cz d'un volet en fonction de la masse volumique U et des caractéristiques géométriques H, L, d, a et e. Pour la recherche de la masse équivalente, on notera Mt la masse du solide 3. Mt représente la masse de la tige du vérin et un quart de la masse du tore."
+     },
+     {
+      "numero": "Q18",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Énergétique : Théorème de l'énergie cinétique",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Énergétique : Puissance et rendement",
+        "semestre": "S3"
+       }
+      ],
+      "page": 11,
+      "tags": [],
+      "texte": "Question 18 Exprimer l'énergie cinétique galiléenne de l'ensemble de solides (3+4+5) en fonction de Mt, I V ,Cz , B\u0004 et x\u0004 ."
+     },
+     {
+      "numero": "Q19",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 11,
+      "tags": [],
+      "texte": "Question 19 La figure 11 de l'annexe 4 donne la variation de l'angle D en fonction de x obtenue à la question 5. On cherche à linéariser la loi de variation sous la forme D \u0010k1.x . Donner la valeur de k1 en précisant son unité."
+     },
+     {
+      "numero": "Q20",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Énergétique : Inertie équivalente",
+        "semestre": "S3"
+       }
+      ],
+      "page": 11,
+      "tags": [],
+      "texte": "Question 20 Après avoir précisé la méthode utilisée pour définir la masse équivalente recherchée, exprimer la masse équivalente Meq en fonction de Mt, I V ,Cz et k1."
+     },
+     {
+      "numero": "Q21",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       }
+      ],
+      "page": 11,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "Question 21 Faire l'application numérique pour Mt 22 kg et I V ,Cz 8.10 4 kg.mm2 . On donne sur le cahier réponse (question 22) un schéma-bloc modélisant le comportement du vérin avec l'hypothèse d'un fluide compressible. Sur ce schéma, V(p) représente l'image par la transformation de Laplace de la vitesse de translation v(t) de la tige du vérin. En considérant les actions de pesanteur négligeables et en se plaçant dans une phase de test à vide (sans flux d'air), l'application des lois de la dynamique donne la relation suivante : d2 x t < 3> FV t Meq . dt 2"
+     },
+     {
+      "numero": "Q22",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       }
+      ],
+      "page": 11,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "Question 22 A partir des équations [1], [2] et [3], compléter le schéma-bloc du document réponse en indiquant les fonctions de transferts de chaque bloc. Tuyère à ouverture variable Page 9 Banque PT – SIA 2011 Tournez la page S.V.P. B5.2 – Prise en compte de l'action de l'air sur les volets banc Objectif : On cherche à déterminer l'action mécanique résistante équivalente FR , ramenée à la tige du vérin, représentant les actions mécaniques de l'air sur les volets associés à un vérin, c'est-à-dire 4 des 16 volets. Le calcul sera effectué sur un seul des ensembles bielle-volet puis multiplié par 4 pour obtenir le résultat valable pour un vérin. On adopte pour ce mécanisme le modèle utilisé pour la partie B1 et donné par son schéma cinématique sur la figure 6 de l'annexe 3. Notations et hypothèses : G G On suppose que le mécanisme étudié admet le plan O, x1 , y1 comme plan de symétrie géométrique. On néglige la masse des biellettes devant celle du tore et des volets. Les liaisons sont supposées parfaites. Le référentiel associé au bâti 1 est supposé galiléen. Le modèle cinématique adopté est précisé par le schéma cinématique de la figure 6. Les données géométriques et une figure de cha"
+     },
+     {
+      "numero": "Q23",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Énergétique : Puissance et rendement",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 12,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "Question 23 Exprimer la puissance galiléenne développée par les actions mécaniques extérieures et intérieures à l'ensemble de solides (3+4+5) en fonction de Fa, FV, c, D\u0005 et x\u0004 . Montrer qu'elle peut se mettre sous la forme : FV \u0010 Feq .x\u0005 où Feq représente l'action équivalente de l'air sur un seul volet ramenée sur l'axe du vérin. On donnera alors l'expression de Feq en fonction Fa, c et k1."
+     },
+     {
+      "numero": "Q24",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       }
+      ],
+      "page": 12,
+      "tags": [],
+      "texte": "Question 24 En première approximation, on suppose que Fa est de la forme Fa \u0010k 2 .D . Exprimer FR en fonction c, k1, k2 et x. On rappelle que FR est l'action mécanique résistante équivalente pour quatre volets. Mettre le résultat sous la forme FR K F .x et donner l'expression de KF."
+     },
+     {
+      "numero": "Q25",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 12,
+      "tags": [],
+      "texte": "Question 25 15 3 Calculer la valeur numérique de KF avec k 2 .10 N/rad et c 200 mm . 4"
+     },
+     {
+      "numero": "Q26",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+        "semestre": "S3"
+       }
+      ],
+      "page": 12,
+      "tags": [],
+      "texte": "Question 26 Écrire le théorème de la résultante dynamique appliquée au solide 3 dans son mouvement par rapport à 1 en E projection sur x1 , comme s'il était seul en remplaçant l'ensemble des quatre groupes de solides 4 et 5 par les caractéristiques équivalentes déterminées précédemment."
+     },
+     {
+      "numero": "Q27",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       }
+      ],
+      "page": 12,
+      "tags": [],
+      "texte": "Question 27 Compléter le schéma-bloc du document réponse en indiquant les fonctions de transfert de chaque bloc. Tuyère à ouverture variable Page 10 Banque PT – SIA 2011"
+     },
+     {
+      "numero": "Q28",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Correcteurs : Proportionnel",
+        "semestre": "S4"
+       }
+      ],
+      "page": 13,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "Question 28 X p Donner l'expression de la fonction de transfert du vérin ainsi modélisé HV p . Q p KV On donnera le résultat sous la forme suivante : HV p en précisant les expressions de KV et a2. p 1\u000e a2 .p2 B5.3 – Validation du modèle de comportement du vérin banc Afin de valider le modèle établi, on se propose d'étudier le comportement en boucle fermée de la chaîne fonctionnelle de commande du vérin. On rappelle ci-dessous le schéma-bloc retenu et on considérera une correction proportionnelle telle que C p K p . Servo - Module de commande Distributeur Vérin Xréf(p) UD(p) Q(p) X(p) KC + C(p) KU KD HV(p) \u0010\u0003 Adaptateur \u0002 Xp KC Capteur"
+     },
+     {
+      "numero": "Q29",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       }
+      ],
+      "page": 13,
+      "tags": [],
+      "texte": "Question 29 X p Donner l'expression de la forme canonique de la fonction de transfert en boucle fermée HBF p . On Xref p donnera le résultat en fonction de KC, KU, KD, Kp, KV et a2."
+     },
+     {
+      "numero": "Q30",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Stabilité",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 13,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "Question 30 Par application du critère Routh, discuter de la stabilité du système ainsi modélisé. Conclure sur le modèle de comportement du vérin établi en question 28. B5.4 – Prise en compte d'un débit de fuite banc Pour pallier le problème de stabilité du modèle précédemment établi, une solution possible consiste à introduire un débit de fuite entre les deux chambres du vérin. Celui-ci a pour effet de réduire artificiellement le débit réel entrant dans le vérin en fonction de la pression utile. Ce débit vaut alors : q t \u0010 G.V t où G est le coefficient de débit de fuite."
+     },
+     {
+      "numero": "Q31",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 13,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "Question 31 Proposer une modification du schéma-bloc donné sur le cahier réponse afin de prendre en compte le débit de fuite entre les chambres du vérin."
+     },
+     {
+      "numero": "Q32",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Stabilité",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 13,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "Question 32 X p Donner l'expression de la fonction de transfert du vérin ainsi modélisé HV p . Q p KV On donnera le résultat sous la forme suivante : HV p en précisant les expressions de 1\u000e a1.p \u000e a2 .p2 \u000e a3 .p3 KV, a1, a2 et a3. Tuyère à ouverture variable Page 11 Banque PT – SIA 2011 Tournez la page S.V.P. PARTIE C SYNTHÈSE DU CORRECTEUR DE LA COMMANDE EN POSITION D'UN VÉRIN Objectif : Cette partie a pour objectif de choisir et de régler le correcteur de la chaîne fonctionnelle assurant la fonction de service. On donne ci-dessous un extrait du cahier des charges relatif à la fonction de service : Fonction de service Critères d'appréciation Niveau FS x Rapidité Faire varier le - Temps de réponse à 5% 4 s pour le déplacement maximal diamètre de la veine x Précision de fluide - Erreur statique pour le vérin 0 mm - Erreur de trainage pour le vérin 1 mm pour une consigne de 25 mm/s x Stabilité - Marges de stabilité Marge de gain > 15 dB Marge de phase > 45° Afin de simplifier l'étude et en reprenant les résultats de la partie B, nous adopterons dans cette partie le schéma-bloc suivant pour modéliser la chaîne fonctionnelle : Servo - Module de commande Distributeur Vérin Xréf(p) UD(p)"
+     }
+    ]
+   },
+   {
+    "titre_partie": "PARTIE C",
+    "questions": [
+     {
+      "numero": "Q33",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Rapidité",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       }
+      ],
+      "page": 15,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "Question 33 Proposer à partir de ce tracé, une expression pour la fonction de transfert HV(p). On justifiera la réponse en traçant les diagrammes asymptotiques correspondants et en déterminant tous les coefficients utiles. On précise que les coefficients ont été choisis afin d'optimiser la rapidité du vérin."
+     },
+     {
+      "numero": "Q34",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Correcteurs : Proportionnel",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
+        "semestre": "S2"
+       }
+      ],
+      "page": 15,
+      "tags": [],
+      "texte": "Question 34 En déduire la valeur du gain statique en boucle ouverte non corrigée du système. On notera ce terme KBONC. Tracer en rouge, sur le Bode de la question 33, le diagramme de la fonction de transfert en boucle ouverte du système complet non corrigé. C2 – ANALYSE DES PERFORMANCES EN CORRECTION PROPORTIONNELLE Objectif : Il s'agit ici d'analyser les performances de la commande en correction proportionnelle et de vérifier son adéquation au cahier des charges. Considérons dans un premier temps une correction proportionnelle telle que C p K p ."
+     },
+     {
+      "numero": "Q35",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 15,
+      "tags": [],
+      "texte": "Question 35 Donner l'ordre et la classe du système ainsi corrigé."
+     },
+     {
+      "numero": "Q36",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Précision",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       }
+      ],
+      "page": 15,
+      "tags": [],
+      "texte": "Question 36 Pour K P 10 , donner les valeurs de l'erreur statique pour une consigne de 100 mm et de l'erreur de traînage pour une consigne de vitesse de 25 mm/s. Le système peut-il répondre aux exigences de précision du cahier des charges ?"
+     },
+     {
+      "numero": "Q37",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Stabilité",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Correcteurs : Proportionnel",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Énergétique : Puissance et rendement",
+        "semestre": "S3"
+       }
+      ],
+      "page": 15,
+      "tags": [],
+      "texte": "Question 37 Le système comporte-t-il un risque d'instabilité ? Si oui, préciser pour quelle valeur de Kp l'instabilité est possible (on attend une méthode graphique et un résultat sous la forme d'une puissance de 10). Conclure. C3 – RÉGLAGE D'UNE CORRECTION PROPORTIONNELLE ET INTÉGRALE Objectif : Il s'agit ici de proposer un réglage pour une correction proportionnelle et intégrale afin de satisfaire aux performances du cahier des charges. ¥ 1 µ´ On prendra dans cette partie : C p K I . ¦¦¦1 µµ . § Ti .p µ¶"
+     },
+     {
+      "numero": "Q38",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
+        "semestre": "S2"
+       }
+      ],
+      "page": 15,
+      "tags": [],
+      "texte": "Question 38 Tracer une représentation dans le plan de Bode de la fonction C(p). On demande le diagramme asymptotique ainsi que l'allure des courbes réelles. Tuyère à ouverture variable Page 13 Banque PT – SIA 2011 Tournez la page S.V.P."
+     },
+     {
+      "numero": "Q39",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du premier ordre",
+        "semestre": "S2"
+       }
+      ],
+      "page": 16,
+      "tags": [],
+      "texte": "Question 39 Donner l'ordre et la classe du système ainsi corrigé. Afin de garantir au système une réactivité optimale, on choisit de régler la constante de temps Ti permettant de compenser le mode le plus lent du système non corrigé."
+     },
+     {
+      "numero": "Q40",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 16,
+      "tags": [],
+      "texte": "Question 40 Quelle valeur de Ti permet de compenser le mode le plus lent du système non corrigé ?"
+     },
+     {
+      "numero": "Q41",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
+        "semestre": "S2"
+       }
+      ],
+      "page": 16,
+      "tags": [],
+      "texte": "Question 41 Tracer le diagramme de Bode de la fonction de transfert en boucle ouverte du système ainsi corrigé pour K i 1 (asymptotes et allures des courbes réelles)."
+     },
+     {
+      "numero": "Q42",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Précision",
+        "semestre": "S2"
+       }
+      ],
+      "page": 16,
+      "tags": [],
+      "texte": "Question 42 Quelle valeur de Ki garantit les exigences de précision du cahier des charges ?"
+     },
+     {
+      "numero": "Q43",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Énergétique : Puissance et rendement",
+        "semestre": "S3"
+       }
+      ],
+      "page": 16,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "Question 43 Estimer pour cette valeur les marges de gain et de phase du système et conclure sur le choix de cette correction. On pourra prendre une valeur approchée de Ki et on rappelle, si besoin, que log2 \u0011 0,3 . Tuyère à ouverture variable Page 14 Banque PT – SIA 2011 PARTIE D VALIDATION DE L'ARCHITECTURE MÉCANIQUE DE LA STRUCTURE RÉALISANT LA CHAINE D'ÉNERGIE Objectif : Cette partie a pour objectif de valider le choix de conception de la structure mécanique permettant de transmettre l'énergie mécanique aux volets. La modélisation du système donnée dans les parties précédentes fait apparaître un bloc \"mécanisme\" qui représente la structure transmettant le mouvement des actionneurs (vérins hydrauliques) aux volets. La fonction technique associée à ce bloc est la fonction FT32 caractérisée par les critères d'appréciation donnés dans l'extrait du cahier des charges suivant : Fonction technique Critères d'appréciation Niveau FT32 x mouvement de rotation des volets autour d'un axe Transmettre un orthogonal à l'axe de la veine fluide : mouvement identique - position de l'axe de rotation orthogonal à chaque volet. - débattement angulaire 40°±0,5° - précision angulaire 0,2° x commande s"
+     }
+    ]
+   },
+   {
+    "titre_partie": "PARTIE D",
+    "questions": [
+     {
+      "numero": "Q44",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Torseur cinématique",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       }
+      ],
+      "page": 18,
+      "tags": [],
+      "texte": "Question 44 À partir du graphe de structure (graphe des liaisons) donné dans le cahier réponse, compléter le tableau du cahier réponse en précisant pour chaque liaison, sa désignation, les éléments géométriques caractéristiques, la forme du torseur cinématique Ek, c'est-à-dire l'expression des éléments de réduction en fonction des paramètres pk, qk, rk, uk, vk et wk dans la base locale de la liaison et la forme du torseur d'actions mécaniques transmissibles 5k, c'est-à-dire l'expression des éléments de réduction en fonction des paramètres Xk, Yk, Zk, Lk, Mk et Nk dans la base locale de la liaison."
+     },
+     {
+      "numero": "Q45",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Liaisons équivalentes",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       }
+      ],
+      "page": 18,
+      "tags": [],
+      "texte": "Question 45 Déterminer la liaison équivalente Leq34 aux deux liaisons L3 et L4 situées entre le solide 1 et le solide 3. On attend une démonstration par le calcul. On précisera la forme du torseur des actions transmissibles 5eq34."
+     },
+     {
+      "numero": "Q46",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Liaisons équivalentes",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       }
+      ],
+      "page": 18,
+      "tags": [],
+      "texte": "Question 46 Déterminer la liaison équivalente Leq12 aux deux liaisons L1 et L2 situées entre le solide 1 et le solide 3. On attend une démonstration par le calcul. On précisera la forme du torseur des actions transmissibles 5eq12."
+     },
+     {
+      "numero": "Q47",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Statique : Liaisons équivalentes",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       }
+      ],
+      "page": 18,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "Question 47 Déterminer la liaison équivalente Leq aux deux liaisons Leq34 et Leq12 situées entre le solide 1 et le solide 3. On attend une démonstration par le calcul. On précisera la forme du torseur des actions transmissibles 5eq. Justifier que la commande avec un seul vérin ne satisfait pas le cahier des charges. Tuyère à ouverture variable Page 16 Banque PT – SIA 2011 D2 – ÉTUDE D'UNE COMMANDE AVEC DEUX ACTIONNEURS Objectif : On cherche, dans un deuxième temps, à estimer la capacité d'une structure composée de deux vérins à transmettre le mouvement attendu. On notera : HHHE E E D1O ax 1\u000eRz1 HHHE E E D2 O ax 1 Rz1"
+     },
+     {
+      "numero": "Q48",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Liaisons équivalentes",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Statique : Isostatisme",
+        "semestre": "S2"
+       }
+      ],
+      "page": 19,
+      "tags": [],
+      "texte": "Question 48 À partir du graphe de structure (graphe des liaisons) donné dans le cahier réponse et associé au schéma cinématique proposé, et en vous inspirant des résultats trouvés en D1 déterminer la liaison équivalente Leq1 aux liaisons L11, L21 et la liaison équivalente Leq2 aux liaisons L12 et L22 entre les solides 1 et 3."
+     },
+     {
+      "numero": "Q49",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Liaisons équivalentes",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       }
+      ],
+      "page": 19,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "Question 49 Déterminer par la méthode de votre choix, la liaison équivalente L'eq aux deux liaisons Leq34 , Leq1 et Leq2 situées entre le solide 1 et le solide 3. On précisera la forme du torseur des actions transmissibles 5'eq puis le torseur cinématique cinématique E'eq. Le cahier des charges est-il vérifié pour une commande avec deux vérins ? D3 – ÉTUDE DE LA STRUCTURE ADOPTÉE PAR LE CONSTRUCTEUR Objectif : On cherche finalement à estimer la capacité de réalisation d'une structure composée des quatre vérins."
+     },
+     {
+      "numero": "Q50",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 19,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "Question 50 Pour des raisons d'encombrement des vérins et de capacité à fournir les actions mécaniques de poussée, le bureau d'étude a finalement choisi de commander le tore avec 4 vérins pour obtenir la liaison glissière comme liaison équivalente entre les solides 1 et 3. Quel est, dans ces conditions, le degré d'hyperstatisme du groupe de liaisons initial réalisant la liaison glissière ? Vous expliquerez brièvement, mais clairement votre raisonnement. Que pensez vous de ce résultat sur la capacité de réalisation de cette structure ? Tuyère à ouverture variable Page 17 Banque PT – SIA 2011 Tournez la page S.V.P. PARTIE E VALIDATION DE LA COMMANDE SYNCHRONISÉE DES VÉRINS Objectif : Cette partie a pour objectif de valider le choix de conception réalisé pour assurer une commande synchrone des 4 vérins. La fonction technique associée est la fonction FT322 caractérisée par les critères d'appréciation donnés dans l'extrait du cahier des charges suivant : Fonction technique Critères d'appréciation Niveau FT322 x Précision Synchroniser les commandes des - Écart de position 0 mm vérins x Défaut de synchronisation entre deux vérins 0,5 mm maxi pour une commande - Écart de traînage en rampe "
+     }
+    ]
+   },
+   {
+    "titre_partie": "PARTIE E",
+    "questions": [
+     {
+      "numero": "Q51",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 21,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "Question 51 Xi p 1 Établir la fonction de transfert d'un axe i sous la forme : HBFi p . On exprimera Ti en Xréf p 1 Ti .p fonction de Si, KCi, KDi, KPi et KUi. Dans la suite de cette partie, nous considèrerons uniquement deux axes 1 et 2. Cela est suffisant pour mettre en évidence la problématique ainsi que pour valider les solutions techniques retenues. Nous supposerons que les deux axes sont pilotés avec la même consigne Xréf. Même si les composants des deux axes possèdent a priori les mêmes références, il est impossible de garantir des comportements parfaitement identiques. Les différents gains vont donc différer d'un axe à l'autre. Il en résulte un écart entre les constantes de temps T1 et T2 des deux axes considérés. Nous supposerons que la différence entre les deux axes est telle que : T2 1, 05.T1 ; ce qui correspond à 5% d'écart entre les deux constantes de temps. On prendra T1 1 s . Pour simplifier les écritures, nous considèrerons que le \"défaut\" est entièrement concentré sur un seul composant : le servo-distributeur. Il en résulte les égalités suivantes : K C1 K C2 K C ; K P1 K P2 K P ; K U1 K U2 K U ; S1 S2 S E1 – COMMANDE ASYNCHRONE Objectif : Mettre en évidence les ins"
+     },
+     {
+      "numero": "Q52",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       }
+      ],
+      "page": 21,
+      "tags": [],
+      "texte": "Question 52 Quel axe sera en retard sur l'autre ? Justifier votre réponse. On note *x t x1 t \u000e x 2 t l'écart entre les positions des axes et %X p son image par la transformée de Laplace. Les conditions initiales sont considérées comme nulles."
+     },
+     {
+      "numero": "Q53",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 21,
+      "tags": [],
+      "texte": "Question 53 Exprimer %X p en fonction de Xréf p , T1 et T2."
+     },
+     {
+      "numero": "Q54",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Précision",
+        "semestre": "S2"
+       }
+      ],
+      "page": 21,
+      "tags": [],
+      "texte": "Question 54 Pour une consigne en échelon x réf t X 0 .u t où u t représente l'échelon unité, que devient l'écart en régime permanent ?"
+     },
+     {
+      "numero": "Q55",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Correcteurs : Proportionnel",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Métrologie : Contrôle tridimensionnel",
+        "semestre": "S3"
+       }
+      ],
+      "page": 21,
+      "tags": [],
+      "texte": "Question 55 Pour une consigne en rampe x réf t V0 .t.u t , déterminer la valeur maximale de l'écart *x t notée H V max en fonction de V0, T1 et T2. Faire l'application numérique pour V0 25 mm/s et conclure quant au respect du cahier des charges. E2 – COMMANDE MAÎTRE / ESCLAVE Objectif : Valider le choix d'une commande maître / esclave et de régler le correcteur de synchronisation. Afin d'améliorer les performances de la commande, on adopte un montage de type maître / esclave dont le schéma est donné sur la figure 14 de l'annexe 6. Les axes sont toujours pilotés par la même consigne mais cette fois on effectue un contrôle de l'écart en temps réel pour réajuster la commande de l'axe 2. Tuyère à ouverture variable Page 19 Banque PT – SIA 2011 Tournez la page S.V.P. La commande de l'axe 1 n'est pas modifiée, c'est lui qui impose le \"rythme\", on le nommera \"axe maître\". L'axe 2 est contraint d'adapter son rythme à celui de l'axe 1, on le nommera \"axe esclave\". Un correcteur de synchronisation est disposé en aval du comparateur d'axes. On considèrera une correction proportionnelle telle que : CS p K S ."
+     },
+     {
+      "numero": "Q56",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 22,
+      "tags": [],
+      "texte": "Question 56 Exprimer 'X p en fonction de Xréf p . Montrer que l'on peut mettre la relation sous la forme : K a.p T \u000e T .K .K *X p .Xréf p avec K ' 2 1 P C . Exprimer T2a en fonction de S, KC, KD2, KP, KU et KS. 1 T1 .p 1 T2a.p K S K P .K C"
+     },
+     {
+      "numero": "Q57",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 22,
+      "tags": [],
+      "texte": "Question 57 Déterminer la nouvelle expression de H V max en fonction de V0, K a , T1 et T2."
+     },
+     {
+      "numero": "Q58",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 22,
+      "tags": [],
+      "texte": "Question 58 La solution adoptée permet-elle de respecter le cahier des charges ? Proposer un réglage pour le gain de synchronisation KS pour K P 2 et K C 2.105 m\u00101 . FIN DE L'ÉNONCÉ Tuyère à ouverture variable Page 20 Banque PT – SIA 2011"
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,321 @@
+{
+ "concours": "Banque PT",
+ "filiere": "SIC",
+ "date": "2009",
+ "file": "BPT_SIC_2009.pdf",
+ "status": 200,
+ "source": "banquept.fr, rubrique « Annales d'annales » (rubrique23.html)",
+ "epreuve_originale": "SI C",
+ "classification": "automatique par mots-clés (Claude, oct. 2026) — moins fine que celle des sujets récents",
+ "decoupage_questions": "roman",
+ "texte_ocr": true,
+ "pages_sujet": 16,
+ "pages_total": 39,
+ "data": {
+  "parties": [
+   {
+    "titre_partie": "I. Etude des phases de rentrée et de sortie du train d’atterrissage",
+    "questions": [
+     {
+      "numero": "I.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Chaîne d'information",
+        "semestre": "S1"
+       }
+      ],
+      "page": 5,
+      "tags": [],
+      "texte": "I.1 : Donnez pour chaque phase de fonctionnement l’état initial du système ainsi que les deux équations logiques correspondant aux conditions initiales d’autorisation des phases. On appellera cist la condition initiale de sortie et cirt la condition initiale de rentrée."
+     },
+     {
+      "numero": "I.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Systèmes séquentiels : Diagramme d'états",
+        "semestre": "S1"
+       }
+      ],
+      "page": 5,
+      "tags": [
+       "grafcet"
+      ],
+      "texte": "I.2 : A partir de l’inventaire des entrées/sorties données dans le document ressource II, établir les deux grafcets de sortie et de rentrée du train."
+     },
+     {
+      "numero": "I.3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Systèmes séquentiels : Diagramme d'états",
+        "semestre": "S1"
+       }
+      ],
+      "page": 5,
+      "tags": [
+       "grafcet"
+      ],
+      "texte": "I.3 : Lors de la phase de sortie, il peut arriver que le crochet ne se déverrouille pas. Dans ce cas une alarme est déclenchée au poste de pilotage au bout de 10s. Lorsque le pilote a acquitté cette alarme, les trappes se referment et le système se retrouve en position initiale. Modifiez les grafcets précédents pour prendre en compte ce comportement. 5 Tournez la page S.V.P. II. Etude du système"
+     }
+    ]
+   },
+   {
+    "titre_partie": "II. Etude du système",
+    "questions": [
+     {
+      "numero": "II-A",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
+        "semestre": "S1"
+       }
+      ],
+      "page": 6,
+      "tags": [],
+      "texte": "II-A. Etude préliminaire du système Le schéma de principe relatif au train avant est donné sur le document ressource III. Le caisson (S1) est en liaison pivot avec le fuselage (S0) de l'appareil permettant le déploiement du train. En position sortie, la rotation du tube tournant (S2) par rapport au caisson doit permettre l'orientation des roues pour la direction de l'appareil lors des manœuvres au sol. La commande de cette rotation est réalisée par une crémaillère agissant sur un secteur denté du tube tournant (document ressource IV). Ce dispositif de commande n'est pas représenté sur le document ressource III et ne sera pas pris en considération dans toute la partie II. Afin d'assurer la suspension du train avant, les roues sont montées sur la tige coulissante (S3) en liaison pivot glissant avec le tube tournant. Le compas composé des 2 pièces principales, le compas supérieur (S4) et le compas inférieur (S5), permet alors de transmettre le mouvement de rotation du tube tournant à la tige coulissante en laissant libre le mouvement de translation. Une contrefiche composée des 2 bras (S6) et (S7) sert à reprendre les efforts exercés sur le train et à le maintenir déployé. Elle est éq"
+     }
+    ]
+   },
+   {
+    "titre_partie": "III. Etude du caisson",
+    "questions": [
+     {
+      "numero": "III-A",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+        "semestre": "S2"
+       }
+      ],
+      "page": 8,
+      "tags": [
+       "cotation / chaîne de cotes",
+       "tolérances géométriques"
+      ],
+      "texte": "III-A. Cotation On propose d’étudier certaines spécifications dimensionnelles et géométriques du dessin de définition du caisson (document ressource V)."
+     },
+     {
+      "numero": "III.A.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+        "semestre": "S2"
+       }
+      ],
+      "page": 8,
+      "tags": [
+       "tolérances géométriques"
+      ],
+      "texte": "III.A.1 : Sur votre copie, interprétez la spécification dimensionnelle suivante :"
+     },
+     {
+      "numero": "III.A.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+        "semestre": "S2"
+       }
+      ],
+      "page": 8,
+      "tags": [
+       "tolérances géométriques"
+      ],
+      "texte": "III.A.2 : Sur les documents réponses 3, 4 et 5, interprétez les spécifications géométriques suivantes :"
+     },
+     {
+      "numero": "III-B.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
+        "semestre": "S3"
+       }
+      ],
+      "page": 8,
+      "tags": [
+       "forgeage / emboutissage / découpe"
+      ],
+      "texte": "III-B.1 : Donnez la signification du matériau désigné par : Al Zn 6 Mg Cu. La pièce brute dans laquelle est usiné le caisson est obtenue par forgeage. La pièce brute est représentée sur le document ressource VI."
+     },
+     {
+      "numero": "III-B.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
+        "semestre": "S3"
+       }
+      ],
+      "page": 8,
+      "tags": [
+       "forgeage / emboutissage / découpe"
+      ],
+      "texte": "III-B.2 : Expliquez le principe du procédé d’obtention de cette pièce brute par forgeage. Vous pourrez illustrer vos propos par un dessin."
+     },
+     {
+      "numero": "III-B.3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Statique : Hyperstatisme",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       }
+      ],
+      "page": 8,
+      "tags": [
+       "usinage"
+      ],
+      "texte": "III-B.3 : Proposez trois autres couples de matériaux / procédés envisageables pour cette application. Pour chaque couple proposé, vous indiquerez les avantages et les inconvénients dans un tableau. Justifiez alors le choix du couple matériau / procédé retenu par le constructeur. 8 III-C Usinage du caisson L’usinage du caisson est réalisé au moyen de plusieurs phases d’usinage. La première phase est une phase de fraisage sur une fraiseuse 4 axes. La pièce est mise et maintenue en position au moyen d’un porte-pièce spécifique rigide. La modélisation de la mise en position de la pièce est proposée sur le document ressource VII. III-C.1 A l’aide d’un outil de représentation graphique, établir les fonctions de service (fonctions principales et fonctions contraintes) à réaliser par un porte-pièce dans sa phase d’utilisation sur la machine pendant l’usinage. III-C.2 Proposez une modélisation des liaisons entre la pièce et le porte-pièce du document ressource VII. La mise en position proposée est-elle isostatique ? Justifiez votre réponse. Pourquoi devrait-elle l’être ? III-C.3 Une fois fixée sur le porte-pièce, quels défauts dus à la pièce ou au porte-pièce peuvent provoquer des variation"
+     },
+     {
+      "numero": "III-C.4",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       }
+      ],
+      "page": 10,
+      "tags": [],
+      "texte": "III-C.4 : Quelle composante du vecteur est nuisible au positionnement de la pièce dans le porte-pièce et pourquoi? On appelle i cette composante. On propose de modéliser les défauts de mise en position de la pièce au moyen d’un torseur de « petits déplacements » ! exprimé au point Op de la manière suivante :"
+     },
+     {
+      "numero": "III-C.5",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       }
+      ],
+      "page": 10,
+      "tags": [],
+      "texte": "III-C.5 : Le champ de déplacements très petits étant un champ de moment de torseur, exprimez la composante i du petit déplacement , engendré par un « petit déplacement » modélisé par ! au point Op."
+     },
+     {
+      "numero": "III-C.6",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       }
+      ],
+      "page": 10,
+      "tags": [],
+      "texte": "III-C.6 : En déduire l’expression du torseur \" i au point Op (appelé torseur des coordonnées plückériennes de ) tel que le co-moment de ! et \" i est égal à i."
+     },
+     {
+      "numero": "III-C.7",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Capteurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Métrologie : Contrôle tridimensionnel",
+        "semestre": "S3"
+       }
+      ],
+      "page": 10,
+      "tags": [
+       "usinage"
+      ],
+      "texte": "III-C.7 : A partir des écarts i évalués sur machine à mesurer tridimensionnelle et donnés ci- dessous, des coordonnées des points et des normales de contact dans le repère R, données sur le document ressource VII, écrire le système linéaire permettant le calcul des écarts i en fonction des inconnues (#, %, &, u, v, w) du torseur des petits déplacements ! exprimé au point Op sous forme numérique. Il n’est pas demandé de résoudre le système linéaire résultant. 1 = 0.2mm ; 2 = 0.25 mm ; 3 = 0 mm ; 4 = 0 mm ; 5 = 0.15 mm ; 6 = 0 mm Après résolution, on trouve : # = 0,00069 ; % = 0,00013 ; & = 0,00027 ; u = -0,0447 mm ; v = -0,018 mm ; w = 0,1257 mm 10 On s’intéresse plus particulièrement à l’usinage des deux alésages d’axes H et J."
+     },
+     {
+      "numero": "III-C.8",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Matériaux : Choix",
+        "semestre": "S3"
+       }
+      ],
+      "page": 11,
+      "tags": [
+       "usinage",
+       "dessin / conception sur calque"
+      ],
+      "texte": "III-C.8 : On fait l’hypothèse que les deux entités sont réalisées de la même manière. On vous demande de détailler les opérations d’usinage nécessaires à l’obtention de l’entité d’axe J en fraisage en complétant le contrat de phase du document réponse 6. Vous indiquerez en particulier : ' Dans la partie haute (dessin) : les croquis de la géométrie des outils utilisés et les trajectoires d’usinage de chacun des outils. ' Dans la partie basse (tableau) : la désignation des opérations, les outils utilisés (nom et matériau de l’outil) et l’ordre de grandeur des conditions de coupe pour chaque outil. Vos choix devront intégrer la géométrie des formes à usiner et les tolérances à respecter."
+     },
+     {
+      "numero": "III-C.9",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       }
+      ],
+      "page": 11,
+      "tags": [],
+      "texte": "III-C.9 : À partir des valeurs du torseur des petits déplacements calculées précédemment, calculez la position effective des points H1 (0, 230, 0) et J1 (0, -230, 0), centre des sections droites extrêmes extérieures des alésages H et J."
+     },
+     {
+      "numero": "III-C.10",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       }
+      ],
+      "page": 11,
+      "tags": [
+       "tolérances géométriques"
+      ],
+      "texte": "III-C.10 : On précise que les deux cylindres sont usinés selon la direction z de la machine. La spécification de rectitude est elle respectée ? Justifiez votre réponse. Quels sont alors les défauts engendrés au niveau des deux alésages d’axes H et J ?"
+     },
+     {
+      "numero": "III-C",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 11,
+      "tags": [],
+      "texte": "III-C. 11 : Dessinez à main levée sur votre copie une solution technique permettant de régler la hauteur des appuis ponctuels compatible avec l’ordre de grandeur des écarts i mesurés. 11 Tournez la page S.V.P. IV. Etude statique des efforts transmis pour le pivotement de l'axe des roues Cette étude se propose de déterminer une partie des efforts transmis lors du pivotement de l'axe des roues avant. L'étude réalisée est statique, l'appareil est considéré au repos et l'écrasement de la suspension conduit à la géométrie du compas donnée document ressource IX. Sur ce même document sont précisées les actions mécaniques : - du sol sur les 2 roues où Cp représente le couple résistant maximum de pivotement pour lequel le train est dimensionné, - de l'huile utilisée pour l'amortissement de la suspension sur la tige coulissante; - du compas supérieur sur le compas inférieur assimilable à un glisseur. ainsi qu'une modélisation plus fine de la liaison entre le compas inférieur où la liaison pivot est en fait constituée de 2 liaisons rotules de centres F1 et F2. On appellera composante radiale d'effort transmissible pour chacune des liaisons rotules les composantes normales à l'axe (F1F2) de la"
+     }
+    ]
+   }
+  ]
+ }
+}

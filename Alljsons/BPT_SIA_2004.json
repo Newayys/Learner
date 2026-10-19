@@ -1,0 +1,1252 @@
+{
+ "concours": "Banque PT",
+ "filiere": "SIA",
+ "date": "2004",
+ "file": "BPT_SIA_2004.pdf",
+ "status": 200,
+ "source": "banquept.fr, rubrique « Annales d'annales » (rubrique23.html)",
+ "epreuve_originale": "Sciences Industrielles I",
+ "classification": "automatique par mots-clés (Claude, oct. 2026) — moins fine que celle des sujets récents",
+ "decoupage_questions": "sect",
+ "texte_ocr": true,
+ "pages_sujet": 29,
+ "pages_total": 29,
+ "data": {
+  "parties": [
+   {
+    "titre_partie": "Pages 7",
+    "questions": [
+     {
+      "numero": "A.1.1.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 7,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "A.1.1.1 ~ Déterminer I'équation différentielle littérale donnant le déplacement du piston y(t) en fonction du débit Q1(#) fourni a la chambre 1 et de la section utile du vérin S."
+     },
+     {
+      "numero": "A.1.1.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 7,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "A.1.1.2 — Déterminer |'équation différentielle littérale donnant le déplacement du piston y(t} en fonction du débit Q2(t) fourni a la chambre 2 et de la section utile du vérin S."
+     },
+     {
+      "numero": "A.1.1.3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 7,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "A.1.1.3 — Déterminer la valeur numérique de la vitesse de sortie maximale du vérin. YQ)"
+     },
+     {
+      "numero": "A.1.1.4",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 7,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "A.1.1.4 — Déterminer sous forme littérale la fonction de transfert du vérin Pup) Nota : pour simplifier I'écriture, dans la suite de la partie A.1.1, on pose Q7 = Q."
+     },
+     {
+      "numero": "A.1.1.5.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       }
+      ],
+      "page": 7,
+      "tags": [],
+      "texte": "A.1.1.5.1 — Par analyse du schéma simplifié figure A.1, tracer le schéma-bloc du systéme bouclé Variable d’entrée = la référence position kcapxYref(p). Variable de sortie = la position Y(p). La servovalve est modélisée par un gain pur Kd. Indiquer dans chacun des blocs les transmittances sous formes littérales."
+     },
+     {
+      "numero": "A.1.1.5.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Précision",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       }
+      ],
+      "page": 7,
+      "tags": [],
+      "texte": "A.1.1.5.2 — Déterminer l'erreur statique en réponse a I’échelon unitaire"
+     },
+     {
+      "numero": "A.1,1.5.3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       }
+      ],
+      "page": 7,
+      "tags": [],
+      "texte": "A.1,1.5.3 — Déterminer sous forme littérale canonique la fonction de transfert en 4 Kp) boucle fermée Keap.Yrehp)"
+     },
+     {
+      "numero": "A.1,1.5.4",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Rapidité",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       }
+      ],
+      "page": 7,
+      "tags": [],
+      "texte": "A.1,1.5.4 — Déterminer la valeur numérique de Kcor afin d’obtenir une bande passante 4 —3dB du systéme bouclé de 50 Hz. Nota: on nomme bande passante a —3dB la pulsation pour laquelle le gain du systéme bouclé est a —3dB du gain statique."
+     },
+     {
+      "numero": "A.1.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
+        "semestre": "S1"
+       }
+      ],
+      "page": 7,
+      "tags": [],
+      "texte": "A.1.2 Amélioration du modéle En réalité le fluide n'est pas incompressible. Soit B (B = 10000 bars) le module de compressibilité du fluide. La variation de volume du fluide AV en fonction de la variation de pression AP dans une chambre de veérin est AV AP définie par la relation TR"
+     },
+     {
+      "numero": "A.1.2.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 7,
+      "tags": [],
+      "texte": "A.1.2.1 — Déterminer l’équation littérale des débits reliant le débit Q7(t), la pression P1(t) dans la chambre 1 et le déplacement du piston y(t)"
+     },
+     {
+      "numero": "A.1.2.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 7,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "A.1.2.2 — Déterminer |’équation littérale des débits reliant le débit Q2/t), la pression P2(t) dans la chambre 2 et le dépiacement du piston y(t). 7/22 partie A : automatique A.1.2.3 — Donner |'équation de l'effort de sortie du vérin F(t) en fonction des pressions dans les deux chambres P1(t) et P2(t)."
+     }
+    ]
+   },
+   {
+    "titre_partie": "Pages 8",
+    "questions": [
+     {
+      "numero": "A.1.2.4",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 8,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "A.1.2.4 — Donner sous forme littérale le contenu des blocs de la structure suivante : Bi(p) 210) | ar) ( P1(p) Y(p) F(p) — co Ls Q2(p) P2(p) s} Az) f B2(p) structure du vérin Hypothése supplémentaire : Dans cette partie on supposera le vérin au voisinage de sa position médiane : V7=V2=V."
+     },
+     {
+      "numero": "A.1.2.5",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Statique : Frottements",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       }
+      ],
+      "page": 8,
+      "tags": [
+       "ressort",
+       "hydraulique"
+      ],
+      "texte": "A.1.2.5 — Donner le contenu des blocs A(p) et B(p) de la structure ci-dessous faisant apparaitre la difference de pression dans les deux chambres P(t) = P1(t) — P2{(t). Le débit entrant dans une chambre du vérin est égal au débit sortant de l'autre chambre. Nota : pour simplifier 'écriture on pose Q7(t) = Q(t). Y(p) Bip) F(p) UO) | eg | 0)= AAPL) yp) f PO) | cp) servovalve structure du vérin simplifiée + servovalve 8/22 partie A : automatique A.2 Modélisation de la charge + actionneur (entrée U, sortie F) La charge est un combiné ressort-amortisseur de véhicule de tourisme. L’ensemble ressort-amortisseur sur une roue du train avant posséde les caractéristiques suivantes ramenées sur I'axe du piston du vérin hydraulique : = Raideur rr = 53N/mm. = Frottement visqueux fv = 0,0091 N.s/mm. = Masse M = 65kg. Un déplacement positif du piston augmente le volume de la chambre 1. Hypothéses simplificatrices de travail : Le piston du vérin est en position quasi centrale V7 = V2 = V."
+     }
+    ]
+   },
+   {
+    "titre_partie": "Pages 9",
+    "questions": [
+     {
+      "numero": "A.2.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 9,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "A.2.1 Ecrire la relation donnée par le principe fondamental de la dynamique pour le déplacement du piston du vérin accoupleé a la charge suivant y(t)."
+     },
+     {
+      "numero": "A.2.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       }
+      ],
+      "page": 9,
+      "tags": [],
+      "texte": "A.2.2 En déduire l'expression littérale sous forme canonique de la transmittance de la fonction de transfert ¥(p)/F(p)."
+     },
+     {
+      "numero": "A.2.3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       }
+      ],
+      "page": 9,
+      "tags": [],
+      "texte": "A.2.3 Tracer le schéma-bloc du systéme bouclé a partir des résultats obtenus aux questions"
+     },
+     {
+      "numero": "A.2.4",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 9,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "A.2.4 Donner |'expression litterale sous forme canonique de la transmittance de LAPLACE d'entrée la commande de servovalve U(p) et de sortie la position du piston du vérin Y/p)."
+     },
+     {
+      "numero": "A.2.5",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       }
+      ],
+      "page": 9,
+      "tags": [
+       "ressort",
+       "hydraulique"
+      ],
+      "texte": "A.2.5 Mise en évidence de la raideur hydraulique rh dans la fonction de transfert Y(p)/U(p). Hypothéses de travail supplémentaire: Le distributeur de la servovalve est supposé fermé. Le fluide étant compressible, le vérin peut étre considéré comme un ressort ayant une certaine ae avec AF c(t) l'effort developpé entre le corps du vérin et son piston pour un déplacement du piston de Ay/(t). raideur rh=—"
+     },
+     {
+      "numero": "A.2.5.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 9,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "A.2.5.1 — Par analyse du schéma bloc de la question A.1.2.5 donner la forme littérale de la raideur hydraulique rh en fonction des paramétres du systeme."
+     },
+     {
+      "numero": "A.2.5.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Frottements",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       }
+      ],
+      "page": 9,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "A.2.5.2 — Réécrire la fonction de transfert Y(p)/U(p) (obtenue a la question A.2.4) sous forme canonique et littérale en fonction de la raideur hydraulique rh, la raideur de la charge rr, le frottement visqueux de la charge fv, la masse de la charge M et la section utile du piston S."
+     },
+     {
+      "numero": "A.2.5.3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 9,
+      "tags": [],
+      "texte": "A.2.5.3 — Déterminer | ‘application numérique de rh. Comparer avec rr. Conclure."
+     },
+     {
+      "numero": "A.2.5.4",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 9,
+      "tags": [],
+      "texte": "A.2.5.4 — En déduire la forme littérale canonique simplifiée de Y¥(p)/U(p)."
+     },
+     {
+      "numero": "A.2.5.5",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Stabilité",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       }
+      ],
+      "page": 9,
+      "tags": [],
+      "texte": "A.2.5.5 — Donner I'application numérique de Y(p)/U(p) 9/22 partie A : automatique A.3 Etude de la stabilité On utilise la forme simplifiée de la question A.2.5.4 Y¥(p)/U(p) dans la suite de |’étude. La structure schéma bloc du systéme bouclé est la suivante : keap. Yref(p) U(p) Y(p) COR(p)=Kcor G(p) kcap Le correcteur COR(p)=Kcor est de type proportionnel A3.1 A3.2 A3.3 A3.4 A3.5 Déterminer la forme littérale canonique de |’équation caractéristique notée D(p) Etude de la stabilité."
+     }
+    ]
+   },
+   {
+    "titre_partie": "Pages 10",
+    "questions": [
+     {
+      "numero": "A.3.2.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Stabilité",
+        "semestre": "S2"
+       }
+      ],
+      "page": 10,
+      "tags": [],
+      "texte": "A.3.2.1 - Etudier la stabilité du systeme bouclée 4 l'aide du critére de ROUTH sous forme littérale. En déduire sous forme littérale la plage de valeur admissible pour Kcor assurant la stabilité."
+     },
+     {
+      "numero": "A.3.2.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Stabilité",
+        "semestre": "S2"
+       }
+      ],
+      "page": 10,
+      "tags": [],
+      "texte": "A.3.2.2 — Donner sous forme numérique la plage de valeur admissible pour Kcor. Déterminer numériquement ta pulsation naturelle notée @0 et l’amortissement noté m du second ordre de la transmittance G(p)=Y(p)/U(p). Conclure quant a la valeur de l'amortissement m. Déterminer numériquement la phase de G(j.@) en w=a0. Conclure. Utilisation du critére du revers. Retrouver la valeur numérique de Kcor maximale assurant la stabilité par application du critére du revers :|FTBOC(j.a,)|=1 donne la valeur de Keor maximale. On note o, la pulsation pour laquelle la FTBOC posséde une phase de -180°. Nota : FTBOC=Fonction de Transfert Boucle Ouverte Corrigée 10/22 partie A : automatique A4 Correction"
+     }
+    ]
+   },
+   {
+    "titre_partie": "Pages 11",
+    "questions": [
+     {
+      "numero": "A.4.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Correcteurs : Proportionnel",
+        "semestre": "S4"
+       }
+      ],
+      "page": 11,
+      "tags": [],
+      "texte": "A.4.1 Correction proportionnelle. Le schéma bioc du systéme bouclé est toujours le suivant kcap. Yref(p) Up) Y(p) } Keor G(p) kcap Tracer le diagramme asymptotique de Bode de la FTBOC (Fonction de Transfert en Boucle Ouverte Corrigée) pour Kcor = 0,0001 en indiquant les valeurs remarquables sur le document réponse Annexe A1."
+     },
+     {
+      "numero": "A.4.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       }
+      ],
+      "page": 11,
+      "tags": [],
+      "texte": "A.4.2 Pour Keor = 0,0001 déterminer numériquement la pulsation de coupure 4 OdB nommée @; de la FTBOC."
+     },
+     {
+      "numero": "A4.3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Stabilité",
+        "semestre": "S2"
+       }
+      ],
+      "page": 11,
+      "tags": [],
+      "texte": "A4.3 En déduire numériquement la marge de phase Mg."
+     },
+     {
+      "numero": "A4.4",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Rapidité",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Stabilité",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       }
+      ],
+      "page": 11,
+      "tags": [],
+      "texte": "A4.4 Déterminer numériquement la marge de gain Mg. AA.5 Pour ce réglage de Keor quelle est la bande passante a ~3dB ? Nota : on nomme bande passante a —3dB la pulsation pour laquelle le gain du systeme boucié est a -3dB du gain statique."
+     },
+     {
+      "numero": "A.4.6",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 11,
+      "tags": [],
+      "texte": "A.4.6 Respecte ton le cahier des charges ?"
+     },
+     {
+      "numero": "A.4.7",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       }
+      ],
+      "page": 11,
+      "tags": [],
+      "texte": "A.4.7 Mise en ceuvre d'un filtre. Afin d’éviter d'exciter le systeme avec des pulsations proches de 0 on filtre la commande U(p) du systéme. La structure du systéme bouclé devient la suivante : kcap. Yref(p) , U(p) Y(p) Kcor Filtre(p) G(p) keap 3,461.10-§p?+1 6,923.10-°p?+1,861.10- p+] Le diagramme réel de Bode de ia FTBOC, pour Kcor=0,0001 et le filtre ci-dessus a donné les courbes de gain et de phase suivantes : Le filtre posséde pour fonction de transfert ; Filtre(p)= 11/22 partie A : automatique Bode Diagram Magnitude (48) 3 8 os a Pannen 410 100 Frequency (radisec) zoom du diagramme de Bode précédent : Bode Diagram Magnitude (dB) 254 36 398 Frequency (rad/sec)"
+     }
+    ]
+   },
+   {
+    "titre_partie": "Pages 12",
+    "questions": [
+     {
+      "numero": "A.4.7.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Stabilité",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Rapidité",
+        "semestre": "S2"
+       }
+      ],
+      "page": 12,
+      "tags": [],
+      "texte": "A.4.7.1 - Par relevé graphique donner la valeur de Kcor assurant la stabilité tout en ayant une dynamique élevée (marge de phase Mg=20°). 12/22 partie A : automatique A.4.7.2 — Mesure de la bande passante a -3dB du systéme en boucle fermé Nota: on nomme bande passante 4 —3dB la pulsation pour laquelle le gain du systéme bouclé est a -3dB du gain statique. Le tracé du diagramme de Bode en gain en boucle fermé pour Keor = 1 a donné le résultat suivant : Bode Diagram Magnitude (4B) 700 i000 {0000 Frequency (rad/sec) zoom du diagramme de Bode précédent : Bode Diagram 20 poem Mognitude (dB) ‘316 398 Frequency (radisec} AA4.7.2.1 — Donner la valeur litterale puis numérique en dB du gain statique en boucle fermé. 13/22 partie A : automatique A4.7.2.2 — Par relevé graphique donner la valeur de la bande passante a —3dB."
+     }
+    ]
+   },
+   {
+    "titre_partie": "Pages 14",
+    "questions": [
+     {
+      "numero": "A.4.7.2.3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 14,
+      "tags": [],
+      "texte": "A.4.7.2.3 — Conclure quant au cahier des charges désiré."
+     },
+     {
+      "numero": "A.5",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Précision",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       }
+      ],
+      "page": 14,
+      "tags": [],
+      "texte": "A.5 Précision On utilise la structure bouclée suivante (I'influence du filtre précédent est négligeable) : kcap. Yret(p) Kcor U(p) G(p) Y(p) kcap On utilisera pour G(p) la transmittance sous forme canonique et littérale de la question A.2.5.4"
+     },
+     {
+      "numero": "A.5.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Précision",
+        "semestre": "S2"
+       }
+      ],
+      "page": 14,
+      "tags": [],
+      "texte": "A.5.1 Déterminer l'expression littérale de erreur ep(t) en régime permanent en réponse a léchelon unitaire (erreur de position)."
+     },
+     {
+      "numero": "A.5.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       }
+      ],
+      "page": 14,
+      "tags": [],
+      "texte": "A.5.2 Déterminer l'expression littérale de l'erreur ev(t) en regime permanent en réponse a une rampe de pente unitaire (erreur de vitesse)."
+     },
+     {
+      "numero": "A.5.3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       }
+      ],
+      "page": 14,
+      "tags": [],
+      "texte": "A.5.3 On désire une erreur de vitesse nulle. On modifie la structure du systeme bouclé comme suit : kcap. Yref(p) 4(P, Kv.p Kcor U(p). G(p) Y(p) kcap Déterminer I’expression littérale de l'erreur ev(t) en régime permanent en réponse a une rampe de pente unitaire (erreur de vitesse)."
+     },
+     {
+      "numero": "A5.4",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       }
+      ],
+      "page": 14,
+      "tags": [],
+      "texte": "A5.4 Déterminer littéralement la valeur a régler pour Kv pour obtenir une erreur de vitesse ev(t) en régime permanent nulle."
+     },
+     {
+      "numero": "A.5.5",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Précision",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       }
+      ],
+      "page": 14,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "A.5.5 Esquisser une ébauche de solution différente de celle précédemment présenté permettant d’obtenir une erreur statique nulle. 14/22 partie A : automatique B - CINEMATIQUE L'objectif de la machine (plan général, page 21) est de simuler les conditions de roulage au niveau du train roulant d'un véhicule. Dans ce but, différents mouvements peuvent étre engendrés par la machine d'essais sur la roue du véhicule testé, a l'aide des vérins V;, Vz et V3. Le moyeu du train roulant est monté fixe dans le support de roue 1 et reste fixe en rotation par rapport au reste du train roulant. Les mouvements sont contenus dans le plan (0,x,.¥,) (schéma cinématique, page 22) du repére fixe Ro. Chaque vérin est étudié indépendamment des autres. Ces derniers sont alors considérés comme parfaitement rigides, leur tige parfaitement immobile par rapport a leur corps."
+     }
+    ]
+   },
+   {
+    "titre_partie": "Pages 15",
+    "questions": [
+     {
+      "numero": "B.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 15,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "B.1 Paramétrage (schéma cinématique page 22) Le mécanisme étudié dans cette partie est constitué de 9 solides et de 3 vérins : Bati 0 Repére (0,%,,,) Support de roue 1 Repére (0,%,.5,) (4 Poutre support 2 Repére (0,z,,3) (ce Poutre support 2' Repére (0, ¥,,),) Traverse 3 Repére (0,3,,9,) ( Bielle support 4 Repére (0,,.3.) (8,6 Bielle 5 Repére (0, x...) ( ( ( Barre 6 Repére (0, %,.j,) Bielle 7 Bielle 8 Repére o. eh ea Barre 9 Repére (0,3,, dl, et (8,8, )=1,.5, | (Ar milieu de BsC) i(BC.)= 4.8, ~b, TyilCy4y.C,B,)= 8 Il n'y a pas de contact de 9 au point Cs La position de la tige dans le vérin est définie de la fagon suivante : Vérin V; : glissiére d'axe (D,2,)| (D,8,)=A8), Vérin V2 : glissiére d'axe (&,B,) (E,B,)= 45,3 Vérin V3 : glissiére d'axe (4,2, ) (4,8,)= As Xv3 Liaison Pivots d'axe z, Centre Orientation absolue Entre V3 et Ro Ao a) Entre 5 et Ro Bo 8, = %s¥s) Entre 7 et Ro Co 8, = (%,%,) Entre 8 et Ro Do 8, = (Bo ¥) Entre Vi et Ro Eo 8,, = &.¥,1) Entre V2 et Ro A; 9.5 = Bos v2) Entre V3 et Ro Ao ps = Borys) Entre 4 et 7 B, 9, = (Xs) Entre 2 et 4 Ca , = %.¥:) Entre 3 et 8 As 8, = (i,%5) Entre 1 et 2 By 6, = (%,,) 15/22 partie B : cinématique B.2 Etude préliminaire Le but de l'é"
+     }
+    ]
+   },
+   {
+    "titre_partie": "Pages 16",
+    "questions": [
+     {
+      "numero": "B.2.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Torseur cinématique",
+        "semestre": "S1"
+       }
+      ],
+      "page": 16,
+      "tags": [],
+      "texte": "B.2.1 Sans résoudre le probléme mécanique, montrer par un calcul simple que la mobilité du mécanisme est égale 4 2. On propose alors de paramétrer ce systéme 4 l'aide des positions angulaires absolues de la barre 1 (8;) et de la barre 2 (82)."
+     },
+     {
+      "numero": "B.2.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 16,
+      "tags": [],
+      "texte": "B.2.2 Ecrire, sans les développer, les deux équations reliant les positions angulaires absolues de la barre 3 (93) et de la barre 4 (04) en fonction de 6; et de 02 et des longueurs des barres."
+     },
+     {
+      "numero": "B.2.3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 16,
+      "tags": [],
+      "texte": "B.2.3. En déduire les deux conditions pour que ies relations suivantes soient respectées ensembles : 03 = 61 et 04 = 92, quelles que soient 0; ou 02."
+     },
+     {
+      "numero": "B.2.4",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       }
+      ],
+      "page": 16,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "B.2.4_ En se placgant dans les conditions précédentes et avec 8; constant, quel est le mouvement de la barre 3 lorsque 02 varie ? Dans la suite du probleme, on utilisera les propriétés de ce systeme appelé aussi parallélogramme de WATT. 16/22 partie B : cinématique B.3 Etude cinématique liée au mouvement du vérin V; seul (sur annexe B1) Dans cette partie de l'étude, on s‘intéressera au mouvement engendré par le vérin V; seulement. On cherche a connaitre la nature du mouvement de la roue du véhicule et la relation entre la vitesse de la tige du Vérin Vi, Mx, ccae pun Ct la vitesse du centre de la roue Cr, V5, - mecorps!"
+     }
+    ]
+   },
+   {
+    "titre_partie": "Pages 17",
+    "questions": [
+     {
+      "numero": "B.3.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 17,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "B.3.1 Dans le mécanisme représenté en annexe B71, existe-t-il un (ou plusieurs) parallélogramme(s) de Watt, lié(s) au mouvement du vérin V; ? Si oui, décrire les deux principaux par la donnée de leurs sommets. On mettra en évidence ces parallélogrammes en les surlignant en couleur sur 'annexe B1."
+     },
+     {
+      "numero": "B.3.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 17,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "B.3.2 Indiquer la nature du mouvement que le vérin V; permet d’appliquer la roue autour de la position représentée sur le schéma cinématique."
+     },
+     {
+      "numero": "B.3.3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       }
+      ],
+      "page": 17,
+      "tags": [],
+      "texte": "B.3.3 A partir de la connaissance de la vitesse /, tracée sur le schema, déterminer comps piston graphiquement les vitesses Vi, cn,. Vacsiays Peesin, Ot Pern, et donner la valeur de leur norme. On laissera visible la construction des vitesses et on privilégiera l'utilisation de couleurs."
+     },
+     {
+      "numero": "B.3.4",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 17,
+      "tags": [],
+      "texte": "B.3.4 En déduire le type de comportement simulé par ce genre de mouvement sur le train roulant du véhicule."
+     },
+     {
+      "numero": "B.4.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 17,
+      "tags": [],
+      "texte": "B.4.1. Compléter le schéma cinématique de l'annexe B2. On précisera notamment les ensembles de piéces rigides en les surlignant chacun d'une méme couleur."
+     },
+     {
+      "numero": "B.4.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 17,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "B.4.2 Existe-t-il un (ou des) parallélogramme(s) de Watt lié(s) au mouvement du vérin V2 seul ? Si oui, décrire les deux principaux par la donnée de leurs sommets."
+     },
+     {
+      "numero": "B.4.3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 17,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "B.4.3. Quelle est la nature du mouvement imposé a la roue par le vérin V2 ?"
+     },
+     {
+      "numero": "B.4.4",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 17,
+      "tags": [],
+      "texte": "B.4.4 En déduire le type de comportement simulé par ce genre de mouvement sur le train roulant du véhicule. On se place dans Ia situation du schéma cinématique, soit X, =x, =X)."
+     },
+     {
+      "numero": "B.4.5",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       }
+      ],
+      "page": 17,
+      "tags": [],
+      "texte": "B.4.5 A partir des questions précédentes, déterminer la valeur de fa norme de la vitesse ¥. du centre de la roue C,, appartenant au support de roue 1 par rapport au bati 0. CoV!"
+     },
+     {
+      "numero": "B.4.6",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       }
+      ],
+      "page": 17,
+      "tags": [],
+      "texte": "B.4.6 Calculer expression de la norme de la vitesse Py csis, du point Bi, appartenant au support de roue 1 par rapport au bati 0, en fonction de la norme de la vitesse Vreven, et de la géométrie (On se placera dans I'hypothése ol x,, est perpendiculaire 4 B,B,)."
+     },
+     {
+      "numero": "B.4.7",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       }
+      ],
+      "page": 17,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "B.4.7_ Faire l'application numérique et en déduire la valeur de la norme de la vitesse de rotation, Q(1/Ro), appliquée au support de roue 1 par rapport au repére No. On donne la norme de la vitesse de sortie de la tige du vérin V2 par rapport au bati 0, au point BS : [Poacesn,f[=425ms\", Jes longueurs |= 459mm, Iz; = 578mm, lz. = 1010mm, ig = 204mm, Is = 289mm et les angles « = 23,6° et 02 = 156,4°. 17/22 partie B : cinématique C - STATIQUE Le but de !'étude est de déterminer I'état de sollicitation de la bielle 8 et de vérifier la résistance de la barre 6. Les calculs sont faits dans le plan {0.%,.¥,.). Comme dans la partie B, chaque vérin est étudié seul. Les autres sont alors considérés comme parfaitement rigides, la tige, parfaitement immobile par rapport au corps du vérin."
+     }
+    ]
+   },
+   {
+    "titre_partie": "Pages 18",
+    "questions": [
+     {
+      "numero": "C.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Matériaux : Propriétés physiques et mécaniques",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
+        "semestre": "S1"
+       }
+      ],
+      "page": 18,
+      "tags": [
+       "fonderie / moulage",
+       "hydraulique"
+      ],
+      "texte": "C.1 Données de l'étude Une premiére conception propose de réaliser la bielle 8 par moulage au sable en fonte a graphite sphéroidal et la barre 6 a partir d'une barre en acier S185. Les propriétés mécaniques des matériaux sont regroupées dans le tableau ci dessous : Matériau Module d’élasticité (MPa) | Limite d'élasticité (MPa) Fonte a graphite sphéroidal 179 000 450 Acier $185 210 000 185 Les contraintes sont supposées rester inférieures 4 la limite d'élasticité du matériau. Un premier calcul a permis de définir certaines dimensions pour les vérins : Vérin Diamétre intérieur du corps Diamétre de la tige Dint (mm) di: (mm) Vérin Vi 64 28 Vérin V2 32 24"
+     },
+     {
+      "numero": "C.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       }
+      ],
+      "page": 18,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "C.2 Etude statique lige au mouvement du verin V, seul C.2.4 C.2.2 C.2.3 C.2.4 C.2.5 On se place dans Ia configuration du schéma cinématique, soit x, =, =X, =X, =X). Déterminer les expressions littérales de la force maximale en poussée, FO vay et de la force maximale en traction, Fy.) du vérin V; sur la bielle 8 en fonction de la pression. Connaissant la pression maximale d’alimentation hydraulique, égale 4 150bar (1bar = 10°Pa), et les dimensions retenues pour le matériel hydraulique, faire les applications numériques. Justifier la forme du torseur d'effort appliqué par le vérin V; en poussée sur la bielle 8, EU) = FO aye 0 De méme, justifier la forme du torseur d'effort appliqué par la barre 9 sur la bielle 8, F918) = Fy, 5 0 donné par : 7;,_.: { by donné par: T,_.: { A Ecrire 'équilibre statique de la bielle 8 (vérin en poussée) et déterminer tous les efforts inconnus s‘appliquant sur ce solide. On écrira tous les efforts inconnus en projection dans le plan (0, x,,3,)- On rappelle que %, Az, =sin(,)z, et que ¥, AX, =-cos(@)zZ,. Faire les applications numériques. On donne : @y1 = 21,7°, ag = 80mm, bs = 423,5mm, B = 10,7° et lo, = 578mm. 18/22 partie C : statique C.3 Résistance Des"
+     }
+    ]
+   },
+   {
+    "titre_partie": "Pages 19",
+    "questions": [
+     {
+      "numero": "C.3.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 19,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "C.3.1 Sachant que B,B; =a,.%,, déplacer le torseur d'effort appliqué par le vérin V; sur la bielle 8 du point Bg a B's. A partir des efforts tracés sur le document réponse (annexe C1):"
+     },
+     {
+      "numero": "C.3.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Résistance des matériaux : Torseur de cohésion",
+        "semestre": "S3"
+       }
+      ],
+      "page": 19,
+      "tags": [],
+      "texte": "C.3.2 Tracer sur l'annexe C1 le diagramme de I'effort normal"
+     },
+     {
+      "numero": "C.3.3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Résistance des matériaux : Torseur de cohésion",
+        "semestre": "S3"
+       }
+      ],
+      "page": 19,
+      "tags": [],
+      "texte": "C.3.3. Tracer sur l'annexe C1 le diagramme de I'effort tranchant."
+     },
+     {
+      "numero": "C.3.4",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Résistance des matériaux : Torseur de cohésion",
+        "semestre": "S3"
+       }
+      ],
+      "page": 19,
+      "tags": [],
+      "texte": "C.3.4 Tracer sur l'annexe C1 le diagramme du moment fléchissant."
+     },
+     {
+      "numero": "C.4",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 19,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "C.4 Concentration de contraintes (vérin V2 seul) (annexes C2 et C3) La conception initiale de la barre 6 (cylindre plein de 20mm de diameétre) laisse apparaitre une fragilité au niveau du raccordement avec les rotules d'extrémité du fait de fa brusque variation de section (figure C.4.1 de l'annexe C2). On souhaite quantifier le phénoméne. Pour cela, on suppose que la situation la plus défavorable est celle donnée par le schéma cinématique (%, =%, = ¥,). On déterminera dans un premier temps la solicitation dans la barre 6. Puis on travaillera a l'aide des abaques de l'annexe C3."
+     },
+     {
+      "numero": "C.4.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 19,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "C.4.1. Connaissant la pression maximale d’alimentation hydraulique, égale a 150bar, et les dimensions retenues pour le matériel hydraulique, déterminer la force maximale en poussée, Fyy2 45), du vérin V2 sur la bielle 5 (expression littérale et valeur)."
+     },
+     {
+      "numero": "C.4.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       }
+      ],
+      "page": 19,
+      "tags": [],
+      "texte": "C.4.2_ Donner le type de sollicitation simpie 4 laquelle la barre 6 est soumise. C43 Surla feuille de l'annexe C2, déterminer graphiquement I'équilibre de la bielle 5."
+     },
+     {
+      "numero": "C.4.4",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 19,
+      "tags": [],
+      "texte": "C.4.4 En déduire la contrainte normale dans la partie centrale de la barre 6. Cette valeur satisfait-elle aux critéres de résistance élastique énoncés précédemment pour le matériau ? Aux extrémités de la barre 6, la brusque augmentation de section, pour permettre le montage de la bielle par vissage, introduit des concentrations de contraintes."
+     },
+     {
+      "numero": "C.4.5",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       }
+      ],
+      "page": 19,
+      "tags": [],
+      "texte": "C.4.5 A''aide des abaques fournis annexe C3 et des dimensions de la barre 6 données sur la figure C.4.1 de l'annexe C2, relever le coefficient de concentration de contrainte Ki."
+     },
+     {
+      "numero": "C.4.6",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       }
+      ],
+      "page": 19,
+      "tags": [],
+      "texte": "C.4.6 En déduire la contrainte maximale dans la barre 6. Cette valeur satisfait-elle aux critéres de résistance élastique énoncés précédemment pour le matériau ?"
+     },
+     {
+      "numero": "C.4.7",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+        "semestre": "S3"
+       }
+      ],
+      "page": 19,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "C.4.7 Proposer une amélioration simpie. 19/22 partie C : statique D - DYNAMIQUE Il s'agit d'étudier le déplacement engendré par le vérin V3, vérin de l'axe vertical. Cet actionneur permet une translation verticale du centre de la roue, modélisant ainsi les irrégularités du revétement routier. Le but de l'étude est de déterminer la puissance consommée par le systéme dimensionné pour un véhicule de type pick-up américain (ligth truck). Pour cela, on travaille sur le systéme seul, sans véhicule."
+     }
+    ]
+   },
+   {
+    "titre_partie": "Pages 20",
+    "questions": [
+     {
+      "numero": "D.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 20,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "D.1 Hypotheses Les mouvements sont contenus dans un plan : (0.%,.3). Les solides sont considérés comme indéformables. Le fluide hydraulique est considéré comme incompressible. On donne les longueurs : lg = 480mm, l7 = 190mm On fera attention a respecter les repéres liés & chaque piéce."
+     },
+     {
+      "numero": "D.2.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 20,
+      "tags": [],
+      "texte": "D.2.1 Existe-t-il un ou plusieurs parallélogrammes de Watt ? Si oui, surligner le principal en couleur sur l'annexe D1 et le décrire par la donnée de ses sommets."
+     },
+     {
+      "numero": "D.2.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 20,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "D.2.2 Sachant que la vitesse maximale de sortie du vérin V3 est égale a x |=0,635ms\", déterminer (expression et valeur numérique) la norme de ta ek Ny vitesse du point Ay Passi, | et de la vitesse du point C, |? . x} On souhaite animer fa roue d'un mouvement vertical Uicr-smo), Sinusoidal, de période T et d’amplitude Up."
+     },
+     {
+      "numero": "D.2.3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dynamique : Géométrie des masses",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       }
+      ],
+      "page": 20,
+      "tags": [],
+      "texte": "D.2.3. Donner |’expression littérale du déplacement du centre de la roue du véhicule en fonction du temps, si a t=0 ce déplacement est nul. On définit S comme l'ensemble {1; 2; 2°83; 4}, supposé rigide. Le centre de gravité de S, Gs, est placé sur ja droite (A7A3). On note m la masse de S. On note |r, I'inertie de la piéce 7 en rotation autour de (Bo, 2, ) et mz, la masse de la piéce 7. Le centre de gravité de celle-ci, G7, est tel que (8,6, )= =X; X; ~ ¥g-3,. On suppose que les actions mécaniques des piéces 6 et 9 sur S sont négligeables devant les autres actions mécaniques."
+     },
+     {
+      "numero": "D.2.4",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dynamique : Géométrie des masses",
+        "semestre": "S3"
+       }
+      ],
+      "page": 20,
+      "tags": [],
+      "texte": "D.2.4 Donner l'expression littérale de la projection sur jy, des forces diinertie F, de l'ensemble S en son centre de gravité Gs."
+     },
+     {
+      "numero": "D.2.5",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+        "semestre": "S3"
+       }
+      ],
+      "page": 20,
+      "tags": [],
+      "texte": "D.2.5 Ecrire le théoréme de la résultante dynamique de l'ensemble S en projection sur ¥,. En déduire l'action mécanique exercée par la bielle 7 sur S."
+     },
+     {
+      "numero": "D.2.6",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 20,
+      "tags": [],
+      "texte": "D.2.6 Faire le bilan des actions extérieures sur le solide 7."
+     },
+     {
+      "numero": "D.2.7",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+        "semestre": "S3"
+       }
+      ],
+      "page": 20,
+      "tags": [],
+      "texte": "D.2.7_ Ecrire le théoréme du moment dynamique de ce solide au point Bo."
+     },
+     {
+      "numero": "D.2.8",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       }
+      ],
+      "page": 20,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "D.2.8 En déduire l'expression de |'action mécanique exercée par le vérin V3 en fonction de T, Up, g, m, mv, I7 du temps t et de la geométrie. 20/22 partie D : dynamique Dessin du simulateur de route a 4 degrés de liberté sion de MTS Syslenss Corporation 21/22 Plan général Schéma cinématique du simulateur de route a 4 degrés de liberté 22/22 Schéma cinématique NE RIEN ECRIRE Annexe A1 : Diagramme de Bode (a rendre) NE RIEN ECRIRE p34 Bas Vitesse Norme 7 T Vaecormeéuge 2,95 m.s IB.3.2 _ Viyexis, V a sity Cet Fos etise —> Ve,<corpsitige Annexe B1 : Cinématique graphique (a rendre) NE RIEN ECRIRE B45 B.4.6 As B, / fo) \\ \\ VO » 3 “ie Ao Baz"
+     }
+    ]
+   }
+  ]
+ }
+}

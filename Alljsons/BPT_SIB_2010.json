@@ -1,0 +1,556 @@
+{
+ "concours": "Banque PT",
+ "filiere": "SIB",
+ "date": "2010",
+ "file": "BPT_SIB_2010.pdf",
+ "status": 200,
+ "source": "banquept.fr, rubrique « Annales d'annales » (rubrique23.html)",
+ "epreuve_originale": "SI B",
+ "classification": "automatique par mots-clés (Claude, oct. 2026) — moins fine que celle des sujets récents",
+ "decoupage_questions": "Question",
+ "texte_ocr": true,
+ "pages_sujet": 20,
+ "pages_total": 45,
+ "data": {
+  "parties": [
+   {
+    "titre_partie": "Pages 1",
+    "questions": [
+     {
+      "numero": "Q1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 1,
+      "tags": [
+       "dessin / conception sur calque"
+      ],
+      "texte": "Question 1 a Question 27. = 16 documents au format A4, intitulés «Document i» i « {1 ; 2; ... ; 16}, contenant des documents complémentaires. = 1 cahier réponse de 8 pages numérotées de R1/8 a R8/8 a rendre en fin d’épreuve. Ce cahier réponse est un document a trous dans lequel seront consignées par le candidat les réponses intitulées Réponse 1 a Réponse 26 relatives aux questions de notice de conception intitulées Question 1 4 Question 26. = 1 feuille de calque format A4 pré-imprimée intitulée «Calque réponse» a rendre en fin d’épreuve, contenant les réponses a la Question 27 oti l'on demande le tracé d’un dessin. Toute autre documentation est interdite. Les réponses sur feuilles de copies ou papiers de brouillon ne seront pas acceptées. Gestion du temps : En admettant une durée de 1 h 00 pour la lecture et I’assimilation du sujet, il est vivement conseillé de consacrer environ 2 h 30 a la réponse aux questions de la notice de conception (50% de la note globale) et environ 2 h 30 au tracé du dessin (50% de la note globale). Les différentes parties et sous-parties sont indépendantes. 71/20 TOURNEZ LA PAGE S.V.P. Présentation du produit La densification des zones urbaines ces vingt "
+     }
+    ]
+   },
+   {
+    "titre_partie": "Partie 1 : Etude et validation partielle du",
+    "questions": [
+     {
+      "numero": "Q1.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Hyperstatisme",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Correcteurs : Correcteur numérique",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 6,
+      "tags": [],
+      "texte": "Question 1. Calculer le degré d’hyperstatisme du mécanisme modélisé par le schéma cinématique minimal du Document 2. Au regard du cahier des charges, quel est l’intérêt d’un tel hyperstatisme ? On applique un chargement connu au système étudié en imposant un torseur d’effort extérieur, représentant le contact roue-sol, à chacune des colonnes. T6/20"
+     },
+     {
+      "numero": "Q2.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Matériaux : Choix",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       }
+      ],
+      "page": 7,
+      "tags": [],
+      "texte": "Question 2. En appliquant le principe fondamental de la statique à chacune des pièces du système d’inclinaison (liaisons supposées parfaites), on obtient un système d’équations reliant les inconnues de liaison aux données du problème. Est-il possible de résoudre le système obtenu sans hypothèse supplémentaire ? Justifier. Nous allons à présent vérifier le critère de rigidité du train avant en prenant en compte les déformations de certaines pièces. Les colonnes C3 et C4 sont de forme tubulaire et réalisées dans un matériau dont la désignation normalisée est 30NiCr11. Les bras B1 et B2 sont des pièces massives réalisées dans un matériau dont la désignation normalisée est EN AC-43100 (AlSi10Mg). La forme générale de ces pièces est donnée Document 1."
+     },
+     {
+      "numero": "Q3.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       }
+      ],
+      "page": 7,
+      "tags": [
+       "roulements"
+      ],
+      "texte": "Question 3. Donner la signification des désignations normalisées 30NiCr11 et EN AC-43100 (AlSi10Mg). Donner pour chacun de ces matériaux la valeur du module d’Young. Proposer un mode d’obtention du brut pour les deux bras B1 et B2, étant donné la série (ici grande série) et le matériau considérés. Les colonnes C3 et C4 se déforment très peu. On supposera donc pour simplifier, dans la suite, que les colonnes C3 et C4 ne se déforment pas. Etant donné la géométrie des bras, on considère que les bras B1 et B2 ne se déforment que très localement, autour de la zone où est réalisée la liaison pivot avec la colonne C3 ou C4. En effet dans la zone fonctionnelle relative à la liaison pivot, le bras est de section beaucoup plus faible, pour permettre le passage de la colonne. Le montage en chape est illustré Document 2. Chaque liaison pivot est réalisée par un montage de roulements précontraints que l’on modélise comme deux liaisons sphériques de centre Ai. On s’intéresse dans un premier temps aux déformations du bras sous l’effet des efforts transmis par la liaison sphérique de centre Ai. Le Document 3 donne les différentes coordonnées des points de la colonne C3. On précise que le torseur d"
+     },
+     {
+      "numero": "Q4.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Résistance des matériaux : Torseur de cohésion",
+        "semestre": "S3"
+       }
+      ],
+      "page": 8,
+      "tags": [],
+      "texte": "Question 4. On s’intéresse au chargement 1 du Document 4. Donner l’expression des composantes du torseur de cohésion. Préciser la nature de la sollicitation associée au chargement 1. Déterminer en fonction de et ; en déduire en fonction de et . On néglige les effets de l’effort tranchant devant ceux dus au moment fléchissant pour le calcul du déplacement."
+     },
+     {
+      "numero": "Q5.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Dynamique : Géométrie des masses",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Résistance des matériaux : Torseur de cohésion",
+        "semestre": "S3"
+       }
+      ],
+      "page": 8,
+      "tags": [],
+      "texte": "Question 5. On s’intéresse au chargement 2 du Document 4. Donner l’expression des composantes du torseur de cohésion. Préciser la nature de la sollicitation associée à ce chargement. Déterminer en fonction de Yi , E, L et (moment quadratique autour de l’axe au centre de gravité de la section), en déduire en fonction de , et . Donner l’expression de en fonction de et . Pour le chargement 3 du Document 4, on obtient par un raisonnement similaire la valeur de en fonction des données. On ne cherche pas à établir ici son expression et on suppose connu dans la suite. En remarquant que les valeurs , et sont identiques quelle que soit la poutre Pi considérée, on note ces trois rigidités kX , et kZ . On cherche à présent à déterminer les efforts dans les liaisons sphériques de centre Ai, et le comportement de la structure en fonction de l’effort imposé par le contact roue-sol. Cette action mécanique, transmise par la suspension à la colonne C3, est modélisable en BC3 (voir Document 3) par le torseur d’actions mécaniques suivant, qui correspondra à une sollicitation extrême du train avant : \u0001 \u0001 \u0001 \u0002 P x + Qy + Rz \u0005 { TSuspension \u0001C 3 } = \u0003\u0004 L x\u0001 + M y\u0001 + N z\u0001\u0006\u0007 BC 3"
+     },
+     {
+      "numero": "Q6.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       }
+      ],
+      "page": 8,
+      "tags": [],
+      "texte": "Question 6. Isoler la colonne C3 et faire le bilan des actions mécaniques extérieures (on donnera les torseurs associés à chaque action). On négligera le poids de C3. T8/20 La déformation des bras due aux actions mécaniques engendre un déplacement de la colonne C3 par rapport à sa position au repos. On repère la nouvelle position de C3 dans l’espace par six paramètres u,v,w,\u0001 , \u0002 et . Les paramètres u,v et w repèrent \u0001 \u0001 \u0001 \u0001 \u0001 le déplacement UOC 3 du point OC3, de C3 : UOC 3 = u x + v y + w z . Les paramètres \u0001, \u0002 et \u0001 \u0001 \u0001 représentent les angles qui orientent C3 selon les axes x, y et z , de sorte que la \u0001 \u0001 \u0001 \u0001 rotation de C3 est définie par le vecteur rotation \u0001C 3 = \u0002 x + \u0003 y + \u0004 z . On donne les déplacements des points A1, A2, A3 et A4 de C3 par rapport à sa position au repos en fonction de u,v,w,\u0001 , \u0002 et et des paramètres géométriques e et d : \u0001 \u0001 \u0001 \u0001 \u0001 \u0001 \u0001 U A1 = \u0005X 1 x + \u0005Y1 y + \u0005Z1 z = (u + d.\u0004 + e. \u0003 ) x + (v \u0001 e. \u0002 ) y + (w \u0001 d.\u0002 ) z \u0001 \u0001 \u0001 \u0001 \u0001 \u0001 \u0001 U A 2 = \u0005X 2 x + \u0005Y2 y + \u0005Z 2 z = (u \u0001 d.\u0004 + e. \u0003 ) x + (v \u0001 e. \u0002 ) y + (w + d.\u0002 ) z \u0001 \u0001 \u0001 \u0001 \u0001 \u0001 \u0001 U A 3 = \u0005X 3 x + \u0005Y3 y + \u0005Z 3 z = (u + d.\u0004 \u0001 e. \u0003 ) x + (v + e. \u0002 ) y + (w \u0001 d.\u0002 ) z \u0001 \u0001 \u0001 \u0001 \u0001 \u0001 \u0001 U A 4 = \u0005X 4 x + \u0005Y4 y + \u0005Z 4"
+     },
+     {
+      "numero": "Q7.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       }
+      ],
+      "page": 9,
+      "tags": [],
+      "texte": "Question 7. Appliquer le théorème de la résultante statique à la colonne C3. En déduire l’expression des composantes u, v et du déplacement en fonction des composantes P, Q, R, kX , kY et kZ ."
+     },
+     {
+      "numero": "Q8.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 9,
+      "tags": [],
+      "texte": "Question 8. \u0001 Comparer le déplacement UOC 3 du point OC3 obtenu pour ce chargement au déplacement maximal autorisé, donné dans le cahier des charges dans la fonction FS1."
+     },
+     {
+      "numero": "Q9.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 9,
+      "tags": [],
+      "texte": "Question 9. Donner la démarche qui permettrait de déterminer l’expression des composantes de rotation et en fonction des composantes P, Q, R, L, M et N. T9/20 TOURNEZ LA PAGE S.V.P. Partie 2 : Etude et validation partielle du dispositif de verrouillage de l’inclinaison On s’intéresse dans cette partie à la conception du dispositif de verrouillage de l’inclinaison. Il doit permettre de vérifier le critère de verrouillage de la fonction de service FS1 pour les vitesses inférieures à 15 km.h-1. Ce dispositif, présent en option, répond à un souci d’amélioration du confort d’utilisation du scooter en milieu urbain. Le train avant est sensiblement alourdi, par sa structure particulière, par rapport à un véhicule classique. D’autre part, les protections et les éléments de confort propres au marché du scooter amènent le poids des scooters, même de faible cylindrée, à atteindre celui d’une moto de grosse cylindrée. Afin de conserver une bonne maniabilité aux faibles vitesses et de s’adapter aux usagers de tout gabarit, le verrouillage de l’inclinaison est donc proposé en option dans la fonction FS1 de la partie 1. Il permet en outre d’éviter de poser le pied aux arrêts (nombreux en circulat"
+     }
+    ]
+   },
+   {
+    "titre_partie": "Partie 2 : Etude et validation partielle du dispositif de",
+    "questions": [
+     {
+      "numero": "Q10.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Frottements",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       }
+      ],
+      "page": 13,
+      "tags": [],
+      "texte": "Question 10. En détaillant le(s) théorème(s) et isolement(s) utilisés, exprimer les torseurs d’actions mécaniques transmissibles par les liaisons ponctuelles avec frottement en J’1 et J’2, notés {T J1 'Cy \u000114 } et {T J 2 'Cy \u000114 } à la limite du glissement entre 14 et Cy. On exprimera ces torseurs dans la base B13 = x13 = x 0 , y13 ,z13 respectivement en J1’ et J2’ en fonction de Z14 \u0001Cy et de f. ( )"
+     },
+     {
+      "numero": "Q11.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Torseur cinématique",
+        "semestre": "S1"
+       }
+      ],
+      "page": 13,
+      "tags": [
+       "ressort",
+       "embrayage / frein"
+      ],
+      "texte": "Question 11. En détaillant le(s) théorème(s) et isolement(s) utilisés, en déduire la projection sur x13 de la résultante des actions mécaniques transmissibles de P sur B RP \u0001B , en fonction de Z14 \u0001Cy et de f. En déduire la pression P2 à imposer dans le dispositif de verrouillage en fonction de Z14 \u0001Cy , f, Patm et des caractéristiques géométriques. Détermination du couple moteur nécessaire au verrouillage des mobilités du train avant. Le mécanisme de transmission du dispositif de verrouillage schématisé Document 7 est actionné par un moteur électrique. Il est principalement constitué d’un ensemble 1 en liaison pivot par rapport au bâti 0. L’axe du moteur électrique est solidaire de la vis V qui engrène sur la roue R solidaire de la roue R’ qui entraîne l’ensemble 1. L’extrémité du câble actionnant le frein à disque du parallélogramme est fixée à l’ensemble 1 au point E. La rotation de 1 permet donc de mettre en tension le câble du frein à disque du parallélogramme. La pièce 2 est en liaison pivot avec l’ensemble 1. Un ressort de torsion placé entre 1 et 2 permet d’imposer un couple noté Cres\u00012 = Cres\u00012 z0 sur 2. La pièce 2 est en liaison sphérique au point C avec la bielle 3. La b"
+     },
+     {
+      "numero": "Q12.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 14,
+      "tags": [
+       "ressort",
+       "embrayage / frein",
+       "hydraulique"
+      ],
+      "texte": "Question 12. On supposera qu’en position verrouillée : \u0002 32 = (x 2 , x 3 ) = (y 2 , y 3 ) = \u000130° et . Les actions du ressort du maître cylindre ainsi que les actions dues à la pression arrière P1 seront négligées. Déterminer alors le couple à imposer par le ressort de torsion sur 2 pour verrouiller les deux bras de suspension en fonction de P2 et des données géométriques. Justifier votre réponse en détaillant les théorème(s) et isolement(s) utilisés. Lors du verrouillage des verrous hydrauliques, la course C4 du piston 4 du maître cylindre est de 6 mm. On considère que cela entraîne un débattement angulaire maximum de la pièce 2, \u0001\u0002 20,MAX = 6° . La Figure 8 montre un relevé expérimental de l’effort de tension dans le câble noté F en fonction de l’angle lorsque l’on actionne le frein à disque. F est mesuré au point E du Document 7. La résultante des actions du câble en E est : Fcab \u00021 = \u0001F x1 . Pour assurer le blocage du parallélogramme d'inclinaison, la tension dans le câble doit être égale à 200 N. 300 200 100 0 2 4 6 8 10 12 14 16 18 Figure 8 : Tension dans le câble F en fonction de l’angle"
+     },
+     {
+      "numero": "Q13.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Frottements",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Énergétique : Puissance et rendement",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
+        "semestre": "S1"
+       }
+      ],
+      "page": 14,
+      "tags": [
+       "ressort"
+      ],
+      "texte": "Question 13. Relever la valeur à imposer à la pièce 1 pour obtenir l'effort de tension de verrouillage. Déduire alors des questions précédentes l’expression de la raideur du ressort de torsion notée KRes (en N.m.deg-1) qui permettra d’imposer la pression P2. Faire l’application numérique. T14/20 On s’intéresse à la transmission de puissance entre le moteur et les pièces 1 et 2. Le rapport de réduction du système roue et vis sans fin vaut 180 ; le système roue et vis sans fin est irréversible, son rendement est . Les frottements sont supposés négligeables dans tous les autres éléments de transmission et les liaisons sont supposées parfaites. La roue R a ZR=180 dents et la vis V comporte ZV=1 filet. Les roues R’ et 1 ont respectivement ZR’=20 dents et Z1=140 dents."
+     },
+     {
+      "numero": "Q14.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 15,
+      "tags": [],
+      "texte": "Question 14. Déterminer l’expression du couple noté à exercer par le moteur sur la vis V en fin de verrouillage en fonction de , F, ZR, ZR’, Z1, ZV, et des données géométriques utiles."
+     },
+     {
+      "numero": "Q15.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Matériaux : Choix",
+        "semestre": "S3"
+       }
+      ],
+      "page": 15,
+      "tags": [],
+      "texte": "Question 15. A quel critère de la fonction FT1 du cahier des charges, le système roue et vis sans fin permet-il de répondre ? Les désignations normalisées des matériaux utilisés pour le système roue et vis sans fin sont : • Pour la roue R : Cu Sn 12 Zn 1 P • Pour la vis V : 42 Cr Mo 4"
+     },
+     {
+      "numero": "Q16.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Matériaux : Choix",
+        "semestre": "S3"
+       }
+      ],
+      "page": 15,
+      "tags": [],
+      "texte": "Question 16. Donner la signification de ces deux désignations normalisées et justifier le choix de ces deux matériaux. Vérification de la loi de commande du moteur durant la phase de verrouillage. La loi de commande du moteur est une loi de commande en vitesse donnée Figure 9, la vitesse \u0001˙m est tracée en fonction du temps t. 0 t Figure 9 : Loi de commande en vitesse du moteur électrique T15/20 TOURNEZ LA PAGE S.V.P."
+     },
+     {
+      "numero": "Q17.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Énergétique : Puissance et rendement",
+        "semestre": "S3"
+       }
+      ],
+      "page": 16,
+      "tags": [
+       "ressort"
+      ],
+      "texte": "Question 17. On considère par sécurité que le traitement des informations et l’élaboration des ordres par le calculateur peuvent prendre jusqu’à une seconde. Déterminer l’expression analytique de la vitesse de rotation minimum du moteur notée en fonction de Tf , \u000110,MAX , ZR, ZR’, Z1 et ZV. Déterminer les valeurs numériques de Tf et de qui respectent le cahier des charges. D’après les valeurs de et de déterminé à la question 14, conclure quant à la capacité du moteur électrique choisi Document 9 à respecter le cahier des charges. Détermination de la puissance électrique consommée par le dispositif de verrouillage. Dans les questions suivantes on cherche à déterminer la puissance Pm \u0001\u0002 délivrée par le moteur dans le but de vérifier le critère du cahier des charges. Afin de simplifier l’étude, nous ferons les hypothèses simplificatrices suivantes : • L’effort de tension dans le câble est considéré comme une fonction linéaire de l’angle : Fcab \u00021 = \u0001F x1 = \u0001K cab\u000310 x1 • Le temps nécessaire à la phase de translation du piston 4 sans élévation notable de la pression P2 est négligé, de sorte que l’on considérera le couple appliqué par le ressort de torsion sur 1 : Cres\u00021 = \u0001K res\u000310 z0 "
+     },
+     {
+      "numero": "Q18.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Énergétique : Puissance et rendement",
+        "semestre": "S3"
+       }
+      ],
+      "page": 16,
+      "tags": [],
+      "texte": "Question 18. En isolant l’ensemble E déterminer la puissance des efforts extérieurs sur E, notée PExt \u0001\u0002 ."
+     },
+     {
+      "numero": "Q19.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Énergétique : Puissance et rendement",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Résistance des matériaux : Torseur de cohésion",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
+        "semestre": "S1"
+       }
+      ],
+      "page": 16,
+      "tags": [],
+      "texte": "Question 19. Donner l’expression de la puissance PInt des efforts intérieurs à l’ensemble E en fonction de la puissance délivrée par le moteur Pm \u0001\u0002 , et du rendement du système roue et vis sans fin . On donne les moments d’inertie projetés sur les axes de rotation respectifs: • Vis V : IV = 2.10-5 kg.m2 • Roue R : IR = 2.10-5 kg.m2 • Pièce 1 : I1 = 1,5.10-5 kg.m2"
+     },
+     {
+      "numero": "Q20.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Énergétique : Théorème de l'énergie cinétique",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Énergétique : Puissance et rendement",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 16,
+      "tags": [],
+      "texte": "Question 20. Déterminer l’expression littérale de l’énergie cinétique E c (\u0001 /0) de l’ensemble E en fonction de l’angle de rotation du moteur et de ses dérivées successives."
+     },
+     {
+      "numero": "Q21.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Énergétique : Puissance et rendement",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 16,
+      "tags": [],
+      "texte": "Question 21. En détaillant l’expression littérale de Ceq et Ieq, montrer que l’on obtient l’équation suivante : \u0003RV Pm \u0002\u0005 \u0001 Ceq\u0004 m\u0004˙m = Ieq\u0004˙m\u0004˙˙m T16/20 On trace sur la Figure 10 l’évolution de la puissance délivrée par le moteur Pm \u0001\u0002 en fonction du temps t. Pm ε (W ) 35 30 25 20 15 10 5 0 0 0,1 0,2 0,3 0,4 0,5 0,6 0,7 0,8 0,9 1 1,1 1,2 1,3 1,4 1,5 1,6 1,7 1,8 1,9 2 t (s) Figure 10 : Evolution de la puissance moteur en fonction du temps t."
+     },
+     {
+      "numero": "Q22.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 17,
+      "tags": [
+       "ressort",
+       "roulements",
+       "engrenages"
+      ],
+      "texte": "Question 22. Déterminer la valeur de la puissance électrique maximum consommée par le moteur (Document 9) à partir du graphique fourni Figure 10. Conclure quant à la compatibilité et la vérification des critères du cahier des charges. Sous-partie 2.2 : Conception du dispositif de verrouillage On s’intéresse ici à la conception du dispositif de verrouillage. L’étude se limitera au boîtier de transmission de puissance comprenant le pignon R, l’arbre 1, la pièce 2 et le ressort de torsion (Document 7 et Document 12). Le moteur électrique et le système roue et vis sans fin sont intégrés dans un autre module (pas étudié dans cette partie du sujet). Le diagramme FAST (donné Document 10 et Document 11) spécifie les principales fonctions à réaliser lors de la conception de ce module. On s’intéresse à la fonction FT172 du diagramme FAST du Document 10. Le constructeur décide de réaliser ce guidage en rotation par l’association de deux roulements à billes à contact radial. La durée de vie de ces deux éléments doit être de 100 heures. Le schéma d’architecture de la liaison pivot est donné Document 12. Les torseurs d’actions mécaniques transmissibles par les deux liaisons élémentaires réalisée"
+     },
+     {
+      "numero": "Q23.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       }
+      ],
+      "page": 18,
+      "tags": [
+       "roulements"
+      ],
+      "texte": "Question 23. Déterminer les dimensions minimales du roulement situé en R2 pour respecter la durée de vie parmi les roulements donnés Document 14. On supposera que la vitesse de rotation relative entre 2 et 1 est d’environ 1 tour par minute."
+     },
+     {
+      "numero": "Q24.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 18,
+      "tags": [
+       "roulements",
+       "embrayage / frein",
+       "cotation / chaîne de cotes"
+      ],
+      "texte": "Question 24. Expliquer par un organigramme la démarche qui permet de choisir les dimensions du roulement situé en R1. On s’intéresse à la fonction FT16 du diagramme FAST du Document 10 permettant de définir la liaison entre l’arbre 1 et le levier. Le levier permet de mettre en tension le câble du frein à disque du parallélogramme d'inclinaison étudié précédemment. Un dessin de définition partiel du levier est fourni Document 13 (on ne donne que la cotation de surfaces fonctionnelles intervenant dans la fonction FT16)."
+     },
+     {
+      "numero": "Q25.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 18,
+      "tags": [
+       "lubrification",
+       "tolérances géométriques"
+      ],
+      "texte": "Question 25. Donner la signification de la tolérance spécifiée sur le Document 13 : +0,070 où : 6D10= 6 +0,030 Justifier succinctement cette spécification. Le constructeur a choisi un mode de lubrification à la graisse avec un graissage au montage et à chaque révision d’entretien."
+     },
+     {
+      "numero": "Q26.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 18,
+      "tags": [
+       "étanchéité"
+      ],
+      "texte": "Question 26. Compléter le tableau du document réponse : on mettra une croix lorsque la solution technique est adaptée au critère proposé. En déduire un mode d’étanchéité convenable pour les parties du mécanisme en mouvement répondant à la fonction FC21."
+     },
+     {
+      "numero": "Q27.",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 18,
+      "tags": [
+       "ressort",
+       "embrayage / frein",
+       "engrenages",
+       "dessin / conception sur calque"
+      ],
+      "texte": "Question 27. Proposer une solution sur le calque réponse respectant le cahier des charges défini ci-après : Dans cette partie du sujet, il est demandé de définir une partie du dispositif de verrouillage étudié précédemment. L’étude se limitera au boîtier de transmission de puissance comprenant le pignon R, l’arbre 1 la pièce 2 et le ressort de torsion (Document 12). La solution est à dessiner sur le calque réponse. Les éléments préimprimés sur le calque sont destinés à faciliter la mise en place des différents composants. Le candidat trouvera sur le calque préimprimé, dont la mise en page est donnée Figure 11, les éléments suivants : • Position de l’axe des pièces 1 et 2. • Le pignon de l’arbre R’ et le secteur denté de 1 engrenant avec R’. (ce secteur n’est denté que sur 25°) • L’extrémité de l’arbre de sortie du module précédent (moteur/roue et vis sans fin). • La position du levier permettant la liaison avec le câble du frein à disque. • L’encombrement maximum du carter permettant son intégration dans le carénage. Les différentes solutions constructives à dessiner sont spécifiées dans le diagramme FAST fourni Document 10 et Document 11. T18/20 Consignes spécifiques aux travaux g"
+     }
+    ]
+   }
+  ]
+ }
+}

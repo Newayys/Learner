@@ -1,0 +1,366 @@
+{
+ "concours": "Banque PT",
+ "filiere": "SIB",
+ "date": "2005",
+ "file": "BPT_SIB_2005.pdf",
+ "status": 200,
+ "source": "banquept.fr, rubrique « Annales d'annales » (rubrique23.html)",
+ "epreuve_originale": "SI B",
+ "classification": "automatique par mots-clés (Claude, oct. 2026) — moins fine que celle des sujets récents",
+ "decoupage_questions": "cadreR",
+ "texte_ocr": true,
+ "pages_sujet": 36,
+ "pages_total": 36,
+ "data": {
+  "parties": [
+   {
+    "titre_partie": "C - Etude de conception en construction mécanique",
+    "questions": [
+     {
+      "numero": "R1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 8,
+      "tags": [
+       "ressort"
+      ],
+      "texte": "de Ia notice 1/3. Représenter Ia lisse 1, le levier de lisse 11, la bielle {13, 12, 12’, 15}, le levier moteur 10, et les ressorts 8, dans la position « lisse levée » correspondant a un débattement de 88°. Q2 __inscrire votre réponse dans le"
+     },
+     {
+      "numero": "R2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 8,
+      "tags": [],
+      "texte": "Pour quelle raison n'est il pas envisagé un débattement maximal de 90° ? C.2.1.2.- Analyse du réglage de I’horizontalité de la lisse Données (se reporter aux figures 11, page D 2/9, et 17, page D 7/9) : Sur la figure 11 est représenté le schéma cinématique du mécanisme en phase de réglage. La figure 17 précise les caractéristiques principales de la téte de bielle 12. Mode opératoire de l’opération de réglage : En imposant une rotation au corps de bielle 13 dans le sens positif (sens de la fleche sur la figure 11), la lisse doit se lever. Q3 Inscrire votre réponse dans le"
+     },
+     {
+      "numero": "R3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Torseur cinématique",
+        "semestre": "S1"
+       }
+      ],
+      "page": 8,
+      "tags": [
+       "liaison hélicoïdale / vis-écrou",
+       "embrayage / frein"
+      ],
+      "texte": "Quels doivent étre les sens des filetages des tétes de bielle 12 et 12’? C.2.1.3.- | Analyse de mobilité Hypothéses (se reporter a la figure 11, page D 2/9) : En fonctionnement, le réglage d’horizontalité de la lisse ayant été réalisé, chaque téte de bielle 42 est immobilisée par rapport a la bielle de lisse 13 grace au serrage d'un contre-écrou de freinage 15. Toutes les liaisons sont parfaites. Q4 inscrire votre réponse dans le"
+     },
+     {
+      "numero": "R5",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Hyperstatisme",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Résistance des matériaux : Torseur de cohésion",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       }
+      ],
+      "page": 8,
+      "tags": [],
+      "texte": "Vaide d’une analyse dont il n’est pas demandé le détail, donner, pour cette modélisation : ¢ le nombre total d’inconnues statiques de liaisons ¢ le nombre total de mobilités et commenter chacune d’elles e le degré d’hyperstatisme du mécanisme C.2.2. ETUDE DU LEVIER DE LISSE Hypothéses (se reporter aux figures 12, page D 3/9) : Liaxe x passe par la ligne moyenne de la poutre DC, I'axe y est l'axe de rotation de la lisse. T7N7 Tournez la page S.V.P. D21S Données (se reporter aux figures 12 et 13 , page D 3/9) : L’ordre de grandeur du diametre de l'alésage coté lisse est de 50 mm (en D). L’ordre de grandeur du diamétre de l'alésage coté bielle est de 25 mm (en C). Les diagrammes de la figure 12, page D3/9, représentent les composantes du torseur de cohésion entre D et C. Pour chacune des composantes, le levier de lisse a été placé dans le cas le plus défavorable. Les résultats sont donnés en valeur absolue. Q6 inscrire votre réponse dans le"
+     },
+     {
+      "numero": "R6",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       }
+      ],
+      "page": 9,
+      "tags": [],
+      "texte": "Pour chacun des diagrammes de Ia figue 12, indiquer sur le document réponse, cadre R6, la nature des différentes sollicitations dans le levier de lisse 11 (traction, flexion, we) Q7 inscrire votre réponse dans le"
+     },
+     {
+      "numero": "R7",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 9,
+      "tags": [
+       "roulements"
+      ],
+      "texte": "Parmi les propositions de forme de levier de lisse 11 de la figure 13, choisir la forme de levier la mieux adaptée (en fonction des sollicitations). Justifier votre réponse. C.2.3. Choix multicritére du diamétre de l’arbre de lisse 5 L’objectif de cette partie est de déterminer le diamétre minimal de l'arbre de lisse 5. Dans cette étude simplifiée, ce diamétre minimal est conditionné par sa résistance mécanique aux différentes sollicitations auxquelles il est soumis, ainsi que par le diamétre minimal des roulements qui le guident. C.2.3.1.- Détermination des actions de liaisons Données (se reporter a la figure 14, document 4, page D 4/9) : Sur la figure 14 est représentée la modélisation de l'ensemble des piéces S = {4, 2, 5, 11} dans la position étudiée, la modélisation de ses guidages, ainsi que les efforts auxquels il est soumis. Les différentes valeurs des dimensions et des intensités des efforts ont été volontairement approchées par des valeurs facilitant les applications numériques. Hypothéses (se reporter a la figure 14, document 4, page D 4/9) : La position étudiée correspond a une barriére en porte a faux de 3 m, en position horizontale, et a l'extrémité d"
+     },
+     {
+      "numero": "R8",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       }
+      ],
+      "page": 10,
+      "tags": [],
+      "texte": "(ne pas faire figurer les calculs sur le document réponse). 1) Donner les expressions particuliéres des torseurs des actions mécaniques aux points F et H, des paliers 4 et 6, sur S. 2) Calculer les valeurs des actions mécaniques au point H, de 12 sur S, et de U sur S, et compléter le document réponse. 3) Déterminer les valeurs des actions mécaniques aux points F et H, des paliers 4 et 6, sur S, et compléter le document réponse. C.2.3.2.- | Choix du type de palier Données (se reporter a la figure 15, document 5 page D 5/9, et a la figure 16, document 6, page D 6/9) : Pour le guidage de l’arbre de lisse par rapport au bati, des paliers appliques RME ou RMEY ont été retenus. Q39 inscrire votre réponse dans le"
+     },
+     {
+      "numero": "R9",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 10,
+      "tags": [
+       "roulements"
+      ],
+      "texte": "de Ia notice 1/3. Citer les critéres principaux qui ont conduit a ce choix de type de palier. C.2.3.3.- | Choix du diamétre minimal du roulement Données (se reporter a la figure 14, document 4, page D 4/9, aux figures 15 et 16 des documents D 5/9 et D 6/9, ainsi qu’aux extraits du cahier de charges page T 4/17) : Quels que soient les résultats précédents, et afin de faciliter les applications numériques, nous prendrons pour la suite de cette partie (forces en [kN]) : -7\\0 2/0 fess }= 25 |0 ‘Moo }= -710 0/9, 01%, Q10 inscrire votre réponse dans le"
+     },
+     {
+      "numero": "R10",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       }
+      ],
+      "page": 10,
+      "tags": [
+       "roulements"
+      ],
+      "texte": "1) D’une maniére générale, hormis les critéres d’encombrement, citer les deux critéres principaux qui interviennent dans le choix du diamétre d’un roulement, quel que soit son type. 2) Dans notre cas d’étude, parmi ces deux critéres, quel est le plus restrictif ? Justifier votre réponse. 3) Quel est le palier le plus sollicité, et quel est approximativement I’effort radial auquel il est soumis ? 4) En déduire le diamétre nominal minimal de ce palier. T9N7 Tournez la page S.V.P. D21S C.2.3.4.- Résistance de l’arbre de lisse 5 Données (se reporter a la figure 14, document 4, page D 4/9) : Le matériau de l'arbre 5: C 45 Résistance a la rupture : 650 MPa < Rr < 800 MPa Résistance élastique a l’extension : Re = 430 MPa Résistance élastique au glissement : Reg = 240 MPa Coefficient de sécurité : s = 1,5 Hypothéses : Les efforts appliqués a l’arbre sont ceux de la position étudiée. Dans lobjectif de simplifier l'étude (hypothése trés simplificatrice), seule la sollicitation de torsion sera prise en compte. Le diamétre de l’arbre est constant sur toute sa longueur. Toutes les liaisons sont parfaites. Les masses des différentes piéces sont négligées. QT71 _inscrire votre r"
+     },
+     {
+      "numero": "R11",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Matériaux : Choix",
+        "semestre": "S3"
+       }
+      ],
+      "page": 11,
+      "tags": [],
+      "texte": "1) Donner la signification de la désignation de ce matériau. 2) A quel(s) usage(s) est destiné généralement ce matériau 7? Q12_inscrire votre réponse dans le"
+     },
+     {
+      "numero": "R12",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Résistance des matériaux : Torseur de cohésion",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 11,
+      "tags": [],
+      "texte": "1) Donner Ia condition de résistance de I’arbre, en fonction du moment de torsion et des caractéristiques de la section droite. 2) En déduire I’expression du diamétre minimal de l’arbre Gnin-tors- 3) Déterminer I’expression du moment de torsion en un point situé entre D et I. 4) Parmi les allures des diagrammes des moments de torsion proposés sur le document réponse, entourer celui qui correspond a notre cas d’étude. 5) En déduire le diamétre minimal de l’arbre imposé par cette sollicitation. C.2.3.5.- Choix multicritére du diamétre minimal de l’arbre 5 En considérant les résultats et les hypothéses associées aux questions Q10-4) et Q12-5) qui ont permis de déterminer le diamétre nominal minimal du palier le plus sollicité, ainsi que le diamétre minimal de l’'arbre imposé par la sollicitation de torsion : Q13 _ Inscrire votre réponse dans le"
+     },
+     {
+      "numero": "R13",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
+        "semestre": "S3"
+       }
+      ],
+      "page": 11,
+      "tags": [
+       "soudage / mécano-soudé"
+      ],
+      "texte": "Quel doit étre le diamétre minimal de l’arbre de lisse 5 ? Justifier. T 10/17 D21S C.2.4. Etude de Ia fabrication du fourreau de lisse 2 Cette partie est consacrée a |'étude de la fabrication d'une série de 10 piéces prototypes du fourreau de lisse 2, avant le lancement d’une série de piéces plus importante mettant éventuellement en oeuvre d'autres procédés de fabrication. Données (se reporter a la figure 19, document 8, page D 8/9) : Le document 8 page D 8/9 représente le dessin de définition du produit fini relatif au fourreau de lisse 2 dans sa version prototype. De maniére plus précise, ce dessin donne une définition compléte des formes et dimensions, et une définition partielle de leurs tolérances. Cette piéce est mécano-soudée, c'est-a-dire qu'elle est réalisée par assemblage permanent de produits courants de construction mécanique (tubes, profilés, plats...) Nombre de piéces a réaliser : 10 Les tubes 1 et 2 sont livrés dans des barres de 6m. C.2.4.1. - Analyse chronologique de la fabrication Cc. Cc. Q141 inscrire votre réponse dans le"
+     },
+     {
+      "numero": "R14",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
+        "semestre": "S3"
+       }
+      ],
+      "page": 12,
+      "tags": [
+       "soudage / mécano-soudé"
+      ],
+      "texte": "1) Esquisser a main levée le tube 2 avant l’opération de soudage. 2) Enoncer les différentes activités successives permettant la fabrication du fourreau de lisse. 2.4.2. - Propositions d’améliorations de la rigidité de la piéce Q15 inscrire votre réponse dans le"
+     },
+     {
+      "numero": "R15",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
+        "semestre": "S3"
+       }
+      ],
+      "page": 12,
+      "tags": [
+       "soudage / mécano-soudé"
+      ],
+      "texte": "1) Sans modifier les dimensions des tubes, proposer, sur la figure du cadre R15, des améliorations de conception permettant d’augmenter la rigidité du fourreau de lisse. 2) Esquisser I’allure du fourreau de lisse, aprés les opérations de soudage, en exagérant les déformations dues a ce procédé et a ces modifications. 2.4.3. - Opération de pergage Q16 inscrire votre réponse dans le"
+     },
+     {
+      "numero": "R16",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       }
+      ],
+      "page": 12,
+      "tags": [],
+      "texte": "1) Pour l’opération de pergage vertical des 4 trous 2 18 H13, schématiser votre proposition de mise en position et de maintien en position. La représentation symbolique rappelée sur la figure 3, ci-aprés, sera utilisée. 2) Dans le cas particulier du fourreau de lisse, pour quelle raison l’opération de pergage direct des 4 trous 2 18 H13 est-elle délicate ? 3) Quelles sont les solutions pour remédier a ce probleme ? T1117 Tournez la page S.V.P. D21S Mise en position : appui principal Figure 3 - Symboles de schématisation pour (=) <q & outillages de mise et de maintien en position. Maintien en position : ++ C.2.5. Modeleur volumique Cette partie est consacrée a la modélisation de la géométrie du fourreau de lisse 2 a l'aide d'un modeleur volumique. II s’agit de préparer la saisie des informations nécessaires a la définition géométrique de cette piéce. La démarche de création de ce modéle est imposée. Celle-ci ne prétend aucunement étre la meilleure, elle fait simplement appel aux fonctions de base communes a tous les modeleurs volumiques. Données (se reporter a la figure 20, document 9, page D 9/9) : Le document 9 liste et décrit les seules fonctions de construction"
+     },
+     {
+      "numero": "R17",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Précision",
+        "semestre": "S2"
+       }
+      ],
+      "page": 13,
+      "tags": [
+       "tolérances géométriques",
+       "dessin / conception sur calque"
+      ],
+      "texte": "(recto verso) de Ia notice 2/3. 1) Compléter le tableau des définitions des fonctions utilisées en précisant : - Lenom dela fonction. - Le type de condition limite. Sur le croquis préciser : - Le plan ou Ia surface plane d’esquisse. - L’esquisse. - Les dimensions relatives a la fonction. L’utilisation de différentes couleurs est recommandée. C.2.6. Caractérisation de solutions techniques C.2.6.1. - Etude de solutions techniques pour réaliser une liaison encastrement Le mécanisme étudié comporte plusieurs sous-ensembles de piéces en liaison encastrement, et il existe un trés grand nombre de solutions techniques pour réaliser ces liaisons. Une liaison encastrement peut étre caractérisée par de nombreux critéres : démontabilité, forme des surfaces prépondérantes, type de maintien en position, possibilité de réglage, précision de la mise en position, cott relatif, durée de vie, encombrement, résistance... Afin de répondre au mieux aux spécifications générales des liaisons, il est judicieux de caractériser les solutions techniques permettant de réaliser ce type de liaison. représentent qu’une partie des familles de solutions et ne restreignent absolument pas le AVERTISSEMENT : les solut"
+     },
+     {
+      "numero": "R18",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 13,
+      "tags": [
+       "dessin / conception sur calque"
+      ],
+      "texte": "(recto verso) de la notice 3/3. Compléter les cases non grisées dans les tableaux de caractérisation partielle de solutions techniques évoquées (croquis a main levée). 712/17 D21S C.2.7. ETUDE DE LA BIELLE C.2.7.1. - REGLAGE DE LA POSITION DE LALISSE : Il est nécessaire de pouvoir régler la position horizontale de la lisse afin de s’adapter aux irrégularités du terrain d'implantation de la barriére. On désire pouvoir modifier la position angulaire de la lisse par rapport a I'horizontale. Ce réglage est obtenu par I’allongement ou le raccourcissement de la bielle qui relie le levier moteur au levier de lisse. La bielle est composée de deux tétes de bielle 12 et 12’, deux contre-écrous 15 et un corps 13. Les tétes de bielle ainsi que les contre-écrous sont normalisés. Données (se reporter aux figures 17 et 18, document 7, page D 7/9): - Les dimensions des piéces 12, 12’ et 15 sont données sur les figures 17 et 18. - La position de référence est la position pour laquelle la lisse est perpendiculaire a son bati. - Dans cette position de référence, la longueur AB de la bielle est de 141 mm, ce qui correspond a la longueur qu’elle a, au milieu de la plage de réglage. - Pour pouvoir résis"
+     },
+     {
+      "numero": "R19",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
+        "semestre": "S1"
+       }
+      ],
+      "page": 14,
+      "tags": [],
+      "texte": "Ia notice 3/3. 1) En tenant compte des données précédentes, quelle est la course Cr de réglage de chacune des rotules. 2) En déduire les longueurs maximale et minimale de Ia bielle. Notation : On appellera (voir figure 4 ci-dessous) - Qyi¢ la course de réglage angulaire de Ia lisse, - Qijscctay ' Course de réglage angulaire de Ia lisse vers le haut, - Qijssemas '@ Course de réglage angulaire de Ia lisse vers le bas. bisse 1 — 4] 1 Figure 4- Définition des _=-— Clb angles de réglages. O= i aime TE Q20 inscrire votre réponse dans le"
+     },
+     {
+      "numero": "R20",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Capteurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 14,
+      "tags": [
+       "dessin / conception sur calque"
+      ],
+      "texte": "la notice 3/3. 1) Tracer sur la figure représentant la lisse en position de référence pour un réglage nominal, les positions extrémes de celle-ci, suite au réglage de la longueur de Ia bielle. 2) En déduire la course de réglage angulaire ,,,, de la lisse. Indiquer également la valeur de la course du réglage angulaire vers le haut Qjisceriay @t VETS 1€ DAS Cl, icce55+ Faire apparaitre ces angles sur la figure. T 13/17 Tournez la page S.V.P. D21S C.2.7.2.- | CONCEPTION DU CORPS DE LA BIELLE La forme extérieure du corps de la bielle est un hexagone, identique au contre écrou. Données : - Le diamétre maximal pour un chambrage a l’intérieur du corps de la bielle est de 15mm. Q27 inscrire votre réponse dans le Calque 1 (voir figure 5 ci-dessous) 1) Compléter le dessin d’ensemble (vue de face et vue de dessus en coupe A-A) de la bielle en position de référence en répartissant équitablement les possibilités de réglage. Penser aux formes nécessaires a la réalisation de la piéce. 2) Mesurer la longueur Lc du corps de bielle 13 et noter sa valeur dans le cadre réponse. Figure 5 - Mise en page du calque n°1 pré imprimé fourni. C.2.7.3. - CHOIX DE LA MATIERE DU CORPS DE LA BIELLE. Données : - L"
+     },
+     {
+      "numero": "R22",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       }
+      ],
+      "page": 15,
+      "tags": [
+       "ressort",
+       "dessin / conception sur calque"
+      ],
+      "texte": "1) Exprimer la valeur de la surface Sin de la section minimale du corps en fonction de a, et de d, , subissant les sollicitations. Faire une figure explicative. 2) En déduire I’expression de la contrainte longitudinale maximale O,,,,, . 3) Donner I’expression de la valeur minimale de résistance élastique par extension Remin- 4) Calculer la valeur approximative de Remin- 5) Pour les matériaux suivants, lesquels pourraient convenir : S335 ; S195 ; C45 et £335 ? Justifier vos réponses en complétant le tableau. T 14/17 D21S C.3 - Dessin d’étude de construction mécanique C.3.1 5 Présentation des supports de travail Pour cette partie de I’étude, il vous est demandé de définir plusieurs sous-ensembles du mécanisme sur les deux calques format A3 fournis avec le sujet. Les éléments pré imprimés sur ces calques sont destinés 4 faciliter la mise en place des différents composants. Le calque n°2, de format A3 horizontal, pré imprimé, fourni avec le sujet, est destiné a l'étude du guidage de l’arbre de lisse 5, de sa liaison avec le levier de lisse 11, et de la liaison entre les ressorts 8, la téte de bielle 12 et le levier de lisse 11. Les éléments fournis pré imprimés sont d"
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,1793 @@
+
+===== page 1 =====
+                        Épreuve de Sciences Industrielles A
+
+                                            Durée 5 h
+
+
+Si, au cours de l’épreuve, un candidat repère ce qui lui semble être une erreur d’énoncé,
+d’une part il le signale au chef de salle, d’autre part il le signale sur sa copie et poursuit sa
+composition en indiquant les raisons des initiatives qu’il est amené à prendre.
+
+                                                                                                034
+                        L’usage de calculatrices est interdit.
+                           Aucun document n’est autorisé
+
+
+Composition du sujet :
+
+       1 cahier de 18 pages de texte numérotées de 1 à 18
+       1 cahier réponse de 22 pages à rendre à la fin de l’épreuve
+
+Gestion du temps, structure de l’épreuve :
+
+L’épreuve comporte trois parties indépendantes :
+
+   A – Capacité globale, rayon d’action,
+   B – Fonction Suivre un profil,
+   C – Fonction Permettre un retour automatique à la borne de recharge.
+
+En admettant une durée de 30 min pour la lecture et l’assimilation du sujet, il est vivement
+conseillé de consacrer environ 30 min à la partie A, 2h30 à la partie B et 1h30 à la
+partie C.
+
+Il est demandé au candidat de formuler toutes les hypothèses qu'il jugera nécessaires
+pour répondre aux questions posées.
+
+La présentation, la lisibilité, l’orthographe, la qualité de la rédaction, la clarté et la précision
+des raisonnements entreront pour une part importante dans l’appréciation des copies. En
+particulier, les résultats non justifiés ne seront pas pris en compte. Les candidats sont
+invités à encadrer les résultats de leurs calculs
+
+
+
+
+                                                                                                       A
+
+                                                                           Tournez la page S.V.P.
+
+
+===== page 2 =====
+[OCR] Protection
+
+Ce sujet utilise comme support d’étude un robot aspirateur autonome. Certaines
+informations étant confidentielles la marque, nom et référence produit n’apparaitront pas
+dans ce sujet.
+
+Chaque photographie et élément de texte extrait de leurs documents dans le présent sujet
+restent la propriété de la société qui a développé le produit. L’autorisation d'utilisation de
+ces informations n’est valable que pour ce sujet de concours.
+
+Notations
+
+= La transformée de LAPLACE d'une fonction f de la variable temporelle continue du
+temps t est notée F de la variable complexe p associée a la transformée.
+
+= Pour un systéme de fonction de transfert F, la reponse harmonique est notée F(ja). Le
+module de F(a) est noté |F(ja)| et son argument arg(F(ja)).
+
+= Le torseur cinématique du mouvement d’un solide j par rapport a un solide j sera noté
+Vi.
+
+A pa Q,,
+Les éléments de réduction au point A de ce torseur s’écriront V,, = {f ne
+a
+
+‘Aci! j
+« Le torseur des actions mécaniques (transmissibles éventuellement par une liaison
+quelconque q) exercées par le solide j sur le solide et sera noté 7},, .
+
+My
+
+Les éléments de réduction au point A de ce torseur s’écriront 7;,, = { Fa :
+M5. ja
+= Le torseur dynamique d’un ensemble matériel S en mouvement par rapport a un
+référentiel R sera noté A,,,.
+
+Les éléments de réduction au point A de ce torseur s’écriront A,,,= {pe :
+A
+
+4eS1R
+
+
+===== page 3 =====
+[OCR] PRESENTATION
+
+Le support sujet de cette étude est un robot aspirateur autonome. La société qui produit
+ce produit congoit et réalise des équipements autonomes pour l'industrie (environnement
+difficile...), pour 'armée et les services gouvernementaux (déminage...) et le secteur public
+(nettoyage...).
+
+Jusqu’au début des années 2000 les seuls robots autonomes développés pour le secteur
+public étaient les robots de nettoyage de piscines, donc dédiés a un marché restreint et
+comportant une interactivité avec leur milieu trés limitée.
+
+La différence entre ce type de produits (Figure 1) et les équipements classiques d’aide
+au nettoyage (Figure 2) réside dans le fait qu’il n’est pas une assistance ni une prolongation de
+lactiviteé humaine mais un remplacement pur et simple de lopérateur avec une réalisation
+autonome de la tache dévolue.
+
+Figure 1 : Robot aspirateur autonome Figure 2 : Aspirateur classique
+
+Le systéme étant autonome il dispose d’un systéme d’alimentation en énergie embarqué.
+
+La faible capacité énergétique résultant de cet emport ne permet pas d’obtenir les
+mémes niveaux d’aspiration qu’un aspirateur classique. Cette limitation est compensée par un
+systéme de brossage/aspiration.
+
+Afin de pouvoir réaliser le nettoyage de maniére autonome, le robot dispose aussi de tout un
+équipage de capteurs lui permettant de réaliser sa mission. Le robot, objet de l'étude, est
+présenté sur les Figure 3 a Figure 6.
+
+Figure 3 : Vue d’artiste
+
+Figure 4 : Vue de dessus
+
+1118 Présentation Tournez la page S.V.P.
+
+
+===== page 4 =====
+                                                                                      Connecteurs de recharge
+
+
+
+
+                    Brosse d’angle
+
+
+
+
+                                                                                      Roue folle
+
+
+                 Module roue droite                                                   Module roue gauche
+
+
+
+
+                                                                                      Capteur de poussière
+
+
+
+
+                                                  Figure 5 : Vue de dessous
+
+
+
+
+                                                                                                           Filtre
+
+
+
+
+Brosse d’angle                                                 Système d’aspiration
+                                      Double brosse centrale
+
+
+                               Figure 6 : Vue en coupe, système de brossage/aspiration
+
+            Dans cette étude on se propose :
+           de vérifier les données générales fournies par le constructeur au client,
+           d'étudier le suivi d’un profil de déplacement,
+           d'analyser le système de guidage automatique vers la borne de rechargement.
+
+
+
+
+   ____________________________________________________________________________
+                                 2/18 Présentation
+
+
+===== page 5 =====
+PARTIE A - CAPACITE GLOBALE, RAYON D’ACTION
+
+       Cet aspirateur autonome possède certaines caractéristiques fournies par le constructeur
+aux clients potentiels. Celles-ci sont présentées dans le Tableau 1 ci-dessous.
+                                       Tableau 1 : Extrait du CdCF
+   Fonctions techniques             Critères d'appréciation         Niveau            Variabilité
+  PERMETTRE UN NETTOYAGE                                      Temps d’utilisation :
+                                                                                          Tu
+ CONTINU PENDANT UNE DURÉE        ¤ Autonomie                    Tu = 120 min
+  MINIMALE SUR UNE SURFACE        ¤ Surface                    Surface nettoyée :
+                                                                                         S
+          MINIMALE                                                 S = 80 m²
+                                                              Temps de recharge
+  ASSURER LA DISPONIBILITÉ        ¤ Durée de recharge                                   3h
+                                                                    Tr = 3 h
+
+Données techniques du robot :
+   Vitesse de déplacement moyenne du robot Vrbt,avg = 4 m/min.
+   Vitesse de déplacement maximale du robot Vrbt,max = 18 m/min.
+   Alimentation par une batterie d’accumulateurs Ni-MH de 14,4 V/3300 mAh.
+
+
+
+
+      Motorisation des roues :
+                                       Le robot comporte 2 ensembles moteur/roue indépendants.
+                                       Pour chaque ensemble moteur/roue :
+                                       Diamètre roue D = 60 mm
+                                       Vitesse de rotation moteur sous 14,4 V = 8000 tr/min
+                                       Réducteur multi étage rapport de réduction k = 80
+                                       Courant moyen consommé en fonctionnement par roue
+                                       Ir,avg = 500 mA.
+
+                                       Le revêtement des roues assure une transmission parfaite
+                                       du couple moteur sur le sol.
+
+
+      Motorisation des brosses :
+                                        Le courant moyen consommé par la motorisation des
+                                        brosses est évalué à Ibr,avg = 150 mA.
+
+
+
+
+      Motorisation du balai :
+                                        Le courant moyen consommé par la motorisation du balai
+                                        est évalué à Iba,avg = 70 mA.
+
+
+____________________________________________________________________________
+                 3/18 Partie A : Capacité globale, rayon d’action
+                                                                Tournez la page S.V.P.
+
+
+===== page 6 =====
+[OCR] = Le courant moyen consommé par |’électronique embarquée (microcontréleur, pilotage
+des variateurs, capteurs) est évalué a lein.avg = 130 mA.
+
+= La largeur de nettoyage vaut Lyoie = 300 mm.
+
+= Le rendement surface nettoyée/surface parcourue vaut Nsiisp = 66 %.
+
+= Dock de rechargement
+
+Station de rechargement pour batterie
+
+d’accumulateur 14,4 V.
+
+Courant de charge Icn = 1,5 A.
+
+Question 1: Calculer le courant moyen total |; consommé par le robot. En déduire la
+capacité en mAh nécessaire pour alimenter le robot pendant le temps d'utilisation Tu
+fourni par le constructeur.
+
+Question 2: Calculer la vitesse approximative de rotation des moteurs Nmot en tr/min
+pour un déplacement du robot Vittmax = 18 m/min en ligne droite.
+
+Question3: Calculer la surface nettoyée pendant Tu a la vitesse moyenne du robot
+Vibtavg = 4 m/min.
+
+Question4: Calculer le temps de recharge complet si la charge résiduelle de la batterie
+d’accumulateurs est de 10 %. On estime le rendement de la charge a 80 %.
+
+Question5: A lanalyse des résultats obtenus aux questions précédentes les
+caractéristiques de ce robot sont-elles respectées ?
+
+Dans une habitation adaptée aux personnes a mobilité réduite, les rampes d'accés
+doivent avoir une pente inférieure ou égale a 8% (voir figure sur cahier-réponse). Le robot doit
+pouvoir remonter ces pentes sans aucune difficulté.
+
+Question 6: En supposant que ni la roue folle ni les brosses n'ont d'action mécanique
+significative freinant le déplacement du robot, écrire le bilan des forces extérieures
+s'exercant sur celui-ci lorsqu'il démarre sur une rampe de pente maximale.
+
+Question7: En appliquant le Principe Fondamental de la Dynamique sur le robot,
+déterminer la valeur du couple nécessaire sur chacune des roues pour lui permettre
+d'atteindre la vitesse maximale Viotmax = 18 m/min en ligne droite, en 500 ms.
+
+On supposera ici que le couple fourni sur l'arbre moteur en entrée de réducteur est
+constant et se déduit du point de fonctionnement nominal (Prom = 10 W ; Nnom = 8000 tr/min ;
+rendement du réducteur évalué a 60%).
+
+Question 8: Déterminer le couple a la roue disponible et conclure sur les capacités de
+ce robot a remonter cette pente.
+
+4118 Partie A : Capacité globale, rayon d’action
+
+
+===== page 7 =====
+[OCR] PARTIE B - ANALYSE DE LA FONCTION suivre UN PROFIL
+
+Dans le cas du nettoyage d’une piéce ou d'une zone considérée comme particulierement
+sale, le robot posséde un mode SPOT. Ce mode consiste a faire réaliser au robot un profil de
+déplacement centré sur la zone a nettoyer (Cf. Figure 7).
+
+Figure 7 : Mode SPOT
+
+La trajectoire envisagée permet un déplacement en "forme de spirales". Composée
+d'arcs de cercle, cette trajectoire comporte 2 parties symétriques conduisant le robot a une
+position finale (point O;) décalée de la position initiale (point Oj) de la largeur entre roue (Lyoie) et
+orientée a 180°. La répétition de ce programme de nettoyage replace le robot a sa position
+initiale.
+
+Tableau 2 : Extrait du CdCF
+
+Fonctions techniques Critéres d'appréciation Niveau Variabilité
+surface
+ieee Ties UN NETO AGE Pee oe : | 22 largeurs
+4 » Surf 2/2
+CONTINU AUTOUR D'UN POINT Surface R=2largeurs de | de brosses
+DONNE
+brosse
+PERMETTRE UNE VITESSE x Vitesse linéaire du ee : a
+NOMINALE DE NETTOYAGE centre du robot G Vittava = 4 m/min ae
+NETTOYER UNE SURFACE SANS _ | ® Présence de zones Surface non nettoyée 0
+OUBLI non nettoyées San = 0 m?
+ASSURER UN SUIVI DE Ee iLomps det bones @
+pigeons une variation en échelon trsy% = 200 ms +10 %
+de la trajectoire
+ORE ONE eee Tle alee. 12 Minimisation du Nombre de
+eons Goes nombre de capteurs capteurs < 2 o
+CAPTEURS PAR ROUE H P
+
+Nous allons étudier les vitesses a commander sur chaque roue ainsi que les cycles a
+
+imposer pour respecter les caractéristiques techniques demandées (Tableau 2). Dans un
+premier temps, nous étudierons un profil de trajectoire et nous chercherons les caractéristiques
+cinématiques de chaque roue motrice (de centres Gg et Gg) pour garantir le suivi de la
+trajectoire du centre G du robot. Puis, nous vérifierons le cahier des charges concernant la
+surface nettoyée. Enfin nous nous intéresserons a la commande des moteurs d'avance.
+
+5/18 Partie B : Suivre un profil
+Tournez la page S.V.P.
+
+
+===== page 8 =====
+[OCR] B.1 Trajectoire pour le mode SPOT : vitesses d'avances des roues motrices
+
+La trajectoire représentée est constituée de quarts de cercle devant permettre un
+balayage total de la surface par le robot. Nous allons décrire chaque arc de cercle sur la
+premiére moitié de trajectoire, l'autre moitié étant le symétrique de la premiére. La dimension de
+référence étant la largeur de balayage du robot (Lyoie), nous allons mesurer les rayons des arcs
+en fraction de cette longueur. On distingue 6 arcs de cercles pour décrire le déplacement du
+centre G du robot. Pour des raisons de clarté, on dessinera uniquement le centre du robot G et
+les centres des roues motrices (Gg et Gg).
+
+Tableau 3 : Arcs de cercle décrivant la demi-trajectoire du point G
+
+Position initiale : G en O;
+
+Quart de cercle Q1 | entre O; et Gy : rayon Lyie / 4 - Le robot pivote d'un angle égal a x/2
+Quart de cercle Q2 | entre G, et G2 : rayon Lvie / 4 - Le robot pivote d'un angle égal a 1/2
+Quart de cercle Q3 | entre G2 et G3 : rayon Lyoie / 2 - Le robot pivote d'un angle égal a 2/2
+Quart de cercle Q4 | entre G3 et G4 : rayon Lvoie / 2 - Le robot pivote d'un angle égal a 1/2
+Quart de cercle Q5 | entre G4 et Gs : rayon 3.Lvoie / 4 - Le robot pivote d'un angle égal a 7/2
+Quart de cercle Q6 | entre Gs et Gg : rayon Lyoie - Le robot pivote d'un angle égal a 7/2
+
+cat iG. @
+
+Figure 8 : Mode SPOT — demi-trajectoire du centre G du robot
+
+6/18 Partie B : Suivre un profil
+
+
+===== page 9 =====
+      On suppose que les trajectoires des centres des roues motrices sont également des arcs
+de cercle. Cela conduit à imposer des vitesses constantes sur chaque roue motrice.
+
+   Question 9 : Pour chaque arc de cercle Qi intermédiaire de la demi-trajectoire, dessiner
+     la position finale du robot (matérialisé par son centre G et les centres de ses roues
+     motrices Gg et Gd comme dans la Figure 8) et les coordonnées (en mm) du CIR (Ci) du
+     mouvement dans le repère  g , associé au sol de la pièce à nettoyer.
+
+   Question 10 : Pour chaque arc de cercle Qi intermédiaire de la demi-trajectoire, calculer
+                                                                                            
+     les modules des vitesses linéaires des centres de roues motrices Gg et Gd : VGd Robot /  g
+                                                                     
+     et VGg Robot /  g pour que la vitesse du centre G soit égale à VGRobot /  g 4 m/min.
+
+   Question 11 : Dessiner et hachurer la zone nettoyée par le robot.
+
+   Question 12 : En déduire si la zone nettoyée par le robot est sans trou.
+
+
+B.2 Modélisation de la commande en boucle fermée de vitesse d’une roue
+
+      Une analyse harmonique de la boucle de vitesse (ȍmot en rad/s) du moteur d’une roue
+soumis à une tension de commande (u en V) dans le plan de Bode a donné le diagramme
+asymptotique en gain suivant (Cf. Figure 9):
+
+
+
+                                                |ȍmot(j.Ȧ)|
+                           46dB                  |U(j.Ȧ)|
+  40dB
+
+
+  20dB
+
+
+   0dB
+
+
+
+
+                                                                                             Ȧ
+           -1               0               1                 2               3             4
+                 Figure 9 : Diagramme asymptotique en gain dans le plan de Bode
+                                    de la boucle fermée de vitesse
+                                                                        : mot ( p )
+   Question 13 : Déterminer numériquement la fonction de transfert              donnant la
+                                                                         U( p )
+     vitesse de rotation du moteur ȍmot(t) (rad/s) en fonction de la commande fournie par le
+     calculateur u(t) (V).
+____________________________________________________________________________
+                             7/18 Partie B : Suivre un profil
+                                                                       Tournez la page S.V.P.
+
+
+===== page 10 =====
+   Question 14 : Déterminer l’original (équation décrivant l’évolution de la variable
+     considérée dans le domaine temporel issue de l’analyse dans le plan de LAPLACE) de
+     la vitesse de rotation du moteur Nmot(t) en tr/min en réponse à un échelon de commande
+     u(t) = 2,5 V. Tracer l’allure de la réponse.
+
+B.3 Commande en position d’une roue
+                                              : mot ( p )K:
+      Dans la suite de ce sujet, on posera
+                                              U( p )  1  W : .p
+      L’architecture de la boucle de position est donnée ci-dessous :
+
+                  Correcteur de position
+
+șref (p)                              U(p)     Kȍ           ȍmot (p)         ș mot (p)                  șr (p)
+                            C(p)
+                                             1+ Wȍ .p
+
+             ș capt(p)
+                         Kpos =
+
+                     Capteur de position
+                         Figure 10 : Architecture de la boucle de position
+
+      On note :      ȍmot la vitesse de rotation du moteur d’une roue (rad/s).
+                     șmot la position angulaire du moteur d’une roue (rad).
+                     șcapt la position angulaire fournie en sortie du capteur de position (tops).
+                     șr la position angulaire d’une roue (rad).
+
+   Question 15 : Le capteur de position intégré en bout d’arbre du moteur fourni 3 tops/tour.
+     Le réducteur reliant la roue au moteur à un rapport de réduction de k = 80. Déterminer le
+     contenu des différentes transmittances sous forme littérale et numérique (pour la forme
+     numérique on ne réalisera pas les calculs).
+
+      Pour C(p) = Kp
+                                                                                          Tr ( p)
+   Question 16 : Déterminer sous forme littérale et canonique la transmittance                      .
+                                                                                         Tref ( p )
+
+                                                    K
+      Soit la forme canonique d’un 2nd ordre :
+                                                2.m       p2
+                                             1      .p  2
+                                                 Zn      Zn
+      Avec m le coefficient d’amortissement et Ȧn la pulsation naturelle.
+
+   Question 17 : Pour un coefficient d’amortissement strictement inférieur à 1, déterminer
+                                                                  T ( p)
+     sous forme littérale les pôles ps1 et ps2 de la transmittance mot       en fonction de m et
+                                                                  Tref ( p )
+     Ȧ n.
+
+   Question 18 : Déterminer la valeur du coefficient d’amortissement m permettant d’obtenir
+     des pôles ps1 et ps2 avec des parties réelles et imaginaires identiques en valeurs
+     absolues.
+
+____________________________________________________________________________
+                         8/18 Partie B : Suivre un profil
+
+
+===== page 11 =====
+     On pose Kȍ = 200 rad/s/V, Kpos = 0,5 tops/rad et Wȍ = 100 ms.
+   Question 19 : Pour cette valeur du coefficient d’amortissement m, déterminer sous forme
+     littérale puis numérique Kp.
+
+   Question 20 : Pour ces valeurs du coefficient d’amortissement m et de Kp, déterminer le
+     temps de réponse à 5% : tr5%.
+
+   Question 21 :       Conclure quant au respect du cahier des charges.
+
+                         1  W1 .p
+         Pour C( p )   Kp.
+                         1  W 2 .p
+       La stratégie de réglage du correcteur C(p) consiste à compenser avec son zéro le pôle
+de la fonction de transfert en boucle ouverte.
+                                                                                  T ( p)
+    Question 22 : Déterminer sous forme littérale et canonique la transmittance r           .
+                                                                                 Tref ( p )
+    Question 23 : Pour le même coefficient d’amortissement que celui obtenu à la question 18
+        et pour le tr5% du cahier des charges, déterminer la pulsation naturelle Ȧn nécessaire
+                                  T ( p)
+        pour la transmittance r             .
+                                 Tref ( p )
+
+   Question 24 : En déduire sous forme littérale puis numérique Kp (on se limitera à un
+     chiffre après la virgule).
+
+   Question 25 :       En déduire sous forme littérale puis numérique W2.
+
+         La réponse à l’échelon unitaire obtenue avec ce réglage est présentée Figure 11 :
+ș(rad)
+
+
+                                            șmot(t)
+
+
+
+
+                                               șref(t)
+
+
+
+
+                                                                                             t(s)
+                       Figure 11 : Réponse indicielle de la boucle fermée de position
+
+   Question 26 : Conclure quant au critère du cahier des charges ASSURER UN SUIVI DE
+     TRAJECTOIRE.
+
+____________________________________________________________________________
+                         9/18 Partie B : Suivre un profil
+                                                          Tournez la page S.V.P.
+
+
+===== page 12 =====
+[OCR] B.4 Optimisation du coat
+
+Ce robot est a destination du grand public, il est donc soumis a des contraintes de
+marché fortement concurrentielles. Afin de diminuer les codts, les boucles de vitesse des
+motorisations des roues n’utilisent pas de capteurs de vitesse mais une structure utilisant des
+observateurs permettant de reconstruire la vitesse par la simple mesure des positions.
+
+Un observateur est un modéle mathématique du processus qui permet par la mesure des
+valeurs de certaines variables de prédire mathématiquement les valeurs d'autres variables du
+processus sans installer de capteurs sur ces derniéres.
+
+La méthode de réglage de l’observateur nécessite de mettre le systeme sous forme de
+modéle interne.
+
+Les variables reconstruites, donc estimées, seront surmontées d’un chapeau. Par
+
+exemple, pour 6, position de la roue réelle, 6, est la variable position de la roue estimée par
+
+Pobservateur.
+Dans cette partie on pose Kpos = 0,5 tops/rad.
+La structure par modéle interne avec observateur est présentée a la Figure 12 :
+
+i Capteur de position
+
+not Pr)
+
+Koos = 0,5}
+
+apt (p) j
+
+Forme modéle interne + observateur
+
+Figure 12 : Architecture de l’observateur de vitesse par modélisation type modéle interne
+
+Modélisation du processus sous forme de modéle interne : Soit le processus présenté sur la
+Figure 13 ci-dessous.
+
+Correcteur de position
+
+U(p)
+
+Ko
+
+S| Sinot(Pl)
+
+Litgp
+
+®mot (Py
+
+or, Ph
+
+Kos= 0.5 &
+
+Capteur de position
+
+Figure 13 : Processus
+
+10/18 Partie B : Suivre un profil
+
+
+===== page 13 =====
+[OCR] L’architecture précédente peut se mettre sous forme dite « modéle interne » en faisant
+mot (P)
+Qo (P)
+position du moteur Omor(p) et la vitesse du moteur Qmox(p)
+
+intervenir un vecteur deta xe(p)=| Jeontenan les variables d’états que sont la
+
+Question 27: Déterminer le contenu littéral de '€quation donnant p.@mor(p) en fonction de
+Omo(P), Qmot(p) et U(p) sous la forme P.Amcr(P)=A1.Pmot(P)+A2.Qmor(P)+B1.U(p) dans
+laquelle A1, A2 et B1 ne dépendent que des paramétres du processus ou sont nuls et ne
+dépendent pas de l’opérateur de LAPLACE p.
+
+Question 28: Déterminer le contenu littéral de l’équation donnant p.Q2mo4p) en fonction de
+Omot(P), QmokP) et Up) sous la forme p.Qmor(P)=A3.Omot(P)+A4.Qmot(P)+B2.U(p) dans
+laquelle A3, A4 et B2 ne dépendent que des paramétres du processus ou sont nuls et ne
+dépendent pas de l’opérateur de LAPLACE p.
+
+Question 29: Déterminer le contenu sous forme littérale des matrices As (de dimension
+2x2), Bs (de dimension 2x1) et Cs (de dimension 1x2) tel que
+p.X8(p) = As.X8(p)+BS.U(p) et Opay. = CS.X8(p).
+
+La matrice As est appelée matrice de transfert. Ses valeurs propres sont les péles du
+processus.
+Question 30: Déterminer les valeurs propres de la matrice As. Comparer avec les péles
+du processus. Conclure.
+
+La structure d’observation (Cf. Figure 14) est une implémentation mathématique dans le
+contréleur du modéle considéré comme parfait du processus associé a un bouclage. Le
+
+Lol
+bouclage est réalisé par une matrice de bouclage Lo = [ical
+
+Capteur de position
+
+U(p). a
+s Ko Snot(P) Srot(P) Koe= 0.5 capt (P) >
+
+Figure 14 : Processus avec observateur
+
+11/18 Partie B : Suivre un profil
+Tournez la page S.V.P.
+
+
+===== page 14 =====
+    Question 31 : Expliquer le rôle du bouclage de l’observateur.
+
+                                                                    
+    Question 32 :       Déterminer l’équation d’état donnant p. Xs( p ) en fonction de As, Bs, Cs,
+             
+        Lo, Xs( p ), Xs( p ) et U ( p ) .
+
+    Question 33 :       Déterminer              la     dérivée     de    l’erreur     d’observation
+                                    
+        p.H ( p )   p. Xs( p )  p. Xs( p ) en fonction des matrices As, Cs, Lo et de l’erreur
+                                            
+        d’observation H ( p )    Xs( p )  Xs( p ) .
+
+        On note Ao la matrice de transfert de l’observateur. Cette matrice est celle reliant p.İ(p) à
+İ(p).
+
+    Question 34 : Déterminer sous forme littérale les coefficients de la matrice Ao reliant
+      p.İ(p) à İ(p).
+
+    Question 35 :       Déterminer l’équation caractéristique de cette matrice.
+
+       Cette équation caractéristique est le polynôme déterminant la dynamique de
+l’observateur (vitesse à laquelle converge le vecteur estimé vers les valeurs réelles).
+
+    Question 36 : Déterminer Lo1 et Lo2 sous forme littérale si on désire que l’observateur
+      converge plus vite que le mode dominant du processus. Pour cela on désire que
+                                                                                              1
+      l’équation caractéristique obtenue à la question 35 ait 2 racines réelles po1 po 2 
+                                                                                             Wo
+      avec Wo la constante de temps de l’observateur 5 fois plus faible que celle du processus.
+
+       Un essai en simulation avec un capteur de vitesse et avec observateur a donné le
+résultat de la Figure 15.
+          ș(rad)
+
+              șmot(t) sans observateur
+
+                                        șmot(t) avec observateur
+
+
+
+
+                                            șref(t)
+
+
+
+                                                                                      t(s)
+                           Figure 15 : Essai avec capteur de vitesse et observateur
+    Question 37 : Par analyse de la réponse avec observateur, celle-ci répond-elle aux
+      critères du cahier de charges (tr5% et nombre de capteurs). Relativiser votre réponse
+      face aux contraintes de marché.
+____________________________________________________________________________
+                         12/18 Partie B : Suivre un profil
+
+
+===== page 15 =====
+                                                                        3 détecteurs de proximité à droite
+3 détecteurs de proximité à gauche
+
+
+
+
+ Tourelle avec capteur I.R.
+
+
+
+
+                                Figure 16 : Présentation des capteurs du robot
+
+
+
+
+                                                                        Tournez la page S.V.P.
+
+
+===== page 16 =====
+                    Tourelle d’émission I.R.                    Led gauche d’émission
+
+
+
+
+                                                                         Led droite
+
+
+
+
+                                         Figure 17 : Émetteurs du Dock
+
+
+
+                                                       Lobe recouvrement led gauche et led droite
+                            Lobe led gauche                       Lobe led droite
+Lobe recouvrement led tourelle et led gauche                          Lobe recouvrement led tourelle et led droite
+
+
+
+
+                                                                                         Dock
+       Lobe led tourelle
+
+
+
+
+                               Figure 18 : Lobes d’émissions des leds du Dock
+       Chaque led émet une trame créant un code binaire sur 8 bits. Les codes des trames sont
+les suivants (Tableau 5) :
+                                      Tableau 5 : Codes binaires des leds
+                                    Leds              Code binaire
+                                    Led droite        1010 01002
+                                    Led gauche        1010 10002
+                                    Led tourelle      1010 00012
+
+          14/18 Partie C : Permettre un retour automatique à la borne de recharge
+
+
+===== page 17 =====
+      Une trame est définie comme suit :
+        x chaque bit est codé sur une durée de 4 ms.
+        x la première milliseconde est à « 0 » et la dernière à « 1 ».
+
+      Une acquisition d’une trame traitée par le robot est présentée à la Figure 19.
+
+
+
+
+                                  4ms
+
+                   0          5         9     13                           29      33        t(ms)
+
+                            Figure 19 : Acquisition à l'oscilloscope de la trame
+
+   Question 38 : Dans le cas du chronogramme de la Figure 19, déterminer quel est le code
+     reçu par le robot. Le signal décodé par le robot est-il en logique négative (un état vrai est
+     représenté par « 0 » et un état faux par « 1 ») ou positive (un état vrai est représenté par
+     « 1 » et un état faux par « 0 ») ?
+
+   Question 39 :       Déterminer le code 1010 01002 délivré par la led droite en hexadécimal.
+
+   Question 40 :       Déterminer le code 1010 10002 délivré par la led gauche en décimal.
+
+       L’obtention du lobe led gauche et led droite est obtenue par le recouvrement des lobes
+d’émission des leds droite et gauche. Cela correspond à l’addition des 2 codes donnant un
+résultat formaté sur 8 bits.
+
+   Question 41 : Déterminer le résultat en binaire du recouvrement de ces 2 lobes. En
+     déduire un résultat en décimal.
+
+       Il existe aussi un recouvrement des lobes led tourelle et led gauche et des lobes led
+tourelle et led droite. Suivant la position du capteur infrarouge du robot au niveau des lobes
+d’émission des leds du Dock, le robot peut récupérer les lobes en acquisition suivant
+(Tableau 6) :
+                                        Tableau 6 : Lobes en acquisition
+                        Lobe led tourelle
+                        Lobe recouvrement led tourelle et led gauche
+                        Lobe led gauche
+                        Lobe recouvrement led gauche et led droite
+                        Lobe led droite
+                        Lobe recouvrement led droite et led tourelle
+
+   Question 42 :       Déterminer les codes binaires reçus pour chacun des cas.
+
+
+
+
+         15/18 Partie C : Permettre un retour automatique à la borne de recharge
+                                                                            Tournez la page S.V.P.
+
+
+===== page 18 =====
+Comportement du robot face à une demande de retour au Dock
+    Lors d’une demande de retour au Dock, deux cas peuvent se présenter :
+  x le robot ne perçoit pas de signal du Dock (robot trop éloigné, obstacle entre le robot et le
+    Dock) : le robot met alors en place un algorithme de déplacement lui demandant de
+    suivre les murs extérieurs afin de possiblement passer à une distance détectable du
+    Dock (Non traité dans ce sujet).
+  x Le robot reçoit des codes du Dock.
+
+Le comportement en mode guidage (dès apparition d’un code du Dock) est le suivant :
+   - Les détecteurs de proximité sont pris en compte seulement lorsque le robot est en
+   acquisition du signal du lobe led tourelle.
+   - Chaque nouveau déplacement en ligne droite dure au moins 500ms.
+
+   x   Robot en acquisition du signal du lobe led tourelle : le robot avance tout droit.
+         o Si perte du signal et pas d’acquisition d’un autre lobe alors rotation sens horaire
+             jusqu’à ré-acquisition du signal d’un lobe ou d’un détecteur de proximité.
+                 Si acquisition du signal du lobe tourelle sans détecteurs de proximité actifs,
+                    rotation de 25° sens horaire.
+                 Si acquisition du signal du lobe tourelle et un des détecteurs de proximité
+                    droit actif alors rotation sens trigonométrique jusqu’à disparition de
+                    l’activation de tous les détecteurs de proximité droit.
+                 Si acquisition du signal du lobe tourelle et un des détecteurs de proximité
+                    gauche actif alors rotation sens horaire jusqu’à disparition de l’activation de
+                    tous les détecteurs de proximité gauche.
+                 Si acquisition d’un signal d’un autre lobe alors comportement associé à
+                    celui-ci.
+         o Si un des détecteurs de proximité droit s’active alors rotation sens trigonométrique
+             jusqu’à disparition de l’activation de tous les détecteurs de proximité droit.
+         o Si un des détecteurs de proximité gauche s’active alors rotation sens horaire
+             jusqu’à disparition de l’activation de tous les détecteurs de proximité gauche.
+         o Si acquisition d’un signal d’un autre lobe alors comportement associé à celui-ci.
+
+   x   Robot en acquisition du signal du lobe recouvrement led tourelle et led gauche :
+       déplacement en ligne droite.
+          o Si perte du signal et pas d’acquisition du signal d’un autre lobe alors rotation sens
+             horaire jusqu’à acquisition du signal du lobe led gauche.
+          o Si perte du signal et acquisition du lobe led tourelle rotation sens trigonométrique
+             jusqu’à acquisition du signal du lobe led gauche, puis rotation sens
+             trigonométrique de 25° si pas signal du lobe recouvrement led gauche et led
+             droite.
+          o Si perte du signal et acquisition du signal du lobe recouvrement led gauche alors
+             comportement associé à celui-ci.
+
+   x   Robot en acquisition du lobe led gauche : déplacement en ligne droite.
+         o Si perte du signal et pas d’acquisition du signal d’un autre lobe alors rotation sens
+             horaire jusqu’à acquisition du signal d’un lobe.
+                 Si acquisition du signal du lobe led gauche rotation sens horaire de 25°.
+                 Si acquisition du signal du lobe led gauche et led droite rotation sens
+                    horaire jusqu’à acquisition du signal led gauche.
+                 Si acquisition du signal du lobe led droite rotation sens horaire jusqu’à
+                    acquisition du signal led gauche et led droite.
+
+         16/18 Partie C : Permettre un retour automatique à la borne de recharge
+
+
+===== page 19 =====
+          o Si perte du signal et acquisition du signal du lobe led gauche et led droite alors
+            comportement associé à celui-ci.
+          o Si perte du signal et acquisition du signal du lobe led tourelle et led gauche
+            rotation sens trigonométrique de 25° si pas signal du lobe recouvrement led
+            gauche et led droite.
+
+   x   Robot en acquisition du lobe led droite : déplacement en ligne droite.
+         o Si perte du signal et pas d’acquisition du signal d’un autre lobe alors rotation sens
+             trigonométrique jusqu’à acquisition du signal d’un lobe.
+                  Si acquisition du signal du lobe led droite rotation sens trigonométrique de
+                    25°.
+                  Si acquisition du signal du lobe led gauche et led droite rotation sens
+                    trigonométrique jusqu’à acquisition du signal led droite.
+                  Si acquisition du signal du lobe led gauche rotation sens trigonométrique
+                    jusqu’à acquisition du signal led gauche et led droite.
+         o Si perte du signal et acquisition du signal du lobe led gauche et led droite alors
+             comportement associé à celui-ci.
+         o Si perte du signal et acquisition du signal du lobe led tourelle et led droite rotation
+             sens horaire de 25° si pas signal du lobe recouvrement led gauche et led droite.
+
+   x   Robot en acquisition du signal du lobe recouvrement led tourelle et led droite :
+       déplacement en ligne droite.
+          o Si perte du signal et pas d’acquisition du signal d’un autre lobe alors rotation sens
+             trigonométrique jusqu’à acquisition du signal du lobe led droite.
+          o Si perte du signal et acquisition du lobe led tourelle rotation sens horaire jusqu’à
+             acquisition du signal du lobe led droite, puis rotation sens horaire de 25° si pas
+             signal du lobe recouvrement led gauche et led droite.
+          o Si perte du signal et acquisition du lobe recouvrement led droite alors
+             comportement associé à celui-ci.
+
+   x   Robot en acquisition du signal du lobe recouvrement led gauche et led droite :
+       déplacement en ligne droite.
+          o Si perte du signal et pas d’acquisition du signal d’un autre lobe alors rotation sens
+             trigonométrique de 25° puis rotation sens trigonométrique jusqu’à acquisition du
+             signal du lobe recouvrement led gauche et led droite.
+          o Si perte du signal et acquisition du signal lobe led gauche rotation sens
+             trigonométrique jusqu’à acquisition du signal du lobe led droite, rotation de 10°
+             sens horaire.
+          o Si perte du signal et acquisition du signal du lobe led droite rotation sens horaire
+             jusqu’à acquisition du signal du lobe led gauche, rotation de 10° sens
+             trigonométrique.
+
+Le comportement en mode guidage du robot est conservé tant que le robot n’est pas sur le
+Dock.
+      Les variables d’entrées et de sorties et les mnémoniques associés sont présentés dans
+le Tableau 7 et dans le Tableau 8
+
+
+
+
+         17/18 Partie C : Permettre un retour automatique à la borne de recharge
+                                                                   Tournez la page S.V.P.
+
+
+===== page 20 =====
+                      Tableau 7 : Liste des entrées et mnémoniques associés :
+               Entrées                                           Mnémoniques
+               Demande de retour au Dock                         Dde_Ret_Dock
+               Robot sur Dock                                    Rob_Dock
+               Lobe led tourelle                                 lt
+               Lobe recouvrement led tourelle et led gauche      ltg
+               Lobe led gauche                                   lg
+               Lobe recouvrement led gauche et led droite        lgd
+               Lobe led droite                                   ld
+               Lobe recouvrement led droite et led tourelle      ltd
+               Rotation d’un angle de 25°                        r25
+               Rotation d’un angle de 10°                        r10
+               Détecteurs de proximité droit (au moins un)       dd
+               Détecteurs de proximité gauche (au moins un)      dg
+
+                      Tableau 8 : Liste des sorties et mnémoniques associés :
+                     Sorties                              Mnémoniques
+                     Tourner sens horaire                     CW
+                     Avancer en ligne droite                  FW
+                     Tourner sens trigonométrique            CCW
+
+       Le grafcet de fonctionnement du robot fait apparaître l’étape encapsulante suivante
+gérant le retour du robot au Dock dans le cas du mode guidage (cette étape sera activée sur
+demande de retour au Dock et acquisition d’un code fourni par le Dock puis désactivée dès lors
+que le robot est sur le Dock) :
+
+
+
+                                               9
+
+
+
+
+      Le grafcet encapsulé associé à cette étape encapsulante se nomme Retour_Dock
+
+
+   Question 43 :    Définir les réceptivités amont et aval de l’étape encapsulante.
+
+   Question 44 : Compléter la partie du grafcet encapsulé correspondant à l’apparition de
+     l’acquisition du signal du lobe led tourelle.
+
+   Question 45 : Compléter le grafcet encapsulé Retour_Dock. Pour augmenter la lisibilité
+     par rapport à la partie de grafcet de la question 44, le grafcet encapsulé fait apparaître
+     des macro-étapes.
+
+
+
+
+         18/18 Partie C : Permettre un retour automatique à la borne de recharge
+
+
+===== page 21 =====
+[OCR] 
+
+===== page 22 =====
+[OCR] 
+
+===== page 23 =====
+[OCR] 
+
+===== page 24 =====
+IN CHOISY – 12 1034 – D’après documents fournis
+
+
+===== page 25 =====
+                                                                                                                         034
+
+
+
+
+                                                                                        Tournez la page S.V.P.
+
+st interdit aux candidats de signer leur composition ou d’y mettre un signe quelconque pouvant indiquer sa provenance.
+                                                                                                                         B
+
+
+===== page 26 =====
+[OCR] 
+
+===== page 27 =====
+PARTIE A -         CAPACITE GLOBALE, RAYON D’ACTION
+
+Question 1 : Calculer le courant moyen total It consommé par le robot. En déduire la capacité
+  en mAh nécessaire pour alimenter le robot pendant le temps d’utilisation Tu fourni par le
+  constructeur.
+
+
+
+
+Question 2 : Calculer la vitesse approximative de rotation des moteurs Nmot en tr/min pour un
+  déplacement du robot Vrbt,max = 18 m/min en ligne droite.
+
+
+
+
+Question 3 : Calculer la surface nettoyée pendant Tu à la vitesse moyenne du robot Vrbt,avg = 4
+  m/min.
+
+
+
+
+Question 4 : Calculer le temps de recharge complet si la charge résiduelle de la batterie
+  d’accumulateurs est de 10 %. On estime le rendement de la charge à 80 %.
+
+
+
+
+Question 5 : A l’analyse des résultats obtenus aux questions précédentes les caractéristiques
+  de ce robot sont-elles respectées ?
+
+
+
+
+____________________________________________________________________________
+                 2/22 Partie A : Capacité globale, rayon d'action
+                                                                Tournez la page S.V.P.
+
+
+===== page 28 =====
+Question 6 : En supposant que ni la roue folle ni les brosses n'ont d'action mécanique
+  significative freinant le déplacement du robot, écrire le bilan des forces extérieures s'exerçant
+  sur celui-ci lorsqu'il démarre sur une rampe de pente maximale.
+
+
+                                                              
+              zg                                               z
+       
+       g                                                           Cm 
+                                                                      y
+
+
+
+                                                        ID et IG
+              O                   
+                                  yg
+
+
+                                       Cm : centre de masse du robot
+                                       ID et IG : points de contact de la roue droite et de la roue gauche
+
+
+
+
+____________________________________________________________________________
+                 3/22 Partie A : Capacité globale, rayon d'action
+
+
+===== page 29 =====
+[OCR] Question 7 :En appliquant le Principe Fondamental de la Dynamique sur le robot, déterminer
+la valeur du couple nécessaire sur chacune des roues pour lui permettre d'atteindre la
+vitesse maximale Vipt,max = 18 m/min en ligne droite, en 500 ms.
+
+Veo KE “AH
+(m/min) etait
+187+ A
+
+Question 8 : Déterminer le couple a la roue disponible et conclure sur les capacités de ce robot
+a remonter cette pente.
+
+4/22 Partie A : Capacité globale, rayon d'action
+
+Tournez la page S.V.P.
+
+
+
+===== page 30 =====
+PARTIE B -           ANALYSE DE LA FONCTION SUIVRE UN PROFIL
+
+B.1 Trajectoire pour le mode SPOT : vitesses d'avances des roues motrices
+Question 9 : Pour chaque quart de cercle Qi intermédiaire de la demi-trajectoire, dessiner la
+  position finale du robot (matérialisé par son centre G et les centres de ses roues motrices Gg
+  et Gd) et les coordonnées (en mm) du CIR (Ci) du mouvement dans le repère  g , associé au
+  sol de la pièce à nettoyer.
+                                                            Gd
+Arc de cercle Q1 (la position initiale est dessinée)
+                                                            
+                                                            yg
+                                          G1
+                                                                         100mm
+
+
+
+
+                                                                 100mm
+                                                                          
+                                                                          xg
+                                                       Oi
+
+
+
+                                                                                      CIR C1
+                                                                                 Xg
+                                                                                 Yg
+
+
+                                                            Gg
+Arc de cercle Q2
+
+
+
+
+                                                            G2
+
+                                                            
+                                                            yg
+
+
+                                                                         100mm
+                                                                 100mm
+
+
+
+
+                                                                          
+                                                                          xg
+                                                       Oi                             CIR C2
+                                                                                 Xg
+                                                                                 Yg
+
+____________________________________________________________________________
+                         5/22 Partie B : Suivre un profil
+
+
+===== page 31 =====
+Arc de cercle Q3
+
+
+
+
+                           
+                           yg
+
+
+                                             100mm
+
+
+
+
+                                100mm
+                                              
+                                              xg
+                      Oi                              G3
+
+
+
+
+                                                                          CIR C3
+                                                                     Xg
+                                                                     Yg
+
+Arc de cercle Q4
+
+
+                                              
+                                              yg
+
+
+                                                             100mm
+                                                     100mm
+
+
+
+
+                                                              
+                                                              xg
+                                        Oi
+
+
+
+
+                                        G4
+
+
+
+                                                                          CIR C4
+                                                                     Xg
+                                                                     Yg
+
+
+
+
+____________________________________________________________________________
+                         6/22 Partie B : Suivre un profil
+                                                          Tournez la page S.V.P.
+
+
+===== page 32 =====
+Arc de cercle Q5
+
+
+
+
+                                                                      
+                                                                      yg
+
+
+                               G5                                                  100mm
+
+
+
+
+                                                                           100mm
+                                                                                    
+                                                                                    xg
+                                                               Oi
+
+
+
+
+                                                                                              CIR C5
+                                                                                         Xg
+                                                                                         Yg
+
+
+
+Question 10 :             Pour chaque arc de cercle Qi intermédiaire de la demi-trajectoire, calculer
+                                                                                          
+  les modules des vitesses linéaires des centres de roues motrices Gg et Gd : VGd Robot /  g et
+                                                                
+   VGg Robot /  g pour que la vitesse du centre G soit égale à VGRobot /  g 4 m/min .
+Arc de cercle Q1
+                                                
+VGd Robot /  g =                               VGg Robot /  g =
+
+Arc de cercle Q2
+                                                
+VGd Robot /  g =                               VGg Robot /  g =
+
+Arc de cercle Q3
+                                                
+VGd Robot /  g =                               VGg Robot /  g =
+
+Arc de cercle Q4
+                                                
+VGd Robot /  g =                               VGg Robot /  g =
+
+Arc de cercle Q5
+                                                
+VGd Robot /  g =                               VGg Robot /  g =
+
+Arc de cercle Q6
+                                                
+VGd Robot /  g =                               VGg Robot /  g =
+
+
+____________________________________________________________________________
+                         7/22 Partie B : Suivre un profil
+
+
+===== page 33 =====
+Question 11 :    Dessiner la zone nettoyée par le robot.
+
+
+                                                         Gg
+
+
+
+
+                                                                G6
+
+
+
+
+                                                           Gd
+
+
+
+                                              G2
+                                                    Gd
+                                               
+                                               yg
+                 G5                G1
+
+                                                     Lbalayage
+                                                     = 300mm 
+                                                               xg       G3
+                                              Oi
+
+
+
+                                                                             100mm
+                                                                     100mm
+
+
+
+
+                                              G4 Gg
+
+
+
+
+Question 12 :   En déduire si la zone nettoyée par le robot est sans trou.
+
+
+
+
+____________________________________________________________________________
+                         8/22 Partie B : Suivre un profil
+                                                          Tournez la page S.V.P.
+
+
+===== page 34 =====
+B.2 Modélisation de la commande en boucle fermée de vitesse d’une roue
+                                                                         : mot ( p )
+Question 13 :        Déterminer numériquement la fonction de transfert      donnant la
+                                                                     U( p )
+  vitesse de rotation du moteur ȍmot (rad/s) en fonction de la commande fournie par le
+  calculateur u (V)
+
+
+
+
+Question 14 :        Déterminer l’original (équation décrivant l’évolution de la variable
+  considérée dans le domaine temporel issue de l’analyse dans le plan de LAPLACE) de la
+  vitesse de rotation du moteur Nmot(t) en tr/min en réponse à un échelon de commande u(t) =
+  2,5 V. Tracer l’allure de la réponse.
+
+
+
+
+  N      (tr/min)
+   mot
+
+
+
+
+          1000
+
+
+                    0,05
+                                                                                       t(s)
+
+____________________________________________________________________________
+                         9/22 Partie B : Suivre un profil
+
+
+===== page 35 =====
+B.3 Commande en position d’une roue
+Question 15 :      Le capteur de position intégré en bout d’arbre du moteur fourni 3 tops/tour.
+  Le réducteur reliant la roue au moteur à un rapport de réduction de k = 80. Déterminer le
+  contenu des différentes transmittances.
+
+
+
+
+                Correcteur de position
+
+ș ref(p)                            U(p)     Kȍ      ȍmot (p)           șmot (p)                   șr (p)
+                             C(p)
+                                           1+Wȍ .p
+
+             ș capt (p)
+                          Kpos =
+
+                   Capteur de position
+
+
+
+
+                                                                                     Tr ( p)
+Question 16 :       Déterminer sous forme littérale et canonique la transmittance              .
+                                                                                    Tref ( p )
+
+
+
+
+____________________________________________________________________________
+                         10/22 Partie B : Suivre un profil
+                                                           Tournez la page S.V.P.
+
+
+===== page 36 =====
+Question 17 :       Pour un coefficient d’amortissement strictement inférieur à 1 déterminer
+                                                               T ( p)
+  sous forme littérale les pôles ps1 et ps2 de la transmittance mot       en fonction de m et Ȧn.
+                                                               Tref ( p )
+
+
+
+
+Question 18 :       Déterminer la valeur du coefficient d’amortissement m permettant d’obtenir
+  des pôles ps1 et ps2 avec des parties réelles et imaginaires identiques en valeurs absolues.
+
+
+
+
+Question 19 :        Pour cette valeur du coefficient d’amortissement m, déterminer sous forme
+  littérale puis numérique Kp.
+
+
+
+
+____________________________________________________________________________
+                         11/22 Partie B : Suivre un profil
+
+
+===== page 37 =====
+Question 20 :     Pour ces valeurs du coefficient d’amortissement m et de Kp, déterminer le
+  temps de réponse à 5% : tr5%.
+
+
+
+
+                Abaque des temps de réponse réduit à 5% d’un second ordre
+
+
+
+
+Question 21 :      Conclure quant au respect du cahier des charges.
+
+
+
+
+____________________________________________________________________________
+                         12/22 Partie B : Suivre un profil
+                                                           Tournez la page S.V.P.
+
+
+===== page 38 =====
+                                                                                    Tr ( p)
+Question 22 :      Déterminer sous forme littérale et canonique la transmittance              .
+                                                                                   Tref ( p )
+
+
+
+
+Question 23 :       Pour le même coefficient d’amortissement que celui obtenu à la question 18
+  et pour le tr5% du cahier des charges, déterminer la pulsation naturelle Ȧn nécessaire pour la
+                  T ( p)
+  transmittance r           .
+                 Tref ( p )
+
+
+
+
+____________________________________________________________________________
+                         13/22 Partie B : Suivre un profil
+
+
+===== page 39 =====
+Question 24 :        En déduire sous forme littérale puis numérique Kp (on se limitera à un
+  chiffre après la virgule).
+
+
+
+
+Question 25 :      En déduire sous forme littérale puis numérique W2.
+
+
+
+
+Question 26 :     Conclure quant au critère du cahier des charges ASSURER UN SUIVI DE
+  TRAJECTOIRE.
+
+
+
+
+____________________________________________________________________________
+                         14/22 Partie B : Suivre un profil
+                                                           Tournez la page S.V.P.
+
+
+===== page 40 =====
+[OCR] B.4 Optimisation du cout
+
+Question 27 : Déterminer le contenu littéral de ’@quation donnant p.Omop) en fonction de
+Omot(P), Qmor(p) et U(p) sous la forme p.Omor(P) = A1.Omot(P)+A2.Qmor(P)+B1.U(p) dans laquelle
+A1, A2 et B1 ne dépendent que des paramétres du processus ou sont nuls et ne dépendent
+pas de l’opérateur de LAPLACE p.
+
+Question 28 : Déterminer le contenu littéral de ’équation donnant p.Qmor(p) en fonction de
+Omot(P), Qmor(P) et U(p) sous la forme Pp.Qmor(P) = A3.Amo(P)+A4.Q2mot(P)+B2.U(p) dans laquelle
+A3, A4 et B2 ne dépendent que des paramétres du processus ou sont nuls et ne dépendent
+pas de l’opérateur de LAPLACE p.
+
+Question 29 : Déterminer le contenu sous forme littérale des matrices As (de dimension
+2x2), Bs (de dimension 2x1) et Cs (de dimension 1x2) tel que
+p.Xs(p) = AS.X8(p) + BS.U(p) et Oop: = CS.X8(p).
+
+15/22 Partie B : Suivre un profil
+
+
+
+===== page 41 =====
+Question 30 :     Déterminer les valeurs propres de la matrice As. Comparer avec les pôles
+  du processus. Conclure.
+
+
+
+
+Question 31 :          Expliquer le rôle du bouclage de l’observateur.
+
+
+
+
+                                                                 
+Question 32 :           Déterminer l’équation d’état donnant p. Xs( p ) en fonction de As, Bs, Cs,
+       
+  Lo, Xs( p ), Xs( p ) et U ( p ) .
+
+
+
+
+____________________________________________________________________________
+                         16/22 Partie B : Suivre un profil
+                                                           Tournez la page S.V.P.
+
+
+===== page 42 =====
+Question 33 :            Déterminer            la      dérivée      de         l’erreur        d’observation
+                               
+   p.H ( p )   p. Xs( p )  p. Xs( p ) en   fonction   des   matrices    As,   Cs,   Lo   et    de   l’erreur
+                                        
+  d’observation H ( p )      Xs( p )  Xs( p ) .
+
+
+
+
+Question 34 :            Déterminer sous forme littérale les coefficients de la matrice Ao reliant
+  p.İ(p) à İ(p).
+
+
+
+
+Question 35 :            Déterminer l’équation caractéristique de cette matrice.
+
+
+
+
+____________________________________________________________________________
+                         17/22 Partie B : Suivre un profil
+
+
+===== page 43 =====
+Question 36 :       Déterminer Lo1 et Lo2 sous forme littérale si on désire que l’observateur
+  converge plus vite que le mode dominant du processus. Pour cela on désire que l’équation
+                                                                                 1
+  caractéristique obtenue à la question 35 ait 2 racines réelles po1 po 2          avec Wo la
+                                                                                 Wo
+  constante de temps de l’observateur 5 fois plus faible que celle du processus.
+
+
+
+
+Question 37 :       Par analyse de la réponse avec observateur, celle-ci répond-elle aux
+  critères du cahier de charges (tr5% et nombre de capteurs). Relativiser votre réponse face
+  aux contraintes de marché.
+
+
+
+
+____________________________________________________________________________
+                         18/22 Partie B : Suivre un profil
+                                                           Tournez la page S.V.P.
+
+
+===== page 44 =====
+PARTIE C - ANALYSE DE LA FONCTION PERMETTRE UN RETOUR
+   AUTOMATIQUE Á LA BORNE DE RECHARGE
+
+Question 38 :       Dans le cas du chronogramme de la Figure 19 déterminer quel est le code
+  reçu par le robot. Le signal fourni est-il en logique négative (un état vrai est représenté par
+  « 0 » et un état faux par « 1 ») ou positive (un état vrai est représenté par « 1 » et un état
+  faux par « 0 ») ?
+
+
+
+
+Question 39 :       Déterminer le code 1010 01002 délivré par la led droite en hexadécimal.
+
+
+
+
+Question 40 :       Déterminer le code 1010 10002 délivré par la led gauche en décimal.
+
+
+
+
+Question 41 :       Déterminer le résultat en binaire du recouvrement de ces 2 lobes. En
+  déduire un résultat en décimal.
+
+
+
+
+____________________________________________________________________________
+       19/22 Partie C : Permettre un retour automatique à la borne de recharge
+
+
+===== page 45 =====
+Question 42 :         Déterminer les codes binaires reçus pour chacun des cas.
+
+
+
+
+                Lobe led tourelle
+
+                Lobe recouvrement led tourelle et led gauche
+
+                Lobe led gauche
+
+                Lobe recouvrement led gauche et led droite
+
+                Lobe led droite
+
+                Lobe recouvrement led droite et led tourelle
+
+
+
+
+Question 43 :         Définir les réceptivités amont et aval de l’étape encapsulante.
+
+
+
+
+                                                 9
+
+
+
+
+____________________________________________________________________________
+       20/22 Partie C : Permettre un retour automatique à la borne de recharge
+                                                                Tournez la page S.V.P.
+
+
+===== page 46 =====
+Question 44 :          Compléter la partie du grafcet encapsulé correspondant à l’apparition de
+   l’acquisition du signal du lobe led tourelle.
+Pour simplifier l’écriture dans le grafcet, on posera la variable sig lt.ltg.lg.lg d.ld.ltd
+L’étape 100 sera activée dès activation de l’étape encapsulante 9.
+
+
+
+
+ *   100
+
+
+           lt
+
+     101    FW
+
+
+
+
+____________________________________________________________________________
+       21/22 Partie C : Permettre un retour automatique à la borne de recharge
+
+
+===== page 47 =====
+Question 45 :       Compléter le grafcet encapsulé Retour_Dock. Pour augmenter la lisibilité
+  par rapport à la partie de grafcet de la question 44, le grafcet encapsulé fait apparaître des
+  macro-étapes
+                9
+
+
+
+ *   100                  /sig=/lt./ltg./lg./lgd./ld./ltd
+
+           lt            ltg           ltd           lg              ld              lgd
+
+     10             11         12             13            14              15
+
+           1             1             1             1               1               1
+
+     E10
+
+           1
+
+     101    FW
+
+           X101/0,5s./sig                                                                  X101/0,5s.dd              X101/0,5s.dg           X101/0,5s.(ltg+lg+lgd+ld+ltd)
+
+     102  Ne
+           CWpas remplir cette partie du104
+                                         Grafcet
+                                            CCW  : réponse
+                                                    105 CW de la question 41
+                                                                          44
+           lt./dd./dg            ltg+lg+lgd+ld+ltd          lt.dd            lt.dg         /dd                       /dg
+
+     103    CW
+
+           r25
+
+     S10
+
+
+     E11                                                                                                  E12
+
+           1                                                                                                    1
+
+     111    FW                                                                                            121    FW
+
+           X111/0,5s./sig               X111/0,5s.lt                X111/0,5s.lg                                X121/0,5s./sig            X121/0,5s.lt        X121/0,5s.ld
+
+     112                         113                                                                      122                       123
+
+
+
+                                 114                                                                                                124
+
+
+
+     S11
+                                                                                                          S12
+
+     E13                                                                                                  E14
+
+           1                                                                                                    1
+
+     131    FW                                                                                            141    FW
+
+           X131/0,5s./sig                                                 X131/0,5s.ltg     X131/0,5s                                                                                     X141/0,5s
+                                                                                            .lgd                X141/0,5s./sig                                    X141/0,5s.ltd
+                                                                                                                                                                                          .lgd
+     132                                                         136                                      142                                               146
+
+           lg                  lgd                  ld
+                                                                                                                ld               lgd               lg
+     133                 134                 135
+                                                                                                          143              144               145
+
+
+
+     S13                                                                                                  S14
+
+     E15
+
+           1
+
+     151    FW
+
+           X151/0,5s./sig                  X151/0,5s.lg               X151/0,5s.ld
+
+     152                          154                        156
+
+
+
+
+     153                          155                        157
+
+
+
+     S15
+                                                                                                                                                                            Retour_Dock
+
+
+
+____________________________________________________________________________
+       22/22 Partie C : Permettre un retour automatique à la borne de recharge
+
+
+===== page 48 =====
+[OCR] 
+
+===== page 49 =====
+[OCR] Service des Concours
+
+IMPORTANT
+
+ERRATUM SUJET « SCIENCES
+INDUSTRIELLES A » 2012 BANQUE PT
+
+Remplacer la question 5 du sujet par la question ci-dessous
+
+Question5: A lanalyse des résultats obtenus aux questions précédentes les
+caractéristiques de ce robot sont-elles respectées ?
+
+Dans une habitation adaptée aux personnes a mobilité réduite, les rampes d'accés
+doivent avoir une pente inférieure ou égale a 8% (voir figure sur cahier-réponse). Le robot doit
+pouvoir remonter ces pentes sans aucune difficulté. La masse du robot est Mrot = 3,6kg.
+
+418 Partie A : Capacité globale, rayon d’action
+

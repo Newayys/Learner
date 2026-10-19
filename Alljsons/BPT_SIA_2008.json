@@ -1,0 +1,406 @@
+{
+ "concours": "Banque PT",
+ "filiere": "SIA",
+ "date": "2008",
+ "file": "BPT_SIA_2008.pdf",
+ "status": 200,
+ "source": "banquept.fr, rubrique « Annales d'annales » (rubrique23.html)",
+ "epreuve_originale": "SI A",
+ "classification": "automatique par mots-clés (Claude, oct. 2026) — moins fine que celle des sujets récents",
+ "decoupage_questions": "Question",
+ "texte_ocr": true,
+ "pages_sujet": 30,
+ "pages_total": 36,
+ "data": {
+  "parties": [
+   {
+    "titre_partie": "Partie IT",
+    "questions": [
+     {
+      "numero": "Q17",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+        "semestre": "S1"
+       }
+      ],
+      "page": 16,
+      "tags": [
+       "courroie / chaîne"
+      ],
+      "texte": "Question 17) Exprimer dans la base locale (f,7,Z) les composantes normale dN et tangentielle d7’ de I’action mécanique exercée par la poulie 1 sur le coulisseau 4 au travers de dS."
+     },
+     {
+      "numero": "Q18",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Énergétique : Puissance et rendement",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+        "semestre": "S1"
+       }
+      ],
+      "page": 16,
+      "tags": [
+       "courroie / chaîne",
+       "clavetage / cannelures"
+      ],
+      "texte": "Question 18 En supposant la hauteur de la cannelure ¢ est petite devant le rayon rmoy, exprimer l’effort axial X14 = F(1 4) -%; et le moment Li4 = M(A, 1 — 4) 4 exercés par la poulie 1 sur le coulisseau 4.en fonction de rmoy,, 9, p et S. En déduire la relation qui lie le moment L14 & ’effort axial X14 en fonction de rinay, & et . Pour simplifier cette relation, on utilisera & bon escient l’égalité : itl tana +tanb tan(a +b) = 7 tanatanb On cherche a étudier si le moment La = M(A,2 ~ 4) -%4, exercé par l’arbre & cames 2 sur le coulisseau 4, peut conduire & une translation du piston 3 par rapport & la poulie 1 et done & introduction d’un déphasage. Exprimer la puissance motrice P,, développée par le moment moteur Lz4 dans le mouvement de 4 par rapport & 1. Exprimer la puissance réceptrice P, développée par l’effort récepteur X34 = F(3 — 4) -Xq dans le mouvement de 4 par rapport & 1. Exprimer dans ce cas le rendement n de la liaison glissiére hélicoidale en fonction de Pp, et P,."
+     },
+     {
+      "numero": "Q21",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Frottements",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
+        "semestre": "S1"
+       }
+      ],
+      "page": 16,
+      "tags": [
+       "courroie / chaîne",
+       "clavetage / cannelures",
+       "lubrification"
+      ],
+      "texte": "Question 21] _ A partir des expressions précédentes et en appliquant le principe fondamental de la dynamique au coulisseau 4 (en négligeant les termes d’inerties par rapport aux actions mécaniques mises en jeu), montrer que le rendement y peut s’exprimer en fonction de a et par la relation : tan(a— 9) tana 14 Partie IT En fonction de la valeur des parametres @ et $, discuter la possibilité d’introduire un déphasage entre la poulie 1 et l’arbre & cames 2 en appliquant un moment L4 sur le coulisseau 4. Dans le systéme de déphasage de la Figure A.2 de I’ Annexe A, le contact au niveau des cannelures hélicoidales est lubrifié et se fait entre deux aciers. Le coefficient de frottement est f = 0,1. Le rayon moyen sur lequel est calculé Dangle d’hélice ot est rmoy = 2 em. On souhaite pouvoir introduire un déphasage A@ entre l’arbre & cames 2 et la poulie 1 qui peut aller jusqu’a 15°. Calculer angle d’hélice maximal ety, qui permet d’ avoir un syst#me dans lequel le moment exercé par arbre & cames 2 sur Je coulisseau 4 ne risque pas de faire varier le déphasage. Calculer la course du piston correspondante, notée cj, et commenter ce résultat. Dans le syst#me réel, l’angle d’hélice est co = "
+     },
+     {
+      "numero": "Q24",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Capteurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 17,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "Question 24 Calculer la course réelle du piston, notée c. Le moment exercé par |’arbre 4 cames sur le coulis- seau risque-t-il de faire varier le déphasage ? Commenter l'utilisation du servo-distributeur décrit précédemment. Proposer une modification du systtme qui permettrait de conserver l’irréversibilité tout en dimi- nuant la course. Partie IT 15 PARTIE Contrdle du systeme de déphasage L'objectif de cette partie est de définir l’architecture du systtme de commande et de déterminer les valeurs numériques de certaines caractéristiques afin d’obtenir un asservissement en poursuite du déphasage. On rappelle que I’actionneur utilisé pour réaliser le déphasage A@ de I’arbre 2 cames est un vérin hydraulique double-effet piloté par un servo-distributeur. La consigne de déphasage AQ, a obtenir est calculée & partir de diverses informations pro- venant de capteurs de position angulaire implantés sur le vilebrequin (mesure de 6,) et sur l’arbre & cames (mesure de 82), de capteurs thermiques implantés a différents endroits dans le moteur et du capteur d’enfoncement de la pédale @accélération (consigne du conducteur...). La gestion de ces informations n’est pas abordée dans 1’étude proposée"
+     }
+    ]
+   },
+   {
+    "titre_partie": "Partie IT 15",
+    "questions": [
+     {
+      "numero": "Q26",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Capteurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 19,
+      "tags": [
+       "liaison hélicoïdale / vis-écrou",
+       "clavetage / cannelures",
+       "hydraulique"
+      ],
+      "texte": "Question 26 Montrer que le schéma bloc Figure III.1 donne alors celui de la Figure III.2 : ∆θc(t) uc(t) ε(t) i(t) q(t) x(t) Coulisseau à ∆θ(t) Gain de Servo Amplificateur Vérin cannelures commande distributeur hélicoïdales md(t) Capteur de position de l’arbre à cames Figure III.2 • Schéma simplifié de l’architecture du système On considère que les capteurs de mesure des positions angulaires \u0002v (t) du vilebrequin et \u00022 (t) de l’arbre à cames sont assimilables à des gains purs de même valeur C. Le gain de commande est identique au gain du capteur mesurant la position angulaire de l’arbre à cames. Le gain de l’amplificateur est supposé unitaire. Le gain associé au coulisseau à cannelures hélicoı̈dales est noté Kc . Le servo-distributeur est modélisé par un gain pur noté Ke . On considérera les valeurs numériques suivantes : C = 10 V rad−1 Kc = 18 rad m−1 III.2 Analyse du comportement dynamique avec une modélisation de fluide incom- pressible Le fluide est modélisé par un comportement incompressible. On néglige les fuites possibles dans le circuit hy- draulique. L’équation caractérisant le comportement du vérin hydraulique est alors la suivante (avec S, la sur"
+     },
+     {
+      "numero": "Q27",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       }
+      ],
+      "page": 19,
+      "tags": [],
+      "texte": "Question 27 Après avoir appliqué la transformée de Laplace aux différentes équations, compléter le schéma- bloc de la Figure 2 du Cahier Réponses."
+     },
+     {
+      "numero": "Q28",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       }
+      ],
+      "page": 19,
+      "tags": [
+       "clavetage / cannelures",
+       "hydraulique"
+      ],
+      "texte": "Question 28 Déterminer la Fonction de Transfert en Boucle Fermée HBF (p) associée à ce schéma. Déterminer la valeur du gain Ke du servo-distributeur qui entraı̂ne un temps de réponse à 5% de 250 ms. III.3 Analyse du comportement dynamique en prenant en compte la compressibi- lité du fluide Le modèle précédent est trop simpliste car il ne prend pas en compte des caractéristiques physiques importantes vis-à-vis du comportement réel du système. Il est nécessaire de considérer : – la compressibilité du fluide ; – les fuites dans la partie hydraulique. Pour analyser l’influence de ces deux phénomènes sur le comportement dynamique global du système, il est nécessaire de prendre en compte l’effort résistant exercé par le coulisseau à cannelures hélicoı̈dales sur le piston du vérin, grandeur physique correspondant à une perturbation. On admettra que les équations simplifiées traduisant le comportement du vérin en prenant en compte la compressibilité du fluide sont (les fuites ne sont pas introduites dans cette modélisation, leur influence sur le comportement ne sera abordée que dans la partie suivante) : pour l’aspect hydraulique : Vv . a at a) = Sal) + E000 "
+     },
+     {
+      "numero": "Q29",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Stabilité",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       }
+      ],
+      "page": 20,
+      "tags": [
+       "courroie / chaîne",
+       "hydraulique"
+      ],
+      "texte": "Question 29 )) 2 pression utile dans le vérin ) 1 force exercée par la poulie sur le coulisseau M : masse des parties mobiles en translation (500 g) Aprés avoir appliqué la transformée de Laplace aux différentes équations, compléter le schéma- bloc de la Figure 3 du Cahier Réponses. Déterminer les fonctions de transfert Hg(p) et Hr(p) qui relient Q(p) et Fi4(p) & X(p) (voir Figure III.3) de la fagon suivante : X(p) = Ho(p)Q(p) + Hr(p)Fi—a(P) Modifier leurs expressions afin d’obtenir les formes canoniques suivantes : 1 a3 1 Ho(p) = ———S et Help) = 2 0) = Tita MRO) TR et préciser les expressions littérales et les valeurs numériques des coefficients (ay ,a2,a3) en don- nant 4 chiffres significatifs. Le schéma de la Figure 3 du Cahier Réponses peut donc étre transformé sous la forme de la Figure II1.3. FAP) — J Arp) A®e(p) UdP) > ep) 1) 2p) Sy _ Xr) A(p) 1 Holp) [Louestion 31 Map) Figure [1.3 Schéma simplifié de l’architecture du syst¢me Appliquer le crittre de Routh & la modélisation actuelle. Conclure. III.4 Etude de l’influence des fuites hydrauliques Il existe plusieurs fagons de rendre le systéme stable. II est possible en particulier d’introduire artificiellement un débit de fuit"
+     }
+    ]
+   },
+   {
+    "titre_partie": "Partie I",
+    "questions": [
+     {
+      "numero": "Q33",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Stabilité",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Modélisation des signaux : Réponse temporelle du second ordre",
+        "semestre": "S2"
+       }
+      ],
+      "page": 21,
+      "tags": [],
+      "texte": "Question 33 Discuter de la stabilité du système en énonçant précisément le théorème que vous utilisez. Déterminer la valeur limite du coefficient d’amortissement \u0005Q qui stabilise le comportement du système."
+     },
+     {
+      "numero": "Q36",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Stabilité",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Modélisation des signaux : Diagramme de Bode",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Correcteurs : Proportionnel-intégral",
+        "semestre": "S4"
+       }
+      ],
+      "page": 23,
+      "tags": [],
+      "texte": "Question 36] Tracer sur la Figure 5 du Cahier Réponses le diagramme asymptotique de Bode de la Fonction de Transfert en Boucle Ouverte Hgo2(p) telle que My(p) = Hzo2(p) Uc(p) du systtme corrigé par un intégrateur. Discuter la stabilité du syst®me obtenu. En particulier, préciser la valeur de la marge de phase. FAP) Hr(p) Oc Ue elf I ) x AG(p) yl [Uh gy ei) FT| te) Cn o)_ sf dy Malp) Cc Figure IIL.6 * Systtme corrigé par un intégrateur On souhaite obtenir une marge de phase de 50°. Pour cela, on introduit un correcteur & avance de phase (cf. Figure IIL.7) de fonction de transfert : lit Hyy =Kay ——Poavee, OK acl 1-Fatwv p FAP) Help) G44 Ip) Plo Hap) Lo 4 (p) Op) Help) 6 X(p) AQ(p) c [Louestion 38 Figure III.7 © Systtme corrigé par un intégrateur et un correcteur & avance de phase Déterminer graphiquement la valeur du gain du correcteur Kay qui permet de récupérer la dy- namique qu’avait le syst8me avant l’insertion de l’intégrateur (vous pouvez done utiliser le dia- gramme de Bode de la Figure IL.4). Déterminer les valeurs numériques de a puis de tay qui permettent d’obtenir une marge de phase de 50° tout en conservant au mieux la dynamique du systéme. On rappelle que l’apport maximu"
+     }
+    ]
+   },
+   {
+    "titre_partie": "Partie 11",
+    "questions": [
+     {
+      "numero": "Q39",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Capteurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 25,
+      "tags": [],
+      "texte": "Question 39 Sur le Cahier Réponses, remplir la table de vérité de la Figure 6, qui définit le fonctionnement du transcodeur."
+     },
+     {
+      "numero": "Q40",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Chaîne d'information",
+        "semestre": "S1"
+       }
+      ],
+      "page": 25,
+      "tags": [],
+      "texte": "Question 40 Sur le Cahier Réponses, remplir les 4 tableaux de Karnaugh de la Figure 7, qui sont associés aux variables binaires d, c, b et a."
+     },
+     {
+      "numero": "Q41",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Chaîne d'information",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Capteurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 26,
+      "tags": [],
+      "texte": "Question 41 En déduire les expressions logiques simplifiées (formes canoniques de type « somme de produits », e.g. : k = mn̄op + m̄o p̄ + ...) des variables binaires d, c, b et a en fonction des variables d’entrée x, y, z et t. Le codage employé pour le disque est tel qu’une seule case change de couleur entre deux secteurs angulaires consécutifs. Nous allons montrer que ce choix permet d’éviter les erreurs de lecture, même si l’un des 4 capteurs (x, y, z,t) souffre d’un défaut de d’alignement. Pour cela, nous allons considérer les 4 cas de la Figure 8 du Cahier Réponses : capteurs parfaitement alignés ou présence d’un défaut d’alignement du capteur x, dans le cas du codage proposé et dans le cas d’un codage différent."
+     },
+     {
+      "numero": "Q42",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Capteurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 26,
+      "tags": [],
+      "texte": "Question 42 Sur le Cahier Réponses, remplir les 4 chronogrammes de la Figure 8, qui représentent les évolutions temporelles des signaux x, y, z et t. Pour cela, on suppose que : – chaque chronogramme débute dans la position représentée et que le disque tourne dans le sens trigonométrique ; – l’information envoyée par chaque capteur change d’état au moment où la ligne délimitant deux secteurs consécutifs dépasse le centre du capteur ; – l’instant t1 désigne l’instant du premier changement d’état d’un des signaux et l’instant t2 celui où un deuxième changement se produit."
+     },
+     {
+      "numero": "Q43",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Capteurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Chaîne d'information",
+        "semestre": "S1"
+       }
+      ],
+      "page": 26,
+      "tags": [],
+      "texte": "Question 43 À partir de l’observation des chronogrammes précédents, expliquer l’intérêt du codage utilisé dans le capteur. IV.2 Multiplexage Le multiplexage est une technique qui consiste à faire passer plusieurs informations à travers un seul support de transmission. En amont, un multiplexeur combine les signaux à transmettre sur une seule voie, tandis qu’en aval un démultiplexeur se charge de rediviser le signal en autant de signaux indépendants. La Figure IV.2 illustre l’intérêt d’utiliser le multiplexage pour transférer les informations issues des capteurs de position angulaire du vilebrequin et de l’arbre à cames (\u0002v et \u00022 ) au calculateur. capteur de position angulaire du vilebrequin calculateur capteur de position angulaire de l’arbre à cames capteur de démultiplexeur position angulaire multiplexeur du vilebrequin calculateur capteur de position angulaire de l’arbre à cames horloge Figure IV.2 • Transfert d’informations vers le calculateur sans et avec multiplexage On se propose d’étudier le fonctionnement du syst¢me de multiplexage de la Figure IV.3. x Pakd a | do Ys a 0]0 ]x 5 se a 2: ote la al: 1 [0 ]z 8 sr 1[i je ai][ 40 ai[] 20 Figure IV.3 © Systtme de mu"
+     },
+     {
+      "numero": "Q45",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 27,
+      "tags": [],
+      "texte": "Question 45] Sur le Cahier Réponses, réaliser le logigramme de la Figure 9 correspondant au fonctionnement du multiplexeur."
+     },
+     {
+      "numero": "Q46",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       }
+      ],
+      "page": 27,
+      "tags": [],
+      "texte": "Question 46] Sur le Cahier Réponses, réaliser le chronogramme de la Figure 10 correspondant au fonctionne- ment du multiplexeur lorsque les bits de sélection (a;,a9) sont indexés sur les signaux d’horloge définis sur la figure."
+     },
+     {
+      "numero": "Q47",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Chaîne d'information",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Traitement de l'information : Échantillonnage et quantification",
+        "semestre": "S2"
+       }
+      ],
+      "page": 27,
+      "tags": [],
+      "texte": "Question 47| Le mot binaire de 2 bits formé par ayao décrit un cycle de valeurs. Quel est-il? Expliquer les différences entre les valeurs des fréquences des différents signaux (x,9,z,t,40,a1)- TE Tel"
+     },
+     {
+      "numero": "Q48",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Capteurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Précision",
+        "semestre": "S2"
+       }
+      ],
+      "page": 27,
+      "tags": [],
+      "texte": "Question 48] Sur le syst#me réel, on souhaite avoir avec le capteur une précision de mesure de la position angulaire de l’arbre & cames de 0,3°. Déterminer le nombre minimum de pistes nécessaires pour le capteur. En supposant que la vitesse de rotation maximum de l’arbre & cames est de 4000 tr/min, déterminez la fréquence maximale des signaux associés A chaque piste. De combien de bits doit atre composé l’adressage du multiplexeur ? Quelle est alors la valeur de la plus haute fréquence de ces signaux d’adressage ? Conclure quant & la faisabilité actuelle d’une telle architecture pour la transmission de donnée dans un véhicule automobile. IV.3 Etude du démultiplexeur Le message s ayant été transmis, il est nécessaire de reconstruire les signaux (x,y,z,t) l'aide d’un démultiplexeur « 1 vers 4 » adressé par les bits de sélection (ay, ao). On fait ’hypothése qu’un systéme « bloqueur » fait en sorte que le signal sur l’une des sorties du démultiplexeur reste & sa valeur tant que cette sortie n’est pas de nouveau adressée. Question 49"
+     },
+     {
+      "numero": "Q51",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Rapport de réduction",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Chaîne d'information",
+        "semestre": "S1"
+       }
+      ],
+      "page": 28,
+      "tags": [
+       "courroie / chaîne",
+       "hydraulique"
+      ],
+      "texte": "Question 51 Sur le Cahier Réponses, réaliser la table de vérité de la Figure 11 correspondant au fonction- nement du démultiplexeur. Vous noterez Hi (Haute impédance) l'état d’une sortie qui n’est pas affecté par I’état de entrée s. Ecrire les expressions logiques simplifiées (de type « somme de produits ») des variables x, y, z et ten fonction de l’entrée s et des bits d’adressage (a), a0). Transformer les expressions précédentes afin de les exprimer en fonction de l’opérateur NAND & 2 entrées uniquement. Sur le Cahier Réponses, et uniquement 4 l'aide d’opérateurs NAND 2 entrées, réaliser sur la Figure 12 le logigramme de la sortie x du démultiplexeur (les logigrammes des 3 autres sorties ne sont pas demandés). 26 Partie IV ANNEXE Systeme de déphasage Figure A.1 © Systéme de déphasage implanté sur les arbres & cames d’admission et d’échappement (© BMW 2006) Annexe A. 27 chaine déplacement poulie 1 du piston x3 (angle de rotation @1) piston 3 culasse 0 piston du servo-distributeur électro-aimant de pilotage du servo-distributeur 7A) buile sous pression Figure A.2 ¢ Schéma de principe du systéme de déphasage d’arbre & cames (d’aprés systéme Vanos © BMW 2006) 28 Annexe A."
+     }
+    ]
+   }
+  ]
+ }
+}

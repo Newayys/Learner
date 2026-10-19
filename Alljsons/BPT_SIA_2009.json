@@ -1,0 +1,433 @@
+{
+ "concours": "Banque PT",
+ "filiere": "SIA",
+ "date": "2009",
+ "file": "BPT_SIA_2009.pdf",
+ "status": 200,
+ "source": "banquept.fr, rubrique « Annales d'annales » (rubrique23.html)",
+ "epreuve_originale": "SI A",
+ "classification": "automatique par mots-clés (Claude, oct. 2026) — moins fine que celle des sujets récents",
+ "decoupage_questions": "sect",
+ "texte_ocr": true,
+ "pages_sujet": 24,
+ "pages_total": 44,
+ "data": {
+  "parties": [
+   {
+    "titre_partie": "Partie B",
+    "questions": [
+     {
+      "numero": "H0",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Capteurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 9,
+      "tags": [],
+      "texte": "H0 : contient la valeur de la hauteur du plan de la mesure qui vient d'être effectuée. Cette valeur change à chaque plan de mesure"
+     },
+     {
+      "numero": "H1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Capteurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 9,
+      "tags": [],
+      "texte": "H1 : contient la valeur de la hauteur du plan de mesure vers lequel se dirige l'outil d'inspection. Cette valeur change à chaque plan de mesure Objectifs de l'analyse proposée On se propose d'estimer la durée d'inspection d'un tube en mode automatique avec le modèle donné dans des conditions de fonctionnement sans aléa, puis de valider la description du modèle quand l'opérateur utilise la fonction stop-reprise du mode automatique. On précise les durées des tâches suivantes : opération de mesure : 15 s descente outil : 55 s rotation outil : 5s Système d’inspection pour tubes de guidage Page 7 Banque PT - SIA 2009"
+     },
+     {
+      "numero": "B1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Stabilité",
+        "semestre": "S2"
+       }
+      ],
+      "page": 10,
+      "tags": [],
+      "texte": "B1 - ESTIMATION DE LA DURÉE D'INSPECTION D'UN TUBE EN MODE AUTOMATIQUE QUESTION 3 On souhaite connaître la durée d'inspection entre le niveau 0 mm et le niveau 500 mm. Pour cela, on cherche le graphe d'évolution du modèle de commande entre les situations (1, 13, 100, 200, 300) et (1, 13, 100, 200, 301). Compléter le graphe d'évolution du document réponse 3, dont on donne les premières situations depuis la situation initiale jusqu'à la situation de début du graphe demandé. On précisera : r\u0001 les événements provoquant l'évolution, r\u0001 les éventuelles situations instables en les encadrant (situation instable = situation suivie d'une évolution fugace), r\u0001 la durée de chaque situation. On supposera que la durée d'une situation instable est négligeable pour l'échelle de temps de la partie opérative. En déduire la durée d'inspection du niveau 0 au niveau 500 mm. QUESTION 4 Même question pour l'inspection du niveau 1000 au niveau 1350 mm. On complétera à cet effet le document réponse 3 où on donnera le graphe d'évolution depuis la situation (1, 13, 100, 200, 303) jusqu'à la situation (1, 13, 100, 200, 304). QUESTION 5 Même question pour la durée du processus d'inspection dans la phase de cha"
+     }
+    ]
+   },
+   {
+    "titre_partie": "Partie C",
+    "questions": [
+     {
+      "numero": "C1.1.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Fermeture géométrique",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Torseur cinématique",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Statique : Hyperstatisme",
+        "semestre": "S2"
+       }
+      ],
+      "page": 12,
+      "tags": [],
+      "texte": "C1.1.1 - Étude préliminaire d'un modèle simplifié On adopte dans un premier temps, un modèle simplifié, pour une seule griffe, défini par le schéma cinématique donné figure 5 de l'Annexe 4. QUESTION 9 En considérant que le modèle est spatial, donner le graphe de structure (graphe des liaisons) associé au schéma cinématique proposé en précisant les éléments géométriques caractéristiques de chaque liaison puis la forme de leur torseur cinématique V(j/i), c'est-à-dire l'expression des éléments de réduction en fonction des paramètres pij, qij, rij, uij,vij et wij dans la base locale de la liaison. QUESTION 10 Établir le système de six équations, en projection dans la base B3 liée au solide 3, traduisant la fermeture cinématique du mécanisme, en fonction des paramètres cinématiques introduits à la question 9 et des paramètres géométriques définis sur la figure 5 de l'Annexe 4. QUESTION 11 Évaluer le rang du système d'équations obtenu et en déduire le degré de mobilité du mécanisme. On supposera que le paramètre cinématique d'entrée v21 est connu et que l'angle β est différent de zéro. Si on fait l'hypothèse que les liaisons sont parfaites, ce modèle est-il hyperstatique ?"
+     },
+     {
+      "numero": "C1.1.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Liaisons équivalentes",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Torseur cinématique",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Statique : Hyperstatisme",
+        "semestre": "S2"
+       }
+      ],
+      "page": 12,
+      "tags": [],
+      "texte": "C1.1.2 - Étude du modèle associé à la commande d'une griffe Afin d'obtenir une commande par obstacle dans les deux sens de commande, le modèle est complété par une seconde liaison sphère-plan, telle que le schéma cinématique devienne celui de la figure 6 de l'Annexe 4. Objectif de l'étude proposée On cherche ici à montrer qu'il est impossible d'obtenir ce double contact avec la géométrie actuelle. QUESTION 12 En vous appuyant sur les résultats précédents et en supposant que les angles β et β' sont différents de zéro, donner la valeur du degré de mobilité de ce modèle puis son degré d'hyperstatisme. Que concluez-vous de ces résultats ? On notera V'(3/2) le torseur cinématique de la liaison sphère-plan de centre J dont on précisera la normale. QUESTION 13 En supposant que les normales, à préciser, aux liaisons sphère-plan, de centres I et J, sont concourantes au point que l'on notera I32, déterminer, en utilisant l'équivalence statique, la liaison équivalente entre les solides 3 et 2 au point I32. QUESTION 14 Compléter, sur le document réponse 5, le schéma cinématique avec la liaison équivalente. QUESTION 15 Calculer le degré de mobilité du mécanisme ainsi modélisé et comparer HHHEce"
+     },
+     {
+      "numero": "C1.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Frottements",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       }
+      ],
+      "page": 13,
+      "tags": [],
+      "texte": "C1.2 - Validation de la transmission de l'effort de commande On souhaite vérifier que le mouvement de commande de la griffe est toujours possible. Pour cela, on se place dans la configuration du modèle simplifié donné figure 5 de l'Annexe 4. On suppose que seule la liaison sphère-plan de centre I n'est pas parfaite avec un coefficient de frottement au contact f de 0,2. On suppose négligeable le poids de la griffe 3 devant les actions mécaniques transmises. On précise que d = 10 mm et que y varie entre 20 et 32 mm. QUESTION 19 Préciser, en justifiant votre réponse, si un phénomène d'arc-boutement peut se produire au cours du mouvement de la griffe ? Peut-on valider la solution proposée ?"
+     },
+     {
+      "numero": "C2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Lois entrée-sortie géométriques",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Dynamique : Géométrie des masses",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       }
+      ],
+      "page": 13,
+      "tags": [
+       "ressort"
+      ],
+      "texte": "C2 - VALIDATION DU DEUXIÈME CRITÈRE La commande du pivotement des griffes réalisant l'accrochage est effectuée par le ressort de commande (voir figure 3 en Annexe 3) qui provoque le déplacement λ (voir figure 7 Annexe 4) de la tige de commande 2. Ce ressort travaille en compression et est caractérisé par sa raideur k et sa longueur libre L0. Sa longueur après le pivotement de l'angle a (voir figure 7 Annexe 4) des griffes réalisant l'accrochage est notée L1. On donne la loi de comportement du système sur l'amplitude du déplacement (voir figures 7 et 8 Annexe 4). On suppose que toutes les liaisons du mécanisme sont parfaites et qu'aucune action extérieure au solide 3 ne s'oppose à son basculement pendant l'accrochage. On néglige la masse du solide 3 par rapport à la masse totale de la tige de commande 2 notée m. On note G le centre d'inertie de la tige de commande 2. L'action du ressort est supposée constante sur la course d'accrochage et égale à sa valeur en fin de course. E E E L'accrochage s'effectuant la perche à l'arrêt, on considère que le repère (A , x1 , y1 , z1 ) est galiléen. QUESTION 20 Déterminer la durée ta d'accrochage de la tête sur l'outil d'inspection en fonction de"
+     }
+    ]
+   },
+   {
+    "titre_partie": "Partie D",
+    "questions": [
+     {
+      "numero": "D1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Frottements",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 15,
+      "tags": [
+       "ressort"
+      ],
+      "texte": "D1 - PRÉSENTATION DU SYSTÈME DE MAINTIEN EN TENSION DE LA GAINE FLEXIBLE L’architecture générale du système de maintient en tension est illustrée sur l'Annexe 5. Lors de la phase de montée, la gaine accrochée à l’outil d’inspection est tractée avec celui-ci par le palan à une vitesse v. Afin de garantir une tension minimale dans la gaine introduite dans le tube et d'éviter son coincement entre le stockage au sol et son entrée dans le tube, un galet moteur entraîne celle-ci, dans la partie basse, à une vitesse v-Δv. La quantité Δv représente le léger écart de vitesse entre les deux extrémités de la portion de gaine entraînée. L’entraînement de la gaine par le galet moteur est assuré par un contact avec frottement. L'effort normal au contact, ou effort presseur, est exercé grâce un ressort de traction agissant sur un ensemble basculeur composé : r\u0001 E\bVO\u0001CBMBODJFS\u0001FO\u0001MJBJTPO\u0001QJWPU\u0001BWFD\u0001MF\u0001DPSQT\u0001EV\u0001SPCPU\u0001 r\u0001 E\bVO\u0001HBMFU\u0001QSFTTFVS\u0001FO\u0001DPOUBDU\u0001BWFD\u0001MB\u0001HBJOF\u0001BV\u0001ESPJU\u0001EV\u0001HBMFU\u0001NPUFVS\u0001 r\u0001 E\bVO\u0001HBMFU\u0001EF\u0001SFOWPJ\u0001 \u0001 Les surfaces de contact des galets moteur et presseur sont réalisées en Courbhane, matériau souple garantissant notamment un coefficient de frottement important de la gaine sur le gale"
+     },
+     {
+      "numero": "D2.1.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       }
+      ],
+      "page": 16,
+      "tags": [
+       "ressort"
+      ],
+      "texte": "D2.1.1 - Description géométrique et cinématique On adopte un modèle du basculeur défini par le schéma cinématique de la figure 11 de l'Annexe 6. On suppose E E E plans, les mouvements des différents solides. Soit R 0 O , x 0 , y 0 , z 0 le repère orthonormé, direct, lié au socle 0. Les E E E mouvements s'effectuent dans le plan ( x 0 , y 0 ) , et y 0 est vertical descendant. Le repère R0 est supposé galiléen. L'ensemble est constitué : - d'un socle 0; E - d'un galet moteur 4 en liaison pivot d'axe (E, z 0 ) avec le socle 0; E - d'un balancier 1 en liaison pivot d'axe (O, z 0 ) avec le socle 0; E E - d'un galet de renvoi 2 et d'un galet presseur 3 respectivement en liaisons pivot d'axe (G2, z 0 ) et (G3, z 0 ) avec le balancier 1; - d'un ressort de traction R fixé au socle 0 et accroché au balancier 1 au point H; - de la gaine représentée partiellement. La figure 12 de l'Annexe 6 représente la position du basculeur (hors galet moteur) à un instant t quelconque, définie par le paramètre géométrique θ(t), associé à la liaison pivot entre le balancier 1 et le socle 0, tel que E E E E l'angle θ(t) = ( x 0 , x1 ) ( y 0 , y1 ) . Sur cette figure, la gaine est limitée à une portion compris"
+     },
+     {
+      "numero": "D2.1.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dynamique : Géométrie des masses",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 16,
+      "tags": [],
+      "texte": "D2.1.2 - Caractéristiques d'inertie Les galets 2 et 3 sont de masses identiques m2 et de centres d’inertie respectifs G2 et G3. Le balancier 1 est de masse m1 et de centre d’inertie O (la tige de G3H étant de masse négligeable). La géométrie simplifiée, adoptée pour la détermination préalable des caractéristiques d'inertie, est décrite sur la figure 13 de l’Annexe 7. Les solides 1, 2 et 3 sont supposés homogènes. QUESTION 21 E E E Donner la forme de la matrice d’inertie du solide 1 au point O dans la base x1 , y1 , z 0 . On justifiera la réponse. QUESTION 22 E Exprimer littéralement le moment d’inertie C1 du solide 1 par rapport à l’axe O , z 0 , en fonction de la masse m1 et de ses dimensions. QUESTION 23 E E E Donner la forme de la matrice d’inertie du solide 2 au point G2 dans la base x1 , y1 , z 0 . On justifiera la réponse. QUESTION 24 E Exprimer littéralement le moment d’inertie C'2 du solide 2 par rapport à l’axe G2 , z 0 , en fonction de la masse m2 et de ses dimensions. Système d’inspection pour tubes de guidage Page 14 Banque PT - SIA 2009 QUESTION 25 E Exprimer littéralement le moment d’inertie C2 du solide 2 par rapport à l’axe O , z 0 , en fonction de la masse m2 et de"
+     },
+     {
+      "numero": "D2.2.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Résistance des matériaux : Torseur de cohésion",
+        "semestre": "S3"
+       }
+      ],
+      "page": 17,
+      "tags": [
+       "ressort"
+      ],
+      "texte": "D2.2.1 - Actions mécaniques La gaine étant flexible, on adopte une modélisation globale des actions mécaniques exercées sur la portion I J de la gaine définie sur la figure 12 de l'annexe 6. On modélise : r\u0001 M\bBDUJPO\u0001EF\u0001MB\u0001QBSUJF\u0001WFSUJDBMF\u0001EF\u0001MB\u0001HBJOF\u0001TVS\u0001MB\u0001QPSUJPO\u0001I J, par un glisseur réduit en I, dont la résultante est E E RI \u000eTI y 0 en phase de montée, avec TI ≥ 0; E E E r\u0001 M\bBDUJPO\u0001EV\u0001HBMFU\u0001NPUFVS\u00014 sur la portion IJ, par un glisseur réduit en J, dont la résultante est R J TJ x 0 NJ y 0 : - la composante TJ est dite \"tangentielle\" et TJ ≥ 0; - la composante NJ est dite \"normale\" et NJ ≥ 0; E E r\u0001 M\bBDUJPO\u0001EV\u0001SFTTPSU\u0001R sur le balancier 1, par un glisseur réduit en H dont la résultante est RH \u000eFH y 0 , avec FH ≥ 0. La tension de la gaine est supposée uniforme entre I et J, et en conséquence, on aura à tout instant : TI = TJ . On note : r\u0001 \u0001T(t) = TI = TJ , la tension de la gaine à l’instant t (on rappelle qu'à droite du point J la tension est nulle); r\u0001 \u0001N(t) = NJ , l'effort normal sur la gaine à l’instant t; r\u0001 \u0001Fr(t) = FH , l’effort dans le ressort à l'instant t. Les actions de la pesanteur sur la gaine et le ressort seront négligées devant les autres actions. Les liaisons son"
+     },
+     {
+      "numero": "D2.2.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       }
+      ],
+      "page": 17,
+      "tags": [
+       "ressort"
+      ],
+      "texte": "D2.2.2 - Loi de comportement du ressort Afin de conduire l’étude dynamique, il est préférable d’établir la loi de comportement, en effort, du ressort en fonction de l’angle d’inclinaison θ(t) du basculeur. QUESTION 26 Établir la loi de comportement du ressort sous la forme : Fr(t) = Fr0 + kr θ(t). Exprimer kr en fonction de la raideur k du ressort et des dimensions utiles. Faire l’application numérique."
+     },
+     {
+      "numero": "D2.2.3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 17,
+      "tags": [],
+      "texte": "D2.2.3 - Loi de comportement de la gaine La géométrie, les notations et les caractéristiques associées à la gaine, sont définies sur la figure 14 de l’Annexe 6. Dans sa portion verticale (partie IJ non comprise), la gaine est assimilable à une poutre droite de longueur L. Les hypothèses de la théorie des poutres sont supposées vérifiées (Barré de St-Venant, Navier/Bernoulli). On note ΔL l'allongement de la gaine consécutif à la différence de vitesse Δv constante imposée entre le galet moteur et le palan, et S l’aire de la section de la gaine. QUESTION 27 Nommer la sollicitation subie par la gaine dans sa portion verticale au dessus du point I. QUESTION 28 Établir la relation donnant la tension de gaine T(t) en fonction de T0, E, ΔL, L et S. QUESTION 29 En déduire la relation donnant la tension T(t) sous la forme : T(t) = T0 + kT t. Exprimer kT en fonction de E, Δv, L et S. Faire l’application numérique pour L = 3000 mm et Δv = 2 mm/s. Système d’inspection pour tubes de guidage Page 15 Banque PT - SIA 2009"
+     },
+     {
+      "numero": "D2.2.4",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Résistance des matériaux : Torseur de cohésion",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Machines électriques : Machine à courant continu",
+        "semestre": "S4"
+       }
+      ],
+      "page": 18,
+      "tags": [],
+      "texte": "D2.2.4 - Loi de comportement du revêtement des galets Le comportement du revêtement des galets est élastique. Il induit une déformation locale ainsi qu’une variation de l’effort normal N(t) en fonction de la position du basculeur. Un essai pratiqué sur le système a permis d’établir le relation suivante : N(t) = N0 – kN θ(t) avec kN = 300 N / rad."
+     },
+     {
+      "numero": "D3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       }
+      ],
+      "page": 18,
+      "tags": [],
+      "texte": "D3 - RECHERCHE DE LA TENSION MAXIMALE On se propose dans cette partie de mettre en équation le comportement dynamique du basculeur lors de la mise en tension de la gaine. Pour cela, on considérera l’ensemble constitué du balancier 1, du galet de renvoi 2, du galet moteur 3 et de la portion de gaine comprise entre les points I et J. Sous l’effet de l’augmentation de la tension de gaine, consécutif à la différence de vitesse de ses deux extrémités (celle liée au palan et celle entraînée par le galet moteur) et au non glissement en J, le basculeur va se mettre en mouvement. Ce basculement induit une diminution de l'effort presseur jusqu'à provoquer le glissement en J. E E E E E E E Le repère R1 O , x1 , y1 , z 0 est lié au basculeur et on rappelle que θ(t) = ( x 0 , x1 ) ( y 0 , y1 ) , avec θ(t=0) = 0. E E E E On note 8(2/1)= S\u0004 2 z 0 le vecteur vitesse de rotation du galet 2 par rapport au balancier 1, et 8(3/1)= S\u0004 3 z 0 le vecteur vitesse de rotation du galet 3 par rapport au balancier 1. On suppose que les galets 2 et 3 roulent sans glisser sur la gaine dont la vitesse varie peu. Ce qui conduit à faire l'hypothèse que S\u0004 2 et S\u0004 3 sont constants."
+     },
+     {
+      "numero": "D3.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 18,
+      "tags": [],
+      "texte": "D3.1 - Analyse du point d'équilibre du basculeur A l’instant t = 0, le système est horizontal et à l’équilibre : le palan et le galet moteur sont stoppés. On note : T0 =T(t=0); N0 = N(t=0); Fr0 = Fr(t=0) Il subsiste à cet instant une tension résiduelle dans la gaine évaluée à T0 = 10N (Newton). QUESTION 30 Établir une relation entre T0, N0, Fr0 et les dimensions utiles. QUESTION 31 En déduire l’expression puis la valeur numérique de N0. QUESTION 32 Vérifier le non glissement en J entre le galet moteur et la gaine à l’instant initial."
+     },
+     {
+      "numero": "D3.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dynamique : Géométrie des masses",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Dynamique : Principe fondamental de la dynamique",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 18,
+      "tags": [],
+      "texte": "D3.2 - Recherche du comportement dynamique du basculeur Indépendamment des parties D2.2.2 à D2.2.4, on admettra les expressions suivantes : Fr(t) = Fr0 + kr θ(t) ; T(t) =T0 + kT t avec kT = 360 N.s-1; N(t) = N0 – kN θ(t) Les conditions initiales du mouvement sont toutes nulles. En reprenant les notations introduites précédemment, soient : C1 le moment d’inertie du solide 1 par rapport à E E l’axe O , z 0 , C2 le moment d’inertie du solide 2 par rapport à l’axe O , z 0 et C3 le moment d’inertie du solide 3 par E rapport à l’axe O , z 0 , on posera : Jéq =C1 +C2 +C3 . QUESTION 33 Établir, par l’application du principe fondamental de la dynamique, l’équation différentielle régissant les variations de θ(t). On rappelle que θ(t) est supposé petit. On demande de préciser clairement la stratégie et la démarche de calcul proposées. Système d’inspection pour tubes de guidage Page 16 Banque PT - SIA 2009 QUESTION 34 Simplifier cette équation en utilisant le résultat de la question 30 et mettre l’équation obtenue sous la forme \u0004\u0004S( t ) X 2 . S( t ) K .t . Exprimer ω et K en fonction de a, d, r, k , k , k et J . 0 0 N T r éq QUESTION 35 Établir la solution de cette équation en fonction de t, ω"
+     },
+     {
+      "numero": "D3.3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       }
+      ],
+      "page": 19,
+      "tags": [],
+      "texte": "D3.3 - Validation du critère de tension maximale Les expressions établies dans la partie précédente ont permis de tracer les graphes donnés sur le document réponse 6. On y distingue les évolutions de N(t) et de θ(t). QUESTION 37 Tracer sur le graphe de N(t) l’évolution de T(t). QUESTION 38 En déduire la valeur de l’instant tg de début de glissement entre le galet moteur et la gaine. QUESTION 39 Relever sur les graphes la valeur de l’angle θg et celle de la tension Tmax à cet instant. Conclure sur la validation du critère définissant la tension maximale à ne pas dépasser. Partie E RÉGLAGE ET VALIDATION DU CORRECTEUR DE LA COMMANDE ASSERVIE DU DÉPLACEMENT DE L'OUTIL PAR LE PALAN Cette partie nécessite la lecture de la présentation du système de la partie D. Le maintien en tension de la gaine flexible contenant les câbles reliant l'outil d'inspection au robot chenillé est assuré par deux systèmes complémentaires. Le basculeur qui a fait l'objet de la partie D, et le système de mise en tension progressive et continue de la gaine. On s'intéresse plus particulièrement à la commande des actionneurs électriques assurant la différence des vitesses de rotation du galet moteur et du tambour d"
+     }
+    ]
+   },
+   {
+    "titre_partie": "Partie E",
+    "questions": [
+     {
+      "numero": "E1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Énergétique : Puissance et rendement",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Machines électriques : Machine synchrone",
+        "semestre": "S4"
+       }
+      ],
+      "page": 20,
+      "tags": [],
+      "texte": "E1 - MODÉLISATION DU SYSTÈME DE DÉPLACEMENT DE L'OUTIL La chaîne d'énergie est donc constituée d'un moto-variateur synchrone autopiloté (moteur brushless) entraînant un palan associé à un réducteur qui donne son mouvement vertical à l'outil d'inspection par l'intermédiaire du câble du palan et de la perche de commande accrochée à l'outil (voir figure 15 en Annexe 7). Le schéma bloc précisant l'architecture de la chaîne d'énergie peut alors se mettre sous la forme suivante : Uc Um Moteur Cm Mécanisme d'entraînement V Onduleur de l'outil d'inspection brushless Palan + câble + perche Notations : Uc : tension de commande Um : tension d'alimentation du moteur Cm : couple moteur exercé par le stator sur l'arbre moteur V : vitesse linéaire de déplacement de l'outil d'inspection Un modèle simple de commande du moteur en courant, donc en couple, est adopté. Cette modélisation permet de poser Cm(t) = Kt . i(t) avec Kt = Cste comme pour le modèle d'un moteur à courant continu. On admet que l'hypothèse de linéarité sur le modèle aux variations est vérifiée et que l'on peut appliquer à la modélisation du système la théorie des systèmes linéaires, continus et invariants avec des conditions initi"
+     },
+     {
+      "numero": "E1.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Asservissement : Schéma-blocs et fonction de transfert",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Énergétique : Inertie équivalente",
+        "semestre": "S3"
+       }
+      ],
+      "page": 21,
+      "tags": [],
+      "texte": "E1.2 - Recherche de la fonction de transfert du mécanisme d'entraînement La figure 15 en Annexe 7 montre que le palan est constitué de deux tambours solidaires sur lesquels le câble s'enroule simultanément. Cette solution évite que le point d'ancrage de la perche avec le câble ne se déplace latéralement pendant la montée et permet de tirer ainsi sur l'outil d'inspection toujours dans son axe. On cherche à établir le schéma bloc décrivant le comportement du mécanisme d'entraînement de l'outil d'inspection. Pour cette recherche on utilisera la modélisation Tambour simplifiée proposée ci-contre. et réducteur On se place dans la phase de montée de l'outil d'inspection et de vitesse E E E on suppose galiléen le repère Rg O , x g , y g , z g . On note : Arbre moteur d'inertie yg - M la masse équivalente à l'ensemble en translation attribuée à Jm l'outil ; - V laE vitesse de translation de l'outil par rapport à Rg, telle que E Cm O V ( outil / R g ) V y g ; - T l'action du câble, supposé inextensible E et sans masse, sur E ωm xg l'outil au point C, telle que T ( cable â m outil) T y g ; - TG l'action regroupant celle de la gaine et celle de la zg E Câble pesanteur E sur l'outil, toutes de"
+     }
+    ]
+   },
+   {
+    "titre_partie": "C - J m l'inertie de l'arbre moteur;",
+    "questions": [
+     {
+      "numero": "E2.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Ingénierie Système : Cahier des charges",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Stabilité",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Asservissement : Précision",
+        "semestre": "S2"
+       }
+      ],
+      "page": 23,
+      "tags": [],
+      "texte": "E2.2 - Recherche des performances du système On choisit finalement de mettre le schéma bloc sous la forme suivante avec un gain unitaire pour le capteur de vitesse. TG (p) HG(p) Vref (p) εV (p) Cm (p) \u000f V (p) + CV(p) HL(p) + \u000f On choisit tout d'abord une correction proportionnelle telle que CV(p) = KP . QUESTION 48 Le cahier des charges est-il respecté en termes de précision, rapidité et stabilité ? Peut-on choisir une valeur de KP qui puisse assurer le respect complet du cahier des charges ? Le système est-il robuste à une perturbation en échelon ?"
+     }
+    ]
+   }
+  ]
+ }
+}

@@ -1,0 +1,494 @@
+{
+ "concours": "Banque PT",
+ "filiere": "SIB",
+ "date": "2006",
+ "file": "BPT_SIB_2006.pdf",
+ "status": 200,
+ "source": "banquept.fr, rubrique « Annales d'annales » (rubrique23.html)",
+ "epreuve_originale": "SI B",
+ "classification": "automatique par mots-clés (Claude, oct. 2026) — moins fine que celle des sujets récents",
+ "decoupage_questions": "cadreR",
+ "texte_ocr": false,
+ "pages_sujet": 20,
+ "pages_total": 50,
+ "data": {
+  "parties": [
+   {
+    "titre_partie": "C - Etude de conception en construction mécanique",
+    "questions": [
+     {
+      "numero": "R1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 9,
+      "tags": [],
+      "texte": "Donner l’expression de la pression en fonction de , et . Inscrire votre réponse dans le"
+     },
+     {
+      "numero": "R2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Frottements",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Résistance des matériaux : Torseur de cohésion",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       }
+      ],
+      "page": 9,
+      "tags": [
+       "ressort hélicoïdal",
+       "liaison hélicoïdale / vis-écrou"
+      ],
+      "texte": "Donner l’expression du couple maxi transmissible par une surface frottante, en fonction de , , et . Cette expression peut se mettre sous la forme = , et on donnera l’expression du rayon équivalent . L’effort normal est donné par l’ensemble des ressorts hélicoïdaux RH. Données : Chaque ressort hélicoïdal RH k, ∈{ }, a une raideur = − , une longueur à vide = , et une longueur en phase embrayée = . Hypothèses : On néglige l’effet du frottement dans les liaisons glissières liant les disques extérieurs DE à la cloche C et les disques intérieurs DI à la noix N. L’effort presseur exercé par les ressorts hélicoïdaux RH est alors intégralement transmis à travers l’empilage de disques. Inscrire votre réponse dans le"
+     },
+     {
+      "numero": "R3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 9,
+      "tags": [],
+      "texte": "Déterminer le nombre de surfaces frottantes noté . Inscrire votre réponse dans le"
+     },
+     {
+      "numero": "R4",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 9,
+      "tags": [],
+      "texte": "Donner l’expression de en fonction de , et . T9/20 Tournez la page S.V.P. Inscrire votre réponse dans le"
+     },
+     {
+      "numero": "R5",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Frottements",
+        "semestre": "S2"
+       }
+      ],
+      "page": 10,
+      "tags": [],
+      "texte": "En déduire l’expression du couple maximal transmissible par les surfaces frottantes en fonction de , , , , et . Données : Dans la suite, on prendra = . On considère un coefficient d’adhérence = . Inscrire votre réponse dans le"
+     },
+     {
+      "numero": "R6",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 10,
+      "tags": [],
+      "texte": "Donner la valeur numérique du couple maximal transmissible . Inscrire votre réponse dans le"
+     },
+     {
+      "numero": "R7",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Frottements",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 10,
+      "tags": [
+       "embrayage / frein"
+      ],
+      "texte": "A l’aide des données fournies, indiquer la valeur du couple maximal devant être transmis par l’embrayage. Conclure. C.2.1.2 - Comportement de l’embrayage en phase A Lors des rétrogradages, le couple résistant exercé par le moteur peut devenir trop important, et provoquer le blocage de la roue arrière. Lorsque le couple résistant sur la cloche d’embrayage atteint la valeur critique = , l’embrayage fonctionne en limiteur de couple. On se place dans la configuration de la figure 11, document 7, page D7/16. Suite à un mouvement relatif de rotation de la noix N par rapport au flasque F, la noix N s’est translatée d’un déplacement égal au jeu initial , représenté figure 8, document 4, page D4/16, selon et est venue au contact de la plaque de poussée P. Dans cette phase, on considère que la plaque de poussée P ne se déplace pas axialement. Il y a donc toujours contact au niveau des surfaces frottantes. Hypothèses : Les actions de la pesanteur sont négligées. Les liaisons disque interne DI / disque externe DE, disque externe DE / plaque de poussée P, disque externe DE / flasque F, seront comme précédemment considérées avec frottement. Toutes les autres liaisons sont parfa"
+     },
+     {
+      "numero": "R8",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       }
+      ],
+      "page": 11,
+      "tags": [],
+      "texte": "En isolant l’ensemble noix, plaque de poussée {N;P}, écrire les équations de résultante et de moment en O en projection sur l’axe . Le couple exercé par le premier disque externe DE 1 sur le flasque F sera noté → =− avec > . Le couple exercé par l’arbre secondaire AS sur l’arbre primaire AP de la boîte de vitesses sera noté \"→ = avec > . Inscrire votre réponse dans le"
+     },
+     {
+      "numero": "R9",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 11,
+      "tags": [],
+      "texte": "En isolant l’ensemble arbre primaire AP, flasque F {F;AP}, écrire l’équation de moment en O en projection sur l’axe . Le couple exercé par un disque externe DE i sur un disque interne en contact DI j sera noté → =− avec > . Inscrire votre réponse dans le"
+     },
+     {
+      "numero": "R10",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 11,
+      "tags": [
+       "liaison hélicoïdale / vis-écrou",
+       "embrayage / frein"
+      ],
+      "texte": "En isolant l’ensemble des disques internes DI = {DI 1;…;DI 7}, écrire l’équation de moment en O en projection sur l’axe , en faisant apparaître déterminé à la question Q3. T11/20 Tournez la page S.V.P. Hypothèse : On considère qu’il y a glissement au niveau de toutes les surfaces frottantes (cas limite d’utilisation de l’embrayage « sliding-clutch »). Données : L’angle d’hélice β de la liaison hélicoïdale entre le flasque F et la noix N est de 45°. Le rayon moyen du filet vaut = . On rappelle que d’après le résultat obtenu à la question Q2, on a : = = = Inscrire votre réponse dans le"
+     },
+     {
+      "numero": "R11",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       }
+      ],
+      "page": 12,
+      "tags": [
+       "rondelles ressort / ressorts plats",
+       "ressort hélicoïdal",
+       "liaison hélicoïdale / vis-écrou"
+      ],
+      "texte": "+ En déduire l’ expression de sous la forme : = ! et l’expression + + de sous la forme : = ! où et s’écrivent en fonction de + , , , et β . Données : Chaque ressort en étoile RE p, ∈{ }, a une raideur = − et une hauteur à vide = . En phase E (phase embrayée), la hauteur vaut = . est représentée figure 8, document 4, page D4/16. La valeur du jeu initial vaut = . On rappelle que chaque ressort hélicoïdal RHk, ∈{ }, a une raideur − = , une longueur à vide = , et une longueur en phase embrayée = . Inscrire votre réponse dans le"
+     },
+     {
+      "numero": "R12",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 12,
+      "tags": [],
+      "texte": "Donner les expressions de en fonction de , , , et de ! en fonction de , et . Inscrire votre réponse dans le"
+     },
+     {
+      "numero": "R13",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 12,
+      "tags": [
+       "embrayage / frein"
+      ],
+      "texte": "Donner l’expression du couple maximal transmissible par l’embrayage en + phase A sous la forme = où s’écrit en fonction de , , , + , , et . Données : Compte tenu des valeurs numériques données précédemment, on calcule : ≈ et = . T12/20 Tournez la page S.V.P. Inscrire votre réponse dans le"
+     },
+     {
+      "numero": "R14",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 13,
+      "tags": [
+       "rondelles ressort / ressorts plats",
+       "embrayage / frein"
+      ],
+      "texte": "Calculer la valeur numérique de . Conclure. C.2.2 - Résistance des matériaux On s’intéresse dans cette partie au comportement des ressorts en étoile RE représentés figure 14, document 10, page D10/16. Nous avons pu voir que leurs caractéristiques avaient une influence directe sur le comportement de l’embrayage, et il est donc nécessaire de pouvoir effectuer leur dimensionnement. Compte tenu de la géométrie du ressort à six branches disposées à 60°, on se limite à l’étude du comportement d’une seule branche. La figure 15, document 10, page D10/16 donne la géométrie de cette branche dans le repère = (% $ # ) . La projection de la branche sur l’axe % est notée . Sa hauteur à vide est notée . L’inclinaison de la branche par rapport à % est notée γ . Elle est soumise à un effort = $ . Nous allons chercher dans la suite à déterminer la relation existant entre et le déplacement suivant $ du point B. Pour cela, on considère la poutre de la figure 16, document 10, page D10/16, définie dans le repère = (% $ #) , tel que (% % ) = ($ $ ) = γ identique à la branche d’origine. Elle est soumise au point B au même effort que celui défini précédemment, incliné d’un angle γ . Sa lo"
+     },
+     {
+      "numero": "R15",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Résistance des matériaux : Torseur de cohésion",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Matériaux : Propriétés physiques et mécaniques",
+        "semestre": "S3"
+       }
+      ],
+      "page": 13,
+      "tags": [
+       "rondelles ressort / ressorts plats"
+      ],
+      "texte": "Déterminer l’expression des composantes du torseur de cohésion le long de la poutre en fonction de , ( et γ . Donnée : Le module d’Young du matériau constituant un ressort en étoile RE p est noté . Hypothèse : Dans la suite, on néglige l’effet de l’effort tranchant ainsi que celui de l’effort normal. Inscrire votre réponse dans le"
+     },
+     {
+      "numero": "R16",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       }
+      ],
+      "page": 13,
+      "tags": [],
+      "texte": "Donner l’expression de la déformée $(( ) suivant la direction $ . On précisera notamment la valeur du déplacement du point B $* en fonction de , , ), , γ et . T13/20 Tournez la page S.V.P. Inscrire votre réponse dans le"
+     },
+     {
+      "numero": "R17",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       }
+      ],
+      "page": 14,
+      "tags": [
+       "rondelles ressort / ressorts plats"
+      ],
+      "texte": "En déduire la valeur du déplacement δ du point B suivant la direction $ en fonction de , , , ), et . On définit la raideur d’un ressort en étoile comme le rapport entre l’effort appliqué sur la zone d’appui centrale du ressort et le déplacement de cette zone, lorsque le ressort est en appui sur ses branches. Inscrire votre réponse dans le"
+     },
+     {
+      "numero": "R18",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       }
+      ],
+      "page": 14,
+      "tags": [
+       "rondelles ressort / ressorts plats",
+       "embrayage / frein",
+       "cotation / chaîne de cotes"
+      ],
+      "texte": "En déduire la valeur théorique de la raideur d’un ressort en étoile en fonction de , , ), et . C.2.3 - Cotation fonctionnelle Le fonctionnement de l’embrayage fait appel à un certain nombre d’exigences fonctionnelles. Nous avons notamment vu dans la partie C.2.1 – Statique qu’il est nécessaire d’avoir un jeu fonctionnel entre la noix N et la plaque de poussée P (voir figure 8, document 4, page D4/16). Données : Le jeu doit être compris dans un intervalle [ ] . Ces valeurs permettent de fixer les valeurs et du couple frein transmissible par l’embrayage en phase de fonctionnement automatique (phase A). Notations : Dans la chaîne de cotes, on note la cote relative à la pièce X entre les surfaces numérotées i et j. On note l’intervalle de tolérance correspondant. On considère l’empilage de disques comme une seule pièce notée D. Inscrire votre réponse dans le"
+     },
+     {
+      "numero": "R19",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+        "semestre": "S2"
+       }
+      ],
+      "page": 14,
+      "tags": [
+       "cotation / chaîne de cotes",
+       "dessin / conception sur calque"
+      ],
+      "texte": "Dessiner la chaîne de cotes relative au jeu . Ecrire les relations géométriques reliant et avec les éléments constitutifs de la chaîne de cotes. Le constructeur propose plusieurs gammes d’empilage pour les disques internes DI, par exemple : − 7 disques d’épaisseur ; − 4 disques d’épaisseur et 3 disques d’épaisseur ; − 2 disques d’épaisseur et 5 disques d’épaisseur . Inscrire votre réponse dans le"
+     },
+     {
+      "numero": "R20",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       }
+      ],
+      "page": 14,
+      "tags": [],
+      "texte": "Quelle est l’influence de la modification d’empilages de disques internes DI sur le couple transmissible en mode embrayé (phase E) ? T14/20 Tournez la page S.V.P. Inscrire votre réponse dans le"
+     },
+     {
+      "numero": "R21",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       }
+      ],
+      "page": 15,
+      "tags": [
+       "roulements",
+       "embrayage / frein",
+       "engrenages",
+       "tolérances géométriques"
+      ],
+      "texte": "Sur le dessin de définition de la noix N, faire apparaître la spécification fonctionnelle relative à la condition fonctionnelle évoquée précédemment. C.2.4 - Choix de roulements On s’intéresse dans cette partie au choix des roulements assurant le guidage en rotation de la cloche C sur l’arbre primaire AP. La cloche C est entraînée par le vilebrequin par l’intermédiaire d’un pignon à denture droite. Elle ne subit donc aucun effort axial. Le choix du constructeur pour assurer le guidage de la cloche C s’est donc orienté vers des cages à aiguilles. On note α l’angle de pression de la roue d’entraînement de la cloche C. Le torseur des actions mécaniques exercées par le moteur MOT sur la roue dentée de l’embrayage, exprimé au point d’engrènement , vaut alors { → }= . Ce torseur s’exprime de la façon suivante au point , situé sur l’axe de l’arbre primaire AP : { → }= où : − représente le couple moteur ramené à la cloche C ; − L’effort radial est donné par la relation : =− α ; − L’effort tangentiel est donné par la relation : = α. La figure 17, document 11, page D11/16 représente l’action de contact au point . La position du point d’engrènement est donnée par : +=ρ Hypot"
+     },
+     {
+      "numero": "R22",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 15,
+      "tags": [],
+      "texte": "Déterminer la charge radiale à laquelle est soumise chacune des cages à aiguilles, en fonction du couple moteur , du rayon ρ et de l’angle α . T15/20 Tournez la page S.V.P. Dans la suite, on considère un chargement constant dans le temps, avec une vitesse de rotation constante dans le temps (ce qui est une approximation grossière du chargement réel), exprimée en . Données : On note la durée de vie souhaitée en heures. La figure 18, document 12, page D12/16 donne un extrait de catalogue constructeur de cages à aiguilles. Inscrire votre réponse dans le"
+     },
+     {
+      "numero": "R23",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+        "semestre": "S2"
+       }
+      ],
+      "page": 16,
+      "tags": [
+       "engrenages",
+       "tolérances géométriques"
+      ],
+      "texte": "Donner, sous la forme d’un organigramme faisant intervenir , et , la démarche de choix des dimensions des cages à aiguilles. C.2.5 - Etude de solutions techniques pour réaliser une liaison glissière Le mécanisme étudié comporte plusieurs sous-ensembles de pièces en liaison glissière. Par exemple certains pignons se translatent par rapport aux arbres qui les guident lors des changements de rapport de vitesse. Il existe un très grand nombre de solutions techniques pour réaliser ces liaisons. Une liaison glissière peut être caractérisée par de nombreux critères : démontabilité, forme des surfaces prépondérantes, nature des surfaces en contact, possibilité de réglage, précision de la mise en position, vitesse de déplacement maximale, coût relatif, durée de vie, encombrement, résistance… Afin de répondre au mieux aux spécifications générales des liaisons, il est judicieux de caractériser les solutions techniques permettant de réaliser ce type de liaison. AVERTISSEMENT : les solutions techniques évoquées dans la question suivante ne représentent qu’une partie des familles de solutions et ne restreignent absolument pas le candidat dans ses choix dans la partie C3 – Dessi"
+     },
+     {
+      "numero": "R24",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 16,
+      "tags": [
+       "lubrification",
+       "dessin / conception sur calque"
+      ],
+      "texte": "Compléter les cases non grisées dans les tableaux de caractérisation partielle de solutions techniques évoquées (croquis à main levée). C.2.6 - Lubrification – Etanchéité Inscrire votre réponse dans le"
+     },
+     {
+      "numero": "R25",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       }
+      ],
+      "page": 16,
+      "tags": [
+       "lubrification"
+      ],
+      "texte": "Quelles sont les différentes fonctions du lubrifiant dans un système mécanique ? Inscrire votre réponse dans le"
+     },
+     {
+      "numero": "R26",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       }
+      ],
+      "page": 16,
+      "tags": [
+       "étanchéité",
+       "lubrification"
+      ],
+      "texte": "Quelles sont les différentes dispositions constructives possibles pour une lubrification à l’huile ? Indiquer celle qui vous paraît la plus adaptée pour la lubrification de cette boîte de vitesses. Justifier. T16/20 Tournez la page S.V.P. Il est nécessaire d’étancher le carter de boîte de vitesses par rapport à l’extérieur au niveau de la sortie de l’arbre secondaire. Inscrire votre réponse dans le"
+     },
+     {
+      "numero": "R27",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Matériaux : Choix",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Procédés : Métallurgie et traitements thermiques",
+        "semestre": "S3"
+       }
+      ],
+      "page": 17,
+      "tags": [
+       "étanchéité",
+       "fonderie / moulage"
+      ],
+      "texte": "Caractériser le type d’étanchéité dans ce contexte. Proposer une solution technique pour la réaliser. C.2.7 - Choix des matériaux La plaque de poussée P est réalisée en fonderie. Remarque : le candidat prendra soin dans la suite d’utiliser les désignations normalisées des matériaux. Inscrire votre réponse dans le"
+     },
+     {
+      "numero": "R28",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Matériaux : Choix",
+        "semestre": "S3"
+       }
+      ],
+      "page": 17,
+      "tags": [],
+      "texte": "Proposer un matériau pour la plaque de poussée P en donnant sa désignation normalisée. Justifier. Inscrire votre réponse dans le"
+     },
+     {
+      "numero": "R29",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       }
+      ],
+      "page": 17,
+      "tags": [
+       "ressort hélicoïdal",
+       "engrenages",
+       "dessin / conception sur calque"
+      ],
+      "texte": "Proposer un matériau pour les ressorts hélicoïdaux RH en donnant sa désignation normalisée. Justifier. C.3 - Dessin d’étude de construction mécanique C.3.1 - Présentation des supports de travail Pour cette partie de l’étude, il vous est demandé de définir plusieurs sous-ensembles du mécanisme sur les deux calques format A3 et A4 fournis avec le sujet. Les éléments pré imprimés sur ces calques sont destinés à faciliter la mise en place des différents composants. Le calque n°1, de format A3 horizontal, pré imprimé, fourni avec le sujet, est destiné à l’étude du guidage des arbres primaire et secondaire ainsi qu’à la fixation du pignon de sortie de boîte de vitesses. Le candidat trouvera sur la vue fournie une ébauche des arbres équipés des pignons correspondant aux différents rapports de vitesse. La position et l’encombrement du pignon de sortie de boîte de vitesses sont également fournis. Zone de l’étude A A-A Arbre primaire seul Pignon de Figure 3 : Mise en page du"
+     }
+    ]
+   }
+  ]
+ }
+}

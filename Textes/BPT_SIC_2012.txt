@@ -1,0 +1,2316 @@
+
+===== page 1 =====
+[OCR] 036
+
+Epreuve de Sciences Industrielles C
+
+Durée 6h
+
+Si, au cours de l’épreuve, un candidat repére ce qui lui semble étre une erreur d’énoncé,
+d’une part il le signale au chef de salle, d’autre part il le signale sur sa copie et poursuit sa
+composition en indiquant les raisons des initiatives qu’il est amené 4 prendre.
+
+L’usage de calculatrices est interdit
+
+Aucun document n’est autorisé
+
+Composition du sujet :
+
+1 cahier de 16 pages de texte, numérotées de 1 a 16 ;
+
+1 cahier de 10 pages, numérotées de 1 a 10, intitulé « document ressources » ;
+
+1 cahier de 24 pages, intitulé « cahier réponses » a rendre a la fin de l’épreuve ;
+1 calque format A3, intitulé « Calque réponse A3» a rendre 4 la fin de Il’épreuve.
+
+eoee
+
+Matériel auto!
+
+Tous instruments usuels du dessinateur.
+
+Gestion du temps :
+
+En admettant une durée de 15 minutes pour la lecture et l’assimilation du sujet, il est
+vivement conseillé de consacrer environ 10 % du temps sur la partie 1, environ 40 % du
+temps sur la partie 2, environ 20 % du temps sur la partie 3 et environ 30 % du temps sur
+la partie 4.
+
+Avertissement :
+La présentation, Ia lisibilité, l'orthographe, la qualité de la rédaction, la clarté et la précision
+
+des raisonnements entreront pour une part importante dans l'appréciation des copies. En
+particulier, les résultats non justifiés ne seront pas pris en compte.
+
+®
+
+Tournez la page S.V.P.
+
+
+===== page 2 =====
+[OCR] PLANEUR SOUS-MARIN
+
+Figure 1 : Planeur IFREMER V2
+
+L'environnement marin est un systeme complexe caractérisé par d'importantes interactions
+entre des processus physiques, chimiques et biologiques. La forte variabilité de ces
+processus et de leurs interactions rend difficile toute étude de I'écosysteme marin, d'une
+part parce qu'il est nécessaire de mesurer les paramétres physiques, chimiques et
+biologiques simultanément, et d'autre part parce que ces mesures doivent étre faites avec
+
+des résolutions spatiale et temporelle suffisantes.
+
+Traditionnellement, le milieu océanique est observé a l'aide d'instruments qui sont
+embarqués sur des navires océanographiques ou sur des flotteurs dérivant, ou bien fixés sur
+une ligne de mouillage. Bien que toutes ces plates-formes soient adaptées aux mesures
+océanographiques, elles le sont moins en ce qui concerne la résolution spatio-temporelle
+requise par certaines études, car le cotit du dispositif serait alors prohibitif. Le "planeur sous-
+marin" est une plate-forme trés complémentaire des systémes d'observation existants,
+
+particuligrement pour la surveillance de certaines régions clefs de l'océan. Il ressemble a un
+
+
+===== page 3 =====
+[OCR] mini sous-marin qui plane en dents de scie vers un point prédéfini. Réguliérement, il
+remonte a la surface et communique avec son opérateur par satellite, afin d'une part
+d'envoyer en temps réel les données acquises pendant sa plongée et d'autre part d'évaluer
+sa dérive due aux courants pour la corriger lors de la plongée suivante (voir figure ci-
+
+dessous)
+
+GiB™ FIX ~~ GPS FIX
+‘and COMM. RADIOISAT COMM.
+
+a
+
+,
+
+Modes de déplacement du planeur sous marin (seaexplorer — groupe ALCEN)
+
+Ces instruments sont délicats 4 mettre au point. Ils ne présentent d'intérét que s'ils sont
+suffisamment fiables et autonomes. Ils sont nés de I'imagination d'un grand océanographe
+
+américain, Henry Stommel, dans les années 80. (Extrait d’une communication de I’IFREMER).
+
+Ces planeurs sont aujourd’hui en cours de déploiement et d’utilisation. Il en existe plusieurs
+
+typologies (figures 1 et 2).
+
+Figure 2 : (a) Planeur IFREMER V1. (b) Planeur SEAEXPLORER, groupe ALCEN
+
+Ils assurent cependant tous deux grandes fonctions :
+1) se déplacer et se positionner (par GPS),
+
+2) recueillir les données et les communiquer.
+
+Uobjet de cette étude est la premiére fonction et plus particuligrement la sous fonction "se
+
+déplacer" qui nécessite un contréle précis du roulis et du tangage du planeur.
+
+2
+
+Tournez la page S.V.P.
+
+
+===== page 4 =====
+[OCR] Nota:
+
+z
+Le roulis est un mouvement de rotation Le tangage est un mouvement de rotation
+d'un mobile autour de son axe d’un mobile autour de l'axe transversal
+
+longitudinal.
+
+Diagramme pieuvre simplifié
+
+Milieu
+ambiant
+
+Systéme de
+contrdle en
+roulis et tangage
+
+Partie
+commande
+
+Energie
+Alectrique
+
+Enoncé des fonctions de service
+FP1 : Positionner le planeur avec précision en roulis et tangage a l’aide de I’énergie
+électrique et sous les ordres de la partie commande
+FC1 : S’intégrer au corps du planeur et occuper un minimum de place
+FC2 : Consommer un minimum d’énergie
+FC3 : Ne pas interférer magnétiquement avec les autres composants du planeur
+FC4 : S’adapter a la partie commande
+
+FCS : Résister et respecter le milieu ambiant
+
+
+===== page 5 =====
+[OCR] Caractérisation de la fonction FP1
+
+Caractéristiques des fonctions
+Fonctions de service
+Critére Niveau
+Mouvement de roulis et de Fi
+uy a Indépendants 0
+tangage
+Variation de l’angle de roulis +30" 1
+Temps pour passer d’une
+position extréme al’autre en | 2 minutes 0
+roulis
+£15° en plongée
+Variation de l’angle de tangage | +45° a la surface 1
+FP1 saci -
+Précision de contréle du mo ;
+Positioner le planeur avec | tangage £1° en plongée 1
+précision en roulis et
+tangage a l'aide de I’énergie | Temps pour passer d’une
+électrique et sous les ordres | Position extréme al’autreen / 5 tae 0
+de la partie commande tangage et en phase de
+plongée
+Précision de la position d
+“ Position cu 0,5mm 1
+centre de gravité
+Energie disponible 12V ou 24V 0
+Durée moyenne d'utilisation A
+0 y unmet 25 minutes 1
+par jour
+Impossible
+maintenance (tous les composants devront | 0
+tre lubrifiés a vie)
+
+Flexibilité :
+
+0: non négociable
+
+1: peu négociable
+
+2: négociable
+
+3: trés négociable
+
+La solution technique pour FP1 s'appuie sur le contréle de la position du centre de gravité du
+
+planeur.
+
+Le contréle de la trajectoire du planeur est basé sur 2 dispositifs (voir document 1) :
+
+- en position centrale (en zone 2), un double dispositif de direction et d'équilibrage
+
+(voir document 2) qui permet de contréler d’une part le roulis du planeur en
+
+plongée. L'actionneur, moteur électrique, est noté M1. D’autre part, ce dispositif
+
+permet aussi le réglage de la position nominale 4 I'horizontale et le passage des
+
+fronts de salinité en plongée. Ce contréle est assuré par le moteur électrique M2,
+
+- Un vérin de ballastage, (voir Calque réponse) placé a l'avant, contréle la plongée du
+
+planeur en modifiant simultanément son inclinaison (le tangage) et sa flottaison. II
+
+4
+Tournez la page S.V.P.
+
+
+===== page 6 =====
+[OCR] assure ainsi la propulsion du planeur. L'actionneur est le moteur M3 associé a un
+
+systéme vis-écrou.
+Les trois moteurs sont équipés de codeurs rotatifs incrémentaux.
+
+Des capteurs électriques de fin de course sont associés a chacun des déplacements (soit 3
+
+fois deux capteurs de fin de course).
+
+Partie 1 : Initialisation du planeur
+
+Une phase d’initialisation des actionneurs est effectuée avant chaque mise a l’eau.
+Question 1. Décrire le fonctionnement d’un codeur rotatif incrémental.
+Question 2. —_Justifier la phase d’initialisation.
+
+Nous allons maintenant étudier un seul axe motorisé noté i (Pour la phase d’ initialisation, les
+
+trois axes ont des comportements similaires).
+
+Lors d’une mise a l’eau, un contacteur général (noté dcy) est activé. Les fins de course
+électrique sont notés fd (capteur fin de course droit) et fg (capteur fin de course gauche). La
+rotation du moteur Mi dans le sens trigonométrique est notée Mi+ ; Mi- pour le sens anti
+trigonométrique. Un capteur de prise d’origine (noté po) est placé sur l’axe entre les
+capteurs fd et fg. Lors de la phase d’initialisation, il est demandé de faire la « prise
+d’origine » en accostant le capteur po toujours du méme coté (c.a.d. avec le moteur
+
+tournant en sens trigonométrique) puis de repérer le « top 2éro » du codeur (noté tz).
+
+Vue schématique des capteurs sur I’axe i:
+
+Wit sens "moteur anti trigonométrique"
+
+Motoréducteur l
+avec codeur intégré
+
+fg po fd
+
+
+
+===== page 7 =====
+[OCR] Question 3. Expliquer la procédure proposée pour la phase d’initialisation en justifiant les
+deux points suivants : « accoster le capteur po toujours du méme coté » et
+
+«puis repérer le top zéro du codeur ».
+
+Question 4. Décrire, par un GRAFCET, linitialisation de cet axe motorisé i.
+
+Partie 2 : Déplacement dans le plan vertical
+
+Maitrise de l’angle de plongée du planeur
+
+Dans cette partie nous allons déterminer le comportement statique du planeur,
+comportement vérifié lors d'une procédure en eau de calibrage de la position du centre de
+gravité, puis son comportement en déplacement. Nous pourrons alors estimer la précision
+en déplacement du vérin de ballastage nécessaire au contréle du tangage, la performance
+
+en vitesse du planeur et le besoin en énergie embarquée.
+
+Dans ces différentes phases, le planeur est totalement immergé avec les zones avant et
+arriére remplies d'eau. Ces zones étant ouvertes sur l'océan, le volume d'eau compris dans
+
+ces zones ne fait pas partie du planeur. II n'intervient ni dans sa masse ni dans son volume.
+
+Analyse du comportement statique et calibrage
+
+Le piston du vérin de ballastage est un tube fermé (voir document 1 et calque réponse). II
+permet d'augmenter ou de diminuer le volume sec du planeur et donc l'intensité de la
+poussée d'Archiméde, sans que la masse du planeur ne soit modifiée. Il est mis en
+
+mouvement par un systéme vis-écrou.
+
+Les caractéristiques du piston sont :
+- Diamétre extérieur : 80 mm
+-  Epaisseur de paroi du tube : 4mm
+- Longueur du tube : 360 mm
+- Course totale : 280 mm
+- Masse (avec les éléments solidaires du piston): m=1,8 kg
+
+- Réalisé en alliage d’aluminium
+
+6
+
+Tournez la page S.V.P.
+
+
+===== page 8 =====
+[OCR] En position d’équilibre nominale (voir Figure 3), planeur a I’horizontal et piston en position
+nominale, le centre de caréne C (centre géométrique du volume d'eau déplacé et lieu
+d’application de la poussée d’Archiméde) est situé sur l'axe de symétrie de la zone centrale
+et dans son plan médian. Le centre de gravité du planeur complet (piston compris) est noté
+
+G.
+
+Le centre de gravité du piston, noté G, est supposé dans le plan de la cloison avant.
+
+1 7]
+Cloison avant
+a
+
+Piston en position nominale
+
+| L=17m &60 mm
+Figure 3 : Planeur en position d’équilibre nominale
+
+Les caractéristiques de fonctionnement générales sont :
+
+Masse totale du planeur : M=50 kg (dont le piston de masse m=1,8 kg)
+
+- Densité de l’eau : p=1020 kg/m?
+
+-  Longueur de la zone centrale : L=1,7 m
+- Longueur de sortie de piston en position nominale : /=60 mm
+- Course de plongée : d=40 mm
+
+e=CG=5 mm
+
+Question 5. — Ecrire I'égalité qui relie le volume sec total (volume hors eau plus volume des
+parois avant et arriére), noté V, a M et p pour assurer |’équilibre de
+
+flottaison ?
+
+Question 6. Exprimer en littéral, dans le repére (C,i,i) la position longitudinale «,, du
+
+centre de gravité du planeur hors piston.
+
+A partir de cette position d'équilibre nominale, le piston du vérin de ballastage est sorti de la
+
+course de plongée d.
+
+
+===== page 9 =====
+[OCR] Question 7. Soit C’ le nouveau centre de caréne. Donner I'expression algébrique du
+déplacement € = CC’ en fonction du déplacement d, de V et des données
+
+géométriques du piston.
+
+Question 8. Soit G’ le nouveau centre de gravité. Donner I'expression algébrique du
+
+déplacement 6=GG’ en fonction du déplacement d, de x, L et des
+
+ait
+
+caractéristiques de masse m et M.
+
+Si besoin est, vous supposerez que 6 = d / 30, avec d le déplacement du piston par rapport a
+
+sa position nominale.
+
+Question 9. Placer sur la figure du cahier réponses, la position du centre de gravité G’ en
+situation d’équilibre statique. Puis, déterminer I’expression de l’angle
+
+d’inclinaison @ en fonction de €, det e.
+
+Analyse de |’équilibre en déplacement
+
+En mouvement, l’aile génére une portance dont I’inclinaison par rapport a I’horizontale
+
+permet la propulsion du planeur.
+
+Nous allons réaliser le bilan des actions extérieures au planeur en phase de montée et
+déterminer I’action de propulsion en fonction de la poussée d’Archiméde ainsi que le besoin
+
+en précision du vérin.
+Nous supposons que |’équilibre statique est vérifié (termes dynamiques négligés).
+
+A l’échelle de l’esquisse, la différence entre la poussée d'Archiméde, d'intensité notée A, et
+
+le poids d'intensité P est de 1 cm, avec A>P en montée (force de portance orientée
+
+suivant —j, ).
+
+Question 10. Réaliser le tracé de la force hydrodynamique F, puis des composantes de
+portance Fy , support (A,ij,) et de trainée F, support (C',z,). En déduire les
+
+expressions analytiques de F, et F, en fonction de A, P et des caractéristiques
+
+de fonctionnement.
+
+8
+Tournez la page S.V.P.
+
+
+===== page 10 =====
+[OCR] Question 11. Le centre de gravité G' du planeur est situé sur l'axe A=(G,,%,). Déterminer sa
+
+position et tracer le poids sur l’esquisse. Vous préciserez le théoréme utilisé
+
+pour déterminer sa position.
+
+L'étude réalisée permet de déterminer la relation entre l'angle de tangage a du planeur en
+mouvement et le déplacement 6 de son centre de gravité. Le tracé de ce résultat est donné
+
+sur le cahier réponses a la question 12.
+
+Question 12. Déterminer le déplacement du piston nécessaire pour obtenir un angle de
+
+tangage de 30°.
+
+Question 13. Estimer la précision nécessaire sur le déplacement du piston pour obtenir,
+autour de 30°, un contréle de l'angle de tangage répondant au cahier des
+
+charges. Conclure.
+
+La section du piston est de 5000 mm’.
+
+Question 14. En déduire, pour cet angle de 30°, I'intensité de E,
+
+, et la composante de
+
+trainée F;. Tracer le point de fonctionnement sur le graphique du cahier
+
+réponses. En déduire Ia vitesse longitudinale du planeur.
+Bilan énergétique de la propulsion
+
+La vitesse moyenne d’avance du planeur est supposée de 30 cm/s, en translation rectiligne
+
+ascendante ou descendante selon une direction inclinée de 30°.
+
+Question 15. Estimer la durée d’un cycle de montée-descente entre les profondeurs de 0 et
+
+300 m.
+
+Question 16. Estimer I’énergie nécessaire pour sortir le piston de ballastage de 8 cm a 300
+m de profondeur (soit a une pression de 3.10° Pa). La section du piston est de
+
+5000 mm’.
+
+Le planeur est alimenté par des accumulateurs électriques de 12V de tension nominale et de
+
+10 Ah chacun.
+
+
+===== page 11 =====
+[OCR] Une semaine de fonctionnement correspond approximativement a 200 cycles de montée-
+
+descente.
+Question 17. Exprimer, en Joule, I’énergie disponible dans un accumulateur.
+
+Question 18. En déduire le nombre minimum d'accumulateurs a embarquer dans le planeur
+pour assurer une autonomie d'une semaine si 80% de I'énergie doit étre
+
+disponible pour I'électronique de contréle et de mesure.
+Précision du dispositif d'entrainement du vérin de ballastage
+
+Les efforts importants sur le piston du vérin de ballastage et la recherche d'une solution
+d'entrainement a rendement maximum ont conduit les concepteurs a :
+-  choisir un systéme de transformation de mouvement de type vis-écrou 4 billes quasi-
+irréversible,
+-  interposer une butée a billes pour reprendre les efforts de pression. Elle sera choisie
+en tenant compte de sa capacité de charge statique,
+- utiliser une deuxiéme butée, choisie sur critére d'encombrement, pour assurer la
+
+rentrée du vérin en surface.
+
+La chaine de puissance comprend donc les composants suivants :
+
+[Moteur Maxon 118778|- Réducteur 3 étages PLG52, rapport 1:225]-[vis a billes ]—[écrou a
+
+Voir le calque réponse et les documents 3, 4 et 5.
+
+L'effort axial dd a la pression sur le piston du vérin de ballastage est estimé a 20 000 N en
+
+plongée maximale.
+
+Question 19. Définir sur le calque réponse, en zone d'étude 1 et a I'échelle, Ia liaison vis-
+écrou en choisissant un composant document 4 dont vous préciserez la
+
+référence. L'ensemble est démontable et vous définirez, en particulier :
+
+-  laliaison encastrement de I'écrou avec le piston,
+
+10
+Tournez la page S.V.P.
+
+
+===== page 12 =====
+[OCR] - le blocage en rotation du piston par I'intermédiaire d'un doigt dans Ia rainure prévue
+
+acet effet dans le corps du vérin.
+
+Question 20. Définir sur le calque réponse, en zone d'étude 2 et a I'échelle, une solution
+démontable, permettant :
+-  laliaison de l'ensemble motoréducteur avec le carter du vérin de ballastage,
+-  I'accouplement entre I'arbre du réducteur et Ia vis,
+- la reprise des efforts de pression par une butée a billes dont vous préciserez la
+référence,
+- la reprise des efforts nécessaires a la rentrée du vérin en surface par une butée a
+
+billes dont vous préciserez la référence.
+
+Partie 3 : Performance hydrodynamique
+
+Les performances de mobilité du planeur (rayon d'action, vitesse, autonomie) sont liées a sa
+finesse qui doit étre maximale. La finesse est la capacité 4 parcourir une grande distance
+
+avec un minimum de variation d’altitude.
+
+Entre autres points, l’avant du planeur est un élément participant de fagon importante a
+cette finesse. Le nez du planeur a ainsi été calculé par les hydrodynamiciens qui ont proposé
+
+une forme en « ogive » dont la courbe guide est décrite sur la figure 4 :
+
+y= (x° — 102 x* + 4150 x° — 84000 x’ + 850000 x) / 350000
+
+Figure 4 : courbe guide
+
+11
+
+
+===== page 13 =====
+[OCR] La partie avant est réalisée par usinage sur Machine outil a commande numérique dans un
+alliage résistant au milieu marin traité par anodisation. L’anodisation dure 1 heure dans un
+sel de bichromate de potassium porté a 98°C. Ce traitement de surface a une épaisseur de
+
+50 micrométres conformément aux spécifications du Figure 5.
+
+—— ,
+(TRAITEMENT DE SURFACE: anodisation dure selon specification IFREMER 31ST01~C
+AVANT TRAITEMENT / 4p APRES. Eo
+
+ap rerensgg meres / TRATENENT
+
+= Epsisseur = SO micrometres 3
+ree du colnatage au bichronate de potassium (50
+
+rise de piece: (designation des surfaces inter:
+= Masquage! (olesignation des surfaces a epargner)
+
+exemple: Alesage 7 repere sur le plan si
+ATTENTION : or a
+
+- CE PLAN FAIT ETAT DES DIMENSIONS DE LA PIECE FINIE <APRES ANODISATION), IL CONVIENT DONC DE TENIR
+\__COMPTE DE La PROTECTION DANS La DEFINITION DES COTES D USINAGE (GONFLEMENT DEMI-EPAISSEUR). J
+
+RI
+
+ST
+poss
+
+Figure 5 : Définition du traitement de surface du nez (extrait spécification IFREMER)
+
+Valliage utilisé est un Al Mg 1 Si Cu. Ses caractéristiques mécaniques sont les suivantes :
+
+Rm = 310 MPa, E = 68,9 GPa, A% = 17
+Question 21. Quelle est la composition de I’alliage proposé ?
+
+Question 22. Tracer, en positionnant les valeurs caractéristiques, I’allure de la courbe de
+
+traction pour cet alliage.
+
+Question 23. Rappeler, en faisant un schéma, le principe de dépédt métallique par
+
+anodisation.
+Question 24. Expliquer les spécifications portées sur le dessin de définition document 6.
+
+Question 25. Proposer une cotation normalisée entre les deux plans B et C qui permette de
+positionner les deux surfaces (voir document 6, valeur nominale 10 mm, IT =
+
+0,2 mm).
+
+Une pré-série de 5 piéces doit étre réalisée. L’entreprise dispose d’un tour 2 axes a
+
+commande numérique. La piéce (document 6) est entiérement usinée a partir d’un brut.
+
+Question 26. Citer les opérations nécessaires a la réalisation d’un taraudage en proposant
+
+un outil par opération.
+
+12
+Tournez la page S.V.P.
+
+
+===== page 14 =====
+[OCR] Question 27. Est-il possible de réaliser les 4 taraudages avec le tour 2 axes de I’entreprise ?
+
+Proposer une typologie de tour apte.
+
+Nous faisons maintenant I’hypothése que I’entreprise dispose de cette typologie de tour. La
+
+piéce est réalisée en deux phases par retournement.
+Question 28. Proposer un brut en adéquation avec Ia série de 5 piéces.
+Question 29. Préciser le mode d’obtention du brut puis décrire ce procédé par un schéma.
+
+Question 30. Proposer pour chacune des deux phases :
+- une symbolisation de la mise en position,
+- les surfaces usinées,
+
+- le repére machine.
+
+On s’intéresse maintenant a la réalisation par tournage de la surface avant du nez décrite
+par le polynéme de degré 5 de la figure 4. L’objet des questions suivantes est de préparer
+
+Vécriture du programme CN.
+
+Le programme CN commande les déplacements relatifs en X et Z entre les outils et le brut
+dans le but de réaliser l'usinage de la piéce finale. Sur la commande numérique de
+Ventreprise, ces déplacements se limitent a des droites et des cercles dans le plan (X,Z). Ilya
+donc lieu d’approximer le polynéme par une suite de droites et/ou de cercles en respectant
+
+les spécifications requises.
+
+Afin de réaliser le programme commande numérique, il est décidé d’approximer la courbe
+en une succession de droites qui représente la trajectoire de |’outil (et donc, en premiére
+
+approximation, la surface obtenue).
+
+Question 31. A partir de la courbe théorique finale tracée, et en vous aidant de la figure 5,
+- dessiner la position de la surface usinée avant anodisation (en bleu),
+- tracer ensuite les courbes limites délimitant la zone de tolérance de la
+
+surface usinée (en rouge).
+
+Pour la suite, on se propose d’approximer la courbe en partant de la pointe avant du nez
+
+(coté gauche de la figure 4).
+
+13
+
+
+===== page 15 =====
+[OCR] Question 32. Dessiner les successions de droites (en vert) qui représentent la trajectoire de
+Youtil et qui respectent les tolérances spécifiées en positionnant les points
+d’‘intersections de ces droites (NB : Ces points servent de base a |’écriture du
+
+programme commande numérique).
+La suite prend en compte les défauts dus a l’opération d’usinage.
+Question 33. Exprimer deux origines des défauts d’usinage.
+
+Question 34. Votre trajectoire précédente est elle toujours valable ? Si besoin, proposer une
+
+modification de la trajectoire.
+
+Partie 4 : Analyse du dispositif d’orientation et d’équilibrage
+
+La partie centrale du planeur comporte un dispositif qui permet le réglage fin de la position
+axiale du centre de gravité ainsi qu’un déplacement radial de ce centre afin d’assurer la
+
+rotation du planeur.
+Ce mécanisme est positionné dans le corps du planeur et fixé par des tampons radiaux.
+Structure du dispositif
+
+Un plan d'ensemble est proposé document 7. Le schéma cinématique du systeéme de
+
+transformation de mouvement est représenté dans le cahier réponses.
+
+Question 35. Identifier sur le schéma cinématique proposé une piéce principale (cf.
+
+documents 7 et 8) de chaque classe d'équivalence.
+
+Question 36. Réaliser le graphe de liaison associé au schéma cinématique proposé et
+
+identifier dessus les mobilités contrélées par un actionneur.
+
+Vous supposerez que la liaison réalisée entre deux composants par un engrenage est une
+
+liaison ponctuelle.
+
+Question 37. Déterminer le degré d’hyperstatisme de ce modéle et, si celui-ci est non nul,
+
+indiquer la ou les contraintes géométriques associées.
+
+14
+Tournez la page S.V.P.
+
+
+===== page 16 =====
+[OCR] Influence des efforts sur la position du CDG en giration
+
+Lors d'un changement de direction du planeur, la masse du dispositif d'orientation du
+planeur est inclinée dans le plan ortho-radial par |'intermédiaire du moteur M1. Pour un bon
+contréle de la trajectoire, la position du centre de masse doit étre stable et donc ne pas
+
+dépendre de la raideur des piéces.
+
+Nous allons utiliser un modéle RDM pour estimer, dans un cas défavorable, la modification
+
+de position de ce centre de gravité aprés avoir déterminé les efforts aux appuis.
+
+La vis (4) et l’axe (3) sont modélisés par des poutres de section constante, de diamétre D, de
+
+longueur L, en appui a leurs deux extrémités, cf. Document 9 figure b.
+
+L'ensemble relié 4 la masse déplacée par M1 et en liaison avec (4) et (3) est noté (M) et a
+pour centre de gravité G. G est situé dans le plan axial médian. (M) est supposé
+indéformable, en liaison rotule en A avec (4) et en liaison ponctuelle en B avec (3), cf.
+
+document 9 figure a.
+
+Le cas de chargement pris en compte dans le dimensionnement est le suivant :
+- ABsurlaverticale, g =—gj étant le vecteur accélération de la pesanteur,
+- Ensemble mobile incliné a 90°, tel que représenté document 9 figure a,
+- Coefficient d’amplification des efforts de 3, lié aux efforts dynamiques de la houle
+
+proche de la surface.
+
+L'action de (M) sur (4) est notée : {T,_.} = i
+
+L'action de (M) sur (3) est notée seed = (|
+B
+
+Question 38. Déterminer les expressions de Y,, Z, et Z, en fonction de M, a, bet g.
+
+Le probleme de résistance des matériaux présente une symétrie des efforts et de la
+
+géométrie exploitable pour simplifier les calculs.
+
+15
+
+
+===== page 17 =====
+[OCR] Question 39.
+
+Question 40.
+
+Question 41.
+
+Question 42.
+
+Question 43.
+
+Exprimer le déplacement ve, du centre de section B, dans Ia direction 7 induit
+
+par la déformation de la poutre (3) sous I'effet de la force 2,2.
+
+Exprimer, en fonction de vg et de la géométrie de (M), le déplacement vertical
+
+du centre de gravité G (on supposera (4) non déformée).
+
+Exprimer les déplacements de A, notés u, et va respectivement dans les
+
+directions ij et Z, sous l'action de Y, et Z,.
+
+En déduire I’expression du déplacement vertical du centre de gravité en
+
+fonction de M, g et des caractéristiques géométriques et de matériau.
+
+Calcul fait, le déplacement vertical de I’axe est estimé a 5 mm. Est-ce que la
+contrainte de positionnement du centre de gravité du cahier des charges est
+
+vérifiée ?
+
+16
+
+
+===== page 18 =====
+[OCR] 
+
+===== page 19 =====
+[OCR] 
+
+===== page 20 =====
+IN CHOISY – 12 1036 – D’après documents fournis
+
+
+===== page 21 =====
+[OCR] Document 1:
+Document 2 :
+Document 3 :
+Document 4 :
+Document 5 :
+Document 6 :
+Document 7 :
+Document 8 :
+
+Document 9 :
+
+PLANEUR SOUS-MARIN
+
+Document ressources
+
+Structure du planeur.
+
+Dispositif de direction et d’équilibrage.
+Caractéristiques standards de butées 4 billes.
+Systéme vis écrou a billes.
+
+Caractéristiques du moteur Maxon 118778.
+Dessin de définition de l'ogive avant.
+
+Plan d'ensemble du dispositif d'orientation et d'équilibrage.
+
+Nomenclature partielle du mécanisme d'orientation du planeur.
+
+Modeéle de déformation.
+
+036
+
+
+===== page 22 =====
+[OCR] Document 1 : STRUCTURE DU PLANEUR
+
+Percages
+
+Cloison arriére
+
+Cloison avant
+Percages
+
+| 1
+Zone
+arriére
+
+<
+
+Zone centrale
+
+—
+
+Zone avant
+
+Zone remplie d'eau (zone
+mouillée) contenant le
+matériel de mesure de la
+mission
+
+Zone sans eau (zone séche)
+contenant les dispositifs utiles
+au fonctionnement du
+planeur : batteries,
+électronique de commande,
+contréle du vérin de
+ballastage,...
+
+Cloison arriére
+
+Zone remplie d'eau (zone
+mouillée) en relation avec
+le vérin de ballastage et
+contenant les antennes
+de communication (GPS,
+ARGOS, IRIDIUM)
+
+Vérin de ballastage
+
+Cloison avant
+
+| 1
+Zone
+arriére
+
+<
+
+Zone 1
+
+pais
+
+7] Zone avant
+
+IRIDIUM...)
+
+Zone contenant I'électronique
+associée & la commande du planeur.
+On y trouve, entre autres, la centrale
+
+d'attitude (mesure des angles de
+tangage, de roulis et de lacet) et les
+éléments de communication et de
+positionnement (ARGOS, GPS,
+
+Zone contenant le
+
+et d'équilibrage
+
+dispositif de direction
+
+Zone contenant le vérin
+de ballastage ainsi que
+toutes les batteries
+
+
+
+===== page 23 =====
+[OCR] Document 2 : DISPOSITIF DE DIRECTION ET D’EQUILIBRAGE
+
+Moteur M1
+
+
+===== page 24 =====
+[OCR] Document 3 : CARACTERISTIQUES STANDARDS DE BUTEES
+
+A BILLES
+C: capacité de charge dynamique
+E CO : capacité de charge statique
+*Q1 : vitesse de rotation limite en lubrification a
+la graisse
+| at ** 2 : vitesse de rotation limite en lubrification
+4 | al'huile
+d Références di D D1 E c(10*N) | co(10°N) | Q1 o2
+(mm) (mm) | (mm) | (mm) | (mm) (tr/mn*) | (tr/mn**)
+10 51100 a. [24a | 24 9 10,00 14,00 7900 10600
+12 51101 13. | 26 (| 26 9 10,30 15,40 7500 10000
+15 51102 16 [28 (| 28 9 10,50 16,80 7100 9400
+51202 17 [32 | 32 12 ‘| 15,70 24,40 6000 7900
+17 51103 1s {30 ‘| 30 9 11,30 19,60 7100 9400
+51203 19 [35 (| 35, 12 | 16,20 26,60 5600 7500
+20 51104 2 =-|35 | 35, 10 | 15,00 26,60 6300 8400
+51204 22. | 40 | 40 14_—_| 22,30 37,70 5000 6700
+25 51105 26 42 42 11 18,10 35,50 5300 7100
+51205 27 47 47 1s 27,80 50,50 4500 6000
+51305 27 |s2_ | 52 18 | 35,70 61,50 3800 5000
+25 51405 27. | 60 ‘| 60 24 | 55,50 89,40 3200 4200
+30 51106 32. [a7 | 47 11 ‘| 18,80 39,90 5000 6700
+51206 32. |s2_ | 52 16 | 29,40 58,20 4000 5300
+51306 32. | 60 ‘| 60 21 ‘| 42,70 78,70 3300 4500
+51406 32. | 70 ‘| 70 28 ‘| 72,70 126,00 2700 3500
+35 51107 37. |s2_ | 52 12 | 20,10 46,60 4700 6300
+51207 37. |62_—‘| 62 18 | 39,10 78,20 3500 4700
+51307 37. fess | 68 24 | 55,50 105,00 2800 3800
+51407 37. | 80 ‘| 80 32 | 86,90 155,00 2200 3000
+40 51108 42 |60 | 60 13 | 26,90 62,90 4200 5600
+51208 42 |6s | 68 19 | 44,00 92,40 3200 4200
+51308 42 |78 | 78 26 —_| 69,30 135,00 2700 3500
+45 51109 47 jes | 65 14___| 27,90 69,20 4000 5300
+45 51209 4 173 | 73 20 ‘| 46,50 105,00 3000 4000
+51309 47 |35 | 85 28 | 80,00 164,00 2400 3200
+51409 47 | 100 | 100 39 130,00 243,00 1900 2500
+50 51110 52. |70 | 70 14 ‘| 28,80 75,50 3800 5000
+
+
+
+===== page 25 =====
+[OCR] Document 4: SYSTEME VIS-ECROU A BILLES
+
+PD
+\ D1 |pdp] i Ai Isdelod
+jor -
+A(Greasing hole) |
+Nd
+D,<D
+Charge de base
+Modéle | d pas |dp |Dd(g6)| D1 |H u PCD | Dynamique | Statique
+Ca Cad
+
+mm [mm [mm [mm [mm | mm | mm mm | kN kN
+1404-4 14 4 14.4 26 46 10 52 36 2.8 5.1
+1405-4 [14 | 5 145 [26 |46 |10 | 60 36 3.9 8.6
+1605-4 |16 | 5 16.75/30 [49 |10 | 60 39 37 8.2
+2005-6 |20 |5 205 |34 |57 |11 | 80 45 6 16
+2505-6 [25 |5 255 |40 |o6s |11 | 80 51 69 20.8
+2510-4 25 10 26.8 47 72 12 112 58 11.4 24.5
+2805-6 |28 |5 28.75 |43  |69 |12 | 80 55 73 23.9
+2806-6 |28 |6 285 |43  |69 |12 | 90 55 73 23.9
+3210-6 |32 |10 |3375|54 [sg fas | 135 70 19.3 49.9
+3610-6 |36 |10 |37 |ss fos |is_ | 138 77 20.6 56.2
+4010-6 |40 |10 |4175|62 |104|18 | 138 82 22.2 65.3
+
+
+
+===== page 26 =====
+[OCR] Document 5 : CARACTERISTIQUES DU MOTEUR MAXON
+118778
+
+*  Puissance conseillée :
+
+* Tension nominale :
+
+© Vitesse a vide :
+
+© Couple de démarrage :
+
+¢ Pente vitesse / couple :
+¢ Courant a vide :
+
+¢ Courant de démarrage :
+© Résistance aux bornes :
+¢ Vitesse limite :
+
+* Courant permanent max. :
+
+90W .
+42V .
+7530 tr/mn
+
+1,07 Nm .
+
+7170 tr/min/Nme
+
+93 mA .
+20,3 .
+2,07 Ohm .
+
+8200 tr/mn .
+2,15A .
+
+Couple permanent max.: 0,113 Nm
+Puissance max. fournie a la tension
+nominale : 206 W
+
+Rendement max. : 86%
+Constante de couple : 0,0525 Nm/A
+Constante de vitesse : 182 tr/mn/V
+
+Constante de temps mécanique : 5 ms
+
+Inertie du rotor : 69,6 gcm2
+Inductivité : 0,62 mH
+Poids : 340h
+
+Charges maximales des roulements : 5,6 N en axial si non précontraint ; 2,4 sinon ; 28 N en
+
+radial € 5mm de la face.
+
+12am
+
+€32.09
+
+wedge/clavette 4x 6.5
+
+DN a8 TYPE
+
+2ilet/trous 1,6 x, i
+
+2541
+
+Aemmiinal/cosse 2.8 x 0,5
+
+ib of stages /nbdélages | 1] 2
+
+3
+
+ui 242 [7367
+
+BAT
+
+Dimensions de l'association avec un réducteur PLG5S2
+
+
+===== page 27 =====
+[OCR] Document 6 : DESSIN DE DEFINITION DE L'OGIVE AVANT
+
+b:S°0
+
+BTBHOR
+
+
+
+===== page 28 =====
+[OCR] Document 7 : PLAN D'ENSEMBLE DU MECANISME
+
+D'ORIENTATION ET D'EQUILIBRAGE
+
+dJnaue|d np
+uol}ejUSLO,p ausiuedaW)
+
+vie: eTTeYOR
+ayoneB ap ana
+
+T quawinsoq
+
+: eTTeyoa
+v-w adnog
+
+
+
+===== page 29 =====
+[OCR] Document 8 : NOMENCLATURE PARTIELLE DU MECANISME
+D'ORIENTATION DU PLANEUR
+
+26 Tube structure 2
+
+25 Motoréducteur translation M2 MDP 110322 et 110045
+24 Pignon moteur translation Acier, Z24=30
+
+23 Pignon Acier, m=0,5, Z)3=90
+
+22 Roulement a billes 2 MDP540-360
+
+21 Capteur position Magnétique TWK
+
+20 Réducteur Rapport 1/64
+
+19 Coussinet Iglidur 6 10 6
+
+18 Pignon codeur translation Delrin, Z=40
+
+17 Pignon Delrin, m=1, Z=16
+
+16 Coussinet codeur 2 Iglidur 6 10 6
+
+15 Pignon Delrin, 2=36
+
+14 Pignon codeur rotation Delrin, m=1, Z=16, collage léger
+13 Codeur rotation Capteur magnétique de position TWK
+12 Moteur de rotation M1
+
+1 Pignon moteur Acier, Z1:=12
+
+10 Couronne dentée Acier, m=1, Zo=120
+
+9 Masse Acier
+
+8 Balancier
+
+7 Support moteur
+
+6 Palier
+
+5 Ecrou
+
+4 Vis M12, pas de 1 mm
+
+3 Arbre de guidage
+
+2 Flasque arriére
+
+1 Flasque avant
+
+Repére | Piéce Nb | Description
+
+
+
+===== page 30 =====
+[OCR] Document 9 : MODELE DE DEFORMATION
+
+Wl
+
+Wil
+
+Figure a
+
+i
+
+QO ‘A @) .
+Y, : YY
+QO iB (3) ge
+a Za
+Figure b
+a=30 mm L=300 mm
+b=60 mm M=4 kg, masse de l'ensemble mobile (M) de centre de gravité G
+
+D=10 mm, diamétre des axes (4) et (3)
+
+E=200 000 Mpa, module d'élasticité de (4) et (3)
+
+
+===== page 31 =====
+                                                                                                                                 036
+
+
+
+
+                                                                                          Tournez la page S.V.P.
+                                                                                                                             C
+Il est interdit aux candidats de signer leur composition ou d’y mettre un signe quelconque pouvant indiquer sa provenance.
+
+
+===== page 32 =====
+Question 1.   Décrire le fonctionnement d’un codeur incrémental.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Question 2.   Justifier la phase d’initialisation.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Question 3. Expliquer la procédure proposée pour la phase d’initialisation en justifiant les deux
+points suivants : « accoster le capteur po toujours du même coté » et «puis repérer le top zéro du
+codeur ».
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Question 4.   Décrire, par un GRAFCET, l’initialisation de cet axe motorisé i.
+
+
+
+
+
+
+
+
+                                                                                               !
+
+
+===== page 33 =====
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Question 5. Ecrire l'égalité qui relie le volume sec total (volume hors eau plus volume des parois
+avant et arrière), noté V, à M et ρ pour assurer l’équilibre de flottaison ?
+
+
+
+
+
+
+
+
+
+
+
+
+                                                      
+Question 6. Exprimer en littéral, dans le repère (C, x, y ) la position longitudinale xG1 du centre de
+gravité du planeur hors piston.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                    "
+                                                                            Tournez la page S.V.P.
+
+
+===== page 34 =====
+Question 7. Soit C’ le nouveau centre de carène. Donner l'expression algébrique du déplacement ε
+= CC’ en fonction du déplacement d, de V et des données géométriques du piston.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Question 8. Soit G’ le nouveau centre de gravité. Donner l'expression algébrique du déplacement
+δ=GG’ en fonction du déplacement d, de xG1 , L et des caractéristiques de masse m et M.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                             #
+
+
+===== page 35 =====
+
+
+
+
+
+
+Question 9. Placer, sur la figure, la position du centre de gravité G’ en situation d’équilibre statique.
+Puis, déterminer l’expression de l’angle d’inclinaison φ en fonction de ε, δ et e.
+
+
+
+
+                                                                                   
+
+                                                                               
+
+
+
+
+                                                                                             
+                                                    
+
+                                                    
+
+                                                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                      $
+                                                                               Tournez la page S.V.P.
+
+
+===== page 36 =====
+                                                                      
+Question 10. Réaliser le tracé de la force hydrodynamique FH , puis des composantes de portance Fp
+                                                  
+, support (A, y1 ) et de trainée Ft, support (C ', x1 ) . En déduire les expressions analytiques de Fp et Ft en
+fonction de A, P et des caractéristiques de fonctionnement.
+
+
+
+
+                                            
+                                            A
+                                                                            
+                                                                            x1
+
+                                   
+                                   y1
+
+                                                                 
+                                                                                 
+                                                                                 y
+                                                                
+                                                                                 
+                                                                                 x
+
+
+
+
+                                                                                                    
+                                                       
+
+                                                       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                            %
+
+
+===== page 37 =====
+                                                                              
+Question 11. Le centre de gravité G' du planeur est situé sur l'axe Δ= (G0 , x1 ) . Déterminer sa position
+et tracer le poids sur l’esquisse. Vous préciserez le théorème utilisé pour déterminer sa position.
+
+
+
+
+                                             
+                                             A
+                                                                           
+                                                                           x1
+
+                                    
+                                    y1
+
+                                                                 
+                                                                                
+                                                                                y
+                                                                
+                                                                                
+                                                                                x
+
+
+
+
+                                                                                               
+                                                     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Question 12. Déterminer le déplacement du piston nécessaire pour obtenir un angle de tangage de
+30°.
+
+
+
+
+                                                                                                            &
+                                                                                    Tournez la page S.V.P.
+
+
+===== page 38 =====
+                                                                                       
+                                           = f () 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Question 13. Estimer la précision nécessaire sur le déplacement du piston pour obtenir, autour de
+30°, un contrôle de l'angle de tangage répondant au cahier des charges. Conclure.
+
+
+
+
+
+
+
+
+
+                                                                                              '
+
+
+===== page 39 =====
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                   
+Question 14. En déduire, pour cet angle de 30°, l'intensité de FH et la composante de trainée Ft.
+Tracer le point de fonctionnement. En déduire la vitesse longitudinale du planeur.
+
+                                              
+                       
+
+
+                      
+
+
+                      
+
+
+                      
+
+
+                      
+
+
+                      
+
+
+                      
+                                                                     
+                                            
+                                                                                           
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Question 15. Estimer la durée d’un cycle de montée-descente entre les profondeurs de 0 et 300 m.
+
+
+
+                                                                                                              (
+                                                                                      Tournez la page S.V.P.
+
+
+===== page 40 =====
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Question 16. Estimer l’énergie nécessaire pour sortir le piston de ballastage de 8 cm à 300 m de
+profondeur (soit à une pression de 3.106 Pa). La section du piston est de 5000 mm2.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Question 17. Exprimer, en Joule, l'énergie disponible dans un accumulateur.
+
+
+
+
+
+
+
+
+
+
+
+
+
+Question 18. En déduire le nombre minimum d'accumulateurs à embarquer dans le planeur pour
+assurer une autonomie d'une semaine si 80% de l'énergie doit être disponible pour l'électronique de
+contrôle et de mesure.
+
+
+
+
+                                                                                                
+
+
+===== page 41 =====
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Question 19. Définir sur le calque réponse, en zone d'étude 1 et à l'échelle, la liaison vis-écrou en
+choisissant un composant document 4 dont vous choisirez la référence. L'ensemble est démontable et
+vous définirez, en particulier :
+    la liaison encastrement de l'écrou avec le piston,
+    le blocage en rotation du piston par l'intermédiaire d'un doigt dans la rainure prévue a cet effet
+       dans le corps du vérin.
+
+
+
+
+
+
+
+
+Question 20. Définir sur le calque réponse, en zone d'étude 2 et à l'échelle, une solution
+démontable, permettant :
+                  
+             
+               
+               
+           
+
+
+
+
+
+
+Question 21. Quelle est la composition de l’alliage proposé ?
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                     
+                                                                             Tournez la page S.V.P.
+
+
+===== page 42 =====
+[OCR] Question 22. Tracer, en positionnant les valeurs caractéristiques, I’allure de la courbe de traction
+pour cet alliage
+
+Question 23. Rappeler, en faisant un schéma, le principe de dépét métallique par anodisation.
+
+Question 24. Expliquer les spécifications portées sur le dessin de définition document 6.
+
+@180h7 (,-40um) ;
+
+12
+
+
+
+===== page 43 =====
+[OCR] UONIUTZ9P op UISsap Np Wenxy
+
+vUgyoS
+agiplogds:
+
+souaigyai eB] v Hodder ted “gouvsg[O} ap auOz eB] sup JoTUS
+uonisod uoneyueLo agsoduioa auigysks safdyynur adnois MO} JONYIS 2s POP ZOULIDIO} JOU], T
+soqurequod ojduns sunumos = aydums anbrun onbrun Q}1ULIOJUOD ap UOHIPUOD
+
+juawianeq uortsod
+(s)agyragds EACROICRS (s)gouvagjoL, uoHeUaLIO OULIOy
+a9uv.19[0} op au07, (s)aoua1939e ap suawig|y syuswi9[a uoneayiogds ap od A],
+
+xnegpl syuaug|q
+
+« 9]9POUl UTYs » Np speNnxy
+xnegp! uo syuawgTy,
+
+uoHRoyieds ev] ap ajoquiks
+
+auv.g{o) ap auoz aed uoHwaytopds aun,p askteuy
+
+ASTTIVWUON INAWAONVATTIOL
+
+13
+
+Tournez la page S.V.P.
+
+
+
+===== page 44 =====
+[OCR] LW[S[FOls|
+
+UONIUL9P Op UIssop Np WeNXy
+BUYS
+
+agiplogds:
+souaigyai eB] v Hodder ted
+
+“90uR19[0} Op auOZ P| SUBP JONUD
+
+uonisod uoneyueLo agsoduioa auigysks soydiyynu adnoid JNO} JONBIS 9s JOP QoULII|O} JUOW|?,T
+sazule.Qu0D ayduns sunumos = aydums anbrun enbrun 9PIULAOJUOD 9p UOHIPUOD
+quOUIOeq wonIsod
+(s)agyragds EACROICRS (s)gouv.19]01, UOIRIUSLIO OULIOS
+99UB19]0} ap 207, (s)aauaagy9ay ap suawigyy syusUla| a uoyeaytagds ap odA |,
+
+xnegp! syuawa]y
+
+« 9]9PO ULYs » NP seyX|
+xnegp! UoU s}UsWaT
+
+uoRRoyioeds ey ap ajoquiks
+
+‘Jauv.A9[9} ap ou0z 1ed UOHEDIFIO9dS auN,p asKfeUV
+
+ASTTVINUON INAWADNVUTTIOL
+
+14
+
+
+
+===== page 45 =====
+[OCR] uONTULEp ap UISsop Np WeNXy
+
+BURQIDS
+
+agiplogds:
+souaigyai eB] v Hodder ted
+
+*g0UB19[0} Bp UOZ v] SUP JoNNUD
+
+uonisod uoneyueLo agsoduioa auigysks soydiyynu adnoid NO} JONES 9s HOP gouRIg]O} JUSTHII9, T
+sazule.Qu0D ayduns sunumos = aydums anbrun onbrun + 9U1ULIOJUOD ap UOHIpPUoDy
+quoUISeq uoHIsod
+(s)agyragds EACROICRS (s)goueag]01, UOHeIUILIO OULIOY
+a9uv.19[0} op au07, (s)aoua1939e ap suawig|y syuatg|A uoyeaytagds ap adA
+
+xnegp! sjuauig{a
+
+« Q]9POU! UTYS » Np spenx
+xnegp! Uo syusWT A,
+
+uoHRoyioeds ey] ap ajoquiks
+
+2auv.9[0} ap auoz aed UoHEDIHIO9ds auN,p ascteUV
+
+ASTTVWUON INAWAODNVUAIOL
+
+15
+
+Tournez la page S.V.P.
+
+
+===== page 46 =====
+Question 25. Proposer une cotation normalisée entre les deux plans B et C qui permette de
+positionner les deux surfaces (voir document 6, valeur nominale 10 mm, IT = 0,2 mm))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Question 26. Citer les opérations nécessaires à la réalisation d’un taraudage en proposant un outil
+par opération.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Question 27. Est-il possible de réaliser les 4 taraudages avec le tour 2 axes de l’entreprise ?
+Proposer une typologie de tour apte.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                %
+
+
+===== page 47 =====
+Question 28. Proposer un brut en adéquation avec la série de 5 pièces.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Question 29. Préciser le mode d’obtention du brut puis décrire ce procédé par un schéma.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Question 30. Proposer pour chacune des deux phases :
+- une symbolisation de la mise en position,
+- les surfaces usinées,
+- le repère machine.
+
+                                          
+
+                     
+
+
+
+
+
+
+                                                                                                  &
+                                                                          Tournez la page S.V.P.
+
+
+===== page 48 =====
+[OCR] 18
+
+
+
+===== page 49 =====
+[OCR] Question 31. A partir de la courbe théorique finale tracée, et en vous aidant de la figure 5,
+- dessiner la position de la surface usinée avant anodisation (en bleu),
+- tracer ensuite les courbes limites délimitant la zone de tolérance de la surface usinée (en rouge).
+
+ET
+
+Question 32. Dessiner les successions de droites (en vert) qui représentent la trajectoire de I’outil et
+qui respectent les tolérances spécifiées en positionnant les points d’intersections de ces droites.
+
+xA
+
+Iso courbes 40,025 mm
+
+Question 33. Exprimer deux origines des défauts d’usinage.
+
+19
+
+Tournez la page S.V.P.
+
+
+===== page 50 =====
+Question 34. Votre trajectoire précédente est elle toujours valable ? Si besoin, proposer une
+modification de la trajectoire.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Question 35. Identifier sur le schéma cinématique proposé une pièce principale (cf. documents 7 et
+8) de chaque classe d'équivalence.
+
+                                                 
+
+
+
+
+                                                                                      
+                                                 
+
+
+                                                                                              !
+
+
+===== page 51 =====
+Question 36. Réaliser le graphe de liaison associé au schéma cinématique proposé et identifier
+dessus les mobilités contrôlées par un actionneur.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Question 37. Déterminer le degré d’hyperstatisme de ce modèle et, si celui-ci est non nul, indiquer la
+ou les contraintes géométriques associées.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Question 38. Déterminer les expressions de YA , Z A et Z B en fonction de M, a, b et g
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                  ! 
+                                                                            Tournez la page S.V.P.
+
+
+===== page 52 =====
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                   
+Question 39. Exprimer le déplacement vB, du centre de section B, dans la direction z induit par la
+                                                          
+déformation de la poutre (3) sous l'effet de la force Z B z .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                              !!
+
+
+===== page 53 =====
+Question 40. Exprimer, en fonction de vB et de la géométrie de (M), le déplacement vertical du centre
+de gravité G (on supposera (4) non déformée).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                               
+Question 41. Exprimer les déplacements de A, notés uA et vA respectivement dans les directions y
+   
+et z , sous l'action de YA et Z A .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                                                                                   !"
+                                                                           Tournez la page S.V.P.
+
+
+===== page 54 =====
+Question 42. En déduire l’expression du déplacement vertical du centre de gravité en fonction de M,
+g et des caractéristiques géométriques et de matériau.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Question 43. Calcul fait, le déplacement vertical de l’axe est estimé à 5 mm. Est-ce que la contrainte
+de positionnement du centre de gravité du cahier des charges est vérifiée ?
+
+
+
+
+                                                                                                  !#
+
+
+===== page 55 =====
+[OCR] Zone arriére i Zone avant @e
+i <
+|
+| Position de la
+i cloison avant [~
+|
+VUE EN COUPE i
+|
+Zone d'étude 2 c
+ee Zone d'étude 1 i
+Motoréducteur M3 |
+
+4
+
+Vue incomplete
+
+Calque réponse A3
+Vérin de ballastage
+
+

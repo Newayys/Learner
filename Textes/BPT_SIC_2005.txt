@@ -1,0 +1,846 @@
+
+===== page 1 =====
+[OCR] A36 K
+
+#% BANQUE FILIERE PT *
+
+Epreuve de Sciences Industrielles C
+
+Durée 6h
+
+Attention penser a rendre les six documents réponse en méme temps que les copies.
+
+Tramway sur pneus a guidage par rail central
+
+Photo 7 : Tramway de Nancy
+
+Si, au cours de I’épreuve, un candidat repére ce qui lui semble étre une erreur
+d’énoncé, il le signale sur sa copie et poursuit sa composition en indiquant les
+raisons des initiatives qu’il est amené a prendre.
+
+
+===== page 2 =====
+[OCR] Instructions générales et liste des documents
+
+Matériel autorisé :
+
+Q Tout instrument de dessin industriel.
+a Calculatrice de poche sans imprimante, sans document d'accompagnement.
+
+Le sujet comprend une introduction et 6 parties
+
+a Partie 1: Etude du séquencement des opérations de descente et de levage des
+galets de guidage
+
+Partie 2: Etude du systéme de guidage
+
+Partie 3: Etude du levage du galet
+
+Partie 4: Etude du comportement du tramway dans les trajectoires courbes
+
+Partie 5: Etude de la réalisation de la chape
+
+Partie 6: Etude de la conception du systéme de levage
+
+ooooo
+
+Le sujet comporte 9 pages numérotées de 1 a 9 et les figures suivantes :
+
+a Photo 1: Tramway de Nancy.
+
+a Figure 0.1: Rame de tramway.
+
+a Figure 0.2: Systeme de levage et d’alignement d'un galet.
+
+a Figure 0.3: Galet en position basse.
+
+a Figure 0.4: Galet en position haute.
+
+a Figure 1.1: Inventaire des entrées/sorties du modéle GRAFCET.
+Q Figure 2.1: Ressort hélicoidal.
+
+a Figure 3.1: Cinématique du systéme de levage.
+
+a Figure 4.1: Schéma simplifié de la transmission directionnelle.
+
+a Tableau 6.1: Coussinet a collerette ou coussinet cylindrique.
+
+Liste des documents annexes :
+a Document 2.0: Schéma cinématique plan du systéme de levage.
+a Document 5.1: Dessin de définition partiel de la chape du galet.
+Liste des documents réponse a rendre avec la copie :
+Etude du systéme de guidage.
+
+Etude du levage du galet.
+Analyse des spécifications.
+
+Document réponse 2.1 :
+Document réponse 3.
+Document réponse 5.
+Document réponse 5. Etude de fonderie.
+
+Document réponse 5.4: Etude de fabrication format A3.
+Document réponse 6.1: Calque pré-imprimé format A3.
+
+coocooa
+
+Recommandations du pourcentage de temps a consacrer a chacune des parties :
+
+Partie1: 5%
+
+Partie2: 15%
+Partie3: 15%
+Partie4: 20%
+Partie5: 20%
+Partie6: 25%
+
+coooca
+
+
+===== page 3 =====
+[OCR] Introduction :
+
+Afin de diminuer le flux de véhicules circulant a l’intérieur des agglomérations, les pouvoirs publics
+s'orientent vers des transports en commun de plus en plus gros, permettant ainsi un débit plus
+élevé de passagers. Le métro présente de nombreux avantages (nombre de places important,
+nuisance sonore faible, détérioration du paysage nulle...) mais il a un codt qui n’est pas toujours
+en rapport avec le budget des villes moyennes. Le sujet proposé porte sur le tramway sur pneus a
+guidage par un rail central congu par la société Bombardier, qui présente deux avantages par
+rapport au tramway sur rails : d'abord de minimiser les cotits de fabrication des voies, ensuite de
+pouvoir fonctionner également sur route. Les caractéristiques techniques de ce tramway sont
+données dans le tableau ci-dessous.
+
+Longueur 24,480 m
+
+Largeur 2,500 m
+
+|Hauteur 3,220
+
+Ecartement des voies _ 1 rail central encastré
+Nombre de portes 4
+
+Places assises 48
+
+Places debout 103
+
+Places totales 151
+
+Puissance 300 kW
+
+Rayon de braquage 30m
+
+Traction Asynchrone
+
+Poids a vide 25 500 kg
+
+Poids total en charge 38 000 kg
+Empattement des bogies 7,510 / 7,310 / 6,078 m__
+Vitesse en mode routi 55 km/h
+
+Vitesse en mode routier électrique | 70 km/h
+
+Vitesse en mode rail électrique 45 km/h
+
+Le guidage est assuré par quatre essieux comportant chacun deux galets, qui transmettent
+lorientation, par un systéme de biellettes, aux huit roues pneumatiques du tramway, permettant
+ainsi de suivre la trajectoire désirée.
+
+225 3183 1300 740. 1390 3s 2078 1820.5
+
+asi 7310 ase
+
+28830
+
+Figure 0.1 : Rame de tramway
+
+
+===== page 4 =====
+[OCR] Ce tramway fonctionne également en mode routier, c’est-a-dire que le conducteur reléve les
+essieux qui portent les galets, puis pilote le véhicule a l'aide d'une direction assistée par un vérin
+hydraulique.
+
+La propulsion du véhicule est assurée par deux moteurs :
+e un moteur thermique autorisant une vitesse maximale de 55 km/h.
+
+e un moteur électrique bridé a 45 km/h en mode rail, mais pouvant atteindre 70 km/h en
+mode routier électrique.
+
+Pour s’assurer de la bonne position des galets sur le rail, seize capteurs (deux par galets) sont
+nécessaires. L’un détecte la position haute d'un galet, l'autre, solidaire du mouvement du galet,
+détecte l’alignement correct avec le rail de guidage en position basse. La descente et le levage
+des essieux de guidage s’effectuent a l'aide de seize vérins hydrauliques (2 par galets, voir figures
+0.2, 0.3 et 0.4).
+
+2 Vérins
+
+hydrauliques par
+
+galet
+
+ee
+
+Galet
+cs ~ ‘i \
+2 Ressorts Tee i | ‘ roy
+mae . , Capteur
+a ~ ) d'alignement
+ms? i) \
+
+Figure 0.2 : Systeme de levage et d’alignement d'un galet.
+
+Figure 0.3 : Galet en position basse
+
+-2-
+
+
+===== page 5 =====
+[OCR] Figure 0.4 : Galet en position haute
+
+Partie 1: Etude du séquencement des opérations de descente et de levage des
+galets de guidage.
+
+Dans cette partie, on se propose d’étudier le processus de descente et de levage des galets d'un
+essieu, afin d’assurer l’alignement correct avec le rail central. Le conducteur doit appuyer sur le
+bouton de départ cycle de descente (dd), pour descendre les galets et sur le bouton départ cycle
+montée (dm), pour les remonter. L’opération de descente ne doit pas durer plus de 2 secondes. Si
+Valignement n'est pas détecté, l’essieu doit automatiquement remonter puis un voyant de défaut
+s'allume au tableau de bord, le conducteur acquitte le défaut en appuyant sur le bouton départ
+cycle montée. Le conducteur réaligne manuellement la rame sur le rail de guidage et recommence
+lopération de descente des galets. Trois voyants, galets levés, galets alignés et défaut informent
+le conducteur sur l'état du systeéme de descente et de levage.
+
+Descendre galet 1 (DG1)
+
+Galet 1 haut (gh1)
+Descendre galet 2 (DG2)
+
+Galet 2 haut (gh2) GRAFCET _>2
+——E—reet |
+Monter galet 1 (MG1)
+Galet 1 aligné sur rail (ga1)
+descente et Monter galet 2 (MG2)
+Galet 2 aligné sur rail (ga2) Voyant galets alignés (V_ALI),
+|_Voyant galets alignés (V_ALI),
+levage d’un essieu .
+Départ cycle descente (dd) Voyant galets levés (V_LEV)
+= Ee NENT aN
+
+Voyant défaut (V_DEF)
+Dénart evele mantée (dm)
+eaceiabeinisniaiisisiaiaieaiia
+
+Figure 1.1 : Inventaire des entrées/sorties du modéle GRAFCET
+
+Question 1.1 : Donner l'état initial du systeme correspondant a la situation initiale de votre
+GRAFCET.
+
+
+===== page 6 =====
+[OCR] Question 1.2: A partir de l'inventaire des entrées/sorties donné figure 1.1, établir le
+GRAFCET de descente et de levage des galets d’un essieu de guidage et de gestion des
+voyants associés.
+
+Partie 2 : Etude du systéme de guidage.
+
+Pour permettre un guidage satisfaisant, et une transmission directe de |’orientation des roues, il est
+nécessaire d’avoir un effort normal de chaque galet sur le rail de 7500 N. Cet effort est engendré
+
+par les deux vérins. On notera Wey } = {4 a m;,\ le torseur des efforts transmissibles, au point
+
+A, du solide i sur le solide j. On supposera dans cette partie que le probléme est plan, que les
+forces de pesanteur sont négligées ainsi que les efforts de frottement. Le contact en K est
+maintenu dans cette étude (voir le schéma cinématique du document 2.0)
+
+Question 2.1 : Sur la figure du document réponse 2.1, déterminer graphiquement l'effort
+de poussée nécessaire pour les 2 vérins. On négligera pour cette étude, les actions des 2
+ressorts. On prendra comme échelle des forces : 2 cm pour 7500 N. Justifier rapidement la
+démarche utilisée.
+
+Question 2.2 : Ces vérins hydrauliques travaillent sous une pression de 150 bars. Calculer
+la section utile d’un vérin.
+
+Question 2.3 : Donner la fonction des ressorts.
+
+Le fil d’un ressort hélicoidal est essentiellement sollicité en torsion (voir figure 2.1). Pour un effort F
+appliqué sur ce ressort, on obtient une fléche fdu ressort. On donne la relation suivante :
+
+Ou:
+e ff estla fléche du ressort en mm.
+e¢ G= 80000 N/mm?
+e n=13: nombre de spires du ressort.
+
+R=10mm
+F R F r=3mm
+<r EE
+2r
+
+Figure 2.1 : Ressort hélicoidal
+
+Question 2.4: Expliquer succinctement d’oti provient la relation précédente. Calculer
+leffort engendré par chaque ressort pour une élongation f de 30 mm.
+
+Question 2.5 : Peut-on conserver I'hypothése faite a la question 2.1 ? Justifier la réponse.
+
+
+===== page 7 =====
+[OCR] Partie 3 : Etude du levage du galet
+
+Lors de la phase de levage du galet, la tige du vérin sort du corps a une vitesse de 20 mm/s. Ceci
+a pour effet de faire pivoter la piéce 6 autour du point G, entrainant a l'aide de la biellette 5, la
+piéce 4 en rotation autour du point fixe D. La liaison sphére/plan en K permet ainsi l'entrainement
+en rotation de la piéce 3 autour du point D. Le contact en K entre la piéce 4 et la piéce 3, est
+maintenu dans toute cette partie. On justifiera les constructions sur la copie.
+
+mi
+J xt
+a cm
+& \ Effort du “a
+
+Figure 3.1 : Cinématique du systéme de levage
+
+Question 3.1: En prenant comme échelle des vitesses 1 cm pour 20 mm/s, tracer sur le
+document réponse 3.1 la vitesse du point H dans le mouvement de la tige 7 par rapport
+
+au corps 8 notée : V4.
+
+Question 3.2 : Placer sur la méme figure les centres instantanés de rotation suivants : I10,
+Tart, Iai2s Iaio, lao, bara, lars: Isie et lero.
+
+Question 3.3 : En déduire et placer sur la méme figure, le centre instantané de rotation :
+I5i0.
+
+Question 3.4 : Déterminer graphiquement sur la méme figure, la vitesse du point F dans le
+mouvement de la piéce 5 par rapport au bati 0.
+
+Question 3.5 : Déterminer graphiquement sur la méme figure, la vitesse du point E dans le
+mouvement de la piéce 4 par rapport au bati 0.
+
+Question 3.6: La droite (CD) est pratiquement paralléle a la droite (AB). En faisant
+approximation que lo se trouve a l’infini sur la droite (AB), déterminer graphiquement sur
+la méme figure, la vitesse du point C dans son mouvement de la piéce 2 par rapport au bati
+0.
+
+Partie 4 : Etude du comportement du tramway dans les trajectoires courbes.
+
+Lorsque le tramway aborde une trajectoire courbe, l’'adhérence d’un pneu sur la route engendre un
+moment selon z di au pivotement du pneu par rapport a la route. On supposera les actions
+identiques sur chaque pneu. On modélisera les actions de la route sur les pneus par les torseurs
+suivants :
+
+
+
+===== page 8 =====
+[OCR] Le schéma simplifié (figure 4.1), met en évidence la transmission directionnelle des galets de
+guidage aux pneus du tramway.
+
+| eel
+
+Loh
+, Lie@bas4
+2a
+vA 2 | ou —— i
+la
+
+Do, x UD)
+
++t 5b
+a D
+
+Figure 4.1 : Schéma simplifié de la transmission directionnelle.
+
+©
+
+On note FxR-+a) et Fx(rss»), les composantes sur ¥ des forces du rail sur les galets 5a et 5b. On
+néglige les masses et les inerties des pieces du schéma figure 4.1, et on suppose que les liaisons
+sont parfaites.
+
+Question 4.1 : Donner une relation liant L;, Lo, Ls, M, Fxirssay et Fx(xssn)- On détaillera la
+démarche utilisée.
+
+Question 4.2 : Pourquoi le constructeur a-t-il pris des valeurs de L, et L2 différentes ?
+
+Question 4.3 : On suppose que les valeurs absolues des composantes Fxip.45a) et FXir+sb)
+sont égales. Exprimer Fx(r45a) en fonction des paramétres de la question 4.1.
+
+Question 4.4 : Du fait de la déformation élastique des pneus dans les courbes, des efforts
+tangentiels supplémentaires sont encaissés par les galets. Que se passe-t-il si ces efforts
+sont trop importants ?
+
+Question 4.5 : Proposer une solution pour remédier a ce probléme.
+
+Partie 5 : Etude de la réalisation de la chape du galet
+
+La chape du galet défini document 5.1 (élément 2 du systéme de levage) en aluminium 2024
+(AlCu4Mg1) est réalisée par moulage puis usinage. Pour des raisons de fabrication la partie
+permettant la liaison pivot du point C sera rapporté par la suite par un élément en liaison complete
+démontable. La production envisagée est de 500 unités.
+
+Les surfaces usinées sont :
+
+e Les plans PI1, Pl2, PI3.1 et Pl4.1, PI5.1, PI6.1, PI7.1, PI8.1, PI9.1 et leurs symétriques
+par rapport au plan médian de la piéce PI3.2, Pl4.2, PI5.2, PI6.2, PI7.2, PI8.2, PI9.2
+
+e Les cylindres Cy1, Cy2 et Cy3.1, Cy4.1, Cy5.1, Cy6.1 et leurs symétriques par rapport
+au plan médian de la piéce Cy3.2, Cy4.2, Cy5.2, Cy6.2.
+
+e Les trous taraudés Tt1.1, Tt2.1, Tt3.1, Tt4.1 et leurs symétriques par rapport au plan
+médian de la piéce Tt1.2, Tt2.2, Tt3.2, Tt4.2.
+
+
+===== page 9 =====
+[OCR] 5.1: Analyse des spécifications
+
+Question 5.1: Sur le document réponse 5.2 « Analyse des spécifications » expliciter
+les 4 tolérances extraites de dessin de définition partiel du document 5.1 en respectant la
+décomposition suivante :
+
+e Donner le nom de la caractéristique tolérancée.
+
+e Définir le(s) élément(s) tolérancé(s) en précisant son type (plan, cylindre, ...) et sa
+nature (idéale ou réelle).
+
+e Définir le(s) élément(s) de référence(s) en précisant son type (plan, cylindre, ...) et sa
+nature (idéale ou réelle).
+
+e Définir la (ou les) référence(s) spécifiée(s) en précisant leur type (plan, cylindre, ...),
+leur nature (idéale ou réelle), les contraintes d'orientation et les critéres d’association.
+
+e Définir la forme de la (ou des) zone(s) de tolérance, donner une représentation
+graphique 3D, la valeur et les contraintes d'orientation et/ou de position de la (ou des)
+zone(s) de tolérance par rapport au systéme de références spécifiées.
+
+5.2 : Etude de l’obtention du brut
+
+Question 5.2.1 : Donner la signification du matériau : 2024 (AlCu4Mg1).
+
+Question 5.2.2 : Proposer, en le justifiant, un procédé de moulage pour l’obtention de cette
+piéce.
+
+Question 5.2.3 : En utilisant la liste des surfaces usinées, proposer un dessin non coté du
+brut sur le document réponse 5.3 « Etude de Fonderie ». Il est demandé de :
+
+Situer le plan de joint,
+
+Le vecteur gravité,
+
+les surépaisseurs d’usinage (3mm),
+
+la forme éventuelle des noyaux.
+
+REMARQUE : Ne pas représenter les dépouilles, tous les trous de diamétre inférieur a
+30mm seront bouchés. On s’attachera a minimiser le volume de la piéce tout en simplifiant
+le moule. II est fortement conseillé d’utiliser de la couleur.
+
+5.3 : Etude de l’usinage
+
+On se propose maintenant d’étudier la phase d’usinage de la chape du galet. La machine utilisée
+est un centre d’usinage 4 axes a broche horizontale disposant d’un plateau tournant (3 translations
+X, Y et Z et une rotation B autour de I’axe Y).
+
+Question 5.3.1 : Proposer sur le document réponse 5.4 une mise en position qui respecte
+l'accessibilité des surfaces usinées et la symétrie des surfaces usinées par rapport au plan
+médian de la piéce brute.
+
+Question 5.3.2: Proposer sur le document réponse 5.4 différentes orientations de la
+piéce permettant d’'usiner l'ensemble des surfaces énumérées. Pour chacune des
+orientations il est demandé de :
+
+* représenter le repére d’usinage (X, Y et Z)
+¢ donner et colorier la liste des surfaces usinées.
+
+Question 5.3.3: En prenant comme hypothése que le plan PL5.1 est déja fabriqué,
+proposer la liste numérotés des opérations avec les outils, permettant de réaliser les
+cylindres Cy3.1 et Cy4.1, le plan PI6.1 et trou taraudé Tt1.1 (pas de 2 mm).
+
+
+===== page 10 =====
+[OCR] Liste non exhaustive des outils disponibles :
+
+e Foréts a pointer diamétre : 8, 10, 20
+
+¢ Foréts hélicoidaux diamétre : 6, 8, 10, 12, 14, 16, 20, 24, 28
+
+e Foréts hélicoidaux série longue diamétre : 6, 8, 10, 12, 14, 16, 20, 24, 28
+e Foréts a fond plat diamétre : 10, 12, 14, 16, 20, 24, 27, 28
+
+e Tarauds machine : M12, M14, M16
+
+¢ Fraises 2 tailles diamétre : 10, 12, 14, 16, 20
+
+e Alésoirs machine diamétre : 10, 14, 20, 25, 28, 32
+
+5.4 : Etude de la réalisation du montage d’usinage
+
+Le montage d'usinage permettant de positionner et maintenir la chape du galet sur le centre
+d'usinage 4 axes est réalisé a partir d’éléments modulaires de mise en position et d'une équerre
+mécano soudée. Pour assurer la rigidité du montage, l’équerre sera réalisée a partir de plaque
+d'acier de 40 mm d’épaisseur et possédera des nervures. Les moyens disponibles pour la
+réalisation de l'équerre sont :
+
+e Des procédés d’usinage
+
+e Des procédés de traitement thermique
+
+e Des procédés de découpe de plaque
+
+e Des procédés de soudage
+
+Question 5.4.1 : Proposer une désignation normalisée du matériau pour I’équerre.
+
+Question 5.4.2: Dessiner 4 main levée une vue en perspective de I’allure du montage
+d’'usinage. On demande de représenter uniquement les formes générales et en particulier
+celles permettant l'accessibilité des surfaces a usiner et de la mise en position de I’équerre
+sur le centre d’usinage.
+
+Question 5.4.3 : Proposer une gamme de fabrication de I'équerre sous la forme d’une liste
+de procédés dont on précisera les caractéristiques, on pourra s'aider de dessins.
+
+Partie 6 : Etude de la conception du systéme de levage
+
+Cette partie conduit 4 la conception du sous-ensemble du systéme de levage d’un galet. On ne
+s'intéressera a la conception du mécanisme a biellette que d’un coté, l'autre étant symétrique.
+
+L’ensemble des liaisons pivots seront réalisées a l'aide de paliers lisses (voir tableau 6.1)
+
+Il est demandé de répondre sur le calque pré-imprimé format A3 document réponse 6.1 (a
+rendre non plié avec la copie) et comprenant 7 vues (une vue de dessus, la coupe A-A, la coupe
+B-B, la section rabattue C-C passant par les points C-D-E-F-G, la coupe D-D, la section E-E et la
+vue isométrique des éléments du bati, de la chape et du galet).
+
+Une attention particuliére sera portée sur la qualité graphique, sur les ajustements fonctionnels
+permettant le fonctionnement et le montage ainsi qu’a la définition des formes nécessaires a la
+compréhension du systéme.
+
+En s’inspirant des formes et des positions extrémes définies sur les figures 0.3 et 0.4, on concevra
+en particuliers :
+
+«la piéce en liaison compléte avec la chape de galet 2 et supportant la liaison pivot C
+(axe 016)
+
+* la biellette 3 en liaison pivot avec 2 en C et en liaison pivot avec 4 et le bati en D (axe
+@16). Cette piéce est également en liaison linéique avec la piéce 3 en K.
+
+
+===== page 11 =====
+[OCR] la biellette 4 en liaison pivot avec 3 et le bati en D et en liaison pivot avec 5 en E (axe
+216).
+
+la biellette 5 en liaison pivot avec 4 en E et en liaison pivot avec 6 en F (axe 16).
+
+le levier 6 en liaison pivot avec 5 en F, en liaison rotule avec la tige du vérin en H (axe
+@10) et en liaison pivot avec le bati en G (axe @28).
+
+la chape 1 en liaison pivot avec le bati en A (axe @22) et en liaison pivot avec la chape
+du galet en B (axe @22). Cette piéce assure la liaison pivot des deux cotés du bati et de
+la chape du galet.
+
+la liaison du ressort (en traction permanente) entre la biellette 3 et le bati.
+
+Il est demandé de dessiner :
+
+Sur la coupe B-B et la section rabattue C-C : les piéces 3, 4, 5, 6, la piece rapportée sur
+2 ainsi que leurs liaisons.
+
+Sur la coupe A-A, la section rabattue C-C et la section E-E : la piéce 6 en liaison avec
+l'extrémité du vérin ainsi que la liaison du ressort avec la piéce 3.
+
+Sur la coupe D-D et la coupe B-B : la demi-piéce 1 et ses liaisons avec la chape et le
+bati, ainsi que la piéce rapportée a la piéce 2 avec sa liaison complete.
+
+Sur la vue de dessus : définir les formes nécessaires a la compréhension du dessin.
+
+On précisera sur une liaison pivot judicieusement choisie les différents ajustements et
+jeux fonctionnels.
+
+REMARQUES :
+
+Pour des raisons de simplifications, les différentes liaisons entre les piéces constituant
+le bati ne sont pas complétement définies.
+
+Les formes générales du bati et de la chape du galet ne sont pas modifiables.
+Il n'est pas demandé de représenter le vérin.
+La liaison entre le galet et la chape n'est pas demandée.
+
+Tableau 6.1 : Coussinet a collerette ou coussinet cylindrique
+
+Ne d}/o{[tlalo{[tftalofe
+a | to | 16 | 8 | 14 | 20 | 28 | 20 | 26 | 16
+: +. 10 | 16 | 10 | 16 | 22 | 16 | 20 | 26 | 20
+\ 10 | 16 | 16 | 16 | 22 | 20 | 20 | 26 | 25
+=| 12 | 18 | 8 | 16 | 22 | 25 | 20 | 26 | 32
+= 12_| 18 | 12 | 16 | 22 | 32 | 25 | 30 | 20
+12 | 18 | 20 | 18 | 24 | 18 | 25 | 30 | 35
+_ 14 | 20 | 14 | 18 | 24 | 22 | 25 | 30 | 32
+=a) 14 | 20 | 18 | 18 | 24 | 28 | 25 | 30 | 36
+a rrr——‘“—s—sSsO—
+
+
+
+===== page 12 =====
+[OCR] Document 2.0 : Schéma cinématique
+
+bo Axe de la tige du vérin
+
+D
+
+Axe du ressort
+
+
+===== page 13 =====
+[OCR] 7
+
+Section C-C
+
+Section D-D
+
+=) c 31) C
+
+4x 016 H11
+
+—l]9 0.1, A[B ICD
+
+298 20.2
+
+Cy2
+
+PU]
+
+Pl2
+
+fa Cy4 Vues Isométriques
+mt TH
+Plé.] 4 Oa
+0 28H7 |
+B ; E
+ECHELLE Réalisé TopSolid
+1:4 | ChapeduGalet
+=1© Document 5.1
+A4 Dessin de définition partiel oo
+
+
+
+===== page 14 =====
+[OCR] Document réponse 2.1 : Etude du systéme de guidage
+
+Axe de la tige du vérin
+
+NE RIEN ECRIRE
+
+DANS CE CADRE
+
+8) (8)N,
+
+TSWOUSIg
+
+yepipueo np .N
+
+Tadlep ais] 21 10 UomeSOAUCD
+ins eundy inb nje0 js0 cxpunu 9)
+
+T elwepeoy
+
+* UOISseS”
+
+"eee
+sO 8B s
+Pe b a
+risee
+3 See
+& @ & lo
+g 295
+2 BBS
+2 &
+7 ERB
+J oO
+= ¢ iS
+& 3S a |
+: _
+Fy
+3
+|
+D
+3
+3
+ka
+oO
+io
+8
+s
+a QP
+ee
+& @
+
+"Na e1@POW
+
+
+===== page 15 =====
+[OCR] Document réponse 3.1 : Etude du levage du galet
+
+a Axe de la tige du vérin
+
+NE RIEN ECRIRE
+
+SYIHOa NaI AN
+
+SaYYVE 3ILYVd V1 SNVG
+
+
+===== page 16 =====
+[OCR] Document réponse 5.2 : Analyse des spécifications
+
+NE RIEN ECRIRE
+
+Symbole
+
+298 20.2
+
+zone commune
+[2/01]
+
+(Ljo1;Co
+
+4x16 H11
+{¢[90.1/A/B/C-D|
+
+Nom de la caractéristique
+tolérancée
+
+Elément(s) tolérancé(s)
+
+- type
+- nature
+
+Elément(s) de
+référence(s)
+
+- type
+
+- nature
+
+Référence(s) spécifiée(s)
+- type
+- nature
+- contraintes
+d'orientation
+- critéres d’association
+
+Zone(s) de tolérance
+- représentation 3D
+- valeur
+- contraintes
+d'orientation
+
+SYINOS Nald SN
+
+SSYYVE SILYVd V1 SNVG
+
+
+===== page 17 =====
+[OCR] DOCUMENT REPONSE 5.3 : Etude de Fonderie - Echelle : 1:4
+
+SYIYOA NAld SN
+
+SaYYVE SILYvd V1 SNVG
+
+
+===== page 18 =====
+[OCR] DOCUMENT REPONSE 5.4 - ETUDE DE FABRICATION NE RIEN ECRIRE _—
+MISE EN POSITION (Orientation de référence B=0°)
+Centre d’usinage
+Représentation d'une normale ZPIzZ Ogio
+de mise en position Gea s
+4 =~ es Tea 3
+1 Tee Ses
+ge
+—> © 1 oes
+4 28k
+2 gs
+3
+| |
+|
+|
+Z| |
+a) 2.
+3 5 |
+8 e| |
+a Q.
+#, | &
+- | | 3
+Ad eg a |
+2 i 6 |e
+Be 3 |
+A |
+Bf
+Af
+BS |
+ORIENTATION 1 : B= ORIENTATION 2 : B= fee |
+| 7 |
+pit}
+
++ elwepeoy
+
+PUOISseg
+
+"NA 21@POW
+
+
+===== page 19 =====
+[OCR] Liste des surfaces usinées pour cette orientation :
+
+Liste des surfaces usinées pour cette orientation :
+
+ORIENTATION 3 : B=
+
+Liste des surfaces usinées pour cette orientation :
+
+ORIENTATION 4 : B=
+
+Liste des surfaces usinées pour cette orientation :
+
+NE RIEN ECRIRE
+
+2
+im
+2
+m
+z
+™
+°
+2
+D
+im
+
+SaYuuve SILYvd V1 SNVG
+
+
+
+===== page 20 =====
+[OCR] H SECTION RABATTUE C - C
+
+E-E | % 9%
+. | | | | OZ Axe du ressort 16, "ha, i,
+| ' | | | _ pal “se, s 2 eb,
+Qala || ae | QL
+PE AT!
+Of Nay |
+Ne
+; D-D
+Cl +
+| B
+Y a
+mo} BAGEL LE LAME be 4p | im
+: YY YZ = [Uae
+wa Lo = ZS | ty | Axe du galet
+Like A L_—
+aa Vue de dessus 4 Yj
+r | =f a 7 Ta Fe Elements du bati
+
+o0 © OK owe
+| Ni | aN Chape du galet
+a iA | | Ne
+
+DOCUMENT REPONSE 6.1 : Conception du systeme de levage - ECHELLE : 1:3
+
+=a |
+
+

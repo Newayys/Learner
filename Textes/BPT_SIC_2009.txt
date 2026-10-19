@@ -1,0 +1,1395 @@
+
+===== page 1 =====
+[OCR] G26W
+
+Bangue PT
+
+Epreuve de Sciences Industrielles C
+
+Durée 6h
+
+Si, au cours de l’épreuve, un candidat repére ce qui lui semble étre une erreur d’énoncé, d’une
+part il le signale au chef de salle, d’autre part il le signale sur sa copie et poursuit sa composition
+en indiquant les raisons des initiatives qu’il est amené 4 prendre.
+
+Composition du sujet :
+
+© 1 cahier de 14 pages de texte, numérotées de 1414;
+
+¢ 1 cahier intitulé « DOCUMENT RESSOURCE i », avec i= I, II, III, IV, V, VI, VII, VII, IX
+imprimés recto verso ;
+
+© 1 cahier format A4, intitulé: « DOCUMENT REPONSE i », avec i= 1, 2, 3, 4, 5, 6 imprimés
+recto verso ;
+
+© 1 calque format A3, intitulé « DOCUMENT REPONSE i », avec i= 7.
+
+Matériel autorisé: —_tous instruments usuels du dessinateur.
+
+TOUTE AUTRE DOCUMENTATION EST INTERDITE
+
+LES CALCULATRICES SONT AUTORISEES
+
+Gestion dutemps: En admettant une durée de 30min pour Ia lecture et l’assimilation du sujet, il
+est vivement conseillé de consacrer environ 20% du temps 4a la partie I,
+environ 15% du temps a la partie Il, environ 30% du temps 4 la partie III,
+environ 15% du temps a la partie IV et environ 20% du temps a la partie V.
+
+Avertissement: La présentation, la lisibilité, l’orthographe, la qualité de la rédaction, la clarté et la
+précision des raisonnements entreront pour une part importante dans
+l’appréciation des copies. En particulier, les résultats non justifiés ne seront pas
+pris en compte. Les candidats sont invités 4 encadrer les résultats de leurs calculs.
+
+1 Tournez la page S.V.P.
+
+
+===== page 2 =====
+             ÉTUDE D’UN TRAIN D’ATTERRISSAGE AVANT
+
+Présentation
+
+
+     Nous proposons d’étudier dans ce sujet un train d’atterrissage avant d’avions civils
+conçu et fabriqué par la société Messier-Dowty. Messier-Dowty, société du Groupe SAFRAN,
+est le leader mondial de la conception et de la fabrication des systèmes de trains
+d’atterrissage. Les atterrisseurs Messier-Dowty équipent environ 20.000 appareils et
+réalisent plus de 35.000 atterrissages chaque jour. La société fournit tout ou partie des
+atterrisseurs d’avions tels que l’A380, l’A350 XWB, le 787 Dreamliner, le Falcon 7x, etc.
+
+
+     L'étude proposée porte sur deux des phases de vie du train d’atterrissage avant : la
+phase de vol et la phase de roulage au sol. La première fonction de service (FS1) qui
+intéresse ce sujet apparaît lors de la phase de vol.
+
+
+
+
+                  Avion                                             Milieu ext.
+
+                          FS1
+                                              Train
+                                         d'atterrissage
+                                              avant
+
+                          FS1 : limiter les perturbations sur le vol de l'avion
+
+
+                 Figure 1 : Graphe des fonctions de services durant la phase de vol
+
+
+
+
+     Cette fonction a conduit au choix d'un train rétractable et l'utilisation de 4 trappes. Il
+existe donc 4 sous-phases, qui sont :
+     - train rentré (toutes les trappes sont fermées);
+     - train en déploiement (toutes les trappes sont ouvertes);
+     - train en repliement (toutes les trappes sont ouvertes);
+     - train sorti (seules les 2 trappes arrière sont ouvertes, les trappes avant étant fermées
+toujours pour limiter les effets aérodynamiques (voir document ressource II)).
+
+
+                                                 2
+
+
+===== page 3 =====
+      Lors de la phase de roulage au sol, 2 autres fonctions de service (FS2 et FS3) sont à
+retenir.
+
+
+
+
+                  Avion                                            Milieu ext.
+                                   FS3
+
+                          FS2
+                                              Train
+                                         d'atterrissage
+                                              avant
+               Tracteur                                                  Sol
+               de piste
+
+                                         Opérateur
+                                          au sol
+
+
+                   FS2 : permettre de guider l'avant de avion par rapport au sol
+                     FS3 : amortir les irrégularités du sol transmises à l'avion
+
+
+           Figure 2 : Graphe des fonctions de services durant la phase de roulage au sol
+
+
+
+
+                                                 3                             Tournez la page S.V.P.
+
+
+===== page 4 =====
+     L'étude est composée de 5 parties largement indépendantes. La première partie vous
+propose d’étudier la commande des cycles de rentrée et de sortie du train d’atterrissage
+pendant la phase de vol (FS1). La deuxième partie s’intéresse au mécanisme d’ouverture, de
+fermeture et de verrouillage du train (FS1). Dans la troisième partie, nous étudions la pièce
+principale du train, « le caisson », d’un point de vue conception et fabrication (FS1, FS2 et
+FS3). La quatrième partie porte sur le mécanisme de transmission de la direction aux deux
+roues pour diriger l’avion au sol, d’un point de vue comportement sous charge (FS2). Enfin la
+cinquième partie vous propose de concevoir la transmission du mouvement d'orientation des
+deux roues pour diriger l’avion au sol, le compas (FS2).
+
+
+
+
+                       Figure 3 : sortie des trains d’atterrissage sur l’A380
+
+
+
+
+                                                 4
+
+
+===== page 5 =====
+I. Etude des phases de rentrée et de sortie du train d’atterrissage
+Dans cette partie, on s’intéresse aux phases de sortie et de rentrée du train d’atterrissage
+(FS1) du point de vue de la partie commande (document ressource I).
+
+
+Un cycle de sortie ou de rentrée du train d’atterrissage s’effectue sur commande du pilote. Le
+train avant dispose de deux trappes avant et deux trappes arrière qui s’ouvrent pour laisser
+passer le train d’atterrissage (document ressource II).
+Lorsque les trappes sont ouvertes, le crochet de déverrouillage du train est actionné ce qui
+autorise la sortie du vérin de déploiement du train. Une fois le train déployé, le verrouillage
+de la contre fiche se fait automatiquement par un système mécanique. Les trappes avant
+sont refermées pour diminuer les perturbations aérodynamiques.
+
+
+Lors de la phase de rentrée, un vérin assure le déverrouillage de la contrefiche puis la
+rentrée du vérin de déploiement s’effectue. Le train est verrouillé en position rentrée par un
+système mécanique et les trappes se referment terminant le cycle de rentrée du train.
+Deux informations train rentré (ITR) et train sorti (ITS) permettent d’informer le pilote sur l’état
+du train.
+
+
+On propose dans cette question de construire deux grafcets, un premier pour la sortie du
+train et un second pour la rentrée du train.
+
+
+I.1 : Donnez pour chaque phase de fonctionnement l’état initial du système ainsi que les
+deux équations logiques correspondant aux conditions initiales d’autorisation des phases. On
+appellera cist la condition initiale de sortie et cirt la condition initiale de rentrée.
+
+
+I.2 : A partir de l’inventaire des entrées/sorties données dans le document ressource II,
+établir les deux grafcets de sortie et de rentrée du train.
+
+
+I.3 : Lors de la phase de sortie, il peut arriver que le crochet ne se déverrouille pas. Dans ce
+cas une alarme est déclenchée au poste de pilotage au bout de 10s. Lorsque le pilote a
+acquitté cette alarme, les trappes se referment et le système se retrouve en position initiale.
+Modifiez les grafcets précédents pour prendre en compte ce comportement.
+
+
+
+
+                                                   5                            Tournez la page S.V.P.
+
+
+===== page 6 =====
+II. Etude du système
+
+II-A. Etude préliminaire du système
+Le schéma de principe relatif au train avant est donné sur le document ressource III. Le
+caisson (S1) est en liaison pivot avec le fuselage (S0) de l'appareil permettant le déploiement
+du train. En position sortie, la rotation du tube tournant (S2) par rapport au caisson doit
+permettre l'orientation des roues pour la direction de l'appareil lors des manœuvres au sol.
+La commande de cette rotation est réalisée par une crémaillère agissant sur un secteur
+denté du tube tournant (document ressource IV). Ce dispositif de commande n'est pas
+représenté sur le document ressource III et ne sera pas pris en considération dans toute
+la partie II.
+Afin d'assurer la suspension du train avant, les roues sont montées sur la tige coulissante
+(S3) en liaison pivot glissant avec le tube tournant. Le compas composé des 2 pièces
+principales, le compas supérieur (S4) et le compas inférieur (S5), permet alors de
+transmettre le mouvement de rotation du tube tournant à la tige coulissante en laissant libre
+le mouvement de translation.
+Une contrefiche composée des 2 bras (S6) et (S7) sert à reprendre les efforts exercés sur le
+train et à le maintenir déployé. Elle est équipée d'un dispositif de verrouillage empêchant son
+repli involontaire.
+
+
+
+
+II-A.1 Effectuez le graphe des liaisons de cette modélisation.
+
+
+II-A.2 Donnez le degré d'hyperstatisme pour le sous-ensemble {(S0);(S1);(S6);(S7)}.
+
+
+II-A.3 Donnez le degré d'hyperstatisme de l'ensemble.
+
+
+II-A.4 Complétez avec les symboles normalisés des liaisons le document réponse 1 afin
+d'obtenir un modèle isostatique en modifiant uniquement les liaisons suivantes :
+                - la liaison entre le compas supérieur et le compas inférieur;
+                - la liaison entre la contrefiche inférieure et le caisson;
+                - la liaison entre la contrefiche supérieure et la contrefiche inférieure.
+Vous justifierez l'isostatisme du schéma obtenu sur le document réponse.
+
+
+
+
+                                                      6
+
+
+===== page 7 =====
+II-B. Etude graphique de la rentrée du train
+Le corps du vérin hydraulique de commande du train est articulé en J sur le fuselage de
+l'appareil et sa tige est articulée en I au caisson (voir document réponse 2). La phase de
+rentrée du train correspond à la sortie de la tige du vérin. La disposition du vérin permet une
+étude plane de la cinématique du train et on supposera pour celle-ci une vitesse de sortie de
+la tige par rapport au corps du vérin de 10 mm/s.
+
+
+II-B.1 Sur ce même document, représentez avec l'échelle indiquée la vitesse             . Vous
+
+indiquerez clairement les constructions graphiques réalisées.
+
+
+II-B.2 En déduire la représentation graphique de         et indiquez la valeur de sa norme.
+
+
+
+
+                                               7                         Tournez la page S.V.P.
+
+
+===== page 8 =====
+III. Etude du caisson
+La réalisation technique des fonctions étudiées FS1, FS2 et FS3 s’appuie sur une pièce
+principale du train d’atterrissage appelée « le caisson ». On étudie dans cette partie le
+procédé de fabrication du caisson et en particulier l’obtention du brut ainsi que l’analyse et le
+réglage du porte-pièce dédié à la réalisation de certaines opérations d’usinage.
+
+
+III-A. Cotation
+On propose d’étudier certaines spécifications dimensionnelles et géométriques du dessin de
+définition du caisson (document ressource V).
+
+
+III.A.1 : Sur votre copie, interprétez la spécification dimensionnelle suivante :
+
+
+
+
+III.A.2 : Sur les documents réponses 3, 4 et 5, interprétez les spécifications géométriques
+suivantes :
+
+
+
+
+III-B. Matériaux et obtention du brut
+
+
+III-B.1 : Donnez la signification du matériau désigné par : Al Zn 6 Mg Cu.
+
+
+La pièce brute dans laquelle est usiné le caisson est obtenue par forgeage. La pièce brute
+est représentée sur le document ressource VI.
+
+
+III-B.2 : Expliquez le principe du procédé d’obtention de cette pièce brute par forgeage. Vous
+pourrez illustrer vos propos par un dessin.
+
+
+III-B.3 : Proposez trois autres couples de matériaux / procédés envisageables pour cette
+application. Pour chaque couple proposé, vous indiquerez les avantages et les inconvénients
+dans un tableau. Justifiez alors le choix du couple matériau / procédé retenu par le
+constructeur.
+
+                                                8
+
+
+===== page 9 =====
+III-C Usinage du caisson
+L’usinage du caisson est réalisé au moyen de plusieurs phases d’usinage. La première
+phase est une phase de fraisage sur une fraiseuse 4 axes. La pièce est mise et maintenue
+en position au moyen d’un porte-pièce spécifique rigide. La modélisation de la mise en
+position de la pièce est proposée sur le document ressource VII.
+
+
+III-C.1 A l’aide d’un outil de représentation graphique, établir les fonctions de service
+(fonctions principales et fonctions contraintes) à réaliser par un porte-pièce dans sa phase
+d’utilisation sur la machine pendant l’usinage.
+
+
+III-C.2 Proposez une modélisation des liaisons entre la pièce et le porte-pièce du document
+ressource VII. La mise en position proposée est-elle isostatique ? Justifiez votre réponse.
+Pourquoi devrait-elle l’être ?
+
+
+III-C.3 Une fois fixée sur le porte-pièce, quels défauts dus à la pièce ou au porte-pièce
+peuvent provoquer des variations de position et d’orientation de la pièce dans la machine?
+
+
+La réalisation technologique du porte-pièce conduit à six appuis ponctuels réalisés par des
+supports sphériques (document ressource VII). Soit R le repère (Op, X, Y, Z) associé au
+montage. Les points de contact Mi (avec i = 1, …, 6) entre la pièce et le porte-pièce sont
+définis par leurs coordonnées (xi, yi, zi) et les normales de contact        à chaque appui par (nxi,
+nyi, nzi). Le porte-pièce n'étant pas parfait , le point d’appui Mi du porte-pièce se déplace d’une
+valeur      (figure 4).
+
+                                               ni
+                                    DMi
+                                                         Pièce
+
+
+
+                                                    Mi
+
+                                                            Support i
+
+
+                          Figure 4 : modélisation du contact support i / pièce
+
+
+
+
+                                                     9                           Tournez la page S.V.P.
+
+
+===== page 10 =====
+III-C.4 : Quelle composante du vecteur         est nuisible au positionnement de la pièce dans
+le porte-pièce et pourquoi?
+
+
+On appelle     i cette composante. On propose de modéliser les défauts de mise en position de
+
+la pièce au moyen d’un torseur de « petits déplacements » ! exprimé au point Op de la
+manière suivante :
+
+
+
+
+III-C.5 : Le champ de déplacements très petits étant un champ de moment de torseur,
+exprimez la composante      i du petit déplacement     , engendré par un « petit déplacement »
+
+modélisé par ! au point Op.
+
+
+III-C.6 : En déduire l’expression du torseur " i au point Op (appelé torseur des coordonnées
+
+plückériennes de     ) tel que le co-moment de ! et " i est égal à i.
+
+
+III-C.7 : A partir des écarts   i évalués sur machine à mesurer tridimensionnelle et donnés ci-
+
+dessous, des coordonnées des points et des normales de contact dans le repère R, données
+sur le document ressource VII, écrire le système linéaire permettant le calcul des écarts     i
+
+en fonction des inconnues (#, %, &, u, v, w) du torseur des petits déplacements ! exprimé au
+point Op sous forme numérique. Il n’est pas demandé de résoudre le système linéaire
+résultant.
+ 1 = 0.2mm ;    2 = 0.25 mm ;   3 = 0 mm ; 4 = 0 mm ; 5 = 0.15 mm ;     6 = 0 mm
+
+Après résolution, on trouve :
+# = 0,00069 ; % = 0,00013 ; & = 0,00027 ; u = -0,0447 mm ; v = -0,018 mm ; w = 0,1257 mm
+
+
+
+
+                                                 10
+
+
+===== page 11 =====
+On s’intéresse plus particulièrement à l’usinage des deux alésages              d’axes H et J.
+
+
+III-C.8 : On fait l’hypothèse que les deux entités sont réalisées de la même manière. On vous
+demande de détailler les opérations d’usinage nécessaires à l’obtention de l’entité d’axe J en
+fraisage en complétant le contrat de phase du document réponse 6. Vous indiquerez en
+particulier :
+      ' Dans la partie haute (dessin) : les croquis de la géométrie des outils utilisés et les
+      trajectoires d’usinage de chacun des outils.
+      ' Dans la partie basse (tableau) : la désignation des opérations, les outils utilisés
+      (nom et matériau de l’outil) et l’ordre de grandeur des conditions de coupe pour chaque
+      outil.
+      Vos choix devront intégrer la géométrie des formes à usiner et les tolérances à
+      respecter.
+
+
+III-C.9 : À partir des valeurs du torseur des petits déplacements calculées précédemment,
+calculez la position effective des points H1 (0, 230, 0) et J1 (0, -230, 0), centre des sections
+droites extrêmes extérieures des alésages H et J.
+
+
+III-C.10 : On précise que les deux cylindres sont usinés selon la direction z de la machine.
+
+
+
+
+La spécification de rectitude             est elle respectée ? Justifiez votre réponse. Quels
+sont alors les défauts engendrés au niveau des deux alésages d’axes H et J ?
+
+
+III-C. 11 : Dessinez à main levée sur votre copie une solution technique permettant de régler
+la hauteur des appuis ponctuels compatible avec l’ordre de grandeur des écarts     i mesurés.
+
+
+
+
+                                               11                         Tournez la page S.V.P.
+
+
+===== page 12 =====
+IV. Etude statique des efforts transmis pour le pivotement de
+l'axe des roues
+Cette étude se propose de déterminer une partie des efforts transmis lors du pivotement de
+l'axe des roues avant. L'étude réalisée est statique, l'appareil est considéré au repos et
+l'écrasement de la suspension conduit à la géométrie du compas donnée document
+ressource IX.
+Sur ce même document sont précisées les actions mécaniques :
+    - du sol sur les 2 roues où Cp représente le couple résistant maximum de pivotement
+         pour lequel le train est dimensionné,
+    - de l'huile utilisée pour l'amortissement de la suspension sur la tige coulissante;
+    - du compas supérieur sur le compas inférieur assimilable à un glisseur.
+ainsi qu'une modélisation plus fine de la liaison entre le compas inférieur où la liaison pivot
+est en fait constituée de 2 liaisons rotules de centres F1 et F2. On appellera composante
+radiale d'effort transmissible pour chacune des liaisons rotules les composantes normales à
+l'axe (F1F2) de la résultante.
+
+
+IV.1 On suppose la valeur de Cp connue (Cp = 1 300 N.m), déterminez la valeur numérique
+de Fcs (action du compas supérieur sur le compas inférieur) correspondant à l'équilibre du
+train.
+
+
+IV.2 Par une démarche analytique, en déduire les composantes radiales transmises par les 2
+liaisons rotules.
+
+
+IV.3 Les caractéristiques de la crémaillère étant données document ressource IV, donnez
+l'effort axial qui doit être appliqué à la crémaillère pour transmettre ce couple.
+
+
+IV.4 En déduire la différence de pression correspondante dans les 2 chambres aux
+extrémités de la crémaillère.
+
+
+IV.5 Contrairement au piston de droite, la liaison entre la crémaillère et le piston de gauche
+présente plusieurs mobilités. Justifiez cette différence.
+
+
+
+
+                                                 12
+
+
+===== page 13 =====
+V. Etude de solutions constructives
+Cette partie conduit à la réalisation technique de la liaison entre le compas supérieur et le
+compas inférieur ainsi que la liaison entre le compas supérieur et le tube tournant. Il est
+rappelé que la fonction du compas est de transmettre la rotation du tube tournant à la tige
+coulissante tout en leur laissant la possibilité de coulisser l'un dans l'autre.
+La solution technique retenue pour la réalisation de ces liaisons est d'utiliser des coussinets
+en bronze. La liaison entre le compas supérieur et le tube tournant se fera par 2 paliers, et la
+liaison entre le compas supérieur et le compas inférieur se fera par un seul palier (leurs
+positions sont indiquées sur le document réponse 7). Ces paliers seront lubrifiés à la
+graisse avec utilisation de graisseurs pour le renouvèlement de la graisse lors des périodes
+de maintenance. Le détail de ces éléments est donné sur le document ressource VIII.
+
+
+V-A Questions préliminaires
+
+
+V-A.1 Précisez ce qui rend l'emploi de paliers lisses plus adapté à l'utilisation de roulements.
+
+
+V-A.2 Rappelez les critères de dimensionnement d'un palier lisse.
+
+
+V-A.3 Montrez que la pression spécifique p servant de critère de dimensionnement pour un
+palier lisse, et définie par :
+
+
+
+correspond à une pression uniforme sur un demi palier pour une charge radiale centrée F
+transmise par le palier, et où L et D représentent respectivement la longueur et le diamètre
+du palier.
+
+
+V-B Conception des liaisons
+Pour cette partie de conception, il est demandé de répondre sur le calque pré-imprimé
+format A3 document réponse 7.
+Une attention particulière sera portée sur la qualité graphique, sur les ajustements
+fonctionnels permettant le fonctionnement et le montage ainsi qu’à la définition des formes
+nécessaires à la compréhension du système. Ces formes devront être compatibles avec un
+procédé d'obtention probable.
+
+
+
+
+                                                 13                           Tournez la page S.V.P.
+
+
+===== page 14 =====
+V-B.1 Concevez la liaison tube tournant / compas supérieur en respectant les points
+suivants :
+     - utilisation de coussinets en bronze dont les formes peuvent être spécifiques si
+      nécessaire;
+     - dispositif de graissage des paliers par utilisation de graisseurs;
+     - jeu axial réglable de 0.1 ± 0.025 mm;
+     - facilité de montage/démontage;
+     - blocage de sécurité des éléments de visserie utilisés.
+
+
+Vous indiquerez sur le dessin les ajustements préconisés.
+De plus, le dimensionnement des paliers s'appuiera sur les points suivants :
+     - charge radiale Fr1 devant être supportée par les paliers de 17 000 N;
+     - charge axiale Fa1 devant être supportée par les paliers de 8 600 N;
+
+
+V-B.2 Justifiez du bon dimensionnement de vos paliers vis à vis du critère de pression
+spécifique p pour cette liaison sur votre copie.
+
+
+V-B.3 Concevez la liaison compas supérieur / compas inférieur en respectant les points
+suivants :
+     - utilisation de coussinets en bronze dont les formes peuvent être spécifiques si
+      nécessaire;
+     - dispositif de graissage du palier par utilisation d'un graisseur;
+     - jeu axial réglable de 0.1 ± 0.025 mm;
+     - facilité de montage/démontage manuel sans outillage particulier (1);
+     - blocage des éléments de visserie utilisés.
+
+
+Vous indiquerez sur le dessin les ajustements préconisés.
+De plus, le dimensionnement du palier s'appuiera sur les points suivants :
+     - charge radiale Fr2 devant être supportée par le palier de 2 000 N;
+     - charge axiale Fa2 devant être supportée par le palier de 8 600 N;
+
+
+(1) lorsque l'appareil est tracté au sol, certaines manœuvres nécessitent une rotation de la tige
+coulissante d'une valeur supérieure à ce que permet la crémaillère. En démontant la liaison
+entre le compas supérieur et inférieur, la tige coulissante devient libre de pivoter autant que
+nécessaire.
+
+                                                   14
+
+
+===== page 15 =====
+[OCR] 
+
+===== page 16 =====
+[OCR] 
+
+===== page 17 =====
+[OCR] Dessin de définition partiel du caisson
+
+omer] A
+
+Se}
+
+Coupe AA
+
+DOCUMENT RESSOURCE V
+
+
+===== page 18 =====
+[OCR] G26W
+
+Bangue PT
+
+Epreuve de Sciences Industrielles C
+
+Durée 6h
+
+Si, au cours de |’épreuve, un candidat repére ce qui lui semble étre une erreur d’énoncé, d’une part il
+le signale au chef de salle, d’autre part il le signale sur sa copie et poursuit sa composition en
+indiquant les raisons des initiatives qu’il est amené 4 prendre.
+
+DOCUMENTS
+
+RESSOURCES
+
+Tournez la page S.V.P.
+
+
+===== page 19 =====
+                   Vue du train d'atterrissage avant
+
+
+
+
+             Vérin de déploiement
+                   du train
+
+
+                                                                 Contrefiche supérieure
+                                                                          (S7)
+
+
+
+                                                                  Vérin de
+                                                               déverrouillage
+
+
+
+              Caisson
+               (S1)                              Contrefiche inférieure
+                                                          (S6)
+
+
+                                                   Crémaillère de
+                                                     direction
+
+
+                                             Tube tournant
+                                                 (S2)
+Compas supérieur
+     (S4)
+                                            Tige coulissante
+Compas inférieur                                  (S3)
+     (S5)
+                                                               Vers l'avant
+                                                               de l'appareil
+
+
+
+
+                        DOCUMENT RESSOURCE I
+
+
+===== page 20 =====
+    Inventaire des entrées et sorties
+
+
+
+
+                                                          Trappes avant
+
+
+           Trappes arrière
+
+
+
+
+Détail du train avant avec les trappes avant et arrière
+
+
+
+
+       DOCUMENT RESSOURCE II
+
+
+===== page 21 =====
+               Schéma cinématique du train d'atterrissage avant
+
+
+
+
+    Fuselage
+      (S0)
+                             Orientation des roues
+
+                                                                                       H
+                                                                         Contrefiche
+                                     A       Déploiement/rentrée         supérieure
+                   Caisson                        du train                  (S7)
+                    (S1)
+                                                                           G
+     Secteur denté
+
+
+                                                                    Contrefiche
+                                                                     inférieure
+                             C                                          (S6)           Contrefiche
+
+
+                                                     D
+
+             Compas sup.
+                (S4)                 B     Tube tournant
+Compas
+                                               (S2)
+                    E
+                                          Suspension
+
+                    Compas inf.          Tige coulissante
+                       (S5)                    (S3)
+                                                                         Vers l'avant
+                                     F                                   de l'appareil
+
+
+
+
+         z
+                                                                               Remarque :
+                                                                    La position des roues est figurée
+!
+y
+                                                                   par les traits pointillés. Ces roues
+                             x                                        ne sont pas à prendre en
+                                                                      considération pour l'étude.
+
+
+
+
+                                 DOCUMENT RESSOURCE III
+
+
+===== page 22 =====
+                  Crémaillère de direction
+
+
+
+
+                                  Chambre gauche
+
+                                   Piston gauche (diamètre : 43 mm)
+
+
+
+  Crémaillère
+
+
+                                             Tube tournant
+
+
+                                                   Caisson
+
+
+
+Galet d'appui
+
+
+
+
+Chambre droite                   Module :
+                                      m = 2 mm
+
+                                 Rayon primitif du secteur denté :
+                                      R = 51 mm
+
+                                 Nombre de dents de la crémaillère : 19
+
+                                 Nombre de dents du secteur denté : 18
+
+
+
+
+                 DOCUMENT RESSOURCE IV
+
+
+===== page 23 =====
+[OCR] IA ADYNOSS3ay LNAWNIOG
+
+abeabio ap yniq uossies np gE ajapow
+
+
+===== page 24 =====
+[OCR] Modélisation géométrique du montage d’usinage
+
+565 0 10 -10 +565 120
+Ptl:| 0 Pt2:|/80 Pt3:;/80 Pt4:|235  Pt5:| 70 Pt6: +180
+-75 -50 -50 -30 -30 -30
+(0 (0 0 0 +1
+m: 0 m: 0 m3: ng: +1 ns: +1 ng: |0
+1 0 0 0
+
+DOCUMENT RESSOURCE VII
+
+
+===== page 25 =====
+[OCR] Graisseur
+
+oil,
+dxpas Moxi | Moxt [| M7x1 M8x1 | MlOx1 | M12x1.75
+MB8x1.25| _MI0x1.5
+Splat) 7 7 8 10 ul 14
+(mm)
+1 (mm) 3 5 5 5 5-7 7
+h (mm) 103 10 10 10 10 im
+Coussinet en bronze
+£ £ ,
+tise ise 7
+x
+fx 45° | 1x 45°
+eh sl =o ~ - S|]
+a ’
+a} io] 12] 14| 16] 1s) 20f 22] 25) 28] 32] 36] 40] 45] so
+(mm)
+g2) i6| is] 20] 22| 24] 26] 28] 32] 36] 40] 46] so] ss| oo
+(mm)
+93) 50/ 22] 25] 28| 30] 32] 34) 38] 42] 46] 52] ss] o3| o8
+(mm)
+1 6 10 my 12 15 20 30 40
+(mm)| 10 15 15} 20 20 30 40 50
+i
+(mm) 3 4 5
+f
+(mm) 03 04 0.6 08
+
+Pression spécifique : p= 80 MPa
+
+DOCUMENT RESSOURCE VIII
+
+
+
+===== page 26 =====
+         Efforts transmis pour le pivotement du train avant
+
+
+
+
+             Fcs                 B                        Action du sol sur le train :
+                                          Tube tournant                        #% 30 000.z $%
+                        E                     (S2)               Tsol"roue ! = &                  '
+                                                                                (%1 620.y - Cp.z )%F
+
+             Compas inf.             Tige coulissante           Cp = 1 300 N.m (couple
+                (S5)                       (S3)                 résistant maximum de
+                        F1                                      pivotement)
+
+                                 F                        Action du fluide de suspension :
+                                              F2                             #%30 000.z $%
+                                                                        !
+                                                               Tfluide" S3 = &           '
+                                                                              %( 0 %)B
+
+                                                          Action du compas supérieur :
+         z                                                                 #%-F .y $%
+                                                                        !
+                                                                TS4 " S5 = & cs '
+                                                                            (% 0 )%B
+!
+y
+                             !
+                             x                             Les valeurs numériques ci-dessus
+                                                           sont exprimées dans les unités S.I.
+
+
+
+
+                                                                  40°
+
+
+                                                                  E
+                   F
+E
+                                     F1            F2                             F
+    F1             F2                                        245 mm
+
+
+
+
+                                          120 mm
+
+
+
+                        DOCUMENT RESSOURCE IX
+
+
+===== page 27 =====
+Document Reponse ENSAM 210x350                2009:Document Reponse ENSAM 210x350              2009    22/01/09      8:54     Page 1
+
+
+
+
+                             Académie :                                                 Session :                                                         Modèle EN.
+                             Examen ou Concours                                                                                 Série* :
+                             Spécialité/option :                                                                  Repère de l’épreuve :
+ DANS CE CADRE
+
+
+                             Épreuve/sous-épreuve :
+                             NOM :
+                             (en majuscules, suivi s’il y a lieu, du nom d’épouse)
+                             Prénoms :                                                                          N° du candidat
+                             Né(e) le :                                                                                               (le numéro est celui qui figure sur la
+                                                                                                                                         convocation ou la liste d’appel)
+
+
+                             Examen ou concours :                                                               Série* :
+ NE RIEN ÉCRIRE
+
+
+
+
+                                                                                                                                                   Numérotez chaque
+                             Spécialité/option :                                                                                                   page (dans le cadre
+                                                                                                                                                   en bas de la page) et
+                             Repère de l’épreuve :                                                                                                 placez les feuilles
+                                                                                                                                                   intercalaires dans le
+                             Épreuve/sous-épreuve :                                                                                                bon sens
+                             (Préciser, s’il y a lieu, le sujet choisi)
+
+                             Note :                      Appréciation du correcteur (uniquement s’il s’agit d’un examen) :
+
+                                                   20
+
+
+
+
+                             * Uniquement s’il s’agit d’un examen.
+
+
+
+
+                                                                                                                                                                        G26W
+
+
+
+
+                  Il est interdit aux candidats de signer leur composition ou d’y mettre un signe quelconque pouvant indiquer sa provenance.
+
+
+===== page 28 =====
+[OCR] Document Reponse ENSAM 210x350 2009:Document Reponse ENSAM afosso 2009 22/01/09 @:54 Page 2
+
+ee
+—
+—
+— oo
+ee —_—
+ecane — .
+NERIENECRIRE —~—~—"_DANS LAPARTIE BARREE
+—
+oo ee
+_— ae
+a a
+oo ee
+oo ———
+
+
+===== page 29 =====
+[OCR] NERIEN E
+
+" DOCUMENT REPONSE i"
+avec i = 1,2,3,4,5,6
+
+Tournez la page S.V.P.
+
+
+===== page 30 =====
+[OCR] Document Reponse ENSAM 210x350 2009:Document Reponse ENSAM afosso 2009 22/01/09 @:54 Page 2
+
+ee
+—
+—
+— oo
+ee —_—
+ecane — .
+NERIENECRIRE —~—~—"_DANS LAPARTIE BARREE
+—
+oo ee
+_— ae
+a a
+oo ee
+oo ———
+
+
+===== page 31 =====
+Document Reponse ENSAM 210x350   2009:Document Reponse ENSAM 210x350   2009    22/01/09   8:54   Page 2
+
+
+
+
+                                      NE RIEN ÉCRIRE                          DANS LA PARTIE BARRÉE
+
+
+
+
+                            Proposition de schéma cinématique isostatique
+
+
+
+               Fuselage
+                 (S0)
+
+
+
+                                                                                                      H
+                                                                                     Contrefiche
+                                              A                                      supérieure
+                           Caisson                                                      (S7)
+                            (S1)
+                                                                                          G
+
+
+
+
+                                                                                Contrefiche
+                                                                                 inférieure
+                                     C                                              (S6)              Contrefiche
+
+
+                                                             D
+
+                    Compas sup.
+                       (S4)                   B     Tube tournant
+           Compas
+                                                        (S2)
+                            E                                                 Justification de l'isostatisme :
+
+
+                            Compas inf.           Tige coulissante
+                               (S5)                     (S3)
+
+                                              F
+
+
+
+
+                    z
+       !
+       y
+                                      x
+
+
+
+
+                                            DOCUMENT REPONSE 1
+
+
+===== page 32 =====
+[OCR] Document Reponse ENSAM 210x350 2009:Document Reponse ENSAM | x350 2009 22/01/09 8:54 Page 2
+
+NE RIEN ECRIRE DANS LA PARTIE BARREE
+
+(86)
+
+Commentaires :
+
+
+
+===== page 33 =====
+                              inférieure
+                                 (S6)
+
+
+
+
+ A
+
+
+
+           Caisson
+                                                                                                                     Document Reponse ENSAM 210x350
+
+
+
+
+            (S1)
+
+                                                    D
+
+
+
+                                             Tube tournant
+                                                 (S2)
+                                                                                             NE RIEN ÉCRIRE
+
+
+
+
+                                                    Tige coulissante
+                                                                                                                     2009:Document Reponse ENSAM 210x350
+
+
+
+
+                                                          (S3)
+                                                                                        in
+                                                                                     tra
+                                                                                                                     2009
+
+
+
+
+                                                                                   u
+                                                                                 td
+                                                                               en
+                                                                              m
+                                                                            ve
+                                                                          ou
+                                                                         m
+                                                                                                                     22/01/09
+
+
+
+
+                                                                      du
+                                                                  ens
+                                                                S
+                                                                                                                     8:54
+
+
+
+
+                                                                                             DANS LA PARTIE BARRÉE
+                                                                                                                     Page 2
+
+
+
+
+Echelle pour la construction graphique : 1 mm/s   1mm
+
+
+                     Cinématique graphique : Document réponse 2
+
+
+===== page 34 =====
+[OCR] Page 2
+
+arse
+
+22/01/09
+
+2009
+
+SNSAM 210x350 2009:Document Reponse ENSAM 240x350
+
+Document Reponse
+
+NE RIEN ECRIRE
+
+DANS LA PARTIE BARREE
+
+€ 3SNOd3y¥ LNAWND0G
+
+(s)ainnut (s)uoquew (sai) 21 0Key
+
+F]
+70'0S |—]
+
+@uNWIWOD aUOZ
+
+J9P op ulssep np yesxe
+ewg49s
+
+‘BaUNSGS SOUBIBIGI E]
+® yoddel sed
+Uuogisod uogequauo
+‘seyuleqUOD
+
+‘egsodiios
+alduis
+
+ednoub
+enbiun
+
+uespte 9p 6u02 e1 sup
+seus yn0} 49
+
+| 99U219]0} ap ou0Z,
+
+4 9u919)94 9p (s}poues9i0L
+squowlels squ9Wi9I3
+
+wuewoyeg uwojisod
+uuoneqweu0 ewiod
+uoneoyioeds ap ed AL
+
+xnegp] squswi9i3
+
+© BION UDIS » Np SHIBAXS
+xnegp| uo syueUi9|y
+
+uoReogiogds
+P| ap ajoquiés
+
+SOUR op BUST A UOT
+
+jade sun SeMeUy
+
+SETWAION INSNSONVETION
+
+
+
+===== page 35 =====
+[OCR] Page 2
+
+arse
+
+22/01/09
+
+2009
+
+SNSAM 210x350 2009:Document Reponse ENSAM 240x350
+
+Document Reponse
+
+NE RIEN ECRIRE
+
+DANS LA PARTIE BARREE
+
+y ASNOd3y LNAWND0G
+
+(s)aianu (s)uonuew (sej) e| s0hey .
+
+LUoRIUyaP ep ulssep np yenxe
+ew24yos
+2990S SOveIRIRI eI
+e uodde1 sed epsoduioo awieysks ednoi8 ecg 9p ou07e)su6p
+Uuogisod_uopewuouo eunwwos — erdwis anbjun | seque porary es yop gauelne wewey7
+Soqureuoa  gyul4ojuoa ep uoHIPUcD
+. eoussgyes ep | , (s)9oues9i01 woweneg uonisog
++ 99249103 ap 8U0Z « (S)o9utoeds (s)eoua19)94 swuswsta syuauigig | vonEiUeuO owed
+
+uoneoyioeds ap ed AL
+
+xnegp| sjuowe/3
+
+« 8[@POW UNS » NP SyeENXe
+xnegp] uou sjuewi9/y,
+
+uoneDyiogds
+2] ap ajoquiks
+
+SUELO op UOT Ted TOHROUSTS un p SENT
+
+TETVAION NSMSONVATION
+
+
+
+===== page 36 =====
+[OCR] Page 2
+
+arse
+
+22/01/09
+
+2009
+
+SNSAM 210x350 2009:Document Reponse ENSAM 240x350
+
+Document Reponse
+
+NE RIEN ECRIRE
+
+DANS LA PARTIE BARREE
+
+§ 3SNOd34y LNSAWND0G
+
+(s)ornur (s)uonuow (sa) e1 0hes .
+
+UogIUyep ep ulssap np wesyxe
+ewig4yos
+
+‘BaUS SOUSIGIGL ET
+'e yoddei sed
+Uuogisod uoyeuayo
+‘soqwuyenuoa
+
+s9sodwoo
+ordwis
+
+awaishs
+eunuwos —ejduis
+
+adnos6
+‘anbiun
+
+« 99UB19]0} op ou0Z
+
+‘« 891019491 op
+« (s)oqujo9ds (s}oouaz90% suewi9g
+
++ (S)pouesgjo4
+‘squsuigia
+
+juewenea uonisog
+uoneiueud ouiod
+eoyloads ep adAL
+
+xnegp] s}uewi913
+
+© S1@POW UIS » Np SHENXe
+xnegp| uou sjuawie[y
+
+uoReayioods
+2] ep ajoquiks
+
+2p BUST TONED
+
+ge oun oaATeUY
+
+SSTIVABON INENSONVESIOL
+
+
+
+===== page 37 =====
+Document Reponse ENSAM 210x350            2009:Document Reponse ENSAM 210x350                   2009    22/01/09   8:54   Page 2
+
+
+
+
+                                                 NE RIEN ÉCRIRE                                        DANS LA PARTIE BARRÉE
+
+
+
+
+                  ÉTUDE DE FABRICATION                           Référence document : xxx                       BUREAU DES MÉTHODES           1/1
+                         Phase xx
+        Élément : Caisson                                        Programme : xxx
+
+        Sous ensemble : xxx                             Matière : Al Zn 6 Mg Cu
+        Ensemble : Train d!atterrissage                 Brut : Forgé
+        Désignation : xxx
+        Machine-Outil : Centre de fraisage 4 axes horizontal
+
+        Dessin
+        (les deux surfaces à réaliser sont en traits forts)
+
+
+
+
+        Tableau
+        Désignation des opérations                            Nom outil et matériau                                  vc   f ou fz   ap   ar    aa
+
+
+
+
+         vc : Vitesse de coupe (m/mn)            ap : Profondeur de passe en tournage (mm)
+         f : Avance par tour (mm/tr)             aa : Profondeur de passe axiale en fraisage (mm)
+         fz : Avance par dent (mm/dent)          ar : Profondeur de passe radiale en fraisage (mm)
+
+
+
+
+                                                          DOCUMENT REPONSE 6
+
+
+===== page 38 =====
+[OCR] Document Reponse ENSAM 210x350 2009:Document Reponse ENSAM afosso 2009 22/01/09 @:54 Page 2
+
+ee
+—
+—
+— oo
+ee —_—
+ecane — .
+NERIENECRIRE —~—~—"_DANS LAPARTIE BARREE
+—
+oo ee
+_— ae
+a a
+oo ee
+oo ———
+
+
+===== page 39 =====
+[OCR] \ |
+\ | Ferewa |
+\ suosie'] - inauiedns sedwiod
+
+suatjed sep uonysod : &
+
+‘ZL esuode yuewinoog
+
+sneuayul sedwiog
+
+anaygdns sedwiog
+
+cxsw
+
+| wewnar eqns,
+
+

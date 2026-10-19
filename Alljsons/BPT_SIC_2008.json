@@ -1,0 +1,547 @@
+{
+ "concours": "Banque PT",
+ "filiere": "SIC",
+ "date": "2008",
+ "file": "BPT_SIC_2008.pdf",
+ "status": 200,
+ "source": "banquept.fr, rubrique « Annales d'annales » (rubrique23.html)",
+ "epreuve_originale": "SI C",
+ "classification": "automatique par mots-clés (Claude, oct. 2026) — moins fine que celle des sujets récents",
+ "decoupage_questions": "Question",
+ "texte_ocr": true,
+ "pages_sujet": 12,
+ "pages_total": 19,
+ "data": {
+  "parties": [
+   {
+    "titre_partie": "Partie 1 : Étude du séquencement des opérations de",
+    "questions": [
+     {
+      "numero": "Q1.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Systèmes séquentiels : Diagramme d'états",
+        "semestre": "S1"
+       }
+      ],
+      "page": 6,
+      "tags": [
+       "grafcet"
+      ],
+      "texte": "Question 1.1 : A partir de la description du séquencement de poussée du tablier et de l’inventaire des entrées/sorties de la commande, proposer un grafcet fonctionnel GPi de la commande d’un pousseur de tablier."
+     },
+     {
+      "numero": "Q1.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Systèmes séquentiels : Diagramme d'états",
+        "semestre": "S1"
+       }
+      ],
+      "page": 6,
+      "tags": [
+       "grafcet"
+      ],
+      "texte": "Question 1.2 : Proposer un grafcet de coordination GC permettant de gérer le démarrage du cycle (dcy) et autorisant le cycle des grafcets de commandes GPi des pousseurs. Modifier éventuellement votre grafcet GPi (mettre les modifications entre parenthèses)."
+     },
+     {
+      "numero": "Q1.3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       }
+      ],
+      "page": 6,
+      "tags": [],
+      "texte": "Question 1.3 : Lors des opérations de poussée et de levage, les actions mécaniques engendrent des sollicitations sur les piles de ponts. De quels types sont-elles ?"
+     },
+     {
+      "numero": "Q1.4",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Capteurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 6,
+      "tags": [],
+      "texte": "Question 1.4 : La déformation principale de la pile est due à la flexion lors des opérations de poussée. On souhaite ici que cette déformation en haut de pile n’excède pas une longueur fmax. Expliquer l’origine de cette flexion et proposer une solution technologique pour mesurer cette valeur."
+     },
+     {
+      "numero": "Q1.5",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Systèmes séquentiels : Diagramme d'états",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       }
+      ],
+      "page": 6,
+      "tags": [
+       "grafcet"
+      ],
+      "texte": "Question 1.5 : Lorsque la déformation de la pile atteint la valeur fmax, une information logique f passe à l’état vrai. On souhaite alors inhiber le comportement du grafcet de commande de la pile. Proposer des modifications de votre grafcet qui tienne compte de cette contrainte (utiliser une couleur différente)."
+     },
+     {
+      "numero": "Q1.6",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       }
+      ],
+      "page": 6,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "Question 1.6 : Pour éviter tout problème de déformation excessive du tablier et/ou des piles, lors de l’opération de poussée, les déplacements des tiges de tous les vérins de poussée de tous les tabliers doivent être synchronisés durant toute l’opération. La commande tout ou rien des vérins de poussée est-elle satisfaisante ? Justifier et proposer un autre type de commande répondant à cette nouvelle contrainte. Partie 2 : Modélisation du pousseur On suppose dans cette partie, que l’angle que fait le plan supérieur de la cale de levage avec l’horizontale est petit. Ce qui revient à considérer que les contacts dans les liaisons planes sont maintenus durant tout le mouvement. Une première étude conduit à la modélisation suivante : Cale de poussée (1) Semelle (3) et tige du vérin VP Corps du vérin VP Cale de levage (2) et tige du vérin VL Semelle (3) Corps du vérin VL Semelle (3) Figure 5 : Schéma cinématique -4-"
+     }
+    ]
+   },
+   {
+    "titre_partie": "Partie 2 : Modélisation du pousseur",
+    "questions": [
+     {
+      "numero": "Q2.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Torseur cinématique",
+        "semestre": "S1"
+       }
+      ],
+      "page": 7,
+      "tags": [],
+      "texte": "Question 2.1 : Estimer le degré de mobilité de ce système."
+     },
+     {
+      "numero": "Q2.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Hyperstatisme",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Correcteurs : Correcteur numérique",
+        "semestre": "S4"
+       }
+      ],
+      "page": 7,
+      "tags": [],
+      "texte": "Question 2.2 : Déterminer le degré d’hyperstatisme du système."
+     },
+     {
+      "numero": "Q2.3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Hyperstatisme",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Statique : Isostatisme",
+        "semestre": "S2"
+       }
+      ],
+      "page": 7,
+      "tags": [],
+      "texte": "Question 2.3 : Proposer des modifications pour rendre le système isostatique. Faire un nouveau schéma cinématique tenant compte de ces modifications."
+     },
+     {
+      "numero": "Q2.4",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Statique : Hyperstatisme",
+        "semestre": "S2"
+       }
+      ],
+      "page": 7,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "Question 2.4 : Le constructeur a fait le choix de mettre une liaison glissière de direction horizontale à la place de la liaison plane entre la cale de levage (2) et la semelle (3) (figure 6). Qu’est-ce qui justifie un tel choix ? Comment peut-on rendre ce système isostatique ? Figure 6 Partie 3 : Dimensionnement des composants. Question préliminaire : Le tablier avance sur les piles à une vitesse moyenne de 9 m/h. La course de chaque vérin est d’environ 240 mm. Calculer le nombre de cycles par minutes nécessaires pour atteindre cette vitesse moyenne. En déduire la vitesse moyenne de sortie de tige des vérins (on supposera que les quatre phases ont une durée identique). On se place dans le cadre d’un problème plan. Le tablier a une longueur totale de 2460 m et une masse totale de 38000 tonnes. On estime à Pt = 24000 kN, l’effort exercé sur chaque pile, dû à la masse du tablier. Comme il y a deux systèmes de poussée par pile, on considèrera que la cale de poussée doit soutenir une partie du poids du tablier égale à 12000 kN. On pose ­& P &½ °P \u0010 t y° ^FPoids ` ®& 2 ¾ , le torseur des actions de pesanteur exercées sur la portion de tablier au °0 ° ¯ ¿G & & & centre de gravité de cett"
+     }
+    ]
+   },
+   {
+    "titre_partie": "Partie 3 : Dimensionnement des composants.",
+    "questions": [
+     {
+      "numero": "Q3.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       }
+      ],
+      "page": 7,
+      "tags": [],
+      "texte": "Question 3.1 : Quelle forme de répartition de pression (linéaire ou uniforme) doit-on choisir, le long de la ligne de contact entre (1) et (2), pour que le moment du torseur ^ F2o1` s’annule en un point Q de cette ligne ? On pourra étudier deux cas : Q est le milieu du segment et Q est un autre point de la ligne. Justifier succinctement. -5-"
+     },
+     {
+      "numero": "Q3.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 8,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "Question 3.2 : Seule la tige du vérin VL est mobile. Ecrire une relation liant T2o1 et N 2o1 . Ecrire également une relation liant T3o 2 et N 3o 2 ."
+     },
+     {
+      "numero": "Q3.4",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Principe fondamental de la statique",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 8,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "Question 3.4 : Rechercher graphiquement une solution permettant d’assurer l’équilibre de la cale de poussée (1) en supposant que les 3 actions extérieures qui s’exercent sur cette pièce sont représentées par 3 glisseurs. Justifier votre réponse ; en particulier la solution trouvée est-elle compatible avec la condition de la question 3.1 ? Donner la valeur & numérique de la force exercée par le vérin VP sur la cale de poussée (1) : FVP o1 ."
+     },
+     {
+      "numero": "Q3.5",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 8,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "Question 3.5 : En utilisant une démarche similaire à celle proposée à la question 3.4, déterminer graphiquement sur le document réponse 1, la force exercée par le vérin VL sur & la cale de levage (2) : FVL o 2 . Justifier la construction."
+     },
+     {
+      "numero": "Q3.6",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 8,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "Question 3.6 : L’actionneur VL est un vérin hydraulique fonctionnant sous une pression nominale de 400 bars. Calculer la section utile de vérin."
+     },
+     {
+      "numero": "Q3.7",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Statique : Frottements",
+        "semestre": "S2"
+       }
+      ],
+      "page": 8,
+      "tags": [],
+      "texte": "Question 3.7 : En faisant l’hypothèse d’une répartition de pression linéaire et en tenant compte du modèle simplifié (sans frottement) proposé figure 7, déterminer et calculer la pression maximale pmax de contact entre la cale de levage (2) et la cale de poussée (1). En déduire la largeur minimale e de la cale de levage, pour que pmax n’excède pas la pression de matage admissible de 200 Mpa. & L = 1702 mm y p ( x) pmax \u0010 ax ))))& b = 708 mm F1o2 & x p( x) ))))& Q F1o2 12000 kN Cale de levage (2) x Figure 7 Dimensionnement d’une pile. Lors de l’opération de poussée, la semelle (3) exerce sur la pile un effort qui se décompose en une composante verticale et une composante horizontale. On ne tiendra compte à la question 3.8, que de la composante horizontale : FH = 1600 kN."
+     },
+     {
+      "numero": "Q3.8",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Transmissions mécaniques : Engrenages",
+        "semestre": "S1"
+       }
+      ],
+      "page": 8,
+      "tags": [],
+      "texte": "Question 3.8 : En assimilant la pile à une poutre encastrée dans le sol, de section carrée et de hauteur L, déterminer la flèche d à l’extrémité haute de la pile (figure 8). Faire une application numérique. FH On donne : & y FH L3  d : flèche de la pile. 3EIGz a L = 245 m  E = 27000 Mpa : module de Young du béton. a  a = 10 m : longueur d’arête de la section de la pile. & x Figure 8 -6-"
+     },
+     {
+      "numero": "Q3.9",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Résistance des matériaux : Torseur de cohésion",
+        "semestre": "S3"
+       }
+      ],
+      "page": 9,
+      "tags": [],
+      "texte": "Question 3.9 : Tracer l’évolution du moment fléchissant Mfz(x) et calculer ses valeurs minimale et maximale."
+     },
+     {
+      "numero": "Q3.10",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Résistance des matériaux : Contraintes et déformations",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 9,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "Question 3.10 : On tient compte dans cette question du poids de 12000 kN qui s’applique sur la pile. Calculer les contraintes de traction et de compression maximales qui s’excercent dans la pile. On donne : la contrainte admissible du béton en traction : 2,1 MPa, la contrainte admissible du béton en compression : 40 MPa. Comparer et conclure. Dimensionnement du vérin de poussée (VP). On se place toujours dans le cadre d’un problème plan. (document réponse 2)."
+     },
+     {
+      "numero": "Q3.11",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 9,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "Question 3.11 : Seule la tige du vérin VP est mobile. Ecrire une relation liant T2o1 et N 2o1 , ainsi qu’une relation liant T3o 2 et N 3o 2 ."
+     },
+     {
+      "numero": "Q3.13",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 9,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "Question 3.13 : En utilisant une démarche similaire à celle proposée à la question 3.4, déterminer graphiquement sur le document réponse 2, la force exercée par le vérin VP & sur la cale de poussée (1) : FVP o1 . Justifier la construction."
+     },
+     {
+      "numero": "Q3.14",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       }
+      ],
+      "page": 9,
+      "tags": [
+       "hydraulique"
+      ],
+      "texte": "Question 3.14 : L’actionneur VP est considéré comme un vérin hydraulique fonctionnant sous une pression nominale de 400 bars. Calculer la section utile de vérin. Partie 4 : Etude de la fabrication de la cale de levage Lors du fonctionnement, la cale de levage est en contact avec la semelle et la cale de poussée."
+     }
+    ]
+   },
+   {
+    "titre_partie": "Partie 4 : Etude de la fabrication de la cale de levage",
+    "questions": [
+     {
+      "numero": "Q4.1",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Matériaux : Propriétés physiques et mécaniques",
+        "semestre": "S3"
+       }
+      ],
+      "page": 9,
+      "tags": [],
+      "texte": "Question 4.1 : Quelles doivent être les propriétés physiques du matériau de la cale de levage, afin d’assurer un fonctionnement correct sans dégradation. En déduire les principales caractéristiques mécaniques du matériau à utiliser."
+     },
+     {
+      "numero": "Q4.2",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Matériaux : Propriétés physiques et mécaniques",
+        "semestre": "S3"
+       }
+      ],
+      "page": 9,
+      "tags": [],
+      "texte": "Question 4.2 : Préciser le % de carbone d’un acier non allié et un ou des traitements permettant d’obtenir les caractéristiques mécaniques désirées pour la cale de levage. Expliquer en quelques lignes le principe du ou des traitements retenus."
+     },
+     {
+      "numero": "Q4.3",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+        "semestre": "S2"
+       }
+      ],
+      "page": 9,
+      "tags": [
+       "tolérances géométriques"
+      ],
+      "texte": "Question 4.3 : A partir des informations du dessin de définition partiel de la cale de levage, interpréter la spécification suivante :"
+     },
+     {
+      "numero": "Q4.4",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+        "semestre": "S2"
+       },
+       {
+        "theme_sous_theme": "Matériaux : Propriétés physiques et mécaniques",
+        "semestre": "S3"
+       }
+      ],
+      "page": 9,
+      "tags": [
+       "usinage",
+       "forgeage / emboutissage / découpe",
+       "tolérances géométriques"
+      ],
+      "texte": "Question 4.4 : A partir des informations du dessin de définition partiel de la cale de levage, interpréter les 3 spécifications suivantes sur le document réponse 3 : , et La cale de levage est obtenue par usinage sur l’ensemble de ses faces dans un brut découpé dans une plaque d’acier de 70 mm d’épaisseur (surépaisseur sur l’ensemble des faces de 5 mm)."
+     },
+     {
+      "numero": "Q4.5",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Énergétique : Puissance et rendement",
+        "semestre": "S3"
+       }
+      ],
+      "page": 9,
+      "tags": [
+       "embrayage / frein",
+       "forgeage / emboutissage / découpe"
+      ],
+      "texte": "Question 4.5 : Proposer un procédé permettant la découpe précise du brut (intervalle de tolérance de 0,5 mm). L’atelier de fabrication dispose de fraiseuses à commande numérique de grandes capacités. Deux types de fraiseuses sont disponibles : x CU 3 axes : fraiseuse 3 axes à broche verticale de capacité X=2000 mm, Y=800 mm et Z=800 mm x CU 5 axes : fraiseuse 5 axes de capacité X=2000 mm, Y=1000 mm et Z=1000 mm avec une tête orientable A = +/- 100°et B = +/- 100°. Tous les types d’outils classiques suivant sont disponibles : forets, fraises 2 tailles, fraises à surfacer, outils à aléser, fraises à chanfreiner. -7- On se propose d’étudier les paramètres de coupe d’une opération de surfaçage à l’aide d’une fraise à surfacer. On donne les éléments suivants : x Caractéristique de la fraise : Ø80 mm, nombre de dents Z=5, engagement radial 80% ap.ae.vf .kc x Puissance nécessaire pour la coupe : P [kW ] 6.107 x Puissance disponible pour la coupe : 12 kW x Pression spécifique de coupe kc=2000 N/mm2 x En ébauche : vitesse de coupe Vc=250 m/min et avance par dent fz=0,25 mm x En finition : vitesse de coupe Vc=300 m/min et avance par dent fz=0,15 m"
+     },
+     {
+      "numero": "Q4.6",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Cinématique : Vitesses",
+        "semestre": "S1"
+       },
+       {
+        "theme_sous_theme": "Énergétique : Puissance et rendement",
+        "semestre": "S3"
+       }
+      ],
+      "page": 10,
+      "tags": [],
+      "texte": "Question 4.6 : Pour l’ébauche, calculer la vitesse de rotation N de la broche, la vitesse d’avance vf de la fraise et la valeur ap maximum correspondant à la profondeur de passe compatible avec la puissance disponible pour la coupe."
+     },
+     {
+      "numero": "Q4.7",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Énergétique : Puissance et rendement",
+        "semestre": "S3"
+       }
+      ],
+      "page": 10,
+      "tags": [],
+      "texte": "Question 4.7 : En déduire les paramètres de coupe (Vc, ap, fz) pour chaque passe éventuelle afin de finir la surface. Déterminer la puissance pour chaque passe et commenter ces puissances obtenues."
+     },
+     {
+      "numero": "Q4.8",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Procédés : Usinage",
+        "semestre": "S3"
+       },
+       {
+        "theme_sous_theme": "Statique : Isostatisme",
+        "semestre": "S2"
+       }
+      ],
+      "page": 10,
+      "tags": [
+       "usinage"
+      ],
+      "texte": "Question 4.8 : Proposer sur le document réponse 4, une gamme d’usinage permettant l’usinage complet de la cale de levage. On demande en particulier de préciser pour chaque phase d’usinage : x le numéro de la phase, x le type de la machine, x un dessin en 3D de l’allure de la pièce en position d’usinage mettant clairement en évidence les surfaces brutes et les surfaces usinées pour chaque phase, x l’isostatisme (normales de repérage, on prendra soin aux positions des normales/surfaces usinées et on ne s’intéressera pas aux problématiques de serrage) x le repère XYZ de la machine, x la liste des opérations d’usinage avec les surfaces réalisées ainsi que les types d’outils associés (faire un dessin de l’allure de l’outil en travail précisant son orientation)."
+     },
+     {
+      "numero": "Q4.9",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+        "semestre": "S2"
+       }
+      ],
+      "page": 10,
+      "tags": [
+       "tolérances géométriques"
+      ],
+      "texte": "Question 4.9 : Expliquer la spécification correspondant au symbole extrait du dessin de définition partiel de la cale de levage."
+     },
+     {
+      "numero": "Q4.10",
+      "mots_cles": [
+       {
+        "theme_sous_theme": "Dimensionnement : Liaisons mécaniques",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Dimensionnement : Actionneurs et préactionneurs",
+        "semestre": "S4"
+       },
+       {
+        "theme_sous_theme": "Spécifications géométriques : Tolérancement",
+        "semestre": "S2"
+       }
+      ],
+      "page": 10,
+      "tags": [
+       "soudage / mécano-soudé",
+       "forgeage / emboutissage / découpe",
+       "tolérances géométriques",
+       "hydraulique",
+       "dessin / conception sur calque"
+      ],
+      "texte": "Question 4.10 : Proposer un procédé permettant d’obtenir cette spécification sur cette pièce. Situer ce procédé dans le processus de fabrication de la cale de levage. -8- Partie 5 : Etude de la conception d’un ensemble pousseur de tablier On demande de réaliser sur le document réponse 5 (calque pré-imprimé A3) la conception d’un ensemble pousseur de tablier. La semelle qui fait office de bâti sera réalisée en mécano-soudé à partir de plaques découpées dans des épaisseurs de 40, 30 et 10 mm. Une pièce massive nommée « support» en liaison complète démontable avec la semelle permet d’assurer un contact satisfaisant avec le plan inférieur de la cale de levage. Il est demandé en particulier de définir dans toutes les vues utiles à la compréhension, les formes et les géométries permettant de réaliser : x La liaison du vérin de levage avec la semelle, les axes sont en liaison complète non démontable avec le vérin de levage, on fera attention au montage et au démontage du vérin par rapport à la semelle. x Les liaisons du vérin de poussée avec la cale de poussée et la semelle x La liaison complète démontable du support et de la semelle x Les liaisons glissières des cales de levage et de pou"
+     }
+    ]
+   }
+  ]
+ }
+}

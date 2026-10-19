@@ -1,0 +1,1917 @@
+
+===== page 1 =====
+[OCR] Bangue PT
+
+@ PaYsOve & TECHNOLOGIE 10PT26
+
+Epreuve de Sciences Industrielles B
+Durée 6h
+Si, au cours de l’épreuve, un candidat repére ce qui lui semble étre une erreur d’énoncé, d’une part il
+
+le signale au chef de salle, d’autre part il le signale sur sa copie et poursuit sa composition en
+indiquant les raisons des initiatives qu’il est amené 4 prendre.
+
+L’usage de calculatrices est interdit.
+
+La présentation, la lisibilité, l'orthographe, la qualité de la rédaction, la clarté et la précision des
+raisonnements entreront pour une part importante dans l’appréciation des copies. En particulier
+les résultats non justifiés ne seront pas pris en compte. Les candidats sont invités 4 encadrer les
+résultats de leurs calculs.
+
+Matériel autorisé :
+L'usage des instruments usuels du dessinateur est autorisé.
+
+Composition du sujet :
+
+= 1 cahier comprenant 20 pages de texte numérotées de 11/20 a 120/20. Ce cahier
+contient le descriptif du systéme étudié ainsi que les différentes questions numérotées de
+Question 1 a Question 27.
+
+= 16 documents au format A4, intitulés «Document i» i « {1 ; 2; ... ; 16}, contenant des
+documents complémentaires.
+
+= 1 cahier réponse de 8 pages numérotées de R1/8 a R8/8 a rendre en fin d’épreuve. Ce
+cahier réponse est un document a trous dans lequel seront consignées par le candidat les
+réponses intitulées Réponse 1 a Réponse 26 relatives aux questions de notice de conception
+intitulées Question 1 4 Question 26.
+
+= 1 feuille de calque format A4 pré-imprimée intitulée «Calque réponse» a rendre en fin
+d’épreuve, contenant les réponses a la Question 27 oti l'on demande le tracé d’un dessin.
+
+Toute autre documentation est interdite.
+Les réponses sur feuilles de copies ou papiers de
+brouillon ne seront pas acceptées.
+
+Gestion du temps :
+En admettant une durée de 1 h 00 pour la lecture et I’assimilation du sujet, il est vivement
+conseillé de consacrer environ 2 h 30 a la réponse aux questions de la notice de conception
+
+(50% de la note globale) et environ 2 h 30 au tracé du dessin (50% de la note globale). Les
+différentes parties et sous-parties sont indépendantes.
+
+71/20
+
+TOURNEZ LA PAGE S.V.P.
+
+
+===== page 2 =====
+Présentation du produit
+
+La densification des zones urbaines ces vingt dernières années a conduit à une
+saturation de la plupart des grandes villes européennes. Ainsi, les conditions de
+circulation devenues très difficiles, les réseaux de transport en commun saturés, ont
+conduit de nombreux usagers à se tourner vers les véhicules à deux roues. D’abord
+destiné à un public de passionnés recherchant des sensations et un sentiment de
+liberté, le marché des deux roues a connu une évolution plus utilitaire. Ceci explique
+le fort succès des scooters cette dernière décennie. L’enjeu des constructeurs de
+scooters est donc de proposer des véhicules pouvant se déplacer aisément en milieu
+urbain et sur route tout en s’adaptant à ces nouveaux usagers peu habitués aux
+spécificités des deux roues en améliorant le confort et la sécurité. Dans ce domaine,
+la société Piaggio propose un scooter dont le train avant est muni de deux roues. Les
+objectifs sont d’avoir une tenue de route plus proche d’un véhicule à quatre roues,
+d’augmenter la capacité de freinage ainsi que le confort d’utilisation en ville tout en
+conservant la maniabilité d’un deux roues classique.
+Nous allons nous intéresser dans ce sujet à certains aspects de la conception du
+train avant à deux roues développé par la société Piaggio sur son scooter MP3
+(Figure 1).
+
+
+
+
+                          Figure 1 : Scooter MP3 (Piaggio)
+
+
+
+Le train avant est défini comme l’ensemble comprenant : la roue (ou les roues)
+avant, la suspension, le dispositif de freinage, tous les éléments participant aux
+liaisons entre ces éléments. Sur un scooter à une seule roue avant, le train avant est
+lié au châssis du véhicule par une liaison pivot permettant d’orienter la roue avant
+par rapport au véhicule par l’intermédiaire du guidon. Cette liaison permet de diriger
+le véhicule. Pour un scooter à deux roues avant, le train avant doit non seulement
+
+                                        T2/20
+
+
+===== page 3 =====
+permettre le pivotement des roues commandé par le guidon mais il doit également
+permettre l’inclinaison de l’ensemble du scooter tout en conservant le contact des
+roues au sol (voir Figure 2).
+
+
+
+
+         Figure 2 : Scooter à 2 roues (gauche) et scooter à 3 roues (droite)
+
+La solution retenue pour permettre une inclinaison du véhicule malgré la présence de
+deux roues sur le train avant repose sur la cinématique imposée par un dispositif en
+parallélogramme représenté Figure 3. Une vue d’ensemble du train avant avec le
+parallélogramme d’inclinaison est fournie Document 1.
+
+                                         Châssis
+
+
+
+
+         Roue avant
+                                     i
+                                                             Roue avant
+
+
+
+
+                Figure 3 : Principe du parallélogramme d’inclinaison
+
+Le diagramme des interacteurs (Figure 4) et l’extrait de cahier des charges
+(Figure 5) suivant permettent de spécifier les principales performances attendues
+par ce train avant innovant.
+                                         T3/20
+
+
+
+                                                              TOURNEZ LA PAGE S.V.P.
+
+
+===== page 4 =====
+                Conducteur                                              Route
+
+                              FS1
+                 FS4
+                                                                 FS2
+
+                                  Train avant de scooter
+
+
+
+
+                                                           FS3
+
+              Législation
+                                                                  Scooter
+
+
+                        Figure 4 : Diagramme des interacteurs
+
+
+
+Enoncé des fonctions de service :
+
+FS1 : Permettre au conducteur de maîtriser le véhicule sur la route
+
+FS2 : Assurer la liaison au sol
+
+FS3 : Assurer une partie du freinage du scooter
+
+FS4 : Etre conforme à la législation en vigueur
+
+
+
+
+                                            T4/20
+
+
+===== page 5 =====
+                                Critères                       Niveaux
+
+FS1 : Permettre au      Inclinaison autorisée       -50°<i<50° (voir Figure 3)
+conducteur de
+maîtriser le véhicule   Stabilité du véhicule en    Autonome pour V> 15 km/h
+sur la route            ligne droite
+                        Verrouillage de              pour V<15 km/h
+                        l'inclinaison du train       temps verrouillage /
+                        avant (en option)           déverrouillage < 3s
+                        Rigidité de l’ensemble du    Jeu nul dans les liaisons
+                        train avant                  déplacement des colonnes
+                                                    sous efforts (au point OC3
+                                                    défini Document 3) :
+                                                     U OC 3 <1 mm.
+                        Masse maximum du train 80 kg
+                        avant
+
+                        Rayon de braquage           < 2,5 m
+                        Minimum
+                        Commandes au guidon    Commandes : moteur,
+                                               freins avants, phares et
+                                               clignotants, avertisseur
+                                               sonore, verrouillage du train
+                                               (en option).
+FS2 : Assurer la        Contact des deux roues Permanent
+liaison au sol          au sol
+
+
+
+FS3 : Assurer une     Décélération maximum        8 ms-2
+partie du freinage du
+scooter
+FS4 : Etre conforme à Distance entre les deux > 460 mm
+la législation en     roues avant pour être
+vigueur               conduit par un titulaire de
+                      permis B quelle que soit
+                      la cylindrée
+
+                        Normes pour                 Normes Euro 3
+                        homologation
+
+
+
+              Figure 5 : Principales performances du train avant
+
+
+
+
+                                     T5/20
+
+
+
+                                                              TOURNEZ LA PAGE S.V.P.
+
+
+===== page 6 =====
+Présentation des différentes parties du sujet
+Le sujet est constitué de deux parties. On s’intéresse au train avant du véhicule dans
+chacune des deux parties.
+
+Dans la Partie 1, on cherche à vérifier le critère de rigidité du train avant de la
+fonction FS1. On étudie pour cela le système d’inclinaison et on s’intéresse au
+déplacement d’un point d’une colonne sous efforts.
+
+Dans la Partie 2, on s’intéresse à la conception du dispositif de verrouillage du
+système d’inclinaison de la fonction FS1. Dans la Sous-partie 2.1, on validera la
+chaine d’énergie du dispositif de verrouillage en conformité avec le cahier des
+charges. Dans la Sous-partie 2.2, on s’intéresse à la conception d’une partie du
+dispositif de verrouillage.
+
+
+
+
+          Partie 1 : Etude et validation partielle du
+               parallélogramme d’inclinaison
+Objectifs : On cherche à vérifier le critère de rigidité de l’ensemble du train
+avant sous sollicitations de la fonction FS1. Pour cela on étudie le mécanisme
+d’inclinaison des roues en parallélogramme dont une illustration est donnée
+Document 1. On utilisera pour la suite de notre étude les modèles simplifiés donnés
+Document 2, Document 3 et Document 4.
+
+Ce système, constitué de deux bras B1 et B2 et de deux colonnes C3 et C4, est relié
+au châssis 0 du scooter par deux liaisons pivots. Chaque bras est en liaison pivot
+avec chaque colonne. Les colonnes C3 et C4 sont liées en liaison pivot avec les deux
+bras de suspension qui supportent les deux roues avant (voir Figure 3). Un schéma
+cinématique minimal du système d’inclinaison est donné sur le Document 2.
+
+     Question 1.
+     Calculer le degré d’hyperstatisme du mécanisme modélisé par le schéma
+     cinématique minimal du Document 2. Au regard du cahier des charges, quel
+     est l’intérêt d’un tel hyperstatisme ?
+
+On applique un chargement connu au système étudié en imposant un torseur d’effort
+extérieur, représentant le contact roue-sol, à chacune des colonnes.
+
+
+
+
+                                        T6/20
+
+
+===== page 7 =====
+     Question 2.
+     En appliquant le principe fondamental de la statique à chacune des pièces du
+     système d’inclinaison (liaisons supposées parfaites), on obtient un système
+     d’équations reliant les inconnues de liaison aux données du problème. Est-il
+     possible de résoudre le système obtenu sans hypothèse supplémentaire ?
+     Justifier.
+
+Nous allons à présent vérifier le critère de rigidité du train avant en prenant en
+compte les déformations de certaines pièces. Les colonnes C3 et C4 sont de forme
+tubulaire et réalisées dans un matériau dont la désignation normalisée est 30NiCr11.
+Les bras B1 et B2 sont des pièces massives réalisées dans un matériau dont la
+désignation normalisée est EN AC-43100 (AlSi10Mg). La forme générale de ces
+pièces est donnée Document 1.
+
+     Question 3.
+     Donner la signification des désignations normalisées 30NiCr11 et EN AC-43100
+     (AlSi10Mg). Donner pour chacun de ces matériaux la valeur du module
+     d’Young. Proposer un mode d’obtention du brut pour les deux bras B1 et B2,
+     étant donné la série (ici grande série) et le matériau considérés.
+
+Les colonnes C3 et C4 se déforment très peu. On supposera donc pour simplifier,
+dans la suite, que les colonnes C3 et C4 ne se déforment pas. Etant donné la
+géométrie des bras, on considère que les bras B1 et B2 ne se déforment que très
+localement, autour de la zone où est réalisée la liaison pivot avec la colonne C3 ou
+C4. En effet dans la zone fonctionnelle relative à la liaison pivot, le bras est de
+section beaucoup plus faible, pour permettre le passage de la colonne. Le montage
+en chape est illustré Document 2. Chaque liaison pivot est réalisée par un montage
+de roulements précontraints que l’on modélise comme deux liaisons sphériques de
+centre Ai.
+
+On s’intéresse dans un premier temps aux déformations du bras sous l’effet des
+efforts transmis par la liaison sphérique de centre Ai. Le Document 3 donne les
+différentes coordonnées des points de la colonne C3. On précise que le torseur des
+actions mécaniques transmissibles du bras Bj (j=1 ou 2) sur la colonne C3 par la
+liaison sphérique de centre Ai (i=1, 2, 3 ou 4) s’écrit au point Ai:
+                                                            
+                              Ai
+                                          X i x + Yi y + Z i z 
+                           {T Bj C3 } =           0
+                                                                
+                                                               Ai
+
+Une partie du bras est représentée de manière simplifiée par un parallélépipède
+rectangle de cotés et et de longueur . Pour connaître le lien entre les efforts
+appliqués et la déformée, on utilise un modèle poutre. Cette poutre, notée Pi,
+d’extrémités Oi et Ai est représentée sur le Document 4. Les caractéristiques
+géométriques et les matériaux constitutifs de toutes les poutres Pi sont supposées
+identiques : la longueur est , la section est        et le module d’Young est .
+
+
+
+
+                                           T7/20
+
+
+
+                                                                      TOURNEZ LA PAGE S.V.P.
+
+
+===== page 8 =====
+On s’intéresse aux trois chargements définis sur le Document 4. On définit trois
+rigidités équivalentes  ,   et   :
+                                                                     
+                        et             où U A i = X i x + Yi y + Z i z représente le
+
+déplacement du point Ai, extrémité de la poutre.
+On note le torseur de cohésion dans la poutre Pi :
+                                                                 
+                                    Rx (x) x + Ry (x) y + Rz (x) z 
+                        { TCoh } =                                
+                                    M x (x) x + M y (x) y + M z (x) z  M i
+                
+avec Oi M i = x x la position d’un point courant de la ligne moyenne.
+
+     Question 4. On s’intéresse au chargement 1 du Document 4. Donner
+     l’expression des composantes du torseur de cohésion. Préciser la nature de la
+     sollicitation associée au chargement 1. Déterminer   en fonction de
+     et ; en déduire       en fonction de   et .
+
+On néglige les effets de l’effort tranchant devant ceux dus au moment fléchissant
+pour le calcul du déplacement.
+
+     Question 5. On s’intéresse au chargement 2 du Document 4. Donner
+     l’expression des composantes du torseur de cohésion. Préciser la nature de la
+     sollicitation associée à ce chargement. Déterminer en fonction de Yi , E, L et
+        (moment quadratique autour de l’axe au centre de gravité de la section),
+     en déduire   en fonction de , et      . Donner l’expression de en fonction
+     de et .
+
+Pour le chargement 3 du Document 4, on obtient par un raisonnement similaire la
+valeur de          en fonction des données. On ne cherche pas à établir ici son
+expression et on suppose             connu dans la suite. En remarquant que les valeurs
+    ,     et     sont identiques quelle que soit la poutre Pi considérée, on note ces
+trois rigidités kX , et kZ .
+On cherche à présent à déterminer les efforts dans les liaisons sphériques de centre
+Ai, et le comportement de la structure en fonction de l’effort imposé par le contact
+roue-sol. Cette action mécanique, transmise par la suspension à la colonne C3, est
+modélisable en BC3 (voir Document 3) par le torseur d’actions mécaniques suivant,
+qui correspondra à une sollicitation extrême du train avant :
+                                                                    
+                                                      P x + Qy + Rz 
+                             { TSuspension C 3 } =  L x + M y + N z
+                                                                            BC 3
+
+
+
+     Question 6. Isoler la colonne C3 et faire le bilan des actions mécaniques
+     extérieures (on donnera les torseurs associés à chaque action). On négligera le
+     poids de C3.
+
+                                              T8/20
+
+
+===== page 9 =====
+La déformation des bras due aux actions mécaniques engendre un déplacement de
+la colonne C3 par rapport à sa position au repos. On repère la nouvelle position de C3
+dans l’espace par six paramètres u,v,w, ,  et . Les paramètres u,v et w repèrent
+                                                             
+le déplacement UOC 3 du point OC3, de C3 : UOC 3 = u x + v y + w z . Les paramètres ,  et
+                                                                       
+   représentent les angles qui orientent C3 selon les axes x, y et z , de sorte que la
+                                                                        
+rotation de C3 est définie par le vecteur rotation C 3 =  x +  y +  z . On donne les
+déplacements des points A1, A2, A3 et A4 de C3 par rapport à sa position au repos en
+fonction de u,v,w, ,  et et des paramètres géométriques e et d :
+                                                                                        
+            U A1 = X 1 x + Y1 y + Z1 z = (u + d. + e.  ) x + (v  e.  ) y + (w  d. ) z
+                                                                                         
+            U A 2 = X 2 x + Y2 y + Z 2 z = (u  d. + e.  ) x + (v  e.  ) y + (w + d. ) z
+                                                                                         
+            U A 3 = X 3 x + Y3 y + Z 3 z = (u + d.  e.  ) x + (v + e.  ) y + (w  d. ) z
+                                                                                         
+            U A 4 = X 4 x + Y4 y + Z 4 z = (u  d.  e.  ) x + (v + e.  ) y + (w + d. ) z
+
+Nous allons établir, dans la suite, un lien entre les paramètres u,v,w, ,  et                    et les
+efforts extérieurs appliqués en BC3.
+
+     Question 7.
+     Appliquer le théorème de la résultante statique à la colonne C3. En déduire
+     l’expression des composantes u, v et       du déplacement en fonction des
+     composantes P, Q, R, kX , kY et kZ .
+
+     Question 8.              
+     Comparer le déplacement UOC 3 du point OC3 obtenu pour ce chargement au
+     déplacement maximal autorisé, donné dans le cahier des charges dans la
+     fonction FS1.
+
+     Question 9.
+     Donner la démarche qui permettrait de déterminer l’expression des
+     composantes de rotation et en fonction des composantes P, Q, R, L, M et
+     N.
+
+
+
+
+                                                  T9/20
+
+
+
+                                                                                TOURNEZ LA PAGE S.V.P.
+
+
+===== page 10 =====
+Partie 2 : Etude et validation partielle du dispositif de
+              verrouillage de l’inclinaison
+On s’intéresse dans cette partie à la conception du dispositif de verrouillage de
+l’inclinaison. Il doit permettre de vérifier le critère de verrouillage de la fonction de
+service FS1 pour les vitesses inférieures à 15 km.h-1. Ce dispositif, présent en
+option, répond à un souci d’amélioration du confort d’utilisation du scooter en milieu
+urbain. Le train avant est sensiblement alourdi, par sa structure particulière, par
+rapport à un véhicule classique. D’autre part, les protections et les éléments de
+confort propres au marché du scooter amènent le poids des scooters, même de
+faible cylindrée, à atteindre celui d’une moto de grosse cylindrée. Afin de conserver
+une bonne maniabilité aux faibles vitesses et de s’adapter aux usagers de tout
+gabarit, le verrouillage de l’inclinaison est donc proposé en option dans la fonction
+FS1 de la partie 1. Il permet en outre d’éviter de poser le pied aux arrêts (nombreux
+en circulation urbaine), et de garer le scooter dans n’importe quelle configuration
+(pente, à cheval sur un trottoir ou une bordure, etc …) sans avoir à utiliser la béquille
+centrale (opération difficile sur un engin d’environ 200 kg).
+
+Le diagramme SADT A-0 représenté Figure 6 présente la fonction technique à
+remplir par le dispositif de verrouillage d’inclinaison du train avant ainsi que les
+données influant sur son fonctionnement.
+                                    Présence conducteur
+
+
+
+
+                                                                             Vitesse de rotation des
+                                                          Commande guidon
+
+
+
+
+                                                                                                       Régime moteur
+                                                                            roues avant
+
+
+
+
+        Energie électrique                                                                                                   Information conducteur
+                                FT1 : verrouiller/déverrouiller
+      Inclinaison train avant   l’inclinaison                                                                                Inclinaison train avant
+      déverrouillé/verrouillé                                                                                                verrouillé/déverrouillé
+
+                                                                                                                       A-0
+
+
+                           Dispositif de verrouillage de l’inclinaison
+                           du train avant
+                           Figure 6 : SADT A-0 de la fonction FT1
+
+La commande du dispositif doit être actionnée au guidon et validée par le calculateur
+en fonction de la vitesse du scooter (mesure de la vitesse de rotation des roues) et
+du régime moteur. Un voyant au guidon permet d’avertir le conducteur de l’état du
+dispositif. Le dispositif ne peut être déverrouillé que si le conducteur est assis sur la
+selle.
+                                         T10/20
+
+
+===== page 11 =====
+L’extrait de cahier des charges Figure 7 permet de spécifier la fonction technique
+FT1. Afin de clarifier la spécification de FT1, trois phases de fonctionnement ont été
+distinguées :
+    • verrouillage (toujours par commande manuelle) (Phase A)
+    • déverrouillage automatique (Phase B)
+    • déverrouillage manuel (Phase C)
+
+CDCF FT1 Phase de fonctionnement A : verrouillage.
+                  critère                     niveau                       flexibilité
+FT1 : verrouiller temps de verrouillage        3s                          maxi
+l’inclinaison
+                  puissance électrique         80 W                        maxi
+                  consommée
+                  vitesse du scooter          < 10 km/h                    impératif
+                  ordre verrouillage           commande manuelle
+                                               au guidon (contrôlée
+                                               puis validée par
+                                               calculateur)
+                  maintien du verrouillage     sans apport d’énergie       impératif
+
+CDCF FT1 Phase de fonctionnement B : déverrouillage automatique.
+                    critère                 niveau                         flexibilité
+FT1 : déverrouiller temps de déverrouillage  3s                            maxi
+l’inclinaison
+automatiquement     puissance électrique    80 W                           maxi
+                    consommée
+                    vitesse du scooter      > 15 km/h                      impératif
+                    régime de rotation      > 2500 tr/min                  impératif
+                    moteur
+                    présence conducteur     détection capteur de           impératif
+                                            selle
+                    ordre déverrouillage    calculateur
+
+CDCF FT1 Phase de fonctionnement C : déverrouillage manuel.
+                    critère                     niveau                     flexibilité
+FT1 : déverrouiller temps de déverrouillage      3s                        maxi
+l’inclinaison
+manuellement        puissance électrique        80 W                       maxi
+                    consommée
+                    présence conducteur         détection capteur de       impératif
+                                                selle
+                    ordre déverrouillage        commande manuelle
+                                                au guidon (contrôlée
+                                                puis validée par
+                                                calculateur)
+                     Figure 7 : Extrait du cahier des charges
+
+
+
+                                       T11/20
+
+
+
+                                                              TOURNEZ LA PAGE S.V.P.
+
+
+===== page 12 =====
+Le verrouillage de l’inclinaison du train avant nécessite la suppression de ces
+mobilités :
+   • la mobilité du parallélogramme d'inclinaison (voir partie 1),
+   • la mobilité de la suspension avant (particulièrement utile en mode parking).
+
+Les solutions retenues pour bloquer ces deux mobilités sont :
+    • un frein à disque (visible sur le Document 1) actionné par câble pour le
+       parallélogramme d'inclinaison,
+    • un verrou hydraulique pour chaque bras de suspension (visible sur le
+       Document 1 et schématisé sur les Document 5 et Document 6).
+
+
+
+Sous-partie 2.1 : Validation du dispositif de verrouillage
+Objectifs : On s’intéresse ici à la conception de la chaine d’énergie du dispositif de
+verrouillage. Nous allons établir une notice de calcul permettant de concevoir et
+de valider le mécanisme de transmission du dispositif de verrouillage en
+conformité avec le cahier des charges de la fonction FT1.
+
+Malgré la nature différente des énergies mises en jeu pour les deux dispositifs de
+verrouillage, le constructeur souhaite utiliser un unique actionneur pour limiter les
+coûts de production, faciliter les opérations de maintenance, limiter les masses
+embarquées ainsi que l’encombrement et garantir la synchronisation des deux types
+de verrouillage.
+
+Détermination de la pression hydraulique nécessaire au verrouillage de la
+mobilité de la suspension avant.
+
+Une schématisation du bras de suspension et du verrou hydraulique (identiques pour
+les deux roues avant) est fournie Document 5 et Document 6 respectivement.
+Une roue est en liaison pivot d’axe ( O, x 0 ) avec le bras oscillant 11 lui-même en
+liaison pivot d’axe ( O, x 0 ) avec le bras de suspension constitué des pièces 12 et 13.
+Le bras oscillant 11 est en liaison pivot d’axe ( P, x 0 ) avec la demi-fourche 10. La
+liaison équivalente entre 12 et 13 est assimilée à une glissière de direction z13 . Entre
+12 et 13 sont placés un amortisseur et un ressort non représentés. En parallèle du
+bras de suspension, une tige 14 est liée par une liaison pivot glissant d’axe ( M, x 0 )
+avec 12 et par une liaison pivot glissant d’axe ( M, z13 ) avec 13. C’est cette dernière
+liaison pivot glissant qui sera verrouillée par le verrou hydraulique.
+Le principe retenu pour verrouiller la liaison pivot glissant entre 13 et 14 consiste à
+pincer un cylindre élastique Cy sur la tige 14 (Document 6). Le blocage se fait alors
+par adhérence. Le contact entre Cy et 14 sera considéré comme ponctuel aux points
+J’1 et J’2.
+
+Pour simplifier, on considère que les coefficients de frottement et d’adhérence entre
+Cy et 14 sont égaux et valent : f=0,3.
+
+                                        T12/20
+
+
+===== page 13 =====
+La résultante globale des efforts à transmettre par adhérence de 14 sur Cy est :
+R14 Cy = Z14 Cy z13 avec Z14 Cy = 923 N .
+Compte tenu de la grande souplesse de Cy, on considère que les efforts transmis en
+J1 et J2 sont identiques en norme aux efforts en J’1 et J’2 respectivement.
+
+Données du Document 5 : IO = Rz 0 avec                         ,         avec               ,
+( y , y ) = (z ,z ) =  = 30°.
+  0   13    0   13   013
+
+
+Données du Document 6 :                     ,              ,             .
+L’angle étant supposé petit, on travaillera sur la configuration non déformée (partie
+Doc 6a du Document 6).
+
+      Question 10. En détaillant le(s) théorème(s) et isolement(s) utilisés, exprimer
+      les torseurs d’actions mécaniques transmissibles par les liaisons ponctuelles
+      avec frottement en J’1 et J’2, notés {T J1 'Cy 14 } et {T J 2 'Cy 14 } à la limite du
+      glissement entre 14 et Cy. On exprimera ces torseurs dans la base
+      B13 = x13 = x 0 , y13 ,z13 respectivement en J1’ et J2’ en fonction de Z14 Cy et de f.
+           (               )
+      Question 11. En détaillant le(s) théorème(s) et isolement(s) utilisés, en déduire
+      la projection sur x13 de la résultante des actions mécaniques transmissibles de
+      P sur B RP B , en fonction de Z14 Cy et de f. En déduire la pression P2 à
+      imposer dans le dispositif de verrouillage en fonction de Z14 Cy , f, Patm et des
+      caractéristiques géométriques.
+
+
+
+
+Détermination du couple moteur nécessaire au verrouillage des mobilités du
+train avant.
+
+Le mécanisme de transmission du dispositif de verrouillage schématisé Document 7
+est actionné par un moteur électrique. Il est principalement constitué d’un ensemble
+1 en liaison pivot par rapport au bâti 0. L’axe du moteur électrique est solidaire de la
+vis V qui engrène sur la roue R solidaire de la roue R’ qui entraîne l’ensemble 1.
+L’extrémité du câble actionnant le frein à disque du parallélogramme est fixée à
+l’ensemble 1 au point E. La rotation de 1 permet donc de mettre en tension le câble
+du frein à disque du parallélogramme. La pièce 2 est en liaison pivot avec l’ensemble
+1. Un ressort de torsion placé entre 1 et 2 permet d’imposer un couple noté
+ Cres2 = Cres2 z0 sur 2. La pièce 2 est en liaison sphérique au point C avec la bielle 3.
+La bielle 3 est en liaison sphérique au point D avec le piston 4 du maître cylindre
+dont le schéma de principe est présenté Document 8. Le maître cylindre permet
+d’actionner les verrous hydrauliques des deux bras de suspension avant.
+
+
+
+
+                                          T13/20
+
+
+
+                                                                   TOURNEZ LA PAGE S.V.P.
+
+
+===== page 14 =====
+     Question 12. On supposera qu’en position verrouillée :
+                   32 = (x 2 , x 3 ) = (y 2 , y 3 ) = 30° et                           .
+     Les actions du ressort du maître cylindre ainsi que les actions dues à la
+     pression arrière P1 seront négligées.
+     Déterminer alors le couple                        à imposer par le ressort de torsion sur 2 pour
+     verrouiller les deux bras de suspension en fonction de P2 et des données
+     géométriques. Justifier votre réponse en détaillant les théorème(s) et
+     isolement(s) utilisés.
+
+Lors du verrouillage des verrous hydrauliques, la course C4 du piston 4 du maître
+cylindre est de 6 mm. On considère que cela entraîne un débattement angulaire
+maximum de la pièce 2,  20,MAX = 6° .
+
+La Figure 8 montre un relevé expérimental de l’effort de tension dans le câble noté F
+en fonction de l’angle    lorsque l’on actionne le frein à disque. F est mesuré au
+point E du Document 7. La résultante des actions du câble en E est : Fcab 1 = F x1 .
+Pour assurer le blocage du parallélogramme d'inclinaison, la tension dans le câble
+doit être égale à 200 N.
+
+
+
+
+                 300
+
+
+
+                 200
+
+
+
+                 100
+
+
+
+                   0      2    4    6    8    10   12 14    16   18
+             Figure 8 : Tension dans le câble F en fonction de l’angle
+
+     Question 13. Relever la valeur        à imposer à la pièce 1 pour obtenir l'effort
+     de tension de verrouillage. Déduire alors des questions précédentes
+     l’expression de la raideur du ressort de torsion notée KRes (en N.m.deg-1) qui
+     permettra d’imposer la pression P2. Faire l’application numérique.
+
+
+
+
+                                             T14/20
+
+
+===== page 15 =====
+On s’intéresse à la transmission de puissance entre le moteur et les pièces 1 et 2. Le
+rapport de réduction du système roue et vis sans fin vaut 180 ; le système roue et vis
+sans fin est irréversible, son rendement est         . Les frottements sont supposés
+négligeables dans tous les autres éléments de transmission et les liaisons sont
+supposées parfaites. La roue R a ZR=180 dents et la vis V comporte ZV=1 filet. Les
+roues R’ et 1 ont respectivement ZR’=20 dents et Z1=140 dents.
+
+     Question 14. Déterminer l’expression du couple noté              à exercer par le
+     moteur sur la vis V en fin de verrouillage en fonction de        , F, ZR, ZR’, Z1, ZV,
+        et des données géométriques utiles.
+
+     Question 15. A quel critère de la fonction FT1 du cahier des charges, le
+     système roue et vis sans fin permet-il de répondre ?
+
+Les désignations normalisées des matériaux utilisés pour le système roue et vis sans
+fin sont :
+    • Pour la roue R : Cu Sn 12 Zn 1 P
+    • Pour la vis V : 42 Cr Mo 4
+
+     Question 16. Donner la signification de ces deux désignations normalisées et
+     justifier le choix de ces deux matériaux.
+
+
+
+
+Vérification de la loi de commande du moteur durant la phase de verrouillage.
+
+La loi de commande du moteur est une loi de commande en vitesse donnée
+Figure 9, la vitesse ˙m est tracée en fonction du temps t.
+
+
+
+
+                 0                                                       t
+
+            Figure 9 : Loi de commande en vitesse du moteur électrique
+
+
+
+                                       T15/20
+
+
+
+                                                                 TOURNEZ LA PAGE S.V.P.
+
+
+===== page 16 =====
+     Question 17. On considère par sécurité que le traitement des informations et
+     l’élaboration des ordres par le calculateur peuvent prendre jusqu’à une
+     seconde. Déterminer l’expression analytique de la vitesse de rotation minimum
+     du moteur notée        en fonction de Tf , 10,MAX , ZR, ZR’, Z1 et ZV. Déterminer les
+     valeurs numériques de Tf et de          qui respectent le cahier des charges.
+     D’après les valeurs de          et de         déterminé à la question 14, conclure
+     quant à la capacité du moteur électrique choisi Document 9 à respecter le
+     cahier des charges.
+
+
+
+Détermination de la puissance électrique consommée par le dispositif de
+verrouillage.
+
+Dans les questions suivantes on cherche à déterminer la puissance Pm  délivrée par
+le moteur dans le but de vérifier le critère du cahier des charges. Afin de simplifier
+l’étude, nous ferons les hypothèses simplificatrices suivantes :
+    • L’effort de tension dans le câble est considéré comme une fonction linéaire de
+       l’angle    : Fcab 1 = F x1 = K cab10 x1
+    • Le temps nécessaire à la phase de translation du piston 4 sans élévation
+       notable de la pression P2 est négligé, de sorte que l’on considérera le couple
+       appliqué par le ressort de torsion sur 1 : Cres1 = K res10 z0 .
+On étudie le système de solides E = {Vis V, roue R, pièce 1} dans son mouvement
+par rapport au référentiel lié à 0, supposé galiléen.
+
+     Question 18. En isolant l’ensemble E déterminer la puissance des efforts
+     extérieurs sur E, notée PExt  .
+
+     Question 19. Donner l’expression de la puissance PInt des efforts intérieurs à
+     l’ensemble E en fonction de la puissance délivrée par le moteur Pm  , et du
+     rendement du système roue et vis sans fin   .
+
+On donne les moments d’inertie projetés sur les axes de rotation respectifs:
+   • Vis V : IV = 2.10-5 kg.m2
+   • Roue R : IR = 2.10-5 kg.m2
+   • Pièce 1 : I1 = 1,5.10-5 kg.m2
+
+     Question 20. Déterminer l’expression littérale de l’énergie cinétique E c ( /0) de
+     l’ensemble E en fonction de l’angle de rotation du moteur             et de ses
+     dérivées successives.
+
+     Question 21. En détaillant l’expression littérale de Ceq et Ieq, montrer que l’on
+     obtient l’équation suivante :
+                                 RV Pm   Ceq m˙m = Ieq˙m˙˙m
+
+                                         T16/20
+
+
+===== page 17 =====
+On trace sur la Figure 10 l’évolution de la puissance délivrée par le moteur Pm  en
+fonction du temps t.
+           Pm ε (W )
+
+                 35
+
+
+                 30
+
+
+                  25
+
+
+                  20
+
+
+                  15
+
+
+                  10
+
+
+                   5
+
+                   0
+                       0 0,1 0,2 0,3 0,4 0,5 0,6 0,7 0,8 0,9 1 1,1 1,2 1,3 1,4 1,5 1,6 1,7 1,8 1,9 2   t (s)
+        Figure 10 : Evolution de la puissance moteur en fonction du temps t.
+
+     Question 22. Déterminer la valeur de la puissance électrique maximum
+     consommée par le moteur (Document 9) à partir du graphique fourni
+     Figure 10. Conclure quant à la compatibilité et la vérification des critères du
+     cahier des charges.
+
+
+
+Sous-partie 2.2 : Conception du dispositif de verrouillage
+On s’intéresse ici à la conception du dispositif de verrouillage. L’étude se limitera au
+boîtier de transmission de puissance comprenant le pignon R, l’arbre 1, la pièce 2 et
+le ressort de torsion (Document 7 et Document 12). Le moteur électrique et le
+système roue et vis sans fin sont intégrés dans un autre module (pas étudié dans
+cette partie du sujet). Le diagramme FAST (donné Document 10 et Document 11)
+spécifie les principales fonctions à réaliser lors de la conception de ce module.
+
+On s’intéresse à la fonction FT172 du diagramme FAST du Document 10. Le
+constructeur décide de réaliser ce guidage en rotation par l’association de deux
+roulements à billes à contact radial. La durée de vie de ces deux éléments doit être
+de 100 heures. Le schéma d’architecture de la liaison pivot est donné Document 12.
+Les torseurs d’actions mécaniques transmissibles par les deux liaisons élémentaires
+réalisées par les deux roulements à bille en R1 et R2, exprimés au point R1 et R2
+sont respectivement :
+                      75 x + 700 y  50 z                       300 x + 300 y 
+          {T R112} =      0        0      0
+                                               et {T R 2 12 } =       0       0
+                                                                                   
+                               0              R1                        0       R2
+                               unités : en Newton (résultante) et en Newton.mètre (moment).
+
+
+
+                                                       T17/20
+
+
+
+                                                                                            TOURNEZ LA PAGE S.V.P.
+
+
+===== page 18 =====
+     Question 23. Déterminer les dimensions minimales du roulement situé en R2
+     pour respecter la durée de vie parmi les roulements donnés Document 14. On
+     supposera que la vitesse de rotation relative entre 2 et 1 est d’environ 1 tour par
+     minute.
+
+     Question 24. Expliquer par un organigramme la démarche qui permet de
+     choisir les dimensions du roulement situé en R1.
+
+On s’intéresse à la fonction FT16 du diagramme FAST du Document 10 permettant
+de définir la liaison entre l’arbre 1 et le levier. Le levier permet de mettre en tension le
+câble du frein à disque du parallélogramme d'inclinaison étudié précédemment. Un
+dessin de définition partiel du levier est fourni Document 13 (on ne donne que la
+cotation de surfaces fonctionnelles intervenant dans la fonction FT16).
+
+     Question 25. Donner la signification de la tolérance spécifiée sur le
+     Document 13 :
+                                                             +0,070
+
+                                              où : 6D10= 6   +0,030
+
+     Justifier succinctement cette spécification.
+
+Le constructeur a choisi un mode de lubrification à la graisse avec un graissage au
+montage et à chaque révision d’entretien.
+
+     Question 26. Compléter le tableau du document réponse : on mettra une
+     croix lorsque la solution technique est adaptée au critère proposé. En déduire
+     un mode d’étanchéité convenable pour les parties du mécanisme en
+     mouvement répondant à la fonction FC21.
+
+     Question 27. Proposer une solution sur le calque réponse respectant le cahier
+     des charges défini ci-après :
+
+Dans cette partie du sujet, il est demandé de définir une partie du dispositif de
+verrouillage étudié précédemment. L’étude se limitera au boîtier de transmission de
+puissance comprenant le pignon R, l’arbre 1 la pièce 2 et le ressort de torsion
+(Document 12). La solution est à dessiner sur le calque réponse. Les éléments
+préimprimés sur le calque sont destinés à faciliter la mise en place des différents
+composants. Le candidat trouvera sur le calque préimprimé, dont la mise en page est
+donnée Figure 11, les éléments suivants :
+   • Position de l’axe des pièces 1 et 2.
+   • Le pignon de l’arbre R’ et le secteur denté de 1 engrenant avec R’. (ce secteur
+       n’est denté que sur 25°)
+   • L’extrémité de l’arbre de sortie du module précédent (moteur/roue et vis sans
+       fin).
+   • La position du levier permettant la liaison avec le câble du frein à disque.
+   • L’encombrement maximum du carter permettant son intégration dans le
+       carénage.
+Les différentes solutions constructives à dessiner sont spécifiées dans le
+diagramme FAST fourni Document 10 et Document 11.
+
+                                          T18/20
+
+
+===== page 19 =====
+Consignes spécifiques aux travaux graphiques
+
+Le dessin est à exécuter à l’échelle 1:1, aux instruments, avec pour l’essentiel, mise
+au net au crayon respectant les épaisseurs de traits normalisées et les exigences
+d’une bonne lisibilité ; seuls les axes et les écritures seront tracés à l’encre noire. Les
+tracés de couleur ne sont pas admis. Les normes AFNOR seront respectées.
+Les principales conditions fonctionnelles relatives aux liaisons représentées seront
+clairement indiquées en respectant les règles normalisées AFNOR.
+Les éléments normalisés utilisés par le candidat autres que ceux fournis dans le
+sujet, seront dessinés approximativement en respectant au mieux leurs proportions.
+
+Travail à réaliser
+
+Afin de faciliter les réparations et de limiter les coûts de production et d’entretien, le
+constructeur s’oriente vers un dispositif en deux modules :
+    • Un module contenant le moteur électrique et le système roue et vis sans fin,
+       appelé module moteur; il assurera la liaison avec le châssis du scooter. Cette
+       partie n’est pas à concevoir.
+    • Un module contenant les éléments de transmission de puissance du
+       Document 7 étudiés précédemment et dont un schéma d’architecture est
+       proposé Document 12. C’est la partie à concevoir.
+
+Il vous est demandé de dessiner aux instruments vos propositions de solution
+spécifiées dans le diagramme FAST fourni Document 10 et Document 11:
+    • La liaison encastrement démontable avec le module moteur (solution associée
+       à FT11).
+    • L’accouplement entre l’arbre de sortie du module moteur avec l’arbre
+       supportant R’ (solution associée à FT12).
+    • La liaison pivot entre l’arbre supportant R’ et le carter (solution associée à
+       FT13).
+    • La liaison encastrement démontable entre le secteur denté de 1 et l’arbre 1
+       (solution associée à FT14).
+    • La liaison pivot entre l’arbre 1 et le carter (solution associée à FT15).
+    • La liaison encastrement démontable entre l’arbre 1 et le levier permettant la
+       liaison avec le câble du frein à disque (solution associée à FT16).
+    • La liaison entre le ressort de torsion et les pièces 1 et 2 permettant la
+       transmission des efforts utiles au fonctionnement uniquement (solution
+       associée à FT171).
+    • La liaison pivot entre la pièce 2 et l’arbre 1 (solution associée à FT172).
+    • Les éléments et les formes du carter permettant de minimiser l’encombrement
+       et la masse.
+    • Les formes des pièces 1 et 2 permettant d’assurer le bon fonctionnement.
+    • Tout élément supplémentaire nécessaire au fonctionnement.
+
+Il est demandé de définir des formes permettant un montage et un démontage aisé
+des pièces du système de transmission. Le constructeur souhaite privilégier une
+standardisation des pièces afin de pouvoir assurer rapidement leur remplacement.
+
+                                         T19/20
+
+
+
+                                                                  TOURNEZ LA PAGE S.V.P.
+
+
+===== page 20 =====
+NB : Ne sont pas à représenter sur le dessin :
+  - la liaison sphérique entre la pièce 2 et la bielle 3 (solution associée à FT173)
+  - la bielle 3
+  - l’ouverture dans le carter permettant le passage de la bielle 3
+
+
+Mise en page du calque préimprimé fourni.
+
+                                          Levier
+
+
+
+
+               Emcombrement maxi
+
+
+
+
+                 R'                   Secteur denté
+
+
+
+                                   Arbre cannelé moteur
+
+                                     Carter module moteur
+                 Figure 11 : mise en page du calque A4 préimprimé
+
+
+
+
+                                    FIN DE L'EPREUVE.
+
+
+
+
+                                         T20/20
+
+
+===== page 21 =====
+                                                                10PT26
+              Vue d’ensemble du train avant
+
+
+                                              Frein à
+                                              disque du
+Colonne C4                                    parallélogramme
+
+                                               Bras B1
+ Châssis
+ tubulaire                                     Colonne C3
+
+Verrou
+hydraulique
+                                              Bras B2
+
+
+
+Bras de
+suspension
+
+
+
+
+                                              Document 1
+
+
+===== page 22 =====
+[OCR] Z juawino0q
+
+jewyujw anbyyewauls ewgy9g de asieep! aapow
+
+x
+
+uosieuljoul,.p awweibojaljeied
+
+
+
+===== page 23 =====
+[OCR] ¢ Juawino0q
+
+£10 4
+a- | p Yy
+a- | p- *y
+a|p ay
+a | p- y
+0 | 0 ian)
+z «
+
+£4 auuojoa
+
+
+
+===== page 24 =====
+[OCR] p Juswino0q
+
+€ JuowebieyD Z juowebieyo | Juswebieup
+
+Oo
+ZN se)
+
+ESN
+
+« 4 «
+
+Ta
+
+de gsilegPl a/Qpoy|
+
+9yjnod
+ayliduis a}gpoy
+
+soujeyUaWa|a S}UaWAabH1eY9d Je a1jnod ajapoi
+
+
+
+===== page 25 =====
+                 Bras de suspension : position non verrouillée et verrouillée
+                                               ressort de l’amortisseur non représenté
+       Suspension pour une roue du train avant                             Schéma équivalent en position verrouillée
+                     (Doc 5a)                                                             (Doc 5b)
+
+Liaison pivot glissant                                                 Colonne C3 ou C4
+avec verrou hydraulique
+                             N
+                                                                                                     N
+                                 13
+Roue                                                                                                      13
+               14                         10                             Roue                                  10
+
+                        12
+           M                                                                       M
+                                                                                              12
+                    O 11     P
+                                      Bras de suspension
+                                                                                          O        11 P    Bras de suspension
+
+                    I
+                                                                                          I
+
+
+
+
+                                      0    13         0   13
+                                 ( y , y ) = ( z , z ) =  = 30°013
+                                                                                                           Document 5
+
+
+===== page 26 =====
+[OCR] g yuawino0q
+
+pbsy = 10
+
+mugy="p | Bx’p = "Pr
+uuugg = "0 eg © 2 pe
+
+-y AG fd
+unos = “P
+
+wuge= 4 A= lag
+
+aiqeabi|\6eujso 20
+sayljdwe sjuawecejdap jo saWJojap
+
+(q9 90q) aytinose, (29 90q) ayIno.498A UON
+Ely
+te Kd anbyseja aspulA5 PL Nowe, abl) —
+Zz
+r.
+“a
+“6
+'t
+we
+d 'g
+
+AUO}siq § a\o1g
+
+Tb sdiog
+
+9]
+
+Zq aspul|AD Saye UOISSElq Zq aupuljAD auyew uoisselg
+
+anbijneipAy nous,
+
+
+
+===== page 27 =====
+      Mécanisme de transmission du dispositif de verrouillage
+
+                        2                                    AB = hz0                     r1 = 75mm
+           B                                                                               r2 = 60mm
+                                                             BC = r2 x 2
+                                                                                           Z R = 180
+                            C        3                       BE = e1 z0  r1 y1
+                                                                                           Z R' = 20
+                            D
+                                                                                           Z1 = 140
+                                                                                           ZV = 1
+                                         0
+                            4                        perspective
+                                                     ressort non
+                                                                               E
+                                                     représenté
+          B
+     2                            Ressort
+                                 de torsion                            B
+                                                                   2
+                                                                                           C
+                                 0                                                     3
+                                                                                   0
+R’
+           A
+                    1                                R’                                         moteur
+                                Vis axe moteur                     1       A
+          R
+                        V
+     Système roue – vis irréversible             R
+                                                                               V
+                                                                                           Document 7
+
+
+===== page 28 =====
+[OCR] g yuswino0q
+
+89||INOUBAQP UONISOd
+
+oe]
+
+v uoisig Le L
+
+0 aupul|Ao auyeyy
+
+0 pS
+
+wug =*D asinod
+UZ = a)
+
+Q9||INOUOA UOIISOd
+
+"qd UOISS8ld
+‘| auqueyo
+
+JJOAIESEJ siIndeq
+
+SOOO
+
+“d UOISSAld
+‘% aIQueyD
+
+'d UOISSAlq
+‘aiuleIPELUJE}U! GuquUeyD
+
+aspulfAD ae
+
+SNOMOA Z
+$9] SIO/\
+
+
+===== page 29 =====
+                      Performances du moteur Valeo MFD 351
+
+                  Tension d’alimentation : 13.5V
+                                                          Couple max en N.m                  0.69
+
+                                                    Rendement à N=1600 tr.min-1 du           0.50
+                                                    moteur (rapport de la puissance
+                                                   mécanique délivrée sur la puissance
+3000                                                    électrique consommée)
+                                                          Intensité à vide en A              2.5
+
+                                                       Intensité à 250 tr.min-1 en A         27.4
+2000
+                                                         Intensité à N= 0 tr.min-1           29.9
+
+                                                        Vitesse à vide en tr.min-1          3285
+1000
+                                                      Couple à 250 tr.min-1 en N.m           0.65
+
+
+  0    0,1 0,2   0,3 0,4 0,5 0,6 0,7 0,8 0,9
+
+
+
+
+                                                                                         Document 9
+
+
+===== page 30 =====
+                     Diagramme FAST du boitier de transmission (fonction FP1)
+FP1 : Transmettre et adapter   FT11 : S’adapter au module
+                                                                             S1:Centrage du moteur sur carter + visserie
+la puissance aux récepteurs    moteur
+
+                               FT12 : Transmettre la
+                                                                                         S2: Arbre cannelé
+                               puissance
+
+                                                                            S3: 2 roulements à billes à contact radial en R5 et
+                               FT13 : Guider l’arbre
+                                                                            R6 de dimensions au moins égales au roulement
+                               supportant le pignon R’
+                                                                                     SNR 62202 (voir Document 14)
+
+                                                                               S4: Secteur denté (sur 25°) de 1 en liaison
+                               FT14 : Transmettre la
+                                                                           encastrement démontable avec l’arbre 1 ––– pignon
+                               puissance à l’arbre 1
+                                                                                                arbré R’
+
+
+
+                               FT15 : Guider l’arbre 1 en                       S5: 2 roulements à billes à contact radial de
+                               rotation par rapport au carter                   dimensions au moins égales au roulements
+                                                                               SNR 62202 pour R3 et R4 (voir Document 14)
+
+
+
+                               FT16 : Transmettre la
+                                                                             S6 : Liaison encastrement démontable par clavette
+                               puissance au levier
+
+                               FT17 : Transmettre la            FT171 : transmettre un couple                    S7 : Ressort de torsion
+                               puissance à la pièce 2           à la pièce 2                                      ( voir Document 15)
+
+                                                                                                             S8 : 2 roulements à billes
+                                                                                                             à contact radial de dimen
+                                                                FT172 : Guider la pièce 2 en                  -sions au moins égales
+                                                                rotation par rapport à l’arbre 1             au roulement SNR 62202
+                                                                                                                 pour R1 et R2 (voir
+                                                                                                                   Document 14)
+
+                                                                FT173 : Transmettre la
+                                                                                                                 S9 : Liaison sphérique
+                                                                puissance aux biellettes du
+                                                                                                                     avec la bielle 3
+                                                                maître cylindre
+
+                                                                                                                 Document 10
+
+
+===== page 31 =====
+                 Diagramme FAST du boitier de transmission (fonction FC2)
+
+
+
+
+FC2 : Résister au milieu    FC21 : Réaliser l’étanchéité
+                                                           S10 : A définir question 26
+ambiant                     avec le milieu ambiant
+
+                            FC22 : Adapter les matériaux   S11 : Carter moulé en alliage
+                                                                   d’aluminium
+
+
+
+
+                                                                              Document 11
+
+
+===== page 32 =====
+[OCR] Z} Juswino0qg
+
+€ ( gquep
+q ¢ 4najo—as)
+¥
+
+(49149}) |
+
+a6e]]INOW9A ap JI}ISOdSIP Np 31n}o9}IyYOIe,p EUIBYIS
+
+
+
+===== page 33 =====
+[OCR] €} Juewins0og
+
+L:% a]leyo3
+
+Mt
+@v|@vo0]=] o1ag
+[v}
+
+8H8lLe@
+
+JBIAZ] Np aIJaIj4ed uoIVe}09D
+
+
+
+===== page 34 =====
+Roulements à contact radial à une rangée de billes SNR
+               (Extraits du catalogue)
+
+
+
+
+                                                  Document 14
+
+
+===== page 35 =====
+[OCR] S| Juawino0q
+
+008] : enuajed UOHes!|I}N
+
+ww gg pa
+ww 0g 01
+ww gg s1
+ww g p
+wi OL Ta)
+ww og eq
+
+sonus}ei SucIsUaLUIp
+
+(anBoyezeo saide,p) nuajes ossay
+
+
+
+===== page 36 =====
+                  Tableau récapitulatif des grandeurs utilisées
+
+Géométrie
+Longueur d’une la poutre Pi                             L
+Largeur d’une la poutre Pi                              b
+Hauteur d’une la poutre Pi                              h
+Angle d’inclinaison de la pièce 13                       013 = 30°
+Longueur de la bielle B                                 lB = 30mm
+Angle de verrouillage de la bielle B                      0 rad
+Angle d’inclinaison du véhicule                         i
+Distance entre les deux points de contact du cylindre   dT = 50mm
+é
+Diamètre du piston du verrou hydraulique                C = 30mm
+Diamètre de la tige du piston du verrou hydraulique      P = 15mm
+Course du piston 4 du maitre cylindre                   C4 = 6mm
+Bras de levier du levier 1                              r1 = 75mm
+Bras de levier du levier 2                              r2 = 60mm
+Nombre de dent de la roue R                             ZR=180
+Nombre de dent de la roue R’                            ZR’=20
+Nombre de dent équivalent de la roue 1                  Z1=140
+Nombre de filet de la vis V                             Zv=1
+Diamètre du maitre cylindre                              MC = 20mm
+Angle de rotation maximal de la pièce 2                 20,MAX = 6°
+Pression du maitre cylindre (chambre 2)                 P2
+Pression du maître cylindre (chambre 1)                 P1
+Pression atmosphérique                                  Patm
+Tension du câble                                        F
+                                                                                               
+Action de la suspension sur C3                                                   P x + Qy + Rz 
+                                                        { TSuspension C 3 } =  L x + M y + N z
+                                                                                                       BC 3
+
+Données matériaux
+Module d’Young de la poutre Pi                          E
+Coefficient de frottement entre Cy et 14                f=0,3
+
+
+Quantités dynamiques
+Inertie (Moteur + vis )                                 IV=2.10-5 kg.m2
+Inertie roue R et roue R’                               IR=2.10-5 kg.m2
+Inertie pièce 1                                         I1=1,5.10-5 kg.m2
+Rendement du système roue et vis sans fin               RV=0,4
+Rendement du moteur électrique                          0,5
+
+
+
+
+                                                                                     DOCUMENT 16
+
+
+===== page 37 =====
+Document Reponse ENSAM 210x350                         2009:Document Reponse ENSAM 210x350               2009    22/01/09     8:54     Page 1
+
+
+
+
+                                      Académie :                                                     Session :                                                     Modèle EN.
+                                      Examen ou Concours                                                                                 Série* :
+                                      Spécialité/option :                                                                  Repère de l’épreuve :
+  DANS CE CADRE
+
+
+
+
+                                      Épreuve/sous-épreuve :
+                                      NOM :
+                                      (en majuscules, suivi s’il y a lieu, du nom d’épouse)
+                                      Prénoms :                                                                          N° du candidat
+                                      Né(e) le :                                                                                               (le numéro est celui qui figure sur la
+                                                                                                                                                  convocation ou la liste d’appel)
+
+
+                                      Examen ou concours :                                                               Série* :
+  NE RIEN ÉCRIRE
+
+
+
+
+                                                                                                                                                            Numérotez chaque
+                                      Spécialité/option :                                                                                                   page (dans le cadre
+                                                                                                                                                            en bas de la page) et
+                                      Repère de l’épreuve :                                                                                                 placez les feuilles
+                                                                                                                                                            intercalaires dans le
+                                      Épreuve/sous-épreuve :                                                                                                bon sens
+                                      (Préciser, s’il y a lieu, le sujet choisi)
+
+                                      Note :                      Appréciation du correcteur (uniquement s’il s’agit d’un examen) :
+
+                                                            20
+
+
+
+
+                                      * Uniquement s’il s’agit d’un examen.
+
+
+
+
+                                                                                                                                                                     10PT26
+
+
+
+
+                   Réponse 1
+                   Hyperstatisme :
+
+                   Commentaires :
+
+
+
+                   Réponse 2
+                   Possibilité de résoudre :
+
+
+                   Justification :
+
+
+                   Réponse 3
+
+                   30NiCr11                                                                      EN AC-43100 (AlSi10Mg)
+                   signification :                                                               signification :
+
+
+
+                   valeur module d’Young :                                                       valeur module d’Young :
+
+
+
+                                                                                                 mode d’obtention :
+
+
+
+
+                                                                                              R1/8                          TOURNEZ LA PAGE S.V.P.
+
+                           Il est interdit aux candidats de signer leur composition ou d’y mettre un signe quelconque pouvant indiquer sa provenance.
+
+
+===== page 38 =====
+Document Reponse ENSAM 210x350   2009:Document Reponse ENSAM 210x350   2009    22/01/09   8:54    Page 2
+
+
+
+
+                                      NE RIEN ÉCRIRE                          DANS LA PARTIE BARRÉE
+
+
+
+
+      Réponse 4
+                        Rx (x) =                                  M x (x) =
+                        Ry (x) =                                  M y (x) =
+                        Rz (x) =                                  M z (x) =
+      nature de la sollicitation :
+
+      X i =                                     kX i =
+
+
+      Réponse 5        Rx (x) =                                   M x (x) =
+                       Ry (x) =                                   M y (x) =
+                       Rz (x) =                                   M z (x) =
+      nature de la sollicitation :
+
+      Yi =                                      kYi =                                           IZ =
+
+
+
+
+      Réponse 6
+
+      Bilan des actions mécaniques :
+
+
+
+
+                                                           R2/8
+
+
+===== page 39 =====
+Document Reponse ENSAM 210x350   2009:Document Reponse ENSAM 210x350     2009    22/01/09    8:54   Page 2
+
+
+
+
+                                      NE RIEN ÉCRIRE                            DANS LA PARTIE BARRÉE
+
+
+
+
+      Réponse 7         Théorème de la résultante statique :
+
+      projection sur x
+
+      projection sur y
+
+
+      projection sur z
+
+
+         u=                                   v=                                        w=
+
+
+
+
+                                                                                   Application numérique donnée :
+                                                                       u = 1,19.105 m v = 1,20.104 m w = 1,32.105 m
+
+
+      Réponse 8
+      conformité par rapport à FS1 :
+
+
+
+
+      Réponse 9
+
+      Démarche :
+
+
+
+
+                                                           R3/8                             TOURNEZ LA PAGE S.V.P.
+
+
+===== page 40 =====
+Document Reponse ENSAM 210x350   2009:Document Reponse ENSAM 210x350       2009    22/01/09   8:54   Page 2
+
+
+
+
+                                      NE RIEN ÉCRIRE                              DANS LA PARTIE BARRÉE
+
+
+
+
+      Réponse 10
+
+
+             {T J 'Cy 14 } =
+                 1
+                                                                  {T J 'Cy 14 } =
+                                                                       2
+
+
+
+
+      Réponse 11
+
+      RP B . x13 =
+
+      Isolements et théorèmes utilisés :
+
+
+      P2 =
+                                                                                        Application numérique donnée :
+                                                                                                          P2= 60 bar
+
+      Réponse 12
+
+     Cres2 =
+
+
+
+      Isolements et théorèmes utilisés :
+                                                                                        Application numérique donnée :
+                                                                                                       Cres2 = 126 N. m
+
+
+      Réponse 13
+
+      10,MAX =
+
+      KRes =
+
+      Application numérique :        KRes =
+
+
+      Réponse 14
+      Cm,MAX =
+
+                                                                                   Application numérique donnée :
+                                                                                                Cm,MAX = 0,28 N.m
+
+
+      Réponse 15
+      critère:
+
+
+                                                           R4/8
+
+
+===== page 41 =====
+Document Reponse ENSAM 210x350   2009:Document Reponse ENSAM 210x350   2009    22/01/09    8:54   Page 2
+
+
+
+
+                                      NE RIEN ÉCRIRE                          DANS LA PARTIE BARRÉE
+
+
+
+
+      Réponse 16
+
+      Cu Sn 12 Zn 1 P :
+
+
+
+      42 Cr Mo 4 :
+
+
+
+      justification :
+
+
+
+      Réponse 17
+
+      ˙m,MIN =
+
+      Application numérique : Tf =                                                  ˙m,MIN =
+
+      conclusion :
+
+
+      Réponse 18
+
+      Puissance des efforts extérieurs :
+       PExt  =
+
+
+
+
+      Réponse 19
+
+      Puissance des efforts intérieurs :
+       PInt =
+
+
+
+
+      Réponse 20
+      Energie cinétique :
+       E c ( /0) =
+
+
+
+
+                                                           R5/8                           TOURNEZ LA PAGE S.V.P.
+
+
+===== page 42 =====
+[OCR] Document Reponse ENSAM 210x350 2009:Document Reponse ENSAM 240x350 2009 22/01/09 8:54 Page 2
+
+Réponse 22
+
+Puissance électrique maximum consommeée :
+
+Conclusion :
+
+Réponse 23
+
+Dimensions minimales :
+
+Réponse 24
+
+Organigramme :
+
+R6/8
+
+
+
+===== page 43 =====
+Document Reponse ENSAM 210x350                    2009:Document Reponse ENSAM 210x350      2009    22/01/09    8:54   Page 2
+
+
+
+
+                                                       NE RIEN ÉCRIRE                             DANS LA PARTIE BARRÉE
+
+
+
+
+      Réponse 25
+                                                                                           Croquis :
+      Explication
+      Dénomination de la tolérance :
+
+
+      Elément tolérancé :
+
+
+      Elément de référence :
+
+
+      Référence spécifiée :
+
+
+      Zone de tolérance :
+
+
+      Justification :
+
+
+
+      Réponse 26
+                                                                Adaptée aux mouvements relatifs                        Adaptée aux
+
+
+
+                                                            Aucun         Translation        Rotation     Vitesses relatives       Pressions
+                                                                                                               élevées         relatives élevées
+                                                                                                               (>10m/s)           (>10 MPa)
+
+
+                                Chicanes - rainures
+
+
+
+                                Joint à lèvre radial
+
+
+
+                                   Joint torique
+           Solution technique
+
+
+
+
+                                 Joint quadrilobe
+
+
+
+                                     Joint plat
+
+
+
+                                   Joint V-Ring
+
+
+
+                                     Soufflet
+
+
+
+
+          Solution retenue :
+
+
+
+
+                                                                              R7/8                            TOURNEZ LA PAGE S.V.P.
+
+
+===== page 44 =====
+[OCR] Document Reponse ENSAM 210x350 2009:Document Reponse ENSAM 240x350 2009 22/01/09 8:54 Page 2
+
+R8/8
+
+
+
+===== page 45 =====
+[OCR] Académie :
+
+Session : Modéle EN.
+
+Examen ou Concours
+
+Série* :
+
+Spécialité/option :
+
+Repére de I’épreuve :
+
+Epreuve/sous-épreuve :
+
+w
+5
+
+S NOM :
+
+S Ten majuscules, suivi sly a lieu, du nom dépouse)
+
+8 Prénoms : N° du candidat
+
+g Né(e) le : Te numéro ox cael qu figure sr Ta
+4 convocation outa Tate cape)
+
+NE RIEN ECRIRE
+
+Encombrement maxi
+
+calque 10pt26.pf 1
+
+10PT26
+oO
+o|5
+n|2
+cjaq
+O|/2
+giz
+Sn — O18
+| Xlc
+| Sis
+| ols
+| ole
+oO
+| g
+— | oe
+—_ H fo
+| 2
+| ne)
+| 5
+| <
+|
+
+Echelle 1:1
+
+05/03/2010 075203
+
