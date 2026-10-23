@@ -200,7 +200,7 @@
   .qline-pill.qline-empty { background: var(--surface2); color: var(--text3); border: 1px dashed var(--border); text-shadow: none; }
   .qline-legend { display: flex; flex-wrap: wrap; gap: 8px 12px; margin-bottom: 4px; }
   .qline-legend-item { display: inline-flex; align-items: center; gap: 4px; font-size: 11px; color: var(--text2); }
-  .qline-dot { width: 8px; height: 8px; border-radius: 50%; flex-shrink: 0; }
+  .qline-dot { width: 10px; height: 10px; border-radius: 50%; flex-shrink: 0; }
 
   /* ── NOTEBOOK DRAWER ── */
   .nb-drawer {
@@ -529,9 +529,23 @@ function themeHash(name) {
   for (let i=0;i<name.length;i++) h = (h*31 + name.charCodeAt(i)) >>> 0;
   return h;
 }
+// Palette de la frise : 12 couleurs très distinctes, lisibles avec du texte blanc.
+// Elles sont attribuées dans chaque sujet aux thèmes présents (du plus fréquent au moins fréquent),
+// pour que deux thèmes d'une même frise n'aient jamais des couleurs voisines.
+const QLINE_COLORS = ['#1f6fb4','#e07b00','#2a9d3a','#d62728','#7e57c2','#0e8a9a','#c2378f','#8c564b','#6b8e23','#1a237e','#b8860b','#5f6b73'];
+let qlineMap = null;
 function themeColor(name) {
   if (!name) return '#9a9890';
-  return COLORS[themeHash(name) % COLORS.length];
+  if (qlineMap && qlineMap.has(name)) return qlineMap.get(name);
+  return QLINE_COLORS[themeHash(name) % QLINE_COLORS.length];
+}
+function makeQlineMap(items) {
+  const cnt = new Map();
+  items.forEach(it => it.themes.forEach(t => cnt.set(t, (cnt.get(t)||0) + 1)));
+  const order = [...cnt.keys()].sort((a,b) => (cnt.get(b)-cnt.get(a)) || a.localeCompare(b));
+  const m = new Map();
+  order.forEach((t,i) => m.set(t, i < QLINE_COLORS.length ? QLINE_COLORS[i] : `hsl(${(themeHash(t)%360)},55%,38%)`));
+  return {m, order};
 }
 function buildQuestionLine(doc) {
   const items = [];
@@ -539,7 +553,7 @@ function buildQuestionLine(doc) {
     const qnum = normalizeQnum(q.numero || '');
     const themesSet = new Set();
     (q.mots_cles||[]).forEach(mk => {
-      const {main} = parseTheme(mk.theme_sous_theme);
+      const {main} = parseTheme(mk.theme_sous_theme||mk.theme);
       if (main) themesSet.add(main);
     });
     items.push({qnum, themes: [...themesSet]});
@@ -549,18 +563,23 @@ function buildQuestionLine(doc) {
 function renderQuestionLine(doc) {
   const items = buildQuestionLine(doc);
   if (!items.length) return '<div style="padding:6px 0;color:var(--text3);font-size:12px">Aucune question indexée pour ce sujet.</div>';
-  const themesUsed = [...new Set(items.flatMap(it=>it.themes))];
+  const {m, order} = makeQlineMap(items);
+  qlineMap = m;
+  const themesUsed = order;
   const pills = items.map(it => {
     const shortNum = it.qnum.replace(/^Q\s*/,'');
     if (!it.themes.length) {
       return `<div class="qline-pill qline-empty" title="${esc(it.qnum)} — non classé">${shortNum}</div>`;
     }
     const colors = it.themes.map(themeColor);
-    const bg = colors.length===1 ? colors[0] : `linear-gradient(90deg, ${colors.join(',')})`;
+    // plusieurs thèmes : bandes nettes plutôt qu'un dégradé (les couleurs restent lisibles)
+    const step = 100 / colors.length;
+    const bg = colors.length===1 ? colors[0] : `linear-gradient(90deg, ${colors.map((c,i)=>`${c} ${(i*step).toFixed(1)}% ${((i+1)*step).toFixed(1)}%`).join(',')})`;
     const title = `${it.qnum} — ${it.themes.join(' + ')}`;
     return `<div class="qline-pill" style="background:${bg}" title="${title.replace(/"/g,'&quot;')}">${shortNum}</div>`;
   }).join('');
   const legend = themesUsed.map(t => `<span class="qline-legend-item"><span class="qline-dot" style="background:${themeColor(t)}"></span>${t}</span>`).join('');
+  qlineMap = null;
   return `<div class="qline-strip">${pills}</div><div class="qline-legend">${legend}</div>`;
 }
 
@@ -568,7 +587,7 @@ function renderQuestionLine(doc) {
 function buildThemeList() {
   const docs=getFilteredDocs(), counts={}, themeDocSets={};
   docs.forEach(d=>d.parties.forEach(p=>p.questions.forEach(q=>(q.mots_cles||[]).forEach(mk=>{
-    const {main}=parseTheme(mk.theme_sous_theme); if(!main) return;
+    const {main}=parseTheme(mk.theme_sous_theme||mk.theme); if(!main) return;
     counts[main]=(counts[main]||0)+1;
     if(!themeDocSets[main]) themeDocSets[main]=new Set();
     themeDocSets[main].add(d.label);
@@ -670,7 +689,7 @@ function showMulti(){
     doc.parties.forEach(p=>p.questions.forEach(q=>{
       const qnum=normalizeQnum(q.numero||'');
       (q.mots_cles||[]).forEach(mk=>{
-        const{main,sub}=parseTheme(mk.theme_sous_theme);if(!themeMap[main])return;
+        const{main,sub}=parseTheme(mk.theme_sous_theme||mk.theme);if(!themeMap[main])return;
         const s=sub||'(général)';
         if(!themeMap[main][s])themeMap[main][s]=[];
         if(!themeMap[main][s].includes(qnum))themeMap[main][s].push(qnum);
@@ -774,7 +793,7 @@ function showTheme(theme){
     doc.parties.forEach(p=>p.questions.forEach(q=>{
       const qnum=normalizeQnum(q.numero||'');
       (q.mots_cles||[]).forEach(mk=>{
-        const{main,sub}=parseTheme(mk.theme_sous_theme);if(main!==theme)return;
+        const{main,sub}=parseTheme(mk.theme_sous_theme||mk.theme);if(main!==theme)return;
         const s=sub||'(général)';
         if(!subMap[s])subMap[s]=[];
         if(!subMap[s].includes(qnum))subMap[s].push(qnum);
